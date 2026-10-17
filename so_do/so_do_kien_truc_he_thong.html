@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kiến trúc hệ thống PCCC</title>
+<style>
+:root{--bg:#f5f4ef;--card:#fff;--ink:#1d1d1b;--mute:#6b6a64;--line:#d8d6cc;--accent:#c8501a;
+--co:#1f8a5b;--mot:#d08a12;--chua:#9a9890;--code:#f0eee6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b19;--card:#262623;--ink:#ecebe4;--mute:#a3a197;--line:#3a3934;--code:#2f2e2a;--chua:#77756d}}
+:root[data-theme="dark"]{--bg:#1b1b19;--card:#262623;--ink:#ecebe4;--mute:#a3a197;--line:#3a3934;--code:#2f2e2a;--chua:#77756d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 Arial,Helvetica,sans-serif}
+main{max-width:1280px;margin:auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:17px;margin:28px 0 10px}
+.sub{color:var(--mute);margin:0 0 12px}
+.bar{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:2;border-bottom:1px solid var(--line)}
+.bar button{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;padding:3px 10px;cursor:pointer}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;vertical-align:middle;margin-right:5px}
+.d-co{background:var(--co)}.d-mot-phan{background:var(--mot)}.d-chua{background:transparent;border:2px dashed var(--chua)}
+.layer{border-left:5px solid var(--lc);background:color-mix(in srgb,var(--lc) 6%,var(--bg));border-radius:8px;padding:10px 12px 12px;margin:10px 0}
+.layer>header{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;margin-bottom:8px}
+.layer>header b{font-size:15px}.layer>header span{color:var(--mute);font-size:12.5px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px;cursor:pointer;transition:opacity .15s}
+.card.st-chua{border-style:dashed}
+.card h3{font-size:13.5px;margin:0 0 3px;display:flex;align-items:center;gap:2px}
+.card code{display:block;font:11.5px/1.35 Consolas,monospace;background:var(--code);padding:2px 5px;border-radius:4px;margin:2px 0 5px;word-break:break-all}
+.card ul{margin:0;padding-left:16px;font-size:12.5px}.card li{margin:1px 0}
+.tag{font-size:11px;color:var(--mute);margin-left:auto;white-space:nowrap}
+.dieu{font-size:12px;margin:0 0 4px;color:var(--lc,#2f6db5);font-weight:bold}
+.from{font-size:11.5px;color:var(--mot);margin:5px 0 0}
+body.focus .card{opacity:.22}body.focus .card.on,body.focus .card.rel{opacity:1}
+.card.on{outline:3px solid var(--accent)}.card.rel{outline:2px dashed var(--accent)}
+ol.flow{padding-left:0;list-style:none;counter-reset:s;margin:0}
+ol.flow li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px 10px 7px 42px;margin:6px 0;position:relative;cursor:pointer}
+ol.flow li::before{content:counter(s);position:absolute;left:10px;top:7px;width:22px;height:22px;border-radius:50%;background:var(--accent);color:#fff;text-align:center;font-weight:bold;line-height:22px}
+ol.flow li.on{outline:2px solid var(--accent)}
+.flow small{color:var(--mute)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px;font:12.5px/1.4 Consolas,monospace;overflow:auto}
+table{border-collapse:collapse;width:100%;background:var(--card);font-size:12.5px}
+td,th{border:1px solid var(--line);padding:4px 7px;text-align:left;vertical-align:top}
+th{background:var(--code)}
+.note{background:var(--card);border-left:4px solid var(--mot);padding:8px 12px;border-radius:6px;font-size:13px}
+@media (max-width:600px){.grid{grid-template-columns:1fr}}
+</style></head><body>
+<main>
+<h1>Hệ thống kiểm tra bản vẽ thiết kế PCCC – kiến trúc theo Claude Code</h1>
+<p class="sub">Gốc dự án: <b>pccc-checker/</b>. Mỗi ô = 1 module = 1 file/thư mục, sửa độc lập. Bấm vào ô để xem các module liên quan; bấm vào bước trong "Luồng xử lý" để xem module tham gia.</p>
+<div class="bar" id="bar"></div>
+
+<div id="layers"></div>
+
+<h2>Luồng xử lý chính – /check-pccc</h2>
+<ol class="flow" id="flow"></ol>
+
+<h2>Vòng train – nạp kiến thức mới (như cách đã làm với 3.2.8, 3.3.5, 4.5)</h2>
+<ol class="flow" id="train"></ol>
+
+<h2>Cây thư mục đích (sinh tự động từ đường dẫn các module)</h2>
+<pre id="tree"></pre>
+
+<h2>Chuyển file hiện có vào đúng module</h2>
+<table id="move"><thead><tr><th>Module</th><th>Đường dẫn đích</th><th>Nguồn hiện có</th></tr></thead><tbody></tbody></table>
+
+<h2>Điểm cần chốt</h2>
+<div class="note" id="todo"></div>
+</main>
+
+<script>
+/* ======================================================================
+   DỮ LIỆU – SỬA Ở ĐÂY. Mỗi object trong MODULES là 1 module.
+   st: "co" (đã có) | "mot-phan" (có nội dung, cần chuyển/bổ sung) | "chua" (chưa làm)
+   links: id các module liên quan (tự động hai chiều)
+   from: file hiện có sẽ chuyển vào module này (để trống nếu không có)
+   dieu: điều khoản QCVN 06:2022 + SĐ1:2023 (tra từ docs/regulations/, PL = phụ lục)
+   ====================================================================== */
+const LAYERS = [
+ {id:"core",  name:"0. Lõi Claude Code", hint:"luôn được nạp mỗi phiên – nguyên tắc chung", c:"#1f3a5f"},
+ {id:"hook",  name:"1. Hooks", hint:".claude/settings.json → hooks; script trong .claude/hooks/ – máy tự chạy, không phụ thuộc trí nhớ", c:"#7a2e8f"},
+ {id:"cmd",   name:"2. Commands (lệnh /)", hint:".claude/commands/*.md – điểm vào cho người dùng", c:"#b0451c"},
+ {id:"agent", name:"3. Agents (subagent)", hint:".claude/agents/*.md – mỗi agent 1 việc, model riêng, trả tóm tắt ngắn", c:"#c8741a"},
+ {id:"skill", name:"4. Skills chuyên đề", hint:".claude/skills/<tên>/SKILL.md – phương pháp kiểm tra từng chuyên đề", c:"#1f8a5b"},
+ {id:"kn",    name:"5. Knowledge (tri thức)", hint:"nguyên văn quy chuẩn, định nghĩa, hình, luật số hoá, ca mẫu", c:"#2f6db5"},
+ {id:"code",  name:"6. Code & scripts", hint:"Python – việc cơ học, 0 token", c:"#5a5a52"},
+ {id:"data",  name:"7. Dữ liệu & cấu hình", hint:"hợp đồng dữ liệu giữa các module – file trung gian", c:"#8a6d1f"},
+];
+
+const MODULES = [
+// ---------- 0. LÕI ----------
+{id:"claude-md", layer:"core", name:"CLAUDE.md", path:"CLAUDE.md", st:"co",
+ items:["Vai trò, kiến trúc, lệnh CLI, tiết kiệm token","Thêm: mục 'Nguyên tắc thẩm định' + chỉ mục các skill chuyên đề"],
+ links:["rules-md","memory","settings","cmd-check"]},
+{id:"rules-md", layer:"core", name:"Rules (quy tắc hành xử)", path:".claude/rules/", st:"chua",
+ files:[".claude/rules/01-loi-ra-co-ghi-chu.md",".claude/rules/02-khong-bia-tri-so.md",".claude/rules/03-khoanh-comment.md",".claude/rules/04-do-dac-uoc-luong.md",".claude/rules/05-tieng-viet-don-vi.md"],
+ items:["Chỉ tính lối ra có ghi chú thoát nạn","Không bịa trị số – ghi 'tạm tính' / 'cần tra'","Khoanh chữ nhật, đánh số, CHƯA ĐẠT / NGHI VẤN","Số đo ước lượng ±1–2 m, cần đo lại CAD","Khác với luật YAML rules/*.yaml (luật kiểm tra)"],
+ from:"Mục 1, 3, 6 của SKILL_thoat_nan.md + auto memory", links:["claude-md","ag-reviewer","ag-annotator","ag-route"]},
+{id:"memory", layer:"core", name:"Memory (kinh nghiệm)", path:"memory.md", st:"mot-phan",
+ items:["Ghi điều người dùng sửa/xác nhận (feedback)","Đã có: hành lang bên; phương pháp đường thoát nạn (auto memory)","Ngắn – chỉ điều không suy ra được từ code/skill"],
+ from:"New folder/memory.md + ~/.claude/projects/…/memory/pccc-escape-route-method.md", links:["claude-md","cmd-nap","ag-reviewer"]},
+{id:"settings", layer:"core", name:"settings.json", path:".claude/settings.json", st:"co",
+ items:["Quyền: cho chạy pccc_checker, pytest","Chặn đọc .env, api.txt","Khai báo hooks (lớp 1)"],
+ links:["hk-stop","hk-pre","hk-post","hk-prompt","claude-md"]},
+
+// ---------- 1. HOOKS ----------
+{id:"hk-stop", layer:"hook", name:"Stop – test & đồng bộ", path:".claude/hooks/run_tests_on_stop.py", st:"co",
+ files:[".claude/hooks/git_sync.py"], items:["pytest PASS → commit + push GitHub","FAIL → bắt Claude sửa tiếp"], links:["settings","tests"]},
+{id:"hk-validate", layer:"hook", name:"Stop – soát findings", path:".claude/hooks/validate_findings.py", st:"chua",
+ items:["Mỗi CHƯA ĐẠT có khung + 'thiết kế X m < yêu cầu Y m'","Mỗi trị số có nguồn (điều khoản / bản vẽ / tạm tính)","Mỗi tầng có 1 dòng bảng kết luận"], links:["settings","findings","rules-md"]},
+{id:"hk-pre", layer:"hook", name:"PreToolUse – bảo vệ nguồn", path:".claude/hooks/protect_sources.py", st:"chua",
+ items:["Chặn ghi đè PDF gốc trong data/input","Chặn sửa docs/regulations (nguyên văn quy chuẩn)","Knowledge chỉ sửa qua /nap-kien-thuc"], links:["settings","input","regulations","cmd-nap"]},
+{id:"hk-post", layer:"hook", name:"PostToolUse – xem lại PDF", path:".claude/hooks/render_preview.py", st:"chua",
+ items:["Sau khi xuất *_annotated.pdf → render PNG để kiểm tra chồng chữ"], links:["settings","output","ag-annotator"]},
+{id:"hk-prompt", layer:"hook", name:"UserPromptSubmit – gợi ý", path:".claude/hooks/suggest_command.py", st:"chua",
+ items:["Prompt có đường dẫn .pdf → nhắc dùng /check-pccc"], links:["settings","cmd-check"]},
+
+// ---------- 2. COMMANDS ----------
+{id:"cmd-check", layer:"cmd", name:"/check-pccc <pdf>", path:".claude/commands/check-pccc.md", st:"co",
+ items:["Đầu não điều phối toàn bộ luồng (xem Luồng xử lý)","Thêm bước Info building + chuyên đề"],
+ links:["ag-reader","ag-info","ag-route","ag-reviewer","ag-annotator","cli"]},
+{id:"cmd-info", layer:"cmd", name:"/info-building <pdf>", path:".claude/commands/info-building.md", st:"chua",
+ items:["Chỉ lập hồ sơ công trình: nhánh 1 thông số, nhánh 2 cờ Có/Không","Hỏi người dùng các cờ chưa rõ"], links:["ag-info","building"]},
+{id:"cmd-kt", layer:"cmd", name:"/kiem-tra <chuyên đề> <tầng>", path:".claude/commands/kiem-tra.md", st:"chua",
+ items:["Chạy 1 skill chuyên đề trên 1 tầng/trang","Vd: /kiem-tra thoat-nan tang-1"], links:["ag-route","ag-reviewer"]},
+{id:"cmd-nap", layer:"cmd", name:"/nap-kien-thuc <điều khoản>", path:".claude/commands/nap-kien-thuc.md", st:"chua",
+ items:["Quy trình train: đọc → HỎI chỗ chưa hiểu → người dùng trả lời → mới nạp","Ghi trích điều + định nghĩa + sửa skill liên quan","Điều đo được bằng số → chuyển /add-rule"],
+ links:["kn-trich","kn-dinhnghia","memory","cmd-add","hk-pre"]},
+{id:"cmd-add", layer:"cmd", name:"/add-rule", path:".claude/commands/add-rule.md", st:"co", items:["Thêm/sửa luật YAML từ nguyên văn"], links:["ag-curator","rules-yaml"]},
+{id:"cmd-verify", layer:"cmd", name:"/verify-rules", path:".claude/commands/verify-rules.md", st:"co", items:["Đối chiếu luật verified:false với nguyên văn"], links:["ag-curator","regulations","rules-yaml"]},
+
+// ---------- 3. AGENTS ----------
+{id:"ag-reader", layer:"agent", name:"drawing-reader (haiku)", path:".claude/agents/drawing-reader.md", st:"co",
+ items:["Phân loại trang, trích xuất Gemini/vector","Trả tóm tắt ≤ 15 dòng"], links:["cmd-check","cli","prep","extraction","input"]},
+{id:"ag-info", layer:"agent", name:"info-builder (sonnet)", path:".claude/agents/info-builder.md", st:"chua",
+ items:["Đọc bảng thống kê, ghi chú, mặt đứng → building.yaml","Ghi nguồn từng giá trị; thiếu → 'tạm tính' theo schema"],
+ links:["cmd-check","cmd-info","sk-info","sk-phanloai","sk-bac","building","schema","extraction"]},
+{id:"ag-route", layer:"agent", name:"route-analyst (sonnet)", path:".claude/agents/route-analyst.md", st:"chua",
+ items:["Chạy skill thoát nạn: lối ra, điểm xa nhất, đường cụt, phân tán","Nhập hình học → routes.json; số đo qua routes.py"],
+ links:["cmd-check","cmd-kt","sk-thoatnan","routes","routes-py","building","rules-md"]},
+{id:"ag-reviewer", layer:"agent", name:"compliance-reviewer (sonnet)", path:".claude/agents/compliance-reviewer.md", st:"co",
+ items:["Review findings.json: bác false-positive, bổ sung lỗi","Nạp skill qcvn06-pccc + skill chuyên đề cần thiết"],
+ links:["cmd-check","cmd-kt","sk-qcvn06","findings","rules-md","memory","sk-nganchay"]},
+{id:"ag-annotator", layer:"agent", name:"pdf-annotator (haiku)", path:".claude/agents/pdf-annotator.md", st:"co",
+ items:["Ghi chú lên PDF, xuất DXF, report.md","Thêm: vẽ đường thoát nạn từ routes.json"], links:["cmd-check","cli","routes-py","findings","routes","output","hk-post"]},
+{id:"ag-curator", layer:"agent", name:"regulation-curator (sonnet)", path:".claude/agents/regulation-curator.md", st:"co",
+ items:["Soạn/sửa luật YAML, đánh dấu verified","Không có nguyên văn → verified:false"], links:["cmd-add","cmd-verify","rules-yaml","regulations","tests"]},
+
+// ---------- 4. SKILLS ----------
+{id:"sk-qcvn06", layer:"skill", grp:"Nền", name:"qcvn06-pccc", path:".claude/skills/qcvn06-pccc/SKILL.md", dieu:"Toàn văn: chương 1–7, phụ lục A–I", st:"co",
+ files:[".claude/skills/qcvn06-pccc/references/sd01-2023.md"], items:["Kiến thức nền QCVN 06 + SĐ1:2023 cho reviewer"], links:["ag-reviewer","regulations"]},
+{id:"sk-info", layer:"skill", grp:"Hồ sơ", name:"info-building", path:".claude/skills/info-building/SKILL.md", dieu:"1.4 (giải thích từ ngữ); 2.5.3–2.5.5", st:"mot-phan",
+ items:["Nhánh 1: công năng, bậc chịu lửa, khoang cháy…","Nhánh 2: hành lang bên, Sprinkler, báo cháy, khoang đệm, sảnh thông tầng… (11 cờ)"],
+ from:"test_TN/so_do_he_thong.html (sơ đồ 3 tầng)", links:["ag-info","building","schema"]},
+{id:"sk-thoatnan", layer:"skill", grp:"Thoát nạn", name:"thoat-nan", path:".claude/skills/thoat-nan/SKILL.md", dieu:"3.1; 3.2 (3.2.8); 3.3 (3.3.4, 3.3.5); PL G; Hình I.4, I.5", st:"co",
+ items:["3.2.8 phân tán ½D / ⅓D, đo cạnh xa ≥ 7 m","3.3.4–3.3.5 bao che hành lang; karaoke bắt buộc cửa chống cháy"],
+ from:"test_TN/SKILL_thoat_nan.md", links:["ag-route","kn-trich","kn-dinhnghia","sk-songuoi","sk-trabang","sk-dodac","building"]},
+{id:"sk-nganchay", layer:"skill", grp:"Ngăn cháy", name:"ngan-chay-cong-nang", path:".claude/skills/ngan-chay-cong-nang/SKILL.md", dieu:"4.5; 4.6", st:"co",
+ items:["4.5 ngăn cháy giữa các công năng; miễn trừ kho ≤ 10 m²…","F1.3 yêu cầu riêng"], from:"test_TN/SKILL_ngan_chay_cong_nang.md", links:["ag-reviewer","kn-trich","building"]},
+{id:"sk-phanloai", layer:"skill", grp:"Phân loại", name:"phan-loai-cong-trinh", path:".claude/skills/phan-loai-cong-trinh/SKILL.md", dieu:"2.5.5 (nhóm công năng); 1.4 (chiều cao PCCC)", st:"chua", items:["Nhóm F, chiều cao PCCC, số tầng"], links:["ag-info"]},
+{id:"sk-bac", layer:"skill", grp:"Phân loại", name:"bac-chiu-lua-ket-cau", path:".claude/skills/bac-chiu-lua-ket-cau/SKILL.md", dieu:"2.2; 2.3; 2.5.3; 2.5.4; 4.29; PL F; PL H", st:"chua", items:["Bậc I–V, cấp S0–S3, khoang cháy"], links:["ag-info"]},
+{id:"sk-hang", layer:"skill", grp:"Phân loại", name:"hang-nguy-hiem-chay-no", path:".claude/skills/hang-nguy-hiem-chay-no/SKILL.md", dieu:"2.5.6; PL C", st:"chua", items:["Hạng A–E gian phòng, tải trọng cháy"], links:["ag-info"]},
+{id:"sk-ham", layer:"skill", grp:"Phân loại", name:"tang-ham-nha-cao-tang", path:".claude/skills/tang-ham-nha-cao-tang/SKILL.md", dieu:"3.1.7; 3.4.13; 6.18", st:"chua", items:["Yêu cầu riêng theo số tầng, chiều cao, tầng hầm"], links:["ag-reviewer"]},
+{id:"sk-dacthu", layer:"skill", grp:"Phân loại", name:"cong-trinh-dac-thu", path:".claude/skills/cong-trinh-dac-thu/SKILL.md", dieu:"PL A; 3.3.5 (karaoke, vũ trường)", st:"chua", items:["Karaoke, vũ trường… yêu cầu riêng"], links:["ag-reviewer","sk-thoatnan"]},
+{id:"sk-songuoi", layer:"skill", grp:"Thoát nạn", name:"so-nguoi-be-rong-loi-ra", path:".claude/skills/so-nguoi-be-rong-loi-ra/SKILL.md", dieu:"3.2; PL G (G.2 chiều rộng lối ra)", st:"chua", items:["Số người, số lối ra, bề rộng hiệu dụng"], links:["sk-thoatnan"]},
+{id:"sk-thang", layer:"skill", grp:"Thoát nạn", name:"buong-thang-chong-khoi", path:".claude/skills/buong-thang-chong-khoi/SKILL.md", dieu:"2.4; 3.4 (3.4.10–3.4.16)", st:"chua", items:["Loại buồng thang N1–N3, L1–L2; khoang đệm, sảnh ngăn khói"], links:["ag-reviewer","sk-thoatnan"]},
+{id:"sk-chieusang", layer:"skill", grp:"Thoát nạn", name:"chieu-sang-chi-dan", path:".claude/skills/chieu-sang-chi-dan/SKILL.md", dieu:"3.3.1; 3.4.8 → TCVN 3890, TCVN 13456", st:"chua", items:["Chiếu sáng sự cố, chỉ dẫn, chiếu sáng thang"], links:["ag-reviewer"]},
+{id:"sk-vatlieu", layer:"skill", grp:"Thoát nạn", name:"vat-lieu-hoan-thien", path:".claude/skills/vat-lieu-hoan-thien/SKILL.md", dieu:"2.1; 3.3.4; 3.5; PL B (Bảng B.8)", st:"chua", items:["Bảng B.8 – vật liệu trên đường thoát nạn"], links:["ag-reviewer"]},
+{id:"sk-phuongdung", layer:"skill", grp:"Ngăn cháy", name:"ngan-chay-phuong-dung", path:".claude/skills/ngan-chay-phuong-dung/SKILL.md", dieu:"4.32 (phương ngang); 4.33 (phương đứng)", st:"chua", items:["Lỗ mở tường ngoài, ngăn cháy lan theo phương đứng"], links:["ag-reviewer"]},
+{id:"sk-cuavan", layer:"skill", grp:"Ngăn cháy", name:"cua-van-ngan-chay", path:".claude/skills/cua-van-ngan-chay/SKILL.md", dieu:"2.3; 4.18; 4.20; 4.21; 4.22", st:"chua", items:["Cửa, van ngăn cháy, xuyên sàn/tường"], links:["ag-reviewer"]},
+{id:"sk-sprinkler", layer:"skill", grp:"Hệ thống", name:"chua-chay-tu-dong", path:".claude/skills/chua-chay-tu-dong/SKILL.md", dieu:"4.31 → TCVN 3890; 3.2.8 (⅓D)", st:"chua", items:["Sprinkler toàn nhà → ⅓D, ngoại lệ ngăn cháy"], links:["ag-info"]},
+{id:"sk-baochay", layer:"skill", grp:"Hệ thống", name:"bao-chay-hong-nuoc", path:".claude/skills/bao-chay-hong-nuoc/SKILL.md", dieu:"3.1.8; 4.31 → TCVN 3890, TCVN 5738; 5.2", st:"chua", items:["Báo cháy tự động, họng nước / tủ vách tường trong nhà"], links:["ag-info"]},
+{id:"sk-thangmay", layer:"skill", grp:"Hệ thống", name:"thang-may-chua-chay", path:".claude/skills/thang-may-chua-chay/SKILL.md", dieu:"1.4.62; 6.13", st:"chua", items:["Thang máy chữa cháy, sảnh thang máy"], links:["ag-reviewer"]},
+{id:"sk-khoi", layer:"skill", grp:"Hệ thống", name:"thong-gio-thoat-khoi", path:".claude/skills/thong-gio-thoat-khoi/SKILL.md", dieu:"3.1.9; PL D", st:"chua", items:["Hút khói, tăng áp, Phụ lục D"], links:["ag-reviewer","sk-thang"]},
+{id:"sk-giaothong", layer:"skill", grp:"Tiếp cận", name:"giao-thong-khoang-cach", path:".claude/skills/giao-thong-khoang-cach/SKILL.md", dieu:"6.2; 6.4; 6.5; 4.34; PL E", st:"chua", items:["Đường xe chữa cháy, khoảng cách an toàn giữa các nhà"], links:["ag-reviewer"]},
+{id:"sk-thongtang", layer:"skill", grp:"Ngăn cháy", name:"sanh-thong-tang", path:".claude/skills/sanh-thong-tang/SKILL.md", st:"chua", dieu:"4.35", items:["Ngăn cháy lan đối với sảnh thông tầng"], links:["ag-reviewer","ag-info"]},
+{id:"sk-capnuoc", layer:"skill", grp:"Hệ thống", name:"cap-nuoc-ngoai-nha", path:".claude/skills/cap-nuoc-ngoai-nha/SKILL.md", st:"chua", dieu:"5.1; 5.3; 6.15; 6.16", items:["Cấp nước ngoài nhà, trạm bơm"], links:["ag-reviewer"]},
+{id:"sk-tiepcan", layer:"skill", grp:"Tiếp cận", name:"loi-vao-cuu-nan-mai", path:".claude/skills/loi-vao-cuu-nan-mai/SKILL.md", st:"chua", dieu:"6.3; 6.6–6.12", items:["Lối vào từ trên cao, lối ra mái, thang chữa cháy ngoài nhà"], links:["ag-reviewer","ag-info"]},
+{id:"sk-phongdk", layer:"skill", grp:"Hệ thống", name:"phong-truc-chong-chay", path:".claude/skills/phong-truc-chong-chay/SKILL.md", st:"chua", dieu:"6.17", items:["Phòng trực điều khiển chống cháy"], links:["ag-reviewer"]},
+{id:"sk-trabang", layer:"skill", grp:"Hỗ trợ", name:"tra-bang-qcvn06", path:".claude/skills/tra-bang-qcvn06/SKILL.md", dieu:"PL G (G.1); PL H", st:"chua", items:["Giới hạn chiều dài thoát nạn theo nhóm + bậc + cấp (Phụ lục G)"], links:["sk-thoatnan","regulations"]},
+{id:"sk-dodac", layer:"skill", grp:"Hỗ trợ", name:"do-dac-ban-ve", path:".claude/skills/do-dac-ban-ve/SKILL.md", dieu:"3.2.8 (cách đo); PL I (hình minh hoạ)", st:"chua", items:["Tỉ lệ theo trục, đường chéo D, đo theo đường đi thực tế"], links:["sk-thoatnan","routes-py"]},
+
+// ---------- 5. KNOWLEDGE ----------
+{id:"regulations", layer:"kn", name:"Nguyên văn quy chuẩn", path:"docs/regulations/", st:"co",
+ files:["docs/regulations/QCVN 06 SĐ1 10.2023.pdf"], items:["Bản hợp nhất QCVN 06:2022 + SĐ1:2023 (pdf/docx)","Nguồn sự thật duy nhất – chỉ đọc"], links:["ag-curator","cmd-verify","sk-qcvn06","hk-pre","sk-trabang"]},
+{id:"kn-trich", layer:"kn", name:"Trích điều đã train", path:"docs/knowledge/dieu-khoan/", st:"mot-phan",
+ files:["docs/knowledge/dieu-khoan/3.2.8.md","docs/knowledge/dieu-khoan/3.3.4-3.3.5.md","docs/knowledge/dieu-khoan/4.5.md"],
+ items:["Mỗi điều 1 file: nguyên văn + cách hiểu đã chốt với người dùng","Skill trích dẫn từ đây, không chép lại"],
+ from:"Nội dung người dùng gửi (3.2.8, 3.3.4, 3.3.5, 4.5) – đang nằm trong 2 skill", links:["cmd-nap","sk-thoatnan","sk-nganchay"]},
+{id:"kn-dinhnghia", layer:"kn", name:"Định nghĩa & hình", path:"docs/knowledge/dinh-nghia/", st:"mot-phan",
+ files:["docs/knowledge/dinh-nghia/dinh-nghia.md","docs/knowledge/hinh/mat_cat_hanh_lang_ben.png","docs/knowledge/hinh/tuong_va_cua_ngan_chay_hanh_lang_ben.png"],
+ items:["Gian phòng chung (1.4.21a), gian phòng có người làm việc thường xuyên (1.4.22), hành lang bên / trong (1.4.23)…","Một file định nghĩa; skill chỉ trỏ tới, không chép lại","Hình minh hoạ kèm định nghĩa"], from:"New folder/memory.md + 2 ảnh hành lang bên", links:["cmd-nap","sk-thoatnan"]},
+{id:"rules-yaml", layer:"kn", name:"Luật số hoá (YAML)", path:"rules/qcvn06_2022_sd01_2023.yaml", st:"co",
+ items:["26 luật: lối ra, hành lang, thang bộ, tầng hầm, ngăn cháy…","Rule engine chạy 0 token"], links:["ag-curator","cmd-add","cmd-verify","cli","tests"]},
+{id:"kn-camau", layer:"kn", name:"Ca mẫu (dự án đã thẩm định)", path:"docs/knowledge/ca-mau/", st:"mot-phan",
+ files:["docs/knowledge/ca-mau/khach-san-hoang-hung.md","docs/knowledge/ca-mau/karaoke-hoang-anh-2.md"],
+ items:["Kết quả đã được người dùng duyệt → dùng để so khi sửa skill"], from:"DU_LIEU (mục dự án test) + duong_thoat_nan_karaoke.pdf", links:["tests","sk-thoatnan"]},
+
+// ---------- 6. CODE ----------
+{id:"cli", layer:"code", name:"pccc_checker CLI", path:"src/pccc_checker/", st:"co",
+ items:["pages / extract / check / annotate / dxf / rules","extractors (Gemini, vector, hybrid), rule engine, output"], links:["ag-reader","ag-annotator","cmd-check","rules-yaml","extraction","findings"]},
+{id:"prep", layer:"code", name:"prep_for_llm.py", path:"scripts/prep_for_llm.py", st:"mot-phan",
+ items:["Trang → ảnh 300 dpi + chữ kèm vị trí (sửa font VNI)"], from:"New folder/prep_for_llm.py", links:["ag-reader","extraction"]},
+{id:"routes-py", layer:"code", name:"routes.py (đo & vẽ đường)", path:"src/pccc_checker/output/routes.py", st:"mot-phan",
+ items:["Mạng hành lang + Dijkstra, điểm xa nhất, đường chéo D","Vẽ mũi tên, khung đánh số, ghi chú lề"],
+ from:"scratchpad/annotate_karaoke.py (thư mục tạm – nên chuyển sớm)", links:["ag-route","ag-annotator","routes","sk-dodac"]},
+{id:"tests", layer:"code", name:"tests/", path:"tests/", st:"co",
+ items:["pytest offline; thêm test cho routes.py và ca mẫu"], links:["hk-stop","rules-yaml","ag-curator","kn-camau"]},
+
+// ---------- 7. DATA ----------
+{id:"input", layer:"data", name:"PDF đầu vào", path:"data/input/", st:"co", items:["Chỉ đọc – hook chặn ghi đè"], links:["ag-reader","hk-pre"]},
+{id:"extraction", layer:"data", name:"extraction.json / .md", path:"data/output/<tên>/extraction.json", st:"co",
+ files:["data/output/<tên>/extraction.md","data/output/<tên>/trang_N.png"], items:["Dữ liệu bản vẽ đã trích"], links:["ag-reader","cli","prep","ag-info"]},
+{id:"building", layer:"data", name:"building.yaml = Info building", path:"config/building.yaml", st:"mot-phan",
+ items:["Nhánh 1: giá trị + nguồn","Nhánh 2: cờ Có/Không + nguồn","Thiếu → giá trị tạm + 'tạm tính'"],
+ from:"config/building.example.yaml", links:["ag-info","cmd-info","sk-info","schema","sk-thoatnan","sk-nganchay","ag-route"]},
+{id:"schema", layer:"data", name:"Schema dữ liệu liên skill", path:"docs/knowledge/du-lieu-lien-skill.md", st:"mot-phan",
+ items:["Mỗi trường: skill tạo – skill dùng – giá trị tạm","Hợp đồng giữa các skill"], from:"test_TN/DU_LIEU_TU_SKILL_KHAC.md", links:["building","ag-info","sk-info"]},
+{id:"routes", layer:"data", name:"routes.json", path:"data/output/<tên>/routes.json", st:"chua",
+ items:["Lối ra, phòng, cửa, điểm xa nhất, đường đi theo từng tầng"], links:["ag-route","routes-py","ag-annotator"]},
+{id:"findings", layer:"data", name:"findings.json", path:"data/output/<tên>/findings.json", st:"co",
+ items:["Mỗi phát hiện: tầng, vị trí, mức, comment, điều khoản, nguồn"], links:["cli","ag-reviewer","ag-annotator","hk-validate"]},
+{id:"output", layer:"data", name:"Kết quả", path:"data/output/<tên>/*_annotated.pdf", st:"co",
+ files:["data/output/<tên>/report.md","data/output/<tên>/drawing.dxf"], items:["PDF có comment, report.md (bảng theo tầng), DXF"], links:["ag-annotator","hk-post"]},
+];
+
+const FLOW = [
+ {t:"Người dùng gõ <b>/check-pccc ban_ve.pdf</b>. CLAUDE.md, rules, memory đã nạp sẵn; hook UserPromptSubmit nhắc lệnh nếu quên.", m:["cmd-check","claude-md","rules-md","memory","hk-prompt"]},
+ {t:"<b>drawing-reader</b> phân loại trang, trích xuất → extraction.json/md (+ ảnh trang nếu cần).", m:["ag-reader","cli","prep","input","extraction"]},
+ {t:"<b>info-builder</b> + skill info-building điền building.yaml (nhánh 1, nhánh 2). Cờ chưa rõ → hỏi người dùng.", m:["ag-info","sk-info","sk-phanloai","sk-bac","building","schema"]},
+ {t:"Rule engine chạy luật YAML (0 token) → findings.json.", m:["cli","rules-yaml","findings"]},
+ {t:"Chuyên đề song song: <b>route-analyst</b> (thoát nạn → routes.json) và <b>compliance-reviewer</b> (bác false-positive, bổ sung lỗi theo skill chuyên đề).", m:["ag-route","sk-thoatnan","routes","routes-py","ag-reviewer","sk-qcvn06","sk-nganchay","findings"]},
+ {t:"<b>pdf-annotator</b> vẽ đường thoát nạn + khung comment → *_annotated.pdf, report.md, DXF. Hook PostToolUse render ảnh xem lại.", m:["ag-annotator","routes-py","output","hk-post"]},
+ {t:"Hook Stop: soát findings (đủ khung, đủ nguồn) + pytest → commit/push.", m:["hk-validate","hk-stop","tests","findings"]},
+];
+const TRAIN = [
+ {t:"Người dùng gửi điều khoản/hình: <b>/nap-kien-thuc 3.3.5 …</b>", m:["cmd-nap"]},
+ {t:"Claude đọc, liệt kê câu hỏi chỗ chưa hiểu – <b>chưa nạp</b>.", m:["cmd-nap","rules-md"]},
+ {t:"Người dùng trả lời → nạp: nguyên văn + cách hiểu vào trích điều/định nghĩa; cập nhật skill chuyên đề.", m:["kn-trich","kn-dinhnghia","sk-thoatnan","sk-nganchay"]},
+ {t:"Phần đo được bằng số → <b>/add-rule</b> → luật YAML (verified khi có nguyên văn).", m:["cmd-add","ag-curator","rules-yaml","tests"]},
+ {t:"Sửa về cách làm (không phải quy chuẩn) → memory. Dự án đã duyệt → ca mẫu.", m:["memory","kn-camau"]},
+];
+const TODO = [
+ "CLAUDE.md hiện ghi 'Claude KHÔNG tự đọc ảnh bản vẽ', nhưng skill thoát nạn cần nhìn hình học (phòng, cửa, hành lang). Chọn: route-analyst được xem ảnh, hay Gemini trích hình học vào extraction.json?",
+ "Tên trùng 'rules': .claude/rules/ (quy tắc cho Claude) khác rules/*.yaml (luật kiểm tra của engine). Có thể đổi tên thư mục quy tắc nếu dễ nhầm.",
+ "annotate_karaoke.py đang ở thư mục tạm của phiên – nên chuyển vào src/pccc_checker/output/routes.py sớm.",
+ "22 skill chuyên đề chưa có nội dung – điều khoản đã gắn theo mục lục bản hợp nhất QCVN 06 (chỉ tiêu đề điều, chưa đọc nội dung); nạp dần qua /nap-kien-thuc.",
+];
+</script>
+
+<script>
+/* ======================= HIỂN THỊ – thường không cần sửa ======================= */
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const byId = Object.fromEntries(MODULES.map(m => [m.id, m]));
+const rel = Object.fromEntries(MODULES.map(m => [m.id, new Set()]));
+MODULES.forEach(m => (m.links || []).forEach(t => {
+  if (!byId[t]) { console.warn("Liên kết tới module không tồn tại:", m.id, "→", t); return; }
+  rel[m.id].add(t); rel[t].add(m.id);
+}));
+const ST = {co:"Đã có", "mot-phan":"Có nội dung, cần chuyển/bổ sung", chua:"Chưa làm"};
+
+// thanh trạng thái
+const cnt = s => MODULES.filter(m => m.st === s).length;
+document.getElementById("bar").innerHTML =
+  Object.entries(ST).map(([k,v]) => `<span><span class="dot d-${k}"></span>${v}: <b>${cnt(k)}</b></span>`).join("") +
+  `<span>Tổng: <b>${MODULES.length}</b> module</span><button id="clear">Bỏ chọn</button>`;
+
+// các lớp
+document.getElementById("layers").innerHTML = LAYERS.map(L => {
+  const ms = MODULES.filter(m => m.layer === L.id);
+  return `<section class="layer" style="--lc:${L.c}"><header><b>${esc(L.name)}</b><span>${esc(L.hint)}</span></header><div class="grid">${
+    ms.map(m => `<article class="card st-${m.st}" id="m-${m.id}" data-id="${m.id}" tabindex="0" title="${esc(ST[m.st])}">
+      <h3><span class="dot d-${m.st}"></span>${esc(m.name)}${m.grp ? `<span class="tag">${esc(m.grp)}</span>` : ""}</h3>
+      <code>${esc(m.path)}</code>
+      ${m.dieu ? `<p class="dieu">QCVN 06: ${esc(m.dieu)}</p>` : ""}
+      <ul>${(m.items || []).map(i => `<li>${esc(i)}</li>`).join("")}</ul>
+      ${m.from ? `<p class="from">↳ từ: ${esc(m.from)}</p>` : ""}
+    </article>`).join("")}</div></section>`;
+}).join("");
+
+function focusOn(ids, primary) {
+  document.body.classList.add("focus");
+  document.querySelectorAll(".card").forEach(c => {
+    c.classList.toggle("on", primary ? c.dataset.id === primary : ids.has(c.dataset.id));
+    c.classList.toggle("rel", !!primary && ids.has(c.dataset.id));
+  });
+}
+function clearFocus() {
+  document.body.classList.remove("focus");
+  document.querySelectorAll(".card.on,.card.rel,.flow li.on").forEach(e => e.classList.remove("on","rel"));
+}
+document.querySelectorAll(".card").forEach(c => {
+  const go = () => { document.querySelectorAll(".flow li.on").forEach(e => e.classList.remove("on")); focusOn(rel[c.dataset.id], c.dataset.id); };
+  c.addEventListener("click", go);
+  c.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+});
+document.getElementById("clear").onclick = clearFocus;
+
+// luồng
+function renderFlow(elId, steps) {
+  const el = document.getElementById(elId);
+  el.innerHTML = steps.map((s, i) => `<li data-i="${i}">${s.t}<br><small>Module: ${s.m.map(id => esc(byId[id] ? byId[id].name : "?" + id)).join(" · ")}</small></li>`).join("");
+  el.querySelectorAll("li").forEach(li => li.onclick = () => {
+    document.querySelectorAll(".flow li.on").forEach(e => e.classList.remove("on"));
+    li.classList.add("on");
+    focusOn(new Set(steps[li.dataset.i].m));
+    document.getElementById("layers").scrollIntoView({behavior: "smooth"});
+  });
+}
+renderFlow("flow", FLOW); renderFlow("train", TRAIN);
+
+// cây thư mục
+(function () {
+  const root = {}, dirs = new WeakSet();  // dirs: đường dẫn kết thúc bằng "/" là thư mục
+  MODULES.forEach(m => [m.path, ...(m.files || [])].forEach(p => {
+    let n = root; p.split("/").filter(Boolean).forEach(seg => { n = n[seg] = n[seg] || {}; });
+    if (p.endsWith("/")) dirs.add(n);
+  }));
+  const out = ["pccc-checker/"];
+  (function walk(n, pre) {
+    const isDir = k => Object.keys(n[k]).length > 0 || dirs.has(n[k]);
+    const ks = Object.keys(n).sort((a, b) => isDir(b) - isDir(a) || a.localeCompare(b));
+    ks.forEach((k, i) => {
+      const last = i === ks.length - 1, dir = Object.keys(n[k]).length > 0 || dirs.has(n[k]);
+      out.push(pre + (last ? "└── " : "├── ") + k + (dir ? "/" : ""));
+      walk(n[k], pre + (last ? "    " : "│   "));
+    });
+  })(root, "");
+  document.getElementById("tree").textContent = out.join("\n");
+})();
+
+// bảng chuyển file
+document.querySelector("#move tbody").innerHTML = MODULES.filter(m => m.from)
+  .map(m => `<tr><td><span class="dot d-${m.st}"></span>${esc(m.name)}</td><td><code>${esc(m.path)}</code></td><td>${esc(m.from)}</td></tr>`).join("");
+
+document.getElementById("todo").innerHTML = "<ol>" + TODO.map(t => `<li>${esc(t)}</li>`).join("") + "</ol>";
+</script>
+</body></html>

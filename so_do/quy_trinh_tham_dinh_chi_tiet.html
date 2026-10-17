@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quy trình thẩm định PCCC</title>
+<style>
+:root{--bg:#f6f5f0;--card:#fff;--ink:#1d1d1b;--mute:#6a6860;--line:#d9d7cc;--accent:#c24e17;--soft:#efede4;
+--ok:#1b7f55;--bad:#c0332b;--ask:#c98a10;--na:#7b7a73;--blue:#2459a8;--code:#efede4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a1a18;--card:#252522;--ink:#ecebe3;--mute:#a5a398;--line:#3b3a34;--soft:#2d2c28;--code:#2d2c28;--accent:#ee8450;--ok:#4fc08c;--bad:#f0746c;--ask:#e5b04a;--na:#9a998f;--blue:#7fa8ee}}
+:root[data-theme="dark"]{--bg:#1a1a18;--card:#252522;--ink:#ecebe3;--mute:#a5a398;--line:#3b3a34;--soft:#2d2c28;--code:#2d2c28;--accent:#ee8450;--ok:#4fc08c;--bad:#f0746c;--ask:#e5b04a;--na:#9a998f;--blue:#7fa8ee}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Arial,Helvetica,sans-serif}
+main{max-width:1100px;margin:auto;padding:22px 16px 80px}
+h1{font-size:26px;margin:0 0 6px;line-height:1.25}
+h2{font-size:20px;margin:42px 0 8px;padding-top:6px;border-top:2px solid var(--line)}
+h3{font-size:16px;margin:16px 0 6px}
+p{margin:6px 0}
+.lead{font-size:16px;color:var(--ink)}
+.mute{color:var(--mute)}
+code{font:12.5px Consolas,monospace;background:var(--code);padding:1px 5px;border-radius:4px;word-break:break-all}
+nav.top{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px}
+nav.top a{font-size:13px;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--card);padding:3px 9px;border-radius:14px}
+nav.top a:hover{border-color:var(--accent);color:var(--accent)}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0}
+.note{border-left:4px solid var(--ask);background:var(--card);padding:10px 14px;border-radius:6px;margin:10px 0}
+.chip{display:inline-block;font-size:12px;font-weight:bold;padding:2px 9px;border-radius:12px;color:#fff;white-space:nowrap}
+.c-ok{background:var(--ok)}.c-bl{background:var(--blue)}.c-bad{background:var(--bad)}.c-ask{background:var(--ask);color:#1d1d1b}.c-na{background:var(--na)}
+.who{display:inline-block;font-size:12px;border:1px solid var(--line);background:var(--soft);padding:1px 8px;border-radius:10px;margin-right:4px}
+.legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+/* pipeline */
+.pipe{margin:14px 0}
+.row{display:grid;grid-template-columns:1fr 1.5fr 1fr;gap:10px;align-items:stretch}
+.io{background:var(--soft);border:1px dashed var(--line);border-radius:8px;padding:8px 10px;font-size:13px}
+.io b{display:block;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin-bottom:2px}
+.stage{background:var(--card);border:2px solid var(--accent);border-radius:10px;padding:10px 12px;cursor:pointer}
+.stage:hover{background:var(--soft)}
+.stage .n{display:inline-block;background:var(--accent);color:#fff;font-weight:bold;border-radius:50%;width:26px;height:26px;text-align:center;line-height:26px;margin-right:6px}
+.stage .t{font-weight:bold;font-size:15px}
+.stage p{font-size:13px;margin:4px 0 0;color:var(--mute)}
+.arrow{text-align:center;font-size:13px;color:var(--mute);padding:4px 0}
+.arrow:before{content:"▼";display:block;color:var(--accent);line-height:1}
+.ask{border:2px dashed var(--ask);border-radius:10px;padding:8px 12px;margin:6px 0 6px 20%;width:60%;font-size:13px;background:var(--card)}
+@media (max-width:760px){.row{grid-template-columns:1fr}.ask{margin:6px 0;width:100%}nav.top{position:static}}
+/* stage detail */
+details.sd{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:10px 0}
+details.sd>summary{cursor:pointer;padding:12px 14px;font-weight:bold;font-size:16px;list-style:none;display:flex;gap:10px;align-items:center}
+details.sd>summary::-webkit-details-marker{display:none}
+details.sd>summary:before{content:"▸";color:var(--accent)}
+details.sd[open]>summary:before{content:"▾"}
+details.sd .in{padding:0 14px 14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:760px){.grid2{grid-template-columns:1fr}}
+ol.st{margin:6px 0 6px 18px;padding:0}ol.st li{margin:3px 0}
+ul.pl{margin:6px 0 6px 18px;padding:0}ul.pl li{margin:3px 0}
+.ex{background:var(--soft);border-left:4px solid var(--blue);padding:8px 12px;border-radius:6px;margin:8px 0;font-size:14px}
+.warn{background:var(--soft);border-left:4px solid var(--bad);padding:8px 12px;border-radius:6px;margin:8px 0;font-size:14px}
+.anal{background:var(--soft);border-left:4px solid var(--ok);padding:8px 12px;border-radius:6px;margin:8px 0;font-size:14px}
+/* chain */
+.chain{display:flex;flex-wrap:wrap;gap:6px;align-items:stretch;margin:10px 0}
+.link{flex:1 1 150px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px;position:relative}
+.link b{display:block;font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:.04em}
+.link:not(:last-child):after{content:"→";position:absolute;right:-12px;top:42%;color:var(--accent);font-weight:bold;z-index:1}
+table{border-collapse:collapse;width:100%;background:var(--card);font-size:13px}
+th,td{border:1px solid var(--line);padding:5px 7px;text-align:left;vertical-align:top}
+th{background:var(--soft)}
+.tw{overflow-x:auto;margin:8px 0}
+input.s{width:100%;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit;margin:6px 0}
+dl.g dt{font-weight:bold;margin-top:10px}dl.g dd{margin:2px 0 0 0;color:var(--ink)}
+.bt{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:4px 10px;border-radius:6px;cursor:pointer}
+</style></head><body><main>
+
+<h1>Quy trình thẩm định bản vẽ PCCC, từng giai đoạn</h1>
+<p class="lead">Trang này giải thích cách hệ thống kiểm tra một bộ bản vẽ phòng cháy chữa cháy, từ lúc nhận file PDF đến lúc có bảng kết luận và khung ghi chú trên bản vẽ. Không cần biết trước về PCCC: mỗi giai đoạn có giải thích bằng lời thường, ví dụ thật, và phần từ điển ở cuối.</p>
+<div class="note"><b>Ví dụ trong trang</b> lấy từ hồ sơ Karaoke Hoàng Anh 1 mà ta đã làm cùng nhau. Đó là <b>ví dụ minh họa cách làm</b>, chưa phải kết luận thẩm định chính thức.</div>
+<button class="bt" id="theme">Đổi sáng/tối</button>
+
+<nav class="top">
+  <a href="#tong">Bức tranh tổng</a><a href="#gd">Từng giai đoạn</a><a href="#chuoi">Một yêu cầu đi hết quy trình</a>
+  <a href="#bang">Bảng đối chiếu mẫu</a><a href="#kn">Kiến thức đã nạp nằm ở đâu</a><a href="#tu">Từ điển</a><a href="#todo">Chưa nạp, việc tiếp theo</a>
+</nav>
+
+<h2 id="tong">1. Bức tranh tổng trong một phút</h2>
+<div class="anal"><b>So sánh dễ hiểu: khám sức khỏe cho tòa nhà.</b> Bác sĩ không nhìn bệnh nhân rồi phán bừa. Bác sĩ (1) lấy hồ sơ, (2) đo chỉ số của bệnh nhân, (3) tra xem người như vậy thì chỉ số chuẩn là bao nhiêu, (4) so từng chỉ số với chuẩn, (5) ghi kết luận vào phiếu và khoanh chỗ bất thường, (6) có người thứ hai xem lại, (7) rút kinh nghiệm cho lần sau. Hệ thống này làm đúng thứ tự đó cho một công trình.</div>
+<p><b>Ba ý quan trọng nhất:</b></p>
+<ul class="pl">
+<li><b>Thông tin trước, kết luận sau.</b> Mọi con số của công trình (số tầng, chiều cao, số người, số lối thoát…) được ghi <u>một lần</u> vào một bảng chung, kèm nơi lấy. Các bước sau chỉ đọc lại bảng chung.</li>
+<li><b>Từ thông tin suy ra yêu cầu, rồi mới so sánh.</b> Công trình cao 7,6 m thì yêu cầu khác công trình cao 40 m. Phải biết "yêu cầu của chính công trình này" rồi mới so với bản vẽ.</li>
+<li><b>Mỗi dòng so sánh có kết luận và lý do ngay tại dòng</b>, và chỗ chưa đạt được khoanh khung đánh số trên bản vẽ. Khung và dòng cùng số nên dễ tìm.</li>
+</ul>
+<div class="legend">
+ <div class="box"><span class="chip c-ok">ĐẠT</span><p>Thiết kế đáp ứng yêu cầu. Vẫn ghi số liệu để người sau kiểm lại.</p></div>
+ <div class="box"><span class="chip c-bad">CHƯA ĐẠT</span><p>Thiết kế không đáp ứng. Bắt buộc có lý do kèm số và một khung trên bản vẽ.</p></div>
+ <div class="box"><span class="chip c-ask">CẦN XÁC NHẬN</span><p>Chưa đủ dữ liệu, bản vẽ tự mâu thuẫn, hoặc quy chuẩn tương ứng chưa nạp. Hệ thống không được đoán.</p></div>
+ <div class="box"><span class="chip c-na">KHÔNG ÁP DỤNG</span><p>Điều khoản không liên quan công trình này. Ghi rõ vì sao.</p></div>
+ <div class="box"><span class="chip c-bl">CHỈNH BẢN VẼ</span><p>Nhãn thứ năm, chỉ dùng cho khung trên bản vẽ: bản vẽ ghi sai hoặc thiếu ghi chú, đã rõ cách sửa. Không đổi kết luận của thiết kế.</p></div>
+</div>
+<p><span class="who">Claude</span> việc cần đọc hiểu và suy luận &nbsp; <span class="who">Chương trình</span> việc cơ học, chạy tự động &nbsp; <span class="who">Bạn</span> việc cần người quyết định. Bấm vào một giai đoạn để nhảy tới phần giải thích chi tiết.</p>
+
+<div class="pipe" id="pipe"></div>
+
+<h2 id="gd">2. Từng giai đoạn nói chi tiết</h2>
+<p class="mute">Bấm tiêu đề để mở hoặc đóng. Mỗi giai đoạn có: mục đích, so sánh đời thường, các bước, đầu vào, đầu ra, file dùng, ví dụ thật, lỗi hay gặp.</p>
+<p><button class="bt" id="openAll">Mở tất cả</button> <button class="bt" id="closeAll">Đóng tất cả</button></p>
+<div id="stages"></div>
+
+<h2 id="chuoi">3. Một yêu cầu đi hết quy trình (ba ví dụ)</h2>
+<p>Mỗi ví dụ cho thấy một con số được đọc từ bản vẽ, đổi thành yêu cầu, đưa vào bảng, rồi thành khung trên bản vẽ.</p>
+<div id="chains"></div>
+
+<h2 id="bang">4. Bảng đối chiếu chính thức (một phần, karaoke B15)</h2>
+<p>Mỗi công năng có một bảng chính thức (B15 cho karaoke, vũ trường; B35 cho báo cháy; B46 cho đèn sự cố…). Đây là vài dòng đã điền theo ví dụ để thấy bảng trông như thế nào khi xong. Bảng làm việc đầy đủ nằm ở <code>bang_doi_chieu/B15_karaoke_vu_truong.md</code>; cách chọn bảng ở <code>bang_doi_chieu/DANH_MUC.md</code>.</p>
+<div class="tw"><table>
+<thead><tr><th>TT</th><th>Nội dung đối chiếu</th><th>Khoản, Điều</th><th>Nội dung quy định</th><th>Nội dung thiết kế</th><th>Kết luận và lý do</th><th>Khung</th></tr></thead>
+<tbody id="bangbody"></tbody></table></div>
+
+<h2 id="kn">5. Những gì đã dạy nằm ở đâu</h2>
+<p>Tri thức được chia thành ba lớp để không chép một điều ở hai nơi. Khi học thêm điều mới, đặt vào đúng lớp.</p>
+<div class="tw"><table>
+<thead><tr><th>Lớp</th><th>File hoặc thư mục</th><th>Chứa gì</th><th>Dùng ở giai đoạn</th></tr></thead>
+<tbody id="knbody"></tbody></table></div>
+
+<h2 id="tu">6. Từ điển cho người mới</h2>
+<input class="s" id="q" placeholder="Gõ để lọc từ (ví dụ: sprinkler, EI60, hành lang bên…)">
+<dl class="g" id="gl"></dl>
+
+<h2 id="todo">7. Chưa nạp và việc tiếp theo</h2>
+<ul class="pl" id="todo-l"></ul>
+
+</main>
+<script>
+var STAGES=[
+{n:0,t:"Nạp hồ sơ",who:["Chương trình","Claude"],plain:"Biến file PDF bản vẽ thành thứ máy xử lý được: ảnh từng trang và toàn bộ chữ kèm vị trí.",
+ anal:"Như lấy hồ sơ bệnh án về, chụp từng trang và đánh số.",
+ inp:["File PDF kiến trúc","File PDF PCCC"],out:["Ảnh từng trang","Chữ kèm vị trí","Danh sách loại trang"],
+ steps:["Mở từng file PDF.","Xuất mỗi trang thành ảnh độ phân giải cao (300 dpi).","Trích toàn bộ chữ kèm toạ độ. Bản vẽ cũ dùng font lỗi (VNI, TCVN3) nên chữ có thể bị sai dấu, chương trình sửa.","Phân loại trang: bìa, bảng thống kê, mặt bằng từng tầng, mặt cắt, mặt đứng, bản vẽ hệ thống (báo cháy, đèn thoát hiểm, chữa cháy, hút khói), thuyết minh.","Lập danh sách trang và loại của nó."],
+ files:["scripts/prep_for_llm.py"],
+ ex:"Karaoke Hoàng Anh 1 có hai file. File PCCC có 56 trang toàn bộ hệ thống (báo cháy, đèn EX–EM, chữa cháy, hút khói…). File kiến trúc có 64 trang, trong đó mặt bằng thoát nạn ở trang 20 đến 23 và bảng thống kê ở trang 10. Chỉ đọc file PCCC sẽ không thấy bản thoát nạn.",
+ pit:["Một công trình thường có nhiều file. Phải nạp cả kiến trúc và PCCC, nếu không thiếu thông tin.","Bản quy chuẩn hợp nhất có chữ cũ bị gạch. Chỉ đọc chữ hiện hành (đã có cách tự dò dòng bị gạch)."]},
+{n:1,t:"Lập thông tin công trình",who:["Claude","Bạn"],plain:"Ghi lại mọi thông tin về công trình vào một bảng chung. Đây là bước quan trọng nhất vì mọi kết luận sau đều dựa vào bảng này.",
+ anal:"Như hỏi bệnh nhân tuổi, cân nặng, tiền sử, rồi đo huyết áp. Cái gì chưa biết thì hỏi, không đoán.",
+ inp:["Ảnh và chữ từng trang","Bảng thống kê trên bản vẽ"],out:["Bảng thông tin công trình (có nguồn)","Danh sách câu hỏi cho bạn"],
+ steps:["<b>Nhánh A, thông số:</b> công năng, nhóm nhà (F2.1…), số tầng, chiều cao PCCC, diện tích tầng, bậc chịu lửa, cấp nguy hiểm cháy kết cấu, số người lớn nhất, số người từng phòng. Phần lớn có sẵn trong bảng thống kê.","<b>Nhánh B, cờ có/không:</b> có chữa cháy tự động không, có báo cháy tự động không, hành lang là hành lang bên hay hành lang trong, có tầng hầm không, có thang máy không…","<b>Nhánh C, hình học thoát nạn:</b> mỗi tầng có những lối ra nào (tên, cửa, bề rộng, loại cửa, chiều mở), loại cầu thang, hành lang rộng bao nhiêu, vật liệu hoàn thiện…","Mỗi trường ghi <b>giá trị, nguồn</b> (trang, bảng, ghi chú) và <b>trạng thái</b> (đọc thẳng, đo, suy ra, bạn xác nhận, tạm tính, thiếu).","Trường nào thiếu hoặc bản vẽ tự mâu thuẫn thì đưa vào danh sách hỏi bạn. Chưa có câu trả lời thì giữ trạng thái thiếu."],
+ files:["knowledge/truong-thong-tin.md","knowledge/dinh-nghia/dinh-nghia.md"],
+ ex:"Bảng thống kê của Hoàng Anh 1 cho: karaoke, nhóm F2.1, diện tích 471,6 m², 2 tầng, chiều cao mái 9,1 m, <b>chiều cao PCCC 7,6 m</b>, bậc chịu lửa II, cấp S0, số người lớn nhất 93. Đọc từ mặt bằng: tầng trệt có lối 1 (cửa D1 rộng 1,9 m) và lối 2 (cửa D2 rộng 1,5 m).",
+ pit:["Chiều cao PCCC khác chiều cao mái. Phải lấy đúng trường ghi 'chiều cao PCCC'.","Khi một con số xuất hiện hai lần với giá trị khác nhau (ví dụ số người 92, 105 và 93), ghi cả hai vào ô nguồn và hỏi bạn. Không tự chọn số 'có vẻ đúng'.","Tên thang trên bản vẽ (CT1…) không cho biết loại thang. Phải xác định bằng hình."]},
+{n:2,t:"Chọn bảng đối chiếu và suy ra yêu cầu",who:["Claude"],plain:"Chọn đúng bảng đối chiếu chính thức theo công năng và theo các hệ thống có trong công trình, rồi từ thông tin ở bước 1 tra quy chuẩn để biết riêng công trình này phải đáp ứng điều gì.",
+ anal:"Như tra bảng 'người nặng 60 kg, cao 1m65 thì chỉ số chuẩn là bao nhiêu'.",
+ inp:["Bảng thông tin công trình","Nguyên văn quy chuẩn (các module)"],out:["Danh sách bảng đối chiếu áp dụng","Bảng 'yêu cầu của công trình' Y01 đến Y22, mỗi yêu cầu kèm điều khoản"],
+ steps:["<b>Chọn bảng:</b> bảng công năng (karaoke, vũ trường dùng bảng B15) và các bảng hệ thống theo cờ có/không (B34 chống tụ khói, B35 báo cháy, B38 họng nước, B39 sprinkler, B45 bình chữa cháy, B46 đèn sự cố và loa, B48 nguồn điện…).","Duyệt lần lượt các yêu cầu Y01 đến Y22 trong danh mục.","Với mỗi yêu cầu, lấy các trường đầu vào của nó (ví dụ yêu cầu 'số lối ra tối thiểu' cần nhóm nhà, số người, diện tích, chiều cao, có sprinkler không).","Mở file điều khoản ghi trong cột 'Tra ở', áp dụng quy tắc, viết ra kết quả kèm số điều.","Nếu trường đầu vào đang thiếu thì yêu cầu đó ở trạng thái CẦN XÁC NHẬN."],
+ files:["bang_doi_chieu/DANH_MUC.md","knowledge/truong-thong-tin.md (bảng Y01–Y24)","skills/MOD_*.md"],
+ ex:"Chiều cao PCCC 7,6 m và không phải kho xưởng nguy hiểm: không bắt buộc buồng thang không nhiễm khói N1 (điều 3.4.13), buồng thang thông thường L1 là đủ. Tầng có 93 người và công năng F2.1: phải có ít nhất 2 lối ra, không được chỉ 1 lối. Toàn nhà có sprinkler: khoảng cách giữa hai lối ra chỉ cần đạt một phần ba đường chéo thay vì một nửa.",
+ pit:["Không so thẳng bản vẽ với điều khoản. Luôn qua bước này để biết yêu cầu của chính công trình.","Karaoke có luật riêng: dù có sprinkler vẫn đo khoảng cách từ cửa phòng, và mọi cửa mở ra hành lang phải là cửa chống cháy."]},
+{n:3,t:"Đối chiếu hệ thống PCCC",who:["Claude","Bạn"],plain:"Xem công trình có những hệ thống PCCC nào (báo cháy, chữa cháy, đèn thoát hiểm…) và so với các bảng hệ thống chính thức. Các bảng này đã trích sẵn điều khoản kỹ thuật của tiêu chuẩn.",
+ anal:"Như xem bệnh nhân đang dùng thuốc gì rồi so với toa chuẩn. Toa chuẩn đã có, nhưng danh sách ai bắt buộc phải dùng thuốc nào (Phụ lục A của TCVN 3890) thì chưa có.",
+ inp:["Bản vẽ hệ thống (báo cháy, EX–EM, chữa cháy, hút khói, điện)","Bảng hệ thống B34–B50"],out:["Danh sách hệ thống có/không","Các bảng hệ thống đã điền kết luận"],
+ steps:["Liệt kê các hạng mục có trong bộ bản vẽ PCCC.","Mỗi hệ thống mở bảng của nó (ví dụ đèn sự cố: B46) bằng công cụ đọc bảng, lấy từng dòng và cột 'Nội dung quy định'.","So với bản vẽ hệ thống, viết kết luận và lý do có số ngay tại dòng.","Câu hỏi 'công trình này có bắt buộc phải có hệ thống X không' phụ thuộc Phụ lục A của TCVN 3890:2023 (chưa nạp): để CẦN XÁC NHẬN, không đoán."],
+ files:["bang_doi_chieu/he_thong/B34…B50.md","scripts/bang_doi_chieu_tool.py"],
+ ex:"Hồ sơ PCCC Hoàng Anh 1 có các hạng mục: báo cháy, đèn EX–EM (chiếu sáng sự cố và chỉ dẫn), bình chữa cháy, hệ thống âm thanh thông báo, chữa cháy sprinkler, hút khói, chống sét, cấp điện. Bảng B46 yêu cầu độ rọi trung bình đường thoát nạn tối thiểu 1 lux (TCVN 13456:2022, điều 5.1.2); thuyết minh Hoàng Anh 1 tính được 12,19 lux nhưng diện tích lối thoát ghi 1 601,7 m² mà phép tính lại dùng 820 m², nên cần xác nhận.",
+ pit:["Có hệ thống không có nghĩa là hệ thống đạt: phải so từng dòng của bảng (độ rọi, khoảng cách đầu báo cháy…).","Cờ 'có sprinkler' ở nhánh B phải được kiểm chứng từ bản vẽ chữa cháy, vì nó ảnh hưởng nhiều yêu cầu khác."]},
+{n:4,t:"Đo hình học",who:["Claude","Chương trình"],plain:"Đo các đoạn đường thoát nạn trên mặt bằng: từ chỗ xa nhất đến lối ra, độ dài từng đoạn, đường chéo lớn nhất, khoảng giữa hai lối ra.",
+ anal:"Như dùng thước đo vòng bụng. Phải đo đúng chỗ, đúng cách thì mới so với chuẩn được.",
+ inp:["Mặt bằng từng tầng","Kích thước trục trên bản vẽ"],out:["Số đo (ước lượng ±1–2 m)","Đường thoát nạn vẽ trên bản vẽ"],
+ steps:["Lấy tỉ lệ từ kích thước trục (ví dụ trục 1 đến 6 dài 22 200 mm ứng với bao nhiêu điểm ảnh).","Vẽ đường đi theo tâm hành lang, không đi xuyên tường, vòng qua cột và lõi thang.","Xác định điểm xa nhất. Karaoke: đo từ cửa phòng; vẫn đo thêm từ điểm xa nhất trong phòng để tham khảo.","Cộng các đoạn L tới lối ra gần nhất, và đo về lối ra còn lại.","Đo đường chéo lớn nhất D và khoảng cách giữa hai lối ra (cạnh xa, và cạnh gần nếu cạnh xa dưới 7 m).","Tính diện tích đường thoát nạn S1 và mật độ người."],
+ files:["skills/MOD_tinh_toan_khoang_cach.md","skills/PHU_LUC_G_QCVN06.md","scripts/annotate_karaoke.py"],
+ ex:"Tầng trệt Hoàng Anh 1: điểm xa nhất cạnh cửa phòng VIP 3 đi về lối 1 là 13,4 + 7 = 20,4 m; về lối 2 chỉ 7,4 m. Diện tích đường thoát nạn 64,46 m², 92 người nên mật độ 1,43 người/m². Đường chéo D = 32,3 m.",
+ pit:["Không đo chim bay, phải đo theo đường đi thật.","Mọi số đo phải ghi 'ước lượng ±1–2 m, cần đo lại trên CAD'.","Thang ngoài nhà: chỉ tính tới cửa ra ngoài, không cộng thêm trong buồng thang."]},
+{n:5,t:"Đối chiếu bằng bảng theo công năng",who:["Claude"],plain:"Mở bảng đối chiếu của đúng công năng, so từng dòng yêu cầu với thiết kế và viết kết luận cùng lý do ngay tại dòng đó.",
+ anal:"Như bác sĩ điền phiếu: chỉ số, mức chuẩn, kết quả, nhận xét. Mỗi dòng có kết luận riêng.",
+ inp:["Bảng yêu cầu Y01–Y24","Số đo ở bước 4","Bảng đối chiếu chính thức của công năng (B15)"],out:["Bảng đối chiếu đã điền kết luận"],
+ steps:["Tạo bảng làm việc từ mẫu chính thức bằng công cụ (<code>lamviec B15</code> cho karaoke). Khung giữ nguyên, có thêm cột Tra ở và Khung.","Mỗi dòng: điền cột <b>Nội dung thiết kế</b> từ bảng thông tin, không đọc lại bản vẽ. Cột <b>Tra ở</b> cho biết mở module nào.","So với cột <b>Yêu cầu</b>, viết <b>Kết luận</b>: ĐẠT, CHƯA ĐẠT, CẦN XÁC NHẬN hoặc KHÔNG ÁP DỤNG.","Viết <b>Lý do</b> có số, ví dụ 'Khoảng cách thiết kế (17,7 m) bé hơn số liệu yêu cầu (19,1 m)'.","Dòng CHƯA ĐẠT và CẦN XÁC NHẬN: gán một <b>số khung</b> để bước 6 khoanh."],
+ files:["bang_doi_chieu/B15_karaoke_vu_truong.md","scripts/bang_doi_chieu_tool.py"],
+ ex:"Dòng 6.4 'ngăn cháy hành lang giữa thoát nạn' (điều 3.3.5): bảng ký hiệu cửa ghi cửa D3 (0,8 × 2,1 m) có giới hạn chịu lửa '-' và mở ra hành lang. Kết luận CHƯA ĐẠT, lý do 'cửa D3 mở vào hành lang không phải cửa chống cháy', khung số 1.",
+ pit:["Dòng thiếu dữ liệu không được ghi ĐẠT. Ghi CẦN XÁC NHẬN.","Không tự đặt khung bảng mới: dùng đúng khung của mẫu chính thức (TT, nội dung đối chiếu, nội dung thiết kế, quy định, khoản điều, kết luận).","Lý do không có số hoặc không có nguồn là chưa đủ."]},
+{n:6,t:"Ghi chú lên bản vẽ",who:["Chương trình","Claude"],plain:"Khoanh chữ nhật tại đúng chỗ chưa đạt hoặc nghi vấn, đánh số và viết comment. Vẽ thêm mũi tên đường thoát nạn.",
+ anal:"Như bác sĩ khoanh đỏ trên phim X-quang chỗ bất thường và ghi chú bên cạnh.",
+ inp:["Bảng đối chiếu đã điền","Số đo và đường thoát nạn","Bản vẽ gốc"],out:["PDF có khung, chú thích và danh sách comment ở lề"],
+ steps:["Với mỗi dòng CHƯA ĐẠT hoặc CẦN XÁC NHẬN, tìm vị trí tương ứng trên mặt bằng.","Vẽ khung chữ nhật tại đó, đánh số trùng với số khung trong bảng.","Viết comment một hai câu: nói điều sai và số liệu.","Vẽ mũi tên đậm là hướng thoát nạn, chấm đen là điểm xa nhất, tam giác là lối ra.","Liệt kê các comment theo số ở lề bản vẽ.","Xuất ảnh để xem lại, tránh chữ chồng nhau."],
+ files:["scripts/annotate_karaoke.py (nên chuyển vào src/)"],
+ ex:"Khung số 1 đặt quanh cửa D3 gần khu WC với comment 'Cửa mở vào hành lang không phải cửa chống cháy (GHCL: -), yêu cầu cửa chống cháy theo 3.3.5'. Dòng 6.4 của bảng ghi 'Khung 1'.",
+ pit:["Số khung trên bản vẽ phải trùng số khung trong bảng.","Mục ĐẠT không cần khoanh, trừ khi sát giới hạn."]},
+{n:7,t:"Rà soát chéo",who:["Claude"],plain:"Một lượt kiểm tra thứ hai để bắt lỗi của chính bảng kết luận và lỗi của bản vẽ.",
+ anal:"Như bác sĩ thứ hai xem lại phiếu trước khi trả bệnh nhân.",
+ inp:["Bảng đối chiếu","PDF đã ghi chú","Bảng thông tin công trình"],out:["Danh sách lỗi cần sửa","Điểm nghi vấn gửi bạn"],
+ steps:["Số liệu nào xuất hiện hai nơi với giá trị khác nhau.","Ghi chú trên bản vẽ có mâu thuẫn với hình vẽ không (ví dụ ghi 'thang thoát nạn' nhưng ô đó là lỗ thông tầng).","Mỗi dòng có đủ nguồn và số không. Dòng ĐẠT nào dựa trên số 'tạm tính' mà chưa ghi.","Con số sát giới hạn cho phép thì nêu rõ.","Với karaoke: rà lại toàn bộ bảng ký hiệu cửa, cửa nào mở ra hành lang mà GHCL '-' đều phải xét."],
+ files:["skills/SKILL_thoat_nan.md (mục 5)"],
+ ex:"Bản Hoàng Anh 1 ghi số người 92 và 105 trong khối tính toán nhưng 93 trong ghi chú. Bạn đã xác nhận đó là vẽ nhầm. Hệ thống ghi nhận là lỗi ghi chú vô ý, không phải lỗi thiết kế.",
+ pit:["Lỗi vẽ nhầm vẫn phải nêu để người thiết kế sửa, nhưng không tự suy ra số đúng."]},
+{n:8,t:"Xuất kết quả và học",who:["Claude","Bạn"],plain:"Trả kết quả cho bạn, và ghi lại những gì mới học để lần sau làm đúng ngay.",
+ anal:"Như phát kết quả cho bệnh nhân, rồi bác sĩ ghi thêm kinh nghiệm vào sổ.",
+ inp:["Bảng đối chiếu cuối cùng","PDF đã ghi chú","Điều bạn sửa hoặc xác nhận"],out:["Báo cáo","Ca mẫu","Cập nhật skill và tri thức"],
+ steps:["Xuất báo cáo: bảng kết luận từng tầng, danh sách lỗi, điểm cần xác nhận, giới hạn của phép đo.","Điều bạn xác nhận hoặc sửa (ví dụ 'thang ngoài nhà chỉ tính tới cửa ra ngoài') ghi vào skill hoặc ghi nhớ.","Điều khoản mới học: nguyên văn vào module, định nghĩa vào file định nghĩa, trường mới vào danh mục trường, dòng kiểm tra mới vào bảng công năng.","Công trình đã thẩm định xong lưu thành ca mẫu để so khi sửa skill."],
+ files:["knowledge/dinh-nghia/","memory/","skills/VI_DU_hoang_anh_1.md"],
+ ex:"Sau Hoàng Anh 1, hệ thống ghi thêm: ngoại lệ WC của điều 3.2.10 chỉ miễn chiều mở cửa, không miễn cửa chống cháy; và thang loại 1 L1 khác thang loại 3.",
+ pit:["Không chép cùng một nội dung vào hai file. Mỗi thứ có một nhà."]}
+];
+var CHAINS=[
+{t:"Ví dụ A: số lối thoát nạn",s:[["Đọc từ bản vẽ","Bảng thống kê: nhóm nhà F2.1, 93 người lớn nhất. Mặt bằng tầng trệt: 2 cửa lối ra D1 và D2."],["Ghi vào bảng thông tin","A01 = F2.1; A08 = 93; C01 = D1 (1,9 m), D2 (1,5 m)."],["Suy ra yêu cầu","Y02: tầng F2.1 cần ít nhất 2 lối (3.2.6.1). Y03: 93 người vượt 20 người nên không được chỉ 1 lối (3.2.6.2)."],["Dòng bảng","T01: yêu cầu 2 lối, thiết kế 2 lối."],["Kết luận","ĐẠT. Không cần khoanh khung."]]},
+{t:"Ví dụ B: cửa chống cháy trên hành lang",s:[["Đọc từ bản vẽ","Bảng ký hiệu cửa: D3 là cửa 0,8 × 2,1 m, giới hạn chịu lửa '-'. Trên mặt bằng D3 mở ra hành lang giữa trục E và D."],["Ghi vào bảng thông tin","C04 = D3, GHCL '-', mở ra hành lang."],["Suy ra yêu cầu","Y12: nhà karaoke phải ngăn hành lang thoát nạn bằng bộ phận ngăn cháy; mọi cửa mở ra hành lang, kể cả WC, kho, phải là cửa chống cháy (3.3.5)."],["Dòng bảng","D06: yêu cầu cửa chống cháy, thiết kế cửa thường."],["Kết luận","CHƯA ĐẠT, lý do: cửa D3 mở vào hành lang không phải cửa chống cháy. Khung số 1 quanh cửa D3."]]},
+{t:"Ví dụ C: khoảng cách thoát nạn",s:[["Đo trên bản vẽ","Từ cửa phòng xa nhất đi về lối 1: 13,4 m + 7 m = 20,4 m. Diện tích đường thoát nạn 64,46 m², 92 người."],["Ghi vào bảng thông tin","C06 = 20,4 m (ước lượng ±1–2 m); mật độ = 92/64,46 = 1,43 người/m²."],["Suy ra yêu cầu","Y06: bậc chịu lửa II, mật độ không quá 2 người/m², cửa phòng nằm giữa hai lối ra: giới hạn 60 m (Bảng G.2a)."],["Dòng bảng","D01: yêu cầu ≤ 60 m, thiết kế 20,4 m."],["Kết luận","ĐẠT. Bản vẽ ghi giới hạn 40 m không khớp Bảng G.2a, nên ghi thêm một điểm nghi vấn nhỏ, kết luận không đổi."]]}
+];
+var ROWS=[
+["7.1.3","Số lối thoát nạn từng tầng (tầng trên)","3.2.6.1","Tầng F2.1: ≥ 2 lối ra","2 lối (D1, D2)","ĐẠT","Tầng F2.1, 93 người, thiết kế có 2 lối","–","ok"],
+["7.1.5","Bố trí phân tán","3.2.8","L ≥ ⅓D vì có sprinkler (D = 32,3 m, yêu cầu ≥ 10,8 m)","L ≈ 21 m","ĐẠT","21 m lớn hơn 10,8 m (cũng lớn hơn ½D = 16,2 m)","–","ok"],
+["7.1.9","Khoảng cách xa nhất đến lối thoát nạn gần nhất","G.2a (mẫu ghi 'Bảng G2b')","≤ 60 m (bậc II, mật độ ≤ 2 người/m², cửa giữa 2 lối)","20,4 m","ĐẠT","20,4 m nhỏ hơn 60 m. Mẫu ghi G2b nhưng nội dung là Bảng G.2a; bản vẽ ghi 40 m không khớp bảng","–","ok"],
+["6.4","Ngăn cháy hành lang giữa thoát nạn","3.3.5","Karaoke: mọi cửa mở ra hành lang phải là cửa chống cháy","Cửa D3: GHCL '-'","CHƯA ĐẠT","Cửa D3 mở vào hành lang không phải cửa chống cháy","1","bad"],
+["7.3.2","Chủng loại thang bộ","3.4.13","Cao PCCC ≤ 28 m: buồng thang thông thường L1 là đủ","L1 (suy từ bản vẽ), cao 7,6 m","ĐẠT","Không yêu cầu N1. Loại thang suy từ bản vẽ, cần bạn xác nhận","–","ok"],
+["6.7","Vật liệu hoàn thiện","3.3.4, B.8","F2.1: tường trần hành lang CV1; sàn CV2","Bản vẽ chỉ ghi trần thạch cao không cháy","CẦN XÁC NHẬN","Chưa có vật liệu tường và sàn hành lang","2","ask"],
+["14.1","Chiếu sáng sự cố, độ rọi đường thoát nạn","TCVN 13456:2022, 5.1.2","Độ rọi trung bình ≥ 1 lux (đường thoát nạn rộng đến 2 m)","Thuyết minh tính 12,19 lux","CẦN XÁC NHẬN","Diện tích lối thoát ghi 1 601,7 m² nhưng phép tính dùng 820 m²","3","ask"]
+];
+var KN=[
+["Quy trình","skills/SKILL_quy_trinh_tham_dinh.md","Thứ tự 9 giai đoạn, nguyên tắc, 4 loại kết luận","Mọi giai đoạn"],
+["Quy trình","skills/SKILL_thoat_nan.md","Cách xác định lối ra, điểm xa nhất, đối chiếu, khoanh comment; bảng chỉ mục các module","1, 4, 7"],
+["Tri thức","knowledge/truong-thong-tin.md","Danh mục trường thông tin (nhánh A, B, C), quy tắc suy ra Y01–Y24, bảng ai tạo ai dùng","1, 2"],
+["Tri thức","knowledge/dinh-nghia/dinh-nghia.md","Định nghĩa: gian phòng chung, loại thang, buồng thang L1…N3, khoang đệm, hành lang bên…","1, 2, 5"],
+["Điều khoản","skills/MOD_loi_ra_va_cua.md","Điều 3.1, 3.2.1 đến 3.2.4, 3.2.9 đến 3.2.14: lối ra, loại cửa, chiều mở, lối khẩn cấp","2, 5"],
+["Điều khoản","skills/MOD_so_luong_loi_ra.md","Điều 3.2.5 đến 3.2.7: số lối ra, khi nào được 1 lối","2, 5"],
+["Điều khoản","skills/MOD_tinh_toan_khoang_cach.md + PHU_LUC_G_QCVN06.md","Điều 3.2.8 và toàn bộ Phụ lục G: khoảng cách, mật độ, bề rộng, số người","2, 4, 5"],
+["Điều khoản","skills/MOD_hanh_lang_bao_che.md","Điều 3.3: hành lang, bao che, cửa chống cháy, karaoke, bề rộng","2, 5, 7"],
+["Điều khoản","skills/MOD_cau_thang_buong_thang.md + MOD_hinh_Phu_luc_I_cau_thang.md","Điều 3.4, loại thang, khi nào cần N1, hình Phụ lục I","2, 5"],
+["Điều khoản","skills/MOD_vat_lieu_hoan_thien.md","Điều 3.3.4, 3.5 và Phụ lục B","2, 5"],
+["Điều khoản","skills/MOD_chong_khoi_PL_D.md","Phụ lục D: hút xả khói, cấp không khí chống khói","2, 5"],
+["Điều khoản","skills/SKILL_ngan_chay_cong_nang.md","Điều 4.5 ngăn cháy giữa các công năng, tỉ lệ cửa trên tường","2, 5"],
+["Đối chiếu","bang_doi_chieu/DANH_MUC.md","Chọn bảng chính thức theo công năng, chiều cao và theo hệ thống","2, 3"],
+["Đối chiếu","bang_doi_chieu/B15_karaoke_vu_truong.md","Bảng làm việc cho karaoke, vũ trường (giữ nguyên khung chính thức, 18 mục lớn, thêm cột Tra ở, Khung)","5, 6"],
+["Đối chiếu","bang_doi_chieu/he_thong/B34…B50.md","Bảng hệ thống: chống tụ khói, báo cháy, bơm, họng nước, sprinkler, bình, đèn sự cố, nguồn điện, chống sét, thang máy chữa cháy","3"],
+["Công cụ","scripts/bang_doi_chieu_tool.py","Đọc bảng .docx tiết kiệm token: khung, một dòng, tìm từ khóa, tạo bảng làm việc","2, 3, 5"],
+["Ví dụ","skills/VI_DU_hoang_anh_1.md, ket_qua/","Ca đã làm để so cách làm","8"]
+];
+var GL=[
+["PCCC","Phòng cháy chữa cháy."],
+["QCVN 06","Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình. Văn bản dùng ở đây là bản có sửa đổi 01 năm 2023."],
+["Công năng, nhóm nhà (F2.1…)","Mục đích sử dụng của nhà, ký hiệu theo chữ F và số. F2.1 gồm nơi giải trí như karaoke, vũ trường. Công năng quyết định bảng yêu cầu áp dụng."],
+["Chiều cao PCCC","Chiều cao dùng để xét yêu cầu PCCC, ghi riêng trong bảng thống kê. Khác chiều cao mái. Mốc quan trọng là 28 m."],
+["Bậc chịu lửa (I–V)","Mức chịu lửa chung của cả nhà. Bậc I chịu lửa tốt nhất, bậc V kém nhất."],
+["Cấp nguy hiểm cháy kết cấu (S0–S3)","Mức độ kết cấu nhà làm cháy lan. S0 là tốt nhất, không góp phần làm cháy lan."],
+["GHCL, EI 60, REI 150","Giới hạn chịu lửa. EI 60 nghĩa là cấu kiện giữ kín lửa và khói, đồng thời không truyền nhiệt, ít nhất 60 phút khi cháy. REI thêm khả năng chịu lực. Cửa chống cháy FD1 trong ví dụ là EI 60."],
+["Lối ra thoát nạn","Cửa, đường mà người dùng để thoát khi có cháy và đáp ứng điều kiện của quy chuẩn (tầng 1 dẫn ra ngoài, tầng khác dẫn vào buồng thang). Cửa không được quy chuẩn công nhận thì không tính."],
+["Lối ra khẩn cấp","Lối ra tăng thêm an toàn nhưng không được dùng để tính toán thoát nạn."],
+["Đường thoát nạn","Đường đi từ chỗ người ở tới lối ra. Hành lang, sảnh nằm trên đường này phải được ngăn cháy."],
+["Hành lang bên, hành lang trong","Hành lang bên có một phía thông gió ra ngoài. Hành lang trong kín, không có lỗ mở ra ngoài."],
+["Cầu thang loại 1, 2, 3","Loại 1 nằm trong buồng thang kín; loại 2 nằm trong nhà nhưng để hở; loại 3 nằm ngoài nhà để hở."],
+["Buồng thang L1, L2, N1, N2, N3","L1, L2 là buồng thang thông thường (lấy sáng qua tường ngoài hoặc qua mái). N1, N2, N3 là buồng thang không nhiễm khói, có khoang đệm hoặc tăng áp. Chỉ bắt buộc N1 khi nhà cao hơn 28 m (và một số trường hợp khác)."],
+["Khoang đệm","Gian nhỏ có hai cửa ngăn cháy giữa hành lang và buồng thang, giúp khói không vào buồng thang."],
+["Sprinkler","Hệ thống vòi phun nước tự động. Có sprinkler toàn nhà thì một số yêu cầu được nới (ví dụ khoảng cách hai lối ra chỉ cần một phần ba đường chéo)."],
+["Gian phòng chung","Phòng tổ chức sự kiện cho nhóm người không quen thuộc nơi đó. Phòng karaoke được xem là gian phòng chung."],
+["½D, ⅓D","D là đường chéo lớn nhất của tầng hoặc phòng. Hai lối ra phải cách nhau ít nhất một nửa D, hoặc một phần ba D nếu toàn nhà có sprinkler, để một đám cháy không chặn cả hai lối."],
+["Mật độ dòng người","Số người cần thoát chia cho diện tích đường thoát nạn. Dùng để tra khoảng cách tối đa cho phép."],
+["Điểm xa nhất","Chỗ xa lối ra nhất mà vẫn có người. Đo từ đó tới lối ra gần nhất để so với giới hạn. Riêng karaoke, đo từ cửa phòng."],
+["Hành lang cụt","Hành lang chỉ đi được một hướng. Giới hạn chiều dài thoát nạn ngắn hơn hành lang có lối ra hai đầu."],
+["CV0 đến CV5","Cấp nguy hiểm cháy của vật liệu hoàn thiện. CV0 an toàn nhất. Bảng B.8 quy định mỗi loại đường thoát nạn phải dùng cấp nào."],
+["Hút xả khói, thoát khói tự nhiên","Hút xả khói dùng quạt. Thoát khói tự nhiên dùng ô cửa mở khi cháy. Quy chuẩn nói khu vực nào phải có (ví dụ hành lang dài trên 15 m không thông gió tự nhiên)."],
+["Khoang cháy","Phần nhà được ngăn cháy với phần khác để lửa không lan."],
+["Bảng đối chiếu chính thức","Mẫu biểu 'đối chiếu / thẩm duyệt thiết kế về phòng cháy và chữa cháy' có sẵn cho từng loại công trình và từng hệ thống. Hệ thống dùng nguyên khung này để người thẩm duyệt quen mắt, không tự đặt khung khác."],
+["Cột Tra ở","Cột thêm vào bảng làm việc cho biết dòng đó nên mở module nào của hệ thống để lấy nguyên văn điều khoản."]
+];
+var TODO=[
+"Toàn văn TCVN 3890:2023, đặc biệt Phụ lục A (danh mục nhà phải trang bị hệ thống), chưa nạp. Chỉ có nguyên văn các điều đã trích trong bảng hệ thống. Vì vậy 'có bắt buộc phải có hệ thống X' còn CẦN XÁC NHẬN.",
+"Các bảng đối chiếu .doc (B20, B26–B30, B40–B44, B47) chưa đọc được; cần lưu thành .docx.",
+"Bảng công năng khác (khách sạn, văn phòng, thương mại…) đã có mẫu chính thức (B4–B14); tạo bảng làm việc bằng công cụ khi cần.",
+"Phụ lục A, C, E, F, H và Điều 4 đến 7 của QCVN 06 (trừ 4.5) chưa nạp.",
+"Điều 3.3.5, trường hợp hành lang bên không được ngăn cách bằng bộ phận ngăn cháy: còn yêu cầu khác chưa đọc hết.",
+"Công cụ vẽ ghi chú còn nằm ở scripts/annotate_karaoke.py, cần chuyển thành một module gọn và chạy theo bảng đối chiếu.",
+"Bảng thông tin công trình chưa có tệp dữ liệu máy đọc được (YAML); hiện là bảng chữ. Có thể chuyển thành tệp để chương trình tự đọc."
+];
+function el(i){return document.getElementById(i)}
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}
+var cls={ok:"c-ok",bad:"c-bad",ask:"c-ask",na:"c-na"};
+// pipeline
+el("pipe").innerHTML=STAGES.map(function(s,i){
+ var ask=(s.n==1||s.n==3||s.n==7)?'<div class="ask"><b>Có thể hỏi bạn:</b> '+(s.n==1?"trường nào thiếu hoặc bản vẽ mâu thuẫn → hỏi, chưa trả lời thì giữ trạng thái 'thiếu'.":s.n==3?"hệ thống nào có thật, hệ thống nào còn chờ quy chuẩn.":"điểm nghi vấn cần bạn xác nhận trước khi chốt.")+'</div>':"";
+ return '<div class="row"><div class="io"><b>Đầu vào</b>'+s.inp.map(esc).join("<br>")+'</div>'+
+ '<div class="stage" data-n="'+s.n+'" tabindex="0"><span class="n">'+s.n+'</span><span class="t">'+esc(s.t)+'</span><p>'+esc(s.plain)+'</p><p>'+s.who.map(function(w){return '<span class="who">'+w+'</span>'}).join("")+'</p></div>'+
+ '<div class="io"><b>Đầu ra</b>'+s.out.map(esc).join("<br>")+'</div></div>'+ask+(i<STAGES.length-1?'<div class="arrow">chuyển dữ liệu: '+esc(s.out[0])+'</div>':"");
+}).join("");
+// stages
+el("stages").innerHTML=STAGES.map(function(s){
+ return '<details class="sd" id="g'+s.n+'"><summary><span class="chip c-na" style="background:var(--accent)">GĐ '+s.n+'</span>'+esc(s.t)+'</summary><div class="in">'+
+ '<p><b>Mục đích.</b> '+esc(s.plain)+'</p>'+
+ '<div class="anal"><b>So sánh đời thường.</b> '+esc(s.anal)+'</div>'+
+ '<p>'+s.who.map(function(w){return '<span class="who">Ai làm: '+w+'</span>'}).join("")+'</p>'+
+ '<div class="grid2"><div><h3>Các bước</h3><ol class="st">'+s.steps.map(function(x){return '<li>'+x+'</li>'}).join("")+'</ol></div>'+
+ '<div><h3>Đầu vào</h3><ul class="pl">'+s.inp.map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul><h3>Đầu ra</h3><ul class="pl">'+s.out.map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul><h3>File dùng</h3><ul class="pl">'+s.files.map(function(x){return '<li><code>'+esc(x)+'</code></li>'}).join("")+'</ul></div></div>'+
+ '<div class="ex"><b>Ví dụ thật (Hoàng Anh 1).</b> '+s.ex+'</div>'+
+ '<div class="warn"><b>Lỗi hay gặp.</b><ul class="pl">'+s.pit.map(function(x){return '<li>'+x+'</li>'}).join("")+'</ul></div></div></details>';
+}).join("");
+// chains
+el("chains").innerHTML=CHAINS.map(function(c){
+ return '<div class="box"><h3 style="margin-top:0">'+esc(c.t)+'</h3><div class="chain">'+c.s.map(function(x,i){return '<div class="link"><b>'+(i+1)+'. '+esc(x[0])+'</b>'+esc(x[1])+'</div>'}).join("")+'</div></div>';
+}).join("");
+// table
+el("bangbody").innerHTML=ROWS.map(function(r){return '<tr><td>'+r[0]+'</td><td>'+esc(r[1])+'</td><td>'+esc(r[2])+'</td><td>'+esc(r[3])+'</td><td>'+esc(r[4])+'</td><td><span class="chip '+cls[r[8]]+'">'+r[5]+'</span><br>'+esc(r[6])+'</td><td>'+esc(r[7])+'</td></tr>'}).join("");
+el("knbody").innerHTML=KN.map(function(r){return '<tr><td>'+esc(r[0])+'</td><td><code>'+esc(r[1])+'</code></td><td>'+esc(r[2])+'</td><td>'+esc(r[3])+'</td></tr>'}).join("");
+function gl(f){el("gl").innerHTML=GL.filter(function(g){return !f||(g[0]+" "+g[1]).toLowerCase().indexOf(f.toLowerCase())>=0}).map(function(g){return '<dt>'+esc(g[0])+'</dt><dd>'+esc(g[1])+'</dd>'}).join("")||'<dd class="mute">Không có từ khớp.</dd>'}
+gl("");el("q").oninput=function(){gl(this.value)};
+el("todo-l").innerHTML=TODO.map(function(t){return '<li>'+esc(t)+'</li>'}).join("");
+// interactions
+document.querySelectorAll(".stage").forEach(function(s){
+ function go(){var d=el("g"+s.dataset.n);d.open=true;d.scrollIntoView({behavior:"smooth",block:"start"})}
+ s.onclick=go;s.onkeydown=function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}}
+});
+el("openAll").onclick=function(){document.querySelectorAll("details.sd").forEach(function(d){d.open=true})};
+el("closeAll").onclick=function(){document.querySelectorAll("details.sd").forEach(function(d){d.open=false})};
+el("theme").onclick=function(){var r=document.documentElement,c=r.getAttribute("data-theme");var dark=c?c==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;r.setAttribute("data-theme",dark?"light":"dark")};
+</script></body></html>
