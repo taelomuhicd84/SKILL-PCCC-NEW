@@ -1,8 +1,9 @@
 // Gọi runner cục bộ (http://127.0.0.1:8787) – runner điều khiển Claude Code hoặc Gemini trên máy người dùng.
 import type { TrangChu } from "@pccc/shared";
 
-export type Engine = "gemini-api" | "claude" | "gemini" | "thu-cong";
+export type Engine = "gemini-api" | "claude" | "gemini" | "hon-hop" | "thu-cong";
 export type EngineRunner = Exclude<Engine, "thu-cong">;
+export type ViecLoWeb = { job: string; prompt: string; engine?: "claude" | "gemini"; prompt_claude?: string };
 export const RUNNER = (() => { try { return localStorage.getItem("pccc.runner") || "http://127.0.0.1:8787"; } catch { return "http://127.0.0.1:8787"; } })();
 
 export interface SucKhoe { ok: boolean; claude: boolean; claude_token?: boolean; gemini: boolean; gemini_cookie?: boolean; gemini_key?: boolean; ghi_chu?: string }
@@ -57,7 +58,7 @@ export const moDangNhapClaude = () => post<{ huong_dan: string }>("/claude/dang-
 
 // ---- chạy lô song song ----
 export interface TrangThaiLo { tong: number; xong: Record<string, string>; loi: Record<string, string>; dang: string[]; het: boolean }
-export const batDauLo = (engine: EngineRunner, phien: string, jobs: { job: string; prompt: string }[], luong?: number) =>
+export const batDauLo = (engine: EngineRunner, phien: string, jobs: ViecLoWeb[], luong?: number) =>
   post<{ lo: string }>("/lo", { engine, phien, jobs, luong });
 export async function xemLo(id: string): Promise<TrangThaiLo> {
   const r = await fetch(`${RUNNER}/lo/${id}`);

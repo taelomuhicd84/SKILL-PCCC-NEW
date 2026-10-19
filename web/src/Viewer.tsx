@@ -40,7 +40,10 @@ export function Viewer({ pdf, chu, dong, trang, setTrang, chon }: {
     <div className="viewer">
       <div className="viewer-bar">
         <button onClick={() => setTrang(Math.max(1, trang - 1))}>‹</button>
-        <span>Trang {trang}/{pdf.numPages}</span>
+        <span>Trang <input key={trang} type="number" min={1} max={pdf.numPages} defaultValue={trang} title="Gõ số trang rồi Enter"
+          style={{ width: 56, textAlign: "center" }} onFocus={(e) => e.target.select()}
+          onKeyDown={(e) => e.key === "Enter" && e.currentTarget.blur()}
+          onBlur={(e) => { const n = Math.round(Number(e.target.value)); if (n >= 1 && n <= pdf.numPages) setTrang(n); else e.target.value = String(trang); }} />/{pdf.numPages}</span>
         <button onClick={() => setTrang(Math.min(pdf.numPages, trang + 1))}>›</button>
         <button onClick={() => setZoom((z) => Math.max(0.5, z / 1.25))}>−</button>
         <button onClick={() => setZoom((z) => Math.min(4, z * 1.25))}>+</button>

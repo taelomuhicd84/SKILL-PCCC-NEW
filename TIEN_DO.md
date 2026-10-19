@@ -29,6 +29,7 @@ Nhịp tim: 2026-10-19 (sau reset hạn mức: hết việc tự làm được, 
 - 2026-10-19: sửa gán mục 15; thêm knowledge/bai-hoc.md (8 bài học HA1) + quy tắc 8 'đủ dữ liệu thì kết luận rõ'; chạy thật A0 + mục 6 (Sonnet) – khớp kết quả tay.
 
 - 2026-10-19: so_do/so_do_kien_truc_ngang.html – sơ đồ ngang dạng node, thêm/sửa/xoá/nối module, thống kê, xuất/nhập JSON (80 module: 35 có, 12 một phần, 33 chưa). Netlify: netlify.toml + web/dist; chờ user kéo thả/nối repo.
+- 2026-10-20: web tự chạy toàn bộ khi chọn PDF; chế độ Hỗn hợp (Claude 3 luồng + Gemini web 10 tab, lỗi Gemini tự chuyển Claude); runner phục vụ web ở :8787 + chay.bat; runner không sập khi lỗi lạc; ô số trang gõ được; xuất PDF dùng comment Square + Popup. Chi tiết và việc tiếp: BAT_DAU_PHIEN_MOI.md.
 
 ## Ghi chú kỹ thuật
 - Mục lớn (1–18) của bảng công năng KHÔNG cố định chỉ số và số mục khác nhau giữa các bảng (B15 có 18, B4.1 có 17, B17 có 19) → chia mục theo dòng TT là số nguyên tăng dần, gán agent theo từ khóa tiêu đề.

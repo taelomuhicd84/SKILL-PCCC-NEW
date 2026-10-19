@@ -9,6 +9,7 @@ export const SEL = {
   nutGui: ["button[aria-label='Gửi tin nhắn']", "button[aria-label*='Gửi' i]", "button[aria-label*='Send' i]"],
   nutDung: ["button[aria-label*='Dừng' i]", "button[aria-label*='Stop' i]"],
   nutTamThoi: ["button[aria-label='Cuộc trò chuyện tạm thời']", "button[aria-label*='Temporary chat' i]"],
+  chuaDangNhap: ["button:text-is('Đăng nhập')", "a:text-is('Đăng nhập')", "button:text-is('Sign in')", "a:text-is('Sign in')"], // chế độ khách: cookie đã hết hạn
   traLoi: ["model-response"],
   khoiMa: ["code-block code", "pre code", "code-block", "pre"], // trong model-response cuối
   tepDangTai: ["[aria-label*='Đang tải' i]", "[aria-label*='Uploading' i]", "mat-progress-spinner", ".loading"],

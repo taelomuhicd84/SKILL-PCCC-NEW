@@ -14,7 +14,7 @@ export type EngineLo = "claude" | "gemini" | "gemini-api";
 const LUONG_MAC_DINH: Record<EngineLo, number> = { "gemini-api": Number(process.env.PCCC_GEMINI_API_LUONG ?? 10), claude: Number(process.env.PCCC_CLAUDE_LUONG ?? 3), gemini: Number(process.env.PCCC_GEMINI_LUONG ?? 1) };
 import { nghi, ngauNhien } from "./engines/nguoi_that";
 
-export interface ViecLo { job: string; prompt: string }
+export interface ViecLo { job: string; prompt: string; engine?: "claude" | "gemini"; prompt_claude?: string }
 export interface TrangThaiLo { tong: number; xong: Record<string, string>; loi: Record<string, string>; dang: string[]; het: boolean; bat_dau: string }
 
 const bam = (s: string) => createHash("sha1").update(s).digest("hex").slice(0, 16);
@@ -32,7 +32,7 @@ function luuTam(dir: string, v: ViecLo, tra: string) {
   writeFileSync(path.join(dir, "jobs", `${tenJob(v.job)}.prompt.sha`), bam(v.prompt), "utf8");
 }
 
-export async function chayLo(engine: EngineLo, dir: string, viec: ViecLo[], tt: TrangThaiLo, luong?: number): Promise<void> {
+export async function chayLo(engine: EngineLo, dir: string, viec: ViecLo[], tt: TrangThaiLo, luong?: number, dongLo = true): Promise<void> {
   const conLai: ViecLo[] = [];
   for (const v of viec) { const c = daCo(dir, v); if (c != null) tt.xong[v.job] = c; else conLai.push(v); }
   if (conLai.length < viec.length) log(`lô: dùng lại ${viec.length - conLai.length} job đã có`);
@@ -43,7 +43,8 @@ export async function chayLo(engine: EngineLo, dir: string, viec: ViecLo[], tt: 
   const worker = async (i: number) => {
     let tab: Awaited<ReturnType<typeof moTab>> | null = null;
     let soViec = 0;
-    if (engine !== "claude") await nghi(i * 1500, i * 1500 + 1000); // khởi động lệch nhau, không gửi dồn một lúc
+    if (engine === "gemini") await nghi(i * 4000, i * 7000); // mở tab cách nhau 4–7 s/tab, không mở dồn một lúc
+    else if (engine === "gemini-api") await nghi(i * 1500, i * 1500 + 1000);
     while (!dung) {
       const v = conLai.shift();
       if (!v) break;
@@ -81,8 +82,21 @@ export async function chayLo(engine: EngineLo, dir: string, viec: ViecLo[], tt: 
   await Promise.all(Array.from({ length: n }, (_, i) => worker(i)));
   if (dung) for (const v of conLai) tt.loi[v.job] = "chưa chạy: " + dung;
   if (engine === "gemini") await dongTrinhDuyet();
-  tt.het = true;
+  if (dongLo) tt.het = true;
   log(`lô xong: ${Object.keys(tt.xong).length}/${tt.tong} job, lỗi ${Object.keys(tt.loi).length}`);
+}
+
+/** Chế độ hỗn hợp: job có engine "gemini" chạy 10 tab Gemini web ẩn, còn lại chạy 3 luồng Claude; hai nhóm chạy cùng lúc. */
+export async function chayHonHop(dir: string, viec: ViecLo[], tt: TrangThaiLo): Promise<void> {
+  const nhom = (e: "claude" | "gemini") => viec.filter((v) => (v.engine ?? "claude") === e);
+  await Promise.all([
+    chayLo("claude", dir, nhom("claude"), tt, 3, false), // Claude luôn 3 luồng
+    chayLo("gemini", dir, nhom("gemini"), tt, Number(process.env.PCCC_GEMINI_LUONG_HH ?? 10), false),
+  ]);
+  // Job Gemini lỗi (cookie hết hạn, giao diện đổi…) tự chuyển sang Claude để không mất kết quả.
+  const hong = nhom("gemini").filter((v) => tt.xong[v.job] == null);
+  if (hong.length) { log(`hỗn hợp: ${hong.length} job Gemini lỗi, chuyển sang Claude`); await chayLo("claude", dir, hong.map((v) => ({ ...v, prompt: v.prompt_claude ?? v.prompt })), tt, 3, false); }
+  tt.het = true;
 }
 
 export const taoTrangThai = (tong: number): TrangThaiLo => ({ tong, xong: {}, loi: {}, dang: [], het: false, bat_dau: new Date().toISOString() });

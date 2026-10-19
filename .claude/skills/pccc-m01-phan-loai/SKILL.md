@@ -11,6 +11,7 @@ description: Thẩm định PCCC – Mục 1 – Phân loại, diện thẩm duy
 - `knowledge/bai-hoc.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/truong-thong-tin.md`
+- `knowledge/qcvn06-phu-luc-h.md`
 - Điều khoản chưa nạp (Điều 4–7 QCVN 06, Phụ lục A TCVN 3890, QCVN 10:2025/BCA…): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)

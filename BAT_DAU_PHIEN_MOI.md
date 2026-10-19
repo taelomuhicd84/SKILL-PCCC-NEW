@@ -1,6 +1,29 @@
-# Bàn giao sang phiên mới (cập nhật 2026-10-19)
+# Bàn giao sang phiên mới (cập nhật 2026-10-20)
 
 Mở phiên mới thì đọc file này trước, rồi đọc `TIEN_DO.md` (lịch sử chi tiết). Người dùng nói tiếng Việt, muốn trả lời ngắn, tiết kiệm token, đã cấp toàn quyền (không hỏi giữa chừng, trừ việc ra bên ngoài như push, deploy, tạo tài khoản).
+
+## Tiến độ ngày 2026-10-20 (đọc phần này đầu tiên)
+Mục tiêu người dùng chốt: **tự động hoá tối đa** — chọn PDF là tự chạy hết, không phải khai báo tay, không có nút "Tiếp".
+
+**Đã làm xong và đã kiểm (build web qua, 10 test `shared` qua; chưa chạy lại cả lô thật sau các sửa cuối):**
+1. **Web tự chạy** (`web/src/App.tsx`): chọn PDF → AI đọc hồ sơ → tự chọn bảng công năng + bảng hệ thống B34–B50 → thẩm định song song → rà soát chéo → sang bước 5. Bước 2 và 3 chỉ để xem/sửa; sửa xong bấm "Chạy lại với thông tin đã chỉnh" ở bước 4. Hồ sơ trùng tên đã có kết quả lưu (localStorage `pccc.kq.<tên>`) thì không tự chạy lại, nhảy thẳng bước 5.
+2. **Chế độ "Hỗn hợp"** (mặc định, khoá lưu `pccc.engine2`): Claude luôn 3 luồng (đọc hồ sơ, các mục khó, rà soát); Gemini web 10 tab ẩn bằng cookie cho m10, m15, m17, m18 (`AGENT_GEMINI` trong `shared/src/agents.ts`). Tab mở cách nhau 4–7 s, các lần gửi xếp hàng 6–11 s (`runner/src/lo.ts`, `engines/nguoi_that.ts`). Không có thủ thuật né bot; gặp xác minh/captcha thì dừng.
+3. **Gemini lỗi tự chuyển sang Claude**: cookie hết hạn thì Gemini chạy ở chế độ khách (có nút "Đăng nhập", mục tải tệp bị khoá). `gemini.ts` nhận ra (selector `chuaDangNhap`) và dừng nhóm Gemini; `chayHonHop` chạy lại các job hỏng bằng Claude (web gửi kèm `prompt_claude`).
+4. **Một link, một cú bấm**: runner phục vụ luôn `web/dist` → http://127.0.0.1:8787 (không cần cổng 5173). `chay.bat` ở gốc repo: tự build nếu thiếu, bật runner, mở trình duyệt. Sửa code web xong phải `npm run build`.
+5. **Runner không tự sập nữa**: bắt `unhandledRejection/uncaughtException` (`runner/src/chung.ts`), log ra `runner/runner.log` (đã ignore `*.log`); sửa lời hứa Playwright bỏ lửng ở bước tải tệp (nghi nguyên nhân gây "Failed to fetch").
+6. **Ô số trang gõ được** ở khung xem bản vẽ (`web/src/Viewer.tsx`): bấm vào số, gõ, Enter.
+7. **Xuất PDF dùng comment PDF** (`web/src/xuat_pdf.ts`): bỏ chữ nhãn vẽ đè lên bản vẽ; mỗi khung là chú thích Square (viền màu theo kết luận + Popup), bấm vào khung hiện comment (số khung, kết luận, lý do, điều khoản, chỉnh bản vẽ, hướng dẫn). Vẫn có vòng tròn số khung nhỏ và trang tổng hợp cuối. **CHƯA mở thử file PDF xuất ra** — kiểm bằng Acrobat/Edge/Foxit (Chrome hiện comment kém).
+
+**Kết quả lần chạy HA1 gần nhất (hỗn hợp):** 29/34 job xong; 5 job Gemini (m10, m15, m17, m18, B45) lỗi vì cookie Gemini hết hạn → đã sửa mục 3. Chưa chạy lại 5 job đó sau bản sửa.
+
+**Việc tiếp theo (theo thứ tự):**
+1. Người dùng xuất cookie Gemini mới (Cookie-Editor → JSON) nạp ở bước 1, chạy lại bước 4 (job đã xong được giữ). Kiểm hỗn hợp chạy đủ, Gemini 10 tab không bị chặn; nếu hay bị chặn → dùng Gemini API key.
+2. Xuất PDF thật, mở bằng Acrobat/Edge, kiểm: viền khung hiện đúng vị trí, bấm khung ra comment, không còn chữ đè.
+3. Rà chất lượng chọn bảng tự động ở lần chạy đầu (bước 2 và 3) — phụ thuộc AI đọc hồ sơ đúng.
+4. Các việc cũ bên dưới (rà phát hiện HA1, đo lại quy tắc "chỉnh bản vẽ", nạp quy chuẩn thiếu, `bai-hoc.md`…).
+5. Việc cố ý chưa làm: lối tắt chạy `chay.bat` khi bật máy (thêm vào thư mục Startup nếu người dùng muốn); test tự động cho web/runner.
+
+**Rủi ro cần nhớ:** tự động hoá giao diện Gemini web trái điều khoản Google, mười tab chung một tài khoản có thể bị khoá → nên dùng tài khoản phụ. Claude 3 luồng song song là bình thường (CLI chính thức) nhưng nhanh chạm hạn mức gói.
 
 ## Dự án là gì
 Website thẩm định thiết kế PCCC: up PDF bản vẽ → AI đọc thông tin công trình → chọn bảng đối chiếu theo nhóm nhà → agent xét từng hạng mục (18 mục bảng công năng + bảng hệ thống B34–B50) → ghi chú khung đánh số lên PDF + bảng Word theo mẫu chính thức (ĐẠT / CHƯA ĐẠT / CẦN XÁC NHẬN / KHÔNG ÁP DỤNG). Có công tắc "Hướng dẫn thiết kế".
@@ -30,8 +53,8 @@ Repo: https://github.com/taelomuhicd84/SKILL-PCCC-NEW (nhánh `main`, riêng tư
 6. Test thêm cho phần web/runner (hiện chỉ có test cho `shared/` và vài hàm runner).
 
 ## Cách chạy
-Node cài dạng portable, trong bash: `export PATH="$LOCALAPPDATA/Programs/node-v22.23.3-win-x64:$PATH"`.
-- Web: `npm run dev -- --port 5173` → http://localhost:5173. Runner: `npm run runner`.
+Máy khác có thể đã cài Node sẵn (`node -v`). Nếu dùng Node portable, trong bash: `export PATH="$LOCALAPPDATA/Programs/node-v22.23.3-win-x64:$PATH"`.
+- **Cách nhanh nhất: bấm đúp `chay.bat`** → http://127.0.0.1:8787 (runner + web trong một). Dev web riêng: `npm run dev -- --port 5173` → http://localhost:5173; runner: `npm run runner`.
 - Test: `npx vitest run`. Build: `npm run build` (ra `web/dist`).
 - Chạy cả lô từ dòng lệnh: `npm -w runner run cli -- chuan-bi ket_qua/<tên> "<pdf>"` → `jobs` → `chay ... --engine claude|gemini-api` → `gop`.
 - Thử một prompt: `PCCC_CLAUDE_MODEL=sonnet npx tsx runner/src/thu_claude.ts <prompt.md> <ra.json> <thu_muc_phien>`.
@@ -39,7 +62,9 @@ Node cài dạng portable, trong bash: `export PATH="$LOCALAPPDATA/Programs/node
 ## Bẫy đã gặp
 - File bí mật không được commit (đã trong `.gitignore`): `runner/gemini_cookies.json`, `runner/claude_token.json`, `runner/gemini_key.json`, `runner/.profile*/`. Một lần commit lỡ chứa hồ sơ Chrome nhưng chưa lên remote và đã gỡ. Trước khi commit: `git diff --cached --name-only | grep -iE "profile|cookie|token|key"`.
 - `git push` có lúc treo vì GitHub đòi đăng nhập lại; người dùng chạy `git push` một lần trong terminal để đăng nhập.
-- Bộ phân loại an toàn của app chặn: tác vụ hẹn giờ, gỡ cờ né phát hiện bot, chạy nhiều tab Gemini web song song. Không vòng qua; dùng Gemini API cho chạy song song.
+- Bộ phân loại an toàn của app từng chặn: tác vụ hẹn giờ, gỡ cờ né phát hiện bot. Không vòng qua. Chạy nhiều tab Gemini web nay đã làm ở chế độ Hỗn hợp theo yêu cầu người dùng (chỉ giãn cách thao tác, không né bot); vẫn nên ưu tiên Gemini API nếu có key.
+- `.claude/launch.json` còn trỏ tới đường dẫn Node của máy cũ (`C:\Users\HP\...`); sửa lại nếu dùng preview ở máy khác.
+- Cổng 8787/5173 có thể còn tiến trình cũ chạy code cũ: tắt (`Stop-Process`) rồi bật lại runner sau khi sửa code `runner/`.
 - Gemini web: chọn bảng theo giao diện tiếng Việt, selector ở `runner/src/engines/gemini_selectors.ts`; Google đổi giao diện thì sửa file này.
 - Sửa `shared/src/agents.ts` xong phải chạy `npm run gen:claude` rồi commit `.claude/`.
 - Sơ đồ `graphify-out/kien_truc/` chỉ lấy từ code, chưa commit (thư mục `graphify-out/` chưa được theo dõi).

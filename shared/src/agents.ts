@@ -13,14 +13,15 @@ export interface AgentDef {
 const DN = "knowledge/dinh-nghia/dinh-nghia.md";
 const TT = "knowledge/truong-thong-tin.md";
 const BH = "knowledge/bai-hoc.md"; // bài học đã xác nhận: mọi agent hạng mục đọc
+const PLH = "knowledge/qcvn06-phu-luc-h.md"; // QCVN 06 Phụ lục H: bậc chịu lửa, chiều cao, diện tích khoang cháy
 
 export const AGENTS: AgentDef[] = [
   { id: "doc-ho-so", ten: "Đọc hồ sơ, lập thông tin công trình", viec: "Đọc toàn bộ bản vẽ, điền các trường A01–A10, B01–B08, C01–C12 và cờ hệ thống PCCC; phân loại từng trang.",
     tri_thuc: [TT, DN] },
   { id: "m01-phan-loai", ten: "Mục 1 – Phân loại, diện thẩm duyệt", viec: "Diện thẩm duyệt và phân cấp; số tầng, tầng hầm; chiều cao PCCC; nhóm nhà F; cấp nguy hiểm cháy kết cấu; hạng nguy hiểm cháy nổ.",
-    tu_khoa: /chiều cao an toàn|số tầng|nhóm nhà|phân loại|đối tượng thuộc diện/i, tri_thuc: [BH, DN, TT],
+    tu_khoa: /chiều cao an toàn|số tầng|nhóm nhà|phân loại|đối tượng thuộc diện/i, tri_thuc: [BH, DN, TT, PLH],
     luu_y: "Diện thẩm duyệt: bảng mẫu dẫn NĐ 136/2020; nếu chưa có văn bản hiện hành trong tri thức thì kết luận theo cột Quy định của bảng và ghi rõ nguồn." },
-  { id: "m02-bac-chiu-lua", ten: "Mục 2 – Bậc chịu lửa", viec: "Bậc chịu lửa yêu cầu và giới hạn chịu lửa cấu kiện (Bảng 2, 4, Phụ lục H).", tu_khoa: /bậc chịu lửa/i, tri_thuc: [BH, DN] },
+  { id: "m02-bac-chiu-lua", ten: "Mục 2 – Bậc chịu lửa", viec: "Bậc chịu lửa yêu cầu và giới hạn chịu lửa cấu kiện (Bảng 2, 4, Phụ lục H).", tu_khoa: /bậc chịu lửa/i, tri_thuc: [BH, DN, PLH] },
   { id: "m03-khoang-cach", ten: "Mục 3 – Khoảng cách an toàn PCCC", viec: "Khoảng cách tới công trình lân cận (Bảng E1, Phụ lục E).", tu_khoa: /khoảng cách an toàn/i, tri_thuc: [BH, DN] },
   { id: "m04-giao-thong", ten: "Mục 4 – Đường, bãi đỗ xe chữa cháy, lối vào từ trên cao", viec: "Đường xe chữa cháy (rộng, cao, tải trọng, bán kính quay), bãi đỗ, lối vào từ trên cao, họng tiếp nước.",
     tu_khoa: /đường giao thông|xe chữa cháy|bãi đỗ|lối vào/i, tri_thuc: [BH, DN] },
@@ -28,7 +29,7 @@ export const AGENTS: AgentDef[] = [
     tri_thuc: [BH, "skills/SKILL_ngan_chay_cong_nang.md", DN] },
   { id: "m06-ngan-chay", ten: "Mục 6 – Ngăn cháy, chống cháy lan", viec: "Ngăn cháy ngang, đứng, theo công năng, hành lang; vật liệu; cửa, tường, sàn ngăn cháy; tỉ lệ cửa/tường.",
     tu_khoa: /ngăn cháy|chống cháy lan/i,
-    tri_thuc: [BH, "skills/SKILL_ngan_chay_cong_nang.md", "skills/MOD_hanh_lang_bao_che.md", "skills/MOD_vat_lieu_hoan_thien.md", DN] },
+    tri_thuc: [BH, "skills/SKILL_ngan_chay_cong_nang.md", "skills/MOD_hanh_lang_bao_che.md", "skills/MOD_vat_lieu_hoan_thien.md", DN, PLH] },
   { id: "m07-thoat-nan", ten: "Mục 7 – Lối, đường thoát nạn", viec: "Lối ra, số lối, phân tán, cửa, chiều rộng, khoảng cách (Bảng G), đường thoát nạn, hành lang, cầu thang, buồng thang, lối lên mái.",
     tu_khoa: /lối.*thoát nạn|giải pháp thoát nạn|^thoát nạn/i,
     tri_thuc: [BH, "skills/SKILL_thoat_nan.md", "skills/MOD_loi_ra_va_cua.md", "skills/MOD_so_luong_loi_ra.md", "skills/MOD_tinh_toan_khoang_cach.md",
@@ -60,7 +61,12 @@ export const AGENTS: AgentDef[] = [
     tri_thuc: [BH, "skills/SKILL_thoat_nan.md"] },
 ];
 
-export const agentById = (id: string) => AGENTS.find((a) => a.id === id) ?? AGENTS.find((a) => a.id === "chung")!;
+/** Hạng mục đơn giản giao Gemini web ở chế độ "hỗn hợp"; mọi việc còn lại (đọc hồ sơ, mục khó, rà soát) do Claude. */
+export const AGENT_GEMINI = ["m10-binh-chua-chay", "m15-cnch", "m17-lien-lac", "m18-quang-cao"];
+/** id job (hoặc id agent) → engine ở chế độ hỗn hợp. */
+export const engineCuaJob = (id: string): "gemini" | "claude" => (AGENT_GEMINI.some((a) => id.includes(a)) ? "gemini" : "claude");
+
+export const agentById =(id: string) => AGENTS.find((a) => a.id === id) ?? AGENTS.find((a) => a.id === "chung")!;
 
 /** Agent hệ thống ứng với một bảng hệ thống, vd. B35 → m11-bao-chay. */
 export const agentChoBangHeThong = (ma: string) => AGENTS.find((a) => a.bang_he_thong?.includes(ma)) ?? agentById("chung");

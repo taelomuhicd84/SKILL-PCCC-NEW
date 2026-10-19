@@ -37,18 +37,20 @@ function boChu(font: PDFFont, text: string, size: number, maxW: number): string[
   return lines;
 }
 
-function themComment(doc: PDFDocument, page: PDFPage, rect: number[], text: string, c: number[]) {
-  const annot = doc.context.obj({
-    Type: "Annot", Subtype: "Square", Rect: rect, C: c, Border: [0, 0, 0],
-    Contents: PDFHexString.fromText(text), T: PDFHexString.fromText("Thẩm định PCCC"), F: 4,
+/** Khung = chú thích Square của PDF: viền hiện trên bản vẽ, bấm vào khung thì hiện comment (kèm Popup cho trình đọc cần). */
+function themComment(doc: PDFDocument, page: PDFPage, rect: number[], tieuDe: string, text: string, c: number[], dayNet: number) {
+  const ctx = doc.context;
+  const annot = ctx.obj({
+    Type: "Annot", Subtype: "Square", Rect: rect, C: c, BS: { Type: "Border", W: dayNet, S: "S" },
+    Contents: PDFHexString.fromText(text), T: PDFHexString.fromText("Thẩm định PCCC"), Subj: PDFHexString.fromText(tieuDe), F: 4,
   });
-  const ref = doc.context.register(annot);
+  const ref = ctx.register(annot);
+  const popup = ctx.register(ctx.obj({ Type: "Annot", Subtype: "Popup", Rect: [rect[2], rect[3] - 120, rect[2] + 260, rect[3]], Parent: ref, Open: false, F: 28 }));
+  annot.set(PDFName.of("Popup"), popup);
   const annots = page.node.lookup(PDFName.of("Annots"));
-  if (annots && "push" in annots) (annots as unknown as { push: (r: unknown) => void }).push(ref);
-  else page.node.set(PDFName.of("Annots"), doc.context.obj([ref]));
+  if (annots && "push" in annots) { const a = annots as unknown as { push: (r: unknown) => void }; a.push(ref); a.push(popup); }
+  else page.node.set(PDFName.of("Annots"), ctx.obj([ref, popup]));
 }
-
-const ngan = (s: string, n: number) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 
 export async function xuatPdf(pdfBytes: ArrayBuffer, pdfjsDoc: PdfDoc, chu: TrangChu[], dong: DongKetQua[], tieuDe: string, huongDan: boolean): Promise<Uint8Array> {
   const doc = await PDFDocument.load(pdfBytes, { ignoreEncryption: true });
@@ -69,11 +71,8 @@ export async function xuatPdf(pdfBytes: ArrayBuffer, pdfjsDoc: PdfDoc, chu: Tran
       const W = vp.width, H = vp.height;
       const toPdf = (x: number, y: number) => vp.convertToPdfPoint(x, y) as [number, number];
       const [x0, y0, x1, y1] = [k.r[0] * W / 1000, k.r[1] * H / 1000, k.r[2] * W / 1000, k.r[3] * H / 1000];
-      // khung: vẽ theo 4 góc (đúng cả khi trang xoay)
       const P = [toPdf(x0, y0), toPdf(x1, y0), toPdf(x1, y1), toPdf(x0, y1)];
       const fs = Math.min(14, Math.max(6, W / 170));
-      const lw = fs / 4;
-      for (let i = 0; i < 4; i++) page.drawLine({ start: { x: P[i][0], y: P[i][1] }, end: { x: P[(i + 1) % 4][0], y: P[(i + 1) % 4][1] }, thickness: lw, color: col });
       // số khung trong vòng tròn ở góc trên-trái
       const c0 = toPdf(x0, y0);
       page.drawCircle({ x: c0[0], y: c0[1], size: fs * 0.9, color: col });
@@ -81,17 +80,10 @@ export async function xuatPdf(pdfBytes: ArrayBuffer, pdfjsDoc: PdfDoc, chu: Tran
       const nw = bold.widthOfTextAtSize(sNum, fs);
       const np = toPdf(x0 - nw / 2, y0 + fs * 0.35);
       page.drawText(sNum, { x: np[0], y: np[1], size: fs, font: bold, color: rgb(1, 1, 1), rotate: degrees(t.xoay) });
-      // nhãn ngắn bên dưới khung
-      const nhan = `${d.khung}. [${nhanDong(d)}] ${ngan(d.chinh_ban_ve && d.ket_luan === "DAT" ? d.chinh_ban_ve : d.ly_do, 160)}`;
-      const lines = boChu(font, nhan, fs * 0.85, Math.max(W * 0.22, x1 - x0));
-      lines.forEach((ln, i) => {
-        const p = toPdf(x0, y1 + fs * 1.1 * (i + 1));
-        page.drawText(ln, { x: p[0], y: p[1], size: fs * 0.85, font, color: col, rotate: degrees(t.xoay) });
-      });
       const xs = P.map((p) => p[0]), ys = P.map((p) => p[1]);
-      themComment(doc, page, [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)],
+      themComment(doc, page, [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)], `Khung ${d.khung} – ${nhanDong(d)}`,
         `Khung ${d.khung} – ${nhanDong(d)} (${d.bang} TT ${d.tt})\n${d.ly_do}\n${d.dieu_khoan}${d.chinh_ban_ve ? "\nChỉnh bản vẽ: " + d.chinh_ban_ve : ""}${huongDan && d.huong_dan ? "\nHướng dẫn: " + d.huong_dan : ""}`,
-        [cr, cg, cb]);
+        [cr, cg, cb], fs / 4);
     }
   }
 

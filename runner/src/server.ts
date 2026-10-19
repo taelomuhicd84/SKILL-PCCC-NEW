@@ -1,14 +1,14 @@
 // Runner cục bộ: web (GitHub Pages hoặc localhost) gửi hồ sơ và từng job agent tới đây; runner gọi
 // Claude Code hoặc Gemini bằng tài khoản của chính người dùng. Chỉ nghe 127.0.0.1, chỉ nhận origin trong danh sách.
 import http from "node:http";
-import { writeFileSync, existsSync } from "node:fs";
+import { writeFileSync, existsSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 import { luuPhien } from "./phien";
-import { THU_MUC_LAM, log } from "./chung";
+import { GOC_REPO, THU_MUC_LAM, log } from "./chung";
 import { chayClaude, coClaude, coToken, luuToken } from "./engines/claude";
 import { spawn } from "node:child_process";
 import { randomUUID } from "node:crypto";
-import { chayLo, taoTrangThai, type EngineLo, type TrangThaiLo, type ViecLo } from "./lo";
+import { chayHonHop, chayLo, taoTrangThai, type EngineLo, type TrangThaiLo, type ViecLo } from "./lo";
 import { chayGemini, coPlaywright } from "./engines/gemini";
 import { coFileCookie, chuanHoa, FILE_COOKIE } from "./engines/gemini_cookies";
 import { giuPhien } from "./engines/gemini";
@@ -17,6 +17,13 @@ import { chayGeminiApi, coKey, luuKey } from "./engines/gemini_api";
 const PORT = Number(process.env.PCCC_PORT ?? 8787);
 const ORIGINS = ["https://taelomuhicd84.github.io", ...(process.env.PCCC_ORIGINS ?? "").split(",").filter(Boolean)];
 const choPhep = (o?: string) => !!o && (/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(o) || ORIGINS.includes(o));
+
+const DIST = path.join(GOC_REPO, "web", "dist"); // web đã build: runner phục vụ luôn, chỉ cần mở http://127.0.0.1:8787
+const MIME: Record<string, string> = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".svg": "image/svg+xml", ".png": "image/png", ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", ".pdf": "application/pdf", ".woff2": "font/woff2", ".mjs": "text/javascript" };
+function tep(url: string): string | null {
+  const f = path.join(DIST, decodeURIComponent(url.split("?")[0]).replace(/^\/+$/, "/index.html"));
+  return f.startsWith(DIST) && existsSync(f) && statSync(f).isFile() ? f : null;
+}
 
 const LO = new Map<string, TrangThaiLo>();
 let hangDoi: Promise<unknown> = Promise.resolve(); // chạy tuần tự: tránh giới hạn lượt và hai cửa sổ Gemini cùng lúc
@@ -41,7 +48,7 @@ const server = http.createServer(async (req, res) => {
   if (req.method === "OPTIONS") { res.writeHead(204).end(); return; }
   const json = (code: number, v: unknown) => { res.writeHead(code, { "content-type": "application/json; charset=utf-8" }).end(JSON.stringify(v)); };
   try {
-    if (req.method === "GET" && req.url === "/") { // runner chỉ là API; mở thẳng thì báo trạng thái và chỉ sang web
+    if (req.method === "GET" && req.url === "/" && !existsSync(path.join(DIST, "index.html"))) { // chưa build web: runner chỉ là API; mở thẳng thì báo trạng thái và chỉ sang web
       res.writeHead(200, { "content-type": "text/html; charset=utf-8" }).end(`<!doctype html><meta charset="utf-8"><title>Runner PCCC</title>
 <body style="font-family:system-ui;padding:24px"><h2>Runner PCCC đang chạy ✓</h2><p>Đây là máy chủ nền cho website, không phải trang để dùng.</p>
 <p>Claude Code: ${coClaude() ? "có" : "không thấy"} · Gemini API key: ${coKey() ? "có" : "chưa"} · cookie Gemini: ${coFileCookie() ? "có" : "chưa"}</p>
@@ -74,7 +81,7 @@ const server = http.createServer(async (req, res) => {
       const id = randomUUID().slice(0, 8);
       const tt = taoTrangThai(viec.length);
       LO.set(id, tt);
-      chayLo((["gemini", "gemini-api"].includes(b.engine) ? b.engine : "claude") as EngineLo, dir, viec, tt, b.luong).catch((e) => { tt.het = true; log("lô lỗi", e); });
+      (b.engine === "hon-hop" ? chayHonHop(dir, viec, tt) : chayLo((["gemini", "gemini-api"].includes(b.engine) ? b.engine : "claude") as EngineLo, dir, viec, tt, b.luong)).catch((e) => { tt.het = true; log("lô lỗi", e); });
       return json(200, { lo: id });
     }
     if (req.method === "GET" && req.url?.startsWith("/lo/")) {
@@ -104,6 +111,8 @@ const server = http.createServer(async (req, res) => {
       writeFileSync(path.join(dir, "jobs", `${job}.tra_loi.txt`), tra_loi, "utf8");
       return json(200, { tra_loi });
     }
+    const f = req.method === "GET" && req.url ? tep(req.url) : null;
+    if (f) { res.writeHead(200, { "content-type": MIME[path.extname(f).toLowerCase()] ?? "application/octet-stream" }).end(readFileSync(f)); return; }
     json(404, { loi: "không có đường dẫn " + req.url });
   } catch (e) {
     log("lỗi", e);

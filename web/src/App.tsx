@@ -9,7 +9,7 @@ import { taiIndex, taiMau } from "./data";
 import { batDauLo, chayJob, kiemRunner, taoPhien, xemLo, type Engine, type Phien, type SucKhoe } from "./runner";
 import { LienKet } from "./LienKet";
 import { chayMotJob, docHoSo, docTraLoiJob, gop, promptCua, raSoat, taoJobs, type Goi, type NguCanh } from "./quy_trinh";
-import { tachJson } from "@pccc/shared";
+import { engineCuaJob, tachJson } from "@pccc/shared";
 import { Viewer } from "./Viewer";
 import { mauDong, nhanDong, xuatPdf } from "./xuat_pdf";
 import { xuatDocx } from "./xuat_docx";
@@ -32,7 +32,7 @@ export default function App() {
   const [pdf, setPdf] = useState<PdfDoc | null>(null);
   const [chu, setChu] = useState<TrangChu[]>([]);
   const [tienTrinh, setTienTrinh] = useState("");
-  const [engine, setEngine] = useState<Engine>(() => (doc<Engine>("pccc.engine") ?? "gemini-api"));
+  const [engine, setEngine] = useState<Engine>(() => (doc<Engine>("pccc.engine2") ?? "hon-hop"));
   const [luong, setLuong] = useState<number>(() => doc<number>("pccc.luong") ?? 10);
   const [sk, setSk] = useState<SucKhoe | null>(null);
   const [phien, setPhien] = useState<Phien | null>(null);
@@ -50,9 +50,10 @@ export default function App() {
   const [loc, setLoc] = useState("tat-ca");
   const [loi, setLoi] = useState("");
   const dung = useRef(false);
+  const [batDau, setBatDau] = useState(false); // nạp xong hồ sơ → tự chạy cả quy trình (effect chạy sau khi state đã cập nhật)
 
   useEffect(() => { taiIndex().then(setIndex).catch(() => setLoi("Không tải được danh mục bảng.")); }, []);
-  useEffect(() => { luu("pccc.engine", engine); if (engine !== "thu-cong") kiemRunner().then(setSk); }, [engine]);
+  useEffect(() => { luu("pccc.engine2", engine); if (engine !== "thu-cong") kiemRunner().then(setSk); }, [engine]);
   useEffect(() => { luu("pccc.huongdan", huongDan); }, [huongDan]);
   useEffect(() => { luu("pccc.luong", luong); }, [luong]);
 
@@ -60,7 +61,8 @@ export default function App() {
   const goi: Goi = async (jobId, tenJob, pt, pk) => {
     if (dung.current) throw new Error("đã dừng");
     if (engine === "thu-cong") return new Promise((resolve, reject) => setThuCong({ ten: tenJob, prompt: pk, resolve, reject }));
-    return chayJob(engine, phienRef.current!.phien, jobId, engine === "claude" ? pt : pk);
+    const e = engine === "hon-hop" ? engineCuaJob(jobId) : engine;
+    return chayJob(e, phienRef.current!.phien, jobId, e === "claude" ? pt : pk);
   };
   const phienRef = useRef<Phien | null>(null);
   const nc = (): NguCanh => {
@@ -85,8 +87,10 @@ export default function App() {
       setTen(tenDa); setPdfBytes(bytes); setPdf(d); setChu(c); setTrang(1);
       const cu = doc<KetQua>("pccc.kq." + tenDa);
       if (cu) { setTt(ThongTin.parse(cu.thong_tin)); setBangChinh(cu.bang_chinh); setBangHT(cu.bang_he_thong); setKq(cu.dong); }
+      else { setTt(null); setBangChinh(null); setBangHT([]); setKq([]); setJobs([]); }
       setTienTrinh(`Đã nạp ${d.numPages} trang, ${c.reduce((s, t) => s + t.chu.length, 0)} cụm chữ.${cu ? " Có kết quả lưu từ lần trước." : ""}`);
       setPhien(null); phienRef.current = null;
+      setBatDau(true);
     } catch (e) { setLoi("Không đọc được PDF: " + e); setTienTrinh(""); }
   }
 
@@ -109,14 +113,30 @@ export default function App() {
       setTt(t); goiYBang(t); setTienTrinh("Đã lập thông tin công trình. Rà lại, sửa nếu cần rồi sang bước 3.");
     } catch (e) { setLoi(String(e)); setTienTrinh(""); }
   }
+  useEffect(() => { if (batDau) { setBatDau(false); chayTuDong(); } }, [batDau]);
+  // Tự động toàn bộ: đọc hồ sơ → chọn bảng công năng + bảng hệ thống theo thông tin công trình → thẩm định → rà soát → kết quả.
+  async function chayTuDong() {
+    if (kq.length > 0) { setBuoc(5); setTienTrinh("Đã nạp kết quả lưu từ lần trước. Muốn chạy tiếp hoặc chạy lại: bước 4."); return; }
+    setLoi(""); dung.current = false; setBuoc(4);
+    try {
+      let t = tt, bc = bangChinh, bht = bangHT;
+      if (!t) {
+        await damBaoPhien();
+        setTienTrinh("AI đang đọc hồ sơ, lập thông tin công trình (có thể vài phút)…");
+        t = await docHoSo(goi, nc());
+        setTt(t);
+      }
+      if (bc == null && bht.length === 0) { bc = chonBangChinh(t).ma; bht = chonBangHeThong(t).map((b) => b.ma); setBangChinh(bc); setBangHT(bht); }
+      await chayHet(t, bc, bht);
+    } catch (e) { setLoi(String(e)); setTienTrinh(""); }
+  }
   function goiYBang(t: ThongTin) {
     setBangChinh(chonBangChinh(t).ma);
     setBangHT(chonBangHeThong(t).map((b) => b.ma));
   }
 
   // ---------- bước 4: chạy các hạng mục ----------
-  async function chayHet() {
-    if (!tt) return;
+  async function chayHet(tt: ThongTin, bangChinh: string | null, bangHT: string[]) {
     setLoi(""); dung.current = false;
     try {
       await damBaoPhien();
@@ -130,7 +150,7 @@ export default function App() {
         // chạy lô song song trên runner; job nào xong (đã lưu tạm ở runner) thì ghép ngay vào kết quả
         const can = st.filter((x) => !daCo(x.job));
         st.forEach((x) => { if (daCo(x.job)) x.trang_thai = "xong"; });
-        const viec = await Promise.all(can.map(async (x) => { const p = await promptCua(ncP, tt, x.job); return { job: x.job.id, prompt: engine === "claude" ? p.pt : p.pk }; }));
+        const viec = await Promise.all(can.map(async (x) => { const p = await promptCua(ncP, tt, x.job); const e = engine === "hon-hop" ? engineCuaJob(x.job.id) : engine; return { job: x.job.id, prompt: e === "claude" ? p.pt : p.pk, engine: e === "claude" || e === "gemini" ? e : undefined, prompt_claude: p.pt }; }));
         const { lo } = await batDauLo(engine, phienRef.current!.phien, viec, luong);
         const daGhep = new Set<string>();
         for (;;) {
@@ -145,7 +165,7 @@ export default function App() {
             else if (t.dang.includes(id)) x.trang_thai = "dang";
           }
           const g = gop(nhom); setKq(g); luuKq(g); setJobs([...st]);
-          setTienTrinh(`Đang chạy song song ${luong} luồng: ${Object.keys(t.xong).length}/${t.tong} job xong${t.dang.length ? " · đang: " + t.dang.join(", ") : ""}`);
+          setTienTrinh(`Đang chạy song song ${engine === "hon-hop" ? "Claude 3 + Gemini 10" : luong} luồng: ${Object.keys(t.xong).length}/${t.tong} job xong${t.dang.length ? " · đang: " + t.dang.join(", ") : ""}`);
           if (t.het || dung.current) break;
           await new Promise((r) => setTimeout(r, 3000));
         }
@@ -218,32 +238,32 @@ export default function App() {
           {buoc === 1 && (
             <div className="the">
               <h2>1. Nạp hồ sơ</h2>
-              <p>Chọn một hoặc nhiều file PDF (kiến trúc, PCCC…). Các file được gộp theo thứ tự chọn. Hồ sơ chỉ xử lý trên máy bạn và gửi cho AI bạn chọn.</p>
+              <p>Chọn một hoặc nhiều file PDF (kiến trúc, PCCC…): hệ thống tự đọc hồ sơ, tự chọn bảng đối chiếu và hệ thống PCCC, tự thẩm định và ra kết quả, không cần bấm thêm. Chọn AI ở dưới <b>trước</b> khi chọn file.</p>
               <input type="file" accept="application/pdf" multiple onChange={(e) => napHoSo(e.target.files)} />
               <h3>AI dùng để thẩm định</h3>
               <div className="chon-engine">
-                {([["gemini-api", "Gemini API – nhanh, chạy song song (khuyên dùng)"], ["claude", "Claude Code (tài khoản Claude của bạn)"], ["gemini", "Gemini web (chậm, chạy tuần tự)"], ["thu-cong", "Thủ công: copy prompt, dán trả lời"]] as const).map(([v, n]) => (
+                {([["gemini-api", "Gemini API – nhanh, chạy song song (khuyên dùng)"], ["claude", "Claude Code (tài khoản Claude của bạn)"], ["gemini", "Gemini web (chậm, chạy tuần tự)"], ["hon-hop", "Hỗn hợp: Claude 3 luồng + Gemini web 10 tab ẩn (m10, m15, m17, m18)"], ["thu-cong", "Thủ công: copy prompt, dán trả lời"]] as const).map(([v, n]) => (
                   <label key={v}><input type="radio" checked={engine === v} onChange={() => setEngine(v)} /> {n}</label>))}
               </div>
               {engine !== "thu-cong" && <LienKet engine={engine} sk={sk} capNhat={() => kiemRunner().then(setSk)} luong={luong} setLuong={setLuong} />}
               <p className="muted">Đã có kết quả? <input type="file" accept="application/json" onChange={(e) => moKetQuaJson(e.target.files?.[0])} /></p>
-              {pdf && <button className="chinh" onClick={() => setBuoc(2)}>Tiếp: lập thông tin công trình →</button>}
             </div>
           )}
 
           {buoc === 2 && (
             <div className="the">
               <h2>2. Thông tin công trình</h2>
+              <p className="muted">Tự lập khi nạp hồ sơ. Chỉ cần vào đây khi muốn sửa, rồi sang bước 4 bấm “Chạy lại với thông tin đã chỉnh”.</p>
               <button className="chinh" disabled={!pdf} onClick={chayDocHoSo}>{tt ? "Đọc lại bằng AI" : "AI đọc hồ sơ"}</button>
               <button onClick={() => setTt(ThongTin.parse({}))}>Nhập tay</button>
               {tt && <FormThongTin tt={tt} setTt={(t) => { setTt(t); goiYBang(t); }} />}
-              {tt && <button className="chinh" onClick={() => setBuoc(3)}>Tiếp: chọn bảng đối chiếu →</button>}
             </div>
           )}
 
           {buoc === 3 && (
             <div className="the">
               <h2>3. Bảng đối chiếu</h2>
+              <p className="muted">Tự chọn theo công trình. Chỉ sửa khi cần, rồi chạy lại ở bước 4.</p>
               {tt && <p className="muted">Gợi ý: {chonBangChinh(tt).ly_do}</p>}
               <label>Bảng công năng: <select value={bangChinh ?? ""} onChange={(e) => setBangChinh(e.target.value || null)}>
                 <option value="">(không dùng)</option>
@@ -254,7 +274,6 @@ export default function App() {
                 {index.filter((b) => /^B(3[4-9]|4\d|50)$/.test(b.ma)).map((b) => (
                   <label key={b.ma}><input type="checkbox" checked={bangHT.includes(b.ma)} onChange={(e) => setBangHT(e.target.checked ? [...bangHT, b.ma] : bangHT.filter((x) => x !== b.ma))} /> {b.ma} – {b.ten}</label>))}
               </div>
-              <button className="chinh" onClick={() => setBuoc(4)}>Tiếp: thẩm định →</button>
             </div>
           )}
 
@@ -264,7 +283,7 @@ export default function App() {
               <p>Mỗi mục lớn của bảng là một agent (thoát nạn, ngăn cháy, báo cháy…). Thiếu dữ liệu thì ghi CẦN XÁC NHẬN và chạy tiếp. Kết quả lưu dần, chạy lại sẽ bỏ qua job đã xong.</p>
               <label className="toggle"><input type="checkbox" checked={coRaSoat} onChange={(e) => setCoRaSoat(e.target.checked)} /> Rà soát chéo sau cùng</label>
               <div>
-                <button className="chinh" disabled={!tt} onClick={chayHet}>Chạy tất cả</button>
+                <button className="chinh" disabled={!tt} onClick={() => tt && chayHet(tt, bangChinh, bangHT)}>Chạy lại với thông tin đã chỉnh</button>
                 <button onClick={() => { dung.current = true; thuCong?.reject(new Error("đã dừng")); setThuCong(null); }}>Dừng</button>
                 <button onClick={() => { setKq([]); luuKq([]); setJobs([]); }}>Xoá kết quả, chạy lại từ đầu</button>
               </div>

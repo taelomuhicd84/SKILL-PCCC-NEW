@@ -70,6 +70,7 @@ async function chatMoi(page: Page, choDangNhap = 15000): Promise<Locator> {
   await page.goto(GEMINI_URL, { waitUntil: "domcontentloaded" });
   await kiemChan(page);
   const o = await tim(page, SEL.oNhap, choDangNhap);
+  if (await tim(page, SEL.chuaDangNhap, 1500)) throw new BiChan("Cookie Gemini đã hết hạn (đang ở chế độ khách): xuất lại file cookie rồi nạp vào web. Các job Gemini sẽ chạy bằng Claude.");
   if (!o) throw new Error(`Gemini chưa đăng nhập: nạp lại file cookie (${path.basename(FILE_COOKIE)}) hoặc chạy npm -w runner run gemini-login.`);
   if (process.env.PCCC_GEMINI_TAM_THOI !== "0") { // chat tạm thời: không làm đầy lịch sử của người dùng
     const t = await tim(page, SEL.nutTamThoi, 1500);
@@ -86,6 +87,7 @@ async function taiTep(page: Page, files: string[]) {
   const muc = await tim(page, SEL.mucTaiTep, 4000);
   if (!muc) throw new Error("Không thấy mục 'Tải tệp lên' (sửa gemini_selectors.ts).");
   const chooser = page.waitForEvent("filechooser", { timeout: 15000 });
+  chooser.catch(() => {}); // nếu bước bấm lỗi trước khi await thì không để lời hứa này làm sập tiến trình
   await bam(page, muc);
   await (await chooser).setFiles(files);
   await nghi(2000, 3500);

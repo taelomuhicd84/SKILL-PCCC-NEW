@@ -20,7 +20,7 @@ export function LienKet({ engine, sk, capNhat, luong, setLuong }: {
     <div className="lien-ket">
       <p className="ok">Runner đang chạy · Claude Code {co(sk.claude)} · token Claude {co(sk.claude_token)} · Gemini API key {co(sk.gemini_key)} · cookie Gemini {co(sk.gemini_cookie)}</p>
 
-      {engine === "claude" && (
+      {(engine === "claude" || engine === "hon-hop") && (
         <fieldset><legend>Liên kết Claude</legend>
           <p className="muted">Dùng tài khoản Claude của bạn. Nếu máy đã đăng nhập Claude Code thì không cần làm gì. Muốn liên kết lâu dài: bấm nút dưới, làm theo cửa sổ hiện ra, dán token <code>sk-ant-…</code> nhận được (hoặc API key) vào ô.</p>
           <button onClick={() => lam(moDangNhapClaude, "Đã mở cửa sổ đăng nhập Claude trên máy bạn.")}>Mở cửa sổ đăng nhập Claude</button>
@@ -35,7 +35,7 @@ export function LienKet({ engine, sk, capNhat, luong, setLuong }: {
             <button disabled={!key} onClick={() => lam(() => luuKeyGemini(key), "Đã lưu API key Gemini.").then(() => setKey(""))}>Lưu key</button></div>
         </fieldset>)}
 
-      {engine === "gemini" && (
+      {(engine === "gemini" || engine === "hon-hop") && (
         <fieldset><legend>Đăng nhập Gemini web bằng file cookie</legend>
           <p className="muted">Xuất cookie ở trang gemini.google.com (tiện ích Cookie-Editor → Export → JSON) khi đang đăng nhập, rồi nạp file vào đây. Đóng cửa sổ đó, không bấm đăng xuất. Runner tự làm mới cookie để dùng lâu dài.</p>
           <div className="hang"><input type="file" accept="application/json,.json" onChange={async (e) => {
@@ -45,7 +45,7 @@ export function LienKet({ engine, sk, capNhat, luong, setLuong }: {
             <button onClick={() => lam(async () => { const r = await kiemGemini(); if (!r.dang_nhap) throw new Error("cookie đã hết hạn, hãy xuất lại"); }, "Gemini đã đăng nhập.")}>Kiểm tra đăng nhập</button></div>
         </fieldset>)}
 
-      {engine !== "gemini" && (
+      {engine !== "gemini" && engine !== "hon-hop" && (
         <label className="hang">Số luồng song song: <input type="number" min={1} max={20} value={luong} onChange={(e) => setLuong(Math.max(1, Math.min(20, Number(e.target.value) || 1)))} style={{ width: 70 }} />
           <span className="muted">{engine === "gemini-api" ? "gói miễn phí giới hạn số lượt/phút: lỗi 429 thì giảm" : "mỗi luồng là một tiến trình Claude Code"}</span></label>)}
       {tb && <p className={tb.startsWith("Lỗi") ? "c-do" : "ok"}>{tb}</p>}
