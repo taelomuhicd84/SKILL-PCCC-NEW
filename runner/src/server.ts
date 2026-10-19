@@ -41,6 +41,13 @@ const server = http.createServer(async (req, res) => {
   if (req.method === "OPTIONS") { res.writeHead(204).end(); return; }
   const json = (code: number, v: unknown) => { res.writeHead(code, { "content-type": "application/json; charset=utf-8" }).end(JSON.stringify(v)); };
   try {
+    if (req.method === "GET" && req.url === "/") { // runner chỉ là API; mở thẳng thì báo trạng thái và chỉ sang web
+      res.writeHead(200, { "content-type": "text/html; charset=utf-8" }).end(`<!doctype html><meta charset="utf-8"><title>Runner PCCC</title>
+<body style="font-family:system-ui;padding:24px"><h2>Runner PCCC đang chạy ✓</h2><p>Đây là máy chủ nền cho website, không phải trang để dùng.</p>
+<p>Claude Code: ${coClaude() ? "có" : "không thấy"} · Gemini API key: ${coKey() ? "có" : "chưa"} · cookie Gemini: ${coFileCookie() ? "có" : "chưa"}</p>
+<p>Mở website: <a href="http://localhost:5173">http://localhost:5173</a> (chạy <code>npm run dev</code>) hoặc bản GitHub Pages. Để cửa sổ runner mở khi dùng.</p></body>`);
+      return;
+    }
     if (req.method === "GET" && req.url === "/suc-khoe") return json(200, { ok: true, claude: coClaude(), claude_token: coToken(), gemini: await coPlaywright(), gemini_cookie: coFileCookie(), gemini_key: coKey(), ghi_chu: coFileCookie() ? "có file cookie Gemini" : "chưa có file cookie Gemini" });
     // ---- liên kết tài khoản ----
     if (req.method === "POST" && req.url === "/gemini/cookie") {
