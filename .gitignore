@@ -11,3 +11,6 @@ data/_test.pdf
 runner/gemini_cookies.json
 runner/gemini_cookies.json.tam
 *cookies*.json
+runner/claude_token.json
+runner/gemini_key.json
+runner/.profile*/

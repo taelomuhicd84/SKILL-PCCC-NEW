@@ -3,6 +3,7 @@
 //   npm -w runner run cli -- jobs <thu_muc_ra> [--bang B15] [--he-thong B35,B39] [--huong-dan]   chọn bảng, ghi prompt từng job
 //   npm -w runner run cli -- ra-soat <thu_muc_ra>                   ghi prompt rà soát từ các câu trả lời đã có
 //   npm -w runner run cli -- gop <thu_muc_ra>                       gộp jobs/*.json (+ ra_soat.json) → ket_qua.json, tom_tat.md
+//   npm -w runner run cli -- chay <thu_muc_ra> --engine gemini-api|claude|gemini [--luong 10] [--chi id1,id2] [--huong-dan]   chạy lô song song rồi gộp
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import path from "node:path";
 import { PDFDocument } from "pdf-lib";
@@ -12,6 +13,8 @@ import {
 } from "@pccc/shared";
 import { GOC_REPO } from "./chung";
 import { luuPhien } from "./phien";
+import { agentById } from "@pccc/shared";
+import { chayLo, taoTrangThai } from "./lo";
 
 const rel = (p: string) => path.relative(GOC_REPO, p).replace(/\\/g, "/");
 const bang = (ma: string): Bang => JSON.parse(readFileSync(path.join(GOC_REPO, "data", "bang", `${ma}.json`), "utf8"));
@@ -100,10 +103,41 @@ function gopKq(out: string) {
   console.log(`Ghi ${rel(out)}/ket_qua.json. Mở web, nạp lại PDF + ket_qua.json để tải PDF ghi chú và Word.`);
 }
 
+async function chay(out: string, a: string[]) {
+  const e = arg(a, "--engine");
+  const engine = e === "claude" || e === "gemini" ? e : "gemini-api";
+  if (!existsSync(path.join(out, "jobs.json")) || a.includes("--huong-dan")) jobs(out, a);
+  const jf = docJson<JobsFile>(path.join(out, "jobs.json"));
+  const chi = arg(a, "--chi")?.split(",");
+  const tt = ThongTin.parse(tachJson(readFileSync(path.join(out, "thong_tin.json"), "utf8")));
+  const { so_trang } = docJson<{ so_trang: number }>(path.join(out, "nguon.json"));
+  const viec = [];
+  for (const j of jf.jobs.filter((x) => !chi || chi.includes(x.id))) {
+    let prompt = readFileSync(path.join(out, "jobs", `${j.id}.md`), "utf8"); // chế độ "tep" (Claude đọc file)
+    if (engine !== "claude") { // chế độ "kem": dán tri thức vào file ngữ cảnh
+      const b = bang(j.bang);
+      const files = agentById(j.agent).tri_thuc;
+      const kb = Object.fromEntries(files.map((f) => [f, existsSync(path.join(GOC_REPO, f)) ? readFileSync(path.join(GOC_REPO, f), "utf8") : "(chưa có)"]));
+      const ctx: PromptCtx = { che_do: "kem", thong_tin: tt, so_trang, huong_dan: jf.huong_dan, kb };
+      prompt = promptJob(ctx, { id: j.id, agent: j.agent, bang: j.bang, muc: "", dong: b.dong.filter((d) => j.idx.includes(d.idx)) });
+    }
+    viec.push({ job: j.id, prompt });
+  }
+  const st = taoTrangThai(viec.length);
+  const t0 = Date.now();
+  const nhip = setInterval(() => console.log(`… ${Object.keys(st.xong).length}/${st.tong} xong, đang chạy: ${st.dang.join(", ")}`), 60_000);
+  await chayLo(engine, out, viec, st, arg(a, "--luong") ? Number(arg(a, "--luong")) : undefined);
+  clearInterval(nhip);
+  for (const [id, tra] of Object.entries(st.xong)) writeFileSync(path.join(out, "jobs", `${id}.json`), tra, "utf8");
+  console.log(`Lô ${engine}: ${Object.keys(st.xong).length}/${st.tong} job trong ${Math.round((Date.now() - t0) / 60000)} phút.`, Object.keys(st.loi).length ? "Lỗi: " + JSON.stringify(st.loi).slice(0, 600) : "");
+  gopKq(out);
+}
+
 const [cmd, out, ...rest] = process.argv.slice(2);
 const dir = out ? path.resolve(GOC_REPO, out) : "";
 if (cmd === "chuan-bi") await chuanBi(dir, rest.map((f) => path.resolve(process.env.INIT_CWD ?? process.cwd(), f)));
 else if (cmd === "jobs") jobs(dir, rest);
 else if (cmd === "ra-soat") raSoat(dir);
 else if (cmd === "gop") gopKq(dir);
+else if (cmd === "chay") { await chay(dir, rest); process.exit(0); }
 else { console.log(readFileSync(new URL(import.meta.url), "utf8").split("\n").slice(0, 6).join("\n")); process.exit(cmd ? 1 : 0); }

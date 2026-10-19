@@ -17,8 +17,11 @@ git clone https://github.com/taelomuhicd84/SKILL-PCCC-NEW && cd SKILL-PCCC-NEW
 npm install
 npm run runner            # chạy tại http://127.0.0.1:8787 – để cửa sổ này mở khi dùng web
 ```
-- **Claude Code**: cài Claude Code và đăng nhập (`claude` chạy được trong terminal). Model đổi bằng biến `PCCC_CLAUDE_MODEL` (vd. `sonnet`).
-- **Gemini – đăng nhập bằng file cookie JSON (dùng lâu dài)**:
+- **Liên kết tài khoản ngay trên web** (bước 1, khi runner đang chạy): dán token Claude / API key Gemini, nạp file cookie Gemini `.json`, chọn số luồng song song. Mọi thứ chỉ gửi tới runner ở 127.0.0.1 và lưu trong `runner/` của máy bạn (đã có trong `.gitignore`).
+- **Gemini API (khuyên dùng, nhanh nhất)**: lấy key miễn phí tại https://aistudio.google.com/apikey, dán vào web. Runner tải bản vẽ lên Files API một lần rồi chạy các job song song (mặc định 10 luồng, `PCCC_GEMINI_API_LUONG`); vượt hạn mức (429) thì tự lùi lại. Model: `PCCC_GEMINI_MODEL` (mặc định `gemini-2.5-flash`).
+- **Claude Code**: máy đã đăng nhập `claude` là dùng được. Liên kết lâu dài: nút "Mở cửa sổ đăng nhập Claude" chạy `claude setup-token`, dán token `sk-ant-…` vào web (hoặc API key). Mặc định 3 luồng (`PCCC_CLAUDE_LUONG`), model `PCCC_CLAUDE_MODEL`.
+- **Chạy theo lô**: web gửi cả lô job cho runner; mỗi job xong được lưu tạm ở `runner/work/<phiên>/jobs/` và ghép ngay vào bảng kết quả. Chạy lại thì job đã xong (cùng prompt) được dùng lại, nên bị ngắt giữa chừng vẫn chạy tiếp được. Dòng lệnh: `npm -w runner run cli -- chay ket_qua/<tên> --engine gemini-api|claude [--luong 10]`.
+- **Gemini web – đăng nhập bằng file cookie JSON (chậm, chạy tuần tự 1 tab, Chrome ẩn)**:
   1. Mở Chrome **cửa sổ ẩn danh**, đăng nhập Google, vào gemini.google.com cho chắc đã dùng được.
   2. Dùng tiện ích **Cookie-Editor** (hoặc EditThisCookie): ở trang gemini.google.com bấm *Export → JSON*, lưu thành `runner/gemini_cookies.json`. (Nhận cả định dạng Playwright `storageState`.)
   3. **Đóng cửa sổ ẩn danh, KHÔNG bấm đăng xuất.** Đăng xuất sẽ huỷ phiên và file cookie chết ngay.

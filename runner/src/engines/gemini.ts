@@ -1,119 +1,178 @@
-// Engine Gemini: Playwright điều khiển gemini.google.com trong một hồ sơ trình duyệt riêng (runner/.profile).
-// Đăng nhập bằng một trong hai cách (runner không đụng tới mật khẩu):
+// Engine Gemini: Playwright điều khiển gemini.google.com bằng Chrome chạy ẩn (mặc định headless), hồ sơ riêng runner/.profile.
+// Đăng nhập (runner không đụng tới mật khẩu):
 //  - file cookie JSON runner/gemini_cookies.json (xem gemini_cookies.ts) – tự làm mới để dùng lâu dài;
 //  - hoặc tự đăng nhập trong cửa sổ trình duyệt: npm -w runner run gemini-login.
+// Mỗi tab làm một job: chat mới (tạm thời) → tải bản vẽ + file ngữ cảnh → gõ câu lệnh ngắn → chờ → lấy khối JSON.
 // Lưu ý: tự động hoá giao diện web có thể trái điều khoản của Google và dễ hỏng khi giao diện đổi (xem gemini_selectors.ts).
+// Không có thủ thuật né phát hiện bot; gặp xác minh/captcha thì dừng. Chạy nhiều luồng nên dùng engine Gemini API (gemini_api.ts).
 import path from "node:path";
 import { writeFileSync } from "node:fs";
 import type { BrowserContext, Page, Locator } from "playwright";
 import { GOC_REPO, log } from "../chung";
 import { GEMINI_URL, SEL } from "./gemini_selectors";
 import { FILE_COOKIE, giuCookieDinhKy, luuCookie, napCookie } from "./gemini_cookies";
+import { bam, choLuotGui, cuonDoc, go, nghi } from "./nguoi_that";
 
 const PROFILE = path.join(GOC_REPO, "runner", ".profile");
-let ctx: BrowserContext | null = null;
+/** headless (ẩn hẳn, mặc định) · offscreen (cửa sổ thật đặt ngoài màn hình) · hien (thấy được, để đăng nhập/gỡ lỗi) */
+const CHE_DO = (process.env.PCCC_GEMINI_AN ?? "headless") as "headless" | "offscreen" | "hien";
+let ctx: Promise<BrowserContext> | null = null;
+
+export class BiChan extends Error {}
 
 export async function coPlaywright(): Promise<boolean> {
   try { await import("playwright"); return true; } catch { return false; }
 }
 
-async function moTrinhDuyet(): Promise<BrowserContext> {
+export function moTrinhDuyet(cheDo = CHE_DO): Promise<BrowserContext> {
   if (ctx) return ctx;
-  const { chromium } = await import("playwright");
-  const opt = { headless: process.env.PCCC_GEMINI_HEADLESS === "1", viewport: null, args: ["--disable-blink-features=AutomationControlled"] };
-  let c: BrowserContext;
-  try { c = await chromium.launchPersistentContext(PROFILE, { ...opt, channel: "chrome" }); } // Chrome thật: Google ít chặn hơn
-  catch { c = await chromium.launchPersistentContext(PROFILE, opt); }
-  await napCookie(c);
-  const dung = giuCookieDinhKy(c);
-  c.on("close", () => { dung(); ctx = null; });
-  ctx = c;
-  return c;
+  ctx = (async () => {
+    const { chromium } = await import("playwright");
+    const args = ["--disable-background-timer-throttling", "--disable-renderer-backgrounding", "--disable-backgrounding-occluded-windows"];
+    if (cheDo === "offscreen") args.push("--window-position=-32000,-32000");
+    const opt = { headless: cheDo === "headless", viewport: { width: 1366, height: 820 }, locale: "vi-VN", timezoneId: "Asia/Ho_Chi_Minh", args };
+    let c: BrowserContext;
+    try { c = await chromium.launchPersistentContext(PROFILE, { ...opt, channel: "chrome" }); } // Chrome thật: Google ít chặn hơn
+    catch { c = await chromium.launchPersistentContext(PROFILE, opt); }
+    await napCookie(c);
+    const dung = giuCookieDinhKy(c);
+    c.on("close", () => { dung(); ctx = null; });
+    return c;
+  })();
+  ctx.catch(() => (ctx = null));
+  return ctx;
+}
+
+export async function dongTrinhDuyet() {
+  const c = await ctx?.catch(() => null);
+  if (c) { await luuCookie(c).catch(() => {}); await c.close().catch(() => {}); }
+  ctx = null;
 }
 
 async function tim(page: Page, ds: readonly string[], timeout = 5000): Promise<Locator | null> {
   const het = Date.now() + timeout;
-  while (Date.now() < het) {
+  do {
     for (const s of ds) {
       const l = page.locator(s).last();
       if (await l.isVisible().catch(() => false)) return l;
     }
-    await page.waitForTimeout(300);
-  }
+    if (timeout > 0) await page.waitForTimeout(300);
+  } while (Date.now() < het);
   return null;
 }
 
-/** Mở Gemini, chờ người dùng đăng nhập nếu cần (tối đa 10 phút). */
-async function moGemini(): Promise<Page> {
-  const c = await moTrinhDuyet();
-  const page = c.pages()[0] ?? (await c.newPage());
+async function kiemChan(page: Page) {
+  if (await tim(page, SEL.biChan, 0)) throw new BiChan("Gemini yêu cầu xác minh hoặc báo hết lượt: dừng tất cả tab, thử lại sau.");
+}
+
+/** Mở chat mới; chờ ô nhập (tức là đã đăng nhập). */
+async function chatMoi(page: Page, choDangNhap = 15000): Promise<Locator> {
   await page.goto(GEMINI_URL, { waitUntil: "domcontentloaded" });
-  if (!(await tim(page, SEL.oNhap, 15000))) {
-    log(`Gemini: chưa đăng nhập (cookie trong ${FILE_COOKIE} hết hạn hoặc chưa có). Đăng nhập Google trong cửa sổ trình duyệt vừa mở, hoặc xuất lại file cookie…`);
-    if (!(await tim(page, SEL.oNhap, 10 * 60_000))) throw new Error("Không thấy ô nhập của Gemini (chưa đăng nhập hoặc giao diện đã đổi – sửa runner/src/engines/gemini_selectors.ts).");
+  await kiemChan(page);
+  const o = await tim(page, SEL.oNhap, choDangNhap);
+  if (!o) throw new Error(`Gemini chưa đăng nhập: nạp lại file cookie (${path.basename(FILE_COOKIE)}) hoặc chạy npm -w runner run gemini-login.`);
+  if (process.env.PCCC_GEMINI_TAM_THOI !== "0") { // chat tạm thời: không làm đầy lịch sử của người dùng
+    const t = await tim(page, SEL.nutTamThoi, 1500);
+    if (t) { await bam(page, t); await nghi(800, 1800); }
   }
-  return page;
+  return (await tim(page, SEL.oNhap, 5000)) ?? o;
 }
 
 async function taiTep(page: Page, files: string[]) {
   const nut = await tim(page, SEL.nutTaiLen);
   if (!nut) throw new Error("Không thấy nút tải tệp của Gemini (sửa gemini_selectors.ts).");
+  await bam(page, nut);
+  await nghi(500, 1200);
+  const muc = await tim(page, SEL.mucTaiTep, 4000);
+  if (!muc) throw new Error("Không thấy mục 'Tải tệp lên' (sửa gemini_selectors.ts).");
   const chooser = page.waitForEvent("filechooser", { timeout: 15000 });
-  await nut.click();
-  const muc = await tim(page, SEL.mucTaiTep, 3000);
-  if (muc) await muc.click();
-  (await chooser).setFiles(files);
-  await page.waitForTimeout(1500);
-  for (let i = 0; i < 240 && (await tim(page, SEL.dangTaiTep, 200)); i++) await page.waitForTimeout(500);
+  await bam(page, muc);
+  await (await chooser).setFiles(files);
+  await nghi(2000, 3500);
+  for (let i = 0; i < 300 && (await tim(page, SEL.tepDangTai, 0)); i++) await page.waitForTimeout(500);
 }
 
+/** Chờ trả lời xong: không còn nút Dừng và nội dung đứng yên 3 lần liên tiếp. Lấy khối mã (JSON) nếu có. */
 async function choTraLoi(page: Page, timeoutMs: number): Promise<string> {
   const het = Date.now() + timeoutMs;
-  await page.waitForTimeout(3000);
+  await nghi(4000, 6000);
   let truoc = "", on = 0;
   while (Date.now() < het) {
-    const dangChay = await tim(page, SEL.nutDung, 200);
-    const l = await tim(page, SEL.traLoi, 500);
-    const t = l ? await l.innerText().catch(() => "") : "";
-    if (!dangChay && t && t === truoc) { if (++on >= 3) return t; } else on = 0;
+    await kiemChan(page);
+    const dangChay = await tim(page, SEL.nutDung, 0);
+    const r = page.locator(SEL.traLoi[0]).last();
+    const t = (await r.count()) ? await r.innerText().catch(() => "") : "";
+    if (!dangChay && t && t === truoc) {
+      if (++on >= 3) {
+        for (const s of SEL.khoiMa) {
+          const codes = await r.locator(s).allInnerTexts().catch(() => [] as string[]);
+          const j = codes.find((c) => c.includes("{"));
+          if (j) return j;
+        }
+        return t;
+      }
+    } else on = 0;
     truoc = t;
+    if (Math.random() < 0.2) await cuonDoc(page);
     await page.waitForTimeout(2000);
   }
   throw new Error("Gemini quá thời gian trả lời");
 }
 
-/** Gửi một job: đính kèm bản vẽ + file ngữ cảnh (prompt đầy đủ), dán câu lệnh ngắn, chờ trả lời. */
-export async function chayGemini(prompt: string, pdf: string, thuMucJob: string, jobId: string, timeoutMs = 20 * 60_000): Promise<string> {
-  const page = await moGemini();
+/** Chạy một job trên một tab có sẵn. */
+export async function chayTrenTab(page: Page, prompt: string, pdf: string, thuMucJob: string, jobId: string, timeoutMs = 20 * 60_000): Promise<string> {
   const ngucanh = path.join(thuMucJob, `${jobId}.md`);
   writeFileSync(ngucanh, prompt, "utf8");
+  let o = await chatMoi(page);
+  await nghi(1000, 2500);
   await taiTep(page, [pdf, ngucanh]);
-  const o = (await tim(page, SEL.oNhap))!;
-  await o.click();
-  await o.fill(`Đọc file ${jobId}.md (nhiệm vụ, nguyên tắc, tri thức, các dòng cần xét) và bản vẽ PDF đính kèm. Làm đúng nhiệm vụ trong file và chỉ trả về một khối \`\`\`json theo định dạng ghi trong file.`);
+  o = (await tim(page, SEL.oNhap)) ?? o;
+  await bam(page, o);
+  await go(page, `Đọc tệp ${jobId}.md (nhiệm vụ, nguyên tắc, tri thức, các dòng cần xét) và bản vẽ PDF đính kèm. Làm đúng nhiệm vụ trong tệp, chỉ trả về một khối json theo định dạng ghi trong tệp.`);
+  await nghi(600, 1500);
+  await choLuotGui();
   const gui = await tim(page, SEL.nutGui, 3000);
-  if (gui) await gui.click(); else await o.press("Enter");
+  if (gui) await bam(page, gui); else await page.keyboard.press("Enter");
   const t = await choTraLoi(page, timeoutMs);
   await luuCookie(page.context()).catch(() => {}); // ghi cookie đã làm mới sau mỗi job
   return t;
 }
 
-/** Mở Gemini, xác nhận đăng nhập, ghi lại cookie đã làm mới, đóng trình duyệt. Dùng cho kiểm tra và giữ phiên định kỳ. */
-export async function giuPhien(): Promise<boolean> {
-  try {
-    const page = await moGemini();
-    await page.waitForTimeout(8000);
-    await page.reload({ waitUntil: "domcontentloaded" });
-    const ok = !!(await tim(page, SEL.oNhap, 15000));
-    if (ok) await luuCookie(page.context());
-    return ok;
-  } finally { await ctx?.close(); }
+export async function moTab(): Promise<Page> {
+  return (await moTrinhDuyet()).newPage();
 }
 
-// npm -w runner run gemini-login: mở trình duyệt để người dùng đăng nhập một lần (cookie được ghi ra file).
+/** Một job lẻ (endpoint /job): dùng một tab riêng rồi đóng. */
+export async function chayGemini(prompt: string, pdf: string, thuMucJob: string, jobId: string): Promise<string> {
+  const p = await moTab();
+  try { return await chayTrenTab(p, prompt, pdf, thuMucJob, jobId); } finally { await p.close().catch(() => {}); }
+}
+
+/** Kiểm tra đăng nhập, làm mới file cookie, đóng trình duyệt. */
+export async function giuPhien(): Promise<boolean> {
+  try {
+    const p = await moTab();
+    await chatMoi(p).catch(() => null);
+    await nghi(5000, 9000);
+    await p.reload({ waitUntil: "domcontentloaded" });
+    const ok = !!(await tim(p, SEL.oNhap, 15000));
+    if (ok) await luuCookie(p.context());
+    return ok;
+  } finally { await dongTrinhDuyet(); }
+}
+
+// npm -w runner run gemini-login: mở cửa sổ THẤY ĐƯỢC để người dùng đăng nhập một lần (cookie được ghi ra file).
 if (process.argv.includes("--dang-nhap")) {
-  moGemini().then(async (p) => { await luuCookie(p.context()); log("Đã đăng nhập, đã ghi file cookie. Đóng cửa sổ trình duyệt để kết thúc."); })
-    .catch((e) => { console.error(e); process.exit(1); });
+  (async () => {
+    const c = await moTrinhDuyet("hien");
+    const p = c.pages()[0] ?? (await c.newPage());
+    await p.goto(GEMINI_URL);
+    log("Đăng nhập Google trong cửa sổ vừa mở (tối đa 10 phút)…");
+    if (!(await tim(p, SEL.oNhap, 10 * 60_000))) throw new Error("Chưa thấy Gemini sau 10 phút");
+    await luuCookie(c);
+    log("Đã đăng nhập, đã ghi file cookie.");
+    await c.close();
+  })().catch((e) => { console.error(e); process.exit(1); });
 }
 // npm -w runner run gemini-giu-phien: kiểm tra đăng nhập + làm mới file cookie (đặt Task Scheduler chạy 1–2 lần/ngày).
 if (process.argv.includes("--giu-phien")) {

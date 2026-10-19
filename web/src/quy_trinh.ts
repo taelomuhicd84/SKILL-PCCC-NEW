@@ -39,12 +39,20 @@ export async function taoJobs(bangChinh: string | null, bangHT: string[]): Promi
   return lapJobs(chinh, ht);
 }
 
-export async function chayMotJob(goi: Goi, nc: NguCanh, tt: ThongTin, job: Job): Promise<KetQuaDong[]> {
+/** Prompt của một job cho hai chế độ: "tep" (Claude đọc file) và "kem" (Gemini, thủ công). */
+export async function promptCua(nc: NguCanh, tt: ThongTin, job: Job): Promise<{ pt: string; pk: string }> {
   const [ct, ck] = await ctxCa(nc, tt, agentById(job.agent).tri_thuc);
-  const idx = job.dong.map((d) => d.idx);
-  const out = await goiJson(goi, job.id, `${agentById(job.agent).ten} (${job.bang})`, promptJob(ct, job), promptJob(ck, job), (r) => docKetQuaJob(r, job.bang, idx));
-  // điền TT theo bảng (AI hay bỏ trống)
-  return out.map((d) => ({ ...d, tt: d.tt || job.dong.find((x) => x.idx === d.idx)?.tt || "" }));
+  return { pt: promptJob(ct, job), pk: promptJob(ck, job) };
+}
+
+/** Đọc câu trả lời của một job; điền TT theo bảng (AI hay bỏ trống). */
+export function docTraLoiJob(raw: unknown, job: Job): KetQuaDong[] {
+  return docKetQuaJob(raw, job.bang, job.dong.map((d) => d.idx)).map((d) => ({ ...d, tt: d.tt || job.dong.find((x) => x.idx === d.idx)?.tt || "" }));
+}
+
+export async function chayMotJob(goi: Goi, nc: NguCanh, tt: ThongTin, job: Job): Promise<KetQuaDong[]> {
+  const { pt, pk } = await promptCua(nc, tt, job);
+  return goiJson(goi, job.id, `${agentById(job.agent).ten} (${job.bang})`, pt, pk, (r) => docTraLoiJob(r, job));
 }
 
 export async function raSoat(goi: Goi, nc: NguCanh, tt: ThongTin, ds: DongKetQua[]): Promise<KetQuaDong[]> {

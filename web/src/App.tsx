@@ -6,8 +6,10 @@ import {
 } from "@pccc/shared";
 import { moPdf, type PdfDoc } from "./pdf";
 import { taiIndex, taiMau } from "./data";
-import { chayJob, kiemRunner, taoPhien, type Engine, type Phien, type SucKhoe } from "./runner";
-import { chayMotJob, docHoSo, gop, raSoat, taoJobs, type Goi, type NguCanh } from "./quy_trinh";
+import { batDauLo, chayJob, kiemRunner, taoPhien, xemLo, type Engine, type Phien, type SucKhoe } from "./runner";
+import { LienKet } from "./LienKet";
+import { chayMotJob, docHoSo, docTraLoiJob, gop, promptCua, raSoat, taoJobs, type Goi, type NguCanh } from "./quy_trinh";
+import { tachJson } from "@pccc/shared";
 import { Viewer } from "./Viewer";
 import { mauDong, nhanDong, xuatPdf } from "./xuat_pdf";
 import { xuatDocx } from "./xuat_docx";
@@ -30,7 +32,8 @@ export default function App() {
   const [pdf, setPdf] = useState<PdfDoc | null>(null);
   const [chu, setChu] = useState<TrangChu[]>([]);
   const [tienTrinh, setTienTrinh] = useState("");
-  const [engine, setEngine] = useState<Engine>(() => (doc<Engine>("pccc.engine") ?? "claude"));
+  const [engine, setEngine] = useState<Engine>(() => (doc<Engine>("pccc.engine") ?? "gemini-api"));
+  const [luong, setLuong] = useState<number>(() => doc<number>("pccc.luong") ?? 10);
   const [sk, setSk] = useState<SucKhoe | null>(null);
   const [phien, setPhien] = useState<Phien | null>(null);
   const [tt, setTt] = useState<ThongTin | null>(null);
@@ -51,6 +54,7 @@ export default function App() {
   useEffect(() => { taiIndex().then(setIndex).catch(() => setLoi("Không tải được danh mục bảng.")); }, []);
   useEffect(() => { luu("pccc.engine", engine); if (engine !== "thu-cong") kiemRunner().then(setSk); }, [engine]);
   useEffect(() => { luu("pccc.huongdan", huongDan); }, [huongDan]);
+  useEffect(() => { luu("pccc.luong", luong); }, [luong]);
 
   // ---------- gọi AI ----------
   const goi: Goi = async (jobId, tenJob, pt, pk) => {
@@ -121,9 +125,34 @@ export default function App() {
       const st: TTJob[] = ds.map((job) => ({ job, trang_thai: "cho" }));
       setJobs([...st]);
       const nhom: KetQuaDong[][] = [kq];
-      for (let i = 0; i < st.length; i++) {
+      const daCo = (j: Job) => kq.length > 0 && j.dong.every((d) => kq.some((k) => k.bang === j.bang && k.idx === d.idx));
+      if (engine !== "thu-cong") {
+        // chạy lô song song trên runner; job nào xong (đã lưu tạm ở runner) thì ghép ngay vào kết quả
+        const can = st.filter((x) => !daCo(x.job));
+        st.forEach((x) => { if (daCo(x.job)) x.trang_thai = "xong"; });
+        const viec = await Promise.all(can.map(async (x) => { const p = await promptCua(ncP, tt, x.job); return { job: x.job.id, prompt: engine === "claude" ? p.pt : p.pk }; }));
+        const { lo } = await batDauLo(engine, phienRef.current!.phien, viec, luong);
+        const daGhep = new Set<string>();
+        for (;;) {
+          const t = await xemLo(lo);
+          for (const x of can) {
+            const id = x.job.id;
+            if (t.xong[id] != null && !daGhep.has(id)) {
+              daGhep.add(id);
+              try { nhom.push(docTraLoiJob(tachJson(t.xong[id]), x.job)); x.trang_thai = "xong"; }
+              catch (e) { x.trang_thai = "loi"; x.loi = "sai định dạng: " + String(e).slice(0, 200); }
+            } else if (t.loi[id] && t.xong[id] == null) { x.trang_thai = t.het ? "loi" : "dang"; x.loi = t.loi[id]; }
+            else if (t.dang.includes(id)) x.trang_thai = "dang";
+          }
+          const g = gop(nhom); setKq(g); luuKq(g); setJobs([...st]);
+          setTienTrinh(`Đang chạy song song ${luong} luồng: ${Object.keys(t.xong).length}/${t.tong} job xong${t.dang.length ? " · đang: " + t.dang.join(", ") : ""}`);
+          if (t.het || dung.current) break;
+          await new Promise((r) => setTimeout(r, 3000));
+        }
+      }
+      for (let i = 0; i < st.length && engine === "thu-cong"; i++) {
         if (dung.current) break;
-        if (kq.length && st[i].job.dong.every((d) => kq.some((k) => k.bang === st[i].job.bang && k.idx === d.idx))) { st[i].trang_thai = "xong"; setJobs([...st]); continue; } // đã có từ lần trước
+        if (daCo(st[i].job)) { st[i].trang_thai = "xong"; setJobs([...st]); continue; } // đã có từ lần trước
         st[i].trang_thai = "dang"; setJobs([...st]);
         setTienTrinh(`Đang chạy ${i + 1}/${st.length}: ${agentById(st[i].job.agent).ten} – ${st[i].job.bang}`);
         try {
@@ -193,10 +222,10 @@ export default function App() {
               <input type="file" accept="application/pdf" multiple onChange={(e) => napHoSo(e.target.files)} />
               <h3>AI dùng để thẩm định</h3>
               <div className="chon-engine">
-                {([["claude", "Claude Code (qua runner)"], ["gemini", "Gemini trên trình duyệt (qua runner, Playwright)"], ["thu-cong", "Thủ công: copy prompt, dán trả lời"]] as const).map(([v, n]) => (
+                {([["gemini-api", "Gemini API – nhanh, chạy song song (khuyên dùng)"], ["claude", "Claude Code (tài khoản Claude của bạn)"], ["gemini", "Gemini web (chậm, chạy tuần tự)"], ["thu-cong", "Thủ công: copy prompt, dán trả lời"]] as const).map(([v, n]) => (
                   <label key={v}><input type="radio" checked={engine === v} onChange={() => setEngine(v)} /> {n}</label>))}
               </div>
-              {engine !== "thu-cong" && <p className={sk ? "ok" : "muted"}>{sk ? `Runner đang chạy · Claude Code: ${sk.claude ? "có" : "không thấy"} · Gemini: ${sk.gemini ? "có" : "chưa cài Playwright"}${sk.ghi_chu ? " · " + sk.ghi_chu : ""}` : "Chưa thấy runner ở máy bạn (xem README: npm run runner)."}</p>}
+              {engine !== "thu-cong" && <LienKet engine={engine} sk={sk} capNhat={() => kiemRunner().then(setSk)} luong={luong} setLuong={setLuong} />}
               <p className="muted">Đã có kết quả? <input type="file" accept="application/json" onChange={(e) => moKetQuaJson(e.target.files?.[0])} /></p>
               {pdf && <button className="chinh" onClick={() => setBuoc(2)}>Tiếp: lập thông tin công trình →</button>}
             </div>
