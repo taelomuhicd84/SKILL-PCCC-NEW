@@ -1,0 +1,309 @@
+{
+"ma": "B25",
+"ten": "Bảng đối chiếu Kho chứa LNG",
+"file_goc": "B25. Bảng đối chiếu  Kho chứa LNG.docx",
+"so_dong": 27,
+"nguon": "docx",
+"dau_bang": [
+"Ghi chú: (1) Tên cơ quan chủ quản trực tiếp;(2) Tên đơn vị thực hiện thẩm duyệt; (3) Họ tên và chữ ký của cán bộ thực hiện; (4) Ghi quyền hạn, chức vụ của người lãnh đạo, chỉ huy đơn vị thẩm duyệt, nếu người ký văn bản là cấp phó của người đứng đầu cơ quan thì ghi chữ viết tắt “KT.” vào trước chức vụ của người đứng đầu, bên dưới ghi chức vụ của người ký văn bản"
+],
+"dong": [
+{
+"idx": 0,
+"tt": "1",
+"noi_dung": "Quy mô công trình, tính chất hoạt động",
+"goi_y": "Lưu ý: Trong quy mô cần liệt kê các hạng mục có trong kho (hạng mục chính và hạng mục phụ trợ)",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+},
+{
+"idx": 1,
+"tt": "2",
+"noi_dung": "Phân cấp kho",
+"goi_y": "",
+"quy_dinh": "Kho tồn chứa khí hóa lỏng và các sản phẩm khí hóa lỏng dưới áp suất bao gồm: / Kho cấp 1: trên 10.000 m3 / Kho cấp 2: từ 5.000 m3 đến 10.000 m3 / Kho cấp 3: nhỏ hơn 5.000 m3",
+"khoan_dieu": "Điều 4 NĐ 25/2019/NĐ-CP",
+"ket_luan_mau": "",
+"tra_o": "chưa nạp: đọc cột quy định của bảng",
+"so_o": 6
+},
+{
+"idx": 2,
+"tt": "3",
+"noi_dung": "Bậc chịu lửa của các hạng mục trong kho",
+"goi_y": "",
+"quy_dinh": "Lưu ý: Việc thiết kế bậc chịu lửa phải phù hợp với quy mô, tính chất, hạng nguy hiểm cháy, nổ vào chiều cao của công trình. / Bậc I: / - Tường chịu lực, cột chịu lực và các bộ phận chịu lực khác: R 120; / - Tường ngoài không chịu lực: E 30; / - Sàn giữa các tầng (bao gồm cả sàn tầng áp mái và sàn trên tầng hầm): REI 60; / - Tấm lợp (kể cả tấm lợp có lớp các nhiệt): RE 30; / - Giàn, dầm, xà gồ: R 30; / - Tường trong buồng thang: REI 120; / - Bản thang và chiếu thang: R60. / Bậc II: / - Tường chịu lực, cột chịu lực và các bộ phận chịu lực khác: R 90; / - Tường ngoài không chịu lực: E 15; / - Sàn giữa các tầng (bao gồm cả sàn tầng áp mái và sàn trên tầng hầm): REI 45; / - Tấm lợp (kể cả tấm lợp có lớp các nhiệt): RE 15; / - Giàn, dầm, xà gồ: R 15; / - Tường trong buồng thang: REI 90; / - Bản thang và chiếu thang: R60. / Bậc III: / - Tường chịu lực, cột chịu lực và các bộ phận chịu lực khác: R 45; / - Tường ngoài không chịu lực: E 15; / - Sàn giữa các tầng (bao gồm cả sàn tầng áp mái và sàn trên tầng hầm): REI 45; / - Tấm lợp (kể cả tấm lợp có lớp các nhiệt): RE 15; / - Giàn, dầm, xà gồ: R 15; / - Tường trong buồng thang: REI 60; / - Bản thang và chiếu thang: R45. / Bậc IV: / - Tường chịu lực, cột chịu lực và các bộ phận chịu lực khác: R 15; / - Tường ngoài không chịu lực: E 15; / - Sàn giữa các tầng (bao gồm cả sàn tầng áp mái và sàn trên tầng hầm): REI 15; / - Tấm lợp (kể cả tấm lợp có lớp các nhiệt): RE 15; / - Giàn, dầm, xà gồ: R 15; / - Tường trong buồng thang: REI 45; / - Bản thang và chiếu thang: R15. / Bậc V không quy định.",
+"khoan_dieu": "Bảng 2 / Bảng 4 / QCVN / 06:2022/BXD",
+"ket_luan_mau": "",
+"tra_o": "chưa nạp: đọc cột quy định của bảng",
+"so_o": 6
+},
+{
+"idx": 3,
+"tt": "4",
+"noi_dung": "Giao thông phục vụ chữa cháy",
+"goi_y": "Yêu cầu thiết kế bảo đảm theo quy định của TCVN 2622:1995. Có thể tham khảo QCVN 06:2022/BXD.",
+"quy_dinh": "- Chiều rộng thông thủy của mặt đường cho xe chữa cháy không được nhỏ hơn 3,5 m / - Chiều cao thông thủy để các phương tiện chữa cháy đi qua không được nhỏ hơn 4,5 m / - Nền đường được gia cố bằng các vật liệu đảm bảo chịu được tải trọng của xe chữa cháy và đảm bảo thoát nước mặt",
+"khoan_dieu": "Điều 6.2 QCVN 06:2022/BXD",
+"ket_luan_mau": "",
+"tra_o": "chưa nạp: đọc cột quy định của bảng",
+"so_o": 6
+},
+{
+"idx": 4,
+"tt": "5",
+"noi_dung": "Bố trí mặt bằng",
+"goi_y": "",
+"quy_dinh": "6.3.1 Khoảng cách tối thiểu giữa 2 bồn chứa bất kỳ chứa LNG hoặc chất làm lạnh dễ cháy nào đều / phải tuân theo Bảng 5. Nếu khoảng cách từ bồn chứa đến công trình hoặc tường rào lân cận bằng bê tông hoặc gạch mà nhỏ hơn thì phải được cơ quan có thẩm quyền chấp thuận nhưng không được nhỏ hơn 3,0 m tính từ bất kỳ cửa mở nào của tòa nhà. / 6.3.2 Hệ thống bồn chứa kép, bồn chứa tổ hợp và bồn chứa màng phải được tách biệt khỏi đám cháy / ở khu vực ngăn tràn của hệ thống bồn chứa đơn hoặc bồn chứa kép liền kề để nếu như xảy ra cháy ở khu vực ngăn tràn liền kề hay từ sự cố tràn thiết kế thì cũng không dẫn đến tình trạng mất kiểm soát khả năng tồn chứa. Điều này được thực hiện bằng cách đảm bảo rằng khi xảy ra cháy thì nhiệt độ của mái che, tường, lớp cách nhiệt (của bồn chứa) hay kết cấu phần ngăn tràn không thể nóng đến mức làm suy giảm các chỉ tiêu cơ học các cấu trúc (mái che, tường, lớp cách nhiệt, kết cấu ngăn tràn) gây ra sập đổ hoặc vỡ, hoặc rò rỉ không kiểm soát các sản phẩm lỏng hay khí chứa trong bồn. Việc áp dụngcác phân tích kỹ thuật phải được sử dụng để xác định tình trạng này, bao gồm các điều kiện sau trong phân tích: / - Phải thực hiện phép phân tích đối với đám cháy xảy ra khi thất thoát toàn bộ chất lỏng có trong / bồn chứa sơ cấp trong khu vực đê ngăn tràn được xây dựng theo yêu cầu của 13.1. / - Các phân tích phải xét đến những điều kiện sau: / + Thời gian diễn ra đám cháy, các đặc tính bức xạ nhiệt của đám cháy và các thuộc tính vật lý của / đám cháy trong các điều kiện khí quyển dự kiến; / + Các điều kiện khí quyển tạo ra khoảng cách phân cách tối đa - ngoại trừ các điều kiện có tần suất / xảy ra ít hơn 10 % thời gian dựa trên số liệu thống kê khu vực theo thời gian và sử dụng một / mô hình ngọn lửa LNG tương ứng với 5.3.2; / + Hệ thống chủ động hoặc bị động để giảm mật độ thông nhiệt trên bề mặt hoặc để hạn chế / nhiệt độ bề mặt; / + Vật liệu, thiết kế và phương pháp xây dựng bồn chứa LNG. / 6.3.3 Lối đi vào vị trí lắp van cô lập của mỗi cụm/nhiều bồn chứa phải rộng ít nhất là 0,9 m. / 6.3.4 Các bình chứa/bồn chứa LNG có dung tích lớn hơn 0,5 m3 không được đặt trong các tòa nhà. / 6.3.5 Các bồn chứa lưu chất dễ cháy và chất làm lạnh dễ cháy không được đặt trong khu vực ngăn tràn của bồn chứa LNG.",
+"khoan_dieu": "6.3.1 TCVN 8616:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_loi_ra_va_cua",
+"so_o": 6
+},
+{
+"idx": 5,
+"tt": "",
+"noi_dung": "",
+"goi_y": "",
+"quy_dinh": "Khoảng cách giữa các thiết bị hóa khí / Phải bố trí các thiết bị hóa khí sử dụng lưu chất truyền nhiệt dễ cháy và các nguồn nhiệt chính của chúng ở cách xa ít nhất 15 m so với các nguồn tia lửa khác. / Khi lắp đặt nhiều thiết bị hóa khí tại cùng một khu vực thì một thiết bị hóa khí hoặc nguồn nhiệt chính của nó sẽ không được coi là nguồn đánh lửa của thiết bị hóa khí bên cạnh. / Các thiết bị gia nhiệt công nghệ hoặc các bộ phận của thiết bị đốt nóng khác không được coi là nguồn tia lửa khi bố trí thiết bị hóa khí nếu những thiết bị này được cài đặt liên động với thiết bị hóa khí để mà chúng không thể hoạt động khi thiết bị hóa khí đang hoạt động hoặc trong khi hệ thống đường ống phục vụ thiết bị hóa khí đã nguội hoặc đang được làm nguội. / Vị trí của các bộ phận tiếp xúc trực tiếp với ngọn lửa của một thiết bị hóa khí gia nhiệt tích hợp phải thỏa mãn các điều kiện sau: / - Phải cách khu vực ngăn tràn của bất cứ chất dễ cháy nào sau đây ít nhất 15 m: LNG, chất làm lạnh / dễ cháy, lưu chất dễ cháy (xem 6.3) hoặc phải cách ít nhất là 15 m đối với dòng chảy của các / chất lỏng trên từ chỗ bị rò rỉ đến khu vực ngăn tràn; / - Phải cách ít nhất là 15 m đối với: bồn chứa LNG, lưu chất dễ cháy, chất làm lạnh dễ cháy, chất khí / dễ cháy; các thiết bị công nghệ khôngchứa các chất dễ cháy trên; hoặc các khớp nối thuộc hệ thống / xuất hoặc nhập các chất dễ cháy trên; / - Phải cách các tòa nhà điều khiển, văn phòng, cửa hàng, công trình dân cư và nhà xưởng quan trọng / khác ít nhất 15 m; / - Cách chỉ giới xây dựng trong phạm vi hàng rào nhà máy ít nhất 30 m (xem 6.4.4). / Các bộ đốt nóng hoặc nguồn nhiệt của thiết bị hóa khí được gia nhiệt từ xa phải theo 6.4.2. / Các thiết bị hóa khí bao gồm loại được gia nhiệt từ xa, gia nhiệt bằng nhiệt độ môi trường xung quanh phải được đặt cách chỉ giới được phép xây dựng trong phạm vi hàng rào nhà máy ít nhất 30 m. / Khi các thiết bị hóa khí được kết nối với các bồn chứa LNG có dung tích từ 265 m3 trở xuống thì thiết bị hóa khí được giả định là 1 bồn chứa có cùng dung tích với bồn LNG lớn nhất trong số các bồn mà nó kết nối. Việc lắp đặt các thiết bị hóa khí này phải tuân theo quy định tại Bảng 5. / Khoảng cách tối thiểu giữa hai thiết bị hóa khí phải được duy trì ít nhất là 1,5 m.",
+"khoan_dieu": "6.4 TCVN 8616:2023",
+"ket_luan_mau": "",
+"tra_o": "bảng hệ thống B34–B50",
+"so_o": 6
+},
+{
+"idx": 6,
+"tt": "",
+"noi_dung": "",
+"goi_y": "",
+"quy_dinh": "Khoảng cách giữa các thiết bị công nghệ / Phải bố trí các thiết bị công nghệ chứa LNG, chất làm lạnh, chất lỏng hoặc khí dễ cháy cách xa ít nhất 15 m từ các nguồn phát lửa, đường ranh giới có thể được xây dựng, các trung tâm điều khiển, văn phòng, cửa hàng và các công trình dân cư khác. / Nếu các trung tâm điều khiển được đặt trong tòa nhà chứa các máy nén khí dễ cháy, các kết cấu của tòa nhà phải tuân theo 12.5. / Phải bố trí thiết bị được đốt nóng trực tiếp và các nguồn gây cháy khác cách xa ít nhất 15 m từ bất kỳ khu vực ngăn tràn nào hoặc hệ thống xả đọng của bồn chứa.",
+"khoan_dieu": "6.5 TCVN 8616:2023",
+"ket_luan_mau": "",
+"tra_o": "bảng hệ thống B34–B50",
+"so_o": 6
+},
+{
+"idx": 7,
+"tt": "",
+"noi_dung": "",
+"goi_y": "",
+"quy_dinh": "Khoảng cách giữa các thiết bị xuất và nhập / Một cầu tầu hay cảng dùng cho xuất nhập LNG bằng đường ống phải được đặt tại vị trí sao cho bất kỳ tàu nào xuất nhập hàng đều phải cách xa cầu bắc ngang qua đường thủy đó ít nhất 30 m. / Các đầu phân phối xuất nhập hàng phải cách xa ít nhất 61 m từ vị trí cây cầu. / Các đầu kết nối cho việc xuất nhập LNG và chất làm lạnh dễ cháy phải cách xa ít nhất 15 m từ các nguồn tia lửa không được kiểm soát, các khu công nghệ, các thiết bị tồn chứa, các tòa nhà điều khiển, văn phòng, cửa hàng và các công trình dân cư hoặc nhà máy quan trọng khác, ngoại trừ các thiết bị liên quan trực tiếp đến hoạt động xuất nhập. / Các khu vực ngăn tràn phải được bố trí sao cho nếu xảy ra cháy tại khu vực này thì nhiệt phát ra từ đám cháy không gây ra thiệt hại lớn về kết cấu dẫn đến ảnh hưởng khả năng di chuyển của bất kỳ tàu chở LNG nào.",
+"khoan_dieu": "6.6 TCVN 8616:2023",
+"ket_luan_mau": "",
+"tra_o": "bảng hệ thống B34–B50",
+"so_o": 6
+},
+{
+"idx": 8,
+"tt": "",
+"noi_dung": "",
+"goi_y": "",
+"quy_dinh": "Khoảng cách giữa các khu vực ngăn tràn / Các khu vực ngăn tràn phải được bố trí sao cho mối nguy từ tình huống tràn thiết kế không bao giờ vượt ra ngoài khu vực theo quy định tại điều 5. / Khoảng cách giữa các khu vực ngăn tràn phải đáp ứng các yêu cầu trong Bảng 5. / Khoảng cách từ các khu vực ngăn tràn đến các đối tượng sau đây phải có giá trị ít nhất là 15 m: các nguồn tia lửa không kiểm soát, các tòa nhà điều khiển, văn phòng, cửa hàng, các công trình dân cư hoặc nhà xưởng quan trọng.",
+"khoan_dieu": "6.8 TCVN 8616:2023",
+"ket_luan_mau": "",
+"tra_o": "bảng hệ thống B34–B50",
+"so_o": 6
+},
+{
+"idx": 9,
+"tt": "6",
+"noi_dung": "Các hệ thống thu gom trong khu vực chế biến và giao nhận",
+"goi_y": "",
+"quy_dinh": "Các biện pháp ngăn chặn quá trình phát tán rộng của LNG hoặc hydrocacbon rò rỉ là: / - Hạn chế thể tích rò rì bằng việc cô lập nguồn rò rỉ; / - Chứa chất lỏng tràn vào các khu vực ngăn tràn hoặc bể ngăn tràn để phòng ngừa chất lỏng lan sang / các khu vực khác của kho hoặc ra ngoài kho và giảm thiểu khoảng cách khuếch tán của đám mây / hơi; / - Kiểm soát quá trình rò rỉ và tràn. / Nếu các tính toán về quá trình khuếch tán chỉ ra rằng sự rò rỉ có thể tiến triển thành sự cố nghiêm trọng hơn, cần phải trang bị hệ thống phát hiện rò rỉ cố định kèm theo sự tư vấn và hành động phù hợp nhằm cô lập các khu vực của kho và tắt nguồn tia lửa. / Các thiết bị phát hiện tràn cũng phải được lắp đặt.",
+"khoan_dieu": "7.2.2.1 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "bảng hệ thống B34–B50",
+"so_o": 6
+},
+{
+"idx": 10,
+"tt": "7",
+"noi_dung": "Giải pháp bảo vệ thụ động (phòng cháy)",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+},
+{
+"idx": 11,
+"tt": "-",
+"noi_dung": "Bảo vệ chống cháy",
+"goi_y": "",
+"quy_dinh": "Các biện pháp chống cháy thụ động có thể được lắp đặt bằng: / - Bê tông đúc sẵn hoặc bê tông phun; / - Các vật liệu cách nhiệt làm bằng sợ bông khoáng, gốm, canxi silicat hoặ sợi thủy tinh; / - Lớp phủ bên ngoài. / Các biện pháp phòng cháy thụ động phải được thiết kế và lắp đặt theo các tiêu chuẩn liên quan.",
+"khoan_dieu": "7.2.4.2 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 12,
+"tt": "-",
+"noi_dung": "Hệ thống báo tràn LNG, báo rò khí cháy, phát hiện cháy",
+"goi_y": "",
+"quy_dinh": "Việc bố trí các bộ phát hiện phải đảm bảo sự bao quát phù hợp. Việc lựa chọn và lắp các bộ phát hiện phải tránh được báo động giả, báo động sai. ự cố phải theo nguyên tắc luôn có độ dự phòng/dư và tránh các báo động sai, giả mạo. / Các thiết bị không thể phát hiện được tất cả rò rỉ. Việc kiểm tra định kỳ là tối quan trọng trong việc phát hiện các chỗ rò rỉ nhỏ và có thể sửa chữa để tránh bị lan rộng thành rò rỉ lớn hơn. / Hệ thống phát hiện được kết nối với hệ thống ESD và có mục đích phát hiện nhanh chóng và chính xác các sự cố tràn LNG hoặc rò khí dễ cháy và đám cháy trong khu vực kho. / Các hệ thống phát hiện hoạt động liên tục phải được lắp đặt ở tất cả các vị trí, trong nhà và ngoài trời nơi có thể xảy ra rò rỉ. / Phải lắp đặt các thiết bị phát hiện sau: / - Phát hiện tràn LNG: LNG tràn phải được phát hiện bằng bộ cảm biến nhiệt độ thấp, ví dụ loại điện trở / hoặc hệ thống cáp quang. Các bộ cảm biến phải được bảo vệ khỏi sự hư hỏng ngẫu nhiên. / - Phát hiện khí dễ cháy / - Phát hiện cháy / - Phát hiện khói",
+"khoan_dieu": "7.5.4 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "bảng hệ thống B34–B50",
+"so_o": 6
+},
+{
+"idx": 13,
+"tt": "-",
+"noi_dung": "Hệ thống đóng ngắt khẩn cấp (ESD)",
+"goi_y": "",
+"quy_dinh": "Dừng khẩn cấp (ESD) / Tất cả các hành động ESD phải được kích hoạt bởi bảng điều khiển trung tâm SIS cùng với sự kích hoạt bổ sung từ các trạm ESD ngoài hiện trường Việc kích hoạt ESD phải không dẫn đến tình huống nguy hiểm hoặc làm hỏng hóc máy móc hay thiết bị khác. / Kích hoạt ESD phải đóng ngắt thiết bị và các van ESD sang vị trí đóng an toàn khi có sự cố để bảo toàn kho. / PCS phải đặt trình tự tự động sao cho tránh các thiết bị hay van không mong muốn có thể hoạt động trong thời gian khởi động lại ESD. / Nguyên tắc của việc vận hành hệ thống ESD là giảm thiểu việc giải phóng hydrocabon và hạn chế sự lan truyền của bất cứ sự cố nào tới các khu vực lân cận. / Kho thường được phân chia ra thành các khu vực cháy và được chia nhỏ ra thành các vùng cháy cho phép xác định các hoạt động của hệ thống ESD nhằm hạn chế sự leo thang (lan truyền của bất cứ sự cố nào tới các khu vực lân cận). / Mối nguy cháy ở các vùng cháy này có thể được kiểm soát bởi việc vận hành hệ thống van ESD. Hệ thống ESD phải cách ly các vùng nhằm giảm thiểu việc giải phóng hydrocacbon từ vùng cháy và dòng chảy hydrocacbon tới khu vực đang cháy.",
+"khoan_dieu": "7.5.2 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "bảng hệ thống B34–B50",
+"so_o": 6
+},
+{
+"idx": 14,
+"tt": "8",
+"noi_dung": "Giải pháp bảo vệ chủ động (chữa cháy)",
+"goi_y": "",
+"quy_dinh": "Việc chống cháy chủ động nên bao gồm: / - Hệ thống nước chữa cháy với các trụ nước chữa cháy và lăng giá chữa cháy; / - Hệ thống phun nước làm mát; / - Màn nước; / - Hệ thống chữa cháy bằng bọt; / - Hệ thống bột khô hóa học cố định; / - Hệ thống dập lửa sử dụng các tác nhân trơ (ví dụ N2); / - Bình chữa cháy xách tay và xe đẩy; / - Xe chữa cháy.",
+"khoan_dieu": "7.2.4.3 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 15,
+"tt": "8.1",
+"noi_dung": "Trụ nước, lăng giá",
+"goi_y": "",
+"quy_dinh": "Hệ thống cấp nước phải có thể cung cấp, ở áp suất vận hành của hệ thống chữa cháy, một lưu lượng nước không nhỏ hơn giá trị yêu cầu cho hệ thống chữa cháy liên quan đến sự cố đơn lẻ tối đa được xác định trong báo cáo Đánh giá các mối nguy hiểm ở Điều 6, cộng thêm với lưu lượng 100 L/s cho các ống mềm",
+"khoan_dieu": "7.2.4.4 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 16,
+"tt": "8.2",
+"noi_dung": "Hệ thống phun nước làm mát",
+"goi_y": "",
+"quy_dinh": "Tầm quan trọng của việc làm mát các thiết bị và lượng nước yêu cầu phải phụ thuộc vào báo cáo đánh giá rủi ro (xem Điều 6). / Khi được yêu cầu, các hệ thống phun nước làm mát phải phân phối nước đều trên bề mặt tiếp xúc. Do đó, thiết bị chịu ảnh hưởng bởi bức xạ sẽ không bị quá nhiệt cục bộ. / Tái tuần hoàn nước đã qua sử dụng có thể được cân nhắc nếu khả thi và phải phụ thuộc vào khả năng làm nguội của nó trong khi vẫn giữ cho các thiết bị hoạt động bình thường. Cần lưu ý rằng các vật liệu dễ cháy không bị tái lưu chuyển cùng với nước. / Lượng nước phun trên mỗi đơn vị diện tích phải được tính toán trên thông lượng bức xạ đối với từng tình huống mô tả trong Điều 6 – áp dụng mô hình thích hợp để giới hạn nhiệt độ bề mặt phù hợp với tình trạng nguyên vẹn của kết cấu.",
+"khoan_dieu": "7.2.4.5 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 17,
+"tt": "8.3",
+"noi_dung": "Hệ thống màn nước",
+"goi_y": "",
+"quy_dinh": "Màn nước có thể được sử dụng để giảm bớt sự thoát khí và chống lại bức xạ nhiệt. / Mục đích của hệ thống màn nước làm mát là làm giảm nhanh chóng nồng độ khí của đám mây hơi LNG xuống thấp hơn giới hạn nồng độ bắt cháy dưới của khí trong không khí. / Màn nước trao đổi nhiệt với đám mây khí lạnh thông qua sự tiếp xúc giữa hơi LNG và giọt nước nhỏ. / Thêm vào đó, màn nước lôi cuốn một khối lượng lớn không khí vào quá trình trao đổi nhiệt, pha loãng đám mây hơi LNG, do đó làm cho nó trở nên nhẹ hơn, và dễ phân tán hơn. / Các màn nước được khuyến cáo đặt ở các vị trí theo yêu cầu trong bản đánh giá rủi ro (xem Điều 6). / Lưu lượng thể tích của nước được khuyến nghị bằng 70 L/min cho mỗi mét dài.",
+"khoan_dieu": "7.2.4.6 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 18,
+"tt": "8.4",
+"noi_dung": "Hệ thống chữa cháy bằng bọt",
+"goi_y": "",
+"quy_dinh": "Các yêu cầu với hệ thống tạo bọt phải dựa vào bản đánh giá rủi ro. / Chất tạo bọt chữa cháy được dùng để giảm bức xạ nhiệt từ vùng cháy LNG và hỗ trợ phân tán khí an toàn hơn trong trường hợp rò rì khí không bắt cháy. Việc sử dụng chất tạo bọt phụ thuộc vào báo cáo đánh giá các mối nguy hiểm, xem Điều 6. / Thiết bị tạo bọt phải được thiết kế để có thể vận hành khi bị bao trùm trong đám cháy LNG, ngoại trừ trường hợp thiết bị tạo bọt được làm bằng các loại vật liệu có khả năng chịu được tác động thông lượng nhiệt cao. Thiết kế của hệ thống phải tránh nước ở dạng lỏng chảy vào khu vực ngăn tràn. / Chất tạo bọt phải là loại bột khô phù hợp để sử dụng cho đám cháy LNG theo EN 12065, có tỷ lệ giãn nở tiêu chuẩn bằng khoảng 500:1. / Bồn ngăn LNG tràn hay khu vực ngăn tràn LNG phải được bố trí các thiết bị tạo bọt cố định cho phép phản ứng nhanh và kích hoạt từ xa. / Dung tích/thể tích chất tạo bọt cho các bể hứng và khu vực ngăn tràn LNG phải được xác định theo EN 12065 nhằm giảm bức xạ nhiệt, có tính đến khả năng xảy ra lỗi của một trong các thiết bị tạo bọt và tốc độ phá hủy của bọt do ngọn lửa. Thiết bị ngăn bọt có thể được bố trí xung quanh bồn hứng chất lỏng tràn hoặc khu vực ngăn tràn - nơi có nguy cơ mất mát bọt do gió. / Chất tạo bọt phải được tồn chứa tại nơi phù hợp tránh các nguồn bức xạ nhiệt (từ đám cháy và ánh sáng mặt trời). / Thể tích tối thiểu của bồn chứa chất tạo bọt được tính như sau: / Q = Q1 + Q2 + Q3 / Trong đó: / Q1 = t × r × S / t là thời gian phun chất tạo bọt, tính bằng giờ (h), (tối đa là 48 h); / r là độ phá hủy của chất tạo bọt, tính bằng mét trên giờ (m/h) (ví dụ r = 0,11 m/h); / S là diện tích lớn nhất được che phủ, tính bằng mét vuông (m2); / Q2 là lượng chất tạo bọt cần thiết để thử hệ thống định kỳ. Khi không có thông tin thì được tính bằng lượng chất tạo bọt khi bơm ở công suất tối đa trong khoảng thời gian là 15 min; / Q3 là lượng chất tạo bọt cần thiết cho việc tạo lớp bọt đầu tiên",
+"khoan_dieu": "7.2.4.7 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 19,
+"tt": "8.5",
+"noi_dung": "Hệ thống chữa cháy bằng bột khô",
+"goi_y": "",
+"quy_dinh": "Vị trí đặt hệ thống bột khô / Yêu cầu về việc lắp đặt hệ thống bột khô ở các vị trí gần nơi có nguy cơ xảy ra rò rỉ LNG phải dựa vào bản đánh giá rủi ro. Các vị trí ví dụ như sau: / - Các khu vực giao nhận sản phẩm (theo quy định trong TCVN 8613); / - Các bơm LNG; / - Các van ESD; / - Các van bộ chia; / - Bồn tháo chất lỏng; / - Bình tách pha",
+"khoan_dieu": "7.2.4.9 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 20,
+"tt": "8.6",
+"noi_dung": "Bình chữa cháy xách tay",
+"goi_y": "",
+"quy_dinh": "Bình chữa cháy xách tay/di động / Những loại bình chữa cháy được sử dụng: / - Bình bọt chữa cháy trong khu vực có sử dụng dầu (nhà đặt máy nén khí, thiết bị thủy lực của hệ thống / cần giao nhận sản phẩm tại cầu tàu); / - Bình chữa cháy khí CO2 bố trí trong tòa nhà có liên quan đến việc sử dụng các thiết bị điện và / điều khiển. / - Bình bột khô chữa cháy bố trí trong khu vực công nghệ. / Các bình chữa cháy này phải tuân theo quy định của TCVN 7026 và TCVN 7027. / Các bình chữa cháy được bố trí tại các vị trí trọng yếu dọc theo các lối đi hoặc sàn thao tác. Các bình chữa cháy phải đặt tại lối thoát hiểm, tách biệt khỏi vị trí mà nó dự kiến được sử dụng (để dập tắt đám cháy).",
+"khoan_dieu": "7.2.4.11 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 21,
+"tt": "8.7",
+"noi_dung": "Xe chữa cháy",
+"goi_y": "",
+"quy_dinh": "Xe chữa cháy / Sự cần thiết của xe chữa cháy phải được đánh giá và ghi vào văn bản trong kế hoạch ứng phó khẩn cấp",
+"khoan_dieu": "7.2.4.12 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 22,
+"tt": "9",
+"noi_dung": "Trạm bơm cấp nước chữa cháy",
+"goi_y": "",
+"quy_dinh": "Phải lắp đặt ít nhất hai máy bơm nước chữa cháy, mỗi máy đảm bảo 100 % công suất. Phải bố trí các nguồn phát điện độc lập sao cho có thể vận hành hết công suất, có tính đến việc chỉ hoạt động được một nguồn điện. / CHÚ THÍCH: Ví dụ một máy bơm điện chạy 100 % công suất cộng với một máy bơm diesel chạy 100 % công suất.",
+"khoan_dieu": "7.2.4.4 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "MOD_cau_thang",
+"so_o": 6
+},
+{
+"idx": 23,
+"tt": "10",
+"noi_dung": "Giải pháp bảo vệ chống sét, nối đất",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+},
+{
+"idx": 24,
+"tt": "",
+"noi_dung": "Chống sét",
+"goi_y": "",
+"quy_dinh": "Chống sét / Chống sét phải tuân theo TCVN 9888 (tất cả các phần). / Ít nhất các hạng mục sau đây phải được chống sét: / - Bể chứa và các thiết bị phụ trợ; / - Hệ thống cần xuất nhập tại cầu tàu; / - Các công trình; / - Đuốc và hệ thống xả khí.",
+"khoan_dieu": "7.3.3 TCVN 8611:2023",
+"ket_luan_mau": "",
+"tra_o": "bảng hệ thống B34–B50",
+"so_o": 6
+},
+{
+"idx": 25,
+"tt": "……(3)……",
+"noi_dung": "……(4)……",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+},
+{
+"idx": 26,
+"tt": "(Chữ ký và họ tên)",
+"noi_dung": "(Chữ ký và họ tên)",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+}
+]
+}

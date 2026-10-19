@@ -1,0 +1,166 @@
+{
+"ma": "B2",
+"ten": "Bảng đối chiếu Chấp thuận địa điểm xây dựng",
+"file_goc": "B2. Bảng đối chiếu Chấp thuận địa điểm xây dựng.docx",
+"so_dong": 14,
+"nguon": "docx",
+"dau_bang": [
+"Ghi chú: (1) Tên cơ quan chủ quản trực tiếp;(2) Tên đơn vị thực hiện thẩm duyệt; (3) Họ tên và chữ ký của cán bộ thực hiện; (4) Ghi quyền hạn, chức vụ của người lãnh đạo, chỉ huy đơn vị thẩm duyệt, nếu người ký văn bản là cấp phó của người đứng đầu cơ quan thì ghi chữ viết tắt “KT.” vào trước chức vụ của người đứng đầu, bên dưới ghi chức vụ của người ký văn bản."
+],
+"dong": [
+{
+"idx": 0,
+"tt": "Lưu ý: / 1. Đối với các hệ thống PCCC mà Việt Nam chưa có tiêu chuẩn thiết kế (hệ thống phun sương, hệ thống chữa cháy bằng bột…) mà chủ đầu tư áp dụng tiêu chuẩn nước ngoài vào thiết kế Kho chứa LNG thì phải được Bộ Công an chấp thuận theo quy định trước khi thiết kế kỹ thuật. / 2. Các hạng mục phụ trợ (Nhà văn phòng, Nhà điều hành…) hay các hệ thống PCCC (hệ thống báo cháy tự động, hệ thống họng nước chữa cháy…) thì áp dụng các bảng đối chiếu tương ứng với công năng sử dụng của các hạng mục trên cũng như các bảng đối chiếu chi tiết hệ thống tương ứng.",
+"noi_dung": "",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+},
+{
+"idx": 1,
+"tt": "",
+"noi_dung": "Xác định chiều cao an toàn PCCC, số tầng, nhóm nhà, hạng nguy hiểm cháy nổ các hạng mục công trình để áp dụng các quy định về PCCC",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+},
+{
+"idx": 2,
+"tt": "1",
+"noi_dung": "Quy mô công trình, tính chất hoạt động",
+"goi_y": "Lưu ý: Trong quy mô cần liệt kê các hạng mục có trong công trình (hạng mục chính và hạng mục phụ trợ)",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+},
+{
+"idx": 3,
+"tt": "",
+"noi_dung": "Đối tượng thuộc diện thẩm duyệt, phân cấp thẩm duyệt",
+"goi_y": "- Nêu các thông tin chính của công trình để xác định đối tượng thuộc diện thẩm duyệt",
+"quy_dinh": "",
+"khoan_dieu": "15. Cơ sở hạt nhân; cơ sở sản xuất, kinh doanh, bảo quản, vật liệu nổ công nghiệp và tiền chất thuốc nổ; kho vật liệu nổ công nghiệp, tiền chất thuốc nổ; cảng xuất, nhập vật liệu nổ công nghiệp, tiền chất thuốc nổ; kho vũ khí, công cụ hỗ trợ. / 16. Cơ sở khai thác, chế biến, sản xuất, vận chuyển, kinh doanh, bảo quản dầu mỏ và sản phẩm dầu mỏ, khí đốt trên đất liền; kho dầu mỏ và sản phẩm dầu mỏ, kho khí đốt; cảng xuất, nhập dầu mỏ và sản phẩm dầu mỏ, khí đốt; cửa hàng kinh doanh xăng dầu, trạm cấp xăng dầu nội bộ có từ 01 cột bơm trở lên; cơ sở kinh doanh khí đốt, hệ thống cấp khí đốt trung tâm có tổng lượng khí tồn chứa từ 200 kg trở lên.",
+"ket_luan_mau": "Phụ lục V Nghị định 136/2020/NĐ-CP",
+"tra_o": "chưa nạp: đọc cột quy định của bảng",
+"so_o": 7
+},
+{
+"idx": 4,
+"tt": "2",
+"noi_dung": "Phân cấp kho",
+"goi_y": "Tùy theo tính chất của loại hình công trình để đối chiếu phân nhóm, phân cấp của công trình tương ứng",
+"quy_dinh": "TM",
+"khoan_dieu": "Kho tồn chứa khí hóa lỏng và các sản phẩm khí hóa lỏng dưới áp suất bao gồm: / Kho cấp 1: trên 10.000 m3 / Kho cấp 2: từ 5.000 m3 đến 10.000 m3 / Kho cấp 3: nhỏ hơn 5.000 m3",
+"ket_luan_mau": "Điều 4 NĐ 25/2019/NĐ-CP",
+"tra_o": "chưa nạp: đọc cột quy định của bảng",
+"so_o": 7
+},
+{
+"idx": 5,
+"tt": "",
+"noi_dung": "Phân cấp cửa hàng xăng dầu",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "Điều 5 QCVN 01:2020/BCT",
+"tra_o": "",
+"so_o": 7
+},
+{
+"idx": 6,
+"tt": "",
+"noi_dung": "…",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 7
+},
+{
+"idx": 7,
+"tt": "3",
+"noi_dung": "Bậc chịu lửa",
+"goi_y": "Theo điểm b khoản 4 điều 13 Nghị định 136/2020/NĐ-CP",
+"quy_dinh": "",
+"khoan_dieu": "Tùy theo loại hình công trình để yêu cầu",
+"ket_luan_mau": "điểm b khoản 4 điều 13 Nghị định 136/2020/NĐ-CP / QCVN 01:2020/BCT / ....",
+"tra_o": "chưa nạp: đọc cột quy định của bảng",
+"so_o": 7
+},
+{
+"idx": 8,
+"tt": "4",
+"noi_dung": "Khoảng cách an toàn PCCC",
+"goi_y": "Căn cứ vào từng loại hình công trình để xác định khoảng cách theo tiêu chuẩn, quy chuẩn áp dụng",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+},
+{
+"idx": 9,
+"tt": "",
+"noi_dung": "",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "Phụ lục II / NĐ 25/2019/-NĐ-CP / QCVN 02:2020/BCT / TCVN 6486:2008 / TCVN 5307-2009 / TCVN 8611:2023 / TCVN 8616:2023 / QCVN 01:2020/BCT",
+"tra_o": "",
+"so_o": 7
+},
+{
+"idx": 10,
+"tt": "5",
+"noi_dung": "Giao thông tiếp cận đến công trình",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "QCVN 06:2022/BXD / QCVN",
+"tra_o": "",
+"so_o": 7
+},
+{
+"idx": 11,
+"tt": "6",
+"noi_dung": "cao độ công trình, hướng gió như trong",
+"goi_y": "Có thể hiện hay không để căn cứ quy định của từng loại hình đối chiếu",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "điểm b khoản 4 điều 13 Nghị định 136/2020/NĐ-CP",
+"tra_o": "",
+"so_o": 7
+},
+{
+"idx": 12,
+"tt": "……(3)……",
+"noi_dung": "……(4)……",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+},
+{
+"idx": 13,
+"tt": "(Chữ ký và họ tên)",
+"noi_dung": "(Chữ ký và họ tên)",
+"goi_y": "",
+"quy_dinh": "",
+"khoan_dieu": "",
+"ket_luan_mau": "",
+"tra_o": "",
+"so_o": 6
+}
+]
+}
