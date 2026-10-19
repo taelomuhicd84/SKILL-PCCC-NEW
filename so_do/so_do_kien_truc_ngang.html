@@ -2,8 +2,8 @@
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sơ đồ kiến trúc ngang</title>
 <style>
-:root{--bg:#f6f4ee;--dot:#d6d2c4;--card:#ffffff;--ink:#1a1a18;--mute:#555450;--line:#c9c5b8;--co:#14804a;--mot:#c27a00;--chua:#6e6c64;--ac:#d9480f;--edge:#4a4944}
-:root[data-theme=dark]{--bg:#26262a;--dot:#3d3d44;--card:#34343a;--ink:#f4f3ee;--mute:#c4c2b8;--line:#5a5a63;--co:#3ec982;--mot:#f0b429;--chua:#a8a69c;--ac:#ff8a4c;--edge:#b8b6ac}
+:root{--bg:#1d1d1b;--dot:#34332f;--card:#2b2b28;--ink:#f1f0ea;--mute:#bdbbb1;--line:#4d4c46;--co:#3ec982;--mot:#f0b429;--chua:#a8a69c;--ac:#ff7a3d;--edge:#b8b6ac}
+:root[data-theme=light]{--bg:#ebe8de;--dot:#cfcabb;--card:#faf9f4;--ink:#1a1a18;--mute:#555450;--line:#c9c5b8;--co:#14804a;--mot:#c27a00;--chua:#6e6c64;--ac:#d9480f;--edge:#4a4944}
 *{box-sizing:border-box}html,body{height:100%;margin:0}
 body{background:var(--bg);color:var(--ink);font:15px/1.45 "Segoe UI",Arial,sans-serif;display:flex;flex-direction:column;overflow:hidden}
 header{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;padding:10px 16px;border-bottom:2px solid var(--line);background:var(--card)}
@@ -19,14 +19,14 @@ main{flex:1;display:flex;min-height:0}
 #edges{position:absolute;left:0;top:0;width:1px;height:1px;overflow:visible;pointer-events:none}
 #edges path{fill:none;stroke:var(--edge);stroke-width:1.8;opacity:.4}#edges path.on{stroke:var(--ac);stroke-width:3.4;opacity:1}#edges path.off{opacity:.08}
 .colhead{position:absolute;padding:0 0 8px;pointer-events:none;border-bottom:4px solid}.colhead b{display:block;font-size:19px;line-height:1.2}.colhead span{color:var(--mute);font-size:13px;display:block;margin-top:2px}
-.node{position:absolute;width:260px;height:92px;background:var(--card);border:2.5px solid var(--co);border-radius:12px;overflow:hidden;cursor:pointer;box-shadow:0 2px 6px #0003}
+.node{position:absolute;width:260px;height:92px;background:#f6f4ec;color:#1a1a18;border:2.5px solid var(--co);border-radius:12px;overflow:hidden;cursor:pointer;box-shadow:0 3px 10px #0007}
 .node.mot-phan{border-color:var(--mot)}.node.chua{border-color:var(--chua);border-style:dashed}
 .node.sel{outline:4px solid var(--ac);outline-offset:2px}.node.dim{opacity:.2}
 .node .h{height:42px;padding:4px 11px;font-weight:700;font-size:14.5px;line-height:1.2;color:#fff;display:flex;align-items:center;overflow:hidden}
 .node .h span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.node .b{padding:5px 11px 0;font:12.5px/1.3 Consolas,monospace;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.node .s{padding:3px 11px 0;display:flex;gap:6px;align-items:center;font-size:12.5px;font-weight:700;color:var(--mute)}
-.node .s em{font-style:normal;color:#fff;border-radius:99px;padding:0 9px}.node .s em.co{background:var(--co)}.node .s em.mot-phan{background:var(--mot)}.node .s em.chua{background:var(--chua)}
+.node .b{padding:5px 11px 0;font:12.5px/1.3 Consolas,monospace;color:#1a1a18;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.node .s{padding:3px 11px 0;display:flex;gap:6px;align-items:center;font-size:12.5px;font-weight:700;color:#444}
+.node .s em{font-style:normal;color:#fff;border-radius:99px;padding:0 9px}.node .s em.co{background:#14804a}.node .s em.mot-phan{background:#b36b00}.node .s em.chua{background:#6e6c64}
 aside{width:380px;border-left:2px solid var(--line);background:var(--card);overflow:auto;padding:14px 16px;flex:none;font-size:14.5px}
 .tabs{display:flex;gap:6px;margin-bottom:10px}.tabs button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
 aside label{display:block;margin:10px 0 3px;color:var(--mute);font-size:13px;font-weight:600}aside input,aside select,aside textarea{width:100%}
@@ -59,8 +59,8 @@ const ls={get(){try{return JSON.parse(localStorage.getItem(KEY))}catch{return nu
 let showP=false,D=ls.get()||seed(),sel=null,tab="ct",view={x:20,y:10,k:.55},hide=new Set(),q="",drag=null,pan=null;
 const save=()=>ls.set(D),byId=id=>D.nodes.find(n=>n.id===id),col=l=>(D.layers.find(x=>x.id===l)||{}).c||"#888";
 
-function layout(force){let x=40;for(const L of D.layers){const ns=D.nodes.filter(n=>n.layer===L.id),c=Math.max(1,Math.ceil(ns.length/10));L._x=x;L._w=c*(W+36)-30;
- ns.forEach((n,i)=>{if(force||n.x==null){n.x=x+Math.floor(i/10)*(W+36);n.y=110+(i%10)*(H+20)}});x+=L._w+90}}
+function layout(force){let x=40;for(const L of D.layers){const ns=D.nodes.filter(n=>n.layer===L.id),c=Math.max(1,Math.ceil(ns.length/10));L._x=x;L._w=c*(W+80)-80;
+ ns.forEach((n,i)=>{if(force||n.x==null){n.x=x+Math.floor(i/10)*(W+80);n.y=120+(i%10)*(H+46)}});x+=L._w+150}}
 function apply(){$("#world").style.transform=`translate(${view.x}px,${view.y}px) scale(${view.k})`}
 function edges(){const seen=new Set();let h="";
  for(const a of D.nodes)for(const id of a.links||[]){const b=byId(id);if(!b||hide.has(a.st)||hide.has(b.st))continue;const k=[a.id,b.id].sort().join("|");if(seen.has(k))continue;seen.add(k);
