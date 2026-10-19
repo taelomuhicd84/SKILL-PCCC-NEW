@@ -11,15 +11,16 @@ Kế hoạch gốc: `C:\Users\HP\.claude\plans\t-i-mu-n-l-m-1-ticklish-gosling.m
 | 3 | web (Vite+React): 5 bước, viewer, chế độ thủ công – build qua, CHƯA chạy thử trên trình duyệt | xong phần code |
 | 4 | runner: server (127.0.0.1:8787), engine claude -p, engine Gemini Playwright (chưa thử đăng nhập), CLI chuan-bi/jobs/ra-soat/gop (chuan-bi đã chạy với HA1 120 trang) | xong phần code |
 | 5 | xuất PDF (web/src/xuat_pdf.ts) và docx (web/src/xuat_docx.ts) – chưa kiểm bằng file thật | xong phần code |
-| 6 | .claude agents/skills | chưa |
-| 7 | deploy + README | chưa |
-| 8 | kiểm tra ca Hoàng Anh 1 | chưa |
+| 6 | .claude: 21 agent + 21 skill sinh từ shared/src/agents.ts (`npm run gen:claude`), lệnh /tham-dinh (.claude/skills/tham-dinh) | xong |
+| 7 | .github/workflows/pages.yml + README (phần đầu) – CHƯA push (chờ user) | xong phần code |
+| 8 | kiểm tra: web chạy, xuất PDF/docx đúng (khung D3 trang 22, comment, trang tổng hợp, docx dòng 6.4); đang chạy thật Claude Sonnet: đọc hồ sơ + mục 6 | đang làm |
 
 Nhịp tim: 2026-10-19 (phiên chính đang làm)
 
 ## Lịch sử
 - 2026-10-19: lập kế hoạch, user duyệt; cài Node portable (winget lỗi 1618); chuyển 10 bảng .doc bằng Word COM; build 58 bảng JSON.
 - 2026-10-19: viết shared/ (test qua), web/ (build qua). Tiếp: runner/ (claude -p, Playwright Gemini), rồi gen .claude, deploy, kiểm Hoàng Anh 1.
+- 2026-10-19: runner + CLI xong; gen .claude; workflow Pages; kiểm xuất PDF/docx trên trình duyệt (dev: `npm run dev -- --port 5173`, file thử data/_test.pdf không commit). Tác vụ hẹn giờ tự làm tiếp bị hệ thống chặn (cần user cho phép).
 
 ## Ghi chú kỹ thuật
 - Mục lớn (1–18) của bảng công năng KHÔNG cố định chỉ số và số mục khác nhau giữa các bảng (B15 có 18, B4.1 có 17, B17 có 19) → chia mục theo dòng TT là số nguyên tăng dần, gán agent theo từ khóa tiêu đề.

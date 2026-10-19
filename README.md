@@ -1,3 +1,42 @@
+# Website thẩm định thiết kế PCCC
+
+Up PDF bản vẽ → AI đọc thông tin công trình → chọn bảng đối chiếu theo nhóm nhà → agent xét từng hạng mục (18 mục của bảng công năng + bảng hệ thống B34–B50) → ghi chú khung đánh số lên PDF + bảng đối chiếu Word theo mẫu chính thức (ĐẠT / CHƯA ĐẠT / CẦN XÁC NHẬN / KHÔNG ÁP DỤNG, có lý do và điều khoản). Công tắc **Hướng dẫn thiết kế** thêm ghi chú cách thiết kế cho đạt.
+
+- **Web tĩnh** (miễn phí trên GitHub Pages): mọi xử lý PDF, ghi chú, xuất Word chạy trong trình duyệt. Không có máy chủ, không tốn phí duy trì.
+- **AI do mỗi người dùng tự đăng nhập** qua **runner** chạy trên máy họ: Claude Code (tài khoản Claude của họ) hoặc Gemini trên trình duyệt (Playwright mở gemini.google.com, họ tự đăng nhập Google). Không cài runner vẫn dùng được chế độ **Thủ công** (copy prompt, dán trả lời).
+- Tiến độ phát triển: xem `TIEN_DO.md`.
+
+## Dùng website
+1. Mở trang web (GitHub Pages của repo, hoặc chạy tại máy: `npm run dev`).
+2. Bước 1 chọn PDF (nhiều file được gộp) và chọn AI. Bước 2 "AI đọc hồ sơ", rà lại bảng thông tin. Bước 3 kiểm bảng đối chiếu được chọn. Bước 4 "Chạy tất cả". Bước 5 tải PDF ghi chú, Word từng bảng, file kết quả .json.
+
+## Cài runner (máy người dùng, Windows/macOS/Linux)
+```bash
+# cần Node.js 20+ (https://nodejs.org) và git
+git clone https://github.com/taelomuhicd84/SKILL-PCCC-NEW && cd SKILL-PCCC-NEW
+npm install
+npm run runner            # chạy tại http://127.0.0.1:8787 – để cửa sổ này mở khi dùng web
+```
+- **Claude Code**: cài Claude Code và đăng nhập (`claude` chạy được trong terminal). Model đổi bằng biến `PCCC_CLAUDE_MODEL` (vd. `sonnet`).
+- **Gemini**: `npm -w runner run gemini-login` mở Chrome (hồ sơ riêng `runner/.profile`), đăng nhập Google một lần. Lưu ý: tự động hoá gemini.google.com dễ hỏng khi Google đổi giao diện (sửa `runner/src/engines/gemini_selectors.ts`) và có thể trái điều khoản của Google.
+- Web ở địa chỉ khác (vd. fork của bạn): đặt `PCCC_ORIGINS=https://<tên>.github.io` trước khi chạy runner.
+
+## Chạy hoàn toàn trong Claude Code
+Mở repo bằng Claude Code, gõ `/tham-dinh "<đường dẫn pdf>"` (xem `.claude/skills/tham-dinh/SKILL.md`). Kết quả ở `ket_qua/<tên>/ket_qua.json`, mở bằng web để tải PDF ghi chú và Word.
+
+## Cấu trúc mới
+| Thư mục | Nội dung |
+|---|---|
+| `shared/` | schema kết quả, cấu hình agent theo hạng mục (`src/agents.ts` – nguồn duy nhất), chọn bảng, chia mục, dựng prompt, gộp, trích chữ PDF |
+| `web/` | ứng dụng React (Vite) |
+| `runner/` | server cục bộ, engine Claude/Gemini, CLI cho `/tham-dinh` |
+| `data/` | sinh bởi `data-build/build_data.py` từ thư mục bảng mẫu: `bang/*.json` (58 bảng), `mau/*.docx` |
+| `.claude/agents`, `.claude/skills/pccc-*` | sinh bởi `npm run gen:claude` |
+
+Cập nhật bảng mẫu: `powershell -File data-build\convert_doc.ps1` (bảng .doc) rồi `python -X utf8 data-build/build_data.py "<thư mục bảng>"`. Thêm quy chuẩn mới (QCVN 10:2025/BCA, Phụ lục A TCVN 3890…): đặt file nguyên văn vào `skills/`, thêm đường dẫn vào `tri_thuc` của agent trong `shared/src/agents.ts`, chạy `npm run gen:claude`.
+
+---
+
 # Hệ thống kiểm tra bản vẽ PCCC – cấu trúc thư mục (cập nhật 17/10/2026)
 
 Mở `so_do/quy_trinh_tham_dinh_chi_tiet.html` để xem quy trình từng giai đoạn kèm giải thích cho người mới. Mở `so_do/so_do_kien_truc_he_thong.html` để xem kiến trúc module.
