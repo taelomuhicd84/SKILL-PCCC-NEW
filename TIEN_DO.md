@@ -12,10 +12,10 @@ Kế hoạch gốc: `C:\Users\HP\.claude\plans\t-i-mu-n-l-m-1-ticklish-gosling.m
 | 4 | runner: server (127.0.0.1:8787), engine claude -p, engine Gemini Playwright (chưa thử đăng nhập), CLI chuan-bi/jobs/ra-soat/gop (chuan-bi đã chạy với HA1 120 trang) | xong phần code |
 | 5 | xuất PDF (web/src/xuat_pdf.ts) và docx (web/src/xuat_docx.ts) – chưa kiểm bằng file thật | xong phần code |
 | 6 | .claude: 21 agent + 21 skill sinh từ shared/src/agents.ts (`npm run gen:claude`), lệnh /tham-dinh (.claude/skills/tham-dinh) | xong |
-| 7 | .github/workflows/pages.yml + README (phần đầu) – CHƯA push (chờ user) | xong phần code |
-| 8 | kiểm tra: CHẠY ĐỦ 34/34 job HA1 bằng Claude Sonnet 3 luồng trong 15 phút (606 dòng: ĐẠT 135, CHƯA ĐẠT 7, CXN 154, KAD 310) – khớp báo cáo tay ở D3, EX-EM 4,88 lux, chiều cao PCCC, phân tán; thêm phát hiện mới cần người rà (cấp nước ngoài nhà 3h, mặt nạ lọc độc, cáp CXV báo cháy); 'chỉnh bản vẽ' quá nhiều (116) → đã siết quy tắc 4. Trước đó: web + runner nối được (CORS, /phien); xuất PDF/docx đúng; Claude Sonnet thật trên HA1: đọc hồ sơ đúng (F2.1, 7,6 m, bậc II, sprinkler, B15 + 10 bảng HT), mục 6 bắt D3 CHƯA ĐẠT sau khi thêm knowledge/bai-hoc.md | xong (mới chạy 2/35 job thật) |
+| 7 | .github/workflows/pages.yml + README – đã push; chờ user bật Pages | xong |
+| 8 | kiểm tra: CHẠY ĐỦ 34/34 job HA1 bằng Claude Sonnet 3 luồng trong 15 phút (606 dòng: ĐẠT 135, CHƯA ĐẠT 7, CXN 154, KAD 310) – khớp báo cáo tay ở D3, EX-EM 4,88 lux, chiều cao PCCC, phân tán; thêm phát hiện mới cần người rà (cấp nước ngoài nhà 3h, mặt nạ lọc độc, cáp CXV báo cháy); 'chỉnh bản vẽ' quá nhiều (116) → đã siết quy tắc 4. Trước đó: web + runner nối được (CORS, /phien); xuất PDF/docx đúng; Claude Sonnet thật trên HA1: đọc hồ sơ đúng (F2.1, 7,6 m, bậc II, sprinkler, B15 + 10 bảng HT), mục 6 bắt D3 CHƯA ĐẠT sau khi thêm knowledge/bai-hoc.md | xong |
 
-Nhịp tim: 2026-10-19 13:10 (phiên chính dừng, chờ user nghiệm thu)
+Nhịp tim: 2026-10-19 (sau reset hạn mức: hết việc tự làm được, chờ user)
 
 ## Lịch sử
 - 2026-10-19: lập kế hoạch, user duyệt; cài Node portable (winget lỗi 1618); chuyển 10 bảng .doc bằng Word COM; build 58 bảng JSON.
@@ -35,7 +35,7 @@ Nhịp tim: 2026-10-19 13:10 (phiên chính dừng, chờ user nghiệm thu)
 0. Push: đã chạy lại bình thường sau khi user đăng nhập GitHub (2026-10-19).
 0b. Tự làm tiếp khi reset hạn mức: tác vụ hẹn giờ bị bộ phân loại an toàn chặn 2 lần. User thêm quyền cho mcp__scheduled-tasks__create_scheduled_task (hoặc tự tạo tác vụ trong mục Scheduled của app) với nội dung: 'Đọc TIEN_DO.md và làm tiếp'.
 1. Đã push 2026-10-19. User cần bật Pages (Settings → Pages → Source: GitHub Actions).
-2. Chạy đủ 34 job HA1 (`/tham-dinh` hoặc web + runner, model mặc định) và so với ket_qua/hoang_anh_1_20-12/BAO_CAO.md.
+2. ~~Chạy đủ 34 job HA1~~ XONG (xem dòng 8). Còn: user rà các phát hiện mới.
 3. Engine Gemini web (Chrome ẩn, 1 tab tuần tự, có nghỉ): đã thử headless + cookie thật OK (đăng nhập, tải tệp, gửi, đọc JSON 14 s). Chạy lô nhiều tab + né phát hiện bot bị bộ phân loại an toàn chặn → đã gỡ cờ né phát hiện, thay bằng engine **Gemini API** (runner/src/engines/gemini_api.ts, 10 luồng, chờ user dán key). Trước đó: đăng nhập bằng file cookie JSON (runner/src/engines/gemini_cookies.ts: nạp, tự ghi lại cookie đã làm mới sau mỗi job + 30 phút, lệnh gemini-giu-phien). CHƯA thử với cookie thật – chờ user xuất file.
 4. Nạp quy chuẩn còn thiếu: QCVN 10:2025/BCA, Phụ lục A TCVN 3890:2023, NĐ hiện hành về diện thẩm duyệt, Điều 4–7 + PL H QCVN 06 → thêm vào `tri_thuc` trong shared/src/agents.ts, `npm run gen:claude`.
 5. ~~Font VNI~~ XONG: shared/src/vni.ts đổi VNI→Unicode khi trích chữ (HA1 có 368 cụm VNI ở khung tên, thuyết minh); không đụng chữ Unicode.
