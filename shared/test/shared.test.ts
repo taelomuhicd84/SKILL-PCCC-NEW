@@ -57,3 +57,18 @@ describe("gộp", () => {
     expect(out[0].ket_luan).toBe("CAN_XAC_NHAN");
   });
 });
+
+import { vniSangUnicode } from "../src/vni";
+describe("font VNI", () => {
+  it("đổi chữ VNI", () => {
+    expect(vniSangUnicode("MAËT BAÈNG TAÀNG TREÄT")).toBe("MẶT BẰNG TẦNG TRỆT");
+    expect(vniSangUnicode("Ñöôøng thoaùt naïn")).toBe("Đường thoát nạn");
+    expect(vniSangUnicode("CÖÛA CHOÁNG CHAÙY")).toBe("CỬA CHỐNG CHÁY");
+    expect(vniSangUnicode("Lối thoát nạn")).toBe("Lối thoát nạn"); // Unicode giữ nguyên
+    expect(vniSangUnicode("CÔNG TRÌNH")).toBe("CÔNG TRÌNH");
+    expect(vniSangUnicode("D3 0.8x2.1")).toBe("D3 0.8x2.1");
+    expect(vniSangUnicode("ÔÛ")).toBe("Ở");
+    expect(vniSangUnicode("KARAOKE HOÀNG ANH")).toBe("KARAOKE HOÀNG ANH");
+    expect(vniSangUnicode("COÄNG HOØA XAÕ HOÄI CHUÛ NGHÓA VIEÄT NAM")).toBe("CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM");
+  });
+});

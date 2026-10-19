@@ -1,6 +1,7 @@
 // Trích chữ có vị trí từ PDF bằng pdf.js (dùng được cả trên web và Node).
 // Trang được "xoay đứng" theo hướng chữ chiếm đa số (như scripts/prep_for_llm.py), toạ độ chuẩn hoá 0–1000.
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { vniSangUnicode } from "./vni";
 
 export interface Chu { id: number; x0: number; y0: number; x1: number; y1: number; s: string }
 export interface TrangChu { trang: number; xoay: number; rong: number; cao: number; chu: Chu[] }
@@ -31,7 +32,7 @@ export async function trichChuTrang(page: any, so: number): Promise<TrangChu> {
   const W = vp.width, H = vp.height;
   const chu: Chu[] = [];
   for (const it of items) {
-    const s = (it.str ?? "").trim();
+    const s = vniSangUnicode((it.str ?? "").trim()); // bản vẽ cũ gõ font VNI
     if (!s) continue;
     const [a, b, , , e, f] = it.transform;
     const len = Math.hypot(a, b) || 1;
