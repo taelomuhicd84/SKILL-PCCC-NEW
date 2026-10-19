@@ -7,6 +7,7 @@ description: Thẩm định PCCC – Mục 3 – Khoảng cách an toàn PCCC. K
 **Việc:** Khoảng cách tới công trình lân cận (Bảng E1, Phụ lục E).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
+- `knowledge/bai-hoc.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - Điều khoản chưa nạp (Điều 4–7 QCVN 06, Phụ lục A TCVN 3890, QCVN 10:2025/BCA…): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
@@ -18,6 +19,7 @@ description: Thẩm định PCCC – Mục 3 – Khoảng cách an toàn PCCC. K
 5. Dòng CHUA_DAT, CAN_XAC_NHAN hoặc có chinh_ban_ve: ghi "vi_tri" (trang và chữ bám "anchor" có thật trên trang, hoặc bbox 0–1000) để khoanh khung trên bản vẽ.
 6. Dòng tiêu đề mục (không có nội dung cần xét) vẫn trả về với ket_luan KHONG_AP_DUNG và ly_do "dòng tiêu đề".
 7. Số đo trên bản vẽ là ước lượng ±1–2 m nếu không có kích thước ghi: ghi chữ "ước lượng".
+8. Bản vẽ đã thể hiện đủ (ký hiệu cửa, GHCL, chiều mở, kích thước) thì phải kết luận DAT hoặc CHUA_DAT; không né sang CAN_XAC_NHAN. Đọc knowledge/bai-hoc.md trước khi kết luận.
 
 ## Quy trình chung
 Xem `skills/SKILL_quy_trinh_tham_dinh.md` (8 giai đoạn) và `knowledge/truong-thong-tin.md` (trường A/B/C, quy tắc suy ra Y01–Y24).

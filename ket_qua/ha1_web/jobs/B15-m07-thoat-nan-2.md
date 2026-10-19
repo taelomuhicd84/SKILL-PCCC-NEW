@@ -10,6 +10,7 @@ Lưu ý: Số đo trên bản vẽ là ước lượng ±1–2 m: ghi rõ 'ướ
 5. Dòng CHUA_DAT, CAN_XAC_NHAN hoặc có chinh_ban_ve: ghi "vi_tri" (trang và chữ bám "anchor" có thật trên trang, hoặc bbox 0–1000) để khoanh khung trên bản vẽ.
 6. Dòng tiêu đề mục (không có nội dung cần xét) vẫn trả về với ket_luan KHONG_AP_DUNG và ly_do "dòng tiêu đề".
 7. Số đo trên bản vẽ là ước lượng ±1–2 m nếu không có kích thước ghi: ghi chữ "ước lượng".
+8. Bản vẽ đã thể hiện đủ (ký hiệu cửa, GHCL, chiều mở, kích thước) thì phải kết luận DAT hoặc CHUA_DAT; không né sang CAN_XAC_NHAN. Đọc knowledge/bai-hoc.md trước khi kết luận.
 
 ## Thông tin công trình (GĐ1, đã qua người dùng rà)
 Tên: Cải tạo Karaoke Hoàng Anh · Công năng: karaoke (F2.1), hồ sơ điều chỉnh/cải tạo; phần không điều chỉnh giữ theo GCN thẩm duyệt số 214/TD-PCCC-P2 ngày 12/04/2018 · Địa điểm: KP Bình Hòa 2 (TĐS 14, TBĐS 30), P. Tân Phước Khánh, TP. Tân Uyên, tỉnh Bình Dương
@@ -51,6 +52,7 @@ Phân loại trang: 1: bìa – Hồ sơ xin phép thẩm duyệt PCCC, hạng m
 - Chữ có vị trí: ket_qua/ha1_web/chu/trang_<n>.txt, mỗi dòng "x y chữ" (toạ độ 0–1000, gốc trên-trái). Dùng Grep để tìm ký hiệu (cửa D3, FD1, tên phòng, cao độ) và lấy "anchor".
 
 ## Tri thức (đọc bằng Read, chỉ đọc file cần cho dòng đang xét)
+- knowledge/bai-hoc.md
 - skills/SKILL_thoat_nan.md
 - skills/MOD_loi_ra_va_cua.md
 - skills/MOD_so_luong_loi_ra.md

@@ -13,15 +13,28 @@ Kế hoạch gốc: `C:\Users\HP\.claude\plans\t-i-mu-n-l-m-1-ticklish-gosling.m
 | 5 | xuất PDF (web/src/xuat_pdf.ts) và docx (web/src/xuat_docx.ts) – chưa kiểm bằng file thật | xong phần code |
 | 6 | .claude: 21 agent + 21 skill sinh từ shared/src/agents.ts (`npm run gen:claude`), lệnh /tham-dinh (.claude/skills/tham-dinh) | xong |
 | 7 | .github/workflows/pages.yml + README (phần đầu) – CHƯA push (chờ user) | xong phần code |
-| 8 | kiểm tra: web chạy, xuất PDF/docx đúng (khung D3 trang 22, comment, trang tổng hợp, docx dòng 6.4); đang chạy thật Claude Sonnet: đọc hồ sơ + mục 6 | đang làm |
+| 8 | kiểm tra: web + runner nối được (CORS, /phien); xuất PDF/docx đúng; Claude Sonnet thật trên HA1: đọc hồ sơ đúng (F2.1, 7,6 m, bậc II, sprinkler, B15 + 10 bảng HT), mục 6 bắt D3 CHƯA ĐẠT sau khi thêm knowledge/bai-hoc.md | xong (mới chạy 2/35 job thật) |
 
-Nhịp tim: 2026-10-19 (phiên chính đang làm)
+Nhịp tim: 2026-10-19 (phiên chính đã dừng, chờ user nghiệm thu)
 
 ## Lịch sử
 - 2026-10-19: lập kế hoạch, user duyệt; cài Node portable (winget lỗi 1618); chuyển 10 bảng .doc bằng Word COM; build 58 bảng JSON.
 - 2026-10-19: viết shared/ (test qua), web/ (build qua). Tiếp: runner/ (claude -p, Playwright Gemini), rồi gen .claude, deploy, kiểm Hoàng Anh 1.
 - 2026-10-19: runner + CLI xong; gen .claude; workflow Pages; kiểm xuất PDF/docx trên trình duyệt (dev: `npm run dev -- --port 5173`, file thử data/_test.pdf không commit). Tác vụ hẹn giờ tự làm tiếp bị hệ thống chặn (cần user cho phép).
+- 2026-10-19: sửa gán mục 15; thêm knowledge/bai-hoc.md (8 bài học HA1) + quy tắc 8 'đủ dữ liệu thì kết luận rõ'; chạy thật A0 + mục 6 (Sonnet) – khớp kết quả tay.
 
 ## Ghi chú kỹ thuật
 - Mục lớn (1–18) của bảng công năng KHÔNG cố định chỉ số và số mục khác nhau giữa các bảng (B15 có 18, B4.1 có 17, B17 có 19) → chia mục theo dòng TT là số nguyên tăng dần, gán agent theo từ khóa tiêu đề.
 - Bảng hệ thống (B34–B50) chỉ có vài mục (Đối tượng trang bị, Yêu cầu chung…) → mỗi bảng là một job của agent hệ thống tương ứng.
+
+## Việc tiếp theo (chờ user nghiệm thu)
+1. Push lên GitHub + bật Pages (Settings → Pages → Source: GitHub Actions). Chưa push vì là thao tác ra ngoài.
+2. Chạy đủ 34 job HA1 (`/tham-dinh` hoặc web + runner, model mặc định) và so với ket_qua/hoang_anh_1_20-12/BAO_CAO.md.
+3. Engine Gemini (Playwright) chưa thử đăng nhập/thật: `npm -w runner run gemini-login`, sửa selector nếu cần.
+4. Nạp quy chuẩn còn thiếu: QCVN 10:2025/BCA, Phụ lục A TCVN 3890:2023, NĐ hiện hành về diện thẩm duyệt, Điều 4–7 + PL H QCVN 06 → thêm vào `tri_thuc` trong shared/src/agents.ts, `npm run gen:claude`.
+5. Font VNI (bản vẽ cũ) chưa xử lý trong pdf_chu.ts (bản Python từng dùng pccc_checker.vn_encoding).
+
+## Cách chạy nhanh (dev)
+- Web: `npm run dev -- --port 5173`; runner: `npm run runner`; test: `npx vitest run`; build: `npm run build`.
+- Node portable: `export PATH="$LOCALAPPDATA/Programs/node-v22.23.3-win-x64:$PATH"` (bash).
+- Thử một prompt bằng Claude: `PCCC_CLAUDE_MODEL=sonnet npx tsx runner/src/thu_claude.ts <prompt.md> <ra.json> <thu_muc_phien>`.

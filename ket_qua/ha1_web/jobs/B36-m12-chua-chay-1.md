@@ -9,6 +9,7 @@ Bạn là cán bộ thẩm duyệt thiết kế PCCC. Việc: Đối tượng ph
 5. Dòng CHUA_DAT, CAN_XAC_NHAN hoặc có chinh_ban_ve: ghi "vi_tri" (trang và chữ bám "anchor" có thật trên trang, hoặc bbox 0–1000) để khoanh khung trên bản vẽ.
 6. Dòng tiêu đề mục (không có nội dung cần xét) vẫn trả về với ket_luan KHONG_AP_DUNG và ly_do "dòng tiêu đề".
 7. Số đo trên bản vẽ là ước lượng ±1–2 m nếu không có kích thước ghi: ghi chữ "ước lượng".
+8. Bản vẽ đã thể hiện đủ (ký hiệu cửa, GHCL, chiều mở, kích thước) thì phải kết luận DAT hoặc CHUA_DAT; không né sang CAN_XAC_NHAN. Đọc knowledge/bai-hoc.md trước khi kết luận.
 
 ## Thông tin công trình (GĐ1, đã qua người dùng rà)
 Tên: Cải tạo Karaoke Hoàng Anh · Công năng: karaoke (F2.1), hồ sơ điều chỉnh/cải tạo; phần không điều chỉnh giữ theo GCN thẩm duyệt số 214/TD-PCCC-P2 ngày 12/04/2018 · Địa điểm: KP Bình Hòa 2 (TĐS 14, TBĐS 30), P. Tân Phước Khánh, TP. Tân Uyên, tỉnh Bình Dương
@@ -49,8 +50,9 @@ Phân loại trang: 1: bìa – Hồ sơ xin phép thẩm duyệt PCCC, hạng m
 - PDF: ket_qua/ha1_web/ban_ve.pdf (120 trang). Đọc bằng Read với tham số pages (tối đa 20 trang mỗi lần); chỉ mở trang cần (xem phân loại trang).
 - Chữ có vị trí: ket_qua/ha1_web/chu/trang_<n>.txt, mỗi dòng "x y chữ" (toạ độ 0–1000, gốc trên-trái). Dùng Grep để tìm ký hiệu (cửa D3, FD1, tên phòng, cao độ) và lấy "anchor".
 
-## Tri thức
-Không có module riêng: dùng cột "Quy định" của bảng đối chiếu (đã trích sẵn điều khoản) làm căn cứ, ghi nguồn "bảng đối chiếu chính thức".
+## Tri thức (đọc bằng Read, chỉ đọc file cần cho dòng đang xét)
+- knowledge/bai-hoc.md
+Nếu cột "Tra ở" ghi "chưa nạp", dùng cột "Quy định" của chính dòng đó.
 
 ## Các dòng cần xét – bảng B36, mục "Bảng đối chiếu trạm bơm cấp nước chữa cháy" (23 dòng)
 #0 | TT 1 | Phạm vi điều chỉnh

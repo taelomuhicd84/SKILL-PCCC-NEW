@@ -21,7 +21,8 @@ export const QUY_TAC = `## Nguyên tắc (bắt buộc)
 4. Sai sót hoặc thiếu ghi chú đã rõ cách sửa (vd. ghi nhầm D1 thay FD1, thiếu ghi chú chiều cao PCCC) → ghi vào "chinh_ban_ve", KHÔNG đổi kết luận của thiết kế.
 5. Dòng CHUA_DAT, CAN_XAC_NHAN hoặc có chinh_ban_ve: ghi "vi_tri" (trang và chữ bám "anchor" có thật trên trang, hoặc bbox 0–1000) để khoanh khung trên bản vẽ.
 6. Dòng tiêu đề mục (không có nội dung cần xét) vẫn trả về với ket_luan KHONG_AP_DUNG và ly_do "dòng tiêu đề".
-7. Số đo trên bản vẽ là ước lượng ±1–2 m nếu không có kích thước ghi: ghi chữ "ước lượng".`;
+7. Số đo trên bản vẽ là ước lượng ±1–2 m nếu không có kích thước ghi: ghi chữ "ước lượng".
+8. Bản vẽ đã thể hiện đủ (ký hiệu cửa, GHCL, chiều mở, kích thước) thì phải kết luận DAT hoặc CHUA_DAT; không né sang CAN_XAC_NHAN. Đọc knowledge/bai-hoc.md trước khi kết luận.`;
 
 const DINH_DANG = (huongDan: boolean) => `## Định dạng trả lời
 Chỉ trả về MỘT khối \`\`\`json, không viết gì ngoài khối đó:

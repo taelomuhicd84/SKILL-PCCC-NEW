@@ -88,7 +88,7 @@ function gopKq(out: string) {
     } catch (e) { loi.push({ job: "ra-soat", loi: String(e).slice(0, 300) }); }
   }
   const dong = gop(nhom);
-  const tt = docJson<unknown>(path.join(out, "thong_tin.json"));
+  const tt = tachJson(readFileSync(path.join(out, "thong_tin.json"), "utf8"));
   const kq: KetQua = { phien_ban: 1, ten_cong_trinh: (tt as { ten_cong_trinh?: string }).ten_cong_trinh ?? "", bang_chinh: jf.bang_chinh, bang_he_thong: jf.bang_he_thong, thong_tin: tt, dong, loi_job: loi, ngay: new Date().toISOString() };
   writeFileSync(path.join(out, "ket_qua.json"), JSON.stringify(kq, null, 1), "utf8");
   const c = demKetLuan(dong);
