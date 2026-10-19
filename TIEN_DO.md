@@ -27,6 +27,8 @@ Nhịp tim: 2026-10-19 (sau reset hạn mức: hết việc tự làm được, 
 - 2026-10-19: bộ chạy lô song song (runner/src/lo.ts: lưu tạm từng job, dùng lại khi chạy lại), engine Gemini API, endpoint /lo /gemini/cookie /gemini/key /claude/token /claude/dang-nhap, web: LienKet.tsx (liên kết tài khoản, số luồng) + chạy lô có ghép dần. Tác vụ hẹn giờ tự làm tiếp bị chặn lần 2.
 - 2026-10-19: sửa gán mục 15; thêm knowledge/bai-hoc.md (8 bài học HA1) + quy tắc 8 'đủ dữ liệu thì kết luận rõ'; chạy thật A0 + mục 6 (Sonnet) – khớp kết quả tay.
 
+- 2026-10-19: so_do/so_do_kien_truc_ngang.html – sơ đồ ngang dạng node, thêm/sửa/xoá/nối module, thống kê, xuất/nhập JSON (80 module: 35 có, 12 một phần, 33 chưa). Netlify: netlify.toml + web/dist; chờ user kéo thả/nối repo.
+
 ## Ghi chú kỹ thuật
 - Mục lớn (1–18) của bảng công năng KHÔNG cố định chỉ số và số mục khác nhau giữa các bảng (B15 có 18, B4.1 có 17, B17 có 19) → chia mục theo dòng TT là số nguyên tăng dần, gán agent theo từ khóa tiêu đề.
 - Bảng hệ thống (B34–B50) chỉ có vài mục (Đối tượng trang bị, Yêu cầu chung…) → mỗi bảng là một job của agent hệ thống tương ứng.
