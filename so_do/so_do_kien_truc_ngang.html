@@ -85,7 +85,8 @@ window.addEventListener("pointermove",e=>{if(drag){const dx=(e.clientX-drag.sx)/
  else if(pan){view.x=pan.vx+e.clientX-pan.sx;view.y=pan.vy+e.clientY-pan.sy;apply()}});
 window.addEventListener("pointerup",e=>{if(drag){const d=drag;drag=null;if(d.mv)save();else{if(e.shiftKey&&sel&&sel!==d.n.id)toggleLink(sel,d.n.id);else{sel=d.n.id;tab="ct"}render()}}
  if(pan){pan=null;$("#vp").classList.remove("pan")}});
-$("#vp").addEventListener("pointerdown",e=>{if(e.target.closest(".node"))return;pan={sx:e.clientX,sy:e.clientY,vx:view.x,vy:view.y};$("#vp").classList.add("pan");if(sel){sel=null;render()}});
+$("#vp").addEventListener("pointerdown",e=>{if(e.target.closest(".node"))return;pan={sx:e.clientX,sy:e.clientY,vx:view.x,vy:view.y};$("#vp").classList.add("pan")});
+addEventListener("keydown",e=>{if(e.key==="Escape"&&sel&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName||"")){sel=null;render()}else if(e.key==="Escape"&&document.activeElement?.blur){document.activeElement.blur()}});
 $("#vp").addEventListener("wheel",e=>{e.preventDefault();const r=$("#vp").getBoundingClientRect(),mx=e.clientX-r.left,my=e.clientY-r.top,k=Math.max(.15,Math.min(2,view.k*(e.deltaY<0?1.12:1/1.12)));
  view.x=mx-(mx-view.x)*k/view.k;view.y=my-(my-view.y)*k/view.k;view.k=k;apply()},{passive:false});
 function fit(){const xs=D.nodes.filter(n=>!hide.has(n.st));if(!xs.length)return;const r=$("#vp").getBoundingClientRect(),x0=Math.min(...xs.map(n=>n.x))-20,x1=Math.max(...xs.map(n=>n.x+W))+20,y1=Math.max(...xs.map(n=>n.y+H))+20,k=Math.min(r.width/(x1-x0),r.height/y1,1);
@@ -93,7 +94,7 @@ function fit(){const xs=D.nodes.filter(n=>!hide.has(n.st));if(!xs.length)return;
 
 function panel(){const s=$("#side"),n=sel&&byId(sel);s.classList.toggle("open",showP||!!n);
  let h=`<div class="tabs"><button data-t="ct" class="${tab==="ct"?"on":""}">Chi tiết</button><button data-t="tk" class="${tab==="tk"?"on":""}">Thống kê</button></div>`;
- if(tab==="tk")h+=stats();else if(!n)h+=`<p class="hint">Bấm một module để xem và sửa. Kéo nền để di chuyển, cuộn chuột để thu phóng, kéo module để đổi vị trí. <b>Shift+bấm</b> module khác để nối/bỏ nối với module đang chọn.</p>`;
+ if(tab==="tk")h+=stats();else if(!n)h+=`<p class="hint">Bấm một module để xem và sửa. Kéo nền để di chuyển (không bỏ chọn), cuộn chuột để thu phóng, <b>Esc</b> để bỏ chọn, kéo module để đổi vị trí. <b>Shift+bấm</b> module khác để nối/bỏ nối với module đang chọn.</p>`;
  else h+=`<label>Tên</label><input id="fName" value="${esc(n.name)}"><label>Đường dẫn / file</label><input id="fPath" value="${esc(n.path)}">
   <label>Cột</label><select id="fLayer">${D.layers.map(l=>`<option value="${l.id}" ${l.id===n.layer?"selected":""}>${esc(l.name)}</option>`).join("")}</select>
   <label>Nhóm (tuỳ chọn)</label><input id="fGrp" value="${esc(n.grp)}"><label>Trạng thái</label><select id="fSt">${Object.entries(ST).map(([k,v])=>`<option value="${k}" ${k===n.st?"selected":""}>${v}</option>`).join("")}</select>
