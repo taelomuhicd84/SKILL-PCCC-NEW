@@ -21,6 +21,7 @@ Nhịp tim: 2026-10-19 (phiên chính đã dừng, chờ user nghiệm thu)
 - 2026-10-19: lập kế hoạch, user duyệt; cài Node portable (winget lỗi 1618); chuyển 10 bảng .doc bằng Word COM; build 58 bảng JSON.
 - 2026-10-19: viết shared/ (test qua), web/ (build qua). Tiếp: runner/ (claude -p, Playwright Gemini), rồi gen .claude, deploy, kiểm Hoàng Anh 1.
 - 2026-10-19: runner + CLI xong; gen .claude; workflow Pages; kiểm xuất PDF/docx trên trình duyệt (dev: `npm run dev -- --port 5173`, file thử data/_test.pdf không commit). Tác vụ hẹn giờ tự làm tiếp bị hệ thống chặn (cần user cho phép).
+- 2026-10-19: push lên GitHub; thêm đăng nhập Gemini bằng cookie JSON dùng lâu dài.
 - 2026-10-19: sửa gán mục 15; thêm knowledge/bai-hoc.md (8 bài học HA1) + quy tắc 8 'đủ dữ liệu thì kết luận rõ'; chạy thật A0 + mục 6 (Sonnet) – khớp kết quả tay.
 
 ## Ghi chú kỹ thuật
@@ -28,9 +29,9 @@ Nhịp tim: 2026-10-19 (phiên chính đã dừng, chờ user nghiệm thu)
 - Bảng hệ thống (B34–B50) chỉ có vài mục (Đối tượng trang bị, Yêu cầu chung…) → mỗi bảng là một job của agent hệ thống tương ứng.
 
 ## Việc tiếp theo (chờ user nghiệm thu)
-1. Push lên GitHub + bật Pages (Settings → Pages → Source: GitHub Actions). Chưa push vì là thao tác ra ngoài.
+1. Đã push 2026-10-19. User cần bật Pages (Settings → Pages → Source: GitHub Actions).
 2. Chạy đủ 34 job HA1 (`/tham-dinh` hoặc web + runner, model mặc định) và so với ket_qua/hoang_anh_1_20-12/BAO_CAO.md.
-3. Engine Gemini (Playwright) chưa thử đăng nhập/thật: `npm -w runner run gemini-login`, sửa selector nếu cần.
+3. Engine Gemini: đã có đăng nhập bằng file cookie JSON (runner/src/engines/gemini_cookies.ts: nạp, tự ghi lại cookie đã làm mới sau mỗi job + 30 phút, lệnh gemini-giu-phien). CHƯA thử với cookie thật – chờ user xuất file.
 4. Nạp quy chuẩn còn thiếu: QCVN 10:2025/BCA, Phụ lục A TCVN 3890:2023, NĐ hiện hành về diện thẩm duyệt, Điều 4–7 + PL H QCVN 06 → thêm vào `tri_thuc` trong shared/src/agents.ts, `npm run gen:claude`.
 5. Font VNI (bản vẽ cũ) chưa xử lý trong pdf_chu.ts (bản Python từng dùng pccc_checker.vn_encoding).
 

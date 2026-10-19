@@ -18,7 +18,16 @@ npm install
 npm run runner            # chạy tại http://127.0.0.1:8787 – để cửa sổ này mở khi dùng web
 ```
 - **Claude Code**: cài Claude Code và đăng nhập (`claude` chạy được trong terminal). Model đổi bằng biến `PCCC_CLAUDE_MODEL` (vd. `sonnet`).
-- **Gemini**: `npm -w runner run gemini-login` mở Chrome (hồ sơ riêng `runner/.profile`), đăng nhập Google một lần. Lưu ý: tự động hoá gemini.google.com dễ hỏng khi Google đổi giao diện (sửa `runner/src/engines/gemini_selectors.ts`) và có thể trái điều khoản của Google.
+- **Gemini – đăng nhập bằng file cookie JSON (dùng lâu dài)**:
+  1. Mở Chrome **cửa sổ ẩn danh**, đăng nhập Google, vào gemini.google.com cho chắc đã dùng được.
+  2. Dùng tiện ích **Cookie-Editor** (hoặc EditThisCookie): ở trang gemini.google.com bấm *Export → JSON*, lưu thành `runner/gemini_cookies.json`. (Nhận cả định dạng Playwright `storageState`.)
+  3. **Đóng cửa sổ ẩn danh, KHÔNG bấm đăng xuất.** Đăng xuất sẽ huỷ phiên và file cookie chết ngay.
+  4. Kiểm tra: `npm -w runner run gemini-giu-phien` (in "Phiên Gemini còn hiệu lực").
+  - Runner tự **ghi đè file bằng cookie Google vừa làm mới** sau mỗi job và mỗi 30 phút khi đang mở, nên file theo kịp việc Google xoay vòng cookie (__Secure-1PSIDTS…).
+  - Khi lâu không dùng: đặt Windows Task Scheduler chạy `npm -w runner run gemini-giu-phien` trong thư mục repo 1–2 lần/ngày để phiên không nguội.
+  - Phiên vẫn có thể bị Google huỷ (đổi mật khẩu, đăng xuất mọi thiết bị, cảnh báo bảo mật): khi đó xuất lại file. Cách khác: `npm -w runner run gemini-login` mở Chrome để đăng nhập trực tiếp, cookie cũng được ghi ra file.
+  - File cookie là thông tin đăng nhập: giữ trên máy mình, không gửi ai (đã có trong `.gitignore`). `PCCC_GEMINI_COOKIES` đổi đường dẫn file; `PCCC_GEMINI_HEADLESS=1` chạy ẩn cửa sổ (Google dễ chặn hơn).
+  - Lưu ý: tự động hoá gemini.google.com dễ hỏng khi Google đổi giao diện (sửa `runner/src/engines/gemini_selectors.ts`) và có thể trái điều khoản của Google.
 - Web ở địa chỉ khác (vd. fork của bạn): đặt `PCCC_ORIGINS=https://<tên>.github.io` trước khi chạy runner.
 
 ## Chạy hoàn toàn trong Claude Code

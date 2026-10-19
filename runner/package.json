@@ -5,7 +5,8 @@
   "scripts": {
     "start": "tsx src/server.ts",
     "cli": "tsx src/cli.ts",
-    "gemini-login": "tsx src/engines/gemini.ts --dang-nhap"
+    "gemini-login": "tsx src/engines/gemini.ts --dang-nhap",
+    "gemini-giu-phien": "tsx src/engines/gemini.ts --giu-phien"
   },
   "dependencies": {
     "@pccc/shared": "*",

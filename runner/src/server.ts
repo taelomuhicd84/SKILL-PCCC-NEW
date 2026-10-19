@@ -7,6 +7,7 @@ import { luuPhien } from "./phien";
 import { THU_MUC_LAM, log } from "./chung";
 import { chayClaude, coClaude } from "./engines/claude";
 import { chayGemini, coPlaywright } from "./engines/gemini";
+import { coFileCookie } from "./engines/gemini_cookies";
 
 const PORT = Number(process.env.PCCC_PORT ?? 8787);
 const ORIGINS = ["https://taelomuhicd84.github.io", ...(process.env.PCCC_ORIGINS ?? "").split(",").filter(Boolean)];
@@ -34,7 +35,7 @@ const server = http.createServer(async (req, res) => {
   if (req.method === "OPTIONS") { res.writeHead(204).end(); return; }
   const json = (code: number, v: unknown) => { res.writeHead(code, { "content-type": "application/json; charset=utf-8" }).end(JSON.stringify(v)); };
   try {
-    if (req.method === "GET" && req.url === "/suc-khoe") return json(200, { ok: true, claude: coClaude(), gemini: await coPlaywright() });
+    if (req.method === "GET" && req.url === "/suc-khoe") return json(200, { ok: true, claude: coClaude(), gemini: await coPlaywright(), ghi_chu: coFileCookie() ? "có file cookie Gemini" : "chưa có file cookie Gemini" });
     if (req.method === "POST" && req.url === "/phien") {
       const b = await docBody(req);
       const p = luuPhien(String(b.ten ?? ""), Buffer.from(b.pdf_base64, "base64"), b.chu ?? []);
