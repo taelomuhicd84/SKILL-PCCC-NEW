@@ -36,7 +36,7 @@ export const AGENTS: AgentDef[] = [
     luu_y: "Số đo trên bản vẽ là ước lượng ±1–2 m: ghi rõ 'ước lượng'. Khoảng cách và phân tán đo theo Phụ lục G và Hình I." },
   { id: "m08-thang-may-cc", ten: "Mục 8 – Thang máy chữa cháy", viec: "Đối tượng phải có, số lượng, sảnh, giếng, nguồn điện thang máy chữa cháy.",
     tu_khoa: /thang máy/i, bang_he_thong: ["B50"], tri_thuc: [DN] },
-  { id: "m09-chong-khoi", ten: "Mục 9 – Chống tụ khói", viec: "Hút xả khói, tăng áp, thoát khói tự nhiên (Phụ lục D).", tu_khoa: /tụ khói|chống khói|hút khói/i,
+  { id: "m09-chong-khoi", ten: "Mục 9 – Chống tụ khói", viec: "Hút xả khói, tăng áp, thoát khói tự nhiên (Phụ lục D).", tu_khoa: /tụ khói|hút khói|tăng áp/i,
     bang_he_thong: ["B34"], tri_thuc: ["skills/MOD_chong_khoi_PL_D.md", DN] },
   { id: "m10-binh-chua-chay", ten: "Mục 10 – Bình chữa cháy, phương tiện ban đầu", viec: "Loại, số lượng, khoảng cách bố trí bình chữa cháy.",
     tu_khoa: /bình chữa cháy|chữa cháy ban đầu/i, bang_he_thong: ["B45"], tri_thuc: [] },

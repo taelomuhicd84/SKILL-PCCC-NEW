@@ -31,6 +31,8 @@ describe("chia mục", () => {
     expect(agentChoMuc(m[6].tieu_de).id).toBe("m07-thoat-nan");
     expect(agentChoMuc(m[13].tieu_de).id).toBe("m14-den-su-co");
     expect(agentChoMuc(m[9].tieu_de).id).toBe("m10-binh-chua-chay");
+    expect(agentChoMuc(m[14].tieu_de).id).toBe("m15-cnch");
+    expect(agentChoMuc(m[8].tieu_de).id).toBe("m09-chong-khoi");
   });
   it("B17 bỏ dòng đánh số cột", () => {
     const m = chiaMuc(bang("B17"));
