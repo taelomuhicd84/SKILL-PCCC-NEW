@@ -1,0 +1,17 @@
+{
+  "name": "@pccc/runner",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "cli": "tsx src/cli.ts",
+    "gemini-login": "tsx src/engines/gemini.ts --dang-nhap"
+  },
+  "dependencies": {
+    "@pccc/shared": "*",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.10.38",
+    "playwright": "^1.49.1",
+    "tsx": "^4.19.2"
+  }
+}

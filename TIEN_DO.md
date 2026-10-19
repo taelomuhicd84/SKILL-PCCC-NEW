@@ -9,7 +9,7 @@ Kế hoạch gốc: `C:\Users\HP\.claude\plans\t-i-mu-n-l-m-1-ticklish-gosling.m
 | 1 | Dữ liệu: `data-build/convert_doc.ps1` (.doc→.docx), `data-build/build_data.py` → `data/bang/*.json`, `data/mau/*.docx` (58 bảng) | xong |
 | 2 | shared: schema, agents (cấu hình hạng mục), chọn bảng, chia mục, prompt, gộp, trích chữ PDF – 6 test vitest qua | xong |
 | 3 | web (Vite+React): 5 bước, viewer, chế độ thủ công – build qua, CHƯA chạy thử trên trình duyệt | xong phần code |
-| 4 | runner | đang làm |
+| 4 | runner: server (127.0.0.1:8787), engine claude -p, engine Gemini Playwright (chưa thử đăng nhập), CLI chuan-bi/jobs/ra-soat/gop (chuan-bi đã chạy với HA1 120 trang) | xong phần code |
 | 5 | xuất PDF (web/src/xuat_pdf.ts) và docx (web/src/xuat_docx.ts) – chưa kiểm bằng file thật | xong phần code |
 | 6 | .claude agents/skills | chưa |
 | 7 | deploy + README | chưa |
