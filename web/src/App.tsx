@@ -94,7 +94,7 @@ export default function App() {
       const tenDa = tenNhom ?? files[0].name.replace(/\.pdf$/i, "");
       setTen(tenDa); setPdfBytes(bytes); setPdf(d); setChu(c); setTrang(1);
       const cu = doc<KetQua>("pccc.kq." + tenDa);
-      if (cu) { setTt(ThongTin.parse(cu.thong_tin)); setBangChinh(cu.bang_chinh); setBangHT(cu.bang_he_thong); setKq(cu.dong); }
+      if (cu) { setTt(cu.thong_tin ? ThongTin.parse(cu.thong_tin) : null); setBangChinh(cu.bang_chinh); setBangHT(cu.bang_he_thong); setKq(cu.dong); }
       else { setTt(null); setBangChinh(null); setBangHT([]); setKq([]); setJobs([]); }
       setTienTrinh(`Đã nạp ${d.numPages} trang, ${c.reduce((s, t) => s + t.chu.length, 0)} cụm chữ.${cu ? " Có kết quả lưu từ lần trước." : ""}`);
       setPhien(null); phienRef.current = null;
