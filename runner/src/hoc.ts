@@ -14,7 +14,7 @@ export const THU_MUC_HOC = path.join(GOC_REPO, "knowledge", "hoc");
 export const FILE_DA_DUYET = path.join(THU_MUC_HOC, "_da_duyet.md");
 const FILE_CHI_MUC = path.join(THU_MUC_HOC, "_chi_muc.json");
 const FILE_CAU_HINH = path.join(GOC_REPO, "runner", "hoc_cau_hinh.json");
-const DUOI = new Set([".pdf", ".docx", ".md", ".txt"]);
+const DUOI = new Set([".pdf", ".docx", ".md", ".txt", ".xlsx", ".xlsm", ".xls"]);
 const BO_QUA = new Set(["node_modules", ".git", "$recycle.bin", "system volume information"]);
 const TOI_DA_TEP = 60 * 1024 * 1024;
 
@@ -114,9 +114,53 @@ const goiClaude = (prompt: string, timeoutMs: number, congCu?: string[]) =>
   chayClaudeCho(prompt, THU_MUC_HOC, timeoutMs, congCu, (luc) => { trangThai.viec = `Hết hạn mức Claude: tự chạy tiếp lúc ${luc}`; });
 
 // ---------- đọc chữ từ file ----------
+const gi = (x: string) => x.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, "&");
+/** Bảng tính .xlsx/.xlsm: mỗi sheet một đoạn, mỗi ô có chữ hoặc công thức một mục "Ô: giá trị" / "Ô: =công thức → giá trị đã tính". */
+async function docExcel(file: string): Promise<string> {
+  const { default: JSZip } = await import("jszip");
+  const z = await JSZip.loadAsync(readFileSync(file));
+  const doc = async (n: string) => (await z.file(n)?.async("string")) ?? "";
+  const chuoi = [...(await doc("xl/sharedStrings.xml")).matchAll(/<si>([\s\S]*?)<\/si>/g)].map((m) => gi((m[1].match(/<t[^>]*>[^<]*<\/t>/g) ?? []).map((t) => t.replace(/<[^>]+>/g, "")).join("")));
+  const ten = [...(await doc("xl/workbook.xml")).matchAll(/<sheet [^>]*name="([^"]*)"[^>]*r:id="([^"]*)"/g)];
+  const rel = new Map([...(await doc("xl/_rels/workbook.xml.rels")).matchAll(/<Relationship [^>]*Id="([^"]*)"[^>]*Target="([^"]*)"/g)].map((m) => [m[1], m[2]]));
+  const ra: string[] = [];
+  for (const [, tenSheet, id] of ten) {
+    const x = await doc("xl/" + String(rel.get(id) ?? "").replace(/^\/?(xl\/)?/, ""));
+    ra.push("## Sheet: " + gi(tenSheet));
+    for (const m of x.matchAll(/<c r="([A-Z]+\d+)"([^>]*?)(?:\/>|>([\s\S]*?)<\/c>)/g)) {
+      const noi = m[3]; if (!noi) continue;
+      const f = noi.match(/<f[^>]*>([\s\S]*?)<\/f>/)?.[1], v = noi.match(/<v>([\s\S]*?)<\/v>/)?.[1];
+      const gt = /t="s"/.test(m[2]) && v != null ? chuoi[Number(v)] : v != null ? gi(v) : "";
+      if (f) ra.push(`${m[1]}: =${gi(f)}${gt ? " → " + gt : ""}`); else if (gt) ra.push(`${m[1]}: ${gt}`);
+    }
+  }
+  return ra.join("\n");
+}
+/** .xls (định dạng cũ): đọc bằng python + xlrd nếu máy có; không có thì báo để người dùng lưu thành .xlsx. */
+function docXls(file: string): Promise<string> {
+  return new Promise((ok, loi) => {
+    const py = [
+      "import sys,xlrd;b=xlrd.open_workbook(sys.argv[1])",
+      "for s in b.sheets():",
+      " print('## Sheet:',s.name)",
+      " for r in range(s.nrows):",
+      "  for c in range(s.ncols):",
+      "   v=s.cell_value(r,c)",
+      "   if v not in ('',None): print(xlrd.colname(c)+str(r+1)+':',v)",
+    ].join("\n");
+    const p = spawn("python", ["-X", "utf8", "-c", py, file], { windowsHide: true });
+    let out = "", err = "";
+    p.stdout.on("data", (d) => (out += d)); p.stderr.on("data", (d) => (err += d));
+    p.on("error", () => loi(new Error("không có python để đọc .xls: lưu file thành .xlsx")));
+    p.on("close", (c) => (c === 0 ? ok(out) : loi(new Error("đọc .xls lỗi (pip install xlrd, hoặc lưu thành .xlsx): " + err.slice(0, 200)))));
+  });
+}
+
 async function docChu(file: string): Promise<string> {
   const ext = path.extname(file).toLowerCase();
   if (ext === ".md" || ext === ".txt") return readFileSync(file, "utf8");
+  if (ext === ".xlsx" || ext === ".xlsm") return docExcel(file);
+  if (ext === ".xls") return docXls(file);
   if (ext === ".docx") {
     const { default: JSZip } = await import("jszip");
     const x = await (await JSZip.loadAsync(readFileSync(file))).file("word/document.xml")?.async("string");

@@ -1,0 +1,17 @@
+# Lịch sử làm việc (mới nhất ở trên)
+Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
+
+## 2026-10-20 (phiên dài, Claude Opus/Sonnet 5.5)
+- **Cấp quyền thư mục cho agent tự học** (người dùng giao): `D:\$.4. QC - TCVN\8_TAILIEUHOCTAP`; kho hồ sơ thẩm duyệt cũ `D:\1.DRIVE CÔNG TY\My Drive\1.PHÒNG THIẾT KẾ\3. FILE SCAN THẨM DUYỆT - CV NGHIỆM THU\` các năm 2024 (136 PDF scan), 2025, 2026. Quy tắc người dùng chốt cho kho này: **kiến thức QCVN 06 vẫn dùng; kiến thức hệ thống PCCC chỉ dùng cái còn dùng được hiện tại (hồ sơ cũ, căn bản cũ); năm 2026 là mới nhất, luật mới nhất thì học, cũ thì bỏ.** Các năm 2017–2023 chưa cấp quyền.
+- Agent tự học đọc thêm Excel (.xlsx, .xlsm, .xls qua python+xlrd) và tự chờ khi Claude hết hạn mức (đọc giờ reset trong thông báo). Đã bật học tự động mỗi ngày. Lần học đầu (48 file ở 8_TAILIEUHOCTAP) đang chờ Claude reset lúc 15:22.
+- Sắp xếp `8_TAILIEUHOCTAP` thành 8 thư mục theo loại (pháp luật, QCVN, TCVN, nước ngoài, tập huấn, sơ đồ, Excel, video); có `_MUC_LUC.md`, `_NHAT_KY_SAP_XEP.csv`, `_HOAN_TAC_SAP_XEP.ps1`.
+- Đã đọc cấu trúc 15 file Excel tính toán (thủy lực sprinkler, họng nước, hút khói, thoát khói tự nhiên, máy phát, áp suất nổ, foam, kết cấu R15, chọn dây/MCB, khí chữa cháy…) vào `%TEMP%\xl\*.txt`; **chưa lập file Excel mới** (xem TIEN_DO).
+- Commit 697d523: kéo thả nhiều file (PDF, JSON kết quả, JSON cookie Gemini), tự gộp file cùng tên công trình (KT + PCCC), chạy lần lượt từng công trình; agent tự học (`runner/src/hoc.ts`, tab 6 "Tự học", ghi chú vào `knowledge/hoc/`, chỉ dùng khi đã duyệt); chờ hết hạn mức Claude rồi tự chạy tiếp.
+- Sửa "Kiểm tra đăng nhập Gemini" chậm: không xếp sau job Claude, bỏ bước mở chat và nghỉ (còn khoảng 1,3 giây).
+- Bài học người dùng dạy: 9 (cửa chống cháy là điểm xuất phát đường thoát nạn), 10 (quy mô tính riêng từng khối tách biệt bằng tường, kết cấu riêng) trong `knowledge/bai-hoc.md`.
+- Nạp tri thức: NĐ 105/2025 + NĐ 347/2026 (Phụ lục III dùng bản NĐ 105), hai công văn hướng dẫn (C07 phúc đáp; đề xuất 2360 của CA Hà Nội chỉ tham khảo), QCVN 10:2025/BCA (6 file chép từ bản scan), QCVN 06 Điều 4–7 và Phụ lục H (từ Word), TCVN 7568-14:2025, module đầu báo khói trong khoang dầm. NĐ 136/2020, NĐ 50/2024, TCVN 3890 đã bỏ.
+- Đổi bộ bảng đối chiếu sang A1–A26 (công năng) + B1–B14 (hệ thống) của Đồng Nai (thư mục "…Nam gửi"); bỏ B1–B50 cũ. Karaoke là A12. Ghi nhận: bỏ chống tụ khói, thang máy chữa cháy, chống sét, khí đốt trung tâm khỏi bảng hệ thống (chưa có bảng mới).
+- Test thử Karaoke Hoàng Yến (kết quả cũ trong `C:\Users\HP\Downloads\thamcungbisu\`): 562 dòng, 11 CHƯA ĐẠT, 69 CẦN XÁC NHẬN; người dùng quyết chạy lại từ đầu bằng bảng mới và bật "Hướng dẫn thiết kế" (chưa chạy).
+
+## 2026-10-19
+- Dựng hệ thống: dữ liệu bảng, shared, web, runner, 21 agent, chạy thật Hoàng Anh 1 (34/34 job, khớp báo cáo tay), Gemini API và Gemini web, chạy lô song song, đổi font VNI, xuất PDF/Word, sơ đồ kiến trúc ngang. Chi tiết: `TIEN_DO.md` mục "Lịch sử".
