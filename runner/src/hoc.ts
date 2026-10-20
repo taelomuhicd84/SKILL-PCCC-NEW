@@ -316,7 +316,7 @@ async function hocThuMuc(c: CauHinh, toiDa: number) {
   const cm = docChiMuc();
   const tat: string[] = [];
   for (const d of c.thu_muc) duyetCay(d, tat);
-  const moi = tat.filter((f) => { const st = statSync(f); const x = cm.da_doc[f]; return !x || Math.abs(x.mtime - st.mtimeMs) > 2000 || x.size !== st.size; // file đánh dấu từ Python lệch phần nghìn giây })
+  const moi = tat.filter((f) => { const st = statSync(f); const x = cm.da_doc[f]; return !x || Math.abs(x.mtime - st.mtimeMs) > 2000 || x.size !== st.size; /* dung sai: file đánh dấu từ Python lệch phần nghìn giây */ })
     .sort((a, b) => statSync(b).mtimeMs - statSync(a).mtimeMs);
   const lam = moi.slice(0, toiDa);
   trangThai.tong += lam.length;
