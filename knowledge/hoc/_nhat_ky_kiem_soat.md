@@ -3,3 +3,4 @@
 - 2026-10-20 ĐÍNH CHÍNH b6694167594c: xung đột về hiệu lực TCVN 4513:1988 đã gỡ
 - 2026-10-20 ĐÍNH CHÍNH eae8f75f34ad: xung đột dầm/vùng/âm thanh với TCVN 7568-14:2025 đã gỡ
 - 2026-10-20 ĐÍNH CHÍNH 0b87589569c1: xung đột quy tắc dầm 25%/40% với TCVN 7568-14:2025 đã gỡ
+- 2026-10-20 LƯU Ý 9a79a660ea17 vs ce7c86c484f3: cột áp bơm karaoke 7 tầng 65–55 m (biên bản nghiệm thu đọc ảnh) so với 60–55 m (ghi chú cũ, đọc từ công văn): chưa phân xử, ghi chú mới đã nêu rõ nguồn
