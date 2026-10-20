@@ -7,6 +7,7 @@ export interface KetQua {
   ten_cong_trinh: string;
   bang_chinh: string | null;
   bang_he_thong: string[];
+  bang_kien_truc?: string | null;
   thong_tin: unknown;
   dong: DongKetQua[];
   loi_job: { job: string; loi: string }[];

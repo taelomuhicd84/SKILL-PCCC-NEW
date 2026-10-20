@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { PDFDocument } from "pdf-lib";
 import {
-  HE_THONG, NHAN_KET_LUAN, ThongTin, agentById, chonBangChinh, chonBangHeThong, demKetLuan, trichChu, vanBanTrang,
-  type BangIndex, type DongKetQua, type Job, type KetQua, type KetQuaDong, type TrangChu,
+  HE_THONG, NHAN_KET_LUAN, ThongTin, agentById, chonBangChinh, chonBangHeThong, chonBangKienTruc, demKetLuan, trichChu, vanBanTrang,
+  type BangIndex, type PhamVi, type DongKetQua, type Job, type KetQua, type KetQuaDong, type TrangChu,
 } from "@pccc/shared";
 import { moPdf, type PdfDoc } from "./pdf";
 import { taiIndex, taiMau } from "./data";
@@ -42,6 +42,9 @@ export default function App() {
   const [index, setIndex] = useState<BangIndex[]>([]);
   const [bangChinh, setBangChinh] = useState<string | null>(null);
   const [bangHT, setBangHT] = useState<string[]>([]);
+  const [bangKT, setBangKT] = useState<string | null>(null);
+  const [phamVi, setPhamVi] = useState<PhamVi>(() => doc<PhamVi>("pccc.phamvi") ?? "ca-hai");
+  const [nhomXem, setNhomXem] = useState<"kien_truc" | "pccc">("kien_truc");
   const [huongDan, setHuongDan] = useState(() => doc<boolean>("pccc.huongdan") ?? false);
   const [coRaSoat, setCoRaSoat] = useState(true);
   const [jobs, setJobs] = useState<TTJob[]>([]);
@@ -63,6 +66,7 @@ export default function App() {
   useEffect(() => { taiIndex().then(setIndex).catch(() => setLoi("Không tải được danh mục bảng.")); }, []);
   useEffect(() => { luu("pccc.engine2", engine); if (engine !== "thu-cong") kiemRunner().then(setSk); }, [engine]);
   useEffect(() => { luu("pccc.huongdan", huongDan); }, [huongDan]);
+  useEffect(() => { luu("pccc.phamvi", phamVi); }, [phamVi]);
   useEffect(() => { luu("pccc.luong", luong); }, [luong]);
 
   // ---------- gọi AI ----------
@@ -94,8 +98,8 @@ export default function App() {
       const tenDa = tenNhom ?? files[0].name.replace(/\.pdf$/i, "");
       setTen(tenDa); setPdfBytes(bytes); setPdf(d); setChu(c); setTrang(1);
       const cu = doc<KetQua>("pccc.kq." + tenDa);
-      if (cu) { setTt(cu.thong_tin ? ThongTin.parse(cu.thong_tin) : null); setBangChinh(cu.bang_chinh); setBangHT(cu.bang_he_thong); setKq(cu.dong); }
-      else { setTt(null); setBangChinh(null); setBangHT([]); setKq([]); setJobs([]); }
+      if (cu) { setTt(cu.thong_tin ? ThongTin.parse(cu.thong_tin) : null); setBangChinh(cu.bang_chinh); setBangHT(cu.bang_he_thong); setBangKT(cu.bang_kien_truc ?? null); setKq(cu.dong); }
+      else { setTt(null); setBangChinh(null); setBangHT([]); setBangKT(null); setKq([]); setJobs([]); }
       setTienTrinh(`Đã nạp ${d.numPages} trang, ${c.reduce((s, t) => s + t.chu.length, 0)} cụm chữ.${cu ? " Có kết quả lưu từ lần trước." : ""}`);
       setPhien(null); phienRef.current = null;
       setBatDau(true);
@@ -130,29 +134,31 @@ export default function App() {
     if (kq.length > 0) { setBuoc(5); setTienTrinh("Đã nạp kết quả lưu từ lần trước. Muốn chạy tiếp hoặc chạy lại: bước 4."); return; }
     setLoi(""); dung.current = false; setBuoc(4);
     try {
-      let t = tt, bc = bangChinh, bht = bangHT;
+      let t = tt, bc = bangChinh, bht = bangHT, bkt = bangKT;
       if (!t) {
         await damBaoPhien();
         setTienTrinh("AI đang đọc hồ sơ, lập thông tin công trình (có thể vài phút)…");
         t = await docHoSo(goi, nc());
         setTt(t);
       }
-      if (bc == null && bht.length === 0) { bc = chonBangChinh(t).ma; bht = chonBangHeThong(t).map((b) => b.ma); setBangChinh(bc); setBangHT(bht); }
-      await chayHet(t, bc, bht);
+      if (bc == null && bht.length === 0 && bkt == null) { bc = chonBangChinh(t).ma; bht = chonBangHeThong(t).map((b) => b.ma); bkt = bangKienTruc(t); setBangChinh(bc); setBangHT(bht); setBangKT(bkt); }
+      await chayHet(t, bc, bht, bkt);
     } catch (e) { setLoi(String(e)); setTienTrinh(""); }
   }
+  const bangKienTruc = (t: ThongTin) => { const m = chonBangKienTruc(t).ma; return m && index.some((b) => b.ma === m) ? m : null; };
   function goiYBang(t: ThongTin) {
     setBangChinh(chonBangChinh(t).ma);
     setBangHT(chonBangHeThong(t).map((b) => b.ma));
+    setBangKT(bangKienTruc(t));
   }
 
   // ---------- bước 4: chạy các hạng mục ----------
-  async function chayHet(tt: ThongTin, bangChinh: string | null, bangHT: string[]) {
+  async function chayHet(tt: ThongTin, bangChinh: string | null, bangHT: string[], bangKT: string | null) {
     setLoi(""); dung.current = false;
     try {
       await damBaoPhien();
       const goiP = goi, ncP = nc();
-      const ds = await taoJobs(bangChinh, bangHT);
+      const ds = await taoJobs(bangChinh, bangHT, bangKT, phamVi);
       const st: TTJob[] = ds.map((job) => ({ job, trang_thai: "cho" }));
       setJobs([...st]);
       const nhom: KetQuaDong[][] = [kq];
@@ -207,7 +213,7 @@ export default function App() {
     } catch (e) { setLoi(String(e)); }
   }
   const ketQua = (g: DongKetQua[]): KetQua => ({
-    phien_ban: 1, ten_cong_trinh: tt?.ten_cong_trinh || ten, bang_chinh: bangChinh, bang_he_thong: bangHT, thong_tin: tt, dong: g,
+    phien_ban: 1, ten_cong_trinh: tt?.ten_cong_trinh || ten, bang_chinh: bangChinh, bang_he_thong: bangHT, bang_kien_truc: bangKT, thong_tin: tt, dong: g,
     loi_job: jobs.filter((j) => j.trang_thai === "loi").map((j) => ({ job: j.job.id, loi: j.loi ?? "" })), ngay: new Date().toISOString(),
   });
   const luuKq = (g: DongKetQua[]) => luu("pccc.kq." + ten, ketQua(g));
@@ -219,7 +225,7 @@ export default function App() {
     luu("pccc.kq." + tenLuu, k);
     if (g) return;
     try {
-      setTen(tenLuu); setTt(ThongTin.parse(k.thong_tin)); setBangChinh(k.bang_chinh); setBangHT(k.bang_he_thong); setKq(gop([k.dong])); setBuoc(5);
+      setTen(tenLuu); setTt(ThongTin.parse(k.thong_tin)); setBangChinh(k.bang_chinh); setBangHT(k.bang_he_thong); setBangKT(k.bang_kien_truc ?? null); setKq(gop([k.dong])); setBuoc(5);
       setTienTrinh(`Đã mở kết quả "${tenLuu}". Muốn xuất PDF có khung, thả thêm bản vẽ PDF của công trình này.`);
     } catch (e) { setLoi("File kết quả không hợp lệ: " + e); }
   }
@@ -290,17 +296,21 @@ export default function App() {
   async function taiPdf() {
     if (!pdfBytes || !pdf) return setLoi("Cần nạp lại PDF bản vẽ để ghi chú.");
     setTienTrinh("Đang ghi chú lên PDF…");
-    const out = await xuatPdf(pdfBytes, pdf, chu, kq, tt?.ten_cong_trinh || ten, huongDan);
-    taiVe(new Blob([out as BlobPart], { type: "application/pdf" }), `${ten}_tham_dinh.pdf`); setTienTrinh("");
+    const out = await xuatPdf(pdfBytes, pdf, chu, gop([kqNhom]), tt?.ten_cong_trinh || ten, huongDan);
+    taiVe(new Blob([out as BlobPart], { type: "application/pdf" }), `${ten}_${tenNhom}.pdf`); setTienTrinh("");
   }
   async function taiDocx(ma: string) {
-    const b = await xuatDocx(await taiMau(ma), kq.filter((d) => d.bang === ma), tt, huongDan);
+    const b = await xuatDocx(await taiMau(ma), kqNhom.filter((d) => d.bang === ma), tt, huongDan);
     taiVe(b, `${ma}_${ten}_da_dien.docx`);
   }
 
-  const dem = useMemo(() => demKetLuan(kq), [kq]);
-  const hien = kq.filter((d) => loc === "tat-ca" || (loc === "khung" ? !!d.khung : d.ket_luan === loc));
-  const bangCo = [...new Set(kq.map((d) => d.bang))];
+  const dem = useMemo(() => demKetLuan(kq.filter((d) => { const n = d.nhom ?? (d.bang.startsWith("KT") ? "kien_truc" : "pccc"); return n === "chung" || n === nhomXem; })), [kq, nhomXem]);
+  const nhomCua = (d: DongKetQua) => d.nhom ?? (d.bang.startsWith("KT") ? "kien_truc" : "pccc");
+  const kqNhom = kq.filter((d) => { const n = nhomCua(d); return n === "chung" || n === nhomXem; });
+  const coKienTruc = kq.some((d) => nhomCua(d) === "kien_truc");
+  const hien = kqNhom.filter((d) => loc === "tat-ca" || (loc === "khung" ? !!d.khung : d.ket_luan === loc));
+  const bangCo = [...new Set(kqNhom.map((d) => d.bang))].filter((m) => !m.startsWith("KT"));
+  const tenNhom = nhomXem === "kien_truc" ? "xay_dung_PCCC" : "he_thong_PCCC";
 
   // ---------- giao diện ----------
   const BUOC = ["Hồ sơ", "Thông tin công trình", "Bảng đối chiếu", "Thẩm định", "Kết quả", "Tự học"];
@@ -333,6 +343,11 @@ export default function App() {
                       <b> {({ cho: "chờ", dang: "đang chạy", xong: "xong", loi: "lỗi" } as const)[n.tt]}</b>
                     </li>))}
                 </ul>)}
+              <h3>Phạm vi thẩm định</h3>
+              <div className="chon-engine">
+                {([["ca-hai", "Cả hai: xây dựng PCCC (kiến trúc) + hệ thống PCCC, ra hai kết quả riêng"], ["kien-truc", "Chỉ thẩm định xây dựng PCCC (NĐ 105 Điều 6: khoảng cách, đường xe, thoát nạn, bậc chịu lửa, ngăn cháy, chống khói)"], ["pccc", "Chỉ thẩm định hệ thống PCCC (báo cháy, chữa cháy, đèn sự cố, bình, điện…)"]] as const).map(([v, n]) => (
+                  <label key={v}><input type="radio" checked={phamVi === v} onChange={() => setPhamVi(v)} /> {n}</label>))}
+              </div>
               <h3>AI dùng để thẩm định</h3>
               <div className="chon-engine">
                 {([["gemini-api", "Gemini API – nhanh, chạy song song (khuyên dùng)"], ["claude", "Claude Code (tài khoản Claude của bạn)"], ["gemini", "Gemini web (chậm, chạy tuần tự)"], ["hon-hop", "Hỗn hợp: Claude 3 luồng + Gemini web 10 tab ẩn (m10, m15, m17, m18)"], ["thu-cong", "Thủ công: copy prompt, dán trả lời"]] as const).map(([v, n]) => (
@@ -361,11 +376,16 @@ export default function App() {
               {tt && <p className="muted">Gợi ý: {chonBangChinh(tt).ly_do}</p>}
               <label>Bảng công năng: <select value={bangChinh ?? ""} onChange={(e) => setBangChinh(e.target.value || null)}>
                 <option value="">(không dùng)</option>
-                {index.filter((b) => !/^B(3[4-9]|4\d|50)$/.test(b.ma)).map((b) => <option key={b.ma} value={b.ma}>{b.ma} – {b.ten} ({b.so_dong} dòng)</option>)}
+                {index.filter((b) => /^A\d+$/.test(b.ma)).map((b) => <option key={b.ma} value={b.ma}>{b.ma} – {b.ten} ({b.so_dong} dòng)</option>)}
               </select></label>
+              <label>Bảng xây dựng PCCC (kiến trúc): <select value={bangKT ?? ""} onChange={(e) => setBangKT(e.target.value || null)}>
+                <option value="">(không dùng)</option>
+                {index.filter((b) => b.ma.startsWith("KT")).map((b) => <option key={b.ma} value={b.ma}>{b.ma} – {b.ten} ({b.so_dong} dòng)</option>)}
+              </select></label>
+              {tt && <p className="muted">Gợi ý kiến trúc: {chonBangKienTruc(tt).ly_do}</p>}
               <h3>Bảng hệ thống</h3>
               <div className="luoi">
-                {index.filter((b) => /^B(3[4-9]|4\d|50)$/.test(b.ma)).map((b) => (
+                {index.filter((b) => /^B\d+$/.test(b.ma)).map((b) => (
                   <label key={b.ma}><input type="checkbox" checked={bangHT.includes(b.ma)} onChange={(e) => setBangHT(e.target.checked ? [...bangHT, b.ma] : bangHT.filter((x) => x !== b.ma))} /> {b.ma} – {b.ten}</label>))}
               </div>
             </div>
@@ -377,7 +397,7 @@ export default function App() {
               <p>Mỗi mục lớn của bảng là một agent (thoát nạn, ngăn cháy, báo cháy…). Thiếu dữ liệu thì ghi CẦN XÁC NHẬN và chạy tiếp. Kết quả lưu dần, chạy lại sẽ bỏ qua job đã xong.</p>
               <label className="toggle"><input type="checkbox" checked={coRaSoat} onChange={(e) => setCoRaSoat(e.target.checked)} /> Rà soát chéo sau cùng</label>
               <div>
-                <button className="chinh" disabled={!tt} onClick={() => tt && chayHet(tt, bangChinh, bangHT)}>Chạy lại với thông tin đã chỉnh</button>
+                <button className="chinh" disabled={!tt} onClick={() => tt && chayHet(tt, bangChinh, bangHT, bangKT)}>Chạy lại với thông tin đã chỉnh</button>
                 <button onClick={() => { dung.current = true; thuCong?.reject(new Error("đã dừng")); setThuCong(null); }}>Dừng</button>
                 <button onClick={() => { setKq([]); luuKq([]); setJobs([]); }}>Xoá kết quả, chạy lại từ đầu</button>
               </div>
@@ -388,11 +408,16 @@ export default function App() {
           {buoc === 5 && (
             <div className="the">
               <h2>5. Kết quả</h2>
+              <div className="xuat">
+                <button className={nhomXem === "kien_truc" ? "chinh" : ""} onClick={() => setNhomXem("kien_truc")}>Thẩm định xây dựng PCCC (kiến trúc)</button>
+                <button className={nhomXem === "pccc" ? "chinh" : ""} onClick={() => setNhomXem("pccc")}>Thẩm định hệ thống PCCC</button>
+              </div>
+              {nhomXem === "kien_truc" && !coKienTruc && <p className="muted">Chưa có kết quả xây dựng PCCC: chọn phạm vi “Cả hai” hoặc “Chỉ xây dựng PCCC” ở bước 1, rồi chạy lại ở bước 4.</p>}
               <p><b>ĐẠT {dem.DAT}</b> · <b className="c-do">CHƯA ĐẠT {dem.CHUA_DAT}</b> · <b className="c-cam">CẦN XÁC NHẬN {dem.CAN_XAC_NHAN}</b> · KHÔNG ÁP DỤNG {dem.KHONG_AP_DUNG} · <b className="c-xanh">chỉnh bản vẽ {dem.chinh_ban_ve}</b></p>
               <div className="xuat">
                 <button className="chinh" onClick={taiPdf} disabled={!pdf}>Tải PDF có ghi chú</button>
                 {bangCo.map((m) => <button key={m} onClick={() => taiDocx(m)}>Word {m}</button>)}
-                <button onClick={() => taiVe(new Blob([JSON.stringify(ketQua(kq), null, 1)], { type: "application/json" }), `${ten || "ket_qua"}.json`)}>Lưu kết quả .json</button>
+                <button onClick={() => taiVe(new Blob([JSON.stringify(ketQua(kqNhom), null, 1)], { type: "application/json" }), `${ten || "ket_qua"}_${tenNhom}.json`)}>Lưu kết quả .json</button>
               </div>
               <label>Lọc: <select value={loc} onChange={(e) => setLoc(e.target.value)}>
                 <option value="tat-ca">tất cả</option><option value="khung">có khung</option>

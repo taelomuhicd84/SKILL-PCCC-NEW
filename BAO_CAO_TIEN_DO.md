@@ -7,6 +7,8 @@ Trạng thái chi tiết: `TIEN_DO.md`. Lịch sử mốc: `LICH_SU.md`. Phiên 
 - Lô chạy lúc 16:06 (giờ máy) xong 22/22 job, rà soát và hướng dẫn xong lúc 16:23.
 - Sửa lỗi web: nạp PDF báo "Không đọc được PDF … Expected object, received null". Nguyên nhân: kết quả lưu cũ có `thong_tin = null` mà `ThongTin.parse(null)` lỗi. Sửa ở `web/src/App.tsx:97`, đã build lại.
 
+- Thẩm định tách 2 phần: xây dựng PCCC (bảng KT*, từ bảng cũ, đầu mục NĐ 105 Điều 6) và hệ thống PCCC (A/B Đồng Nai, Điều 9). Hai kết quả riêng ở tab 5. Chưa chạy thật phần kiến trúc bằng AI.
+
 ## Vấn đề người dùng nêu: ĐỌC HỒ SƠ RẤT LÂU (cần tối ưu phiên sau)
 Số đo từ `runner/runner.log` (job `A0-doc-ho-so`, một lệnh `claude -p`, tuần tự, chạy trước mọi job khác):
 

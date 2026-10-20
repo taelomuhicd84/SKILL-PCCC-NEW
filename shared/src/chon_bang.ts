@@ -67,3 +67,38 @@ export function chonBangHeThong(tt: ThongTin): { ma: string; ly_do: string }[] {
   }
   return out.sort((a, b) => Number(a.ma.slice(1)) - Number(b.ma.slice(1)));
 }
+
+// Bảng kiến trúc (thẩm định xây dựng PCCC, NĐ 105 Điều 6 khoản 2): dựng từ bộ bảng cũ theo công năng và chiều cao (data-build/build_kien_truc.py).
+const theoCao = (moc: number[], ma: string[]) => (h: number | null) => ma[h == null ? 0 : Math.max(0, moc.findIndex((m) => h <= m) < 0 ? ma.length - 1 : moc.findIndex((m) => h <= m))];
+const LUAT_KT: { re: RegExp; ma: string | ((h: number | null) => string) }[] = [
+  { re: /karaoke|vũ trường|F2\.1/i, ma: "KT15" },
+  { re: /hỗn hợp/i, ma: theoCao([28, 50], ["KT5.1", "KT5.2", "KT5.3"]) },
+  { re: /chung cư|nhà ở tập thể|F1\.3/i, ma: theoCao([28, 75], ["KT4.1", "KT4.2", "KT4.3"]) },
+  { re: /khách sạn|nhà nghỉ|F1\.2/i, ma: theoCao([28, 50], ["KT7.1", "KT7.2", "KT7.3"]) },
+  { re: /văn phòng|F4\.3/i, ma: theoCao([28, 50], ["KT6.1", "KT6.2", "KT6.3"]) },
+  { re: /nhà trẻ|mẫu giáo|mầm non/i, ma: "KT8" },
+  { re: /trường|tiểu học|THCS|THPT|phổ thông/i, ma: "KT9" },
+  { re: /bệnh viện|phòng khám|y tế/i, ma: "KT10" },
+  { re: /trung tâm thương mại|TTTM|siêu thị/i, ma: "KT12" },
+  { re: /chợ/i, ma: "KT11" },
+  { re: /sân vận động|nhà thi đấu|thể thao/i, ma: "KT13" },
+  { re: /rạp chiếu|rạp hát|cinema/i, ma: "KT14" },
+  { re: /gara|bãi đỗ xe|nhà để xe/i, ma: "KT16" },
+  { re: /cửa hàng xăng|cây xăng/i, ma: "KT19" },
+  { re: /kho xăng/i, ma: "KT20" },
+  { re: /LPG/i, ma: "KT24" },
+  { re: /LNG/i, ma: "KT25" },
+  { re: /vật liệu nổ/i, ma: "KT26" },
+  { re: /điện mặt trời/i, ma: "KT28" },
+  { re: /trạm biến áp/i, ma: "KT29" },
+  { re: /hầm đường bộ/i, ma: "KT30" },
+  { re: /sản xuất|nhà xưởng|xưởng|F5\.1/i, ma: "KT17" },
+  { re: /kho|F5\.2/i, ma: "KT18" },
+];
+export function chonBangKienTruc(tt: ThongTin): { ma: string | null; ly_do: string } {
+  const text = [tt.cong_nang, tt.truong?.A01?.gia_tri, tt.ten_cong_trinh].filter(Boolean).join(" · ");
+  const h = chieuCao(tt);
+  for (const l of LUAT_KT) if (l.re.test(text))
+    return { ma: typeof l.ma === "string" ? l.ma : l.ma(h), ly_do: `công năng "${text}"${typeof l.ma === "string" ? "" : `, chiều cao PCCC ${h ?? "chưa rõ (lấy mức thấp nhất)"} m`}` };
+  return { ma: null, ly_do: `chưa có bảng kiến trúc cho "${text}": chọn tay` };
+}

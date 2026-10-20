@@ -88,3 +88,7 @@ export function agentChoMuc(tieuDe: string): AgentDef {
   for (const a of AGENTS) if (a.tu_khoa && a.tu_khoa.test(tieuDe)) return a;
   return agentById("chung");
 }
+
+/** Phần thẩm định của một agent: m01 (phân loại) dùng chung; m02–m09 là xây dựng PCCC (NĐ 105 Điều 6 khoản 2: kiến trúc); còn lại là hệ thống PCCC (Điều 9 khoản 2). */
+export const nhomCuaAgent = (id: string): "kien_truc" | "pccc" | "chung" =>
+  /^m01-/.test(id) ? "chung" : /^m0[2-9]-/.test(id) ? "kien_truc" : "pccc";

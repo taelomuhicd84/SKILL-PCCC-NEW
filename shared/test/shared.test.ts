@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { nhomTheoCongTrinh, tenCongTrinh, chonBangChinh, chonBangHeThong, chiaMuc, lapJobs, agentChoMuc, gop, ganHuongDan, ThongTin, promptJob, promptHuongDan, type Bang, type KetQuaDong } from "../src";
+import { nhomTheoCongTrinh, tenCongTrinh, chonBangChinh, chonBangHeThong, chiaMuc, lapJobs, nhomCuaAgent, agentChoMuc, gop, ganHuongDan, ThongTin, promptJob, promptHuongDan, type Bang, type KetQuaDong } from "../src";
 
 const bang = (ma: string): Bang => JSON.parse(readFileSync(`data/bang/${ma}.json`, "utf8"));
 const haTT = ThongTin.parse({
@@ -94,5 +94,12 @@ describe("gộp hồ sơ theo công trình", () => {
   });
   it("tên chỉ có bộ môn và ngày: nhóm riêng, giữ tên", () => {
     expect(tenCongTrinh("KT 21.06.24.pdf").ten).toBe("KT");
+  });
+  it("lập job kiến trúc từ bảng KT và tách nhóm", async () => {
+    const b = bang;
+    const kt = lapJobs(b("A12"), [], b("KT15"), "kien-truc");
+    expect(kt.map((j) => j.agent)).toEqual(expect.arrayContaining(["m01-phan-loai", "m03-khoang-cach", "m07-thoat-nan", "m06-ngan-chay"]));
+    expect(kt.every((j) => nhomCuaAgent(j.agent) !== "pccc")).toBe(true);
+    expect(lapJobs(b("A12"), [], b("KT15"), "pccc").some((j) => j.bang === "KT15")).toBe(false);
   });
 });

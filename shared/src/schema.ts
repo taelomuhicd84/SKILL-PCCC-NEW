@@ -28,6 +28,7 @@ export const KetQuaDong = z.object({
   nguon: z.array(z.object({ trang: z.number().int(), ghi_chu: z.string().default("") })).default([]),
   vi_tri: z.array(ViTri).default([]),
   huong_dan: z.string().optional().describe("hướng dẫn cho người thiết kế, do agent Hướng dẫn thẩm định viết (khi bật)"),
+  nhom: z.enum(["kien_truc", "pccc", "chung"]).optional().describe("kết quả thuộc phần thẩm định xây dựng PCCC (kiến trúc) hay hệ thống PCCC; chung = phân loại, hiện ở cả hai"),
 });
 export type KetQuaDong = z.infer<typeof KetQuaDong>;
 

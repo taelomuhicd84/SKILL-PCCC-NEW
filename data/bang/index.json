@@ -278,5 +278,257 @@
   "file_goc": "B9. Bảng đối chiếu hệ thống chữa cháy bằng khí nén.docx",
   "so_dong": 17,
   "nguon": "doc_converted"
+ },
+ {
+  "ma": "KT10",
+  "ten": "Kiến trúc – bệnh viện",
+  "file_goc": "B10. Bảng đối chiếu bệnh viện.docx",
+  "so_dong": 140,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT11",
+  "ten": "Kiến trúc – Chợ",
+  "file_goc": "B11. Bảng đối chiếu Chợ.docx",
+  "so_dong": 142,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT12",
+  "ten": "Kiến trúc – TTTM",
+  "file_goc": "B12. Bảng đối chiếu TTTM.docx",
+  "so_dong": 137,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT13",
+  "ten": "Kiến trúc – Công trình thể thao (sân vận động, nhà thi đấu,...)",
+  "file_goc": "B13. Bảng đối chiếu Công trình thể thao (sân vận động, nhà thi đấu,...).docx",
+  "so_dong": 135,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT14",
+  "ten": "Kiến trúc – Rạp chiếu phim",
+  "file_goc": "B14. Bảng đối chiếu Rạp chiếu phim.docx",
+  "so_dong": 143,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT15",
+  "ten": "Kiến trúc – Karaoke, vũ trường",
+  "file_goc": "B15. Bảng đối chiếu Karaoke, vũ trường.docx",
+  "so_dong": 143,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT16",
+  "ten": "Kiến trúc – gara",
+  "file_goc": "B16. Bảng đối chiếu gara.docx",
+  "so_dong": 179,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT17",
+  "ten": "Kiến trúc – Nhà sản xuất",
+  "file_goc": "B17. Bảng đối chiếu Nhà sản xuất.docx",
+  "so_dong": 121,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT18",
+  "ten": "Kiến trúc – nhà kho",
+  "file_goc": "B18. Bảng đối chiếu  nhà kho.docx",
+  "so_dong": 121,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT19",
+  "ten": "Kiến trúc – Cửa hàng xăng dầu",
+  "file_goc": "B19. Cửa hàng xăng dầu.docx",
+  "so_dong": 40,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT20",
+  "ten": "Kiến trúc – kho xăng dầu",
+  "file_goc": "B20. Bảng đối chiếu kho xăng dầu.docx",
+  "so_dong": 82,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT21",
+  "ten": "Kiến trúc – mẫu Cửa hàng kinh doanh khí đốt",
+  "file_goc": "B21. Bảng đối chiếu mẫu Cửa hàng kinh doanh khí đốt.docx",
+  "so_dong": 3,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT22",
+  "ten": "Kiến trúc – đường ống khí",
+  "file_goc": "B22. Bảng đối chiếu đường ống khí.docx",
+  "so_dong": 14,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT23",
+  "ten": "Kiến trúc – Kho và trạm san chiết nạp LPG",
+  "file_goc": "B23. Bảng đối chiếu Kho và trạm san chiết nạp LPG.docx",
+  "so_dong": 7,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT24",
+  "ten": "Kiến trúc – Kho chứa LPG",
+  "file_goc": "B24. Bảng đối chiếu Kho chứa LPG.docx",
+  "so_dong": 7,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT25",
+  "ten": "Kiến trúc – Kho chứa LNG",
+  "file_goc": "B25. Bảng đối chiếu  Kho chứa LNG.docx",
+  "so_dong": 1,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT26",
+  "ten": "Kiến trúc – Kho chứa vật liệu nổ công nghiệp",
+  "file_goc": "B26. Bảng đối chiếu Kho chứa vật liệu nổ công nghiệp.docx",
+  "so_dong": 31,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT27",
+  "ten": "Kiến trúc – NM điện gió",
+  "file_goc": "B27. Bảng đối chiếu NM điện gió.docx",
+  "so_dong": 65,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT28",
+  "ten": "Kiến trúc – NM điện mặt trời",
+  "file_goc": "B28. Bảng đối chiếu NM điện mặt trời.docx",
+  "so_dong": 99,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT29",
+  "ten": "Kiến trúc – Trạm biến áp",
+  "file_goc": "B29. Bảng đối chiếu Trạm biến áp.docx",
+  "so_dong": 12,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT30",
+  "ten": "Kiến trúc – Hầm đường bộ",
+  "file_goc": "B30. Bảng đối chiếu Hầm đường bộ.docx",
+  "so_dong": 15,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT31",
+  "ten": "Kiến trúc – Phương tiện tàu biển",
+  "file_goc": "B31 . Bảng đối chiếu Phương tiện tàu biển.docx",
+  "so_dong": 11,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT4.1",
+  "ten": "Kiến trúc – nhà chung cư đến 28m",
+  "file_goc": "B4.1. Bảng đối chiếu nhà chung cư đến 28m.docx",
+  "so_dong": 151,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT4.2",
+  "ten": "Kiến trúc – nhà chung cư từ trên 28m đến 75m",
+  "file_goc": "B4.2. Bảng đối chiếu nhà chung cư  từ trên 28m đến 75m.docx",
+  "so_dong": 147,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT4.3",
+  "ten": "Kiến trúc – nhà chung cư từ trên 75m đến 150m",
+  "file_goc": "B4.3. Bảng đối chiếu nhà chung cư từ trên 75m đến 150m.docx",
+  "so_dong": 153,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT5.1",
+  "ten": "Kiến trúc – nhà hỗn hợp đến 28m",
+  "file_goc": "B5.1. Bảng đối chiếu nhà hỗn hợp đến 28m.docx",
+  "so_dong": 151,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT5.2",
+  "ten": "Kiến trúc – nhà hỗn hợp từ trên 28m đến 50m",
+  "file_goc": "B5.2. Bảng đối chiếu nhà hỗn hợp từ trên 28m đến 50m.docx",
+  "so_dong": 147,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT5.3",
+  "ten": "Kiến trúc – nhà hỗn hợp từ trên 50m đến 150m",
+  "file_goc": "B5.3. Bảng đối chiếu nhà hỗn hợp từ trên 50m đến 150m.docx",
+  "so_dong": 177,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT6.1",
+  "ten": "Kiến trúc – nhà văn phòng đến 28m",
+  "file_goc": "B6.1 Bảng đối chiếu nhà văn phòng đến 28m.docx",
+  "so_dong": 146,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT6.2",
+  "ten": "Kiến trúc – văn phòng từ trên 28 đến 50 m",
+  "file_goc": "B6.2 Bảng đối chiếu văn phòng từ trên 28 đến 50 m.docx",
+  "so_dong": 145,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT6.3",
+  "ten": "Kiến trúc – nhà văn phòng từ trên 50 đến 150 m",
+  "file_goc": "B6.3.Bảng đối chiếu nhà văn phòng từ trên 50 đến 150 m.docx",
+  "so_dong": 175,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT7.1",
+  "ten": "Kiến trúc – khách sạn đến 28m",
+  "file_goc": "B7.1 Bảng đối chiếu khách sạn đến 28m.docx",
+  "so_dong": 146,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT7.2",
+  "ten": "Kiến trúc – khách sạn từ trên 28 đến 50 m",
+  "file_goc": "B7.2 Bảng đối chiếu khách sạn từ trên 28 đến 50 m.docx",
+  "so_dong": 145,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT7.3",
+  "ten": "Kiến trúc – khách sạn từ trên 50 đến 150 m",
+  "file_goc": "B7.3.Bảng đối chiếu khách sạn từ trên 50 đến 150 m.docx",
+  "so_dong": 175,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT8",
+  "ten": "Kiến trúc – nhà trẻ, trường mẫu giáo, mầm non",
+  "file_goc": "B8. Bảng đối chiếu nhà trẻ, trường mẫu giáo, mầm non.docx",
+  "so_dong": 127,
+  "nguon": "kien_truc"
+ },
+ {
+  "ma": "KT9",
+  "ten": "Kiến trúc – trường tiểu học, THCS, THPT, trường phổ thông",
+  "file_goc": "B9. Bảng đối chiếu trường tiểu học, THCS, THPT, trường phổ thông.docx",
+  "so_dong": 136,
+  "nguon": "kien_truc"
  }
 ]

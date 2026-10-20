@@ -1,7 +1,7 @@
 // Điều phối các giai đoạn trên web: đọc hồ sơ (A0) → chọn bảng → các job hạng mục → rà soát → gộp.
 import {
-  ThongTin, agentById, canKhung, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat, tachJson,
-  type Job, type KetQuaDong, type PromptCtx, type DongKetQua,
+  ThongTin, agentById, canKhung, nhomCuaAgent, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat, tachJson,
+  type Job, type PhamVi, type KetQuaDong, type PromptCtx, type DongKetQua,
 } from "@pccc/shared";
 import { taiBang, taiKb } from "./data";
 
@@ -33,10 +33,10 @@ export async function docHoSo(goi: Goi, nc: NguCanh): Promise<ThongTin> {
   return goiJson(goi, "A0-doc-ho-so", "Đọc hồ sơ", promptDocHoSo(ct, goiY), promptDocHoSo(ck, goiY), (r) => ThongTin.parse(r));
 }
 
-export async function taoJobs(bangChinh: string | null, bangHT: string[]): Promise<Job[]> {
+export async function taoJobs(bangChinh: string | null, bangHT: string[], bangKT: string | null = null, phamVi: PhamVi = "pccc"): Promise<Job[]> {
   const chinh = bangChinh ? await taiBang(bangChinh) : null;
   const ht = await Promise.all(bangHT.map(taiBang));
-  return lapJobs(chinh, ht);
+  return lapJobs(chinh, ht, bangKT ? await taiBang(bangKT).catch(() => null) : null, phamVi);
 }
 
 /** Prompt của một job cho hai chế độ: "tep" (Claude đọc file) và "kem" (Gemini, thủ công). */
@@ -47,7 +47,7 @@ export async function promptCua(nc: NguCanh, tt: ThongTin, job: Job): Promise<{ 
 
 /** Đọc câu trả lời của một job; điền TT theo bảng (AI hay bỏ trống). */
 export function docTraLoiJob(raw: unknown, job: Job): KetQuaDong[] {
-  return docKetQuaJob(raw, job.bang, job.dong.map((d) => d.idx)).map((d) => ({ ...d, tt: d.tt || job.dong.find((x) => x.idx === d.idx)?.tt || "" }));
+  return docKetQuaJob(raw, job.bang, job.dong.map((d) => d.idx)).map((d) => ({ ...d, nhom: nhomCuaAgent(job.agent), tt: d.tt || job.dong.find((x) => x.idx === d.idx)?.tt || "" }));
 }
 
 export async function chayMotJob(goi: Goi, nc: NguCanh, tt: ThongTin, job: Job): Promise<KetQuaDong[]> {

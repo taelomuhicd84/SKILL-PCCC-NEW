@@ -1,6 +1,6 @@
 // CLI cho luồng chạy hoàn toàn trong Claude Code (lệnh /tham-dinh). Mọi đường dẫn tính từ gốc repo.
 //   npm -w runner run cli -- chuan-bi <thu_muc_ra> <pdf1> [pdf2…]   gộp PDF, trích chữ có vị trí, ghi prompt đọc hồ sơ
-//   npm -w runner run cli -- jobs <thu_muc_ra> [--bang A12] [--he-thong B1,B6] [--huong-dan]   chọn bảng, ghi prompt từng job
+//   npm -w runner run cli -- jobs <thu_muc_ra> [--bang A12] [--he-thong B1,B6] [--kien-truc KT15] [--pham-vi ca-hai|kien-truc|pccc] [--huong-dan]   chọn bảng, ghi prompt từng job
 //   npm -w runner run cli -- ra-soat <thu_muc_ra>                   ghi prompt rà soát từ các câu trả lời đã có
 //   npm -w runner run cli -- huong-dan <thu_muc_ra>                 ghi prompt agent Hướng dẫn thẩm định (sau rà soát) → huong_dan.json
 //   npm -w runner run cli -- gop <thu_muc_ra>                      gộp jobs/*.json (+ ra_soat.json) → ket_qua.json, tom_tat.md
@@ -9,7 +9,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import path from "node:path";
 import { PDFDocument } from "pdf-lib";
 import {
-  ThongTin, canKhung, chonBangChinh, chonBangHeThong, demKetLuan, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat,
+  ThongTin, canKhung, chonBangChinh, chonBangHeThong, chonBangKienTruc, nhomCuaAgent, type PhamVi, demKetLuan, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat,
   tachJson, trichChu, NHAN_KET_LUAN, type Bang, type Job, type KetQua, type KetQuaDong, type PromptCtx,
 } from "@pccc/shared";
 import { GOC_REPO } from "./chung";
@@ -45,17 +45,20 @@ function jobs(out: string, a: string[]) {
   const tt = ThongTin.parse(tachJson(readFileSync(path.join(out, "thong_tin.json"), "utf8")));
   const ma = arg(a, "--bang") ?? chonBangChinh(tt).ma;
   const ht = arg(a, "--he-thong")?.split(",") ?? chonBangHeThong(tt).map((b) => b.ma);
-  const ds = lapJobs(ma ? bang(ma) : null, ht.filter((m) => existsSync(path.join(GOC_REPO, "data", "bang", `${m}.json`))).map(bang));
+  const pv = (arg(a, "--pham-vi") ?? "ca-hai") as PhamVi;
+  const kt = arg(a, "--kien-truc") ?? chonBangKienTruc(tt).ma;
+  const ktCo = kt && existsSync(path.join(GOC_REPO, "data", "bang", `${kt}.json`)) ? kt : null;
+  const ds = lapJobs(ma ? bang(ma) : null, ht.filter((m) => existsSync(path.join(GOC_REPO, "data", "bang", `${m}.json`))).map(bang), ktCo ? bang(ktCo) : null, pv);
   const { so_trang } = docJson<{ so_trang: number }>(path.join(out, "nguon.json"));
   const ctx: PromptCtx = { che_do: "tep", thong_tin: tt, so_trang, huong_dan: a.includes("--huong-dan"), tep: { pdf: rel(path.join(out, "ban_ve.pdf")), chu_dir: rel(path.join(out, "chu")) } };
   mkdirSync(path.join(out, "jobs"), { recursive: true });
   for (const j of ds) writeFileSync(path.join(out, "jobs", `${j.id}.md`), promptJob(ctx, j), "utf8");
-  writeFileSync(path.join(out, "jobs.json"), JSON.stringify({ bang_chinh: ma, bang_he_thong: ht, huong_dan: ctx.huong_dan, jobs: ds.map((j) => ({ id: j.id, agent: j.agent, bang: j.bang, idx: j.dong.map((d) => d.idx) })) }, null, 1));
-  console.log(`Bảng chính ${ma}, hệ thống ${ht.join(", ")}: ${ds.length} job.`);
+  writeFileSync(path.join(out, "jobs.json"), JSON.stringify({ bang_chinh: ma, bang_he_thong: ht, bang_kien_truc: ktCo, pham_vi: pv, huong_dan: ctx.huong_dan, jobs: ds.map((j) => ({ id: j.id, agent: j.agent, bang: j.bang, idx: j.dong.map((d) => d.idx) })) }, null, 1));
+  console.log(`Phạm vi ${pv}; bảng chính ${ma}, kiến trúc ${ktCo ?? "-"}, hệ thống ${ht.join(", ")}: ${ds.length} job.`);
   for (const j of ds) console.log(`  ${j.id}\tagent pccc-${j.agent}\t${j.dong.length} dòng\t→ ghi ${rel(out)}/jobs/${j.id}.json`);
 }
 
-type JobsFile = { bang_chinh: string | null; bang_he_thong: string[]; huong_dan: boolean; jobs: (Pick<Job, "id" | "agent" | "bang"> & { idx: number[] })[] };
+type JobsFile = { bang_chinh: string | null; bang_he_thong: string[]; bang_kien_truc?: string | null; huong_dan: boolean; jobs: (Pick<Job, "id" | "agent" | "bang"> & { idx: number[] })[] };
 
 function docTraLoi(out: string): { nhom: KetQuaDong[][]; loi: { job: string; loi: string }[] } {
   const jf = docJson<JobsFile>(path.join(out, "jobs.json"));
@@ -66,7 +69,7 @@ function docTraLoi(out: string): { nhom: KetQuaDong[][]; loi: { job: string; loi
     try {
       const raw = readFileSync(f, "utf8");
       const tt = new Map(bang(j.bang).dong.map((d) => [d.idx, d.tt]));
-      nhom.push(docKetQuaJob(tachJson(raw), j.bang, j.idx).map((d) => ({ ...d, tt: d.tt || tt.get(d.idx) || "" })));
+      nhom.push(docKetQuaJob(tachJson(raw), j.bang, j.idx).map((d) => ({ ...d, nhom: nhomCuaAgent(j.agent), tt: d.tt || tt.get(d.idx) || "" })));
     } catch (e) { loi.push({ job: j.id, loi: String(e).slice(0, 300) }); }
   }
   return { nhom, loi };
@@ -113,7 +116,7 @@ function gopKq(out: string) {
     try { dong = ganHuongDan(d0, tachJson(readFileSync(hd, "utf8"))); } catch (e) { loi.push({ job: "huong-dan", loi: String(e).slice(0, 300) }); }
   }
   const tt = tachJson(readFileSync(path.join(out, "thong_tin.json"), "utf8"));
-  const kq: KetQua = { phien_ban: 1, ten_cong_trinh: (tt as { ten_cong_trinh?: string }).ten_cong_trinh ?? "", bang_chinh: jf.bang_chinh, bang_he_thong: jf.bang_he_thong, thong_tin: tt, dong, loi_job: loi, ngay: new Date().toISOString() };
+  const kq: KetQua = { phien_ban: 1, ten_cong_trinh: (tt as { ten_cong_trinh?: string }).ten_cong_trinh ?? "", bang_chinh: jf.bang_chinh, bang_he_thong: jf.bang_he_thong, bang_kien_truc: jf.bang_kien_truc ?? null, thong_tin: tt, dong, loi_job: loi, ngay: new Date().toISOString() };
   writeFileSync(path.join(out, "ket_qua.json"), JSON.stringify(kq, null, 1), "utf8");
   const c = demKetLuan(dong);
   const md = [`# Kết quả thẩm định – ${kq.ten_cong_trinh}`, "", `Đã xét ${dong.length} dòng: ĐẠT ${c.DAT} · CHƯA ĐẠT ${c.CHUA_DAT} · CẦN XÁC NHẬN ${c.CAN_XAC_NHAN} · KHÔNG ÁP DỤNG ${c.KHONG_AP_DUNG} · chỉnh bản vẽ ${c.chinh_ban_ve}.`,
