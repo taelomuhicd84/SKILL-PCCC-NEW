@@ -5,10 +5,12 @@ description: Thẩm định PCCC – Mục 11 – Báo cháy. Đối tượng ph
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 11 – Báo cháy
 **Việc:** Đối tượng phải trang bị, loại đầu báo, bố trí, tủ trung tâm, liên động.
+**Lưu ý:** Toàn văn TCVN 7568-14:2025 ở knowledge/tcvn7568-14-2025.md (Claude đọc khi cần điều khoản ngoài cột Quy định). Đầu báo khói trên trần có dầm: theo module khoang dầm, xét từng ô giữa dầm.
 **Bảng hệ thống đi kèm:** B1, B2 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
+- `skills/MOD_dau_bao_khoi_khoang_dam.md`
 - Điều khoản chưa nạp (Điều 4–7 QCVN 06, Phụ lục A TCVN 3890, QCVN 10:2025/BCA…): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)
