@@ -14,6 +14,7 @@
 ## 11. Phụ lục G (nạp đầy đủ)
 Toàn bộ Phụ lục G (G.1–G.3, Bảng G.1–G.9) nằm ở [PHU_LUC_G_QCVN06.md](PHU_LUC_G_QCVN06.md), chép từ `QCVN 06 SỬA ĐỔI BỔ SUNG 10.2023.pdf`. Khi đo khoảng cách, tính mật độ, bề rộng, số người: tra file này, không dùng trị số nhớ.
 Điểm cần nhớ nhất:
+- **Cửa chống cháy của gian phòng là điểm xuất phát của đường thoát nạn** (người thẩm định dạy, xem knowledge/bai-hoc.md bài 9): có cửa chống cháy thật sự thì đo từ cửa đó đi; không tính từ gian phòng. Xác nhận cửa đúng GHCL, tự đóng, đúng ký hiệu FD.
 - G.1.2.1: khoảng cách đo từ **cửa ra vào gian phòng** (Bảng G.2a); chú thích "tính từ điểm xa nhất của gian phòng" khi hành lang không bao che 3.3.5/3.3.4 **không áp dụng cho tầng có karaoke, vũ trường** → karaoke luôn đo từ cửa phòng.
 - Bảng G.2a bậc I, II, III, MĐ ≤ 2: 60 m (cửa ở giữa 2 lối/thang), 30 m (hành lang cụt hoặc sảnh chung).
 - G.2.1.1: 165 / 115 / 80 người/m cho bậc I–II / III–IV / V; G.2.1.4: lối ra gian phòng > 50 người ≥ 1,2 m.

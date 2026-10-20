@@ -215,6 +215,7 @@ CHÚ THÍCH: "Diện tích sàn" không kể diện tích cầu thang bộ, than
 Chú thích bảng: (1) Nếu không dùng giá trị trong bảng, có thể xác định hệ số theo số liệu thực tế của công trình tương tự, phản ánh mật độ trung bình tại thời điểm cao nhất trong năm. (2) Đối tượng không có trong bảng: chọn giá trị của đối tượng tương tự. (3) Khu nhà dùng nhiều mục đích: áp dụng hệ số cho ra số người lớn nhất; nhà có nhiều khu vực khác nhau thì mỗi khu tính với hệ số của khu đó.
 
 ## Ghi chú khi áp dụng (nhận xét của Claude, không thuộc QCVN)
+- **Cửa chống cháy là điểm xuất phát (người thẩm định dạy):** gian phòng có cửa chống cháy mở vào hành lang bao che đúng thì chiều dài thoát nạn đo từ cửa đó đi, không từ gian phòng; cửa không thật sự chống cháy thì không có điểm xuất phát tại cửa. Xem knowledge/bai-hoc.md bài 9.
 - Karaoke/vũ trường: chú thích G.1.2.1 không áp dụng → luôn đo từ **cửa ra vào của gian phòng** theo Bảng G.2a, không chuyển sang đo từ điểm xa nhất trong phòng, kể cả khi hành lang bao che chưa đạt. Vẫn phải kiểm tra bao che 3.3.4/3.3.5 riêng (xem MOD_hanh_lang_bao_che.md).
 - Chọn dòng Bảng G.2a: cửa phòng mở ra hành lang nằm giữa 2 lối ra → dòng 1 (bậc II, MĐ ≤ 2: 60 m); mở vào hành lang cụt hoặc sảnh chung → dòng 2 (30 m).
 - Mật độ dòng người = tổng người phải thoát / diện tích đường thoát nạn (hành lang, sảnh), không phải diện tích phòng.
