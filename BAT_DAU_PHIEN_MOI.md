@@ -2,6 +2,9 @@
 
 Mở phiên mới thì đọc file này trước, rồi đọc `TIEN_DO.md` (lịch sử chi tiết). Người dùng nói tiếng Việt, muốn trả lời ngắn, tiết kiệm token, đã cấp toàn quyền (không hỏi giữa chừng, trừ việc ra bên ngoài như push, deploy, tạo tài khoản).
 
+## ĐỌC TRƯỚC (phiên 2026-10-20 chiều)
+Việc đang dở và việc tiếp theo: mục "ĐANG LÀM / VIỆC TIẾP THEO" đầu `TIEN_DO.md`; lịch sử: `LICH_SU.md`. Mới so với đoạn bên dưới: kéo thả nhiều file và tự gộp theo công trình, tab "Tự học" (agent tự học thư mục được cấp quyền, ghi chú phải duyệt), bảng đối chiếu mới A1–A26 và B1–B14, tri thức mới (QCVN 10:2025, NĐ 105/347, TCVN 7568-14:2025). Đoạn "Tiến độ ngày 2026-10-20" bên dưới là của buổi sáng, một số điểm đã cũ (bảng B15, B34–B50 không còn).
+
 ## Tiến độ ngày 2026-10-20 (đọc phần này đầu tiên)
 Mục tiêu người dùng chốt: **tự động hoá tối đa** — chọn PDF là tự chạy hết, không phải khai báo tay, không có nút "Tiếp".
 

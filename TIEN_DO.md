@@ -3,6 +3,13 @@ Phiên mới: đọc BAT_DAU_PHIEN_MOI.md trước.
 File này cập nhật sau mỗi mốc việc và trước mỗi lần compact/clear. Đọc file này đầu tiên khi tiếp tục.
 Kế hoạch gốc: `C:\Users\HP\.claude\plans\t-i-mu-n-l-m-1-ticklish-gosling.md` (web tĩnh GitHub Pages + runner cục bộ Claude Code / Gemini Playwright).
 
+## ĐANG LÀM / VIỆC TIẾP THEO (cập nhật 2026-10-20, đọc trước)
+Lịch sử đầy đủ: `LICH_SU.md`. Người dùng dặn: khi sắp hết token thì ghi file này + `LICH_SU.md` rồi push GitHub.
+1. **Agent tự học đang chờ Claude reset 15:22** rồi tự học 48 file ở `8_TAILIEUHOCTAP` (đã sắp thành 8 thư mục, xem `_MUC_LUC.md` trong thư mục đó). Sau đó 3 thư mục hồ sơ cũ 2024/2025/2026 (đã cấp quyền; bấm "Học ngay" ở tab 6, hoặc đợi chu kỳ tự học mỗi ngày). Runner phải đang chạy (`chay.bat`). Học xong: mở tab 6 "Tự học", duyệt ghi chú (chưa duyệt thì agent thẩm định không dùng). Kho hồ sơ cũ là **bản scan** (136 PDF năm 2024): agent chỉ đọc file có lớp chữ; file scan chưa học được (cần OCR; máy chưa có tesseract/poppler). Quy tắc học kho cũ (người dùng chốt): QCVN 06 vẫn dùng; kiến thức hệ thống PCCC chỉ lấy phần còn dùng được hiện tại; 2026 là mới nhất, luật mới học, cũ bỏ.
+2. **File Excel mới gọn, công thức rõ** (người dùng giao, đang làm): nguồn là 15 file Excel trong `8_TAILIEUHOCTAP/07_Bang tinh Excel` (đã dump ra thư mục `%TEMP%/xl`, mất khi dọn temp: chạy lại script dump). Đã đối chiếu nguyên văn: TCVN 7336:2021 Phụ lục B (thủy lực: q=10K√P, ΔP=Q²L/(100·KT), Bảng B.2, PB=…), TCVN 5687:2024 Phụ lục H (H.1–H.3: G=678,8·Pf·Y^1,5·Ks, H.5), QCVN 10:2025 Phụ lục H (H.1–H.3, bảng lưu lượng). Chưa đối chiếu: khí chữa cháy (NFPA 2001/ISO 14520/TCVN 7161), NFPA 204 thoát khói tự nhiên, R15 (Am/V), máy phát TCVN 9206, chọn dây MCB, áp suất nổ (SP 12.13130): cần tra thêm nguồn uy tín hoặc ghi rõ "lấy từ bảng tính có sẵn, chưa kiểm nguồn". Workbook mới: mỗi sheet một bài tính, ô nhập chữ xanh, công thức rõ, sheet đầu ghi nguồn và mức kiểm. Máy chưa có LibreOffice (`recalc.py` không chạy): kiểm công thức bằng cách tính lại độc lập trong Python. Lưu ý lỗi bảng tính cũ: sheet "Nuoc" bị #N/A, "số bể khói" không làm tròn lên.
+3. **Chạy lại Karaoke Hoàng Yến** bằng bảng mới A12 + B1–B14, bật "Hướng dẫn thiết kế" (người dùng muốn test). Kéo thả PDF vào web http://127.0.0.1:8787. Cookie Gemini hết hạn dễ gây lỗi job Gemini: chọn chế độ Claude nếu cần.
+4. Việc cũ còn mở: bật Pages/Netlify; rà phát hiện HA1; đo lại quy tắc "chỉnh bản vẽ"; thêm bảng chống tụ khói, thang máy chữa cháy, chống sét nếu người dùng gửi; thêm bài học thoát nạn người dùng đang dạy (vào `knowledge/bai-hoc.md`).
+
 ## Trạng thái các bước
 | # | Bước | Trạng thái |
 |---|---|---|
