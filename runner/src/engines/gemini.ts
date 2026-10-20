@@ -154,9 +154,7 @@ export async function chayGemini(prompt: string, pdf: string, thuMucJob: string,
 export async function giuPhien(): Promise<boolean> {
   try {
     const p = await moTab();
-    await chatMoi(p).catch(() => null);
-    await nghi(5000, 9000);
-    await p.reload({ waitUntil: "domcontentloaded" });
+    await p.goto(GEMINI_URL, { waitUntil: "domcontentloaded" });
     const ok = !!(await tim(p, SEL.oNhap, 15000));
     if (ok) await luuCookie(p.context());
     return ok;

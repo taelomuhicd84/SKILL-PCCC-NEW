@@ -1,7 +1,7 @@
 // Liên kết tài khoản AI của người dùng với runner trên máy họ: token Claude, API key Gemini, file cookie Gemini (.json).
 // Mọi thông tin chỉ gửi tới runner ở 127.0.0.1 và lưu trong thư mục runner của chính máy đó.
 import { useState } from "react";
-import { kiemGemini, luuKeyGemini, luuTokenClaude, moDangNhapClaude, napCookieGemini, type Engine, type SucKhoe } from "./runner";
+import { kiemGemini, luuKeyGemini, luuTokenClaude, moDangNhapClaude, type Engine, type SucKhoe } from "./runner";
 
 export function LienKet({ engine, sk, capNhat, luong, setLuong }: {
   engine: Engine; sk: SucKhoe | null; capNhat: () => void; luong: number; setLuong: (n: number) => void;
@@ -38,10 +38,7 @@ export function LienKet({ engine, sk, capNhat, luong, setLuong }: {
       {(engine === "gemini" || engine === "hon-hop") && (
         <fieldset><legend>Đăng nhập Gemini web bằng file cookie</legend>
           <p className="muted">Xuất cookie ở trang gemini.google.com (tiện ích Cookie-Editor → Export → JSON) khi đang đăng nhập, rồi nạp file vào đây. Đóng cửa sổ đó, không bấm đăng xuất. Runner tự làm mới cookie để dùng lâu dài.</p>
-          <div className="hang"><input type="file" accept="application/json,.json" onChange={async (e) => {
-            const f = e.target.files?.[0];
-            if (f) await lam(async () => { const r = await napCookieGemini(JSON.parse(await f.text())); setTb(`Đã nạp ${r.so_cookie} cookie.`); }, "Đã nạp cookie.");
-          }} />
+          <div className="hang"><span className="muted">Thả file cookie (.json) vào ô kéo thả ở trên: tự nạp và tự kiểm tra.</span>
             <button onClick={() => lam(async () => { const r = await kiemGemini(); if (!r.dang_nhap) throw new Error("cookie đã hết hạn, hãy xuất lại"); }, "Gemini đã đăng nhập.")}>Kiểm tra đăng nhập</button></div>
         </fieldset>)}
 

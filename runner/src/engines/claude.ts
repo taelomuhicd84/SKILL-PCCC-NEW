@@ -3,7 +3,7 @@
 import { spawn, spawnSync } from "node:child_process";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { GOC_REPO } from "../chung";
+import { GOC_REPO, log } from "../chung";
 
 /** Token liên kết tài khoản Claude, dán từ web: kết quả `claude setup-token` (dùng lâu dài) hoặc API key. Không commit. */
 export const FILE_TOKEN = path.join(GOC_REPO, "runner", "claude_token.json");
@@ -29,8 +29,8 @@ function lenh(): { cmd: string; shell: boolean } {
 const quote = (a: string) => (/[\s"]/.test(a) ? `"${a.replace(/"/g, '\\"')}"` : a);
 export const coClaude = () => { const l = lenh(); return spawnSync(l.cmd, ["--version"], { encoding: "utf8", shell: l.shell }).status === 0; };
 
-export function chayClaude(prompt: string, thuMucPhien: string, timeoutMs = 30 * 60_000): Promise<string> {
-  const args = ["-p", "--output-format", "json", "--allowedTools", "Read", "Grep", "Glob", "--add-dir", thuMucPhien];
+export function chayClaude(prompt: string, thuMucPhien: string, timeoutMs = 30 * 60_000, congCu = ["Read", "Grep", "Glob"]): Promise<string> {
+  const args = ["-p", "--output-format", "json", "--allowedTools", ...congCu, "--add-dir", thuMucPhien];
   if (process.env.PCCC_CLAUDE_MODEL) args.push("--model", process.env.PCCC_CLAUDE_MODEL);
   return new Promise((resolve, reject) => {
     const l = lenh();
@@ -52,4 +52,26 @@ export function chayClaude(prompt: string, thuMucPhien: string, timeoutMs = 30 *
     });
     p.stdin.end(prompt, "utf8");
   });
+}
+
+/** Hết hạn mức gói Claude ("You've hit your session limit · resets 3:20pm"): chờ tới giờ reset rồi tự gọi lại. */
+const HET_HAN_MUC = /session limit|usage limit|hit your|rate.?limit|quota|429|overloaded|limit reached/i;
+export function choDenReset(loi: string, bayGio = new Date()): number {
+  const m = loi.match(/resets?\s+(?:at\s+)?(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
+  if (!m) return 15 * 60_000;
+  let h = Number(m[1]) % 12; if (/pm/i.test(m[3] ?? "")) h += 12; if (!m[3] && Number(m[1]) >= 12) h = Number(m[1]);
+  const t = new Date(bayGio); t.setHours(h, Number(m[2] ?? 0), 0, 0);
+  if (t.getTime() <= bayGio.getTime()) t.setDate(t.getDate() + 1);
+  return t.getTime() - bayGio.getTime() + 2 * 60_000; // thêm 2 phút cho chắc đã reset
+}
+export async function chayClaudeCho(prompt: string, thuMuc: string, timeoutMs?: number, congCu?: string[], baoCho?: (luc: string) => void): Promise<string> {
+  for (let lan = 0; ; lan++) {
+    try { return await chayClaude(prompt, thuMuc, timeoutMs, congCu); } catch (e) {
+      if (!HET_HAN_MUC.test(String(e)) || lan >= 12) throw e;
+      const cho = Math.min(choDenReset(String(e)), 8 * 3600_000);
+      const luc = new Date(Date.now() + cho).toLocaleTimeString("vi-VN");
+      log(`Hết hạn mức Claude: tự chạy tiếp lúc ${luc}`); baoCho?.(luc);
+      await new Promise((r) => setTimeout(r, cho));
+    }
+  }
 }

@@ -14,6 +14,7 @@ description: Thẩm định PCCC – Mục 6 – Ngăn cháy, chống cháy lan.
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/qcvn06-phu-luc-h.md`
 - `knowledge/qcvn06-dieu-4.md`
+- `knowledge/hoc/_da_duyet.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)

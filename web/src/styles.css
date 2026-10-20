@@ -45,3 +45,12 @@ aside { position: sticky; top: 64px; align-self: start; }
 .lien-ket fieldset { border: 1px solid var(--vien); border-radius: 8px; margin: 8px 0; padding: 8px 12px; }
 .lien-ket .hang, label.hang { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 6px 0; }
 .lien-ket input[type=password] { min-width: 260px; flex: 1; }
+
+.tha { display: block; border: 2px dashed var(--vien); border-radius: 12px; padding: 28px 20px; text-align: center; cursor: pointer; margin: 8px 0 12px; line-height: 1.6; }
+.tha.keo, .tha:hover { border-color: #c0332b; background: rgba(192, 51, 43, .08); }
+.tha .muted { display: block; margin-top: 6px; font-size: .9em; }
+.hang-doi { list-style: none; padding: 0; margin: 0 0 12px; }
+.hang-doi li { padding: 6px 0; border-bottom: 1px solid var(--vien); }
+.hang-doi li.dang b { color: #d9a400; } .hang-doi li.xong b { color: #1b7f55; } .hang-doi li.loi b { color: #c0332b; }
+.tu-hoc table { width: 100%; border-collapse: collapse; } .tu-hoc td, .tu-hoc th { border-bottom: 1px solid var(--vien); padding: 6px; text-align: left; vertical-align: top; }
+.tu-hoc .tom-tat { max-width: 520px; white-space: pre-wrap; }

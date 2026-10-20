@@ -21,7 +21,8 @@ const Q10_BINH = "knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md"; // mục 2.6�
 const Q10_DEN = "knowledge/qcvn10-2025-den-loa.md"; // mục 2.2, Phụ lục G, H.4
 const Q10_H = "knowledge/qcvn10-2025-phu-luc-h.md"; // Phụ lục H: thiết kế cấp nước ngoài nhà, họng nước, trạm bơm
 
-export const AGENTS: AgentDef[] = [
+const HOC = "knowledge/hoc/_da_duyet.md"; // tri thức agent tự học, chỉ gồm ghi chú đã duyệt (runner sinh)
+const AGENTS_GOC: AgentDef[] = [
   { id: "doc-ho-so", ten: "Đọc hồ sơ, lập thông tin công trình", viec: "Đọc toàn bộ bản vẽ, điền các trường A01–A10, B01–B08, C01–C12 và cờ hệ thống PCCC; phân loại từng trang.",
     tri_thuc: [TT, DN] },
   { id: "m01-phan-loai", ten: "Mục 1 – Phân loại, diện thẩm duyệt", viec: "Diện thẩm duyệt và phân cấp; số tầng, tầng hầm; chiều cao PCCC; nhóm nhà F; cấp nguy hiểm cháy kết cấu; hạng nguy hiểm cháy nổ.",
@@ -67,6 +68,8 @@ export const AGENTS: AgentDef[] = [
   { id: "ra-soat", ten: "Rà soát chéo", viec: "Tìm số liệu lệch giữa các dòng, kết luận mâu thuẫn, dòng thiếu nguồn hoặc thiếu điều khoản; chỉ trả về các dòng cần sửa.",
     tri_thuc: [BH, "skills/SKILL_thoat_nan.md"] },
 ];
+
+export const AGENTS: AgentDef[] = AGENTS_GOC.map((a) => ({ ...a, tri_thuc: [...a.tri_thuc, HOC] }));
 
 /** Hạng mục đơn giản giao Gemini web ở chế độ "hỗn hợp"; mọi việc còn lại (đọc hồ sơ, mục khó, rà soát) do Claude. */
 export const AGENT_GEMINI = ["m10-binh-chua-chay", "m15-cnch", "m17-lien-lac", "m18-quang-cao"];

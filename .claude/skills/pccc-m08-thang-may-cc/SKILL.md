@@ -10,6 +10,7 @@ description: Thẩm định PCCC – Mục 8 – Thang máy chữa cháy. Đối
 - `knowledge/bai-hoc.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/qcvn06-dieu-6.md`
+- `knowledge/hoc/_da_duyet.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)

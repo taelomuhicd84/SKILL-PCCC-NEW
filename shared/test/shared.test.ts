@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { chonBangChinh, chonBangHeThong, chiaMuc, lapJobs, agentChoMuc, gop, ThongTin, promptJob, type Bang } from "../src";
+import { nhomTheoCongTrinh, tenCongTrinh, chonBangChinh, chonBangHeThong, chiaMuc, lapJobs, agentChoMuc, gop, ThongTin, promptJob, type Bang } from "../src";
 
 const bang = (ma: string): Bang => JSON.parse(readFileSync(`data/bang/${ma}.json`, "utf8"));
 const haTT = ThongTin.parse({
@@ -74,5 +74,21 @@ describe("font VNI", () => {
     expect(vniSangUnicode("ÔÛ")).toBe("Ở");
     expect(vniSangUnicode("KARAOKE HOÀNG ANH")).toBe("KARAOKE HOÀNG ANH");
     expect(vniSangUnicode("COÄNG HOØA XAÕ HOÄI CHUÛ NGHÓA VIEÄT NAM")).toBe("CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM");
+  });
+});
+
+describe("gộp hồ sơ theo công trình", () => {
+  it("4 file → 2 nhóm", () => {
+    const g = nhomTheoCongTrinh(["PCCC Hoàng Anh.pdf", "Kiến trúc Liên Thành.pdf", "KT Hoàng Anh.pdf", "PCCC Liên Thành.pdf"], (x) => x);
+    expect(g.map((x) => x.ten)).toEqual(["Hoàng Anh", "Liên Thành"]);
+    expect(g[0].files).toEqual(["KT Hoàng Anh.pdf", "PCCC Hoàng Anh.pdf"]);
+  });
+  it("bỏ ngày, số thứ tự, phiên bản; giữ số trong tên", () => {
+    expect(tenCongTrinh("01_BV PCCC_Hoàng Anh 1_v2 (1).pdf").ten).toBe("Hoàng Anh 1");
+    expect(tenCongTrinh("Hoàng Anh 1 - KT 21.06.24.pdf").key).toBe("hoang anh 1");
+    expect(tenCongTrinh("Hoàng Anh.pdf").key).not.toBe(tenCongTrinh("Hoàng Anh 1.pdf").key);
+  });
+  it("tên chỉ có bộ môn và ngày: nhóm riêng, giữ tên", () => {
+    expect(tenCongTrinh("KT 21.06.24.pdf").ten).toBe("KT");
   });
 });

@@ -5,7 +5,7 @@ import { writeFileSync, existsSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 import { luuPhien } from "./phien";
 import { GOC_REPO, THU_MUC_LAM, log } from "./chung";
-import { chayClaude, coClaude, coToken, luuToken } from "./engines/claude";
+import { chayClaudeCho, coClaude, coToken, luuToken } from "./engines/claude";
 import { spawn } from "node:child_process";
 import { randomUUID } from "node:crypto";
 import { chayHonHop, chayLo, taoTrangThai, type EngineLo, type TrangThaiLo, type ViecLo } from "./lo";
@@ -13,6 +13,7 @@ import { chayGemini, coPlaywright } from "./engines/gemini";
 import { coFileCookie, chuanHoa, FILE_COOKIE } from "./engines/gemini_cookies";
 import { giuPhien } from "./engines/gemini";
 import { chayGeminiApi, coKey, luuKey } from "./engines/gemini_api";
+import { batDauHoc, boThuMuc, capNhatCauHinh, daDuyet, docCauHinh, duyet, hopThoaiThuMuc, khoiDongHoc, lietKe, themThuMuc, trangThai as ttHoc } from "./hoc";
 
 const PORT = Number(process.env.PCCC_PORT ?? 8787);
 const ORIGINS = ["https://taelomuhicd84.github.io", ...(process.env.PCCC_ORIGINS ?? "").split(",").filter(Boolean)];
@@ -65,12 +66,38 @@ const server = http.createServer(async (req, res) => {
       return json(200, { ok: true, so_cookie: ds.length });
     }
     if (req.method === "POST" && req.url === "/gemini/key") { luuKey(String((await docBody(req)).key ?? "")); return json(200, { ok: true }); }
-    if (req.method === "POST" && req.url === "/gemini/kiem") return json(200, { dang_nhap: await xepHang(() => giuPhien()) });
+    if (req.method === "POST" && req.url === "/gemini/kiem") return json(200, { dang_nhap: await giuPhien() });
     if (req.method === "POST" && req.url === "/claude/token") { luuToken(String((await docBody(req)).token ?? "")); return json(200, { ok: true }); }
     if (req.method === "POST" && req.url === "/claude/dang-nhap") { // mở cửa sổ terminal chạy `claude setup-token` để người dùng tự đăng nhập
       if (process.platform === "win32") spawn("cmd", ["/c", "start", "Dang nhap Claude", "cmd", "/k", "claude setup-token"], { detached: true, stdio: "ignore" }).unref();
       else spawn("x-terminal-emulator", ["-e", "claude setup-token"], { detached: true, stdio: "ignore" }).unref();
       return json(200, { ok: true, huong_dan: "Làm theo cửa sổ vừa mở, rồi dán token sk-ant-… vào ô Token Claude." });
+    }
+    // ---- agent tự học (chỉ đọc các thư mục người dùng cấp quyền; ghi chú vào knowledge/hoc/) ----
+    if (req.method === "GET" && req.url === "/hoc") return json(200, { cau_hinh: docCauHinh(), ghi_chu: lietKe(), trang_thai: ttHoc });
+    if (req.method === "GET" && req.url?.startsWith("/hoc/da-duyet")) {
+      const n = Number(new URL(req.url, "http://x").searchParams.get("toi_da")) || undefined;
+      res.writeHead(200, { "content-type": "text/markdown; charset=utf-8" }).end(daDuyet(n)); return;
+    }
+    if (req.method === "POST" && req.url === "/hoc/thu-muc") {
+      const b = await docBody(req);
+      if (b.chon) { const p = await hopThoaiThuMuc(); return json(200, p ? themThuMuc(p) : docCauHinh()); }
+      return json(200, b.bo ? boThuMuc(String(b.bo)) : themThuMuc(String(b.them ?? "")));
+    }
+    if (req.method === "POST" && req.url === "/hoc/cau-hinh") {
+      const b = await docBody(req);
+      return json(200, capNhatCauHinh({ ...(typeof b.tu_dong === "boolean" ? { tu_dong: b.tu_dong } : {}), ...(typeof b.tu_duyet === "boolean" ? { tu_duyet: b.tu_duyet } : {}),
+        ...(Array.isArray(b.chu_de) ? { chu_de: (b.chu_de as unknown[]).map(String).map((x) => x.trim()).filter(Boolean).slice(0, 10) } : {}) }));
+    }
+    if (req.method === "POST" && req.url === "/hoc/chay") {
+      const b = await docBody(req);
+      const nguon = ["thu-muc", "mang", "ca-hai"].includes(b.nguon) ? b.nguon : "ca-hai";
+      return json(200, { bat_dau: batDauHoc(nguon, Math.max(1, Math.min(50, Number(b.toi_da) || 8))) });
+    }
+    if (req.method === "POST" && req.url === "/hoc/duyet") {
+      const b = await docBody(req);
+      if (!["cho_duyet", "da_duyet", "bo"].includes(b.trang_thai)) return json(400, { loi: "trạng thái không hợp lệ" });
+      duyet(String(b.id), b.trang_thai); return json(200, { ok: true });
     }
     // ---- chạy lô song song ----
     if (req.method === "POST" && req.url === "/lo") {
@@ -104,7 +131,7 @@ const server = http.createServer(async (req, res) => {
         log("bắt đầu", b.engine, job);
         const t = b.engine === "gemini" ? await chayGemini(b.prompt, path.join(dir, "ban_ve.pdf"), path.join(dir, "jobs"), job)
           : b.engine === "gemini-api" ? await chayGeminiApi(b.prompt, path.join(dir, "ban_ve.pdf"))
-          : await chayClaude(b.prompt, dir);
+          : await chayClaudeCho(b.prompt, dir);
         log("xong", job, t.length, "ký tự");
         return t;
       });
@@ -121,4 +148,5 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.requestTimeout = 0; // job có thể chạy lâu
+khoiDongHoc();
 server.listen(PORT, "127.0.0.1", () => log(`Runner PCCC chạy tại http://127.0.0.1:${PORT} (Claude Code: ${coClaude() ? "có" : "không thấy"})`));

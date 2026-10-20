@@ -14,6 +14,7 @@ description: Thẩm định PCCC – Mục 12 – Chữa cháy (sprinkler, họn
 - `knowledge/qcvn10-2025-nuoc-chua-chay.md`
 - `knowledge/qcvn10-2025-phu-luc-h.md`
 - `knowledge/qcvn06-dieu-5.md`
+- `knowledge/hoc/_da_duyet.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)
