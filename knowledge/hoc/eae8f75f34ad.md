@@ -4,7 +4,7 @@ tieu_de: Tập huấn BCTD: chọn đầu báo, kênh, module, nhiệt dây, kh�
 nguon: D:\$.4. QC - TCVN\8_TAILIEUHOCTAP\05_Tai lieu tap huan - chuyen de C07\Tài liệu tập huấn he thong BCTD.pdf
 loai: thu-muc
 hieu_luc: Còn hiệu lực (TCVN 5738:2021). Từ 'thẩm duyệt' đổi thành 'thẩm định'.
-trang_thai: cho_duyet
+trang_thai: bo
 kiem_soat: da_sua
 ngay: 2026-10-20T06:08:44.674890Z
 anh_huong: m11 (B1, B2): báo cháy; liên động với tăng áp, hút khói, thang máy

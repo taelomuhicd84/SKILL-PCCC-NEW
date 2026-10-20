@@ -4,7 +4,8 @@ tieu_de: Hồ sơ 2025: giấy chứng nhận thẩm duyệt (NĐ 136/50) và th
 nguon: D:\1.DRIVE CÔNG TY\My Drive\1.PHÒNG THIẾT KẾ\3. FILE SCAN THẨM DUYỆT - CV NGHIỆM THU\8. Năm 2025
 loai: thu-muc
 hieu_luc: Chuyển tiếp: phần thủ tục theo NĐ 136/2020, NĐ 50/2024 đã hết hiệu lực (chỉ còn áp cho thẩm duyệt điều chỉnh hồ sơ có Giấy chứng nhận cũ); danh mục nội dung và quy mô tham chiếu vẫn dùng được.
-trang_thai: cho_duyet
+trang_thai: da_duyet
+kiem_soat: 
 ngay: 2026-10-20T06:26:53.136275Z
 anh_huong: m01, m05, m06, m07, m10–m14: quy mô thực tế karaoke, khung danh mục thẩm duyệt, quan hệ thẩm định/cải tạo
 canh_bao: Bản scan năm 2025 chưa đọc. Nội dung Giấy chứng nhận chỉ liệt kê hạng mục, không có nhận xét kỹ thuật.

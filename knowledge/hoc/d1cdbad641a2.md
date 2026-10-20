@@ -4,7 +4,8 @@ tieu_de: Tập huấn cấp nước chữa cháy ngoài nhà và họng trong nh
 nguon: D:\$.4. QC - TCVN\8_TAILIEUHOCTAP\05_Tai lieu tap huan - chuyen de C07\Hệ thống cấp nước chữa cháy ngoài nhà, bên trong.pdf
 loai: thu-muc
 hieu_luc: Còn hiệu lực (QCVN 06:2022/BXD + SĐ1:2023). Viện dẫn TCVN 3890 đã bỏ, thay QCVN 10:2025/BCA.
-trang_thai: cho_duyet
+trang_thai: da_duyet
+kiem_soat: 
 ngay: 2026-10-20T06:10:06.667060Z
 anh_huong: m12 (B4, B5): trụ, bể, họng; karaoke phải có nước duy trì áp suất; bán kính trụ phải kiểm 5.1.5.9
 canh_bao: Bảng lưu lượng 8/10 chỉ trích một số hàng; bán kính trụ 200/400 m lẫn trong slide — đối chiếu điều khoản gốc.

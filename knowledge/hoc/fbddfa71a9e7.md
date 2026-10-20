@@ -4,7 +4,7 @@ tieu_de: TCVN 14496:2025 — chữa cháy tự động bằng nước cho kho gi
 nguon: D:\$.4. QC - TCVN\8_TAILIEUHOCTAP\03_Tieu chuan TCVN\Chua chay bang nuoc - sprinkler - hong nuoc\TCVN 14496_2025 .pdf
 loai: thu-muc
 hieu_luc: Còn hiệu lực (TCVN 14496:2025); tương ứng SP 241.1311500.2015; ~~QĐ 4158/QĐ-BCA 15/6/2023 chấp thuận áp dụng.~~ **[đính chính 2026-10-20: QĐ 4158/QĐ-BCA đã hết hiệu lực]**
-trang_thai: cho_duyet
+trang_thai: da_duyet
 kiem_soat: da_sua
 ngay: 2026-10-20T06:18:31.396617Z
 anh_huong: m12 (B6): kho F5.2 cao > 5,5 m trên giá; cường độ và lưu lượng trong kệ, màn nước, điều khiển hút khói
