@@ -20,7 +20,7 @@ description: Thẩm định PCCC – Mục 7 – Lối, đường thoát nạn. 
 - `skills/MOD_vat_lieu_hoan_thien.md`
 - `memory/pccc-escape-route-method.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
-- Điều khoản chưa nạp (Điều 4–7 QCVN 06, Phụ lục A TCVN 3890, QCVN 10:2025/BCA…): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
+- Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)
 1. Kết luận mỗi dòng chỉ nhận: DAT · CHUA_DAT · CAN_XAC_NHAN · KHONG_AP_DUNG, kèm lý do có số liệu ngay tại dòng và trích khoản, điều.

@@ -45,7 +45,7 @@ Mở repo bằng Claude Code, gõ `/tham-dinh "<đường dẫn pdf>"` (xem `.cl
 | `data/` | sinh bởi `data-build/build_data.py` từ thư mục bảng mẫu: `bang/*.json` (58 bảng), `mau/*.docx` |
 | `.claude/agents`, `.claude/skills/pccc-*` | sinh bởi `npm run gen:claude` |
 
-Cập nhật bảng mẫu: `powershell -File data-build\convert_doc.ps1` (bảng .doc) rồi `python -X utf8 data-build/build_data.py "<thư mục bảng>"`. Thêm quy chuẩn mới (QCVN 10:2025/BCA, Phụ lục A TCVN 3890…): đặt file nguyên văn vào `skills/`, thêm đường dẫn vào `tri_thuc` của agent trong `shared/src/agents.ts`, chạy `npm run gen:claude`.
+Cập nhật bảng mẫu: `powershell -File data-build\convert_doc.ps1` (bảng .doc) rồi `python -X utf8 data-build/build_data.py "<thư mục bảng>"`. Thêm quy chuẩn mới (vd. QCVN 10:2025/BCA): đặt file nguyên văn vào `skills/`, thêm đường dẫn vào `tri_thuc` của agent trong `shared/src/agents.ts`, chạy `npm run gen:claude`.
 
 ---
 
@@ -77,7 +77,7 @@ Mở `so_do/quy_trinh_tham_dinh_chi_tiet.html` để xem quy trình từng giai 
 | SKILL_ngan_chay_cong_nang | 4.5, F1.3, tỉ lệ cửa/tường |
 
 ## Chưa nạp
-Toàn văn TCVN 3890:2023 (đặc biệt Phụ lục A: danh mục nhà phải trang bị hệ thống), TCVN 5738, 7336, 13456 (chỉ có phần đã trích trong bảng đối chiếu chính thức); Phụ lục A, C, E, F, H; Điều 4 đến 7 của QCVN 06 (trừ 4.5; có thể tạm đọc từ cột Quy định của bảng đối chiếu); các bảng .doc.
+Toàn văn TCVN 7336, 13456 (chỉ có phần đã trích trong bảng đối chiếu chính thức); nghị định hiện hành về diện thẩm duyệt. Đã nạp: QCVN 06 Điều 4 đến 7 và Phụ lục H (từ file Word 10/2023), QCVN 10:2025/BCA (toàn văn), TCVN 7568-14:2025. TCVN 3890 đã bỏ.
 
 ## Lưu ý
 - Bản QCVN dùng là bản hợp nhất có chữ cũ bị gạch: chỉ nạp chữ hiện hành.

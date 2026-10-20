@@ -14,22 +14,28 @@ const DN = "knowledge/dinh-nghia/dinh-nghia.md";
 const TT = "knowledge/truong-thong-tin.md";
 const BH = "knowledge/bai-hoc.md"; // bài học đã xác nhận: mọi agent hạng mục đọc
 const PLH = "knowledge/qcvn06-phu-luc-h.md"; // QCVN 06 Phụ lục H: bậc chịu lửa, chiều cao, diện tích khoang cháy
+const Q10 = "knowledge/qcvn10-2025-chung.md"; // QCVN 10:2025/BCA: thông tư, định nghĩa, yêu cầu chung (thay TCVN 3890)
+const Q10_AUTO = "knowledge/qcvn10-2025-bao-chay-chua-chay-tu-dong.md"; // mục 2.1, 2.5, Phụ lục A
+const Q10_NUOC = "knowledge/qcvn10-2025-nuoc-chua-chay.md"; // mục 2.3, 2.4, Phụ lục B, C
+const Q10_BINH = "knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md"; // mục 2.6–2.8, Phụ lục D, E, F
+const Q10_DEN = "knowledge/qcvn10-2025-den-loa.md"; // mục 2.2, Phụ lục G, H.4
+const Q10_H = "knowledge/qcvn10-2025-phu-luc-h.md"; // Phụ lục H: thiết kế cấp nước ngoài nhà, họng nước, trạm bơm
 
 export const AGENTS: AgentDef[] = [
   { id: "doc-ho-so", ten: "Đọc hồ sơ, lập thông tin công trình", viec: "Đọc toàn bộ bản vẽ, điền các trường A01–A10, B01–B08, C01–C12 và cờ hệ thống PCCC; phân loại từng trang.",
     tri_thuc: [TT, DN] },
   { id: "m01-phan-loai", ten: "Mục 1 – Phân loại, diện thẩm duyệt", viec: "Diện thẩm duyệt và phân cấp; số tầng, tầng hầm; chiều cao PCCC; nhóm nhà F; cấp nguy hiểm cháy kết cấu; hạng nguy hiểm cháy nổ.",
-    tu_khoa: /chiều cao an toàn|số tầng|nhóm nhà|phân loại|phân cấp|đối tượng thuộc diện|đối tượng thẩm định|quy mô/i, tri_thuc: [BH, DN, TT, PLH],
-    luu_y: "Diện thẩm duyệt: bảng mẫu dẫn NĐ 136/2020; nếu chưa có văn bản hiện hành trong tri thức thì kết luận theo cột Quy định của bảng và ghi rõ nguồn." },
+    tu_khoa: /chiều cao an toàn|số tầng|nhóm nhà|phân loại|phân cấp|đối tượng thuộc diện|đối tượng thẩm định|quy mô/i, tri_thuc: [BH, DN, TT, PLH, Q10, "knowledge/qcvn06-dieu-7.md"],
+    luu_y: "Diện thẩm định: bảng mẫu dẫn Phụ lục III NĐ 105/2025/NĐ-CP và Điều 9 Thông tư 36/2025/TT-BCA; chưa nạp toàn văn nên kết luận theo cột Quy định của bảng và ghi rõ nguồn." },
   { id: "m02-bac-chiu-lua", ten: "Mục 2 – Bậc chịu lửa", viec: "Bậc chịu lửa yêu cầu và giới hạn chịu lửa cấu kiện (Bảng 2, 4, Phụ lục H).", tu_khoa: /bậc chịu lửa/i, tri_thuc: [BH, DN, PLH] },
   { id: "m03-khoang-cach", ten: "Mục 3 – Khoảng cách an toàn PCCC", viec: "Khoảng cách tới công trình lân cận (Bảng E1, Phụ lục E).", tu_khoa: /khoảng cách an toàn/i, tri_thuc: [BH, DN] },
   { id: "m04-giao-thong", ten: "Mục 4 – Đường, bãi đỗ xe chữa cháy, lối vào từ trên cao", viec: "Đường xe chữa cháy (rộng, cao, tải trọng, bán kính quay), bãi đỗ, lối vào từ trên cao, họng tiếp nước.",
-    tu_khoa: /đường giao thông|xe chữa cháy|bãi đỗ|lối vào/i, tri_thuc: [BH, DN] },
+    tu_khoa: /đường giao thông|xe chữa cháy|bãi đỗ|lối vào/i, tri_thuc: [BH, DN, "knowledge/qcvn06-dieu-6.md"] },
   { id: "m05-cong-nang", ten: "Mục 5 – Bố trí công năng", viec: "Vị trí các công năng, phòng nguy hiểm cháy, tầng hầm, phòng kỹ thuật.", tu_khoa: /bố trí công năng/i,
     tri_thuc: [BH, "skills/SKILL_ngan_chay_cong_nang.md", DN] },
   { id: "m06-ngan-chay", ten: "Mục 6 – Ngăn cháy, chống cháy lan", viec: "Ngăn cháy ngang, đứng, theo công năng, hành lang; vật liệu; cửa, tường, sàn ngăn cháy; tỉ lệ cửa/tường.",
     tu_khoa: /ngăn cháy|chống cháy lan/i,
-    tri_thuc: [BH, "skills/SKILL_ngan_chay_cong_nang.md", "skills/MOD_hanh_lang_bao_che.md", "skills/MOD_vat_lieu_hoan_thien.md", DN, PLH] },
+    tri_thuc: [BH, "skills/SKILL_ngan_chay_cong_nang.md", "skills/MOD_hanh_lang_bao_che.md", "skills/MOD_vat_lieu_hoan_thien.md", DN, PLH, "knowledge/qcvn06-dieu-4.md"] },
   { id: "m07-thoat-nan", ten: "Mục 7 – Lối, đường thoát nạn", viec: "Lối ra, số lối, phân tán, cửa, chiều rộng, khoảng cách (Bảng G), đường thoát nạn, hành lang, cầu thang, buồng thang, lối lên mái.",
     tu_khoa: /lối.*thoát nạn|giải pháp thoát nạn|^thoát nạn/i,
     tri_thuc: [BH, "skills/SKILL_thoat_nan.md", "skills/MOD_loi_ra_va_cua.md", "skills/MOD_so_luong_loi_ra.md", "skills/MOD_tinh_toan_khoang_cach.md",
@@ -37,23 +43,23 @@ export const AGENTS: AgentDef[] = [
       "skills/MOD_vat_lieu_hoan_thien.md", "memory/pccc-escape-route-method.md", DN],
     luu_y: "Số đo trên bản vẽ là ước lượng ±1–2 m: ghi rõ 'ước lượng'. Khoảng cách và phân tán đo theo Phụ lục G và Hình I." },
   { id: "m08-thang-may-cc", ten: "Mục 8 – Thang máy chữa cháy", viec: "Đối tượng phải có, số lượng, sảnh, giếng, nguồn điện thang máy chữa cháy.",
-    tu_khoa: /thang máy/i, tri_thuc: [BH, DN] },
+    tu_khoa: /thang máy/i, tri_thuc: [BH, DN, "knowledge/qcvn06-dieu-6.md"] },
   { id: "m09-chong-khoi", ten: "Mục 9 – Chống tụ khói", viec: "Hút xả khói, tăng áp, thoát khói tự nhiên (Phụ lục D).", tu_khoa: /tụ khói|hút khói|tăng áp/i,
     tri_thuc: [BH, "skills/MOD_chong_khoi_PL_D.md", DN] },
   { id: "m10-binh-chua-chay", ten: "Mục 10 – Bình chữa cháy, phương tiện ban đầu", viec: "Loại, số lượng, khoảng cách bố trí bình chữa cháy.",
-    tu_khoa: /bình chữa cháy|chữa cháy ban đầu|xách tay/i, bang_he_thong: ["B12"], tri_thuc: [BH] },
+    tu_khoa: /bình chữa cháy|chữa cháy ban đầu|xách tay/i, bang_he_thong: ["B12"], tri_thuc: [BH, Q10_BINH] },
   { id: "m11-bao-chay", ten: "Mục 11 – Báo cháy", viec: "Đối tượng phải trang bị, loại đầu báo, bố trí, tủ trung tâm, liên động.", tu_khoa: /báo cháy|báo nồng độ/i,
-    bang_he_thong: ["B1", "B2"], tri_thuc: [BH, "skills/MOD_dau_bao_khoi_khoang_dam.md"],
+    bang_he_thong: ["B1", "B2"], tri_thuc: [BH, Q10, Q10_AUTO, "skills/MOD_dau_bao_khoi_khoang_dam.md"],
     luu_y: "Toàn văn TCVN 7568-14:2025 ở knowledge/tcvn7568-14-2025.md (Claude đọc khi cần điều khoản ngoài cột Quy định). Đầu báo khói trên trần có dầm: theo module khoang dầm, xét từng ô giữa dầm." },
   { id: "m12-chua-chay", ten: "Mục 12 – Chữa cháy (sprinkler, họng nước, ngoài nhà, trạm bơm, khí, bọt)", viec: "Đối tượng phải trang bị, lưu lượng, áp lực, bố trí, nguồn nước, trạm bơm.",
     tu_khoa: /hệ thống chữa cháy|chữa cháy tự động|chữa cháy bằng|họng nước|cấp nước chữa cháy|trạm bơm/i,
-    bang_he_thong: ["B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10", "B11"], tri_thuc: [BH] },
+    bang_he_thong: ["B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10", "B11"], tri_thuc: [BH, Q10, Q10_AUTO, Q10_NUOC, Q10_H, "knowledge/qcvn06-dieu-5.md"] },
   { id: "m13-cap-dien", ten: "Mục 13 – Cấp điện cho hệ thống PCCC", viec: "Nguồn ưu tiên, nguồn dự phòng, cáp chịu lửa, ATS.", tu_khoa: /cấp điện|nguồn điện|hệ thống điện/i,
     bang_he_thong: ["B14"], tri_thuc: [BH] },
   { id: "m14-den-su-co", ten: "Mục 14 – Chiếu sáng sự cố, chỉ dẫn thoát nạn, loa", viec: "Độ rọi, vị trí đèn EXIT/EM, thời gian duy trì, loa thông báo.",
-    tu_khoa: /chiếu sáng sự cố|chỉ dẫn thoát nạn|loa/i, bang_he_thong: ["B13"], tri_thuc: [BH, "skills/SKILL_thoat_nan.md"] },
+    tu_khoa: /chiếu sáng sự cố|chỉ dẫn thoát nạn|loa/i, bang_he_thong: ["B13"], tri_thuc: [BH, "skills/SKILL_thoat_nan.md", Q10_DEN] },
   { id: "m15-cnch", ten: "Mục 15 – Dụng cụ phá dỡ, phương tiện bảo hộ, cứu nạn", viec: "Dụng cụ phá dỡ thông thường, mặt nạ, phương tiện cơ giới.",
-    tu_khoa: /phá dỡ|bảo hộ|cứu nạn|CNCH|mặt nạ|cơ giới|dụng cụ chữa cháy|cá nhân/i, tri_thuc: [BH] },
+    tu_khoa: /phá dỡ|bảo hộ|cứu nạn|CNCH|mặt nạ|cơ giới|dụng cụ chữa cháy|cá nhân/i, tri_thuc: [BH, Q10_BINH] },
   { id: "m16-chong-set", ten: "Mục 16 – Chống sét", viec: "Phương án chống sét theo TCVN 9385.", tu_khoa: /chống sét/i, tri_thuc: [BH] },
   { id: "m17-lien-lac", ten: "Mục 17 – Liên lạc", viec: "Hệ thống liên lạc, điện thoại phòng trực.", tu_khoa: /liên lạc|điện thoại/i, tri_thuc: [BH] },
   { id: "m18-quang-cao", ten: "Mục 18 – Biển quảng cáo", viec: "Biển quảng cáo không che lối thoát nạn, ô cửa cứu nạn (QCVN 17:2018).", tu_khoa: /quảng cáo/i, tri_thuc: [BH] },

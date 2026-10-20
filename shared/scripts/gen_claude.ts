@@ -21,7 +21,7 @@ ${SINH}
 ${a.luu_y ? `**Lưu ý:** ${a.luu_y}\n` : ""}${a.bang_he_thong ? `**Bảng hệ thống đi kèm:** ${a.bang_he_thong.join(", ")} (data/bang/<mã>.json; đọc cột quy_dinh).\n` : ""}
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 ${a.tri_thuc.length ? a.tri_thuc.map((f) => `- \`${f}\``).join("\n") : "- Không có module riêng: dùng cột \"Quy định\" của bảng đối chiếu chính thức."}
-- Điều khoản chưa nạp (Điều 4–7 QCVN 06, Phụ lục A TCVN 3890, QCVN 10:2025/BCA…): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
+- Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ${QUY_TAC}
 
