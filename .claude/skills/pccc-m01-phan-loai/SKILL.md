@@ -5,7 +5,7 @@ description: Thẩm định PCCC – Mục 1 – Phân loại, diện thẩm duy
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 1 – Phân loại, diện thẩm duyệt
 **Việc:** Diện thẩm duyệt và phân cấp; số tầng, tầng hầm; chiều cao PCCC; nhóm nhà F; cấp nguy hiểm cháy kết cấu; hạng nguy hiểm cháy nổ.
-**Lưu ý:** Diện thẩm định theo NĐ 105/2025 (Điều 6, 9) đã sửa bởi NĐ 347/2026: xem knowledge/nghi-dinh-tham-dinh-dieu-chinh.md. Phụ lục III mới (NĐ 347) chưa nạp: không kết luận công trình có thuộc diện hay không, ghi CAN_XAC_NHAN. Hồ sơ điều chỉnh hoặc cải tạo: đối chiếu từng thay đổi với danh sách phải thẩm định lại, chỉ xét phần điều chỉnh.
+**Lưu ý:** Diện thẩm định theo NĐ 105/2025 (Điều 6, 9) đã sửa bởi NĐ 347/2026: xem knowledge/nghi-dinh-tham-dinh-dieu-chinh.md. Diện thẩm định theo Phụ lục III NĐ 105 (vẫn dùng sau NĐ 347); NĐ 136/2020 và NĐ 50/2024 đã hết hiệu lực, không viện dẫn. Hồ sơ điều chỉnh hoặc cải tạo: đối chiếu từng thay đổi với danh sách đóng phải thẩm định lại, chỉ xét phần điều chỉnh; ca nhập nhằng ghi CAN_XAC_NHAN.
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
