@@ -75,7 +75,7 @@ Mỗi dòng là một yêu cầu cần xét. Cột "Tra ở" là file chứa ngu
 | Y20 | Lối ra khi nhiều công năng, khoang cháy | B04 | khoang cháy có lối riêng; ≤ 50% lối qua khoang lân cận; F5 lối riêng | 3.2.4 | MOD_loi_ra_va_cua |
 | Y21 | Đường thoát nạn có đi qua nơi không được tính | C01, C02 | thang máy, thang cuốn, mái không dùng… | 3.3.3 | MOD_hanh_lang_bao_che |
 | Y22 | Bản thang, bậc thang | C10, A08 | bản thang ≥ 0,9 m (hoặc theo 3.4.1); bậc, dốc theo 3.4.2 | 3.4.1, 3.4.2 | MOD_cau_thang_buong_thang |
-| Y23 | Chiếu sáng sự cố, chỉ dẫn thoát nạn, loa thông báo | C12 | đối chiếu bảng B46: độ rọi 1 lux đường thoát nạn (đến 2 m rộng), 0,5 lux gian phòng, biển EXIT, sơ đồ chỉ dẫn; loa theo TCVN 3890:2023 mục 5.7.2 | 3.3.1, TCVN 3890:2023, TCVN 13456:2022 | bang_doi_chieu/he_thong/B46.md (nguyên văn quy định nằm trong bảng) |
+| Y23 | Chiếu sáng sự cố, chỉ dẫn thoát nạn, loa thông báo | C12 | đối chiếu bảng B13: độ rọi 1 lux đường thoát nạn (đến 2 m rộng), 0,5 lux gian phòng, biển EXIT, sơ đồ chỉ dẫn; loa theo TCVN 3890:2023 mục 5.7.2 | 3.3.1, TCVN 3890:2023, TCVN 13456:2022 | bang_doi_chieu/he_thong/B46.md (nguyên văn quy định nằm trong bảng) |
 | Y24 | Hệ thống PCCC theo công năng (báo cháy, chữa cháy, họng nước, bình chữa cháy, chống tụ khói, nguồn điện, chống sét, thang máy chữa cháy) | A01, A03, A04, B01, B02 | mở bảng hệ thống tương ứng (B34, B35, B36–B39, B45, B48, B49, B50): yêu cầu kỹ thuật so theo nguyên văn trong bảng. Danh mục nhà bắt buộc phải có hệ thống nằm ở Phụ lục A TCVN 3890:2023 (chưa nạp): 'có bắt buộc không' là CẦN XÁC NHẬN | 3.1.8, 4.31, TCVN 3890:2023, TCVN 5738:2021, TCVN 7336:2021 | bang_doi_chieu/he_thong/ |
 
 ## Bảng "ai tạo, ai dùng" – chuyển dữ liệu giữa skill
@@ -90,5 +90,5 @@ Mỗi dòng là một yêu cầu cần xét. Cột "Tra ở" là file chứa ngu
 Khi một module cần trường mà trường đó `thieu`: không tự đọc lại bản vẽ trong module; báo lại GĐ1 để hỏi user, rồi trường được ghi bổ sung ở đây.
 
 ## Liên hệ với bảng đối chiếu chính thức
-- Bảng chính theo công năng: ang_doi_chieu/DANH_MUC.md (karaoke F2.1 dùng B15). Mỗi dòng bảng có cột Khoản Điều; mã Y01–Y24 ở trên là cách nhóm các dòng đó theo quy tắc suy ra, không thay thế khung bảng.
+- Bảng chính theo công năng: ang_doi_chieu/DANH_MUC.md (karaoke F2.1 dùng A12). Mỗi dòng bảng có cột Khoản Điều; mã Y01–Y24 ở trên là cách nhóm các dòng đó theo quy tắc suy ra, không thay thế khung bảng.
 - Khi lập bảng thông tin, đọc cột "Nội dung thiết kế" của bảng chính thức: đó là gợi ý của chính mẫu về thứ phải lấy từ bản vẽ (ví dụ số tầng theo Bảng H.2, H.7; chiều cao PCCC; tường ngoài có ô cửa mở).

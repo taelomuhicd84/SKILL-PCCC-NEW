@@ -1,11 +1,11 @@
 ---
 name: pccc-m10-binh-chua-chay
-description: Thẩm định PCCC – Mục 10 – Bình chữa cháy, phương tiện ban đầu. Loại, số lượng, khoảng cách bố trí bình chữa cháy. Bảng hệ thống: B45.
+description: Thẩm định PCCC – Mục 10 – Bình chữa cháy, phương tiện ban đầu. Loại, số lượng, khoảng cách bố trí bình chữa cháy. Bảng hệ thống: B12.
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 10 – Bình chữa cháy, phương tiện ban đầu
 **Việc:** Loại, số lượng, khoảng cách bố trí bình chữa cháy.
-**Bảng hệ thống đi kèm:** B45 (data/bang/<mã>.json; đọc cột quy_dinh).
+**Bảng hệ thống đi kèm:** B12 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`

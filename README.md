@@ -1,6 +1,6 @@
 # Website thẩm định thiết kế PCCC
 
-Up PDF bản vẽ → AI đọc thông tin công trình → chọn bảng đối chiếu theo nhóm nhà → agent xét từng hạng mục (18 mục của bảng công năng + bảng hệ thống B34–B50) → ghi chú khung đánh số lên PDF + bảng đối chiếu Word theo mẫu chính thức (ĐẠT / CHƯA ĐẠT / CẦN XÁC NHẬN / KHÔNG ÁP DỤNG, có lý do và điều khoản). Công tắc **Hướng dẫn thiết kế** thêm ghi chú cách thiết kế cho đạt.
+Up PDF bản vẽ → AI đọc thông tin công trình → chọn bảng đối chiếu theo nhóm nhà → agent xét từng hạng mục (bảng công năng A1–A26 + bảng hệ thống B1–B14) → ghi chú khung đánh số lên PDF + bảng đối chiếu Word theo mẫu chính thức (ĐẠT / CHƯA ĐẠT / CẦN XÁC NHẬN / KHÔNG ÁP DỤNG, có lý do và điều khoản). Công tắc **Hướng dẫn thiết kế** thêm ghi chú cách thiết kế cho đạt.
 
 - **Web tĩnh** (miễn phí trên GitHub Pages): mọi xử lý PDF, ghi chú, xuất Word chạy trong trình duyệt. Không có máy chủ, không tốn phí duy trì.
 - **AI do mỗi người dùng tự đăng nhập** qua **runner** chạy trên máy họ: Claude Code (tài khoản Claude của họ) hoặc Gemini trên trình duyệt (Playwright mở gemini.google.com, họ tự đăng nhập Google). Không cài runner vẫn dùng được chế độ **Thủ công** (copy prompt, dán trả lời).
@@ -59,7 +59,7 @@ Mở `so_do/quy_trinh_tham_dinh_chi_tiet.html` để xem quy trình từng giai 
 | Quy trình | `skills/SKILL_quy_trinh_tham_dinh.md`, `skills/SKILL_thoat_nan.md` | thứ tự làm việc, nguyên tắc, bảng chỉ mục | luôn mở đầu tiên |
 | Tri thức | `knowledge/` | định nghĩa (`dinh-nghia/`), danh mục trường thông tin (`truong-thong-tin.md`) | khi cần nghĩa của một khái niệm hoặc tên trường |
 | Điều khoản | `skills/MOD_*.md`, `skills/PHU_LUC_G_QCVN06.md` | nguyên văn QCVN 06 sửa đổi 01 đã rút gọn, theo chuyên đề | chỉ mở module cần cho dòng đang xét |
-| Đối chiếu | `bang_doi_chieu/` | bảng chính thức giữ nguyên khung: `DANH_MUC.md` (chọn bảng), `B15_karaoke_vu_truong.md` (bảng làm việc cho karaoke), `he_thong/` (báo cháy, chữa cháy, đèn sự cố, nguồn điện…). Gốc mẫu: `D:\$.4. QC - TCVN\Bảng đối chiếu sửa đổi 1\` | giai đoạn 2, 3, 5 |
+| Đối chiếu | `bang_doi_chieu/` | bảng chính thức giữ nguyên khung: `DANH_MUC.md` (chọn bảng), danh mục bảng A (công năng) và B (hệ thống). Gốc mẫu: `D:\$.4. QC - TCVN\Bảng đối chiếu PCCC Đồng Nai -Nam gửi\` | giai đoạn 2, 3, 5 |
 | Ví dụ | `skills/VI_DU_hoang_anh_1.md`, `ket_qua/` | ca đã làm | khi cần so cách làm |
 
 ## Module điều khoản (trong `skills/`)

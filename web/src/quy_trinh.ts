@@ -28,7 +28,7 @@ async function goiJson<T>(goi: Goi, id: string, ten: string, pt: string, pk: str
 }
 
 export async function docHoSo(goi: Goi, nc: NguCanh): Promise<ThongTin> {
-  const goiY = (await taiBang("B15").catch(() => null))?.dong.map((d) => d.goi_y).filter(Boolean).slice(0, 40) ?? [];
+  const goiY = (await taiBang("A12").catch(() => null))?.dong.map((d) => d.goi_y).filter(Boolean).slice(0, 40) ?? [];
   const [ct, ck] = await ctxCa(nc, null, agentById("doc-ho-so").tri_thuc);
   return goiJson(goi, "A0-doc-ho-so", "Đọc hồ sơ", promptDocHoSo(ct, goiY), promptDocHoSo(ck, goiY), (r) => ThongTin.parse(r));
 }

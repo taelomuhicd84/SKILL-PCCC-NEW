@@ -1,11 +1,10 @@
 ---
 name: pccc-m16-chong-set
-description: Thẩm định PCCC – Mục 16 – Chống sét. Phương án chống sét theo TCVN 9385. Bảng hệ thống: B49.
+description: Thẩm định PCCC – Mục 16 – Chống sét. Phương án chống sét theo TCVN 9385.
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 16 – Chống sét
 **Việc:** Phương án chống sét theo TCVN 9385.
-**Bảng hệ thống đi kèm:** B49 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`

@@ -1,11 +1,11 @@
 ---
 name: pccc-m14-den-su-co
-description: Thẩm định PCCC – Mục 14 – Chiếu sáng sự cố, chỉ dẫn thoát nạn, loa. Độ rọi, vị trí đèn EXIT/EM, thời gian duy trì, loa thông báo. Bảng hệ thống: B46.
+description: Thẩm định PCCC – Mục 14 – Chiếu sáng sự cố, chỉ dẫn thoát nạn, loa. Độ rọi, vị trí đèn EXIT/EM, thời gian duy trì, loa thông báo. Bảng hệ thống: B13.
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 14 – Chiếu sáng sự cố, chỉ dẫn thoát nạn, loa
 **Việc:** Độ rọi, vị trí đèn EXIT/EM, thời gian duy trì, loa thông báo.
-**Bảng hệ thống đi kèm:** B46 (data/bang/<mã>.json; đọc cột quy_dinh).
+**Bảng hệ thống đi kèm:** B13 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`

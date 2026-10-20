@@ -1,11 +1,11 @@
 ---
 name: pccc-m12-chua-chay
-description: Thẩm định PCCC – Mục 12 – Chữa cháy (sprinkler, họng nước, ngoài nhà, trạm bơm, khí, bọt). Đối tượng phải trang bị, lưu lượng, áp lực, bố trí, nguồn nước, trạm bơm. Bảng hệ thống: B36, B37, B38, B39, B40, B41, B42, B43, B44.
+description: Thẩm định PCCC – Mục 12 – Chữa cháy (sprinkler, họng nước, ngoài nhà, trạm bơm, khí, bọt). Đối tượng phải trang bị, lưu lượng, áp lực, bố trí, nguồn nước, trạm bơm. Bảng hệ thống: B3, B4, B5, B6, B7, B8, B9, B10, B11.
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 12 – Chữa cháy (sprinkler, họng nước, ngoài nhà, trạm bơm, khí, bọt)
 **Việc:** Đối tượng phải trang bị, lưu lượng, áp lực, bố trí, nguồn nước, trạm bơm.
-**Bảng hệ thống đi kèm:** B36, B37, B38, B39, B40, B41, B42, B43, B44 (data/bang/<mã>.json; đọc cột quy_dinh).
+**Bảng hệ thống đi kèm:** B3, B4, B5, B6, B7, B8, B9, B10, B11 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`

@@ -21,12 +21,12 @@ OUT = os.path.join(ROOT, "data")
 
 
 def code_of(name):
-    m = re.match(r"\s*(b\s*\.?\s*\d+(?:\.\d+)?)", name.lower())
-    return m and m.group(1).replace(" ", "").replace("b.", "b").upper()
+    m = re.match(r"\s*([ab]\s*\.?\s*\d+(?:\.\d+)?)", name.lower())
+    return m and re.sub(r"[\s.]", "", m.group(1)).upper()
 
 
 def title_of(name):
-    t = re.sub(r"^\s*B\s*\.?\s*\d+(?:\.\d+)?\s*\.?\s*", "", os.path.splitext(name)[0])
+    t = re.sub(r"^\s*[AB]\s*\.?\s*\d+(?:\.\d+)?\s*\.?\s*", "", os.path.splitext(name)[0])
     return re.sub(r"\s+", " ", t).strip()
 
 

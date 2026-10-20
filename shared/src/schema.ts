@@ -45,11 +45,11 @@ export const Truong = z.object({
 });
 export type Truong = z.infer<typeof Truong>;
 
-/** Cờ hệ thống PCCC có trong thiết kế (dùng để chọn bảng hệ thống B34–B50). */
+/** Cờ hệ thống PCCC có trong thiết kế (dùng để chọn bảng hệ thống B1–B11). */
 export const HE_THONG = {
-  bao_chay: "Báo cháy tự động", sprinkler: "Chữa cháy tự động sprinkler (nước, bọt)", hong_nuoc: "Họng nước chữa cháy trong nhà",
+  bao_chay: "Báo cháy tự động (loại thường)", bao_chay_dia_chi: "Báo cháy địa chỉ", sprinkler: "Chữa cháy tự động sprinkler (nước, bọt)", hong_nuoc: "Họng nước chữa cháy trong nhà",
   ngoai_nha: "Cấp nước chữa cháy ngoài nhà (trụ, ống)", tram_bom: "Trạm bơm, bể nước chữa cháy", chong_khoi: "Chống tụ khói (hút khói, tăng áp)",
-  thang_may_cc: "Thang máy chữa cháy", chong_set: "Chống sét", bot_co_dinh: "Chữa cháy bọt cố định", khi: "Chữa cháy bằng khí (CO2, khí hoá lỏng, khí nén)",
+  thang_may_cc: "Thang máy chữa cháy", chong_set: "Chống sét", bot_co_dinh: "Chữa cháy bọt cố định", khi: "Chữa cháy bằng khí CO2", khi_hoa_long: "Chữa cháy bằng khí hoá lỏng", khi_nen: "Chữa cháy bằng khí nén",
   sol_khi: "Chữa cháy sol-khí", khi_dot: "Cấp khí đốt trung tâm",
 } as const;
 export type HeThongKey = keyof typeof HE_THONG;

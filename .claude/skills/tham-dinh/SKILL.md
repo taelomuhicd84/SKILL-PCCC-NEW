@@ -8,7 +8,7 @@ Lệnh CLI: `npm -w runner run cli -- <lệnh> …` (đường dẫn tính từ 
 
 1. **Chuẩn bị**: `npm -w runner run cli -- chuan-bi <ra> "<pdf1>" "<pdf2>"` → `<ra>/ban_ve.pdf`, `<ra>/chu/trang_N.txt`, `<ra>/prompt_doc_ho_so.md`.
 2. **Đọc hồ sơ**: subagent `pccc-doc-ho-so`, giao: "Đọc <ra>/prompt_doc_ho_so.md, làm theo, ghi JSON vào <ra>/thong_tin.json". Xem nhanh thong_tin.json (công năng, A03 chiều cao PCCC, he_thong); nếu sai rõ ràng thì sửa và ghi trạng thái "user".
-3. **Lập job**: `npm -w runner run cli -- jobs <ra> [--huong-dan] [--bang Bxx] [--he-thong B35,B39]` → in danh sách job, agent, file trả lời.
+3. **Lập job**: `npm -w runner run cli -- jobs <ra> [--huong-dan] [--bang Axx] [--he-thong B1,B6]` → in danh sách job, agent, file trả lời.
 4. **Chạy job**: với mỗi job, subagent `pccc-<agent>` (đúng tên in ra), giao: "Đọc <ra>/jobs/<id>.md, làm theo, ghi JSON vào <ra>/jobs/<id>.json". Chạy song song tối đa 4 subagent một lượt. Job có sẵn file .json hợp lệ thì bỏ qua (chạy tiếp được sau khi gián đoạn).
 5. **Rà soát**: `npm -w runner run cli -- ra-soat <ra>` rồi subagent `pccc-ra-soat`: "Đọc <ra>/prompt_ra_soat.md, ghi JSON vào <ra>/ra_soat.json".
 6. **Gộp**: `npm -w runner run cli -- gop <ra>` → `<ra>/ket_qua.json`, `<ra>/tom_tat.md`. Job lỗi được liệt kê: chạy lại bước 4 cho job đó rồi gộp lại.

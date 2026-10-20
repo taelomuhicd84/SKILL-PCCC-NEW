@@ -4,7 +4,7 @@ import type { Bang, DongBang } from "./schema";
 import { agentChoBangHeThong, agentChoMuc } from "./agents";
 
 export interface Job {
-  id: string;          // vd. "B15-m07-thoat-nan-1"
+  id: string;          // vd. "A12-m07-thoat-nan-1"
   agent: string;       // AgentDef.id
   bang: string;
   muc: string;         // tiêu đề mục

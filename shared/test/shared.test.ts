@@ -10,48 +10,52 @@ const haTT = ThongTin.parse({
 });
 
 describe("chọn bảng", () => {
-  it("Hoàng Anh 1 → B15 + bảng hệ thống", () => {
-    expect(chonBangChinh(haTT).ma).toBe("B15");
+  it("Hoàng Anh 1 → A12 + bảng hệ thống", () => {
+    expect(chonBangChinh(haTT).ma).toBe("A12");
     const ht = chonBangHeThong(haTT).map((b) => b.ma);
-    for (const m of ["B34", "B35", "B39", "B45", "B46", "B48", "B38"]) expect(ht).toContain(m);
+    for (const m of ["B1", "B6", "B12", "B13", "B14", "B5"]) expect(ht).toContain(m);
+    expect(ht).not.toContain("B2");
   });
-  it("theo chiều cao", () => {
-    const t = (cn: string, h: number) => chonBangChinh(ThongTin.parse({ cong_nang: cn, truong: { A03: { gia_tri: h } } })).ma;
-    expect(t("chung cư", 30)).toBe("B4.2");
-    expect(t("văn phòng", 60)).toBe("B6.3");
-    expect(t("nhà hỗn hợp", 20)).toBe("B5.1");
-    expect(t("kho hàng", 10)).toBe("B18");
+  it("theo công năng", () => {
+    const t = (cn: string) => chonBangChinh(ThongTin.parse({ cong_nang: cn })).ma;
+    expect(t("chung cư")).toBe("A2");
+    expect(t("văn phòng")).toBe("A4");
+    expect(t("nhà hỗn hợp")).toBe("A3");
+    expect(t("kho hàng")).toBe("A15");
+    expect(t("kho xăng dầu")).toBe("A18");
+  });
+  it("báo cháy địa chỉ → B2", () => {
+    const ht = chonBangHeThong(ThongTin.parse({ he_thong: { bao_chay_dia_chi: true } })).map((b) => b.ma);
+    expect(ht).toContain("B2");
+    expect(ht).not.toContain("B1");
   });
 });
 
 describe("chia mục", () => {
-  it("B15 có 18 mục, agent đúng", () => {
-    const m = chiaMuc(bang("B15"));
-    expect(m).toHaveLength(18);
-    expect(agentChoMuc(m[6].tieu_de).id).toBe("m07-thoat-nan");
-    expect(agentChoMuc(m[13].tieu_de).id).toBe("m14-den-su-co");
-    expect(agentChoMuc(m[9].tieu_de).id).toBe("m10-binh-chua-chay");
-    expect(agentChoMuc(m[14].tieu_de).id).toBe("m15-cnch");
-    expect(agentChoMuc(m[8].tieu_de).id).toBe("m09-chong-khoi");
+  it("A12 có 8 mục, agent đúng", () => {
+    const m = chiaMuc(bang("A12"));
+    expect(m).toHaveLength(8);
+    expect(m.map((x) => agentChoMuc(x.tieu_de).id)).toEqual([
+      "m01-phan-loai", "m11-bao-chay", "m12-chua-chay", "m14-den-su-co", "m10-binh-chua-chay", "m15-cnch", "m13-cap-dien", "m18-quang-cao"]);
   });
-  it("B17 bỏ dòng đánh số cột", () => {
-    const m = chiaMuc(bang("B17"));
+  it("A14 bỏ dòng đánh số cột", () => {
+    const m = chiaMuc(bang("A14"));
     expect(m[0].tieu_de).toMatch(/chiều cao/);
   });
   it("job phủ đủ mọi dòng, id không trùng", () => {
-    const b = bang("B15");
-    const jobs = lapJobs(b, [bang("B35")]);
-    const n = jobs.filter((j) => j.bang === "B15").reduce((s, j) => s + j.dong.length, 0);
+    const b = bang("A12");
+    const jobs = lapJobs(b, [bang("B1")]);
+    const n = jobs.filter((j) => j.bang === "A12").reduce((s, j) => s + j.dong.length, 0);
     expect(n).toBe(b.dong.length);
     expect(new Set(jobs.map((j) => j.id)).size).toBe(jobs.length);
     expect(jobs.every((j) => j.dong.length <= 45)).toBe(true);
-    expect(promptJob({ che_do: "tep", thong_tin: haTT, so_trang: 3, huong_dan: true, tep: { pdf: "a.pdf", chu_dir: "chu" } }, jobs[6])).toContain("huong_dan");
+    expect(promptJob({ che_do: "tep", thong_tin: haTT, so_trang: 3, huong_dan: true, tep: { pdf: "a.pdf", chu_dir: "chu" } }, jobs[2])).toContain("huong_dan");
   });
 });
 
 describe("gộp", () => {
   it("đánh số khung và ghi đè", () => {
-    const d = (idx: number, k: any, extra = {}) => ({ bang: "B15", idx, tt: "", noi_dung_thiet_ke: "", ket_luan: k, ly_do: "", dieu_khoan: "", nguon: [], vi_tri: [], ...extra });
+    const d = (idx: number, k: any, extra = {}) => ({ bang: "A12", idx, tt: "", noi_dung_thiet_ke: "", ket_luan: k, ly_do: "", dieu_khoan: "", nguon: [], vi_tri: [], ...extra });
     const out = gop([[d(1, "DAT"), d(2, "CHUA_DAT")], [d(1, "CAN_XAC_NHAN")]]);
     expect(out.map((x) => x.khung)).toEqual([1, 2]);
     expect(out[0].ket_luan).toBe("CAN_XAC_NHAN");

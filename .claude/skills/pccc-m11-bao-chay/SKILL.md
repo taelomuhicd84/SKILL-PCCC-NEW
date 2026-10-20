@@ -1,11 +1,11 @@
 ---
 name: pccc-m11-bao-chay
-description: Thẩm định PCCC – Mục 11 – Báo cháy. Đối tượng phải trang bị, loại đầu báo, bố trí, tủ trung tâm, liên động. Bảng hệ thống: B35.
+description: Thẩm định PCCC – Mục 11 – Báo cháy. Đối tượng phải trang bị, loại đầu báo, bố trí, tủ trung tâm, liên động. Bảng hệ thống: B1, B2.
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 11 – Báo cháy
 **Việc:** Đối tượng phải trang bị, loại đầu báo, bố trí, tủ trung tâm, liên động.
-**Bảng hệ thống đi kèm:** B35 (data/bang/<mã>.json; đọc cột quy_dinh).
+**Bảng hệ thống đi kèm:** B1, B2 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`

@@ -1,408 +1,282 @@
 [
  {
-  "ma": "B1",
-  "ten": "Bảng đối chiếu quy hoạch",
-  "file_goc": "B.1. Bảng đối chiếu quy hoạch.docx",
-  "so_dong": 20,
-  "nguon": "docx"
- },
- {
-  "ma": "B10",
-  "ten": "Bảng đối chiếu bệnh viện",
-  "file_goc": "B10. Bảng đối chiếu bệnh viện.docx",
-  "so_dong": 203,
-  "nguon": "docx"
- },
- {
-  "ma": "B11",
-  "ten": "Bảng đối chiếu Chợ",
-  "file_goc": "B11. Bảng đối chiếu Chợ.docx",
-  "so_dong": 212,
-  "nguon": "docx"
- },
- {
-  "ma": "B12",
-  "ten": "Bảng đối chiếu TTTM",
-  "file_goc": "B12. Bảng đối chiếu TTTM.docx",
-  "so_dong": 205,
-  "nguon": "docx"
- },
- {
-  "ma": "B13",
-  "ten": "Bảng đối chiếu Công trình thể thao (sân vận động, nhà thi đấu,...)",
-  "file_goc": "B13. Bảng đối chiếu Công trình thể thao (sân vận động, nhà thi đấu,...).docx",
-  "so_dong": 222,
-  "nguon": "docx"
- },
- {
-  "ma": "B14",
-  "ten": "Bảng đối chiếu Rạp chiếu phim",
-  "file_goc": "B14. Bảng đối chiếu Rạp chiếu phim.docx",
-  "so_dong": 208,
-  "nguon": "docx"
- },
- {
-  "ma": "B15",
-  "ten": "Bảng đối chiếu Karaoke, vũ trường",
-  "file_goc": "B15. Bảng đối chiếu Karaoke, vũ trường.docx",
-  "so_dong": 207,
-  "nguon": "docx"
- },
- {
-  "ma": "B16",
-  "ten": "Bảng đối chiếu gara",
-  "file_goc": "B16. Bảng đối chiếu gara.docx",
-  "so_dong": 232,
-  "nguon": "docx"
- },
- {
-  "ma": "B17",
-  "ten": "Bảng đối chiếu Nhà sản xuất",
-  "file_goc": "B17. Bảng đối chiếu Nhà sản xuất.docx",
-  "so_dong": 202,
-  "nguon": "docx"
- },
- {
-  "ma": "B18",
-  "ten": "Bảng đối chiếu nhà kho",
-  "file_goc": "B18. Bảng đối chiếu  nhà kho.docx",
-  "so_dong": 203,
-  "nguon": "docx"
- },
- {
-  "ma": "B19",
-  "ten": "Cửa hàng xăng dầu",
-  "file_goc": "B19. Cửa hàng xăng dầu.docx",
-  "so_dong": 78,
-  "nguon": "docx"
- },
- {
-  "ma": "B2",
-  "ten": "Bảng đối chiếu Chấp thuận địa điểm xây dựng",
-  "file_goc": "B2. Bảng đối chiếu Chấp thuận địa điểm xây dựng.docx",
-  "so_dong": 14,
-  "nguon": "docx"
- },
- {
-  "ma": "B20",
-  "ten": "Bảng đối chiếu kho xăng dầu",
-  "file_goc": "B20. Bảng đối chiếu kho xăng dầu.docx",
-  "so_dong": 188,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B21",
-  "ten": "Bảng đối chiếu mẫu Cửa hàng kinh doanh khí đốt",
-  "file_goc": "B21. Bảng đối chiếu mẫu Cửa hàng kinh doanh khí đốt.docx",
-  "so_dong": 54,
-  "nguon": "docx"
- },
- {
-  "ma": "B22",
-  "ten": "Bảng đối chiếu đường ống khí",
-  "file_goc": "B22. Bảng đối chiếu đường ống khí.docx",
-  "so_dong": 34,
-  "nguon": "docx"
- },
- {
-  "ma": "B23",
-  "ten": "Bảng đối chiếu Kho và trạm san chiết nạp LPG",
-  "file_goc": "B23. Bảng đối chiếu Kho và trạm san chiết nạp LPG.docx",
-  "so_dong": 41,
-  "nguon": "docx"
- },
- {
-  "ma": "B24",
-  "ten": "Bảng đối chiếu Kho chứa LPG",
-  "file_goc": "B24. Bảng đối chiếu Kho chứa LPG.docx",
-  "so_dong": 51,
-  "nguon": "docx"
- },
- {
-  "ma": "B25",
-  "ten": "Bảng đối chiếu Kho chứa LNG",
-  "file_goc": "B25. Bảng đối chiếu  Kho chứa LNG.docx",
-  "so_dong": 27,
-  "nguon": "docx"
- },
- {
-  "ma": "B26",
-  "ten": "Bảng đối chiếu Kho chứa vật liệu nổ công nghiệp",
-  "file_goc": "B26. Bảng đối chiếu Kho chứa vật liệu nổ công nghiệp.docx",
-  "so_dong": 53,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B27",
-  "ten": "Bảng đối chiếu NM điện gió",
-  "file_goc": "B27. Bảng đối chiếu NM điện gió.docx",
-  "so_dong": 123,
-  "nguon": "docx"
- },
- {
-  "ma": "B28",
-  "ten": "Bảng đối chiếu NM điện mặt trời",
-  "file_goc": "B28. Bảng đối chiếu NM điện mặt trời.docx",
-  "so_dong": 156,
-  "nguon": "docx"
- },
- {
-  "ma": "B29",
-  "ten": "Bảng đối chiếu Trạm biến áp",
-  "file_goc": "B29. Bảng đối chiếu Trạm biến áp.docx",
-  "so_dong": 49,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B3",
+  "ma": "A1",
   "ten": "Bảng đối chiếu Hạ tầng kỹ thuật",
-  "file_goc": "B3. Bảng đối chiếu Hạ tầng kỹ thuật.docx",
-  "so_dong": 14,
+  "file_goc": "A1. Bảng đối chiếu Hạ tầng kỹ thuật.docx",
+  "so_dong": 9,
   "nguon": "docx"
  },
  {
-  "ma": "B30",
-  "ten": "Bảng đối chiếu Hầm đường bộ",
-  "file_goc": "B30. Bảng đối chiếu Hầm đường bộ.docx",
-  "so_dong": 103,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B31",
-  "ten": "Bảng đối chiếu Phương tiện tàu biển",
-  "file_goc": "B31 . Bảng đối chiếu Phương tiện tàu biển.docx",
-  "so_dong": 50,
+  "ma": "A10",
+  "ten": "Bảng đối chiếu công trình thể thao",
+  "file_goc": "A10. Bảng đối chiếu công trình thể thao.docx",
+  "so_dong": 60,
   "nguon": "docx"
  },
  {
-  "ma": "B32",
-  "ten": "Bảng đối chiếu Phương tiện thủy nội địa vận chuyển hàng hóa nguy hiểm về cháy, nổ",
-  "file_goc": "B32 . Bảng đối chiếu Phương tiện thủy nội địa vận chuyển hàng hóa nguy hiểm về cháy, nổ.docx",
-  "so_dong": 49,
+  "ma": "A11",
+  "ten": "Bảng đối chiếu rạp chiếu phim",
+  "file_goc": "A11. Bảng đối chiếu rạp chiếu phim.docx",
+  "so_dong": 63,
   "nguon": "docx"
  },
  {
-  "ma": "B33",
-  "ten": "Bảng đối chiếu Phương tiện thủy nội địa chở khách",
-  "file_goc": "B33. Bảng đối chiếu Phương tiện thủy nội địa chở khách.docx",
-  "so_dong": 50,
+  "ma": "A12",
+  "ten": "Karaoke, vũ trường",
+  "file_goc": "A12. Karaoke, vũ trường.docx",
+  "so_dong": 63,
   "nguon": "docx"
  },
  {
-  "ma": "B34",
-  "ten": "Bảng đối chiếu Hệ thống chống tụ khói",
-  "file_goc": "B34.Bảng đối chiếu Hệ thống chống tụ khói.docx",
-  "so_dong": 62,
+  "ma": "A13",
+  "ten": "gara",
+  "file_goc": "A13. gara.docx",
+  "so_dong": 63,
   "nguon": "docx"
  },
  {
-  "ma": "B35",
-  "ten": "Bảng đối chiếu Hệ thống báo cháy",
-  "file_goc": "B35. Bảng đối chiếu Hệ thống báo cháy.docx",
+  "ma": "A14",
+  "ten": "Bảng đối chiếu Nhà sản xuất",
+  "file_goc": "A14. Bảng đối chiếu Nhà sản xuất.docx",
+  "so_dong": 65,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A15",
+  "ten": "Bảng đối chiếu Nhà kho",
+  "file_goc": "A15. Bảng đối chiếu Nhà kho.docx",
+  "so_dong": 65,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A16",
+  "ten": "Cửa hàng xăng dầu",
+  "file_goc": "A16. Cửa hàng xăng dầu.docx",
+  "so_dong": 12,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A17",
+  "ten": "Trạm chiết khí đốt hóa lỏng",
+  "file_goc": "A17. Trạm chiết khí đốt hóa lỏng.docx",
+  "so_dong": 108,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A18",
+  "ten": "Kho xăng dầu",
+  "file_goc": "A18. Kho xăng dầu.docx",
+  "so_dong": 94,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A19",
+  "ten": "Bảng đối chiếu Kho chứa LPG",
+  "file_goc": "A19. Bảng đối chiếu Kho chứa LPG.docx",
   "so_dong": 44,
   "nguon": "docx"
  },
  {
-  "ma": "B36",
-  "ten": "Bảng đối chiếu trạm bơm cấp nước chữa cháy",
-  "file_goc": "B36. Bảng đối chiếu trạm bơm cấp nước chữa cháy.docx",
-  "so_dong": 85,
+  "ma": "A2",
+  "ten": "Bảng đối chiếu nhà chung cư, nhà tập thể",
+  "file_goc": "A2. Bảng đối chiếu nhà chung cư, nhà tập thể.docx",
+  "so_dong": 61,
   "nguon": "docx"
  },
  {
-  "ma": "B37",
-  "ten": "Bảng đối chiếu Cấp nước chữa cháy ngoài nhà",
-  "file_goc": "B37. Bảng đối chiếu  Cấp nước chữa cháy ngoài nhà.docx",
-  "so_dong": 32,
+  "ma": "A20",
+  "ten": "Bảng đối chiếu Kho LNG",
+  "file_goc": "A20. Bảng đối chiếu Kho LNG.docx",
+  "so_dong": 110,
   "nguon": "docx"
  },
  {
-  "ma": "B38",
-  "ten": "Bảng đối chiếu Hệ thống họng nước chữa cháy trong nhà",
-  "file_goc": "B38. Bảng đối chiếu Hệ thống họng nước chữa cháy trong nhà.docx",
-  "so_dong": 16,
+  "ma": "A21",
+  "ten": "Bảng đối chiếu Nhà sản xuất, kho chứa VLNCN",
+  "file_goc": "A21. Bảng đối chiếu Nhà sản xuất, kho chứa VLNCN.docx",
+  "so_dong": 75,
   "nguon": "docx"
  },
  {
-  "ma": "B39",
-  "ten": "Bảng đối chiếu Hệ thống chữa cháy tự động bằng nước, bọt",
-  "file_goc": "B39. Bảng đối chiếu Hệ thống chữa cháy tự động bằng nước, bọt.docx",
-  "so_dong": 56,
+  "ma": "A22",
+  "ten": "Bảng đối chiếu trạm biến áp",
+  "file_goc": "A22. Bảng đối chiếu trạm biến áp.docx",
+  "so_dong": 49,
   "nguon": "docx"
  },
  {
-  "ma": "B4.1",
-  "ten": "Bảng đối chiếu nhà chung cư đến 28m",
-  "file_goc": "B4.1. Bảng đối chiếu nhà chung cư đến 28m.docx",
-  "so_dong": 214,
+  "ma": "A23",
+  "ten": "Bảng đối chiếu hầm đường bộ",
+  "file_goc": "A23. Bảng đối chiếu hầm đường bộ.docx",
+  "so_dong": 61,
   "nguon": "docx"
  },
  {
-  "ma": "B4.2",
-  "ten": "Bảng đối chiếu nhà chung cư từ trên 28m đến 75m",
-  "file_goc": "B4.2. Bảng đối chiếu nhà chung cư  từ trên 28m đến 75m.docx",
-  "so_dong": 210,
-  "nguon": "docx"
- },
- {
-  "ma": "B4.3",
-  "ten": "Bảng đối chiếu nhà chung cư từ trên 75m đến 150m",
-  "file_goc": "B4.3. Bảng đối chiếu nhà chung cư từ trên 75m đến 150m.docx",
-  "so_dong": 227,
-  "nguon": "docx"
- },
- {
-  "ma": "B40",
-  "ten": "Bảng đối chiếu Hệ thống chữa cháy bằng bọt cố định",
-  "file_goc": "B40.  Bảng đối chiếu Hệ thống chữa cháy bằng bọt cố định.docx",
-  "so_dong": 25,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B41",
-  "ten": "Bảng đối chiếu hệ thống chữa cháy bằng khí hóa lỏng",
-  "file_goc": "B41. Bảng đối chiếu hệ thống chữa cháy bằng khí hóa lỏng.docx",
-  "so_dong": 24,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B42",
-  "ten": "Bảng đối chiếu hệ thống chữa cháy bằng khí nén",
-  "file_goc": "B42. Bảng đối chiếu hệ thống chữa cháy bằng khí nén.docx",
-  "so_dong": 19,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B43",
-  "ten": "Bảng đối chiếu Hệ thống chữa cháy tự động bằng khí CO2",
-  "file_goc": "B43. Bảng đối chiếu Hệ thống chữa cháy tự động bằng khí CO2.docx",
-  "so_dong": 16,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B44",
-  "ten": "Bảng đối chiếu Hệ thống chữa cháy bằng Sol-khí",
-  "file_goc": "B44. Bảng đối chiếu  Hệ thống chữa cháy bằng Sol-khí.docx",
-  "so_dong": 35,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B45",
-  "ten": "Bảng đối chiếu trang bị phương tiện chữa cháy ban đầu",
-  "file_goc": "B45. Bảng đối chiếu trang bị phương tiện chữa cháy ban đầu.docx",
-  "so_dong": 34,
-  "nguon": "docx"
- },
- {
-  "ma": "B46",
-  "ten": "Bảng đối chiếu Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn và hệ thống loa thông báo và hướng dẫn thoát nạn",
-  "file_goc": "B46. Bảng đối chiếu Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn và hệ thống loa thông báo và hướng dẫn thoát nạn.docx",
+  "ma": "A24",
+  "ten": "Bảng đối chiếu Phương tiện tàu biển",
+  "file_goc": "A24 . Bảng đối chiếu Phương tiện tàu biển.docx",
   "so_dong": 26,
   "nguon": "docx"
  },
  {
-  "ma": "B47",
-  "ten": "Bảng đối chiếu Hệ thống cấp khí đốt trung tâm",
-  "file_goc": "B47. Bảng đối chiếu Hệ thống cấp khí đốt trung tâm.docx",
-  "so_dong": 33,
-  "nguon": "doc_converted"
- },
- {
-  "ma": "B48",
-  "ten": "Bảng đối chiếu Nguồn điện cho hệ thống PCCC",
-  "file_goc": "B48. Bảng đối chiếu Nguồn điện cho hệ thống PCCC.docx",
-  "so_dong": 17,
+  "ma": "A25",
+  "ten": "Bảng đối chiếu Phương tiện thủy nội địa vận chuyển hàng hóa nguy hiểm về cháy, nổ",
+  "file_goc": "A25 . Bảng đối chiếu Phương tiện thủy nội địa vận chuyển hàng hóa nguy hiểm về cháy, nổ.docx",
+  "so_dong": 30,
   "nguon": "docx"
  },
  {
-  "ma": "B49",
-  "ten": "Bảng đối chiếu Hệ thống chống sét",
-  "file_goc": "B49. Bảng đối chiếu Hệ thống chống sét.docx",
+  "ma": "A26",
+  "ten": "Bảng đối chiếu Phương tiện thủy nội địa chở khách",
+  "file_goc": "A26. Bảng đối chiếu Phương tiện thủy nội địa chở khách.docx",
+  "so_dong": 30,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A3",
+  "ten": "Bảng đối chiếu nhà hỗn hợp",
+  "file_goc": "A3. Bảng đối chiếu nhà hỗn hợp.docx",
+  "so_dong": 62,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A4",
+  "ten": "Bảng đối chiếu nhà văn phòng",
+  "file_goc": "A4. Bảng đối chiếu nhà văn phòng.docx",
+  "so_dong": 62,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A5",
+  "ten": "Bảng đối chiếu khách sạn",
+  "file_goc": "A5. Bảng đối chiếu khách sạn.docx",
+  "so_dong": 62,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A6",
+  "ten": "Bảng đối chiếu trường mầm non",
+  "file_goc": "A6. Bảng đối chiếu trường mầm non.docx",
+  "so_dong": 60,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A7",
+  "ten": "Bảng đối chiếu Trường tiểu học, THCS, THPT",
+  "file_goc": "A7. Bảng đối chiếu Trường tiểu học, THCS, THPT.docx",
+  "so_dong": 61,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A8",
+  "ten": "Bảng đối chiếu bệnh viện",
+  "file_goc": "A8. Bảng đối chiếu bệnh viện.docx",
+  "so_dong": 60,
+  "nguon": "docx"
+ },
+ {
+  "ma": "A9",
+  "ten": "Bảng đối chiếu Chợ, TTTM",
+  "file_goc": "A9. Bảng đối chiếu Chợ, TTTM.docx",
+  "so_dong": 63,
+  "nguon": "docx"
+ },
+ {
+  "ma": "B1",
+  "ten": "Bảng đối chiếu Hệ thống báo cháy loại thường",
+  "file_goc": "B1. Bảng đối chiếu Hệ thống báo cháy loại thường.docx",
+  "so_dong": 63,
+  "nguon": "docx"
+ },
+ {
+  "ma": "B10",
+  "ten": "Bảng đối chiếu Hệ thống chữa cháy tự động bằng khí CO2",
+  "file_goc": "B10. Bảng đối chiếu Hệ thống chữa cháy tự động bằng khí CO2.docx",
+  "so_dong": 16,
+  "nguon": "doc_converted"
+ },
+ {
+  "ma": "B11",
+  "ten": "Bảng đối chiếu Hệ thống chữa cháy bằng Sol-khí",
+  "file_goc": "B11. Bảng đối chiếu  Hệ thống chữa cháy bằng Sol-khí.docx",
+  "so_dong": 35,
+  "nguon": "doc_converted"
+ },
+ {
+  "ma": "B12",
+  "ten": "Bảng đối chiếu trang bị phương tiện chữa cháy ban đầu",
+  "file_goc": "B12. Bảng đối chiếu trang bị phương tiện chữa cháy ban đầu.docx",
   "so_dong": 32,
   "nguon": "docx"
  },
  {
-  "ma": "B5.1",
-  "ten": "Bảng đối chiếu nhà hỗn hợp đến 28m",
-  "file_goc": "B5.1. Bảng đối chiếu nhà hỗn hợp đến 28m.docx",
-  "so_dong": 214,
+  "ma": "B13",
+  "ten": "Bảng đối chiếu Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn và hệ thống loa thông báo và hướng dẫn thoát nạn",
+  "file_goc": "B13. Bảng đối chiếu Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn và hệ thống loa thông báo và hướng dẫn thoát nạn.docx",
+  "so_dong": 26,
   "nguon": "docx"
  },
  {
-  "ma": "B5.2",
-  "ten": "Bảng đối chiếu nhà hỗn hợp từ trên 28m đến 50m",
-  "file_goc": "B5.2. Bảng đối chiếu nhà hỗn hợp từ trên 28m đến 50m.docx",
-  "so_dong": 210,
+  "ma": "B14",
+  "ten": "Bảng đối chiếu hệ thống điện phục vụ PCCC",
+  "file_goc": "B14. Bảng đối chiếu hệ thống điện phục vụ PCCC.docx",
+  "so_dong": 58,
   "nguon": "docx"
  },
  {
-  "ma": "B5.3",
-  "ten": "Bảng đối chiếu nhà hỗn hợp từ trên 50m đến 150m",
-  "file_goc": "B5.3. Bảng đối chiếu nhà hỗn hợp từ trên 50m đến 150m.docx",
-  "so_dong": 261,
+  "ma": "B2",
+  "ten": "Bảng đối chiếu Hệ thống báo cháy loại địa chỉ",
+  "file_goc": "B2. Bảng đối chiếu Hệ thống báo cháy loại địa chỉ.docx",
+  "so_dong": 65,
   "nguon": "docx"
  },
  {
-  "ma": "B50",
-  "ten": "Bảng đối chiếu Thang máy chữa cháy",
-  "file_goc": "B50. Bảng đối chiếu Thang máy chữa cháy.docx",
-  "so_dong": 24,
+  "ma": "B3",
+  "ten": "Bảng đối chiếu trạm bơm cấp nước chữa cháy",
+  "file_goc": "B3. Bảng đối chiếu trạm bơm cấp nước chữa cháy.docx",
+  "so_dong": 85,
   "nguon": "docx"
  },
  {
-  "ma": "B6.1",
-  "ten": "Bảng đối chiếu nhà văn phòng đến 28m",
-  "file_goc": "B6.1 Bảng đối chiếu nhà văn phòng đến 28m.docx",
-  "so_dong": 210,
+  "ma": "B4",
+  "ten": "Bảng đối chiếu Cấp nước chữa cháy ngoài nhà",
+  "file_goc": "B4. Bảng đối chiếu  Cấp nước chữa cháy ngoài nhà.docx",
+  "so_dong": 31,
   "nguon": "docx"
  },
  {
-  "ma": "B6.2",
-  "ten": "Bảng đối chiếu văn phòng từ trên 28 đến 50 m",
-  "file_goc": "B6.2 Bảng đối chiếu văn phòng từ trên 28 đến 50 m.docx",
-  "so_dong": 208,
+  "ma": "B5",
+  "ten": "Bảng đối chiếu Hệ thống họng nước chữa cháy trong nhà",
+  "file_goc": "B5. Bảng đối chiếu Hệ thống họng nước chữa cháy trong nhà.docx",
+  "so_dong": 15,
   "nguon": "docx"
  },
  {
-  "ma": "B6.3",
-  "ten": "Bảng đối chiếu nhà văn phòng từ trên 50 đến 150 m",
-  "file_goc": "B6.3.Bảng đối chiếu nhà văn phòng từ trên 50 đến 150 m.docx",
-  "so_dong": 259,
+  "ma": "B6",
+  "ten": "Bảng đối chiếu Hệ thống chữa cháy tự động bằng nước, bọt",
+  "file_goc": "B6. Bảng đối chiếu Hệ thống chữa cháy tự động bằng nước, bọt.docx",
+  "so_dong": 55,
   "nguon": "docx"
  },
  {
-  "ma": "B7.1",
-  "ten": "Bảng đối chiếu khách sạn đến 28m",
-  "file_goc": "B7.1 Bảng đối chiếu khách sạn đến 28m.docx",
-  "so_dong": 210,
-  "nguon": "docx"
- },
- {
-  "ma": "B7.2",
-  "ten": "Bảng đối chiếu khách sạn từ trên 28 đến 50 m",
-  "file_goc": "B7.2 Bảng đối chiếu khách sạn từ trên 28 đến 50 m.docx",
-  "so_dong": 208,
-  "nguon": "docx"
- },
- {
-  "ma": "B7.3",
-  "ten": "Bảng đối chiếu khách sạn từ trên 50 đến 150 m",
-  "file_goc": "B7.3.Bảng đối chiếu khách sạn từ trên 50 đến 150 m.docx",
-  "so_dong": 259,
-  "nguon": "docx"
+  "ma": "B7",
+  "ten": "Bảng đối chiếu Hệ thống chữa cháy bằng bọt cố định",
+  "file_goc": "B7.  Bảng đối chiếu Hệ thống chữa cháy bằng bọt cố định.docx",
+  "so_dong": 23,
+  "nguon": "doc_converted"
  },
  {
   "ma": "B8",
-  "ten": "Bảng đối chiếu nhà trẻ, trường mẫu giáo, mầm non",
-  "file_goc": "B8. Bảng đối chiếu nhà trẻ, trường mẫu giáo, mầm non.docx",
-  "so_dong": 187,
-  "nguon": "docx"
+  "ten": "Bảng đối chiếu hệ thống chữa cháy bằng khí hóa lỏng",
+  "file_goc": "B8. Bảng đối chiếu hệ thống chữa cháy bằng khí hóa lỏng.docx",
+  "so_dong": 22,
+  "nguon": "doc_converted"
  },
  {
   "ma": "B9",
-  "ten": "Bảng đối chiếu trường tiểu học, THCS, THPT, trường phổ thông",
-  "file_goc": "B9. Bảng đối chiếu trường tiểu học, THCS, THPT, trường phổ thông.docx",
-  "so_dong": 197,
-  "nguon": "docx"
+  "ten": "Bảng đối chiếu hệ thống chữa cháy bằng khí nén",
+  "file_goc": "B9. Bảng đối chiếu hệ thống chữa cháy bằng khí nén.docx",
+  "so_dong": 17,
+  "nguon": "doc_converted"
  }
 ]

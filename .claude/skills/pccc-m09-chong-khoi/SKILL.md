@@ -1,11 +1,10 @@
 ---
 name: pccc-m09-chong-khoi
-description: Thẩm định PCCC – Mục 9 – Chống tụ khói. Hút xả khói, tăng áp, thoát khói tự nhiên (Phụ lục D). Bảng hệ thống: B34.
+description: Thẩm định PCCC – Mục 9 – Chống tụ khói. Hút xả khói, tăng áp, thoát khói tự nhiên (Phụ lục D).
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 9 – Chống tụ khói
 **Việc:** Hút xả khói, tăng áp, thoát khói tự nhiên (Phụ lục D).
-**Bảng hệ thống đi kèm:** B34 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`

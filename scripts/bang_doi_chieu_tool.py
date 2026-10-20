@@ -2,19 +2,19 @@
 
 Cách dùng (chạy bằng Python 3, không cần cài thêm gì):
   python -I -X utf8 bang_doi_chieu_tool.py danhmuc                 # liệt kê các bảng
-  python -I -X utf8 bang_doi_chieu_tool.py khung B15               # khung: TT, nội dung đối chiếu, khoản điều
-  python -I -X utf8 bang_doi_chieu_tool.py dong B15 "4.1"          # toàn văn một dòng theo TT
-  python -I -X utf8 bang_doi_chieu_tool.py tim B15 "hành lang"     # tìm dòng chứa từ khóa
-  python -I -X utf8 bang_doi_chieu_tool.py xuat B15 out.md         # xuất toàn bộ bảng ra markdown
-  python -I -X utf8 bang_doi_chieu_tool.py lamviec B15 ban_lam_viec.md   # bảng làm việc cho một dự án (cột Tra ở, Thiết kế, Kết luận, Khung)
+  python -I -X utf8 bang_doi_chieu_tool.py khung A12               # khung: TT, nội dung đối chiếu, khoản điều
+  python -I -X utf8 bang_doi_chieu_tool.py dong A12 "4.1"          # toàn văn một dòng theo TT
+  python -I -X utf8 bang_doi_chieu_tool.py tim A12 "hành lang"     # tìm dòng chứa từ khóa
+  python -I -X utf8 bang_doi_chieu_tool.py xuat A12 out.md         # xuất toàn bộ bảng ra markdown
+  python -I -X utf8 bang_doi_chieu_tool.py lamviec A12 ban_lam_viec.md   # bảng làm việc cho một dự án (cột Tra ở, Thiết kế, Kết luận, Khung)
   Dòng chọn theo TT ("7.1.6") hoặc theo số thứ tự "#85" in ở cột # của lệnh khung.
-Mã bảng: B15, B35, B4.1... (đầu tên file, không phân biệt hoa thường).
+Mã bảng: A12, B1... (đầu tên file, không phân biệt hoa thường).
 Bảng .doc (không phải .docx) chưa đọc được: cần lưu thành .docx trước.
 """
 import glob, os, re, sys, zipfile
 from xml.etree import ElementTree as ET
 
-BANG_DIR = r"D:\$.4. QC - TCVN\Bảng đối chiếu sửa đổi 1"
+BANG_DIR = r"D:\$.4. QC - TCVN\Bảng đối chiếu PCCC Đồng Nai -Nam gửi"
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 
 
@@ -39,7 +39,7 @@ def find_file(code):
     code = code.lower().rstrip(".")
     for f in sorted(glob.glob(os.path.join(BANG_DIR, "*.docx"))):
         name = os.path.basename(f).lower()
-        m = re.match(r"(b\d+(?:\.\d+)?)", name)
+        m = re.match(r"([ab]\d+(?:\.\d+)?)", name)
         if m and m.group(1) == code:
             return f
     raise SystemExit("Không thấy bảng %s (chỉ đọc .docx)" % code)
@@ -96,7 +96,7 @@ TRA = [
     (r"3\.4\.|2\.4\.", "MOD_cau_thang"),
     (r"\bD\.\d|\bD10|Phụ lục D|D\.2", "MOD_chong_khoi_PL_D"),
     (r"4\.5\b|4\.6\b", "SKILL_ngan_chay"),
-    (r"TCVN|QCVN 1[0-9]|QCVN 0[0-9]:20(1|2)[0-9]/B(?!XD)", "bảng hệ thống B34–B50"),
+    (r"TCVN|QCVN 1[0-9]|QCVN 0[0-9]:20(1|2)[0-9]/B(?!XD)", "bảng hệ thống B1–B14"),
     (r"1\.4\.", "dinh-nghia"),
 ]
 

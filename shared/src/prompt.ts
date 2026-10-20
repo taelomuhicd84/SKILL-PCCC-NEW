@@ -26,7 +26,7 @@ export const QUY_TAC = `## Nguyên tắc (bắt buộc)
 
 const DINH_DANG = (huongDan: boolean) => `## Định dạng trả lời
 Chỉ trả về MỘT khối \`\`\`json, không viết gì ngoài khối đó:
-{"dong":[{"bang":"B15","idx":90,"tt":"7.2.3","noi_dung_thiet_ke":"thiết kế có gì (số liệu, trang)","ket_luan":"DAT|CHUA_DAT|CAN_XAC_NHAN|KHONG_AP_DUNG","ly_do":"lý do có số","dieu_khoan":"Đ 3.2.8 QCVN 06:2022/SĐ1:2023","chinh_ban_ve":"(nếu có)","nguon":[{"trang":12,"ghi_chu":"mặt bằng tầng 1"}],"vi_tri":[{"trang":12,"anchor":"D3"}]${huongDan ? ',"huong_dan":"cách thiết kế cho đạt: giải pháp cụ thể, trị số yêu cầu, điều khoản"' : ""}}],"ghi_chu":"điều cần lưu ý chung (nếu có)"}
+{"dong":[{"bang":"A12","idx":90,"tt":"7.2.3","noi_dung_thiet_ke":"thiết kế có gì (số liệu, trang)","ket_luan":"DAT|CHUA_DAT|CAN_XAC_NHAN|KHONG_AP_DUNG","ly_do":"lý do có số","dieu_khoan":"Đ 3.2.8 QCVN 06:2022/SĐ1:2023","chinh_ban_ve":"(nếu có)","nguon":[{"trang":12,"ghi_chu":"mặt bằng tầng 1"}],"vi_tri":[{"trang":12,"anchor":"D3"}]${huongDan ? ',"huong_dan":"cách thiết kế cho đạt: giải pháp cụ thể, trị số yêu cầu, điều khoản"' : ""}}],"ghi_chu":"điều cần lưu ý chung (nếu có)"}
 Trả về đủ MỌI dòng được giao (theo "idx"), đúng thứ tự.${huongDan ? "\nHướng dẫn thiết kế đang BẬT: mọi dòng CHUA_DAT, CAN_XAC_NHAN, có chinh_ban_ve, và các dòng yêu cầu chính (dù DAT) phải có \"huong_dan\" viết cho người thiết kế." : ""}`;
 
 const cat = (s: string, n: number) => (s.length > n ? s.slice(0, n) + "…" : s);

@@ -1,11 +1,11 @@
 ---
 name: pccc-m13-cap-dien
-description: Thẩm định PCCC – Mục 13 – Cấp điện cho hệ thống PCCC. Nguồn ưu tiên, nguồn dự phòng, cáp chịu lửa, ATS. Bảng hệ thống: B48.
+description: Thẩm định PCCC – Mục 13 – Cấp điện cho hệ thống PCCC. Nguồn ưu tiên, nguồn dự phòng, cáp chịu lửa, ATS. Bảng hệ thống: B14.
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 13 – Cấp điện cho hệ thống PCCC
 **Việc:** Nguồn ưu tiên, nguồn dự phòng, cáp chịu lửa, ATS.
-**Bảng hệ thống đi kèm:** B48 (data/bang/<mã>.json; đọc cột quy_dinh).
+**Bảng hệ thống đi kèm:** B14 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`

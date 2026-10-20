@@ -1,11 +1,10 @@
 ---
 name: pccc-m08-thang-may-cc
-description: Thẩm định PCCC – Mục 8 – Thang máy chữa cháy. Đối tượng phải có, số lượng, sảnh, giếng, nguồn điện thang máy chữa cháy. Bảng hệ thống: B50.
+description: Thẩm định PCCC – Mục 8 – Thang máy chữa cháy. Đối tượng phải có, số lượng, sảnh, giếng, nguồn điện thang máy chữa cháy.
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 8 – Thang máy chữa cháy
 **Việc:** Đối tượng phải có, số lượng, sảnh, giếng, nguồn điện thang máy chữa cháy.
-**Bảng hệ thống đi kèm:** B50 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`

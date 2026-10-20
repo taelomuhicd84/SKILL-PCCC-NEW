@@ -1,6 +1,6 @@
 // CLI cho luồng chạy hoàn toàn trong Claude Code (lệnh /tham-dinh). Mọi đường dẫn tính từ gốc repo.
 //   npm -w runner run cli -- chuan-bi <thu_muc_ra> <pdf1> [pdf2…]   gộp PDF, trích chữ có vị trí, ghi prompt đọc hồ sơ
-//   npm -w runner run cli -- jobs <thu_muc_ra> [--bang B15] [--he-thong B35,B39] [--huong-dan]   chọn bảng, ghi prompt từng job
+//   npm -w runner run cli -- jobs <thu_muc_ra> [--bang A12] [--he-thong B1,B6] [--huong-dan]   chọn bảng, ghi prompt từng job
 //   npm -w runner run cli -- ra-soat <thu_muc_ra>                   ghi prompt rà soát từ các câu trả lời đã có
 //   npm -w runner run cli -- gop <thu_muc_ra>                       gộp jobs/*.json (+ ra_soat.json) → ket_qua.json, tom_tat.md
 //   npm -w runner run cli -- chay <thu_muc_ra> --engine gemini-api|claude|gemini [--luong 10] [--chi id1,id2] [--huong-dan]   chạy lô song song rồi gộp
@@ -34,7 +34,7 @@ async function chuanBi(out: string, pdfs: string[]) {
   console.log();
   const p = luuPhien(path.basename(pdfs[0]), Buffer.from(bytes), chu, "", out);
   const ctx: PromptCtx = { che_do: "tep", thong_tin: null, so_trang: pdf.numPages, huong_dan: false, tep: { pdf: rel(p.pdf), chu_dir: rel(p.chu_dir) } };
-  const goiY = bang("B15").dong.map((d) => d.goi_y).filter(Boolean).slice(0, 40);
+  const goiY = bang("A12").dong.map((d) => d.goi_y).filter(Boolean).slice(0, 40);
   writeFileSync(path.join(out, "prompt_doc_ho_so.md"), promptDocHoSo(ctx, goiY), "utf8");
   writeFileSync(path.join(out, "nguon.json"), JSON.stringify({ pdfs: pdfs.map((f) => path.resolve(f)), so_trang: pdf.numPages }, null, 1));
   console.log(`Đã ghi ${rel(out)}: ban_ve.pdf (${pdf.numPages} trang), chu/, prompt_doc_ho_so.md.\nViệc tiếp: agent pccc-doc-ho-so đọc prompt và ghi ${rel(out)}/thong_tin.json`);

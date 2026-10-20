@@ -52,7 +52,7 @@ Sau bảng: liệt kê lỗi thiết kế phát hiện được, điểm cần x
 |---|---|
 | Thứ tự làm việc cả hồ sơ (GĐ0–GĐ8), 4 loại kết luận | [SKILL_quy_trinh_tham_dinh.md](SKILL_quy_trinh_tham_dinh.md) |
 | Trường thông tin công trình, quy tắc suy ra yêu cầu Y01–Y24, ai tạo ai dùng | [../knowledge/truong-thong-tin.md](../knowledge/truong-thong-tin.md) |
-| Bảng đối chiếu chính thức theo công năng và theo hệ thống; chọn bảng; công cụ đọc bảng | [../bang_doi_chieu/DANH_MUC.md](../bang_doi_chieu/DANH_MUC.md), bảng karaoke làm việc [../bang_doi_chieu/B15_karaoke_vu_truong.md](../bang_doi_chieu/B15_karaoke_vu_truong.md), công cụ scripts/bang_doi_chieu_tool.py |
+| Bảng đối chiếu chính thức theo công năng và theo hệ thống; chọn bảng; công cụ đọc bảng | [../bang_doi_chieu/DANH_MUC.md](../bang_doi_chieu/DANH_MUC.md), công cụ scripts/bang_doi_chieu_tool.py |
 | Lối ra nào được tính là lối thoát nạn; cửa cuốn/quay/trượt/xếp; chiều mở cửa (3.1, 3.2.1–3.2.4, 3.2.9–3.2.14: cửa, kích thước, lối khẩn cấp, tầng hầm) | [MOD_loi_ra_va_cua.md](MOD_loi_ra_va_cua.md) |
 | Số lối ra tối thiểu của phòng, tầng, nhà; khi nào được 1 lối ra (3.2.5–3.2.7) | [MOD_so_luong_loi_ra.md](MOD_so_luong_loi_ra.md) |
 | Vật liệu hoàn thiện, trang trí, ốp lát (3.3.4, 3.5.x) và Phụ lục B (cấp CV0–CV5, Bảng B.8, B.9) | [MOD_vat_lieu_hoan_thien.md](MOD_vat_lieu_hoan_thien.md) |
