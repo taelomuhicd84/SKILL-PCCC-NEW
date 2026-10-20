@@ -43,7 +43,7 @@ export const trangThai: TrangThaiHoc = { dang: false, viec: "", xong: 0, tong: 0
 
 export function docCauHinh(): CauHinh {
   const mac: CauHinh = { thu_muc: [], tu_dong: false, tu_duyet: false, chu_de: [] };
-  try { return { ...mac, ...JSON.parse(readFileSync(FILE_CAU_HINH, "utf8")) }; } catch { return mac; }
+  try { return { ...mac, ...JSON.parse(readFileSync(FILE_CAU_HINH, "utf8").replace(/^﻿/, "")) }; } catch { return mac; }
 }
 const ghiCauHinh = (c: CauHinh) => writeFileSync(FILE_CAU_HINH, JSON.stringify(c, null, 1), "utf8");
 export function capNhatCauHinh(doi: Partial<Pick<CauHinh, "tu_dong" | "tu_duyet" | "chu_de">>): CauHinh {

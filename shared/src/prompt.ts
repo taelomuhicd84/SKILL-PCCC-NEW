@@ -24,10 +24,10 @@ export const QUY_TAC = `## Nguyên tắc (bắt buộc)
 7. Số đo trên bản vẽ là ước lượng ±1–2 m nếu không có kích thước ghi: ghi chữ "ước lượng".
 8. Bản vẽ đã thể hiện đủ (ký hiệu cửa, GHCL, chiều mở, kích thước) thì phải kết luận DAT hoặc CHUA_DAT; không né sang CAN_XAC_NHAN. Đọc knowledge/bai-hoc.md trước khi kết luận.`;
 
-const DINH_DANG = (huongDan: boolean) => `## Định dạng trả lời
+const DINH_DANG = `## Định dạng trả lời
 Chỉ trả về MỘT khối \`\`\`json, không viết gì ngoài khối đó:
-{"dong":[{"bang":"A12","idx":90,"tt":"7.2.3","noi_dung_thiet_ke":"thiết kế có gì (số liệu, trang)","ket_luan":"DAT|CHUA_DAT|CAN_XAC_NHAN|KHONG_AP_DUNG","ly_do":"lý do có số","dieu_khoan":"Đ 3.2.8 QCVN 06:2022/SĐ1:2023","chinh_ban_ve":"(nếu có)","nguon":[{"trang":12,"ghi_chu":"mặt bằng tầng 1"}],"vi_tri":[{"trang":12,"anchor":"D3"}]${huongDan ? ',"huong_dan":"cách thiết kế cho đạt: giải pháp cụ thể, trị số yêu cầu, điều khoản"' : ""}}],"ghi_chu":"điều cần lưu ý chung (nếu có)"}
-Trả về đủ MỌI dòng được giao (theo "idx"), đúng thứ tự.${huongDan ? "\nHướng dẫn thiết kế đang BẬT: mọi dòng CHUA_DAT, CAN_XAC_NHAN, có chinh_ban_ve, và các dòng yêu cầu chính (dù DAT) phải có \"huong_dan\" viết cho người thiết kế." : ""}`;
+{"dong":[{"bang":"A12","idx":90,"tt":"7.2.3","noi_dung_thiet_ke":"thiết kế có gì (số liệu, trang)","ket_luan":"DAT|CHUA_DAT|CAN_XAC_NHAN|KHONG_AP_DUNG","ly_do":"lý do có số","dieu_khoan":"Đ 3.2.8 QCVN 06:2022/SĐ1:2023","chinh_ban_ve":"(nếu có)","nguon":[{"trang":12,"ghi_chu":"mặt bằng tầng 1"}],"vi_tri":[{"trang":12,"anchor":"D3"}]}],"ghi_chu":"điều cần lưu ý chung (nếu có)"}
+Trả về đủ MỌI dòng được giao (theo "idx"), đúng thứ tự.`;
 
 const cat = (s: string, n: number) => (s.length > n ? s.slice(0, n) + "…" : s);
 
@@ -70,7 +70,7 @@ export function promptJob(ctx: PromptCtx, job: Job): string {
   const a = agentById(job.agent);
   return [
     `# Agent ${a.ten}\nBạn là cán bộ thẩm duyệt thiết kế PCCC. Việc: ${a.viec}${a.luu_y ? "\nLưu ý: " + a.luu_y : ""}`,
-    QUY_TAC, phanThongTin(ctx.thong_tin), phanBanVe(ctx), phanTriThuc(ctx, a.tri_thuc), bangDong(job), DINH_DANG(ctx.huong_dan),
+    QUY_TAC, phanThongTin(ctx.thong_tin), phanBanVe(ctx), phanTriThuc(ctx, a.tri_thuc), bangDong(job), DINH_DANG,
   ].join("\n\n");
 }
 
@@ -101,6 +101,23 @@ export function promptRaSoat(ctx: PromptCtx, ketQua: KetQuaDong[]): string {
     `## Việc
 Tìm: cùng một số liệu nhưng các dòng ghi khác nhau; kết luận mâu thuẫn nhau; DAT/CHUA_DAT nhưng lý do không có số hoặc không có điều khoản; dòng kết luận vượt quá tri thức (nên là CAN_XAC_NHAN).
 Chỉ trả về các dòng CẦN SỬA, đầy đủ trường như định dạng dưới (bản đã sửa). Không có gì cần sửa thì {"dong":[]}.`,
-    DINH_DANG(false),
+    DINH_DANG,
+  ].join("\n\n");
+}
+
+export function promptHuongDan(ctx: PromptCtx, ketQua: KetQuaDong[]): string {
+  const a = agentById("huong-dan");
+  const rows = ketQua.map((k) => `${k.bang}#${k.idx} TT ${k.tt || "-"} | ${k.ket_luan}\n   Thiết kế: ${cat(k.noi_dung_thiet_ke, 300)}\n   Lý do: ${cat(k.ly_do, 400)}\n   Điều: ${k.dieu_khoan || "-"}${k.chinh_ban_ve ? "\n   Chỉnh bản vẽ: " + cat(k.chinh_ban_ve, 200) : ""}`);
+  return [
+    `# Agent ${a.ten}\nBạn là cán bộ thẩm duyệt PCCC viết hướng dẫn cho người thiết kế để hồ sơ đạt khi nộp lại. Việc: ${a.viec}`,
+    `## Nguyên tắc
+1. Mỗi dòng một đoạn 1–4 câu, viết việc phải LÀM, không lặp lại lý do: "Bổ sung/Sửa: <việc cụ thể trên bản vẽ, ở trang/tầng/khu vực nào>. Yêu cầu: <trị số tối thiểu hoặc điều kiện> (<điều khoản>)."
+2. Bản vẽ thiếu đường thoát nạn: chỉ vẽ tuyến từ điểm xa nhất tới lối ra thoát nạn, ghi chiều dài, đối chiếu giới hạn khoảng cách Phụ lục G QCVN 06 (skills/PHU_LUC_G_QCVN06.md).
+3. Bản vẽ thiếu bề rộng thoát nạn: ghi kích thước thông thủy cửa, hành lang, thang; nêu bề rộng tối thiểu và cách tính (số người thoát × chỉ tiêu) theo skills/SKILL_thoat_nan.md, skills/MOD_loi_ra_va_cua.md.
+4. Thiếu ghi chú, ký hiệu, số liệu (chiều cao PCCC, GHCL cửa, vật liệu, loại đèn…): nói rõ ghi gì và ghi ở bản vẽ nào.
+5. Chỉ dùng trị số có trong tri thức hoặc cột "Điều"; chưa có thì ghi "cần tra <văn bản>", không bịa. Không đổi kết luận. Dòng không có cách hướng dẫn cụ thể thì bỏ qua, không viết cho đủ số.`,
+    phanThongTin(ctx.thong_tin), phanBanVe(ctx), phanTriThuc(ctx, a.tri_thuc),
+    `## Các dòng cần hướng dẫn (bang#idx tt | kết luận)\n${rows.join("\n")}`,
+    `## Định dạng trả lời\nChỉ trả về MỘT khối \`\`\`json, không viết gì ngoài khối đó:\n{"dong":[{"bang":"A12","idx":90,"huong_dan":"Bổ sung: … Yêu cầu: … (Đ …)"}]}`,
   ].join("\n\n");
 }

@@ -67,6 +67,8 @@ const AGENTS_GOC: AgentDef[] = [
   { id: "chung", ten: "Hạng mục khác", viec: "Đối chiếu các dòng không thuộc hạng mục riêng (công trình đặc thù, xăng dầu, khí, tàu…).", tri_thuc: [BH, DN] },
   { id: "ra-soat", ten: "Rà soát chéo", viec: "Tìm số liệu lệch giữa các dòng, kết luận mâu thuẫn, dòng thiếu nguồn hoặc thiếu điều khoản; chỉ trả về các dòng cần sửa.",
     tri_thuc: [BH, "skills/SKILL_thoat_nan.md"] },
+  { id: "huong-dan", ten: "Hướng dẫn thẩm định", viec: "Viết hướng dẫn cho người thiết kế ở các dòng CHƯA ĐẠT, CẦN XÁC NHẬN, chỉnh bản vẽ: bản vẽ thiếu đường thoát nạn, thiếu bề rộng thoát nạn, thiếu ghi chú… thì cần bổ sung gì, ở đâu, trị số yêu cầu, điều khoản.",
+    tri_thuc: [BH, DN, "skills/SKILL_thoat_nan.md", "skills/MOD_loi_ra_va_cua.md", "skills/PHU_LUC_G_QCVN06.md", "skills/MOD_cau_thang_buong_thang.md", "memory/pccc-escape-route-method.md"] },
 ];
 
 export const AGENTS: AgentDef[] = AGENTS_GOC.map((a) => ({ ...a, tri_thuc: [...a.tri_thuc, HOC] }));

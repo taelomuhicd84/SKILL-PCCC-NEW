@@ -82,7 +82,7 @@ export async function xuatPdf(pdfBytes: ArrayBuffer, pdfjsDoc: PdfDoc, chu: Tran
       page.drawText(sNum, { x: np[0], y: np[1], size: fs, font: bold, color: rgb(1, 1, 1), rotate: degrees(t.xoay) });
       const xs = P.map((p) => p[0]), ys = P.map((p) => p[1]);
       themComment(doc, page, [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)], `Khung ${d.khung} – ${nhanDong(d)}`,
-        `Khung ${d.khung} – ${nhanDong(d)} (${d.bang} TT ${d.tt})\n${d.ly_do}\n${d.dieu_khoan}${d.chinh_ban_ve ? "\nChỉnh bản vẽ: " + d.chinh_ban_ve : ""}${huongDan && d.huong_dan ? "\nHướng dẫn: " + d.huong_dan : ""}`,
+        `Khung ${d.khung} – ${nhanDong(d)} (${d.bang} TT ${d.tt})\n${d.ly_do}\n${d.dieu_khoan}${d.chinh_ban_ve ? "\nChỉnh bản vẽ: " + d.chinh_ban_ve : ""}${huongDan && d.huong_dan ? "\n\n— HƯỚNG DẪN THẨM ĐỊNH —\n" + d.huong_dan : ""}`,
         [cr, cg, cb], fs / 4);
     }
   }

@@ -2,13 +2,14 @@
 //   npm -w runner run cli -- chuan-bi <thu_muc_ra> <pdf1> [pdf2…]   gộp PDF, trích chữ có vị trí, ghi prompt đọc hồ sơ
 //   npm -w runner run cli -- jobs <thu_muc_ra> [--bang A12] [--he-thong B1,B6] [--huong-dan]   chọn bảng, ghi prompt từng job
 //   npm -w runner run cli -- ra-soat <thu_muc_ra>                   ghi prompt rà soát từ các câu trả lời đã có
-//   npm -w runner run cli -- gop <thu_muc_ra>                       gộp jobs/*.json (+ ra_soat.json) → ket_qua.json, tom_tat.md
+//   npm -w runner run cli -- huong-dan <thu_muc_ra>                 ghi prompt agent Hướng dẫn thẩm định (sau rà soát) → huong_dan.json
+//   npm -w runner run cli -- gop <thu_muc_ra>                      gộp jobs/*.json (+ ra_soat.json) → ket_qua.json, tom_tat.md
 //   npm -w runner run cli -- chay <thu_muc_ra> --engine gemini-api|claude|gemini [--luong 10] [--chi id1,id2] [--huong-dan]   chạy lô song song rồi gộp
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import path from "node:path";
 import { PDFDocument } from "pdf-lib";
 import {
-  ThongTin, chonBangChinh, chonBangHeThong, demKetLuan, docKetQuaJob, gop, lapJobs, promptDocHoSo, promptJob, promptRaSoat,
+  ThongTin, canKhung, chonBangChinh, chonBangHeThong, demKetLuan, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat,
   tachJson, trichChu, NHAN_KET_LUAN, type Bang, type Job, type KetQua, type KetQuaDong, type PromptCtx,
 } from "@pccc/shared";
 import { GOC_REPO } from "./chung";
@@ -79,7 +80,8 @@ function raSoat(out: string) {
   console.log(`Đã ghi ${rel(out)}/prompt_ra_soat.md → agent pccc-ra-soat ghi ${rel(out)}/ra_soat.json`);
 }
 
-function gopKq(out: string) {
+/** Gộp câu trả lời các job + rà soát (chưa có hướng dẫn). */
+function tongHop(out: string) {
   const jf = docJson<JobsFile>(path.join(out, "jobs.json"));
   const { nhom, loi } = docTraLoi(out);
   const rs = path.join(out, "ra_soat.json");
@@ -90,7 +92,26 @@ function gopKq(out: string) {
         nhom.push(docKetQuaJob({ dong: (raw.dong ?? []).filter((d) => d.bang === b) }, b, jf.jobs.filter((j) => j.bang === b).flatMap((j) => j.idx)));
     } catch (e) { loi.push({ job: "ra-soat", loi: String(e).slice(0, 300) }); }
   }
-  const dong = gop(nhom);
+  return { jf, loi, dong: gop(nhom) };
+}
+
+/** Prompt cho agent Hướng dẫn thẩm định (chạy sau rà soát), chỉ gồm các dòng CHƯA ĐẠT, CẦN XÁC NHẬN, chỉnh bản vẽ. */
+function huongDan(out: string) {
+  const tt = ThongTin.parse(tachJson(readFileSync(path.join(out, "thong_tin.json"), "utf8")));
+  const { so_trang } = docJson<{ so_trang: number }>(path.join(out, "nguon.json"));
+  const ctx: PromptCtx = { che_do: "tep", thong_tin: tt, so_trang, huong_dan: true, tep: { pdf: rel(path.join(out, "ban_ve.pdf")), chu_dir: rel(path.join(out, "chu")) } };
+  const can = tongHop(out).dong.filter(canKhung);
+  writeFileSync(path.join(out, "prompt_huong_dan.md"), promptHuongDan(ctx, can), "utf8");
+  console.log(`Đã ghi ${rel(out)}/prompt_huong_dan.md (${can.length} dòng) → agent pccc-huong-dan ghi ${rel(out)}/huong_dan.json, rồi chạy lại gop.`);
+}
+
+function gopKq(out: string) {
+  const { jf, loi, dong: d0 } = tongHop(out);
+  let dong = d0;
+  const hd = path.join(out, "huong_dan.json");
+  if (existsSync(hd)) {
+    try { dong = ganHuongDan(d0, tachJson(readFileSync(hd, "utf8"))); } catch (e) { loi.push({ job: "huong-dan", loi: String(e).slice(0, 300) }); }
+  }
   const tt = tachJson(readFileSync(path.join(out, "thong_tin.json"), "utf8"));
   const kq: KetQua = { phien_ban: 1, ten_cong_trinh: (tt as { ten_cong_trinh?: string }).ten_cong_trinh ?? "", bang_chinh: jf.bang_chinh, bang_he_thong: jf.bang_he_thong, thong_tin: tt, dong, loi_job: loi, ngay: new Date().toISOString() };
   writeFileSync(path.join(out, "ket_qua.json"), JSON.stringify(kq, null, 1), "utf8");
@@ -130,6 +151,14 @@ async function chay(out: string, a: string[]) {
   clearInterval(nhip);
   for (const [id, tra] of Object.entries(st.xong)) writeFileSync(path.join(out, "jobs", `${id}.json`), tra, "utf8");
   console.log(`Lô ${engine}: ${Object.keys(st.xong).length}/${st.tong} job trong ${Math.round((Date.now() - t0) / 60000)} phút.`, Object.keys(st.loi).length ? "Lỗi: " + JSON.stringify(st.loi).slice(0, 600) : "");
+  if (jf.huong_dan) { // agent Hướng dẫn thẩm định: một job sau khi các job hạng mục đã xong
+    const kb = Object.fromEntries(agentById("huong-dan").tri_thuc.map((f) => [f, existsSync(path.join(GOC_REPO, f)) ? readFileSync(path.join(GOC_REPO, f), "utf8") : "(chưa có)"]));
+    const ctx: PromptCtx = { che_do: engine === "claude" ? "tep" : "kem", thong_tin: tt, so_trang, huong_dan: true, kb, tep: { pdf: rel(path.join(out, "ban_ve.pdf")), chu_dir: rel(path.join(out, "chu")) } };
+    const sh = taoTrangThai(1);
+    await chayLo(engine, out, [{ job: "H-huong-dan", prompt: promptHuongDan(ctx, tongHop(out).dong.filter(canKhung)) }], sh, 1);
+    if (sh.xong["H-huong-dan"]) writeFileSync(path.join(out, "huong_dan.json"), sh.xong["H-huong-dan"], "utf8");
+    else console.log("Hướng dẫn thẩm định lỗi:", JSON.stringify(sh.loi).slice(0, 300));
+  }
   gopKq(out);
 }
 
@@ -138,6 +167,7 @@ const dir = out ? path.resolve(GOC_REPO, out) : "";
 if (cmd === "chuan-bi") await chuanBi(dir, rest.map((f) => path.resolve(process.env.INIT_CWD ?? process.cwd(), f)));
 else if (cmd === "jobs") jobs(dir, rest);
 else if (cmd === "ra-soat") raSoat(dir);
+else if (cmd === "huong-dan") huongDan(dir);
 else if (cmd === "gop") gopKq(dir);
 else if (cmd === "chay") { await chay(dir, rest); process.exit(0); }
 else { console.log(readFileSync(new URL(import.meta.url), "utf8").split("\n").slice(0, 6).join("\n")); process.exit(cmd ? 1 : 0); }

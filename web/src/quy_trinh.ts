@@ -1,6 +1,6 @@
 // Điều phối các giai đoạn trên web: đọc hồ sơ (A0) → chọn bảng → các job hạng mục → rà soát → gộp.
 import {
-  ThongTin, agentById, docKetQuaJob, gop, lapJobs, promptDocHoSo, promptJob, promptRaSoat, tachJson,
+  ThongTin, agentById, canKhung, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat, tachJson,
   type Job, type KetQuaDong, type PromptCtx, type DongKetQua,
 } from "@pccc/shared";
 import { taiBang, taiKb } from "./data";
@@ -64,6 +64,14 @@ export async function raSoat(goi: Goi, nc: NguCanh, tt: ThongTin, ds: DongKetQua
     const raw = r as { dong?: { bang?: string }[] };
     return [...theoBang].flatMap(([bang, idx]) => docKetQuaJob({ dong: (raw.dong ?? []).filter((d) => d.bang === bang) }, bang, idx));
   });
+}
+
+/** Agent Hướng dẫn thẩm định: chạy sau rà soát, trả về kết quả đã ghi hướng dẫn vào các dòng CHƯA ĐẠT, CẦN XÁC NHẬN, chỉnh bản vẽ. */
+export async function huongDan(goi: Goi, nc: NguCanh, tt: ThongTin, ds: DongKetQua[]): Promise<DongKetQua[]> {
+  const [ct, ck] = await ctxCa(nc, tt, agentById("huong-dan").tri_thuc);
+  const can = ds.filter(canKhung);
+  if (!can.length) return ds;
+  return goiJson(goi, "H-huong-dan", "Hướng dẫn thẩm định", promptHuongDan(ct, can), promptHuongDan(ck, can), (r) => ganHuongDan(ds, r));
 }
 
 export { gop };

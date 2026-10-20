@@ -1,5 +1,5 @@
 // Gộp kết quả các job, đánh số khung (số khung = thứ tự dòng cần khoanh, dùng chung cho PDF và bảng).
-import { KetQuaJob, type KetQuaDong } from "./schema";
+import { HuongDanJob, KetQuaJob, type KetQuaDong } from "./schema";
 
 export interface DongKetQua extends KetQuaDong { khung?: number }
 export interface KetQua {
@@ -30,6 +30,12 @@ export function gop(nhom: KetQuaDong[][]): DongKetQua[] {
   let so = 0;
   for (const d of out) d.khung = canKhung(d) ? ++so : undefined;
   return out;
+}
+
+/** Ghi hướng dẫn của agent Hướng dẫn thẩm định vào đúng dòng (bang, idx); dòng không được nhắc giữ nguyên. */
+export function ganHuongDan(dong: DongKetQua[], raw: unknown): DongKetQua[] {
+  const m = new Map(HuongDanJob.parse(raw).dong.map((d) => [`${d.bang}#${d.idx}`, d.huong_dan.trim()]));
+  return dong.map((d) => { const h = m.get(`${d.bang}#${d.idx}`); return h ? { ...d, huong_dan: h } : d; });
 }
 
 export function demKetLuan(ds: KetQuaDong[]) {

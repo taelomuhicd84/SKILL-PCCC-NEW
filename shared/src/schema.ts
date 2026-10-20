@@ -27,9 +27,12 @@ export const KetQuaDong = z.object({
   chinh_ban_ve: z.string().optional().describe("sai sót/thiếu ghi chú đã rõ cách sửa"),
   nguon: z.array(z.object({ trang: z.number().int(), ghi_chu: z.string().default("") })).default([]),
   vi_tri: z.array(ViTri).default([]),
-  huong_dan: z.string().optional().describe("hướng dẫn thiết kế cho đạt (khi bật)"),
+  huong_dan: z.string().optional().describe("hướng dẫn cho người thiết kế, do agent Hướng dẫn thẩm định viết (khi bật)"),
 });
 export type KetQuaDong = z.infer<typeof KetQuaDong>;
+
+/** Câu trả lời của agent Hướng dẫn thẩm định: chỉ bang, idx và huong_dan. */
+export const HuongDanJob = z.object({ dong: z.array(z.object({ bang: z.string(), idx: z.number().int(), huong_dan: z.string() })) });
 
 export const KetQuaJob = z.object({
   dong: z.array(KetQuaDong),

@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { nhomTheoCongTrinh, tenCongTrinh, chonBangChinh, chonBangHeThong, chiaMuc, lapJobs, agentChoMuc, gop, ThongTin, promptJob, type Bang } from "../src";
+import { nhomTheoCongTrinh, tenCongTrinh, chonBangChinh, chonBangHeThong, chiaMuc, lapJobs, agentChoMuc, gop, ganHuongDan, ThongTin, promptJob, promptHuongDan, type Bang, type KetQuaDong } from "../src";
 
 const bang = (ma: string): Bang => JSON.parse(readFileSync(`data/bang/${ma}.json`, "utf8"));
 const haTT = ThongTin.parse({
@@ -49,7 +49,11 @@ describe("chia mục", () => {
     expect(n).toBe(b.dong.length);
     expect(new Set(jobs.map((j) => j.id)).size).toBe(jobs.length);
     expect(jobs.every((j) => j.dong.length <= 45)).toBe(true);
-    expect(promptJob({ che_do: "tep", thong_tin: haTT, so_trang: 3, huong_dan: true, tep: { pdf: "a.pdf", chu_dir: "chu" } }, jobs[2])).toContain("huong_dan");
+    // hướng dẫn do agent riêng viết, agent hạng mục không còn điền
+    expect(promptJob({ che_do: "tep", thong_tin: haTT, so_trang: 3, huong_dan: true, tep: { pdf: "a.pdf", chu_dir: "chu" } }, jobs[2])).not.toContain("huong_dan");
+    const dk: KetQuaDong[] = [{ bang: "A12", idx: 1, tt: "1", noi_dung_thiet_ke: "", ket_luan: "CAN_XAC_NHAN", ly_do: "thiếu bề rộng", dieu_khoan: "", nguon: [], vi_tri: [] }];
+    expect(promptHuongDan({ che_do: "tep", thong_tin: haTT, so_trang: 3, huong_dan: true, tep: { pdf: "a.pdf", chu_dir: "chu" } }, dk)).toContain("A12#1");
+    expect(ganHuongDan(gop([dk]), { dong: [{ bang: "A12", idx: 1, huong_dan: " Bổ sung bề rộng " }, { bang: "X", idx: 9, huong_dan: "bỏ" }] })[0].huong_dan).toBe("Bổ sung bề rộng");
   });
 });
 

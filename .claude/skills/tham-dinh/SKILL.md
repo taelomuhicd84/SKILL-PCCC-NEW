@@ -11,5 +11,6 @@ Lệnh CLI: `npm -w runner run cli -- <lệnh> …` (đường dẫn tính từ 
 3. **Lập job**: `npm -w runner run cli -- jobs <ra> [--huong-dan] [--bang Axx] [--he-thong B1,B6]` → in danh sách job, agent, file trả lời.
 4. **Chạy job**: với mỗi job, subagent `pccc-<agent>` (đúng tên in ra), giao: "Đọc <ra>/jobs/<id>.md, làm theo, ghi JSON vào <ra>/jobs/<id>.json". Chạy song song tối đa 4 subagent một lượt. Job có sẵn file .json hợp lệ thì bỏ qua (chạy tiếp được sau khi gián đoạn).
 5. **Rà soát**: `npm -w runner run cli -- ra-soat <ra>` rồi subagent `pccc-ra-soat`: "Đọc <ra>/prompt_ra_soat.md, ghi JSON vào <ra>/ra_soat.json".
+5b. **Hướng dẫn** (chỉ khi có `--huong-dan`): `npm -w runner run cli -- huong-dan <ra>` rồi subagent `pccc-huong-dan`: "Đọc <ra>/prompt_huong_dan.md, ghi JSON vào <ra>/huong_dan.json". Hướng dẫn cho người thiết kế (bổ sung đường thoát nạn, bề rộng thoát nạn, ghi chú còn thiếu…) hiện trong comment bản vẽ, dưới phần ghi chú của khung.
 6. **Gộp**: `npm -w runner run cli -- gop <ra>` → `<ra>/ket_qua.json`, `<ra>/tom_tat.md`. Job lỗi được liệt kê: chạy lại bước 4 cho job đó rồi gộp lại.
 7. **Báo cáo** ngắn cho người dùng: số dòng theo kết luận, các khung CHƯA ĐẠT, đường dẫn tom_tat.md. Để có PDF ghi chú và Word theo mẫu: mở website, nạp lại PDF gốc và `ket_qua.json` (bước 1 → "Đã có kết quả?") rồi tải ở bước 5.

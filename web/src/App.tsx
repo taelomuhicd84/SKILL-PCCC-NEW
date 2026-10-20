@@ -8,7 +8,7 @@ import { moPdf, type PdfDoc } from "./pdf";
 import { taiIndex, taiMau } from "./data";
 import { batDauLo, chayJob, kiemGemini, kiemRunner, napCookieGemini, taoPhien, xemLo, type Engine, type Phien, type SucKhoe } from "./runner";
 import { LienKet } from "./LienKet";
-import { chayMotJob, docHoSo, docTraLoiJob, gop, promptCua, raSoat, taoJobs, type Goi, type NguCanh } from "./quy_trinh";
+import { chayMotJob, docHoSo, docTraLoiJob, gop, huongDan as chayHuongDan, promptCua, raSoat, taoJobs, type Goi, type NguCanh } from "./quy_trinh";
 import { engineCuaJob, tachJson, nhomTheoCongTrinh, tenCongTrinh } from "@pccc/shared";
 import { Viewer } from "./Viewer";
 import { TuHoc } from "./TuHoc";
@@ -197,7 +197,11 @@ export default function App() {
         setTienTrinh("Agent Rà soát chéo đang làm việc…");
         try { nhom.push(await raSoat(goiP, ncP, tt, gop(nhom))); } catch (e) { setLoi("Rà soát lỗi: " + e); }
       }
-      const g = gop(nhom); setKq(g); luuKq(g);
+      let g = gop(nhom); setKq(g); luuKq(g);
+      if (huongDan && !dung.current) {
+        setTienTrinh("Agent Hướng dẫn thẩm định đang viết hướng dẫn…");
+        try { g = await chayHuongDan(goiP, ncP, tt, g); setKq(g); luuKq(g); } catch (e) { setLoi("Hướng dẫn thẩm định lỗi: " + e); }
+      }
       setTienTrinh(`Xong. ${st.filter((s) => s.trang_thai === "loi").length} job lỗi (chạy lại để thử tiếp).`);
       setBuoc(5);
     } catch (e) { setLoi(String(e)); }
