@@ -195,7 +195,7 @@ function noiDungGhiChu(j: Record<string, unknown>): string {
     dk.length ? "### Điều khoản\n" + dk.map((d) => `- **${motDong(d.dieu)}**: ${motDong(d.noi_dung)}`).join("\n") : ""].filter(Boolean).join("\n\n");
 }
 
-/** Lưu ghi chú. `kq` là kết quả kiểm soát viên: có lỗi → "can_sua" (không bao giờ tự duyệt, không vào _da_duyet.md). */
+/** Lưu ghi chú. `kq` là kết quả kiểm soát viên. Tự duyệt (không cần người) khi: bật tự duyệt, hiệu lực rõ (còn/hết), kiểm soát viên AI chạy và không thấy lỗi. Chỉ hỏi người khi: có lỗi hoặc xung đột chưa phân xử ("can_sua"), hiệu lực chưa rõ/đề xuất, hoặc kiểm soát viên AI chưa chạy được ("cho_duyet"). */
 function luuGhiChuTuJson(j: Record<string, unknown>, nguon: string, loai: GhiChu["loai"], tuDuyet: boolean, kq?: KetQuaKiem, noiSua?: string): GhiChu | null {
   if (j.phu_hop === false) return null;
   const hl = ["con_hieu_luc", "het_hieu_luc", "de_xuat", "khong_ro"].includes(String(j.hieu_luc)) ? String(j.hieu_luc) : "khong_ro";
@@ -206,7 +206,7 @@ function luuGhiChuTuJson(j: Record<string, unknown>, nguon: string, loai: GhiChu
   const id = createHash("sha1").update(nguon + "|" + motDong(j.tieu_de)).digest("hex").slice(0, 12);
   const cu = lietKe().find((g) => g.id === id);
   const g: GhiChu = { id, tieu_de: motDong(j.tieu_de) || path.basename(nguon), nguon, loai, hieu_luc: hl,
-    trang_thai: loi ? "can_sua" : cu && cu.trang_thai !== "can_sua" ? cu.trang_thai : (tuDuyet && hl === "con_hieu_luc" && !canh && kq?.ket_qua === "dat" && kq.ai ? "da_duyet" : "cho_duyet"),
+    trang_thai: loi ? "can_sua" : cu && cu.trang_thai !== "can_sua" ? cu.trang_thai : (tuDuyet && (hl === "con_hieu_luc" || hl === "het_hieu_luc") && kq?.ket_qua === "dat" && kq.ai ? "da_duyet" : "cho_duyet"),
     kiem_soat: kq ? kq.ket_qua : "", ngay: new Date().toISOString(), anh_huong: (Array.isArray(j.anh_huong) ? j.anh_huong : []).map(motDong).join(", "), canh_bao: canh, noi_dung: noi };
   ghiGhiChu(g);
   return g;

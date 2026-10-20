@@ -44,7 +44,7 @@ export function TuHoc() {
 
       <fieldset><legend>Cách học</legend>
         <label className="hang"><input type="checkbox" checked={ch.tu_dong} onChange={(e) => lam(() => cauHinhHoc({ tu_dong: e.target.checked }))} /> Tự học mỗi ngày (khi runner đang chạy){ch.lan_cuoi ? ` · lần cuối ${new Date(ch.lan_cuoi).toLocaleString("vi-VN")}` : ""}</label>
-        <label className="hang"><input type="checkbox" checked={ch.tu_duyet} onChange={(e) => lam(() => cauHinhHoc({ tu_duyet: e.target.checked }))} /> Tự duyệt ghi chú <b>còn hiệu lực</b>, không có cảnh báo (văn bản cũ, đề xuất, chưa rõ hiệu lực vẫn chờ bạn duyệt)</label>
+        <label className="hang"><input type="checkbox" checked={ch.tu_duyet} onChange={(e) => lam(() => cauHinhHoc({ tu_duyet: e.target.checked }))} /> Agent tự học + kiểm soát viên tự duyệt ghi chú khi kiểm soát viên không thấy lỗi và hiệu lực rõ. <b>Chỉ hỏi bạn</b> khi: kiểm soát viên báo lỗi/xung đột chưa phân xử ("cần sửa"), văn bản đề xuất hoặc chưa rõ hiệu lực, hoặc kiểm soát viên AI chưa chạy được (hết hạn mức)</label>
         <p className="muted">Chủ đề tìm trên mạng (mỗi dòng một chủ đề; để trống dùng chủ đề mặc định về NĐ, thông tư, QCVN, TCVN, công văn C07):</p>
         <textarea rows={3} style={{ width: "100%" }} value={chuDe} onChange={(e) => setChuDe(e.target.value)} onBlur={() => lam(() => cauHinhHoc({ chu_de: chuDe.split("\n") }))} />
         <div className="hang">
