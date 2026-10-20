@@ -15,5 +15,5 @@ runner/claude_token.json
 runner/gemini_key.json
 runner/.profile*/
 runner/hoc_cau_hinh.json
-knowledge/hoc/*
-!knowledge/hoc/README.md
+knowledge/hoc/_da_duyet.md
+knowledge/hoc/_chi_muc.json
