@@ -41,7 +41,7 @@ Repo: https://github.com/taelomuhicd84/SKILL-PCCC-NEW (nhánh `main`, riêng tư
 ## Việc người dùng cần làm (tôi không làm thay được)
 1. **Bật website**: chuyển repo Public rồi Settings → Pages → Source: GitHub Actions; hoặc kéo thả `web/dist` vào https://app.netlify.com/drop (chạy `npm run build` trước). Chạy runner kèm `PCCC_ORIGINS=https://<tên>.netlify.app`.
 2. **Key Gemini API** (aistudio.google.com/apikey) → dán vào web để chạy 10 luồng. Engine này mới qua test giả lập.
-3. **Nạp quy chuẩn còn thiếu**: nghị định hiện hành về diện thẩm duyệt. Đã nạp 2026-10-20: QCVN 10:2025/BCA (6 file `knowledge/qcvn10-2025-*.md`), QCVN 06 Điều 4–7 và Phụ lục H (từ Word), TCVN 7568-14:2025. TCVN 3890 đã bỏ. Chưa có thì dòng liên quan ghi CẦN XÁC NHẬN.
+3. **Nạp quy chuẩn còn thiếu**: Phụ lục III mới của NĐ 347/2026 (file Nghi dinh 347.pdf không có phụ lục). Đã nạp 2026-10-20: QCVN 10:2025/BCA (6 file `knowledge/qcvn10-2025-*.md`), QCVN 06 Điều 4–7 và Phụ lục H (từ Word), TCVN 7568-14:2025. TCVN 3890 đã bỏ. Chưa có thì dòng liên quan ghi CẦN XÁC NHẬN.
 4. Cho phép tạo tác vụ hẹn giờ (`mcp__scheduled-tasks__create_scheduled_task` đang bị chặn) nếu muốn tự chạy tiếp khi reset hạn mức.
 
 ## Việc tiếp theo tôi nên làm (theo thứ tự)

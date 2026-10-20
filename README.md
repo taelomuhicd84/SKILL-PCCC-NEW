@@ -77,7 +77,7 @@ Mở `so_do/quy_trinh_tham_dinh_chi_tiet.html` để xem quy trình từng giai 
 | SKILL_ngan_chay_cong_nang | 4.5, F1.3, tỉ lệ cửa/tường |
 
 ## Chưa nạp
-Toàn văn TCVN 7336, 13456 (chỉ có phần đã trích trong bảng đối chiếu chính thức); nghị định hiện hành về diện thẩm duyệt. Đã nạp: QCVN 06 Điều 4 đến 7 và Phụ lục H (từ file Word 10/2023), QCVN 10:2025/BCA (toàn văn), TCVN 7568-14:2025. TCVN 3890 đã bỏ.
+Toàn văn TCVN 7336, 13456 (chỉ có phần đã trích trong bảng đối chiếu chính thức); Phụ lục III mới của NĐ 347/2026 (diện thẩm định). Đã nạp: NĐ 105/2025 + NĐ 347/2026 về thẩm định và điều chỉnh, QCVN 06 Điều 4 đến 7 và Phụ lục H (từ file Word 10/2023), QCVN 10:2025/BCA (toàn văn), TCVN 7568-14:2025. TCVN 3890 đã bỏ.
 
 ## Lưu ý
 - Bản QCVN dùng là bản hợp nhất có chữ cũ bị gạch: chỉ nạp chữ hiện hành.

@@ -41,7 +41,7 @@ Nhịp tim: 2026-10-19 (sau reset hạn mức: hết việc tự làm được, 
 1. Đã push 2026-10-19. User cần bật Pages (Settings → Pages → Source: GitHub Actions).
 2. ~~Chạy đủ 34 job HA1~~ XONG (xem dòng 8). Còn: user rà các phát hiện mới.
 3. Engine Gemini web (Chrome ẩn, 1 tab tuần tự, có nghỉ): đã thử headless + cookie thật OK (đăng nhập, tải tệp, gửi, đọc JSON 14 s). Chạy lô nhiều tab + né phát hiện bot bị bộ phân loại an toàn chặn → đã gỡ cờ né phát hiện, thay bằng engine **Gemini API** (runner/src/engines/gemini_api.ts, 10 luồng, chờ user dán key). Trước đó: đăng nhập bằng file cookie JSON (runner/src/engines/gemini_cookies.ts: nạp, tự ghi lại cookie đã làm mới sau mỗi job + 30 phút, lệnh gemini-giu-phien). CHƯA thử với cookie thật – chờ user xuất file.
-4. ~~Nạp QCVN 10:2025/BCA, Điều 4–7 + PL H QCVN 06~~ XONG 2026-10-20 (TCVN 3890 đã bỏ). Còn: NĐ hiện hành về diện thẩm duyệt.
+4. ~~Nạp QCVN 10:2025/BCA, Điều 4–7 + PL H QCVN 06~~ XONG 2026-10-20 (TCVN 3890 đã bỏ). Đã nạp NĐ 105/2025 + NĐ 347/2026 (knowledge/nghi-dinh-tham-dinh-dieu-chinh.md). Còn: Phụ lục III mới của NĐ 347.
 5. ~~Font VNI~~ XONG: shared/src/vni.ts đổi VNI→Unicode khi trích chữ (HA1 có 368 cụm VNI ở khung tên, thuyết minh); không đụng chữ Unicode.
 
 ## Cách chạy nhanh (dev)
