@@ -13,7 +13,7 @@ import { chayGemini, coPlaywright } from "./engines/gemini";
 import { coFileCookie, chuanHoa, FILE_COOKIE } from "./engines/gemini_cookies";
 import { giuPhien } from "./engines/gemini";
 import { chayGeminiApi, coKey, luuKey } from "./engines/gemini_api";
-import { batDauHoc, boThuMuc, capNhatCauHinh, daDuyet, docCauHinh, duyet, hopThoaiThuMuc, khoiDongHoc, lietKe, themThuMuc, trangThai as ttHoc } from "./hoc";
+import { batDauHoc, boThuMuc, capNhatCauHinh, daDuyet, docCauHinh, duyet, hopThoaiThuMuc, khoiDongHoc, kiemLaiBangQuyTac, lietKe, themThuMuc, trangThai as ttHoc } from "./hoc";
 
 const PORT = Number(process.env.PCCC_PORT ?? 8787);
 const ORIGINS = ["https://taelomuhicd84.github.io", ...(process.env.PCCC_ORIGINS ?? "").split(",").filter(Boolean)];
@@ -94,10 +94,12 @@ const server = http.createServer(async (req, res) => {
       const nguon = ["thu-muc", "mang", "ca-hai"].includes(b.nguon) ? b.nguon : "ca-hai";
       return json(200, { bat_dau: batDauHoc(nguon, Math.max(1, Math.min(50, Number(b.toi_da) || 8))) });
     }
+    if (req.method === "GET" && req.url === "/hoc/kiem-lai") return json(200, { loi: kiemLaiBangQuyTac() });
     if (req.method === "POST" && req.url === "/hoc/duyet") {
       const b = await docBody(req);
-      if (!["cho_duyet", "da_duyet", "bo"].includes(b.trang_thai)) return json(400, { loi: "trạng thái không hợp lệ" });
-      duyet(String(b.id), b.trang_thai); return json(200, { ok: true });
+      if (!["cho_duyet", "da_duyet", "bo", "can_sua"].includes(b.trang_thai)) return json(400, { loi: "trạng thái không hợp lệ" });
+      try { duyet(String(b.id), b.trang_thai, b.ep === true); } catch (e) { return json(400, { loi: e instanceof Error ? e.message : String(e) }); }
+      return json(200, { ok: true });
     }
     // ---- chạy lô song song ----
     if (req.method === "POST" && req.url === "/lo") {

@@ -3,13 +3,14 @@ id: fbddfa71a9e7
 tieu_de: TCVN 14496:2025 — chữa cháy tự động bằng nước cho kho giá đỡ cao 5,5–25 m
 nguon: D:\$.4. QC - TCVN\8_TAILIEUHOCTAP\03_Tieu chuan TCVN\Chua chay bang nuoc - sprinkler - hong nuoc\TCVN 14496_2025 .pdf
 loai: thu-muc
-hieu_luc: Còn hiệu lực (TCVN 14496:2025); tương ứng SP 241.1311500.2015; QĐ 4158/QĐ-BCA 15/6/2023 chấp thuận áp dụng.
+hieu_luc: Còn hiệu lực (TCVN 14496:2025); tương ứng SP 241.1311500.2015; ~~QĐ 4158/QĐ-BCA 15/6/2023 chấp thuận áp dụng.~~ **[đính chính 2026-10-20: QĐ 4158/QĐ-BCA đã hết hiệu lực]**
 trang_thai: cho_duyet
+kiem_soat: da_sua
 ngay: 2026-10-20T06:18:31.396617Z
 anh_huong: m12 (B6): kho F5.2 cao > 5,5 m trên giá; cường độ và lưu lượng trong kệ, màn nước, điều khiển hút khói
-canh_bao: Đọc từ ảnh trang 5–18; Phụ lục A (hình) chưa đọc; kiểm bảng 4, 6 khi trích dẫn.
+canh_bao: Đọc từ ảnh trang 5–18; Phụ lục A (hình) chưa đọc; kiểm bảng 4, 6 khi trích dẫn. · xung đột hiệu lực QĐ 4158 đã gỡ
 ---
-Nguồn: TCVN 14496:2025 Phòng cháy chữa cháy — Hệ thống chữa cháy tự động bằng nước cho nhà kho có chiều cao sắp xếp hàng hóa trên giá đỡ cao trên 5,5 m đến 25 m — Yêu cầu thiết kế (đọc từ ảnh trang 5–18; Phụ lục A hình minh họa không đọc). Đây là bản tiêu chuẩn Việt Nam tương ứng SP 241.1311500.2015 của Nga (bản dịch cùng thư mục) và QĐ 4158/QĐ-BCA 15/6/2023; nội dung tập huấn sprinkler về kho giá kệ trùng khớp.
+Nguồn: TCVN 14496:2025 Phòng cháy chữa cháy — Hệ thống chữa cháy tự động bằng nước cho nhà kho có chiều cao sắp xếp hàng hóa trên giá đỡ cao trên 5,5 m đến 25 m — Yêu cầu thiết kế (đọc từ ảnh trang 5–18; Phụ lục A hình minh họa không đọc). Đây là bản tiêu chuẩn Việt Nam tương ứng SP 241.1311500.2015 của Nga (bản dịch cùng thư mục) ~~và QĐ 4158/QĐ-BCA 15/6/2023; nội dung tập huấn sprinkler về kho giá kệ trùng khớp.~~ **[đính chính 2026-10-20: QĐ 4158 đã hết hiệu lực; nội dung tập huấn sprinkler về kho giá kệ trùng khớp về kỹ thuật]**
 
 ## Phạm vi, quy định chung
 - Kho nhóm F5.2 lưu hàng trên giá đỡ cao > 5,5 m đến 25 m; giải pháp một tầng hoặc nhiều tầng đầu phun. Không áp dụng kho lưu vecni, sơn, chất lỏng cháy, chất nổ, phóng xạ, hóa chất phản ứng với nước (hợp chất hữu cơ nhôm, kim loại kiềm, natri hydrosulfit...), vật liệu cháy âm ỉ (bông, thuốc lá), phân bón, aerosol... Kho cao ≤ 5,5 m dùng TCVN 7336.
@@ -33,3 +34,5 @@ Nguồn: TCVN 14496:2025 Phòng cháy chữa cháy — Hệ thống chữa cháy
 
 ## Điều khiển, cấp điện (mục 8)
 - Tự phát hiện và báo cháy tới trung tâm, xác định vùng kích hoạt, tự khởi động cụm bơm, tự chuyển nguồn chính/dự phòng, tự mở van điện, **dừng thông gió và khởi động hút khói**, ngắt thiết bị/dây chuyền công nghệ, báo cho người làm việc, báo trạng thái. Van điều khiển: nhận tín hiệu, điều khiển từ xa, có tín hiệu "Mở/Đóng". Bơm: khởi động tự động khi có tín hiệu hoặc khi áp suất ống giảm đến giá trị cài; khởi động từ xa từ phòng trực chống cháy và tại trạm; bơm dự phòng tự khởi động khi bơm chính hỏng hoặc không đạt chế độ sau thời gian cài đặt; báo động khởi động bơm và mất nguồn điều khiển/chuyển nguồn. **Hút xả khói và cấp khí chống khói được kích hoạt bởi hệ thống chữa cháy tự động với độ trễ 4 ± 1 phút** (cho phép khởi động tay). Thiết bị điện áp > 24 V phải nối đất bảo vệ.
+
+**Đính chính (kiểm soát viên 2026-10-20):** Quyết định 4158/QĐ-BCA-PCCC&CNCH ngày 15/6/2023 đã HẾT HIỆU LỰC (Công văn phúc đáp C07, knowledge/nghi-dinh-tham-dinh-dieu-chinh.md câu 4; xem thứ tự ưu tiên: công văn chính thức mới hơn thắng tài liệu tập huấn). Kho giá kệ cao > 5,5 m nay thiết kế theo TCVN 14496:2025 (tương ứng SP 241.1311500.2015); tài liệu nước ngoài (NFPA 13…) dùng theo quy định về tài liệu chuẩn nước ngoài (QCVN 06 SĐ1 điều 1.1.7, 1.5), nhà cao trên 20 m dùng tiêu chuẩn nước ngoài thuộc điểm g khoản 1 Điều 9 Thông tư 36/2025/TT-BCA (Cục C07 thẩm định).

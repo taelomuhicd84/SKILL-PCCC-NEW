@@ -1,0 +1,5 @@
+- 2026-10-20 ĐÍNH CHÍNH 0295bcc50340: xung đột với công văn phúc đáp C07 về hiệu lực QĐ 4158 đã gỡ
+- 2026-10-20 ĐÍNH CHÍNH fbddfa71a9e7: xung đột hiệu lực QĐ 4158 đã gỡ
+- 2026-10-20 ĐÍNH CHÍNH b6694167594c: xung đột về hiệu lực TCVN 4513:1988 đã gỡ
+- 2026-10-20 ĐÍNH CHÍNH eae8f75f34ad: xung đột dầm/vùng/âm thanh với TCVN 7568-14:2025 đã gỡ
+- 2026-10-20 ĐÍNH CHÍNH 0b87589569c1: xung đột quy tắc dầm 25%/40% với TCVN 7568-14:2025 đã gỡ

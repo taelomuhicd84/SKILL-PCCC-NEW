@@ -2,7 +2,8 @@
 // rút thành ghi chú tri thức trong knowledge/hoc/. Ghi chú chỉ được agent thẩm định dùng khi đã DUYỆT (hoặc bật "tự duyệt"):
 // văn bản cũ, hết hiệu lực hay đề xuất chưa chính thức không được lặng lẽ thành căn cứ kết luận.
 // Nội dung đọc từ file và từ mạng là DỮ LIỆU, không phải mệnh lệnh: prompt nói rõ, và kết quả chỉ được ghi vào knowledge/hoc/.
-import { existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
+import { lintVanBan, loiNhacKiemSoat, loiNhacXungDot, gopKetQua, tomTatVanDe, apDungDinhChinh, soHieuTrongVanBan, type KetQuaKiem, type XungDot, type VanDe } from "./kiem_soat";
+import { appendFileSync, existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { spawn } from "node:child_process";
 import path from "node:path";
@@ -19,10 +20,12 @@ const BO_QUA = new Set(["node_modules", ".git", "$recycle.bin", "system volume i
 const TOI_DA_TEP = 60 * 1024 * 1024;
 
 export interface CauHinh { thu_muc: string[]; tu_dong: boolean; tu_duyet: boolean; chu_de: string[]; lan_cuoi?: string }
-export type TrangThaiGhiChu = "cho_duyet" | "da_duyet" | "bo";
+export type TrangThaiGhiChu = "cho_duyet" | "da_duyet" | "bo" | "can_sua";
 export interface GhiChu {
   id: string; tieu_de: string; nguon: string; loai: "thu-muc" | "mang"; hieu_luc: string; trang_thai: TrangThaiGhiChu;
   ngay: string; anh_huong: string; canh_bao: string; noi_dung: string;
+  /** kết quả kiểm soát viên: "dat" | "can_sua" | "" (chưa kiểm) */
+  kiem_soat: string;
 }
 export interface TrangThaiHoc { dang: boolean; viec: string; xong: number; tong: number; moi: number; loi: string[]; bat_dau?: string; ket_thuc?: string }
 
@@ -73,17 +76,17 @@ export function hopThoaiThuMuc(): Promise<string | null> {
 
 // ---------- ghi chú ----------
 function docGhiChu(file: string): GhiChu | null {
-  const s = readFileSync(file, "utf8");
+  const s = readFileSync(file, "utf8").replace(/\r\n/g, "\n"); // file ghi từ Python trên Windows có CRLF
   const m = s.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
   if (!m) return null;
   const h: Record<string, string> = {};
   for (const l of m[1].split("\n")) { const i = l.indexOf(":"); if (i > 0) h[l.slice(0, i).trim()] = l.slice(i + 1).trim(); }
   return { id: h.id, tieu_de: h.tieu_de ?? "", nguon: h.nguon ?? "", loai: (h.loai as GhiChu["loai"]) ?? "thu-muc", hieu_luc: h.hieu_luc ?? "khong_ro",
-    trang_thai: (h.trang_thai as TrangThaiGhiChu) ?? "cho_duyet", ngay: h.ngay ?? "", anh_huong: h.anh_huong ?? "", canh_bao: h.canh_bao ?? "", noi_dung: m[2] };
+    trang_thai: (h.trang_thai as TrangThaiGhiChu) ?? "cho_duyet", ngay: h.ngay ?? "", anh_huong: h.anh_huong ?? "", canh_bao: h.canh_bao ?? "", kiem_soat: h.kiem_soat ?? "", noi_dung: m[2] };
 }
 const motDong = (s: unknown) => String(s ?? "").replace(/\s+/g, " ").trim();
 function ghiGhiChu(g: GhiChu) {
-  const dau = (["id", "tieu_de", "nguon", "loai", "hieu_luc", "trang_thai", "ngay", "anh_huong", "canh_bao"] as const).map((k) => `${k}: ${motDong(g[k])}`).join("\n");
+  const dau = (["id", "tieu_de", "nguon", "loai", "hieu_luc", "trang_thai", "kiem_soat", "ngay", "anh_huong", "canh_bao"] as const).map((k) => `${k}: ${motDong(g[k])}`).join("\n");
   writeFileSync(path.join(THU_MUC_HOC, `${g.id}.md`), `---\n${dau}\n---\n${g.noi_dung.trim()}\n`, "utf8");
 }
 export function lietKe(): GhiChu[] {
@@ -91,9 +94,10 @@ export function lietKe(): GhiChu[] {
   return readdirSync(THU_MUC_HOC).filter((f) => f.endsWith(".md") && !f.startsWith("_")).map((f) => docGhiChu(path.join(THU_MUC_HOC, f)))
     .filter((g): g is GhiChu => !!g).sort((a, b) => b.ngay.localeCompare(a.ngay));
 }
-export function duyet(id: string, tt: TrangThaiGhiChu) {
+export function duyet(id: string, tt: TrangThaiGhiChu, ep = false) {
   const g = lietKe().find((x) => x.id === id);
   if (!g) throw new Error("không có ghi chú " + id);
+  if (tt === "da_duyet" && g.trang_thai === "can_sua" && !ep) throw new Error("Kiểm soát viên đã báo lỗi ghi chú này (xem Cảnh báo): sửa/bỏ ghi chú, hoặc duyệt ép nếu bạn chắc nó đúng.");
   g.trang_thai = tt; ghiGhiChu(g); taoDaDuyet();
 }
 
@@ -183,21 +187,111 @@ const DINH_DANG = `{"phu_hop":true,"tieu_de":"tên văn bản (số hiệu, ngà
 const QUY_TAC_HOC = `Quy tắc: chỉ ghi điều có trong nguồn, không bịa trị số; chỉ lấy điều dùng được khi thẩm định hoặc hướng dẫn thiết kế PCCC (diện thẩm định, trang bị hệ thống, khoảng cách, thoát nạn, ngăn cháy, trị số kỹ thuật…); hieu_luc "khong_ro" nếu nguồn không nói rõ; "de_xuat" cho dự thảo, văn bản đề xuất, câu hỏi chưa được trả lời chính thức; "het_hieu_luc" nếu đã bị thay thế, bãi bỏ. Agent thẩm định: ${ID_AGENT}.
 ${DA_CHOT}`;
 
-function luuGhiChuTuJson(j: Record<string, unknown>, nguon: string, loai: GhiChu["loai"], tuDuyet: boolean): GhiChu | null {
-  if (j.phu_hop === false) return null;
+function noiDungGhiChu(j: Record<string, unknown>): string {
   const dk = Array.isArray(j.dieu_khoan) ? (j.dieu_khoan as { dieu?: string; noi_dung?: string }[]) : [];
-  const hl = ["con_hieu_luc", "het_hieu_luc", "de_xuat", "khong_ro"].includes(String(j.hieu_luc)) ? String(j.hieu_luc) : "khong_ro";
   const canh = motDong(j.canh_bao);
-  const noi = [motDong(j.tom_tat), j.so_hieu ? `Số hiệu: ${motDong(j.so_hieu)}${j.co_quan ? " · " + motDong(j.co_quan) : ""}${j.ngay_ban_hanh ? " · ban hành " + motDong(j.ngay_ban_hanh) : ""}` : "",
+  return [motDong(j.tom_tat), j.so_hieu ? `Số hiệu: ${motDong(j.so_hieu)}${j.co_quan ? " · " + motDong(j.co_quan) : ""}${j.ngay_ban_hanh ? " · ban hành " + motDong(j.ngay_ban_hanh) : ""}` : "",
     j.bi_thay_the_boi ? `Bị thay thế bởi: ${motDong(j.bi_thay_the_boi)}` : "", canh ? `**Cảnh báo:** ${canh}` : "",
     dk.length ? "### Điều khoản\n" + dk.map((d) => `- **${motDong(d.dieu)}**: ${motDong(d.noi_dung)}`).join("\n") : ""].filter(Boolean).join("\n\n");
+}
+
+/** Lưu ghi chú. `kq` là kết quả kiểm soát viên: có lỗi → "can_sua" (không bao giờ tự duyệt, không vào _da_duyet.md). */
+function luuGhiChuTuJson(j: Record<string, unknown>, nguon: string, loai: GhiChu["loai"], tuDuyet: boolean, kq?: KetQuaKiem, noiSua?: string): GhiChu | null {
+  if (j.phu_hop === false) return null;
+  const hl = ["con_hieu_luc", "het_hieu_luc", "de_xuat", "khong_ro"].includes(String(j.hieu_luc)) ? String(j.hieu_luc) : "khong_ro";
+  let canh = motDong(j.canh_bao);
+  const loi = kq?.ket_qua === "can_sua";
+  if (loi) canh = [canh, "KIỂM SOÁT VIÊN: " + tomTatVanDe(kq!.van_de)].filter(Boolean).join(" · ");
+  const noi = noiSua ?? noiDungGhiChu(j);
   const id = createHash("sha1").update(nguon + "|" + motDong(j.tieu_de)).digest("hex").slice(0, 12);
   const cu = lietKe().find((g) => g.id === id);
   const g: GhiChu = { id, tieu_de: motDong(j.tieu_de) || path.basename(nguon), nguon, loai, hieu_luc: hl,
-    trang_thai: cu?.trang_thai ?? (tuDuyet && hl === "con_hieu_luc" && !canh ? "da_duyet" : "cho_duyet"),
-    ngay: new Date().toISOString(), anh_huong: (Array.isArray(j.anh_huong) ? j.anh_huong : []).map(motDong).join(", "), canh_bao: canh, noi_dung: noi };
+    trang_thai: loi ? "can_sua" : cu && cu.trang_thai !== "can_sua" ? cu.trang_thai : (tuDuyet && hl === "con_hieu_luc" && !canh && kq?.ket_qua === "dat" && kq.ai ? "da_duyet" : "cho_duyet"),
+    kiem_soat: kq ? kq.ket_qua : "", ngay: new Date().toISOString(), anh_huong: (Array.isArray(j.anh_huong) ? j.anh_huong : []).map(motDong).join(", "), canh_bao: canh, noi_dung: noi };
   ghiGhiChu(g);
   return g;
+}
+
+
+// ---------- kiểm soát viên: soát thuật ngữ/số hiệu/trị số + gỡ xung đột trước khi ghi ----------
+const FILE_NHAT_KY = path.join(THU_MUC_HOC, "_nhat_ky_kiem_soat.md");
+const nhatKy = (dong: string) => { try { appendFileSync(FILE_NHAT_KY, `- ${new Date().toISOString().slice(0, 16)} ${dong}\n`, "utf8"); } catch { /* không chặn việc học */ } };
+
+/** Tri thức chính thức (knowledge/) theo số hiệu văn bản, dùng để đối chiếu xung đột. */
+const KNOWLEDGE_THEO_SO_HIEU: [RegExp, string[]][] = [
+  [/QCVN 10\b/, ["qcvn10-2025-chung.md", "qcvn10-2025-nuoc-chua-chay.md", "qcvn10-2025-bao-chay-chua-chay-tu-dong.md", "qcvn10-2025-binh-dung-cu-co-gioi.md", "qcvn10-2025-den-loa.md", "qcvn10-2025-phu-luc-h.md"]],
+  [/QCVN 06\b/, ["qcvn06-dieu-4.md", "qcvn06-dieu-5.md", "qcvn06-dieu-6.md", "qcvn06-dieu-7.md", "qcvn06-phu-luc-h.md"]],
+  [/TCVN 7568/, ["tcvn7568-14-2025.md"]],
+  [/N[Đđ] (105|347)\//, ["nghi-dinh-tham-dinh-dieu-chinh.md"]],
+];
+function lienQuan(moi: { id: string; noi_dung: string }): { nguon: string; noi_dung: string }[] {
+  const sh = soHieuTrongVanBan(moi.noi_dung);
+  const out: { nguon: string; noi_dung: string }[] = [];
+  if (!sh.size) return out;
+  for (const g of lietKe()) {
+    if (g.id === moi.id || g.trang_thai === "bo") continue;
+    const k = soHieuTrongVanBan(g.noi_dung + " " + g.tieu_de);
+    if ([...sh].some((x) => k.has(x))) out.push({ nguon: g.id + " (" + g.tieu_de + ")", noi_dung: g.noi_dung });
+    if (out.length >= 6) break;
+  }
+  const dk = new Set<string>();
+  for (const x of sh) for (const [re, fs] of KNOWLEDGE_THEO_SO_HIEU) if (re.test(x)) fs.forEach((f) => dk.add(f));
+  for (const f of dk) { const fp = path.join(GOC_REPO, "knowledge", f); if (existsSync(fp)) out.push({ nguon: "knowledge/" + f, noi_dung: readFileSync(fp, "utf8").slice(0, 9000) }); }
+  return out.slice(0, 10);
+}
+
+/** Phân xử từng xung đột: bên sai được sửa tại chỗ (ghi chú tự học) hoặc báo người thẩm định (knowledge/ chính thức, không tự sửa). */
+function apDungXungDot(moi: { id: string; noi_dung: string }, xd: XungDot[]): { noi: string; van_de: VanDe[] } {
+  let noi = moi.noi_dung; const van_de: VanDe[] = [];
+  const timId = (n: string) => n.match(/^[0-9a-f]{12}/)?.[0];
+  for (const x of xd) {
+    const mau = `${x.muc}: «${x.ben_a.trich.slice(0, 80)}» ↔ «${x.ben_b.trich.slice(0, 80)}»`;
+    if (x.ben_dung === "chua_phan_xu" || x.ben_dung === "ca_hai_sai") { van_de.push({ loai: "khac", trich: mau, ly_do: `xung đột chưa phân xử được (${x.can_cu}): người thẩm định quyết định` }); nhatKy(`XUNG ĐỘT treo: ${mau}`); continue; }
+    const sai = x.ben_dung === "a" ? x.ben_b : x.ben_a, dung = x.ben_dung === "a" ? x.ben_a : x.ben_b;
+    const idSai = timId(sai.nguon), laMoi = idSai === moi.id || (!idSai && !sai.nguon.startsWith("knowledge/"));
+    if (sai.nguon.startsWith("knowledge/")) { van_de.push({ loai: "khac", trich: mau, ly_do: `mâu thuẫn với ${sai.nguon} (chính thức): không tự sửa file chính thức, người thẩm định kiểm tra` }); nhatKy(`XUNG ĐỘT với knowledge ${sai.nguon}: ${mau}`); continue; }
+    if (laMoi) { const r = apDungDinhChinh(noi, sai.trich, x.cach_sua ?? ""); noi = r.text; nhatKy(`ĐÍNH CHÍNH ghi chú mới ${moi.id}: ${mau} → bên đúng: ${dung.nguon}`); van_de.push({ loai: "khac", trich: mau, dung: x.cach_sua, ly_do: `đã tự đính chính theo ${x.can_cu}` }); continue; }
+    const cu = lietKe().find((g) => g.id === idSai);
+    if (cu) {
+      const r = apDungDinhChinh(cu.noi_dung, sai.trich, x.cach_sua ?? "");
+      if (r.doi) { cu.noi_dung = r.text; cu.trang_thai = "cho_duyet"; cu.kiem_soat = "da_sua"; cu.canh_bao = [cu.canh_bao, `Đã đính chính do xung đột với ${dung.nguon}: ${x.muc}`].filter(Boolean).join(" · "); ghiGhiChu(cu); taoDaDuyet(); nhatKy(`ĐÍNH CHÍNH ghi chú cũ ${cu.id}: ${mau} → bên đúng: ${dung.nguon} (${x.can_cu}); chờ duyệt lại`); }
+    }
+  }
+  return { noi, van_de };
+}
+
+/** Kiểm soát một ghi chú trước khi lưu: (1) lint, (2) kiểm soát viên AI đối chiếu nguồn, (3) gỡ xung đột với tri thức khác. */
+async function kiemSoatGhiChu(j: Record<string, unknown>, chu: string): Promise<{ kq: KetQuaKiem; noiSua: string }> {
+  const id = createHash("sha1").update(String(j._nguon ?? "") + "|" + motDong(j.tieu_de)).digest("hex").slice(0, 12);
+  let noi = noiDungGhiChu(j);
+  const lint = lintVanBan(`${motDong(j.tieu_de)}\n${noi}`);
+  let ai: { ket_qua?: string; van_de?: VanDe[] } | undefined;
+  try { ai = tachJson(await goiClaude(loiNhacKiemSoat(noi, chu, DA_CHOT), 10 * 60_000, ["Read"])) as typeof ai; }
+  catch (e) { lint.push({ loai: "khac", trich: "", ly_do: "kiểm soát viên AI chưa chạy được (" + String(e).slice(0, 80) + "): ghi chú chưa được kiểm" }); }
+  const lq = lienQuan({ id, noi_dung: noi });
+  let treo: VanDe[] = [];
+  if (lq.length && ai) {
+    try {
+      const xd = ((tachJson(await goiClaude(loiNhacXungDot({ id, tieu_de: motDong(j.tieu_de), noi_dung: noi }, lq), 10 * 60_000, ["Read"])) as { xung_dot?: XungDot[] }).xung_dot) ?? [];
+      const r = apDungXungDot({ id, noi_dung: noi }, xd); noi = r.noi; treo = r.van_de;
+    } catch (e) { treo = [{ loai: "khac", trich: "", ly_do: "kiểm tra xung đột chưa chạy được: " + String(e).slice(0, 80) }]; }
+  }
+  const daSua = treo.filter((v) => v.ly_do.startsWith("đã tự đính chính"));
+  const chan = treo.filter((v) => !v.ly_do.startsWith("đã tự đính chính"));
+  const kq = gopKetQua([...lint, ...chan], ai);
+  kq.van_de.push(...daSua);
+  nhatKy(`kiểm ${id} "${motDong(j.tieu_de).slice(0, 60)}": ${kq.ket_qua}${kq.van_de.length ? " · " + tomTatVanDe(kq.van_de).slice(0, 300) : ""}`);
+  return { kq, noiSua: noi };
+}
+
+/** Kiểm lại ghi chú đã có bằng quy tắc (không gọi AI, không tốn hạn mức). */
+export function kiemLaiBangQuyTac(): { id: string; tieu_de: string; van_de: VanDe[] }[] {
+  const ra: { id: string; tieu_de: string; van_de: VanDe[] }[] = [];
+  for (const g of lietKe()) {
+    const van = lintVanBan(`${g.tieu_de}\n${g.noi_dung}\n${g.hieu_luc}`);
+    if (van.length) ra.push({ id: g.id, tieu_de: g.tieu_de, van_de: van });
+  }
+  return ra;
 }
 
 // ---------- học từ thư mục ----------
@@ -245,7 +339,10 @@ ${DINH_DANG}
 ${chu.slice(0, 90_000)}
 VAN_BAN>>>`;
       const j = tachJson(await goiClaude(prompt, 15 * 60_000)) as Record<string, unknown>;
-      const g = luuGhiChuTuJson(j, f, "thu-muc", c.tu_duyet);
+      j._nguon = f;
+      if (j.phu_hop !== false) trangThai.viec = "Kiểm soát viên đang soát: " + path.basename(f);
+      const ks = j.phu_hop === false ? undefined : await kiemSoatGhiChu(j, chu);
+      const g = luuGhiChuTuJson(j, f, "thu-muc", c.tu_duyet, ks?.kq, ks?.noiSua);
       cm.da_doc[f] = { mtime: st.mtimeMs, size: st.size, id: g?.id, ghi: g ? undefined : "không liên quan PCCC" };
       if (g) trangThai.moi++;
     } catch (e) { trangThai.loi.push(`${path.basename(f)}: ${String(e).slice(0, 200)}`); }
@@ -272,7 +369,10 @@ Tối đa 8 văn bản. Trả về MỘT khối \`\`\`json: {"van_ban":[ ${DINH_
     for (const v of j.van_ban ?? []) {
       const url = motDong(v.nguon_url);
       if (!/^https?:\/\//.test(url)) { trangThai.loi.push(`Bỏ "${motDong(v.tieu_de)}": không có đường dẫn nguồn.`); continue; }
-      if (luuGhiChuTuJson(v, url, "mang", c.tu_duyet)) trangThai.moi++;
+      v._nguon = url;
+      trangThai.viec = "Kiểm soát viên đang soát: " + motDong(v.tieu_de).slice(0, 60);
+      const ks = v.phu_hop === false ? undefined : await kiemSoatGhiChu(v, "");
+      if (luuGhiChuTuJson(v, url, "mang", c.tu_duyet, ks?.kq, ks?.noiSua)) trangThai.moi++;
     }
   } catch (e) { trangThai.loi.push("Tìm trên mạng: " + String(e).slice(0, 300)); }
   trangThai.xong++;

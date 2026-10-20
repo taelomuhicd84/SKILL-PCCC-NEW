@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { cauHinhHoc, chayHoc, duyetHoc, thuMucHoc, xemHoc, type CauHinhHoc, type GhiChuHoc, type TrangThaiHoc } from "./runner";
 
 const NHAN_HL: Record<string, string> = { con_hieu_luc: "còn hiệu lực", het_hieu_luc: "hết hiệu lực", de_xuat: "đề xuất", khong_ro: "chưa rõ" };
-const NHAN_TT: Record<GhiChuHoc["trang_thai"], string> = { cho_duyet: "chờ duyệt", da_duyet: "đã duyệt", bo: "đã bỏ" };
+const NHAN_TT: Record<GhiChuHoc["trang_thai"], string> = { cho_duyet: "chờ duyệt", da_duyet: "đã duyệt", bo: "đã bỏ", can_sua: "kiểm soát: cần sửa" };
 
 export function TuHoc() {
   const [ch, setCh] = useState<CauHinhHoc | null>(null);
@@ -58,7 +58,7 @@ export function TuHoc() {
 
       <h3>Ghi chú đã học</h3>
       <div className="hang">
-        {(["cho_duyet", "da_duyet", "bo", "tat-ca"] as const).map((k) => (
+        {(["cho_duyet", "can_sua", "da_duyet", "bo", "tat-ca"] as const).map((k) => (
           <button key={k} className={loc === k ? "on" : ""} onClick={() => setLoc(k)}>{k === "tat-ca" ? `Tất cả (${ds.length})` : `${NHAN_TT[k]} (${dem(k)})`}</button>))}
       </div>
       {hien.length === 0 ? <p className="muted">Không có ghi chú.</p> : (
@@ -67,12 +67,15 @@ export function TuHoc() {
           <tbody>{hien.map((g) => (
             <tr key={g.id}>
               <td><details><summary><b>{g.tieu_de}</b>{g.anh_huong ? <span className="muted"> · {g.anh_huong}</span> : null}</summary><div className="tom-tat">{g.noi_dung}</div></details>
-                {g.canh_bao && <div className="c-do">Cảnh báo: {g.canh_bao}</div>}</td>
+                {g.canh_bao && <div className="c-do">Cảnh báo: {g.canh_bao}</div>}
+                {g.kiem_soat === "da_sua" && <div className="muted">Kiểm soát viên đã đính chính xung đột (xem đoạn "Đính chính" trong ghi chú) — đọc lại trước khi duyệt.</div>}</td>
               <td>{NHAN_HL[g.hieu_luc] ?? g.hieu_luc}</td>
               <td className="tom-tat">{g.loai === "mang" ? <a href={g.nguon} target="_blank" rel="noreferrer">{g.nguon.replace(/^https?:\/\//, "").slice(0, 50)}</a> : <code title={g.nguon}>{g.nguon.split(/[\\/]/).pop()}</code>}</td>
               <td>{NHAN_TT[g.trang_thai]}</td>
               <td>
-                {g.trang_thai !== "da_duyet" && <button onClick={() => lam(() => duyetHoc(g.id, "da_duyet"))}>Duyệt</button>}
+                {g.trang_thai !== "da_duyet" && (g.trang_thai === "can_sua"
+                  ? <button title="Kiểm soát viên báo lỗi; chỉ duyệt khi bạn chắc ghi chú đúng" onClick={() => window.confirm("Kiểm soát viên đã báo lỗi ghi chú này (xem Cảnh báo). Duyệt ép?") && lam(() => duyetHoc(g.id, "da_duyet", true))}>Duyệt ép</button>
+                  : <button onClick={() => lam(() => duyetHoc(g.id, "da_duyet"))}>Duyệt</button>)}
                 {g.trang_thai !== "bo" && <button onClick={() => lam(() => duyetHoc(g.id, "bo"))}>Bỏ</button>}
                 {g.trang_thai !== "cho_duyet" && <button onClick={() => lam(() => duyetHoc(g.id, "cho_duyet"))}>Xem lại</button>}
               </td>

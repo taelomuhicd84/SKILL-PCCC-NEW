@@ -233,9 +233,11 @@ export default function App() {
     for (const f of jsons) {
       let j: unknown;
       try { j = JSON.parse(await f.text()); } catch { setLoi(`${f.name}: không phải JSON hợp lệ.`); continue; }
-      if (Array.isArray(j) && j.some((c) => c && typeof c === "object" && "name" in c && "value" in c)) { // cookie Gemini (Cookie-Editor)
+      // cookie Gemini: mảng thuần (EditThisCookie) hoặc {url, cookies:[…]} (Cookie-Editor bản mới, trạng thái Playwright)
+      const dsCookie = Array.isArray(j) ? j : j && typeof j === "object" && Array.isArray((j as { cookies?: unknown }).cookies) ? (j as { cookies: unknown[] }).cookies : null;
+      if (dsCookie && dsCookie.some((c) => c && typeof c === "object" && "name" in c && "value" in c)) {
         try {
-          const r = await napCookieGemini(j); const k = await kiemGemini();
+          const r = await napCookieGemini(dsCookie); const k = await kiemGemini();
           thongBao.push(`Đã nạp ${r.so_cookie} cookie Gemini: ${k.dang_nhap ? "đăng nhập được" : "chưa đăng nhập được, xuất lại cookie"}.`);
           kiemRunner().then(setSk);
         } catch (e) { setLoi(`${f.name}: ${e instanceof Error ? e.message : e}`); }

@@ -68,7 +68,7 @@ export async function xemLo(id: string): Promise<TrangThaiLo> {
 
 // ---- agent tự học ----
 export interface CauHinhHoc { thu_muc: string[]; tu_dong: boolean; tu_duyet: boolean; chu_de: string[]; lan_cuoi?: string }
-export interface GhiChuHoc { id: string; tieu_de: string; nguon: string; loai: "thu-muc" | "mang"; hieu_luc: string; trang_thai: "cho_duyet" | "da_duyet" | "bo"; ngay: string; anh_huong: string; canh_bao: string; noi_dung: string }
+export interface GhiChuHoc { id: string; tieu_de: string; nguon: string; loai: "thu-muc" | "mang"; hieu_luc: string; trang_thai: "cho_duyet" | "da_duyet" | "bo" | "can_sua"; kiem_soat?: string; ngay: string; anh_huong: string; canh_bao: string; noi_dung: string }
 export interface TrangThaiHoc { dang: boolean; viec: string; xong: number; tong: number; moi: number; loi: string[]; bat_dau?: string; ket_thuc?: string }
 export async function xemHoc(): Promise<{ cau_hinh: CauHinhHoc; ghi_chu: GhiChuHoc[]; trang_thai: TrangThaiHoc }> {
   const r = await fetch(`${RUNNER}/hoc`);
@@ -78,4 +78,4 @@ export async function xemHoc(): Promise<{ cau_hinh: CauHinhHoc; ghi_chu: GhiChuH
 export const thuMucHoc = (b: { them?: string; bo?: string; chon?: boolean }) => post<CauHinhHoc>("/hoc/thu-muc", b);
 export const cauHinhHoc = (b: Partial<Pick<CauHinhHoc, "tu_dong" | "tu_duyet" | "chu_de">>) => post<CauHinhHoc>("/hoc/cau-hinh", b);
 export const chayHoc = (nguon: "thu-muc" | "mang" | "ca-hai", toi_da?: number) => post<{ bat_dau: boolean }>("/hoc/chay", { nguon, toi_da });
-export const duyetHoc = (id: string, trang_thai: GhiChuHoc["trang_thai"]) => post("/hoc/duyet", { id, trang_thai });
+export const duyetHoc = (id: string, trang_thai: GhiChuHoc["trang_thai"], ep = false) => post("/hoc/duyet", { id, trang_thai, ep });
