@@ -30,7 +30,7 @@ Dùng để kiểm tra ghi chú tự học có dùng sai thuật ngữ, số hi�
 - **Hút khói, thoát khói tự nhiên, chống tụ khói, tăng áp (cấp không khí chống khói)**: chống tụ khói = hút/thoát khói khỏi gian phòng, hành lang; tăng áp = cấp gió tạo áp dương cho buồng thang, giếng thang máy, khoang đệm. Không đánh đồng.
 - **Chữa cháy bằng khí / sol-khí / bọt**: khí theo TCVN 7161 (ISO 14520); sol-khí đạt UL 2775; bọt bội số nở thấp/trung bình/cao.
 - **Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn**: TCVN 13456:2022 — đèn chiếu sáng sự cố, biển báo an toàn (lối ra, chỉ hướng), sơ đồ chỉ dẫn thoát nạn. Khác "loa thông báo và hướng dẫn thoát nạn".
-- **Phương tiện chữa cháy ban đầu**: bình chữa cháy xách tay/xe đẩy (TCVN 7435-1), dụng cụ phá dỡ thô sơ, mặt nạ lọc độc/mặt nạ phòng độc cách ly. Trang bị theo **QCVN 10:2025/BCA** (hiệu lực 30/12/2025, thay TCVN 3890).
+- **Phương tiện chữa cháy ban đầu**: bình chữa cháy xách tay/xe đẩy (TCVN 7435-1), dụng cụ phá dỡ thô sơ, mặt nạ lọc độc/mặt nạ phòng độc cách ly. Trang bị theo **QCVN 10:2025/BCA** (hiệu lực 30/12/2025, thay tiêu chuẩn trang bị cũ).
 
 ## 4. Văn bản và tiêu chuẩn: số hiệu – năm – hiệu lực (đã chốt)
 | Văn bản | Số hiệu đúng | Trạng thái |
@@ -39,7 +39,7 @@ Dùng để kiểm tra ghi chú tự học có dùng sai thuật ngữ, số hi�
 | Nghị định thẩm định | NĐ 105/2025/NĐ-CP (15/5/2025) | hiện hành, sửa bởi NĐ 347/2026/NĐ-CP (8/9/2026, hiệu lực 15/9/2026) |
 | Nghị định cũ | NĐ 136/2020/NĐ-CP; NĐ 50/2024/NĐ-CP | hết hiệu lực (chỉ dùng cho thẩm duyệt điều chỉnh hồ sơ có giấy chứng nhận cũ) |
 | QCVN an toàn cháy | QCVN 06:2022/BXD + Sửa đổi 1:2023 | hiện hành (QCVN 06:2010 đã bị thay) |
-| QCVN trang bị PCCC | QCVN 10:2025/BCA | hiện hành (thay TCVN 3890:2023) |
+| QCVN trang bị PCCC | QCVN 10:2025/BCA | hiện hành (thay tiêu chuẩn trang bị cũ) |
 | QCVN trạm bơm | QCVN 02:2020/BCA | chưa xác minh còn hiệu lực 2026 |
 | QCVN gara | QCVN 13:2018/BXD | chưa xác minh còn hiệu lực 2026; viện dẫn QCVN 06:2010 cũ |
 | Chữa cháy nước, bọt | TCVN 7336:2021 | hiện hành |

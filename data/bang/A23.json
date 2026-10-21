@@ -13,7 +13,6 @@
 "6. Danh mục các Quy chuẩn, tiêu chuẩn, quy định áp dụng để đối chiếu thẩm định",
 "- QCVN 06:2022/BXD: Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình;",
 "- Sửa đổi 1 QCVN 06:2022/BXD: Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình;",
-"- TCVN 3890:2023: Phòng cháy chữa cháy - Phương tiện PCCC cho nhà và công trình - Trang bị, bố trí.",
 "- TCVN 13878:2023 Phòng cháy chữa cháy – Hầm đường bộ Yêu cầu thiết kế.",
 "- TCVN 7568-14:2025: Hệ thống báo cháy - Phần 14: Thiết kế, lắp đặt, vận hành và bảo dưỡng các hệ thống báo cháy trong nhà và xung quanh tòa nhà.",
 "- TCVN 7336:2021: Phòng cháy chữa cháy - Hệ thống chữa cháy tự động bằng nước, bọt – Yêu cầu thiết kế.",
@@ -426,7 +425,7 @@
 "noi_dung": "",
 "goi_y": "",
 "quy_dinh": "Cho phép trang bị bình khí chữa cháy tự động kích hoạt (có thiết kế bổ sung chức năng giám sát xả, tín hiệu xả phải được truyền về tủ trung tâm báo cháy) thay thế hệ thống chữa cháy tự động bằng khí tại các khu vực không thường xuyên có người với diện tích không quá 100 m2. Nếu lắp đặt tại khu vực có diện tích trên 100 m2 thì phải phân chia thành các khu vực có diện tích không quá 100 m2 bằng tường ngăn cháy (có giới hạn chịu lửa không thấp hơn REI 45) hoặc vách ngăn cháy (có giới hạn chịu lửa không thấp hơn EI 45).",
-"khoan_dieu": "Điều 5.13.2 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "MOD_loi_ra_va_cua",
 "so_o": 6
@@ -536,7 +535,7 @@
 "noi_dung": "Yêu cầu trang bị",
 "goi_y": "",
 "quy_dinh": "- Tất cả các khu vực trong nhà và công trình kể cả những nơi đã được trang bị hệ thống chữa cháy phải trang bị bình chữa cháy xách tay hoặc bình chữa cháy có bánh xe.",
-"khoan_dieu": "Điều 5.1.1.1 / TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -547,7 +546,7 @@
 "noi_dung": "Lựa chọn, tính toán trang bị",
 "goi_y": "",
 "quy_dinh": "- Lựa chọn, tính toán trang bị và bố trí bình chữa cháy thực hiện theo quy định tại Điều 6 và Điều 7 TCVN 7435-1. / Việc lựa chọn bình chữa cháy đối với từng trường hợp nhất định phải được xác định theo tính chất và mức độ của đám cháy, kết cấu và vị trí, nơi có người, các mối nguy hiểm phải đối phó, điều kiện nhiệt độ phòng và các yếu tố khác. Số lượng, công suất, việc bố trí và giới hạn sử dụng của các bình chữa cháy được quy định đáp ứng các yêu cầu của điều 7. / Loại nguy hiểm / Công suất bình chữa cháy nhỏ nhất / Khoảng cách di chuyển lớn nhất tới bình chữa cháy, m / Diện tích bảo vệ lớn nhất của 1 bình chữa cháy, m2 / Thấp / 2-A / 20 / 300 / Trung bình / 3-A* / 20 / 150 / Cao / 4-A* / 15 / 100 / * Hai bình chữa cháy kiểu nước công suất 2-A được bố trí liền kề có thể được sử dụng để thực hiện các yêu cầu đối với bình chữa cháy công suất 3-A hoặc 4-A. / Loại nguy hiểm / Công suất chữa cháy lớn nhất / Khoảng cách di chuyển lớn nhất tới bình chữa cháy, m / Diện tích bảo vệ lớn nhất của 1 bình chữa cháy, m2 / Thấp / 55 B / 15 / 300 / Trung bình / 144 B / 15 / 150 / Cao / 233 B / 15 / 100",
-"khoan_dieu": "Điều 5.1.1.2 / TCVN 3890:2023 / Điều 6.1 TCVN 7435-1 / Điều 7 TCVN 7435-1 / Bảng 1 TCVN 7435-1 / Bảng 2 TCVN 7435-1",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng) / Điều 6.1 TCVN 7435-1 / Điều 7 TCVN 7435-1 / Bảng 1 TCVN 7435-1 / Bảng 2 TCVN 7435-1",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -558,7 +557,7 @@
 "noi_dung": "Lượng dự trữ",
 "goi_y": "",
 "quy_dinh": "Phải có số lượng bình chữa cháy dự trữ không ít hơn 10% tổng số bình theo tính toán để trang bị thay thế khi cần thiết (cho phép không quá 100 bình mỗi loại).",
-"khoan_dieu": "Điều 5.1.1.5 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -569,7 +568,7 @@
 "noi_dung": "Trang bị, bố trí bình bột chữa cháy tự động kích hoạt loại treo",
 "goi_y": "",
 "quy_dinh": "Các bình bột chữa cháy tự động kích hoạt loại treo phải phù hợp với TCVN 12314-1. / Căn cứ điều kiện thực tế của nhà và công trình, có thể lắp đặt ở mặt tường hoặc treo trên trần nhà, với chiều cao thích hợp sao cho đảm bảo diện tích bảo vệ hữu hiệu theo công bố của đơn vị sản xuất. Trong bất kỳ trường hợp nào phải đảm bảo khoảng cách từ bộ phận cảm biến nhiệt đến trần nhà là không quá 40 cm. / Bình bột chữa cháy tự động kích hoạt loại treo có thể được trang bị tại khu vực bếp của nhà hàng, các phòng nồi hơi, giặt là có diện tích không quá 100 m2. Nếu lắp đặt tại khu vực có diện tích trên 100 m2 thì nên phân chia thành các khu vực có diện tích đến 100 m2 bằng tường ngăn cháy (có giới hạn chịu lửa không thấp hơn REI 45) hoặc vách ngăn cháy (có giới hạn chịu lửa không thấp hơn EI 45).",
-"khoan_dieu": "Điều 5.1.2.1 TCVN 3890:2023 / Điều 5.1.2.2 TCVN 3890:2023 / Điều 5.1.2.3 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6

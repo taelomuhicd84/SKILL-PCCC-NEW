@@ -16,7 +16,6 @@
 "- QCVN 06:2022/BXD Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình;",
 "- Sửa đổi 1 QCVN 06:2022/BXD Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình;",
 "- QCVN 02:2020/BCA Quy chuẩn kỹ thuật quốc gia và Trạm bơm cấp nước chữa cháy (nếu có);",
-"- TCVN 3890:2023 Phương tiện phòng cháy và chữa cháy cho nhà và công trình - trang bị, bố trí.",
 "- TCVN 4513-1988 Cấp nước bên trong tiêu chuẩn thiết kế (nếu có);",
 "- TCVN 5740:2023 Phòng cháy chữa cháy - Vòi đẩy chữa cháy (nếu có);",
 "- TCVN 6101:1996 ISO 6183:1990 Thiết bị chữa cháy - Hệ thống chữa cháy Cacbon dioxit - thiết kế và lắp đặt (nếu có);",
@@ -95,7 +94,7 @@
 "idx": 4,
 "tt": "-",
 "noi_dung": "Chiều cao an toàn PCCC của các hạng mục công trình",
-"goi_y": "Lưu ý: / - Gian phòng mà con người có mặt ở đó không ít hơn 2 giờ liên tục hoặc có mặt tổng cộng 6 giờ trong một ngày đêm theo quy định tại Điều 1.4.22 QCVN 06:2022/BXD. / - Mái nhà có sự có mặt thường xuyên của con người (không ít hơn 2 giờ liên tục hoặc tổng thời gian không ít hơn 6 giờ trong vòng một ngày đêm) theo quy định tại Điều 1.4.37 QCVN 06:2022/BXD. / Trong trường hợp nhà có nhiều chiều cao PCCC thì ghi rõ chiều cao PCCC tại từng mặt, từng phần nhà / - Đối với nội dung liên quan đến yêu cầu trang bị hệ thống PCCC và trang bị phương tiện PCCC theo TCVN 3890:2023 thì đối với trường hợp nhà có nhiều cốt đường cho xe chữa cháy hoạt động và/hoặc nhiều ô cửa sổ mở trên tường ngoài của tầng trên cùng ở các cao độ khác nhau thì chiều cao PCCC được xác định trên nguyên tắc lấy theo khoảng cách lớn nhất (tính từ mặt đường cho xe chữa cháy tiếp cận đến mép dưới của lỗ cửa (cửa sổ) mở trên tường ngoài của tầng trên cùng tương ứng.",
+"goi_y": "Lưu ý: / - Gian phòng mà con người có mặt ở đó không ít hơn 2 giờ liên tục hoặc có mặt tổng cộng 6 giờ trong một ngày đêm theo quy định tại Điều 1.4.22 QCVN 06:2022/BXD. / - Mái nhà có sự có mặt thường xuyên của con người (không ít hơn 2 giờ liên tục hoặc tổng thời gian không ít hơn 6 giờ trong vòng một ngày đêm) theo quy định tại Điều 1.4.37 QCVN 06:2022/BXD. / Trong trường hợp nhà có nhiều chiều cao PCCC thì ghi rõ chiều cao PCCC tại từng mặt, từng phần nhà / - Đối với nội dung liên quan đến yêu cầu trang bị hệ thống PCCC và trang bị phương tiện PCCC theo QCVN 10:2025/BCA (tra điều tương ứng) thì đối với trường hợp nhà có nhiều cốt đường cho xe chữa cháy hoạt động và/hoặc nhiều ô cửa sổ mở trên tường ngoài của tầng trên cùng ở các cao độ khác nhau thì chiều cao PCCC được xác định trên nguyên tắc lấy theo khoảng cách lớn nhất (tính từ mặt đường cho xe chữa cháy tiếp cận đến mép dưới của lỗ cửa (cửa sổ) mở trên tường ngoài của tầng trên cùng tương ứng.",
 "quy_dinh": "Chiều cao PCCC của nhà (không tính tầng kỹ thuật trên cùng) được xác định như sau:\n- Bằng khoảng cách lớn nhất tính từ mặt đường cho xe chữa cháy tiếp cận đến mép dưới của lỗ cửa (cửa sổ) mở trên tường ngoài của tầng trên cùng; / - Bằng một nửa tổng khoảng cách tính từ mặt đường cho xe chữa cháy tiếp cận đến mặt sàn và đến trần của tầng trên cùng – khi không có lỗ cửa (cửa sổ). / CHÚ THÍCH 1: Khi mái nhà được khai thác sử dụng thì chiều cao PCCC của nhà được xác định bằng khoảng cách lớn nhất từ mặt đường cho xe chữa cháy tiếp cận đến mép trên tường bao của mái. / CHÚ THÍCH 2: Khi xác định chiều cao PCCC thì mái nhà không được tính là có khai thác sử dụng nếu con người không có mặt thường xuyên trên mái. / CHÚ THÍCH 3: Khi có ban công (lô gia) hoặc kết cấu bao che (lan can) cửa sổ thì chiều cao PCCC được tính bằng khoảng cách lớn nhất từ mặt đường cho xe chữa cháy tiếp cận đến mép trên của kết cấu bao che (lan can). / CHÚ THÍCH 4: Trong trường hợp các mặt đường tiếp cận nhà có cao độ khác nhau thì nhà có thể có các chiều cao PCCC khác nhau tùy thuộc vào phương án thiết kế an toàn cháy cụ thể.",
 "khoan_dieu": "Đ 1.4.9 / QCVN / 06:2022/BXD và Sửa đổi 1: 2023",
 "ket_luan_mau": "",
@@ -119,7 +118,7 @@
 "noi_dung": "Đối tượng trang bị",
 "goi_y": "",
 "quy_dinh": "Danh mục nhà; hạng mục/khu vực; gian phòng và thiết bị phải trang bị hệ thống báo cháy tự động, thiết bị báo cháy cục bộ được quy định tại Phụ lục A. / Hệ thống hoặc thiết bị báo cháy tự động trang bị cho nhà phải được kết nối với hệ thống quản lý cơ sở dữ liệu về phòng cháy, chữa cháy và truyền tin báo sự cố của cơ quan Cảnh sát phòng cháy chữa cháy theo quy định",
-"khoan_dieu": "Điều 5.2.1 TCVN 3890:2023 / Điều 4.9 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -130,7 +129,7 @@
 "noi_dung": "Đối với nhà",
 "goi_y": "Trong nhà và công trình quy định tại Phụ lục A phải trang bị hệ thống chữa cháy tự động và/hoặc hệ thống báo cháy tự động cho toàn bộ nhà và công trình, trừ các khu vực sau: / - Các phòng sản xuất với quy trình ướt, hồ bơi, phòng tắm, phòng rửa, phòng vệ sinh; / - Gian phòng hạng nguy hiểm cháy D; / - Hành lang bên; / - Thang bộ; / - Khoang đệm ngăn cháy có tăng áp; / - Khu vực không có nguy hiểm về cháy.",
 "quy_dinh": "Danh mục nhà phải trang bị hệ thống báo cháy tự động, thiết bị báo cháy cục bộ theo quy định tại Bảng A.1",
-"khoan_dieu": "Điều 5.2.1TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -152,7 +151,7 @@
 "noi_dung": "Đối với gian phòng",
 "goi_y": "",
 "quy_dinh": "Danh mục gian phòng phải trang bị hệ thống báo cháy tự động, thiết bị báo cháy cục bộ theo quy định tại Bảng A.3. / Đối với gian phòng trong nhà thuộc nhóm nguy hiểm cháy theo công năng F5 (không bao gồm các gian phòng F5 nằm trong nhà thuộc nhóm nguy hiểm cháy theo công năng khác) đã trang bị hệ thống chữa cháy tự động có kết nối liên động với trung tâm báo cháy thì cho phép không trang bị đầu báo cháy tự động (các thiết bị khác của hệ thống báo cháy tự động phải trang bị bảo đảm theo quy định).",
-"khoan_dieu": "Bảng A.3 TCVN 3890:2023 / Điều 4.7 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -163,7 +162,7 @@
 "noi_dung": "Đối với thiết bị",
 "goi_y": "",
 "quy_dinh": "Danh mục thiết bị phải trang bị hệ thống báo cháy tự động, thiết bị báo cháy cục bộ theo quy định tại Bảng A.4.",
-"khoan_dieu": "Bảng A.4 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -196,7 +195,7 @@
 "noi_dung": "",
 "goi_y": "",
 "quy_dinh": "Trong nhà và công trình quy định tại Phụ lục A phải trang bị hệ thống chữa cháy tự động và/hoặc hệ thống báo cháy tự động cho toàn bộ nhà và công trình, trừ các khu vực sau: / - Các phòng sản xuất với quy trình ướt, hồ bơi, phòng tắm, phòng rửa, phòng vệ sinh; / - Gian phòng hạng nguy hiểm cháy D; / - Hành lang bên; / - Thang bộ; / - Khoang đệm ngăn cháy có tăng áp; / - Khu vực không có nguy hiểm về cháy.",
-"khoan_dieu": "Điều 4.12 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -229,7 +228,7 @@
 "noi_dung": "Đối tượng trang bị",
 "goi_y": "",
 "quy_dinh": "Danh mục nhà; hạng mục/khu vực; gian phòng và thiết bị phải trang bị hệ thống, thiết bị chữa cháy tự động được quy định tại Phụ lục A.",
-"khoan_dieu": "Điều 5.2.1 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "2.1",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -240,7 +239,7 @@
 "noi_dung": "Đối với nhà",
 "goi_y": "",
 "quy_dinh": "Danh mục nhà phải trang bị hệ thống, thiết bị chữa cháy tự động theo quy định tại Bảng A.1",
-"khoan_dieu": "Điều 5.2.1TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "-",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -262,7 +261,7 @@
 "noi_dung": "Đối với gian phòng",
 "goi_y": "",
 "quy_dinh": "Danh mục gian phòng phải trang bị hệ thống, thiết bị chữa cháy tự động theo quy định tại Bảng A.3.",
-"khoan_dieu": "Bảng A.3 TCVN 3890:2023 / Điều 4.7 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "-",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -273,7 +272,7 @@
 "noi_dung": "Đối với thiết bị",
 "goi_y": "",
 "quy_dinh": "Danh mục thiết bị phải trang bị hệ thống, thiết bị chữa cháy tự động theo quy định tại Bảng A.4.",
-"khoan_dieu": "Bảng A.4 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -306,7 +305,7 @@
 "noi_dung": "",
 "goi_y": "Sự phù hợp của hệ thống chữa cháy và đối tượng cần bảo vệ",
 "quy_dinh": "Chất chữa cháy sử dụng trong hệ thống chữa cháy tự động có hiệu quả chữa cháy phù hợp với loại đám cháy của khu vực bảo vệ theo quy định tại Điều 4.3 và phù hợp với yêu cầu cần bảo vệ.",
-"khoan_dieu": "Điều 5.3.2 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "MOD_loi_ra_va_cua",
 "so_o": 6
@@ -317,7 +316,7 @@
 "noi_dung": "",
 "goi_y": "",
 "quy_dinh": "Trong nhà và công trình quy định tại Phụ lục A phải trang bị hệ thống chữa cháy tự động và/hoặc hệ thống báo cháy tự động cho toàn bộ nhà và công trình, trừ các khu vực sau: / - Các phòng sản xuất với quy trình ướt, hồ bơi, phòng tắm, phòng rửa, phòng vệ sinh; / - Gian phòng hạng nguy hiểm cháy D; / - Hành lang bên; / - Thang bộ; / - Khoang đệm ngăn cháy có tăng áp; / - Khu vực không có nguy hiểm về cháy.",
-"khoan_dieu": "Điều 4.12 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -361,7 +360,7 @@
 "noi_dung": "Đối tượng trang bị",
 "goi_y": "",
 "quy_dinh": "Nhà phải trang bị hệ thống họng nước chữa cháy trong nhà được quy định tại Phụ lục B. / Nhà hỗn hợp thuộc diện phải trang bị hệ thống họng nước chữa cháy trong nhà khi cao từ 5 tầng trở lên hoặc khối tích từ 5.000 m3 trở lên / Đối với nhà hỗn hợp không thuộc diện phải trang bị hệ thống họng nước chữa cháy trong nhà nhưng phần công năng bất kỳ của nhà có quy mô thuộc diện phải trang bị hệ thống họng nước chữa cháy trong nhà theo Bảng B.1 thì phải trang bị hệ thống họng nước chữa cháy trong nhà cho phần nhà đó. Đối với nhà hỗn hợp có phần công năng kinh doanh dịch vụ karaoke, vũ trường, quán bar, hộp đêm từ tầng 3 trở lên thì phải trang bị hệ thống họng nước chữa cháy trong nhà / Hệ thống họng nước chữa cháy trong nhà của các nhà sản xuất, nhà kho có mức nguy hiểm cháy cao, nhà có chiều cao từ 25 m trở lên, chợ, trung tâm thương mại, siêu thị, khách sạn, vũ trường, karaoke, quán bar, hộp đêm, nhà ga, các nhà dịch vụ cảng biển, các nhà dịch vụ cảng cạn, các nhà dịch vụ cảng thuỷ nội địa, nhà hát, rạp chiếu phim phải thường xuyên có nước duy trì áp suất bảo đảm kích hoạt hệ thống tự động. / Không trang bị hệ thống họng nước chữa cháy cho nhà, khu vực, gian phòng có sử dụng hoặc bảo quản các chất mà khi tiếp xúc với nước có thể sinh ra cháy, nổ hoặc ngọn lửa lan truyền rộng.",
-"khoan_dieu": "Điều 5.4.1.1 TCVN 3890:2023 / Mục 1.2 Phụ lục B TCVN 3890:2023 / Điều 5.4.1.2 TCVN 3890:2023 / Điều 5.4.1.4 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng) / Mục 1.2 QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "MOD_vat_lieu",
 "so_o": 6
@@ -372,7 +371,7 @@
 "noi_dung": "Họng chờ",
 "goi_y": "",
 "quy_dinh": "Hệ thống họng nước chữa cháy trong nhà có thể bố trí độc lập hoặc kết hợp với hệ thống chữa cháy tự động bằng nước. Hệ thống họng nước chữa cháy trong nhà phải có họng chờ lắp đặt ở ngoài nhà để tiếp nước từ xe bơm hoặc máy bơm chữa cháy di động.",
-"khoan_dieu": "Điều 5.4.1.3 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -405,7 +404,7 @@
 "noi_dung": "Đối tượng trang bị",
 "goi_y": "",
 "quy_dinh": "Hệ thống cấp nước chữa cháy ngoài nhà phải được trang bị theo quy định tại Phụ lục C. / Nhà hỗn hợp thuộc diện phải trang bị hệ thống cấp nước chữa cháy ngoài nhà khi cao từ 6 tầng trở lên hoặc khối tích từ 5.000 m3 trở lên / Trường hợp nhà, công trình nằm trong phạm vi bán kính phục vụ đến mọi điểm của nhà xét theo phương ngang không lớn hơn 200 m tính theo đường di chuyển của vòi chữa cháy đi bên ngoài nhà từ trụ cấp nước chữa cháy hoặc bãi đỗ, bến lấy nước của ao, hồ, sông, bể nước công cộng, nếu: / - Lưu lượng và trữ lượng nước chữa cháy bảo đảm theo quy định, thì cho phép không trang bị hệ thống cấp nước chữa cháy ngoài nhà. / - Không bảo đảm lưu lượng và trữ lượng nước chữa cháy theo quy định thì phải trang bị hệ thống cấp nước chữa cháy ngoài nhà (khi tính toán lưu lượng của hệ thống cấp nước chữa cháy ngoài nhà, cho phép tính cộng lưu lượng của hạ tầng cấp nước chữa cháy ngoài nhà). / Cho phép kết hợp hệ thống cấp nước chữa cháy ngoài nhà với hệ thống cấp nước sinh hoạt, sản xuất.",
-"khoan_dieu": "Điều 5.4.2.1 TCVN 3890:2023 / Mục 4 Phụ lục C TCVN 3890:2023 / Điều 5.4.2.2 TCVN 3890:2023 / Điều 5.4.2.3 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng) / Mục 4 QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -482,7 +481,7 @@
 "noi_dung": "",
 "goi_y": "",
 "quy_dinh": "Cho phép trang bị bình khí chữa cháy tự động kích hoạt (có thiết kế bổ sung chức năng giám sát xả, tín hiệu xả phải được truyền về tủ trung tâm báo cháy) thay thế hệ thống chữa cháy tự động bằng khí tại các khu vực không thường xuyên có người với diện tích không quá 100 m2. Nếu lắp đặt tại khu vực có diện tích trên 100 m2 thì phải phân chia thành các khu vực có diện tích không quá 100 m2 bằng tường ngăn cháy (có giới hạn chịu lửa không thấp hơn REI 45) hoặc vách ngăn cháy (có giới hạn chịu lửa không thấp hơn EI 45).",
-"khoan_dieu": "Điều 5.13.2 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "MOD_loi_ra_va_cua",
 "so_o": 6
@@ -537,7 +536,7 @@
 "noi_dung": "Đối tượng trang bị",
 "goi_y": "",
 "quy_dinh": "Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn được trang bị cho tất cả các nhà, công trình (trừ nhà ở riêng lẻ)",
-"khoan_dieu": "Điều 5.7.1.1 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -581,7 +580,7 @@
 "noi_dung": "Đối tượng trang bị",
 "goi_y": "",
 "quy_dinh": "Nhà, công trình phải trang bị hệ thống loa thông báo và hướng dẫn thoát nạn được quy định tại Phụ lục G. / STT / Đối tượng / Quy mô / 1. / Nhà và công trình công cộng / Cao trên 10 tầng hoặc có từ 2 tầng hầm trở lên / 2. / Công trình công cộng tập trung đông người: Nhà hát, rạp chiếu phim, nhà kinh doanh dịch vụ karaoke, vũ trường, quán bar, hộp đêm, bệnh viện, viện dưỡng lão và các công trình có công năng tương tự. / Từ 50 người trên 1 tầng trở lên / 3. / Gara ô tô, xe máy dạng kín (bao gồm cả gara độc lập và trong nhà có chức năng khác) / Diện tích từ 18 000 m2 trở lên / 4. / Nhà sản xuất, kho / Diện tích từ 18 000 m2 trở lên và có từ 50 người trên 1 tầng trở lên",
-"khoan_dieu": "Điều 5.7.2.1 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -614,7 +613,7 @@
 "noi_dung": "Yêu cầu trang bị",
 "goi_y": "",
 "quy_dinh": "- Tất cả các khu vực trong nhà và công trình kể cả những nơi đã được trang bị hệ thống chữa cháy phải trang bị bình chữa cháy xách tay hoặc bình chữa cháy có bánh xe.",
-"khoan_dieu": "Điều 5.1.1.1 / TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -636,7 +635,7 @@
 "noi_dung": "Lượng dự trữ",
 "goi_y": "",
 "quy_dinh": "Phải có số lượng bình chữa cháy dự trữ không ít hơn 10% tổng số bình theo tính toán để trang bị thay thế khi cần thiết (cho phép không quá 100 bình mỗi loại).",
-"khoan_dieu": "Điều 5.1.1.5 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -647,7 +646,7 @@
 "noi_dung": "Trang bị, bố trí bình bột chữa cháy tự động kích hoạt loại treo",
 "goi_y": "",
 "quy_dinh": "Các bình bột chữa cháy tự động kích hoạt loại treo phải phù hợp với TCVN 12314-1. / Căn cứ điều kiện thực tế của nhà và công trình, có thể lắp đặt ở mặt tường hoặc treo trên trần nhà, với chiều cao thích hợp sao cho đảm bảo diện tích bảo vệ hữu hiệu theo công bố của đơn vị sản xuất. Trong bất kỳ trường hợp nào phải đảm bảo khoảng cách từ bộ phận cảm biến nhiệt đến trần nhà là không quá 40 cm. / Bình bột chữa cháy tự động kích hoạt loại treo có thể được trang bị tại khu vực bếp của nhà hàng, các phòng nồi hơi, giặt là có diện tích không quá 100 m2. Nếu lắp đặt tại khu vực có diện tích trên 100 m2 thì nên phân chia thành các khu vực có diện tích đến 100 m2 bằng tường ngăn cháy (có giới hạn chịu lửa không thấp hơn REI 45) hoặc vách ngăn cháy (có giới hạn chịu lửa không thấp hơn EI 45).",
-"khoan_dieu": "Điều 5.1.2.1 TCVN 3890:2023 / Điều 5.1.2.2 TCVN 3890:2023 / Điều 5.1.2.3 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -680,7 +679,7 @@
 "noi_dung": "Yêu cầu trang bị",
 "goi_y": "",
 "quy_dinh": "Nhà, công trình phải trang bị phương tiện, dụng cụ phá dỡ thô sơ được quy định tại Phụ lục E. / Các loại công trình công cộng khác không phụ thuộc quy mô phải trang bị 01 bộ dụng cụ phá dỡ thô sơ gồm: / + Rìu cứu nạn (trọng lượng 2 kg, cán dài 90 cm, chất liệu thép cacbon cường độ cao); / + Xà beng (một đầu nhọn, một đầu dẹt, dài 100 cm); / + Búa tạ (thép cacbon cường độ cao, nặng 5kg, cán dài 50 cm); / + Kìm cộng lực (dài 60 cm, tải cắt 60 kg",
-"khoan_dieu": "Phụ lục E TCVN 3890:2023 / Mục 3 Phụ lục E TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng) / Mục 3 QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -691,7 +690,7 @@
 "noi_dung": "Bố trí",
 "goi_y": "",
 "quy_dinh": "Phương tiện, dụng cụ phá dỡ thô sơ trang bị cho nhà, công trình được bố trí tại khu vực thường trực về phòng cháy và chữa cháy.",
-"khoan_dieu": "Điều 5.6.1.2 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -735,7 +734,7 @@
 "noi_dung": "Yêu cầu trang bị",
 "goi_y": "",
 "quy_dinh": "",
-"khoan_dieu": "Bảng D.1 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "MOD_chong_khoi_PL_D",
 "so_o": 6
@@ -746,7 +745,7 @@
 "noi_dung": "Yêu cầu kỹ thuật",
 "goi_y": "",
 "quy_dinh": "Các kho, cảng hàng không, cảng biển, cơ sở trọng điểm về kinh tế, chính trị, văn hoá - xã hội, khu công nghiệp, khu chế xuất, khu công nghệ cao, cụm công nghiệp ngoài việc trang bị hệ thống chữa cháy, phải trang bị phương tiện chữa cháy cơ giới theo Tiêu chuẩn TCVN 13316 Phòng cháy chữa cháy – Xe ô tô chữa cháy các phần và các tiêu chuẩn quốc gia, các tiêu chuẩn quốc tế, tiêu chuẩn nước ngoài được phép áp dụng tại Việt Nam. Phương tiện chữa cháy cơ giới trang bị phải đáp ứng số lượng tối thiểu theo quy định tại Phụ lục D. / TT / Đối tượng / Quy mô / Xe chữa cháy, chiếc / Tàu chữa cháy, chiếc / Máy bơm chữa cháy loại khiêng tay, chiếc / 1 / Kho / 1.1 / Kho dự trữ / cấp Quốc gia / 1 / 1.2 / Kho dự trữ / cấp Bộ, ngành / 1 / 1.3 / Kho dầu mỏ và các sản phẩm dầu mỏ / Tổng dung tích trên / 100 000 m3 / 2 / 1.4 / Kho dầu mỏ và các sản phẩm dầu mỏ / Tổng dung tích từ / 50 000 đến 100 000 m3 / 1 / 1.5 / Kho dầu mỏ và các sản phẩm dầu mỏ / Tổng dung tích nhỏ hơn 50 000 m3 / 1 / 2 / Cảng hàng không, cảng biển / 2.1 / Cảng hàng không / Quốc tế / 3 / 2.2 / Cảng hàng không / Nội địa / 2 / 2.3 / Cảng biển / Loại đặc biệt, loại I / 2 / 1 / 2.4 / Cảng biển / Loại II / 1 / 1 / 2.5 / Cảng biển / Loại III / 1 / 3 / Cơ sở sản xuất / 3.1 / Nhà máy nhiệt điện1) / Công suất từ 200 MW trở lên / 1 / 3.2 / Nhà máy thuỷ điện1) / Công suất từ 300 MW trở lên / 1 / 3.3 / Nhà máy nhiệt điện, thủy điện / Có công suất nhỏ hơn công suất trên / 1 / 3.4 / Nhà máy điện hạt nhân / Không phụ thuộc vào công suất / 2 / 3.6 / Nhà máy giấy / Công suất trên 35 000 tấn/năm / 1 / 3.7 / Nhà máy dệt / Công suất trên 20 triệu mét vuông/năm / 1",
-"khoan_dieu": "Điều 5.5.1 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -757,7 +756,7 @@
 "noi_dung": "",
 "goi_y": "",
 "quy_dinh": "Xe chữa cháy, tàu chữa cháy, máy bơm chữa cháy loại khiêng tay trang bị cho nhà, công trình đảm bảo các yêu cầu sau: / a) Có đặc tính kỹ thuật và tính năng chữa cháy phù hợp với loại nhà, công trình cần bảo vệ; / b) Có chất chữa cháy, phương tiện, dụng cụ trang bị kèm theo đúng quy định; / c) Máy bơm chữa cháy loại khiêng tay phải đáp ứng yêu cầu kỹ thuật quy định tại TCVN 12110.",
-"khoan_dieu": "Điều 5.5.2 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6

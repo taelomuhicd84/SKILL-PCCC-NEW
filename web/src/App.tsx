@@ -74,12 +74,14 @@ export default function App() {
     if (dung.current) throw new Error("đã dừng");
     if (engine === "thu-cong") return new Promise((resolve, reject) => setThuCong({ ten: tenJob, prompt: pk, resolve, reject }));
     const e = engine === "hon-hop" ? engineCuaJob(jobId) : engine;
+    if (e === "gemini" && engine === "hon-hop")  // Gemini web lỗi (cookie hết hạn, bị chặn…) thì chạy lại bằng Claude
+      return chayJob("gemini", phienRef.current!.phien, jobId, pk).catch(() => chayJob("claude", phienRef.current!.phien, jobId, pt));
     return chayJob(e, phienRef.current!.phien, jobId, e === "claude" ? pt : pk);
   };
   const phienRef = useRef<Phien | null>(null);
   const nc = (): NguCanh => {
     const p = phienRef.current;
-    return { so_trang: pdf?.numPages ?? 0, huong_dan: huongDan, tep: p ? { pdf: p.pdf, chu_dir: p.chu_dir } : null };
+    return { so_trang: pdf?.numPages ?? 0, huong_dan: huongDan, tep: p ? { pdf: p.pdf, chu_dir: p.chu_dir } : null, chu };
   };
 
   // ---------- bước 1: nạp hồ sơ ----------

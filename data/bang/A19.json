@@ -15,7 +15,6 @@
 "- QCVN 01:2019/BCA Hệ thống phòng cháy và chữa cháy cho kho chứa, cảng xuất, nhập và trạm phân phối khí đốt",
 "- QCVN 10:2012/BCT Quy chuẩn kỹ thuật quốc gia về an toàn trạm cấp khí dầu mỏ hóa lỏng.",
 "- TCVN 6486 : 2008 Khí dầu mỏ hóa lỏng (LPG) – tồn chứa dưới áp suất - yêu cầu về thiết kế và vị trí lắp đặt.",
-"- TCVN 3890:2023 Phương tiện PCCC cho nhà và công trình - Trang bị, bố trí, kiểm tra, bảo dưỡng;",
 "- TCVN 7568-14:2025 “Hệ thống báo cháy - Phần 14: Thiết kế, lắp đặt, vận hành và bảo dưỡng các hệ thống báo cháy trong nhà và xung quanh tòa nhà” (nếu có);",
 "- TCVN 7568-1:2024 ISO 7240-1:2014 Hệ thống báo cháy – Phần 1: Quy định chung và định nghĩa;",
 "- TCVN 7336:2021: Phòng cháy chữa cháy - Hệ thống chữa cháy tự động bằng nước, bọt – Yêu cầu thiết kế (nếu có);",
@@ -100,7 +99,7 @@
 "noi_dung": "Đối với nhà",
 "goi_y": "",
 "quy_dinh": "Danh mục nhà phải trang bị hệ thống báo cháy tự động, thiết bị báo cháy cục bộ theo quy định tại Bảng A.1",
-"khoan_dieu": "Điều 5.2.1 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -122,7 +121,7 @@
 "noi_dung": "Đối với gian phòng",
 "goi_y": "",
 "quy_dinh": "Danh mục gian phòng phải trang bị hệ thống báo cháy tự động, thiết bị báo cháy cục bộ theo quy định tại Bảng A.3.",
-"khoan_dieu": "TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -133,7 +132,7 @@
 "noi_dung": "Đối với thiết bị",
 "goi_y": "",
 "quy_dinh": "Danh mục gian phòng phải trang bị hệ thống báo cháy tự động, thiết bị báo cháy cục bộ theo quy định tại Bảng A.4.",
-"khoan_dieu": "TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6
@@ -166,7 +165,7 @@
 "noi_dung": "",
 "goi_y": "",
 "quy_dinh": "Trong nhà và công trình quy định tại Phụ lục A phải trang bị hệ thống chữa cháy tự động và/hoặc hệ thống báo cháy tự động cho toàn bộ nhà và công trình, trừ các khu vực sau: / - Các phòng sản xuất với quy trình ướt, hồ bơi, phòng tắm, phòng rửa, phòng vệ sinh; / - Gian phòng hạng nguy hiểm cháy D; / - Hành lang bên; / - Thang bộ; / - Khoang đệm ngăn cháy có tăng áp; / - Khu vực không có nguy hiểm về cháy.",
-"khoan_dieu": "Điều 4.12 TCVN 3890:2023",
+"khoan_dieu": "QCVN 10:2025/BCA (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6

@@ -1,5 +1,5 @@
 # QCVN 10:2025/BCA – Báo cháy tự động và chữa cháy tự động: mục 2.1, 2.5 và Phụ lục A
-Nguồn: `D:\$.4. QC - TCVN\TT 103 NGÀY 04.11.2025 BANH HÀNH QCVN 10.pdf` (bản scan, chép lại từ ảnh; số trang "tr. n" là số trang in). Quy định chung, định nghĩa, 1.5 (cách xác định Bảng A.1 → A.4, ngoại lệ 1.5.11, 1.5.12): xem `qcvn10-2025-chung.md`. Phụ lục A thay danh mục nhà phải trang bị từng nằm ở TCVN 3890:2023 (TCVN 3890 không còn dùng).
+Nguồn: `D:\$.4. QC - TCVN\TT 103 NGÀY 04.11.2025 BANH HÀNH QCVN 10.pdf` (bản scan, chép lại từ ảnh; số trang "tr. n" là số trang in). Quy định chung, định nghĩa, 1.5 (cách xác định Bảng A.1 → A.4, ngoại lệ 1.5.11, 1.5.12): xem `qcvn10-2025-chung.md`. Phụ lục A thay danh mục nhà phải trang bị từng nằm ở tiêu chuẩn trang bị cũ (tiêu chuẩn trang bị cũ không còn dùng).
 Dùng cho: m11-bao-chay, m12-chua-chay, bảng B1, B2 (báo cháy), B6 đến B11 (chữa cháy tự động), mục "Đối tượng trang bị" của các bảng công năng A1–A26.
 
 ## 2.1 Trang bị, bố trí hệ thống, thiết bị báo cháy tự động (tr. 15)

@@ -5,6 +5,7 @@ description: Thẩm định PCCC – Mục 10 – Bình chữa cháy, phương t
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 10 – Bình chữa cháy, phương tiện ban đầu
 **Việc:** Loại, số lượng, khoảng cách bố trí bình chữa cháy.
+**Lưu ý:** Căn cứ trang bị, bố trí phương tiện chữa cháy ban đầu chỉ lấy từ QCVN 10:2025/BCA (mục 2.6–2.8, Phụ lục D–F, file knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md). Bản vẽ viện dẫn tiêu chuẩn trang bị cũ thì ghi nhận là viện dẫn của thiết kế, không trích làm căn cứ.
 **Bảng hệ thống đi kèm:** B12 (data/bang/<mã>.json; đọc cột quy_dinh).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)

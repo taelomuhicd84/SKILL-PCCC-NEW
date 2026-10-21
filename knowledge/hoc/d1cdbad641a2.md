@@ -3,14 +3,14 @@ id: d1cdbad641a2
 tieu_de: Tập huấn cấp nước chữa cháy ngoài nhà và họng trong nhà (QCVN 06:2022 + SĐ1)
 nguon: D:\$.4. QC - TCVN\8_TAILIEUHOCTAP\05_Tai lieu tap huan - chuyen de C07\Hệ thống cấp nước chữa cháy ngoài nhà, bên trong.pdf
 loai: thu-muc
-hieu_luc: Còn hiệu lực (QCVN 06:2022/BXD + SĐ1:2023). Viện dẫn TCVN 3890 đã bỏ, thay QCVN 10:2025/BCA.
+hieu_luc: Còn hiệu lực (QCVN 06:2022/BXD + SĐ1:2023). Viện dẫn tiêu chuẩn trang bị cũ đã bỏ, thay QCVN 10:2025/BCA.
 trang_thai: da_duyet
 kiem_soat: 
 ngay: 2026-10-20T06:10:06.667060Z
 anh_huong: m12 (B4, B5): trụ, bể, họng; karaoke phải có nước duy trì áp suất; bán kính trụ phải kiểm 5.1.5.9
 canh_bao: Bảng lưu lượng 8/10 chỉ trích một số hàng; bán kính trụ 200/400 m lẫn trong slide — đối chiếu điều khoản gốc.
 ---
-Nguồn: tập huấn cấp nước chữa cháy ngoài nhà và họng nước trong nhà theo QCVN 06:2022/BXD (đã gồm nội dung SĐ1). Bản tài liệu viện dẫn TCVN 3890 để bổ sung; **TCVN 3890 đã bỏ — nay QCVN 10:2025/BCA** (xem knowledge/qcvn10-2025-*).
+Nguồn: tập huấn cấp nước chữa cháy ngoài nhà và họng nước trong nhà theo QCVN 06:2022/BXD (đã gồm nội dung SĐ1). Bản tài liệu viện dẫn tiêu chuẩn trang bị cũ để bổ sung; **tiêu chuẩn trang bị cũ đã bỏ — nay QCVN 10:2025/BCA** (xem knowledge/qcvn10-2025-*).
 
 ## Đối tượng cấp nước ngoài nhà (cơ sở công nghiệp, kho; Phụ lục C QCVN 06)
 - Hạng A, B, C: diện tích ≥ 300 m2 hoặc khối tích ≥ 1 500 m3 hoặc cao ≥ 2 tầng. Hạng D, E: ≥ 500 m2 hoặc ≥ 2 500 m3.

@@ -149,9 +149,9 @@ var STAGES=[
  ex:"Chiều cao PCCC 7,6 m và không phải kho xưởng nguy hiểm: không bắt buộc buồng thang không nhiễm khói N1 (điều 3.4.13), buồng thang thông thường L1 là đủ. Tầng có 93 người và công năng F2.1: phải có ít nhất 2 lối ra, không được chỉ 1 lối. Toàn nhà có sprinkler: khoảng cách giữa hai lối ra chỉ cần đạt một phần ba đường chéo thay vì một nửa.",
  pit:["Không so thẳng bản vẽ với điều khoản. Luôn qua bước này để biết yêu cầu của chính công trình.","Karaoke có luật riêng: dù có sprinkler vẫn đo khoảng cách từ cửa phòng, và mọi cửa mở ra hành lang phải là cửa chống cháy."]},
 {n:3,t:"Đối chiếu hệ thống PCCC",who:["Claude","Bạn"],plain:"Xem công trình có những hệ thống PCCC nào (báo cháy, chữa cháy, đèn thoát hiểm…) và so với các bảng hệ thống chính thức. Các bảng này đã trích sẵn điều khoản kỹ thuật của tiêu chuẩn.",
- anal:"Như xem bệnh nhân đang dùng thuốc gì rồi so với toa chuẩn. Toa chuẩn đã có, nhưng danh sách ai bắt buộc phải dùng thuốc nào (Phụ lục A của TCVN 3890) thì chưa có.",
+ anal:"Như xem bệnh nhân đang dùng thuốc gì rồi so với toa chuẩn. Toa chuẩn đã có, nhưng danh sách ai bắt buộc phải dùng thuốc nào (Phụ lục A của tiêu chuẩn trang bị cũ) thì chưa có.",
  inp:["Bản vẽ hệ thống (báo cháy, EX–EM, chữa cháy, hút khói, điện)","Bảng hệ thống B34–B50"],out:["Danh sách hệ thống có/không","Các bảng hệ thống đã điền kết luận"],
- steps:["Liệt kê các hạng mục có trong bộ bản vẽ PCCC.","Mỗi hệ thống mở bảng của nó (ví dụ đèn sự cố: B46) bằng công cụ đọc bảng, lấy từng dòng và cột 'Nội dung quy định'.","So với bản vẽ hệ thống, viết kết luận và lý do có số ngay tại dòng.","Câu hỏi 'công trình này có bắt buộc phải có hệ thống X không' phụ thuộc Phụ lục A của TCVN 3890:2023 (chưa nạp): để CẦN XÁC NHẬN, không đoán."],
+ steps:["Liệt kê các hạng mục có trong bộ bản vẽ PCCC.","Mỗi hệ thống mở bảng của nó (ví dụ đèn sự cố: B46) bằng công cụ đọc bảng, lấy từng dòng và cột 'Nội dung quy định'.","So với bản vẽ hệ thống, viết kết luận và lý do có số ngay tại dòng.","Câu hỏi 'công trình này có bắt buộc phải có hệ thống X không' phụ thuộc Phụ lục A của tiêu chuẩn trang bị cũ (chưa nạp): để CẦN XÁC NHẬN, không đoán."],
  files:["bang_doi_chieu/he_thong/B34…B50.md","scripts/bang_doi_chieu_tool.py"],
  ex:"Hồ sơ PCCC Hoàng Anh 1 có các hạng mục: báo cháy, đèn EX–EM (chiếu sáng sự cố và chỉ dẫn), bình chữa cháy, hệ thống âm thanh thông báo, chữa cháy sprinkler, hút khói, chống sét, cấp điện. Bảng B46 yêu cầu độ rọi trung bình đường thoát nạn tối thiểu 1 lux (TCVN 13456:2022, điều 5.1.2); thuyết minh Hoàng Anh 1 tính được 12,19 lux nhưng diện tích lối thoát ghi 1 601,7 m² mà phép tính lại dùng 820 m², nên cần xác nhận.",
  pit:["Có hệ thống không có nghĩa là hệ thống đạt: phải so từng dòng của bảng (độ rọi, khoảng cách đầu báo cháy…).","Cờ 'có sprinkler' ở nhánh B phải được kiểm chứng từ bản vẽ chữa cháy, vì nó ảnh hưởng nhiều yêu cầu khác."]},
@@ -252,7 +252,7 @@ var GL=[
 ["Cột Tra ở","Cột thêm vào bảng làm việc cho biết dòng đó nên mở module nào của hệ thống để lấy nguyên văn điều khoản."]
 ];
 var TODO=[
-"Toàn văn TCVN 3890:2023, đặc biệt Phụ lục A (danh mục nhà phải trang bị hệ thống), chưa nạp. Chỉ có nguyên văn các điều đã trích trong bảng hệ thống. Vì vậy 'có bắt buộc phải có hệ thống X' còn CẦN XÁC NHẬN.",
+"Toàn văn tiêu chuẩn trang bị cũ, đặc biệt Phụ lục A (danh mục nhà phải trang bị hệ thống), chưa nạp. Chỉ có nguyên văn các điều đã trích trong bảng hệ thống. Vì vậy 'có bắt buộc phải có hệ thống X' còn CẦN XÁC NHẬN.",
 "Các bảng đối chiếu .doc (B20, B26–B30, B40–B44, B47) chưa đọc được; cần lưu thành .docx.",
 "Bảng công năng khác (khách sạn, văn phòng, thương mại…) đã có mẫu chính thức (B4–B14); tạo bảng làm việc bằng công cụ khi cần.",
 "Phụ lục A, C, E, F, H và Điều 4 đến 7 của QCVN 06 (trừ 4.5) chưa nạp.",

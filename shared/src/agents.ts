@@ -16,7 +16,7 @@ const DN = "knowledge/dinh-nghia/dinh-nghia.md";
 const TT = "knowledge/truong-thong-tin.md";
 const BH = "knowledge/bai-hoc.md"; // bài học đã xác nhận: mọi agent hạng mục đọc
 const PLH = "knowledge/qcvn06-phu-luc-h.md"; // QCVN 06 Phụ lục H: bậc chịu lửa, chiều cao, diện tích khoang cháy
-const Q10 = "knowledge/qcvn10-2025-chung.md"; // QCVN 10:2025/BCA: thông tư, định nghĩa, yêu cầu chung (thay TCVN 3890)
+const Q10 = "knowledge/qcvn10-2025-chung.md"; // QCVN 10:2025/BCA: thông tư, định nghĩa, yêu cầu chung (thay tiêu chuẩn trang bị cũ)
 const Q10_AUTO = "knowledge/qcvn10-2025-bao-chay-chua-chay-tu-dong.md"; // mục 2.1, 2.5, Phụ lục A
 const Q10_NUOC = "knowledge/qcvn10-2025-nuoc-chua-chay.md"; // mục 2.3, 2.4, Phụ lục B, C
 const Q10_BINH = "knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md"; // mục 2.6–2.8, Phụ lục D, E, F
@@ -50,7 +50,8 @@ const AGENTS_GOC: AgentDef[] = [
   { id: "m09-chong-khoi", ten: "Mục 9 – Chống tụ khói", viec: "Hút xả khói, tăng áp, thoát khói tự nhiên (Phụ lục D).", tu_khoa: /tụ khói|hút khói|tăng áp/i,
     tri_thuc: [BH, "skills/MOD_chong_khoi_PL_D.md", DN] },
   { id: "m10-binh-chua-chay", ten: "Mục 10 – Bình chữa cháy, phương tiện ban đầu", viec: "Loại, số lượng, khoảng cách bố trí bình chữa cháy.",
-    tu_khoa: /bình chữa cháy|chữa cháy ban đầu|xách tay/i, bang_he_thong: ["B12"], tri_thuc: [BH, Q10_BINH] },
+    tu_khoa: /bình chữa cháy|chữa cháy ban đầu|xách tay/i, bang_he_thong: ["B12"], tri_thuc: [BH, Q10_BINH],
+    luu_y: "Căn cứ trang bị, bố trí phương tiện chữa cháy ban đầu chỉ lấy từ QCVN 10:2025/BCA (mục 2.6–2.8, Phụ lục D–F, file knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md). Bản vẽ viện dẫn tiêu chuẩn trang bị cũ thì ghi nhận là viện dẫn của thiết kế, không trích làm căn cứ." },
   { id: "m11-bao-chay", ten: "Mục 11 – Báo cháy", viec: "Đối tượng phải trang bị, loại đầu báo, bố trí, tủ trung tâm, liên động.", tu_khoa: /báo cháy|báo nồng độ/i,
     bang_he_thong: ["B1", "B2"], tri_thuc: [BH, Q10, Q10_AUTO, "skills/MOD_dau_bao_khoi_khoang_dam.md"],
     luu_y: "Toàn văn TCVN 7568-14:2025 ở knowledge/tcvn7568-14-2025.md (Claude đọc khi cần điều khoản ngoài cột Quy định). Đầu báo khói trên trần có dầm: theo module khoang dầm, xét từng ô giữa dầm." },
@@ -62,7 +63,8 @@ const AGENTS_GOC: AgentDef[] = [
   { id: "m14-den-su-co", ten: "Mục 14 – Chiếu sáng sự cố, chỉ dẫn thoát nạn, loa", viec: "Độ rọi, vị trí đèn EXIT/EM, thời gian duy trì, loa thông báo.",
     tu_khoa: /chiếu sáng sự cố|chỉ dẫn thoát nạn|loa/i, bang_he_thong: ["B13"], tri_thuc: [BH, "skills/SKILL_thoat_nan.md", Q10_DEN] },
   { id: "m15-cnch", ten: "Mục 15 – Dụng cụ phá dỡ, phương tiện bảo hộ, cứu nạn", viec: "Dụng cụ phá dỡ thông thường, mặt nạ, phương tiện cơ giới.",
-    tu_khoa: /phá dỡ|bảo hộ|cứu nạn|CNCH|mặt nạ|cơ giới|dụng cụ chữa cháy|cá nhân/i, tri_thuc: [BH, Q10_BINH] },
+    tu_khoa: /phá dỡ|bảo hộ|cứu nạn|CNCH|mặt nạ|cơ giới|dụng cụ chữa cháy|cá nhân/i, tri_thuc: [BH, Q10_BINH],
+    luu_y: "Căn cứ trang bị, bố trí phương tiện chữa cháy ban đầu chỉ lấy từ QCVN 10:2025/BCA (mục 2.6–2.8, Phụ lục D–F, file knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md). Bản vẽ viện dẫn tiêu chuẩn trang bị cũ thì ghi nhận là viện dẫn của thiết kế, không trích làm căn cứ." },
   { id: "m16-chong-set", ten: "Mục 16 – Chống sét", viec: "Phương án chống sét theo TCVN 9385.", tu_khoa: /chống sét/i, tri_thuc: [BH] },
   { id: "m17-lien-lac", ten: "Mục 17 – Liên lạc", viec: "Hệ thống liên lạc, điện thoại phòng trực.", tu_khoa: /liên lạc|điện thoại/i, tri_thuc: [BH] },
   { id: "m18-quang-cao", ten: "Mục 18 – Biển quảng cáo", viec: "Biển quảng cáo không che lối thoát nạn, ô cửa cứu nạn (QCVN 17:2018).", tu_khoa: /quảng cáo/i, tri_thuc: [BH] },
@@ -75,8 +77,8 @@ const AGENTS_GOC: AgentDef[] = [
 
 export const AGENTS: AgentDef[] = AGENTS_GOC.map((a) => ({ ...a, tri_thuc: [...a.tri_thuc, HOC] }));
 
-/** Hạng mục tra bảng đơn giản giao Gemini web ở chế độ "hỗn hợp"; mọi việc còn lại (đọc hồ sơ, mục khó, rà soát) do Claude. */
-export const AGENT_GEMINI = ["m03-khoang-cach", "m08-thang-may-cc", "m10-binh-chua-chay", "m13-cap-dien", "m15-cnch", "m16-chong-set", "m17-lien-lac", "m18-quang-cao"];
+/** Đọc hồ sơ (A0) và hạng mục tra bảng đơn giản giao Gemini web ở chế độ "hỗn hợp"; mục khó, rà soát, hướng dẫn do Claude. Gemini lỗi thì chạy lại bằng Claude. */
+export const AGENT_GEMINI = ["doc-ho-so", "m03-khoang-cach", "m08-thang-may-cc", "m10-binh-chua-chay", "m13-cap-dien", "m15-cnch", "m16-chong-set", "m17-lien-lac", "m18-quang-cao"];
 /** id job (vd. "A12-m10-binh-chua-chay-2", "R-ra-soat") → model Claude của agent; không khớp thì sonnet. */
 export const modelCuaJob = (id: string): Model => AGENTS_GOC.find((a) => id.includes(a.id))?.model ?? "sonnet";
 /** id job (hoặc id agent) → engine ở chế độ hỗn hợp. */

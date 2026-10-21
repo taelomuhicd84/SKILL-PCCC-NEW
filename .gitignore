@@ -1,6 +1,7 @@
 node_modules/
 dist/
 runner/work/
+runner/cache/
 runner/.profile/
 data-build/doc_converted/
 *.log

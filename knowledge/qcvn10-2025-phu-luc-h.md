@@ -253,4 +253,4 @@ Trạm bơm có từ 02 máy bơm chữa cháy trở lên phải có ít nhất 
 ### H.4 Hệ thống loa thông báo và hướng dẫn thoát nạn: xem `qcvn10-2025-den-loa.md`.
 
 ---
-Thư mục tài liệu tham khảo của QCVN 10:2025/BCA (tr. 62): [1] SP 486.1311500.2020; [2] SP 484.1311500.2020; [3] TCVN 3890:2023 Phòng cháy chữa cháy – Phương tiện chữa cháy cho nhà và công trình – Trang bị, bố trí (chỉ để tham khảo, không viện dẫn); [4] GB 55037-2022; [5] GB 50229-2019; [6] GB 50720-2011; [7] JTS 165-2013; [8] JTJ 165-5-2021; [9] Quy chuẩn thực hành PCCC cho nhà và công trình 2018 của Singapore; [10] NFPC 606 của Hàn Quốc.
+Thư mục tài liệu tham khảo của QCVN 10:2025/BCA (tr. 62): [1] SP 486.1311500.2020; [2] SP 484.1311500.2020; [3] tiêu chuẩn trang bị cũ Phòng cháy chữa cháy – Phương tiện chữa cháy cho nhà và công trình – Trang bị, bố trí (chỉ để tham khảo, không viện dẫn); [4] GB 55037-2022; [5] GB 50229-2019; [6] GB 50720-2011; [7] JTS 165-2013; [8] JTJ 165-5-2021; [9] Quy chuẩn thực hành PCCC cho nhà và công trình 2018 của Singapore; [10] NFPC 606 của Hàn Quốc.

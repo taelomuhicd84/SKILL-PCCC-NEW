@@ -7,6 +7,7 @@ import { luuPhien } from "./phien";
 import { GOC_REPO, THU_MUC_LAM, log } from "./chung";
 import { chayClaudeCho, coClaude, coToken, luuToken } from "./engines/claude";
 import { modelCuaJob } from "@pccc/shared";
+import { docDem, khoaDem, luuDem } from "./dem";
 import { spawn } from "node:child_process";
 import { randomUUID } from "node:crypto";
 import { chayHonHop, chayLo, taoTrangThai, type EngineLo, type TrangThaiLo, type ViecLo } from "./lo";
@@ -130,14 +131,20 @@ const server = http.createServer(async (req, res) => {
       if (!existsSync(dir)) return json(404, { loi: "không có phiên " + b.phien });
       const job = String(b.job).replace(/[^\w.-]/g, "_");
       writeFileSync(path.join(dir, "jobs", `${job}.prompt.md`), b.prompt, "utf8");
-      const tra_loi = await xepHang(async () => {
-        log("bắt đầu", b.engine, job);
+      const model = b.engine === "gemini" || b.engine === "gemini-api" ? String(b.engine) : modelCuaJob(job);
+      const khoa = khoaDem(String(b.engine), model, b.prompt, dir);
+      const co = b.engine === "thu-cong" ? null : docDem(khoa);
+      const tra_loi = co ?? await xepHang(async () => {
+        const t0 = Date.now();
+        log("bắt đầu", b.engine, model, job);
         const t = b.engine === "gemini" ? await chayGemini(b.prompt, path.join(dir, "ban_ve.pdf"), path.join(dir, "jobs"), job)
           : b.engine === "gemini-api" ? await chayGeminiApi(b.prompt, path.join(dir, "ban_ve.pdf"))
           : await chayClaudeCho(b.prompt, dir, undefined, undefined, undefined, modelCuaJob(job));
-        log("xong", job, t.length, "ký tự");
+        log("xong", job, `${Math.round((Date.now() - t0) / 1000)} s`, t.length, "ký tự");
+        luuDem(khoa, t);
         return t;
       });
+      if (co != null) log("dùng đệm", job, `(${co.length} ký tự, không gọi AI)`);
       writeFileSync(path.join(dir, "jobs", `${job}.tra_loi.txt`), tra_loi, "utf8");
       return json(200, { tra_loi });
     }

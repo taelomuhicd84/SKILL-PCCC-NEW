@@ -7,7 +7,7 @@ Dùng cho: m12-chua-chay.
 5.1 Cấp nước chữa cháy ngoài nhà
 5.1.1 Các yêu cầu an toàn cháy đối với cấp nước chữa cháy ngoài nhà
 Đối với các nhà khi nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà (bồn, bể, trụ nước chữa cháy ngoài nhà, hổ nước chữa cháy tự nhiên và nhân tạo và các nguồn nước tương tự khác) thì không yêu cầu bắt buộc phải trang bị cấp nước chữa cháy ngoài nhà.
-CHÚ THÍCH: Việc trang bị cấp nước chữa cháy ngoài nhà có thể tham khảo TCVN 3890:2023.
+CHÚ THÍCH: Việc trang bị cấp nước chữa cháy ngoài nhà có thể tham khảo tiêu chuẩn trang bị cũ.
 5.1.1.2 Chất lượng nước của nguồn cấp nước chữa cháy phải phù hợp với điều kiện vận hành của các phương tiện chữa cháy và phương pháp chữa cháy.
 5.1.1.3 Hệ thống đường ống nước chữa cháy thường có áp suất thấp, khi duy trì áp suất cao thì phải tính toán bảo đảm áp suất làm việc của hệ thống đường ống. Đối với đường ống áp suất cao, các máy bơm chữa cháy phải  bảo đảm hoạt động không trễ hơn 5 phút sau khi có tín hiệu báo cháy.
 5.1.1.4 Áp suất tự do tối thiểu trong đường ống nước chữa cháy áp suất thấp  (đo ở vị trí cao độ bằng với mặt đất) khi chữa cháy phải không nhỏ hơn 10 m 10 m cột nước. Áp suất tự do tối thiểu trong mạng đường ống chữa cháy áp suất cao phải bảo đảm độ cao tia nước đặc không nhỏ hơn 10 m khi lưu lượng yêu cầu chữa cháy tối đa và lăng chữa cháy ở điểm cao nhất của tòa nhà. Áp suất tự do trong mạng đường ống kết hợp sinh hoạt hoặc sản xuất không nhỏ hơn 10 m 10 m cột nước và không lớn hơn  60 m cột nước.

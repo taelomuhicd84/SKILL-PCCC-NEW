@@ -7,3 +7,4 @@ export * from "./gop";
 export * from "./pdf_chu";
 export * from "./vni";
 export * from "./nhom_ho_so";
+export * from "./trang_lien_quan";

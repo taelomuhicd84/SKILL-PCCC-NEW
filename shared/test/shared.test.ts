@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { nhomTheoCongTrinh, tenCongTrinh, chonBangChinh, chonBangHeThong, chiaMuc, lapJobs, nhomCuaAgent, agentChoMuc, modelCuaJob, engineCuaJob, gop, ganHuongDan, ThongTin, promptJob, promptHuongDan, type Bang, type KetQuaDong } from "../src";
+import { nhomTheoCongTrinh, tenCongTrinh, chonBangChinh, chonBangHeThong, chiaMuc, lapJobs, nhomCuaAgent, agentChoMuc, modelCuaJob, engineCuaJob, trangLienQuan, gop, ganHuongDan, ThongTin, promptJob, promptHuongDan, type Bang, type KetQuaDong } from "../src";
 
 const bang = (ma: string): Bang => JSON.parse(readFileSync(`data/bang/${ma}.json`, "utf8"));
 const haTT = ThongTin.parse({
@@ -111,6 +111,17 @@ describe("model theo job", () => {
     expect(modelCuaJob("KT15-m07-thoat-nan")).toBe("sonnet");
     expect(engineCuaJob("KT15-m07-thoat-nan")).toBe("claude");
     expect(modelCuaJob("A0-doc-ho-so")).toBe("sonnet");
+    expect(engineCuaJob("A0-doc-ho-so")).toBe("gemini");
     expect(modelCuaJob("R-ra-soat")).toBe("sonnet");
+  });
+});
+
+describe("trang liên quan", () => {
+  it("chọn trang khớp từ khóa agent và nhúng chữ gọn", () => {
+    const ch = (id: number, ...s: string[]) => ({ trang: id, xoay: 0, rong: 1000, cao: 1000, chu: s.map((x, i) => ({ id: i, x0: 0, y0: 0, x1: 1, y1: 1, s: x })) });
+    const out = trangLienQuan("m09-chong-khoi", null, [ch(1, "Bìa"), ch(2, "Quạt hút khói", "louver", "hút khói tầng 1"), ch(3, "Mặt bằng điện")]);
+    expect(out).toContain("### Trang 2");
+    expect(out).not.toContain("### Trang 1");
+    expect(trangLienQuan("khong-co", null, [ch(1, "x")])).toBe("");
   });
 });

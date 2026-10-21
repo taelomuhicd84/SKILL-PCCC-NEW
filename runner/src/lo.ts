@@ -8,6 +8,7 @@ import path from "node:path";
 import { log } from "./chung";
 import { chayClaudeCho } from "./engines/claude";
 import { modelCuaJob } from "@pccc/shared";
+import { docDem, khoaDem, luuDem } from "./dem";
 import { BiChan, chayTrenTab, dongTrinhDuyet, moTab } from "./engines/gemini";
 import { QuaHanMuc, chayGeminiApi } from "./engines/gemini_api";
 
@@ -35,7 +36,8 @@ function luuTam(dir: string, v: ViecLo, tra: string) {
 
 export async function chayLo(engine: EngineLo, dir: string, viec: ViecLo[], tt: TrangThaiLo, luong?: number, dongLo = true): Promise<void> {
   const conLai: ViecLo[] = [];
-  for (const v of viec) { const c = daCo(dir, v); if (c != null) tt.xong[v.job] = c; else conLai.push(v); }
+  const khoaCua = (v: ViecLo) => khoaDem(engine, engine.startsWith("gemini") ? engine : modelCuaJob(v.job), v.prompt, dir);
+  for (const v of viec) { const c = daCo(dir, v) ?? docDem(khoaCua(v)); if (c != null) tt.xong[v.job] = c; else conLai.push(v); }
   if (conLai.length < viec.length) log(`lô: dùng lại ${viec.length - conLai.length} job đã có`);
   const n = Math.max(1, Math.min(luong ?? LUONG_MAC_DINH[engine], conLai.length));
   let dung: string | null = null;
@@ -50,6 +52,7 @@ export async function chayLo(engine: EngineLo, dir: string, viec: ViecLo[], tt: 
       const v = conLai.shift();
       if (!v) break;
       tt.dang.push(v.job);
+      const t0 = Date.now();
       for (let thu = 1; thu <= 2; thu++) {
         try {
           let tra: string;
@@ -59,9 +62,10 @@ export async function chayLo(engine: EngineLo, dir: string, viec: ViecLo[], tt: 
           } else if (engine === "gemini-api") tra = await chayGeminiApi(v.prompt, pdf);
           else tra = await chayClaudeCho(v.prompt, dir, undefined, undefined, undefined, modelCuaJob(v.job));
           luuTam(dir, v, tra);
+          luuDem(khoaCua(v), tra);
           tt.xong[v.job] = tra;
           delete tt.loi[v.job];
-          log(`lô: xong ${v.job} (tab ${i + 1})`);
+          log(`lô: xong ${v.job} (tab ${i + 1}) ${Math.round((Date.now() - t0) / 1000)} s`);
           break;
         } catch (e) {
           if (e instanceof BiChan || (e instanceof QuaHanMuc && thu === 2)) { dung = String(e.message); tt.loi[v.job] = dung; break; }

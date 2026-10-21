@@ -690,7 +690,7 @@ lines = [
     "Cách dùng: mỗi sheet là một bài tính. Ô chữ xanh nền vàng là ô nhập, ô còn lại là công thức. Số trong ô nhập là ví dụ minh hoạ (karaoke một tầng), thay bằng số liệu công trình. Kết quả chính nền xanh lá.",
     "Liên kết giữa các sheet: Q và cột áp sprinkler (1) và họng nước (2) đi sang bể, bơm (3); công suất bơm (3) đi sang máy phát (7) và dây, MCCB (10). Sửa tay được ô liên kết khi tính bằng phần mềm khác.",
     "Mức kiểm nguồn: A = đối chiếu nguyên văn tiêu chuẩn có trong thư mục tài liệu; B = đối chiếu nguồn uy tín bên ngoài; C = lấy từ bảng tính có sẵn của công ty, chưa đối chiếu được nguồn (dùng thận trọng, ghi rõ nguồn trong hồ sơ).",
-    "Tiêu chuẩn đang dùng: QCVN 10:2025/BCA (thay TCVN 3890), TCVN 7336:2021, TCVN 5687:2024, QCVN 06:2022/BXD sửa đổi 1:2023, TCVN 7568-14:2025. Không dùng văn bản đã hết hiệu lực.",
+    "Tiêu chuẩn đang dùng: QCVN 10:2025/BCA (thay tiêu chuẩn trang bị cũ), TCVN 7336:2021, TCVN 5687:2024, QCVN 06:2022/BXD sửa đổi 1:2023, TCVN 7568-14:2025. Không dùng văn bản đã hết hiệu lực.",
 ]
 rr = 3
 for t in lines:

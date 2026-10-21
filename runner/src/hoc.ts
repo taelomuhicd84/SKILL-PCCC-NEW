@@ -37,7 +37,7 @@ const CHU_DE_MAC_DINH = [
   "công văn Cục Cảnh sát PCCC và CNCH C07 hướng dẫn thẩm định thiết kế",
 ];
 // Điều đã chốt với người thẩm định: agent tự học phải đối chiếu để gắn cờ văn bản cũ.
-const DA_CHOT = `Tri thức hệ thống đang dùng (đã chốt với người thẩm định): NĐ 105/2025/NĐ-CP đã sửa bởi NĐ 347/2026/NĐ-CP (hiệu lực 15/9/2026) là văn bản hiện hành về thẩm định thiết kế PCCC; NĐ 136/2020/NĐ-CP, NĐ 50/2024/NĐ-CP hết hiệu lực từ 01/7/2025; QCVN 10:2025/BCA (hiệu lực 30/12/2025) thay TCVN 3890 (đã bỏ); QCVN 06:2022/BXD và sửa đổi 1:2023; TCVN 7568-14:2025 thay bản 2015.`;
+const DA_CHOT = `Tri thức hệ thống đang dùng (đã chốt với người thẩm định): NĐ 105/2025/NĐ-CP đã sửa bởi NĐ 347/2026/NĐ-CP (hiệu lực 15/9/2026) là văn bản hiện hành về thẩm định thiết kế PCCC; NĐ 136/2020/NĐ-CP, NĐ 50/2024/NĐ-CP hết hiệu lực từ 01/7/2025; QCVN 10:2025/BCA (hiệu lực 30/12/2025) thay tiêu chuẩn trang bị cũ (đã bỏ); QCVN 06:2022/BXD và sửa đổi 1:2023; TCVN 7568-14:2025 thay bản 2015.`;
 
 export const trangThai: TrangThaiHoc = { dang: false, viec: "", xong: 0, tong: 0, moi: 0, loi: [] };
 

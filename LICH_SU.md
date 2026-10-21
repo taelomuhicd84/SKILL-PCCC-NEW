@@ -2,6 +2,7 @@
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
 ## 2026-10-21
+- Tối ưu (chưa commit hết, xem TIEN_DO): bỏ TCVN 3890 ở 411 ô bảng + tri thức; đệm job `runner/src/dem.ts`; log thời gian job; nhúng chữ trang liên quan; A0 qua Gemini web ở chế độ Hỗn hợp; người dùng ủy quyền toàn quyền, gần hết usage thì push và tự làm tiếp sau reset.
 - Thêm agent `pccc-tu-sua` (tự sửa lỗi rồi đẩy GitHub) và `scripts/day_github.sh` (kiểm bí mật, test, build, commit, push bằng taelomuhicd84, không force push); cấu hình git local chọn tài khoản taelomuhicd84.
 - Dựng ảnh trang tự động: `scripts/dung_anh.py` (PyMuPDF), `runner/src/anh.ts`, gọi từ `chuan-bi` (chờ xong) và `luuPhien` (nền); `shared/src/prompt.ts` thêm dòng ảnh trang và quy tắc mở ảnh trước khi kết luận CHƯA ĐẠT theo vị trí; `.gitignore` bỏ `ket_qua/*/anh/`. 24 test qua, web build qua.
 - Xem ảnh trang 14 Hoàng Anh 2 (dựng bằng PyMuPDF): D3 là cửa cuối hành lang ra thang CT2, không phải cửa phòng mở vào hành lang → 3 dòng KT15 #47, #51, #63 từ CHƯA ĐẠT thành CẦN XÁC NHẬN (kho D2 chưa ghi diện tích); sửa lý do, hướng dẫn, gộp lại: 0 CHƯA ĐẠT, 28 CẦN XÁC NHẬN. Bài học: agent chỉ đọc chữ có vị trí đoán sai vị trí cửa.

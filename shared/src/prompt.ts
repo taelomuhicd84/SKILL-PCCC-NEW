@@ -12,6 +12,7 @@ export interface PromptCtx {
   huong_dan: boolean;
   kb?: Record<string, string>;
   tep?: { pdf: string; chu_dir: string }; // đường dẫn (chế độ "tep")
+  trang_lq?: string; // chữ các trang liên quan đã nhúng sẵn (chế độ "tep")
 }
 
 export const QUY_TAC = `## Nguyên tắc (bắt buộc)
@@ -57,7 +58,10 @@ function phanBanVe(ctx: PromptCtx): string {
     return `## Bản vẽ
 - PDF: ${ctx.tep.pdf} (${ctx.so_trang} trang). Đọc bằng Read với tham số pages (tối đa 20 trang mỗi lần); chỉ mở trang cần (xem phân loại trang).
 - Chữ có vị trí: ${ctx.tep.chu_dir}/trang_<n>.txt, mỗi dòng "x y chữ" (toạ độ 0–1000, gốc trên-trái). Dùng Grep để tìm ký hiệu (cửa D3, FD1, tên phòng, cao độ) và lấy "anchor".
-- Ảnh trang: ${ctx.tep.chu_dir.replace(/chu$/, "anh")}/trang_<n>.png (nếu thư mục có). Máy không có pdftoppm nên Read PDF có thể lỗi: mở ảnh PNG bằng Read. BẮT BUỘC mở ảnh trước khi kết luận CHƯA ĐẠT dựa vào vị trí, hướng mở hay ký hiệu của cửa, thang, đầu phun, đèn hoặc số đo trên mặt bằng; chữ có vị trí chỉ cho biết tọa độ nhãn, không cho biết nhãn thuộc vật nào. Thiếu ảnh thì ghi CAN_XAC_NHAN.`;
+- Ảnh trang: ${ctx.tep.chu_dir.replace(/chu$/, "anh")}/trang_<n>.png (nếu thư mục có). Máy không có pdftoppm nên Read PDF có thể lỗi: mở ảnh PNG bằng Read. BẮT BUỘC mở ảnh trước khi kết luận CHƯA ĐẠT dựa vào vị trí, hướng mở hay ký hiệu của cửa, thang, đầu phun, đèn hoặc số đo trên mặt bằng; chữ có vị trí chỉ cho biết tọa độ nhãn, không cho biết nhãn thuộc vật nào. Thiếu ảnh thì ghi CAN_XAC_NHAN.${ctx.trang_lq ? `
+
+## Chữ các trang liên quan (đã nhúng sẵn, KHÔNG cần Read hay Grep lại các trang này; chỉ mở thêm khi thiếu số liệu)
+${ctx.trang_lq}` : ""}`;
   return `## Bản vẽ\nFile PDF đính kèm (${ctx.so_trang} trang). "anchor" phải là chữ xuất hiện đúng trên trang đó.`;
 }
 

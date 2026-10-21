@@ -1,14 +1,14 @@
 // Điều phối các giai đoạn trên web: đọc hồ sơ (A0) → chọn bảng → các job hạng mục → rà soát → gộp.
 import {
-  ThongTin, agentById, canKhung, nhomCuaAgent, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat, tachJson,
-  type Job, type PhamVi, type KetQuaDong, type PromptCtx, type DongKetQua,
+  ThongTin, agentById, canKhung, nhomCuaAgent, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat, tachJson, trangLienQuan,
+  type Job, type PhamVi, type KetQuaDong, type PromptCtx, type DongKetQua, type TrangChu,
 } from "@pccc/shared";
 import { taiBang, taiKb } from "./data";
 
 /** Gọi AI: nhận prompt chế độ "tep" (Claude) và "kem" (Gemini, thủ công), trả văn bản thô. */
 export type Goi = (jobId: string, ten: string, promptTep: string, promptKem: string) => Promise<string>;
 
-export interface NguCanh { so_trang: number; huong_dan: boolean; tep: { pdf: string; chu_dir: string } | null }
+export interface NguCanh { so_trang: number; huong_dan: boolean; tep: { pdf: string; chu_dir: string } | null; chu?: TrangChu[] }
 
 async function ctxCa(nc: NguCanh, tt: ThongTin | null, files: string[]): Promise<[PromptCtx, PromptCtx]> {
   const base = { thong_tin: tt, so_trang: nc.so_trang, huong_dan: nc.huong_dan };
@@ -42,7 +42,7 @@ export async function taoJobs(bangChinh: string | null, bangHT: string[], bangKT
 /** Prompt của một job cho hai chế độ: "tep" (Claude đọc file) và "kem" (Gemini, thủ công). */
 export async function promptCua(nc: NguCanh, tt: ThongTin, job: Job): Promise<{ pt: string; pk: string }> {
   const [ct, ck] = await ctxCa(nc, tt, agentById(job.agent).tri_thuc);
-  return { pt: promptJob(ct, job), pk: promptJob(ck, job) };
+  return { pt: promptJob({ ...ct, trang_lq: trangLienQuan(job.agent, tt, nc.chu ?? []) }, job), pk: promptJob(ck, job) };
 }
 
 /** Đọc câu trả lời của một job; điền TT theo bảng (AI hay bỏ trống). */

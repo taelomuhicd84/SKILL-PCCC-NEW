@@ -10,7 +10,7 @@ import path from "node:path";
 import { PDFDocument } from "pdf-lib";
 import {
   ThongTin, canKhung, chonBangChinh, chonBangHeThong, chonBangKienTruc, nhomCuaAgent, type PhamVi, demKetLuan, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat,
-  tachJson, trichChu, NHAN_KET_LUAN, type Bang, type Job, type KetQua, type KetQuaDong, type PromptCtx,
+  tachJson, trichChu, trangLienQuan, type TrangChu, NHAN_KET_LUAN, type Bang, type Job, type KetQua, type KetQuaDong, type PromptCtx,
 } from "@pccc/shared";
 import { GOC_REPO } from "./chung";
 import { luuPhien } from "./phien";
@@ -54,7 +54,8 @@ function jobs(out: string, a: string[]) {
   const { so_trang } = docJson<{ so_trang: number }>(path.join(out, "nguon.json"));
   const ctx: PromptCtx = { che_do: "tep", thong_tin: tt, so_trang, huong_dan: a.includes("--huong-dan"), tep: { pdf: rel(path.join(out, "ban_ve.pdf")), chu_dir: rel(path.join(out, "chu")) } };
   mkdirSync(path.join(out, "jobs"), { recursive: true });
-  for (const j of ds) writeFileSync(path.join(out, "jobs", `${j.id}.md`), promptJob(ctx, j), "utf8");
+  const chu = existsSync(path.join(out, "chu.json")) ? docJson<TrangChu[]>(path.join(out, "chu.json")) : [];
+  for (const j of ds) writeFileSync(path.join(out, "jobs", `${j.id}.md`), promptJob({ ...ctx, trang_lq: trangLienQuan(j.agent, tt, chu) }, j), "utf8");
   writeFileSync(path.join(out, "jobs.json"), JSON.stringify({ bang_chinh: ma, bang_he_thong: ht, bang_kien_truc: ktCo, pham_vi: pv, huong_dan: ctx.huong_dan, jobs: ds.map((j) => ({ id: j.id, agent: j.agent, bang: j.bang, idx: j.dong.map((d) => d.idx) })) }, null, 1));
   console.log(`Phạm vi ${pv}; bảng chính ${ma}, kiến trúc ${ktCo ?? "-"}, hệ thống ${ht.join(", ")}: ${ds.length} job.`);
   for (const j of ds) console.log(`  ${j.id}\tagent pccc-${j.agent}\t${j.dong.length} dòng\t→ ghi ${rel(out)}/jobs/${j.id}.json`);
