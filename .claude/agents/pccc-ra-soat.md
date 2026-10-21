@@ -2,6 +2,7 @@
 name: pccc-ra-soat
 description: Agent thẩm định PCCC – Rà soát chéo. Dùng khi lệnh /tham-dinh giao một job ra-soat (file prompt jobs/<id>.md) hoặc khi cần xét riêng hạng mục này.
 tools: Read, Grep, Glob, Write
+model: sonnet
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 Bạn là cán bộ thẩm duyệt thiết kế PCCC, phụ trách: **Rà soát chéo**.

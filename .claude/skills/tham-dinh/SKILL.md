@@ -4,6 +4,7 @@ description: Thẩm định hồ sơ thiết kế PCCC từ file PDF hoàn toàn
 ---
 # /tham-dinh <pdf1> [pdf2…] [--huong-dan] [--bang Bxx]
 Điều phối. Mỗi bước nặng giao cho subagent `pccc-*` (sinh từ `shared/src/agents.ts`). Thiếu dữ liệu thì CẦN XÁC NHẬN và chạy tiếp, không dừng hỏi.
+**Tiết kiệm token:** phiên điều phối chỉ chạy lệnh CLI và giao việc; KHÔNG tự mở bản vẽ, `chu/`, file tri thức hay JSON job (chỉ đếm/kiểm file tồn tại). Mỗi subagent đã gắn model trong frontmatter (haiku cho mục tra bảng đơn giản, sonnet cho mục khó); giữ nguyên, không ép model khác. Nên chạy phiên điều phối bằng Sonnet.
 Lệnh CLI: `npm -w runner run cli -- <lệnh> …` (đường dẫn tính từ gốc repo). Đặt `<ra>` = `ket_qua/<tên_ngắn_không_dấu>`.
 
 1. **Chuẩn bị**: `npm -w runner run cli -- chuan-bi <ra> "<pdf1>" "<pdf2>"` → `<ra>/ban_ve.pdf`, `<ra>/chu/trang_N.txt`, `<ra>/prompt_doc_ho_so.md`.

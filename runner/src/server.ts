@@ -6,6 +6,7 @@ import path from "node:path";
 import { luuPhien } from "./phien";
 import { GOC_REPO, THU_MUC_LAM, log } from "./chung";
 import { chayClaudeCho, coClaude, coToken, luuToken } from "./engines/claude";
+import { modelCuaJob } from "@pccc/shared";
 import { spawn } from "node:child_process";
 import { randomUUID } from "node:crypto";
 import { chayHonHop, chayLo, taoTrangThai, type EngineLo, type TrangThaiLo, type ViecLo } from "./lo";
@@ -133,7 +134,7 @@ const server = http.createServer(async (req, res) => {
         log("bắt đầu", b.engine, job);
         const t = b.engine === "gemini" ? await chayGemini(b.prompt, path.join(dir, "ban_ve.pdf"), path.join(dir, "jobs"), job)
           : b.engine === "gemini-api" ? await chayGeminiApi(b.prompt, path.join(dir, "ban_ve.pdf"))
-          : await chayClaudeCho(b.prompt, dir);
+          : await chayClaudeCho(b.prompt, dir, undefined, undefined, undefined, modelCuaJob(job));
         log("xong", job, t.length, "ký tự");
         return t;
       });

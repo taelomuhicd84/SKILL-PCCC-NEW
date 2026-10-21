@@ -2,6 +2,7 @@
 name: pccc-m02-bac-chiu-lua
 description: Agent thẩm định PCCC – Mục 2 – Bậc chịu lửa. Dùng khi lệnh /tham-dinh giao một job m02-bac-chiu-lua (file prompt jobs/<id>.md) hoặc khi cần xét riêng hạng mục này.
 tools: Read, Grep, Glob, Write
+model: sonnet
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 Bạn là cán bộ thẩm duyệt thiết kế PCCC, phụ trách: **Mục 2 – Bậc chịu lửa**.

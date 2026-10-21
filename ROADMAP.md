@@ -1,5 +1,5 @@
 # Lộ trình (Roadmap) – Website thẩm định PCCC
-Cập nhật: 2026-10-21. File này trả lời "đang ở đâu, còn gì". Chi tiết kỹ thuật: `TIEN_DO.md`; nhật ký từng mốc: `LICH_SU.md`.
+Cập nhật: 2026-10-21 (chiều). File này trả lời "đang ở đâu, còn gì". Chi tiết kỹ thuật: `TIEN_DO.md`; nhật ký từng mốc: `LICH_SU.md`.
 Ký hiệu: ✅ xong · 🔄 đang làm · ⏳ chưa làm · 👤 người dùng phải làm.
 
 ## Bức tranh tổng
@@ -41,7 +41,10 @@ Quy trình một lần thẩm định (đã chạy được):
 - ⏳ 👤 Rà 9 dòng CHƯA ĐẠT của Karaoke và các phát hiện mới HA1.
 
 ## Giai đoạn 5 – Tốc độ ⏳ (tiếp theo, xem `BAO_CAO_TIEN_DO.md`)
-Đọc hồ sơ mất ~2,5 phút và chạy tuần tự; cả lần thẩm định 20–25 phút.
+Đọc hồ sơ mất ~2,5 phút và chạy tuần tự; cả lần thẩm định 20–25 phút. Token tốn nhiều khi chạy `/tham-dinh` trong app.
+- ✅ Gắn model theo độ khó: 8 mục tra bảng (m03, m08, m10, m13, m15–m18) dùng Haiku, còn lại Sonnet; tự học dùng Sonnet. Chế độ Hỗn hợp giao 8 mục này cho Gemini. Phiên điều phối `/tham-dinh` không tự đọc bản vẽ. **Chưa chạy thật để đo token và chất lượng Haiku.**
+- ⏳ Chạy thử Karaoke, so kết quả 8 mục Haiku với lần Sonnet trước; mục nào kém thì nâng lại Sonnet.
+- ⏳ Đọc hồ sơ (A0) bằng Gemini API Flash nếu có key (job tốn token nhất).
 - ⏳ Lưu đệm kết quả đọc hồ sơ theo hash PDF (rẻ nhất, làm trước).
 - ⏳ Giữ phiên khi F5 (nạp lại từ `runner/work/<phiên>`).
 - ⏳ Ghi thời gian từng pha vào log.

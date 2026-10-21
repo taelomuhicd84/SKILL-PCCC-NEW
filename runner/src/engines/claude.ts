@@ -29,9 +29,10 @@ function lenh(): { cmd: string; shell: boolean } {
 const quote = (a: string) => (/[\s"]/.test(a) ? `"${a.replace(/"/g, '\\"')}"` : a);
 export const coClaude = () => { const l = lenh(); return spawnSync(l.cmd, ["--version"], { encoding: "utf8", shell: l.shell }).status === 0; };
 
-export function chayClaude(prompt: string, thuMucPhien: string, timeoutMs = 30 * 60_000, congCu = ["Read", "Grep", "Glob"]): Promise<string> {
+export function chayClaude(prompt: string, thuMucPhien: string, timeoutMs = 30 * 60_000, congCu = ["Read", "Grep", "Glob"], model?: string): Promise<string> {
   const args = ["-p", "--output-format", "json", "--allowedTools", ...congCu, "--add-dir", thuMucPhien];
-  if (process.env.PCCC_CLAUDE_MODEL) args.push("--model", process.env.PCCC_CLAUDE_MODEL);
+  const m = process.env.PCCC_CLAUDE_MODEL || model; // biến môi trường ép một model cho mọi job
+  if (m) args.push("--model", m);
   return new Promise((resolve, reject) => {
     const l = lenh();
     const p = spawn(l.shell ? quote(l.cmd) : l.cmd, l.shell ? args.map(quote) : args, { cwd: GOC_REPO, shell: l.shell, windowsHide: true, env: envToken() });
@@ -64,9 +65,9 @@ export function choDenReset(loi: string, bayGio = new Date()): number {
   if (t.getTime() <= bayGio.getTime()) t.setDate(t.getDate() + 1);
   return t.getTime() - bayGio.getTime() + 2 * 60_000; // thêm 2 phút cho chắc đã reset
 }
-export async function chayClaudeCho(prompt: string, thuMuc: string, timeoutMs?: number, congCu?: string[], baoCho?: (luc: string) => void): Promise<string> {
+export async function chayClaudeCho(prompt: string, thuMuc: string, timeoutMs?: number, congCu?: string[], baoCho?: (luc: string) => void, model?: string): Promise<string> {
   for (let lan = 0; ; lan++) {
-    try { return await chayClaude(prompt, thuMuc, timeoutMs, congCu); } catch (e) {
+    try { return await chayClaude(prompt, thuMuc, timeoutMs, congCu, model); } catch (e) {
       if (!HET_HAN_MUC.test(String(e)) || lan >= 12) throw e;
       const cho = Math.min(choDenReset(String(e)), 8 * 3600_000);
       const luc = new Date(Date.now() + cho).toLocaleTimeString("vi-VN");

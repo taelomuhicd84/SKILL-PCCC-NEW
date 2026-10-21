@@ -7,6 +7,7 @@ import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import path from "node:path";
 import { log } from "./chung";
 import { chayClaudeCho } from "./engines/claude";
+import { modelCuaJob } from "@pccc/shared";
 import { BiChan, chayTrenTab, dongTrinhDuyet, moTab } from "./engines/gemini";
 import { QuaHanMuc, chayGeminiApi } from "./engines/gemini_api";
 
@@ -56,7 +57,7 @@ export async function chayLo(engine: EngineLo, dir: string, viec: ViecLo[], tt: 
             tab ??= await moTab();
             tra = await chayTrenTab(tab, v.prompt, pdf, path.join(dir, "jobs"), tenJob(v.job));
           } else if (engine === "gemini-api") tra = await chayGeminiApi(v.prompt, pdf);
-          else tra = await chayClaudeCho(v.prompt, dir);
+          else tra = await chayClaudeCho(v.prompt, dir, undefined, undefined, undefined, modelCuaJob(v.job));
           luuTam(dir, v, tra);
           tt.xong[v.job] = tra;
           delete tt.loi[v.job];

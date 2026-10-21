@@ -2,6 +2,7 @@
 name: pccc-huong-dan
 description: Agent thẩm định PCCC – Hướng dẫn thẩm định. Dùng khi lệnh /tham-dinh giao một job huong-dan (file prompt jobs/<id>.md) hoặc khi cần xét riêng hạng mục này.
 tools: Read, Grep, Glob, Write
+model: sonnet
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 Bạn là cán bộ thẩm duyệt thiết kế PCCC, phụ trách: **Hướng dẫn thẩm định**.

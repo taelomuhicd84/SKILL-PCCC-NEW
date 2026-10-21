@@ -2,6 +2,7 @@
 name: pccc-doc-ho-so
 description: Agent thẩm định PCCC – Đọc hồ sơ, lập thông tin công trình. Dùng khi lệnh /tham-dinh giao một job doc-ho-so (file prompt jobs/<id>.md) hoặc khi cần xét riêng hạng mục này.
 tools: Read, Grep, Glob, Write
+model: sonnet
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 Bạn là cán bộ thẩm duyệt thiết kế PCCC, phụ trách: **Đọc hồ sơ, lập thông tin công trình**.

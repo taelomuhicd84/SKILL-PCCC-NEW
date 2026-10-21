@@ -2,6 +2,7 @@
 name: pccc-m04-giao-thong
 description: Agent thẩm định PCCC – Mục 4 – Đường, bãi đỗ xe chữa cháy, lối vào từ trên cao. Dùng khi lệnh /tham-dinh giao một job m04-giao-thong (file prompt jobs/<id>.md) hoặc khi cần xét riêng hạng mục này.
 tools: Read, Grep, Glob, Write
+model: sonnet
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 Bạn là cán bộ thẩm duyệt thiết kế PCCC, phụ trách: **Mục 4 – Đường, bãi đỗ xe chữa cháy, lối vào từ trên cao**.

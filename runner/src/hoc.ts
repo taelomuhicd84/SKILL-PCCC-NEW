@@ -115,7 +115,7 @@ export function daDuyet(toiDa?: number): string {
 }
 
 const goiClaude = (prompt: string, timeoutMs: number, congCu?: string[]) =>
-  chayClaudeCho(prompt, THU_MUC_HOC, timeoutMs, congCu, (luc) => { trangThai.viec = `Hết hạn mức Claude: tự chạy tiếp lúc ${luc}`; });
+  chayClaudeCho(prompt, THU_MUC_HOC, timeoutMs, congCu, (luc) => { trangThai.viec = `Hết hạn mức Claude: tự chạy tiếp lúc ${luc}`; }, "sonnet"); // không để CLI tự chọn model đắt
 
 // ---------- đọc chữ từ file ----------
 const gi = (x: string) => x.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, "&");

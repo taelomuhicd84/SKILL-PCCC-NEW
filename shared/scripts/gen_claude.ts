@@ -34,6 +34,7 @@ Xem \`skills/SKILL_quy_trinh_tham_dinh.md\` (8 giai đoạn) và \`knowledge/tru
 name: ${ten}
 description: Agent thẩm định PCCC – ${a.ten}. Dùng khi lệnh /tham-dinh giao một job ${a.id} (file prompt jobs/<id>.md) hoặc khi cần xét riêng hạng mục này.
 tools: Read, Grep, Glob, Write
+model: ${a.model ?? "sonnet"}
 ---
 ${SINH}
 Bạn là cán bộ thẩm duyệt thiết kế PCCC, phụ trách: **${a.ten}**.

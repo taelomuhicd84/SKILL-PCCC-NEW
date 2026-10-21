@@ -2,6 +2,7 @@
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
 ## 2026-10-21
+- Giảm token: `model` trong `shared/src/agents.ts` (Haiku cho m03, m08, m10, m13, m15–m18; mặc định Sonnet), `modelCuaJob` cho runner (`--model` theo job, `PCCC_CLAUDE_MODEL` vẫn ép được), frontmatter `model:` cho `.claude/agents`, `AGENT_GEMINI` lấy từ các agent Haiku, tự học ép Sonnet, `/tham-dinh` cấm phiên điều phối đọc bản vẽ. 24 test qua, web build qua; chưa chạy thật.
 - Áp dụng "Harness 3 tầng" (video Học Vibe Coding): thêm `CLAUDE.md` (tự nạp mỗi phiên: bản đồ repo, luật Roadmap Sync) và `ROADMAP.md` (6 giai đoạn, trạng thái ✅ 🔄 ⏳ 👤). Không áp dụng phần Tầng 3 (worktree, nhiều phiên song song) vì chưa cần.
 
 ## 2026-10-20 (phiên dài, Claude Opus/Sonnet 5.5)

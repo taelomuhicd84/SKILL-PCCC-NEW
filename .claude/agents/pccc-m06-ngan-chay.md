@@ -2,6 +2,7 @@
 name: pccc-m06-ngan-chay
 description: Agent thẩm định PCCC – Mục 6 – Ngăn cháy, chống cháy lan. Dùng khi lệnh /tham-dinh giao một job m06-ngan-chay (file prompt jobs/<id>.md) hoặc khi cần xét riêng hạng mục này.
 tools: Read, Grep, Glob, Write
+model: sonnet
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 Bạn là cán bộ thẩm duyệt thiết kế PCCC, phụ trách: **Mục 6 – Ngăn cháy, chống cháy lan**.
