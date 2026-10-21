@@ -30,6 +30,8 @@ const quote = (a: string) => (/[\s"]/.test(a) ? `"${a.replace(/"/g, '\\"')}"` : 
 export const coClaude = () => { const l = lenh(); return spawnSync(l.cmd, ["--version"], { encoding: "utf8", shell: l.shell }).status === 0; };
 
 export function chayClaude(prompt: string, thuMucPhien: string, timeoutMs = 30 * 60_000, congCu = ["Read", "Grep", "Glob"], model?: string): Promise<string> {
+  // Người dùng chốt (2026-10-21): runner chỉ dùng token Claude của Phương, KHÔNG dùng đăng nhập CLI (tài khoản trantrongtien198).
+  if (!coToken() && !process.env.PCCC_CHO_PHEP_DANG_NHAP_CLI) return Promise.reject(new Error("Chưa liên kết Claude của Phương: dán token ở ô 'Liên kết Claude' (runner không dùng đăng nhập CLI của trantrongtien198)."));
   const args = ["-p", "--output-format", "json", "--allowedTools", ...congCu, "--add-dir", thuMucPhien];
   const m = process.env.PCCC_CLAUDE_MODEL || model; // biến môi trường ép một model cho mọi job
   if (m) args.push("--model", m);
