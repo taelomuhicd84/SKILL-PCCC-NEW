@@ -3,7 +3,7 @@
 Cơ sở: NĐ 105/2025 Điều 6 khoản 2 (cơ quan xây dựng thẩm định): khoảng cách, đường/bãi đỗ xe chữa cháy,
 thoát nạn + thang máy chữa cháy, bậc chịu lửa + ngăn cháy + công năng, chống khói. Phần hệ thống PCCC của bảng cũ đã cũ nên bỏ
 (hệ thống PCCC nay dùng A1–A26, B1–B14). Mục 1 (phân loại) đã có ở bảng A nên không lấy lại.
-Ghi data/bang/KT*.json và thêm vào data/bang/index.json. Chạy: python -X utf8 data-build/build_kien_truc.py
+Ghi data/bang/KT*.json và thêm vào data/bang/index.json. Chạy: python -X utf8 data-build/build_kien_truc.py rồi python -X utf8 data-build/bo_tcvn3890.py (gỡ TCVN 3890, 5687:2010)
 """
 import json, os, re, subprocess
 
@@ -42,11 +42,6 @@ def main():
             continue
         b = json.loads(git("show", f"{COMMIT}:data/bang/{f}"))
         dong = phan_kien_truc(b["dong"])
-        for d in dong:  # TCVN 5687:2010 đã bị TCVN 5687:2024 thay thế
-            for k in ("khoan_dieu", "quy_dinh"):
-                d[k] = d[k].replace("TCVN 5687:2010", "TCVN 5687:2010 (đã thay bằng TCVN 5687:2024: tra điều tương ứng trong knowledge)")
-        if not dong:
-            continue
         ma = "KT" + m.group(1)
         ten = "Kiến trúc – " + re.sub(r"^Bảng đối chiếu\s*", "", b["ten"])
         item = {"ma": ma, "ten": ten, "file_goc": b["file_goc"], "so_dong": len(dong), "nguon": "kien_truc"}

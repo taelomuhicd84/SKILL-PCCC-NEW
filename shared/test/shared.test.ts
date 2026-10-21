@@ -119,9 +119,10 @@ describe("model theo job", () => {
 describe("trang liên quan", () => {
   it("chọn trang khớp từ khóa agent và nhúng chữ gọn", () => {
     const ch = (id: number, ...s: string[]) => ({ trang: id, xoay: 0, rong: 1000, cao: 1000, chu: s.map((x, i) => ({ id: i, x0: 0, y0: 0, x1: 1, y1: 1, s: x })) });
-    const out = trangLienQuan("m09-chong-khoi", null, [ch(1, "Bìa"), ch(2, "Quạt hút khói", "louver", "hút khói tầng 1"), ch(3, "Mặt bằng điện")]);
+    const out = trangLienQuan("m09-chong-khoi", null, [ch(1, "Bìa"), ch(2, "Quạt hút khói", "louver", "hút khói tầng 1"), ch(3, "Mặt bằng điện")], true);
     expect(out).toContain("### Trang 2");
     expect(out).not.toContain("### Trang 1");
-    expect(trangLienQuan("khong-co", null, [ch(1, "x")])).toBe("");
+    expect(trangLienQuan("khong-co", null, [ch(1, "x")], true)).toBe("");
+    expect(trangLienQuan("m09-chong-khoi", null, [ch(2, "hút khói")])).toBe(""); // tắt mặc định
   });
 });

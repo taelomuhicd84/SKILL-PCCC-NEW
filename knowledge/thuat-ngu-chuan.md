@@ -45,7 +45,7 @@ Dùng để kiểm tra ghi chú tự học có dùng sai thuật ngữ, số hi�
 | Chữa cháy nước, bọt | TCVN 7336:2021 | hiện hành |
 | Kho giá kệ cao | TCVN 14496:2025 (tương ứng SP 241.1311500.2015) | hiện hành |
 | Báo cháy | TCVN 5738:2021; TCVN 7568-14:2025 | hiện hành |
-| Thông gió, điều hòa, chống khói | TCVN 5687:2024 (thay 5687:2010) | hiện hành |
+| Thông gió, điều hòa, chống khói | TCVN 5687:2024 | hiện hành |
 | Chiếu sáng sự cố | TCVN 13456:2022 | hiện hành |
 | Nhà ở riêng lẻ | TCVN 13967:2024 | hiện hành |
 | Bình chữa cháy | TCVN 7435-1:2004, 7435-2:2004 | hiện hành (được QCVN 10 viện dẫn) |

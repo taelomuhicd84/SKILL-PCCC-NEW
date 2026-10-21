@@ -20,7 +20,6 @@
 "- TCVN 5738:2021: Phòng cháy chữa cháy - Hệ thống báo cháy tự động - Yêu cầu kỹ thuật (nếu có);",
 "- TCVN 7336:2021: Phòng cháy chữa cháy - Hệ thống chữa cháy tự động bằng nước, bọt – Yêu cầu thiết kế (nếu có);",
 "- TCVN 4513-1988: Cấp nước bên trong tiêu chuẩn thiết kế (nếu có);",
-"- TCVN 5687:2010 Thông gió, điều hòa không khí - Tiêu chuẩn thiết kế (nếu có);",
 "- TCVN 5740:2009: Phương tiện PCCC - Vòi đẩy chữa cháy - Vòi đẩy bằng sợi tổng hợp tráng cao su (nếu có);",
 "- TCVN 6379:1998 Thiết bị chữa cháy - Trụ nước chữa cháy – Yêu cầu kỹ thuật (nếu có);",
 "- TCVN 13926:2023 Phòng cháy chữa cháy – Hệ thống chữa cháy – Hệ thống chữa cháy đóng gói (Package) (nếu có);",
@@ -1427,7 +1426,7 @@
 "noi_dung": "Bố trí quạt hút khói",
 "goi_y": "",
 "quy_dinh": "Quạt thải khói cần được che chắn bằng vách ngăn chống cháy loại 1",
-"khoan_dieu": "Đ 6.13 TCVN 5687:2010 (đã thay bằng TCVN 5687:2024: tra điều tương ứng trong knowledge)",
+"khoan_dieu": "TCVN 5687:2024 (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6

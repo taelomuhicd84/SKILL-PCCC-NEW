@@ -31,9 +31,9 @@ export function chuGon(t: TrangChu): string {
 }
 
 /** Tối đa `toiDa` trang điểm cao nhất theo từ khóa của agent, tổng không quá `kyTu` ký tự; trả "" nếu agent không có từ khóa hoặc không trang nào khớp. */
-export function trangLienQuan(agent: string, tt: ThongTin | null, chu: TrangChu[], toiDa = 6, kyTu = 14000): string {
+export function trangLienQuan(agent: string, tt: ThongTin | null, chu: TrangChu[], bat = false, toiDa = 6, kyTu = 14000): string {
   const re = TU_KHOA[agent];
-  if (!re || !chu.length) return "";
+  if (!bat || !re || !chu.length) return ""; // TẮT mặc định: đo 2026-10-21 trên Hoàng Anh 2 thấy nhúng chữ làm tăng token (xem BAO_CAO_TIEN_DO.md)
   const loai = new Map((tt?.trang ?? []).map((t) => [t.trang, t.loai]));
   const diem = chu.map((t) => {
     const g = chuGon(t);

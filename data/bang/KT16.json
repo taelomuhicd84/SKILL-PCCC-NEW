@@ -29,7 +29,6 @@
 "- TCVN 7161-13:2009-ISO 14520-13:2006: Hệ thống chữa cháy bằng khí - Tính chất vật lý và thiết kế hệ thống Phần 13: Chất chữa cháy IG–100 (nếu có);",
 "- TCVN 6101:1996 ISO 6183:1990: Thiết bị chữa cháy - Hệ thống chữa cháy Cacbon dioxit thiết kế và lắp đặt (nếu có);",
 "- TCVN 4513-1988: Cấp nước bên trong tiêu chuẩn thiết kế (nếu có);",
-"- TCVN 5687:2010 Thông gió, điều hòa không khí - Tiêu chuẩn thiết kế (nếu có);",
 "- TCVN 5740:2009: Phương tiện PCCC - Vòi đẩy chữa cháy - Vòi đẩy bằng sợi tổng hợp tráng cao su (nếu có);",
 "- TCVN 6379:1998 Thiết bị chữa cháy - Trụ nước chữa cháy – Yêu cầu kỹ thuật (nếu có);",
 "- TCVN 7441:2004 Hệ thống cung cấp khí dầu mỏ hóa lỏng (LPG) tại nơi tiêu thụ - Yêu cầu thiết kế, lắp đặt và vận hành (nếu có);",
@@ -1985,7 +1984,7 @@
 "noi_dung": "Bố trí quạt hút khói",
 "goi_y": "",
 "quy_dinh": "Quạt thải khói cần được che chắn bằng vách ngăn chống cháy loại 1",
-"khoan_dieu": "Đ 6.13 TCVN 5687:2010 (đã thay bằng TCVN 5687:2024: tra điều tương ứng trong knowledge)",
+"khoan_dieu": "TCVN 5687:2024 (tra điều tương ứng)",
 "ket_luan_mau": "",
 "tra_o": "bảng hệ thống B34–B50",
 "so_o": 6

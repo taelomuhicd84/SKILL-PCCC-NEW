@@ -46,14 +46,14 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Mọi agent dùng Sonnet (đã thử Haiku cho 8 mục tra bảng rồi bỏ sau khi đo); runner truyền `--model` theo job, tự học ép Sonnet. Chế độ Hỗn hợp giao 8 mục tra bảng cho Gemini. Phiên điều phối `/tham-dinh` không tự đọc bản vẽ.
 - ✅ Chạy thử 8 job Haiku trên Karaoke (`ket_qua/karaoke_haiku/so_sanh.md`): 104 dòng, khớp 83 (80%), không bỏ sót dòng; giữ 4/5 CHƯA ĐẠT cũ, thêm 1 (nguồn 1 h/2 h < 3 h); Haiku thận trọng hơn (9 dòng ĐẠT → CẦN XÁC NHẬN vì thiếu Isc, công suất). Tổng 894 nghìn token, trung bình 112 nghìn/job.
 - ✅ Đo Haiku và Sonnet cùng 8 job (`BAO_CAO_TIEN_DO.md`): Haiku rẻ hơn ~16% nhưng gấp 2,2 lần token, chậm gấp 1,9 lần; Sonnet khớp lần cũ 86% so với 79%.
-- ⏳ Giảm số lượt công cụ của agent (đưa sẵn chữ các trang liên quan vào prompt): cache đọc chiếm phần lớn chi phí.
-- ⏳ Agent vẫn viện dẫn TCVN 3890:2023 (đã bỏ): thêm cảnh báo vào tri thức m10/m15.
-- ⏳ Cài poppler (pdftoppm) để agent xem được hình bản vẽ; hiện chỉ đọc lớp chữ.
-- ⏳ Đọc hồ sơ (A0) bằng Gemini API Flash nếu có key (job tốn token nhất).
-- ⏳ Lưu đệm kết quả đọc hồ sơ theo hash PDF (rẻ nhất, làm trước).
-- ⏳ Giữ phiên khi F5 (nạp lại từ `runner/work/<phiên>`).
-- ⏳ Ghi thời gian từng pha vào log.
-- ⏳ Chia đọc hồ sơ thành job song song, hoặc đọc bằng Gemini API.
+- ✅ Thử nhúng chữ trang liên quan vào prompt: đo thấy TĂNG 24% token (`BAO_CAO_TIEN_DO.md`), đã tắt mặc định. ⏳ Còn thử: cắt cột "Quy định" dài trong prompt, giảm số lượt đọc ảnh.
+- ✅ Đã gỡ TCVN 3890 và TCVN 5687:2010 khỏi bảng đối chiếu (411 + 21 ô), tri thức, skills, agent (`data-build/bo_tcvn3890.py`; lint ghi chú học vẫn đổi viện dẫn cũ sang bản mới).
+- ✅ Xem hình bản vẽ: dùng PyMuPDF thay poppler (xem dòng ảnh trang ở trên).
+- 🔄 Đọc hồ sơ (A0) bằng Gemini web ở chế độ Hỗn hợp (Playwright ẩn, tab cách nhau 4–7 s, lỗi thì chuyển Claude). **Chưa chạy thử**; chưa có key Gemini API.
+- ✅ Đệm câu trả lời job theo nội dung prompt (`runner/src/dem.ts`, gồm A0): hồ sơ trùng thì không gọi AI. Chưa kiểm trên web thật.
+- 🔄 Giữ phiên khi F5: chưa lưu giao diện; nạp lại cùng PDF thì các job lấy từ đệm gần như tức thì.
+- ✅ Log thời gian từng job (`runner/runner.log`: "xong <job> N s", "dùng đệm").
+- ⏳ Chia đọc hồ sơ thành job song song: cân nhắc không làm, vì mỗi phần vẫn đọc cả hồ sơ nên token tăng gấp nhiều lần.
 
 ## Giai đoạn 6 – Đưa vào dùng ⏳
 - ⏳ 👤 Đổi token Claude đã lộ (`claude setup-token`).

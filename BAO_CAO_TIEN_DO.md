@@ -58,3 +58,16 @@ Cùng 8 job Karaoke Hoàng Yến (A12-m10, m13, m15, m18; B12; B14 ×3; 104 dòn
 
 Nhận xét: Haiku rẻ hơn khoảng 16% nhưng dùng gấp 2,2 lần token, chậm gấp 1,9 lần (nhiều lượt, suy nghĩ dài) và hay để CẦN XÁC NHẬN. Sonnet nhanh, gọn, khớp lần cũ hơn nhưng bỏ 2 CHƯA ĐẠT cũ về bình chữa cháy (nhà ở thiếu bình, bình CO2 nơi có người: hạ xuống CẦN XÁC NHẬN). Chi phí chủ yếu là **cache đọc** (mỗi lượt đọc lại toàn bộ ngữ cảnh): giảm số lượt công cụ mới là đòn bẩy lớn nhất. Máy thiếu `pdftoppm` nên mọi agent đều thử mở PDF rồi thất bại, tốn thêm lượt.
 Kết quả: `ket_qua/karaoke_haiku/`, `ket_qua/karaoke_sonnet/` (không commit).
+
+## Đo nhúng chữ trang liên quan vào prompt (2026-10-21)
+Cùng 3 job Hoàng Anh 2 (m04, m06, m09), Sonnet, subagent trong app. Bản mới = prompt có chữ 6 trang liên quan nhúng sẵn (+18 nghìn ký tự) và dặn mở ảnh trang trước khi kết luận CHƯA ĐẠT; bản cũ = chỉ đường dẫn, agent tự Read/Grep chữ.
+
+| | Bản cũ | Bản mới |
+|---|---|---|
+| Tổng token 3 job | 1,10 triệu | 1,37 triệu (+24%) |
+| Quy đổi USD (giá API Sonnet) | 1,51 | 1,76 (+16%) |
+| Số lượt gọi model | 22 | 25 |
+| Thời gian cộng 3 job | 275 s | 311 s |
+| Kết luận khớp bản cũ | | 55/67 dòng (82%) |
+
+Kết luận: nhúng chữ KHÔNG giảm token (prompt dài hơn được đọc lại ở mọi lượt, số lượt không giảm) nên đã tắt mặc định (`trangLienQuan(..., bat=false)`). Phần ảnh trang có thể cũng góp vào mức tăng nhưng chưa tách riêng; giữ vì giúp bắt lỗi vị trí cửa D3. Cách giảm token thật sự còn lại: bớt lượt công cụ bằng prompt ngắn hơn (cắt cột Quy định dài), hoặc đệm kết quả (đã làm).
