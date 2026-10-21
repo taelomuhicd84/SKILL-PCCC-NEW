@@ -49,7 +49,7 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Thử nhúng chữ trang liên quan vào prompt: đo thấy TĂNG 24% token (`BAO_CAO_TIEN_DO.md`), đã tắt mặc định. ⏳ Còn thử: cắt cột "Quy định" dài trong prompt, giảm số lượt đọc ảnh.
 - ✅ Đã gỡ TCVN 3890 và TCVN 5687:2010 khỏi bảng đối chiếu (411 + 21 ô), tri thức, skills, agent (`data-build/bo_tcvn3890.py`; lint ghi chú học vẫn đổi viện dẫn cũ sang bản mới).
 - ✅ Xem hình bản vẽ: dùng PyMuPDF thay poppler (xem dòng ảnh trang ở trên).
-- 🔄 Đọc hồ sơ (A0) bằng Gemini web ở chế độ Hỗn hợp (Playwright ẩn, tab cách nhau 4–7 s, lỗi thì chuyển Claude). **Chưa chạy thử**; chưa có key Gemini API.
+- 🔄 Đọc hồ sơ (A0) bằng Gemini web ở chế độ Hỗn hợp (Playwright ẩn, tab cách nhau 4–7 s, lỗi thì chuyển Claude). Chạy thử 04:33: cookie Gemini đã hết hạn (chế độ khách) nên A0 tự chuyển Claude, xong 66 s; chưa thấy Gemini đọc A0 thành công. ⏳ 👤 Xuất lại cookie Gemini (Cookie-Editor → JSON) rồi nạp ở bước 1.
 - ✅ Đệm câu trả lời job theo nội dung prompt (`runner/src/dem.ts`, gồm A0): hồ sơ trùng thì không gọi AI. Chưa kiểm trên web thật.
 - 🔄 Giữ phiên khi F5: chưa lưu giao diện; nạp lại cùng PDF thì các job lấy từ đệm gần như tức thì.
 - ✅ Log thời gian từng job (`runner/runner.log`: "xong <job> N s", "dùng đệm").
