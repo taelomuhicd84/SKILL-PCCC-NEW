@@ -1,12 +1,12 @@
 // Runner cục bộ: web (GitHub Pages hoặc localhost) gửi hồ sơ và từng job agent tới đây; runner gọi
 // Claude Code hoặc Gemini bằng tài khoản của chính người dùng. Chỉ nghe 127.0.0.1, chỉ nhận origin trong danh sách.
 import http from "node:http";
-import { writeFileSync, existsSync, readFileSync, statSync } from "node:fs";
+import { writeFileSync, existsSync, readFileSync, statSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { luuPhien } from "./phien";
 import { GOC_REPO, THU_MUC_LAM, log } from "./chung";
 import { chayClaudeCho, coClaude, coToken, luuToken, datNhanToken, thongTinToken, taiKhoanCli, kiemTraClaude, hanMucDen } from "./engines/claude";
-import { modelCuaJob } from "@pccc/shared";
+import { modelCuaJob, tenCongTrinh } from "@pccc/shared";
 import { docDem, khoaDem, luuDem } from "./dem";
 import { spawn } from "node:child_process";
 import { randomUUID } from "node:crypto";
@@ -57,6 +57,20 @@ const server = http.createServer(async (req, res) => {
 <p>Claude Code: ${coClaude() ? "có" : "không thấy"} · Gemini API key: ${coKey() ? "có" : "chưa"} · cookie Gemini: ${coFileCookie() ? "có" : "chưa"}</p>
 <p>Mở website: <a href="http://localhost:5173">http://localhost:5173</a> (chạy <code>npm run dev</code>) hoặc bản GitHub Pages. Để cửa sổ runner mở khi dùng.</p></body>`);
       return;
+    }
+    if (req.method === "GET" && req.url?.startsWith("/ban-ve")) { // tìm lại bản vẽ đã nạp trước đó theo tên công trình để mở kết quả JSON có kèm bản vẽ
+      const u = new URL(req.url, "http://x");
+      const goc = (id: string) => { const m = id.match(/^(work|ket_qua)\/([\w.-]+)$/); return m ? path.join(m[1] === "work" ? THU_MUC_LAM : path.join(GOC_REPO, "ket_qua"), m[2]) : null; };
+      if (u.pathname === "/ban-ve/file") { const d = goc(u.searchParams.get("id") ?? ""); const f = d && path.join(d, "ban_ve.pdf"); if (!f || !existsSync(f)) return json(404, { loi: "không có bản vẽ" }); res.writeHead(200, { "content-type": "application/pdf" }).end(readFileSync(f)); return; }
+      const tu = (t: string) => new Set(tenCongTrinh(t).key.split(" ").filter(Boolean));
+      const cua = (t: string[]) => (x: string) => { const b = tu(x); return t.some((n) => { const a = tu(n); return a.size > 0 && b.size > 0 && ([...a].every((w) => b.has(w)) || [...b].every((w) => a.has(w))); }); };
+      const khop = cua((u.searchParams.getAll("ten")).filter(Boolean));
+      const ds = (["work", "ket_qua"] as const).flatMap((g) => { const r = g === "work" ? THU_MUC_LAM : path.join(GOC_REPO, "ket_qua"); return existsSync(r) ? readdirSync(r).map((n) => ({ id: g + "/" + n, d: path.join(r, n) })) : []; })
+        .filter((x) => existsSync(path.join(x.d, "ban_ve.pdf")) && existsSync(path.join(x.d, "ten.txt")) && khop(readFileSync(path.join(x.d, "ten.txt"), "utf8").trim()))
+        .sort((a, b) => statSync(path.join(b.d, "ban_ve.pdf")).mtimeMs - statSync(path.join(a.d, "ban_ve.pdf")).mtimeMs);
+      if (!ds.length) return json(404, { loi: "không thấy bản vẽ cùng tên" });
+      const k = path.join(ds[0].d, "khoang.json");
+      return json(200, { id: ds[0].id, ten: readFileSync(path.join(ds[0].d, "ten.txt"), "utf8").trim(), khoang: existsSync(k) ? JSON.parse(readFileSync(k, "utf8")) : null });
     }
     if (req.method === "GET" && req.url?.startsWith("/log")) { // lịch sử chạy cho web (mục 1): các dòng có giờ của runner.log, mới nhất ở cuối
       const n = Math.min(1000, Math.max(10, Number(new URL(req.url, "http://x").searchParams.get("n")) || 300));
@@ -131,6 +145,7 @@ const server = http.createServer(async (req, res) => {
     if (req.method === "POST" && req.url === "/phien") {
       const b = await docBody(req);
       const p = luuPhien(String(b.ten ?? ""), Buffer.from(b.pdf_base64, "base64"), b.chu ?? []);
+      if (b.khoang) writeFileSync(path.join(path.dirname(p.pdf), "khoang.json"), JSON.stringify(b.khoang), "utf8");
       log("phiên mới", p.phien, b.ten);
       return json(200, p);
     }

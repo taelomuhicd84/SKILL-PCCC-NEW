@@ -22,10 +22,11 @@ function b64(buf: ArrayBuffer): string {
   return btoa(s);
 }
 
-export async function taoPhien(ten: string, pdf: ArrayBuffer, chu: TrangChu[]): Promise<Phien> {
+export type Khoang = Partial<Record<"kien_truc" | "pccc", [number, number]>>;
+export async function taoPhien(ten: string, pdf: ArrayBuffer, chu: TrangChu[], khoang?: Khoang): Promise<Phien> {
   const r = await fetch(`${RUNNER}/phien`, {
     method: "POST", headers: { "content-type": "application/json" },
-    body: JSON.stringify({ ten, pdf_base64: b64(pdf), chu }),
+    body: JSON.stringify({ ten, pdf_base64: b64(pdf), chu, khoang }),
   });
   if (!r.ok) throw new Error("runner: " + (await r.text()));
   return r.json();
@@ -96,5 +97,17 @@ export async function docLog(n = 300): Promise<DongLog[] | null> {
   try {
     const r = await fetch(`${RUNNER}/log?n=${n}`, { signal: AbortSignal.timeout(3000) });
     return r.ok ? ((await r.json()) as { dong: DongLog[] }).dong : null;
+  } catch { return null; }
+}
+
+/** Tìm bản vẽ đã nạp trước đó (cùng tên công trình) ở máy: trả PDF và khoảng trang kiến trúc / hệ thống nếu có. */
+export async function timBanVe(ten: string[]): Promise<{ bytes: ArrayBuffer; khoang: Khoang | null } | null> {
+  try {
+    const q = ten.filter(Boolean).map((t) => "ten=" + encodeURIComponent(t)).join("&");
+    const r = await fetch(`${RUNNER}/ban-ve?${q}`, { signal: AbortSignal.timeout(8000) });
+    if (!r.ok) return null;
+    const m = (await r.json()) as { id: string; khoang: Khoang | null };
+    const f = await fetch(`${RUNNER}/ban-ve/file?id=${encodeURIComponent(m.id)}`);
+    return f.ok ? { bytes: await f.arrayBuffer(), khoang: m.khoang } : null;
   } catch { return null; }
 }

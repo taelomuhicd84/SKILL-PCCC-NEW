@@ -6,7 +6,7 @@ import {
 } from "@pccc/shared";
 import { moPdf, type PdfDoc } from "./pdf";
 import { taiIndex, taiMau } from "./data";
-import { batDauLo, chayJob, kiemGemini, kiemRunner, napCookieGemini, taoPhien, xemLo, type Engine, type Phien, type SucKhoe } from "./runner";
+import { batDauLo, chayJob, kiemGemini, kiemRunner, napCookieGemini, taoPhien, timBanVe, xemLo, type Engine, type Khoang, type Phien, type SucKhoe } from "./runner";
 import { LichSu } from "./LichSu";
 import { TaiKhoanClaudeBox } from "./TaiKhoanClaude";
 import { LienKet } from "./LienKet";
@@ -35,6 +35,20 @@ function loaiBanVe(ten: string): "kien_truc" | "pccc" | null {
   return kt === pc ? null : kt ? "kien_truc" : "pccc";
 }
 
+/** Gộp các PDF thành một và ghi nhớ khoảng trang bản vẽ kiến trúc / hệ thống PCCC theo tên file (chỉ khi có nhiều file). */
+async function gopPdf(files: File[]): Promise<{ bytes: ArrayBuffer; kh: Khoang }> {
+  const out = await PDFDocument.create();
+  const kh: Khoang = {};
+  for (const f of files) {
+    const src = await PDFDocument.load(await f.arrayBuffer(), { ignoreEncryption: true });
+    const tu = out.getPageCount() + 1;
+    (await out.copyPages(src, src.getPageIndices())).forEach((p) => out.addPage(p));
+    const nhom = files.length > 1 ? loaiBanVe(f.name) : null;
+    if (nhom) kh[nhom] = [kh[nhom]?.[0] ?? tu, out.getPageCount()];
+  }
+  return { bytes: files.length === 1 ? await files[0].arrayBuffer() : ((await out.save()).buffer as ArrayBuffer), kh };
+}
+
 export default function App() {
   const [buoc, setBuoc] = useState(1);
   const [ten, setTen] = useState("");
@@ -53,7 +67,7 @@ export default function App() {
   const [bangKT, setBangKT] = useState<string | null>(null);
   const [phamVi, setPhamVi] = useState<PhamVi>(() => doc<PhamVi>("pccc.phamvi") ?? "ca-hai");
   const [nhomXem, setNhomXem] = useState<"kien_truc" | "pccc">("kien_truc");
-  const [khoang, setKhoang] = useState<Partial<Record<"kien_truc" | "pccc", [number, number]>>>({}); // khoảng trang của bản vẽ kiến trúc / hệ thống PCCC trong PDF đã gộp
+  const [khoang, setKhoang] = useState<Khoang>({}); // khoảng trang của bản vẽ kiến trúc / hệ thống PCCC trong PDF đã gộp
   const [huongDan, setHuongDan] = useState(() => doc<boolean>("pccc.huongdan") ?? false);
   const [coRaSoat, setCoRaSoat] = useState(true);
   const [jobs, setJobs] = useState<TTJob[]>([]);
@@ -101,17 +115,8 @@ export default function App() {
     if (!files.length) { xongRef.current?.(); return; }
     setLoi(""); setTienTrinh("Đang gộp PDF…");
     try {
-      const out = await PDFDocument.create();
-      const kh: Partial<Record<"kien_truc" | "pccc", [number, number]>> = {};
-      for (const f of files) {
-        const src = await PDFDocument.load(await f.arrayBuffer(), { ignoreEncryption: true });
-        const tu = out.getPageCount() + 1;
-        (await out.copyPages(src, src.getPageIndices())).forEach((p) => out.addPage(p));
-        const nhom = files.length > 1 ? loaiBanVe(f.name) : null; // tên file có "kiến trúc" hay "PCCC" thì ghi nhớ khoảng trang để xem đúng bản vẽ theo tab
-        if (nhom) kh[nhom] = [kh[nhom]?.[0] ?? tu, out.getPageCount()];
-      }
+      const { bytes, kh } = await gopPdf(files);
       setKhoang(kh);
-      const bytes = files.length === 1 ? await files[0].arrayBuffer() : ((await out.save()).buffer as ArrayBuffer);
       const d = await moPdf(bytes);
       const c = await trichChu(d, (i, n) => setTienTrinh(`Đang đọc chữ trang ${i}/${n}…`));
       const tenDa = tenNhom ?? files[0].name.replace(/\.pdf$/i, "");
@@ -130,7 +135,7 @@ export default function App() {
     const s = await kiemRunner(); setSk(s);
     if (!s) throw new Error("Không kết nối được runner ở máy bạn. Mở runner (npm run runner) hoặc chọn chế độ Thủ công.");
     setTienTrinh("Đang gửi hồ sơ cho runner…");
-    const p = await taoPhien(ten, pdfBytes!, chu);
+    const p = await taoPhien(ten, pdfBytes!, chu, khoang);
     phienRef.current = p; setPhien(p);
   }
 
@@ -237,6 +242,21 @@ export default function App() {
   });
   const luuKq = (g: DongKetQua[]) => luu("pccc.kq." + ten, ketQua(g));
 
+  /** Gắn bản vẽ PDF cho kết quả đang mở (không đụng tới kết quả): để xem hai cột kết quả | bản vẽ, bấm dòng nhảy tới trang. */
+  async function ganBanVe(bytes: ArrayBuffer, kh: Khoang | null) {
+    setTienTrinh("Đang dựng bản vẽ…");
+    try {
+      const d = await moPdf(bytes);
+      const c = await trichChu(d, (i, n) => setTienTrinh(`Đang đọc chữ trang ${i}/${n}…`));
+      setPdfBytes(bytes); setPdf(d); setChu(c); setKhoang(kh ?? {}); setTrang(1);
+      setTienTrinh(`Đã gắn bản vẽ (${d.numPages} trang): bấm vào một dòng kết quả để xem trang tương ứng.`);
+    } catch (e) { setLoi("Không đọc được PDF: " + e); setTienTrinh(""); }
+  }
+  async function thaBanVe(fs: File[]) {
+    const pdfs = fs.filter((f) => /\.pdf$/i.test(f.name)); if (!pdfs.length) { setLoi("Chỉ nhận file PDF."); return; }
+    const { bytes, kh } = await gopPdf(pdfs); await ganBanVe(bytes, kh);
+  }
+
   /** Kết quả JSON thả vào: lưu theo tên công trình; nếu có PDF cùng công trình trong lần thả này thì PDF tự nạp lại kết quả, không chạy lại. */
   async function nhanKetQua(k: KetQua, nhom: { key: string; ten: string }[]): Promise<void> {
     const g = nhom.find((x) => x.key === tenCongTrinh(k.ten_cong_trinh || "").key);
@@ -245,7 +265,9 @@ export default function App() {
     if (g) return;
     try {
       setTen(tenLuu); setTt(ThongTin.parse(k.thong_tin)); setBangChinh(k.bang_chinh); setBangHT(k.bang_he_thong); setBangKT(k.bang_kien_truc ?? null); setKq(gop([k.dong])); setBuoc(5);
-      setTienTrinh(`Đã mở kết quả "${tenLuu}". Muốn xuất PDF có khung, thả thêm bản vẽ PDF của công trình này.`);
+      setPdf(null); setPdfBytes(null); setChu([]);
+      setTienTrinh(`Đã mở kết quả "${tenLuu}". Đang tìm bản vẽ đã nạp trước đó…`);
+      timBanVe([tenLuu, k.ten_cong_trinh || ""]).then((b) => { if (b) return ganBanVe(b.bytes, b.khoang); setTienTrinh(`Đã mở kết quả "${tenLuu}". Chưa thấy bản vẽ đã nạp: thả PDF vào khung bên phải để xem bản vẽ cạnh kết quả.`); });
     } catch (e) { setLoi("File kết quả không hợp lệ: " + e); }
   }
 
@@ -343,7 +365,7 @@ export default function App() {
       {loi && <div className="loi" onClick={() => setLoi("")}>{loi}</div>}
       {tienTrinh && <div className="tien-trinh">{tienTrinh}</div>}
 
-      <main className={pdf && buoc >= 4 ? "hai-cot" : ""}>
+      <main className={buoc >= 4 && (pdf || kq.length > 0) ? "hai-cot" : ""}>
         <section className="noi-dung">
           {buoc === 1 && (
             <div className="the">
@@ -461,6 +483,10 @@ export default function App() {
             </div>
           )}
         </section>
+        {!pdf && buoc >= 4 && kq.length > 0 && <aside><label className="tha tha-ban-ve" onDragOver={(e) => e.preventDefault()} onDrop={(e) => { e.preventDefault(); thaBanVe(Array.from(e.dataTransfer.files)); }}>
+          <input type="file" accept="application/pdf,.pdf" multiple hidden onChange={(e) => { thaBanVe(Array.from(e.target.files ?? [])); e.target.value = ""; }} />
+          <b>Chưa có bản vẽ</b><span className="muted">Thả file PDF bản vẽ (kiến trúc và/hoặc PCCC) vào đây hoặc bấm để chọn. Bản vẽ sẽ hiện cạnh bảng kết quả; bấm vào một dòng để nhảy tới trang.</span>
+        </label></aside>}
         {pdf && buoc >= 4 && <aside><Viewer pdf={pdf} chu={chu} dong={kq} trang={trang} setTrang={setTrang} chon={chon} khoang={khoang[nhomXem]} nhan={nhomXem === "kien_truc" ? "bản vẽ kiến trúc" : "bản vẽ hệ thống PCCC"} /></aside>}
       </main>
 

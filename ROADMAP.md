@@ -63,6 +63,7 @@ Quy trình một lần thẩm định (đã chạy được):
 - ⏳ Test tự động cho web và runner.
 
 ## Công cụ vận hành
+- ✅ Nạp riêng file kết quả JSON vẫn ra hai cột kết quả | bản vẽ: runner `GET /ban-ve?ten=` tìm lại PDF đã nạp (theo tên công trình, `runner/work` và `ket_qua`) và tự gắn; không thấy thì khung bên phải cho thả PDF. Bấm một dòng kết quả nhảy tới trang. Đã kiểm trên trình duyệt (Hoàng Anh 2, 147 dòng, 116 trang).
 - ✅ Mục 1 Hồ sơ có khung "Tài khoản Claude của runner" (`web/src/TaiKhoanClaude.tsx`, runner `GET /claude/tai-khoan`, `POST /claude/kiem-tra`, `/claude/nhan`): tên gợi nhớ (vd. Phương), mã token, giờ lưu, hạn mức, nút gọi thử, cảnh báo đăng nhập CLI của máy (runner không dùng). Anthropic không trả email cho token `setup-token` (cần scope user:profile) nên tên do người dùng đặt.
 - ✅ Mục 1 Hồ sơ có "Lịch sử chạy" (`web/src/LichSu.tsx`, runner `GET /log`): đếm xong, bắt đầu, đệm, cảnh báo, lỗi; lọc Job / Lỗi + cảnh báo / Tất cả; tự làm mới 3 giây từ `runner/runner.log`.
 - ✅ Agent `pccc-tu-sua` (`.claude/agents/pccc-tu-sua.md`) + `scripts/day_github.sh`: sửa lỗi test/build/runner, kiểm bí mật, commit, push bằng tài khoản taelomuhicd84 (git local `credential.https://github.com.username`). Không force push, không tự cấp quyền; push cần đăng nhập thì dừng và báo.
