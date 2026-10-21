@@ -63,6 +63,7 @@ Quy trình một lần thẩm định (đã chạy được):
 - ⏳ Test tự động cho web và runner.
 
 ## Công cụ vận hành
+- ✅ Chia sẻ web cho máy khác cùng mạng LAN: `node scripts/chia_se_web.mjs [cổng]` chỉ phục vụ `web/dist` (không có runner, không lộ token/cookie). Link mạng nội bộ http://192.168.0.35:8788 (đổi theo IP máy). ⏳ Chia sẻ qua internet (GitHub Pages cần repo công khai/gói trả phí, hoặc Netlify): chờ người dùng quyết vì web đóng gói kèm bảng đối chiếu và tri thức.
 - ✅ Nạp riêng file kết quả JSON vẫn ra hai cột kết quả | bản vẽ: runner `GET /ban-ve?ten=` tìm lại PDF đã nạp (theo tên công trình, `runner/work` và `ket_qua`) và tự gắn; không thấy thì khung bên phải cho thả PDF. Bấm một dòng kết quả nhảy tới trang. Đã kiểm trên trình duyệt (Hoàng Anh 2, 147 dòng, 116 trang).
 - ✅ Mục 1 Hồ sơ có khung "Tài khoản Claude của runner" (`web/src/TaiKhoanClaude.tsx`, runner `GET /claude/tai-khoan`, `POST /claude/kiem-tra`, `/claude/nhan`): tên gợi nhớ (vd. Phương), mã token, giờ lưu, hạn mức, nút gọi thử, cảnh báo đăng nhập CLI của máy (runner không dùng). Anthropic không trả email cho token `setup-token` (cần scope user:profile) nên tên do người dùng đặt.
 - ✅ Mục 1 Hồ sơ có "Lịch sử chạy" (`web/src/LichSu.tsx`, runner `GET /log`): đếm xong, bắt đầu, đệm, cảnh báo, lỗi; lọc Job / Lỗi + cảnh báo / Tất cả; tự làm mới 3 giây từ `runner/runner.log`.
