@@ -58,6 +58,12 @@ const server = http.createServer(async (req, res) => {
 <p>Mở website: <a href="http://localhost:5173">http://localhost:5173</a> (chạy <code>npm run dev</code>) hoặc bản GitHub Pages. Để cửa sổ runner mở khi dùng.</p></body>`);
       return;
     }
+    if (req.method === "GET" && req.url?.startsWith("/log")) { // lịch sử chạy cho web (mục 1): các dòng có giờ của runner.log, mới nhất ở cuối
+      const n = Math.min(1000, Math.max(10, Number(new URL(req.url, "http://x").searchParams.get("n")) || 300));
+      const f = path.join(GOC_REPO, "runner", "runner.log");
+      const dong = (existsSync(f) ? readFileSync(f, "utf8").split(/[\r\n]+/) : []).flatMap((l) => { const m = l.match(/^(\d{4}-\d\d-\d\dT[\d:.]+Z) (.*)$/); return m && !/Đã làm mới file cookie/.test(m[2]) ? [{ luc: m[1], nd: m[2].slice(0, 300) }] : []; });
+      return json(200, { dong: dong.slice(-n) });
+    }
     if (req.method === "GET" && req.url === "/suc-khoe") return json(200, { ok: true, claude: coClaude(), claude_token: coToken(), gemini: await coPlaywright(), gemini_cookie: coFileCookie(), gemini_key: coKey(), ghi_chu: coFileCookie() ? "có file cookie Gemini" : "chưa có file cookie Gemini" });
     // ---- liên kết tài khoản ----
     if (req.method === "POST" && req.url === "/gemini/cookie") {

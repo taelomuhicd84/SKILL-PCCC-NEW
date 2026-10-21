@@ -7,6 +7,7 @@ import {
 import { moPdf, type PdfDoc } from "./pdf";
 import { taiIndex, taiMau } from "./data";
 import { batDauLo, chayJob, kiemGemini, kiemRunner, napCookieGemini, taoPhien, xemLo, type Engine, type Phien, type SucKhoe } from "./runner";
+import { LichSu } from "./LichSu";
 import { LienKet } from "./LienKet";
 import { chayMotJob, docHoSo, docTraLoiJob, gop, huongDan as chayHuongDan, promptCua, raSoat, taoJobs, type Goi, type NguCanh } from "./quy_trinh";
 import { engineCuaJob, tachJson, nhomTheoCongTrinh, tenCongTrinh } from "@pccc/shared";
@@ -345,6 +346,7 @@ export default function App() {
                       <b> {({ cho: "chờ", dang: "đang chạy", xong: "xong", loi: "lỗi" } as const)[n.tt]}</b>
                     </li>))}
                 </ul>)}
+              <LichSu />
               <h3>Phạm vi thẩm định</h3>
               <div className="chon-engine">
                 {([["ca-hai", "Cả hai: xây dựng PCCC (kiến trúc) + hệ thống PCCC, ra hai kết quả riêng"], ["kien-truc", "Chỉ thẩm định xây dựng PCCC (NĐ 105 Điều 6: khoảng cách, đường xe, thoát nạn, bậc chịu lửa, ngăn cháy, chống khói)"], ["pccc", "Chỉ thẩm định hệ thống PCCC (báo cháy, chữa cháy, đèn sự cố, bình, điện…)"]] as const).map(([v, n]) => (

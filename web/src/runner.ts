@@ -79,3 +79,12 @@ export const thuMucHoc = (b: { them?: string; bo?: string; chon?: boolean }) => 
 export const cauHinhHoc = (b: Partial<Pick<CauHinhHoc, "tu_dong" | "tu_duyet" | "chu_de">>) => post<CauHinhHoc>("/hoc/cau-hinh", b);
 export const chayHoc = (nguon: "thu-muc" | "mang" | "ca-hai", toi_da?: number) => post<{ bat_dau: boolean }>("/hoc/chay", { nguon, toi_da });
 export const duyetHoc = (id: string, trang_thai: GhiChuHoc["trang_thai"], ep = false) => post("/hoc/duyet", { id, trang_thai, ep });
+
+export interface DongLog { luc: string; nd: string }
+/** Lịch sử chạy của runner (các dòng có giờ trong runner.log). */
+export async function docLog(n = 300): Promise<DongLog[] | null> {
+  try {
+    const r = await fetch(`${RUNNER}/log?n=${n}`, { signal: AbortSignal.timeout(3000) });
+    return r.ok ? ((await r.json()) as { dong: DongLog[] }).dong : null;
+  } catch { return null; }
+}

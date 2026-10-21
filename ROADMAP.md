@@ -63,6 +63,7 @@ Quy trình một lần thẩm định (đã chạy được):
 - ⏳ Test tự động cho web và runner.
 
 ## Công cụ vận hành
+- ✅ Mục 1 Hồ sơ có "Lịch sử chạy" (`web/src/LichSu.tsx`, runner `GET /log`): đếm xong, bắt đầu, đệm, cảnh báo, lỗi; lọc Job / Lỗi + cảnh báo / Tất cả; tự làm mới 3 giây từ `runner/runner.log`.
 - ✅ Agent `pccc-tu-sua` (`.claude/agents/pccc-tu-sua.md`) + `scripts/day_github.sh`: sửa lỗi test/build/runner, kiểm bí mật, commit, push bằng tài khoản taelomuhicd84 (git local `credential.https://github.com.username`). Không force push, không tự cấp quyền; push cần đăng nhập thì dừng và báo.
 
 ## Ý tưởng chờ (chưa xếp giai đoạn)

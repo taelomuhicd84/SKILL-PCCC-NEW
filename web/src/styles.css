@@ -54,3 +54,13 @@ aside { position: sticky; top: 64px; align-self: start; }
 .hang-doi li.dang b { color: #d9a400; } .hang-doi li.xong b { color: #1b7f55; } .hang-doi li.loi b { color: #c0332b; }
 .tu-hoc table { width: 100%; border-collapse: collapse; } .tu-hoc td, .tu-hoc th { border-bottom: 1px solid var(--vien); padding: 6px; text-align: left; vertical-align: top; }
 .tu-hoc .tom-tat { max-width: 520px; white-space: pre-wrap; }
+
+.lich-su { margin: 12px 0 16px; border: 1px solid var(--vien); border-radius: 8px; padding: 8px 12px; background: var(--the); }
+.lich-su summary { cursor: pointer; }
+.ls-dem { margin: 8px 0; font-size: 13px; display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.ls-dem .xong, .ls-ds li.xong b { color: #1b7f55; } .ls-dem .dang, .ls-ds li.dang b { color: #2459a8; } .ls-dem .dem, .ls-ds li.dem b { color: #7a4fb3; }
+.ls-dem .canh-bao, .ls-ds li.canh-bao b { color: #b36b00; } .ls-dem .loi, .ls-ds li.loi b { color: #c0332b; }
+.ls-loc { margin-left: auto; } .ls-loc button { padding: 2px 8px; font-size: 12px; }
+.ls-ds { list-style: none; margin: 0; padding: 0; max-height: 300px; overflow-y: auto; font: 12px/1.5 ui-monospace, Consolas, monospace; }
+.ls-ds li { padding: 2px 0; border-bottom: 1px dotted var(--vien); word-break: break-word; }
+.ls-ds time { color: var(--mo); }
