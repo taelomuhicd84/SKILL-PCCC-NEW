@@ -85,7 +85,9 @@ export default function App() {
     if (engine === "thu-cong") return new Promise((resolve, reject) => setThuCong({ ten: tenJob, prompt: pk, resolve, reject }));
     const e = engine === "hon-hop" ? engineCuaJob(jobId) : engine;
     if (e === "gemini" && engine === "hon-hop")  // Gemini web lỗi (cookie hết hạn, bị chặn…) thì chạy lại bằng Claude
-      return chayJob("gemini", phienRef.current!.phien, jobId, pk).catch(() => chayJob("claude", phienRef.current!.phien, jobId, pt));
+      return chayJob("gemini", phienRef.current!.phien, jobId, pk)
+        .then((t) => { if (!t.includes("{")) throw new Error("Gemini không trả JSON (từ chối hoặc không đọc được tệp)"); return t; }) // vd. "Tôi là AI dựa trên văn bản…"
+        .catch(() => chayJob("claude", phienRef.current!.phien, jobId, pt));
     return chayJob(e, phienRef.current!.phien, jobId, e === "claude" ? pt : pk);
   };
   const phienRef = useRef<Phien | null>(null);
