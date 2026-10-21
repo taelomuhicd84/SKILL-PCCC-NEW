@@ -8,7 +8,7 @@ export interface AgentDef {
   bang_he_thong?: string[]; // bảng hệ thống đi kèm (B1–B11)
   tri_thuc: string[];    // file nguyên văn điều khoản (đường dẫn từ gốc repo)
   luu_y?: string;        // điều phải nhớ riêng của hạng mục
-  model?: Model;         // model Claude; mặc định sonnet. haiku = việc tra bảng đơn giản (chế độ hỗn hợp giao Gemini)
+  model?: Model;         // model Claude; mặc định sonnet (đo 2026-10-21: haiku tốn gấp 2,2 lần token, chậm hơn, khớp kém hơn)
 }
 export type Model = "haiku" | "sonnet" | "opus";
 
@@ -31,7 +31,7 @@ const AGENTS_GOC: AgentDef[] = [
     tu_khoa: /chiều cao an toàn|số tầng|nhóm nhà|phân loại|phân cấp|đối tượng thuộc diện|đối tượng thẩm định|quy mô/i, tri_thuc: [BH, DN, TT, PLH, Q10, "knowledge/qcvn06-dieu-7.md", "knowledge/nghi-dinh-tham-dinh-dieu-chinh.md"],
     luu_y: "Diện thẩm định theo NĐ 105/2025 (Điều 6, 9) đã sửa bởi NĐ 347/2026: xem knowledge/nghi-dinh-tham-dinh-dieu-chinh.md. Diện thẩm định theo Phụ lục III NĐ 105 (vẫn dùng sau NĐ 347); NĐ 136/2020 và NĐ 50/2024 đã hết hiệu lực, không viện dẫn. Hồ sơ điều chỉnh hoặc cải tạo: đối chiếu từng thay đổi với danh sách đóng phải thẩm định lại, chỉ xét phần điều chỉnh; ca nhập nhằng ghi CAN_XAC_NHAN." },
   { id: "m02-bac-chiu-lua", ten: "Mục 2 – Bậc chịu lửa", viec: "Bậc chịu lửa yêu cầu và giới hạn chịu lửa cấu kiện (Bảng 2, 4, Phụ lục H).", tu_khoa: /bậc chịu lửa/i, tri_thuc: [BH, DN, PLH] },
-  { id: "m03-khoang-cach", model: "haiku", ten: "Mục 3 – Khoảng cách an toàn PCCC", viec: "Khoảng cách tới công trình lân cận (Bảng E1, Phụ lục E).", tu_khoa: /khoảng cách an toàn/i, tri_thuc: [BH, DN] },
+  { id: "m03-khoang-cach", ten: "Mục 3 – Khoảng cách an toàn PCCC", viec: "Khoảng cách tới công trình lân cận (Bảng E1, Phụ lục E).", tu_khoa: /khoảng cách an toàn/i, tri_thuc: [BH, DN] },
   { id: "m04-giao-thong", ten: "Mục 4 – Đường, bãi đỗ xe chữa cháy, lối vào từ trên cao", viec: "Đường xe chữa cháy (rộng, cao, tải trọng, bán kính quay), bãi đỗ, lối vào từ trên cao, họng tiếp nước.",
     tu_khoa: /đường giao thông|xe chữa cháy|bãi đỗ|lối vào/i, tri_thuc: [BH, DN, "knowledge/qcvn06-dieu-6.md"] },
   { id: "m05-cong-nang", ten: "Mục 5 – Bố trí công năng", viec: "Vị trí các công năng, phòng nguy hiểm cháy, tầng hầm, phòng kỹ thuật.", tu_khoa: /bố trí công năng/i,
@@ -45,11 +45,11 @@ const AGENTS_GOC: AgentDef[] = [
       "skills/PHU_LUC_G_QCVN06.md", "skills/MOD_hanh_lang_bao_che.md", "skills/MOD_cau_thang_buong_thang.md", "skills/MOD_hinh_Phu_luc_I_cau_thang.md",
       "skills/MOD_vat_lieu_hoan_thien.md", "memory/pccc-escape-route-method.md", DN],
     luu_y: "Số đo trên bản vẽ là ước lượng ±1–2 m: ghi rõ 'ước lượng'. Khoảng cách và phân tán đo theo Phụ lục G và Hình I." },
-  { id: "m08-thang-may-cc", model: "haiku", ten: "Mục 8 – Thang máy chữa cháy", viec: "Đối tượng phải có, số lượng, sảnh, giếng, nguồn điện thang máy chữa cháy.",
+  { id: "m08-thang-may-cc", ten: "Mục 8 – Thang máy chữa cháy", viec: "Đối tượng phải có, số lượng, sảnh, giếng, nguồn điện thang máy chữa cháy.",
     tu_khoa: /thang máy/i, tri_thuc: [BH, DN, "knowledge/qcvn06-dieu-6.md"] },
   { id: "m09-chong-khoi", ten: "Mục 9 – Chống tụ khói", viec: "Hút xả khói, tăng áp, thoát khói tự nhiên (Phụ lục D).", tu_khoa: /tụ khói|hút khói|tăng áp/i,
     tri_thuc: [BH, "skills/MOD_chong_khoi_PL_D.md", DN] },
-  { id: "m10-binh-chua-chay", model: "haiku", ten: "Mục 10 – Bình chữa cháy, phương tiện ban đầu", viec: "Loại, số lượng, khoảng cách bố trí bình chữa cháy.",
+  { id: "m10-binh-chua-chay", ten: "Mục 10 – Bình chữa cháy, phương tiện ban đầu", viec: "Loại, số lượng, khoảng cách bố trí bình chữa cháy.",
     tu_khoa: /bình chữa cháy|chữa cháy ban đầu|xách tay/i, bang_he_thong: ["B12"], tri_thuc: [BH, Q10_BINH] },
   { id: "m11-bao-chay", ten: "Mục 11 – Báo cháy", viec: "Đối tượng phải trang bị, loại đầu báo, bố trí, tủ trung tâm, liên động.", tu_khoa: /báo cháy|báo nồng độ/i,
     bang_he_thong: ["B1", "B2"], tri_thuc: [BH, Q10, Q10_AUTO, "skills/MOD_dau_bao_khoi_khoang_dam.md"],
@@ -57,15 +57,15 @@ const AGENTS_GOC: AgentDef[] = [
   { id: "m12-chua-chay", ten: "Mục 12 – Chữa cháy (sprinkler, họng nước, ngoài nhà, trạm bơm, khí, bọt)", viec: "Đối tượng phải trang bị, lưu lượng, áp lực, bố trí, nguồn nước, trạm bơm.",
     tu_khoa: /hệ thống chữa cháy|chữa cháy tự động|chữa cháy bằng|họng nước|cấp nước chữa cháy|trạm bơm/i,
     bang_he_thong: ["B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10", "B11"], tri_thuc: [BH, Q10, Q10_AUTO, Q10_NUOC, Q10_H, "knowledge/qcvn06-dieu-5.md"] },
-  { id: "m13-cap-dien", model: "haiku", ten: "Mục 13 – Cấp điện cho hệ thống PCCC", viec: "Nguồn ưu tiên, nguồn dự phòng, cáp chịu lửa, ATS.", tu_khoa: /cấp điện|nguồn điện|hệ thống điện/i,
+  { id: "m13-cap-dien", ten: "Mục 13 – Cấp điện cho hệ thống PCCC", viec: "Nguồn ưu tiên, nguồn dự phòng, cáp chịu lửa, ATS.", tu_khoa: /cấp điện|nguồn điện|hệ thống điện/i,
     bang_he_thong: ["B14"], tri_thuc: [BH] },
   { id: "m14-den-su-co", ten: "Mục 14 – Chiếu sáng sự cố, chỉ dẫn thoát nạn, loa", viec: "Độ rọi, vị trí đèn EXIT/EM, thời gian duy trì, loa thông báo.",
     tu_khoa: /chiếu sáng sự cố|chỉ dẫn thoát nạn|loa/i, bang_he_thong: ["B13"], tri_thuc: [BH, "skills/SKILL_thoat_nan.md", Q10_DEN] },
-  { id: "m15-cnch", model: "haiku", ten: "Mục 15 – Dụng cụ phá dỡ, phương tiện bảo hộ, cứu nạn", viec: "Dụng cụ phá dỡ thông thường, mặt nạ, phương tiện cơ giới.",
+  { id: "m15-cnch", ten: "Mục 15 – Dụng cụ phá dỡ, phương tiện bảo hộ, cứu nạn", viec: "Dụng cụ phá dỡ thông thường, mặt nạ, phương tiện cơ giới.",
     tu_khoa: /phá dỡ|bảo hộ|cứu nạn|CNCH|mặt nạ|cơ giới|dụng cụ chữa cháy|cá nhân/i, tri_thuc: [BH, Q10_BINH] },
-  { id: "m16-chong-set", model: "haiku", ten: "Mục 16 – Chống sét", viec: "Phương án chống sét theo TCVN 9385.", tu_khoa: /chống sét/i, tri_thuc: [BH] },
-  { id: "m17-lien-lac", model: "haiku", ten: "Mục 17 – Liên lạc", viec: "Hệ thống liên lạc, điện thoại phòng trực.", tu_khoa: /liên lạc|điện thoại/i, tri_thuc: [BH] },
-  { id: "m18-quang-cao", model: "haiku", ten: "Mục 18 – Biển quảng cáo", viec: "Biển quảng cáo không che lối thoát nạn, ô cửa cứu nạn (QCVN 17:2018).", tu_khoa: /quảng cáo/i, tri_thuc: [BH] },
+  { id: "m16-chong-set", ten: "Mục 16 – Chống sét", viec: "Phương án chống sét theo TCVN 9385.", tu_khoa: /chống sét/i, tri_thuc: [BH] },
+  { id: "m17-lien-lac", ten: "Mục 17 – Liên lạc", viec: "Hệ thống liên lạc, điện thoại phòng trực.", tu_khoa: /liên lạc|điện thoại/i, tri_thuc: [BH] },
+  { id: "m18-quang-cao", ten: "Mục 18 – Biển quảng cáo", viec: "Biển quảng cáo không che lối thoát nạn, ô cửa cứu nạn (QCVN 17:2018).", tu_khoa: /quảng cáo/i, tri_thuc: [BH] },
   { id: "chung", ten: "Hạng mục khác", viec: "Đối chiếu các dòng không thuộc hạng mục riêng (công trình đặc thù, xăng dầu, khí, tàu…).", tri_thuc: [BH, DN] },
   { id: "ra-soat", ten: "Rà soát chéo", viec: "Tìm số liệu lệch giữa các dòng, kết luận mâu thuẫn, dòng thiếu nguồn hoặc thiếu điều khoản; chỉ trả về các dòng cần sửa.",
     tri_thuc: [BH, "skills/SKILL_thoat_nan.md"] },
@@ -75,8 +75,8 @@ const AGENTS_GOC: AgentDef[] = [
 
 export const AGENTS: AgentDef[] = AGENTS_GOC.map((a) => ({ ...a, tri_thuc: [...a.tri_thuc, HOC] }));
 
-/** Hạng mục đơn giản (model haiku) giao Gemini web ở chế độ "hỗn hợp"; mọi việc còn lại (đọc hồ sơ, mục khó, rà soát) do Claude. */
-export const AGENT_GEMINI = AGENTS_GOC.filter((a) => a.model === "haiku").map((a) => a.id);
+/** Hạng mục tra bảng đơn giản giao Gemini web ở chế độ "hỗn hợp"; mọi việc còn lại (đọc hồ sơ, mục khó, rà soát) do Claude. */
+export const AGENT_GEMINI = ["m03-khoang-cach", "m08-thang-may-cc", "m10-binh-chua-chay", "m13-cap-dien", "m15-cnch", "m16-chong-set", "m17-lien-lac", "m18-quang-cao"];
 /** id job (vd. "A12-m10-binh-chua-chay-2", "R-ra-soat") → model Claude của agent; không khớp thì sonnet. */
 export const modelCuaJob = (id: string): Model => AGENTS_GOC.find((a) => id.includes(a.id))?.model ?? "sonnet";
 /** id job (hoặc id agent) → engine ở chế độ hỗn hợp. */

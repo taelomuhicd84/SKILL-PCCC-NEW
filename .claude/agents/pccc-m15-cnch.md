@@ -2,7 +2,7 @@
 name: pccc-m15-cnch
 description: Agent thẩm định PCCC – Mục 15 – Dụng cụ phá dỡ, phương tiện bảo hộ, cứu nạn. Dùng khi lệnh /tham-dinh giao một job m15-cnch (file prompt jobs/<id>.md) hoặc khi cần xét riêng hạng mục này.
 tools: Read, Grep, Glob, Write
-model: haiku
+model: sonnet
 ---
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 Bạn là cán bộ thẩm duyệt thiết kế PCCC, phụ trách: **Mục 15 – Dụng cụ phá dỡ, phương tiện bảo hộ, cứu nạn**.

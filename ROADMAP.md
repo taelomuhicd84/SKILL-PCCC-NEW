@@ -42,7 +42,7 @@ Quy trình một lần thẩm định (đã chạy được):
 
 ## Giai đoạn 5 – Tốc độ ⏳ (tiếp theo, xem `BAO_CAO_TIEN_DO.md`)
 Đọc hồ sơ mất ~2,5 phút và chạy tuần tự; cả lần thẩm định 20–25 phút. Token tốn nhiều khi chạy `/tham-dinh` trong app.
-- ✅ Gắn model theo độ khó: 8 mục tra bảng (m03, m08, m10, m13, m15–m18) dùng Haiku, còn lại Sonnet; tự học dùng Sonnet. Chế độ Hỗn hợp giao 8 mục này cho Gemini. Phiên điều phối `/tham-dinh` không tự đọc bản vẽ. **Chưa chạy thật để đo token và chất lượng Haiku.**
+- ✅ Mọi agent dùng Sonnet (đã thử Haiku cho 8 mục tra bảng rồi bỏ sau khi đo); runner truyền `--model` theo job, tự học ép Sonnet. Chế độ Hỗn hợp giao 8 mục tra bảng cho Gemini. Phiên điều phối `/tham-dinh` không tự đọc bản vẽ.
 - ✅ Chạy thử 8 job Haiku trên Karaoke (`ket_qua/karaoke_haiku/so_sanh.md`): 104 dòng, khớp 83 (80%), không bỏ sót dòng; giữ 4/5 CHƯA ĐẠT cũ, thêm 1 (nguồn 1 h/2 h < 3 h); Haiku thận trọng hơn (9 dòng ĐẠT → CẦN XÁC NHẬN vì thiếu Isc, công suất). Tổng 894 nghìn token, trung bình 112 nghìn/job.
 - ✅ Đo Haiku và Sonnet cùng 8 job (`BAO_CAO_TIEN_DO.md`): Haiku rẻ hơn ~16% nhưng gấp 2,2 lần token, chậm gấp 1,9 lần; Sonnet khớp lần cũ 86% so với 79%.
 - ⏳ Giảm số lượt công cụ của agent (đưa sẵn chữ các trang liên quan vào prompt): cache đọc chiếm phần lớn chi phí.

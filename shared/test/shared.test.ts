@@ -105,8 +105,8 @@ describe("gộp hồ sơ theo công trình", () => {
 });
 
 describe("model theo job", () => {
-  it("việc tra bảng dùng haiku và giao Gemini ở hỗn hợp; việc khó dùng sonnet", () => {
-    expect(modelCuaJob("A12-m10-binh-chua-chay-2")).toBe("haiku");
+  it("mọi job dùng sonnet; mục tra bảng giao Gemini ở hỗn hợp", () => {
+    expect(modelCuaJob("A12-m10-binh-chua-chay-2")).toBe("sonnet");
     expect(engineCuaJob("B12-m10-binh-chua-chay")).toBe("gemini");
     expect(modelCuaJob("KT15-m07-thoat-nan")).toBe("sonnet");
     expect(engineCuaJob("KT15-m07-thoat-nan")).toBe("claude");
