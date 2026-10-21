@@ -21,6 +21,9 @@ Người dùng: kỹ sư thẩm định PCCC, nói tiếng Việt, muốn trả 
 - Giữ nguyên cấu trúc `ROADMAP.md` (6 giai đoạn, ký hiệu ✅ 🔄 ⏳ 👤); chỉ đổi trạng thái, thêm/bớt dòng.
 - Trước khi kết thúc lượt có sửa code: roadmap đã khớp thực tế chưa? Việc chưa kiểm ghi rõ "chưa kiểm".
 
+## Sửa lỗi và đẩy GitHub
+- Lỗi test/build/runner: giao agent `pccc-tu-sua`. Đẩy code: `bash scripts/day_github.sh "<commit>" [file mới…]` (tài khoản taelomuhicd84; mã thoát 3 = cần người dùng đăng nhập GitHub một lần).
+
 ## Luật khác
 - Bí mật không commit: `runner/*cookie*`, `runner/claude_token.json`, `runner/gemini_key.json`, `runner/.profile*/`. Trước commit: `git diff --cached --name-only | grep -iE "profile|cookie|token|key"`.
 - Sửa `shared/src/agents.ts` → `npm run gen:claude`. Sửa `web/` → `npm run build`. Sửa `runner/` → khởi động lại runner.

@@ -62,6 +62,9 @@ Quy trình một lần thẩm định (đã chạy được):
 - ⏳ Thêm bảng chống tụ khói, thang máy chữa cháy, chống sét khi có bảng mới.
 - ⏳ Test tự động cho web và runner.
 
+## Công cụ vận hành
+- ✅ Agent `pccc-tu-sua` (`.claude/agents/pccc-tu-sua.md`) + `scripts/day_github.sh`: sửa lỗi test/build/runner, kiểm bí mật, commit, push bằng tài khoản taelomuhicd84 (git local `credential.https://github.com.username`). Không force push, không tự cấp quyền; push cần đăng nhập thì dừng và báo.
+
 ## Ý tưởng chờ (chưa xếp giai đoạn)
 - Tự chạy `chay.bat` khi bật máy.
 - Các mục "chưa" trên sơ đồ `so_do/so_do_kien_truc_ngang.html` (hook soát kết quả, `/kiem-tra`, `/nap-kien-thuc`, đo hình học tự động).
