@@ -1,6 +1,9 @@
 # Lịch sử làm việc (mới nhất ở trên)
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
+## 2026-10-21
+- Áp dụng "Harness 3 tầng" (video Học Vibe Coding): thêm `CLAUDE.md` (tự nạp mỗi phiên: bản đồ repo, luật Roadmap Sync) và `ROADMAP.md` (6 giai đoạn, trạng thái ✅ 🔄 ⏳ 👤). Không áp dụng phần Tầng 3 (worktree, nhiều phiên song song) vì chưa cần.
+
 ## 2026-10-20 (phiên dài, Claude Opus/Sonnet 5.5)
 - **Tối (thêm):** phát hiện kết quả chỉ có phần hệ thống vì bộ bảng Đồng Nai không có đầu mục xây dựng. Người dùng chỉ: Đồng Nai = hệ thống, bảng cũ = xây dựng (bỏ phần hệ thống, theo đầu mục NĐ 105 Điều 6). Đã thêm bảng `KT*`, phạm vi thẩm định (cả hai / xây dựng / hệ thống) và hai kết quả riêng ở web + CLI; sửa danh sách bảng ở bước 3 (lọc A/B cũ sai).
 - **Tối:** lô 16:06 chạy xong 22/22 + rà soát + hướng dẫn (16:23) nhưng web mất kết quả ghép khi F5 (dữ liệu thô vẫn ở `runner/work/79cba2da/jobs`). Sửa lỗi nạp PDF do `thong_tin = null` (`web/src/App.tsx:97`). Người dùng báo đọc hồ sơ rất lâu: đo ~2,5 phút/lần từ runner.log, ghi vào `BAO_CAO_TIEN_DO.md` cùng ý tối ưu cho phiên sau.

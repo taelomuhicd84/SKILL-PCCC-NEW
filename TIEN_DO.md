@@ -1,5 +1,5 @@
 # Tiến độ dự án Website thẩm định PCCC
-Phiên mới: đọc BAT_DAU_PHIEN_MOI.md trước.
+Phiên mới: đọc `ROADMAP.md` (tổng quan giai đoạn) trước, rồi mục "ĐANG LÀM" dưới đây. Quy tắc phiên: `CLAUDE.md`.
 File này cập nhật sau mỗi mốc việc và trước mỗi lần compact/clear. Đọc file này đầu tiên khi tiếp tục.
 Kế hoạch gốc: `C:\Users\HP\.claude\plans\t-i-mu-n-l-m-1-ticklish-gosling.md` (web tĩnh GitHub Pages + runner cục bộ Claude Code / Gemini Playwright).
 
