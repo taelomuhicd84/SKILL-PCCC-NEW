@@ -40,3 +40,21 @@ Nguyên nhân nghi ngờ (chưa đo, cần kiểm):
 - 226 dòng có hướng dẫn nhiều hơn 153 dòng yêu cầu: xem lại.
 - Chưa mở lại trang để thử nạp PDF sau khi sửa lỗi `thong_tin = null` (đã build, chưa kiểm bằng trình duyệt).
 - Phiên `runner/work/79cba2da` là hồ sơ "PCCC" (4,8 MB), khác `ket_qua/karaoke_hoang_yen` (9,6 MB). Kết quả thô của lần 16:06 vẫn nằm trong `runner/work/79cba2da/jobs`.
+
+## Đo Haiku và Sonnet trên 8 job tra bảng (2026-10-21)
+Cùng 8 job Karaoke Hoàng Yến (A12-m10, m13, m15, m18; B12; B14 ×3; 104 dòng), cùng prompt, subagent trong app, 4 job song song. Token đọc từ transcript subagent (`~/.claude/projects/.../subagents/*.jsonl`, mỗi message lấy usage lớn nhất). USD quy đổi theo giá API Haiku $1/$5, Sonnet $3/$15 mỗi triệu token (input/output; cache ghi ×1,25, cache đọc ×0,1); giá của bản 5.5 chưa kiểm lại.
+
+| | Haiku | Sonnet |
+|---|---|---|
+| Tổng token | 5,73 triệu | 2,62 triệu |
+| trong đó cache đọc | 4,51 triệu | 2,06 triệu |
+| output (gồm suy nghĩ) | 350 nghìn | 110 nghìn |
+| Số lượt gọi model | 84 | 62 |
+| Quy đổi USD | 3,29 | 3,93 |
+| Tổng thời gian chạy (cộng 8 job) | 1.562 s | 806 s |
+| Khớp kết luận với lần chạy cũ | 83/104 (79%) | 90/104 (86%) |
+| CHƯA ĐẠT | 5 (giữ 4/5 cũ, thêm B14#42) | 4 (giữ 2/5 cũ, thêm A12#61, A12#62) |
+| ĐẠT / CẦN XÁC NHẬN | 12 / 32 | 17 / 24 |
+
+Nhận xét: Haiku rẻ hơn khoảng 16% nhưng dùng gấp 2,2 lần token, chậm gấp 1,9 lần (nhiều lượt, suy nghĩ dài) và hay để CẦN XÁC NHẬN. Sonnet nhanh, gọn, khớp lần cũ hơn nhưng bỏ 2 CHƯA ĐẠT cũ về bình chữa cháy (nhà ở thiếu bình, bình CO2 nơi có người: hạ xuống CẦN XÁC NHẬN). Chi phí chủ yếu là **cache đọc** (mỗi lượt đọc lại toàn bộ ngữ cảnh): giảm số lượt công cụ mới là đòn bẩy lớn nhất. Máy thiếu `pdftoppm` nên mọi agent đều thử mở PDF rồi thất bại, tốn thêm lượt.
+Kết quả: `ket_qua/karaoke_haiku/`, `ket_qua/karaoke_sonnet/` (không commit).

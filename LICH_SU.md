@@ -2,6 +2,7 @@
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
 ## 2026-10-21
+- Chạy lại 8 job đó bằng Sonnet và đo từ transcript subagent: Haiku 5,73 triệu token / 1.562 s / ~3,29 USD; Sonnet 2,62 triệu / 806 s / ~3,93 USD; khớp lần cũ 79% và 86%. Bảng ở `BAO_CAO_TIEN_DO.md`.
 - Chạy thử 8 job Haiku (m10, m13, m15, m18) trên Karaoke Hoàng Yến bằng subagent trong app: khớp 83/104 dòng với lần cũ, 894 nghìn token; so sánh ở `ket_qua/karaoke_haiku/so_sanh.md` (không commit thư mục này).
 - Giảm token: `model` trong `shared/src/agents.ts` (Haiku cho m03, m08, m10, m13, m15–m18; mặc định Sonnet), `modelCuaJob` cho runner (`--model` theo job, `PCCC_CLAUDE_MODEL` vẫn ép được), frontmatter `model:` cho `.claude/agents`, `AGENT_GEMINI` lấy từ các agent Haiku, tự học ép Sonnet, `/tham-dinh` cấm phiên điều phối đọc bản vẽ. 24 test qua, web build qua; chưa chạy thật.
 - Áp dụng "Harness 3 tầng" (video Học Vibe Coding): thêm `CLAUDE.md` (tự nạp mỗi phiên: bản đồ repo, luật Roadmap Sync) và `ROADMAP.md` (6 giai đoạn, trạng thái ✅ 🔄 ⏳ 👤). Không áp dụng phần Tầng 3 (worktree, nhiều phiên song song) vì chưa cần.
