@@ -29,6 +29,12 @@ const taiVe = (blob: Blob, ten: string) => {
 const luu = (k: string, v: unknown) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* bộ nhớ đầy hoặc bị chặn */ } };
 const doc = <T,>(k: string): T | null => { try { const s = localStorage.getItem(k); return s ? JSON.parse(s) : null; } catch { return null; } };
 
+/** Phân loại PDF theo tên file: bản vẽ kiến trúc hay hệ thống PCCC (không rõ hoặc khớp cả hai thì null). */
+function loaiBanVe(ten: string): "kien_truc" | "pccc" | null {
+  const kt = /ki[eêế]n\s*tr[uúù]c|ktruc|\bKT\b|architect/i.test(ten), pc = /pccc|ph[oò]ng\s*ch[aá]y|h[eệ]\s*th[oố]ng|\bHT\b/i.test(ten);
+  return kt === pc ? null : kt ? "kien_truc" : "pccc";
+}
+
 export default function App() {
   const [buoc, setBuoc] = useState(1);
   const [ten, setTen] = useState("");
@@ -47,6 +53,7 @@ export default function App() {
   const [bangKT, setBangKT] = useState<string | null>(null);
   const [phamVi, setPhamVi] = useState<PhamVi>(() => doc<PhamVi>("pccc.phamvi") ?? "ca-hai");
   const [nhomXem, setNhomXem] = useState<"kien_truc" | "pccc">("kien_truc");
+  const [khoang, setKhoang] = useState<Partial<Record<"kien_truc" | "pccc", [number, number]>>>({}); // khoảng trang của bản vẽ kiến trúc / hệ thống PCCC trong PDF đã gộp
   const [huongDan, setHuongDan] = useState(() => doc<boolean>("pccc.huongdan") ?? false);
   const [coRaSoat, setCoRaSoat] = useState(true);
   const [jobs, setJobs] = useState<TTJob[]>([]);
@@ -70,6 +77,7 @@ export default function App() {
   useEffect(() => { luu("pccc.huongdan", huongDan); }, [huongDan]);
   useEffect(() => { luu("pccc.phamvi", phamVi); }, [phamVi]);
   useEffect(() => { luu("pccc.luong", luong); }, [luong]);
+  useEffect(() => { const k = khoang[nhomXem]; if (k) setTrang(k[0]); }, [nhomXem, khoang]); // đổi tab: xem bản vẽ của nhóm đó
 
   // ---------- gọi AI ----------
   const goi: Goi = async (jobId, tenJob, pt, pk) => {
@@ -92,10 +100,15 @@ export default function App() {
     setLoi(""); setTienTrinh("Đang gộp PDF…");
     try {
       const out = await PDFDocument.create();
+      const kh: Partial<Record<"kien_truc" | "pccc", [number, number]>> = {};
       for (const f of files) {
         const src = await PDFDocument.load(await f.arrayBuffer(), { ignoreEncryption: true });
+        const tu = out.getPageCount() + 1;
         (await out.copyPages(src, src.getPageIndices())).forEach((p) => out.addPage(p));
+        const nhom = files.length > 1 ? loaiBanVe(f.name) : null; // tên file có "kiến trúc" hay "PCCC" thì ghi nhớ khoảng trang để xem đúng bản vẽ theo tab
+        if (nhom) kh[nhom] = [kh[nhom]?.[0] ?? tu, out.getPageCount()];
       }
+      setKhoang(kh);
       const bytes = files.length === 1 ? await files[0].arrayBuffer() : ((await out.save()).buffer as ArrayBuffer);
       const d = await moPdf(bytes);
       const c = await trichChu(d, (i, n) => setTienTrinh(`Đang đọc chữ trang ${i}/${n}…`));
@@ -446,7 +459,7 @@ export default function App() {
             </div>
           )}
         </section>
-        {pdf && buoc >= 4 && <aside><Viewer pdf={pdf} chu={chu} dong={kq} trang={trang} setTrang={setTrang} chon={chon} /></aside>}
+        {pdf && buoc >= 4 && <aside><Viewer pdf={pdf} chu={chu} dong={kq} trang={trang} setTrang={setTrang} chon={chon} khoang={khoang[nhomXem]} nhan={nhomXem === "kien_truc" ? "bản vẽ kiến trúc" : "bản vẽ hệ thống PCCC"} /></aside>}
       </main>
 
       {thuCong && <HopThuCong tc={thuCong} chu={chu} onXong={() => setThuCong(null)} />}

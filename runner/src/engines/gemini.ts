@@ -86,10 +86,17 @@ async function taiTep(page: Page, files: string[]) {
   await nghi(500, 1200);
   const muc = await tim(page, SEL.mucTaiTep, 4000);
   if (!muc) throw new Error("Không thấy mục 'Tải tệp lên' (sửa gemini_selectors.ts).");
-  const chooser = page.waitForEvent("filechooser", { timeout: 15000 });
+  const chooser = page.waitForEvent("filechooser", { timeout: 12000 });
   chooser.catch(() => {}); // nếu bước bấm lỗi trước khi await thì không để lời hứa này làm sập tiến trình
   await bam(page, muc);
-  await (await chooser).setFiles(files);
+  try { await (await chooser).setFiles(files); }
+  catch (e) {
+    // Tab chạy ẩn/nền đôi khi không bật hộp chọn tệp (TimeoutError filechooser): gắn thẳng vào ô <input type=file> mà Gemini đã tạo sau khi bấm mục tải tệp.
+    const o = page.locator("input[type=file]");
+    if (!(await o.count())) throw e;
+    log("Gemini: hộp chọn tệp không bật, gắn tệp thẳng vào ô input");
+    await o.last().setInputFiles(files);
+  }
   await nghi(2000, 3500);
   for (let i = 0; i < 300 && (await tim(page, SEL.tepDangTai, 0)); i++) await page.waitForTimeout(500);
 }
