@@ -32,10 +32,10 @@ Quy trình một lần thẩm định (đã chạy được):
 ## Giai đoạn 4 – Chất lượng thẩm định 🔄 (đang làm)
 - ✅ Bảng Đồng Nai A1–A26 + B1–B14 (hệ thống); bảng `KT*` (xây dựng, NĐ 105 Điều 6); hai kết quả riêng.
 - ✅ Agent Hướng dẫn thẩm định; chạy thật Karaoke Hoàng Yến (phần hệ thống).
-- ⏳ Chạy thật phần xây dựng (KT15) trên Karaoke bằng AI.
-- ⏳ Soát bảng KT cũ còn điều khoản lỗi thời không.
-- ⏳ Kiểm dòng B3#63 (nghi sai số 70 mm).
-- ⏳ Giảm dòng hướng dẫn thừa (226 dòng > 153 dòng cần).
+- ✅ Chạy thật phần xây dựng (KT15) bằng AI trên Karaoke Hoàng Anh 2 (116 trang, `ket_qua/karaoke_hoang_anh_2/`): 147 dòng = ĐẠT 38, CHƯA ĐẠT 3 (cửa D3, D2 kho mở ra hành lang không phải cửa chống cháy), CẦN XÁC NHẬN 25, KHÔNG ÁP DỤNG 81; ~728 nghìn token subagent Sonnet. Chưa kiểm bằng hình (máy thiếu pdftoppm).
+- ✅ Soát bảng KT cũ: sửa 21 dòng trích TCVN 5687:2010 (đã bị thay bằng 5687:2024). Còn danh mục đầu bảng (`dau_bang`) ghi NĐ 136/2020, TCVN 3890 nhưng không đưa vào prompt.
+- ✅ Dòng B3#63: 70 mm đúng theo Đ 7.19 TCVN 4513:1988 (hai ghi chú học khớp nhau).
+- ✅ Hướng dẫn thừa: lần Hoàng Anh 2 ghi đúng 31/31 dòng khi prompt dặn "không thêm dòng ngoài danh sách". Chưa áp lại lên Karaoke Yến.
 - ⏳ Cho agent hướng dẫn đọc ảnh trang bản vẽ (hiện chỉ đọc chữ).
 - ⏳ 👤 Mở PDF xuất ra bằng Acrobat/Edge, kiểm khung + comment.
 - ⏳ 👤 Rà 9 dòng CHƯA ĐẠT của Karaoke và các phát hiện mới HA1.

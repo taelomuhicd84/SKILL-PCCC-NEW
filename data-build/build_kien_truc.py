@@ -42,6 +42,9 @@ def main():
             continue
         b = json.loads(git("show", f"{COMMIT}:data/bang/{f}"))
         dong = phan_kien_truc(b["dong"])
+        for d in dong:  # TCVN 5687:2010 đã bị TCVN 5687:2024 thay thế
+            for k in ("khoan_dieu", "quy_dinh"):
+                d[k] = d[k].replace("TCVN 5687:2010", "TCVN 5687:2010 (đã thay bằng TCVN 5687:2024: tra điều tương ứng trong knowledge)")
         if not dong:
             continue
         ma = "KT" + m.group(1)
