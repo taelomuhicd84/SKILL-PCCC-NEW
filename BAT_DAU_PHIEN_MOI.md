@@ -1,4 +1,6 @@
-# Bàn giao sang phiên mới (cập nhật 2026-10-20)
+# Bàn giao sang phiên mới (cập nhật 2026-10-21)
+
+**ĐỌC TRƯỚC:** `CLAUDE.md` (quy tắc), `ROADMAP.md` (tổng quan), rồi khối "BÀN GIAO PHIÊN 2026-10-21" đầu `TIEN_DO.md` (trạng thái, vấn đề mở, bẫy). Đoạn bên dưới là của các ngày trước, một số điểm đã cũ.
 
 Mở phiên mới thì đọc file này trước, rồi đọc `TIEN_DO.md` (lịch sử chi tiết). Người dùng nói tiếng Việt, muốn trả lời ngắn, tiết kiệm token, đã cấp toàn quyền (không hỏi giữa chừng, trừ việc ra bên ngoài như push, deploy, tạo tài khoản).
 
