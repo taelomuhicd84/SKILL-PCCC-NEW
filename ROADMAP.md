@@ -37,7 +37,7 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Dòng B3#63: 70 mm đúng theo Đ 7.19 TCVN 4513:1988 (hai ghi chú học khớp nhau).
 - ✅ Hướng dẫn thừa: lần Hoàng Anh 2 ghi đúng 31/31 dòng khi prompt dặn "không thêm dòng ngoài danh sách". Chưa áp lại lên Karaoke Yến.
 - 🔄 Cho agent xem ảnh trang bản vẽ: `pdftoppm` không có nên dựng ảnh bằng PyMuPDF (`pymupdf`, đã cài) rồi `Read` ảnh. Đã thử tay trên Hoàng Anh 2: hình cho thấy 3 dòng CHƯA ĐẠT cửa D3 là sai (D3 là cửa cuối hành lang ra thang ngoài trời CT2) → hạ xuống CẦN XÁC NHẬN (còn lại 0 CHƯA ĐẠT, 28 CẦN XÁC NHẬN).
-- ⏳ Tự dựng ảnh trang trong bước `chuan-bi` (thư mục `anh/trang_N.png`) để mọi agent xem hình khi chữ có vị trí mơ hồ.
+- ✅ `chuan-bi` và web (`/phien`, chạy nền) tự dựng ảnh trang `anh/trang_N.png` bằng `scripts/dung_anh.py` (116 trang: 15 giây, 30 MB, thư mục bị ignore); prompt dặn agent mở ảnh trước khi kết luận CHƯA ĐẠT dựa vào vị trí cửa, thang, đèn. Không có Python hoặc PyMuPDF thì bỏ qua, chạy bằng chữ. **Chưa chạy lại thẩm định để đo chất lượng và token khi agent mở ảnh.**
 - ⏳ 👤 Mở PDF xuất ra bằng Acrobat/Edge, kiểm khung + comment.
 - ⏳ 👤 Rà 9 dòng CHƯA ĐẠT của Karaoke và các phát hiện mới HA1.
 

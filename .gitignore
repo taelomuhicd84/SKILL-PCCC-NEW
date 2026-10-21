@@ -6,6 +6,7 @@ data-build/doc_converted/
 *.log
 ket_qua/*/ban_ve.pdf
 ket_qua/*/chu/
+ket_qua/*/anh/
 ket_qua/*/chu.json
 data/_test.pdf
 runner/gemini_cookies.json

@@ -2,6 +2,7 @@
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
 ## 2026-10-21
+- Dựng ảnh trang tự động: `scripts/dung_anh.py` (PyMuPDF), `runner/src/anh.ts`, gọi từ `chuan-bi` (chờ xong) và `luuPhien` (nền); `shared/src/prompt.ts` thêm dòng ảnh trang và quy tắc mở ảnh trước khi kết luận CHƯA ĐẠT theo vị trí; `.gitignore` bỏ `ket_qua/*/anh/`. 24 test qua, web build qua.
 - Xem ảnh trang 14 Hoàng Anh 2 (dựng bằng PyMuPDF): D3 là cửa cuối hành lang ra thang CT2, không phải cửa phòng mở vào hành lang → 3 dòng KT15 #47, #51, #63 từ CHƯA ĐẠT thành CẦN XÁC NHẬN (kho D2 chưa ghi diện tích); sửa lý do, hướng dẫn, gộp lại: 0 CHƯA ĐẠT, 28 CẦN XÁC NHẬN. Bài học: agent chỉ đọc chữ có vị trí đoán sai vị trí cửa.
 - Thẩm định xây dựng (KT15) Karaoke Hoàng Anh 2 (KIẾN TRÚC + PCCC, 116 trang): đọc hồ sơ, 10 job, rà soát, hướng dẫn, gộp bằng subagent Sonnet; 147 dòng, 3 CHƯA ĐẠT; ~728 nghìn token. Sửa 21 dòng bảng KT trích TCVN 5687:2010.
 - Người dùng chốt: đổi 8 mục về Sonnet (nhanh hơn, khớp hơn). `AGENT_GEMINI` thành danh sách cố định 8 mục; `.claude/agents` sinh lại đều `model: sonnet`. 24 test qua, web build qua.

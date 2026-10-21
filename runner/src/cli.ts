@@ -14,6 +14,7 @@ import {
 } from "@pccc/shared";
 import { GOC_REPO } from "./chung";
 import { luuPhien } from "./phien";
+import { dungAnh } from "./anh";
 import { agentById } from "@pccc/shared";
 import { chayLo, taoTrangThai } from "./lo";
 
@@ -34,6 +35,7 @@ async function chuanBi(out: string, pdfs: string[]) {
   const chu = await trichChu(pdf, (i, n) => process.stdout.write(`\rđọc chữ trang ${i}/${n}`));
   console.log();
   const p = luuPhien(path.basename(pdfs[0]), Buffer.from(bytes), chu, "", out);
+  console.log("dựng ảnh trang:", (await dungAnh(p.pdf, path.join(out, "anh"))) ?? "bỏ qua (không có Python/PyMuPDF)");
   const ctx: PromptCtx = { che_do: "tep", thong_tin: null, so_trang: pdf.numPages, huong_dan: false, tep: { pdf: rel(p.pdf), chu_dir: rel(p.chu_dir) } };
   const goiY = bang("A12").dong.map((d) => d.goi_y).filter(Boolean).slice(0, 40);
   writeFileSync(path.join(out, "prompt_doc_ho_so.md"), promptDocHoSo(ctx, goiY), "utf8");
