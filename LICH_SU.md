@@ -2,6 +2,7 @@
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
 ## 2026-10-21
+- Mục 1: Lịch sử chạy và Tài khoản Claude chuyển xuống cuối trang; lịch sử chỉ hiện từ lúc mở trang (F5 là bắt đầu lại, `runner/runner.log` vẫn giữ đủ). Giải thích cho người dùng: `setup-token` cấp token cho tài khoản đang đăng nhập trên trình duyệt (Tiến), nên cần cấp quyền bằng tài khoản Phuongnghh.
 - Thêm khung "Tài khoản Claude của runner" ở mục 1 (tên gợi nhớ, mã token, hạn mức, nút Kiểm tra, cảnh báo đăng nhập CLI trantrongtien198 không dùng); ô dán token có thêm tên tài khoản. Đã kiểm trên trình duyệt: nút Kiểm tra báo hết hạn mức đến 16:10.
 - Thêm mục "Lịch sử chạy" ngay mục 1. Hồ sơ (runner `GET /log`, `web/src/LichSu.tsx`); đã kiểm trên trình duyệt: hiện đúng giờ, đếm và lọc.
 - Runner chỉ dùng token Claude của Phương, không rơi về đăng nhập CLI (trantrongtien198): `chayClaude` báo lỗi nếu chưa có `claude_token.json`. Token hiện tại chạm giới hạn phiên đến 16:10 (cùng bộ đếm với app desktop); runner tự chờ rồi chạy tiếp. Runner chạy ẩn bằng `Start-Process npm run runner`, không phụ thuộc phiên làm việc.

@@ -347,8 +347,6 @@ export default function App() {
                       <b> {({ cho: "chờ", dang: "đang chạy", xong: "xong", loi: "lỗi" } as const)[n.tt]}</b>
                     </li>))}
                 </ul>)}
-              <TaiKhoanClaudeBox />
-              <LichSu />
               <h3>Phạm vi thẩm định</h3>
               <div className="chon-engine">
                 {([["ca-hai", "Cả hai: xây dựng PCCC (kiến trúc) + hệ thống PCCC, ra hai kết quả riêng"], ["kien-truc", "Chỉ thẩm định xây dựng PCCC (NĐ 105 Điều 6: khoảng cách, đường xe, thoát nạn, bậc chịu lửa, ngăn cháy, chống khói)"], ["pccc", "Chỉ thẩm định hệ thống PCCC (báo cháy, chữa cháy, đèn sự cố, bình, điện…)"]] as const).map(([v, n]) => (
@@ -360,6 +358,8 @@ export default function App() {
                   <label key={v}><input type="radio" checked={engine === v} onChange={() => setEngine(v)} /> {n}</label>))}
               </div>
               {engine !== "thu-cong" && <LienKet engine={engine} sk={sk} capNhat={() => kiemRunner().then(setSk)} luong={luong} setLuong={setLuong} />}
+              <TaiKhoanClaudeBox />
+              <LichSu />
             </div>
           )}
 
