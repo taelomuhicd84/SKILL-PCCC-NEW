@@ -53,7 +53,17 @@ async function post<T>(duong: string, body: unknown): Promise<T> {
 export const napCookieGemini = (json: unknown) => post<{ so_cookie: number }>("/gemini/cookie", json);
 export const kiemGemini = () => post<{ dang_nhap: boolean }>("/gemini/kiem", {});
 export const luuKeyGemini = (key: string) => post("/gemini/key", { key });
-export const luuTokenClaude = (token: string) => post("/claude/token", { token });
+export const luuTokenClaude = (token: string, nhan?: string) => post("/claude/token", { token, nhan });
+export const datNhanClaude = (nhan: string) => post("/claude/nhan", { nhan });
+export const kiemTraClaude = () => post<{ ok: boolean; ghi_chu: string }>("/claude/kiem-tra", {});
+export interface TaiKhoanClaude {
+  token: { co: false } | { co: true; nhan: string | null; luc: string | null; loai: string; dau: string };
+  cli: { email?: string; cach?: string; dung: false };
+  han_muc_den: string | null;
+}
+export async function docTaiKhoanClaude(): Promise<TaiKhoanClaude | null> {
+  try { const r = await fetch(`${RUNNER}/claude/tai-khoan`, { signal: AbortSignal.timeout(15000) }); return r.ok ? r.json() : null; } catch { return null; }
+}
 export const moDangNhapClaude = () => post<{ huong_dan: string }>("/claude/dang-nhap", {});
 
 // ---- chạy lô song song ----

@@ -5,7 +5,7 @@ import { writeFileSync, existsSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 import { luuPhien } from "./phien";
 import { GOC_REPO, THU_MUC_LAM, log } from "./chung";
-import { chayClaudeCho, coClaude, coToken, luuToken } from "./engines/claude";
+import { chayClaudeCho, coClaude, coToken, luuToken, datNhanToken, thongTinToken, taiKhoanCli, kiemTraClaude, hanMucDen } from "./engines/claude";
 import { modelCuaJob } from "@pccc/shared";
 import { docDem, khoaDem, luuDem } from "./dem";
 import { spawn } from "node:child_process";
@@ -75,7 +75,10 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/gemini/key") { luuKey(String((await docBody(req)).key ?? "")); return json(200, { ok: true }); }
     if (req.method === "POST" && req.url === "/gemini/kiem") return json(200, { dang_nhap: await giuPhien() });
-    if (req.method === "POST" && req.url === "/claude/token") { luuToken(String((await docBody(req)).token ?? "")); return json(200, { ok: true }); }
+    if (req.method === "POST" && req.url === "/claude/token") { const b = await docBody(req); luuToken(String(b.token ?? ""), b.nhan ? String(b.nhan) : undefined); return json(200, { ok: true }); }
+    if (req.method === "POST" && req.url === "/claude/nhan") { if (!coToken()) return json(400, { loi: "chưa có token Claude" }); datNhanToken(String((await docBody(req)).nhan ?? "")); return json(200, { ok: true }); }
+    if (req.method === "GET" && req.url === "/claude/tai-khoan") return json(200, { token: thongTinToken(), cli: { ...taiKhoanCli(), dung: false }, han_muc_den: hanMucDen });
+    if (req.method === "POST" && req.url === "/claude/kiem-tra") return json(200, await kiemTraClaude());
     if (req.method === "POST" && req.url === "/claude/dang-nhap") { // mở cửa sổ terminal chạy `claude setup-token` để người dùng tự đăng nhập
       if (process.platform === "win32") spawn("cmd", ["/c", "start", "Dang nhap Claude", "cmd", "/k", "claude setup-token"], { detached: true, stdio: "ignore" }).unref();
       else spawn("x-terminal-emulator", ["-e", "claude setup-token"], { detached: true, stdio: "ignore" }).unref();

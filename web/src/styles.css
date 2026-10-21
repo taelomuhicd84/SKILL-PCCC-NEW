@@ -64,3 +64,7 @@ aside { position: sticky; top: 64px; align-self: start; }
 .ls-ds { list-style: none; margin: 0; padding: 0; max-height: 300px; overflow-y: auto; font: 12px/1.5 ui-monospace, Consolas, monospace; }
 .ls-ds li { padding: 2px 0; border-bottom: 1px dotted var(--vien); word-break: break-word; }
 .ls-ds time { color: var(--mo); }
+
+.tk-claude { margin: 12px 0; border: 1px solid var(--vien); border-radius: 8px; padding: 8px 12px; background: var(--the); }
+.tk-claude .ten { font-weight: 600; color: var(--chinh); } .tk-claude .xong { color: #1b7f55; } .tk-claude .canh-bao { color: #b36b00; } .tk-claude .loi { color: #c0332b; }
+.tk-claude p { margin: 4px 0 0; font-size: 12px; }

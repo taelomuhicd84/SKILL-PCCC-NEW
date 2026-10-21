@@ -1,6 +1,7 @@
 // Engine Claude Code: gọi `claude -p` (headless) bằng tài khoản Claude Code đã đăng nhập trên máy người dùng.
 // Chỉ cho phép công cụ đọc (Read, Grep, Glob): agent đọc bản vẽ, chữ có vị trí và file tri thức, không sửa gì.
 import { spawn, spawnSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { GOC_REPO, log } from "../chung";
@@ -8,10 +9,41 @@ import { GOC_REPO, log } from "../chung";
 /** Token liên kết tài khoản Claude, dán từ web: kết quả `claude setup-token` (dùng lâu dài) hoặc API key. Không commit. */
 export const FILE_TOKEN = path.join(GOC_REPO, "runner", "claude_token.json");
 export const coToken = () => existsSync(FILE_TOKEN);
-export function luuToken(token: string) {
+export function luuToken(token: string, nhan?: string) {
   const t = token.trim();
   if (!/^sk-ant-[\w-]{20,}$/.test(t)) throw new Error("Token không đúng dạng (sk-ant-…): dùng kết quả của `claude setup-token` hoặc API key.");
-  writeFileSync(FILE_TOKEN, JSON.stringify({ token: t, luc: new Date().toISOString() }), "utf8");
+  writeFileSync(FILE_TOKEN, JSON.stringify({ token: t, luc: new Date().toISOString(), nhan: nhan?.trim() || undefined }), "utf8");
+}
+/** Đặt lại tên gợi nhớ cho token đã lưu (Anthropic không trả email cho token `setup-token`, nên tên do người dùng đặt). */
+export function datNhanToken(nhan: string) {
+  const j = JSON.parse(readFileSync(FILE_TOKEN, "utf8"));
+  writeFileSync(FILE_TOKEN, JSON.stringify({ ...j, nhan: nhan.trim() || undefined }), "utf8");
+}
+/** Thông tin token Claude của runner, không lộ token: tên gợi nhớ, dấu vân tay ngắn, loại, giờ lưu. */
+export function thongTinToken() {
+  if (!coToken()) return { co: false as const };
+  const j = JSON.parse(readFileSync(FILE_TOKEN, "utf8")) as { token: string; luc?: string; nhan?: string };
+  return { co: true as const, nhan: j.nhan ?? null, luc: j.luc ?? null, loai: j.token.startsWith("sk-ant-api") ? "API key" : "token đăng nhập (setup-token)", dau: createHash("sha256").update(j.token).digest("hex").slice(0, 8) };
+}
+/** Đăng nhập CLI của máy (runner KHÔNG dùng): chỉ để người dùng thấy là tài khoản nào. */
+export function taiKhoanCli(): { email?: string; cach?: string } {
+  try {
+    const l = lenh();
+    const r = spawnSync(l.cmd, ["auth", "status"], { encoding: "utf8", shell: l.shell, timeout: 10_000, env: { ...process.env, CLAUDE_CODE_OAUTH_TOKEN: "" } });
+    const j = JSON.parse(r.stdout);
+    return { email: j.email, cach: j.authMethod };
+  } catch { return {}; }
+}
+/** Hạn mức đang chờ reset (đặt khi runner phải chờ Claude), null nếu không. */
+export let hanMucDen: string | null = null;
+/** Gọi thử một câu ngắn để biết token còn dùng được hay hết hạn mức. */
+export async function kiemTraClaude(): Promise<{ ok: boolean; ghi_chu: string }> {
+  try { await chayClaude("Trả lời đúng một chữ: ok", GOC_REPO, 60_000, ["Read"], "haiku"); hanMucDen = null; return { ok: true, ghi_chu: "Gọi thử thành công: token còn dùng được." }; }
+  catch (e) {
+    const m = String(e instanceof Error ? e.message : e).replace(/^Error: /, "");
+    if (HET_HAN_MUC.test(m)) hanMucDen = new Date(Date.now() + choDenReset(m)).toLocaleTimeString("vi-VN");
+    return { ok: false, ghi_chu: m.slice(0, 300) };
+  }
 }
 function envToken(): NodeJS.ProcessEnv {
   if (!coToken()) return process.env;
@@ -69,11 +101,12 @@ export function choDenReset(loi: string, bayGio = new Date()): number {
 }
 export async function chayClaudeCho(prompt: string, thuMuc: string, timeoutMs?: number, congCu?: string[], baoCho?: (luc: string) => void, model?: string): Promise<string> {
   for (let lan = 0; ; lan++) {
-    try { return await chayClaude(prompt, thuMuc, timeoutMs, congCu, model); } catch (e) {
+    try { const kq = await chayClaude(prompt, thuMuc, timeoutMs, congCu, model); hanMucDen = null; return kq; } catch (e) {
       if (!HET_HAN_MUC.test(String(e)) || lan >= 12) throw e;
       const cho = Math.min(choDenReset(String(e)), 8 * 3600_000);
       const luc = new Date(Date.now() + cho).toLocaleTimeString("vi-VN");
       log(`Hết hạn mức Claude: tự chạy tiếp lúc ${luc}`); baoCho?.(luc);
+      hanMucDen = luc;
       await new Promise((r) => setTimeout(r, cho));
     }
   }

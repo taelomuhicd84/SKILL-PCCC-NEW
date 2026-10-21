@@ -2,6 +2,7 @@
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
 ## 2026-10-21
+- Thêm khung "Tài khoản Claude của runner" ở mục 1 (tên gợi nhớ, mã token, hạn mức, nút Kiểm tra, cảnh báo đăng nhập CLI trantrongtien198 không dùng); ô dán token có thêm tên tài khoản. Đã kiểm trên trình duyệt: nút Kiểm tra báo hết hạn mức đến 16:10.
 - Thêm mục "Lịch sử chạy" ngay mục 1. Hồ sơ (runner `GET /log`, `web/src/LichSu.tsx`); đã kiểm trên trình duyệt: hiện đúng giờ, đếm và lọc.
 - Runner chỉ dùng token Claude của Phương, không rơi về đăng nhập CLI (trantrongtien198): `chayClaude` báo lỗi nếu chưa có `claude_token.json`. Token hiện tại chạm giới hạn phiên đến 16:10 (cùng bộ đếm với app desktop); runner tự chờ rồi chạy tiếp. Runner chạy ẩn bằng `Start-Process npm run runner`, không phụ thuộc phiên làm việc.
 - Theo dõi log sau khi khởi động lại runner (THPT NGUYỄN HUỆ, 25 trang): A0 thử Gemini web, cookie hết hạn → chuyển Claude Sonnet, 66 s; lô hỗn hợp 9 job Gemini lỗi rồi chạy lại bằng Claude (từng job 24–78 s); đệm `runner/cache` đã có 9 file, chưa thấy lượt "dùng đệm" vì chưa chạy lại.

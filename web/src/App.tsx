@@ -8,6 +8,7 @@ import { moPdf, type PdfDoc } from "./pdf";
 import { taiIndex, taiMau } from "./data";
 import { batDauLo, chayJob, kiemGemini, kiemRunner, napCookieGemini, taoPhien, xemLo, type Engine, type Phien, type SucKhoe } from "./runner";
 import { LichSu } from "./LichSu";
+import { TaiKhoanClaudeBox } from "./TaiKhoanClaude";
 import { LienKet } from "./LienKet";
 import { chayMotJob, docHoSo, docTraLoiJob, gop, huongDan as chayHuongDan, promptCua, raSoat, taoJobs, type Goi, type NguCanh } from "./quy_trinh";
 import { engineCuaJob, tachJson, nhomTheoCongTrinh, tenCongTrinh } from "@pccc/shared";
@@ -346,6 +347,7 @@ export default function App() {
                       <b> {({ cho: "chờ", dang: "đang chạy", xong: "xong", loi: "lỗi" } as const)[n.tt]}</b>
                     </li>))}
                 </ul>)}
+              <TaiKhoanClaudeBox />
               <LichSu />
               <h3>Phạm vi thẩm định</h3>
               <div className="chon-engine">
