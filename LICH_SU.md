@@ -2,6 +2,7 @@
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
 ## 2026-10-22
+- Thêm Mục 4 (đường xe chữa cháy, bãi đỗ, lối vào từ trên cao; nhóm F5, QCVN 06 Điều 6.2–6.5, Bảng 14/16) vào KT17 và KT18: `data-build/chen_muc4.py` (18 dòng idx 18–35, chạy lại được). Chạy RIÊNG job `KT17-m04-giao-thong` trên hồ sơ Thuận An (6 trang): 18 dòng = 6 ĐẠT, 8 CẦN XÁC NHẬN, 4 KHÔNG ÁP DỤNG, 0 CHƯA ĐẠT; phát hiện cột "bãi theo QCVN" ghi 10,4/13,8 m (đúng ≥ 15 m), thuyết minh 3,5x40/35 m lệch bảng, kho 25x120 cần xác nhận sprinkler (có: 48,33 m đạt; không: 72,5 m không đạt), dốc i=16–17% chưa rõ thuộc đường hay mái. `thong_tin.json` đã đọc lại bằng ảnh. Chưa chạy các mục khác.
 - Sửa `promptDocHoSo` (`shared/src/prompt.ts`): BẮT BUỘC mở ảnh PNG từng trang trước khi điền/ghi `thieu`, không được báo "không đọc được ảnh" khi `anh/` có file (agent đọc hồ sơ Tân Định chỉ dùng chữ trích, bỏ sót bảng ảnh TT-03/TT-04). 25 test qua, build web qua. Chưa chạy lại hồ sơ.
 - Phát hiện: bảng KT17 (nhà sản xuất) và KT18 (nhà kho) KHÔNG có dòng Mục 4 (đường xe chữa cháy, bãi đỗ) nên `jobs` không sinh job m04; các bảng KT khác có.
 

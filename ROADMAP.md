@@ -70,7 +70,7 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Agent `pccc-tu-sua` (`.claude/agents/pccc-tu-sua.md`) + `scripts/day_github.sh`: sửa lỗi test/build/runner, kiểm bí mật, commit, push bằng tài khoản taelomuhicd84 (git local `credential.https://github.com.username`). Không force push, không tự cấp quyền; push cần đăng nhập thì dừng và báo.
 
 ## Ý tưởng chờ (chưa xếp giai đoạn)
-- ⏳ Mục 4 cho phần xây dựng: soạn dòng đường xe chữa cháy/bãi đỗ cho KT17 (nhà sản xuất) và KT18 (nhà kho); test trên hồ sơ Thuận An (`ket_qua/tan_dinh_m04/`).
-- 🔄 Agent đọc hồ sơ phải đọc ảnh từng trang (đã sửa prompt, chưa kiểm bằng lần chạy thật).
+- ✅ Mục 4 cho phần xây dựng: đã soạn dòng đường xe chữa cháy/bãi đỗ cho KT17 (nhà sản xuất) và KT18 (nhà kho); đã chạy thử trên hồ sơ Thuận An (`ket_qua/tan_dinh_m04/`), còn rà dòng CẦN XÁC NHẬN cùng người dùng.
+- ✅ Agent đọc hồ sơ phải đọc ảnh từng trang (đã sửa prompt, đã kiểm trên hồ sơ Thuận An).
 - Tự chạy `chay.bat` khi bật máy.
 - Các mục "chưa" trên sơ đồ `so_do/so_do_kien_truc_ngang.html` (hook soát kết quả, `/kiem-tra`, `/nap-kien-thuc`, đo hình học tự động).
