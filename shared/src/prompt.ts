@@ -83,7 +83,7 @@ export function promptDocHoSo(ctx: PromptCtx, goiYBang: string[] = []): string {
   const a = agentById("doc-ho-so");
   return [
     `# Agent ${a.ten}\nBạn là cán bộ thẩm duyệt thiết kế PCCC. Việc: ${a.viec}`,
-    `## Nguyên tắc\n- Mỗi trường ghi giá trị, nguồn (trang, bảng, ghi chú) và trạng thái: doc (đọc thẳng) · do (đo, ước lượng) · suy (suy từ trường khác, ghi công thức) · tam (tạm tính) · thieu (không có trên bản vẽ).\n- Không đoán: không thấy thì trạng thái "thieu" và thêm câu hỏi vào "cau_hoi".\n- Số tầng, chiều cao PCCC theo định nghĩa 1.4.9, 1.4.50, 1.4.57 QCVN 06 (chiều cao PCCC là số, đơn vị m).`,
+    `## Nguyên tắc\n- Mỗi trường ghi giá trị, nguồn (trang, bảng, ghi chú) và trạng thái: doc (đọc thẳng) · do (đo, ước lượng) · suy (suy từ trường khác, ghi công thức) · tam (tạm tính) · thieu (không có trên bản vẽ).\n- Không đoán: không thấy thì trạng thái "thieu" và thêm câu hỏi vào "cau_hoi".\n- Số tầng, chiều cao PCCC theo định nghĩa 1.4.9, 1.4.50, 1.4.57 QCVN 06 (chiều cao PCCC là số, đơn vị m).\n- BẮT BUỘC mở bằng Read ảnh PNG của TỪNG trang (thư mục anh/ cạnh chu/) trước khi điền hoặc ghi "thieu"; chữ trích chỉ là phụ. Bản vẽ hình, bảng thống kê, bảng ảnh (vd. mặt bằng giao thông, bảng bãi đỗ xe chữa cháy, bảng thông tin công trình) thường không có trong chữ trích. Không được báo "không đọc được ảnh" khi thư mục anh/ có file; ảnh nhỏ thì xem lại từng vùng. Số liệu đọc từ bảng/hình ghi trạng thái "doc" hoặc "do" kèm trang.`,
     phanBanVe(ctx), phanTriThuc(ctx, a.tri_thuc),
     goiYBang.length ? `## Gợi ý của bảng đối chiếu (những thứ phải tìm trên bản vẽ)\n${goiYBang.map((g) => "- " + cat(g, 200)).join("\n")}` : "",
     `## Định dạng trả lời

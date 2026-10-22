@@ -1,6 +1,10 @@
 # Lịch sử làm việc (mới nhất ở trên)
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
+## 2026-10-22
+- Sửa `promptDocHoSo` (`shared/src/prompt.ts`): BẮT BUỘC mở ảnh PNG từng trang trước khi điền/ghi `thieu`, không được báo "không đọc được ảnh" khi `anh/` có file (agent đọc hồ sơ Tân Định chỉ dùng chữ trích, bỏ sót bảng ảnh TT-03/TT-04). 25 test qua, build web qua. Chưa chạy lại hồ sơ.
+- Phát hiện: bảng KT17 (nhà sản xuất) và KT18 (nhà kho) KHÔNG có dòng Mục 4 (đường xe chữa cháy, bãi đỗ) nên `jobs` không sinh job m04; các bảng KT khác có.
+
 ## 2026-10-21
 - Nạp riêng JSON kết quả: hai cột kết quả | bản vẽ. Runner `GET /ban-ve` (tìm PDF theo tên công trình, so token tên không dấu) và `/ban-ve/file`; web `ganBanVe`, `gopPdf`, khung thả PDF khi chưa có bản vẽ; phiên mới lưu `khoang.json` (khoảng trang kiến trúc / PCCC). Kiểm: 147 dòng, bấm dòng nhảy trang 9, 8, 8. Chưa kiểm khi nạp JSON mà runner không có PDF (khung thả) và khoảng trang theo tab với 2 PDF thật.
 - Thử A0 qua Gemini web trên HOANG ANH 2 (116 trang): tải được bản vẽ nhưng Gemini trả "Tôi là AI dựa trên văn bản, nằm ngoài khả năng" (110 ký tự, không phải JSON), rồi thử lại tiếp; web chỉ chuyển Claude khi Gemini ném lỗi nên A0 kẹt. Sửa `web/src/App.tsx`: trả lời Gemini không có `{` thì coi như lỗi và chạy lại bằng Claude. Kết luận: A0 qua Gemini web chưa đáng tin với PDF lớn; cân nhắc bỏ `doc-ho-so` khỏi `AGENT_GEMINI`. (Lần chạy này do tôi tự kích hoạt khi thử bản vẽ trên trình duyệt trong app, không phải hồ sơ của người dùng.)
