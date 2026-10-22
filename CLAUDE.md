@@ -29,3 +29,9 @@ Người dùng: kỹ sư thẩm định PCCC, nói tiếng Việt, muốn trả 
 - Sửa `shared/src/agents.ts` → `npm run gen:claude`. Sửa `web/` → `npm run build`. Sửa `runner/` → khởi động lại runner.
 - Test: `npx vitest run`.
 - Kết luận thẩm định phải trích điều khoản; thiếu dữ liệu thì CẦN XÁC NHẬN, không đoán.
+
+## Ghi chú cá nhân, cập nhật từ GitHub, hết usage (người dùng dặn 2026-10-22)
+- Ba file người dùng đọc để vào dự án: `NOTE_CUA_TOI.md`, `TIEN_DO.md`, `BAT_DAU_PHIEN_MOI.md`.
+- Khi người dùng bảo "cập nhật từ github": chạy `bash scripts/cap_nhat_github.sh`, rồi báo ngắn: commit mới, và đã ghi gì mới trong ba file trên (script in dòng mới). Nhắc build web / bật lại runner nếu script báo.
+- Dự án chính chạy Claude; Gemini (`runner/src/thu_gemini_m04.ts`) chỉ chạy khi người dùng nói rõ.
+- Gần hết usage (kiểm bằng công cụ `get_usage` của ccd_session_mgmt, mốc ≥ 85%, kiểm sau mỗi việc lớn): TRƯỚC HẾT ghi vào ba file trên đã làm gì hôm nay và việc dở, SAU ĐÓ mới đẩy TOÀN BỘ code lên GitHub: `bash scripts/day_github.sh "<thông điệp>" $(git ls-files --others --exclude-standard | grep -vE '^(ket_qua|graphify-out)/')` (đã gồm file mới; vẫn không đẩy `ket_qua/` là hồ sơ khách). Người dùng đã cho phép trước việc đẩy này (2026-10-22). Nếu không kiểm được usage thì cập nhật ba file sau mỗi mốc việc và báo người dùng.

@@ -105,7 +105,7 @@ async function taiTep(page: Page, files: string[]) {
 async function choTraLoi(page: Page, timeoutMs: number): Promise<string> {
   const het = Date.now() + timeoutMs;
   await nghi(4000, 6000);
-  let truoc = "", on = 0;
+  let truoc = "", on = 0, chuaDu = 0;
   while (Date.now() < het) {
     await kiemChan(page);
     const dangChay = await tim(page, SEL.nutDung, 0);
@@ -116,9 +116,12 @@ async function choTraLoi(page: Page, timeoutMs: number): Promise<string> {
         for (const s of SEL.khoiMa) {
           const codes = await r.locator(s).allInnerTexts().catch(() => [] as string[]);
           const j = codes.find((c) => c.includes("{"));
-          if (j) return j;
+          if (j) {
+            // JSON bị cắt giữa chừng (Gemini chưa ra hết khối mã): chờ thêm tối đa ~60 s rồi mới trả bản dở để bên gọi báo lỗi
+            try { JSON.parse(j); return j; } catch { if (++chuaDu > 30) return j; on = 0; break; }
+          }
         }
-        return t;
+        if (on >= 15) return t; // chưa có khối mã: Gemini có thể còn đang 'suy nghĩ' (chữ đứng yên nhưng chưa ra câu trả lời), chờ ~30 s đứng yên mới coi là xong
       }
     } else on = 0;
     truoc = t;

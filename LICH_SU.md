@@ -2,6 +2,8 @@
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
 ## 2026-10-22
+- Bài học 15–16 (Mục 4): cự ly bãi đọc từ nhãn 2000/5385 cạnh bãi; phân loại xưởng/nhà phố và bãi trong/ngoài đường lộ rồi mới xét bãi quay xe, đoạn tránh xe. Vào `bai-hoc.md` + `luu_y` m04 (cả Claude và agent thử Gemini dùng chung). Khung vị trí Gemini sửa tay bằng bbox đúng toạ độ chữ (`ket_qua_khoanh.json`).
+- Thêm `runner/src/thu_gemini_m04.ts`: agent thử Gemini web riêng cho Mục 4 (10 tab Chrome ẩn; chế độ chia dòng hoặc lặp 10 lần đo độ ổn định; so với ket_qua.json của Claude; ghi bao_cao.md). Chưa chạy thật trên Gemini.
 - Thêm Bài học 14 + `luu_y` m04: LUÔN đọc hết bảng thống kê trên mặt bằng tổng thể (chiều cao PCCC, nhóm, hạng, khối tích…). Sprinta sau khi đọc trang 1: cự ly đạt (PCCC 12,75 m, ≤8 m). Sửa lại ket_qua Phú Trường, Olmix, Tellbe theo bảng thống kê; thêm `ket_qua/sprinta/`. Chưa chạy agent thật, chưa kiểm khung trên web.
 - Train Mục 4 theo người dùng dạy: thêm Bài học 12–13 (`knowledge/bai-hoc.md`) và `luu_y` m04 (`shared/src/agents.ts`, đã `gen:claude`, 25 test qua): đọc cự ly bãi–nhà trên mặt bằng, nhãn bãi (cỡ nhà / bề rộng bãi / bề rộng đường), cho cộng dồn bãi (mỗi bãi ≥15x3,5 m), thiếu dim thì CXN + khoanh + hướng dẫn thiết kế.
 - Đọc tay 6 hồ sơ ra JSON Mục 4 kèm bản vẽ (`ket_qua/{tan_dinh_m04,kt18_giao_thong_mau,luat_phu_truong,tellbe,olmix,sprinta}/`, không commit): Phú Trường 8 ĐẠT/3 CXN, Tellbe 1 CHƯA ĐẠT, Olmix, Sprinta 4 CXN. Sửa `bbox` về hệ toạ độ trang web đã xoay; thêm `ten.txt` để runner tự gắn bản vẽ khi thả JSON. Chưa chạy agent thật, chưa kiểm khung trên web sau khi sửa.

@@ -1,4 +1,6 @@
-# Bàn giao sang phiên mới (cập nhật 2026-10-21)
+# Bàn giao sang phiên mới (cập nhật 2026-10-22)
+
+**Mới 2026-10-22:** đọc `NOTE_CUA_TOI.md` trước. Gemini chỉ là dự án thử (`runner/src/thu_gemini_m04.ts`), dự án chính chạy Claude. Chi tiết: đầu `TIEN_DO.md`. Cập nhật từ GitHub: `bash scripts/cap_nhat_github.sh`. Máy mới kéo code phải `npm run build` (web/dist không nằm trong git).
 
 **ĐỌC TRƯỚC:** `CLAUDE.md` (quy tắc), `ROADMAP.md` (tổng quan), rồi khối "BÀN GIAO PHIÊN 2026-10-21" đầu `TIEN_DO.md` (trạng thái, vấn đề mở, bẫy). Đoạn bên dưới là của các ngày trước, một số điểm đã cũ.
 

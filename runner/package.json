@@ -6,6 +6,7 @@
     "start": "tsx src/server.ts",
     "cli": "tsx src/cli.ts",
     "gemini-login": "tsx src/engines/gemini.ts --dang-nhap",
+    "thu-gemini-m04": "tsx src/thu_gemini_m04.ts",
     "gemini-giu-phien": "tsx src/engines/gemini.ts --giu-phien"
   },
   "dependencies": {
