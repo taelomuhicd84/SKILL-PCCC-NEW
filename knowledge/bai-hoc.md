@@ -21,3 +21,8 @@ Hồ sơ Thuận An (Mục 4): "BÃI ĐỖ XE NHÀ KHO (25M X 120M)" là bãi c�
 
 ## Bài học 13 (2026-10-22): cộng dồn các bãi đỗ xe chữa cháy của một hạng mục
 Cho phép cộng dồn chiều dài nhiều bãi đỗ xe chữa cháy của một hạng mục (VD yêu cầu 50 m, hai bãi 25 m). Mỗi bãi phải dài ≥ 15 m và rộng ≥ 3,5 m, bãi ngắn hơn 15 m không được tính vào tổng. Áp dụng khi nhà không đủ chỗ cho một bãi liền đủ dài. Tổng chiều dài các bãi hợp lệ (mỗi bãi ≥ 15 m x 3,5 m) ≥ chiều dài yêu cầu (Bảng 16 / Bảng 15) thì ĐẠT; bãi nào dưới 15 m x 3,5 m thì loại ra khi cộng. Chỉ ghi CẦN XÁC NHẬN khi chưa rõ bãi nào phục vụ nhà nào.
+
+
+## Bài học 14 (2026-10-22): LUÔN đọc hết và lấy hết thông tin từ bảng tổng thể và bảng thông tin
+Người dùng dặn: luôn luôn đọc hết các trang, lấy hết số liệu từ bảng thống kê hạng mục chính và bảng thống kê hạng mục phụ trợ ở bản mặt bằng tổng thể (trang đầu, bản trệt/tầng 1/cải tạo), không chỉ bảng tính bãi ở trang giao thông. Ở đó có: nhóm nhà, hạng sản xuất, số tầng, diện tích, chiều cao mái, CHIỀU CAO PCCC (khác chiều cao mái/chiều cao công trình), khối tích, cấp nguy hiểm cháy kết cấu, bậc chịu lửa. Chiều cao PCCC quyết định giới hạn cự ly bãi–tường (< 12 m ≤ 5 m; 12–28 m ≤ 8 m), nên lấy từ đây, không suy từ chiều cao công trình. Đối chiếu số liệu giữa các bảng, lệch thì ghi chỉnh bản vẽ.
+Ví dụ: Sprinta trang giao thông chỉ ghi chiều cao công trình 12,75 m nhưng bảng thống kê trang 1 ghi chiều cao PCCC 12,75 m, nhóm F5.1/F5.2, hạng C, bậc II (cự ly ≤ 8 m, đạt). Phú Trường: chiều cao PCCC chỉ 5,97–6,5 m dù chiều cao mái 13,07 m (cự ly ≤ 5 m, vẫn đạt với 2,1–2,5 m). Olmix: chiều cao PCCC 8 m (cự ly ≤ 5 m); khối tích nhà kho 02 lệch giữa trang 1 (8.348,4 m3) và TT-04 (12.522 m3).
