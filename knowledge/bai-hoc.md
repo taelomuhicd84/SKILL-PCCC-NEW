@@ -14,3 +14,10 @@ Mỗi dòng là một điều đã được người thẩm định xác nhận.
 
 ## Bài học 11 (2026-10-21): cửa ghi GHCL "-" chưa chắc là cửa mở vào hành lang
 Đã gặp ở Karaoke Hoàng Anh 2 (KT-11): D3 (0,9×2,1 m, GHCL "-") nằm ở cuối hành lang và thông ra thang thoát nạn ngoài trời CT2, không phải cửa gian phòng mở vào hành lang nên không bị Đ 3.3.5 đòi EI. Chỉ kết luận CHƯA ĐẠT cho cửa không chống cháy khi đã XEM HÌNH và thấy cửa đó mở từ gian phòng/kho/WC/kỹ thuật vào hành lang; chỉ dựa tọa độ chữ thì ghi CẦN XÁC NHẬN.
+
+## Bài học 12 (2026-10-22): nhãn trong ngoặc ở tên bãi đỗ xe là kích thước NHÀ, và phải đọc số cự ly trên mặt bằng
+Hồ sơ Thuận An (Mục 4): "BÃI ĐỖ XE NHÀ KHO (25M X 120M)" là bãi của nhà kho cỡ 25x120 m, không phải kích thước bãi (bãi là 3,5x50 m ghi trong khung). Cự ly bãi đến tường nhà nằm trên mặt bằng tổng thể (nhãn 2000 gần đầu bãi), phải phóng to xem hình chứ không chỉ dựa thuyết minh "2-10 m"; chỉ kết luận CẦN XÁC NHẬN khi đã xem hình mà vẫn không ra. Thuyết minh ghi bãi 3,5x40 m / 3,5x35 m lệch bảng là sai sót thuyết minh (ghi chỉnh bản vẽ), không phải mâu thuẫn với chi tiết bãi.
+
+
+## Bài học 13 (2026-10-22): cộng dồn các bãi đỗ xe chữa cháy của một hạng mục
+Cho phép cộng dồn chiều dài nhiều bãi đỗ xe chữa cháy của một hạng mục (VD yêu cầu 50 m, hai bãi 25 m). Mỗi bãi phải dài ≥ 15 m và rộng ≥ 3,5 m, bãi ngắn hơn 15 m không được tính vào tổng. Áp dụng khi nhà không đủ chỗ cho một bãi liền đủ dài. Tổng chiều dài các bãi hợp lệ (mỗi bãi ≥ 15 m x 3,5 m) ≥ chiều dài yêu cầu (Bảng 16 / Bảng 15) thì ĐẠT; bãi nào dưới 15 m x 3,5 m thì loại ra khi cộng. Chỉ ghi CẦN XÁC NHẬN khi chưa rõ bãi nào phục vụ nhà nào.

@@ -71,6 +71,7 @@ Quy trình một lần thẩm định (đã chạy được):
 
 ## Ý tưởng chờ (chưa xếp giai đoạn)
 - ✅ Mục 4 cho phần xây dựng: đã soạn dòng đường xe chữa cháy/bãi đỗ cho KT17 (nhà sản xuất) và KT18 (nhà kho); đã chạy thử trên hồ sơ Thuận An (`ket_qua/tan_dinh_m04/`), còn rà dòng CẦN XÁC NHẬN cùng người dùng.
+- ✅ Train Mục 4 (đường/bãi xe chữa cháy): Bài học 12–13 + `luu_y` agent m04 (cộng dồn bãi mỗi bãi ≥15x3,5 m, đọc cự ly trên mặt bằng, thiếu dim thì CXN + khoanh + hướng dẫn); đã đọc tay 6 hồ sơ ra JSON (chưa kiểm). ⏳ Chạy agent m04 thật trên các hồ sơ đó và so với kết quả tay.
 - ✅ Agent đọc hồ sơ phải đọc ảnh từng trang (đã sửa prompt, đã kiểm trên hồ sơ Thuận An).
 - Tự chạy `chay.bat` khi bật máy.
 - Các mục "chưa" trên sơ đồ `so_do/so_do_kien_truc_ngang.html` (hook soát kết quả, `/kiem-tra`, `/nap-kien-thuc`, đo hình học tự động).

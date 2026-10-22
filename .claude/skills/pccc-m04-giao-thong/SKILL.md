@@ -5,6 +5,7 @@ description: Thẩm định PCCC – Mục 4 – Đường, bãi đỗ xe chữa
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 4 – Đường, bãi đỗ xe chữa cháy, lối vào từ trên cao
 **Việc:** Đường xe chữa cháy (rộng, cao, tải trọng, bán kính quay), bãi đỗ, lối vào từ trên cao, họng tiếp nước.
+**Lưu ý:** Phóng to mặt bằng tổng thể, đọc cự ly mép bãi/đường đến tường từng nhà (nhãn như 2000), không chỉ lấy chữ '2-10 m' trong thuyết minh. Nhãn trong ngoặc ở tên bãi (VD '(25M X 120M)') là kích thước NHÀ; nhãn 3500 ở bãi là bề rộng bãi; nhãn giữa hai nhà hoặc rộng đường là bề rộng đường xe chữa cháy. Cho phép cộng dồn chiều dài nhiều bãi đỗ xe chữa cháy của một hạng mục (VD yêu cầu 50 m, hai bãi 25 m). Mỗi bãi phải dài ≥ 15 m và rộng ≥ 3,5 m, bãi ngắn hơn 15 m không được tính vào tổng. Bản vẽ không ghi cự ly bãi/đường đến tường từng nhà: kết luận CAN_XAC_NHAN, ghi vào ly_do và vi_tri (khoanh trên bản vẽ), và viết hướng dẫn thiết kế trong chinh_ban_ve (ghi dim cự ly từ mép bãi đến tường từng nhà, yêu cầu <= 5 m nhà dưới 12 m, <= 8 m nhà 12-28 m, Đ 6.2.2.3).
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
