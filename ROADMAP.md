@@ -38,6 +38,9 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Hướng dẫn thừa: lần Hoàng Anh 2 ghi đúng 31/31 dòng khi prompt dặn "không thêm dòng ngoài danh sách". Chưa áp lại lên Karaoke Yến.
 - 🔄 Cho agent xem ảnh trang bản vẽ: `pdftoppm` không có nên dựng ảnh bằng PyMuPDF (`pymupdf`, đã cài) rồi `Read` ảnh. Đã thử tay trên Hoàng Anh 2: hình cho thấy 3 dòng CHƯA ĐẠT cửa D3 là sai (D3 là cửa cuối hành lang ra thang ngoài trời CT2) → hạ xuống CẦN XÁC NHẬN (còn lại 0 CHƯA ĐẠT, 28 CẦN XÁC NHẬN).
 - ✅ `chuan-bi` và web (`/phien`, chạy nền) tự dựng ảnh trang `anh/trang_N.png` bằng `scripts/dung_anh.py` (116 trang: 15 giây, 30 MB, thư mục bị ignore); prompt dặn agent mở ảnh trước khi kết luận CHƯA ĐẠT dựa vào vị trí cửa, thang, đèn. Không có Python hoặc PyMuPDF thì bỏ qua, chạy bằng chữ. **Chưa chạy lại thẩm định để đo chất lượng và token khi agent mở ảnh.**
+- ✅ Cột **Ghi chú** ở bước 5 Kết quả (kế bên cột Điều): gõ ghi chú hoặc "xem lại" rồi Enter thì Claude chạy lại ĐÚNG dòng đó kèm ghi chú (dòng khác giữ nguyên, tiết kiệm token; phần còn lại nên chạy Gemini). Đã build + tsc qua; CHƯA thử bấm Enter thật (tốn hạn mức Claude của runner).
+- ✅ Tab 7: ô tích "Khoanh đề xuất" (bot trả mục chưa đạt + vị trí thang thoát nạn / thang máy chữa cháy, ước lượng chỗ trống đủ hay không, khoanh khung lên bản vẽ), kéo thả PDF ngay trong tab 7 và chat bên dưới; bảng kết quả bước 5 kéo đổi độ rộng cột. Đã thử Claude trên hồ sơ Hoàng Hùng (khung trúng lõi thang máy/thang bộ); Gemini khoanh toạ độ còn kém; chưa thử kéo cột bằng tay.
+- ✅ Mục 7 **Sơ bộ thiết kế PCCC** (tab 7 trên web): agent `so-bo-thiet-ke` (`shared/src/agents.ts`, kiến thức `knowledge/so-bo-thiet-ke-pccc.md`) + chat hỏi Claude, Gemini web hoặc cả hai (`web/src/SoBoThietKe.tsx`, `promptChat` trong `shared/src/prompt.ts`). Đã thử Claude (trả lời đúng bãi 20,2 m) và Gemini (qua runner, đúng khi có quy tắc trong prompt). ⏳ Chưa làm: tự vẽ note lên bản vẽ trong tab 7, nút thử cả hai trên UI chưa kiểm tay.
 - ⏳ 👤 Mở PDF xuất ra bằng Acrobat/Edge, kiểm khung + comment.
 - ⏳ 👤 Rà 9 dòng CHƯA ĐẠT của Karaoke và các phát hiện mới HA1.
 
@@ -71,6 +74,7 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Agent `pccc-tu-sua` (`.claude/agents/pccc-tu-sua.md`) + `scripts/day_github.sh`: sửa lỗi test/build/runner, kiểm bí mật, commit, push bằng tài khoản taelomuhicd84 (git local `credential.https://github.com.username`). Không force push, không tự cấp quyền; push cần đăng nhập thì dừng và báo.
 
 ## Ý tưởng chờ (chưa xếp giai đoạn)
+- ⏳ Báo cáo khảo sát và báo giá PCCC dựa trên bot chat mục 7 (bảng thông tin PCCC → danh mục hạng mục và khối lượng → báo giá). Kiến thức nền: `knowledge/so-bo-thiet-ke-pccc.md` (mục Bảng thông tin PCCC).
 - ✅ Mục 4 cho phần xây dựng: đã soạn dòng đường xe chữa cháy/bãi đỗ cho KT17 (nhà sản xuất) và KT18 (nhà kho); đã chạy thử trên hồ sơ Thuận An (`ket_qua/tan_dinh_m04/`), còn rà dòng CẦN XÁC NHẬN cùng người dùng.
 - ✅ Train Mục 4 (đường/bãi xe chữa cháy): Bài học 12–13 + `luu_y` agent m04 (cộng dồn bãi mỗi bãi ≥15x3,5 m, đọc cự ly trên mặt bằng, thiếu dim thì CXN + khoanh + hướng dẫn); đã đọc tay 6 hồ sơ ra JSON (chưa kiểm). ✅ Luật đọc hết bảng thống kê tổng thể (Bài học 14, chiều cao PCCC quyết định cự ly bãi). ⏳ Chạy agent m04 thật trên các hồ sơ đó và so với kết quả tay.
 - ✅ Agent đọc hồ sơ phải đọc ảnh từng trang (đã sửa prompt, đã kiểm trên hồ sơ Thuận An).

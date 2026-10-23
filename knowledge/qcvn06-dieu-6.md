@@ -100,6 +100,12 @@ Tại các điểm đầu và điểm cuối của đường cho xe chữa cháy
 Yêu cầu về lối vào từ trên cao không áp dụng đối với các nhà nhóm F1.3, bao gồm cả những khu vực phụ trợ (ví dụ: phòng tập gym, các phòng câu lạc bộ, và các gian phòng có công năng tương tự phục vụ riêng cho cư dân của nhà) trong nhà nhóm F1.3.
 CHÚ THÍCH: Không quy định về cách bố trí các lối vào từ trên cao khi có phương án phù hợp khác để lực lượng chữa cháy tiếp cận.
 6.4 Thiết kế bãi quay xe phải phù hợp với phương tiện chữa cháy ở địa phương.
+[Người dùng bổ sung 2026-10-23 từ bản QCVN 06 (đoạn cũ đã bị thay bằng câu trên, người dùng xác nhận vẫn dùng THAM KHẢO được: bãi quay xe có các dạng và ngưỡng tối thiểu sau)]
+- Hình tam giác đều có cạnh không nhỏ hơn 7 m, một đỉnh nằm ở đường cụt, hai đỉnh nằm cân đối ở hai bên đường;
+- Hình vuông có cạnh không nhỏ hơn 12 m;
+- Hình tròn, đường kính không nhỏ hơn 10 m;
+- Hình chữ nhật vuông góc với đường cụt, cân đối về hai phía của đường, có kích thước không nhỏ hơn 5 m × 20 m.
+CHÚ THÍCH: Những quy định trên là ngưỡng tối thiểu, cơ quan quản lý về PCCC và CNCH có thể đưa ra các quy định cụ thể căn cứ vào yêu cầu kỹ thuật của phương tiện chữa cháy ở mỗi địa phương.
 6.5 Đối với đường giao thông nhỏ hẹp chỉ đủ cho 1 làn xe chạy thì cứ ít nhất 100 m phải thiết kế một đoạn đường mở rộng có chiều dài tối thiểu 8 m và chiều rộng tối thiểu 7 m để xe chữa cháy và các loại xe khác có thể tránh nhau dễ dàng.
 6.6 Đối với các nhà từ 2 tầng trở lên có mái bằng hoặc mái có độ dốc nhỏ hơn 25% với chiều cao lớn hơn hoặc bằng 10 m tính đến diềm mái hoặc mép trên của tường ngoài (tường chắn mái) phải có các lối ra mái trực tiếp từ các buồng thang bộ hoặc đi qua tầng áp mái, hoặc đi theo cầu thang bộ loại 3, hoặc đi theo thang chữa cháy ngoài nhà.
 Số lượng lối ra mái và việc bố trí chúng phải dựa trên tính nguy hiểm cháy theo công năng và các kích thước của nhà. Nhà nhóm F1, F2, F3 và F4 phải có ít nhất 1 lối tiếp cận lên mái cho mỗi diện tích đủ hoặc không đủ 9 300 m2 mái. Đối với nhà nhóm F5 thực hiện theo quy định tại A.1.3.1.

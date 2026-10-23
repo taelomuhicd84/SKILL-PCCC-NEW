@@ -65,6 +65,16 @@ async function kiemChan(page: Page) {
   if (await tim(page, SEL.biChan, 0)) throw new BiChan("Gemini yêu cầu xác minh hoặc báo hết lượt: dừng tất cả tab, thử lại sau.");
 }
 
+/** Đã đăng nhập thật: có ô nhập VÀ không còn nút "Đăng nhập" (chế độ khách cũng có ô nhập). Chờ tối đa `timeout` ms. */
+async function daDangNhap(page: Page, timeout: number): Promise<boolean> {
+  const het = Date.now() + timeout;
+  do {
+    if (await tim(page, SEL.oNhap, 0) && !(await tim(page, SEL.chuaDangNhap, 0))) { await page.waitForTimeout(2500); if (!(await tim(page, SEL.chuaDangNhap, 0))) return true; }
+    await page.waitForTimeout(1000);
+  } while (Date.now() < het);
+  return false;
+}
+
 /** Mở chat mới; chờ ô nhập (tức là đã đăng nhập). */
 async function chatMoi(page: Page, choDangNhap = 15000): Promise<Locator> {
   await page.goto(GEMINI_URL, { waitUntil: "domcontentloaded" });
@@ -102,7 +112,7 @@ async function taiTep(page: Page, files: string[]) {
 }
 
 /** Chờ trả lời xong: không còn nút Dừng và nội dung đứng yên 3 lần liên tiếp. Lấy khối mã (JSON) nếu có. */
-async function choTraLoi(page: Page, timeoutMs: number): Promise<string> {
+async function choTraLoi(page: Page, timeoutMs: number, vanBan = false): Promise<string> {
   const het = Date.now() + timeoutMs;
   await nghi(4000, 6000);
   let truoc = "", on = 0, chuaDu = 0;
@@ -114,14 +124,22 @@ async function choTraLoi(page: Page, timeoutMs: number): Promise<string> {
     if (!dangChay && t && t === truoc) {
       if (++on >= 3) {
         for (const s of SEL.khoiMa) {
-          const codes = await r.locator(s).allInnerTexts().catch(() => [] as string[]);
+          const codes = await r.locator(s).allTextContents().catch(() => [] as string[]); // textContent chứ không innerText: khối mã dài bị cắt/ẩn bớt dòng thì innerText mất đuôi JSON
           const j = codes.find((c) => c.includes("{"));
           if (j) {
             // JSON bị cắt giữa chừng (Gemini chưa ra hết khối mã): chờ thêm tối đa ~60 s rồi mới trả bản dở để bên gọi báo lỗi
-            try { JSON.parse(j); return j; } catch { if (++chuaDu > 30) return j; on = 0; break; }
+            try { JSON.parse(j); return j; } catch {
+              if (++chuaDu > 30) { // vẫn dở: thử lấy từ toàn bộ câu trả lời (từ { đầu đến } cuối)
+                const toanBo = (await r.textContent().catch(() => "")) ?? "";
+                const a = toanBo.indexOf("{"), b = toanBo.lastIndexOf("}");
+                if (a >= 0 && b > a) { try { JSON.parse(toanBo.slice(a, b + 1)); return toanBo.slice(a, b + 1); } catch { /* dùng bản dở */ } }
+                return j;
+              }
+              on = 0; break;
+            }
           }
         }
-        if (on >= 15) return t; // chưa có khối mã: Gemini có thể còn đang 'suy nghĩ' (chữ đứng yên nhưng chưa ra câu trả lời), chờ ~30 s đứng yên mới coi là xong
+        if (on >= (vanBan ? 4 : 15)) return t; // trả lời văn bản (chat, prompt ghi "Không trả JSON"): ~8 s đứng yên là xong // chưa có khối mã: Gemini có thể còn đang 'suy nghĩ' (chữ đứng yên nhưng chưa ra câu trả lời), chờ ~30 s đứng yên mới coi là xong
       }
     } else on = 0;
     truoc = t;
@@ -145,7 +163,7 @@ export async function chayTrenTab(page: Page, prompt: string, pdf: string, thuMu
   await choLuotGui();
   const gui = await tim(page, SEL.nutGui, 3000);
   if (gui) await bam(page, gui); else await page.keyboard.press("Enter");
-  const t = await choTraLoi(page, timeoutMs);
+  const t = await choTraLoi(page, timeoutMs, /Không trả JSON/.test(prompt));
   await luuCookie(page.context()).catch(() => {}); // ghi cookie đã làm mới sau mỗi job
   return t;
 }
@@ -165,7 +183,7 @@ export async function giuPhien(): Promise<boolean> {
   try {
     const p = await moTab();
     await p.goto(GEMINI_URL, { waitUntil: "domcontentloaded" });
-    const ok = !!(await tim(p, SEL.oNhap, 15000));
+    const ok = await daDangNhap(p, 15000);
     if (ok) await luuCookie(p.context());
     return ok;
   } finally { await dongTrinhDuyet(); }
@@ -178,7 +196,7 @@ if (process.argv.includes("--dang-nhap")) {
     const p = c.pages()[0] ?? (await c.newPage());
     await p.goto(GEMINI_URL);
     log("Đăng nhập Google trong cửa sổ vừa mở (tối đa 10 phút)…");
-    if (!(await tim(p, SEL.oNhap, 10 * 60_000))) throw new Error("Chưa thấy Gemini sau 10 phút");
+    if (!(await daDangNhap(p, 10 * 60_000))) throw new Error("Chưa đăng nhập Gemini sau 10 phút");
     await luuCookie(c);
     log("Đã đăng nhập, đã ghi file cookie.");
     await c.close();

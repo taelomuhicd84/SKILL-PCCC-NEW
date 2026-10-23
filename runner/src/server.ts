@@ -64,13 +64,15 @@ const server = http.createServer(async (req, res) => {
       if (u.pathname === "/ban-ve/file") { const d = goc(u.searchParams.get("id") ?? ""); const f = d && path.join(d, "ban_ve.pdf"); if (!f || !existsSync(f)) return json(404, { loi: "không có bản vẽ" }); res.writeHead(200, { "content-type": "application/pdf" }).end(readFileSync(f)); return; }
       const tu = (t: string) => new Set(tenCongTrinh(t).key.split(" ").filter(Boolean));
       const cua = (t: string[]) => (x: string) => { const b = tu(x); return t.some((n) => { const a = tu(n); return a.size > 0 && b.size > 0 && ([...a].every((w) => b.has(w)) || [...b].every((w) => a.has(w))); }); };
+      // ten.txt là tên file PDF; kết quả JSON mang tên công trình từ thong_tin.json nên cũng so với tên đó
+      const tenCuaThuMuc = (d: string) => [path.join(d, "ten.txt"), path.join(d, "thong_tin.json")].filter((f) => existsSync(f)).flatMap((f) => { try { const t = readFileSync(f, "utf8"); return [f.endsWith(".txt") ? t.trim() : String(JSON.parse(t).ten_cong_trinh ?? "")].filter(Boolean); } catch { return []; } });
       const khop = cua((u.searchParams.getAll("ten")).filter(Boolean));
       const ds = (["work", "ket_qua"] as const).flatMap((g) => { const r = g === "work" ? THU_MUC_LAM : path.join(GOC_REPO, "ket_qua"); return existsSync(r) ? readdirSync(r).map((n) => ({ id: g + "/" + n, d: path.join(r, n) })) : []; })
-        .filter((x) => existsSync(path.join(x.d, "ban_ve.pdf")) && existsSync(path.join(x.d, "ten.txt")) && khop(readFileSync(path.join(x.d, "ten.txt"), "utf8").trim()))
+        .filter((x) => existsSync(path.join(x.d, "ban_ve.pdf")) && tenCuaThuMuc(x.d).some(khop))
         .sort((a, b) => statSync(path.join(b.d, "ban_ve.pdf")).mtimeMs - statSync(path.join(a.d, "ban_ve.pdf")).mtimeMs);
       if (!ds.length) return json(404, { loi: "không thấy bản vẽ cùng tên" });
       const k = path.join(ds[0].d, "khoang.json");
-      return json(200, { id: ds[0].id, ten: readFileSync(path.join(ds[0].d, "ten.txt"), "utf8").trim(), khoang: existsSync(k) ? JSON.parse(readFileSync(k, "utf8")) : null });
+      return json(200, { id: ds[0].id, ten: tenCuaThuMuc(ds[0].d)[0] ?? "", khoang: existsSync(k) ? JSON.parse(readFileSync(k, "utf8")) : null });
     }
     if (req.method === "GET" && req.url?.startsWith("/log")) { // lịch sử chạy cho web (mục 1): các dòng có giờ của runner.log, mới nhất ở cuối
       const n = Math.min(1000, Math.max(10, Number(new URL(req.url, "http://x").searchParams.get("n")) || 300));

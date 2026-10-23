@@ -1,6 +1,16 @@
 # Lịch sử làm việc (mới nhất ở trên)
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
+## 2026-10-23
+- Web: tab 7 thêm ô "Khoanh đề xuất" (`PHAN_KHOANH` trong `shared/src/prompt.ts`, `datDeXuat` trong `web/src/App.tsx`), vùng kéo thả PDF trong tab 7; bảng kết quả bước 5 kéo đổi độ rộng cột (`keoCot`, khoá `pccc.cot`). Build + tsc + 25 test qua.
+- Thêm mục 7 Sơ bộ thiết kế PCCC: agent `so-bo-thiet-ke` (23 agent), `promptChat`, tab 7 chat Claude/Gemini/cả hai; runner Gemini trả nhanh khi prompt ghi "Không trả JSON" (~90 s thay vì ~480 s). Build + tsc + 25 test qua; Claude thử đúng, Gemini thử qua runner.
+- Sửa Gemini web: lấy khối mã bằng `textContent` (innerText cắt đuôi JSON dài, gây lỗi "SyntaxError … position 4307"), thử lấy JSON từ toàn bộ câu trả lời khi khối mã dở; `runner/src/dem.ts` không đệm câu trả lời không phải JSON đọc được (trước đây lời từ chối/JSON cắt bị đệm nên chạy lại vẫn hỏng); xoá 6 mục đệm hỏng. Kho Tân Kiên (3 trang) đọc hồ sơ bằng Gemini JSON đủ; Hoàng Hùng (50 trang, prompt 50 KB) Gemini vẫn từ chối/không ra JSON.
+- Web: engine mặc định đổi từ "Hỗn hợp" sang "Gemini web" (khoá lưu `pccc.engine3`): Gemini đọc hồ sơ và chạy các mục, Claude chỉ xem lại từng dòng ở cột Ghi chú khi bạn thấy sai. Đã build + tsc; chưa chạy thật cả hồ sơ bằng Gemini web (cookie Gemini đã nạp 2026-10-23).
+- Web bước 5: thêm cột "Ghi chú" (kế bên Điều): Enter với ghi chú hoặc "xem lại" thì Claude chạy lại đúng dòng đó (`xemLai` trong `web/src/App.tsx`, trường `ghi_chu` trong `shared/src/schema.ts`). Build + tsc + 25 test qua; chưa thử Enter thật.
+- Bài học 18–20 (Mục 4: thiết kế bãi đỗ, đường cụt/đường vòng, đường thông thủy >= 3,5 m); thêm `knowledge/so-bo-thiet-ke-pccc.md` (kiến thức cho mục Sơ bộ thiết kế PCCC ở tab 1 Hồ sơ, ghi ROADMAP ⏳ chưa làm code). Thiết kế tay hồ sơ test và Kho Tân Kiên.
+- Sửa `runner/src/server.ts` (`/ban-ve`): tìm bản vẽ cho kết quả JSON theo cả `ten.txt` lẫn `ten_cong_trinh` trong `thong_tin.json` của thư mục (trước chỉ theo `ten.txt` = tên file PDF nên JSON mang tên công trình không khớp, web không nạp bản vẽ). Đã chạy thử `/ban-ve` với tên Phú Trường; chưa thử trên web.
+- Bài học 17 (Mục 4): đọc hatch + chú giải + chi tiết mặt cắt để xác định đường xe chữa cháy (cỏ không tính, chú giải ghi ngược thì CXN); nhận bãi quay xe bằng hình học (tam giác/T/vuông/tròn cuối đường cụt). Vào `bai-hoc.md` + `luu_y` m04, đã `gen:claude`, 25 test qua. Thử Gemini hồ sơ `ket_qua/cong_trinh_test`: 101 s, 18/18 dòng, thiếu nhận bãi quay xe (nguồn gốc bài học). Chưa chạy lại sau bài học.
+
 ## 2026-10-22
 - Bài học 15–16 (Mục 4): cự ly bãi đọc từ nhãn 2000/5385 cạnh bãi; phân loại xưởng/nhà phố và bãi trong/ngoài đường lộ rồi mới xét bãi quay xe, đoạn tránh xe. Vào `bai-hoc.md` + `luu_y` m04 (cả Claude và agent thử Gemini dùng chung). Khung vị trí Gemini sửa tay bằng bbox đúng toạ độ chữ (`ket_qua_khoanh.json`).
 - Thêm `runner/src/thu_gemini_m04.ts`: agent thử Gemini web riêng cho Mục 4 (10 tab Chrome ẩn; chế độ chia dòng hoặc lặp 10 lần đo độ ổn định; so với ket_qua.json của Claude; ghi bao_cao.md). Chưa chạy thật trên Gemini.

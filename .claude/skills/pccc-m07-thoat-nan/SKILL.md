@@ -5,7 +5,7 @@ description: Thẩm định PCCC – Mục 7 – Lối, đường thoát nạn. 
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 7 – Lối, đường thoát nạn
 **Việc:** Lối ra, số lối, phân tán, cửa, chiều rộng, khoảng cách (Bảng G), đường thoát nạn, hành lang, cầu thang, buồng thang, lối lên mái.
-**Lưu ý:** Số đo trên bản vẽ là ước lượng ±1–2 m: ghi rõ 'ước lượng'. Khoảng cách và phân tán đo theo Phụ lục G và Hình I.
+**Lưu ý:** Số đo trên bản vẽ là ước lượng ±1–2 m: ghi rõ 'ước lượng'. Khoảng cách và phân tán đo theo Phụ lục G và Hình I. Điểm xuất phát đường thoát nạn: gian phòng có cửa chống cháy đúng yêu cầu thì từ cửa đó (Bài học 9); KHÔNG có cửa chống cháy thì từ ĐIỂM XA NHẤT trong phòng. Đo theo đường đi thực tế, né bàn ghế, tủ, thiết bị, cột, vật cản giữa đường, không dùng đường chim bay/đoạn thẳng; không biết bố trí vật cản thì CXN (Bài học 22). Tuyến vẽ theo GÓC VUÔNG bám lối đi trống (dọc tường tới cửa phòng, ra hành lang, đi thẳng tới cửa thoát nạn), không đường chéo; chiều dài là tổng các đoạn thẳng (Bài học 24). Trình bày thoát nạn theo mẫu (Bài học 25): chú giải ký hiệu, tuyến góc vuông ghi L từng đoạn và tổng, khung tính toán (diện tích sử dụng = diện tích tầng − chiếm chỗ, số người, mật độ, Bảng G.2a theo bậc chịu lửa), chi tiết cửa sổ thoát nạn khẩn cấp và cửa chống cháy.
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`

@@ -3,6 +3,8 @@ File này Claude cập nhật. Mỗi lần tôi bảo "cập nhật từ github"
 
 ## Việc đang theo dõi
 1. Test Gemini thay Claude phần Mục 4 (bãi đỗ xe chữa cháy): tạm thấy ổn, nhưng CHƯA thay, để từ từ thay luôn. Khi nào tôi bảo mới chuyển; trước đó dự án chính vẫn chạy Claude.
+2. Bán kính quay xe chữa cháy ở bãi quay xe (neo lại, chưa làm): thử mô phỏng với xe giả định dài 7 m, rộng 2,5 m, cơ sở bánh 4,5 m, bán kính quay tâm trục sau 7 m thì không tìm ra cách quay đầu trong tam giác 7x7x7 m (tìm ngẫu nhiên, chưa chứng minh tuyệt đối). Cần số xe chữa cháy thật của PCCC địa phương (dài, rộng, bán kính quay) mới vẽ lại quỹ đạo; hoặc thử bãi lớn hơn theo quy định cũ (vuông 12 m, tròn 10 m). Hình tham khảo: `ket_qua/cong_trinh_test/minh_hoa_quay_xe_v2.png`.
+3. **Lần sau: vẽ hướng dẫn lên bản vẽ cho bot chat mục 7.** Hôm nay mới làm sơ bộ con bot (chat Claude/Gemini, khoanh khung đề xuất, kéo thả PDF); chưa hướng dẫn kỹ bằng cách vẽ lên bản vẽ (bãi đỗ, làn xe, bãi quay xe, tuyến thoát nạn góc vuông ghi L từng đoạn, chú giải, khung tính toán). Hãy cố vẽ vào lần sau. Sau đó làm báo cáo khảo sát và báo giá dựa trên bot.
 
 ## Chạy dự án
 - Bấm đúp `chay.bat` → http://127.0.0.1:8787 (runner + web trong một). Web ra bản mới sau `npm run build`, runner phải bật lại sau khi sửa `runner/`.
@@ -22,6 +24,13 @@ File này Claude cập nhật. Mỗi lần tôi bảo "cập nhật từ github"
 - Xưởng hay nhà phố; bãi/đường trong công trình hay ngoài đường lộ. Chỉ trong công trình mới xét bãi quay xe, đoạn tránh xe.
 
 ## Ghi chú theo ngày (Claude thêm mỗi phiên, mới nhất ở trên)
+### 2026-10-23
+- Chiều tối: làm xong bản sơ bộ bot chat mục 7 (tab 7: chat Claude/Gemini/cả hai, kéo thả PDF, ô tích Khoanh đề xuất, form Bảng thông tin PCCC trong kiến thức bot), cột Ghi chú và kéo cột ở bước 5, engine mặc định Gemini web. Việc lần sau xem mục 3 ở "Việc đang theo dõi" (vẽ hướng dẫn lên bản vẽ). Chưa commit/push.
+- Bài học 17–18 (Mục 4): đọc hatch + chú giải để xác định đường xe chữa cháy; bãi quay xe tam giác đều 7 m, vuông 12 m, tròn 10 m, chữ nhật 5x20 m (quy định cũ đã bị 6.4 hiện hành thay, dùng THAM KHẢO; nhỏ hơn thì CXN); làn 3,5 m là khoảng giữa hai nhãn 3500; cự ly mép bãi–tường đọc từ nhãn (4500 = 4,5 m); bãi đỗ chia nhiều bãi >=15 m cộng dồn đủ chu vi/6; bãi tránh xe chỉ khi đường một làn >=100 m.
+- Hồ sơ test (`ket_qua/cong_trinh_test`, cao PCCC 11,5 m, chu vi 144 m, khối tích 16.105,7 m3): bãi đỗ yêu cầu >=24 m x 3,5 m. Thiết kế đề xuất `thiet_ke_bai_do_v3.png`: bãi Bắc 15 m (làn giữa hai hàng xe 40'', cách tường 4,5 m) + bãi Nam 15 m (cách tường 3,0 m), hai bãi quay xe tam giác 7 m ở hai góc phía tây, không cần bãi tránh xe.
+- So Claude với Gemini trên hồ sơ test: khớp 12/14 dòng; Claude đọc nhãn nhỏ và hình học tốt hơn, Gemini khoanh vùng sai nhiều. Đã bỏ hướng Gemini cho việc khoanh.
+- Sửa `runner/src/server.ts` (`/ban-ve`): web nạp lại bản vẽ khi mở kết quả JSON theo cả tên công trình trong `thong_tin.json` (trước chỉ theo `ten.txt`). Runner phải bật lại; chưa thử trên web.
+- Chưa commit/push các thay đổi trên (chờ bạn bảo).
 ### 2026-10-22
 - Tạo agent thử Gemini cho Mục 4 (10 tab ẩn, gói theo giới hạn token). Chạy thật hồ sơ Hoàng Hùng: 18/18 dòng, nhưng Gemini bỏ sót nhãn cự ly 2000/5385 và hay bị Google đòi CAPTCHA khi nhiều tab. Chưa so được với Claude vì chưa chạy Claude cùng hồ sơ.
 - Khung vị trí đã sửa tay đúng toạ độ: `ket_qua/hoang_hung/gemini_m04/ket_qua_khoanh.json` (thư mục `ket_qua/` không lên GitHub).

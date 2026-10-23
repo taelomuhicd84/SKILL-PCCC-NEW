@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { PDFDocument } from "pdf-lib";
 import {
   HE_THONG, NHAN_KET_LUAN, ThongTin, agentById, chonBangChinh, chonBangHeThong, chonBangKienTruc, demKetLuan, trichChu, vanBanTrang,
-  type BangIndex, type PhamVi, type DongKetQua, type Job, type KetQua, type KetQuaDong, type TrangChu,
+  type BangIndex, type LuotChat, type PhamVi, type DongKetQua, type Job, type KetQua, type KetQuaDong, type TrangChu,
 } from "@pccc/shared";
 import { moPdf, type PdfDoc } from "./pdf";
 import { taiIndex, taiMau } from "./data";
@@ -10,10 +10,11 @@ import { batDauLo, chayJob, kiemGemini, kiemRunner, napCookieGemini, taoPhien, t
 import { LichSu } from "./LichSu";
 import { TaiKhoanClaudeBox } from "./TaiKhoanClaude";
 import { LienKet } from "./LienKet";
-import { chayMotJob, docHoSo, docTraLoiJob, gop, huongDan as chayHuongDan, promptCua, raSoat, taoJobs, type Goi, type NguCanh } from "./quy_trinh";
+import { chayMotJob, docHoSo, docTraLoiJob, gop, huongDan as chayHuongDan, promptChatCa, promptCua, raSoat, taoJobs, type Goi, type NguCanh } from "./quy_trinh";
 import { engineCuaJob, tachJson, nhomTheoCongTrinh, tenCongTrinh } from "@pccc/shared";
 import { Viewer } from "./Viewer";
 import { TuHoc } from "./TuHoc";
+import { SoBoThietKe, type DeXuat } from "./SoBoThietKe";
 import { mauDong, nhanDong, xuatPdf } from "./xuat_pdf";
 import { xuatDocx } from "./xuat_docx";
 
@@ -56,7 +57,7 @@ export default function App() {
   const [pdf, setPdf] = useState<PdfDoc | null>(null);
   const [chu, setChu] = useState<TrangChu[]>([]);
   const [tienTrinh, setTienTrinh] = useState("");
-  const [engine, setEngine] = useState<Engine>(() => (doc<Engine>("pccc.engine2") ?? "hon-hop"));
+  const [engine, setEngine] = useState<Engine>(() => (doc<Engine>("pccc.engine3") ?? "gemini"));
   const [luong, setLuong] = useState<number>(() => doc<number>("pccc.luong") ?? 10);
   const [sk, setSk] = useState<SucKhoe | null>(null);
   const [phien, setPhien] = useState<Phien | null>(null);
@@ -72,6 +73,16 @@ export default function App() {
   const [coRaSoat, setCoRaSoat] = useState(true);
   const [jobs, setJobs] = useState<TTJob[]>([]);
   const [kq, setKq] = useState<DongKetQua[]>([]);
+  const [deXuat, setDeXuat] = useState<DongKetQua[]>([]); // khung đề xuất của tab 7 (Sơ bộ thiết kế), vẽ lên Viewer
+  const [rong, setRong] = useState<number[]>(() => { const r = doc<number[]>("pccc.cot"); return Array.isArray(r) && r.length === 6 ? r : [44, 78, 240, 440, 140, 150]; }); // độ rộng cột bảng kết quả (kéo ở mép tiêu đề)
+  useEffect(() => { luu("pccc.cot", rong); }, [rong]);
+  const keoCot = (i: number) => (e: React.PointerEvent) => {
+    e.preventDefault(); e.stopPropagation(); const x0 = e.clientX, w0 = rong[i];
+    const di = (ev: PointerEvent) => setRong((r) => r.map((w, k) => (k === i ? Math.max(40, w0 + ev.clientX - x0) : w)));
+    const xong = () => { window.removeEventListener("pointermove", di); window.removeEventListener("pointerup", xong); };
+    window.addEventListener("pointermove", di); window.addEventListener("pointerup", xong);
+  };
+  const [dangXemLai, setDangXemLai] = useState<string[]>([]); // khoá dòng đang được Claude xem lại (bang#idx)
   const [thuCong, setThuCong] = useState<ThuCong | null>(null);
   const [trang, setTrang] = useState(1);
   const [chon, setChon] = useState<DongKetQua | null>(null);
@@ -87,7 +98,7 @@ export default function App() {
   const [batDau, setBatDau] = useState(false); // nạp xong hồ sơ → tự chạy cả quy trình (effect chạy sau khi state đã cập nhật)
 
   useEffect(() => { taiIndex().then(setIndex).catch(() => setLoi("Không tải được danh mục bảng.")); }, []);
-  useEffect(() => { luu("pccc.engine2", engine); if (engine !== "thu-cong") kiemRunner().then(setSk); }, [engine]);
+  useEffect(() => { luu("pccc.engine3", engine); if (engine !== "thu-cong") kiemRunner().then(setSk); }, [engine]);
   useEffect(() => { luu("pccc.huongdan", huongDan); }, [huongDan]);
   useEffect(() => { luu("pccc.phamvi", phamVi); }, [phamVi]);
   useEffect(() => { luu("pccc.luong", luong); }, [luong]);
@@ -137,6 +148,35 @@ export default function App() {
     setTienTrinh("Đang gửi hồ sơ cho runner…");
     const p = await taoPhien(ten, pdfBytes!, chu, khoang);
     phienRef.current = p; setPhien(p);
+  }
+
+  /** Tab 7: thả PDF bản vẽ để hỏi đáp; bản vẽ mới thì phiên runner cũ bỏ đi, tạo phiên mới khi hỏi. */
+  async function thaPdfSoBo(fs: File[]) {
+    await thaBanVe(fs);
+    phienRef.current = null; setPhien(null); setDeXuat([]);
+    const f = fs.find((x) => /\.pdf$/i.test(x.name)); if (f) setTen(f.name.replace(/\.pdf$/i, ""));
+  }
+
+  /** Đề xuất khoanh của bot -> khung trên bản vẽ (màu theo đủ/không đủ chỗ trống). */
+  function datDeXuat(ds: DeXuat[]) {
+    const dong: DongKetQua[] = ds.map((d, i) => ({
+      bang: "DX", idx: i + 1, tt: "", noi_dung_thiet_ke: d.muc, ket_luan: d.du === false ? "CHUA_DAT" : "CAN_XAC_NHAN",
+      ly_do: `${d.ly_do}${d.kich_thuoc_trong_m ? ` · chỗ trống ≈ ${d.kich_thuoc_trong_m}` : ""}${d.kich_thuoc_can_m ? ` · cần ≈ ${d.kich_thuoc_can_m}` : ""}`,
+      dieu_khoan: "", nguon: [], vi_tri: d.bbox ? [{ trang: d.trang, bbox: d.bbox }] : [], khung: d.bbox ? i + 1 : undefined,
+    }));
+    setDeXuat(dong); const t = ds.find((d) => d.bbox)?.trang; if (t) setTrang(t);
+  }
+
+  /** Tab 7: hỏi đáp Sơ bộ thiết kế PCCC bằng Claude hoặc Gemini web (dùng bản vẽ đã nạp nếu có, không thì trang trống). */
+  async function hoiSoBo(nguon: "claude" | "gemini", cau: string, lichSu: LuotChat[], khoanh: boolean): Promise<string> {
+    if (!phienRef.current) {
+      const s = await kiemRunner(); setSk(s);
+      if (!s) throw new Error("Không kết nối được runner ở máy bạn. Mở runner (npm run runner).");
+      if (pdfBytes) await damBaoPhien();
+      else { const d = await PDFDocument.create(); d.addPage(); const p = await taoPhien("chat so bo", (await d.save()).buffer as ArrayBuffer, [], undefined); phienRef.current = p; setPhien(p); }
+    }
+    const { pt, pk } = await promptChatCa(nc(), tt, lichSu, cau, khoanh);
+    return chayJob(nguon, phienRef.current!.phien, `chat-${nguon}-${Date.now()}`, nguon === "claude" ? pt : pk);
   }
 
   // ---------- bước 2: đọc thông tin ----------
@@ -241,6 +281,32 @@ export default function App() {
     loi_job: jobs.filter((j) => j.trang_thai === "loi").map((j) => ({ job: j.job.id, loi: j.loi ?? "" })), ngay: new Date().toISOString(),
   });
   const luuKq = (g: DongKetQua[]) => luu("pccc.kq." + ten, ketQua(g));
+
+  /** Cột Ghi chú: Enter với ghi chú (hoặc chỉ "xem lại") thì Claude chạy lại ĐÚNG dòng này, có kèm ghi chú; các dòng khác giữ nguyên (tiết kiệm token). */
+  async function xemLai(d: DongKetQua, ghiChu: string) {
+    const khoa = d.bang + "#" + d.idx, g = ghiChu.trim(), chiXemLai = /^xem\s*lại$/i.test(g);
+    if (!tt || dangXemLai.includes(khoa)) return;
+    setLoi(""); setDangXemLai((x) => [...x, khoa]);
+    try {
+      await damBaoPhien();
+      const goc = jobs.find((j) => j.job.bang === d.bang && j.job.dong.some((x) => x.idx === d.idx))?.job
+        ?? (await taoJobs(bangChinh, bangHT, bangKT, phamVi)).find((j) => j.bang === d.bang && j.dong.some((x) => x.idx === d.idx));
+      if (!goc) throw new Error("không tìm thấy hạng mục của dòng " + khoa);
+      const mot: Job = { ...goc, id: `${goc.id}-xl${d.idx}-${Date.now()}`, dong: goc.dong.filter((x) => x.idx === d.idx) };
+      const { pt } = await promptCua(nc(), tt, mot);
+      const them = `
+
+## XEM LẠI THEO NGƯỜI DÙNG
+Kết quả cũ của dòng này: ${d.ket_luan}. ${d.ly_do}
+` + (g && !chiXemLai ? `Ghi chú của người dùng: ${g}
+` : "") + "Xem lại đúng dòng này kỹ hơn (phóng to bản vẽ, đọc hết nhãn kích thước), rồi trả lời lại đúng định dạng, chỉ dòng này.";
+      const raw = await chayJob("claude", phienRef.current!.phien, mot.id, pt + them);
+      const moi = docTraLoiJob(tachJson(raw), mot);
+      const g2 = gop([kq.map((x) => (x.bang === d.bang && x.idx === d.idx ? { ...x, ghi_chu: g && !chiXemLai ? g : x.ghi_chu } : x)), moi]);
+      setKq(g2); luuKq(g2);
+    } catch (e) { setLoi("Xem lại dòng " + khoa + " lỗi: " + e); }
+    finally { setDangXemLai((x) => x.filter((k) => k !== khoa)); }
+  }
 
   /** Gắn bản vẽ PDF cho kết quả đang mở (không đụng tới kết quả): để xem hai cột kết quả | bản vẽ, bấm dòng nhảy tới trang. */
   async function ganBanVe(bytes: ArrayBuffer, kh: Khoang | null) {
@@ -354,7 +420,7 @@ export default function App() {
   const tenNhom = nhomXem === "kien_truc" ? "xay_dung_PCCC" : "he_thong_PCCC";
 
   // ---------- giao diện ----------
-  const BUOC = ["Hồ sơ", "Thông tin công trình", "Bảng đối chiếu", "Thẩm định", "Kết quả", "Tự học"];
+  const BUOC = ["Hồ sơ", "Thông tin công trình", "Bảng đối chiếu", "Thẩm định", "Kết quả", "Tự học", "Sơ bộ thiết kế"];
   return (
     <div className="app">
       <header>
@@ -391,7 +457,7 @@ export default function App() {
               </div>
               <h3>AI dùng để thẩm định</h3>
               <div className="chon-engine">
-                {([["gemini-api", "Gemini API – nhanh, chạy song song (khuyên dùng)"], ["claude", "Claude Code (tài khoản Claude của bạn)"], ["gemini", "Gemini web (chậm, chạy tuần tự)"], ["hon-hop", "Hỗn hợp: Claude 3 luồng + Gemini web 10 tab ẩn (m10, m15, m17, m18)"], ["thu-cong", "Thủ công: copy prompt, dán trả lời"]] as const).map(([v, n]) => (
+                {([["gemini-api", "Gemini API – nhanh, chạy song song (khuyên dùng)"], ["claude", "Claude Code (tài khoản Claude của bạn)"], ["gemini", "Gemini web – mặc định: Gemini đọc hồ sơ, Claude chỉ là kiến thức và xem lại từng dòng ở cột Ghi chú (kết quả)"], ["hon-hop", "Hỗn hợp: Claude 3 luồng + Gemini web 10 tab ẩn (m10, m15, m17, m18)"], ["thu-cong", "Thủ công: copy prompt, dán trả lời"]] as const).map(([v, n]) => (
                   <label key={v}><input type="radio" checked={engine === v} onChange={() => setEngine(v)} /> {n}</label>))}
               </div>
               {engine !== "thu-cong" && <LienKet engine={engine} sk={sk} capNhat={() => kiemRunner().then(setSk)} luong={luong} setLuong={setLuong} />}
@@ -401,6 +467,7 @@ export default function App() {
           )}
 
           {buoc === 6 && <TuHoc />}
+          {buoc === 7 && <SoBoThietKe coBanVe={!!pdfBytes} tenBanVe={ten} hoi={hoiSoBo} datDeXuat={datDeXuat} nhayTrang={setTrang} thaPdf={thaPdfSoBo} soTrang={pdf?.numPages ?? 0} />}
 
           {buoc === 2 && (
             <div className="the">
@@ -466,8 +533,9 @@ export default function App() {
                 <option value="tat-ca">tất cả</option><option value="khung">có khung</option>
                 {Object.entries(NHAN_KET_LUAN).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
               </select></label>
-              <table className="kq">
-                <thead><tr><th>Khung</th><th>Bảng / TT</th><th>Nội dung thiết kế</th><th>Kết luận và lý do</th><th>Điều</th></tr></thead>
+              <div className="kq-cuon"><table className="kq" style={{ tableLayout: "fixed", width: rong.reduce((a, b) => a + b, 0) }}>
+                <colgroup>{rong.map((w, i) => <col key={i} style={{ width: w }} />)}</colgroup>
+                <thead><tr>{["Khung", "Bảng / TT", "Nội dung thiết kế", "Kết luận và lý do", "Điều", "Ghi chú"].map((t, i) => <th key={t} style={{ position: "relative" }}>{t}<span className="rz" title="Kéo để đổi độ rộng cột" onPointerDown={keoCot(i)} /></th>)}</tr></thead>
                 <tbody>{hien.map((d) => {
                   const [r, g, b] = mauDong(d);
                   return (
@@ -477,9 +545,14 @@ export default function App() {
                         {d.chinh_ban_ve && <div className="c-xanh">Chỉnh bản vẽ: {d.chinh_ban_ve}</div>}
                         {huongDan && d.huong_dan && <div className="huong-dan">Hướng dẫn: {d.huong_dan}</div>}</td>
                       <td>{d.dieu_khoan}</td>
+                      <td onClick={(e) => e.stopPropagation()}>
+                        <input key={d.bang + d.idx + (d.ghi_chu ?? "")} defaultValue={d.ghi_chu ?? ""} disabled={dangXemLai.includes(d.bang + "#" + d.idx)} placeholder={'Ghi chú hoặc "xem lại", Enter'}
+                          onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); const v = e.currentTarget.value; xemLai(d, v); } }} />
+                        {dangXemLai.includes(d.bang + "#" + d.idx) && <div className="muted">Claude đang xem lại…</div>}
+                      </td>
                     </tr>);
                 })}</tbody>
-              </table>
+              </table></div>
             </div>
           )}
         </section>
@@ -487,7 +560,7 @@ export default function App() {
           <input type="file" accept="application/pdf,.pdf" multiple hidden onChange={(e) => { thaBanVe(Array.from(e.target.files ?? [])); e.target.value = ""; }} />
           <b>Chưa có bản vẽ</b><span className="muted">Thả file PDF bản vẽ (kiến trúc và/hoặc PCCC) vào đây hoặc bấm để chọn. Bản vẽ sẽ hiện cạnh bảng kết quả; bấm vào một dòng để nhảy tới trang.</span>
         </label></aside>}
-        {pdf && buoc >= 4 && <aside><Viewer pdf={pdf} chu={chu} dong={kq} trang={trang} setTrang={setTrang} chon={chon} khoang={khoang[nhomXem]} nhan={nhomXem === "kien_truc" ? "bản vẽ kiến trúc" : "bản vẽ hệ thống PCCC"} /></aside>}
+        {pdf && buoc >= 4 && <aside><Viewer pdf={pdf} chu={chu} dong={buoc === 7 ? deXuat : kq} trang={trang} setTrang={setTrang} chon={chon} khoang={khoang[nhomXem]} nhan={nhomXem === "kien_truc" ? "bản vẽ kiến trúc" : "bản vẽ hệ thống PCCC"} /></aside>}
       </main>
 
       {thuCong && <HopThuCong tc={thuCong} chu={chu} onXong={() => setThuCong(null)} />}

@@ -126,3 +126,33 @@ export function promptHuongDan(ctx: PromptCtx, ketQua: KetQuaDong[]): string {
     `## Định dạng trả lời\nChỉ trả về MỘT khối \`\`\`json, không viết gì ngoài khối đó:\n{"dong":[{"bang":"A12","idx":90,"huong_dan":"Bổ sung: … Yêu cầu: … (Đ …)"}]}`,
   ].join("\n\n");
 }
+
+
+/** Khi người dùng tích "Khoanh đề xuất": bot trả thêm MỘT khối json các mục chưa đạt và vị trí đề xuất thang thoát nạn / thang máy chữa cháy. */
+const PHAN_KHOANH = [
+  "## Khoanh đề xuất trên bản vẽ (người dùng đã bật)",
+  "Xem bản vẽ, liệt kê các mục CHƯA ĐẠT hoặc còn thiếu so với quy chuẩn (số lối thoát nạn, buồng thang thoát nạn, thang máy chữa cháy, bãi đỗ xe chữa cháy, bề rộng, khoảng cách...). Với mục thiếu thang thoát nạn hoặc thang máy chữa cháy: nhìn vào KHOẢNG TRỐNG của mặt bằng (lô đất, sân, hành lang rộng, góc nhà) để đề xuất vị trí đặt, ước lượng kích thước chỗ trống (dài × rộng, m) và so với kích thước cần (buồng thang thoát nạn hai vế khoảng 3,0 × 6,0 m; giếng và sảnh thang máy chữa cháy khoảng 2,5 × 5,0 m; ghi là ước lượng), kết luận chỗ trống đủ hay không đủ.",
+  "Sau phần trả lời bằng chữ, thêm đúng MỘT khối ```json dạng:",
+  '{"de_xuat":[{"loai":"thang_thoat_nan|thang_may_cc|bai_do|khac","muc":"tên mục chưa đạt","ly_do":"vì sao chưa đạt, kèm số liệu","trang":1,"bbox":[x0,y0,x1,y1],"kich_thuoc_trong_m":"dài x rộng chỗ trống (ước lượng)","kich_thuoc_can_m":"dài x rộng cần","du":true}]}',
+  '"bbox" là khung quanh VỊ TRÍ đề xuất (hoặc chỗ thiếu), toạ độ 0–1000 theo trang đứng (gốc góc trên trái); "du" là true, false hoặc null (chưa rõ). Không có mục chưa đạt thì "de_xuat":[].',
+].join("\n");
+
+/** Chat với agent Sơ bộ thiết kế PCCC (mục 7): trả lời văn bản tiếng Việt, không phải JSON. */
+export interface LuotChat { vai: "nguoi" | "bot"; nd: string }
+export function promptChat(ctx: PromptCtx, lichSu: LuotChat[], cau: string, khoanh = false): string {
+  const a = agentById("so-bo-thiet-ke");
+  const ls = lichSu.slice(-8).map((l) => `${l.vai === "nguoi" ? "Người dùng" : "Trợ lý"}: ${cat(l.nd, 1500)}`).join("\n");
+  const cachTraLoi = [
+    "## Cách trả lời",
+    "- Tiếng Việt, ngắn gọn, đi thẳng vào đáp án, rồi căn cứ (điều, bảng) và phép tính từng bước.",
+    "- Ghi rõ giả định và dữ liệu còn thiếu; không bịa trị số quy chuẩn: chỉ dùng tri thức bên dưới.",
+    "- Khi người dùng nhờ thiết kế: nêu vị trí và kích thước đề xuất (bãi đỗ, làn xe, bãi quay xe, tuyến thoát nạn, lối vào từ trên cao), chiều dài từng đoạn, so với giới hạn và kết luận đạt hoặc cần xác nhận.",
+    "- Không trả JSON, không dùng khối mã trừ khi cần bảng ngắn (trừ khối json khoanh đề xuất nếu người dùng bật).",
+  ].join("\n");
+  return [
+    `# Agent ${a.ten}`, a.viec, a.luu_y ?? "", cachTraLoi,
+    phanThongTin(ctx.thong_tin), phanBanVe(ctx), phanTriThuc(ctx, a.tri_thuc),
+    khoanh ? PHAN_KHOANH : "",
+    ls ? `## Hội thoại trước\n${ls}` : "", `## Câu hỏi hiện tại\n${cau}`,
+  ].filter(Boolean).join("\n\n");
+}

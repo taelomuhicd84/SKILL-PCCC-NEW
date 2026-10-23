@@ -72,3 +72,13 @@ aside { position: sticky; top: 64px; align-self: start; }
 .viewer-scroll { cursor: grab; user-select: none; touch-action: none; } .viewer-scroll.dang-keo { cursor: grabbing; }
 
 .tha-ban-ve { display: flex; flex-direction: column; gap: 8px; min-height: 240px; justify-content: center; text-align: center; }
+
+.so-bo .chat { max-height: 60vh; overflow: auto; border: 1px solid var(--vien); border-radius: 6px; padding: 8px; margin: 8px 0; }
+.so-bo .tin { margin: 6px 0; padding: 6px 8px; border-radius: 6px; background: rgba(127,127,127,.12); }
+.so-bo .tin.nguoi { background: rgba(60,120,220,.18); }
+.so-bo .tin.loi { color: var(--do, #e55); }
+.so-bo .nd { white-space: pre-wrap; margin-top: 2px; }
+.so-bo textarea { width: 100%; box-sizing: border-box; margin-bottom: 6px; }
+.so-bo .de-xuat { margin: 6px 0 0 18px; padding: 0; } .so-bo .de-xuat li { cursor: pointer; margin: 4px 0; } .so-bo .de-xuat li:hover { background: rgba(127,127,127,.15); }
+.kq-cuon { overflow-x: auto; } table.kq td, table.kq th { overflow-wrap: anywhere; } table.kq .rz { position: absolute; right: -3px; top: 0; bottom: 0; width: 8px; cursor: col-resize; z-index: 2; } table.kq .rz:hover { background: rgba(120,160,255,.45); }
+.so-bo .tha-ban-ve { min-height: 80px; margin-bottom: 8px; }

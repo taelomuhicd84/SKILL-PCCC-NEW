@@ -20,3 +20,10 @@ How the user wants evacuation routes read and drawn on floor plans:
 
 **Why:** Earlier I picked arbitrary start points and used the unlabeled front door as an exit; the user corrected this (2026-10-16, ground-floor hotel plan).
 **How to apply:** Any PCCC escape-route annotation or check, including the pccc-checker tool's rules.
+
+
+**Bổ sung 2026-10-23 (người dùng dạy):** (a) Gian phòng KHÔNG có cửa chống cháy thì điểm xuất phát là ĐIỂM XA NHẤT trong phòng; có cửa chống cháy đúng yêu cầu thì tính từ cửa đó. (b) Đường thoát nạn đo theo ĐƯỜNG ĐI THỰC TẾ, phải né bàn ghế, tủ, thiết bị, cột, vật cản trong phòng hoặc giữa đường; không đo như đường chim bay hay đoạn thẳng. Không biết bố trí vật cản thì ghi CAN_XAC_NHAN. Xem `knowledge/bai-hoc.md` Bài học 22.
+
+**Bổ sung 2026-10-23 (hình minh hoạ):** tuyến thoát nạn vẽ theo GÓC VUÔNG, bám lối đi trống (tường trong phòng → cửa phòng → hành lang → cửa thoát nạn), không vẽ đường chéo cắt qua đồ đạc/tường; đo tổng các đoạn thẳng. Xem Bài học 24.
+
+**Mẫu trình bày 2026-10-23:** ghi chú thoát nạn có chú giải ký hiệu, tuyến góc vuông ghi L từng đoạn + tổng, khung "TÍNH TOÁN THOÁT NẠN" (S sử dụng = S tầng − chiếm chỗ; số người; mật độ = người/S; Bảng G.2a theo bậc), chi tiết cửa sổ thoát khẩn cấp và cửa chống cháy. Xem Bài học 25.

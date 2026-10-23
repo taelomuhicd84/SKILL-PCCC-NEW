@@ -1,7 +1,7 @@
 // Điều phối các giai đoạn trên web: đọc hồ sơ (A0) → chọn bảng → các job hạng mục → rà soát → gộp.
 import {
-  ThongTin, agentById, canKhung, nhomCuaAgent, docKetQuaJob, ganHuongDan, gop, lapJobs, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat, tachJson, trangLienQuan,
-  type Job, type PhamVi, type KetQuaDong, type PromptCtx, type DongKetQua, type TrangChu,
+  ThongTin, agentById, canKhung, nhomCuaAgent, docKetQuaJob, ganHuongDan, gop, lapJobs, promptChat, promptDocHoSo, promptHuongDan, promptJob, promptRaSoat, tachJson, trangLienQuan,
+  type Job, type LuotChat, type PhamVi, type KetQuaDong, type PromptCtx, type DongKetQua, type TrangChu,
 } from "@pccc/shared";
 import { taiBang, taiKb } from "./data";
 
@@ -75,3 +75,9 @@ export async function huongDan(goi: Goi, nc: NguCanh, tt: ThongTin, ds: DongKetQ
 }
 
 export { gop };
+
+/** Prompt chat Sơ bộ thiết kế PCCC cho hai chế độ: "tep" (Claude đọc file) và "kem" (Gemini, tri thức dán sẵn). */
+export async function promptChatCa(nc: NguCanh, tt: ThongTin | null, lichSu: LuotChat[], cau: string, khoanh = false): Promise<{ pt: string; pk: string }> {
+  const [ct, ck] = await ctxCa(nc, tt, agentById("so-bo-thiet-ke").tri_thuc);
+  return { pt: promptChat(ct, lichSu, cau, khoanh), pk: promptChat(ck, lichSu, cau, khoanh) };
+}

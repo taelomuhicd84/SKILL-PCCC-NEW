@@ -27,4 +27,7 @@ export function khoaDem(engine: string, model: string, prompt: string, thuMucPhi
   return createHash("sha256").update([engine, model, Math.floor(moiNhat()), p].join("\0")).digest("hex").slice(0, 32);
 }
 export const docDem = (khoa: string): string | null => { const f = path.join(THU_MUC, khoa + ".txt"); return existsSync(f) ? readFileSync(f, "utf8") : null; };
-export function luuDem(khoa: string, tra: string) { mkdirSync(THU_MUC, { recursive: true }); writeFileSync(path.join(THU_MUC, khoa + ".txt"), tra, "utf8"); }
+/** Chỉ đệm câu trả lời có JSON đọc được: từ chối của Gemini ("Tôi không thể trợ giúp") hay JSON bị cắt mà đệm lại thì lần chạy sau nhận lại đúng câu hỏng. */
+const jsonDocDuoc = (t: string) => { const a = t.indexOf("{"), b = t.lastIndexOf("}"); if (a < 0 || b <= a) return false; try { JSON.parse(t.slice(a, b + 1)); return true; } catch { return false; } };
+export function luuDem(khoa: string, tra: string) {
+  if (!jsonDocDuoc(tra)) return; mkdirSync(THU_MUC, { recursive: true }); writeFileSync(path.join(THU_MUC, khoa + ".txt"), tra, "utf8"); }
