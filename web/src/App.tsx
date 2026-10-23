@@ -15,6 +15,7 @@ import { engineCuaJob, tachJson, nhomTheoCongTrinh, tenCongTrinh } from "@pccc/s
 import { Viewer } from "./Viewer";
 import { TuHoc } from "./TuHoc";
 import { SoBoThietKe, type DeXuat } from "./SoBoThietKe";
+import { DAU_VAO_MAC_DINH, FormDauVao, KhaoSatBaoGia, chuDauVao, type DauVao } from "./KhaoSatBaoGia";
 import { mauDong, nhanDong, xuatPdf } from "./xuat_pdf";
 import { xuatDocx } from "./xuat_docx";
 
@@ -95,6 +96,10 @@ export default function App() {
   const xongRef = useRef<(() => void) | null>(null);
   const thaRef = useRef<(f: File[]) => void>(() => {});
   const [keo, setKeo] = useState(false);
+  const [baoGia, setBaoGia] = useState(() => doc<boolean>("pccc.baogia") ?? false); // tuỳ chọn bước 1: báo cáo khảo sát + báo giá thay cho thẩm định
+  const [dauVao, setDauVao] = useState<DauVao>(() => ({ ...DAU_VAO_MAC_DINH, ...(doc<Partial<DauVao>>("pccc.dauvao") ?? {}) }));
+  useEffect(() => { luu("pccc.baogia", baoGia); }, [baoGia]);
+  useEffect(() => { luu("pccc.dauvao", dauVao); }, [dauVao]);
   const [batDau, setBatDau] = useState(false); // nạp xong hồ sơ → tự chạy cả quy trình (effect chạy sau khi state đã cập nhật)
 
   useEffect(() => { taiIndex().then(setIndex).catch(() => setLoi("Không tải được danh mục bảng.")); }, []);
@@ -122,7 +127,7 @@ export default function App() {
   };
 
   // ---------- bước 1: nạp hồ sơ ----------
-  async function napHoSo(files: File[], tenNhom?: string) {
+  async function napHoSo(files: File[], tenNhom?: string, tuChay = true) {
     if (!files.length) { xongRef.current?.(); return; }
     setLoi(""); setTienTrinh("Đang gộp PDF…");
     try {
@@ -137,7 +142,7 @@ export default function App() {
       else { setTt(null); setBangChinh(null); setBangHT([]); setBangKT(null); setKq([]); setJobs([]); }
       setTienTrinh(`Đã nạp ${d.numPages} trang, ${c.reduce((s, t) => s + t.chu.length, 0)} cụm chữ.${cu ? " Có kết quả lưu từ lần trước." : ""}`);
       setPhien(null); phienRef.current = null;
-      setBatDau(true);
+      if (tuChay) setBatDau(true);
     } catch (e) { setLoi("Không đọc được PDF: " + e); setTienTrinh(""); xongRef.current?.(); xongRef.current = null; }
   }
 
@@ -168,14 +173,14 @@ export default function App() {
   }
 
   /** Tab 7: hỏi đáp Sơ bộ thiết kế PCCC bằng Claude hoặc Gemini web (dùng bản vẽ đã nạp nếu có, không thì trang trống). */
-  async function hoiSoBo(nguon: "claude" | "gemini", cau: string, lichSu: LuotChat[], khoanh: boolean): Promise<string> {
+  async function hoiSoBo(nguon: "claude" | "gemini", cau: string, lichSu: LuotChat[], khoanh: boolean, agentId = "so-bo-thiet-ke", vaoText = ""): Promise<string> {
     if (!phienRef.current) {
       const s = await kiemRunner(); setSk(s);
       if (!s) throw new Error("Không kết nối được runner ở máy bạn. Mở runner (npm run runner).");
       if (pdfBytes) await damBaoPhien();
       else { const d = await PDFDocument.create(); d.addPage(); const p = await taoPhien("chat so bo", (await d.save()).buffer as ArrayBuffer, [], undefined); phienRef.current = p; setPhien(p); }
     }
-    const { pt, pk } = await promptChatCa(nc(), tt, lichSu, cau, khoanh);
+    const { pt, pk } = await promptChatCa(nc(), agentId === "so-bo-thiet-ke" ? tt : null, lichSu, cau, khoanh, agentId, vaoText);
     return chayJob(nguon, phienRef.current!.phien, `chat-${nguon}-${Date.now()}`, nguon === "claude" ? pt : pk);
   }
 
@@ -367,7 +372,18 @@ Kết quả cũ của dòng này: ${d.ket_luan}. ${d.ly_do}
     const moi: NhomHang[] = nhom.map((g) => ({ ten: g.ten, files: g.files, tt: "cho" }));
     hangRef.current = [...hangRef.current.filter((x) => !moi.some((m) => m.ten === x.ten)), ...moi];
     setHang([...hangRef.current]);
-    xuLyHang();
+    setTienTrinh(`Đã nhận ${moi.length} công trình. Chọn AI rồi bấm Bắt đầu.`);
+  }
+  /** Bấm Bắt đầu: tuỳ chọn báo cáo khảo sát thì nạp bản vẽ (nếu có) và sang tab 8; không thì chạy thẩm định lần lượt từng công trình. */
+  async function batDauHoSo() {
+    if (!baoGia) { xuLyHang(); return; }
+    const n = hangRef.current.find((x) => x.tt === "cho");
+    if (n) {
+      n.tt = "dang"; setHang([...hangRef.current]);
+      await napHoSo(n.files, n.ten, false);
+      n.tt = "xong"; setHang([...hangRef.current]);
+    } else { setPdfBytes(null); setPdf(null); setChu([]); setPhien(null); phienRef.current = null; setTen(""); setKq([]); setTt(null); }
+    setDeXuat([]); setTienTrinh(""); setBuoc(8);
   }
   /** Chạy lần lượt từng công trình trong hàng đợi (mỗi công trình tự chạy trọn quy trình). Thả thêm khi đang chạy thì xếp vào hàng. */
   async function xuLyHang() {
@@ -420,7 +436,7 @@ Kết quả cũ của dòng này: ${d.ket_luan}. ${d.ly_do}
   const tenNhom = nhomXem === "kien_truc" ? "xay_dung_PCCC" : "he_thong_PCCC";
 
   // ---------- giao diện ----------
-  const BUOC = ["Hồ sơ", "Thông tin công trình", "Bảng đối chiếu", "Thẩm định", "Kết quả", "Tự học", "Sơ bộ thiết kế"];
+  const BUOC = ["Hồ sơ", "Thông tin công trình", "Bảng đối chiếu", "Thẩm định", "Kết quả", "Tự học", "Sơ bộ thiết kế", "Báo cáo khảo sát và báo giá"];
   return (
     <div className="app">
       <header>
@@ -439,7 +455,7 @@ Kết quả cũ của dòng này: ${d.ket_luan}. ${d.ly_do}
               <label className={"tha" + (keo ? " keo" : "")}>
                 <input type="file" accept="application/pdf,.pdf,application/json,.json" multiple hidden onChange={(e) => { xuLyTha(Array.from(e.target.files ?? [])); e.target.value = ""; }} />
                 <b>Kéo thả file vào đây</b> (hoặc bấm để chọn). Thả được nhiều file một lần: PDF bản vẽ, JSON kết quả, JSON cookie Gemini.
-                <span className="muted">File cùng tên công trình (vd. “KT Hoàng Anh”, “PCCC Hoàng Anh”) tự gộp thành một hồ sơ. Hệ thống tự đọc hồ sơ, chọn bảng, thẩm định và ra kết quả, không cần bấm gửi. Chọn AI ở dưới <b>trước</b> khi thả.</span>
+                <span className="muted">File cùng tên công trình (vd. “KT Hoàng Anh”, “PCCC Hoàng Anh”) tự gộp thành một hồ sơ. Thả xong chọn AI, rồi bấm <b>Bắt đầu</b> để hệ thống đọc hồ sơ, chọn bảng, thẩm định và ra kết quả.</span>
               </label>
               {hang.length > 0 && (
                 <ul className="hang-doi">
@@ -450,6 +466,10 @@ Kết quả cũ của dòng này: ${d.ket_luan}. ${d.ly_do}
                       <b> {({ cho: "chờ", dang: "đang chạy", xong: "xong", loi: "lỗi" } as const)[n.tt]}</b>
                     </li>))}
                 </ul>)}
+              <label className="toggle"><input type="checkbox" checked={baoGia} onChange={(e) => setBaoGia(e.target.checked)} /> Báo cáo khảo sát và báo giá (không thẩm định): Bắt đầu sẽ chuyển sang tab 8</label>
+              {baoGia && <FormDauVao dv={dauVao} setDv={setDauVao} coBanVe={false} soTrang={0} />}
+              <div><button className="chinh" disabled={!baoGia && !hang.some((x) => x.tt === "cho")} onClick={() => void batDauHoSo()}>Bắt đầu</button>
+                {baoGia && <span className="muted"> PDF không bắt buộc: chỉ có chữ (diện tích, số tầng) cũng bắt đầu được.</span>}</div>
               <h3>Phạm vi thẩm định</h3>
               <div className="chon-engine">
                 {([["ca-hai", "Cả hai: xây dựng PCCC (kiến trúc) + hệ thống PCCC, ra hai kết quả riêng"], ["kien-truc", "Chỉ thẩm định xây dựng PCCC (NĐ 105 Điều 6: khoảng cách, đường xe, thoát nạn, bậc chịu lửa, ngăn cháy, chống khói)"], ["pccc", "Chỉ thẩm định hệ thống PCCC (báo cháy, chữa cháy, đèn sự cố, bình, điện…)"]] as const).map(([v, n]) => (
@@ -467,6 +487,7 @@ Kết quả cũ của dòng này: ${d.ket_luan}. ${d.ly_do}
           )}
 
           {buoc === 6 && <TuHoc />}
+          <div hidden={buoc !== 8}><KhaoSatBaoGia dv={dauVao} setDv={setDauVao} coBanVe={!!pdfBytes} tenBanVe={ten} soTrang={pdf?.numPages ?? 0} hoi={(n, c, ls, vao, ag) => hoiSoBo(n, c, ls, false, ag, vao)} /></div>
           {buoc === 7 && <SoBoThietKe coBanVe={!!pdfBytes} tenBanVe={ten} hoi={hoiSoBo} datDeXuat={datDeXuat} nhayTrang={setTrang} thaPdf={thaPdfSoBo} soTrang={pdf?.numPages ?? 0} />}
 
           {buoc === 2 && (

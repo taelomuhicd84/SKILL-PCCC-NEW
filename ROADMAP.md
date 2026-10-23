@@ -19,7 +19,7 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Chạy thật Hoàng Anh 1: 34/34 job, khớp báo cáo tay.
 
 ## Giai đoạn 2 – Tự động hoá ✅ (2026-10-20)
-- ✅ Chọn PDF là tự chạy hết; kéo thả nhiều file, tự gộp theo công trình.
+- ✅ Kéo thả nhiều file, tự gộp theo công trình; chọn AI rồi bấm **Bắt đầu** mới chạy (không còn chạy ngay khi thả PDF; chưa thử chạy thẩm định thật sau thay đổi này).
 - ✅ Chế độ Hỗn hợp Claude + Gemini, Gemini lỗi tự chuyển Claude; tự chờ khi hết hạn mức.
 - ✅ Xuất PDF bằng comment, xuất Word; `chay.bat` một cú bấm.
 
@@ -74,7 +74,8 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Agent `pccc-tu-sua` (`.claude/agents/pccc-tu-sua.md`) + `scripts/day_github.sh`: sửa lỗi test/build/runner, kiểm bí mật, commit, push bằng tài khoản taelomuhicd84 (git local `credential.https://github.com.username`). Không force push, không tự cấp quyền; push cần đăng nhập thì dừng và báo.
 
 ## Ý tưởng chờ (chưa xếp giai đoạn)
-- ⏳ Báo cáo khảo sát và báo giá PCCC dựa trên bot chat mục 7 (bảng thông tin PCCC → danh mục hạng mục và khối lượng → báo giá). Kiến thức nền: `knowledge/so-bo-thiet-ke-pccc.md` (mục Bảng thông tin PCCC).
+- ✅ Tab 8 **Báo cáo khảo sát và báo giá** (agent `khao-sat-bao-gia`, `web/src/KhaoSatBaoGia.tsx`): tích tuỳ chọn ở bước 1, 3 loại đầu vào (mặt bằng+mặt đứng / chỉ mặt bằng các tầng / chỉ chữ), tự ước chiều cao 3,3–3,8 m/tầng, chat Claude hoặc Gemini web, xuất khung Excel khảo sát + báo giá (`xuat_xlsx.ts`). Đã build + kiểm giao diện; CHƯA hỏi AI thật, chưa mở .xlsx bằng Excel.
+- ⏳ 👤 Cấp file Excel mẫu báo cáo khảo sát và báo giá để thay khung sườn; ✅ Agent/skill `bao-gia` (`knowledge/bao-gia-pccc.md`: quy tắc ước khối lượng mặc định, bảng đơn giá để người dùng điền), nút "Lập báo giá" ở tab 8 điền Excel báo giá (khối lượng, đơn giá, cách ước, thành tiền/VAT công thức); chưa hỏi AI thật. ⏳ 👤 Chỉnh quy tắc ước và điền bảng đơn giá. (Khảo sát đã điền từ khối json `khao_sat` của agent: hạng mục, công năng, diện tích, số tầng, chiều cao PCCC, khối tích, diện thẩm định, lối thoát nạn, hệ thống PCCC); ⏳ skill tính bể nước PCCC (người dùng sẽ cấp). Chưa hỏi AI thật nên chưa kiểm khối json.
 - ✅ Mục 4 cho phần xây dựng: đã soạn dòng đường xe chữa cháy/bãi đỗ cho KT17 (nhà sản xuất) và KT18 (nhà kho); đã chạy thử trên hồ sơ Thuận An (`ket_qua/tan_dinh_m04/`), còn rà dòng CẦN XÁC NHẬN cùng người dùng.
 - ✅ Train Mục 4 (đường/bãi xe chữa cháy): Bài học 12–13 + `luu_y` agent m04 (cộng dồn bãi mỗi bãi ≥15x3,5 m, đọc cự ly trên mặt bằng, thiếu dim thì CXN + khoanh + hướng dẫn); đã đọc tay 6 hồ sơ ra JSON (chưa kiểm). ✅ Luật đọc hết bảng thống kê tổng thể (Bài học 14, chiều cao PCCC quyết định cự ly bãi). ⏳ Chạy agent m04 thật trên các hồ sơ đó và so với kết quả tay.
 - ✅ Agent đọc hồ sơ phải đọc ảnh từng trang (đã sửa prompt, đã kiểm trên hồ sơ Thuận An).

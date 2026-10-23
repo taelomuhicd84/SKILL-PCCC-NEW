@@ -1,7 +1,7 @@
 // Runner cục bộ: web (GitHub Pages hoặc localhost) gửi hồ sơ và từng job agent tới đây; runner gọi
 // Claude Code hoặc Gemini bằng tài khoản của chính người dùng. Chỉ nghe 127.0.0.1, chỉ nhận origin trong danh sách.
 import http from "node:http";
-import { writeFileSync, existsSync, readFileSync, statSync, readdirSync } from "node:fs";
+import { writeFileSync, existsSync, readFileSync, statSync, readdirSync, mkdirSync } from "node:fs";
 import path from "node:path";
 import { luuPhien } from "./phien";
 import { GOC_REPO, THU_MUC_LAM, log } from "./chung";
@@ -173,6 +173,21 @@ const server = http.createServer(async (req, res) => {
       if (co != null) log("dùng đệm", job, `(${co.length} ký tự, không gọi AI)`);
       writeFileSync(path.join(dir, "jobs", `${job}.tra_loi.txt`), tra_loi, "utf8");
       return json(200, { tra_loi });
+    }
+    // Sơ đồ công việc / node (so_do/*.htm): trang mở qua runner tự lưu dữ liệu vào so_do/du_lieu/<ten>.json, không cần xuất/nhập JSON
+    const mSoDo = /^\/so-do(-du-lieu)?\/([a-z0-9_]+)(?:\?.*)?$/.exec(req.url ?? "");
+    if (mSoDo) {
+      const ten = mSoDo[2];
+      if (!mSoDo[1] && req.method === "GET") {
+        const f = path.join(GOC_REPO, "so_do", ten + ".htm");
+        if (!existsSync(f)) return json(404, { loi: "không có sơ đồ " + ten });
+        res.writeHead(200, { "content-type": "text/html; charset=utf-8" }).end(readFileSync(f)); return;
+      }
+      if (mSoDo[1]) {
+        const f = path.join(GOC_REPO, "so_do", "du_lieu", ten + ".json");
+        if (req.method === "GET") { if (!existsSync(f)) return json(404, { loi: "chưa có dữ liệu" }); res.writeHead(200, { "content-type": "application/json; charset=utf-8" }).end(readFileSync(f)); return; }
+        if (req.method === "POST") { const b = await docBody(req); mkdirSync(path.dirname(f), { recursive: true }); writeFileSync(f, JSON.stringify(b, null, 1)); return json(200, { ok: true }); }
+      }
     }
     const f = req.method === "GET" && req.url ? tep(req.url) : null;
     if (f) { res.writeHead(200, { "content-type": MIME[path.extname(f).toLowerCase()] ?? "application/octet-stream" }).end(readFileSync(f)); return; }

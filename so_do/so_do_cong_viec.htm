@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sơ đồ công việc – Web thẩm định PCCC</title>
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--line:#9aa5b8;--ink:#1d2433;--mut:#6b768c;--ok:#1f9d55;--accent:#2b5fd9}
+@media(prefers-color-scheme:dark){:root{--bg:#141821;--card:#1f2531;--line:#4a5469;--ink:#e6e9f0;--mut:#8f9ab0;--accent:#6c97ff}}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,"Segoe UI",sans-serif}
+header{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:12px}
+h1{font-size:18px;margin:0}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;padding:4px 10px}
+button:hover{border-color:var(--accent)}
+.tree{overflow-x:auto;padding-bottom:16px}
+.root{display:flex;flex-direction:column;align-items:center;min-width:max-content}
+.root-box{background:var(--accent);color:#fff;border-radius:10px;padding:10px 20px;text-align:center;font-weight:600}
+.root-box small{display:block;font-weight:400;opacity:.9}
+.stem{width:2px;height:20px;background:var(--line)}
+.row{display:flex;gap:0;align-items:flex-start}
+.col{position:relative;padding:20px 8px 0;width:260px}
+.col::before,.col::after{content:"";position:absolute;top:0;height:20px;width:50%;border-top:2px solid var(--line)}
+.col::before{left:0}.col::after{right:0;border-left:2px solid var(--line)}
+.col:first-child::before,.col:last-child::after{border-top:0}
+.col:last-child::before{border-right:2px solid var(--line)}
+.col:only-child::before,.col:only-child::after{display:none}
+.col:first-child::after{border-top:2px solid var(--line)}
+.col:last-child::before{border-top:2px solid var(--line)}
+.dep{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:8px;padding:8px}
+.dep h2{font-size:14px;margin:0 0 4px;display:flex;justify-content:space-between;gap:6px}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-bottom:6px}
+.bar i{display:block;height:100%;background:var(--ok)}
+.cnt{font-size:12px;color:var(--mut)}
+.task{display:flex;gap:6px;align-items:flex-start;padding:3px 0;border-top:1px dashed var(--line)}
+.task input{margin-top:3px;flex:none}
+.task span{flex:1;word-break:break-word}
+.task.done span{text-decoration:line-through;color:var(--mut)}
+.x{border:0;background:none;color:var(--mut);padding:0 4px}
+.x:hover{color:#d33}
+.add{display:flex;gap:4px;margin-top:6px}
+.add input{flex:1;min-width:0;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+.edit{flex:1;min-width:0;font:inherit;padding:2px 4px;border:1px solid var(--accent);border-radius:4px;background:var(--bg);color:var(--ink);resize:vertical}
+.hint{color:var(--mut);font-size:12px;margin-top:8px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Sơ đồ công việc – Web thẩm định PCCC</h1>
+  <div><span id="tt" class="cnt"></span> <button id="may">Máy chủ…</button>
+    <button id="addDep">+ Thêm bộ phận</button>
+    <button id="exp">Xuất JSON</button>
+    <button id="imp">Nhập JSON</button>
+    <button id="rst">Đặt lại mặc định</button>
+  </div>
+</header>
+<div class="tree"><div class="root" id="root"></div></div>
+<p class="hint">Tích ô để đánh dấu xong. Gõ vào ô cuối mỗi bộ phận rồi Enter để thêm việc; bấm ✎ để sửa ngay tại dòng (Enter lưu, Esc huỷ). Dữ liệu lưu trong trình duyệt này (localStorage); muốn mang sang máy khác thì Xuất/Nhập JSON.</p>
+
+<script>
+const KEY = "so_do_cong_viec_pccc_v1";
+const T = (t, d) => ({ t, d: !!d });
+const SEED = {
+  name: "Web thẩm định PCCC",
+  deps: [
+    { n: "1. Nền tảng", tasks: [
+      T("58 bảng đối chiếu → data/bang", 1), T("shared/ (schema, agent, chọn bảng, gộp)", 1),
+      T("Web + viewer khung đánh số; runner :8787", 1), T("Chạy thật Hoàng Anh 1: 34/34 job", 1)] },
+    { n: "2. Tự động hoá", tasks: [
+      T("Chọn PDF là tự chạy hết", 1), T("Hỗn hợp Claude + Gemini, tự chuyển khi lỗi", 1),
+      T("Xuất PDF comment, xuất Word", 1), T("chay.bat một cú bấm", 1)] },
+    { n: "3. Tri thức", tasks: [
+      T("Nạp NĐ 105/2025, NĐ 347/2026, QCVN 10:2025, QCVN 06, TCVN 7568-14", 1),
+      T("Agent tự học + kiểm soát viên tự duyệt", 1),
+      T("👤 Xác nhận QCVN 02 trạm bơm còn hiệu lực"), T("👤 Cấp quyền thư mục hồ sơ 2017–2023")] },
+    { n: "4. Chất lượng thẩm định", tasks: [
+      T("Bảng Đồng Nai A/B + bảng KT xây dựng", 1), T("Agent Hướng dẫn thẩm định", 1),
+      T("Agent xem ảnh trang bản vẽ (PyMuPDF)", 1), T("Cột Ghi chú chạy lại đúng dòng", 1),
+      T("Mục 7 Sơ bộ thiết kế PCCC: bot chat + khoanh khung", 1),
+      T("Bot mục 7 VẼ hướng dẫn lên bản vẽ (bãi đỗ, làn, quay xe, tuyến thoát nạn)"),
+      T("Chạy agent m04 thật và so với kết quả tay"), T("Chạy lại thẩm định đo token khi agent mở ảnh"),
+      T("👤 Mở PDF xuất ra bằng Acrobat/Edge kiểm tra"), T("👤 Rà 9 dòng CHƯA ĐẠT của Karaoke")] },
+    { n: "5. Tốc độ", tasks: [
+      T("Mọi agent dùng Sonnet", 1), T("Đệm câu trả lời job", 1), T("Log thời gian từng job", 1),
+      T("Agent thử Gemini Mục 4 trên Gemini thật"), T("Đọc hồ sơ A0 bằng Gemini web"),
+      T("Giữ phiên khi F5"), T("👤 Xuất lại cookie Gemini")] },
+    { n: "6. Đưa vào dùng", tasks: [
+      T("👤 Đổi token Claude đã lộ"), T("👤 Bật GitHub Pages hoặc Netlify"),
+      T("👤 Dán key Gemini API"), T("Thêm bảng chống tụ khói, thang máy CC, chống sét"),
+      T("Test tự động cho web và runner")] },
+    { n: "Ý tưởng chờ", tasks: [
+      T("Báo cáo khảo sát + báo giá PCCC từ bot mục 7"),
+      T("Bán kính quay xe chữa cháy (cần số xe thật)"), T("Tự chạy chay.bat khi bật máy"),
+      T("Hook soát kết quả, /kiem-tra, /nap-kien-thuc, đo hình học tự động")] }
+  ]
+};
+const clone = o => JSON.parse(JSON.stringify(o));
+let S;
+try { S = JSON.parse(localStorage.getItem(KEY)); } catch (e) {}
+if (!S || !Array.isArray(S.deps)) S = clone(SEED);
+// Dữ liệu lưu ở MÁY CHỦ: mở qua runner/chia sẻ (http://<máy>:<cổng>/so-do/<tên>) thì tự lưu vào so_do/du_lieu/<tên>.json. File html copy sang máy khác: bấm "Máy chủ…" nhập địa chỉ máy cũ (vd. http://192.168.0.35:8790) để vẫn lưu về máy cũ. Không có máy chủ thì chỉ lưu trong trình duyệt.
+const may = () => { try { return localStorage.getItem("so_do_may") || ""; } catch (e) { return ""; } };
+const goc = () => (may() ? may() : location.protocol.startsWith("http") ? "" : null); // null: không có máy chủ
+const API = () => (goc() === null ? null : goc() + "/so-do-du-lieu/so_do_cong_viec");
+let hen, coMay = false;
+const trangThai = () => { document.getElementById("tt").textContent = coMay ? "● Tự lưu về máy chủ" + (may() ? " " + may() : "") : goc() === null ? "○ Chỉ lưu trong trình duyệt (bấm Máy chủ… để lưu về máy khác)" : "○ Không nối được máy chủ" + (may() ? " " + may() : ""); };
+const guiMay = () => (API() ? fetch(API(), { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(S) }).then((r) => { coMay = r.ok; }).catch(() => { coMay = false; }).then(trangThai) : trangThai());
+const taiMay = (dung) => { if (!API()) return trangThai(); fetch(API()).then((r) => (r.ok ? r.json() : null)).then((j) => { if (j && dung(j)) coMay = true; else guiMay(); trangThai(); }).catch(trangThai); }; // chưa có file: đẩy dữ liệu hiện có lên
+document.getElementById("may").onclick = () => {
+  const v = prompt("Địa chỉ máy chủ (máy đang chạy runner hoặc scripts/chia_se_so_do.mjs), vd. http://192.168.0.35:8790\nĐể trống = chỉ lưu trong trình duyệt / cùng máy:", may());
+  if (v === null) return;
+  try { localStorage.setItem("so_do_may", v.trim().replace(/\/+$/, "")); } catch (e) {}
+  location.reload();
+};
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} if (API()) { clearTimeout(hen); hen = setTimeout(guiMay, 400); } };
+taiMay((j) => { if (!Array.isArray(j.deps)) return false; S = j; render(); return true; });
+
+function el(tag, props, ...kids) {
+  const e = Object.assign(document.createElement(tag), props || {});
+  kids.forEach(k => e.append(k));
+  return e;
+}
+function render() {
+  const all = S.deps.flatMap(d => d.tasks), done = all.filter(t => t.d).length;
+  const root = document.getElementById("root");
+  root.replaceChildren(
+    el("div", { className: "root-box" }, S.name, el("small", { textContent: `${done}/${all.length} việc xong` })),
+    el("div", { className: "stem" }),
+    el("div", { className: "row" }, ...S.deps.map(depCard))
+  );
+}
+function depCard(d, di) {
+  const n = d.tasks.filter(t => t.d).length, pct = d.tasks.length ? Math.round(100 * n / d.tasks.length) : 0;
+  const inp = el("input", { placeholder: "+ thêm việc, Enter" });
+  inp.onkeydown = e => {
+    if (e.key === "Enter" && inp.value.trim()) { d.tasks.push(T(inp.value.trim())); save(); render(); }
+  };
+  const del = el("button", { className: "x", textContent: "×", title: "Xoá bộ phận" });
+  del.onclick = () => { if (confirm(`Xoá bộ phận "${d.n}" và ${d.tasks.length} việc?`)) { S.deps.splice(di, 1); save(); render(); } };
+  const ren = el("span", { textContent: d.n, title: "Bấm đúp để đổi tên", style: "cursor:text" });
+  ren.ondblclick = () => { const v = prompt("Tên bộ phận:", d.n); if (v && v.trim()) { d.n = v.trim(); save(); render(); } };
+  return el("div", { className: "col" }, el("div", { className: "dep" },
+    el("h2", {}, ren, del),
+    el("div", { className: "bar" }, el("i", { style: `width:${pct}%` })),
+    el("div", { className: "cnt", textContent: `${n}/${d.tasks.length} xong (${pct}%)` }),
+    ...d.tasks.map((t, ti) => {
+      const cb = el("input", { type: "checkbox", checked: t.d });
+      cb.onchange = () => { t.d = cb.checked; save(); render(); };
+      const x = el("button", { className: "x", textContent: "×", title: "Xoá việc" });
+      x.onclick = () => { d.tasks.splice(ti, 1); save(); render(); };
+      const ed = el("button", { className: "x", textContent: "✎", title: "Sửa việc" });
+      const sp = el("span", { textContent: t.t });
+      ed.onclick = e => {
+        e.preventDefault();
+        const box = el("textarea", { value: t.t, rows: 2, className: "edit" });
+        let xong = false;
+        const chot = ok => {
+          if (xong) return;
+          xong = true;
+          if (ok && box.value.trim()) { t.t = box.value.trim(); save(); }
+          render();
+        };
+        box.onkeydown = k => {
+          if (k.key === "Enter" && !k.shiftKey) { k.preventDefault(); chot(true); }
+          else if (k.key === "Escape") chot(false);
+        };
+        box.onblur = () => chot(true);
+        sp.replaceWith(box);
+        box.focus();
+        box.select();
+      };
+      return el("label", { className: "task" + (t.d ? " done" : "") }, cb, sp, ed, x);
+    }),
+    el("div", { className: "add" }, inp)));
+}
+document.getElementById("addDep").onclick = () => {
+  const v = prompt("Tên bộ phận mới:");
+  if (v && v.trim()) { S.deps.push({ n: v.trim(), tasks: [] }); save(); render(); }
+};
+document.getElementById("rst").onclick = () => {
+  if (confirm("Đặt lại về danh sách mặc định? Việc bạn đã thêm/tích sẽ mất.")) { S = clone(SEED); save(); render(); }
+};
+document.getElementById("exp").onclick = () => {
+  const a = el("a", { href: URL.createObjectURL(new Blob([JSON.stringify(S, null, 1)], { type: "application/json" })), download: "so_do_cong_viec.json" });
+  a.click();
+};
+document.getElementById("imp").onclick = () => {
+  const f = el("input", { type: "file", accept: ".json" });
+  f.onchange = async () => {
+    try {
+      const j = JSON.parse(await f.files[0].text());
+      if (!Array.isArray(j.deps)) throw 0;
+      S = j; save(); render();
+    } catch (e) { alert("File JSON không đúng dạng."); }
+  };
+  f.click();
+};
+render(); trangThai();
+</script>
+</body>
+</html>

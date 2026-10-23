@@ -1,7 +1,14 @@
 # Lịch sử làm việc (mới nhất ở trên)
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
+## 2026-10-24
+- Hai sơ đồ: nút "Máy chủ…" (file html copy sang máy khác vẫn lưu về máy cũ qua `node scripts/chia_se_so_do.mjs`, cổng 8790, chỉ phục vụ so_do, không mở runner); node kéo góc dưới phải để đổi độ rộng, chữ tự xuống dòng. Chưa kiểm trên máy thứ hai thật. Chưa commit.
+- Sơ đồ công việc và sơ đồ node tự lưu: mở qua runner `http://127.0.0.1:8787/so-do/so_do_cong_viec` (hoặc `so_do_quy_trinh_node`) thì mọi thay đổi ghi thẳng vào `so_do/du_lieu/<ten>.json` (runner thêm route `/so-do`, `/so-do-du-lieu`); mở trực tiếp file vẫn lưu trong trình duyệt. Chưa commit.
+
 ## 2026-10-23
+- Bài học 26: đếm lối thoát nạn khi có nhiều buồng thang (xét từng thang theo MOD_cau_thang_buong_thang, thang rẽ quạt thêm 3.4.4); nối vào `luu_y` m07 và khao-sat-bao-gia, kiến thức khảo sát. Chưa commit; chưa chạy thử trên hồ sơ.
+- Tab 8: agent/skill `khao-sat-bao-gia` viết lại theo 8 mục người dùng (khối json `khao_sat` điền Excel khảo sát); thêm agent/skill `bao-gia` + `knowledge/bao-gia-pccc.md`, nút "Lập báo giá" điền Excel báo giá. Chưa commit; chưa thử AI thật.
+- Bước 1: thả PDF không còn tự chạy, có nút **Bắt đầu**; thêm tuỳ chọn "Báo cáo khảo sát và báo giá" (form 3 loại đầu vào) và tab 8 (agent `khao-sat-bao-gia`, `KhaoSatBaoGia.tsx`, `xuat_xlsx.ts` xuất khung Excel khảo sát/báo giá, ước chiều cao 3,3–3,8 m/tầng). Chưa commit; chưa thử với AI thật.
 - Web: tab 7 thêm ô "Khoanh đề xuất" (`PHAN_KHOANH` trong `shared/src/prompt.ts`, `datDeXuat` trong `web/src/App.tsx`), vùng kéo thả PDF trong tab 7; bảng kết quả bước 5 kéo đổi độ rộng cột (`keoCot`, khoá `pccc.cot`). Build + tsc + 25 test qua.
 - Thêm mục 7 Sơ bộ thiết kế PCCC: agent `so-bo-thiet-ke` (23 agent), `promptChat`, tab 7 chat Claude/Gemini/cả hai; runner Gemini trả nhanh khi prompt ghi "Không trả JSON" (~90 s thay vì ~480 s). Build + tsc + 25 test qua; Claude thử đúng, Gemini thử qua runner.
 - Sửa Gemini web: lấy khối mã bằng `textContent` (innerText cắt đuôi JSON dài, gây lỗi "SyntaxError … position 4307"), thử lấy JSON từ toàn bộ câu trả lời khi khối mã dở; `runner/src/dem.ts` không đệm câu trả lời không phải JSON đọc được (trước đây lời từ chối/JSON cắt bị đệm nên chạy lại vẫn hỏng); xoá 6 mục đệm hỏng. Kho Tân Kiên (3 trang) đọc hồ sơ bằng Gemini JSON đủ; Hoàng Hùng (50 trang, prompt 50 KB) Gemini vẫn từ chối/không ra JSON.

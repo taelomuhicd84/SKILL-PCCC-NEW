@@ -77,7 +77,7 @@ export async function huongDan(goi: Goi, nc: NguCanh, tt: ThongTin, ds: DongKetQ
 export { gop };
 
 /** Prompt chat Sơ bộ thiết kế PCCC cho hai chế độ: "tep" (Claude đọc file) và "kem" (Gemini, tri thức dán sẵn). */
-export async function promptChatCa(nc: NguCanh, tt: ThongTin | null, lichSu: LuotChat[], cau: string, khoanh = false): Promise<{ pt: string; pk: string }> {
-  const [ct, ck] = await ctxCa(nc, tt, agentById("so-bo-thiet-ke").tri_thuc);
-  return { pt: promptChat(ct, lichSu, cau, khoanh), pk: promptChat(ck, lichSu, cau, khoanh) };
+export async function promptChatCa(nc: NguCanh, tt: ThongTin | null, lichSu: LuotChat[], cau: string, khoanh = false, agentId = "so-bo-thiet-ke", dauVao = ""): Promise<{ pt: string; pk: string }> {
+  const [ct, ck] = await ctxCa(nc, tt, agentById(agentId).tri_thuc);
+  return { pt: promptChat(ct, lichSu, cau, khoanh, agentId, dauVao), pk: promptChat(ck, lichSu, cau, khoanh, agentId, dauVao) };
 }

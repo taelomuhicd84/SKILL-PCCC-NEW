@@ -139,8 +139,8 @@ const PHAN_KHOANH = [
 
 /** Chat với agent Sơ bộ thiết kế PCCC (mục 7): trả lời văn bản tiếng Việt, không phải JSON. */
 export interface LuotChat { vai: "nguoi" | "bot"; nd: string }
-export function promptChat(ctx: PromptCtx, lichSu: LuotChat[], cau: string, khoanh = false): string {
-  const a = agentById("so-bo-thiet-ke");
+export function promptChat(ctx: PromptCtx, lichSu: LuotChat[], cau: string, khoanh = false, agentId = "so-bo-thiet-ke", dauVao = ""): string {
+  const a = agentById(agentId);
   const ls = lichSu.slice(-8).map((l) => `${l.vai === "nguoi" ? "Người dùng" : "Trợ lý"}: ${cat(l.nd, 1500)}`).join("\n");
   const cachTraLoi = [
     "## Cách trả lời",
@@ -151,6 +151,8 @@ export function promptChat(ctx: PromptCtx, lichSu: LuotChat[], cau: string, khoa
   ].join("\n");
   return [
     `# Agent ${a.ten}`, a.viec, a.luu_y ?? "", cachTraLoi,
+    dauVao ? `## Thông tin đầu vào của người dùng
+${dauVao}` : "",
     phanThongTin(ctx.thong_tin), phanBanVe(ctx), phanTriThuc(ctx, a.tri_thuc),
     khoanh ? PHAN_KHOANH : "",
     ls ? `## Hội thoại trước\n${ls}` : "", `## Câu hỏi hiện tại\n${cau}`,
