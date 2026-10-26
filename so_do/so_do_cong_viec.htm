@@ -88,6 +88,22 @@ const SEED = {
       T("👤 Đổi token Claude đã lộ"), T("👤 Bật GitHub Pages hoặc Netlify"),
       T("👤 Dán key Gemini API"), T("Thêm bảng chống tụ khói, thang máy CC, chống sét"),
       T("Test tự động cho web và runner")] },
+    { n: "7. Tự học và hỏi đáp (26/10)", tasks: [
+      T("Sổ tài liệu trong thư mục + checklist (trùng, thay thế, sửa đổi)", 1),
+      T("Kho khái niệm tự học: 378 thẻ, file riêng từng agent", 1),
+      T("Học khái niệm còn thiếu tự tìm trong toàn văn", 1),
+      T("Hợp nhất văn bản: Word gạch ngang, sửa đổi gộp vào bản gốc (QCVN 06 + SĐ1)", 1),
+      T("Kho toàn văn 48 tài liệu để Grep (lap_kho_van_ban.ts)", 1),
+      T("Agent hỏi đáp pccc-hoi-dap + skill điều phối pccc-dieu-phoi", 1),
+      T("Skill phan-tich-ban-ve: PDF → loại hạng mục → kiểm → giải pháp", 1),
+      T("Sơ bộ PCCC Khách sạn Hoàng Hùng: bảng thông tin + 3 hình khoanh", 1),
+      T("Bài học 27: nhà hỗn hợp 70%, tự xác định nhóm F, hai nhánh thẩm định, diện thẩm định", 1),
+      T("Bài học 28, 29: khối tích mái chữ A, xét đủ 8 nhóm yêu cầu", 1),
+      T("Xem thử nhà kho Liên Minh Xưởng 01: số liệu, chiều cao PCCC 4,0 m, khoảng cách, thoát khói", 1),
+      T("Đẩy GitHub khi hết usage, reset tự chạy tiếp", 1),
+      T("Chạy thử phan-tich-ban-ve trên bản vẽ thật"), T("Người thiết kế Liên Minh sửa số liệu lệch, làm rõ tường tole phía 2,133 m"), T("Học tiếp ≈ 60 khái niệm còn thiếu"), T("Chạy thật hợp nhất văn bản sửa đổi bằng chữ"),
+      T("OCR 5 file scan (NĐ 105, TT 103, TCVN 13581, SP241, TCVN 14496)"),
+      T("Sơ bộ nhánh PCCC (Công an Điều 9) cho Hoàng Hùng: báo cháy, chữa cháy, đèn sự cố")] },
     { n: "Ý tưởng chờ", tasks: [
       T("Báo cáo khảo sát + báo giá PCCC từ bot mục 7"),
       T("Bán kính quay xe chữa cháy (cần số xe thật)"), T("Tự chạy chay.bat khi bật máy"),
@@ -98,6 +114,18 @@ const clone = o => JSON.parse(JSON.stringify(o));
 let S;
 try { S = JSON.parse(localStorage.getItem(KEY)); } catch (e) {}
 if (!S || !Array.isArray(S.deps)) S = clone(SEED);
+const VER = "2026-10-26b";
+/** Thêm bộ phận/việc mới của seed vào dữ liệu đã lưu (khớp theo tên); không đổi việc đã có, không xoá. */
+function ghep(d) {
+  if (!d || d.ver === VER) return d;
+  for (const sd of SEED.deps) {
+    let dep = d.deps.find((x) => x.n === sd.n);
+    if (!dep) { const i = d.deps.findIndex((x) => x.n === "Ý tưởng chờ"); dep = { n: sd.n, tasks: [] }; d.deps.splice(i < 0 ? d.deps.length : i, 0, dep); }
+    for (const t of sd.tasks) if (!dep.tasks.some((x) => x.t === t.t)) dep.tasks.push({ ...t });
+  }
+  d.ver = VER; return d;
+}
+S = ghep(S); try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {}
 // Dữ liệu lưu ở MÁY CHỦ: mở qua runner/chia sẻ (http://<máy>:<cổng>/so-do/<tên>) thì tự lưu vào so_do/du_lieu/<tên>.json. File html copy sang máy khác: bấm "Máy chủ…" nhập địa chỉ máy cũ (vd. http://192.168.0.35:8790) để vẫn lưu về máy cũ. Không có máy chủ thì chỉ lưu trong trình duyệt.
 const may = () => { try { return localStorage.getItem("so_do_may") || ""; } catch (e) { return ""; } };
 const goc = () => (may() ? may() : location.protocol.startsWith("http") ? "" : null); // null: không có máy chủ
@@ -113,7 +141,7 @@ document.getElementById("may").onclick = () => {
   location.reload();
 };
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} if (API()) { clearTimeout(hen); hen = setTimeout(guiMay, 400); } };
-taiMay((j) => { if (!Array.isArray(j.deps)) return false; S = j; render(); return true; });
+taiMay((j) => { if (!Array.isArray(j.deps)) return false; S = ghep(j); render(); save(); return true; });
 
 function el(tag, props, ...kids) {
   const e = Object.assign(document.createElement(tag), props || {});

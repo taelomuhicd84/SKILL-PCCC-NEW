@@ -25,6 +25,18 @@ File này Claude cập nhật. Mỗi lần tôi bảo "cập nhật từ github"
 - Xưởng hay nhà phố; bãi/đường trong công trình hay ngoài đường lộ. Chỉ trong công trình mới xét bãi quay xe, đoạn tránh xe.
 
 ## Ghi chú theo ngày (Claude thêm mỗi phiên, mới nhất ở trên)
+### 2026-10-26
+- **Tự học tài liệu (việc lớn trong ngày):** sổ tài liệu nằm trong thư mục học tập (`_PCCC_so_hoc.json`), checklist `_CHECKLIST_TAI_LIEU.md` (ngày cập nhật, loại, tính năng, ghi chú thay thế); trùng tên/số hiệu thì loại, văn bản thay thế/sửa đổi thì thay tại dòng cũ. Đã chuyển 50 file cũ sang sổ không tốn token.
+- **Kho khái niệm:** mỗi khái niệm có định nghĩa, cách xác định, khi nào áp dụng/không, yêu cầu, cách kiểm, dễ nhầm, liên quan. Rút sâu 45 file + học nốt khái niệm còn thiếu: 378 thẻ (`knowledge/hoc/khai-niem/`). Thử với "sảnh thông tầng": có đủ định nghĩa và yêu cầu.
+- **Hợp nhất văn bản:** Word gạch ngang chỉ lấy phần mới (QCVN 06 + SĐ1:2023 → `knowledge/hoc/hop-nhat/qcvn-6.md`); văn bản sửa đổi bằng chữ tự gộp đúng điều/khoản (chưa chạy thật, mới có test).
+- **Kho toàn văn** 48 tài liệu để tra (`runner/cache/van_ban`); 5 file scan không đọc được (NĐ 105, TT 103, TCVN 13581, SP241, TCVN 14496), cần OCR.
+- **Agent mới:** `pccc-hoi-dap` (trả lời dứt khoát, có điều khoản), skill `pccc-dieu-phoi` (Claude chính điều phối), skill `phan-tich-ban-ve` (PDF → xác định loại hạng mục → kiểm → giải pháp; chưa chạy thử bản vẽ thật).
+- **Sơ bộ PCCC khách sạn Hoàng Hùng (bản KT 06/2025):** bảng thông tin, bãi xe chữa cháy 6×20 m phía Tây, thoát nạn tầng 3, lối ra BTB1 qua bếp, buồng thang phải là N1/N2 (>28 m). Hồ sơ `ket_qua/hoang_hung_so_bo2/` (không lên GitHub).
+- **Bạn dạy hôm nay (đã ghi Bài học 27):** (1) "nhà hỗn hợp" chỉ khi mỗi công năng ≤ 70% sàn, không phải cứ nhiều công năng; (2) luôn nêu căn cứ diện thẩm định (Phụ lục III NĐ 105, khách sạn mục 7a); (3) hai nhánh: cơ quan xây dựng (Điều 6) = thẩm định về xây dựng, Công an (Điều 9) = thẩm định về PCCC, test thì làm cả hai; (4) phải tự xác định nhóm nhà F từ công năng để bắt lỗi người thiết kế, không bỏ trống nhóm; (5) hết usage thì ghi tiến độ, đẩy GitHub, reset tự chạy tiếp.
+- **Xem thử hồ sơ nhà kho Liên Minh Xưởng 01 (14 trang):** thẩm duyệt điều chỉnh (đã có GCN 58/TD-PCCC, 248/TD-PCCC). Nhóm F5.2, hạng C3, 1.630,8 m². Tính lại đạt: thoát nạn, bãi xe 29 m. Lệch số liệu: diện tích 1.603,8 ≠ 1.630,8, số người 30 ≠ 10, hạng C ≠ C3, "phòng ngủ" trong kho. Khối tích: hình học ≈ 12.641 m³, người thiết kế 13.046 m³ (công thức mái chữ A). Chiều cao PCCC theo QCVN 06 = 4,0 m, người thiết kế ghi 7 m. Có ghi chú lên bản vẽ (ket_qua/lien_minh_xuong01/).
+- **Bạn dạy thêm (Bài học 28–29):** khối tích mái chữ A = S x (cao mép + cao đỉnh)/2, kiểm chéo bằng hình học mặt cắt; xem hồ sơ phải xét đủ 8 nhóm (phân loại, khoảng cách PCCC, đường bãi, khoang cháy/ngăn cháy gian phòng, phương ngang/đứng, thoát nạn, thoát khói, hệ thống).
+- Cập nhật sơ đồ: `so_do_quy_trinh_node.htm` thêm bước 9 (tự học) và 10 (hỏi đáp, điều phối); `so_do_cong_viec.htm` thêm bộ phận 7. Dữ liệu cũ của bạn được giữ, chỉ thêm mục mới.
+- Đã đẩy GitHub 2 lần (commit 1ace89f, 3e47ba3). Chưa đẩy: bài học 27, sơ đồ, sơ bộ Hoàng Hùng (ket_qua không đẩy).
 ### 2026-10-24
 - Làm tab 8 Báo cáo khảo sát + báo giá, nút Bắt đầu ở bước 1, Bài học 26 (đếm lối thoát nạn theo từng tầng và từng buồng thang), hai sơ đồ html tự lưu (công việc và node). Thử tư vấn + vẽ sơ bộ hồ sơ Hoàng Hùng (thư mục `ket_qua/hoang_hung_so_bo/`, hồ sơ khách nên không đẩy GitHub). Việc theo dõi mới: mục 4 ở trên (định nghĩa buồng thang xoắn, thang rẽ quạt bằng hình và mô tả).
 

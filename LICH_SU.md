@@ -76,3 +76,7 @@ Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạ
 - Agent tự học: sổ tài liệu trong thư mục, checklist trùng/thay thế/sửa đổi, bảng checklist ở tab Tự học (`runner/src/tai_lieu.ts`, test `runner/test/tai_lieu.test.ts`).
 - Kho khái niệm tự học: thẻ khái niệm theo quy trình định nghĩa → cách xác định → áp dụng/không → yêu cầu → cách kiểm; cột Khái niệm trong checklist; file khái niệm riêng từng agent.
 - Hợp nhất văn bản: Word gạch ngang chỉ lấy phần mới; sửa đổi/thay thế gộp thành bản hiện hành trong knowledge/hoc/hop-nhat.
+- Sơ bộ PCCC Khách sạn Hoàng Hùng (18 trang KT 06/2025): ket_qua/hoang_hung_so_bo2/ (bảng thông tin, 3 hình khoanh, hệ quả).
+- Cập nhật sơ đồ 26/10: node (bước 9 tự học, 10 hỏi đáp/điều phối, ghép vào dữ liệu đã lưu), công việc (bộ phận 7), kiến trúc + quy trình chi tiết (mục lớp tự học); ghi chú ngày trong NOTE_CUA_TOI.md.
+- Xem thử hồ sơ nhà kho Liên Minh Xưởng 01 (ket_qua/lien_minh_xuong01): nhóm F5.2, thoát nạn/bãi xe tính lại, 7 chỗ lệch số liệu, chiều cao PCCC 4,0 m (người thiết kế ghi 7 m), khoảng cách PCCC, thoát khói, ngăn cháy; Bài học 27–29.
+- Cập nhật sơ đồ cuối ngày 26/10 và đẩy toàn bộ lên GitHub.
