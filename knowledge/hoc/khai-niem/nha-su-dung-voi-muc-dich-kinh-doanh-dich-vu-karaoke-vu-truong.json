@@ -1,0 +1,148 @@
+{
+ "slug": "nha-su-dung-voi-muc-dich-kinh-doanh-dich-vu-karaoke-vu-truong",
+ "ten": "Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường",
+ "dong_nghia": [
+  "karaoke",
+  "vũ trường",
+  "cơ sở kinh doanh dịch vụ karaoke, vũ trường",
+  "nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường",
+  "Karaoke"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Nhà hỗn hợp (trang bị hệ thống chữa cháy tự động)",
+  "Hệ thống họng nước chữa cháy trong nhà",
+  "Nhà hỗn hợp",
+  "Tầng hầm",
+  "Họng nước chữa cháy trong nhà",
+  "Hệ thống chữa cháy",
+  "Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy",
+  "Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà",
+  "Chiều cao PCCC"
+ ],
+ "ngay": "2026-10-26T04:35:20.067Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường.",
+   "dieu": "Bảng A.1, mục 13",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Xét vị trí bố trí: tầng hầm, tầng bán hầm; các tầng trên mặt đất một tầng, hai tầng; từ ba tầng trở lên.",
+   "dieu": "Bảng A.1, mục 13",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Xác định theo mục đích sử dụng: nhà dùng để kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường.",
+   "dieu": "Bảng B.1, mục 1.9",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Được liệt kê trong nhóm nhà công cộng và công trình có công năng tương tự (ghi chú (2) Bảng H.5).",
+   "dieu": "Bảng H.5, ghi chú (2)",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Báo cháy tự động: không phụ thuộc vào diện tích ở mọi vị trí bố trí.",
+   "dieu": "Bảng A.1, mục 13.1–13.2.2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Chữa cháy tự động: không phụ thuộc diện tích khi bố trí tại tầng hầm, tầng bán hầm; không phụ thuộc diện tích khi bố trí trên mặt đất từ ba tầng trở lên; khi bố trí trên mặt đất một tầng, hai tầng thì từ tổng diện tích sàn 500 m² trở lên.",
+   "dieu": "Bảng A.1, mục 13.1, 13.2.1, 13.2.2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Trong nhà hỗn hợp: nếu phần karaoke, vũ trường có quy mô thuộc diện chữa cháy tự động hoặc được bố trí từ tầng 3 trở lên thì phải trang bị chữa cháy tự động cho toàn bộ nhà.",
+   "dieu": "Bảng A.1, chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Trang bị họng nước chữa cháy trong nhà khi bố trí tại tầng hầm, tầng bán hầm: không phụ thuộc diện tích.",
+   "dieu": "Bảng B.1, mục 1.9.1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Bố trí tại các tầng trên mặt đất: một tầng, hai tầng thì trang bị khi tổng diện tích sàn từ 300 m² trở lên; từ ba tầng trở lên thì không phụ thuộc diện tích.",
+   "dieu": "Bảng B.1, mục 1.9.2.1, 1.9.2.2",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Nhà hỗn hợp có phần công năng karaoke, vũ trường từ tầng 3 trở lên thì phải trang bị họng nước chữa cháy trong nhà cho toàn bộ nhà.",
+   "dieu": "Bảng B.1, chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Xác định số tia phun và lưu lượng họng nước chữa cháy trong nhà theo mục 4 Bảng H.5 (ký túc xá và nhà công cộng): ≤ 10 tầng và khối tích ≤ 25 000 m³: 1 tia × 2,5 L/s; ≤ 10 tầng và > 25 000 m³: 2 tia; > 10 tầng và ≤ 25 000 m³: 2 tia; > 10 tầng và > 25 000 m³: 3 tia (mỗi tia 2,5 L/s).",
+   "dieu": "Bảng H.5 mục 4",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Mốc tham chiếu đã duyệt và nghiệm thu: 1 tầng, diện tích 925,12m², gồm 16 phòng karaoke, 01 phòng bếp, 01 phòng trực điều khiển PCCC, 02 phòng kỹ thuật; khối tích 3.931,76m³.",
+   "dieu": "Quy mô công trình",
+   "nguon": "3901f5c9810d"
+  },
+  {
+   "y": "Cấu hình PCCC được nghiệm thu: hệ thống báo cháy tự động; chữa cháy tự động sprinkler; họng nước chữa cháy trong nhà; cấp nước chữa cháy ngoài nhà; bể nước PCCC 45m³; trạm bơm PCCC 16m²; loa thông báo và hướng dẫn thoát nạn; đèn chiếu sáng sự cố và đèn chỉ dẫn thoát nạn.",
+   "dieu": "Nội dung được nghiệm thu về PCCC",
+   "nguon": "3901f5c9810d"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Máy bơm của hệ thống họng nước chữa cháy trong nhà phải điều khiển bằng tay tại phòng bơm và điều khiển tự động.",
+   "dieu": "2.4.2, chú thích",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Nhà ở, nhà công cộng, nhà hành chính – phụ trợ của công trình công nghiệp phải lắp hệ thống họng nước chữa cháy với lưu lượng tối thiểu theo Bảng H.5.",
+   "dieu": "H.2.1",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng công năng từng tầng để xác định tầng đặt karaoke, vũ trường và diện tích sàn, rồi đối chiếu mục 13 và chú thích (1). Suy từ Bảng A.1.",
+   "dieu": "Bảng A.1, mục 13; chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Xem bản vẽ mặt bằng vị trí tầng bố trí karaoke/vũ trường (hầm, bán hầm, trên mặt đất), số tầng và tổng diện tích sàn của phần karaoke; với nhà hỗn hợp xem có phần karaoke từ tầng 3 trở lên không. Suy từ Bảng B.1.",
+   "dieu": "suy từ Bảng B.1 mục 1.9, chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Xác định số tầng và khối tích nhà, tra mục 4 Bảng H.5 (suy từ H.2.1).",
+   "dieu": "H.2.1",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Karaoke, vũ trường là công năng bị kéo chữa cháy tự động ra toàn nhà trong nhà hỗn hợp, khác các công năng khác chỉ phải trang bị cho phần nhà đó.",
+   "dieu": "Bảng A.1, chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Nhà hỗn hợp có karaoke từ tầng 3 trở lên phải trang bị cho toàn bộ nhà, khác quy tắc chung của nhà hỗn hợp (chỉ trang bị cho phần công năng đạt quy mô).",
+   "dieu": "Bảng B.1, chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Không nhầm với mục 3 Bảng H.5 (phòng câu lạc bộ có sân khấu, nhà hát, rạp chiếu phim, phòng có thiết bị nghe nhìn: 2 tia, 2,5 L/s nếu ≤ 300 chỗ, 5,0 L/s nếu > 300 chỗ).",
+   "dieu": "Bảng H.5 mục 3",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ]
+}

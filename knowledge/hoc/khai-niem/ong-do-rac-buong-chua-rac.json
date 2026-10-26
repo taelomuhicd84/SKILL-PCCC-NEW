@@ -1,0 +1,62 @@
+{
+ "slug": "ong-do-rac-buong-chua-rac",
+ "ten": "Ống đổ rác, buồng chứa rác",
+ "dong_nghia": [
+  "cửa thu rác"
+ ],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Buồng thang bộ",
+  "Khoang đệm ngăn cháy"
+ ],
+ "ngay": "2026-10-26T04:00:17.299Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Thiết kế, lắp đặt phù hợp tiêu chuẩn, yêu cầu kỹ thuật riêng cho bộ phận này và các yêu cầu cụ thể của 4.24",
+   "dieu": "4.24",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không đặt ống đổ rác và buồng chứa rác bên trong buồng thang bộ, sảnh đợi hoặc khoang đệm được bao che ngăn cháy dùng cho thoát nạn",
+   "dieu": "4.24",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Cách ly với phần khác của nhà bằng bộ phận ngăn cháy; cửa thu rác ở các tầng có cửa ngăn cháy tự động đóng kín",
+   "dieu": "4.24",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Ống đổ rác làm bằng vật liệu không cháy",
+   "dieu": "4.24",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Buồng có ống đổ rác hoặc chứa rác có lối vào trực tiếp qua khoảng thông thoáng bên ngoài nhà hoặc qua khoang đệm ngăn cháy được thông gió thường xuyên",
+   "dieu": "4.24",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Cửa vào buồng chứa rác không đặt liền kề lối thoát nạn hoặc cửa ra bên ngoài của nhà, hoặc gần cửa sổ của nhà ở",
+   "dieu": "4.24",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng: vị trí buồng rác so với buồng thang, sảnh, lối thoát nạn; vật liệu ống; cửa thu rác tự đóng",
+   "dieu": "suy từ 4.24",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "hay_nham": []
+}

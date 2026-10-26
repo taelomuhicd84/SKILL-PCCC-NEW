@@ -1,0 +1,73 @@
+{
+ "slug": "khoang-cach-den-loi-thoat-hiem-trong-gara-o-to",
+ "ten": "Khoảng cách đến lối thoát hiểm trong gara ô-tô",
+ "dong_nghia": [
+  "Khoảng cách từ vị trí đỗ xe xa nhất đến lối thoát hiểm gần nhất"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Buồng thang bộ của gara ô-tô",
+  "Đường dốc cách ly"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Chiều dài đường thoát hiểm đo từ trục của các đường đi bộ và đường xe chạy, có kể đến sự phân bố xe.",
+   "dieu": "Bảng 3, chú thích",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Từ mỗi tầng của một khoang cháy gara (trừ gara cơ khí) phải có không ít hơn hai lối thoát nạn phân tán dẫn trực tiếp ra ngoài hoặc vào buồng thang bộ.",
+   "dieu": "2.2.1.14",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Gara cơ khí không áp dụng yêu cầu hai lối thoát nạn.",
+   "dieu": "2.2.1.14",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Gara ngầm: 40 m giữa các lối thoát hiểm, 20 m tại phần cụt của gian phòng.",
+   "dieu": "Bảng 3",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara trên mặt đất: 60 m giữa các lối thoát hiểm, 25 m tại phần cụt của gian phòng.",
+   "dieu": "Bảng 3",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Cầu thang bộ làm đường thoát hiểm rộng không nhỏ hơn 1 m.",
+   "dieu": "2.2.1.14",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Lối thoát hiểm từ các gian phòng phụ trợ nêu ở 2.2.1.3 được đi qua các gian phòng lưu giữ ô-tô; kho hành lý của khách chỉ bố trí trên tầng một (tầng đến).",
+   "dieu": "2.2.1.14",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo trên mặt bằng từ vị trí đỗ xe xa nhất theo trục đường đi bộ/xe chạy tới lối thoát hiểm gần nhất; so 40/20 m (ngầm) hoặc 60/25 m (trên mặt đất). Suy từ Bảng 3.",
+   "dieu": "Bảng 3",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Hai trị số trong Bảng 3: 'giữa các lối thoát hiểm' khác 'tại phần cụt của gian phòng'.",
+   "dieu": "Bảng 3",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "slug": "nha-xuong-cho-thue-va-cac-cong-trinh-phu-tro",
+ "ten": "Nhà xưởng cho thuê và các công trình phụ trợ",
+ "dong_nghia": [
+  "hạng mục công trình xây dựng sẵn để cho thuê"
+ ],
+ "anh_huong": [
+  "m05-cong-nang",
+  "doc-ho-so",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Bố trí công năng",
+  "Giấy chứng nhận thẩm duyệt thiết kế về PCCC"
+ ],
+ "ngay": "2026-10-26T04:43:43.913Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Các hạng mục công trình thiết kế với mục đích xây dựng sẵn để cho thuê: khi đưa vào sử dụng có bố trí công năng cụ thể thì phải thực hiện thẩm duyệt thiết kế điều chỉnh, nghiệm thu về PCCC theo quy định; công năng bố trí phải phù hợp với nội dung thiết kế PCCC đã được thẩm duyệt.",
+   "dieu": "Ghi chú, tài liệu tập huấn Nhà công nghiệp",
+   "nguon": "kb:tk-bố-trí-công-năng",
+   "can_xem": true
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu công năng thực tế bố trí với công năng trong hồ sơ đã thẩm duyệt. Suy từ Ghi chú nêu trên.",
+   "dieu": "",
+   "nguon": "kb:tk-bố-trí-công-năng"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,73 @@
+{
+ "slug": "loi-ra-ngoai-truc-tiep",
+ "ten": "Lối ra ngoài trực tiếp",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "chung"
+ ],
+ "lien_quan": [
+  "Buồng thang bộ",
+  "Vùng an toàn",
+  "Lối ra thoát nạn",
+  "Hành lang bên"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [
+  {
+   "y": "Cửa hoặc lối đi qua các vùng an toàn trong nhà (cùng tầng với lối ra ngoài trực tiếp) để dẫn ra ngoài nhà (ra khỏi tường bao che) đến khu vực thoáng mà con người có thể di tản an toàn.",
+   "dieu": "3.19",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Được coi là lối đi qua vùng an toàn trong nhà: (a) khu vực không có tải trọng cháy hoặc nguy cơ cháy thấp, ngăn cách hành lang và phòng tiếp giáp bằng vách ngăn cháy loại 1 có cửa tự đóng, khe cửa chèn kín hoặc giải pháp tương đương; (b) lối đi hở thông khí với ngoài trời (hành lang bên, ram dốc), ngăn cách bằng bộ phận không cháy EI 30 với nhà bậc I, hoặc không cháy/cháy yếu (Ch1) EI 15 với nhà bậc II, III, IV; (c) khu vực khác được coi là an toàn.",
+   "dieu": "3.19 chú thích (Sửa đổi 01:2023 QCVN 06, 1.4.33a)",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Được coi là lối đi qua vùng an toàn: đi qua khu vực không có tải trọng cháy hoặc nguy cơ cháy thấp (quầy lễ tân, bàn ghế gỗ, kim loại, quạt cây... số lượng hạn chế), ngăn cách với hành lang và gian phòng tiếp giáp bằng vách ngăn cháy loại 1 có cửa đi tự đóng, khe cửa chèn kín, hoặc giải pháp tương đương (đoạn b của 4.35, màn ngăn cháy).",
+   "dieu": "Điều 1.4.33a, chú thích",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Đi qua lối đi hở, thông khí với ngoài trời (hành lang bên, ram dốc), ngăn cách với gian phòng liền kề bằng bộ phận ngăn cháy vật liệu không cháy, giới hạn chịu lửa ít nhất EI 30 với nhà bậc chịu lửa I; vật liệu không cháy hoặc cháy yếu (Ch1) giới hạn chịu lửa ít nhất EI 15 với nhà bậc chịu lửa II, III, IV.",
+   "dieu": "Điều 1.4.33a, chú thích",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Đi qua các khu vực khác được coi là an toàn đối với con người.",
+   "dieu": "Điều 1.4.33a, chú thích",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Buồng thang bộ dùng để thoát nạn của nhà từ 4 tầng trở lên hoặc chiều cao PCCC > 15 m phải có lối ra ngoài trực tiếp.",
+   "dieu": "9.3.3.3.3",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Theo dõi đường từ chân buồng thang ra ngoài trên mặt bằng tầng một/trệt, xem cấu tạo ngăn cách. Suy từ 3.19.",
+   "dieu": "3.19",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác 'lối ra khẩn cấp' (9.1.9) và 'lối ra thoát nạn' (3.20).",
+   "dieu": "3.19; 3.20; 9.1.9",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Khác 'Lối ra thoát nạn' (Điều 1.4.33): lối hoặc cửa dẫn vào đường thoát nạn, dẫn ra ngoài trực tiếp hoặc dẫn vào vùng an toàn, tầng lánh nạn, gian lánh nạn.",
+   "dieu": "Điều 1.4.33",
+   "nguon": "ee1434b8c963"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "slug": "khu-vuc-co-quy-trinh-uot",
+ "ten": "Khu vực có quy trình ướt",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy tự động",
+  "Hệ thống chữa cháy tự động"
+ ],
+ "ngay": "2026-10-26T04:07:26.921Z",
+ "dinh_nghia": [
+  {
+   "y": "Khu vực có độ ẩm không khí trong nhà trên 75 % ở nhiệt độ 12 °C đến 24 °C hoặc trên 60 % ở nhiệt độ trên 24 °C, tạo ra bởi hơi nước lưu thông do chính hoạt động của gian phòng (ví dụ phun hơi nước, phun tia nước dạng sương).",
+   "dieu": "1.4.27",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Độ ẩm > 75 % ở 12–24 °C, hoặc > 60 % ở > 24 °C, do hoạt động của gian phòng.",
+   "dieu": "1.4.27",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Được loại khỏi yêu cầu trang bị hệ thống chữa cháy tự động và/hoặc báo cháy tự động của Phụ lục A.",
+   "dieu": "1.5.11",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

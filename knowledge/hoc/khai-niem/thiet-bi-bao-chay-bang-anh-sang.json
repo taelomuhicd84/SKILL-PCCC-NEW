@@ -1,0 +1,69 @@
+{
+ "slug": "thiet-bi-bao-chay-bang-anh-sang",
+ "ten": "Thiết bị báo cháy bằng ánh sáng",
+ "dong_nghia": [
+  "đèn báo cháy nhấp nháy"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Thiết bị báo cháy bằng âm thanh"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Dùng ở nơi có người khiếm thính, người bị căng thẳng bởi tiếng ồn hoặc dùng thiết bị bảo vệ thính giác, nơi có độ ồn > 95 dB",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Lắp trên hành lang, lối ra thoát nạn; nơi người khiếm thính thường ở; nơi tiếng ồn xung quanh vượt 95 dBA; khu vực hạn chế âm thanh (ví dụ phòng mổ).",
+   "dieu": "5.11.3.1.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Lắp ở độ cao tối thiểu 2 m và nhìn thấy rõ trong khu vực bảo vệ",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Tần số chớp sáng đồng bộ",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Lắp trên trần hoặc tường, đủ số lượng để nhìn thấy ở mọi vị trí; trên tường cao từ chân tường tối thiểu 2 m, khoảng cách giữa các thiết bị không quá 45 m.",
+   "dieu": "5.11.3.1.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Loại chớp nháy, đồng bộ; sự cố ở khu vực này không ảnh hưởng khu vực khác.",
+   "dieu": "5.11.3.1.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Chỉ thị bên ngoài nhà: gắn tường cao tối đa 2,4 m từ mặt đường đi lại; chữ \"FIRE\" cao không nhỏ hơn 0,025 m.",
+   "dieu": "5.11.3.2.1, 5.11.3.2.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem cao độ lắp và vị trí đèn trên mặt bằng/chi tiết (suy từ yêu cầu nguồn)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Xem mặt bằng hành lang, khu vực ồn/ngủ của người khiếm thính: có đèn nháy, cao ≥ 2 m, cách nhau ≤ 45 m; suy từ 5.11.3.",
+   "dieu": "5.11.3",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": []
+}

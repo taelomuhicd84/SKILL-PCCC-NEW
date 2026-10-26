@@ -1,0 +1,65 @@
+{
+ "slug": "gian-phong-kho-va-gian-phong-san-xuat-trang-bi-bao-chay-chua-chay-tu-dong",
+ "ten": "Gian phòng kho và gian phòng sản xuất (trang bị báo cháy, chữa cháy tự động)",
+ "dong_nghia": [
+  "gian phòng kho",
+  "gian phòng sản xuất"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hạng nguy hiểm cháy nổ",
+  "Phụ lục A (trang bị báo cháy tự động, chữa cháy tự động)"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Xét hạng nguy hiểm cháy và cháy nổ của gian phòng (A, B, C1, C2, C3), vị trí (tầng hầm, tầng bán hầm hay tầng trên mặt đất) và diện tích gian phòng.",
+   "dieu": "Bảng A.3, mục 1, 2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Kho hạng A, B: báo cháy không phụ thuộc diện tích; chữa cháy tự động khi diện tích từ 300 m² trở lên. Kho C1: tầng hầm, bán hầm thì báo cháy không phụ thuộc diện tích, chữa cháy từ 100 m²; trên mặt đất thì báo cháy và chữa cháy từ 300 m². Kho C2, C3: tầng hầm, bán hầm thì từ 300 m²; trên mặt đất thì từ 1 000 m² (cả báo cháy và chữa cháy).",
+   "dieu": "Bảng A.3, mục 1.1, 1.4, 1.5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Phòng sản xuất hạng A, B: báo cháy không phụ thuộc diện tích, chữa cháy từ 300 m². Phòng sản xuất C1: tầng hầm, bán hầm thì báo cháy và chữa cháy không phụ thuộc diện tích; trên mặt đất thì báo cháy không phụ thuộc diện tích, chữa cháy từ 300 m².",
+   "dieu": "Bảng A.3, mục 2.1, 2.2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Phòng sản xuất C2, C3 ở tầng hầm, bán hầm: không có lối ra ngoài trực tiếp thì báo cháy không phụ thuộc diện tích, chữa cháy từ 300 m²; có lối ra ngoài trực tiếp thì chữa cháy từ 700 m², báo cháy không bắt buộc. Trên mặt đất: báo cháy từ 300 m², chữa cháy từ 1 000 m².",
+   "dieu": "Bảng A.3, mục 2.3",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Phòng sản xuất chất lỏng dễ cháy (dung môi, sơn, keo dán, dung dịch ngâm tẩm, cao su tổng hợp), huyền phù bột nhôm, keo cao su; phòng sơn; phòng tổng hợp cao su nhân tạo; phòng máy nén có tuabin khí; phòng gia nhiệt dầu mỏ và dầu diesel: báo cháy và chữa cháy không phụ thuộc diện tích.",
+   "dieu": "Bảng A.3, mục 2.4",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Lấy hạng nguy hiểm cháy nổ, tầng và diện tích từng gian phòng trong bảng thống kê của hồ sơ để tra Bảng A.3 mục 1, 2. Suy từ Bảng A.3.",
+   "dieu": "Bảng A.3, mục 1, 2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Các gian phòng kho, sản xuất và cả phòng thí nghiệm, nhà xưởng có diện tích trên 50 m² trong các nhà thuộc nhóm F1, F2, F3 và F4 thì áp dụng quy định của Quy chuẩn như đối với gian phòng F5.",
+   "dieu": "Bảng A.3, CHÚ THÍCH",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

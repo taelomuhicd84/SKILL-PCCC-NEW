@@ -1,0 +1,76 @@
+{
+ "slug": "he-thong-bao-chay-tu-dong",
+ "ten": "Hệ thống báo cháy tự động",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "chung",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy thường",
+  "Hệ thống báo cháy địa chỉ",
+  "Thiết bị báo cháy độc lập",
+  "Hệ thống chữa cháy tự động",
+  "TCVN 7568-14"
+ ],
+ "ngay": "2026-10-26T04:07:26.921Z",
+ "dinh_nghia": [
+  {
+   "y": "Hệ thống tự động phát hiện và thông báo địa điểm cháy; gồm trung tâm báo cháy, đầu báo cháy, hộp nút ấn báo cháy, chuông đèn báo cháy, các bộ phận liên kết, nguồn điện; tùy yêu cầu có module, thiết bị truyền tín hiệu, giám sát. Gồm hệ thống báo cháy thường và hệ thống báo cháy địa chỉ.",
+   "dieu": "1.4.8",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà, công trình, hạng mục/khu vực, gian phòng có quy mô quy định tại Phụ lục A phải trang bị cho toàn bộ nhà, công trình, gian phòng (trừ các khu vực loại trừ nêu ở 1.5.11 và 1.5.12). Xác định theo thứ tự: toàn nhà (Bảng A.1), hạng mục/khu vực (Bảng A.2), gian phòng (Bảng A.3), thiết bị (Bảng A.4).",
+   "dieu": "1.5.9; 1.5.11",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không bắt buộc ở: khu vực có quy trình ướt, hồ bơi, phòng tắm, phòng rửa, vệ sinh; gian phòng hạng E; gian phòng hạng C4 (trừ gian phòng trong nhà F1.1, F1.2, F2.1, F4.1, F4.2); hành lang bên; cầu thang bộ, buồng thang bộ; khoang đệm ngăn cháy; khu vực không có nguy hiểm về cháy.",
+   "dieu": "1.5.11",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Gian phòng cao không quá 10 m trong nhà nhóm F5 (không tính gian phòng F5 nằm trong nhà thuộc nhóm công năng khác) đã có hệ thống chữa cháy tự động liên động với trung tâm báo cháy thì được không trang bị đầu báo cháy tự động; các thiết bị khác của hệ thống vẫn phải có và phải điều khiển được thiết bị ngoại vi.",
+   "dieu": "1.5.6",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nhà bậc chịu lửa I, II, III không phân chia, hoặc phân chia bằng tường/sàn ngăn cháy có giới hạn chịu lửa thấp hơn REI 45, vách thấp hơn EI 45; nhà bậc IV, V phân chia bằng tường/sàn thấp hơn REI 15, vách thấp hơn EI 15: trang bị theo gian phòng ở Bảng A.3.",
+   "dieu": "1.5.10",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Bảo dưỡng ít nhất một năm một lần.",
+   "dieu": "1.5.13",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Công tắc dòng chảy, công tắc áp suất hoặc thiết bị tương tự của hệ thống chữa cháy tự động dùng làm tín hiệu báo cháy và được trung tâm báo cháy giám sát: mỗi thiết bị coi là một vùng phát hiện cháy riêng.",
+   "dieu": "1.5.6 (chú thích)",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu quy mô, công năng nhà với Bảng A.1–A.4 (Phụ lục A); kiểm các khu vực loại trừ; suy từ 1.5.9, 1.5.11.",
+   "dieu": "suy từ 1.5.9",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Hệ thống báo cháy thường (báo đến một khu vực, khu vực có thể có nhiều đầu báo) khác hệ thống báo cháy địa chỉ (báo đến từng thiết bị địa chỉ); khác thiết bị báo cháy độc lập (chỉ cảnh báo âm thanh, phải liên kết với nhau trong cùng nhà).",
+   "dieu": "1.4.9; 1.4.10; 1.4.11",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ]
+}

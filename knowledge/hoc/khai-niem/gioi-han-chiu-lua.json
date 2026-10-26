@@ -1,0 +1,59 @@
+{
+ "slug": "gioi-han-chiu-lua",
+ "ten": "Giới hạn chịu lửa",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m02-bac-chiu-lua",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Bậc chịu lửa",
+  "Cấp nguy hiểm cháy kết cấu",
+  "Khoang cháy"
+ ],
+ "ngay": "2026-10-26T04:04:05.152Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Không yêu cầu giới hạn chịu lửa của mái hiên, mái che phần phụ, mái che hành lang, sảnh ngoài nhà theo H.2.12.1 và H.2.12.4 nếu mái không khai thác sử dụng hoặc không có nguy cơ cháy lan từ khu vực dưới mái lên khối nhà chính",
+   "dieu": "H.2.12.4",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Kết cấu chịu lực mái các phần phụ xây liền kề nhà công cộng bậc chịu lửa I đến III: không thấp hơn R 45 và cấp K0",
+   "dieu": "H.2.12.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà bậc chịu lửa IV: nhà 2 tầng bộ phận chịu lực không thấp hơn R 30 (nhà ở); kết cấu chịu lực không thấp hơn R 45 (nhà công cộng)",
+   "dieu": "Bảng H.1 chú thích 2; Bảng H.2 chú thích 3",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Kết cấu chịu lực mái trên sân khấu và các gian phòng của nhà hát, câu lạc bộ, công trình thể thao bậc chịu lửa I đến III: không thấp hơn R 45",
+   "dieu": "H.2.6.4",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Khán đài nhóm F2.3: có hàng ghế trên 5 đến 20 → vật liệu không cháy, R 15; trên 20 hàng → R 45, K0; khán đài tạm (di động) → không thấp hơn R 15; công trình thể thao kín, khán đài cố định: trên 600 người R 60 K0; 300–600 người R 45 K0; dưới 300 người R 15 và K0 hoặc K1",
+   "dieu": "H.2.7.4, H.2.7.5, H.2.7.6",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Màn ngăn cháy thay tường ngăn cháy ở nhà ga hành khách có giới hạn chịu lửa không nhỏ hơn E 60",
+   "dieu": "H.2.8.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà sản xuất/kho áp dụng NFPA 5000 (bậc I, S0 không đáp ứng): giới hạn chịu lửa kết cấu không thấp hơn quy định Bảng 4 đối với nhà bậc chịu lửa I",
+   "dieu": "Bảng H.9 chú thích 2); Bảng H.11 chú thích 2",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

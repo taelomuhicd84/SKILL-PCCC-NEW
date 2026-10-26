@@ -1,0 +1,34 @@
+{
+ "slug": "binh-chua-chay-bang-nuoc",
+ "ten": "Bình chữa cháy bằng nước",
+ "dong_nghia": [
+  "water-type extinguisher"
+ ],
+ "anh_huong": [
+  "m10-binh-chua-chay"
+ ],
+ "lien_quan": [
+  "Xe đẩy chữa cháy",
+  "Diện tích bảo vệ lớn nhất của 1 bình chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:34:19.101Z",
+ "dinh_nghia": [
+  {
+   "y": "Bình chữa cháy chứa chất chữa cháy gốc nước như: nước, bọt (AFFF hoặc FFFP) và chất chống đông.",
+   "dieu": "TCVN 7435-1:2004, 3.24",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hai bình chữa cháy kiểu nước công suất 2-A bố trí liền kề có thể dùng để thực hiện yêu cầu đối với bình công suất 3-A hoặc 4-A (đám cháy loại A).",
+   "dieu": "Bảng 1, chú thích *",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

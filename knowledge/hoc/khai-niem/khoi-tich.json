@@ -1,0 +1,104 @@
+{
+ "slug": "khoi-tich",
+ "ten": "Khối tích",
+ "dong_nghia": [
+  "Khối tích của nhà"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "m12-chua-chay",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Số tầng nhà",
+  "Chiều cao nhà",
+  "Khoang cháy",
+  "Phân khoang cháy",
+  "Lưu lượng nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T04:52:13.508Z",
+ "dinh_nghia": [
+  {
+   "y": "Khối tích của một không gian trong phạm vi một nhà hoặc khoang cháy. Không bao gồm tường của thang máy được bảo vệ, buồng thang bộ thoát nạn và các không gian khác (ví dụ khu vệ sinh, buồng để đồ) được bao che bằng tường có giới hạn chịu lửa không thấp hơn 60 phút, đồng thời lối đi qua tường được bảo vệ bằng cửa ngăn cháy loại 2 có cơ cấu tự đóng.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Khối tích của nhà được tính dựa trên các kích thước (tham khảo QCVN 06:2022/BXD và TCVN 9255:2012): kích thước mặt bằng lấy theo khoảng cách giữa các bề mặt hoàn thiện phía trong của tường bao, hoặc ở tất cả các mặt không có tường bao thì tính đến một mặt phẳng thẳng đứng kéo đến cạnh ngoài trên cùng của sàn (cách tính chiều cao kèm theo bị cắt trong đoạn trích).",
+   "dieu": "Tài liệu sửa đổi 1:2023, mục Khối tích, diện tích",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Kích thước mặt bằng lấy theo khoảng cách giữa các bề mặt hoàn thiện phía trong của tường bao; nơi không có tường bao thì tính đến mặt phẳng thẳng đứng kéo đến cạnh ngoài trên cùng của sàn.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Chiều cao lấy từ bề mặt trên của sàn phía dưới đến bề mặt dưới của sàn phía trên của không gian.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà hoặc khoang cháy kéo lên đến mái: lấy đến bề mặt dưới của mái hoặc bề mặt dưới của trần tầng cao nhất trong khoang cháy, gồm cả không gian bị chiếm bởi tường, giếng đứng, kênh dẫn không được bảo vệ hoặc kết cấu nằm trong không gian đang xét.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khối tích là một tiêu chí quy mô: nhà ở riêng lẻ có khối tích từ 5 000 m3 trở lên thuộc phạm vi áp dụng QCVN 06.",
+   "dieu": "1.1.2",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Khối tích nhà là căn cứ tra lưu lượng nước chữa cháy ngoài nhà (Bảng 8, 9, 10) và số tia phun, lưu lượng chữa cháy trong nhà (Bảng 11, 12).",
+   "dieu": "Bảng 8–12",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nhà không được ngăn chia bằng tường ngăn cháy thì tính lưu lượng nước chữa cháy trong nhà theo khối tích chung.",
+   "dieu": "5.2.5",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà ngăn chia bằng tường ngăn cháy loại 1 hoặc 2 thì tính theo khối tích của phần nhà có yêu cầu lưu lượng cao hơn.",
+   "dieu": "5.2.5",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà ngăn cách bằng vách ngăn cháy: lưu lượng chữa cháy ngoài nhà xác định theo khối tích chung của nhà và theo hạng nguy hiểm cháy, cháy nổ cao nhất.",
+   "dieu": "5.1.2.5",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà bậc chịu lửa I, II liên kết bằng lối đi vật liệu không cháy có lắp cửa ngăn cháy thì tính khối tích riêng từng nhà; không có cửa ngăn cháy thì tính theo khối tích tổng và theo hạng nguy hiểm cháy cao hơn.",
+   "dieu": "5.2.5",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo kích thước mặt bằng theo bề mặt hoàn thiện phía trong tường bao trên bản vẽ mặt bằng. Suy từ mục Khối tích, diện tích.",
+   "dieu": "",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Lấy kích thước mặt bằng, chiều cao tầng trên bản vẽ, trừ các buồng thang, giếng thang máy, phòng nhỏ đáp ứng điều kiện EI 60 và cửa ngăn cháy loại 2 tự đóng. Suy từ định nghĩa.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khối tích khác khối tích nhà theo thể tích xây dựng thông thường: định nghĩa này trừ các không gian được bao che bằng tường chịu lửa ≥ 60 phút kèm cửa ngăn cháy loại 2 tự đóng.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ]
+}

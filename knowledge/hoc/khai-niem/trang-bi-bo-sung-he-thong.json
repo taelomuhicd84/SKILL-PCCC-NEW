@@ -1,0 +1,66 @@
+{
+ "slug": "trang-bi-bo-sung-he-thong",
+ "ten": "Trang bị bổ sung hệ thống",
+ "dong_nghia": [
+  "hệ thống được trang bị bổ sung"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "m07-thoat-nan",
+  "m09-chong-khoi",
+  "chung"
+ ],
+ "lien_quan": [
+  "Buồng thang bộ",
+  "Khu vực có nguy cơ phát sinh cháy cao"
+ ],
+ "ngay": "2026-10-26T04:21:19.609Z",
+ "dinh_nghia": [
+  {
+   "y": "Hệ thống nêu tại điều này không được coi là hệ thống trang bị bổ sung khi việc trang bị hệ thống đó là bắt buộc đối với nhà hoặc phần nhà theo các quy định hiện hành khác.",
+   "dieu": "9.3.3.3.3 chú thích; 9.3.3.5.2 chú thích",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà ≥ 4 tầng hoặc chiều cao PCCC > 15 m, không có hành lang bên, thoát nạn qua cầu thang bộ loại 2: không gian liên thông ngăn cách theo 9.1.7, có lối ra khẩn cấp 9.1.9 và trang bị bổ sung một trong: (a) báo cháy hoặc thiết bị báo cháy cục bộ theo TCVN 5738, ưu tiên đầu báo khói; (b) họng nước chữa cháy trong nhà hoặc họng nước đóng gói theo TCVN 13926; (c) chữa cháy tự động hoặc tự động đóng gói theo TCVN 13926 khi phần nhà dùng cho mục đích khác để ở.",
+   "dieu": "9.3.3.3.3",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Được miễn giải pháp ngăn cách 9.1.7 đối với khu vực nguy cơ cháy cao khi khu vực đó được trang bị bổ sung một trong các hệ thống tương tự.",
+   "dieu": "9.3.3.5.2 b",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Được không tính toán thoát khói hành lang dài > 15 m không có thông gió tự nhiên của nhà ≤ 5 tầng khi nhà được trang bị một trong các hệ thống đó.",
+   "dieu": "9.3.5.6 a",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Không yêu cầu ngăn cách khu vực cầu thang bộ loại 2 nối thông hơn 2 tầng khi nhà được trang bị bổ sung một trong các hệ thống ở 9.3.3.3.3.",
+   "dieu": "9.3.5.5.3",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Hệ thống mà quy định hiện hành khác đã bắt buộc thì không được tính là trang bị bổ sung.",
+   "dieu": "9.3.3.3.3 chú thích",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu hệ thống báo cháy/họng nước/chữa cháy tự động trên hồ sơ với danh mục bắt buộc theo QCVN 06, TCVN 3890 và QCVN 10:2025/BCA; hệ thống đã bắt buộc thì không được dùng làm điều kiện miễn giảm. Suy từ 9.3.3.3.3 chú thích.",
+   "dieu": "9.3.3.3.3",
+   "nguon": "6ae0fc981256",
+   "can_xem": true
+  }
+ ],
+ "hay_nham": []
+}

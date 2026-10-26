@@ -1,0 +1,54 @@
+{
+ "slug": "khu-vuc-co-nguy-co-phat-sinh-chay-cao",
+ "ten": "Khu vực có nguy cơ phát sinh cháy cao",
+ "dong_nghia": [
+  "khu vực để ô tô, mô tô, xe gắn máy, xe điện, hàng hóa dễ cháy"
+ ],
+ "anh_huong": [
+  "m05-cong-nang",
+  "m06-ngan-chay",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Tầng hầm",
+  "Trang bị bổ sung hệ thống"
+ ],
+ "ngay": "2026-10-26T04:21:19.609Z",
+ "dinh_nghia": [
+  {
+   "y": "Ví dụ: khu vực để ô tô, mô tô, xe gắn máy, xe điện, hay hàng hóa, đồ đạc bằng chất hoặc vật liệu dễ bắt cháy.",
+   "dieu": "9.2.2.2; 9.3.3.5.1",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khu vực này ở tầng một/trệt nơi có lối ra thoát nạn (cửa ra vào chính) hoặc ảnh hưởng đường thoát nạn thì cần ngăn cách với lối ra, đường thoát nạn bằng giải pháp 9.1.7.",
+   "dieu": "9.3.3.5.1",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Được không áp dụng 9.1.7 khi: tổng diện tích khu vực nguy cơ cháy cao (hoặc khu vực không dùng để ở) ≤ 10% diện tích sàn xây dựng của tầng; hoặc phần nhà đó được trang bị bổ sung báo cháy/thiết bị báo cháy cục bộ, họng nước, chữa cháy tự động.",
+   "dieu": "9.3.3.5.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Lắp thiết bị phát hiện và báo động cháy sớm, đặc biệt tại các khu vực này.",
+   "dieu": "9.3.1.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Tính diện tích khu vực nguy cơ cháy cao / diện tích sàn tầng, so với 10%. Suy từ 9.3.3.5.2 a.",
+   "dieu": "9.3.3.5.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "hay_nham": []
+}

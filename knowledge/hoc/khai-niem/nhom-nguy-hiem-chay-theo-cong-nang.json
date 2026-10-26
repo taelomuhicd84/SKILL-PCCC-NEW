@@ -1,0 +1,56 @@
+{
+ "slug": "nhom-nguy-hiem-chay-theo-cong-nang",
+ "ten": "Nhóm nguy hiểm cháy theo công năng",
+ "dong_nghia": [
+  "nhóm F"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "chung"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Chiều cao PCCC",
+  "Hạng nguy hiểm cháy nổ",
+  "Nhà hỗn hợp",
+  "Bậc chịu lửa"
+ ],
+ "ngay": "2026-10-26T04:07:26.921Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà, công trình, gian phòng dựa trên tính nguy hiểm cháy theo công năng được phân thành các nhóm F1, F2, F3, F4, F5 theo QCVN 06:/BXD.",
+   "dieu": "1.5.2",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Phân loại theo QCVN 06:/BXD. Nhà, công trình không được quy định tại Phụ lục A, B, H thì trang bị như nhà có công năng tương tự xác định theo nhóm nguy hiểm cháy theo công năng.",
+   "dieu": "1.5.2; 1.5.7",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Phụ lục H quy định bậc chịu lửa, cấp S, chiều cao PCCC, diện tích khoang cháy theo nhóm: F1.1 (nhà trẻ, mẫu giáo, mầm non, bệnh viện, nhà ngủ nội trú); F1.3 (nhà ở căn hộ); F2.1, F2.2 (cơ sở văn hóa); F2.3 (công trình thể thao); F3.1 (thương mại); F3.4 (khám đa khoa ngoại trú); F3.5 (dịch vụ); F4.1 (trường phổ thông); F4.3 (hành chính - phụ trợ của sản xuất và kho); F5.1, F5.2, F5.3 (sản xuất, kho, chăn nuôi)",
+   "dieu": "H.1–H.5",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Nhà ở và ký túc xá kiểu căn hộ tra Bảng H.1; ký túc xá và khách sạn kiểu căn hộ tính như nhà ở dạng căn hộ, không tra Bảng H.2",
+   "dieu": "H.2.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Nhóm F (theo công năng) khác hạng A–E (theo nguy hiểm cháy và cháy nổ, chỉ cho công năng sản xuất, kho F5).",
+   "dieu": "1.5.2",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ]
+}

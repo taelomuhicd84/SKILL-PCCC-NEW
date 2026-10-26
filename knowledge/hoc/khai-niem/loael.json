@@ -1,0 +1,47 @@
+{
+ "slug": "loael",
+ "ten": "LOAEL",
+ "dong_nghia": [
+  "Mức ảnh hưởng có hại thấp nhất quan sát được",
+  "lowest observed adverse effect level"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "NOAEL",
+  "Khu vực có người"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [
+  {
+   "y": "Nồng độ thấp nhất tại đó đã quan sát được sự nhiễm độc hoặc sự tác động đến sinh lý",
+   "dieu": "Định nghĩa LOAEL",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khu vực thường không có người: nồng độ lớn nhất không được vượt quá LOAEL của khí chữa cháy dùng nếu không lắp cơ cấu khóa ngắt",
+   "dieu": "Đối với các khu vực thường không có người",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "So nồng độ lớn nhất của khí với LOAEL; kiểm có khóa ngắt hay không",
+   "dieu": "suy từ Đối với các khu vực thường không có người",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác NOAEL (xem NOAEL)",
+   "dieu": "Định nghĩa NOAEL, LOAEL",
+   "nguon": "2db33f33c221"
+  }
+ ]
+}

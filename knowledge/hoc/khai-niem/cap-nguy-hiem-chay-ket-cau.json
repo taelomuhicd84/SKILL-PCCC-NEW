@@ -1,0 +1,87 @@
+{
+ "slug": "cap-nguy-hiem-chay-ket-cau",
+ "ten": "Cấp nguy hiểm cháy kết cấu",
+ "dong_nghia": [
+  "cấp S",
+  "S0, S1, S2, S3",
+  "Cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua"
+ ],
+ "lien_quan": [
+  "Bậc chịu lửa",
+  "Khoang cháy",
+  "Chiều cao PCCC",
+  "Nhóm nhà F"
+ ],
+ "ngay": "2026-10-26T04:51:12.365Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà, công trình và khoang cháy được phân thành 4 cấp nguy hiểm cháy kết cấu S0, S1, S2 và S3 theo tính nguy hiểm cháy của cấu kiện xây dựng.",
+   "dieu": "2.5.4.1",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Được thiết lập phụ thuộc vào số tầng, nhóm nguy hiểm cháy theo công năng, diện tích khoang cháy và tính nguy hiểm cháy của các quá trình công nghệ trong nhà, công trình, khoang cháy.",
+   "dieu": "2.5.4.2",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cùng bậc chịu lửa, cấp nguy hiểm cháy kết cấu (S0, S1, S2, S3) quyết định chiều cao PCCC lớn nhất và diện tích tầng trong khoang cháy tại các bảng H.1–H.11",
+   "dieu": "H.1–H.5",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Trường hợp không xác định được bậc chịu lửa và cấp nguy hiểm cháy kết cấu: lấy bậc chịu lửa V và cấp S3 để xác định các yêu cầu an toàn cháy khác (khoảng cách PCCC, yêu cầu khác)",
+   "dieu": "H.6.2",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Cấp nguy hiểm cháy của cấu kiện xây dựng phải phù hợp với cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy.",
+   "dieu": "2.5.4.3",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phần phụ (mái hiên, mái che sát chân nhà, sân trời, hành lang ngoài) được lấy bậc chịu lửa thấp hơn 1 bậc so với nhà chính, nhưng cấp nguy hiểm cháy kết cấu không thấp hơn nhà chính",
+   "dieu": "H.2.12.4",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Tường (mặt trong), vách ngăn, sàn của nhà trẻ, mẫu giáo, mầm non (F1.1) và câu lạc bộ (F2.1) trong nhà cấp S1 đến S3, kể cả kết cấu gỗ, phải có cấp nguy hiểm cháy K0",
+   "dieu": "H.2.4.2",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Cấp nguy hiểm cháy của cấu kiện xây dựng phải phù hợp với cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-tiết-diện-am-v"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Cấp nguy hiểm cháy kết cấu của nhà (S0–S3) khác cấp nguy hiểm cháy của cấu kiện (K0, K1)",
+   "dieu": "H.2.4.2",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Cấp nguy hiểm cháy kết cấu (S0–S3, của cả nhà) khác cấp nguy hiểm cháy của cấu kiện xây dựng (K0…).",
+   "dieu": "2.5.4.3",
+   "nguon": "kb:tk-hệ-số-t"
+  },
+  {
+   "y": "Cấp nguy hiểm cháy kết cấu (S0–S3, của nhà/khoang cháy) khác cấp nguy hiểm cháy của cấu kiện xây dựng (ví dụ K0)",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-tiết-diện-am-v"
+  }
+ ]
+}

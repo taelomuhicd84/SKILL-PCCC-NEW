@@ -1,0 +1,41 @@
+{
+ "slug": "hong-tiep-nuoc-vao-he-thong",
+ "ten": "Họng tiếp nước vào hệ thống",
+ "dong_nghia": [
+  "họng chờ"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Họng nước chữa cháy trong nhà",
+  "Trụ kết nối hệ thống chữa cháy trong nhà"
+ ],
+ "ngay": "2026-10-26T04:26:33.933Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hệ thống họng nước chữa cháy trong nhà và công trình phải có họng chờ ở ngoài nhà, đầu nối kích cỡ phù hợp để kết nối phương tiện chữa cháy di động",
+   "dieu": "Họng tiếp nước vào hệ thống",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nhà cao từ 17 tầng trở lên: họng chờ cấp nước cho họng nước trong nhà chia thành các vùng theo chiều cao, mỗi vùng không quá 50 m; các họng lắp van một chiều và niêm phong mở",
+   "dieu": "Họng tiếp nước vào hệ thống",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý: họng chờ ngoài nhà, số vùng theo chiều cao (≤ 50 m mỗi vùng), có van một chiều",
+   "dieu": "suy từ mục Họng tiếp nước vào hệ thống",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "hay_nham": []
+}

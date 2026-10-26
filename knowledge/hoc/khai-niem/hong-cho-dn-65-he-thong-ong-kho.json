@@ -1,0 +1,53 @@
+{
+ "slug": "hong-cho-dn-65-he-thong-ong-kho",
+ "ten": "Họng chờ DN 65 hệ thống ống khô",
+ "dong_nghia": [
+  "họng chờ cấp nước DN 65 dành cho lực lượng chữa cháy chuyên nghiệp"
+ ],
+ "anh_huong": [
+  "m04-giao-thong",
+  "m08-thang-may-cc",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Sảnh thang máy chữa cháy",
+  "Đường cho xe chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [
+  {
+   "y": "Họng chờ cấp nước DN 65 dành cho lực lượng chữa cháy chuyên nghiệp (của hệ thống ống khô).",
+   "dieu": "6.2.2.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Lắp tại sảnh thang máy chữa cháy; một số buồng thang bộ thoát nạn có bố trí họng này làm mốc cho khoảng cách đường cho xe chữa cháy.",
+   "dieu": "6.13, 6.2.2.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nhà F1.3 cao PCCC > 15 m: đường cho xe chữa cháy trong phạm vi di chuyển không quá 18 m tính từ điểm cuối của đường đến lối vào tất cả khoang đệm thang máy chữa cháy hoặc buồng thang bộ thoát nạn có họng chờ DN 65.",
+   "dieu": "6.2.2.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Tầng hầm: đường cho xe chữa cháy trong phạm vi 18 m từ lối vào trên mặt đất của các khoang đệm/buồng thang bộ nói trên.",
+   "dieu": "6.2.2.4",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo khoảng cách 18 m từ đường xe chữa cháy đến lối vào khoang đệm/buồng thang có họng chờ DN 65 trên tổng mặt bằng; suy từ 6.2.2.2.",
+   "dieu": "suy từ 6.2.2.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": []
+}

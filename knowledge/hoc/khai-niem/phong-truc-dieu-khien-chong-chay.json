@@ -1,0 +1,91 @@
+{
+ "slug": "phong-truc-dieu-khien-chong-chay",
+ "ten": "Phòng trực điều khiển chống cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m17-lien-lac",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Tầng hầm",
+  "Khoang cháy",
+  "Hệ thống báo cháy tự động"
+ ],
+ "ngay": "2026-10-26T04:32:03.287Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Bắt buộc có phòng và có nhân viên chuyên môn thường xuyên trực với: nhà ở và công trình công cộng cao trên 10 tầng; nhà có từ 2 đến 3 tầng hầm; công trình công cộng tập trung đông người (nhà hát, rạp chiếu phim, vũ trường, karaoke phải bố trí từ 2 lối ra thoát nạn trở lên và nhà mục đích tương tự) có số người mỗi tầng theo Bảng G.9 vượt 50 người; gara (ô tô, xe máy, xe đạp); nhà sản xuất, kho tổng diện tích sàn trên 18 000 m2.",
+   "dieu": "6.17.1",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Nhà sản xuất, kho có tổng diện tích sàn trên 18 000 m² phải có phòng trực điều khiển chống cháy và nhân viên có chuyên môn thường xuyên trực tại phòng.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Diện tích đủ bố trí thiết bị nhưng không nhỏ hơn 6 m2.",
+   "dieu": "6.17.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Có ít nhất một lối ra trực tiếp thông với hành lang chính để thoát nạn, hoặc ra trực tiếp ngoài nhà, hoặc thông trực tiếp với cầu thang thoát nạn.",
+   "dieu": "6.17.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Ngăn cách với phần khác của nhà bằng bộ phận ngăn cháy loại 1.",
+   "dieu": "6.17.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Có thiết bị thông tin, đầu mối hệ thống báo cháy liên hệ tất cả khu vực; có bảng theo dõi, điều khiển thiết bị chữa cháy, thiết bị khống chế khói và sơ đồ mặt bằng bố trí thiết bị PCCC.",
+   "dieu": "6.17.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Nhà có từ 2 đến 3 tầng hầm: tất cả tầng hầm trang bị liên lạc khẩn cấp hai chiều từ phòng trực tới phòng thiết bị chữa cháy (bơm sprinkler, bơm cấp nước ống đứng, phòng chuyển mạch, máy phát điện, máy thang máy), phòng thiết bị kiểm soát chống khói, thang máy chữa cháy, mọi gian lánh nạn, phòng điều khiển thông gió.",
+   "dieu": "6.18",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Diện tích đủ bố trí thiết bị theo yêu cầu phòng chống cháy của nhà, không nhỏ hơn 6 m².",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Có ít nhất một lối ra trực tiếp thông với hành lang chính để thoát nạn, hoặc ra ngoài nhà, hoặc thông trực tiếp với cầu thang thoát nạn.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Được ngăn cách với các phần khác của nhà bằng bộ phận ngăn cháy loại 1.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Có thiết bị thông tin và đầu mối hệ thống báo cháy liên hệ mọi khu vực của nhà; có bảng theo dõi, điều khiển thiết bị chữa cháy, thiết bị khống chế khói và sơ đồ mặt bằng bố trí thiết bị PCCC.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "So loại/quy mô công trình với danh mục 6.17.1; xem mặt bằng phòng trực: diện tích ≥ 6 m2, lối ra, ngăn cháy loại 1, thiết bị; suy từ 6.17.",
+   "dieu": "suy từ 6.17",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Cộng tổng diện tích sàn, nếu > 18 000 m² thì xem bản vẽ phòng trực: diện tích ≥ 6 m², lối ra, tường ngăn cháy loại 1, thiết bị.",
+   "dieu": "suy từ nguồn",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": []
+}

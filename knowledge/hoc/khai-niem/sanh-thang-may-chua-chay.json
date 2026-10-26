@@ -1,0 +1,64 @@
+{
+ "slug": "sanh-thang-may-chua-chay",
+ "ten": "Sảnh thang máy chữa cháy",
+ "dong_nghia": [
+  "khoang đệm của thang máy chữa cháy"
+ ],
+ "anh_huong": [
+  "m08-thang-may-cc",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Thang máy chữa cháy",
+  "Buồng thang bộ không nhiễm khói",
+  "Họng chờ DN 65 hệ thống ống khô"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [
+  {
+   "y": "Sảnh thang máy chữa cháy là một khoang đệm bảo đảm các quy định về diện tích, vách ngăn và họng chờ cấp nước.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Có thể bố trí sảnh riêng hoặc sảnh chung với các thang máy chở người, hợp lại bằng hệ thống điều khiển tự động theo nhóm.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Diện tích không nhỏ hơn 4 m2; khi kết hợp với sảnh của buồng thang bộ không nhiễm khói thì không nhỏ hơn 6 m2.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Bao che bằng vách ngăn cháy loại 1; có họng chờ cấp nước DN 65 cho lực lượng chữa cháy chuyên nghiệp.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Việc bố trí phải dự tính đường di chuyển của đội chữa cháy và bảo đảm tiếp cận được tất cả các gian phòng trên tất cả các tầng.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo diện tích sảnh trên mặt bằng, xem vách ngăn cháy loại 1 và họng chờ DN 65; suy từ 6.13.",
+   "dieu": "suy từ 6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Không được bố trí lối vào từ trên cao ở sảnh thang máy chữa cháy.",
+   "dieu": "6.3.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ]
+}

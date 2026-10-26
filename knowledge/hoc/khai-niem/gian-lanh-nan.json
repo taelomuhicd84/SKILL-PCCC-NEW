@@ -1,0 +1,104 @@
+{
+ "slug": "gian-lanh-nan",
+ "ten": "Gian lánh nạn",
+ "dong_nghia": [
+  "safe refuge space",
+  "tầng lánh nạn",
+  "khu vực lánh nạn tạm thời"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m14-den-su-co",
+  "m09-chong-khoi",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Chiếu sáng sự cố",
+  "Vùng an toàn",
+  "Thang máy chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [
+  {
+   "y": "Khu vực bố trí trong tầng lánh nạn dùng để sơ tán tạm thời khi xảy ra sự cố cháy.",
+   "dieu": "3.14",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà có chiều cao PCCC trên 100 m (trên 120 m nếu có báo cháy tự động và chữa cháy tự động) phải bố trí khu vực lánh nạn tạm thời theo A.3.2.1 hoặc A.3.2.2, hoặc kết hợp hai phương án.",
+   "dieu": "A.3.2.1, A.3.2.2",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không cho phép sử dụng diện tích gian lánh nạn vào hoạt động thương mại; có thể làm sân/khu vực chơi cho trẻ em hoặc tập thể dục.",
+   "dieu": "A.3.2.1",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Trong gian lánh nạn phải lắp đèn chiếu sáng sự cố.",
+   "dieu": "5.1.1 g)",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Tầng lánh nạn cách nhau không quá 20 tầng, tầng lánh nạn đầu tiên không cao quá tầng thứ 21; khu gian lánh nạn ngăn cách với khu khác bằng bộ phận ngăn cháy giới hạn chịu lửa không nhỏ hơn REI 150.",
+   "dieu": "A.3.2.1 a)",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Diện tích gian lánh nạn định mức 0,3 m2/người, đủ chứa tổng số người thoát nạn lớn nhất của các tầng phía trên đến hết tầng có gian lánh nạn tiếp theo (hoặc các tầng phía trên còn lại với tầng lánh nạn trên cùng).",
+   "dieu": "A.3.2.1 b)",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Thông gió tự nhiên qua ô thông tường cố định trên hai tường ngoài: tổng diện tích ô thông gió không nhỏ hơn 25 % diện tích gian lánh nạn; chiều cao nhỏ nhất ô thông gió 1,2 m; cách ô thông tường không được bảo vệ khác nằm ngang bằng hoặc phía dưới ít nhất 1,5 m theo phương ngang và 3,0 m theo phương đứng; nếu tổng diện tích ô thông gió không nhỏ hơn 50 % diện tích gian lánh nạn thì khoảng cách đứng được giảm đến 1,5 m.",
+   "dieu": "A.3.2.1 c)",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Trang bị, dụng cụ đặt trong gian lánh nạn bằng vật liệu không cháy.",
+   "dieu": "A.3.2.1 d)",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Có lối ra thoát nạn trực tiếp vào buồng thang bộ không nhiễm khói và vào khoang đệm thang máy chữa cháy; đường thoát nạn dẫn vào đi qua sảnh ngăn khói/sảnh thang máy chữa cháy hoặc hành lang bên.",
+   "dieu": "A.3.2.1 e)",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Có họng nước chữa cháy trong nhà, sprinkler, chiếu sáng sự cố, điện thoại liên lạc với bên ngoài, hệ thống truyền thanh chỉ dẫn thoát nạn và tương tự.",
+   "dieu": "A.3.2.1 f)",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Biển 'GIAN LÁNH NẠN/FIRE EMERGENCY HOLDING AREA' phía trong buồng thang thoát nạn và trên mặt ngoài tường buồng thang tại tầng lánh nạn, đặt cao 1 500 mm từ mặt nền hoàn thiện, chiều cao chữ không nhỏ hơn 50 mm.",
+   "dieu": "A.3.2.1 g)",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Cho phép diện tích gian lánh nạn không tính vào hệ số sử dụng đất và diện tích sàn xây dựng.",
+   "dieu": "A.3.2.1 h)",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Tính diện tích = 0,3 m2 × số người các tầng phía trên; đo tổng diện tích ô thông gió so với 25 %/50 %; kiểm biển và trang bị trên bản vẽ.",
+   "dieu": "suy từ A.3.2.1",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Tầng kỹ thuật hoặc một phần tầng kỹ thuật chỉ dùng làm khu vực lánh nạn khi đáp ứng các đoạn b), c), d), e), f).",
+   "dieu": "A.3.2.1 chú thích",
+   "nguon": "ee1434b8c963"
+  }
+ ]
+}

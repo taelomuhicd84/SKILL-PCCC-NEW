@@ -1,0 +1,44 @@
+{
+ "slug": "bon-be-ao-ho-du-tru-nuoc-chua-chay-ngoai-nha",
+ "ten": "Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà",
+ "dong_nghia": [
+  "Bồn, bể nước chữa cháy"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Lưu lượng nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T04:52:13.508Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khi hiệu suất của mạng đường ống ngoài nhà không đủ truyền lưu lượng nước tính toán cho chữa cháy, hoặc khi liên kết ống vào với mạng đường ống cụt, cần xem xét lắp đặt bồn, bể.",
+   "dieu": "Bảng 8, Chú thích 1",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Trong khu dân cư không có đường ống nước chữa cháy thì phải có bồn, bể nước bảo đảm chữa cháy.",
+   "dieu": "Bảng 8, Chú thích 2",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Thể tích bồn, bể phải bảo đảm lưu lượng nước chữa cháy ngoài nhà trong 3 giờ.",
+   "dieu": "Bảng 8, Chú thích 1, 2",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ Bảng 8: lấy lưu lượng chữa cháy ngoài nhà (L/s) nhân 3 giờ, so với thể tích bể ghi trên bản vẽ và thuyết minh.",
+   "dieu": "Bảng 8, Chú thích 1, 2",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "hay_nham": []
+}

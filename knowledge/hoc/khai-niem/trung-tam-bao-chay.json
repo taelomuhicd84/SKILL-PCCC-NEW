@@ -1,0 +1,75 @@
+{
+ "slug": "trung-tam-bao-chay",
+ "ten": "Trung tâm báo cháy",
+ "dong_nghia": [
+  "tủ trung tâm báo cháy",
+  "Tủ báo cháy địa chỉ",
+  "Trung tâm xử lý báo cháy"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m13-cap-dien",
+  "m17-lien-lac"
+ ],
+ "lien_quan": [
+  "Hộp nút ấn báo cháy",
+  "Thiết bị báo cháy",
+  "Đầu báo khói"
+ ],
+ "ngay": "2026-10-26T04:40:34.533Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Đặt nơi thường xuyên có người trực suốt ngày đêm; nếu không có người trực thì phải truyền tín hiệu báo cháy và sự cố đến nơi trực cháy hay nơi có người thường trực và có biện pháp ngăn người không có nhiệm vụ tiếp xúc.",
+   "dieu": "5.12.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Có chức năng tự động truyền tin báo cháy đến đơn vị Cảnh sát PCCC và CNCH; nơi đặt có điện thoại liên lạc trực tiếp với đơn vị này hay nơi nhận tin báo cháy.",
+   "dieu": "5.12.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Lắp nơi không nguy hiểm về cháy nổ, có khoảng trống phía trước tối thiểu 1,5 m.",
+   "dieu": "5.12.3",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Lắp trên cấu kiện cháy được thì bảo vệ bằng lá kim loại dày ≥ 0,001 m hoặc vật liệu không cháy dày ≥ 0,01 m, tấm vượt ra ngoài mỗi cạnh trung tâm ≥ 0,1 m.",
+   "dieu": "5.12.4",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Cách trần bằng vật liệu cháy được ≥ 1,0 m; lắp cạnh nhau cách nhau ≥ 0,05 m.",
+   "dieu": "5.12.5, 5.12.6",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Phần điều khiển cách sàn không nhỏ hơn 0,75 m và không lớn hơn 1,85 m.",
+   "dieu": "5.12.7",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Hai nguồn điện độc lập: 220 V xoay chiều và ắc quy dự phòng; dung lượng ắc quy đảm bảo ít nhất 24 h thường trực và 30 min khi có cháy; ắc quy nạp tự động; tiếp đất bảo vệ.",
+   "dieu": "5.13, 5.13.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Tín hiệu âm thanh, ánh sáng khi báo cháy và báo sự cố phải khác nhau.",
+   "dieu": "5.12.9",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ phòng đặt tủ, sơ đồ nguồn, thuyết minh dung lượng ắc quy (24 h + 30 min), kết nối truyền tin; suy từ 5.12, 5.13.",
+   "dieu": "5.12, 5.13",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": []
+}

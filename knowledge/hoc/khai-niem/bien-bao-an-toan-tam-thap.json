@@ -1,0 +1,50 @@
+{
+ "slug": "bien-bao-an-toan-tam-thap",
+ "ten": "Biển báo an toàn tầm thấp",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Biển báo an toàn"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [
+  {
+   "y": "Biển báo chỉ dẫn lối ra thoát nạn và biển báo chỉ hướng thoát nạn lắp ở tầm thấp, thiết kế để hỗ trợ người sinh sống, làm việc trong tòa nhà đến các lối ra thoát nạn khi khói che khuất các lối ra hoặc các biển báo gắn phía trên cửa; không thay thế biển báo an toàn tiêu chuẩn.",
+   "dieu": "5.2.3",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Lắp ở các tầng nhà có bố trí phòng nghỉ của khách sạn cao từ 07 tầng, hoặc tổng khối tích từ 5.000 m³ trở lên có hành lang thoát nạn lớn hơn 10 m.",
+   "dieu": "5.2.3",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đáy biển cách sàn từ 150 mm đến 200 mm; các biển cách nhau không quá 10 m; với cửa thoát hiểm, biển ở trên cửa hoặc giáp cửa với mép gần nhất của biển trong phạm vi 100 mm tính từ khung cửa.",
+   "dieu": "5.2.3",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ 5.2.3: xác định công trình thuộc diện (khách sạn ≥ 7 tầng hoặc khối tích ≥ 5.000 m³ có hành lang > 10 m); xem chi tiết lắp đặt cao độ 150–200 mm và khoảng cách ≤ 10 m.",
+   "dieu": "suy từ 5.2.3",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khoảng cách giữa các biển thường là ≤ 25 m, còn biển tầm thấp là ≤ 10 m.",
+   "dieu": "5.2.3, 5.2.6",
+   "nguon": "f0d3f93819cb"
+  }
+ ]
+}

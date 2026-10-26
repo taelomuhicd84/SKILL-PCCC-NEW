@@ -1,0 +1,47 @@
+{
+ "slug": "tu-tham-dinh-dieu-chinh",
+ "ten": "Tự thẩm định điều chỉnh",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "chung"
+ ],
+ "lien_quan": [
+  "Thẩm duyệt điều chỉnh",
+  "Đổi nguyên lý báo cháy",
+  "Nội dung được nghiệm thu về PCCC"
+ ],
+ "ngay": "2026-10-26T04:48:12.578Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Dự án đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô nhưng đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định: có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Có đổi nguyên lý báo cháy, chữa cháy hoặc thông số bơm so với bản đã thẩm định thì không thuộc trường hợp này mà thuộc diện thẩm định điều chỉnh.",
+   "dieu": "suy từ mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Cần có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Kiểm hồ sơ có đủ hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công; so nguyên lý và thông số bơm với bản đã thẩm định.",
+   "dieu": "suy từ mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ],
+ "hay_nham": []
+}

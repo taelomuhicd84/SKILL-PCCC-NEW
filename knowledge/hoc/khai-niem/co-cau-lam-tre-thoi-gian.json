@@ -1,0 +1,54 @@
+{
+ "slug": "co-cau-lam-tre-thoi-gian",
+ "ten": "Cơ cấu làm trễ thời gian",
+ "dong_nghia": [
+  "độ trễ thời gian",
+  "thời gian trễ trước khi phun"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Hệ thống chữa cháy bằng khí",
+  "Hệ thống chữa cháy bằng Sol-khí",
+  "Đèn chiếu sáng sự cố",
+  "Mối nguy hiểm"
+ ],
+ "ngay": "2026-10-26T04:53:50.362Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khu vực được bảo vệ bằng hệ thống phun khí chữa cháy thể tích và có thể có người phải có cơ cấu làm trễ thời gian.",
+   "dieu": "mục Các khu vực có người, điểm a",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Khu vực mà thời gian trễ không làm tăng nguy hiểm đáng kể đến con người và tài sản: hệ thống chữa cháy phải có tín hiệu báo động trước khi phun, với độ trễ đủ để cho phép sơ tán người.",
+   "dieu": "mục Các khu vực có người, điểm a",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cơ cấu làm trễ thời gian chỉ được dùng để sơ tán người hoặc để chuẩn bị cho việc phun khí chữa cháy.",
+   "dieu": "mục Các khu vực có người, điểm a",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Hệ thống Sol-khí sau khi lắp đặt phải có báo động và thời gian trễ trước khi phun, đủ để con người thoát nạn ra ngoài.",
+   "dieu": "Điều 6.2.5.7",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Bộ phận báo động bằng âm thanh và ánh sáng phải lắp trong khu vực được bảo vệ, hoạt động liên tục từ đầu cho tới khi báo động đã được xác nhận và bắt đầu một hoạt động thích hợp.",
+   "dieu": "",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

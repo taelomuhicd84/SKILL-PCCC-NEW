@@ -1,0 +1,106 @@
+{
+ "slug": "he-so-k-dau-phun",
+ "ten": "Hệ số K đầu phun",
+ "dong_nghia": [
+  "Hệ số K",
+  "Đặc tính lưu lượng của đầu phun",
+  "Hệ số hiệu suất K",
+  "Hệ số hiệu suất K đầu phun",
+  "Hệ số K đầu phun sprinkler"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Cường độ phun",
+  "Hệ số RTI",
+  "Lưu lượng tối thiểu",
+  "Nhóm nguy cơ phát sinh cháy (NCPSC)",
+  "Diện tích tính toán tối thiểu"
+ ],
+ "ngay": "2026-10-26T04:50:06.253Z",
+ "dinh_nghia": [
+  {
+   "y": "Theo NFPA 13-1994: Qm = Km√pm, trong đó Qm là lưu lượng đầu phun (L/phút), Pm là áp lực hệ thống (bar), Km = 14K (K là hệ số K đầu phun).",
+   "dieu": "Bảng tính thủy lực Sprinkler – mục Tính chọn hệ số K đầu phun (NFPA 13-1994)",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Tra catalogue đầu phun (kv, l/s.m^1/2). Bảng hệ số K: K 5,6 gpm/(psi)^1/2 tương ứng 80 L/min/(bar)^1/2 và đường kính lỗ D15; K 8,0 tương ứng 115, D15 hoặc D20; K 11,2 tương ứng 160, D15 hoặc D20; K 14,0 tương ứng 200, D20.",
+   "dieu": "Tài liệu tập huấn hệ thống sprinkler (không ghi điều)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Quy đổi: 1 gpm/psi^1/2 = 0,075 l/s.m^1/2; 1 lpm/bar^1/2 = 0,0053 l/s.m^1/2. Cần lưu ý thứ nguyên của hệ số K.",
+   "dieu": "Tài liệu tập huấn hệ thống sprinkler (không ghi điều)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Tính K = Km/14, với Km = Qm/√Pm. Ví dụ trong bảng tính: Qm = 86,4 L/phút, Pm = 6 bar thì Km ≈ 35,27 và K ≈ 2,52.",
+   "dieu": "Bảng tính thủy lực Sprinkler – mục Tính chọn hệ số K",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  },
+  {
+   "y": "Chọn K đầu phun theo nhóm nguy cơ phát sinh cháy của công trình.",
+   "dieu": "Bảng tính thủy lực Phụ lục B – mục I.1",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Theo kinh nghiệm, chọn K theo cường độ phun: cường độ phun < 0,24: K 5,6 hoặc K 8,0; từ 0,24 đến ≤ 0,3: K 8,0 hoặc K 11,2; > 0,3: K ≥ 11,2 (chọn tối ưu về kinh tế - kỹ thuật).",
+   "dieu": "Tài liệu tập huấn hệ thống sprinkler (không ghi điều)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Sau khi tính K, chọn đầu phun theo catalog hãng có hệ số K phù hợp với K tính toán. Ví dụ trong bảng tính chọn K = 5,6.",
+   "dieu": "Bảng tính thủy lực Sprinkler – mục Tính chọn hệ số K",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Áp suất tối thiểu tại đầu phun P1 = (q1/K)^2, q1 là lưu lượng đầu phun bất lợi nhất; áp suất tối đa của đầu phun nước và bọt không được vượt quá 1 MPa trừ khi có quy định khác.",
+   "dieu": "5.1.4 TCVN 7336:2021; bảng tính thủy lực Phụ lục B",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Áp suất đầu phun lấy từ 5 bar đến 7 bar (ví dụ trong bảng tính chọn Pm = 6 bar).",
+   "dieu": "Bảng tính thủy lực Sprinkler – mục Tính chọn hệ số K",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  },
+  {
+   "y": "Đổi đơn vị: K = 5,6 [G/min(psi)^1/2] tương ứng 4,2549 [L/s.(MPa)^1/2], theo công thức K×3,785412/(0,068948)^0,5/60/0,1^0,5.",
+   "dieu": "Bảng tính thủy lực Phụ lục B – mục I.1",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem catalogue/bản vẽ đầu phun, đối chiếu K với cường độ phun yêu cầu và đơn vị của K.",
+   "dieu": "suy từ tài liệu tập huấn",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Kiểm trên bảng tính thủy lực: K chọn có khớp K tính từ Qm và Pm không, và đã đổi đúng đơn vị chưa. Suy từ công thức NFPA 13-1994 trong nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "K tính theo gpm/(psi)^1/2, L/min/(bar)^1/2 hoặc L/s.(MPa)^1/2: khác thứ nguyên, phải quy đổi trước khi tính áp suất.",
+   "dieu": "",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Km = 14K (công thức NFPA 13, đơn vị L/phút và bar) khác với K khi nhập bảng tính (G/min(psi)^1/2). Hai hệ đơn vị khác nhau, cần đổi trước khi so sánh.",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ]
+}

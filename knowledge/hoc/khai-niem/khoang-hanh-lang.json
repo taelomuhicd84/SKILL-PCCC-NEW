@@ -1,0 +1,57 @@
+{
+ "slug": "khoang-hanh-lang",
+ "ten": "Khoang hành lang",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m07-thoat-nan",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Màn ngăn khói",
+  "Vùng khói"
+ ],
+ "ngay": "2026-10-26T04:53:10.947Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Hành lang được phân chia thành các khoang ngăn cách nhau bằng vách ngăn cháy loại 1 và cửa ngăn cháy loại 2 có cơ cấu tự đóng, hoặc bằng các vách ngăn khói, màn ngăn khói từ vật liệu không cháy có mép dưới cách sàn hành lang tối đa 2,5 m.",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Hành lang dài hơn 60 m phải chia bằng vách ngăn cháy loại 2 (hoặc vách ngăn khói, màn ngăn khói có mép dưới cách sàn tối đa 2,5 m) thành các đoạn xác định theo yêu cầu chống khói Phụ lục D, không vượt quá 60 m; cửa đi trong các vách này phù hợp 3.2.11.",
+   "dieu": "3.3",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Chiều dài mỗi khoang hành lang: khối căn hộ không quá 30 m.",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Chiều dài mỗi khoang hành lang: khối nhà không phải là căn hộ không quá 60 m.",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo chiều dài từng khoang hành lang trên mặt bằng, so với 30 m (căn hộ) hoặc 60 m; kiểm loại vách/cửa ngăn và cao độ mép dưới màn khói ≤ 2,5 m.",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Hành lang dài hơn 60 m: vách ngăn cháy loại 2; khoang hành lang: vách ngăn cháy loại 1 + cửa ngăn cháy loại 2 tự đóng — hai đoạn quy định khác nhau về loại vách.",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ]
+}

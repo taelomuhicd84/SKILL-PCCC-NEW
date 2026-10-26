@@ -1,0 +1,65 @@
+{
+ "slug": "vat-lieu-hoan-thien-trang-tri",
+ "ten": "Vật liệu hoàn thiện, trang trí",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Gian phòng chung"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [
+  {
+   "y": "Lớp hoàn thiện (có thể kết hợp mục đích trang trí), che phủ và được cố định trên bề mặt ngoài của các kết cấu/bộ phận bao che trong nhà. Có thể là lớp vôi, vữa, thạch cao; tấm ốp hoàn thiện hoặc cách âm bằng gạch, gỗ, nhựa, mút xốp cố định trên bề mặt ngoài của tường, trần.",
+   "dieu": "Điều 1.4.68a",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Vật liệu hoàn thiện trên hành lang thoát nạn phải bảo đảm tính nguy hiểm cháy theo 3.5.1 và 3.5.9, Phụ lục B.",
+   "dieu": "3.5.1, 3.5.9, Phụ lục B",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Có chữa cháy tự động (trường hợp khác gian phòng chung) thì được giảm một cấp so với quy định trong Phụ lục B.",
+   "dieu": "Phụ lục B (slide)",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Đồ vật treo trên tường, trần chỉ nhằm mục đích trang trí nội thất (tranh, ảnh, đồ trang trí và tương tự) không phải là vật liệu hoàn thiện, trang trí.",
+   "dieu": "Điều 1.4.68a, chú thích",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Không yêu cầu cấp nguy hiểm cháy khi vật liệu ở mặt ngoài cùng của tường, trần, sàn có chiều dày không quá 1 mm và đặt trên vật liệu nền không cháy, hoặc cơ quan Cảnh sát PCCC&CNCH có thẩm quyền xác định nguy cơ cháy lan và sinh khói là thấp hoặc không có.",
+   "dieu": "Slide 'Vật liệu hoàn thiện trên đường, hành lang thoát nạn'",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Không yêu cầu cấp nguy hiểm cháy khi tổng diện tích vật liệu không quá 20 % diện tích tường hoặc trần gắn vào (cao su, nhựa và vật liệu trùng hợp tương tự không quá 10 %) và các bộ phận được phân bố tương đối rời rạc.",
+   "dieu": "Slide 'Vật liệu hoàn thiện trên đường, hành lang thoát nạn'",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem bảng vật liệu hoàn thiện trên bản vẽ; tính tỷ lệ diện tích vật liệu so với tường, trần và chiều dày để xét ngoại lệ.",
+   "dieu": "suy từ slide",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Tranh, ảnh, đồ trang trí treo không phải vật liệu hoàn thiện.",
+   "dieu": "Điều 1.4.68a, chú thích",
+   "nguon": "ee1434b8c963"
+  }
+ ]
+}

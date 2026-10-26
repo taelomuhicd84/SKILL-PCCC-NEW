@@ -1,0 +1,121 @@
+{
+ "slug": "tham-duyet-dieu-chinh",
+ "ten": "Thẩm duyệt điều chỉnh",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "chung",
+  "ra-soat"
+ ],
+ "lien_quan": [
+  "thẩm định lại khi điều chỉnh thiết kế, thay đổi công năng, cải tạo (danh sách đóng)",
+  "Giấy chứng nhận thẩm duyệt thiết kế về PCCC",
+  "Đổi nguyên lý báo cháy",
+  "Tự thẩm định điều chỉnh",
+  "Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy",
+  "Nội dung thẩm duyệt thiết kế về PCCC"
+ ],
+ "ngay": "2026-10-26T04:48:43.259Z",
+ "dinh_nghia": [
+  {
+   "y": "Thủ tục chỉ còn cho dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC (trước 01/7/2025) mà trước hoặc trong thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025.",
+   "dieu": "Điều 29 khoản 1 NĐ 347/2026 (sửa khoản 3 Điều 46 NĐ 105/2025)",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Việc thẩm duyệt khi dự án, công trình đã có Giấy chứng nhận thẩm duyệt thiết kế về PCCC mà trước hoặc trong quá trình thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025.",
+   "dieu": "NĐ 347/2026 Điều 29 khoản 1, sửa khoản 3 Điều 46 NĐ 105/2025",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Công trình đã có Giấy chứng nhận thẩm duyệt (trước 01/7/2025), chưa được chấp thuận kết quả nghiệm thu, nay điều chỉnh thiết kế hoặc đổi công năng thuộc danh sách đóng của cơ quan xây dựng hoặc Công an.",
+   "dieu": "mục 6",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Thực hiện theo Điều 13 NĐ 136/2020 và khoản 5 Điều 1 NĐ 50/2024 (hai văn bản chỉ còn áp dụng theo điều khoản chuyển tiếp này); thời hạn theo khoản 6 Điều 9 NĐ 105/2025: không quá 10 ngày (nhóm A hoặc quan trọng quốc gia), còn lại không quá 06 ngày làm việc.",
+   "dieu": "Điều 29 khoản 1 NĐ 347/2026; Điều 9 khoản 6 NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md",
+   "can_xem": true
+  },
+  {
+   "y": "Đã thẩm duyệt, chưa nghiệm thu, nay thay đổi công năng (vd. F3.4 thành F1.1): phải thẩm duyệt điều chỉnh. Đã có Giấy chứng nhận, đã thi công mà đề nghị thẩm định lại theo NĐ 105: thực hiện theo khoản 3 Điều 46; chưa thi công: chủ đầu tư có thể đề nghị thẩm định theo NĐ 105/2025.",
+   "dieu": "Công văn C07 (khoản 3 Điều 46 NĐ 105/2025; câu 13)",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC mà trước hoặc trong quá trình thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025 (danh sách 5.1 và 5.2 của nguồn) thì thực hiện thẩm duyệt điều chỉnh.",
+   "dieu": "NĐ 347/2026 Điều 29 khoản 1, sửa khoản 3 Điều 46 NĐ 105/2025",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Thực hiện tiếp theo Điều 13 NĐ 136/2020 và khoản 5 Điều 1 NĐ 50/2024. Hai văn bản này chỉ còn áp dụng theo điều khoản chuyển tiếp này, không dùng cho việc khác.",
+   "dieu": "NĐ 347/2026 Điều 29 khoản 1",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc",
+   "can_xem": true
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Dự án thẩm định theo NĐ 105/2025 dùng thuật ngữ 'thẩm định thiết kế điều chỉnh', không dùng 'thẩm duyệt điều chỉnh'.",
+   "dieu": "mục 1",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô, đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý và thông số bơm đã thẩm định, có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công: không thuộc diện thẩm định điều chỉnh.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Chưa có Giấy chứng nhận thẩm duyệt thì thẩm định theo Điều 6, 7, 8, 9 NĐ 105/2025, không phải thẩm duyệt điều chỉnh.",
+   "dieu": "NĐ 105/2025 Điều 6, 7, 8, 9",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Thời hạn xử lý theo khoản 6 Điều 9 NĐ 105/2025: không quá 10 ngày với dự án nhóm A hoặc quan trọng quốc gia; các dự án còn lại không quá 06 ngày làm việc.",
+   "dieu": "khoản 6 Điều 9 NĐ 105/2025",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xác định có Giấy chứng nhận thẩm duyệt (trước 01/7/2025) hay văn bản thẩm định NĐ 105/2025, và đã nghiệm thu chưa.",
+   "dieu": "suy từ mục 8",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Đối chiếu nội dung điều chỉnh với danh sách 5.1 và 5.2 (khoản 4 Điều 6, khoản 3 Điều 9 NĐ 105/2025); phần nguồn bị cắt, chưa rõ trình tự theo Điều 1... nên CẦN XÁC NHẬN.",
+   "dieu": "suy từ NĐ 347/2026 Điều 29 khoản 1",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Đối chiếu nội dung điều chỉnh với danh sách ở khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025; kiểm tình trạng nghiệm thu (suy từ Điều 29 NĐ 347/2026).",
+   "dieu": "",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhà xây không đúng thiết kế đã thẩm duyệt (vd. kho hạng C trong khi thẩm duyệt hạng E): Công an trả lời không chấp thuận kết quả nghiệm thu, đề nghị thi công đúng thiết kế hoặc làm thủ tục thẩm duyệt điều chỉnh.",
+   "dieu": "Công văn C07 câu 14",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Thẩm duyệt điều chỉnh (đã có Giấy chứng nhận) khác trường hợp tự thẩm định điều chỉnh kèm nghiệm thu hoàn công (không thuộc diện).",
+   "dieu": "mục 5, mục 6",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Dễ nhầm với thẩm định mới theo Điều 6, 7, 8, 9 NĐ 105/2025. Thẩm duyệt điều chỉnh chỉ dành cho công trình đã có Giấy chứng nhận thẩm duyệt.",
+   "dieu": "",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "dien-tich-bao-ve-lon-nhat-cua-1-binh-chua-chay",
+ "ten": "Diện tích bảo vệ lớn nhất của 1 bình chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m10-binh-chua-chay"
+ ],
+ "lien_quan": [
+  "Khoảng cách di chuyển",
+  "Loại mức nguy hiểm",
+  "Phân loại đám cháy"
+ ],
+ "ngay": "2026-10-26T04:34:19.101Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Loại A: 300 m2 (mức thấp, bình 2-A), 150 m2 (mức trung bình, bình 3-A*), 100 m2 (mức cao, bình 4-A*). Hai bình nước 2-A bố trí liền kề có thể thay cho yêu cầu bình 3-A hoặc 4-A.",
+   "dieu": "Bảng 1",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Loại B, C: 300 m2 (mức thấp, bình 55 B), 150 m2 (mức trung bình, bình 144 B), 100 m2 (mức cao, bình 233 B).",
+   "dieu": "Bảng 2",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Loại B, C: không được dùng hai hoặc nhiều bình công suất nhỏ hơn để thực hiện yêu cầu trong Bảng 2. Được dùng tới 3 bình loại AFFF hoặc FFFP nếu tổng công suất bằng hoặc lớn hơn công suất quy định nhỏ nhất.",
+   "dieu": "7.3.2",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Mỗi tầng (sàn) phải có ít nhất hai bình chữa cháy theo Bảng 1 (loại A) hoặc Bảng 2 (loại B, C). Tầng có diện tích nhỏ hơn 100 m2 có thể chỉ trang bị 1 bình (lưu ý nêu ở 7.2.2).",
+   "dieu": "7.2.2, 7.3.4",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Bình công suất nhỏ hơn dùng cho mối nguy hiểm riêng nhỏ bên trong khu vực nguy hiểm chung được phép dùng nhưng không tính vào yêu cầu của Bảng 2.",
+   "dieu": "7.3.1",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Lấy diện tích từng tầng chia cho diện tích bảo vệ lớn nhất của 1 bình theo mức nguy hiểm, so với số bình trên bản vẽ. Kiểm thêm tối thiểu 2 bình mỗi tầng. Suy từ Bảng 1, Bảng 2, 7.2.2.",
+   "dieu": "suy từ Bảng 1, Bảng 2, 7.2.2",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bảng 1 áp dụng cho đám cháy loại A, còn Bảng 2 áp dụng cho loại B (trừ chất lỏng cháy có chiều dày quá 0,6 cm) và loại C. Đám cháy khí và chất lỏng cháy nén xem bảng 6.4; chất lỏng cháy tan trong nước xem 6.4.3.",
+   "dieu": "7.3, 7.3.1",
+   "nguon": "b06d3aaa1623"
+  }
+ ]
+}

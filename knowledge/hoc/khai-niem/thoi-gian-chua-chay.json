@@ -1,0 +1,154 @@
+{
+ "slug": "thoi-gian-chua-chay",
+ "ten": "Thời gian chữa cháy",
+ "dong_nghia": [
+  "thời gian cấp nước chữa cháy",
+  "thời gian cấp nước chữa cháy ngoài nhà"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Hệ thống chữa cháy",
+  "Mạng đường ống cụt",
+  "Họng nước chữa cháy trong nhà",
+  "Dung tích bể nước chữa cháy",
+  "Lưu lượng cấp nước chữa cháy ngoài nhà",
+  "Thời gian phục hồi nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:26:33.933Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Lấy là 3 giờ, trừ các quy định riêng: nhà bậc chịu lửa I, II với kết cấu và lớp cách nhiệt làm từ vật liệu không cháy có các khu vực hạng nguy hiểm cháy nổ D và E lấy 2 giờ; kho dạng hở chứa vật liệu từ gỗ không nhỏ hơn 5 giờ.",
+   "dieu": "5.1.3.3",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Nhà trẻ, trường mẫu giáo, mầm non, nhà nhóm F4.1, F4.3 ở khu vực nông thôn, bậc chịu lửa I, II với kết cấu và lớp cách nhiệt làm từ vật liệu không cháy cao không quá 3 tầng, diện tích xây dựng đến 500 m2 lấy là 1 giờ.",
+   "dieu": "5.1.3.3",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Sửa đổi 1:2023: nhà có yêu cầu lưu lượng cấp nước chữa cháy ngoài nhà quy định tại các bảng 8, 9, 10 đến 15 L/s (nhóm F1, F2, F3, F4) và đến 20 L/s (nhóm F5) thì thời gian chữa cháy lấy là 1 giờ.",
+   "dieu": "5.1.3.3 (Sửa đổi 1:2023)",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Thời gian chữa cháy (cấp nước chữa cháy ngoài nhà) lấy là 3 h, trừ các trường hợp ngoại lệ.",
+   "dieu": "H.1.3.3",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà ngăn chia bằng tường ngăn cháy thì lấy theo phần nhà có yêu cầu lưu lượng lớn nhất.",
+   "dieu": "5.1.2.5",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Thời gian chữa cháy lấy là 3 giờ, trừ các quy định riêng",
+   "dieu": "Thời gian chữa cháy",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Nhà bậc chịu lửa I, II, kết cấu và lớp cách nhiệt bằng vật liệu không cháy, khu vực hạng D và E: 2 giờ",
+   "dieu": "Thời gian chữa cháy",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Nhà trẻ, trường mẫu giáo, mầm non, nhà nhóm F4.1, F4.3 ở khu vực nông thôn, bậc chịu lửa I, II, vật liệu không cháy, cao không quá 3 tầng, diện tích xây dựng đến 500 m²: 1 giờ, và cho phép dùng hệ thống họng nước trong nhà thay cho cấp nước chữa cháy ngoài nhà",
+   "dieu": "Thời gian chữa cháy",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Kho dạng hở chứa vật liệu từ gỗ: không nhỏ hơn 5 giờ",
+   "dieu": "Thời gian chữa cháy",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Nhà có yêu cầu lưu lượng ngoài nhà (Bảng 8, 9, 10) đến 15 L/s (nhóm F1, F2, F3, F4) và đến 20 L/s (nhóm F5): 1 giờ",
+   "dieu": "Thời gian chữa cháy",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Ngoại lệ 2 h: nhà bậc chịu lửa I, II với kết cấu và lớp cách nhiệt bằng vật liệu không cháy có các khu vực hạng nguy hiểm cháy D và E.",
+   "dieu": "H.1.3.3",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Ngoại lệ 1 h: nhà trẻ, trường mẫu giáo, mầm non, nhà nhóm F4.1, F4.3 ở nông thôn, bậc chịu lửa I, II vật liệu không cháy, cao không quá 3 tầng, diện tích xây dựng đến 500 m²; cho phép dùng họng nước chữa cháy bên trong thay hệ thống cấp nước chữa cháy ngoài nhà.",
+   "dieu": "H.1.3.3",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Ngoại lệ không nhỏ hơn 5 h: kho dạng hở chứa vật liệu từ gỗ.",
+   "dieu": "H.1.3.3",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Ngoại lệ 1 h: nhà có lưu lượng cấp nước chữa cháy ngoài nhà theo Bảng H.2, H.3, H.4 đến 15 L/s (nhóm F1, F2, F3, F4) và đến 20 L/s (nhóm F5).",
+   "dieu": "H.1.3.3",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Thời gian làm việc của họng nước chữa cháy trong nhà: 1 h nếu chỉ trang bị họng nước; nếu có chữa cháy tự động bằng nước thì bằng thời gian làm việc của hệ thống chữa cháy tự động.",
+   "dieu": "H.2.9",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Thời gian lớn nhất phục hồi nước dự trữ chữa cháy: 24 h (khu dân cư trên 5 000 người hoặc cơ sở công nghiệp hạng A, B, C); 36 h (cơ sở công nghiệp hạng D, E); 72 h (khu dân cư đến 5 000 người hoặc cơ sở nông nghiệp).",
+   "dieu": "H.1.3.4",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Máy bơm chữa cháy ngoài nhà phải kích hoạt không chậm quá 3 min kể từ khi có thông tin báo cháy (khi lưu lượng yêu cầu từ 25 L/s trở lên); đường ống áp suất cao: bơm hoạt động không trễ hơn 5 phút sau tín hiệu báo cháy.",
+   "dieu": "H.3.3; H.1.1.1",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Giảm thời gian chữa cháy dẫn đến giảm dung tích bể nước dự trữ cho chữa cháy (slide ví dụ 108 m3 xuống 36 m3).",
+   "dieu": "5.1.3.3 (Sửa đổi 1:2023)",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh/bản vẽ cấp nước: thể tích bể = lưu lượng × thời gian chữa cháy tương ứng nhóm, bậc chịu lửa, hạng nguy hiểm; suy từ H.1.3.3 và H.1.5.7.",
+   "dieu": "H.1.3.3",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Đối chiếu lưu lượng ngoài nhà trong bảng 8–15 và nhóm F với ngưỡng 15 L/s (F1–F4) hoặc 20 L/s (F5) để chọn 1 giờ; tính lại dung tích bể theo thời gian.",
+   "dieu": "suy từ 5.1.3.3",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Xác định nhóm nhà, bậc chịu lửa, hạng, khu vực (nông thôn hay không) và lưu lượng để chọn 1, 2, 3 hay 5 giờ, rồi so với thời gian dùng tính thể tích bể",
+   "dieu": "suy từ mục Thời gian chữa cháy",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Thời gian chữa cháy ngoài nhà (3 h) khác thời gian làm việc của họng nước trong nhà (1 h) và thời gian phục hồi nước dự trữ (24/36/72 h).",
+   "dieu": "H.1.3.3; H.2.9; H.1.3.4",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Bản 2022 cho phép dùng họng nước trong nhà thay cấp nước ngoài nhà với nhà trẻ/F4.1, F4.3 nông thôn ≤3 tầng, ≤500 m2; không nhầm với quy định 1 giờ của Sửa đổi 1.",
+   "dieu": "5.1.3.3",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Khác thời gian phục hồi nước chữa cháy (thời gian bổ sung lại lượng nước dự trữ)",
+   "dieu": "",
+   "nguon": "d1cdbad641a2"
+  }
+ ]
+}

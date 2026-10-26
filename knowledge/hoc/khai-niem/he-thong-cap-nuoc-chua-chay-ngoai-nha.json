@@ -1,0 +1,123 @@
+{
+ "slug": "he-thong-cap-nuoc-chua-chay-ngoai-nha",
+ "ten": "Hệ thống cấp nước chữa cháy ngoài nhà",
+ "dong_nghia": [
+  "cấp nước chữa cháy ngoài nhà"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong",
+  "chung",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Họng nước chữa cháy trong nhà",
+  "Hạ tầng kỹ thuật về PCCC",
+  "Bến lấy nước",
+  "Khu công nghiệp, cụm công nghiệp",
+  "Hệ thống họng nước chữa cháy trong nhà",
+  "Bán kính phục vụ",
+  "Thời gian chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:23:50.656Z",
+ "dinh_nghia": [
+  {
+   "y": "Hệ thống thiết bị chuyên dùng lắp đặt ngoài nhà để cấp nước phục vụ chữa cháy.",
+   "dieu": "1.4.7",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Đối tượng phải trang bị xác định theo Bảng C.1 (loại nhà, công trình và quy mô).",
+   "dieu": "2.3.1; Phụ lục C, Bảng C.1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Phải trang bị cho các đối tượng nêu ở Bảng C.1, gồm: nhà khám, chữa bệnh, lưu trú bệnh nhân của bệnh viện cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 3 000 m² trở lên; chợ hạng 1, chợ hạng 2, trung tâm thương mại (không phụ thuộc quy mô); hầm giao thông đường bộ dài từ 500 m trở lên; cơ sở đóng mới, sửa chữa, bảo dưỡng phương tiện thủy nội địa, tàu biển có tổng diện tích sàn từ 1 500 m² trở lên; nhà máy nhiệt điện, trạm biến áp từ 220 kV trở lên; kho cố định chứa vật liệu nổ, tiền chất thuốc nổ công nghiệp từ 20 tấn thuốc nổ trở lên; khu dân cư, khu đô thị, khu nhà ở, khu công nghiệp, cụm công nghiệp, khu du lịch, khu nghiên cứu, đào tạo, khu thể dục, thể thao (không phụ thuộc quy mô).",
+   "dieu": "Phụ lục C, Bảng C.1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Thiết kế, lắp đặt theo H.1, H.3 và TCVN 6379.",
+   "dieu": "2.3.3",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Việc trang bị cấp nước chữa cháy ngoài nhà phải được thực hiện khi đầu tư xây dựng hạ tầng kỹ thuật của các khu dân cư, đô thị, khu công nghiệp, khu chế xuất, khu công nghệ cao, cụm công nghiệp và các khu có đặc điểm tương tự.",
+   "dieu": "5.1.1.1 (Sửa đổi 1:2023)",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép không trang bị khi nhà, công trình nằm trong bán kính 400 m tính từ trụ cấp nước chữa cháy hoặc từ bến lấy nước của nguồn nước tự nhiên hoặc nhân tạo (ao, hồ, sông, bể nước, nguồn nhân tạo khác) đến mọi điểm của nhà xét theo phương ngang, và lưu lượng/trữ lượng nước chữa cháy bảo đảm theo quy định.",
+   "dieu": "2.3.2",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Mục 9a, 9b, 9c của Bảng C.1 (nhà máy sản xuất, lắp ráp ô tô; công trình sản xuất săm, lốp ô tô; công trình sản xuất, kho trạm chiết nạp sản phẩm hóa dầu) không yêu cầu đối với nhà, công trình nằm trong khu công nghiệp, cụm công nghiệp.",
+   "dieu": "Bảng C.1, chú thích (3)",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Chú thích (1): trạm dừng nghỉ chỉ yêu cầu với trạm được quy hoạch theo các tuyến đường cao tốc. Chú thích (2): kho chứa khí hóa lỏng chỉ yêu cầu với kho nằm độc lập, không gồm kho của cơ sở sản xuất, dân dụng.",
+   "dieu": "Bảng C.1, chú thích (1), (2)",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Nhà nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà (bồn, bể, trụ nước chữa cháy ngoài nhà, hồ nước chữa cháy tự nhiên và nhân tạo và các nguồn nước tương tự khác) thì không yêu cầu bắt buộc phải trang bị cấp nước chữa cháy ngoài nhà.",
+   "dieu": "5.1.1.1 (Sửa đổi 1:2023), xem 5.1.4.7; 5.1.5.9",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Bảo dưỡng ít nhất một năm một lần.",
+   "dieu": "1.5.13",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nếu không bảo đảm lưu lượng/trữ lượng nước chữa cháy theo quy định thì phải trang bị hệ thống cấp nước chữa cháy ngoài nhà.",
+   "dieu": "2.3.2",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Khi tính lưu lượng/trữ lượng của hệ thống, cho phép cộng lưu lượng/trữ lượng của hạ tầng cấp nước chữa cháy ngoài nhà hoặc các nguồn nước tự nhiên, nhân tạo.",
+   "dieu": "2.3.2",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Nguồn nước tự nhiên hoặc nhân tạo phải là nguồn nước công cộng hoặc trong nội bộ dự án, công trình.",
+   "dieu": "2.3.2, chú thích 2",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu loại nhà và quy mô (số tầng, tổng diện tích sàn, chiều dài hầm, sản lượng) với Bảng C.1; nếu miễn thì kiểm trên tổng mặt bằng khoảng cách ngang từ trụ nước/bến lấy nước đến mọi điểm của nhà ≤ 400 m và lưu lượng/trữ lượng. Suy từ 2.3.2, Bảng C.1.",
+   "dieu": "suy từ 2.3.2, Phụ lục C",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Xem nhà có nằm trong bán kính phục vụ của nguồn nước ngoài nhà hay không (suy từ 5.1.1.1 và 5.1.5.9).",
+   "dieu": "suy từ 5.1.1.1",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác hệ thống họng nước chữa cháy trong nhà (Phụ lục B, Bảng B.1) có đối tượng và ngưỡng quy mô riêng; một nhà có thể thuộc diện này mà không thuộc diện kia.",
+   "dieu": "2.3.1, 2.4.1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Bản 2022 dẫn chiếu thực hiện theo TCVN 3890; Sửa đổi 1:2023 đổi thành gắn với đầu tư hạ tầng kỹ thuật; TCVN 3890:2023 chỉ để tham khảo (chú thích).",
+   "dieu": "5.1.1.1",
+   "nguon": "37d9e08d484e",
+   "can_xem": true
+  }
+ ]
+}

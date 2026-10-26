@@ -1,0 +1,82 @@
+{
+ "slug": "dau-bao-chay-nhiet-kieu-diem",
+ "ten": "Đầu báo cháy nhiệt kiểu điểm",
+ "dong_nghia": [
+  "Heat detector"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Đầu báo cháy khói kiểu điểm"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu báo cháy nhiệt: đầu báo cháy tự động nhạy cảm với sự gia tăng nhiệt độ của môi trường nơi lắp đặt.",
+   "dieu": "3.6",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Dùng ở nơi cháy giai đoạn đầu chủ yếu phát sinh nhiệt và dùng đầu báo khác có thể báo cháy giả.",
+   "dieu": "4.1.5.4",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không dùng đầu báo nhiệt gia tăng hoặc nhiệt kép trong môi trường biến động nhiệt độ đột ngột vượt quá 5 °C/min; không dùng nhiệt cố định nơi nhiệt độ không khí trong đám cháy có thể không đạt ngưỡng hoặc đạt sau thời gian dài.",
+   "dieu": "4.1.5.5",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Ngưỡng kích hoạt của nhiệt cố định, nhiệt kép phải cao hơn nhiệt độ tối đa của môi trường tại vị trí lắp ít nhất 20 °C.",
+   "dieu": "4.1.5.6",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Cảm biến cách trần/mái 0,015–0,1 m; nếu cấu trúc mái cản đối lưu nhiệt thì lắp trên cấu trúc đó, cảm biến cách mái không quá 0,35 m.",
+   "dieu": "5.9.2.1.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Trần phẳng: điểm bất kỳ đến đầu báo gần nhất ≤ 5,1 m; giữa các đầu báo ≤ 7,2 m.",
+   "dieu": "5.9.2.1.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Hàng gần nhất đến tường/vách ngăn 0,3–3,6 m; đến lỗ mở cấp không khí ≥ 0,6 m.",
+   "dieu": "5.9.2.1.4",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Trần chia bởi dầm, xà, ống sâu > 0,3 m thì giảm khoảng cách giữa các đầu báo 30 %.",
+   "dieu": "5.9.2.1.5",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Mái dốc: cách đỉnh 0,5–1,5 m, khoảng cách dọc tối đa 7,2 m; các hàng thấp hơn cách nhau ≤ 7,2 m, có thể 14,4 m nếu so le.",
+   "dieu": "5.9.2.1.3",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "So nhiệt độ ngưỡng đầu báo với nhiệt độ môi trường tối đa (+20 °C) và đo khoảng cách trên mặt bằng; suy từ 4.1.5.6, 5.9.2.1.2.",
+   "dieu": "4.1.5.6",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhiệt cố định, nhiệt gia tăng, nhiệt kép là các loại khác nhau với điều kiện dùng khác nhau.",
+   "dieu": "3.7, 3.8, 4.1.5.5",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ]
+}

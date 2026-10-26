@@ -1,0 +1,82 @@
+{
+ "slug": "he-thong-chua-chay-tu-dong-trong-gara-o-to",
+ "ten": "Hệ thống chữa cháy tự động trong gara ô-tô",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy gara ô-tô (loại 1–5)",
+  "Gara ô-tô cơ khí"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Gara dạng kín phải có chữa cháy tự động trong các gian phòng chứa ô-tô: gara ngầm không phụ thuộc số tầng; gara trên mặt đất từ 2 tầng trở lên; gara 1 tầng đạt ngưỡng diện tích theo bậc chịu lửa (bậc I, II, III ≥ 7000 m²; bậc IV S0 ≥ 3600 m²; bậc IV S1 ≥ 2000 m²; bậc IV không thuộc S2, S3 ≥ 1000 m²; ngăn chứa riêng > 5 ngăn); gara trong nhà chức năng khác; gian phòng lưu giữ xe chở nhiên liệu và chất bôi trơn; gara nằm dưới cầu; gara cơ khí.",
+   "dieu": "2.3.5.2",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Phải trang bị phát hiện cháy tự động cho gara trên mặt đất 1 tầng dạng kín có diện tích nhỏ hơn mức nêu ở 2.3.5.2 c hoặc có số ngăn không quá 5, và cho các gian phòng nêu ở 2.2.1.3 (trừ khu vệ sinh và buồng thông gió).",
+   "dieu": "2.3.5.3",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép không trang bị chữa cháy tự động trong gara ngầm một tầng sức chứa tới 25 chỗ xây trên khu đất trống.",
+   "dieu": "2.3.5.2 g",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara 1 hoặc 2 tầng dạng ngăn có lối ra ngoài trời trực tiếp từ từng ngăn: cho phép không trang bị phát hiện cháy và chữa cháy tự động.",
+   "dieu": "2.3.5.4",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gian phòng có nhân viên trực ban ngày đêm: cho phép không trang bị phát hiện cháy tự động.",
+   "dieu": "2.3.5.3",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Gara ngầm từ 2 tầng hầm trở lên: đường ống nước chữa cháy trong đặt riêng; đường ống và thiết bị chữa cháy tự động có đoạn ống nhô ra ngoài, đầu nối lắp van và van ngược chiều.",
+   "dieu": "2.3.2.3; 2.3.2.4",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Lăng phun và lưu lượng tia phun trong gara dạng kín: khoang cháy 500–5.000 m³: 2 lăng, 2,5 l/s/tia; trên 5.000 m³: 2 lăng, 5 l/s/tia. Cho phép không đặt ống cấp nước chữa cháy trong với gara 1, 2 tầng dạng ngăn có lối ra ngoài trời trực tiếp từ từng ngăn.",
+   "dieu": "2.3.2.1",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Yêu cầu về lượng nước chữa cháy và thông gió lấy như nhà kho hạng C.",
+   "dieu": "2.3.1.1",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Cấp điện hạng 1 cho thiết bị phát hiện và chữa cháy tự động.",
+   "dieu": "2.3.4.2",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu loại gara, số tầng, bậc chịu lửa, cấp S, diện tích, số ngăn với từng điểm 2.3.5.2 a–g; xem bản vẽ có chữa cháy tự động hay chỉ phát hiện cháy. Suy từ 2.3.5.2–2.3.5.3.",
+   "dieu": "2.3.5.2; 2.3.5.3",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Điều kiện 2.3.5.2 áp dụng cho gara dạng kín; 'chữa cháy tự động' (2.3.5.2) khác 'phát hiện cháy tự động' (2.3.5.3) áp dụng cho gara nhỏ hơn ngưỡng.",
+   "dieu": "2.3.5.2; 2.3.5.3",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "buong-thang-bo",
+ "ten": "Buồng thang bộ",
+ "dong_nghia": [
+  "buồng thang bộ không nhiễm khói loại N1 (trường hợp riêng)"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m09-chong-khoi",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Lối ra ngoài trực tiếp",
+  "Hành lang bên",
+  "Trang bị bổ sung hệ thống"
+ ],
+ "ngay": "2026-10-26T04:21:19.609Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà từ 4 tầng trở lên hoặc chiều cao PCCC > 15 m: thoát nạn qua buồng thang bộ có lối ra ngoài trực tiếp, hoặc cầu thang bộ loại 3, hoặc cầu thang bộ loại 2 đối với nhà có hành lang bên.",
+   "dieu": "9.3.3.3.3",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Nhà ≥ 3 tầng (trường hợp 2, 3): dùng buồng thang bộ có lối ra ngoài trực tiếp, hoặc cầu thang bộ loại 3, hoặc loại 2 với nhà có hành lang bên (hoặc không gian liên thông được ngăn cách theo 9.1.7).",
+   "dieu": "9.3.4.3.5; 9.3.5.3.3",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Trường hợp 2 khi phần không để ở chỉ có đồ nội thất, hàng hóa không cháy/cháy yếu và có lối ra khẩn cấp: nhà ≤ 15 m, mỗi tầng ≤ 100 m² có thể một lối ra qua buồng thang bộ; hoặc mỗi tầng ≤ 100 m², ≤ 20 người, một lối ra qua cầu thang bộ đặt trong buồng thang bộ không nhiễm khói loại N1.",
+   "dieu": "9.3.4.3.6",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Cầu thang bộ loại 2 liên thông với tầng hầm/nửa hầm phải nằm trong buồng thang bộ hoặc đáp ứng 9.3.3.3.3.",
+   "dieu": "9.3.3.5.3",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Nhà ≤ 3 tầng và chiều cao PCCC ≤ 15 m có thể thoát nạn qua cầu thang bộ loại 2 (không bắt buộc buồng thang bộ).",
+   "dieu": "9.3.3.3.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Buồng thang bộ dùng thoát nạn phải có lối ra ngoài trực tiếp.",
+   "dieu": "9.3.3.3.3",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng tầng điển hình và tầng trệt: có buồng thang, lối ra ngoài trực tiếp tại tầng trệt. Suy từ 9.3.3.3.3.",
+   "dieu": "9.3.3.3.3",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Cầu thang bộ loại 2 (để hở bên trong nhà) khác buồng thang bộ và cầu thang bộ loại 3 (thang ngoài nhà).",
+   "dieu": "9.2.2.1; 9.3.3.3.3",
+   "nguon": "6ae0fc981256"
+  }
+ ]
+}

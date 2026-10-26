@@ -23,6 +23,7 @@ const Q10_BINH = "knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md"; // mục 2.6�
 const Q10_DEN = "knowledge/qcvn10-2025-den-loa.md"; // mục 2.2, Phụ lục G, H.4
 const Q10_H = "knowledge/qcvn10-2025-phu-luc-h.md"; // Phụ lục H: thiết kế cấp nước ngoài nhà, họng nước, trạm bơm
 
+const KN = (id: string) => `knowledge/hoc/khai-niem/_theo_agent/${id}.md`; // khái niệm agent tự học rút ra, riêng từng agent (runner sinh)
 const HOC = "knowledge/hoc/_da_duyet.md"; // tri thức agent tự học, chỉ gồm ghi chú đã duyệt (runner sinh)
 const AGENTS_GOC: AgentDef[] = [
   { id: "doc-ho-so", ten: "Đọc hồ sơ, lập thông tin công trình", viec: "Đọc toàn bộ bản vẽ, điền các trường A01–A10, B01–B08, C01–C12 và cờ hệ thống PCCC; phân loại từng trang.",
@@ -85,7 +86,7 @@ const AGENTS_GOC: AgentDef[] = [
     luu_y: "Đây là đề xuất sơ bộ cho người thiết kế, không phải kết luận thẩm định. Trả lời tiếng Việt, ngắn, trích điều khoản, ghi rõ giả định và số đo là ước lượng. Thiếu số liệu (chiều cao PCCC, nhóm nhà, hạng, số người, khối tích, sprinkler) thì hỏi lại hoặc nêu giả định có đánh dấu; không bịa trị số quy chuẩn. Khi được cho quy mô và công năng từng tầng thì lập BẢNG THÔNG TIN PCCC theo form trong knowledge/so-bo-thiet-ke-pccc.md (bảng theo tầng, bảng chỉ tiêu, hệ quả sơ bộ); đầu ra này sẽ làm nền cho báo cáo khảo sát và báo giá." },
 ];
 
-export const AGENTS: AgentDef[] = AGENTS_GOC.map((a) => ({ ...a, tri_thuc: [...a.tri_thuc, HOC] }));
+export const AGENTS: AgentDef[] = AGENTS_GOC.map((a) => ({ ...a, tri_thuc: [...a.tri_thuc, HOC, KN(a.id)] }));
 
 /** Đọc hồ sơ (A0) và hạng mục tra bảng đơn giản giao Gemini web ở chế độ "hỗn hợp"; mục khó, rà soát, hướng dẫn do Claude. Gemini lỗi thì chạy lại bằng Claude. */
 export const AGENT_GEMINI = ["doc-ho-so", "m03-khoang-cach", "m08-thang-may-cc", "m10-binh-chua-chay", "m13-cap-dien", "m15-cnch", "m16-chong-set", "m17-lien-lac", "m18-quang-cao"];

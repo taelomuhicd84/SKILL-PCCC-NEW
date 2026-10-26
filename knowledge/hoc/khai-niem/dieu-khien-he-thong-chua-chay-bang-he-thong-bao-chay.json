@@ -1,0 +1,43 @@
+{
+ "slug": "dieu-khien-he-thong-chua-chay-bang-he-thong-bao-chay",
+ "ten": "Điều khiển hệ thống chữa cháy bằng hệ thống báo cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy địa chỉ"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Trường hợp hệ thống báo cháy dùng để điều khiển kích hoạt hệ thống chữa cháy.",
+   "dieu": "5.13.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Mỗi điểm trong khu vực bảo vệ phải được kiểm soát bằng 2 đầu báo cháy tự động thuộc 2 kênh hoặc 2 địa chỉ khác nhau.",
+   "dieu": "5.13.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Cáp tín hiệu điều khiển thiết bị ngoại vi và dây tín hiệu từ đầu báo dùng kích hoạt chữa cháy tự động là loại chịu nhiệt cao (chống cháy 30 min); cho phép cáp thường nếu có biện pháp bảo vệ khỏi nhiệt ít nhất 30 min.",
+   "dieu": "5.14.6",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng đầu báo trong khu vực chữa cháy tự động: mỗi điểm có 2 đầu báo thuộc 2 kênh/địa chỉ; xem loại cáp chống cháy 30 min; suy từ 5.13.2, 5.14.6.",
+   "dieu": "5.13.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": []
+}

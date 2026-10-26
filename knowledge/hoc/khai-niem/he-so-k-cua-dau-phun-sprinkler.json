@@ -1,0 +1,47 @@
+{
+ "slug": "he-so-k-cua-dau-phun-sprinkler",
+ "ten": "Hệ số K của đầu phun Sprinkler",
+ "dong_nghia": [
+  "đặc tính lưu lượng đầu phun",
+  "kv"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Đầu phun chủ đạo",
+  "Hệ số RTI"
+ ],
+ "ngay": "2026-10-26T04:29:36.048Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Bảng quy đổi: K 5,6 gpm/psi^1/2 = 80 L/min/bar^1/2, lỗ D15; K 8,0 = 115, lỗ D15 hoặc D20; K 11,2 = 160, lỗ D15 hoặc D20; K 14,0 = 200, lỗ D20; K 16,8 = 240, lỗ D20; K 19,6 = 280, lỗ D25; K 22,4 = 320, lỗ D25; K 25,2 = 360, lỗ D25; K 28,0 = 400, lỗ D25. Quy đổi: 1 gpm/psi^1/2 = 0,075 l/s·m^1/2; 1 lpm/bar^1/2 = 0,0053 l/s·m^1/2.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Theo kinh nghiệm chọn K để tối ưu kinh tế – kỹ thuật: cường độ phun < 0,24 thì K 5,6 hoặc K 8,0; từ 0,24 đến ≤ 0,3 thì K 8,0 hoặc K 11,2; > 0,3 thì K ≥ 11,2.",
+   "dieu": "Tập huấn TCVN 7336:2021 (kinh nghiệm)",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Kiểm tra thứ nguyên của K trong catalogue/bảng tính (gpm/psi^1/2, L/min/bar^1/2 hay l/s·m^1/2) trước khi dùng vào công thức thủy lực.",
+   "dieu": "suy từ tài liệu (lưu ý thứ nguyên)",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Hệ số K theo gpm/psi^1/2 khác K theo L/min/bar^1/2 và khác kv theo l/s·m^1/2; phải đổi đơn vị đúng.",
+   "dieu": "",
+   "nguon": "0295bcc50340"
+  }
+ ]
+}

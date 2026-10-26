@@ -1,0 +1,90 @@
+{
+ "slug": "mang-duong-ong-nuoc-chua-chay-ngoai-nha-mach-vong-duong-ong-cut",
+ "ten": "Mạng đường ống nước chữa cháy ngoài nhà (mạch vòng, đường ống cụt)",
+ "dong_nghia": [
+  "mạng cụt",
+  "mạng vòng",
+  "đường ống cụt"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Trụ cấp nước chữa cháy",
+  "Bồn, bể trữ nước chữa cháy ngoài nhà",
+  "Trụ nước chữa cháy",
+  "Lưu lượng cấp nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T04:26:33.933Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Mạng đường ống dẫn nước chữa cháy phải là mạch vòng. Cho phép đường ống cụt khi cấp nước chữa cháy hoặc sinh hoạt - chữa cháy có chiều dài không lớn hơn 200 m, không phụ thuộc lưu lượng yêu cầu",
+   "dieu": "5.1.4.2",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Khu dân cư đến 5 000 người và lưu lượng ngoài nhà đến 10 L/s hoặc số họng trong nhà mỗi nhà đến 12 họng: cho phép mạng cụt dài trên 200 m nếu có bồn bể, tháp nước áp lực hoặc bể điều tiết chứa toàn bộ lượng nước chữa cháy",
+   "dieu": "5.1.4.2",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không cho phép nối vòng mạng đường ống ngoài nhà bằng mạng đường ống bên trong nhà và công trình",
+   "dieu": "5.1.4.2",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Đường kính ống dẫn nước chữa cháy ngoài nhà cho khu dân cư và cơ sở sản xuất không nhỏ hơn 100 mm; khu vực nông thôn không nhỏ hơn 75 mm",
+   "dieu": "5.1.4.5",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Từ 2 đường ống cấp trở lên phải có van chuyển đổi để khi ngắt 1 đường vẫn bảo đảm chữa cháy 100%",
+   "dieu": "5.1.4.1",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Van đường kính đến 400 mm có thể khóa bằng tay khi không điều khiển từ xa/tự động; lớn hơn 400 mm là khóa điện hoặc thủy lực; mọi trường hợp đều phải mở, đóng được bằng tay",
+   "dieu": "5.1.4.4",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Đường kính ống nước chữa cháy ngoài nhà cho khu dân cư và cơ sở sản xuất không nhỏ hơn 100 mm; khu vực nông thôn không nhỏ hơn 75 mm",
+   "dieu": "Đường kính ống",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Lắp từ 2 đường ống cấp trở lên phải có van chuyển đổi giữa chúng, khi ngắt 1 đường hoặc một phần vẫn chữa cháy bảo đảm 100 %",
+   "dieu": "Bố trí van khóa – Van chuyển đổi",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Van điều khiển từ xa hoặc tự động phải là van điều khiển bằng điện (cho phép khí nén, thủy lực, điện từ); không điều khiển từ xa: van đến DN 400 mm có thể khóa tay, trên 400 mm là khóa điện hoặc thủy lực (trường hợp luận chứng riêng cho phép khóa tay); mọi trường hợp đều mở đóng được bằng tay",
+   "dieu": "Bố trí van khóa – Yêu cầu kỹ thuật với van",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Đường ống áp suất cao: máy bơm chữa cháy phải hoạt động không trễ hơn 5 phút sau tín hiệu báo cháy; áp suất tự do mạng áp suất cao phải bảo đảm tia nước đặc cao không nhỏ hơn 10 m ở lưu lượng tối đa, lăng ở điểm cao nhất của tòa nhà",
+   "dieu": "Áp suất trong đường ống",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ mạng ống ngoài nhà: có vòng hay cụt, chiều dài đoạn cụt so với 200 m, đường kính ống ≥ 100 mm. Suy từ 5.1.4.2, 5.1.4.5",
+   "dieu": "5.1.4.2, 5.1.4.5",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Xem sơ đồ mạng cấp nước ngoài nhà: có vòng kín không; đoạn cụt dài bao nhiêu (≤ 200 m); DN ống (≥ 100 mm); số trụ giữa hai van (≤ 5)",
+   "dieu": "suy từ các mục Yêu cầu đối với mạng đường ống, Bố trí van khóa, Đường kính ống",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "hay_nham": []
+}

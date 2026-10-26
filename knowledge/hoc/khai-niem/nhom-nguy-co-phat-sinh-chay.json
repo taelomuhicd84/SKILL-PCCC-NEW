@@ -1,0 +1,204 @@
+{
+ "slug": "nhom-nguy-co-phat-sinh-chay",
+ "ten": "Nhóm nguy cơ phát sinh cháy",
+ "dong_nghia": [
+  "nhóm nguy cơ cháy",
+  "nhóm 1, 2, 3, 4.1, 4.2, 5, 6, 7",
+  "Nhóm nguy cơ cháy"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m05-cong-nang",
+  "m01-phan-loai",
+  "so-bo-thiet-ke",
+  "ra-soat"
+ ],
+ "lien_quan": [
+  "Hệ thống Sprinkler",
+  "Tải trọng cháy",
+  "Cường độ phun chất chữa cháy",
+  "Cường độ phun",
+  "Diện tích tính toán tối thiểu",
+  "Đầu phun chủ đạo",
+  "Hạng nguy hiểm cháy"
+ ],
+ "ngay": "2026-10-26T04:46:52.672Z",
+ "dinh_nghia": [
+  {
+   "y": "Phân loại cơ sở theo nhóm nguy cơ phát sinh cháy, phụ thuộc vào công năng và tải trọng cháy (nhóm 1, 2, 3, 4.1, 4.2, 5, 6, 7).",
+   "dieu": "Phụ lục A",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhóm dùng để chọn các thông số của hệ thống chữa cháy tự động bằng nước, bọt; được quy định tại Phụ lục A TCVN 7336:2021 (nội dung Phụ lục A không có trong đoạn trích).",
+   "dieu": "TCVN 7336:2021, 5.1.3, Bảng 1 chú thích 2",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhóm của cơ sở xác định theo công năng; nếu không chọn được cơ sở tương tự thì xác định theo công năng của các gian phòng.",
+   "dieu": "Phụ lục A, Chú thích 1",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhóm của cơ sở xác định theo tải trọng cháy: nhóm 2 là 181–1400 MJ/m²; nhóm 4.1 là 1401–2200 MJ/m²; nhóm 4.2 là trên 2200 MJ/m².",
+   "dieu": "Phụ lục A, Chú thích 2",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhóm 1: nhà văn phòng; nhà ở; trường học; bệnh viện, phòng khám; khu vui chơi, giải trí, thẩm mỹ, kinh doanh xoa bóp; nhà hàng; khách sạn, nhà nghỉ; bảo tàng, thư viện; nhà thể dục thể thao; nhà ga hành khách.",
+   "dieu": "Phụ lục A",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhóm 2: cơ sở kinh doanh karaoke, vũ trường, quán bar, câu lạc bộ; nhà hát, rạp chiếu phim, trung tâm hội nghị; chợ, trung tâm thương mại, siêu thị; nhà để xe, sửa chữa ô tô, xe máy; cơ sở thuộc hạng nguy hiểm cháy nổ C3; nhiều gian phòng sản xuất (chế biến gỗ, thuốc lá, điện tử, may mặc...).",
+   "dieu": "Phụ lục A",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhóm 4.2 gồm phòng máy trạm nén khí, trạm chiết xuất và cơ sở sản xuất sử dụng khí cháy, xăng, cồn, chất lỏng cháy, và cơ sở thuộc hạng nguy hiểm cháy nổ C1. Nhóm 5, 6, 7 là kho: 5 là kho vật liệu không cháy trong bao bì dễ cháy hoặc vật liệu dễ cháy; 6 là kho cao su, nhựa; 7 là kho vecni, sơn, chất lỏng dễ cháy, chất lỏng cháy.",
+   "dieu": "Phụ lục A",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Tra Phụ lục A TCVN 7336:2021 để xác định nhóm nguy cơ phát sinh cháy của từng khu vực bảo vệ trong nhà và công trình.",
+   "dieu": "Phụ lục A TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Nhóm nguy cơ phát sinh cháy của từng khu vực bảo vệ trong nhà và công trình được tra theo Phụ lục A TCVN 7336:2021. Các nhóm nêu trong văn bản: 1, 2, 3, 4.1, 4.2 và 5, 6, 7 (nhà kho).",
+   "dieu": "Phụ lục A; 5.1.3 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Tra Phụ lục A theo công năng. Ví dụ trong bảng tính: nhà máy sản xuất sản phẩm thuốc và vật tư y tế thuộc nhóm 2.",
+   "dieu": "Phụ lục A TCVN 7336:2021 (theo bảng tính thủy lực)",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhóm nguy cơ cùng Bảng 1, 2, 3 quyết định cường độ phun tối thiểu, lưu lượng tối thiểu, diện tích tính toán tối thiểu, thời gian phun tối thiểu và khoảng cách tối đa giữa các đầu phun.",
+   "dieu": "5.1.3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Từ nhóm NCPSC tra Bảng 1, 2, 3 TCVN 7336:2021 để lấy cường độ phun tối thiểu (I), diện tích tính toán tối thiểu (S), thời gian phun chữa cháy (tp), lưu lượng tối thiểu (QTT), khoảng cách tối đa giữa các đầu phun (amax).",
+   "dieu": "Bảng 1, 2, 3",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Nhóm 1, 2, 3, 4.1, 4.2 có chiều cao đến 10 m: tra Bảng 1. Cùng nhóm có chiều cao trên 10 m đến 20 m: tra Bảng 3. Nhóm 5, 6, 7 (nhà kho) có chiều cao xếp hàng đến 5,5 m và chiều cao nhà tới 10 m: tra Bảng 2.",
+   "dieu": "Bảng 1, 2, 3",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Từ nhóm đã xác định, tra Bảng 1, 2, 3 để lấy cường độ phun tối thiểu, diện tích tính toán tối thiểu, thời gian phun, lưu lượng tối thiểu, khoảng cách tối đa giữa các đầu phun. Nhóm 1 (có trần treo) có thể lắp đầu phun Sprinkler trần và Sprinkler lắp chìm (âm trần).",
+   "dieu": "5.1.3; 5.1.13 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Các nhóm trong Bảng 1: 1, 2, 3, 4.1, 4.2, 5, 6, 7. Nhóm 5, 6, 7 là nhà kho, tra thêm Bảng 2.",
+   "dieu": "TCVN 7336:2021, Bảng 1, 2; Tài liệu tập huấn",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Gian phòng nhóm 1 có trần treo có thể lắp đầu phun Sprinkler trần và Sprinkler lắp chìm (âm trần).",
+   "dieu": "TCVN 7336:2021, 5.1.13",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Thời gian phun của hệ thống bọt bội số nở thấp và trung bình chữa cháy theo diện tích: 25 phút với phòng nhóm 7; 15 phút với phòng hạng nguy hiểm cháy nổ A, B, C1; 10 phút với phòng hạng C2 và C3.",
+   "dieu": "TCVN 7336:2021, Bảng 1 chú thích 1 (2)",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bảng 1, nước: nhóm 1 cường độ 0,08 l/s.m², lưu lượng 10 l/s, diện tích 60 m², phun 30 min, cách đầu phun tối đa 4 m. Nhóm 2: 0,12 l/s.m², 30 l/s, 120 m², 60 min, 4 m. Nhóm 3: 0,24 l/s.m², 60 l/s, 120 m², 60 min, 4 m. Nhóm 4.1: 0,3 l/s.m², 110 l/s, 180 m², 60 min, 4 m.",
+   "dieu": "Bảng 1",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhóm 4.2 chỉ có số liệu dung dịch chất tạo bọt: 0,17 l/s.m², 65 l/s, 180 m², 60 min, đầu phun cách nhau tối đa 3 m. Nhóm 5, 6, 7 lấy theo Bảng 2 (kho), đầu phun cách nhau tối đa 3 m.",
+   "dieu": "Bảng 1",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhóm 2: lưu lượng và cường độ phun phải tăng so với Bảng 1 ít nhất 1,5 lần khi tải trọng cháy trên 1400 MJ/m², ít nhất 2,5 lần khi tải trọng cháy cụ thể trên 2200 MJ/m².",
+   "dieu": "Phụ lục A, Chú thích 4",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Thông số hệ thống cho phòng kho trong nhà, cơ sở thuộc nhóm 1 lấy theo phòng nhóm 2.",
+   "dieu": "Phụ lục A, Chú thích 3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhà kho có chiều cao xếp hàng đến 5,5 m và chiều cao phòng hơn 10 m: lưu lượng và cường độ phun phải tăng 10% cho mỗi 2 m chiều cao tăng thêm của phòng.",
+   "dieu": "Chú thích 3 Bảng 2",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Nhóm 6, khi chữa cháy cao su, vật liệu bằng cao su và nhựa: dùng nước pha chất phụ gia để tăng khả năng thẩm thấu, hoặc bọt có bội số nở thấp.",
+   "dieu": "Chú thích 6",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Nếu diện tích khu vực được bảo vệ thực tế (Stt) nhỏ hơn diện tích tính toán tối thiểu (S) trong Bảng 1 thì lưu lượng tối thiểu được giảm theo hệ số K = Stt/S.",
+   "dieu": "Chú thích 5",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Khoảng cách tối đa giữa các đầu phun theo Bảng 1: 4 m với nhóm 1, 2, 3, 4.1; 3 m với nhóm 4.2.",
+   "dieu": "Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xác định công năng (hoặc tải trọng cháy) từng phòng trên hồ sơ, đối chiếu Phụ lục A để ra nhóm, rồi so cường độ phun, lưu lượng, diện tích, thời gian phun trong thuyết minh tính toán với Bảng 1, 2, 3. Suy từ 5.1.3.",
+   "dieu": "5.1.3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Đối chiếu công năng từng khu vực trong hồ sơ với Phụ lục A để ra nhóm. Kiểm tra cường độ phun, diện tích tính toán, lưu lượng trong thuyết minh có đạt Bảng 1/2/3 tương ứng với nhóm và chiều cao không.",
+   "dieu": "suy từ Phụ lục A, Bảng 1, 2, 3",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Đối chiếu nhóm nguy cơ ghi trên bản vẽ/thuyết minh từng khu vực với Phụ lục A, rồi kiểm thông số hệ thống theo đúng bảng tương ứng chiều cao.",
+   "dieu": "suy từ 5.1.3 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Đối chiếu nhóm NCPSC ghi trong thuyết minh/bảng tính với Phụ lục A theo công năng thực tế, vì nhóm quyết định S, cường độ phun, lưu lượng, thời gian phun, khoảng cách đầu phun.",
+   "dieu": "suy từ 5.1.3",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhóm nguy cơ phát sinh cháy (nhóm 1–7) khác hạng nguy hiểm cháy nổ (A, B, C1…). Hạng C3 xếp vào nhóm 2, C1 xếp vào nhóm 4.2.",
+   "dieu": "Phụ lục A",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhóm 1–4 (tra Bảng 1 hoặc 3 theo chiều cao) khác nhóm 5–7 là nhà kho (tra Bảng 2).",
+   "dieu": "Bảng 1, 2, 3",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Nhóm nguy cơ phát sinh cháy (nhóm 1–7 của TCVN 7336) khác hạng nguy hiểm cháy nổ của phòng (A, B, C1, C2, C3); thời gian phun ở chú thích Bảng 1 còn xét theo hạng nguy hiểm cháy nổ.",
+   "dieu": "Chú thích Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Nhóm NCPSC (theo Phụ lục A TCVN 7336) khác hạng nguy hiểm cháy nổ (A, B, C1, C2, C3); văn bản dùng hạng nguy hiểm cháy nổ riêng cho thời gian phun bọt.",
+   "dieu": "TCVN 7336:2021, Bảng 1 chú thích 1 (2)",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ]
+}

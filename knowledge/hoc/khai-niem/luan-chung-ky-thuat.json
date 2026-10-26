@@ -1,0 +1,62 @@
+{
+ "slug": "luan-chung-ky-thuat",
+ "ten": "Luận chứng kỹ thuật",
+ "dong_nghia": [],
+ "anh_huong": [
+  "doc-ho-so",
+  "m05-cong-nang",
+  "ra-soat",
+  "chung"
+ ],
+ "lien_quan": [
+  "Thiết kế theo công năng"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [
+  {
+   "y": "Khi cần luận chứng kỹ thuật (theo 1.1.10) thì luận chứng này là một trong những nội dung của hồ sơ thiết kế về PCCC; trình bày các giải pháp kỹ thuật để thay thế, bổ sung một số yêu cầu an toàn cháy của quy chuẩn và cơ sở của các giải pháp đó.",
+   "dieu": "Điều 1.5.4",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Dùng cho các trường hợp riêng biệt quy định tại 1.1.10 và 3.1.7, có thể bổ sung, thay thế yêu cầu của quy chuẩn bằng yêu cầu an toàn cháy phù hợp khác theo tài liệu chuẩn hoặc luận chứng kỹ thuật phù hợp.",
+   "dieu": "Điều 1.1.10, 3.1.7",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Nhà, khoang cháy hoặc tầng nhà được cải tạo, sửa chữa không thể đáp ứng yêu cầu của quy chuẩn thì áp dụng 1.1.10.",
+   "dieu": "Điều 1.1.4",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phải đáp ứng các quy định tại 1.5 (6 yếu tố), phù hợp mục đích của yêu cầu cần thay thế và phù hợp tài liệu chuẩn thiết kế an toàn cháy được áp dụng. Cơ sở có thể là tính toán, mô phỏng cháy (fire engineering), tài liệu chuẩn, hoặc giải pháp kỹ thuật phù hợp khác.",
+   "dieu": "Điều 1.5.4",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Khi dùng kỹ thuật an toàn cháy phải xem xét các kịch bản cháy; thiết kế bảo đảm: người trong nhà thoát nạn an toàn; nhà duy trì ổn định tổng thể (không sập đổ) trong khoảng thời gian tương ứng giới hạn chịu lửa của kết cấu chịu lực theo bậc chịu lửa; ngăn chặn cháy lan sang công trình lân cận.",
+   "dieu": "Điều 1.5.4",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Kiểm hồ sơ có luận chứng riêng, nêu rõ yêu cầu bị thay thế, giải pháp thay thế và cơ sở tính toán/tài liệu chuẩn.",
+   "dieu": "suy từ Điều 1.5.4",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác áp dụng tài liệu chuẩn nước ngoài (Điều 1.1.7): phải bảo đảm nguyên tắc Điều 1.5 và pháp luật Việt Nam về PCCC.",
+   "dieu": "Điều 1.1.7",
+   "nguon": "ee1434b8c963"
+  }
+ ]
+}

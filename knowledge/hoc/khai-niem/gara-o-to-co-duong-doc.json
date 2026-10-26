@@ -1,0 +1,61 @@
+{
+ "slug": "gara-o-to-co-duong-doc",
+ "ten": "Gara ô-tô có đường dốc",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m04-giao-thong",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Đường dốc cách ly",
+  "Gara ô-tô cơ khí"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [
+  {
+   "y": "Gara ô-tô sử dụng dãy các sàn nâng cao đều (hoặc hạ thấp đều) hoặc dãy các đường dốc nối giữa các sàn, cho phép ô-tô lên, xuống được mặt đất.",
+   "dieu": "1.2.4",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Gara nhiều tầng di chuyển ô-tô bằng đường dốc, sàn dốc giữa các tầng hoặc thang máy chuyên dụng (thiết bị cơ khí).",
+   "dieu": "2.2.1.10",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Sàn xoắn liên tục: mỗi vòng xoắn hoàn chỉnh được xem như một tầng; gara có tầng lửng: tổng số tầng bằng số tầng lửng chia đôi, diện tích một tầng bằng tổng hai tầng lửng liền kề.",
+   "dieu": "2.2.1.10",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Không cho phép bố trí lối vào (lối ra) từ các tầng dưới và trên mặt đất qua khu vực lưu giữ xe ở tầng một hoặc tầng nửa hầm.",
+   "dieu": "2.2.1.11",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Độ cao thông thủy gian phòng và cổng vượt chiều cao ô-tô lớn nhất ít nhất 0,2 m và không nhỏ hơn 2 m.",
+   "dieu": "2.2.1.22",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt cắt: cách tính số tầng với sàn xoắn/tầng lửng; chiều cao thông thủy ≥ 2 m. Suy từ 2.2.1.10, 2.2.1.22.",
+   "dieu": "2.2.1.10; 2.2.1.22",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác gara cơ khí: gara có đường dốc có người lái; gara cơ khí không có người lái.",
+   "dieu": "1.2.4; 1.2.5",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

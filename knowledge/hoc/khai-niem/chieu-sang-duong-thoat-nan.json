@@ -1,0 +1,59 @@
+{
+ "slug": "chieu-sang-duong-thoat-nan",
+ "ten": "Chiếu sáng đường thoát nạn",
+ "dong_nghia": [
+  "escape route lighting"
+ ],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Chiếu sáng sự cố",
+  "Chiếu sáng sự cố gian phòng",
+  "Độ rọi",
+  "Đường thoát nạn"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [
+  {
+   "y": "Cung cấp ánh sáng để đảm bảo dễ dàng nhận biết các đường thoát nạn trong nhà và công trình, đồng thời giúp phát hiện các vật cản trong quá trình thoát nạn.",
+   "dieu": "3.4",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đường thoát nạn rộng đến 2 m: độ rọi trung bình theo phương nằm ngang trên mặt sàn dọc theo tâm đường thoát nạn ≥ 1 lux; dải ở giữa có chiều rộng ≥ một nửa chiều rộng đường thoát nạn phải được chiếu sáng tối thiểu 50% giá trị đó.",
+   "dieu": "5.1.2",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Đường thoát nạn rộng hơn có thể xem là nhiều dải rộng 2 m hoặc xử lý như chiếu sáng khoảng trống (chống hoảng loạn).",
+   "dieu": "5.1.2 chú thích",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Tỉ lệ độ rọi lớn nhất/nhỏ nhất dọc đường tâm đường thoát nạn không lớn hơn 40:1.",
+   "dieu": "5.1.4",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ 5.1.2, 5.1.4: xem bản tính/mô phỏng độ rọi (hoặc catalogue đèn) của hành lang; so với 1 lux tại tâm, 50% ở dải giữa, tỉ lệ ≤ 40:1; xem bề rộng đường thoát nạn để quyết định chia dải 2 m.",
+   "dieu": "suy từ 5.1.2, 5.1.4",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Trị số 1 lux áp dụng cho đường thoát nạn; gian phòng/khoảng trống dùng 0,5 lux.",
+   "dieu": "5.1.2, 5.1.3",
+   "nguon": "f0d3f93819cb"
+  }
+ ]
+}

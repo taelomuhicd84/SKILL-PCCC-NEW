@@ -1,0 +1,60 @@
+{
+ "slug": "ngan-chay-theo-phuong-dung",
+ "ten": "Ngăn cháy theo phương đứng",
+ "dong_nghia": [
+  "ngăn chặn cháy lan theo phương ngang của mặt ngoài nhà"
+ ],
+ "anh_huong": [
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Ngăn cháy theo công năng"
+ ],
+ "ngay": "2026-10-26T04:32:03.287Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Áp dụng các điều 4.33.1 đến 4.33.3, trong đó lưu ý điều 4.33.4.",
+   "dieu": "4.33",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Cho phép không áp dụng 4.33 đối với nhà từ ba tầng trở xuống hoặc có chiều cao PCCC dưới 15 m, ga ra để xe nổi dạng hở, hoặc nhà được trang bị chữa cháy tự động.",
+   "dieu": "4.33.4",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Cho phép không áp dụng 4.32.1 nếu nhà được trang bị chữa cháy tự động.",
+   "dieu": "4.32",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Tường ngăn cháy loại 1 phải chia cắt các tường ngoài có cấp nguy hiểm cháy K1, K2, K3 và vươn ra khỏi mặt phẳng tường ngoài tối thiểu 30 cm.",
+   "dieu": "4.32.1",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Cho phép không chia cắt tường ngoài nếu tường ngoài có cấp K0, hoặc tường ngăn cháy loại 1 tiếp giáp với dải tường ngoài theo phương đứng rộng tối thiểu 1,2 m, giới hạn chịu lửa không thấp hơn E60 và cấp K0.",
+   "dieu": "4.32.1",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Tường ngăn cháy loại 2 và vách ngăn cháy loại 1 nếu giao với tường ngoài phải tiếp giáp dải ngăn cháy theo phương đứng rộng không nhỏ hơn 1 m, giới hạn chịu lửa theo Bảng 4 hoặc Bảng A.1 tùy chiều cao nhà. Vách ngăn cháy loại 2 phải tiếp xúc dải tường ngoài đặc theo phương đứng rộng không nhỏ hơn 1 m.",
+   "dieu": "4.32",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt đứng và mặt bằng: cấp K của tường ngoài, bề rộng dải ngăn cháy (1,2 m / 1 m), phần vươn ra 30 cm; kiểm tra nhà có thuộc diện miễn (≤ 3 tầng, < 15 m, có chữa cháy tự động).",
+   "dieu": "suy từ 4.32.1, 4.33",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": []
+}

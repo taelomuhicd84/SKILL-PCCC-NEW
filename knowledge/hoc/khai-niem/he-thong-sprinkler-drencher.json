@@ -1,0 +1,65 @@
+{
+ "slug": "he-thong-sprinkler-drencher",
+ "ten": "Hệ thống Sprinkler-Drencher",
+ "dong_nghia": [
+  "Sprinkler - Drencher điền nước",
+  "Sprinkler - Drencher điền khí"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống Sprinkler",
+  "Hệ thống Drencher",
+  "Hệ số RTI",
+  "Đầu phun Sprinkler"
+ ],
+ "ngay": "2026-10-26T04:29:36.048Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Có 3 loại: điền nước; điền khí (1); điền khí (2). Điền nước ở chế độ chờ đường ống chứa đầy nước. Điền khí (1): chứa khí nén, đưa chất chữa cháy vào đường ống khi có tín hiệu báo cháy tự động, phun khi đồng thời kích hoạt đầu báo cháy và đầu phun Sprinkler. Điền khí (2): đưa chất chữa cháy vào ống và phun chỉ khi đồng thời kích hoạt đầu báo cháy và đầu phun Sprinkler.",
+   "dieu": "5.4.1, 5.4.2",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Điền nước dùng cho vị trí cần chữa cháy nhanh và chấp nhận rò rỉ khi hư hỏng/kích hoạt giả; điền khí (1) dùng cho phòng không mong muốn rò rỉ chất chữa cháy; điền khí (2) dùng cho phòng cần loại trừ cả báo cháy giả của đầu báo lẫn rò rỉ.",
+   "dieu": "5.4.2",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Môi trường từ 5 °C trở lên được lắp đầu phun hướng lên, xuống, ngang; dưới 5 °C chỉ lắp hướng lên hoặc ngang.",
+   "dieu": "5.4.3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Bản loại điền khí phải tính theo 5.2 và 5.3.1; máy nén khí dừng khi có tín hiệu từ đầu báo cháy, bằng tay hoặc đầu phun.",
+   "dieu": "5.4.6, 5.4.7",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Chỉ số thời gian phản ứng nhiệt và nhiệt độ kích hoạt của đầu báo cháy nhiệt không cao hơn của đầu phun; loại đầu báo khác phải nhạy hơn phần tử nhạy nhiệt của Sprinkler.",
+   "dieu": "5.4.8",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Chỉ số thời gian phản ứng nhiệt và nhiệt độ kích hoạt của đầu báo cháy nhiệt tự động không được cao hơn của các đầu phun sử dụng; các loại đầu báo cháy tự động khác phải nhạy hơn phần tử nhạy nhiệt của đầu phun Sprinkler.",
+   "dieu": "Điều 5.4.8",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "So RTI và nhiệt độ kích hoạt của đầu báo cháy nhiệt với đầu phun trong catalogue.",
+   "dieu": "suy từ Điều 5.4.8",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,52 @@
+{
+ "slug": "gioi-han-chiu-lua-cua-cau-kien-xay-dung",
+ "ten": "Giới hạn chịu lửa của cấu kiện xây dựng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m02-bac-chiu-lua",
+  "m06-ngan-chay",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Trạm bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T03:48:01.402Z",
+ "dinh_nghia": [
+  {
+   "y": "Giới hạn chịu lửa của cấu kiện xây dựng được xác định bằng khoảng thời gian (tính bằng phút) kể từ khi bắt đầu thử chịu lửa theo chế độ nhiệt tiêu chuẩn cho đến khi xuất hiện một hoặc một số dấu hiệu nối tiếp nhau của các trạng thái giới hạn: mất khả năng chịu lực (R); mất tính toàn vẹn (E); mất khả năng cách nhiệt (I).",
+   "dieu": "1.4.18",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Kết cấu ngăn cháy và bậc chịu lửa được định nghĩa và phân loại theo QCVN 06:2020/BXD.",
+   "dieu": "1.4.19",
+   "nguon": "08bf60f5653f",
+   "can_xem": true
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đối với phòng đặt trạm bơm trong nhà: tường ngăn cháy không thấp hơn REI 150, sàn ngăn cháy không thấp hơn REI 60, cửa ngăn cháy không thấp hơn EI 70.",
+   "dieu": "2.1.2",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu ký hiệu REI/EI trên bản vẽ và thuyết minh với trị số yêu cầu của phòng bơm; suy từ 2.1.2.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "R: khả năng chịu lực; E: tính toàn vẹn; I: khả năng cách nhiệt. Cấu kiện ký hiệu EI không đòi hỏi R.",
+   "dieu": "1.4.18",
+   "nguon": "08bf60f5653f"
+  }
+ ]
+}

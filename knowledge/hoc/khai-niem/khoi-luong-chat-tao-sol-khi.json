@@ -1,0 +1,40 @@
+{
+ "slug": "khoi-luong-chat-tao-sol-khi",
+ "ten": "Khối lượng chất tạo Sol-khí",
+ "dong_nghia": [
+  "Khối lượng chất chữa cháy theo thể tích"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nồng độ thiết kế (chữa cháy Sol-khí)",
+  "Bình phun Sol-khí"
+ ],
+ "ngay": "2026-10-26T04:25:20.406Z",
+ "dinh_nghia": [
+  {
+   "y": "m = d_a x f_a x V; m là khối lượng chất chữa cháy theo thể tích (g); d_a là nồng độ thiết kế (g/m3); f_a là yếu tố thiết kế bổ sung (xem 7.4.2); V là thể tích khu vực được bảo vệ (m3).",
+   "dieu": "Điều 7.4.1",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Tính lượng chất chữa cháy cho khu vực bảo vệ; hồ sơ thiết kế phải có tính toán thể tích khu vực bảo vệ, lượng chất chữa cháy, nguồn điện dự phòng.",
+   "dieu": "Điều 7.4.1",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Tính lại m = d_a x f_a x V từ thể tích khu vực bảo vệ và nồng độ thiết kế trong hồ sơ, so với lượng chất trong bình phun đã chọn. Suy từ Điều 7.4.1.",
+   "dieu": "Điều 7.4.1",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "hay_nham": []
+}

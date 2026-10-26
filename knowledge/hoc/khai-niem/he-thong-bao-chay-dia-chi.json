@@ -1,0 +1,64 @@
+{
+ "slug": "he-thong-bao-chay-dia-chi",
+ "ten": "Hệ thống báo cháy địa chỉ",
+ "dong_nghia": [
+  "Addressable fire alarm system"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Thiết bị báo cháy độc lập",
+  "Chiều cao PCCC",
+  "Hệ thống báo cháy thường",
+  "Hệ thống báo cháy thông minh"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [
+  {
+   "y": "Hệ thống báo cháy khi báo cháy sẽ báo đến từng thiết bị địa chỉ trong hệ thống (đầu báo cháy địa chỉ, module, nút ấn báo cháy địa chỉ,…).",
+   "dieu": "3.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Phải trang bị khi xây dựng mới đối với: nhà điều trị nội trú có tổng diện tích sàn từ 3 000 m² trở lên; nhà khám, chữa bệnh của bệnh viện tâm thần có tổng diện tích sàn từ 3 000 m² trở lên; nhà dưỡng lão có tổng diện tích sàn từ 3 000 m² trở lên; các nhà dân dụng có chiều cao PCCC từ 75 m trở lên.",
+   "dieu": "Bảng A.1, CHÚ THÍCH 2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bắt buộc dùng cáp và dây tín hiệu chống nhiễu; nếu không chống nhiễu thì phải luồn trong ống hoặc hộp kim loại có tiếp đất.",
+   "dieu": "5.14.9",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Phần dây tín hiệu kết nối thiết bị địa chỉ phải là dây chống nhiễu, chống cháy (cho phép chỉ dùng dây chống nhiễu khi thiết bị và trung tâm báo cháy nối dạng mạch vòng).",
+   "dieu": "5.14.10.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Kiểm loại nhà, tổng diện tích sàn hoặc chiều cao PCCC, rồi xem hồ sơ có hệ thống báo cháy địa chỉ khi là công trình xây dựng mới. Suy từ Bảng A.1, CHÚ THÍCH 2.",
+   "dieu": "Bảng A.1, CHÚ THÍCH 2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Xem sơ đồ nguyên lý/chú thích loại cáp: có ghi cáp chống nhiễu (chống cháy nếu không mạch vòng) hay ống kim loại tiếp đất; suy từ 5.14.9, 5.14.10.2.",
+   "dieu": "5.14.9",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác hệ thống báo cháy thường (báo theo khu vực).",
+   "dieu": "3.1, 3.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ]
+}

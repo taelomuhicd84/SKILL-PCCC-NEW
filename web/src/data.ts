@@ -19,6 +19,8 @@ const HOC = "knowledge/hoc/_da_duyet.md";
 export async function taiKb(files: string[]): Promise<Record<string, string>> {
   const out: Record<string, string> = {};
   await Promise.all(files.map(async (f) => {
+    const kn = f.match(/^knowledge\/hoc\/khai-niem\/_theo_agent\/(.+)\.md$/);
+    if (kn) { out[f] = await fetch(`${RUNNER}/hoc/khai-niem/agent?id=${encodeURIComponent(kn[1])}&toi_da=20000`).then((r) => (r.ok ? r.text() : "(chưa có)")).catch(() => "(runner chưa chạy: chưa có khái niệm tự học)"); return; }
     if (f === HOC) { out[f] = await fetch(`${RUNNER}/hoc/da-duyet?toi_da=20000`).then((r) => (r.ok ? r.text() : "(chưa có)")).catch(() => "(runner chưa chạy: chưa có tri thức tự học)"); return; }
     const load = raw["../../" + f];
     out[f] = load ? ((await load()) as string) : "(chưa có file này)";

@@ -1,0 +1,27 @@
+{
+ "slug": "sanh-thang-may",
+ "ten": "Sảnh thang máy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m08-thang-may-cc",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Sảnh ngăn khói",
+  "Sảnh thông tầng"
+ ],
+ "ngay": "2026-10-26T04:52:13.508Z",
+ "dinh_nghia": [
+  {
+   "y": "Không gian trống trước cửa ra vào của thang máy.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

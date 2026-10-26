@@ -1,0 +1,76 @@
+{
+ "slug": "he-thong-duong-ong-kho-co-hong-cho-cap-nuoc-dn65",
+ "ten": "Hệ thống đường ống khô có họng chờ cấp nước DN65",
+ "dong_nghia": [
+  "hệ thống đường ống họng khô"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m08-thang-may-cc",
+  "m07-thoat-nan",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Chiều cao PCCC",
+  "Tầng hầm",
+  "Buồng thang bộ không nhiễm khói",
+  "Hệ thống họng nước chữa cháy trong nhà"
+ ],
+ "ngay": "2026-10-26T04:08:59.612Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà và công trình có chiều cao PCCC lớn hơn 28 m (lớn hơn 50 m đối với nhà nhóm F1.3) hoặc nhà có chiều sâu sàn tầng hầm dưới cùng (tính đến cao độ lối ra thoát nạn ra ngoài) lớn hơn 9 m phải bố trí, có họng chờ DN65 lắp van khóa thường đóng cho lực lượng chữa cháy chuyên nghiệp tại các sảnh thang máy chữa cháy hoặc trong các khoang đệm của buồng thang bộ không nhiễm khói.",
+   "dieu": "2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Công trình đang thi công có chiều cao từ 10 tầng trở lên hoặc chiều cao PCCC từ 28 m trở lên, khi thi công hoàn thiện nội thất, lắp đặt thiết bị cơ điện: phải bố trí tối thiểu 01 hệ thống đường ống khô có họng nước đến mỗi tầng, kết nối được với xe chữa cháy, máy bơm chữa cháy bằng đầu nối bố trí bên ngoài công trình.",
+   "dieu": "2.4.3",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đường kính ống tối thiểu DN65.",
+   "dieu": "2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Có van một chiều hướng từ ngoài vào hệ thống tại họng chờ tiếp nước, có đầu nối kích cỡ phù hợp lắp ngoài nhà để đấu nối với bơm áp lực cao của xe chữa cháy.",
+   "dieu": "2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Có van xả khí tại điểm cao nhất; van xả nước tại vị trí thấp nhất của hệ thống đường ống.",
+   "dieu": "2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Tại họng chờ tiếp nước phải có chỉ thị khu vực phục vụ của hệ thống đường ống họng khô.",
+   "dieu": "2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Giai đoạn thi công: tại mỗi họng nước trang bị ít nhất 02 cuộn vòi đẩy và 01 lăng phun.",
+   "dieu": "2.4.3",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Kiểm chiều cao PCCC, nhóm nhà F1.3, chiều sâu sàn tầng hầm dưới cùng; xem sơ đồ nguyên lý và mặt bằng sảnh thang máy chữa cháy/khoang đệm có họng chờ DN65, van một chiều, van xả khí, van xả nước, đầu nối ngoài nhà, chỉ thị khu vực. Suy từ 2.4.4.",
+   "dieu": "suy từ 2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ngưỡng chiều cao PCCC 28 m (50 m với F1.3) dùng cho đường ống khô; ngưỡng 25 m ở 2.4.2 dùng cho chế độ điều khiển máy bơm.",
+   "dieu": "2.4.2, 2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ]
+}

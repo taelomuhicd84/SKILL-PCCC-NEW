@@ -1,0 +1,95 @@
+{
+ "slug": "khu-vuc-co-nguoi",
+ "ten": "Khu vực có người",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m14-den-su-co",
+  "m07-thoat-nan",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống chữa cháy bằng khí",
+  "Cơ cấu làm trễ thời gian",
+  "Đường thoát nạn",
+  "Đèn chiếu sáng sự cố"
+ ],
+ "ngay": "2026-10-26T04:52:31.152Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Khu vực được bảo vệ bằng hệ thống phun khí chữa cháy thể tích và có thể có người",
+   "dieu": "",
+   "nguon": "kb:tk-khu-vực-có-người"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Trong các khu vực được bảo vệ bằng hệ thống phun khí chữa cháy thể tích và có thể có người thì phải trang bị các hạng mục a) đến h) nêu ở mục 'yeu_cau'",
+   "dieu": "",
+   "nguon": "kb:tk-khu-vực-có-người"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "a) Cơ cấu làm trễ thời gian: khu vực mà thời gian trễ không làm tăng nguy hiểm đáng kể đến con người và tài sản thì hệ thống chữa cháy phải có tín hiệu báo động trước khi phun, với độ trễ thời gian đủ để sơ tán người",
+   "dieu": "a)",
+   "nguon": "kb:tk-khu-vực-có-người"
+  },
+  {
+   "y": "Cơ cấu làm trễ thời gian chỉ được dùng để sơ tán người hoặc để chuẩn bị cho việc phun khí chữa cháy",
+   "dieu": "a)",
+   "nguon": "kb:tk-khu-vực-có-người"
+  },
+  {
+   "y": "b) Bộ chuyển đổi tự động/bằng tay và cơ cấu khóa ngắt nếu cần theo 5.2. Cơ cấu khóa ngắt thường không được dùng, chỉ dùng trong một số trường hợp, đặc biệt cho một số chức năng bảo dưỡng riêng",
+   "dieu": "b)",
+   "nguon": "kb:tk-khu-vực-có-người"
+  },
+  {
+   "y": "c) Đường thoát nạn phải được giữ thông thoáng mọi lúc; trang bị đầy đủ đèn chiếu sáng sự cố và chỉ dẫn thoát nạn để giảm tới mức nhỏ nhất quãng đường phải đi",
+   "dieu": "c)",
+   "nguon": "kb:tk-khu-vực-có-người"
+  },
+  {
+   "y": "d) Cửa mở ra ngoài, có cơ cấu tự đóng, có thể mở từ bên trong",
+   "dieu": "d)",
+   "nguon": "kb:tk-khu-vực-có-người"
+  },
+  {
+   "y": "e) Tín hiệu báo động liên tục bằng ánh sáng và âm thanh bên trong khu vực bảo vệ tại các cửa ra vào, và tín hiệu báo động liên tục bằng ánh sáng bên ngoài khu vực được bảo vệ; phải hoạt động cho tới khi khu vực đã an toàn",
+   "dieu": "e)",
+   "nguon": "kb:tk-khu-vực-có-người"
+  },
+  {
+   "y": "f) Các tín hiệu cảnh báo và hướng dẫn thích hợp",
+   "dieu": "f)",
+   "nguon": "kb:tk-khu-vực-có-người"
+  },
+  {
+   "y": "g) Khi có yêu cầu, tín hiệu cảnh báo trước khi phun phải hoạt động tức thời từ lúc bắt đầu thời gian trễ; có đặc điểm khác so với mọi tín hiệu báo động khác",
+   "dieu": "g)",
+   "nguon": "kb:tk-khu-vực-có-người"
+  },
+  {
+   "y": "Bộ phận báo động bằng âm thanh và ánh sáng trước khi phun phải lắp trong khu vực được bảo vệ để cảnh báo chắc chắn việc sắp phun; hoạt động liên tục từ đầu cho tới khi báo động đã được xác nhận và bắt đầu một hoạt động thích hợp",
+   "dieu": "",
+   "nguon": "kb:tk-khu-vực-có-người"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ mục c)–e): xem bản vẽ có đường thoát nạn, đèn sự cố, chỉ dẫn thoát nạn; hướng mở và cơ cấu tự đóng của cửa; còi/đèn báo động trong và ngoài khu vực tại cửa ra vào",
+   "dieu": "",
+   "nguon": "kb:tk-khu-vực-có-người"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác 'khu vực thường xuyên có người' / 'khu vực có người thường xuyên trực về PCCC' trong QCVN 10:2025/BCA (nơi bố trí mặt nạ lọc độc, dụng cụ phá dỡ): đây là nơi đặt phương tiện trang bị, không phải khu vực phun khí có người",
+   "dieu": "QCVN 10:2025/BCA 2.7",
+   "nguon": "kb:tk-khu-vực-có-người"
+  }
+ ]
+}

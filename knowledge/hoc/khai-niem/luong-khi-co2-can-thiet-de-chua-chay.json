@@ -1,0 +1,52 @@
+{
+ "slug": "luong-khi-co2-can-thiet-de-chua-chay",
+ "ten": "Lượng khí CO2 cần thiết để chữa cháy",
+ "dong_nghia": [
+  "Mct"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Lượng khí chữa cháy",
+  "Thời gian duy trì"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Mct = KB.(0,2.A + 0,7.V), kg; trong đó A = AV + 30.AOV và V = VV + VZ − VG. AV: tổng diện tích mọi mặt, sàn, trần của không gian bao kín phải bảo vệ, m²; AOV: tổng diện tích các chỗ hở giả thiết mở khi cháy, m²; VV: thể tích không gian bao kín được bảo vệ, m³; VZ: thể tích bổ sung do thất thoát trong thời gian duy trì bởi hệ thống thông gió không đóng lại được, m³; VG: thể tích thành phần kết cấu phải trừ đi, m³; KB: hệ số vật liệu được bảo vệ, KB ≥ 1 (Bảng 1 TCVN 6101-1996)",
+   "dieu": "Tính toán lượng khí CO2 cần thiết để chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Căn cứ đặc điểm chất cháy từng khu vực bảo vệ, tra bảng 1, bảng 2 TCVN 6101-1996 để xác định hệ số vật liệu KB, nồng độ CO2 thiết kế, thời gian duy trì τng, thời gian xả của hệ thống τx",
+   "dieu": "Bảng 1, bảng 2 TCVN 6101-1996",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "0,2 là phần CO2 có thể thất thoát qua các mặt, sàn và trần của khu vực bảo vệ, kg/m²; 0,7 là lượng CO2 tối thiểu dùng để dập tắt đám cháy cơ bản trên một đơn vị thể tích phòng, kg/m³",
+   "dieu": "Tính toán lượng khí CO2 cần thiết để chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Tính lại Mct từ A, V, KB; kiểm KB ≥ 1 và tra đúng bảng TCVN 6101-1996; kiểm AOV nhân 30",
+   "dieu": "suy từ Tính toán lượng khí CO2",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Công thức này (CO2 theo TCVN 6101-1996) khác công thức Q của khí hóa lỏng/không hóa lỏng theo TCVN 7161",
+   "dieu": "Lượng lượng khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ]
+}

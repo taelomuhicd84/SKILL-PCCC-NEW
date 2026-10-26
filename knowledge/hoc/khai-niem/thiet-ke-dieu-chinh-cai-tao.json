@@ -1,0 +1,80 @@
+{
+ "slug": "thiet-ke-dieu-chinh-cai-tao",
+ "ten": "Thiết kế điều chỉnh, cải tạo",
+ "dong_nghia": [
+  "Thẩm duyệt thiết kế điều chỉnh",
+  "Thiết kế cải tạo"
+ ],
+ "anh_huong": [
+  "doc-ho-so",
+  "m01-phan-loai",
+  "chung",
+  "ra-soat",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy",
+  "Nội dung thẩm duyệt thiết kế về PCCC",
+  "Nguồn lấy nước PCCC",
+  "Nguồn phục hồi nước"
+ ],
+ "ngay": "2026-10-26T04:41:52.316Z",
+ "dinh_nghia": [
+  {
+   "y": "Thiết kế thay đổi so với thiết kế đã được thẩm duyệt trước đó, do chủ đầu tư có nhu cầu điều chỉnh. Hồ sơ phải nêu giấy thẩm duyệt gốc (số 52/TD-PCCC ngày 18/01/2023) và nội dung điều chỉnh.",
+   "dieu": "Mục I và phụ lục",
+   "nguon": "ba7fde3a8ae7"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Hồ sơ điều chỉnh nêu rõ phần xây mới và phần cải tạo (diện tích, số tầng, số phòng, diện tích phòng lớn nhất) và căn cứ vào giấy chứng nhận thẩm duyệt cũ (số 214/TD-PCCC-P2 ngày 12/4/2018) và văn bản nghiệm thu (số 252/CSPC&CC-PS5 ngày 04/7/2018)",
+   "dieu": "Phần căn cứ và Mục I.2",
+   "nguon": "3a2cdd470984"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nội dung điều chỉnh gồm: bố trí công năng, bậc chịu lửa, khoảng cách an toàn và ngăn cháy, giải pháp thoát nạn, phương tiện chữa cháy ban đầu, lắp đặt bổ sung hệ thống PCCC (họng nước trong nhà, cấp nước ngoài nhà, Sprinkler, báo cháy tự động, đèn sự cố và chỉ dẫn thoát nạn, hút khói, loa thông báo)",
+   "dieu": "Mục I.2a",
+   "nguon": "3a2cdd470984"
+  },
+  {
+   "y": "Các nội dung khác không thay đổi so với hồ sơ thẩm duyệt và văn bản nghiệm thu đã cấp",
+   "dieu": "Mục I.2b",
+   "nguon": "3a2cdd470984"
+  },
+  {
+   "y": "Ví dụ trong nguồn: điều chỉnh nguồn lấy nước PCCC, điều chỉnh nguồn phục hồi nước, thiết kế thêm Nhà điều hành (Phòng trực PCCC, Phòng bơm, Phòng máy phát điện, Phòng kỹ thuật; 01 tầng, 178,95 m²).",
+   "dieu": "Mục I.2",
+   "nguon": "ba7fde3a8ae7"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nếu cải tạo, thay đổi tính chất sử dụng dẫn đến một trong các trường hợp nêu tại điểm b khoản 5 Điều 1 NĐ 50/2024/NĐ-CP thì chủ đầu tư phải thực hiện thẩm duyệt thiết kế, nghiệm thu về PCCC theo quy định (NĐ 50/2024 hết hiệu lực từ 01/7/2025; văn bản thay thế cần kiểm lại theo NĐ 105/2025 đã sửa bởi NĐ 347/2026)",
+   "dieu": "Lưu ý, điểm b khoản 5 Điều 1 NĐ 50/2024/NĐ-CP",
+   "nguon": "3a2cdd470984"
+  },
+  {
+   "y": "Trong thi công, chủ đầu tư và các đơn vị liên quan phải tiếp tục rà soát hạng mục công trình, hệ thống PCCC và hệ thống kỹ thuật liên quan cho đúng quy định, quy chuẩn, tiêu chuẩn",
+   "dieu": "Lưu ý",
+   "nguon": "3a2cdd470984"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu số liệu quy mô trong hồ sơ điều chỉnh với giấy chứng nhận thẩm duyệt, nghiệm thu cũ; suy từ Mục I",
+   "dieu": "",
+   "nguon": "3a2cdd470984"
+  },
+  {
+   "y": "Đối chiếu nội dung điều chỉnh với giấy thẩm duyệt gốc và bản vẽ điều chỉnh. Suy từ Mục I.",
+   "dieu": "",
+   "nguon": "ba7fde3a8ae7",
+   "can_xem": true
+  }
+ ],
+ "hay_nham": []
+}

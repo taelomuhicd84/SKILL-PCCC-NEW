@@ -1,0 +1,65 @@
+{
+ "slug": "may-bom-nuoc-chua-chay-bo-tri-noi-tiep",
+ "ten": "Máy bơm nước chữa cháy bố trí nối tiếp",
+ "dong_nghia": [
+  "Bơm theo chuỗi"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Máy bơm nước chữa cháy",
+  "Trạm bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T03:48:01.402Z",
+ "dinh_nghia": [
+  {
+   "y": "Là máy bơm nước được bố trí để vận hành theo một dây chuyền, trong đó bơm đầu tiên hút trực tiếp từ nguồn nước và các bơm tiếp theo hút với áp lực nhận từ bơm trước nó. Hai bơm vận hành trong dây chuyền qua bể chứa hoặc bể trung gian không được xem là một phần của cụm bơm hoạt động theo chuỗi.",
+   "dieu": "1.4.8",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Không được phép có hơn ba bơm nước chữa cháy trong mạng bơm nối tiếp.",
+   "dieu": "2.2.6.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Không bơm nào trong mạng nối tiếp được phép tự động tắt ở bất kỳ điều kiện áp suất hút nào.",
+   "dieu": "2.2.6.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Không lắp van giảm áp suất hoặc van điều tiết áp suất giữa các bơm bố trí nối tiếp; không lắp van bướm giữa các bơm.",
+   "dieu": "2.2.6.1, 2.6.1.3",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Trong vòng 20 giây sau khi có tín hiệu khởi động, bơm theo chuỗi phải cung cấp và duy trì áp suất xả ổn định (±10%) trong suốt thời gian hoạt động.",
+   "dieu": "2.2.6.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Ống hút của bơm sau bắt đầu từ mặt của van đẩy của bơm liền trước.",
+   "dieu": "2.6.2.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Sau khi lắp đặt, bơm nối tiếp hoàn chỉnh phải được nghiệm thu để bảo đảm hoạt động phù hợp quy chuẩn.",
+   "dieu": "2.2.6.2",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đếm số bơm trong chuỗi trên sơ đồ nguyên lý; tìm van giảm áp, van điều tiết áp, van bướm giữa các bơm; suy từ 2.2.6.1, 2.6.1.3.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "may-bom-nuoc-chua-chay-du-phong",
+ "ten": "Máy bơm nước chữa cháy dự phòng",
+ "dong_nghia": [
+  "Bơm dự phòng"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Máy bơm nước chữa cháy",
+  "Bơm bù áp",
+  "Tủ điều khiển máy bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T03:48:01.402Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Số lượng bơm dự phòng xác định theo số máy bơm vận hành theo tính toán.",
+   "dieu": "2.2.8",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Máy bơm nước chữa cháy phải có máy bơm dự phòng, công suất tương đương máy bơm chính.",
+   "dieu": "2.2.8",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép máy bơm chữa cháy chính chỉ đấu nối với một nguồn điện nếu có máy bơm dự phòng là máy bơm động cơ diesel.",
+   "dieu": "2.4.1.6.1",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Số máy bơm vận hành theo tính toán từ một đến ba: ít nhất một máy bơm dự phòng.",
+   "dieu": "2.2.8",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Số máy bơm vận hành theo tính toán từ bốn máy trở lên: ít nhất 02 máy bơm dự phòng.",
+   "dieu": "2.2.8",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Máy bơm động cơ điện phải có ít nhất hai nguồn điện: một nguồn chính và một nguồn dự phòng.",
+   "dieu": "2.4.1.6.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Không bố trí thiết bị điều khiển bơm chính và bơm dự phòng chung một tủ điều khiển.",
+   "dieu": "2.5.1.1",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đếm số bơm vận hành theo tính toán và số bơm dự phòng trên sơ đồ; so công suất bơm dự phòng với bơm chính; suy từ 2.2.8.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bơm dự phòng khác nguồn điện dự phòng: một là máy bơm, một là nguồn cấp điện cho máy bơm.",
+   "dieu": "2.2.8, 2.4.1.6.1",
+   "nguon": "08bf60f5653f"
+  }
+ ]
+}

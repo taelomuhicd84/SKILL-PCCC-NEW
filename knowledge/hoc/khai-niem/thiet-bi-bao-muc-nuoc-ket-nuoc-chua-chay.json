@@ -1,0 +1,52 @@
+{
+ "slug": "thiet-bi-bao-muc-nuoc-ket-nuoc-chua-chay",
+ "ten": "Thiết bị báo mực nước két nước chữa cháy",
+ "dong_nghia": [
+  "thiết bị báo mực nước",
+  "dụng cụ báo tín hiệu mực nước"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m17-lien-lac"
+ ],
+ "lien_quan": [
+  "Điều khiển máy bơm chữa cháy",
+  "Trạm bơm tăng áp"
+ ],
+ "ngay": "2026-10-26T04:18:40.747Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Két nước chữa cháy phải đặt thiết bị báo mực nước",
+   "dieu": "8.9",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Thiết bị báo mực nước liên lạc với phòng nhân viên chữa cháy, phòng nhân viên phục vụ hay phòng máy bơm",
+   "dieu": "8.9",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Két nước áp lực phải có thước đo hay dụng cụ báo tín hiệu mực nước nối liền với trạm bơm",
+   "dieu": "8.7e",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Nếu không có dụng cụ báo tín hiệu mực nước thì phải đặt một đường ống báo mực nước riêng: đầu trên đặt thấp hơn đáy ống dẫn nước tràn chừng 5 cm, đầu dưới liên hệ với bảng điều khiển máy bơm",
+   "dieu": "8.7 (chú thích 2)",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý/bản vẽ két nước chữa cháy: có thiết bị báo mực nước và tín hiệu về phòng chữa cháy, phòng phục vụ hoặc phòng bơm (suy từ 8.9)",
+   "dieu": "8.9",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "hay_nham": []
+}

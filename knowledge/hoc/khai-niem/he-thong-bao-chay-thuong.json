@@ -1,0 +1,34 @@
+{
+ "slug": "he-thong-bao-chay-thuong",
+ "ten": "Hệ thống báo cháy thường",
+ "dong_nghia": [
+  "Conventional fire alarm system"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy địa chỉ",
+  "Vùng phát hiện cháy"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [
+  {
+   "y": "Hệ thống báo cháy khi báo cháy sẽ báo đến một khu vực, khu vực đó có thể có một hoặc nhiều đầu báo cháy.",
+   "dieu": "3.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Báo về khu vực (vùng), khác hệ thống báo cháy địa chỉ báo đến từng thiết bị.",
+   "dieu": "3.1, 3.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ]
+}

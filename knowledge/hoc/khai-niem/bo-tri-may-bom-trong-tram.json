@@ -1,0 +1,85 @@
+{
+ "slug": "bo-tri-may-bom-trong-tram",
+ "ten": "Bố trí máy bơm trong trạm",
+ "dong_nghia": [
+  "Phòng bơm",
+  "Nhà bơm"
+ ],
+ "anh_huong": [
+  "m05-cong-nang",
+  "m12-chua-chay",
+  "m13-cap-dien",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Vị trí đặt trạm bơm nước chữa cháy",
+  "Động cơ diesel của bơm chữa cháy",
+  "Tủ điều khiển bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Trạm bơm nước chữa cháy được phép đặt chung với máy bơm cấp nước sinh hoạt trong cùng một phòng hoặc nhà.",
+   "dieu": "2.1.3",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Bồn dầu chữa cháy được lắp trong cùng phòng bơm hoặc tại nhà chứa riêng.",
+   "dieu": "2.1.4 (phần minh họa)",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Phòng hoặc nhà đặt máy bơm có kích thước (6 x 9) m hoặc lớn hơn phải bố trí họng nước chữa cháy trong nhà lưu lượng 2,5 l/s.",
+   "dieu": "2.1.6",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Nhà hoặc phòng bơm có động cơ diesel và bồn chứa nhiên liệu diesel phải được bảo vệ bằng hệ thống chữa cháy tự động.",
+   "dieu": "2.1.6",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đáy bể chứa dầu cho động cơ diesel phải cao hơn miệng vào bơm cao áp của động cơ; khi chưa có kích thước của nhà sản xuất, lấy bằng 1,2 m.",
+   "dieu": "2.1.4",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Không bố trí bồn nhiên liệu động cơ đốt trong quá gần tủ điều khiển máy bơm mà không có vách ngăn; khoảng cách tối thiểu giữa tủ điều khiển và bồn nhiên liệu là 2 m khi không có vách ngăn.",
+   "dieu": "2.1.4",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Bể nước chữa cháy dùng chung với bể sinh hoạt: đường ống hút của hệ thống sinh hoạt phải nối trên mức nước yêu cầu cho nhu cầu PCCC; mỗi bể phải có van tự động làm đầy và van thủ công làm đầy riêng biệt.",
+   "dieu": "2.1.11",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Nhà/phòng bơm phải có hệ thống thoát nước dưới sàn để tránh ngập nước.",
+   "dieu": "2.1.8",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Phải có thông gió cưỡng bức hoặc tự nhiên; nhiệt độ không khí trong trạm không lớn hơn 40 °C.",
+   "dieu": "2.1.9",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Động cơ máy bơm, bồn chứa nhiên liệu và tủ điều khiển phải nối đất an toàn bằng dây đồng sợi hoặc đồng lá; tiết diện không nhỏ hơn 25 mm2 (động cơ bơm), 10 mm2 (bồn nhiên liệu), 5 mm2 (tủ điều khiển).",
+   "dieu": "2.1.10",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng/mặt cắt phòng bơm: kích thước phòng (so 6 x 9 m), họng nước trong nhà, thoát nước sàn, thông gió, vị trí bồn dầu và tủ điều khiển; suy từ 2.1.4–2.1.11.",
+   "dieu": "2.1.4–2.1.11",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "hay_nham": []
+}

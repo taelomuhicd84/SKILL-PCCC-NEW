@@ -1,0 +1,66 @@
+{
+ "slug": "nha-dang-ho",
+ "ten": "Nhà dạng hở",
+ "dong_nghia": [
+  "nhà hở"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Nhà để xe",
+  "Nhà chế biến, lưu trữ nông sản dạng hạt"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà dạng hở là nhà không có tường bao che ngoài. Nhà cũng được coi là hở nếu công trình có hai cạnh đối diện dài nhất được để hở.",
+   "dieu": "Bảng A.1, chú thích (5)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Cạnh được coi là được để hở nếu tổng diện tích sàn phần để hở dọc theo cạnh này chiếm không ít hơn 50 % diện tích mặt ngoài của nó ở trên từng tầng.",
+   "dieu": "Bảng A.1, chú thích (5)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà để xe dạng hở có khoảng cách từ điểm bất kỳ đến cạnh để hở không lớn hơn 12 m: phải có báo cháy tự động khi tổng diện tích sàn từ 4 000 m² trở lên hoặc cao từ 4 tầng trở lên, không yêu cầu chữa cháy tự động.",
+   "dieu": "Bảng A.1, mục 25.3.1",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Nhà để xe dạng hở có khoảng cách từ điểm bất kỳ đến cạnh để hở lớn hơn 12 m: không bắt buộc báo cháy tự động theo bảng; phải có chữa cháy tự động khi tổng diện tích sàn từ 4 000 m² trở lên hoặc cao từ 4 tầng trở lên.",
+   "dieu": "Bảng A.1, mục 25.3.2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không yêu cầu trang bị hệ thống báo cháy tự động, hệ thống chữa cháy tự động đối với nhà dạng hở để chế biến, lưu trữ nông sản dạng hạt.",
+   "dieu": "Bảng A.1, chú thích (6)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ mặt bằng, mặt đứng từng tầng: đo phần để hở dọc hai cạnh dài nhất so với diện tích mặt ngoài (từ 50 % trở lên); đo khoảng cách từ điểm bất kỳ đến cạnh để hở so với 12 m. Suy từ chú thích (5) và mục 25.3.",
+   "dieu": "Bảng A.1, chú thích (5); mục 25.3",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhà để xe dạng kín (mục 25.1, 25.2) và dạng hở (mục 25.3) có ngưỡng khác nhau.",
+   "dieu": "Bảng A.1, mục 25",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

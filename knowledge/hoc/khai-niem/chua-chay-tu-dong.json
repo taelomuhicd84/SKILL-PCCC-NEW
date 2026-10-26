@@ -1,0 +1,208 @@
+{
+ "slug": "chua-chay-tu-dong",
+ "ten": "Chữa cháy tự động",
+ "dong_nghia": [
+  "hệ thống chữa cháy tự động",
+  "hệ thống, thiết bị chữa cháy tự động"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m02-bac-chiu-lua",
+  "m06-ngan-chay",
+  "m07-thoat-nan",
+  "m05-cong-nang",
+  "chung",
+  "so-bo-thiet-ke",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Bậc chịu lửa",
+  "Bình bột chữa cháy tự động kích hoạt",
+  "Bình khí, bình sol-khí chữa cháy tự động kích hoạt",
+  "Hệ thống chữa cháy tự động đóng gói (Package)",
+  "Thiết bị chữa cháy tự động kích hoạt",
+  "Hệ thống chữa cháy",
+  "Hệ thống báo cháy tự động",
+  "Loại và nhóm đám cháy",
+  "Hệ thống Sprinkler",
+  "Hệ thống Drencher",
+  "Kích hoạt từ xa",
+  "Kích hoạt cục bộ"
+ ],
+ "ngay": "2026-10-26T04:17:45.822Z",
+ "dinh_nghia": [
+  {
+   "y": "Hệ thống tự động kích hoạt xả chất chữa cháy khi các yếu tố của đám cháy đạt đến giá trị thiết lập trong khu vực bảo vệ, có chức năng giám sát xả và dừng xả/dừng kích hoạt xả (ví dụ: bằng nước, gốc nước; bọt; khí, sol-khí; bột).",
+   "dieu": "1.4.4",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Hệ thống chữa cháy được tự động kích hoạt khi các yếu tố của đám cháy đạt ngưỡng tác động trong khu vực bảo vệ.",
+   "dieu": "3.2",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Chữa cháy tự động là tự động kích hoạt các thiết bị chữa cháy mà không cần sự can thiệp của con người.",
+   "dieu": "3.1",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Hệ thống chữa cháy tự động bằng nước, bọt chia thành hệ thống Sprinkler, hệ thống Drencher và hệ thống Sprinkler-Drencher.",
+   "dieu": "5.1.2",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Toàn nhà có chữa cháy tự động, bậc I, II, cấp S0: diện tích khoang cháy bảng H.2–H.4 tăng không quá 2 lần",
+   "dieu": "H.2.12.2",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà sản xuất, kho có chữa cháy tự động toàn nhà: tăng gấp 2 lần diện tích sàn trong khoang cháy, trừ nhà bậc IV và V",
+   "dieu": "H.4.1, H.5.3",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà bệnh viện (F1.1) và nhà khám đa khoa ngoại trú (F3.4) vượt 28 m (hoặc quá 9 tầng, tối đa 50 m): bắt buộc toàn nhà có báo cháy tự động và chữa cháy tự động cùng các điều kiện bổ sung",
+   "dieu": "H.2.9.1, H.2.10.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà trẻ, trường, đối tượng Bảng H.5–H.7 có báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC không quá 28 m: được xác định chiều cao theo số tầng",
+   "dieu": "H.2.12.10",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Gian giữ đồ và gian giữ mũ áo ở tầng hầm nhà ga sân bay (trừ gian có hộc gửi tự động) phải ngăn cách bằng vách ngăn cháy loại I và có chữa cháy tự động",
+   "dieu": "H.2.8.2",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà sản xuất hạng C bậc IV (chiều cao tới 22 m, tối đa 3 tầng) và nhà kho 4 tầng phải trang bị chữa cháy tự động",
+   "dieu": "Bảng H.9 chú thích 5); Bảng H.11 chú thích 3)",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà, hạng mục/khu vực, gian phòng, thiết bị phải trang bị hệ thống, thiết bị chữa cháy tự động theo Phụ lục A.",
+   "dieu": "2.5.1",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Nhà, công trình, hạng mục/khu vực, gian phòng có quy mô quy định tại Phụ lục A phải trang bị cho toàn bộ (trừ các khu vực loại trừ ở 1.5.11).",
+   "dieu": "1.5.11",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Căn hộ nhà nhóm F1.3 có chiều cao PCCC không quá 100 m: cho phép chỉ bố trí đầu phun sprinkler tại cửa căn hộ (lắp bên trong căn hộ).",
+   "dieu": "1.5.12",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Khi trong nhà có các phòng riêng biệt mà theo quy định chỉ cần hệ thống báo cháy, có thể thay bằng hệ thống chữa cháy tự động. Khi đó cường độ phun phải đảm bảo theo tiêu chuẩn nhưng không quy định lưu lượng và thời gian chữa cháy.",
+   "dieu": "4.3",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Các khu vực loại trừ như hệ thống báo cháy tự động: quy trình ướt, hồ bơi, phòng tắm/rửa/vệ sinh; gian phòng hạng E, C4 (có ngoại lệ); hành lang bên; cầu thang bộ, buồng thang bộ; khoang đệm ngăn cháy; khu vực không nguy hiểm cháy.",
+   "dieu": "1.5.11",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Tiêu chuẩn không áp dụng cho: nhà và công trình thiết kế theo quy định đặc biệt; thiết bị công nghệ bên ngoài nhà; nhà kho có giá đỡ di động; đám cháy kim loại và các chất có hoạt tính hóa học mạnh (chất phản ứng với nước/bọt gây nổ, giải phóng khí dễ cháy, tỏa nhiệt mạnh, tự cháy khi gặp nước).",
+   "dieu": "1.2, 1.3",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Chất chữa cháy có hiệu quả chữa cháy phù hợp với loại đám cháy của khu vực bảo vệ (theo 1.5.3) và phù hợp với yêu cầu cần bảo vệ.",
+   "dieu": "2.5.1",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Thiết kế, lắp đặt theo các tiêu chuẩn: TCVN 7336, TCVN 13926, TCVN 13657-1, TCVN 13333, TCVN 6101, TCVN 7161-1, 7161-5, 7161-9, 7161-13, 7161-14, 7161-15, TCVN 13877-2, TCVN 14496, NFPA 15.",
+   "dieu": "2.5.2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Khi chất chữa cháy nguy hiểm cho người phải tính thời gian thoát nạn, bảo đảm người cuối cùng thoát ra khỏi căn phòng hoặc vùng cần bảo vệ trước khi hệ thống tự động xả chất chữa cháy.",
+   "dieu": "2.5.3",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Phòng có thiết bị điện, điện tử (tổng đài, trung tâm chuyển mạch): hệ thống được chọn không được gây hư hỏng hoặc trục trặc cho thiết bị khi kích hoạt sai.",
+   "dieu": "Bảng A.3, chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Khi diện tích sân khấu từ 100 m² trở lên phải có giải pháp ngăn cháy giữa sân khấu và khu vực khán giả (màn nước ngăn cháy drencher hoặc màn ngăn cháy có giới hạn chịu lửa tối thiểu EI 60).",
+   "dieu": "Bảng A.3, chú thích (4)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Bảo dưỡng ít nhất một năm một lần (hệ thống, thiết bị chữa cháy tự động).",
+   "dieu": "1.5.13",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Chọn loại phương tiện, phương pháp, chất chữa cháy phù hợp tính chất, mức độ nguy hiểm cháy và loại đám cháy theo Bảng 1, Bảng 2; không dùng chất chữa cháy có thể phản ứng hóa học với chất trong khu vực bảo vệ gây cháy, nổ.",
+   "dieu": "1.5.4; 1.5.5",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Ngoài chức năng chữa cháy phải đồng thời thực hiện chức năng báo cháy.",
+   "dieu": "4.1",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Loại hệ thống, phương pháp và loại chất chữa cháy phải tính đến nguy cơ cháy, tính chất lý hóa của chất cháy và đặc điểm đối tượng bảo vệ.",
+   "dieu": "4.2",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Phải dập tắt đám cháy hoặc ngăn cháy lan.",
+   "dieu": "5.1.1",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Phòng có thiết bị điện không được cách điện phải tự động ngắt nguồn điện trước khi phun chất chữa cháy.",
+   "dieu": "5.1.6",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Ngoại trừ Sprinkler, phải có cơ cấu kích hoạt bằng tay từ xa và cục bộ.",
+   "dieu": "5.1.7",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh, bản vẽ hệ thống chữa cháy tự động: loại chất chữa cháy so với loại đám cháy; với chất nguy hiểm cho người thì xem tính thời gian thoát nạn trước khi xả. Suy từ 2.5.1, 2.5.3.",
+   "dieu": "2.5.1; 2.5.3",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Đối chiếu loại chất chữa cháy trong bản vẽ với loại đám cháy của khu vực theo Bảng 2; suy từ 1.5.4, 1.5.5.",
+   "dieu": "suy từ 1.5.5",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Hệ thống chữa cháy tự động khác thiết bị chữa cháy tự động kích hoạt (bình bột, bình khí, bình sol-khí); Bảng A.4 chú thích (1) cho phép dùng thiết bị chữa cháy tự động thay hệ thống ở buồng sơn và tháp thu hồi chất thải dễ cháy.",
+   "dieu": "2.5.4; 2.5.5; Bảng A.4, chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Khác thiết bị chữa cháy tự động kích hoạt (bình chứa khí, bột, sol-khí tự xả khi cảm biến nhiệt đạt ngưỡng, không có hệ thống giám sát xả).",
+   "dieu": "1.4.4; 1.4.5",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "huong-lap-dat-dau-phun",
+ "ten": "Hướng lắp đặt đầu phun",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Hệ số RTI",
+  "Nhóm nguy cơ phát sinh cháy",
+  "Hệ thống sprinkler đường ống khô",
+  "Hệ thống sprinkler đường ống ướt"
+ ],
+ "ngay": "2026-10-26T04:50:25.292Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hướng đầu phun sprinkler phải phù hợp với đặc điểm kiến trúc của khu vực bảo vệ (tầng hầm, văn phòng, căn hộ…) và đặc điểm của loại hệ thống sprinkler",
+   "dieu": "Điều 5.2.20 và 5.4.3 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-rti"
+  },
+  {
+   "y": "Cho phép lắp đầu phun âm trần tại trần treo trong các gian phòng có nguy cơ phát sinh cháy nhóm 1 (quy định mới)",
+   "dieu": "Điều 5.1.13 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-rti"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Hệ thống đường ống ướt (hoặc nhiệt độ > 5 °C): cho phép đầu phun hướng lên, hướng xuống, hướng ngang",
+   "dieu": "Điều 5.2.20 và 5.4.3 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-rti"
+  },
+  {
+   "y": "Hệ thống đường ống khô (hoặc nhiệt độ < 5 °C): cho phép đầu phun hướng lên, hướng ngang",
+   "dieu": "Điều 5.2.20 và 5.4.3 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-rti"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ và bảng thống kê đầu phun: đối chiếu hướng đầu phun với loại hệ thống (ướt/khô). Hệ thống khô không được có đầu hướng xuống. Suy từ Điều 5.2.20 và 5.4.3",
+   "dieu": "suy từ Điều 5.2.20 và 5.4.3",
+   "nguon": "kb:tk-hệ-số-rti"
+  }
+ ],
+ "hay_nham": []
+}

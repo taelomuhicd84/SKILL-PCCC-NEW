@@ -1,0 +1,56 @@
+{
+ "slug": "cau-thang-bo-loai-2-bao-che-ngan-cach",
+ "ten": "Cầu thang bộ loại 2 (bao che, ngăn cách)",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Chiều cao PCCC",
+  "Chữa cháy tự động"
+ ],
+ "ngay": "2026-10-26T04:00:17.299Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Cầu thang bộ loại 2 bố trí theo quy định tại 3.4.16",
+   "dieu": "4.26",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khi cầu thang bộ loại 2 đi từ sảnh tầng 1 lên tầng 2, sảnh phải ngăn cách khỏi hành lang và gian phòng liền kề bằng vách ngăn cháy loại 1",
+   "dieu": "4.26",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Khu vực có cầu thang bộ loại 2 phải ngăn cách với hành lang thông với nó hoặc gian phòng khác bằng vách ngăn cháy loại 1 hoặc giải pháp tương đương",
+   "dieu": "4.26",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không yêu cầu giới hạn chịu lửa đối với vách ngăn khu vực có cầu thang bộ loại 2 hoặc hành lang thông với cầu thang loại 2 khi nhà (hoặc khoang cháy có cầu thang loại 2) có chiều cao PCCC không lớn hơn 9 m với diện tích một tầng không quá 300 m2, hoặc khi nhà có trang bị chữa cháy tự động",
+   "dieu": "4.26",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Trường hợp nhà có chữa cháy tự động: khu vực nguy hiểm cháy cao (ví dụ gian để xe, khu kinh doanh hàng dễ cháy nổ) phải ngăn cách với cầu thang bộ loại 2 bằng vách ngăn cháy loại 1 hoặc giải pháp tương đương",
+   "dieu": "4.26",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Kiểm chiều cao PCCC (≤9 m), diện tích một tầng (≤300 m2), có chữa cháy tự động hay không để xét miễn giới hạn chịu lửa vách; kiểm vách loại 1 quanh sảnh tầng 1",
+   "dieu": "suy từ 4.26",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "hay_nham": []
+}

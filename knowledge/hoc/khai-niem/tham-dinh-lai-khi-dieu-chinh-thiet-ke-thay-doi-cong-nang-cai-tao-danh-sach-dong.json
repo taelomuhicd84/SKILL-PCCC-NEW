@@ -1,0 +1,74 @@
+{
+ "slug": "tham-dinh-lai-khi-dieu-chinh-thiet-ke-thay-doi-cong-nang-cai-tao-danh-sach-dong",
+ "ten": "Thẩm định lại khi điều chỉnh thiết kế, thay đổi công năng, cải tạo (danh sách đóng)",
+ "dong_nghia": [
+  "thẩm định thiết kế điều chỉnh",
+  "điều kiện an toàn PCCC thay đổi"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "ra-soat",
+  "chung"
+ ],
+ "lien_quan": [
+  "đổi nguyên lý báo cháy, chữa cháy",
+  "thay thế hệ thống",
+  "trang bị bổ sung hệ thống",
+  "thẩm duyệt điều chỉnh"
+ ],
+ "ngay": "2026-10-26T03:46:27.194Z",
+ "dinh_nghia": [
+  {
+   "y": "Hai danh sách (cơ quan xây dựng và cơ quan Công an) là danh sách đóng; điều chỉnh ngoài danh sách không phải thẩm định lại (người dùng xác nhận).",
+   "dieu": "mục 5.3",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Đối chiếu từng thay đổi với danh sách ở cơ quan xây dựng (khoản 4 Điều 6) và danh sách ở Công an (khoản 3 Điều 9); trùng thì thẩm định lại, ghi rõ mục cụ thể.",
+   "dieu": "Điều 6 khoản 4; Điều 9 khoản 3",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cơ quan xây dựng (khi điều chỉnh thiết kế, thay đổi công năng, cải tạo trong sử dụng): (a) thay đổi vị trí, diện tích xây dựng làm giảm khoảng cách PCCC; (b) giảm kích thước đường, bãi đỗ chữa cháy làm thay đổi khả năng tiếp cận của phương tiện cơ giới; (c) giảm bậc chịu lửa của nhà, công trình, khoang cháy; (d) tăng số tầng, tăng diện tích xây dựng dẫn đến thay đổi giải pháp phân chia khoang cháy; (đ) thay đổi loại, vị trí thang bộ thoát nạn, giảm số lượng lối thoát nạn; (e) thay đổi phân khu các chức năng sử dụng chính; (g) trang bị bổ sung hệ thống hút khói, cấp không khí bảo vệ chống khói, thay đổi phương án thoát khói.",
+   "dieu": "Điều 6 khoản 4 NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Cơ quan Công an: (a) thay đổi nguyên lý báo cháy, hoặc nguyên lý chữa cháy, chất chữa cháy, hoặc thông số kỹ thuật máy bơm chữa cháy; (b) thay thế, trang bị bổ sung hệ thống báo cháy hoặc chữa cháy.",
+   "dieu": "Điều 9 khoản 3 NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Điều chỉnh trong thi công: chủ đầu tư lập hồ sơ thiết kế điều chỉnh và tổ chức thẩm định trước khi tiếp tục thi công.",
+   "dieu": "Điều 8 khoản 1",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Ví dụ không phải thẩm định lại: đổi vị trí đầu báo, thêm đầu phun trong cùng hệ thống, đổi chủng loại bình chữa cháy, thêm bớt đèn EXIT; chỉ thay một số thiết bị như đầu phun, đầu báo là bảo dưỡng, sửa chữa thông thường, không coi là thay thế hệ thống. Các dòng thẩm chỉ trong phạm vi điều chỉnh; dòng ngoài phạm vi ghi KHÔNG ÁP DỤNG.",
+   "dieu": "mục 5.3; Công văn C07",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Lập từng thay đổi giữa hồ sơ cũ và hồ sơ điều chỉnh, so với danh sách đóng; ghi dẫn chiếu như 'khoản 3 Điều 9 NĐ 105/2025, điểm b: thay thế hệ thống chữa cháy'.",
+   "dieu": "suy từ mục 8",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Thẩm định lại theo NĐ 105/2025 (hồ sơ sau 01/7/2025) khác 'thẩm duyệt điều chỉnh' (dự án đã có Giấy chứng nhận thẩm duyệt).",
+   "dieu": "mục 1, 6",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ]
+}

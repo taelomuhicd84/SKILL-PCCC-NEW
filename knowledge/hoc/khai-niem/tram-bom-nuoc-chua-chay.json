@@ -1,0 +1,178 @@
+{
+ "slug": "tram-bom-nuoc-chua-chay",
+ "ten": "Trạm bơm nước chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m05-cong-nang",
+  "m06-ngan-chay",
+  "m13-cap-dien",
+  "m17-lien-lac",
+  "chung"
+ ],
+ "lien_quan": [
+  "Máy bơm nước chữa cháy",
+  "Bơm bù áp",
+  "Tủ điều khiển máy bơm nước chữa cháy",
+  "Bể nước chữa cháy",
+  "Giới hạn chịu lửa",
+  "Thiết bị cấp nước tự động",
+  "Thử thủy lực",
+  "Bố trí máy bơm trong trạm"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [
+  {
+   "y": "Là tổ hợp thiết bị gồm máy bơm nước chữa cháy, bơm bù áp và phụ kiện được đấu nối thành một hệ thống để cung cấp nước chữa cháy cho các hệ thống chữa cháy. Phạm vi trạm bơm tính từ ống hút đến van chặn kết nối với đường ống chính của hệ thống chữa cháy.",
+   "dieu": "1.4.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Tổ hợp thiết bị gồm máy bơm chữa cháy, bơm bù áp và các phụ kiện khác được đấu nối thành một hệ thống để cung cấp nước chữa cháy.",
+   "dieu": "3.22",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Tổ hợp thiết bị gồm máy bơm nước chữa cháy, bơm bù áp và phụ kiện, đấu nối thành một hệ thống để cung cấp nước chữa cháy cho các hệ thống chữa cháy. Phạm vi trạm tính từ ống hút đến van chặn kết nối với đường ống chính của hệ thống chữa cháy.",
+   "dieu": "1.4.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Phạm vi trạm: từ ống hút đến van chặn nối với đường ống chính của hệ thống chữa cháy.",
+   "dieu": "1.4.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Quy chuẩn áp dụng cho trạm bơm nước chữa cháy cố định ở các giai đoạn thiết kế, lắp đặt, vận hành, nghiệm thu, kiểm tra, bảo dưỡng, quản lý. Các công trình phải thực hiện theo quy chuẩn: nhà cao trên 10 tầng; nhà công cộng tập trung đông người, gara, nhà sản xuất, kho có diện tích trên 18.000 m2.",
+   "dieu": "1.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Trạm bơm được phép đặt chung với máy bơm cấp nước sinh hoạt trong cùng một phòng hoặc nhà.",
+   "dieu": "2.1.3",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Đặt trong nhà độc lập, ngoài nhà, hoặc phòng riêng ở tầng 1 hoặc tầng hầm trên cùng. Cho phép đặt ở tầng nổi khác khi phòng bơm có cửa thông với buồng đệm thang thoát nạn qua hành lang bảo vệ bằng kết cấu ngăn cháy loại 1.",
+   "dieu": "5.8.5",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Quy chuẩn áp dụng cho trạm bơm nước chữa cháy cố định của: nhà cao trên 10 tầng; nhà công cộng tập trung đông người; gara; nhà sản xuất, kho có diện tích trên 18.000 m2.",
+   "dieu": "1.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Trạm bơm đã thi công lắp đặt và nghiệm thu đưa vào sử dụng trước ngày hiệu lực của quy chuẩn thì không bắt buộc áp dụng các quy định tại Mục 2, Mục 3.",
+   "dieu": "5.6.1",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Trạm bơm đặt độc lập phải đặt trong nhà, cách nhà và công trình khác tối thiểu 16 m. Không quy định khoảng cách khi nhà đặt trạm bơm có bậc chịu lửa I và II, hoặc giữa trạm bơm và công trình có tường ngăn cháy.",
+   "dieu": "2.1.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Trạm bơm đặt trong nhà và công trình phải ngăn cách với các phòng khác bằng tường ngăn cháy có giới hạn chịu lửa không thấp hơn REI 150, sàn ngăn cháy không thấp hơn REI 60, cửa ngăn cháy không thấp hơn EI 70. Đặt ở tầng 1 hoặc tầng hầm 1.",
+   "dieu": "2.1.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Cho phép đặt trạm bơm tại các tầng nổi khác của nhà khi phòng đặt bơm có cửa ra thông với buồng đệm thang thoát nạn của tòa nhà qua hành lang được bảo vệ bằng kết cấu ngăn cháy loại 1.",
+   "dieu": "2.1.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Chiều cao thông thủy của trạm bơm không có thiết bị nâng tối thiểu 2,2 m. Trạm bơm có thiết bị nâng: khoảng cách thông thủy từ đáy vật được nâng đến đỉnh thiết bị đặt ở dưới không nhỏ hơn 0,5 m.",
+   "dieu": "2.1.5",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Phòng hoặc nhà đặt máy bơm có kích thước (6x9) m hoặc lớn hơn phải bố trí họng nước chữa cháy trong nhà lưu lượng 2,5 l/s. Phòng có động cơ diesel và bồn chứa nhiên liệu diesel phải được bảo vệ bằng hệ thống chữa cháy tự động.",
+   "dieu": "2.1.6",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Phải có chiếu sáng sự cố khu vực trạm bơm với nguồn điện dự phòng hoạt động tối thiểu 3 giờ; nguồn này không lấy từ ắc quy khởi động bơm.",
+   "dieu": "2.1.7",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Phải có hệ thống thoát nước dưới sàn; có thông gió cưỡng bức hoặc tự nhiên sao cho nhiệt độ không khí trong trạm bơm không lớn hơn 40°C.",
+   "dieu": "2.1.8, 2.1.9",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Động cơ máy bơm, bồn chứa nhiên liệu và tủ điều khiển phải nối đất an toàn bằng dây đồng; tiết diện dây nối đất không nhỏ hơn 25 mm2 (động cơ bơm), 10 mm2 (bồn nhiên liệu), 5 mm2 (tủ điều khiển).",
+   "dieu": "2.1.10",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Ngăn cách với khu vực khác bằng tường và trần ngăn cháy REI 45; nhiệt độ phòng 5–40 °C; có điện thoại kết nối phòng trực điều khiển chống cháy; lối vào có đèn ghi chữ \"trạm bơm chữa cháy\" nối đèn chiếu sáng sự cố.",
+   "dieu": "5.8.6–5.8.9",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Có ít nhất một máy bơm dự phòng tương ứng lưu lượng tối đa và áp lực của bơm chính, tự bật khi bơm chính sự cố; cho phép dùng bơm động cơ đốt trong làm bơm dự phòng.",
+   "dieu": "5.8.2, 5.8.4",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Lối đi tối thiểu: giữa các bộ điều khiển và với tường 0,5 m; giữa các máy bơm hoặc động cơ 0,7 m; bơm/động cơ với tường 1 m; giữa các máy nén khí 1,5 m, máy nén khí với tường 1 m.",
+   "dieu": "5.8.10",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Ít nhất 2 đường hút, mỗi đường đảm bảo lưu lượng nước tính toán; đường hút dốc lên phía bơm ít nhất 0,05%.",
+   "dieu": "5.8.21, 5.8.23",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Đường ống DN 80 trở lên với họng tiếp bên ngoài cao (1,35 ± 0,15) m, khớp nối DN 65; ít nhất hai khớp nối kết nối xe chữa cháy bên ngoài trạm.",
+   "dieu": "5.8.11, 5.8.12",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nền móng chịu tải không nhỏ hơn 4 lần trọng lượng bơm; bồn nhiên liệu cho động cơ đốt trong (xăng 250 l, diesel 500 l) cách ly bằng bộ phận ngăn cháy không nhỏ hơn EI 120. Bơm chữa cháy và bộ điều khiển sơn màu đỏ.",
+   "dieu": "5.8.20, 5.8.18, 5.8.31",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Bể nước chữa cháy không ít hơn 2 bể, mỗi bể chứa 50% lượng nước; cho phép 1 bể khi thể tích từ 1000 m³ trở xuống.",
+   "dieu": "5.7.13",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Thành phần: máy bơm nước chữa cháy, bơm bù áp, phụ kiện.",
+   "dieu": "1.4.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng: tầng đặt trạm bơm, khoảng cách tới công trình khác, bậc chịu lửa của nhà đặt trạm, tường/sàn/cửa ngăn cháy REI 150/REI 60/EI 70, chiều cao thông thủy; suy từ 2.1.1, 2.1.2, 2.1.5.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Xem mặt bằng và mặt cắt phòng bơm: vị trí, ngăn cháy, lối đi, số đường hút, bơm dự phòng. Suy từ 5.8.",
+   "dieu": "5.8",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Máy bơm nước chữa cháy (thiết bị gồm bơm, động cơ, tủ điều khiển, phụ kiện) khác với trạm bơm (cả tổ hợp gồm bơm chính, dự phòng, bù áp và phụ kiện).",
+   "dieu": "1.4.1, 1.4.2",
+   "nguon": "b6694167594c"
+  }
+ ]
+}

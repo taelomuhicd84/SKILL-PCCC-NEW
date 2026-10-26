@@ -1,0 +1,31 @@
+{
+ "slug": "xe-day-chua-chay",
+ "ten": "Xe đẩy chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m10-binh-chua-chay"
+ ],
+ "lien_quan": [
+  "Bình chữa cháy bằng nước"
+ ],
+ "ngay": "2026-10-26T04:34:19.101Z",
+ "dinh_nghia": [
+  {
+   "y": "Bình chữa cháy có khối lượng trên 20 kg, có lắp bánh xe, được thiết kế để một người đẩy và sử dụng được.",
+   "dieu": "TCVN 7435-1:2004, 3.25",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Khối lượng trên 20 kg, có bánh xe, một người đẩy và sử dụng được.",
+   "dieu": "3.25",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

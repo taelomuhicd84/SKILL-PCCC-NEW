@@ -1,0 +1,67 @@
+{
+ "slug": "loi-ra-mai",
+ "ten": "Lối ra mái",
+ "dong_nghia": [
+  "lối tiếp cận lên mái"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Thang chữa cháy ngoài nhà",
+  "Tầng kỹ thuật"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà từ 2 tầng trở lên có mái bằng hoặc mái dốc nhỏ hơn 25% với chiều cao ≥ 10 m tính đến diềm mái hoặc mép trên tường ngoài (tường chắn mái): phải có lối ra mái trực tiếp từ buồng thang bộ, hoặc qua tầng áp mái, hoặc theo cầu thang bộ loại 3, hoặc theo thang chữa cháy ngoài nhà.",
+   "dieu": "6.6",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Tầng áp mái của nhà (trừ nhà nhóm F1.4) phải có lối ra mái qua thang cố định và cửa đi, cửa nắp hoặc cửa sổ kích thước không nhỏ hơn 0,6 m × 0,8 m.",
+   "dieu": "6.7",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Nhà F1, F2, F3, F4 cao PCCC đến 15 m cho phép ra tầng áp mái hoặc mái từ buồng thang bộ qua cửa nắp ngăn cháy loại 2 kích thước 0,6 m × 0,8 m theo thang leo thép gắn cố định.",
+   "dieu": "6.7",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép không bố trí thang chữa cháy tại mặt chính của nhà nếu chiều rộng nhà không quá 150 m và phía trước nhà có tuyến đường ống cấp nước chữa cháy.",
+   "dieu": "6.6",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nhà F1, F2, F3, F4: ít nhất 1 lối tiếp cận lên mái cho mỗi diện tích đủ hoặc không đủ 9 300 m2 mái; nhà F5 theo A.1.3.1.",
+   "dieu": "6.6",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Từ buồng thang bộ: bố trí qua bản thang có chiếu thang trước lối ra, qua cửa ngăn cháy loại 2 kích thước không nhỏ hơn 0,75 m × 1,5 m; bản thang, chiếu thang thép có độ dốc không lớn hơn 2:1 (63,5°), rộng không nhỏ hơn 0,7 m.",
+   "dieu": "6.7",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Nhà có độ dốc mái đến 12% cao > 10 m đến diềm mái, hoặc độ dốc mái > 12% cao > 7 m, nếu thiết kế để lực lượng chữa cháy tiếp cận qua mái thì phải có lan can, tay vịn trên mái.",
+   "dieu": "6.14",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt cắt, mặt bằng mái: độ dốc, chiều cao đến diềm mái, số lối ra mái theo diện tích mái 9 300 m2, kích thước cửa; suy từ 6.6, 6.7.",
+   "dieu": "suy từ 6.6, 6.7",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": []
+}

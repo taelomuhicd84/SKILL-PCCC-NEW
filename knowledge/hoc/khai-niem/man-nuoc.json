@@ -1,0 +1,79 @@
+{
+ "slug": "man-nuoc",
+ "ten": "Màn nước",
+ "dong_nghia": [
+  "Lưu lượng của màn nước"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống Drencher",
+  "Kích hoạt từ xa",
+  "Kích hoạt cục bộ"
+ ],
+ "ngay": "2026-10-26T04:17:45.822Z",
+ "dinh_nghia": [
+  {
+   "y": "Lưu lượng của màn nước là lưu lượng nước trên một mét chiều dài và trên một đơn vị thời gian.",
+   "dieu": "3.31",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Màn nước 01 dải khi chiều rộng cửa, lối đi, lỗ mở được bảo vệ đến 5 m; màn nước 02 dải khi trên 5 m và dùng thay bộ phận ngăn cháy.",
+   "dieu": "5.3.2.4, 5.3.2.5",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cho phép thiết kế 01 bộ điều khiển cho nhiều màn nước có cùng chức năng.",
+   "dieu": "5.3.2.1",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Màn nước tăng giới hạn chịu lửa của tường: dùng 02 dải bố trí 2 phía tường.",
+   "dieu": "5.3.2.6",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Màn nước 01 dải: lưu lượng 1 l/s cho 1 m chiều dài màn nước trên toàn bộ chiều rộng bảo vệ.",
+   "dieu": "5.3.2.4",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Màn nước 02 dải: mỗi dải tối thiểu 0,5 l/s cho 1 m chiều dài; khoảng cách giữa 2 dải 0,4–0,6 m; đầu phun hai dải lắp so le; đầu phun gần tường cách tường không quá 0,5 m.",
+   "dieu": "5.3.2.5",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Màn nước tăng giới hạn chịu lửa của tường: 02 dải ở hai phía, cách tường không quá 0,5 m, mỗi dải không nhỏ hơn 0,5 l/s cho 1 m; dải phía phát sinh cháy phải được kích hoạt.",
+   "dieu": "5.3.2.6",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Trong phạm vi 2 m mỗi phía của màn nước (mỗi dải đối với 2 dải) không được bố trí chất cháy.",
+   "dieu": "5.3.2.7",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Phải khởi động cả tự động và bằng tay (từ xa hoặc cục bộ); cơ cấu kích hoạt tại chỗ (nút ấn) đặt trực tiếp tại khu vực bảo vệ hoặc trên đường thoát nạn gần nhất.",
+   "dieu": "5.3.2.2, 5.3.2.8",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ màn nước: bề rộng lỗ mở, số dải, khoảng cách dải, khoảng cách tường, vùng 2 m không có chất cháy. Suy từ 5.3.2.",
+   "dieu": "5.3.2",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "hay_nham": []
+}

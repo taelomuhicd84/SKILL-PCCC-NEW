@@ -1,0 +1,81 @@
+{
+ "slug": "dau-bao-khoi",
+ "ten": "Đầu báo khói",
+ "dong_nghia": [
+  "đầu báo cháy khói"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "m07-thoat-nan",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "đổi nguyên lý báo cháy, chữa cháy",
+  "Hệ thống báo cháy tự động",
+  "Khoang dầm",
+  "Kết cấu nhô ra dưới trần"
+ ],
+ "ngay": "2026-10-26T04:47:25.322Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Trong các phòng của căn hộ và các hành lang tầng, kể cả sảnh thang máy, phải lắp đặt đầu báo khói; hệ thống báo cháy tự động phải báo rõ địa chỉ từng căn hộ.",
+   "dieu": "QCVN 06:2022/BXD (sửa đổi 1:2023), phần yêu cầu cho nhà cao tầng (số điều chưa rõ trong đoạn trích)",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Hệ thống chữa cháy bằng khí: khi dùng hai hoặc nhiều bộ phát hiện, như đầu báo khói hoặc lửa, thì hệ thống chỉ nên vận hành sau khi nhận được tín hiệu từ hai bộ phát hiện.",
+   "dieu": "tài liệu 'Hệ thống chữa cháy bằng khí', mục Vận hành tự động (chưa rõ số điều)",
+   "nguon": "kb:tk-đầu-báo-khói"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bề mặt phẳng có dầm nhà, TH4: 2 m ≤ h ≤ 4 m, d ≥ 0,3 m, S ≥ 4 m²: khoảng cách thỏa 5.9.1.1.2 và 5.9.1.1.4, phải lắp ít nhất một đầu báo trong mỗi khu vực giữa các dầm nhà; nếu khoảng cách y không thỏa thì bổ sung thêm đầu báo.",
+   "dieu": "TCVN 7568-14:2025, 5.9.1.1 (theo tài liệu tóm tắt TH4)",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "TH5: h ≥ 4 m, d ≥ 0,3 m, S < 9 m², h ≤ 15 m, khoảng cách thỏa 5.9.1.1.2 và 5.9.1.1.4: đầu báo phải lắp trên mặt dưới các dầm nhà.",
+   "dieu": "TCVN 7568-14:2025, 5.9.1.1 (theo tài liệu tóm tắt TH5)",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "TH6: h ≥ 4 m, d ≥ 0,3 m, S ≥ 9 m², h ≤ 15 m, khoảng cách thỏa 5.9.1.1.2 và 5.9.1.1.4: đầu báo phải lắp trong các khu vực giữa các dầm nhà.",
+   "dieu": "TCVN 7568-14:2025, 5.9.1.1 (theo tài liệu tóm tắt TH6)",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Trường hợp đầu đoạn trích (diện tích giữa các dầm S < 4 m²): đầu báo phải lắp trên mặt dưới các dầm nhà. Phần đầu của điều kiện bị cắt, chưa rõ h, d của trường hợp này.",
+   "dieu": "TCVN 7568-14:2025, 5.9.1.1 (đoạn cắt)",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Chú thích hình vị trí đầu báo khói trên bề mặt phẳng có dầm: 0,5 m ≤ x ≤ 5,1 m; z ≥ 0,4 m; q ≥ 0,4 m (hình vẽ có cửa cấp không khí và quạt). Ký hiệu x, y, z, q theo hình, đoạn trích không nêu rõ từng ký hiệu chỉ khoảng nào.",
+   "dieu": "TCVN 7568-14:2025, hình trong tài liệu tóm tắt",
+   "nguon": "kb:tk-đầu-báo-khói"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Với trần có dầm: đo chiều cao lắp h, chiều sâu dầm d, diện tích ô giữa các dầm S trên bản vẽ mặt bằng trần/mặt cắt, rồi đối chiếu các ngưỡng 4 m, 0,3 m, 4 m², 9 m², 15 m² ở trên để biết đầu báo lắp dưới dầm hay trong từng ô giữa các dầm.",
+   "dieu": "suy từ TCVN 7568-14:2025, 5.9.1.1",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Căn hộ: kiểm có đầu báo khói trong từng phòng, hành lang tầng và sảnh thang máy.",
+   "dieu": "suy từ QCVN 06:2022/BXD",
+   "nguon": "kb:tk-đầu-báo-khói"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Đổi đầu báo nhiệt sang đầu báo khói ở khu vực hầm đổi công năng được coi là đổi nguyên lý báo cháy, thuộc diện thẩm định; không nên coi chỉ là thay thiết bị.",
+   "dieu": "văn bản hướng dẫn thẩm định điều chỉnh (NĐ 105/2025, khoản 3 Điều 9)",
+   "nguon": "kb:tk-đầu-báo-khói"
+  }
+ ]
+}

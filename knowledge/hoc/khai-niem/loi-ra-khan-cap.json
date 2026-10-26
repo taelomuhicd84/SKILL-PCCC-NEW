@@ -1,0 +1,69 @@
+{
+ "slug": "loi-ra-khan-cap",
+ "ten": "Lối ra khẩn cấp",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m15-cnch",
+  "chung"
+ ],
+ "lien_quan": [
+  "Lối ra thoát nạn",
+  "Sân thượng thoáng",
+  "Lối ra ngoài trực tiếp"
+ ],
+ "ngay": "2026-10-26T04:21:19.609Z",
+ "dinh_nghia": [
+  {
+   "y": "Lối ra bố trí và duy trì bằng một hoặc kết hợp: lối ra sân thượng thoáng hoặc ban công, lô gia thoáng; lối ra có khu vực lánh nạn tạm thời; ô cửa sổ có sẵn phương tiện hỗ trợ thoát nạn.",
+   "dieu": "9.1.9",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Ban công thoáng hoặc sân thượng thoáng là hở ra ngoài trời, bộ phận bao che (nếu có) phải bảo đảm thoát nạn, cứu nạn dễ dàng khi lực lượng chữa cháy tiếp cận.",
+   "dieu": "9.1.9 chú thích",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Bắt buộc/được dùng trong: nhà 4 tầng trở lên không hành lang bên thoát nạn qua cầu thang bộ loại 2; nhà 2 tầng một lối ra từ tầng 2 qua thang loại 2 (≤ 50 người trường hợp 2, ≤ 20 người trường hợp 3); nhà ≥ 3 tầng có tầng trệt một lối thoát thì mỗi tầng trên có thêm ít nhất một lối ra khẩn cấp; phòng F2.1, F2.2.",
+   "dieu": "9.3.3.3.3; 9.3.4.3.4; 9.3.4.3.5; 9.3.5.3.2; 9.3.1.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Lỗ mở trên sàn ban công/lô gia: kích thước không nên nhỏ hơn 0,6 m × 0,8 m; cửa nắp mở dễ dàng khi có cháy.",
+   "dieu": "9.1.9",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Khu vực lánh nạn tạm thời: kích thước theo chiều bất kỳ không nhỏ hơn 600 mm, ngăn với trong nhà bằng tường xây hoặc vách đặc không cháy dài ≥ 1 200 mm, dày ≥ 100 mm.",
+   "dieu": "9.1.9",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Cần có thêm phương tiện hỗ trợ thoát nạn để xuống dưới và ra xa nhà. Thang ngoài nhà cao ≥ 10 m (đo từ bậc trên cùng xuống đất) phải có lan can, song sắt, lồng bảo vệ.",
+   "dieu": "9.1.10",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng, mặt đứng: ban công/lô gia/sân thượng thoáng, kích thước lỗ mở, khu lánh nạn, thang thoát nạn ngoài nhà. Suy từ 9.1.9, 9.1.10.",
+   "dieu": "9.1.9",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác 'lối ra thoát nạn' (3.20) dẫn vào đường thoát nạn, ra ngoài trực tiếp hoặc vào vùng an toàn.",
+   "dieu": "3.20; 9.1.9",
+   "nguon": "6ae0fc981256"
+  }
+ ]
+}

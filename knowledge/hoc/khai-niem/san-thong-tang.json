@@ -1,0 +1,47 @@
+{
+ "slug": "san-thong-tang",
+ "ten": "Sàn thông tầng",
+ "dong_nghia": [
+  "lỗ thông tầng"
+ ],
+ "anh_huong": [
+  "m04-giao-thong",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Diện tích sàn cho phép tiếp cận",
+  "Bãi đỗ xe chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà có các sàn thông tầng bao gồm cả tầng hầm thông với các tầng trên mặt đất thì diện tích sàn cho phép tiếp cận lấy bằng diện tích cộng dồn.",
+   "dieu": "6.2.2.3 a)",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà có từ hai nhóm sàn thông tầng trở lên: lấy giá trị cộng dồn của nhóm có diện tích lớn nhất.",
+   "dieu": "6.2.2.3 b)",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Nếu lỗ thông tầng được bảo vệ chống cháy lan thì chỉ tính diện tích một sàn lớn nhất cộng diện tích các lỗ thông tầng trong phạm vi được bảo vệ.",
+   "dieu": "6.2.2.3 chú thích",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt cắt, mặt bằng để nhận biết các sàn nối thông và biện pháp bảo vệ chống cháy lan lỗ thông tầng; suy từ 6.2.2.3.",
+   "dieu": "suy từ 6.2.2.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": []
+}

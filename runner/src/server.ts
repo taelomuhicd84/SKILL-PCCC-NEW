@@ -15,7 +15,7 @@ import { chayGemini, coPlaywright } from "./engines/gemini";
 import { coFileCookie, chuanHoa, FILE_COOKIE } from "./engines/gemini_cookies";
 import { giuPhien } from "./engines/gemini";
 import { chayGeminiApi, coKey, luuKey } from "./engines/gemini_api";
-import { batDauHoc, boThuMuc, capNhatCauHinh, daDuyet, docCauHinh, duyet, hopThoaiThuMuc, khoiDongHoc, kiemLaiBangQuyTac, lietKe, themThuMuc, trangThai as ttHoc } from "./hoc";
+import { batDauHoc, boThuMuc, capNhatCauHinh, daDuyet, docCauHinh, duyet, hopThoaiThuMuc, khoiDongHoc, kiemLaiBangQuyTac, lietKe, themThuMuc, xemChecklist, khaiNiemChoAgent, xemKhaiNiemHoc, trangThai as ttHoc } from "./hoc";
 
 const PORT = Number(process.env.PCCC_PORT ?? 8787);
 const ORIGINS = ["https://taelomuhicd84.github.io", ...(process.env.PCCC_ORIGINS ?? "").split(",").filter(Boolean)];
@@ -118,9 +118,15 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && req.url === "/hoc/chay") {
       const b = await docBody(req);
-      const nguon = ["thu-muc", "mang", "ca-hai"].includes(b.nguon) ? b.nguon : "ca-hai";
+      const nguon = ["thu-muc", "mang", "ca-hai", "khai-niem", "khai-niem-file", "khai-niem-lo-hong"].includes(b.nguon) ? b.nguon : "ca-hai";
       return json(200, { bat_dau: batDauHoc(nguon, Math.max(1, Math.min(50, Number(b.toi_da) || 8))) });
     }
+    if (req.method === "GET" && req.url === "/hoc/khai-niem") return json(200, xemKhaiNiemHoc());
+    if (req.method === "GET" && req.url?.startsWith("/hoc/khai-niem/agent")) {
+      const u = new URL(req.url, "http://x");
+      res.writeHead(200, { "content-type": "text/markdown; charset=utf-8" }).end(khaiNiemChoAgent(u.searchParams.get("id") ?? "", Number(u.searchParams.get("toi_da")) || undefined)); return;
+    }
+    if (req.method === "GET" && req.url === "/hoc/checklist") return json(200, { thu_muc: xemChecklist() });
     if (req.method === "GET" && req.url === "/hoc/kiem-lai") return json(200, { loi: kiemLaiBangQuyTac() });
     if (req.method === "POST" && req.url === "/hoc/duyet") {
       const b = await docBody(req);

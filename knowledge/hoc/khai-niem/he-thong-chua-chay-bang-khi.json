@@ -1,0 +1,53 @@
+{
+ "slug": "he-thong-chua-chay-bang-khi",
+ "ten": "Hệ thống chữa cháy bằng khí",
+ "dong_nghia": [
+  "hệ thống phun khí chữa cháy thể tích"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m07-thoat-nan",
+  "m14-den-su-co"
+ ],
+ "lien_quan": [
+  "Cơ cấu làm trễ thời gian",
+  "Đèn chiếu sáng sự cố",
+  "Hệ thống chữa cháy bằng Sol-khí",
+  "Mối nguy hiểm"
+ ],
+ "ngay": "2026-10-26T04:53:50.362Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khu vực được bảo vệ bằng hệ thống phun khí chữa cháy thể tích và có thể có người phải được trang bị: a) cơ cấu làm trễ thời gian; b) bộ chuyển đổi tự động/bằng tay và cơ cấu khóa ngắt nếu cần theo 5.2; c) đường thoát nạn thông thoáng, có đèn chiếu sáng sự cố và chỉ dẫn thoát nạn; d) cửa mở ra ngoài có cơ cấu tự (nội dung bị cắt trong nguồn).",
+   "dieu": "mục Các khu vực có người",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phải có bộ phận báo động và hiển thị, hoặc cả hai, để báo hoạt động của hệ thống, mối nguy hiểm đối với con người hoặc sự hư hỏng của cơ cấu giám sát; kiểu (âm thanh, ánh sáng, khứu giác), số lượng và vị trí phải bảo đảm hoàn thành nhiệm vụ.",
+   "dieu": "",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Bộ phận báo động âm thanh và ánh sáng trước khi phun phải lắp trong khu vực được bảo vệ để cảnh báo chắc chắn việc sắp phun.",
+   "dieu": "",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Cơ cấu khóa ngắt thường không dùng, chỉ dùng trong một số trường hợp, đặc biệt cho một số chức năng bảo dưỡng riêng.",
+   "dieu": "Chú thích điểm b",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Khi thiết bị lắp đặt có thể bị phơi ra trong điều kiện làm tổn thất hoặc mất toàn vẹn đường ống khí nén, phải đặc biệt chú ý bảo đảm không xảy ra tổn thất hoặc mất toàn vẹn đường ống.",
+   "dieu": "",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

@@ -86,9 +86,14 @@ export async function xemHoc(): Promise<{ cau_hinh: CauHinhHoc; ghi_chu: GhiChuH
   if (!r.ok) throw new Error(await r.text());
   return r.json();
 }
+export interface HangTaiLieu { ten: string; rel: string; so_hieu: string; loai_tl: string; tinh_nang: string; ngay: string; trang_thai: string; khai_niem?: number; ghi_chu: string }
+export const xemChecklistHoc = () => fetch(`${RUNNER}/hoc/checklist`).then((r) => r.json() as Promise<{ thu_muc: { duong: string; hang: HangTaiLieu[]; loai: { ten: string; rel: string; ngay: string; ly_do: string }[] }[] }>);
+export interface MucKN { y: string; dieu: string; nguon: string; can_xem?: boolean }
+export interface KhaiNiemHoc { slug: string; ten: string; dong_nghia: string[]; anh_huong: string[]; lien_quan: string[]; dung_duoc: boolean; dinh_nghia: MucKN[]; cach_xac_dinh: MucKN[]; ap_dung: MucKN[]; khong_ap_dung: MucKN[]; yeu_cau: MucKN[]; cach_kiem: MucKN[]; hay_nham: MucKN[] }
+export const xemKhaiNiemHoc = () => fetch(`${RUNNER}/hoc/khai-niem`).then((r) => r.json() as Promise<{ khai_niem: KhaiNiemHoc[]; lo_hong: string[] }>);
 export const thuMucHoc = (b: { them?: string; bo?: string; chon?: boolean }) => post<CauHinhHoc>("/hoc/thu-muc", b);
 export const cauHinhHoc = (b: Partial<Pick<CauHinhHoc, "tu_dong" | "tu_duyet" | "chu_de">>) => post<CauHinhHoc>("/hoc/cau-hinh", b);
-export const chayHoc = (nguon: "thu-muc" | "mang" | "ca-hai", toi_da?: number) => post<{ bat_dau: boolean }>("/hoc/chay", { nguon, toi_da });
+export const chayHoc = (nguon: "thu-muc" | "mang" | "ca-hai" | "khai-niem" | "khai-niem-file", toi_da?: number) => post<{ bat_dau: boolean }>("/hoc/chay", { nguon, toi_da });
 export const duyetHoc = (id: string, trang_thai: GhiChuHoc["trang_thai"], ep = false) => post("/hoc/duyet", { id, trang_thai, ep });
 
 export interface DongLog { luc: string; nd: string }

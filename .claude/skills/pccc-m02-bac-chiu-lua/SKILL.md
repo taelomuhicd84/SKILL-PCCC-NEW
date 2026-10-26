@@ -11,6 +11,7 @@ description: Thẩm định PCCC – Mục 2 – Bậc chịu lửa. Bậc chị
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/qcvn06-phu-luc-h.md`
 - `knowledge/hoc/_da_duyet.md`
+- `knowledge/hoc/khai-niem/_theo_agent/m02-bac-chiu-lua.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)

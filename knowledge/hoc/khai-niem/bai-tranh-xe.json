@@ -1,0 +1,47 @@
+{
+ "slug": "bai-tranh-xe",
+ "ten": "Bãi tránh xe",
+ "dong_nghia": [
+  "đoạn đường mở rộng để xe tránh nhau"
+ ],
+ "anh_huong": [
+  "m04-giao-thong",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Bãi quay xe",
+  "Đường cho xe chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Đường giao thông nhỏ hẹp chỉ đủ cho 1 làn xe chạy.",
+   "dieu": "6.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Cứ ít nhất 100 m thiết kế một đoạn mở rộng dài tối thiểu 8 m, rộng tối thiểu 7 m để xe chữa cháy và xe khác tránh nhau.",
+   "dieu": "6.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo khoảng cách giữa các đoạn mở rộng và kích thước 8 m × 7 m trên đường 1 làn; suy từ 6.5.",
+   "dieu": "suy từ 6.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác bãi quay xe ở cuối đường cụt.",
+   "dieu": "6.4, 6.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ]
+}

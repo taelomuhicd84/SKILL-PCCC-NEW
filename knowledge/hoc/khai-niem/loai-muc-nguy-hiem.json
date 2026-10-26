@@ -1,0 +1,67 @@
+{
+ "slug": "loai-muc-nguy-hiem",
+ "ten": "Loại mức nguy hiểm",
+ "dong_nghia": [
+  "Loại nguy hiểm"
+ ],
+ "anh_huong": [
+  "m10-binh-chua-chay",
+  "m01-phan-loai",
+  "chung"
+ ],
+ "lien_quan": [
+  "Phân loại đám cháy",
+  "Khoảng cách di chuyển"
+ ],
+ "ngay": "2026-10-26T04:34:19.101Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Xác định theo Bảng D.1 (Thấp / Trung bình / Cao). Chiều cao công trình: thấp đến 25; trung bình không quy định; cao trên 25.",
+   "dieu": "Bảng D.1",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Số lượng người: thấp dưới 15; trung bình từ 15 đến 250; cao trên 250.",
+   "dieu": "Bảng D.1",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Diện tích bề mặt công trình (m2): thấp dưới 300; trung bình từ 300 đến 3000; cao trên 3000.",
+   "dieu": "Bảng D.1",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Khí dễ cháy (lít): thấp dưới 500; trung bình từ 500 đến 3000; cao trên 3000.",
+   "dieu": "Bảng D.1",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Chất lỏng dễ cháy (lít): thấp dưới 250; trung bình từ 250 đến 1000; cao trên 1000.",
+   "dieu": "Bảng D.1",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Chất lỏng cháy được (lít): thấp dưới 500; trung bình từ 1000 đến 2000; cao trên 2000. Văn bản không nêu khoảng 500–1000 và khoảng 2000, nên cần xác nhận khi gặp các giá trị này.",
+   "dieu": "Bảng D.1",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Loại mức nguy hiểm quyết định công suất bình chữa cháy nhỏ nhất, khoảng cách di chuyển lớn nhất và diện tích bảo vệ lớn nhất của 1 bình (Bảng 1 cho loại A, Bảng 2 cho loại B và C).",
+   "dieu": "Bảng 1, Bảng 2",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Lấy chiều cao, số người, diện tích, lượng khí/chất lỏng từ hồ sơ, đối chiếu từng hàng của Bảng D.1 để xác định mức. Văn bản không nêu cách tổng hợp khi các thông số cho mức khác nhau, nên cần xác nhận.",
+   "dieu": "suy từ Bảng D.1",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "muc-am-thanh-tin-hieu-loa-trong-phong-ngu",
+ "ten": "Mức âm thanh tín hiệu loa trong phòng ngủ",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Mức âm thanh tổng thể của tín hiệu loa",
+  "Hệ thống loa thông báo và hướng dẫn thoát nạn"
+ ],
+ "ngay": "2026-10-26T04:07:56.942Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Đo ở vị trí ngang với đầu của người đang ngủ.",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Áp dụng cho phòng ngủ.",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Tín hiệu âm thanh cao hơn ít nhất 15 dBA so với mức tiếng ồn thường xuyên trong phòng.",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Mức âm thanh tổng thể không nhỏ hơn 70 dBA và không quá 120 dBA.",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem tính toán/đo đạc tại phòng ngủ: ≥ 70 dBA, ≤ 120 dBA, hơn ồn nền ≥ 15 dBA, đo ngang đầu người ngủ (suy từ H.4).",
+   "dieu": "suy từ H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ngưỡng tối thiểu phòng ngủ là 70 dBA, khác ngưỡng chung 75 dBA ở khoảng cách 3 m; điểm đo cũng khác (ngang đầu người ngủ so với cao 1,5 m).",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "giai-phap-ngan-chan-lan-truyen-lua-va-san-pham-chay-bo-phan-ngan-chay-trong-nha-",
+ "ten": "Giải pháp ngăn chặn lan truyền lửa và sản phẩm cháy (bộ phận ngăn cháy trong nhà ở riêng lẻ)",
+ "dong_nghia": [
+  "bộ phận ngăn cháy 9.1.7"
+ ],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m02-bac-chiu-lua",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Khu vực có nguy cơ phát sinh cháy cao",
+  "Buồng thang bộ"
+ ],
+ "ngay": "2026-10-26T04:21:19.609Z",
+ "dinh_nghia": [
+  {
+   "y": "Giải pháp ngăn chặn không để lan truyền lửa và sản phẩm cháy giữa các khu vực trong nhà (bảo vệ đường thoát nạn, ngăn khu vực nguy cơ cháy cao, ngăn khu ở với khu công năng khác).",
+   "dieu": "9.1.7",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Khi không có quy định riêng trong tiêu chuẩn chuyên ngành, cho phép không ngăn cháy giữa khu công năng khác với: phòng kỹ thuật nước; phòng thường xuyên ẩm ướt hoặc nguy cơ cháy thấp; phòng kho ≤ 10 m² không chứa khí/chất lỏng cháy; phòng không yêu cầu chữa cháy tự động hoặc báo cháy tự động; khu chỉ phục vụ ăn uống (không bếp nấu, không kho thực phẩm); phòng họp nội bộ và tương tự.",
+   "dieu": "9.3.1.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Tường/vách chịu lực: gạch đất sét nung, gạch bê tông cốt liệu nhỏ, bê tông khí chưng áp dày ≥ 100 mm; hoặc bê tông cốt thép dày ≥ 75 mm (lớp bảo vệ ≥ 25 mm); hoặc vật liệu khác REI ≥ 30.",
+   "dieu": "9.1.7 a",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Tường/vách không chịu lực: gạch đất sét nung ≥ 75 mm; gạch bê tông cốt liệu nhỏ ≥ 50 mm; rèm hoặc màn ngăn cố định hoặc tự hạ khi cháy EI ≥ 30; vật liệu khác EI ≥ 30.",
+   "dieu": "9.1.7 b",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Cửa đi lắp trên bộ phận ngăn cháy không nên có giới hạn chịu lửa nhỏ hơn EI 15. Tham khảo cấu tạo: gỗ tự nhiên đặc ≥ 30 mm; gỗ công nghiệp đặc ≥ 50 mm; khối lượng riêng gỗ ≥ 450 kg/m³; thép nhiều lớp ≥ 46 mm, mặt thép ≥ 0,8 mm, tấm chống cháy ≥ 18 mm.",
+   "dieu": "9.1.7",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem chi tiết cấu tạo tường, cửa ngăn cháy trên bản vẽ và ghi chú, so với trị số 9.1.7. Suy từ 9.1.7.",
+   "dieu": "9.1.7",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "hay_nham": []
+}

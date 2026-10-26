@@ -1,0 +1,36 @@
+{
+ "slug": "dieu-khien-lien-dong",
+ "ten": "Điều khiển liên động",
+ "dong_nghia": [
+  "điều khiển, giám sát liên động"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m09-chong-khoi",
+  "m08-thang-may-cc"
+ ],
+ "lien_quan": [
+  "Module địa chỉ",
+  "Khoang cháy"
+ ],
+ "ngay": "2026-10-26T04:28:22.955Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Phương án điều khiển, giám sát: chung; riêng theo khu vực/chức năng; chọn lọc; theo khoang cháy (theo diện tích và chiều cao)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Đối tượng điều khiển: hệ thống chữa cháy (HTCC); thang máy; tăng áp (buồng thang, phòng/buồng đệm, giếng thang máy); hút khói (hành lang, gian phòng, tầng hầm)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

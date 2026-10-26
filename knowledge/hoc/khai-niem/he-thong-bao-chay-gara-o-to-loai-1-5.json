@@ -1,0 +1,64 @@
+{
+ "slug": "he-thong-bao-chay-gara-o-to-loai-1-5",
+ "ten": "Hệ thống báo cháy gara ô-tô (loại 1–5)",
+ "dong_nghia": [
+  "Loại của hệ thống báo cháy"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m14-den-su-co",
+  "m17-lien-lac"
+ ],
+ "lien_quan": [
+  "Hệ thống chữa cháy tự động trong gara ô-tô",
+  "Thoát khói và thông gió chống khói trong gara ô-tô"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [
+  {
+   "y": "Bảng 8 nêu loại và các đặc trưng của hệ thống báo cháy gồm biện pháp báo cháy (âm thanh, giọng nói, đèn nhấp nháy, đèn lối ra, đèn dẫn hướng), liên lạc vùng báo cháy với bộ phận điều độ, trình tự báo cháy, mức tự động hóa điều khiển; ký hiệu '+' cần thiết, '*' khuyến cáo, '-' không yêu cầu.",
+   "dieu": "Bảng 8",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Gara trên mặt đất dạng kín từ 2 tầng trở lên (trừ gara có lối ra ngoài trời trực tiếp từ từng ngăn và gara cơ khí): sức chứa tới 100 chỗ-xe loại 1; lớn hơn 100 chỗ-xe loại 2.",
+   "dieu": "2.3.5.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara ngầm từ 2 tầng hầm trở lên: tới 50 chỗ-xe loại 2; trên 50 đến 200 chỗ-xe loại 3; trên 200 chỗ-xe loại 4 và 5.",
+   "dieu": "2.3.5.5",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Loại 1: tín hiệu âm thanh '+'; đèn lối ra '*'; trình tự báo cháy tất cả đồng thời '*'. Loại 2: âm thanh '+'; đèn lối ra '+'; tất cả đồng thời '+'. Loại 3: giọng nói '+'; liên lạc vùng báo cháy với điều độ '*'; trình tự nhân viên trước rồi tất cả '+'. Loại 4: giọng nói '+'; liên lạc với điều độ '+'; đèn dẫn hướng chuyển động '+'. Loại 5: thêm đèn dẫn hướng cho từng vùng '+' và tự động hóa hoàn toàn điều khiển báo cháy, tổ chức thoát hiểm từ từng vùng '+'.",
+   "dieu": "Bảng 8",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Cấp điện hạng 1 cho hệ thống báo cháy.",
+   "dieu": "2.3.4.2",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xác định loại gara, số tầng, số chỗ-xe, tra loại báo cháy 1–5 theo 2.3.5.5, rồi đối chiếu từng đặc trưng '+' trong Bảng 8 với thuyết minh và bản vẽ báo cháy. Suy từ 2.3.5.5, Bảng 8.",
+   "dieu": "2.3.5.5; Bảng 8",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Loại 1–5 ở đây là loại hệ thống báo cháy riêng của gara theo sức chứa; không nhầm với phân loại đầu báo hay hệ thống báo cháy thường.",
+   "dieu": "2.3.5.5",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

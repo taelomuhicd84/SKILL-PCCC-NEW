@@ -1,0 +1,84 @@
+{
+ "slug": "vung-khoi",
+ "ten": "Vùng khói",
+ "dong_nghia": [
+  "bể khói",
+  "ngăn chia khoang khói"
+ ],
+ "anh_huong": [
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Hệ thống hút khói",
+  "Phụ lục D",
+  "Màn ngăn khói",
+  "Thoát khói tự nhiên"
+ ],
+ "ngay": "2026-10-26T04:53:10.947Z",
+ "dinh_nghia": [
+  {
+   "y": "Phần gian phòng được ngăn chia (bằng giải pháp bao che dùng các bộ phận ngăn khói, hoặc giải pháp giả định) khi gian phòng có diện tích lớn hơn 3 000 m2; tính đến khả năng cháy xảy ra ở một trong các vùng đó.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khi hút khói trực tiếp từ gian phòng có diện tích lớn hơn 3 000 m² thì phải ngăn chia gian phòng (bằng bộ phận ngăn khói hoặc giải pháp giả định) thành các vùng khói.",
+   "dieu": "D (Phụ lục D)",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Gian phòng có diện tích lớn hơn 3 000 m2 phải ngăn chia thành các vùng khói.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Mỗi vùng khói có diện tích không lớn hơn 3 000 m² và phải tính đến khả năng cháy ở một trong các vùng đó.",
+   "dieu": "D (Phụ lục D)",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Mỗi cửa thu khói chỉ được tính phục vụ cho diện tích không quá 1 000 m².",
+   "dieu": "D (Phụ lục D)",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Diện tích mỗi vùng khói không lớn hơn 3 000 m2.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Mỗi cửa thu khói chỉ được tính phục vụ cho diện tích không quá 1 000 m2.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Chia bằng bộ phận ngăn khói (màn ngăn khói): cho phép thiết kế chỉ bật một hệ thống hút xả khói tại vùng khói có cháy.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Chia bằng giải pháp giả định: phải có cơ sở tính toán tương ứng và thiết kế bật tất cả các hệ thống hút xả khói đồng thời cho tất cả các vùng khói.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ hút khói: diện tích gian phòng, ranh giới vùng khói, số cửa thu khói so với 1 000 m² mỗi cửa.",
+   "dieu": "suy từ nguồn",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Đối chiếu diện tích gian phòng, ranh giới vùng khói trên bản vẽ, số cửa thu khói (mỗi cửa ≤ 1 000 m2) và sơ đồ logic bật hút khói. Suy từ Phụ lục D.",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "hay_nham": []
+}

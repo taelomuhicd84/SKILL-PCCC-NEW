@@ -1,0 +1,50 @@
+{
+ "slug": "khoang-cach-phong-chay-chong-chay-theo-duong-ranh-gioi",
+ "ten": "Khoảng cách phòng cháy chống cháy theo đường ranh giới",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m03-khoang-cach",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Khoảng cách phòng cháy chống cháy giữa các nhà"
+ ],
+ "ngay": "2026-10-26T04:32:03.287Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tra Bảng E.3 theo nhóm nguy hiểm cháy theo công năng và diện tích lỗ mở không được bảo vệ chống cháy; tỉ lệ lỗ mở tối đa tra Bảng E.4a (mục 1, 2 của E.3) hoặc E.4b (mục 3); giá trị trung gian nội suy tuyến tính.",
+   "dieu": "Bảng E.3, E.4a, E.4b",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Mục 1: các nhóm F3.1, F3.2; karaoke, vũ trường thuộc F2.1; nhóm F5 hạng C. Mục 2: nhóm F5 hạng A, B. Mục 3: các nhóm còn lại.",
+   "dieu": "Bảng E.3",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Giới hạn chịu lửa của tường ngoài theo diện tích lỗ mở (≤1,5 / 1,5–3 / 3–9 / >9 m²): mục 1: E120, E60, 0, 0; mục 2: E180, E120, E60, 0; mục 3: E60, E60, 0, 0. Diện tích lỗ mở > 9 m² xem Bảng E.4a (mục 1, 2) hoặc E.4b (mục 3).",
+   "dieu": "Bảng E.3",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt đứng và mặt bằng: tổng diện tích tường ngoài, tổng diện tích lỗ mở không bảo vệ, khoảng cách đến ranh giới; so với E.4a/E.4b.",
+   "dieu": "suy từ E.3, E.4",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác khoảng cách giữa các nhà theo E.2.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ]
+}

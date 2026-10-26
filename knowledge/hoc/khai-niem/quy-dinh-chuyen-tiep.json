@@ -1,0 +1,56 @@
+{
+ "slug": "quy-dinh-chuyen-tiep",
+ "ten": "Quy định chuyển tiếp",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "chung"
+ ],
+ "lien_quan": [
+  "Thẩm định thiết kế về PCCC",
+  "thẩm định điều chỉnh"
+ ],
+ "ngay": "2026-10-26T04:03:13.206Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Xét mốc: hồ sơ thiết kế xây dựng đã được góp ý hoặc thẩm duyệt về PCCC bởi cơ quan quản lý nhà nước có thẩm quyền TRƯỚC hay TỪ thời điểm quy chuẩn có hiệu lực",
+   "dieu": "7.1.1, 7.1.2",
+   "nguon": "kb:qcvn06-dieu-7.md",
+   "can_xem": true
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Hồ sơ thiết kế xây dựng đã được góp ý hoặc thẩm duyệt về PCCC trước khi quy chuẩn có hiệu lực thì tiếp tục thực hiện theo hồ sơ thiết kế đã được góp ý hoặc thẩm duyệt",
+   "dieu": "7.1.1",
+   "nguon": "kb:qcvn06-dieu-7.md",
+   "can_xem": true
+  },
+  {
+   "y": "Hồ sơ thiết kế xây dựng được góp ý hoặc thẩm duyệt về PCCC kể từ thời điểm quy chuẩn có hiệu lực thì phải tuân thủ quy định của quy chuẩn",
+   "dieu": "7.1.2",
+   "nguon": "kb:qcvn06-dieu-7.md",
+   "can_xem": true
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem ngày góp ý/thẩm duyệt PCCC của hồ sơ, so với ngày quy chuẩn có hiệu lực (ngày hiệu lực không nêu trong đoạn này, cần tra văn bản ban hành) để biết hồ sơ theo hồ sơ đã duyệt hay phải theo quy chuẩn",
+   "dieu": "suy từ 7.1.1, 7.1.2",
+   "nguon": "kb:qcvn06-dieu-7.md",
+   "can_xem": true
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Mốc xét là thời điểm được góp ý/thẩm duyệt PCCC, không phải thời điểm lập hay nộp hồ sơ thiết kế (suy từ nội dung 7.1.1, 7.1.2)",
+   "dieu": "7.1.1, 7.1.2",
+   "nguon": "kb:qcvn06-dieu-7.md",
+   "can_xem": true
+  }
+ ]
+}

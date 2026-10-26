@@ -1,0 +1,29 @@
+{
+ "slug": "loi-ra-thoat-nan",
+ "ten": "Lối ra thoát nạn",
+ "dong_nghia": [
+  "exit access"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m14-den-su-co"
+ ],
+ "lien_quan": [
+  "Đường thoát nạn",
+  "Biển báo an toàn"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [
+  {
+   "y": "Lối ra trên đường thoát nạn dẫn ra khu vực an toàn từ khu vực bị cháy, nổ.",
+   "dieu": "3.2",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

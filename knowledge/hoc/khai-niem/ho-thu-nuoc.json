@@ -1,0 +1,40 @@
+{
+ "slug": "ho-thu-nuoc",
+ "ten": "Hố thu nước",
+ "dong_nghia": [
+  "hố thu"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Bãi lấy nước"
+ ],
+ "ngay": "2026-10-26T04:23:50.656Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khi không thể hút nước chữa cháy trực tiếp từ bồn, bể hoặc hồ bằng xe máy bơm hoặc máy bơm di động thì phải cung cấp các hố thu.",
+   "dieu": "5.1.5.10",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Thể tích hố thu không nhỏ hơn 3 m3 (bản 2022: từ 3 m3 đến 5 m3; Sửa đổi 1:2023 bỏ giới hạn tối đa 5 m3).",
+   "dieu": "5.1.5.10 (Sửa đổi 1:2023)",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thể tích hố thu trên bản vẽ so với ≥ 3 m3.",
+   "dieu": "suy từ 5.1.5.10",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "hay_nham": []
+}

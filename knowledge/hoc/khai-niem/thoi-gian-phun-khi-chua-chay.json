@@ -1,0 +1,37 @@
+{
+ "slug": "thoi-gian-phun-khi-chua-chay",
+ "ten": "Thời gian phun khí chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Lượng khí chữa cháy",
+  "Thời gian duy trì"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Khí hóa lỏng: thời gian phun để đạt 95 % nồng độ thiết kế không vượt quá 10 s ở 20 °C, hoặc theo yêu cầu khác của cơ quan có thẩm quyền",
+   "dieu": "Thời gian phun khí chữa cháy – khí hóa lỏng",
+   "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Khí trơ (không hóa lỏng): thời gian đạt 95 % nồng độ thiết kế ở 20 °C không quá 60 s đối với đám cháy loại B, không quá 120 s đối với đám cháy loại A",
+   "dieu": "Thời gian phun khí chữa cháy – khí không hóa lỏng",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh/tính thủy lực: thời gian xả đạt 95 % nồng độ thiết kế so với 10 s (hóa lỏng), 60 s (loại B) hoặc 120 s (loại A) (khí trơ)",
+   "dieu": "suy từ Thời gian phun khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": []
+}

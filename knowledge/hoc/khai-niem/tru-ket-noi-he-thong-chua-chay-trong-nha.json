@@ -1,0 +1,45 @@
+{
+ "slug": "tru-ket-noi-he-thong-chua-chay-trong-nha",
+ "ten": "Trụ kết nối hệ thống chữa cháy trong nhà",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Trụ nước chữa cháy",
+  "Họng tiếp nước vào hệ thống"
+ ],
+ "ngay": "2026-10-26T04:26:33.933Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Công trình thuộc diện trang bị hệ thống họng nước chữa cháy hoặc sprinkler tự động",
+   "dieu": "Trụ kết nối hệ thống chữa cháy trong nhà",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phải có đường ống kết nối từ trạm bơm cấp nước chữa cháy của công trình đến tối thiểu 01 trụ loại 03 cửa hoặc loại 02 cửa DN 65, đặt ở mặt bên ngoài tường công trình về phía có đường giao thông",
+   "dieu": "Trụ kết nối hệ thống chữa cháy trong nhà",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý trạm bơm và mặt bằng ngoài nhà: có đường ống nối tới trụ 02/03 cửa DN 65 phía đường giao thông",
+   "dieu": "suy từ mục Trụ kết nối hệ thống chữa cháy trong nhà",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác với họng chờ/họng tiếp nước (họng chờ lắp ở ngoài nhà để xe bơm tiếp nước vào hệ thống trong nhà)",
+   "dieu": "",
+   "nguon": "d1cdbad641a2"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "khoang-cach-di-chuyen",
+ "ten": "Khoảng cách di chuyển",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m10-binh-chua-chay"
+ ],
+ "lien_quan": [
+  "Loại mức nguy hiểm",
+  "Diện tích bảo vệ lớn nhất của 1 bình chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:34:19.101Z",
+ "dinh_nghia": [
+  {
+   "y": "Khoảng cách mà mọi người phải di chuyển từ vị trí bất kỳ nào tới bình chữa cháy gần nhất.",
+   "dieu": "TCVN 7435-1:2004, 3.23",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đám cháy loại A: khoảng cách di chuyển lớn nhất tới bình là 20 m (mức thấp), 20 m (mức trung bình), 15 m (mức cao).",
+   "dieu": "Bảng 1",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Đám cháy loại B (trừ chất lỏng cháy có chiều dày đánh giá được, quá 0,6 cm) và loại C: khoảng cách di chuyển lớn nhất là 15 m cho cả ba mức.",
+   "dieu": "Bảng 2",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Có thể dùng bình công suất lớn hơn, miễn là khoảng cách di chuyển tới bình không vượt quá khoảng cách quy định trong Bảng 1 (loại A) hoặc Bảng 2 (loại B, C).",
+   "dieu": "7.2.3, 7.3.3",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Trên mặt bằng bố trí bình, đo đường đi thực từ điểm xa nhất tới bình gần nhất và so với 20 m hoặc 15 m theo mức nguy hiểm và loại đám cháy. Suy từ 3.23, Bảng 1, Bảng 2.",
+   "dieu": "suy từ 3.23, Bảng 1, Bảng 2",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "mat-na-loc-doc",
+ "ten": "Mặt nạ lọc độc",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m15-cnch",
+  "m17-lien-lac",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Mặt nạ phòng độc cách ly",
+  "Karaoke, vũ trường",
+  "Dụng cụ phá dỡ thô sơ"
+ ],
+ "ngay": "2026-10-26T04:06:22.541Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà, công trình phải trang bị mặt nạ lọc độc theo Phụ lục F.",
+   "dieu": "2.7.2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Khách sạn, nhà khách, nhà nghỉ và cơ sở dịch vụ lưu trú khác cao từ 3 tầng trở lên: trang bị tại tất cả các tầng nhà.",
+   "dieu": "Bảng F.1, STT 1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Nhà kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở karaoke, vũ trường và nhà có công năng sử dụng tương tự, không phụ thuộc quy mô: trang bị tại tất cả các tầng nhà.",
+   "dieu": "Bảng F.1, STT 2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Khách sạn, nhà khách, nhà nghỉ, cơ sở lưu trú (cao từ 3 tầng): định mức 01 chiếc/01 người, gồm cả khách lưu trú và nhân viên phục vụ có mặt thường xuyên.",
+   "dieu": "Bảng F.1, STT 1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Karaoke, vũ trường: số lượng trên một tầng tính theo số người có mặt đồng thời trong một phòng có diện tích lớn nhất của tầng đó, định mức 01 chiếc/01 người.",
+   "dieu": "Bảng F.1, STT 2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Bố trí tại các tủ phương tiện trên hành lang, đường thoát nạn từng tầng hoặc trong các gian phòng thường xuyên có người.",
+   "dieu": "2.7.2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Khách sạn: lấy số người (khách + nhân viên) của từng tầng. Karaoke: tìm phòng lớn nhất từng tầng, lấy số người đồng thời trong phòng đó; so với số mặt nạ ghi trong hồ sơ (suy từ Bảng F.1).",
+   "dieu": "suy từ Bảng F.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Mặt nạ lọc độc đặt ở tủ phương tiện trên hành lang/đường thoát nạn hoặc phòng thường xuyên có người; mặt nạ phòng độc cách ly đặt ở phòng trực điều khiển chống cháy hoặc khu vực thường trực PCCC.",
+   "dieu": "2.7.2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ]
+}

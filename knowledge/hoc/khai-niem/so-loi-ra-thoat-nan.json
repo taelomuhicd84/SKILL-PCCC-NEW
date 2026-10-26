@@ -1,0 +1,49 @@
+{
+ "slug": "so-loi-ra-thoat-nan",
+ "ten": "Số lối ra thoát nạn",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Chiều cao PCCC",
+  "Đường thoát nạn"
+ ],
+ "ngay": "2026-10-26T04:32:03.287Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Nội dung gồm: các lối ra được coi là lối ra thoát nạn; số lối thoát nạn của gian phòng; số lối ra thoát nạn của tầng nhà; số lối ra của nhà.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cho phép một lối ra thoát nạn (trừ nhà bậc chịu lửa V) từ mỗi tầng, hoặc phần tầng được ngăn cách bằng bộ phận ngăn cháy, có nhóm công năng F1.2, F2, F3, F4.2, F4.3, F4.4 khi thỏa mãn đồng thời các điều kiện.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Nhà có chiều cao PCCC không quá 15 m: diện tích mỗi tầng ≤ 300 m²; số người lớn nhất mỗi tầng ≤ 20 người; không để xe cơ giới, không bố trí kho hạng A, B, C tại tầng có lối thoát nạn ra ngoài nhà, trừ khi được ngăn cách theo quy chuẩn.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Nhà bậc chịu lửa V không được áp dụng ngoại lệ một lối. Nhà trên 3 tầng hoặc có chiều cao PCCC > 9 m: lối ra thoát nạn của gian phòng và mỗi tầng phải tuân thủ yêu cầu của quy chuẩn.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Kiểm nhóm công năng F, chiều cao PCCC, diện tích và số người mỗi tầng, có để xe/kho A, B, C ở tầng thoát ra ngoài không.",
+   "dieu": "suy từ yêu cầu của nguồn",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": []
+}

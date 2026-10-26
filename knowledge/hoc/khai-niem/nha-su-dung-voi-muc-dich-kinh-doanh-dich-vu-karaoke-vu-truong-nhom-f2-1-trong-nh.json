@@ -1,0 +1,93 @@
+{
+ "slug": "nha-su-dung-voi-muc-dich-kinh-doanh-dich-vu-karaoke-vu-truong-nhom-f2-1-trong-nh",
+ "ten": "Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường (nhóm F2.1) trong nhà ở riêng lẻ",
+ "dong_nghia": [
+  "phòng kinh doanh dịch vụ karaoke, dịch vụ vũ trường",
+  "nhóm F2.1"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m11-bao-chay",
+  "m13-cap-dien",
+  "m07-thoat-nan",
+  "m15-cnch",
+  "chung"
+ ],
+ "lien_quan": [
+  "Nhà ở riêng lẻ kết hợp các mục đích sử dụng khác",
+  "Sân thượng thoáng",
+  "Hệ số T",
+  "Lối ra khẩn cấp"
+ ],
+ "ngay": "2026-10-26T04:21:19.609Z",
+ "dinh_nghia": [
+  {
+   "y": "Phòng kinh doanh dịch vụ karaoke, dịch vụ vũ trường và các nhà có đặc điểm sử dụng tương tự thuộc nhóm F2.1. Phòng nhảy và các gian phòng tương tự thuộc nhóm F2.2.",
+   "dieu": "9.3.1.4",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà có một phần diện tích sàn xây dựng dùng làm phòng karaoke, vũ trường (F2.1) hoặc phòng nhảy (F2.2) thì áp dụng 9.3.1.4. Các trường hợp này không xét theo hệ số T.",
+   "dieu": "9.3.1.4; 9.3.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà ở riêng lẻ kết hợp kinh doanh có F2.1 hoặc F2.2 phải đáp ứng QCVN 06 [6] và các yêu cầu a), b), c) của 9.3.1.4.",
+   "dieu": "9.3.1.4",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Điều 9 áp dụng cho nhà dưới 7 tầng (hoặc chiều cao PCCC dưới 25 m), khối tích dưới 5 000 m³, có 1 tầng hầm hoặc 1 tầng nửa/bán hầm.",
+   "dieu": "1.3",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cách phân trường hợp 1, 2, 3 theo hệ số T chỉ dùng cho kinh doanh không thuộc 9.3.1.4.",
+   "dieu": "9.3.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nhà phải có sân thượng thoáng kết hợp phương án tiếp cận phù hợp để tổ chức chữa cháy và cứu nạn cứu hộ.",
+   "dieu": "9.3.1.4 a)",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Chuông, đèn báo cháy bố trí trong hành lang, sảnh chung và từng gian phòng karaoke, vũ trường.",
+   "dieu": "9.3.1.4 b)",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Hệ thống điện dàn âm thanh, hình ảnh kết nối liên động và tự động ngắt khi có tín hiệu từ hệ thống báo cháy tự động. Có nút ngắt bằng tay đặt tại phòng trực điều khiển chống cháy hoặc khu vực lễ tân, có biển chỉ dẫn.",
+   "dieu": "9.3.1.4 b)",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Gian phòng F2.1, F2.2 phải có phương tiện hướng dẫn mọi khách hàng về phương án thoát nạn phù hợp thực tế trước khi dùng dịch vụ.",
+   "dieu": "9.3.1.4 c)",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ có sân thượng thoáng, chuông/đèn báo cháy trong từng phòng, sơ đồ liên động cắt điện âm thanh, vị trí nút ngắt tay, phương tiện hướng dẫn thoát nạn. Suy từ 9.3.1.4.",
+   "dieu": "9.3.1.4",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "F2.1 (karaoke, vũ trường) khác F2.2 (phòng nhảy). F1.1 (điều trị nội trú, nhà trẻ, mẫu giáo, mầm non, phòng ngủ trường nội trú) cũng thuộc 9.3.1.4 nhưng là nhóm khác.",
+   "dieu": "9.3.1.4",
+   "nguon": "6ae0fc981256"
+  }
+ ]
+}

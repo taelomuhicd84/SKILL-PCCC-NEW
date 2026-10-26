@@ -1,0 +1,63 @@
+{
+ "slug": "vi-tri-dat-tram-bom-nuoc-chua-chay",
+ "ten": "Vị trí đặt trạm bơm nước chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m05-cong-nang",
+  "m03-khoang-cach",
+  "m06-ngan-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Bố trí máy bơm trong trạm",
+  "Trạm bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Hai kiểu: đặt độc lập với các hạng mục công trình; đặt trong nhà và công trình.",
+   "dieu": "2.1.1, 2.1.2",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Trạm đặt độc lập: phải đặt trong nhà, cách nhà và công trình khác tối thiểu 16 m.",
+   "dieu": "2.1.1",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Trạm đặt trong nhà và công trình: đặt ở tầng 1 hoặc tầng hầm 1.",
+   "dieu": "2.1.2",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Cho phép đặt trạm tại các tầng nổi khác khi phòng đặt bơm có cửa ra thông với buồng đệm thang thoát nạn của tòa nhà qua hành lang được bảo vệ bằng kết cấu ngăn cháy loại 1.",
+   "dieu": "2.1.2",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không quy định khoảng cách 16 m khi nhà đặt trạm bơm có bậc chịu lửa I và II, hoặc giữa trạm bơm và công trình có tường ngăn cháy.",
+   "dieu": "2.1.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Trạm đặt trong nhà phải ngăn cách với các phòng khác bằng: tường ngăn cháy giới hạn chịu lửa không thấp hơn REI 150; sàn ngăn cháy không thấp hơn REI 60; cửa ngăn cháy không thấp hơn EI 70.",
+   "dieu": "2.1.2",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng: tầng đặt trạm, cửa ra của phòng bơm, tường/sàn/cửa ngăn cháy và ghi chú giới hạn chịu lửa; suy từ 2.1.1, 2.1.2.",
+   "dieu": "2.1.1, 2.1.2",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "hay_nham": []
+}

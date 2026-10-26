@@ -1,0 +1,285 @@
+{
+ "slug": "cuong-do-phun-chat-chua-chay",
+ "ten": "Cường độ phun chất chữa cháy",
+ "dong_nghia": [
+  "Diện tích phun tối thiểu",
+  "Cường độ phun tối thiểu"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m06-ngan-chay",
+  "so-bo-thiet-ke",
+  "ra-soat"
+ ],
+ "lien_quan": [
+  "Nhóm nguy cơ phát sinh cháy",
+  "Đầu phun chủ đạo",
+  "Diện tích tính toán tối thiểu",
+  "Nhóm nguy cơ phát sinh cháy (NCPSC)",
+  "Hệ số K đầu phun",
+  "Đầu phun Drencher",
+  "Thời gian đáp ứng của hệ thống chữa cháy tự động",
+  "Cường độ phun",
+  "Lưu lượng tối thiểu"
+ ],
+ "ngay": "2026-10-26T04:50:06.253Z",
+ "dinh_nghia": [
+  {
+   "y": "Lượng chất chữa cháy được phun vào đám cháy tính theo một đơn vị diện tích (thể tích) trên một đơn vị thời gian.",
+   "dieu": "3.19",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Diện tích phun tối thiểu là diện tích theo quy định (Sprinkler) hoặc theo tính toán (Drencher) được chữa cháy với cường độ phun và lưu lượng chất chữa cháy theo tiêu chuẩn.",
+   "dieu": "3.17",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Cường độ phun chất chữa cháy (Indensity of extinguishing agent supply): lượng chất chữa cháy được phun vào đám cháy tính theo một đơn vị diện tích (thể tích) trên một đơn vị thời gian.",
+   "dieu": "3.19 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Diện tích phun tối thiểu (Minimum irrigation area): diện tích theo quy định (hệ thống Sprinkler) hoặc theo tính toán (hệ thống Drencher) được chữa cháy với cường độ phun và lưu lượng chất chữa cháy theo tiêu chuẩn.",
+   "dieu": "3.17 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Thông số của hệ thống chữa cháy tự động bằng nước, bọt, ghi theo đơn vị l/s.m², gồm nước và dung dịch chất tạo bọt.",
+   "dieu": "TCVN 7336:2021, 5.1.3, Bảng 1",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Xác định nhóm nguy cơ phát sinh cháy của từng khu vực bảo vệ (Phụ lục A), rồi tra cường độ phun tối thiểu: phòng cao đến 10 m tra Bảng 1; phòng cao trên 10 m đến 20 m tra Bảng 3; kho nhóm 5, 6, 7 có chiều cao sắp xếp hàng đến 5,5 m tra Bảng 2.",
+   "dieu": "5.1.3; Bảng 1, 2, 3 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Bảng 1, cường độ phun tối thiểu (l/s.m2), nước / dung dịch chất tạo bọt: nhóm 1: 0,08 / -; nhóm 2: 0,12 / 0,08; nhóm 3: 0,24 / 0,12; nhóm 4.1: 0,3 / 0,15; nhóm 4.2: - / 0,17.",
+   "dieu": "Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Bảng 3 (khu vực bảo vệ cao 10–20 m), nhóm 1 bằng nước: 0,09 l/s.m2 ở chiều cao 10–12 m, tăng dần đến 0,13 l/s.m2 ở chiều cao trên 18–20 m.",
+   "dieu": "Bảng 3 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Bảng 2 (kho nhóm 5, 6, 7), chiều cao sắp xếp hàng từ đến 1 m đến trên 4–5,5 m, bằng nước: nhóm 5: 0,08 / 0,16 / 0,24 / 0,32 / 0,4 l/s.m2 (lần lượt các khoảng đến 1; trên 1–2; trên 2–3; trên 3–4; trên 4–5,5 m); nhóm 6: 0,16 / 0,32 / 0,40 / 0,40 / 0,50 l/s.m2.",
+   "dieu": "Bảng 2 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Tra theo nhóm nguy cơ phát sinh cháy: Bảng 1 (phòng cao đến 10 m) diện tích 60 m2 (nhóm 1), 120 m2 (nhóm 2, 3), 180 m2 (nhóm 4.1, 4.2); Bảng 3 (phòng cao 10–20 m) nhóm 1 từ 66 m2 (cao 10–12 m) đến 90 m2 (cao trên 18–20 m).",
+   "dieu": "Bảng 1, Bảng 3 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Drencher: số đầu phun trong khu vực chữa cháy của hệ thống được xác định rồi tính theo Phụ lục B.",
+   "dieu": "Chú thích 6 Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Tra Bảng 1 theo nhóm NCPSC. Nước: nhóm 1: 0,08; nhóm 2: 0,12; nhóm 3: 0,24; nhóm 4.1: 0,3. Dung dịch bọt: nhóm 2: 0,08; nhóm 3: 0,12; nhóm 4.1: 0,15; nhóm 4.2: 0,17. Nhóm 5, 6, 7 theo Bảng 2.",
+   "dieu": "TCVN 7336:2021, Bảng 1",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Nhà kho nhóm 5, 6, 7: tra Bảng 2 theo chiều cao sắp xếp vật liệu, hàng hóa. Ví dụ đến 1 m: nhóm 5 nước 0,08, bọt 0,04; nhóm 6 nước 0,16, bọt 0,08; nhóm 7 bọt 0,1.",
+   "dieu": "TCVN 7336:2021, Bảng 2",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Tra Bảng 1 TCVN 7336:2021 theo nhóm NCPSC. Nhóm 2: qmin = 0,12 l/s.m².",
+   "dieu": "Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nếu diện tích thực tế được bảo vệ Stt nhỏ hơn diện tích tính toán tối thiểu S thì lưu lượng thực tế có thể giảm theo hệ số K = Stt/S.",
+   "dieu": "Bảng 1 CT5; Bảng 3 CT4",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nước pha chất phụ gia tăng thẩm thấu cho phép giảm cường độ phun và lưu lượng 1,5 lần so với nước.",
+   "dieu": "Bảng 1 CT3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Các thông số hệ thống chữa cháy tự động bằng nước, bọt (cường độ phun tối thiểu, lưu lượng tối thiểu, diện tích tính toán tối thiểu, thời gian phun tối thiểu, khoảng cách tối đa giữa các đầu phun) được quy định tại Bảng 1, 2, 3 và nhóm nguy cơ phát sinh cháy theo Phụ lục A.",
+   "dieu": "5.1.3 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Với hệ thống Sprinkler, giá trị cường độ phun và lưu lượng ở Bảng 1 áp dụng cho phòng cao dưới 10 m, và cho gian phòng có ô lấy sáng với tổng diện tích ô lấy sáng trên mái không quá 10% diện tích. Khi ô lấy sáng hơn 10%, chiều cao gian phòng lấy đến phần mái che.",
+   "dieu": "Chú thích 4 Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Phòng riêng biệt mà theo quy định chỉ cần hệ thống báo cháy thì có thể thay bằng chữa cháy tự động; khi đó cường độ phun phải đảm bảo theo tiêu chuẩn nhưng không quy định lưu lượng, thời gian chữa cháy.",
+   "dieu": "4.3 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Thiết bị tạo màn nước drencher có thể thay tường ngăn cháy trong nhà ga hành khách và nhà/phòng có công năng tương tự với không gian rộng lớn (trung tâm thương mại, sảnh thông tầng), nếu không thể bố trí tường ngăn cháy: bố trí 2 dải cách nhau 0,5 m.",
+   "dieu": "QCVN 06:2022/BXD (sửa đổi 1:2023)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Dùng làm cơ sở tính lưu lượng tối thiểu: khi diện tích thực tế Stt nhỏ hơn diện tích tính toán tối thiểu S, lưu lượng thực tế có thể giảm theo hệ số K = Stt/S.",
+   "dieu": "Chú thích 5 Bảng 1; Chú thích 4 Bảng 3 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Nhà kho có chiều cao sắp xếp hàng đến 5,5 m và chiều cao phòng hơn 10 m thì lưu lượng và cường độ phun phải tăng 10% cho mỗi 2 m chiều cao tăng thêm của phòng.",
+   "dieu": "Tài liệu tập huấn Sprinkler (Bảng 2 chú thích 3)",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Nhóm 6: khi chữa cháy cao su, vật liệu bằng cao su và nhựa cần dùng nước pha thêm chất phụ gia để tăng khả năng thẩm thấu, hoặc bọt có bội số nở thấp.",
+   "dieu": "Tài liệu tập huấn Sprinkler (Bảng 2 chú thích 6)",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Hệ thống Drencher: cho phép bố trí khoảng cách đầu phun lớn hơn Bảng 1, khi đó các đầu phun phải bảo đảm cường độ phun của toàn bộ khu vực được bảo vệ.",
+   "dieu": "TCVN 7336:2021, Bảng 1 chú thích 8",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Dùng tính lưu lượng phun tối thiểu: Smin_tt = qmin × S (ví dụ 0,12 × 126,7 = 15,2 l/s).",
+   "dieu": "Bảng tính thủy lực Phụ lục B – mục I.1",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Các giá trị ở Bảng 1 không áp dụng trực tiếp cho phòng cao từ 10 đến 20 m (dùng Bảng 3) và kho nhóm 5, 6, 7 (dùng Bảng 2).",
+   "dieu": "Chú thích 4 Bảng 1; 5.1.3 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Kho có chiều cao sắp xếp hàng hơn 5,5 m: chỉ được thiết kế sau khi thử nghiệm xác nhận các thông số thiết kế chính, với điều kiện kỹ thuật đặc biệt được cơ quan có thẩm quyền chấp thuận.",
+   "dieu": "Chú thích 5 Bảng 2 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Kho cao tới 5,5 m trở xuống và phòng cao hơn 10 m, nhóm 5, 6, 7: cường độ và lưu lượng tăng 10% cho mỗi 2 m chiều cao tăng thêm của phòng.",
+   "dieu": "Bảng 2 CT3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Phòng cao 10–20 m: cường độ phun nước nhóm 2 từ 0,13 (cao 10–12 m) đến 0,18 l/s.m² (cao 18–20 m); nhóm 3 từ 0,26 đến 0,36; nhóm 4.1 từ 0,33 đến 0,45.",
+   "dieu": "Bảng 3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Số đầu phun tối thiểu n ≥ S/Ω (S diện tích tính toán, Ω diện tích bảo vệ của một đầu phun).",
+   "dieu": "B.3.2",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Cường độ phun đối với các hệ thống chữa cháy tự động không được thấp hơn 0,08 L/(s.m2).",
+   "dieu": "QCVN 06:2022/BXD (sửa đổi 1:2023)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Hệ thống chữa cháy sprinkler: lưu lượng nước không thấp hơn 10 L/s.",
+   "dieu": "QCVN 06:2022/BXD (sửa đổi 1:2023)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Màn nước drencher thay tường ngăn cháy: cường độ phun không nhỏ hơn 1 L/s cho mỗi mét chiều dài màn nước (tính chung cho cả 2 dải); duy trì màn nước ít nhất 1 giờ; ngoài ra phải có giải pháp ngăn chặn lan truyền khói giữa các khoang cháy.",
+   "dieu": "QCVN 06:2022/BXD (sửa đổi 1:2023)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Nước pha thêm chất phụ gia (đảm bảo thông số kỹ thuật của nhà sản xuất) để tăng khả năng thẩm thấu: cường độ phun và lưu lượng cho phép giảm 1,5 lần so với nước.",
+   "dieu": "Chú thích 3 Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Kho có chiều cao sắp xếp hàng đến 5,5 m và phòng cao hơn 10 m: lưu lượng và cường độ phun nước, dung dịch chất tạo bọt nhóm 5, 6, 7 phải tăng 10% cho mỗi 2 m chiều cao tăng thêm của phòng.",
+   "dieu": "Chú thích 3 Bảng 2 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Đầu phun phải lắp đặt theo yêu cầu của Bảng 1, có tính đến đặc tính kỹ thuật đầu phun (vị trí lắp đặt, nhiệt độ tác động, cường độ phun, bán kính bảo vệ, đường đặc tính) và tài liệu kỹ thuật của nhà sản xuất.",
+   "dieu": "5.1.10 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Drencher: cho phép bố trí khoảng cách giữa các đầu phun lớn hơn Bảng 1, khi đó các đầu phun phải đảm bảo cường độ phun của toàn bộ khu vực được bảo vệ và không mâu thuẫn với tài liệu kỹ thuật của đầu phun.",
+   "dieu": "Chú thích 8 Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Tài liệu tập huấn: cột áp đầu phun chủ đạo Hcđ = (qcđ/kv)^2 với qcđ = I.Fv (I: cường độ phun tối thiểu l/s.m2 tra Bảng 1, 2, 3; Fv: diện tích bảo vệ một đầu phun; kv: đặc tính lưu lượng đầu phun); Hmin 5 m.c.n, Hmax 100 m.c.n.",
+   "dieu": "Tài liệu tập huấn hệ thống sprinkler (không ghi điều)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Tham khảo SP 241.1311500.2015 (tài liệu tập huấn): đầu phun dưới mái, chiều cao xếp hàng đến 16 m cường độ phun tối thiểu 0,12 l/(s.m2), trên 16 m là 0,18 l/(s.m2); diện tích tính toán tối thiểu 90 m2.",
+   "dieu": "SP 241.1311500.2015, mục 6.6 (trích trong tài liệu tập huấn)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Số đầu phun Sprinkler dự trữ để thử nghiệm không thấp hơn 2 lần số đầu phun trên diện tích tính toán tối thiểu tại Bảng 1, cho mỗi khu vực thuộc nhóm nguy cơ phát sinh cháy khác nhau của công trình.",
+   "dieu": "5.1.12 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Giá trị trong Bảng 1, 2, 3 áp dụng cho đầu phun nước và bọt có cấu tạo thông thường; Bảng thể hiện cường độ phun của dung dịch chất tạo bọt thông thường.",
+   "dieu": "TCVN 7336:2021, Bảng 3 chú thích 2, 3",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Nhóm 2: cường độ phun tối thiểu 0,12 l/s.m².",
+   "dieu": "Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "So cường độ phun và lưu lượng trong tính toán thủy lực với Bảng 1, 2, 3 theo nhóm nguy cơ và chiều cao phòng/chiều cao xếp hàng. Suy từ 5.1.3.",
+   "dieu": "5.1.3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Xác định nhóm nguy cơ phát sinh cháy từng khu vực và chiều cao phòng/chiều cao xếp hàng trong hồ sơ, tra Bảng 1/2/3, so cường độ phun thiết kế (lưu lượng đầu phun chia diện tích bảo vệ) với trị số tối thiểu; kiểm cường độ phun không thấp hơn 0,08 L/(s.m2) và lưu lượng sprinkler không thấp hơn 10 L/s.",
+   "dieu": "suy từ 5.1.3 TCVN 7336:2021 và QCVN 06:2022/BXD",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Với màn nước drencher thay tường ngăn cháy: xem bản vẽ có 2 dải cách nhau 0,5 m, cường độ phun từ 1 L/s mỗi mét dài màn nước, thời gian duy trì từ 1 giờ.",
+   "dieu": "suy từ QCVN 06:2022/BXD (sửa đổi 1:2023)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "So diện tích tính toán thực tế trên bản vẽ (số đầu phun hoạt động đồng thời) với S tra từ Bảng 1/3; lấy giá trị lớn hơn khi tính lưu lượng (bảng tính thủy lực Phụ lục B dùng IF(Stt>S, Stt, S)).",
+   "dieu": "suy từ Chú thích 5 Bảng 1 và bảng tính thủy lực Phụ lục B",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Đối chiếu cường độ phun thiết kế (qmin) với trị số Bảng 1/2/3 theo nhóm NCPSC và chiều cao. Lưu lượng phun tối thiểu tính theo qmin x S (xem bảng tính thủy lực Phụ lục B).",
+   "dieu": "suy từ bảng tính thủy lực Phụ lục B",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Cường độ phun (l/s.m2, theo diện tích) khác lưu lượng tối thiểu (l/s). Chú thích 5: khi diện tích thực tế Stt nhỏ hơn diện tích tính toán tối thiểu S thì lưu lượng thực tế giảm theo hệ số K = Stt/S; cường độ phun không giảm theo hệ số này.",
+   "dieu": "Chú thích 5 Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Cường độ phun nước khác cường độ phun dung dịch chất tạo bọt (hai cột riêng trong Bảng 1, 2, 3). Bảng thể hiện cường độ phun của dung dịch chất tạo bọt thông thường.",
+   "dieu": "Chú thích 7 Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  }
+ ]
+}

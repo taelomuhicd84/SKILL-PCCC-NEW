@@ -1,0 +1,88 @@
+{
+ "slug": "binh-phun-sol-khi",
+ "ten": "Bình phun Sol-khí",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Khối lượng chất tạo Sol-khí",
+  "Khu vực có người",
+  "Hệ thống chữa cháy bằng khí",
+  "Cơ cấu làm trễ thời gian",
+  "Hệ thống báo cháy",
+  "Mối nguy hiểm"
+ ],
+ "ngay": "2026-10-26T04:53:50.362Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Bố trí bên trong hoặc càng gần mối nguy hiểm cần bảo vệ càng tốt; ngoài bảo đảm độ bao phủ, đạt nồng độ thiết kế trong toàn khu vực bảo vệ, còn phải bảo đảm khoảng cách an toàn đối với con người, vật liệu dễ cháy, thiết bị điện; việc lắp đặt phụ thuộc kích thước, chủng loại, vị trí theo hướng dẫn nhà sản xuất.",
+   "dieu": "",
+   "nguon": "b8b0eb40c111"
+  },
+  {
+   "y": "Bình phun Sol-khí được kích hoạt tự động từ hệ thống báo cháy tự động của khu vực bảo vệ (đầu báo cháy, dây dẫn, chuông đèn cảnh báo).",
+   "dieu": "",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Ngoài kích hoạt tự động từ hệ thống báo cháy, phải có thiết bị kích hoạt phun bằng tay (cần gạt, nút nhấn…) và nút nhấn tạm dừng; trung tâm điều khiển và các công tắc, nút nhấn lắp theo Điều 8.1.",
+   "dieu": "Điều 6.2.3.7; Điều 6.2.5.4; Điều 8.1",
+   "nguon": "b8b0eb40c111"
+  },
+  {
+   "y": "Sau khi lắp đặt phải có báo động và thời gian trễ trước khi phun, đủ để con người thoát nạn ra ngoài.",
+   "dieu": "Điều 6.2.5.7",
+   "nguon": "b8b0eb40c111"
+  },
+  {
+   "y": "Hệ thống báo cháy tự động cho khu vực bảo vệ (đầu báo, dây dẫn, chuông đèn cảnh báo) tự động kích hoạt bình phun; thiết kế theo Điều 6.2.2, 6.2.5, 6.2.6, 8.1 của tiêu chuẩn và TCVN 5738.",
+   "dieu": "Điều 6.2.2; 6.2.5; 6.2.6; 8.1",
+   "nguon": "b8b0eb40c111"
+  },
+  {
+   "y": "Việc lắp đặt bình phun phụ thuộc kích thước, chủng loại, vị trí lắp đặt, theo hướng dẫn của nhà sản xuất.",
+   "dieu": "",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Hệ thống báo cháy tự động phải thiết kế theo Điều 6.2.2, 6.2.5, 6.2.6, 8.1 của tiêu chuẩn này và theo TCVN 5738.",
+   "dieu": "Điều 6.2.2, 6.2.5, 6.2.6, 8.1",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Ngoài kích hoạt tự động, phải có thiết bị (cần gạt, nút nhấn…) kích hoạt phun bằng tay.",
+   "dieu": "Điều 6.2.3.7",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Phải có nút nhấn tạm dừng.",
+   "dieu": "Điều 6.2.5.4",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Trung tâm điều khiển, các công tắc và nút nhấn lắp đặt theo quy định.",
+   "dieu": "Điều 8.1",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Phải có báo động và thời gian trễ trước khi phun, đủ để con người thoát nạn ra ngoài.",
+   "dieu": "Điều 6.2.5.7",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ có nút kích hoạt tay, nút tạm dừng, chuông đèn, thời gian trễ; vị trí bình so với vật liệu dễ cháy và lối ra. Suy từ Điều 6.2.3.7, 6.2.5.4, 6.2.5.7.",
+   "dieu": "",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "hay_nham": []
+}

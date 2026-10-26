@@ -1,0 +1,33 @@
+{
+ "slug": "sanh-ngan-khoi",
+ "ten": "Sảnh ngăn khói",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Sảnh thang máy",
+  "Sảnh thông tầng"
+ ],
+ "ngay": "2026-10-26T04:52:13.508Z",
+ "dinh_nghia": [
+  {
+   "y": "Sảnh được bố trí ở phía ngoài lối vào một buồng thang bộ thoát nạn. Thiết kế của sảnh phải bảo đảm ngăn chặn hoặc giảm thiểu sự xâm nhập của khói vào các buồng thang bộ.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác sảnh thang máy (không gian trống trước cửa thang máy) và sảnh thông tầng (không gian nối thông từ hai tầng trở lên).",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ]
+}

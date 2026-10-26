@@ -1,0 +1,60 @@
+{
+ "slug": "phan-loai-dam-chay",
+ "ten": "Phân loại đám cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m10-binh-chua-chay",
+  "m12-chua-chay",
+  "chung"
+ ],
+ "lien_quan": [
+  "Loại mức nguy hiểm",
+  "Khoảng cách di chuyển"
+ ],
+ "ngay": "2026-10-26T04:34:19.101Z",
+ "dinh_nghia": [
+  {
+   "y": "Loại A: đám cháy của vật liệu rắn, thường là chất hữu cơ, trong đó sự cháy thường diễn ra cùng với sự tạo than hồng.",
+   "dieu": "TCVN 7435-1:2004, 4.2",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Loại B: đám cháy của các chất lỏng hoặc chất rắn hóa lỏng được.",
+   "dieu": "TCVN 7435-1:2004, 4.2",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Loại C: đám cháy của các chất khí.",
+   "dieu": "TCVN 7435-1:2004, 4.2",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Loại D: đám cháy của kim loại.",
+   "dieu": "TCVN 7435-1:2004, 4.2",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Bình chữa cháy được phân loại để dùng phù hợp với loại đám cháy. Các phòng thử nghiệm xác định hiệu quả chữa cháy tương đối của bình. Việc phân loại dựa trên phân loại đám cháy và khả năng chữa cháy xác định bằng phép thử dập lửa.",
+   "dieu": "TCVN 7435-1:2004, 4.1",
+   "nguon": "b06d3aaa1623"
+  },
+  {
+   "y": "Việc phân loại và hệ thống công suất được mô tả trong TCVN 7026:2002 và TCVN 7027:2002. Bình chữa cháy được sử dụng tuân theo hai tiêu chuẩn này.",
+   "dieu": "TCVN 7435-1:2004, 4.3, 4.4",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xác định loại đám cháy của từng khu vực (A, B, C, D) rồi chọn Bảng 1 (loại A) hoặc Bảng 2 (loại B, C) để đối chiếu bình chữa cháy. Suy từ 4.2, 7.2, 7.3.",
+   "dieu": "suy từ 4.2, 7.2, 7.3",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,49 @@
+{
+ "slug": "cong-tac-chuyen-doi-tu-dong-ats",
+ "ten": "Công tắc chuyển đổi tự động (ATS)",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Tủ điều khiển máy bơm nước chữa cháy",
+  "Máy bơm nước chữa cháy dự phòng"
+ ],
+ "ngay": "2026-10-26T03:48:01.402Z",
+ "dinh_nghia": [
+  {
+   "y": "Công tắc chuyển đổi tự động (ATS): thiết bị tự vận hành dùng để chuyển tải được kết nối từ nguồn điện này sang nguồn điện khác.",
+   "dieu": "1.4.15",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khi lắp đặt trạm bơm có từ 02 nguồn điện trở lên và công tắc chuyển đổi tự động, phải mô phỏng mất nguồn chính và chuyển đổi trong khi máy bơm đang hoạt động ở tải cực đại.",
+   "dieu": "3.1.5.1",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Việc chuyển từ nguồn chính sang nguồn dự phòng và chuyển đổi ngược lại không được làm hở thiết bị bảo vệ quá dòng ở một trong hai nguồn điện.",
+   "dieu": "3.1.5.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Kiểm tra hằng năm: giả lập sự cố điện khi bơm vận hành ở tải tối đa, bảo đảm công tắc chuyển giao chuyển sang nguồn thay thế, bơm tiếp tục vận hành, sau đó kết nối lại nguồn thông thường sau một khoảng trễ.",
+   "dieu": "4.2.2.4",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Phân biệt với công tắc cô lập (cô lập mạch điện khỏi nguồn cấp, vận hành chỉ sau khi mạch đã mở bằng phương tiện khác) và công tắc chuyển đổi thủ công (vận hành bằng tay trực tiếp).",
+   "dieu": "1.4.15",
+   "nguon": "08bf60f5653f"
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "slug": "gara-o-to-dang-ho",
+ "ten": "Gara ô-tô dạng hở",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua",
+  "m09-chong-khoi",
+  "m10-binh-chua-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Gara ô-tô trên mặt đất dạng kín",
+  "Gara ô-tô cơ khí"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [
+  {
+   "y": "Gara ô-tô không có tường bao che ngoài. Cũng được coi là hở nếu công trình có hai cạnh đối diện dài nhất được để hở.",
+   "dieu": "1.2.3",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Cạnh được coi là để hở nếu tổng diện tích phần để hở dọc theo cạnh chiếm không ít hơn 50% diện tích mặt ngoài của cạnh đó ở trên từng tầng.",
+   "dieu": "1.2.3",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Bậc chịu lửa, số tầng và diện tích lớn nhất một tầng trong khoang cháy lấy theo Bảng 6 (ví dụ bậc I, II, S0: 9 tầng; nhà một tầng 10.400 m², nhà nhiều tầng 5.200 m²).",
+   "dieu": "2.2.4.1, Bảng 6",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không yêu cầu hệ thống thoát khói và thông gió chống khói.",
+   "dieu": "2.2.4.6",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Chiều rộng một khung nhà không vượt quá 36 m.",
+   "dieu": "2.2.4.2",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Không lắp ngăn, xây tường (trừ tường buồng thang bộ) và vách cản trở thông gió; khi cần phân chia chỗ để xe con dùng vách dạng lưới vật liệu không cháy.",
+   "dieu": "2.2.4.3",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Chiều cao tường phân cách ở các tầng không quá 1 m.",
+   "dieu": "2.2.4.4",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Phải có thông gió cấp-hút ở gian phòng lưu giữ xe theo tính toán.",
+   "dieu": "2.3.3.1",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Hệ thống cấp nước chữa cháy bên trong là ống khô, có đoạn ống chờ nhô ra ngoài đường kính 89 (77) mm, lắp van và đầu nối.",
+   "dieu": "2.3.2.2",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Phải có nơi chứa bình chữa cháy xách tay (trên tầng một).",
+   "dieu": "2.2.4.7",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt đứng, mặt bằng: hai cạnh dài đối diện để hở, tỉ lệ phần hở ≥ 50% từng tầng; bề rộng khung nhà ≤ 36 m; tường phân cách ≤ 1 m. Suy từ 1.2.3, 2.2.4.2, 2.2.4.4.",
+   "dieu": "1.2.3; 2.2.4",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác dạng kín ở bảng diện tích khoang cháy (Bảng 6 so với Bảng 5) và ở việc không yêu cầu hệ thống thoát khói.",
+   "dieu": "2.2.4.1; 2.2.4.6",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

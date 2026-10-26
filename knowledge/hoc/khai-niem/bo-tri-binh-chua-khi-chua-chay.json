@@ -1,0 +1,62 @@
+{
+ "slug": "bo-tri-binh-chua-khi-chua-chay",
+ "ten": "Bố trí bình chứa khí chữa cháy",
+ "dong_nghia": [
+  "bình chứa"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Hồ sơ thiết kế hệ thống chữa cháy bằng khí"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Bình chứa, cụm van và phụ kiện phải sắp xếp để tiếp cận được khi kiểm tra, thử nghiệm, bảo dưỡng; lắp đặt chắc chắn, gá đỡ theo hướng dẫn lắp đặt",
+   "dieu": "Bố trí bình chứa khí chữa cháy (TCVN 7161-1)",
+   "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Bình chứa đặt càng gần khu vực được bảo vệ càng tốt, ưu tiên đặt ngoài khu vực bảo vệ; chỉ được bố trí bên trong nếu giảm tới mức thấp nhất nguy hiểm do cháy nổ",
+   "dieu": "Bố trí bình chứa khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không bố trí nơi chịu ảnh hưởng thời tiết khắc nghiệt hoặc hư hỏng do tác động cơ học, hóa học; nếu tiếp xúc nguy cơ hư hỏng hoặc can thiệp trái phép thì phải có tường bao hoặc rào chắn",
+   "dieu": "Bố trí bình chứa khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Các bình nối chung một ống góp phải cùng dạng và dung tích danh nghĩa, nạp cùng khối lượng danh nghĩa khí chữa cháy, nén tới cùng áp suất làm việc danh nghĩa",
+   "dieu": "Bố trí bình chứa khí chữa cháy, a)–c)",
+   "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Bình khác cỡ nối chung ống góp chỉ được dùng cho khí không hóa lỏng, với điều kiện đều nén tới áp suất làm việc danh nghĩa",
+   "dieu": "Bố trí bình chứa khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ mặt bằng vị trí bình: ngoài hay trong khu bảo vệ, lối tiếp cận bảo dưỡng; xem bảng thiết bị: các bình cùng ống góp có cùng dung tích, khối lượng nạp, áp suất",
+   "dieu": "suy từ Bố trí bình chứa khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nối bình khác cỡ chung ống góp chỉ cho khí không hóa lỏng, không áp dụng cho khí hóa lỏng",
+   "dieu": "Bố trí bình chứa khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ]
+}

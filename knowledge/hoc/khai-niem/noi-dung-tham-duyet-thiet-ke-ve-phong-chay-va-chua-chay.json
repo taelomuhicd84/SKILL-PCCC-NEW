@@ -1,0 +1,78 @@
+{
+ "slug": "noi-dung-tham-duyet-thiet-ke-ve-phong-chay-va-chua-chay",
+ "ten": "Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy",
+ "dong_nghia": [
+  "Nội dung thẩm duyệt"
+ ],
+ "anh_huong": [
+  "doc-ho-so",
+  "m01-phan-loai",
+  "chung",
+  "ra-soat"
+ ],
+ "lien_quan": [
+  "Thiết kế điều chỉnh, cải tạo",
+  "Hệ thống hút khói",
+  "Thiết kế điều chỉnh về PCCC",
+  "Quy mô công trình"
+ ],
+ "ngay": "2026-10-26T04:41:52.316Z",
+ "dinh_nghia": [
+  {
+   "y": "Các nội dung cơ quan Cảnh sát PCCC đồng ý về thiết kế, ghi trong giấy thẩm duyệt, kèm quy mô dự án/công trình/phương tiện và danh mục tài liệu, bản vẽ được thẩm duyệt.",
+   "dieu": "Mục II và phụ lục kèm giấy thẩm duyệt số /TD-PCCC ngày 05/7/2024",
+   "nguon": "ba7fde3a8ae7",
+   "can_xem": true
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Văn bản thẩm duyệt cải tạo karaoke (nhà karaoke 2 tầng, 19 phòng) liệt kê 11 nội dung được thẩm duyệt: (1) bậc chịu lửa, giải pháp ngăn cháy, chống cháy lan; (2) khoảng cách an toàn PCCC; (3) bố trí công năng liên quan PCCC; (4) giải pháp thoát nạn và hệ thống loa thông báo, hướng dẫn thoát nạn; (5) trang bị phương tiện chữa cháy ban đầu; (6) đèn chiếu sáng sự cố và chỉ dẫn thoát nạn; (7) họng nước chữa cháy trong nhà; (8) chữa cháy tự động Sprinkler; (9) cấp nước chữa cháy ngoài nhà; (10) giải pháp cấp điện cho hệ thống PCCC; (11) giải pháp chống tụ khói",
+   "dieu": "Mục II văn bản thẩm duyệt",
+   "nguon": "3a2cdd470984"
+  },
+  {
+   "y": "Mẫu hồ sơ điều chỉnh (Mẫu số PC09) ghi 5 nội dung thẩm duyệt: quy mô công trình; hệ thống chữa cháy bằng nước; hệ thống báo cháy tự động; trang bị phương tiện chữa cháy ban đầu; chiếu sáng sự cố và chỉ dẫn thoát nạn.",
+   "dieu": "Mục II",
+   "nguon": "ba7fde3a8ae7",
+   "can_xem": true
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Giấy thẩm duyệt chỉ xác nhận bảo đảm các yêu cầu về PCCC, không có giá trị về quyền sử dụng đất và các chỉ tiêu quy hoạch xây dựng.",
+   "dieu": "Phần Lưu ý cuối phụ lục",
+   "nguon": "ba7fde3a8ae7",
+   "can_xem": true
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu danh mục nội dung thẩm duyệt với danh mục bản vẽ đính kèm (KT, BC, EXEM, BCC, AT, CC, HK, CĐ) để xem mỗi nội dung có bản vẽ tương ứng; suy từ Mục II và danh mục tài liệu, bản vẽ",
+   "dieu": "",
+   "nguon": "3a2cdd470984",
+   "can_xem": true
+  },
+  {
+   "y": "Đối chiếu danh mục bản vẽ và quy mô trong phụ lục giấy thẩm duyệt với hồ sơ thực tế (ví dụ bản vẽ CN-CCN-01 đến CN-CCN-16). Suy từ phụ lục giấy thẩm duyệt.",
+   "dieu": "",
+   "nguon": "ba7fde3a8ae7",
+   "can_xem": true
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Văn bản này căn cứ NĐ 136/2020/NĐ-CP và NĐ 50/2024/NĐ-CP (hết hiệu lực từ 01/7/2025); nội dung thẩm duyệt chỉ là ví dụ thực tế của một hồ sơ cải tạo, không thay cho quy định hiện hành (NĐ 105/2025/NĐ-CP đã sửa bởi NĐ 347/2026/NĐ-CP)",
+   "dieu": "",
+   "nguon": "3a2cdd470984"
+  },
+  {
+   "y": "Đây là nội dung thẩm duyệt thiết kế, không phải nội dung nghiệm thu về PCCC. Giấy này căn cứ NĐ 136/2020/NĐ-CP và NĐ 50/2024/NĐ-CP, hai văn bản hết hiệu lực từ 01/7/2025 nên chỉ tham khảo.",
+   "dieu": "",
+   "nguon": "ba7fde3a8ae7",
+   "can_xem": true
+  }
+ ]
+}

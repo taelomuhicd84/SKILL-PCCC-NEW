@@ -1,0 +1,85 @@
+{
+ "slug": "dau-phun-chu-dao",
+ "ten": "Đầu phun chủ đạo",
+ "dong_nghia": [
+  "đầu phun bất lợi nhất về thủy lực"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống Sprinkler",
+  "Thử thủy lực",
+  "Hệ số K đầu phun",
+  "Cường độ phun",
+  "Tính toán thủy lực mạng đầu phun"
+ ],
+ "ngay": "2026-10-26T04:29:36.048Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu phun nằm ở vị trí bất lợi nhất về thủy lực, thường là vị trí cao nhất hoặc xa nhất từ bộ điều khiển.",
+   "dieu": "3.11",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Đầu phun chủ đạo là đầu phun bất lợi nhất về mặt thủy lực.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Khu vực tính toán của hệ thống được đánh dấu trên sơ đồ tại vị trí bố trí đầu phun chủ đạo.",
+   "dieu": "Phụ lục B, B.1.8",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dùng làm điểm tính toán thủy lực: áp suất yêu cầu tại đầu phun chủ đạo xác định theo cường độ phun, cao độ đầu phun và khoảng cách giữa các đầu phun.",
+   "dieu": "Phụ lục B, B.1.9",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Cách 1: tính bằng công thức Hmax ≥ Hcđ = (qcđ/kv)² = (I·Fv/kv)² ≥ Hmin. Cách 2: khi có hồ sơ đặc tính phun của đầu phun thì tra cột áp theo cường độ phun yêu cầu.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phải có van với đồng hồ đo áp suất để kiểm soát áp suất trước đầu phun chủ đạo.",
+   "dieu": "5.5.8",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Lưu lượng qua đầu phun q = 10·K·√P (l/s; K tra tài liệu nhà sản xuất, P là áp suất tại đầu phun, MPa).",
+   "dieu": "B.2.2",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Hmin = 5 m.c.n tham khảo từ catalogue đầu phun (đầu phun bọt: cột áp đầu vòi tối thiểu 25 m.c.n). Hmax = 100 m.c.n.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Các ký hiệu: qcđ lưu lượng qua đầu phun chủ đạo (l/s); Fv diện tích bảo vệ của một đầu phun (m²), tra catalogue; kv đặc tính lưu lượng của đầu phun (l/s·m^1/2), tra catalogue; I cường độ phun tối thiểu (l/m²·s), tra Bảng 1, 2, 3.",
+   "dieu": "",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bảng tính thủy lực: đã lấy đúng đầu phun bất lợi nhất; lưu lượng và cường độ khu vực tính toán không nhỏ hơn Bảng 1, 2, 3. Suy từ B.1.9.",
+   "dieu": "B.1.9",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Xem bảng tính thủy lực: cột áp tại đầu phun chủ đạo phải nằm trong khoảng 5–100 m.c.n và cho ra lưu lượng không thấp hơn I·Fv.",
+   "dieu": "suy từ công thức trong tài liệu",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "hay_nham": []
+}

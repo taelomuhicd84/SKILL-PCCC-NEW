@@ -1,0 +1,123 @@
+{
+ "slug": "he-thong-sprinkler",
+ "ten": "Hệ thống Sprinkler",
+ "dong_nghia": [
+  "Sprinklers tự động",
+  "Đầu phun Sprinkler"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Hệ thống Drencher",
+  "Hệ thống Sprinkler-Drencher",
+  "Đầu phun chủ đạo",
+  "Cụm bảo vệ",
+  "Thời gian đáp ứng của hệ thống chữa cháy tự động"
+ ],
+ "ngay": "2026-10-26T04:17:45.822Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu phun Sprinkler là đầu phun có cơ cấu nhạy cảm với nhiệt, được thiết kế để tác động ở một nhiệt độ xác định trước.",
+   "dieu": "3.15",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Loại ướt hay khô chọn căn cứ nhiệt độ môi trường của khu vực bảo vệ. Đường ống ướt được duy trì áp lực bằng nước và thiết kế cho nhiệt độ dương; đường ống khô duy trì áp lực bằng khí nén.",
+   "dieu": "5.2.1; 3.6; 3.7",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dùng cho gian phòng có chiều cao không quá 20 m. Phòng cao 10–20 m lấy thông số theo Bảng 3; phòng cao dưới 10 m (hoặc ô lấy sáng trên mái không quá 10% diện tích) lấy theo Bảng 1.",
+   "dieu": "5.2.2; Bảng 1 CT4",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Phòng nhóm nguy cơ 1 có trần treo có thể lắp đầu phun trần và đầu phun lắp chìm (âm trần).",
+   "dieu": "5.1.13",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Một cụm bảo vệ không quá 800 đầu phun; tối đa 1200 đầu phun khi có công tắc dòng chảy cho từng vùng hoặc đầu phun có giám sát trạng thái.",
+   "dieu": "5.2.3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Khoảng cách từ tâm phần tử nhạy nhiệt đến mặt phẳng trần 0,08–0,30 m (trường hợp đặc biệt tối đa 0,40 m); đầu phun ngang 0,07–0,15 m.",
+   "dieu": "5.2.12, 5.2.13",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Khoảng cách đầu phun đến tường K0, K1 không quá một nửa khoảng cách giữa các đầu phun; đến tường K2, K3 và loại khác không quá 1,2 m; giữa các đầu phun không nhỏ hơn 1,5 m (theo phương ngang).",
+   "dieu": "5.2.22",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Phần nhô ra (dầm, vì kèo) cao hơn 0,3 m với trần/mái cấp K0, K1 và hơn 0,2 m với cấp còn lại thì phải bố trí đầu phun giữa các khoang tạo bởi phần nhô ra.",
+   "dieu": "5.2.11",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Mái chéo có độ dốc lớn hơn 1/3: khoảng cách ngang từ đầu phun đến tường và mép mái không quá 1,5 m (mái K0), không quá 0,8 m (trường hợp còn lại).",
+   "dieu": "5.2.16",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Đường ống khô: thời gian từ khi đầu phun kích hoạt đến khi nước phun ra không quá 180 s, nếu quá phải dùng bộ tăng tốc hoặc bộ xả khí. Thời gian bơm khí đầy đường ống không quá 1 h.",
+   "dieu": "5.2.4, 5.2.5, 5.2.7",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Đầu phun trên đường ống khô chỉ lắp hướng lên hoặc ngang; đường ống ướt lắp hướng lên, xuống hoặc ngang.",
+   "dieu": "5.2.20",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Cụm thiết bị phải có 02 đường cấp.",
+   "dieu": "5.2.24",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Dự phòng đầu phun Sprinkler: 03 đầu khi hệ thống dưới 100 đầu; 10 đầu khi dưới 1000 đầu; 15 đầu khi từ 1000 đầu trở lên.",
+   "dieu": "5.1.12",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Đầu phun cùng một gian phòng phải cùng nhiệt độ tác động và cùng thông số kỹ thuật; áp suất tối đa của đầu phun không quá 1 MPa.",
+   "dieu": "5.1.9, 5.1.4",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Nhiệt độ tác động danh định chọn theo nhiệt độ môi trường tối đa (Bảng 4), ví dụ dưới 39 °C chọn 57 °C; từ 39 đến dưới 50 °C chọn 68, 72 hoặc 74 °C.",
+   "dieu": "5.2.17, Bảng 4",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Tải trọng cháy từ 1400 MJ/m² đối với kho, phòng cao hơn 10 m và phòng có chất cháy chủ yếu là chất lỏng dễ cháy/cháy: chỉ số thời gian phản ứng nhiệt đầu phun phải nhỏ hơn 50 (m.s)^0,5.",
+   "dieu": "5.2.19",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng bố trí đầu phun, mặt cắt trần/dầm: đo khoảng cách đầu phun với trần, tường, giữa các đầu phun; đếm đầu phun mỗi cụm; so với trị số 5.2. Suy từ 5.2.",
+   "dieu": "5.2",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Sprinkler có cơ cấu nhạy nhiệt tự mở; Drencher có đầu ra hở.",
+   "dieu": "3.15, 3.16",
+   "nguon": "a478d8c7c431"
+  }
+ ]
+}

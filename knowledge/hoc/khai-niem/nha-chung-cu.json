@@ -1,0 +1,61 @@
+{
+ "slug": "nha-chung-cu",
+ "ten": "Nhà chung cư",
+ "dong_nghia": [
+  "nhà ở tập thể"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Họng nước chữa cháy trong nhà",
+  "Chiều cao PCCC"
+ ],
+ "ngay": "2026-10-26T04:09:37.893Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Số tia phun họng nước trong nhà theo Bảng H.5 mục 1 (mỗi tia 2,5 L/s): ≤ 16 tầng, hành lang chung ≤ 10 m: 1 tia/tầng; ≤ 16 tầng, hành lang > 10 m: 2 tia; > 16 và ≤ 25 tầng, hành lang ≤ 10 m: 2 tia; > 16 và ≤ 25 tầng, hành lang > 10 m: 3 tia.",
+   "dieu": "Bảng H.5 mục 1",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà chung cư xây dựng có mục đích sử dụng hỗn hợp được xếp vào nhóm nhà công cộng (mục 4 Bảng H.5).",
+   "dieu": "Bảng H.5, ghi chú (2)",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nhà ở có hành lang dài đến 10 m, số tia nước 2 cho mỗi điểm: cho phép phun 2 tia từ một ống đứng. Hành lang dài hơn 10 m: phải bố trí 2 tia từ 2 tủ chữa cháy khác nhau (2 ống đứng khác nhau).",
+   "dieu": "H.2.11",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà ở có chiều cao PCCC trên 50 m: tia nước đặc không nhỏ hơn 8 m.",
+   "dieu": "H.2.7",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà từ 6 tầng trở lên liên kết hệ thống nước sinh hoạt và chữa cháy: ống đứng phải nối vòng ở trên và nối với ống xả đứng có van khóa.",
+   "dieu": "H.2.10",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Nhà cao từ 17 tầng trở lên: họng chờ cấp nước chia vùng theo chiều cao, mỗi vùng không quá 50 m, có van một chiều và thể hiện trạng thái đóng/mở.",
+   "dieu": "H.2.13",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đếm số tầng và đo chiều dài hành lang chung, tra Bảng H.5 mục 1; suy từ H.2.1.",
+   "dieu": "H.2.1",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "hay_nham": []
+}

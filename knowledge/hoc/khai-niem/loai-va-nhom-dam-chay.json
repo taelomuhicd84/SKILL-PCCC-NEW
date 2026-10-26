@@ -1,0 +1,51 @@
+{
+ "slug": "loai-va-nhom-dam-chay",
+ "ten": "Loại và nhóm đám cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m10-binh-chua-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống chữa cháy tự động",
+  "Bình chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:07:26.921Z",
+ "dinh_nghia": [
+  {
+   "y": "Loại A cháy chất rắn (A1 âm ỉ, A2 không âm ỉ); B cháy chất lỏng (B1 không tan trong nước, B2 hòa tan trong nước); C cháy chất khí; D cháy kim loại (D1 kim loại nhẹ, D2 kim loại kiềm, D3 hợp chất chứa kim loại); E cháy thiết bị mang điện.",
+   "dieu": "1.5.3 Bảng 1",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Chọn loại phương tiện, phương pháp, chất chữa cháy phù hợp với từng loại đám cháy và hiệu quả chất chữa cháy ở Bảng 2. Khi có từ hai chất chữa cháy từ hiệu quả thấp trở lên thì được chọn một trong số đó để hạn chế hư hại thiết bị, máy móc.",
+   "dieu": "1.5.4; 1.5.5",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không dùng chất chữa cháy có thể gây phản ứng hóa học với chất trong khu vực bảo vệ dẫn đến cháy, nổ.",
+   "dieu": "1.5.5 (chú thích)",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nước/chất gốc nước phun sương và phun tia cho đám cháy E phải tuân thủ yêu cầu an toàn điện (chú thích (1) Bảng 2). Nước phun tia và bọt không thích hợp cho loại C, D, E.",
+   "dieu": "1.5.5 Bảng 2",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu chất chữa cháy ghi trong thuyết minh/bản vẽ với loại đám cháy của khu vực theo Bảng 2; suy từ 1.5.5.",
+   "dieu": "suy từ 1.5.5",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "hay_nham": []
+}

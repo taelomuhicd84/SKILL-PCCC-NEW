@@ -1,0 +1,77 @@
+{
+ "slug": "thoat-khoi-va-thong-gio-chong-khoi-trong-gara-o-to",
+ "ten": "Thoát khói và thông gió chống khói trong gara ô-tô",
+ "dong_nghia": [
+  "Hệ thống bảo vệ chống khói"
+ ],
+ "anh_huong": [
+  "m09-chong-khoi",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Đường dốc cách ly",
+  "Buồng thang bộ của gara ô-tô"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Phải lắp hệ thống thông gió chống khói đẩy sản phẩm cháy ra khỏi tầng bị cháy từ các gian phòng lưu giữ xe và từ các đường dốc cách ly.",
+   "dieu": "2.3.3.4",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara ô-tô xây trong nhà có chức năng khác không được đẩy khói qua các lỗ cửa mở.",
+   "dieu": "2.3.3.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Cho phép giếng hút tự nhiên trong gara trên mặt đất từ 2 tầng trở xuống và gara ngầm 1 tầng.",
+   "dieu": "2.3.3.5",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Gara ô-tô dạng hở không yêu cầu hệ thống thoát khói và thông gió.",
+   "dieu": "2.2.4.6",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Đẩy khói qua giếng hút có đầu hút khí nhân tạo. Thoát khói tự nhiên qua cửa sổ, cửa trời có cơ cấu mở cơ khí, ô thoáng từ mức 2,2 m trở lên; tổng diện tích lỗ mở theo tính toán nhưng không nhỏ hơn 0,2% diện tích phòng; khoảng cách từ cửa sổ đến điểm xa nhất trong phòng không quá 18 m.",
+   "dieu": "2.3.3.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Van chống cháy (kể cả van khói) có sức cản thẩm thấu khí khói không nhỏ hơn 8000 KG⁻¹·m⁻¹ cho 1 m² diện tích tiết diện.",
+   "dieu": "2.3.3.9",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Khi có cháy ngắt thông gió trao đổi chung; mở hệ thống bảo vệ chống khói trước khi mở hệ thống thông gió hút.",
+   "dieu": "2.3.3.7",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Điều khiển tự động từ tín hiệu báo cháy; điều khiển từ xa từ bảng điều khiển, nút bấm hoặc thiết bị cơ khí dùng tay ở lối vào tầng hoặc chiếu tới thang bộ (trong tủ phòng hỏa).",
+   "dieu": "2.3.3.8",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Cấp điện hạng 1 cho thiết bị bảo vệ chống khói; cáp cấp điện nối trực tiếp tủ điện đầu vào, không dùng chung cho thiết bị khác.",
+   "dieu": "2.3.4.2",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ thông gió: giếng hút, van khói trên mỗi tầng (đường dốc cách ly), tỉ lệ diện tích lỗ mở ≥ 0,2% và khoảng cách ≤ 18 m với phương án tự nhiên; sơ đồ điều khiển liên động báo cháy. Suy từ 2.3.3.5, 2.3.3.8.",
+   "dieu": "2.3.3.5; 2.3.3.8",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": []
+}

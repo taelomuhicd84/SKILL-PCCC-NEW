@@ -1,0 +1,35 @@
+{
+ "slug": "gian-phong",
+ "ten": "Gian phòng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m05-cong-nang",
+  "m06-ngan-chay",
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hạng nguy hiểm cháy nổ",
+  "Nhóm nguy hiểm cháy theo công năng"
+ ],
+ "ngay": "2026-10-26T04:07:26.921Z",
+ "dinh_nghia": [
+  {
+   "y": "Không gian bên trong nhà, công trình có công năng nhất định và được giới hạn bởi các kết cấu xây dựng.",
+   "dieu": "1.4.22",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Chiều cao gian phòng tính từ sàn đến điểm cao nhất của mái dốc, mái chữ A, trần.",
+   "dieu": "1.5.6",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

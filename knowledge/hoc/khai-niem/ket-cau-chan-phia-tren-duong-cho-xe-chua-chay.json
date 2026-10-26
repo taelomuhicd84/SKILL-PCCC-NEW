@@ -1,0 +1,66 @@
+{
+ "slug": "ket-cau-chan-phia-tren-duong-cho-xe-chua-chay",
+ "ten": "Kết cấu chặn phía trên đường cho xe chữa cháy",
+ "dong_nghia": [
+  "kết cấu chặn phía trên"
+ ],
+ "anh_huong": [
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Đường cho xe chữa cháy",
+  "Bãi đỗ xe chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [
+  {
+   "y": "Kết cấu bắc ngang phía trên đường cho xe chữa cháy hoặc bãi đỗ xe chữa cháy.",
+   "dieu": "6.2.1.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Chỉ cho phép có nếu bảo đảm tất cả yêu cầu của 6.2.1.3.",
+   "dieu": "6.2.1.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Chiều cao thông thủy không nhỏ hơn 4,5 m.",
+   "dieu": "6.2.1.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Kích thước kết cấu đo dọc đường hoặc bãi không lớn hơn 10 m.",
+   "dieu": "6.2.1.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Từ hai kết cấu trở lên: khoảng thông giữa chúng không nhỏ hơn 20 m.",
+   "dieu": "6.2.1.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Đoạn cuối đường hoặc bãi không bị chặn không nhỏ hơn 20 m.",
+   "dieu": "6.2.1.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Chiều dài bãi đỗ không tính đoạn có kết cấu chặn phía trên.",
+   "dieu": "6.2.1.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt cắt/mặt bằng đường và bãi có công trình che phía trên (sảnh, mái đón, cổng, cầu nối); đo các trị số trên; suy từ 6.2.1.3.",
+   "dieu": "suy từ 6.2.1.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": []
+}

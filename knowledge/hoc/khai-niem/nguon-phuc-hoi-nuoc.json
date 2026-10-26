@@ -1,0 +1,32 @@
+{
+ "slug": "nguon-phuc-hoi-nuoc",
+ "ten": "Nguồn phục hồi nước",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "doc-ho-so"
+ ],
+ "lien_quan": [
+  "Nguồn lấy nước PCCC"
+ ],
+ "ngay": "2026-10-26T04:41:52.316Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Trong nguồn, nguồn phục hồi nước được điều chỉnh từ Nhà máy nước của Công ty Cổ phần nước AQUAONE Long An thành phục hồi từ Trạm bơm nước ngầm và xử lý nước sinh hoạt, lưu lượng 900 m³/ngày đêm.",
+   "dieu": "Mục I.2",
+   "nguon": "ba7fde3a8ae7"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Lưu lượng nguồn phục hồi nước 900 m³/ngày đêm (nguồn chỉ nêu trị số, không nêu cách tính).",
+   "dieu": "Mục I.2",
+   "nguon": "ba7fde3a8ae7"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

@@ -1,0 +1,81 @@
+{
+ "slug": "bo-tri-may-bom-trong-phong-bom",
+ "ten": "Bố trí máy bơm trong phòng bơm",
+ "dong_nghia": [
+  "bệ móng máy bơm"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Trạm bơm tăng áp",
+  "Chống ồn, chống rung cho máy bơm"
+ ],
+ "ngay": "2026-10-26T04:18:40.747Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Máy bơm có đường kính ống đẩy từ 100 mm cho phép đặt dọc tường và vách nhà mà không cần lối đi giữa máy bơm và tường",
+   "dieu": "7.19 (chú thích 1)",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Cho phép đặt hai máy bơm trên cùng một móng mà không cần bố trí lối đi lại giữa chúng",
+   "dieu": "7.19 (chú thích 2)",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Máy bơm cấp nước sản xuất có thể đặt trên khung gỗ hoặc khung thép mà không cần xây móng trong từng trường hợp",
+   "dieu": "7.18 (chú thích)",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Máy bơm đặt trên bệ móng cao hơn mặt nền nhà tối thiểu 0,2 m",
+   "dieu": "7.18",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Từ cạnh bên của móng đặt máy bơm và động cơ điện đến tường nhà, và khoảng cách giữa các móng: 70 mm (đúng như bản văn bản đã cho)",
+   "dieu": "7.19a",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Từ cạnh bệ máy bơm phía ống hút đến mặt tường nhà đối diện: 1000 mm; phía động cơ điện không nhỏ hơn khoảng cách cần thiết để rút rô-to ra mà không cần tháo động cơ khỏi bệ",
+   "dieu": "7.19b",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Khi đặt dọc tường không có lối đi: không nhỏ hơn 200 mm tính từ móng nhà đến bệ",
+   "dieu": "7.19 (chú thích 1)",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Hai máy bơm trên cùng một móng: xung quanh móng phải chừa lối đi riêng không nhỏ hơn 700 mm",
+   "dieu": "7.19 (chú thích 2)",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Phòng bơm có thiết bị nâng: khoảng cách thông thủy từ đáy vật được nâng đến đỉnh các thiết bị đặt ở dưới không nhỏ hơn 500 mm",
+   "dieu": "7.20",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Phòng bơm không có thiết bị nâng: chiều cao thông thủy tối thiểu 2,2 m",
+   "dieu": "7.20",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo trên mặt bằng và mặt cắt phòng bơm: cao bệ móng, khoảng cách móng–tường, lối đi quanh móng, chiều cao thông thủy; so với các trị số nêu (suy từ 7.18–7.20)",
+   "dieu": "7.18, 7.19, 7.20",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,153 @@
+{
+ "slug": "sanh-thong-tang",
+ "ten": "Sảnh thông tầng",
+ "dong_nghia": [
+  "gian thông tầng"
+ ],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m09-chong-khoi",
+  "m12-chua-chay",
+  "m02-bac-chiu-lua",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Màn ngăn khói",
+  "Phụ lục H",
+  "Ngăn chặn cháy lan đối với sảnh thông tầng",
+  "Sảnh ngăn khói",
+  "Sảnh thang máy",
+  "Thoát khói tự nhiên"
+ ],
+ "ngay": "2026-10-26T04:53:10.947Z",
+ "dinh_nghia": [
+  {
+   "y": "Không gian trống nối thông từ hai tầng trở lên trong nhà dân dụng và được bao che ở trên đỉnh không gian này (thường là không gian rộng lớn, dùng vì mục đích kiến trúc hoặc tạo không gian thương mại, dịch vụ, kinh doanh, trưng bày và tương tự); có thể thông với các phần nhà tại mỗi tầng được nối thông.",
+   "dieu": "Điều 1.4.50",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Sảnh có lỗ mở thông các sàn giữa các tầng; trong khối tích có thể có cầu thang bộ hở, thang cuốn, thang cuốn ngang, thang máy toàn cảnh và các gian phòng có lỗ mở ra hành lang bên",
+   "dieu": "4.35",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Nguồn nêu gian thông tầng dùng để bố trí cầu thang hở, thang cuốn, sảnh thông tầng và các công năng khác, trong nhà nhóm F1.1, F1.2, F2 đến F4 (bản sửa đổi 1:2023).",
+   "dieu": "4.35 d)",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khi thiết kế trong nhà, tổ hợp nhà một hoặc một số sảnh thông tầng thì phải thực hiện các yêu cầu a)–g) của 4.35",
+   "dieu": "4.35",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Cho phép dùng hệ thống hút xả khói theo cơ chế tự nhiên từ sảnh thông tầng nếu có luận cứ tính toán phù hợp",
+   "dieu": "4.35 e)",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Ngăn chặn cháy lan đối với sảnh thông tầng theo Điều 4.35 và H.6.2 (Phụ lục H), chỉ áp dụng cho nhà dân dụng và nhà ga hành khách.",
+   "dieu": "Điều 4.35, H.6.2",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Diện tích tầng trong phạm vi khoang cháy có sảnh thông tầng xác định theo Phụ lục H; nếu có ngăn cách theo 4.35 b) thì là tổng diện tích tầng dưới cùng của gian thông tầng và hành lang, lối đi bộ, gian phòng các tầng phía trên trong phạm vi không gian được ngăn cách; nếu không ngăn cách thì là tổng diện tích các tầng tương ứng.",
+   "dieu": "4.35 d)",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Cho phép hút xả khói tự nhiên từ sảnh thông tầng nếu có luận cứ tính toán phù hợp.",
+   "dieu": "4.35 e)",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Các lỗ mở trên sàn nối thông chỉ vì mục đích làm thang bộ, thang cuốn, giếng thang máy, hoặc các giếng, kênh kỹ thuật không được coi là sảnh thông tầng.",
+   "dieu": "Điều 1.4.50",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Sảnh thông tầng nằm trong khối tích của một khoang cháy; ở lỗ mở sàn cho phép bố trí thang máy cuốn, thang bộ hở và thang máy (kể cả thang máy toàn cảnh)",
+   "dieu": "4.35 a)",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Kết cấu bao quanh gian phòng và hành lang tiếp giáp sảnh thông tầng có giới hạn chịu lửa không nhỏ hơn EI (EIW) 60; hoặc bằng kính cường lực dày không nhỏ hơn 6 mm (không quy định giới hạn chịu lửa) nhưng có sprinkler đặt từ phía gian phòng (hành lang) liền kề, cách nhau không quá 2 m và cách vách ngăn không quá 0,5 m",
+   "dieu": "4.35 b)",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Lỗ mở dẫn vào sảnh thông tầng (kể cả lỗ mở thang cuốn và gian phòng ở hành lang bên) có rèm, màn ngăn khói giới hạn chịu lửa không nhỏ hơn E 45, hạ xuống khi có cháy, dẫn động tự động và từ xa; hoặc dùng màn ngăn khói cố định",
+   "dieu": "4.35 c)",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Chiều cao làm việc của rèm, màn ngăn khói khi hạ xuống không nhỏ hơn chiều dày lớp khói, xác định bằng tính toán khi thiết kế; biên dưới lớp khói ở chiều cao không nhỏ hơn 2,5 m tính từ mặt sàn",
+   "dieu": "4.35 c)",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Diện tích tầng trong phạm vi khoang cháy có sảnh thông tầng xác định theo Phụ lục H",
+   "dieu": "4.35 d)",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Tấm chắn lấy sáng ở mái làm từ vật liệu không cháy, kết cấu bằng kính có cốt gia cường và an toàn; cho phép tấm lấy sáng có nhóm nguy hiểm cháy không nguy hiểm hơn Ch1 và không tạo giọt nóng chảy",
+   "dieu": "4.35 f)",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Cho phép lắp sprinkler dưới kết cấu nhô ra của sàn giữa các tầng, ban công (kể cả dưới thang cuốn) mà không phải lắp vào mái sảnh; đầu phun cách nhau 1,5–2,0 m và cách mép lỗ mở thông sàn không quá 0,5 m",
+   "dieu": "4.35 g)",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Vách kính kết hợp với màn nước nêu tại 4.35 được hiểu là tương đương với vách ngăn cháy loại 1 nêu tại H.6.2.",
+   "dieu": "Điều 4.35, H.6.2",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Tấm chắn lấy sáng ở mái làm từ vật liệu không cháy, kết cấu tấm mái từ kính có cốt gia cường và an toàn; cho phép vật liệu tấm lấy sáng có nhóm nguy hiểm cháy không nguy hiểm hơn Ch1 và không tạo giọt nóng chảy.",
+   "dieu": "4.35 f)",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Vách ngăn bằng vật liệu dày không nhỏ hơn 6 mm, giới hạn chịu lửa không quy định, được bảo vệ bằng sprinkler đặt từ phía các gian phòng (hành lang) liền kề, cách nhau không quá 2 m và cách vách ngăn không quá 0,5 m (nguồn bị cắt đầu câu, chưa rõ loại vật liệu).",
+   "dieu": "4.35 b)",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng/mặt cắt: sảnh có nằm trong một khoang cháy không; ghi chú giới hạn chịu lửa vách bao quanh hoặc kính 6 mm kèm sprinkler (khoảng cách ≤2 m, ≤0,5 m); có rèm/màn ngăn khói và tính chiều dày lớp khói; tra diện tích khoang cháy theo Phụ lục H",
+   "dieu": "suy từ 4.35",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Xem mặt bằng/mặt cắt: lỗ mở có rèm/màn ngăn khói E 45 hay không, khoảng cách sprinkler 1,5–2,0 m và ≤ 0,5 m cách mép lỗ mở, cách tính diện tích khoang cháy theo Phụ lục H. Suy từ 4.35.",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Giếng thang, thang bộ, thang cuốn, giếng kỹ thuật không phải sảnh thông tầng.",
+   "dieu": "Điều 1.4.50",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Khác sảnh thang máy (không gian trống trước cửa thang máy) và sảnh ngăn khói (sảnh phía ngoài lối vào buồng thang bộ thoát nạn).",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ]
+}

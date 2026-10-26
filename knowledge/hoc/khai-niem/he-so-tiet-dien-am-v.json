@@ -1,0 +1,71 @@
+{
+ "slug": "he-so-tiet-dien-am-v",
+ "ten": "Hệ số tiết diện Am/V",
+ "dong_nghia": [
+  "Am/V"
+ ],
+ "anh_huong": [
+  "m02-bac-chiu-lua",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Giới hạn chịu lửa",
+  "Bậc chịu lửa",
+  "Kết cấu thép không bọc bảo vệ"
+ ],
+ "ngay": "2026-10-26T04:51:12.365Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Hệ số tiết diện Am/V xác định theo ISO 834-10 hoặc các tiêu chuẩn tương đương.",
+   "dieu": "Chú thích, mục 2.5.3 (QCVN 06:2022 sửa đổi 1:2023)",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khi giới hạn chịu lửa tối thiểu của cấu kiện được yêu cầu là R 15 (RE 15, REI 15) thì cho phép dùng kết cấu thép không bọc bảo vệ nếu giới hạn chịu lửa theo thử nghiệm hoặc tính toán từ R 8 trở lên, hoặc Am/V nhỏ hơn hoặc bằng 250 m-1.",
+   "dieu": "2.5.3",
+   "nguon": "kb:tk-hệ-số-t"
+  },
+  {
+   "y": "Khi giới hạn chịu lửa tối thiểu của cấu kiện yêu cầu là R 15 (RE 15, REI 15), cho phép dùng kết cấu thép không bọc bảo vệ nếu giới hạn chịu lửa theo thử nghiệm hoặc tính toán từ R 8 trở lên, hoặc Am/V ≤ 250 m-1",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-tiết-diện-am-v"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Am/V ≤ 250 m-1 (kết cấu thép không bọc bảo vệ, yêu cầu R 15/RE 15/REI 15).",
+   "dieu": "2.5.3",
+   "nguon": "kb:tk-hệ-số-t"
+  },
+  {
+   "y": "Am/V nhỏ hơn hoặc bằng 250 m-1 (kết cấu thép không bọc bảo vệ, cấu kiện yêu cầu R/RE/REI 15)",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-tiết-diện-am-v"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem hồ sơ thiết kế có tính toán Am/V hoặc R 8 và kết luận về giới hạn chịu lửa của kết cấu. Theo hướng dẫn của sửa đổi 1:2023, cán bộ thẩm duyệt không cần kiểm tra, đối chiếu lại tính toán này.",
+   "dieu": "suy từ phần giải thích Tiêu đề II, mục 1 (Sửa đổi 1:2023)",
+   "nguon": "kb:tk-hệ-số-t",
+   "can_xem": true
+  },
+  {
+   "y": "Xem hồ sơ thiết kế có thể hiện tính toán Am/V (hoặc R 8) và kết luận giới hạn chịu lửa của kết cấu thép không bọc hay không. Theo sửa đổi 1:2023, chỉ cần yêu cầu chủ đầu tư/tư vấn thiết kế thể hiện tính toán và kết luận trên hồ sơ, cán bộ thẩm duyệt không cần kiểm tra, đối chiếu lại",
+   "dieu": "Tiêu đề II.1, sửa đổi 1:2023",
+   "nguon": "kb:tk-hệ-số-tiết-diện-am-v",
+   "can_xem": true
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Điều kiện Am/V ≤ 250 m-1 chỉ áp dụng khi yêu cầu giới hạn chịu lửa tối thiểu là R/RE/REI 15; không dùng cho yêu cầu cao hơn",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-tiết-diện-am-v"
+  }
+ ]
+}

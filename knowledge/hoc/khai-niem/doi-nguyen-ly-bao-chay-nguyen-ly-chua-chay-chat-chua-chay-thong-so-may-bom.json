@@ -1,0 +1,50 @@
+{
+ "slug": "doi-nguyen-ly-bao-chay-nguyen-ly-chua-chay-chat-chua-chay-thong-so-may-bom",
+ "ten": "Đổi nguyên lý báo cháy, nguyên lý chữa cháy, chất chữa cháy, thông số máy bơm",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "thay thế hệ thống",
+  "trang bị bổ sung hệ thống",
+  "thẩm định lại khi điều chỉnh thiết kế, thay đổi công năng, cải tạo (danh sách đóng)"
+ ],
+ "ngay": "2026-10-26T03:46:27.194Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Đổi nguyên lý báo cháy: từ báo cháy nhiệt sang khói hoặc lửa và ngược lại.",
+   "dieu": "Công văn C07 (khoản 3 Điều 9)",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Đổi nguyên lý chữa cháy, chất chữa cháy: chữa cháy theo diện tích sang thể tích; chữa cháy cục bộ theo điểm sang theo diện tích và ngược lại; nước sang khí, bọt, bột và ngược lại; giữa các loại khí khác nhau (Nitơ, CO2, Novec 1230 (FK-5-1-12), HFC-227ea (FM200), IG-55, IG-541, sol-khí).",
+   "dieu": "Công văn C07 (khoản 3 Điều 9)",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Đổi thông số máy bơm chữa cháy: đổi lưu lượng, cột áp.",
+   "dieu": "Công văn C07 (khoản 3 Điều 9)",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Các thay đổi này thuộc diện thẩm định lại ở cơ quan Công an. Ví dụ theo đề xuất CATP Hà Nội (chưa chính thức): đổi đầu báo nhiệt sang đầu báo khói ở khu vực hầm đổi công năng là đổi nguyên lý báo cháy.",
+   "dieu": "Điều 9 khoản 3; mục 5.5",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "So loại đầu báo, loại hệ thống/chất chữa cháy, lưu lượng và cột áp bơm giữa hồ sơ đã thẩm định và hồ sơ điều chỉnh.",
+   "dieu": "suy từ Điều 9 khoản 3",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "hay_nham": []
+}

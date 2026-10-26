@@ -1,0 +1,141 @@
+{
+ "slug": "thang-may-chua-chay",
+ "ten": "Thang máy chữa cháy",
+ "dong_nghia": [
+  "thang máy có chế độ chuyên chở lực lượng chữa cháy",
+  "TMCC"
+ ],
+ "anh_huong": [
+  "m08-thang-may-cc",
+  "m04-giao-thong",
+  "so-bo-thiet-ke",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Sảnh thang máy chữa cháy",
+  "Họng chờ DN 65 hệ thống ống khô",
+  "Chiều cao PCCC",
+  "Tầng hầm",
+  "Chiều cao phòng cháy chữa cháy (chiều cao PCCC)",
+  "Gian lánh nạn"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [
+  {
+   "y": "Thang máy có chế độ “chuyên chở lực lượng chữa cháy”, dùng đưa lực lượng chữa cháy cùng trang thiết bị đến các tầng và mái của nhà.",
+   "dieu": "6.1",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Mỗi khoang cháy của nhà có chiều cao PCCC > 28 m (> 50 m với nhà nhóm F1.3), hoặc nhà có chiều sâu sàn tầng hầm dưới cùng (tính đến cao độ lối ra thoát nạn ra ngoài) > 9 m, phải có tối thiểu một thang máy chữa cháy.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Mỗi khoang cháy của nhà có chiều cao PCCC lớn hơn 28 m (lớn hơn 50 m đối với nhà nhóm F1.3), hoặc có chiều sâu sàn tầng hầm dưới cùng (tính đến cao độ lối ra thoát nạn) lớn hơn 9 m, phải có tối thiểu một thang máy chữa cháy.",
+   "dieu": "Điều 6.13",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Gara ô tô ngầm có trên hai tầng hầm: mỗi khoang cháy bố trí ít nhất một thang máy ở chế độ chuyên chở lực lượng chữa cháy.",
+   "dieu": "Điều 2.2.1.20 QCVN 13:2018/BXD",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Bệnh viện vượt chiều cao PCCC 28 m (hoặc quá 9 tầng, tối đa 50 m): tối thiểu 2 thang máy chữa cháy (hoặc 1 thang máy chữa cháy, 1 thang máy thoát nạn).",
+   "dieu": "Slide nhóm A2 / bệnh viện",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không dùng thang máy chủ yếu vận chuyển hàng hóa làm thang máy chữa cháy.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Bán kính phục vụ từ cửa thang đến điểm bất kỳ trên mặt bằng tầng không quá 60 m.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Nếu chỉ có một thang thì ít nhất đến được tất cả các tầng kế cận tầng đang cháy; nếu có từ 2 thang trở lên thì người lính chữa cháy không phải di chuyển quá hai tầng để tiếp cận tầng bất kỳ.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Tầng lánh nạn phải được phục vụ bởi ít nhất một thang máy chữa cháy; ở chế độ bình thường cửa thang không mở vào tầng lánh nạn, cửa giếng tại đó thường xuyên khóa và tự mở khi chuyển sang chế độ chữa cháy.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Giếng thang riêng (không chung với thang khác), mỗi giếng không quá 3 thang máy chữa cháy; kết cấu bao che giếng có giới hạn chịu lửa không nhỏ hơn REI 120.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Sức chở không nhỏ hơn 630 kg (chung cư nhóm F1.3) và không nhỏ hơn 1 000 kg (nhà sản xuất, nhà công cộng khác); tốc độ không nhỏ hơn H/60 (m/s), H là chiều cao nâng (m); vỏ bao che cabin bằng vật liệu không cháy hoặc cháy yếu.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Hình thức phục vụ của các thang máy chữa cháy phải giống nhau và thông dụng (tầng lẻ, tầng chẵn hoặc tất cả các tầng); ở điều kiện bình thường vẫn dùng chở người.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Số lượng đủ để bán kính phục vụ (từ cửa thang đến điểm bất kỳ trên mặt bằng tầng) không vượt quá 60 m; nhà thuộc A.2 không vượt quá 45 m.",
+   "dieu": "Điều 6.13; A.2",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Giếng thang riêng (không chung thang loại khác), mỗi giếng không quá 3 thang máy chữa cháy; kết cấu bao che giếng giới hạn chịu lửa không nhỏ hơn REI 120.",
+   "dieu": "Điều 6.13",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Sảnh thang máy chữa cháy: diện tích không nhỏ hơn 4 m2 (6 m2 khi kết hợp sảnh buồng thang bộ không nhiễm khói); vách ngăn cháy loại 1; có họng chờ cấp nước DN 65.",
+   "dieu": "Điều 6.13",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Sức chở không nhỏ hơn 630 kg đối với nhà chung cư nhóm F1.3 và 1 000 kg đối với nhà sản xuất và nhà công cộng khác; tốc độ không nhỏ hơn H/60 (m/s), H là chiều cao nâng (m); bao che cabin bằng vật liệu không cháy hoặc cháy yếu.",
+   "dieu": "Điều 6.13",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Cáp điện nguồn chính, dự phòng và điều khiển phải là cáp chống cháy, cách ly độc lập với nhau và với nguồn điện khác; nhà thuộc A.2: duy trì làm việc không ít hơn 3 giờ kể từ khi có cháy và lấy từ 2 nguồn cấp độc lập.",
+   "dieu": "Slide cung cấp điện TMCC",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "So chiều cao PCCC/độ sâu tầng hầm với ngưỡng 28 m (50 m với F1.3) và 9 m; kiểm số thang, bán kính 60 m, sức chở, tốc độ, REI giếng thang trên bản vẽ; suy từ 6.13.",
+   "dieu": "suy từ 6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Kiểm trên bản vẽ: số thang, bán kính phục vụ 60 m/45 m, diện tích sảnh, họng DN 65, tải trọng và REI giếng thang.",
+   "dieu": "suy từ Điều 6.13",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác thang máy chở người thường: có chế độ chữa cháy, giếng riêng, sảnh là khoang đệm.",
+   "dieu": "6.13",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Nếu chỉ có một thang máy chữa cháy thì thang đó ít nhất phải đến được tất cả các tầng kế cận với tầng đang cháy.",
+   "dieu": "Điều 6.13",
+   "nguon": "ee1434b8c963"
+  }
+ ]
+}

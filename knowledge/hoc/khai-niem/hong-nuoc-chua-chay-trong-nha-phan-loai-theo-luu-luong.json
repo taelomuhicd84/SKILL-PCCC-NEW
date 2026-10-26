@@ -1,0 +1,220 @@
+{
+ "slug": "hong-nuoc-chua-chay-trong-nha-phan-loai-theo-luu-luong",
+ "ten": "Họng nước chữa cháy trong nhà (phân loại theo lưu lượng)",
+ "dong_nghia": [
+  "hệ thống họng nước chữa cháy trong nhà",
+  "họng nước chữa cháy trong nhà"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Áp suất tự do của họng nước chữa cháy",
+  "Áp suất thủy tĩnh của họng nước chữa cháy",
+  "Tia nước đặc",
+  "Chiều cao PCCC",
+  "Hệ thống cấp nước chữa cháy ngoài nhà",
+  "Hệ thống đường ống khô có họng chờ cấp nước DN65",
+  "Nhà hỗn hợp",
+  "Họng tiếp nước vào hệ thống",
+  "Trụ kết nối hệ thống chữa cháy trong nhà"
+ ],
+ "ngay": "2026-10-26T04:26:33.933Z",
+ "dinh_nghia": [
+  {
+   "y": "Họng nước lưu lượng thấp: từ 0,2 L/s đến 1,5 L/s (thiết bị đường kính DN 5, DN 10, DN 15, DN 20, DN 25, DN 40). Lưu lượng trung bình: lớn hơn 1,5 L/s",
+   "dieu": "5.2.1",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Họng nước chữa cháy lưu lượng thấp: từ 0,2 L/s đến 1,5 L/s, thiết bị DN 5, DN 10, DN 15, DN 20, DN 25, DN 40. Lưu lượng trung bình: lớn hơn 1,5 L/s",
+   "dieu": "Phương án trang bị hệ thống",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Số tia và lưu lượng tối thiểu theo Bảng 11 (nhà ở, nhà công cộng, hành chính - phụ trợ) và Bảng 12 (nhà sản xuất, nhà kho); chiều cao PCCC trên 50 m: 4 tia × 2,5 L/s (công cộng), nhóm F5 hạng A, B, C: 4 tia × 5 L/s",
+   "dieu": "5.2.1, 5.2.2",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Đối tượng phải trang bị xác định theo Bảng B.1 (loại nhà, công trình và quy mô: số tầng, tổng diện tích sàn, số chỗ ngồi, số cháu, chiều dài hầm).",
+   "dieu": "2.4.1; Phụ lục B, Bảng B.1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà ở, nhà công cộng, nhà hành chính - phụ trợ của công trình công nghiệp, nhà sản xuất, nhà kho phải lắp hệ thống họng nước chữa cháy trong nhà",
+   "dieu": "5.2.1",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Phương án 1 (lưu lượng trung bình): mọi công trình; Phương án 2 (lưu lượng nhỏ + đường ống họng khô) và Phương án 4 (nhỏ kết hợp trung bình): nhà ở, công trình công cộng; Phương án 3 (lưu lượng nhỏ): công trình có chữa cháy tự động toàn bộ công trình",
+   "dieu": "5.2.18",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Nhà, công trình phải trang bị theo Bảng B.1. Ví dụ: chung cư, khách sạn, nhà hỗn hợp… cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 1 500 m² trở lên; nhà trẻ, trường mầm non từ 100 cháu trở lên hoặc cao từ 03 tầng trở lên hoặc tổng diện tích sàn từ 1 000 m² trở lên; trường học, cơ sở y tế cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 600 m² trở lên; trụ sở, văn phòng cao từ 6 tầng trở lên hoặc tổng diện tích sàn từ 1 500 m² trở lên; nhà hát, rạp chiếu phim, rạp xiếc từ 300 chỗ ngồi trở lên hoặc tổng diện tích sàn từ 1 000 m² trở lên; chợ hạng 1, chợ hạng 2, trung tâm thương mại, siêu thị không phụ thuộc diện tích; nhà sản xuất, nhà kho hạng A, B, C, D từ 500 m² trở lên; nhà để xe dạng kín từ 150 m², dạng hở (trừ gara ô tô cơ khí) từ 1 000 m²; hầm đường ô tô dài từ 500 m trở lên.",
+   "dieu": "Phụ lục B, Bảng B.1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Có thể bố trí độc lập hoặc kết hợp với hệ thống chữa cháy tự động bằng nước; khi kết hợp phải bảo đảm yêu cầu của cả hai hệ thống.",
+   "dieu": "2.4.1, chú thích",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Nhà hỗn hợp, nhà ở riêng lẻ kết hợp kinh doanh/sản xuất không thuộc diện phải trang bị nhưng có phần công năng bất kỳ đạt quy mô theo Bảng B.1 thì phải trang bị cho phần nhà đó.",
+   "dieu": "Bảng B.1, chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Thiết kế, lắp đặt theo H.2, H.3.",
+   "dieu": "2.4.2",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Nhà phải trang bị hệ thống họng nước trong nhà theo Phụ lục B",
+   "dieu": "Đối tượng trang bị",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Nhà sản xuất, nhà kho có mức nguy hiểm cháy cao, nhà cao từ 25 m trở lên, chợ, trung tâm thương mại, siêu thị, khách sạn, vũ trường, karaoke, quán bar, hộp đêm, nhà ga, nhà dịch vụ cảng biển/cảng cạn/cảng thủy nội địa, nhà hát, rạp chiếu phim: phải thường xuyên có nước duy trì áp suất bảo đảm kích hoạt hệ thống tự động",
+   "dieu": "Đối tượng trang bị",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Phương án 1: họng lưu lượng trung bình, áp dụng mọi loại hình công trình. Phương án 2: họng lưu lượng nhỏ kết hợp ống họng khô, cho nhà ở, công trình công cộng. Phương án 3: họng lưu lượng nhỏ, cho công trình có chữa cháy tự động toàn bộ công trình. Phương án 4: họng lưu lượng nhỏ kết hợp trung bình, cho nhà ở, công trình công cộng. Một công trình được kết hợp nhiều phương án",
+   "dieu": "Phương án trang bị hệ thống; 5.2.18",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không lắp họng ở lối vào buồng thang không nhiễm khói; không cần xét bể nước áp lực khi dùng họng nước làm cảm biến điều khiển tự động máy bơm",
+   "dieu": "5.2.14, 5.2.8",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Không trang bị cho nhà sản xuất, nhà kho có sử dụng hay bảo quản các chất khi tiếp xúc với nước có thể sinh ra cháy, nổ, ngọn lửa lan truyền.",
+   "dieu": "Bảng B.1, chú thích 3",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Không trang bị cho nhà, khu vực, gian phòng sử dụng hoặc bảo quản chất mà khi tiếp xúc với nước có thể sinh cháy, nổ hoặc ngọn lửa lan truyền rộng",
+   "dieu": "Đối tượng trang bị",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Miệng họng ở độ cao 1,20 m ± 0,15 m so với mặt sàn, đặt trong tủ có lỗ thông gió, dán niêm phong; họng kép lắp chồng thì họng dưới cao không nhỏ hơn 1,0 m",
+   "dieu": "5.2.12",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Số tia mỗi điểm cháy lấy 2 tia khi công trình yêu cầu từ 2 tia trở lên; mỗi tủ không quá 2 tia; nhà ở có hành lang dài trên 10 m, nhà sản xuất, nhà công cộng từ 2 tia/điểm trở lên phải bố trí 2 tia từ 2 tủ cạnh nhau",
+   "dieu": "5.2.4, 5.2.11",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Phải có họng nước ở tầng kỹ thuật, tầng áp mái, tầng hầm kỹ thuật nếu có vật liệu và kết cấu cháy được",
+   "dieu": "5.2.11 CHÚ THÍCH 1",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Mỗi đoạn ống khóa chỉ khóa nhiều nhất 5 họng trên cùng một tầng",
+   "dieu": "5.2.17",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Nhà từ 17 tầng trở lên: họng chờ ngoài nhà chia vùng theo chiều cao, mỗi vùng không quá 50 m, có van một chiều, niêm phong mở",
+   "dieu": "5.2.13",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Nhà từ 6 tầng trở lên liên kết nước sinh hoạt và chữa cháy: ống đứng nối vòng ở trên",
+   "dieu": "5.2.10",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Máy bơm điều khiển bằng tay hoặc tự động hoặc từ xa. Riêng nhà sản xuất, nhà kho hạng A, B, C1; nhà có chiều cao PCCC từ 25 m trở lên; chợ, trung tâm thương mại, siêu thị, khách sạn; nhà kinh doanh dịch vụ karaoke, vũ trường; nhà ga hành khách, nhà ga hàng hóa thuộc cảng hàng không; nhà ga hàng hóa, đề-pô đường sắt; nhà ga cáp treo; nhà ga hành khách, đề-pô đường sắt đô thị; nhà hát, rạp chiếu phim; các nhà dịch vụ thuộc bến cảng biển, cảng thủy nội địa thì máy bơm phải điều khiển bằng tay tại phòng bơm và điều khiển tự động.",
+   "dieu": "2.4.2, chú thích",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Cho phép dùng hệ thống họng nước chữa cháy đóng gói (Package) thay cho hệ thống họng nước chữa cháy trong các công trình quy định tại Phụ lục A TCVN 13926.",
+   "dieu": "Bảng B.1, chú thích 2",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Bố trí độc lập hoặc kết hợp với hệ thống chữa cháy tự động bằng nước; phải có họng chờ ở ngoài nhà để tiếp nước từ xe bơm hoặc máy bơm di động",
+   "dieu": "Đối tượng trang bị",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Số tia phun mỗi tầng và lưu lượng mỗi tia tra theo loại nhà (nhà ở, nhà hành chính, nhà công cộng, nhà sản xuất, kho) và khối tích; mức nhỏ nhất 2,5 L/s mỗi tia, phòng câu lạc bộ có sân khấu, nhà hát, rạp chiếu phim trên 300 chỗ là 5,0 L/s mỗi tia",
+   "dieu": "Bảng số tia phun và lưu lượng",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Số tia cho mỗi điểm cháy lấy 02 tia với công trình yêu cầu từ 02 tia trở lên",
+   "dieu": "Số tia phun chữa cháy",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Chiều cao tia nước đặc không nhỏ hơn 6 m (nhà ở, công cộng, sản xuất, phụ trợ cao đến 50 m); 8 m (nhà ở cao trên 50 m); 16 m (nhà công cộng, sản xuất, phụ trợ cao trên 50 m); đồng thời không nhỏ hơn chiều cao khu vực từ sàn đến điểm cao nhất của xà (trần)",
+   "dieu": "Áp suất tự do của họng nước",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Họng DN 50 cho tia đặc lưu lượng đến 4 L/s; lớn hơn dùng DN 65 (DN 50 cho trên 4 L/s khi có luận chứng kinh tế – kỹ thuật)",
+   "dieu": "Chú thích 2 – áp suất tự do",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Họng kép trên ống đứng: nhà sản xuất và nhà công cộng khi số tia tính toán từ 3 trở lên, nhà ở từ 2 trở lên. Nhà ở hành lang dài đến 10 m cần 2 tia thì phun 2 tia từ một ống đứng; nhà ở hành lang trên 10 m, nhà sản xuất và nhà công cộng có từ 2 tia trở lên mỗi điểm thì 2 tia từ 2 tủ cạnh nhau; mỗi tủ không quá 2 tia",
+   "dieu": "Vị trí và số lượng ống đứng, họng nước",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Phải lắp họng nước trong tầng kỹ thuật, tầng áp mái, tầng hầm kỹ thuật nếu có vật liệu và kết cấu cháy được. Cho phép tăng bán kính phục vụ bằng nối các vòi tổng chiều dài đến 40 m, vòi xếp trên giá đỡ, nối sẵn với họng và lăng",
+   "dieu": "Chú thích 1, 3",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ mặt bằng/sơ đồ: số tia và lưu lượng theo Bảng 11/12, vị trí tủ, độ cao họng, số họng mỗi đoạn khóa. Suy từ 5.2.1, 5.2.11–5.2.17",
+   "dieu": "5.2",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Lập bảng đối chiếu từng công năng/khối nhà với Bảng B.1 (số tầng, tổng diện tích sàn); xem hồ sơ có bản vẽ, thuyết minh họng nước và chế độ điều khiển máy bơm. Suy từ 2.4, Phụ lục B.",
+   "dieu": "suy từ 2.4, Phụ lục B",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Xem bản vẽ mặt bằng và sơ đồ ống đứng: số tia theo loại nhà/khối tích/số tầng, bố trí tủ, DN họng, tính áp suất tia đặc (6/8/16 m) có tính tổn thất cuộn vòi 10, 15, 20 m",
+   "dieu": "suy từ các mục trên",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhà ở riêng lẻ kết hợp kinh doanh có phần kinh doanh trên 70 % tổng diện tích thì xét theo công năng sản xuất, kinh doanh; không quá 70 % thì xét theo mục 1.1 (cao từ 7 tầng trở lên).",
+   "dieu": "Bảng B.1, mục 1.1 và chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Họng lưu lượng thấp (0,2–1,5 L/s) khác họng lưu lượng trung bình (> 1,5 L/s); phương án 3 chỉ dùng khi có chữa cháy tự động toàn bộ công trình",
+   "dieu": "",
+   "nguon": "d1cdbad641a2"
+  }
+ ]
+}

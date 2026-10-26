@@ -1,0 +1,91 @@
+{
+ "slug": "tru-cap-nuoc-chua-chay",
+ "ten": "Trụ cấp nước chữa cháy",
+ "dong_nghia": [
+  "trụ nước chữa cháy ngoài nhà",
+  "trụ nước",
+  "trụ nổi",
+  "trụ ngầm"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Bồn, bể trữ nước chữa cháy ngoài nhà",
+  "Mạng đường ống cụt",
+  "Bán kính phục vụ",
+  "Trụ kết nối hệ thống chữa cháy trong nhà"
+ ],
+ "ngay": "2026-10-26T04:26:33.933Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Công trình thuộc diện trang bị họng nước chữa cháy hoặc sprinkler tự động phải có đường ống kết nối từ trạm bơm của công trình đến tối thiểu 01 trụ loại 03 cửa hoặc loại 02 cửa DN65 đặt ở mặt bên ngoài tường công trình về phía có đường giao thông",
+   "dieu": "5.1.4.8",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Điểm dân cư đến 500 người: cho phép thay trụ loại 3 cửa bằng đoạn ống đứng DN 80 mm có lắp họng nước",
+   "dieu": "5.1.4.7 CHÚ THÍCH",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Cho phép thay trụ cấp nước chữa cháy loại 3 cửa bằng đoạn ống đứng DN 80 mm có lắp họng nước trên mạng đường ống cho điểm dân cư đến 500 người",
+   "dieu": "Chú thích – Bán kính phục vụ",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bố trí cách mép đường không lớn hơn 2,5 m, không gần hơn 1 m đến tường nhà; cho phép đặt trụ ngầm ở đường giao thông",
+   "dieu": "5.1.4.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Tối thiểu 02 trụ khi lưu lượng yêu cầu từ 15 L/s trở lên, 01 trụ khi dưới 15 L/s, phục vụ đến mọi điểm của nhà; bán kính phục vụ mỗi trụ không lớn hơn 400 m theo đường di chuyển của vòi chữa cháy bên ngoài nhà",
+   "dieu": "5.1.4.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Phân đoạn bằng van khóa để khi sửa chữa không ngắt nhiều hơn 05 trụ",
+   "dieu": "5.1.4.3",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Bố trí cách mép đường không lớn hơn 2,5 m, không gần hơn 1 m đến tường ngôi nhà; cho phép bố trí trụ ngầm nằm ở đường giao thông",
+   "dieu": "Trụ nước chữa cháy – Khoảng cách bố trí",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Trụ nổi trên vỉa hè: họng lớn quay ra phía lòng đường; khoảng cách từ mặt đất đến đỉnh trụ là 700 mm",
+   "dieu": "Trụ nước chữa cháy – Khoảng cách bố trí",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Loại trụ phù hợp TCVN 6379:1998",
+   "dieu": "Trụ nước chữa cháy – Loại trụ",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Đường ống phải chia thành các đoạn bằng van khóa để khi sửa chữa không ngắt nhiều hơn 05 trụ",
+   "dieu": "Bố trí van khóa – Van ngăn chia",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem tổng mặt bằng: số trụ, vị trí cách mép đường/tường, bán kính 400 m, trụ nối từ trạm bơm. Suy từ 5.1.4.6–5.1.4.8",
+   "dieu": "5.1.4.6–5.1.4.8",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Xem tổng mặt bằng cấp nước ngoài nhà: khoảng cách trụ tới mép đường (≤ 2,5 m) và tới tường nhà (≥ 1 m)",
+   "dieu": "suy từ mục Trụ nước chữa cháy",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,54 @@
+{
+ "slug": "thiet-bi-cap-nuoc-tu-dong",
+ "ten": "Thiết bị cấp nước tự động",
+ "dong_nghia": [
+  "Thiết bị cấp nước phụ trợ"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Trạm bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:17:45.822Z",
+ "dinh_nghia": [
+  {
+   "y": "Thiết bị cấp nước tự động bảo đảm áp lực cần thiết trong đường ống cho trạng thái kích hoạt của bộ điều khiển.",
+   "dieu": "3.3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Thiết bị cấp nước phụ trợ tự động duy trì áp suất để kích hoạt bộ điều khiển, và duy trì lưu lượng, áp suất cho đến khi kích hoạt chế độ chữa cháy của thiết bị cấp nước chính.",
+   "dieu": "3.9",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hệ thống Sprinkler hoặc Sprinkler-Drencher phải dùng một trong: bình tích áp tổng dung tích không nhỏ hơn 1 m³ (nước 0,5 ± 0,1 m³ và khí nén); bơm bù có bình tích áp ít nhất 40 lít; đường ống cấp nước mục đích khác có áp lực bảo đảm.",
+   "dieu": "5.7.4",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Thiết bị cấp nước phụ trợ dùng khi thời gian khởi động bơm chữa cháy (tự động hoặc tay) hơn 30 s; với tòa nhà cao trên 30 m nên đặt ở tầng kỹ thuật phía trên hoặc mái.",
+   "dieu": "5.7.5, 5.7.10",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bình tích áp 1 m³ trang bị đồng hồ áp suất, công tắc áp lực, đồng hồ mực nước trực quan và từ xa, van an toàn; bơm bù trang bị đồng hồ áp suất và công tắc áp lực; thiết bị phụ trợ có hai đồng hồ áp suất, đồng hồ mực nước và van an toàn.",
+   "dieu": "5.7.7–5.7.9",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Thiết bị phụ trợ và thiết bị cấp nước tự động phải ngắt khi bật bơm chữa cháy.",
+   "dieu": "5.7.6",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

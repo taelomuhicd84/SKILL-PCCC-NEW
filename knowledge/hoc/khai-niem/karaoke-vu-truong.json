@@ -1,0 +1,65 @@
+{
+ "slug": "karaoke-vu-truong",
+ "ten": "Karaoke, vũ trường",
+ "dong_nghia": [
+  "nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường và nhà có công năng sử dụng tương tự"
+ ],
+ "anh_huong": [
+  "m15-cnch",
+  "m10-binh-chua-chay",
+  "m05-cong-nang",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Mặt nạ lọc độc",
+  "Dụng cụ phá dỡ thô sơ"
+ ],
+ "ngay": "2026-10-26T04:06:22.541Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Văn bản gọi đối tượng là: nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường và nhà có công năng sử dụng tương tự (xếp chung nhóm đối tượng với nhà hát, rạp chiếu phim ở Bảng E.1).",
+   "dieu": "Bảng E.1, Bảng F.1 STT 2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Phải trang bị dụng cụ phá dỡ thô sơ, không phụ thuộc quy mô.",
+   "dieu": "Bảng E.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Phải trang bị mặt nạ lọc độc tại tất cả các tầng nhà, không phụ thuộc quy mô.",
+   "dieu": "Bảng F.1 STT 2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Dụng cụ phá dỡ thô sơ: 01 bộ (rìu ≥ 2 kg; xà beng dài ≥ 100 cm; búa ≥ 5 kg; kìm cộng lực tải cắt ≥ 60 kg).",
+   "dieu": "Bảng E.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Mặt nạ lọc độc: số lượng trên một tầng tính theo số người có mặt đồng thời trong một phòng có diện tích lớn nhất của tầng đó, định mức 01 chiếc/01 người.",
+   "dieu": "Bảng F.1 STT 2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Mỗi tầng: tìm phòng có diện tích lớn nhất, lấy số người đồng thời trong phòng đó, so với số mặt nạ lọc độc ghi trong hồ sơ (suy từ Bảng F.1 STT 2).",
+   "dieu": "suy từ Bảng F.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Định mức mặt nạ karaoke tính theo phòng lớn nhất của từng tầng, khác khách sạn (tính 01 chiếc/người cho toàn bộ khách lưu trú và nhân viên có mặt thường xuyên, từ 3 tầng trở lên).",
+   "dieu": "Bảng F.1 STT 1, 2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ]
+}

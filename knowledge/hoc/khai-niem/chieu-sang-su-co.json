@@ -1,0 +1,79 @@
+{
+ "slug": "chieu-sang-su-co",
+ "ten": "Chiếu sáng sự cố",
+ "dong_nghia": [
+  "emergency lighting",
+  "Chiếu sáng an toàn",
+  "Chiếu sáng thoát hiểm"
+ ],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m13-cap-dien",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Chiếu sáng đường thoát nạn",
+  "Chiếu sáng sự cố gian phòng",
+  "Biển báo an toàn",
+  "Độ rọi"
+ ],
+ "ngay": "2026-10-26T04:40:34.533Z",
+ "dinh_nghia": [
+  {
+   "y": "Cung cấp ánh sáng để đảm bảo an toàn cho người sơ tán khỏi khu vực nguy hiểm hoặc phục vụ giải quyết tình huống nguy hiểm trước khi sơ tán, khi nguồn cấp cho chiếu sáng thông thường bị sự cố. Gồm chiếu sáng đường thoát nạn, chiếu sáng gian phòng và chiếu sáng cho các phương tiện phòng cháy và chữa cháy hoạt động.",
+   "dieu": "TCVN 13456:2022, 3.3",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Đèn chiếu sáng sự cố phải lắp tại: cầu thang bộ thoát nạn; đường thoát nạn, vị trí chuyển hướng, nút giao hành lang; vị trí đổi cao độ trên đường thoát nạn; cửa, lối ra thoát nạn; gara để xe; gian phòng có người làm việc mà điểm xa nhất đến lối ra thoát nạn gần nhất > 13 m; phòng trạm biến áp, phòng máy phát điện, phòng kỹ thuật thang máy, gian lánh nạn; phòng trực điều khiển chống cháy, phòng bơm chữa cháy và các vị trí trang bị phương tiện PCCC khác.",
+   "dieu": "5.1.1 a)–h)",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Có thể không cần bố trí ở: sân vườn, khu vực sân thượng không có mái che; toà nhà cao 01 tầng có diện tích sàn không quá 200 m² và diện tích lỗ hở trên tường ngoài đạt tối thiểu 80%.",
+   "dieu": "5.1.1",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Gian phòng nói ở điểm f) mà có bố trí đường thoát nạn thì có thể chỉ lắp đèn tại đường thoát nạn đó.",
+   "dieu": "5.1.1 f)",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Đèn chiếu sáng sự cố và biển báo an toàn có nguồn điện dự phòng phải hoạt động ổn định liên tục tối thiểu 120 min khi có sự cố cháy, nổ.",
+   "dieu": "4.5",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Lắp đặt phù hợp TCVN 7722-2-22:2013; nơi có nguy hiểm về nổ hoặc độ ẩm cao phải dùng đèn, biển báo chống nổ hoặc chống ẩm.",
+   "dieu": "4.4",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Tủ trung tâm báo cháy, nút ấn báo cháy và phương tiện chữa cháy phải luôn được chiếu sáng đầy đủ; nếu không nằm trên đường thoát nạn hoặc trong phạm vi khoảng trống thì chiếu sáng tối thiểu 5 lux tại mặt sàn.",
+   "dieu": "5.1.6",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ 5.1.1: đối chiếu bản vẽ chiếu sáng sự cố với từng vị trí bắt buộc a)–h); đo khoảng cách từ điểm xa nhất của gian phòng đến lối ra gần nhất so với 13 m. Suy từ 4.5: tìm ghi chú thời gian duy trì ≥ 120 min của nguồn dự phòng.",
+   "dieu": "suy từ 5.1.1, 4.5",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Chiếu sáng sự cố là gồm 3 loại (đường thoát nạn, gian phòng, phương tiện PCCC), không chỉ là đèn trên đường thoát nạn; khác với biển báo an toàn (chỉ dẫn) và sơ đồ chỉ dẫn thoát nạn.",
+   "dieu": "3.3, 4.2",
+   "nguon": "f0d3f93819cb"
+  }
+ ]
+}

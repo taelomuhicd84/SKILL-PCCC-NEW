@@ -1,0 +1,62 @@
+{
+ "slug": "cap-nuoc-chua-chay-ngoai-nha-dieu-kien-khong-bat-buoc-va-khu-vuc-chua-co-ha-tang",
+ "ten": "Cấp nước chữa cháy ngoài nhà (điều kiện không bắt buộc và khu vực chưa có hạ tầng)",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "chung"
+ ],
+ "lien_quan": [
+  "Bồn, bể trữ nước chữa cháy ngoài nhà",
+  "Trụ cấp nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:01:34.447Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà (bồn, bể, trụ nước, hồ nước chữa cháy tự nhiên và nhân tạo, nguồn tương tự)",
+   "dieu": "5.1.1.1",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Công trình ở khu vực chưa có hạ tầng cấp nước chữa cháy ngoài nhà, hoặc đã có nhưng không bảo đảm theo Bảng 8, 9, 10 thì thực hiện theo hướng dẫn của cơ quan Cảnh sát PCCC và CNCH có thẩm quyền",
+   "dieu": "5.1.2.8",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Nhà nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà thì không yêu cầu bắt buộc phải trang bị cấp nước chữa cháy ngoài nhà",
+   "dieu": "5.1.1.1",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Hệ thống cấp nước chữa cháy ngoài nhà của cơ sở bảo đảm không ngừng cấp nước quá 10 phút và không giảm lưu lượng quá 30% lưu lượng tính toán trong 3 ngày",
+   "dieu": "5.1.2.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Lưu lượng chữa cháy phải được bảo đảm ngay cả khi lưu lượng cho nhu cầu khác lớn nhất",
+   "dieu": "5.1.2.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem tổng mặt bằng: có nguồn nước trong phạm vi phục vụ (bán kính 400 m) hay không; nếu không, ghi CẦN XÁC NHẬN hướng dẫn của cơ quan Cảnh sát PCCC và CNCH. Suy từ 5.1.1.1, 5.1.2.8",
+   "dieu": "5.1.1.1, 5.1.2.8",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Văn bản ghi chú thích việc trang bị có thể tham khảo tiêu chuẩn trang bị cũ; hệ thống đã chốt bỏ tiêu chuẩn cũ, không dùng làm căn cứ",
+   "dieu": "5.1.1.1 CHÚ THÍCH",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ]
+}

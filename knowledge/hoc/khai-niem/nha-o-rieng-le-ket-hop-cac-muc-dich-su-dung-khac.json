@@ -1,0 +1,78 @@
+{
+ "slug": "nha-o-rieng-le-ket-hop-cac-muc-dich-su-dung-khac",
+ "ten": "Nhà ở riêng lẻ kết hợp các mục đích sử dụng khác",
+ "dong_nghia": [
+  "nhà ở riêng lẻ kết hợp kinh doanh"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m06-ngan-chay",
+  "m07-thoat-nan",
+  "chung"
+ ],
+ "lien_quan": [
+  "Hệ số T",
+  "Chiều cao phòng cháy chữa cháy (chiều cao PCCC)",
+  "Khu vực có nguy cơ phát sinh cháy cao"
+ ],
+ "ngay": "2026-10-26T04:21:19.609Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà ở riêng lẻ là nhà ở xây trên thửa đất/lô đất ở riêng biệt thuộc quyền sử dụng của tổ chức, cá nhân hoặc trên đất thuê, đất mượn; gồm nhà biệt thự, nhà ở liền kề và nhà ở độc lập, xây với mục đích để ở hoặc mục đích sử dụng hỗn hợp.",
+   "dieu": "3.22",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Điều 9 áp dụng cho nhà ở riêng lẻ mục đích để ở, và nhà ở riêng lẻ trong khu vực hiện hữu có kết hợp mục đích khác thỏa đồng thời: dưới 7 tầng (hoặc chiều cao PCCC dưới 25 m); khối tích dưới 5 000 m³; có 1 tầng hầm hoặc 1 tầng nửa/bán hầm.",
+   "dieu": "1.3",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Nhà nằm trong khu vực hiện hữu là nhà không nằm trong dự án đầu tư xây dựng nhà ở, dự án khu đô thị.",
+   "dieu": "1.3 chú thích 1",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Biệt thự du lịch, nhà thương mại liên kế, căn hộ lưu trú, văn phòng kết hợp lưu trú, nhà đứng độc lập có cùng quy mô (tối đa 1 tầng hầm, hoặc 1 tầng nửa/bán hầm và không có tầng hầm) có thể tham khảo Điều 9.",
+   "dieu": "1.3 chú thích 2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Có thể thực hiện theo 9.2 (chỉ để ở) đối với nhà quy mô: chiều cao PCCC ≤ 15 m, diện tích sàn mỗi tầng ≤ 100 m² (hoặc ≤ 300 m² khi phần không để ở chỉ bố trí đồ đạc, hàng hóa không cháy), số người mỗi tầng ≤ 20.",
+   "dieu": "9.3.3.1 a; 9.3.3.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phải trang bị hệ thống báo cháy hoặc/và thiết bị báo cháy cục bộ trong nhà và bố trí vị trí đặt phương tiện PCCC.",
+   "dieu": "9.3.1.3",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Không bố trí gian phòng sử dụng hoặc lưu giữ khí cháy, chất lỏng cháy, vật liệu dễ bắt cháy tại tầng hầm và nửa hầm, trừ khi ngăn tách hoàn toàn với các tầng trên.",
+   "dieu": "9.3.1.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu số tầng, chiều cao PCCC, khối tích, số tầng hầm với 1.3; tính T để xếp trường hợp. Suy từ 1.3 và 9.3.2.",
+   "dieu": "1.3; 9.3.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhà chỉ để ở theo 9.2; nhà kết hợp mục đích khác theo 9.3.",
+   "dieu": "9.2; 9.3",
+   "nguon": "6ae0fc981256"
+  }
+ ]
+}

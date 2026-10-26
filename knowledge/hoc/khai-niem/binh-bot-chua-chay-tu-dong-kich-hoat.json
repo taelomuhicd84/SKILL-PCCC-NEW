@@ -1,0 +1,58 @@
+{
+ "slug": "binh-bot-chua-chay-tu-dong-kich-hoat",
+ "ten": "Bình bột chữa cháy tự động kích hoạt",
+ "dong_nghia": [
+  "bình bột chữa cháy tự động kích hoạt loại treo"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m10-binh-chua-chay",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Bình khí, bình sol-khí chữa cháy tự động kích hoạt",
+  "Hệ thống chữa cháy tự động"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Căn cứ điều kiện thực tế của nhà, công trình, có thể lắp đặt bình bột chữa cháy tự động kích hoạt ở mặt tường hoặc treo trên trần nhà với chiều cao thích hợp để bảo đảm diện tích bảo vệ hữu hiệu theo công bố của đơn vị sản xuất.",
+   "dieu": "2.5.4",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Loại treo có thể trang bị tại khu vực bếp của nhà hàng, các phòng nồi hơi, giặt là có diện tích không quá 100 m² và các phòng kỹ thuật điện có diện tích không quá 10 m².",
+   "dieu": "2.5.4",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Trong bất kỳ trường hợp nào, khoảng cách từ bộ phận cảm biến nhiệt đến trần nhà không quá 40 cm.",
+   "dieu": "2.5.4",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Lắp tại khu vực có diện tích trên 100 m² thì phải phân chia thành các khu vực đến 100 m² bằng tường ngăn cháy (giới hạn chịu lửa không thấp hơn REI 45) hoặc vách ngăn cháy (không thấp hơn EI 45).",
+   "dieu": "2.5.4",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ mặt bằng và mặt cắt phòng bố trí bình: diện tích phòng so với 100 m² (bếp, nồi hơi, giặt là) hoặc 10 m² (phòng kỹ thuật điện); đo khoảng cách cảm biến nhiệt đến trần so với 40 cm; nếu phòng trên 100 m² thì xem tường/vách ngăn REI 45/EI 45. Suy từ 2.5.4.",
+   "dieu": "2.5.4",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bình bột (cảm biến nhiệt cách trần không quá 40 cm; phòng kỹ thuật điện không quá 10 m²) khác bình khí, sol-khí (khu vực không thường xuyên có người, không quá 100 m², phải có giám sát và liên động báo cháy).",
+   "dieu": "2.5.4; 2.5.5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

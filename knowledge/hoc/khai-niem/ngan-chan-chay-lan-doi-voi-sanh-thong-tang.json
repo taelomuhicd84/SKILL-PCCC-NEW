@@ -1,0 +1,61 @@
+{
+ "slug": "ngan-chan-chay-lan-doi-voi-sanh-thong-tang",
+ "ten": "Ngăn chặn cháy lan đối với sảnh thông tầng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m09-chong-khoi",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Sảnh thông tầng",
+  "Màn ngăn khói"
+ ],
+ "ngay": "2026-10-26T04:52:13.508Z",
+ "dinh_nghia": [
+  {
+   "y": "Việc thiết kế trong nhà, tổ hợp nhà, một hoặc một số sảnh thông tầng, kể cả trang bị trong khối tích của nó các cầu thang bộ hở, thang cuốn, thang cuốn ngang, thang máy toàn cảnh và tương tự, cũng như các gian phòng có lỗ mở ở hành lang bên, cần bảo đảm các yêu cầu kèm theo.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà, tổ hợp nhà có một hoặc nhiều sảnh thông tầng, kể cả khi trang bị cầu thang bộ hở, thang cuốn, thang máy toàn cảnh trong khối tích của sảnh.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Sảnh thông tầng phải đặt trong khối tích của một khoang cháy; ở các lỗ mở của sàn giữa các tầng cho phép bố trí thang cuốn, thang bộ hở và thang máy (kể cả thang máy toàn cảnh).",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Kết cấu bao quanh các gian phòng và hành lang tiếp giáp sảnh thông tầng có giới hạn chịu lửa không nhỏ hơn EI (EIW) 60.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Hoặc làm bằng kính cường lực dày không nhỏ hơn 6 mm, giới hạn chịu lửa không quy định, nhưng được trang bị đầu phun sprinkler đặt từ phía các gian phòng (hành lang) liền kề, cách nhau không quá 2 m và cách vách ngăn không quá 0,5 m.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Biên dưới của lớp khói được xác định ở chiều cao không nhỏ hơn 2,5 m tính từ mặt sàn; chiều dày lớp khói xác định bằng tính toán khi thiết kế.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ mặt bằng các tầng quanh sảnh: giới hạn chịu lửa vách bao (EI/EIW 60) hoặc kính cường lực ≥ 6 mm kèm sprinkler cách nhau ≤ 2 m, cách vách ≤ 0,5 m; có màn ngăn khói ở các lỗ mở. Suy từ yêu cầu của nguồn.",
+   "dieu": "Thuật ngữ",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "hay_nham": []
+}

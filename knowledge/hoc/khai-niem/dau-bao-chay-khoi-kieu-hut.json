@@ -1,0 +1,116 @@
+{
+ "slug": "dau-bao-chay-khoi-kieu-hut",
+ "ten": "Đầu báo cháy khói kiểu hút",
+ "dong_nghia": [
+  "Aspirating Smoke Detector",
+  "đầu báo cháy kiểu hút"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Đầu báo cháy khói kiểu điểm",
+  "Vùng phát hiện cháy",
+  "Lựa chọn đầu báo cháy"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu báo cháy khói có nhiệm vụ chủ động hút lấy mẫu không khí liên tục hoặc theo chu kỳ để phân tích nồng độ khói, từ đó xác định cháy xảy ra trong khu vực bảo vệ",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Đầu báo cháy tự động lấy mẫu qua các miệng hút trên hệ thống đường ống, đưa mẫu không khí từ khu vực bảo vệ đến thiết bị để phân tích phát hiện dấu hiệu cháy. Mỗi miệng hút lấy mẫu tương đương một đầu báo cháy khói kiểu điểm.",
+   "dieu": "3.11",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Phân loại theo TCVN 7336:2021 và theo mạng lưới đường ống (1 đường ống, 4 đường ống)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Độ nhạy của hệ thống phụ thuộc số lỗ (miệng) lấy mẫu và ngưỡng báo cháy của thiết bị; thời gian di chuyển của khói từ lỗ lấy mẫu tới buồng cảm biến ảnh hưởng khả năng báo cháy sớm",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Phân loại theo độ nhạy: Loại A siêu nhạy (độ che mờ do khói dưới 0,8 %/m); Loại B độ nhạy cao (0,8 đến dưới 2,0 %/m); Loại C độ nhạy tiêu chuẩn (2,0 đến 4,5 %/m).",
+   "dieu": "5.9.1.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khu vực có dòng không khí lưu chuyển vận tốc lớn: phòng máy tính, phòng thông tin, phòng sạch",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Môi trường khắc nghiệt: nhà máy tái chế, khu ô nhiễm, nhiệt độ cao hoặc dưới 0 °C, kho lạnh",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Khu vực quy mô lớn, trần cao: trung tâm thương mại, sảnh thông tầng, nhà kho, nhà lưu trú, sửa chữa máy bay, sân bay",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Khu vực yêu cầu cao về thẩm mỹ hoặc có nguy cơ phá hoại",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Cho phép bảo vệ phòng cao đến 40 m, lỗ lấy mẫu bố trí hai lớp: lớp 1 không thấp hơn loại B ở độ cao không quá 30 m (dưới các tầng giá đỡ); lớp 2 loại A ở độ cao không quá 40 m (dưới trần).",
+   "dieu": "5.9.1.2.2, Bảng 2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Lắp đặt được đến chiều cao 30 m",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Diện tích bảo vệ của một đầu báo hút không lớn hơn một vùng phát hiện cháy.",
+   "dieu": "5.9.1.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Thời gian lấy mẫu từ lỗ xa nhất đến đầu báo không quá 60 s (loại A), 90 s (loại B), 120 s (loại C).",
+   "dieu": "5.9.1.2.1 b",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Chiều cao tối đa khu vực bảo vệ: A 30 m, B 18 m, C 12 m; bán kính bảo vệ mỗi lỗ hút 6,5 m.",
+   "dieu": "Bảng 2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Vị trí lỗ lấy mẫu theo yêu cầu khoảng cách của đầu báo kiểu điểm.",
+   "dieu": "5.9.1.2.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem loại (A/B/C) ghi trên bản vẽ/thuyết minh, so chiều cao phòng với Bảng 2, bán kính 6,5 m/lỗ; suy từ Bảng 2.",
+   "dieu": "Bảng 2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Mỗi lỗ hút chỉ tương đương một đầu báo điểm, không phải cả thiết bị.",
+   "dieu": "3.11",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ]
+}

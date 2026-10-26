@@ -1,0 +1,49 @@
+{
+ "slug": "loi-len-mai",
+ "ten": "Lối lên mái",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Lối vào từ trên cao",
+  "Chiều cao PCCC"
+ ],
+ "ngay": "2026-10-26T04:32:03.287Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà có chiều cao từ cốt mặt đất thiết kế đến thành gờ hoặc mặt trên của tường chắn mái ≥ 10 m.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà có chiều cao (từ cốt mặt đất thiết kế đến thành gờ/mặt trên tường chắn mái) ≥ 10 m: cứ 40 000 m² diện tích mặt bằng mái phải có 1 lối lên mái; chưa đủ 40 000 m² vẫn bố trí ít nhất 1 lối.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Nhà 1 tầng: lối lên mái theo thang thép hở bên ngoài; nhà nhiều tầng: bố trí từ buồng thang bộ.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Nhà có chiều cao từ cốt mặt đất thiết kế đến sàn trên cùng không quá 30 m và tầng trên cùng không đủ chiều cao bố trí buồng thang bộ thoát ra mái: cho phép thang leo hở bằng thép để thoát nạn từ buồng thang bộ qua mái.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ mặt bằng mái và mặt cắt: số lối lên mái, loại thang (thang thép hở ngoài nhà hay buồng thang bộ).",
+   "dieu": "suy từ yêu cầu của nguồn",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,34 @@
+{
+ "slug": "ho-so-thiet-ke-he-thong-chua-chay-bang-khi",
+ "ten": "Hồ sơ thiết kế hệ thống chữa cháy bằng khí",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "doc-ho-so"
+ ],
+ "lien_quan": [
+  "Nồng độ thiết kế",
+  "Bố trí bình chứa khí chữa cháy",
+  "Lượng khí chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hồ sơ phải gồm: bản vẽ tỷ lệ (bình chứa, vị trí bình, đường ống, đầu phun, van, cơ cấu giảm áp nếu có, khoảng cách giá treo ống); tên chủ sở hữu và người sử dụng; vị trí tòa nhà và khu vực bảo vệ; vị trí, cấu trúc thành và vách ngăn của cấu kiện bao che; mặt cắt ngang cấu kiện bao che, chiều cao hoặc sơ đồ bố trí gồm sàn nâng và trần treo; loại khí chữa cháy; nồng độ dập tắt/làm trơ, nồng độ thiết kế, nồng độ lớn nhất; mô tả vùng có nguy cơ cháy lan; đặc tính bình chứa (dung tích, áp suất bảo quản, khối lượng kể cả khí); mô tả đầu phun (kích thước, miệng lỗ, cỡ/mã lỗ, lỗ cơ cấu giảm áp); mô tả đường ống, van, phụ tùng (vật liệu, cấp, áp suất); danh mục thiết bị (tên, nhà sản xuất, model, số lượng); sơ đồ không gian hệ thống phân phối (chiều dài, đường kính từng đoạn ống, số nút tính lưu lượng); tính toán nén tăng áp của cấu kiện bao che và thông gió; mô tả hệ thống phát hiện, khởi động và điều khiển",
+   "dieu": "Hồ sơ thiết kế, mục a)–o) (TCVN 7161-1)",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu từng mục a)–o) với bộ bản vẽ và thuyết minh; mục nào thiếu thì ghi CẦN XÁC NHẬN, đặc biệt nồng độ thiết kế, tính nén tăng áp/thông gió, sơ đồ không gian đường ống",
+   "dieu": "suy từ mục a)–o) hồ sơ thiết kế",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": []
+}

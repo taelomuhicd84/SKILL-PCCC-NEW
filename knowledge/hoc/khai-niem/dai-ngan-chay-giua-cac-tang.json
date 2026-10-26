@@ -1,0 +1,104 @@
+{
+ "slug": "dai-ngan-chay-giua-cac-tang",
+ "ten": "Đai ngăn cháy giữa các tầng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m02-bac-chiu-lua"
+ ],
+ "lien_quan": [
+  "Dải ngăn cháy theo phương đứng",
+  "Chiều cao PCCC",
+  "Chữa cháy tự động",
+  "Số tầng nhà"
+ ],
+ "ngay": "2026-10-26T04:44:36.571Z",
+ "dinh_nghia": [
+  {
+   "y": "Vị trí tường ngoài tiếp giáp với sàn giữa các tầng, được cấu tạo phù hợp để ngăn chặn lan truyền đám cháy theo phương đứng",
+   "dieu": "4.33.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Vị trí tường ngoài tiếp giáp với sàn giữa các tầng, được cấu tạo để ngăn chặn lan truyền đám cháy theo phương đứng khi tường ngoài có lỗ mở không có cửa ngăn cháy hoặc có phần có giới hạn chịu lửa không đáp ứng quy định.",
+   "dieu": "4.33",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Phải có khi tường ngoài có lỗ mở không có cửa ngăn cháy hoặc có các phần có giới hạn chịu lửa không đáp ứng quy định",
+   "dieu": "4.33.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Áp dụng cho tường ngoài có lỗ mở không có cửa ngăn cháy hoặc có phần có giới hạn chịu lửa không đáp ứng quy định.",
+   "dieu": "4.33",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép không áp dụng 4.33 đối với nhà từ ba tầng trở xuống hoặc có chiều cao PCCC dưới 15 m, ga ra để xe nổi dạng hở, hoặc nhà được trang bị chữa cháy tự động",
+   "dieu": "4.33.4",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Không áp dụng đối với cửa ra vào của lô gia và ban công có phần bản sàn ban công đua ra lớn hơn 0,6 m, cũng như các lối ra thoát nạn",
+   "dieu": "4.33.1 chú thích 2",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Cho phép không áp dụng 4.33.1 đến 4.33.3 đối với nhà từ ba tầng trở xuống hoặc chiều cao PCCC dưới 15 m, ga ra để xe nổi dạng hở, hoặc nhà thỏa mãn đồng thời các điều kiện nêu tại Chú thích 6 Bảng 4 hoặc Chú thích 2 của bảng liên quan.",
+   "dieu": "4.33",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Cho phép không áp dụng quy định 4.3.2.1 nếu nhà được trang bị chữa cháy tự động.",
+   "dieu": "4.3.2.2",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Một trong ba cấu tạo: (a) phần tường ngoài tiếp giáp sàn là tường đặc, vật liệu không cháy, cao tối thiểu 1,0 m; (b) ô văng cửa vật liệu không cháy, vươn ra không nhỏ hơn 0,6 m, giới hạn chịu lửa không nhỏ hơn giới hạn quy định cho tường ngoài; (c) tường tiếp giáp sàn bằng kính cường lực dày không nhỏ hơn 6 mm, có sprinkler cách nhau không quá 2 m từ phía gian phòng (hành lang) và cách mặt trong tường ngoài không quá 0,5 m",
+   "dieu": "4.33.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Giới hạn chịu lửa lấy theo Bảng 4 hoặc Bảng A.1 tùy quy mô nhà: thành phần ngăn cách phương đứng đảm bảo E; mối nối/chèn bịt khe hở đảm bảo E và I; chi tiết liên kết cố định đảm bảo R",
+   "dieu": "4.33.1 chú thích 1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Phần tường ngoài có lắp kính lấy sáng cũng phải đảm bảo như tường ngoài không chịu lực và quy định tại 4.32, 4.33",
+   "dieu": "4.33.2",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Khi hai phần tường ngoài tạo góc nhỏ hơn 135° và khoảng cách ngang giữa mép gần nhất các lỗ mở hai hướng tại đỉnh góc nhỏ hơn 4 m, các lỗ mở phải có cửa ngăn cháy giới hạn chịu lửa không nhỏ hơn E 30 hoặc có hệ thống phun nước như 4.33.1 c)",
+   "dieu": "4.33.3",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt đứng/mặt cắt tường ngoài: chiều cao đoạn tường đặc giữa ô cửa hai tầng (≥1,0 m), chiều rộng ô văng (≥0,6 m), kính 6 mm kèm sprinkler; đối chiếu chiều cao PCCC <15 m, số tầng ≤3 hoặc có chữa cháy tự động để xét miễn",
+   "dieu": "suy từ 4.33.1, 4.33.4",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Xem mặt đứng và chi tiết tường ngoài tại sàn giữa các tầng: đo chiều cao tường đặc, bề rộng ô văng, chiều dày kính, khoảng cách đầu phun. Suy từ 4.33.",
+   "dieu": "",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác dải ngăn cháy theo phương đứng (4.32, ngăn cháy lan phương ngang): đai ngăn cháy chặn cháy lan theo phương đứng giữa các tầng",
+   "dieu": "4.32, 4.33",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ]
+}

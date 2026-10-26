@@ -1,0 +1,37 @@
+{
+ "slug": "yeu-cau-ve-duong-ong-he-thong-chua-chay-bang-khi",
+ "ten": "Yêu cầu về đường ống hệ thống chữa cháy bằng khí",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hồ sơ thiết kế hệ thống chữa cháy bằng khí"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Không được sử dụng ống gang và ống phi kim loại trừ khi được chấp thuận đạt thử nghiệm áp suất làm việc; không được dùng phụ tùng đường ống bằng gang",
+   "dieu": "Yêu cầu về đường ống (TCVN 7161-1)",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Tất cả đoạn ống kín và đoạn ống trước van giảm áp phải thử thủy lực tối thiểu 1,5 lần áp suất làm việc tối đa (hoặc áp suất được điều tiết tối đa) trong 2 min không rò rỉ; sau thử phải làm sạch để loại bỏ hơi ẩm",
+   "dieu": "Yêu cầu về đường ống",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh/bản vẽ vật liệu ống, phụ tùng và biên bản/quy định thử thủy lực",
+   "dieu": "suy từ Yêu cầu về đường ống",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": []
+}

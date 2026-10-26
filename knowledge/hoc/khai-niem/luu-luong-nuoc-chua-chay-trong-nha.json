@@ -1,0 +1,39 @@
+{
+ "slug": "luu-luong-nuoc-chua-chay-trong-nha",
+ "ten": "Lưu lượng nước chữa cháy trong nhà",
+ "dong_nghia": [
+  "Qtn"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Lưu lượng nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T04:50:06.253Z",
+ "dinh_nghia": [
+  {
+   "y": "Qtn = N × Qh (l/s), với N là số họng nước tính toán và Qh là lưu lượng một họng nước.",
+   "dieu": "Bảng tính thủy lực bơm chữa cháy – mục A.I",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Tra QCVN 06:2022/BXD theo khối tích, hạng sản xuất và bậc chịu lửa. Hạng sản xuất tra Phụ lục C. Bậc chịu lửa tra Bảng H9 Phụ lục H. N và Qh tra Bảng 12. Ví dụ trong bảng tính: nhà xưởng sản xuất nhựa, khối tích 49.800 m³, hạng D, bậc III thì N = 2, Qh = 2,5 l/s, Qtn = 5,0 l/s.",
+   "dieu": "Bảng 12, Phụ lục C, Bảng H9 Phụ lục H QCVN 06:2022/BXD",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Qtn (chữa cháy trong nhà, tra Bảng 12) khác Qnn (chữa cháy ngoài nhà, tra Bảng 9 QCVN 06:2022/BXD).",
+   "dieu": "Bảng 9, Bảng 12 QCVN 06:2022/BXD",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ]
+}

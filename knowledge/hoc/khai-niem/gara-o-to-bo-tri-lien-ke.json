@@ -1,0 +1,73 @@
+{
+ "slug": "gara-o-to-bo-tri-lien-ke",
+ "ten": "Gara ô-tô bố trí liền kề",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m03-khoang-cach",
+  "m05-cong-nang",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Gara ô-tô bố trí bên trong",
+  "Gara ô-tô cơ khí"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [
+  {
+   "y": "Gara ô-tô có tường bao che là tường chung hoặc tiếp giáp với tường bao che của tòa nhà có chức năng khác.",
+   "dieu": "1.2.7",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Cho phép bố trí liền kề với nhà chức năng khác.",
+   "dieu": "2.1.5",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không liền kề với nhà nhóm F1.1, F4.1 và nhà sản xuất nhóm F5 hạng A và B.",
+   "dieu": "2.1.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Không lưu giữ ô-tô chạy khí nén tự nhiên và khí hóa lỏng trong gara dạng kín liền kề nhà chức năng khác.",
+   "dieu": "2.1.7",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Ngăn cách với nhà chức năng khác bằng tường ngăn cháy loại 1.",
+   "dieu": "2.2.1.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Phía trên lỗ cửa phải có mái đua vật liệu không cháy (trừ nhà F1.4), phần đưa ra không ít hơn 1 m; khoảng cách từ mép mái đua tới mép dưới lỗ cửa sổ phía trên không nhỏ hơn 4 m, hoặc cửa sổ làm bằng vật liệu không cháy.",
+   "dieu": "2.2.1.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara cơ khí chỉ liền kề tại vị trí tường đặc có giới hạn chịu lửa không nhỏ hơn REI 150.",
+   "dieu": "2.2.5.2",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng, mặt đứng: loại tường chung, nhóm nhà F lân cận, mái đua ≥ 1 m và khoảng cách 4 m tới cửa sổ phía trên. Suy từ 2.1.5, 2.2.1.5.",
+   "dieu": "2.1.5; 2.2.1.5",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác gara bố trí bên trong (nằm hoàn toàn trong tòa nhà chức năng khác).",
+   "dieu": "1.2.6; 1.2.7",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

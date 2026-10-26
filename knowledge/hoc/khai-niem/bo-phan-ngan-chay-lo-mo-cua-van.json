@@ -1,0 +1,121 @@
+{
+ "slug": "bo-phan-ngan-chay-lo-mo-cua-van",
+ "ten": "Bộ phận ngăn cháy (lỗ mở, cửa, van)",
+ "dong_nghia": [
+  "tường ngăn cháy",
+  "vách ngăn cháy",
+  "sàn ngăn cháy"
+ ],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m02-bac-chiu-lua"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Giới hạn chịu lửa",
+  "Khoang đệm ngăn cháy"
+ ],
+ "ngay": "2026-10-26T04:04:05.152Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Tường ngăn cháy phân chia nhà thành các khoang cháy phải xây trên toàn bộ chiều cao nhà hoặc tới sàn ngăn cháy loại 1, đảm bảo không để cháy lan sang khoang cháy liền kề khi kết cấu phía có cháy sụp đổ",
+   "dieu": "4.17",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Gian thi đấu thể thao, sân trượt băng, bể bơi, khu bắn súng trong nhà có diện tích lớn hơn giá trị Bảng H.2 phải bố trí tường ngăn cháy giữa gian này và các phòng khác",
+   "dieu": "H.2.7.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Rạp chiếu phim hoạt động quanh năm kết hợp rạp mùa vụ có bậc chịu lửa khác nhau: ngăn cách bằng tường ngăn cháy loại 2",
+   "dieu": "Bảng H.7 chú thích 3",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Cơ sở thương mại 1 tầng bậc III (trừ kinh doanh sơn, vécni, vật liệu xây dựng hoàn thiện, phụ tùng ô tô, thảm, đồ nội thất): tăng gấp đôi diện tích khoang cháy nếu ngăn gian bán hàng với phòng khác bằng tường ngăn cháy loại 2",
+   "dieu": "Bảng H.4 chú thích 2",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không cho phép bố trí kênh, giếng, đường ống vận chuyển khí cháy, hỗn hợp bụi–khí cháy, chất lỏng cháy, chất và vật liệu cháy xuyên qua tường và sàn ngăn cháy loại 1",
+   "dieu": "4.22",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Không giới hạn diện tích lỗ mở nếu giới hạn chịu lửa danh định của bộ phận chèn bịt lỗ mở không nhỏ hơn giới hạn chịu lửa tương ứng của bộ phận ngăn cháy (trừ tường ngăn cháy loại 1)",
+   "dieu": "4.19",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Tổng diện tích các lỗ cửa trong bộ phận ngăn cháy, trừ kết cấu bao che giếng thang máy, không vượt quá 25% diện tích bộ phận ngăn cháy đó",
+   "dieu": "4.19",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Lỗ mở phải được đóng kín khi có cháy; cửa sổ trong bộ phận ngăn cháy là cửa sổ không mở được; cửa đi, cửa nắp, van có cơ cấu tự đóng, khe cửa chèn kín; nếu cần mở để sử dụng thì lắp thiết bị tự động đóng kín khi có cháy",
+   "dieu": "4.18",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Cửa và van ngăn cháy làm từ vật liệu không cháy; cho phép vật liệu nhóm tính cháy không thấp hơn Ch3 được bảo vệ bằng vật liệu không cháy dày không nhỏ hơn 4 mm",
+   "dieu": "4.21",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Cửa khoang đệm, cửa đi, cửa nắp ở phía phòng không bảo quản/sử dụng chất khí cháy, chất lỏng cháy, vật liệu cháy và không có quá trình tạo bụi cháy được làm từ vật liệu Ch3 dày không nhỏ hơn 40 mm, không có hốc rỗng",
+   "dieu": "4.21",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Đường ống kỹ thuật khác (không cháy) đi qua bộ phận ngăn cháy phải có thiết bị tự động ngăn sản phẩm cháy lan theo kênh, giếng, ống dẫn; chỗ xuyên ống, cáp qua tường, sàn, vách phải chèn bịt để không giảm chỉ tiêu cháy của kết cấu",
+   "dieu": "4.22, 4.12",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Ống thông gió và ống khói trong tường ngăn cháy của nhà ở, công trình công cộng, nhà phụ trợ: chiều dày tối thiểu tường (trừ tiết diện ống) không dưới 25 cm; phần ngăn giữa ống khói và ống thông hơi tối thiểu 12 cm",
+   "dieu": "4.22 chú thích 1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Tại giao nhau giữa bộ phận ngăn cháy với kết cấu bao che, kể cả chỗ thay đổi hình dạng nhà, phải có giải pháp không để cháy lan qua",
+   "dieu": "4.16",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Vách ngăn cháy trong phòng có trần treo phải ngăn chia cả không gian trên trần treo; không bố trí kênh, ống dẫn chất cháy dạng khí, hỗn hợp bụi–khí, chất lỏng và vật liệu cháy trong không gian này; không bố trí trần treo trong phòng hạng A hoặc B",
+   "dieu": "4.15",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Sàn tầng dưới khán đài là sàn ngăn cháy loại 2 (khán đài có không gian dưới từ hai tầng, hoặc công trình thể thao kín trên 600 người); loại 3 khi một tầng dưới khán đài/hơn 20 hàng ghế hoặc 300–600 người; loại 4 dưới 300 người",
+   "dieu": "H.2.7.3, H.2.7.4, H.2.7.5",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Phòng nội trú bệnh viện chia phân khoang cháy bằng vách ngăn cháy loại 1; nhà ở trẻ em trong cơ sở điều dưỡng ngăn bằng vách ngăn cháy loại 1",
+   "dieu": "H.2.9.3, H.2.11.5",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Tính tổng diện tích lỗ cửa/diện tích bộ phận ngăn cháy (≤25%); xem chi tiết cửa tự đóng, cửa sổ không mở, chèn bịt xuyên ống/cáp, vách có kéo qua trần treo",
+   "dieu": "suy từ 4.12, 4.15, 4.18, 4.19",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Chỉ tường ngăn cháy loại 1 làm ranh giới khoang cháy (H.6.2); loại 2, 3, 4 dùng cho các trường hợp riêng nêu trong từng mục",
+   "dieu": "H.6.2",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  }
+ ]
+}

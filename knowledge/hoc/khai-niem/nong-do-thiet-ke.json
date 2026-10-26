@@ -1,0 +1,98 @@
+{
+ "slug": "nong-do-thiet-ke",
+ "ten": "Nồng độ thiết kế",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "doc-ho-so",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Nồng độ dập tắt",
+  "Nồng độ làm trơ",
+  "Hệ thống chữa cháy bằng Sol-khí",
+  "Phân loại đám cháy",
+  "Lượng khí chữa cháy",
+  "Thời gian phun khí chữa cháy",
+  "LOAEL"
+ ],
+ "ngay": "2026-10-26T07:02:28.896Z",
+ "dinh_nghia": [
+  {
+   "y": "Nồng độ thiết kế được lấy từ nồng độ dập tắt nhân với hệ số an toàn 1,3 (hệ thống chữa cháy bằng Sol-khí).",
+   "dieu": "Hệ thống chữa cháy bằng Sol-khí, mục Xác định nồng độ thiết kế",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  },
+  {
+   "y": "C là nồng độ thiết kế, tính bằng phần trăm theo thể tích (hệ thống chữa cháy bằng khí).",
+   "dieu": "Hệ thống chữa cháy bằng khí, mục Lượng khí chữa cháy",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Nồng độ dập tắt được nêu trong chứng nhận bảo đảm chất lượng của tổ chức UL kèm theo hướng dẫn của nhà sản xuất; nồng độ thiết kế = nồng độ dập tắt × 1,3.",
+   "dieu": "Hệ thống chữa cháy bằng Sol-khí, mục Xác định nồng độ thiết kế",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Mỗi loại Sol-khí khác nhau và phân loại đám cháy khác nhau (loại A, B, C) có nồng độ chữa cháy, nồng độ thiết kế khác nhau.",
+   "dieu": "Hệ thống chữa cháy bằng Sol-khí, mục Xác định nồng độ thiết kế",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  },
+  {
+   "y": "Dùng để tính khối lượng chất tạo Sol-khí: m = da × fa × V (da là nồng độ thiết kế, g/m3; fa là yếu tố thiết kế bổ sung, xem 7.4.2; V là thể tích khu vực được bảo vệ, m3).",
+   "dieu": "Điều 7.4.1",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  },
+  {
+   "y": "Dùng để tính lượng khí chữa cháy: khí hóa lỏng Q = V/v × C/(100 − C); khí không hóa lỏng Q = V/v × ln(100/(100 − C)).",
+   "dieu": "Hệ thống chữa cháy bằng khí, mục Lượng khí chữa cháy",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  },
+  {
+   "y": "Thời gian phun: khí hóa lỏng đạt 95% nồng độ thiết kế không quá 10 s ở 20°C hoặc theo yêu cầu khác của cơ quan có thẩm quyền; khí trơ đạt 95% nồng độ thiết kế ở 20°C không quá 60 s với đám cháy loại B, không quá 120 s với đám cháy loại A.",
+   "dieu": "Hệ thống chữa cháy bằng khí, mục Thời gian phun khí chữa cháy",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Hồ sơ thiết kế Sol-khí phải thể hiện loại Sol-khí sử dụng và nồng độ chất chữa cháy theo thiết kế.",
+   "dieu": "Hệ thống chữa cháy bằng Sol-khí, hồ sơ thiết kế mục d, e",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  },
+  {
+   "y": "Với khu vực thường có người được chữa cháy theo thể tích, phải thể hiện nồng độ thiết kế lớn nhất cho phép theo hướng dẫn của nhà sản xuất.",
+   "dieu": "Hệ thống chữa cháy bằng Sol-khí, hồ sơ thiết kế mục f",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  },
+  {
+   "y": "Hồ sơ thiết kế hệ thống khí chữa cháy phải nêu nồng độ dập tắt hoặc nồng độ làm trơ, nồng độ thiết kế và nồng độ lớn nhất.",
+   "dieu": "Hệ thống chữa cháy bằng khí, hồ sơ thiết kế mục g",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh/bản vẽ hệ thống: có ghi loại chất chữa cháy, nồng độ dập tắt (kèm chứng nhận UL/hướng dẫn nhà sản xuất), nồng độ thiết kế, nồng độ lớn nhất; kiểm nồng độ thiết kế = nồng độ dập tắt × 1,3 (Sol-khí); kiểm khối lượng/lượng chất chữa cháy tính theo công thức; khu vực có người thì kiểm nồng độ không vượt mức lớn nhất cho phép.",
+   "dieu": "suy từ mục Xác định nồng độ thiết kế, Điều 7.4.1 và hồ sơ thiết kế",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nồng độ thiết kế khác nồng độ dập tắt (hoặc nồng độ làm trơ) và khác nồng độ lớn nhất cho phép; nồng độ thiết kế = nồng độ dập tắt × 1,3 với Sol-khí.",
+   "dieu": "Hệ thống chữa cháy bằng Sol-khí, mục Xác định nồng độ thiết kế; Hệ thống chữa cháy bằng khí, hồ sơ thiết kế mục g",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  },
+  {
+   "y": "Mức ảnh hưởng có hại thấp nhất quan sát được (LOAEL) là nồng độ thấp nhất đã quan sát được sự nhiễm độc hoặc tác động sinh lý, không phải nồng độ thiết kế.",
+   "dieu": "Hệ thống chữa cháy bằng khí, mục thuật ngữ LOAEL",
+   "nguon": "kb:tk-nồng-độ-thiết-kế"
+  }
+ ]
+}

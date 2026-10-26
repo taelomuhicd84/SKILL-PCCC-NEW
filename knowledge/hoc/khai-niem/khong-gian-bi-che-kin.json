@@ -1,0 +1,64 @@
+{
+ "slug": "khong-gian-bi-che-kin",
+ "ten": "Không gian bị che kín",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Vùng phát hiện cháy",
+  "Điện áp cực thấp"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Các đầu báo cháy phải được lắp đặt ở các khu vực bị che kín; chứa hệ thống điện chiếu sáng hoặc thiết bị điện nối nguồn vượt điện áp cực thấp thì lắp đầu báo trên trần không gian đó.",
+   "dieu": "5.8.2.4.1, 5.8.2.4.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Thiết bị chiếu sáng công suất danh định không vượt quá 100 W, thiết bị cấp năng lượng tháo rời dưới 100 W hoặc thiết bị khác dưới 500 W không phải trang bị hệ thống báo cháy (thiết bị điện không đặt trong khu vực kín).",
+   "dieu": "5.8.2.4.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Không yêu cầu đèn chỉ thị từ xa khi vị trí đầu báo hiển thị tại tủ trung tâm, hoặc không gian che kín tiếp cận được, cao hơn 2 m và người đi lại được, hoặc ở dưới sàn tháo ra được.",
+   "dieu": "5.8.2.4.3 e",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Lối vào để bảo dưỡng không nhỏ hơn 0,450 m x 0,350 m.",
+   "dieu": "5.8.2.4.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khoảng cách ngang từ thiết bị điện đến đầu báo không quá 1,5 m.",
+   "dieu": "5.8.2.4.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Trần phẳng cao trên 2 m tính tới mặt trên trần: bố trí theo 5.9.1.1.2 và 5.9.1.1.4; cao dưới 2 m có cấu kiện sâu ≤ 0,3 m: khoảng cách giữa đầu báo khói ≤ 15 m, đến tường ≤ 10,2 m.",
+   "dieu": "5.9.1.1.7",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Đầu báo nhiệt trong không gian che kín cao dưới 2 m, cấu kiện nhô ≤ 0,3 m: khoảng cách ≤ 10,4 m, đến tường ≤ 5,1 m.",
+   "dieu": "5.9.2.1.6",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt cắt trần: chiều cao không gian trên trần, có thiết bị điện hay không, công suất thiết bị; suy từ 5.8.2.4.",
+   "dieu": "5.8.2.4",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": []
+}

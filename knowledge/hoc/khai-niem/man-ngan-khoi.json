@@ -1,0 +1,104 @@
+{
+ "slug": "man-ngan-khoi",
+ "ten": "Màn ngăn khói",
+ "dong_nghia": [
+  "Rèm ngăn khói",
+  "rèm ngăn khói",
+  "màn chắn khói"
+ ],
+ "anh_huong": [
+  "m09-chong-khoi",
+  "m06-ngan-chay",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Sảnh thông tầng",
+  "Ngăn chặn cháy lan đối với sảnh thông tầng",
+  "Vùng khói",
+  "Khoang hành lang",
+  "Thoát khói tự nhiên"
+ ],
+ "ngay": "2026-10-26T04:53:10.947Z",
+ "dinh_nghia": [
+  {
+   "y": "Màn cuốn được điều khiển tự động từ xa, hoặc bộ phận kết cấu cố định làm từ vật liệu không cho khói xuyên qua, tính cháy không nguy hiểm hơn Ch1 trên nền không cháy (dạng lưới, vải và các dạng khác), gắn vào trần gian phòng được bảo vệ hoặc gắn vào lỗ mở trên tường và hạ xuống một đoạn không nhỏ hơn chiều dày lớp khói tạo thành; có tác dụng ngăn khói lan và phân chia gian phòng thành các vùng khói.",
+   "dieu": "Chú thích, Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Dùng ở các lỗ mở dẫn vào sảnh thông tầng, kể cả lỗ mở của thang cuốn và của các gian phòng ở hành lang bên: trang bị rèm, màn ngăn khói hạ xuống khi có cháy, hoặc màn ngăn khói cố định.",
+   "dieu": "Ngăn chặn cháy lan đối với sảnh thông tầng",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Dùng để phân chia gian phòng lớn thành các vùng khói.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Dùng thay vách ngăn cháy loại 2 để chia hành lang dài hơn 60 m thành các đoạn.",
+   "dieu": "3.3",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Dùng thay vách ngăn cháy loại 1 + cửa ngăn cháy loại 2 tự đóng khi chia khoang hành lang (vật liệu không cháy).",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Giới hạn chịu lửa không nhỏ hơn E 45.",
+   "dieu": "Ngăn chặn cháy lan đối với sảnh thông tầng",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Loại hạ xuống khi có cháy phải có cơ cấu dẫn động điều khiển tự động và từ xa.",
+   "dieu": "Ngăn chặn cháy lan đối với sảnh thông tầng",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Chiều cao làm việc khi hạ xuống không được nhỏ hơn chiều dày lớp khói tạo ra khi có cháy (xác định bằng tính toán); biên dưới lớp khói ở độ cao không nhỏ hơn 2,5 m từ mặt sàn.",
+   "dieu": "Ngăn chặn cháy lan đối với sảnh thông tầng",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Mép dưới màn/vách ngăn khói cách sàn hành lang tối đa 2,5 m.",
+   "dieu": "3.3",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Rèm, màn ngăn khói ở lỗ mở dẫn vào sảnh thông tầng có giới hạn chịu lửa không nhỏ hơn E 45, hạ xuống khi có cháy, có cơ cấu dẫn động điều khiển tự động và từ xa; hoặc dùng màn ngăn khói cố định.",
+   "dieu": "4.35 c)",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Chiều cao làm việc của rèm, màn ngăn khói khi hạ xuống không nhỏ hơn chiều dày lớp khói tạo ra khi có cháy; chiều dày lớp khói xác định bằng tính toán khi thiết kế; biên dưới lớp khói ở chiều cao không nhỏ hơn 2,5 m tính từ mặt sàn.",
+   "dieu": "4.35 c)",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ và thuyết minh: giới hạn chịu lửa E 45, điều khiển tự động và từ xa, chiều cao làm việc so với chiều dày lớp khói tính toán. Suy từ yêu cầu của nguồn.",
+   "dieu": "Ngăn chặn cháy lan đối với sảnh thông tầng",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Xem mặt cắt/chi tiết màn: cao độ mép dưới so với sàn (≤ 2,5 m với hành lang), chiều cao hạ so với chiều dày lớp khói tính toán, giới hạn chịu lửa E 45 và cơ cấu điều khiển tự động/từ xa. Suy từ 4.35 c) và 3.3.",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác vách ngăn cháy: màn ngăn khói chỉ ngăn khói, vật liệu có thể là lưới, vải, tính cháy không nguy hiểm hơn Ch1 trên nền không cháy. Nguồn nêu 'vách ngăn khói, màn ngăn khói' như phương án thay thế vách ngăn cháy khi chia hành lang.",
+   "dieu": "Chú thích, Phụ lục D; 3.3",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ]
+}

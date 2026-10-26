@@ -1,0 +1,79 @@
+{
+ "slug": "chieu-cao-nha",
+ "ten": "Chiều cao nhà",
+ "dong_nghia": [
+  "Chiều cao lớn nhất cho phép của nhà (Bảng H.9, H.10, H.11)"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Chiều cao PCCC",
+  "Số tầng nhà",
+  "Khoang cháy",
+  "Bậc chịu lửa",
+  "Cấp nguy hiểm cháy kết cấu"
+ ],
+ "ngay": "2026-10-26T04:44:36.571Z",
+ "dinh_nghia": [
+  {
+   "y": "Chiều cao nhà trong các bảng Phụ lục H (nhà sản xuất, nhà kho, nhà chăn nuôi) được tính từ sàn tầng 1 đến trần tầng trên cùng, bao gồm cả tầng kỹ thuật.",
+   "dieu": "Phụ lục H, chú thích 1) của Bảng H.9, H.10, H.11",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Khi trần nhà có cao độ thay đổi thì lấy giá trị cao độ trung bình.",
+   "dieu": "Phụ lục H, chú thích 1) của Bảng H.9, H.10, H.11",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Khi xác định số tầng nhà thì chỉ tính các tầng trên mặt đất.",
+   "dieu": "Phụ lục H, chú thích 1) của Bảng H.9, H.10, H.11",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Nhà một tầng bậc chịu lửa IV, cấp S0, S1 thì chiều cao không lớn hơn 25 m; cấp S2, S3 không lớn hơn 18 m, tính từ mặt sàn đến mép dưới của kết cấu chịu lực mái tại vị trí gối đỡ.",
+   "dieu": "Phụ lục H, chú thích 1) của bảng nhà kho",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dùng để tra chiều cao lớn nhất cho phép của nhà theo hạng nguy hiểm cháy nổ, bậc chịu lửa, cấp nguy hiểm cháy kết cấu và diện tích một tầng trong một khoang cháy.",
+   "dieu": "Phụ lục H",
+   "nguon": "kb:tk-chiều-cao-nhà",
+   "can_xem": true
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không quy định chiều cao nhà một tầng có cấp nguy hiểm cháy S0 và S1 (Bảng H.10 và bảng nhà sản xuất hạng D, E).",
+   "dieu": "Phụ lục H, chú thích 1)",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Với nhà kho: không quy định chiều cao nhà một tầng có bậc chịu lửa I, II, III và cấp nguy hiểm cháy S0.",
+   "dieu": "Phụ lục H, chú thích 1) của bảng nhà kho",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đo từ sàn tầng 1 đến trần tầng trên cùng (có tầng kỹ thuật) trên mặt cắt; trần thay đổi cao độ thì lấy trung bình; đối chiếu bảng H tương ứng với hạng, bậc chịu lửa, cấp S. Suy từ chú thích 1) Phụ lục H.",
+   "dieu": "",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Chiều cao nhà trong Phụ lục H (từ sàn tầng 1 đến trần tầng trên cùng) khác chiều cao PCCC (tính từ mặt đường cho xe chữa cháy tiếp cận). Suy từ cách tính hai khái niệm trong nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ]
+}

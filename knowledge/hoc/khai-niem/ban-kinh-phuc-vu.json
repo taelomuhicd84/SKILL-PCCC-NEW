@@ -1,0 +1,66 @@
+{
+ "slug": "ban-kinh-phuc-vu",
+ "ten": "Bán kính phục vụ",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Trụ nước chữa cháy",
+  "Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T04:26:33.933Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tính theo đường di chuyển của vòi chữa cháy đi bên ngoài nhà, theo phương ngang, tới mọi điểm của nhà",
+   "dieu": "Trụ nước chữa cháy – Bán kính phục vụ",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Trụ cấp nước chữa cháy bố trí trên mạng đường ống: tối thiểu 02 trụ khi lưu lượng yêu cầu từ 15 L/s trở lên; tối thiểu 01 trụ khi lưu lượng yêu cầu thấp hơn 15 L/s, phục vụ đến mọi điểm của nhà",
+   "dieu": "Trụ nước chữa cháy – Bán kính phục vụ",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Bồn, bể, trụ nước, hồ nước chữa cháy tự nhiên và nhân tạo phải đặt ở vị trí bảo đảm bán kính phục vụ",
+   "dieu": "Bồn, bể, ao hồ dự trữ nước",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bán kính phục vụ của mỗi trụ nước: văn bản ghi 'không lớn 200 m hơn 400 m' (nguồn lẫn chữ, cần đối chiếu bản gốc, CẦN XÁC NHẬN)",
+   "dieu": "Trụ nước chữa cháy – Bán kính phục vụ",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Bồn, bể, hồ: 400 m khi có máy bơm của xe chữa cháy; đến 300 m khi có máy bơm di động trong phạm vi hoạt động kỹ thuật của máy bơm",
+   "dieu": "Bồn, bể, ao hồ dự trữ nước",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Để tăng bán kính phục vụ, cho phép lắp đường ống cụt dài không quá 200 m từ bồn, bể, hồ nhân tạo đến bể trung gian (hố thu nước)",
+   "dieu": "Bồn, bể, ao hồ dự trữ nước; 5.1.5.8",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem tổng mặt bằng: đo từ trụ/bồn/bể/hồ tới điểm xa nhất của nhà theo đường vòi đi, so với trị số trên",
+   "dieu": "suy từ mục Trụ nước chữa cháy và Bồn, bể, ao hồ",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bán kính phục vụ tính theo đường di chuyển của vòi, không phải khoảng cách đường thẳng; trị số khác nhau giữa trụ nước, xe chữa cháy và máy bơm di động",
+   "dieu": "",
+   "nguon": "d1cdbad641a2"
+  }
+ ]
+}

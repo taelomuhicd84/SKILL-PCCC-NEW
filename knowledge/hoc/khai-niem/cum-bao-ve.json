@@ -1,0 +1,38 @@
+{
+ "slug": "cum-bao-ve",
+ "ten": "Cụm bảo vệ",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "ra-soat"
+ ],
+ "lien_quan": [
+  "Công tắc dòng chảy"
+ ],
+ "ngay": "2026-10-26T04:46:52.672Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Quy định số đầu phun tối đa cho hệ thống Sprinkler.",
+   "dieu": "TCVN 7336:2021, 5.2.3",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Một cụm bảo vệ của hệ thống không được sử dụng quá 800 đầu phun. Khi dùng công tắc dòng chảy cho từng vùng của khu vực bảo vệ, hoặc đầu phun có giám sát trạng thái, số đầu phun trên một cụm bảo vệ có thể tăng lên 1200 đầu phun.",
+   "dieu": "TCVN 7336:2021, 5.2.3",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đếm số đầu phun mỗi cụm trên bản vẽ/sơ đồ nguyên lý; nếu vượt 800 thì kiểm có công tắc dòng chảy cho từng vùng hoặc đầu phun giám sát trạng thái, và không vượt 1200. Suy từ 5.2.3.",
+   "dieu": "suy từ 5.2.3",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "hay_nham": []
+}

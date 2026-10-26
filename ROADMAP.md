@@ -26,6 +26,10 @@ Quy trình một lần thẩm định (đã chạy được):
 ## Giai đoạn 3 – Tri thức ✅ phần lớn
 - ✅ Nạp NĐ 105/2025, NĐ 347/2026, QCVN 10:2025, QCVN 06 (Điều 4–7, PL H), TCVN 7568-14:2025.
 - ✅ Agent tự học + kiểm soát viên tự duyệt; `knowledge/hoc` 35 ghi chú; học xong scan 2024–2026.
+- ✅ Sổ tài liệu học tập nằm trong thư mục (`_PCCC_so_hoc.json`, băm nội dung + đường dẫn tương đối): copy sang máy mới chỉ học file mới; checklist `_CHECKLIST_TAI_LIEU.md` (+ bản gộp `knowledge/hoc/_checklist_tai_lieu.md`, bảng trên tab Tự học); trùng tên/số hiệu thì loại; văn bản thay thế/sửa đổi thì thay tại dòng cũ kèm ghi chú, ghi chú cũ đánh dấu hết hiệu lực/cảnh báo. Đã chuyển 50 file cũ sang sổ không tốn token. **Chưa chạy thử với file mới thật (cần gọi Claude): chỉ có test đơn vị cho trùng/thay thế.**
+- ✅ Kho khái niệm tự học (`runner/src/khai_niem.ts`, `knowledge/hoc/khai-niem/`): mỗi khái niệm có định nghĩa, cách xác định, khi nào áp dụng/không, yêu cầu, cách kiểm, dễ nhầm, liên quan; gộp giữa các văn bản, theo nguồn/hiệu lực; file riêng từng agent; danh sách khái niệm còn thiếu dẫn lần học sau; tab Tự học có nút rút. Đã chạy thật 1 dòng (NĐ 105 → 14 thẻ). **Còn 49 dòng checklist ghi "chưa rút"; chưa chạy thật luồng tự rút khi gặp file mới sau khi thêm bước này, chưa đo agent thẩm định dùng file khái niệm.**
+- ✅ Hợp nhất văn bản (`runner/src/hop_nhat.ts`, `knowledge/hoc/hop-nhat/`, skill `tra-<slug>` tự sinh): Word gạch ngang → chỉ lấy phần mới (đã áp cho QCVN 06 + SĐ1:2023, và cho mọi đọc Word); văn bản thay thế hẳn → thành bản hiện hành; văn bản sửa đổi bằng chữ → AI trích từng sửa đổi rồi áp đúng điều/khoản, chỗ không định vị để "Chưa gộp được". **Mới có test đơn vị cho gạch ngang và áp điều/khoản; chưa chạy thật AI trích sửa đổi bằng chữ (cần một văn bản sửa đổi thật).**
+- 🔄 Skill `phan-tich-ban-ve` (PDF → xác định loại hạng mục như thang thoát nạn → kiểm tra → giải pháp), nối agent đọc hồ sơ, m07 và các mục, hướng dẫn, hỏi đáp. **Mới viết quy trình, CHƯA chạy thử trên bản vẽ thật.**
 - ⏳ 👤 Xác nhận QCVN 02 trạm bơm còn hiệu lực sau QCVN 10:2025 (ghi chú `08bf60f5653f`).
 - ⏳ 👤 Cấp quyền thư mục hồ sơ 2017–2023 nếu muốn học thêm.
 

@@ -1,0 +1,43 @@
+{
+ "slug": "cong-tac-dong-chay",
+ "ten": "Công tắc dòng chảy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Cụm bảo vệ"
+ ],
+ "ngay": "2026-10-26T04:46:52.672Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Dùng công tắc dòng chảy cho từng vùng của khu vực bảo vệ thì số đầu phun trên một cụm bảo vệ có thể tăng từ 800 lên 1200.",
+   "dieu": "TCVN 7336:2021, 5.2.3",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Khi sử dụng công tắc dòng chảy, cho phép lắp đặt các van khóa phía trước nó.",
+   "dieu": "TCVN 7336:2021, 5.1.14",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Các van khóa trên đường ống cấp vào máy bơm chữa cháy, trên đường ống cung cấp và đường ống chính phải có khả năng giám sát trực quan và tự động về trạng thái đóng - mở.",
+   "dieu": "TCVN 7336:2021, 5.1.15",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý/mặt bằng: mỗi vùng có công tắc dòng chảy hay không; van khóa có giám sát đóng - mở. Suy từ 5.1.15.",
+   "dieu": "suy từ 5.1.15",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "hay_nham": []
+}

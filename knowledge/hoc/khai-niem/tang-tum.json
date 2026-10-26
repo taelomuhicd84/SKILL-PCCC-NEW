@@ -1,0 +1,40 @@
+{
+ "slug": "tang-tum",
+ "ten": "Tầng tum",
+ "dong_nghia": [
+  "mái tum"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so"
+ ],
+ "lien_quan": [
+  "Số tầng nhà"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tầng tum không tính vào số tầng cao của công trình khi diện tích mái tum không vượt quá 30 % diện tích sàn mái và có chức năng sử dụng làm tum thang, kỹ thuật.",
+   "dieu": "TT 06/2021/TT-BXD (nêu trong slide 'Lưu ý khi xét số tầng')",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Số tầng tòa nhà bao gồm cả tầng tum, trừ trường hợp đáp ứng điều kiện 30 % diện tích sàn mái nói trên.",
+   "dieu": "Slide 'Lưu ý khi xét số tầng'",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đo diện tích mái tum so với diện tích sàn mái và đối chiếu công năng ghi trên bản vẽ (tum thang, kỹ thuật).",
+   "dieu": "suy từ nguồn",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "hay_nham": []
+}

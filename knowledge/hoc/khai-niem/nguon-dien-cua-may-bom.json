@@ -1,0 +1,73 @@
+{
+ "slug": "nguon-dien-cua-may-bom",
+ "ten": "Nguồn điện của máy bơm",
+ "dong_nghia": [
+  "Nguồn điện và các thiết bị bảo vệ mạch điện"
+ ],
+ "anh_huong": [
+  "m13-cap-dien",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Máy bơm dự phòng",
+  "Tủ điều khiển bơm nước chữa cháy",
+  "Công suất"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Máy bơm động cơ điện phải có ít nhất hai nguồn điện, một nguồn chính và một nguồn dự phòng.",
+   "dieu": "2.4.1.6.1",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Cho phép máy bơm chữa cháy chính chỉ đấu nối với một nguồn điện nếu có máy bơm dự phòng là máy bơm động cơ diesel.",
+   "dieu": "2.4.1.6.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không cho phép dùng bộ biến đổi pha khi cấp điện cho động cơ điện của máy bơm.",
+   "dieu": "2.4.1.6.2",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Không cho phép lắp thiết bị ngắt sự cố tiếp đất, hoặc thiết bị ngắt sự cố hồ quang, trong mạch điều khiển hoặc mạch cấp điện cho bơm.",
+   "dieu": "2.4.1.6.3",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Điện áp tại đầu cuối bộ điều khiển không sụt giảm hơn 15% điện áp định mức trong điều kiện khởi động động cơ (ngoại trừ khởi động khẩn cấp bằng đóng thiết bị cơ học chuyển mạch trực tiếp cho mô tơ).",
+   "dieu": "2.4.1.6.5",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Điện áp tại đầu cuối tải công tắc tơ nối mô tơ không sụt giảm hơn 5% dưới định mức khi mô tơ chạy 115% dòng tải hoàn toàn.",
+   "dieu": "2.4.1.6.5",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Đi dây từ bộ điều khiển tới mô tơ trong ống kim loại cứng, kim loại trung bình, kim loại điện, kim loại dẻo không thấm ướt, ống phi kim loại dẻo không thấm ướt, hoặc cáp có vỏ bọc chống nước.",
+   "dieu": "2.4.1.6.6",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Kết nối điện tại hộp đầu cuối mô tơ dùng thiết bị kết nối theo nhà sản xuất; không dùng bộ nối cách điện xoắn bện và dây hàn.",
+   "dieu": "2.4.1.6.7",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý cấp điện: số nguồn điện cấp cho bơm điện; bơm dự phòng là diesel hay điện; suy từ 2.4.1.6.1.",
+   "dieu": "2.4.1.6.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "hay_nham": []
+}

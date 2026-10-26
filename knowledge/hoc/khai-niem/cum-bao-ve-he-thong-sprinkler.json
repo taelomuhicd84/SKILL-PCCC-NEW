@@ -1,0 +1,45 @@
+{
+ "slug": "cum-bao-ve-he-thong-sprinkler",
+ "ten": "Cụm bảo vệ (hệ thống Sprinkler)",
+ "dong_nghia": [
+  "cụm thiết bị Sprinkler"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Đầu phun Sprinkler",
+  "Mạng lưới đường ống Sprinkler"
+ ],
+ "ngay": "2026-10-26T04:29:36.048Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Mỗi cụm bảo vệ của hệ thống không được dùng quá 800 đầu phun.",
+   "dieu": "Điều 5.2.3 TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Giới hạn tối đa 800 đầu phun/cụm bảo vệ; khi dùng công tắc dòng chảy hoặc đầu phun có giám sát trạng thái thì tăng lên 1 200 đầu phun.",
+   "dieu": "Điều 5.2.3",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Cụm thiết bị của hệ thống Sprinkler phải có 02 đường cấp. Hệ thống từ 02 cụm trở lên được dùng đường cấp thứ 2 có van khóa từ cụm bên cạnh. Khi đó phải bố trí van tay phía trước van báo động, lắp van ngăn cách giữa các van báo động, và đường ống chính phải nối vòng.",
+   "dieu": "Điều 5.2.24",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đếm số đầu phun trên sơ đồ nguyên lý/mặt bằng theo từng van báo động và so với 800 (hoặc 1 200 nếu có công tắc dòng chảy/đầu phun giám sát). Xem số đường cấp của từng cụm.",
+   "dieu": "suy từ Điều 5.2.3, 5.2.24",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,57 @@
+{
+ "slug": "van-an-toan-cho-bom",
+ "ten": "Van an toàn cho bơm",
+ "dong_nghia": [
+  "Van an toàn"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Máy bơm nước chữa cháy",
+  "Bơm bù áp"
+ ],
+ "ngay": "2026-10-26T03:48:01.402Z",
+ "dinh_nghia": [
+  {
+   "y": "Van an toàn là van tự động mở cho dòng nước chảy qua ở áp lực bơm đã được cài đặt trước nhằm giới hạn áp lực trong hệ thống ở giá trị nhất định.",
+   "dieu": "1.4.17",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Van an toàn cho bơm phải lắp cho các bơm nước chữa cháy động cơ diesel và khi tổng áp suất dừng bơm cộng áp suất hút tĩnh tối đa vượt quá áp suất của hệ thống.",
+   "dieu": "2.6.5.1",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đặt giữa bơm và van một chiều đầu đẩy bơm, tháo lắp được để sửa chữa mà không ảnh hưởng đường ống đẩy; nước xả dễ thấy; không lắp van chặn ở đoạn ống trước và sau van an toàn.",
+   "dieu": "2.6.5.3, 2.6.5.4",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Kích thước van an toàn không thấp hơn mức quy định ở Phụ lục A.",
+   "dieu": "2.6.5.2",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ ống đẩy: vị trí van an toàn so với van một chiều, có van chặn hai đầu hay không; đối chiếu kích thước với Phụ lục A theo lưu lượng bơm danh định; suy từ 2.6.5.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Van bảo vệ vỏ bơm (lưu lượng nhỏ, làm mát vỏ bơm khi bơm chạy 0% lưu lượng, lắp cho tất cả bơm điện, đường xả độc lập, DN 19 mm với bơm ≤ 9.462 l/phút, DN 25 mm với bơm từ 11.355 đến 18.925 l/phút) khác van an toàn cho bơm; mỗi bơm lắp 01 van bảo vệ vỏ độc lập với van an toàn của hệ thống.",
+   "dieu": "2.6.4",
+   "nguon": "08bf60f5653f"
+  }
+ ]
+}

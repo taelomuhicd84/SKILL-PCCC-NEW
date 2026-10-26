@@ -1,0 +1,95 @@
+{
+ "slug": "he-thong-chua-chay",
+ "ten": "Hệ thống chữa cháy",
+ "dong_nghia": [
+  "hệ thống họng nước chữa cháy",
+  "hệ thống cấp nước chữa cháy"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Thời gian chữa cháy",
+  "Mạng đường ống cụt",
+  "Thiết bị chữa cháy tự động kích hoạt"
+ ],
+ "ngay": "2026-10-26T04:09:37.893Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Họng nước chữa cháy phân loại theo lưu lượng: thấp (0,2–1,5 L/s; thiết bị DN 5, 10, 15, 20, 25, 40) và trung bình (lớn hơn 1,5 L/s).",
+   "dieu": "H.2.1",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Phương án 1: họng lưu lượng trung bình, áp dụng mọi loại công trình. Phương án 2: họng lưu lượng nhỏ kết hợp đường ống họng khô, cho nhà ở, công trình công cộng. Phương án 3: họng lưu lượng nhỏ, cho công trình có chữa cháy tự động toàn bộ. Phương án 4: họng lưu lượng nhỏ kết hợp trung bình, cho nhà ở, công trình công cộng. Cho phép kết hợp nhiều phương án trong một công trình.",
+   "dieu": "H.2.18",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Công trình thuộc diện trang bị họng nước chữa cháy và sprinkler tự động phải có đường ống từ trạm bơm đến tối thiểu 01 họng lấy nước hai cửa DN65 ở mặt ngoài tường về phía đường giao thông.",
+   "dieu": "H.2.19",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép không đặt đường ống cấp nước chữa cháy bên trong đối với nhà để xe ô tô một và hai tầng dạng ngăn có lối ra ngoài trời trực tiếp từ từng ngăn.",
+   "dieu": "Bảng H.5, chú thích 2",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Áp suất tự do trong đường ống chữa cháy áp suất thấp không nhỏ hơn 10 m cột nước; mạng kết hợp sinh hoạt/sản xuất từ 10 đến 60 m cột nước.",
+   "dieu": "H.1.1.2",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Áp suất thủy tĩnh hệ thống sinh hoạt – chữa cháy không vượt 0,45 MPa; hệ thống chữa cháy riêng không vượt 0,6 MPa.",
+   "dieu": "H.2.6",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Chiều cao tia nước đặc tối thiểu: 6 m (nhà ở, công cộng, sản xuất, phụ trợ có chiều cao PCCC đến 50 m; hầm đường bộ); 8 m (nhà ở cao PCCC trên 50 m); 16 m (nhà công cộng, sản xuất, phụ trợ cao PCCC trên 50 m).",
+   "dieu": "H.2.7",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Miệng họng nước chữa cháy đặt cao 1,20 m ± 0,15 m so với sàn, trong tủ chữa cháy niêm phong; họng kép có họng dưới cao không nhỏ hơn 1,0 m.",
+   "dieu": "H.2.12",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Họng chờ tiếp nước ngoài nhà, đường kính tối thiểu DN65.",
+   "dieu": "H.2.13",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Trạm bơm: máy bơm dự phòng không nhỏ hơn bơm chính; 1–3 bơm chính cần ≥ 1 bơm dự phòng, 4 bơm chính trở lên cần ≥ 2; từ 02 bơm trở lên phải có ít nhất 2 đường ống hút; bơm động cơ điện nối hai nguồn điện độc lập.",
+   "dieu": "H.3.1; H.3.2",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Đường kính ống chữa cháy ngoài nhà không nhỏ hơn 100 mm (nông thôn 75 mm); trụ cấp nước cách mép đường không quá 2,5 m, cách tường nhà không gần hơn 1 m; bán kính phục vụ trụ không quá 400 m (công trình mục 10 Phụ lục C: khoảng cách giữa các trụ tối đa 150 m).",
+   "dieu": "H.1.4.5; H.1.4.6; H.1.4.7",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý, mặt bằng tủ chữa cháy, tính thủy lực, so với các trị số H.2.6, H.2.7, H.2.12; suy từ H.2.",
+   "dieu": "H.2",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Hệ thống họng nước chữa cháy trong nhà khác hệ thống cấp nước chữa cháy ngoài nhà (trụ nước, bể): quy định ở H.2 và H.1 riêng.",
+   "dieu": "H.1; H.2",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ]
+}

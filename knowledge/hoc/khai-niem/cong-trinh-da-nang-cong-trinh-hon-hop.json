@@ -1,0 +1,45 @@
+{
+ "slug": "cong-trinh-da-nang-cong-trinh-hon-hop",
+ "ten": "Công trình đa năng, công trình hỗn hợp",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "chung"
+ ],
+ "lien_quan": [
+  "Phụ lục III NĐ 105/2025/NĐ-CP (danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC)"
+ ],
+ "ngay": "2026-10-26T03:46:27.194Z",
+ "dinh_nghia": [
+  {
+   "y": "Công trình có từ 2 công năng trở lên (trừ công trình nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh).",
+   "dieu": "Phụ lục III mục 8",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Thuộc diện thẩm định khi có phần công trình có quy mô, công năng thuộc mục 1–7 Phụ lục III, hoặc cao từ 7 tầng, hoặc tổng diện tích sàn từ 3.000 m².",
+   "dieu": "Phụ lục III mục 8",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh không thuộc mục 8.",
+   "dieu": "Phụ lục III mục 8",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Theo đề xuất của CATP Hà Nội (chưa chính thức): nhà có yếu tố ở của chủ hộ là nhà ở riêng lẻ kết hợp kinh doanh, không phải đa năng/hỗn hợp; cho thuê cả nhà làm văn phòng, người thuê không ở thì không phải nhà ở riêng lẻ. Karaoke từ tầng 3 trở lên trong nhà hỗn hợp xét theo mục 8.",
+   "dieu": "mục 5.5 (đề xuất 2360/CAHN-PC07)",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ]
+}

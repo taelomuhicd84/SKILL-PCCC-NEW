@@ -1,0 +1,56 @@
+{
+ "slug": "thu-thuy-luc",
+ "ten": "Thử thủy lực",
+ "dong_nghia": [
+  "áp suất thử"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Đầu phun chủ đạo",
+  "Trạm bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:17:45.822Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Đường ống chính và phân phối của Drencher, Sprinkler khô, Sprinkler-Drencher điền khí phải lắp để loại bỏ chất chữa cháy đọng lại sau khi kích hoạt hoặc sau khi thử nghiệm thủy lực.",
+   "dieu": "5.5.10",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đường ống phải chịu được áp suất thử Pth = 1,25·Plv.max (Plv.max là áp suất làm việc tối đa); kết nối đảm bảo độ kín với áp suất Plv.max.",
+   "dieu": "5.5.13, 5.5.14",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Phải có biện pháp ngăn áp lực trong đường ống chính và phân phối vượt quá 1 MPa.",
+   "dieu": "5.5.12",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Trong khu vực bảo vệ phải có vị trí thoát nước, xử lý chất chữa cháy chảy tràn khi thử nghiệm hoặc vận hành.",
+   "dieu": "5.1.16",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh/bản vẽ có nêu áp suất làm việc tối đa và áp suất thử bằng 1,25 lần. Suy từ 5.5.13.",
+   "dieu": "5.5.13",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Tiêu chuẩn này chỉ nêu áp suất thử, không có mục định nghĩa riêng cho thuật ngữ thử thủy lực.",
+   "dieu": "5.5.13",
+   "nguon": "a478d8c7c431"
+  }
+ ]
+}

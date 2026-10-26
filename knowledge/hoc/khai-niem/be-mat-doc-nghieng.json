@@ -1,0 +1,81 @@
+{
+ "slug": "be-mat-doc-nghieng",
+ "ten": "Bề mặt dốc (nghiêng)",
+ "dong_nghia": [
+  "mặt nghiêng",
+  "sloping surface"
+ ],
+ "anh_huong": [
+  "m04-giao-thong",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Bãi đỗ xe chữa cháy",
+  "Đường cho xe chữa cháy",
+  "Đầu báo cháy khói kiểu điểm"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [
+  {
+   "y": "Bề mặt, mái hoặc trần có độ dốc lớn hơn 1/8; không thể là bề mặt bằng phẳng và bao gồm các trần dạng vòm - hình trống.",
+   "dieu": "3.21",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Độ dốc > 1/8 là bề mặt dốc; ≤ 1/8 là bề mặt bằng phẳng.",
+   "dieu": "3.20, 3.21",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Áp dụng khi bãi đỗ xe chữa cháy nằm trên một mặt nghiêng.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Mái dốc: đầu báo khói điểm cách đỉnh mái 0,5–1,5 m (bố trí theo 5.9.1.1.3); đầu báo nhiệt theo 5.9.2.1.3.",
+   "dieu": "5.9.1.1.3, 5.9.2.1.3",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nếu bãi đỗ xe chữa cháy nằm trên mặt nghiêng thì độ dốc không được quá 1 : 15.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Độ dốc của đường cho xe chữa cháy không được quá 1 : 8,3.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng/mặt cắt cao độ bãi đỗ và đường, tính độ dốc so với 1:15 và 1:8,3.",
+   "dieu": "suy từ yêu cầu của nguồn",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Đo độ dốc trần/mái trên mặt cắt: so với 1/8; suy từ 3.20, 3.21.",
+   "dieu": "3.20, 3.21",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bãi đỗ ≤ 1:15; đường ≤ 1:8,3.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Bề mặt bằng phẳng có độ dốc nhỏ hơn hoặc bằng 1/8.",
+   "dieu": "3.20",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ]
+}

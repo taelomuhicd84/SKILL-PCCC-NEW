@@ -1,0 +1,58 @@
+{
+ "slug": "binh-khi-binh-sol-khi-chua-chay-tu-dong-kich-hoat",
+ "ten": "Bình khí, bình sol-khí chữa cháy tự động kích hoạt",
+ "dong_nghia": [
+  "bình khí chữa cháy tự động kích hoạt loại treo"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Bình bột chữa cháy tự động kích hoạt",
+  "Hệ thống chữa cháy tự động"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Cho phép trang bị thay thế hệ thống chữa cháy tự động tại các khu vực không thường xuyên có người với diện tích không quá 100 m².",
+   "dieu": "2.5.5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Có chức năng giám sát trạng thái thường trực của thiết bị và giám sát trạng thái khi chữa cháy; các tín hiệu này phải được liên động với hệ thống báo cháy tự động.",
+   "dieu": "2.5.5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Lắp tại khu vực có diện tích trên 100 m² thì phải phân chia thành các khu vực không quá 100 m² bằng tường ngăn cháy (REI 45 trở lên) hoặc vách ngăn cháy (EI 45 trở lên).",
+   "dieu": "2.5.5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Bình khí chữa cháy tự động kích hoạt loại treo phải phù hợp với TCVN 12314-2.",
+   "dieu": "2.5.5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem hồ sơ: khu vực bảo vệ có thường xuyên có người hay không, diện tích không quá 100 m², tín hiệu giám sát có liên động với trung tâm báo cháy. Suy từ 2.5.5.",
+   "dieu": "2.5.5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Chỉ thay thế hệ thống chữa cháy tự động ở khu vực không thường xuyên có người; không dùng thay thế ở khu vực thường xuyên có người.",
+   "dieu": "2.5.5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

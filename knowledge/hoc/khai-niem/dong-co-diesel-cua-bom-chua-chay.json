@@ -1,0 +1,66 @@
+{
+ "slug": "dong-co-diesel-cua-bom-chua-chay",
+ "ten": "Động cơ diesel của bơm chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m05-cong-nang",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Công suất",
+  "Bố trí máy bơm trong trạm",
+  "Nguồn điện của máy bơm"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Van an toàn cho bơm phải lắp cho các bơm chữa cháy động cơ diesel và khi tổng áp suất dừng bơm cộng áp suất hút tĩnh tối đa vượt quá áp suất của hệ thống.",
+   "dieu": "2.6.5.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Van bảo vệ vỏ bơm không áp dụng cho bơm diesel có hệ thống làm mát bằng nước lấy từ đầu đẩy của bơm khi hoạt động.",
+   "dieu": "2.6.4",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Động cơ 4 thì, kích nổ bằng nén hơi nhiên liệu ở áp suất cao.",
+   "dieu": "2.4.2.1",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Có cơ cấu điều tốc với khoảng điều chỉnh không lớn hơn 10%.",
+   "dieu": "2.4.2.4",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Mỗi động cơ có hai công tắc tơ chính cấp nguồn ắc quy cho bộ đề, bảo đảm đóng nguồn khởi động khẩn cấp bằng tay khi hộp điều khiển hỏng.",
+   "dieu": "2.4.2.8",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Hai bộ ắc quy, mỗi bộ dung lượng gấp đôi điện lượng yêu cầu để khởi động 6 lần liên tiếp (mỗi lần đề 15 giây, nghỉ 15 giây); đặt trên giá kim loại cao hơn sàn tối thiểu 305 mm; làm việc ở nhiệt độ môi trường từ 4,5 °C đến 80 °C.",
+   "dieu": "2.4.2.10",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Mỗi bộ ắc quy có đồng hồ điện áp, đồng hồ dòng sạc, đèn báo bộ sạc lỗi và ắc quy lỗi riêng; sai số đồng hồ không lớn hơn 5%.",
+   "dieu": "2.4.2.11",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Ắc quy sạc từ hai nguồn (dinamô trên động cơ và nguồn sạc từ tủ điều khiển); bộ sạc tự giảm dòng sạc dưới 500 mA khi đầy và sạc đủ trong 24 giờ.",
+   "dieu": "2.4.2.12",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

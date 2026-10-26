@@ -1,0 +1,95 @@
+{
+ "slug": "loi-vao-tu-tren-cao",
+ "ten": "Lối vào từ trên cao",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m04-giao-thong",
+  "m07-thoat-nan",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Bãi đỗ xe chữa cháy",
+  "Đường và bãi đỗ xe chữa cháy",
+  "Lối lên mái"
+ ],
+ "ngay": "2026-10-26T04:32:03.287Z",
+ "dinh_nghia": [
+  {
+   "y": "Lối xuyên qua tường ngoài vào bên trong nhà từ trên cao, dùng để triển khai hoạt động chữa cháy và cứu nạn; có thể là lỗ thông trên tường ngoài, cửa sổ, cửa ban công, tấm tường lắp kính, tấm cửa mở được từ trong và ngoài.",
+   "dieu": "6.2.1.4, 6.3.1",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Số lượng: cứ mỗi đoạn đủ hoặc không đủ 20 m chiều dài bãi đỗ xe chữa cháy có một vị trí (nhà F1.1, F1.2, F2, F3, F4, F5).",
+   "dieu": "6.3.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà F1.1, F1.2, F2, F3, F4 cao PCCC trên 15 m đến 50 m: có lối vào từ trên cao ở tất cả các tầng trừ tầng 1, đối diện bãi đỗ xe chữa cháy. Nhà F5: bố trí phía trên bãi đỗ, lên đến chiều cao PCCC 50 m.",
+   "dieu": "6.3.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không áp dụng cho nhà nhóm F1.3, kể cả khu phụ trợ phục vụ riêng cư dân trong nhà F1.3. Không quy định cách bố trí khi có phương án phù hợp khác để lực lượng chữa cháy tiếp cận. Ngoại lệ số lượng: phần nhà 1 tầng không thuộc F5.",
+   "dieu": "6.3.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Rộng không nhỏ hơn 850 mm, cao không nhỏ hơn 1 000 mm; mép dưới cách sàn trong không lớn hơn 1 100 mm; mép trên cách sàn trong không nhỏ hơn 1 800 mm.",
+   "dieu": "6.3.4",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Khoảng cách dọc tường giữa tâm hai lối liên tiếp do một bãi phục vụ không quá 20 m.",
+   "dieu": "6.3.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Mặt ngoài đánh dấu tam giác đều đỏ hoặc vàng cạnh không nhỏ hơn 150 mm; mặt trong có chữ “LỐI VÀO TỪ TRÊN CAO - KHÔNG ĐƯỢC GÂY CẢN TRỞ” cao chữ không nhỏ hơn 25 mm.",
+   "dieu": "6.3.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Không bố trí đồ đạc gây cản trở trong phạm vi 1 m sàn bên trong tính từ lối vào.",
+   "dieu": "6.3.1",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Phải đối diện một không gian sử dụng; không bố trí ở phòng kho, phòng máy, buồng thang bộ thoát nạn, sảnh không nhiễm khói, sảnh thang máy chữa cháy, hoặc không gian chỉ dẫn đến điểm cụt.",
+   "dieu": "6.3.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Cứ mỗi đoạn đủ hoặc không đủ 20 m chiều dài bãi đỗ xe chữa cháy phải có 01 vị trí lối vào từ trên cao.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt đứng và mặt bằng từng tầng: vị trí cửa đối diện bãi đỗ, kích thước 850×1000 mm, độ cao mép dưới/trên, ghi chú đánh dấu, loại không gian phía trong; suy từ 6.3.",
+   "dieu": "suy từ 6.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Đo chiều dài bãi đỗ, chia theo bội số 20 m (làm tròn lên), đối chiếu số vị trí lối vào trên bản vẽ.",
+   "dieu": "suy từ yêu cầu của nguồn",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác với lối lên mái (thang lên mái, tính theo diện tích mặt bằng mái).",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ]
+}

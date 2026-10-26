@@ -1,0 +1,33 @@
+{
+ "slug": "he-thong-chua-chay-tu-dong-dong-goi-package",
+ "ten": "Hệ thống chữa cháy tự động đóng gói (Package)",
+ "dong_nghia": [
+  "hệ thống chữa cháy tự động đóng gói"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống chữa cháy tự động"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Cho phép bố trí trang bị hệ thống chữa cháy tự động đóng gói (Package) thay cho hệ thống chữa cháy tự động trong các công trình quy định tại Phụ lục A TCVN 13926.",
+   "dieu": "Bảng A.1, chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu công trình với danh mục tại Phụ lục A TCVN 13926 khi hồ sơ dùng hệ thống đóng gói thay hệ thống chữa cháy tự động. Suy từ chú thích (1).",
+   "dieu": "Bảng A.1, chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": []
+}

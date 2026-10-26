@@ -1,0 +1,104 @@
+{
+ "slug": "lo-mo-tren-mai",
+ "ten": "Lỗ mở trên mái",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Bồn, bể trữ nước chữa cháy ngoài nhà",
+  "Thời gian chữa cháy",
+  "Lưu lượng cấp nước chữa cháy ngoài nhà",
+  "Lưu lượng nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T04:52:13.508Z",
+ "dinh_nghia": [
+  {
+   "y": "Là các lỗ mở để thông gió hoặc lấy sáng đặt trên kết cấu mái của nhà (nóc gió (cửa trời); lỗ thường xuyên mở; lỗ mở khi có cháy; ô kính; tấm lợp lấy sáng, hoặc các lỗ mở tương tự) có diện tích không nhỏ hơn 2,5 % diện tích xây dựng của nhà đó",
+   "dieu": "Bảng 10 CHÚ THÍCH",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Các lỗ mở để thông gió hoặc lấy sáng đặt trên kết cấu mái của nhà (nóc gió/cửa trời; lỗ thường xuyên mở; lỗ mở khi có cháy; ô kính; tấm lợp lấy sáng hoặc lỗ tương tự) có diện tích không nhỏ hơn 2,5 % diện tích xây dựng của nhà đó",
+   "dieu": "Chú thích Bảng 10",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Tổng diện tích các lỗ mở ≥ 2,5 % diện tích xây dựng của nhà thì coi là nhà có lỗ mở trên mái",
+   "dieu": "Bảng 10 CHÚ THÍCH",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Cộng diện tích các lỗ mở trên mái, so với 2,5 % diện tích xây dựng của nhà",
+   "dieu": "Chú thích Bảng 10",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Tổng diện tích các lỗ mở trên mái ≥ 2,5 % diện tích xây dựng của nhà.",
+   "dieu": "Bảng 10, Chú thích",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà F5 có lỗ mở trên mái (không phụ thuộc chiều rộng) hoặc không có lỗ mở nhưng rộng không quá 60 m: tra Bảng 9. Nhà F5 không có lỗ mở trên mái, rộng trên 60 m: tra Bảng 10",
+   "dieu": "5.1.2.3; Bảng 9, 10",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Sửa đổi 1:2023 bổ sung quy định lưu lượng cấp nước chữa cháy ngoài nhà đối với nhà nhóm F5, bậc chịu lửa III, IV có chiều rộng lớn hơn 60 m và không thiết kế lỗ mở trên mái.",
+   "dieu": "Sửa đổi 1:2023 (Điều 5.1.2, nguồn không nêu số điều cụ thể)",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Dùng để chọn bảng tra lưu lượng chữa cháy ngoài nhà nhóm F5: nhà có lỗ mở trên mái (không phụ thuộc chiều rộng) hoặc không có lỗ mở và rộng ≤ 60 m tra Bảng 9; nhà không có lỗ mở và rộng từ 60 m trở lên tra Bảng 10",
+   "dieu": "Bảng 9, Bảng 10",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Dùng để chọn Bảng 9 hay Bảng 10: nhà có lỗ mở trên mái thì áp dụng Bảng 9 không phụ thuộc chiều rộng nhà; nhà không có lỗ mở trên mái rộng từ 60 m trở lên áp dụng Bảng 10.",
+   "dieu": "Bảng 9, Bảng 10",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Khi áp dụng giải pháp thiết kế lỗ mở trên mái thì yêu cầu lưu lượng cấp nước chữa cháy ngoài nhà thấp hơn so với khi không thiết kế lỗ mở trên mái (nguồn không nêu trị số).",
+   "dieu": "Sửa đổi 1:2023",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt cắt/mặt bằng mái: tính diện tích lỗ mở so với 2,5 % diện tích xây dựng; đo chiều rộng nhà so với 60 m. Suy từ Bảng 9, 10",
+   "dieu": "Bảng 9, 10",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Xem bản vẽ mái có lỗ mở hay không, chiều rộng nhà, nhóm F, bậc chịu lửa để chọn lưu lượng (trị số tra bảng của QCVN, nguồn không nêu).",
+   "dieu": "suy từ Sửa đổi 1:2023",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Xem mặt bằng mái, mặt cắt: tổng diện tích lỗ mở so với 2,5 % diện tích xây dựng; đo chiều rộng nhà so với 60 m",
+   "dieu": "suy từ Chú thích Bảng 10",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Cộng diện tích các lỗ mở trên mái trên bản vẽ mái, chia cho diện tích xây dựng, so với 2,5 %. Suy từ Bảng 10, chú thích.",
+   "dieu": "Bảng 10",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Lỗ mở trên mái nhằm thông gió/lấy sáng, không phải cửa sổ ở tường",
+   "dieu": "",
+   "nguon": "d1cdbad641a2"
+  }
+ ]
+}

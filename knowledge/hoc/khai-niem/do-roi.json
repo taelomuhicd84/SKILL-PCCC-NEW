@@ -1,0 +1,40 @@
+{
+ "slug": "do-roi",
+ "ten": "Độ rọi",
+ "dong_nghia": [
+  "illuminance"
+ ],
+ "anh_huong": [
+  "m14-den-su-co"
+ ],
+ "lien_quan": [
+  "Độ chói",
+  "Chiếu sáng đường thoát nạn"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [
+  {
+   "y": "Độ sáng của một vật được một chùm sáng chiếu vào, đơn vị là Lux. 1 Lux là độ sáng của một vật được một nguồn sáng ở cách xa 1 m có quang thông bằng 1 Lumen chiếu trên diện tích bằng 1 m².",
+   "dieu": "3.12",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đường thoát nạn ≥ 1 lux tại tâm; gian phòng (khoảng trống) ≥ 0,5 lux; phương tiện PCCC ngoài đường thoát nạn ≥ 5 lux; tỉ lệ lớn nhất/nhỏ nhất ≤ 40:1.",
+   "dieu": "5.1.2, 5.1.3, 5.1.4, 5.1.6",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Độ rọi (lux, chiếu lên mặt sàn) khác độ chói (cd/m², của biển báo) và cường độ chiếu sáng (cd, giới hạn gây lóa).",
+   "dieu": "3.12, 3.13, Bảng 1",
+   "nguon": "f0d3f93819cb"
+  }
+ ]
+}

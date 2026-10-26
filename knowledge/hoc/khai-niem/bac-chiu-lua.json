@@ -1,0 +1,37 @@
+{
+ "slug": "bac-chiu-lua",
+ "ten": "Bậc chịu lửa",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m02-bac-chiu-lua",
+  "chung",
+  "m03-khoang-cach",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Nhóm nguy hiểm cháy theo công năng",
+  "Hệ số tiết diện Am/V",
+  "Khoảng cách phòng cháy chống cháy giữa các nhà",
+  "Hạng nguy hiểm cháy"
+ ],
+ "ngay": "2026-10-26T04:40:34.533Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Phân loại kỹ thuật về cháy (bậc chịu lửa, giải pháp ngăn cháy…) của nhà và công trình xác định theo QCVN 06:/BXD.",
+   "dieu": "1.5.2",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà bậc I, II, III: gian phòng phân chia bởi tường/sàn ngăn cháy thấp hơn REI 45 hoặc vách thấp hơn EI 45 (hoặc không phân chia) thì trang bị báo cháy/chữa cháy tự động theo gian phòng Bảng A.3. Nhà bậc IV, V: ngưỡng REI 15, EI 15.",
+   "dieu": "1.5.10",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

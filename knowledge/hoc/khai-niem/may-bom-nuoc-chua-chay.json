@@ -1,0 +1,155 @@
+{
+ "slug": "may-bom-nuoc-chua-chay",
+ "ten": "Máy bơm nước chữa cháy",
+ "dong_nghia": [
+  "Bơm nước chữa cháy"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Trạm bơm nước chữa cháy",
+  "Bơm bù áp",
+  "Máy bơm nước chữa cháy dự phòng",
+  "Bơm tua bin trục đứng",
+  "Động cơ diesel dẫn động bơm",
+  "Công suất",
+  "Máy bơm dự phòng"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [
+  {
+   "y": "Máy bơm nước chữa cháy là một bộ thiết bị lắp ráp gồm một bơm nước chữa cháy, động cơ truyền động, tủ điều khiển và các phụ kiện; gồm máy bơm chính, máy bơm dự phòng và máy bơm bù áp.",
+   "dieu": "1.4.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Bơm nước chữa cháy là bơm cung cấp áp lực và lưu lượng nước dùng để chữa cháy.",
+   "dieu": "1.4.4",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Một bộ thiết bị lắp ráp gồm một bơm nước chữa cháy, động cơ truyền động, tủ điều khiển và các phụ kiện. Gồm máy bơm chính, máy bơm dự phòng và máy bơm bù áp.",
+   "dieu": "1.4.2",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Công suất bơm chọn dựa vào yêu cầu lưu lượng, cột áp theo QCVN 06:2020/BXD, TCVN 2622:1995, TCVN 4513:1988, TCVN 7336:2003.",
+   "dieu": "2.2.1",
+   "nguon": "08bf60f5653f",
+   "can_xem": true
+  },
+  {
+   "y": "Chọn bơm dựa vào đường đặc tính lưu lượng, cột áp của từng hãng sản xuất, theo yêu cầu lưu lượng - cột áp của quy chuẩn và thiết kế, vị trí tương quan giữa hồ nước và trạm bơm, kích thước thực tế của nhà bơm.",
+   "dieu": "2.2.1",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Khi nguồn nước đặt dưới đường tâm ống đẩy và áp suất nguồn cấp nước không đủ để đẩy nước vào bơm: phải dùng bơm tua bin trục đứng.",
+   "dieu": "2.2.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Bơm nước chữa cháy chỉ được phép dẫn động bởi động cơ điện hoặc động cơ diesel; một bơm chỉ được kết nối với một trục dẫn động từ động cơ.",
+   "dieu": "2.2.3",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Trường hợp nguồn nước đặt dưới đường tâm ống đẩy và áp suất nguồn cấp không đủ: không cho phép dùng bơm ly tâm trục ngang.",
+   "dieu": "2.2.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Công suất thiết kế được chọn dao động trong phạm vi từ 90% đến 140% công suất trên đường đặc tuyến công suất hoạt động của bơm.",
+   "dieu": "2.2.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Lưu lượng lớn nhất của máy bơm không nhỏ hơn 150% lưu lượng thiết kế.",
+   "dieu": "2.2.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Cột áp ứng với lưu lượng thiết kế không nhỏ hơn cột áp thiết kế.",
+   "dieu": "2.2.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Cột áp ứng với lưu lượng bằng không (shutoff) trong phạm vi từ 101% đến 140% cột áp thiết kế.",
+   "dieu": "2.2.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Cột áp ứng với 150% lưu lượng thiết kế không nhỏ hơn 65% cột áp thiết kế.",
+   "dieu": "2.2.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Mỗi bơm phải gắn van xả khí tự động; đặt tại vị trí cao nhất trên vỏ bơm.",
+   "dieu": "2.2.7, 2.6.7",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Nhãn bơm thể hiện: loại bơm, mã bơm, số sơ ri, lưu lượng, áp lực tại 100% và 150% lưu lượng, áp lực lớn nhất tại lưu lượng bằng 0, công suất động cơ yêu cầu lớn nhất, tốc độ vòng quay, nhà sản xuất, nơi sản xuất, năm sản xuất.",
+   "dieu": "2.2.9",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Mỗi trạm bơm có từ 02 máy bơm trở lên phải có ít nhất 02 đường ống hút, mỗi đường bảo đảm hút được lượng nước chữa cháy lớn nhất cần thiết khi đường kia hỏng hoặc bảo trì; ống hút có van, trên ống cấp lắp đồng hồ áp lực và van xả 65 mm. Không quy định số ống hút khi dùng bơm tua bin trục đứng.",
+   "dieu": "2.2.4",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Lưu lượng lớn nhất của bơm không nhỏ hơn 150% lưu lượng thiết kế.",
+   "dieu": "2.2.2",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Tại lưu lượng bằng 0, cột áp trong phạm vi 101–140% cột áp thiết kế.",
+   "dieu": "2.2.2",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Tại 150% lưu lượng thiết kế, cột áp không nhỏ hơn 65% cột áp thiết kế.",
+   "dieu": "2.2.2",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Bơm chỉ được dẫn động bằng động cơ điện hoặc động cơ diesel; một bơm chỉ kết nối với một trục dẫn động từ động cơ.",
+   "dieu": "2.2.3",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Nhãn trên vỏ bơm thể hiện: loại bơm, mã bơm, số sê-ri, lưu lượng, áp lực tại 100% và 150% lưu lượng, áp lực lớn nhất tại lưu lượng 0, công suất động cơ yêu cầu lớn nhất, tốc độ vòng quay, nhà sản xuất, nơi sản xuất, năm sản xuất.",
+   "dieu": "2.2.9",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu đường đặc tính lưu lượng – cột áp của hãng với lưu lượng, cột áp thiết kế; suy từ 2.2.1, 2.2.2. Đếm số ống hút so với số máy bơm; suy từ 2.2.4.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Đối chiếu đường đặc tuyến bơm của hãng với lưu lượng, cột áp thiết kế; suy từ 2.2.2.",
+   "dieu": "2.2.2",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Máy bơm nước chữa cháy (cả bộ gồm bơm, động cơ, tủ điều khiển, phụ kiện) khác bơm nước chữa cháy (chỉ riêng phần bơm cung cấp áp lực, lưu lượng).",
+   "dieu": "1.4.2, 1.4.4",
+   "nguon": "08bf60f5653f"
+  }
+ ]
+}

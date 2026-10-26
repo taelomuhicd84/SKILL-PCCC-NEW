@@ -1,0 +1,56 @@
+{
+ "slug": "bom-tua-bin-truc-dung",
+ "ten": "Bơm tua bin trục đứng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Máy bơm nước chữa cháy",
+  "Trạm bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T03:48:01.402Z",
+ "dinh_nghia": [
+  {
+   "y": "Là bơm ly tâm trục đứng có một hoặc nhiều tầng cánh được lắp đồng trục với nhau và có đầu đẩy vuông góc với trục và đầu hút của bơm.",
+   "dieu": "1.4.5",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khi nguồn nước đặt dưới đường tâm ống đẩy và áp suất nguồn cấp nước không đủ để đẩy nước vào bơm nước chữa cháy thì phải sử dụng bơm tua bin trục đứng.",
+   "dieu": "2.2.1",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Trường hợp nguồn nước đặt dưới đường tâm ống đẩy và áp suất không đủ thì không cho phép dùng bơm ly tâm trục ngang.",
+   "dieu": "2.2.1",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Không quy định số lượng ống hút khi trạm bơm sử dụng bơm tua bin trục đứng.",
+   "dieu": "2.2.4",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem cao trình nguồn nước so với đường tâm ống đẩy trên mặt cắt; nếu nguồn thấp hơn và áp suất không đủ thì kiểm loại bơm là tua bin trục đứng; suy từ 2.2.1.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bơm ly tâm trục ngang không được dùng khi nguồn nước đặt dưới đường tâm ống đẩy và áp suất không đủ.",
+   "dieu": "2.2.1",
+   "nguon": "08bf60f5653f"
+  }
+ ]
+}

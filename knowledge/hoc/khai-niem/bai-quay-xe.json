@@ -1,0 +1,57 @@
+{
+ "slug": "bai-quay-xe",
+ "ten": "Bãi quay xe",
+ "dong_nghia": [
+  "Bãi quay xe chữa cháy"
+ ],
+ "anh_huong": [
+  "m04-giao-thong",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Đường cho xe chữa cháy",
+  "Bãi tránh xe"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Bắt buộc ở cuối đoạn cụt khi đường hoặc bãi đỗ xe chữa cháy dạng cụt dài hơn 46 m.",
+   "dieu": "6.2.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Thiết kế phải phù hợp với phương tiện chữa cháy ở địa phương.",
+   "dieu": "6.4",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Tham khảo (đoạn cũ người dùng xác nhận vẫn dùng tham khảo, ngưỡng tối thiểu): tam giác đều cạnh ≥ 7 m, một đỉnh ở đường cụt; hình vuông cạnh ≥ 12 m; hình tròn đường kính ≥ 10 m; chữ nhật ≥ 5 m × 20 m vuông góc với đường cụt, cân đối hai phía.",
+   "dieu": "6.4 (bổ sung người dùng 2026-10-23)",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Cơ quan quản lý về PCCC và CNCH có thể quy định cụ thể theo phương tiện từng địa phương.",
+   "dieu": "6.4 chú thích",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo chiều dài đoạn cụt trên tổng mặt bằng; nếu > 46 m kiểm có bãi quay xe và kích thước; suy từ 6.2.5.",
+   "dieu": "suy từ 6.2.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bãi quay xe (ở cuối đường cụt) khác bãi tránh xe (đoạn mở rộng trên đường 1 làn, 6.5).",
+   "dieu": "6.4, 6.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ]
+}

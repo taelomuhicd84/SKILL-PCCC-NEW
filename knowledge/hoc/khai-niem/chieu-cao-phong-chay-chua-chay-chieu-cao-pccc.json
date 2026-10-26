@@ -1,0 +1,89 @@
+{
+ "slug": "chieu-cao-phong-chay-chua-chay-chieu-cao-pccc",
+ "ten": "Chiều cao phòng cháy chữa cháy (chiều cao PCCC)",
+ "dong_nghia": [
+  "chiều cao PCCC của nhà"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m07-thoat-nan",
+  "m08-thang-may-cc",
+  "m04-giao-thong",
+  "doc-ho-so"
+ ],
+ "lien_quan": [
+  "Số tầng nhà",
+  "Tầng hầm",
+  "Tầng tum",
+  "Khoang cháy"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [
+  {
+   "y": "Chiều cao PCCC của nhà (không tính tầng kỹ thuật trên cùng) bằng khoảng cách lớn nhất từ mặt đường cho xe chữa cháy tiếp cận đến mép dưới của lỗ cửa (cửa sổ) mở trên tường ngoài của tầng trên cùng.",
+   "dieu": "Slide 'Chiều cao PCCC của nhà' (QCVN 06:2022/BXD)",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Khi tầng trên cùng không có lỗ cửa (cửa sổ): bằng một nửa tổng khoảng cách từ mặt đường cho xe chữa cháy tiếp cận đến mặt sàn và đến trần của tầng trên cùng.",
+   "dieu": "Slide 'Chiều cao PCCC của nhà'",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "CHÚ THÍCH 1: khi mái nhà được khai thác sử dụng, chiều cao PCCC là khoảng cách lớn nhất từ mặt đường cho xe chữa cháy tiếp cận đến mép trên tường bao của mái.",
+   "dieu": "Chú thích 1",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "CHÚ THÍCH 2: mái không được tính là có khai thác sử dụng nếu con người không có mặt thường xuyên trên mái.",
+   "dieu": "Chú thích 2",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "CHÚ THÍCH 3: khi có ban công (lô gia) hoặc kết cấu bao che (lan can) cửa sổ, chiều cao PCCC tính đến mép trên của kết cấu bao che (lan can).",
+   "dieu": "Chú thích 3",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "CHÚ THÍCH 4: khi các mặt đường tiếp cận nhà có cao độ khác nhau, nhà có thể có các chiều cao PCCC khác nhau tùy phương án thiết kế an toàn cháy cụ thể.",
+   "dieu": "Chú thích 4",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Là căn cứ xét đối tượng thuộc diện thẩm duyệt (nhà chung cư, nhà ở tập thể, nhà công cộng chiều cao PCCC không quá 150 m; nhà sản xuất, nhà kho đến 50 m; nhà ở riêng lẻ từ 25 m trở lên), và các ngưỡng bố trí công năng, thoát nạn, thang máy chữa cháy.",
+   "dieu": "Điều 1.1.2 (nêu trong slide Phạm vi điều chỉnh)",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Chiều cao PCCC lớn nhất cho phép tại bảng H.5, H.6, H.7 có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng khi nhà có báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC không quá 28 m.",
+   "dieu": "H.2.12.10",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt cắt, mặt đứng: xác định cao độ mặt đường xe chữa cháy tiếp cận và cao độ mép dưới cửa sổ (hoặc mép trên lan can/tường bao mái) tầng trên cùng; nếu các mặt đường khác cao độ thì kiểm từng mặt.",
+   "dieu": "suy từ slide Chiều cao PCCC của nhà",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác chiều cao nhà kho, nhà sản xuất trong bảng H.9, H.10, H.11: chiều cao này tính từ sàn tầng 1 đến trần tầng trên cùng, bao gồm cả tầng kỹ thuật; trần có cao độ thay đổi thì lấy cao độ trung bình.",
+   "dieu": "Lưu ý dưới slide Chiều cao PCCC",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Khác số tầng nhà: số tầng chỉ tính các tầng trên mặt đất và tầng nửa hầm.",
+   "dieu": "Lưu ý dưới slide Chiều cao PCCC",
+   "nguon": "ee1434b8c963"
+  }
+ ]
+}

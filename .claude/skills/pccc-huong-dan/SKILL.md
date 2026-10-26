@@ -15,6 +15,7 @@ description: Thẩm định PCCC – Hướng dẫn thẩm định. Viết hư�
 - `skills/MOD_cau_thang_buong_thang.md`
 - `memory/pccc-escape-route-method.md`
 - `knowledge/hoc/_da_duyet.md`
+- `knowledge/hoc/khai-niem/_theo_agent/huong-dan.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)

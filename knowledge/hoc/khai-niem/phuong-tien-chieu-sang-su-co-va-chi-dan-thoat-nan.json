@@ -1,0 +1,39 @@
+{
+ "slug": "phuong-tien-chieu-sang-su-co-va-chi-dan-thoat-nan",
+ "ten": "Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Đèn chiếu sáng sự cố của công trình đang thi công",
+  "Hệ thống loa thông báo và hướng dẫn thoát nạn"
+ ],
+ "ngay": "2026-10-26T04:07:56.942Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà, công trình phải trang bị phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn theo quy định tại TCVN 13456.",
+   "dieu": "2.2.1",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Thiết kế, lắp đặt phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn theo TCVN 13456.",
+   "dieu": "2.2.2",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ và thuyết minh chiếu sáng sự cố, chỉ dẫn thoát nạn có dẫn chiếu và đáp ứng TCVN 13456 (suy từ 2.2.1, 2.2.2).",
+   "dieu": "suy từ 2.2.1, 2.2.2",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "hay_nham": []
+}

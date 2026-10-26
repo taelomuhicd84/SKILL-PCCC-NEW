@@ -1,0 +1,51 @@
+{
+ "slug": "thoat-khoi-tu-nhien",
+ "ten": "Thoát khói tự nhiên",
+ "dong_nghia": [
+  "giải pháp thoát khói tự nhiên",
+  "hút xả khói theo cơ chế tự nhiên"
+ ],
+ "anh_huong": [
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Vùng khói",
+  "Sảnh thông tầng",
+  "Màn ngăn khói"
+ ],
+ "ngay": "2026-10-26T04:53:10.947Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà một tầng: thoát khói trực tiếp cho gian phòng và hành lang có thể dùng hút xả khói tự nhiên hoặc cưỡng bức.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Nhà nhiều tầng: dùng hút xả khói cưỡng bức, hoặc dùng thoát khói tự nhiên nếu tính toán thoát khói cho phép và thỏa mãn D.1.1.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Tầng trên cùng của nhà nhiều tầng: cho phép thoát khói tự nhiên qua van khói, cửa nắp hút khói, cửa trời mở, cửa chớp mở và không đón gió vào.",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Nhà một tầng và tầng trên cùng nhà nhiều tầng: cho phép dùng thông gió tự nhiên khi có cháy thay cho hệ thống hút xả khói (nguồn bị cắt, chưa rõ điều kiện kèm theo).",
+   "dieu": "Phụ lục D",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Kiểm nhà một tầng hay nhiều tầng, tầng đang xét có phải tầng trên cùng không, có thuyết minh tính toán thoát khói và đáp ứng D.1.1 không. Suy từ Phụ lục D.",
+   "dieu": "",
+   "nguon": "kb:tk-màn-ngăn-khói"
+  }
+ ],
+ "hay_nham": []
+}

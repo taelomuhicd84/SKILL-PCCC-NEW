@@ -1,0 +1,133 @@
+{
+ "slug": "phu-luc-iii-nd-105-2025-nd-cp-danh-muc-cong-trinh-phuong-tien-thuoc-dien-tham-di",
+ "ten": "Phụ lục III NĐ 105/2025/NĐ-CP (danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC)",
+ "dong_nghia": [
+  "diện thẩm định",
+  "danh mục thuộc diện thẩm định thiết kế PCCC"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "chung"
+ ],
+ "lien_quan": [
+  "thẩm định thiết kế về PCCC",
+  "công trình đa năng, công trình hỗn hợp",
+  "thẩm định điều chỉnh"
+ ],
+ "ngay": "2026-10-26T03:46:27.194Z",
+ "dinh_nghia": [
+  {
+   "y": "Danh mục công trình, phương tiện: công trình khi thiết kế, cải tạo, thay đổi công năng sử dụng, phương tiện giao thông khi sản xuất, lắp ráp, đóng mới, hoán cải thuộc danh mục thì thuộc diện thẩm định thiết kế về PCCC.",
+   "dieu": "Phụ lục III NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Đối chiếu quy mô (số tầng, tổng diện tích sàn, số chỗ, khối tích, hạng nguy hiểm cháy nổ…) với 16 mục của Phụ lục III. Phụ lục III mới = Phụ lục III của NĐ 105/2025 (NĐ 347 không kèm phụ lục).",
+   "dieu": "Phụ lục III NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Tổng diện tích sàn xác định đối với nhà có quy mô lớn nhất của dự án đầu tư xây dựng công trình, công trình.",
+   "dieu": "Ghi chú Phụ lục III",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dự án có công trình thuộc diện thẩm định thì các công trình, hạng mục khác có yêu cầu về PCCC (khoản 1 Điều 16 Luật PCCC và CNCH) thuộc dự án đó cũng phải thẩm định.",
+   "dieu": "Ghi chú Phụ lục III",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Trừ: công trình tạm theo pháp luật xây dựng; công trình thuộc dự án đầu tư đặc biệt; công trình của cơ sở quốc phòng hoạt động quân sự; phương tiện giao thông chế tạo hoặc hoán cải chuyên dùng cho quân sự.",
+   "dieu": "Điều 9 khoản 1 NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nhà ở: nhà chung cư, nhà ở tập thể cao từ 7 tầng hoặc tổng diện tích sàn từ 3.000 m².",
+   "dieu": "Phụ lục III mục 1",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Nhà trẻ, mầm non, mẫu giáo: từ 150 cháu hoặc từ 2.000 m²; trường các cấp, đại học, cơ sở nghiên cứu: cao từ 5 tầng hoặc từ 3.000 m².",
+   "dieu": "Phụ lục III mục 2",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Y tế: cao từ 5 tầng hoặc tổng diện tích sàn từ 2.000 m².",
+   "dieu": "Phụ lục III mục 3",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Thể thao: sân vận động khán đài từ 5.000 chỗ; nhà thi đấu, tập luyện khán đài từ 5.000 chỗ hoặc từ 5.000 m².",
+   "dieu": "Phụ lục III mục 4",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Văn hóa: nhà hát, rạp chiếu phim, rạp xiếc từ 300 chỗ; hội nghị, nhà văn hóa, bảo tàng, thư viện, triển lãm cao từ 5 tầng hoặc từ 3.000 m²; vui chơi giải trí, vũ trường, karaoke và công trình văn hóa khác cao từ 4 tầng hoặc từ 1.000 m².",
+   "dieu": "Phụ lục III mục 5",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Thương mại: trung tâm thương mại, siêu thị, chợ, cửa hàng hàng dễ cháy từ 2.000 m²; nhà hàng, cửa hàng ăn uống từ 3.000 m².",
+   "dieu": "Phụ lục III mục 6",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Khách sạn/lưu trú, bưu chính viễn thông, trụ sở/nhà làm việc: cao từ 7 tầng hoặc từ 3.000 m².",
+   "dieu": "Phụ lục III mục 7",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Công trình đa năng, hỗn hợp (từ 2 công năng, trừ nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh) có phần thuộc mục 1–7 hoặc cao từ 7 tầng hoặc từ 3.000 m².",
+   "dieu": "Phụ lục III mục 8",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Sản xuất công nghiệp khác: hạng A, B khối tích từ 7.000 m³ hoặc sàn từ 1.000 m²; hạng C từ 15.000 m³ hoặc 2.000 m²; hạng D, E từ 30.000 m³ hoặc 10.000 m². Cửa hàng xăng dầu từ 01 cột bơm; trạm biến áp từ 110 kV.",
+   "dieu": "Phụ lục III mục 9",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Nhà kho hàng hóa hạng A, B, C: khối tích từ 15.000 m³ hoặc sàn từ 2.000 m².",
+   "dieu": "Phụ lục III mục 10",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Nhà để xe, nhà trưng bày ô tô, xe máy dạng kín: tổng diện tích sàn từ 2.000 m².",
+   "dieu": "Phụ lục III mục 12",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Hầm đường ô tô, đường sắt, tàu điện ngầm dài từ 1.000 m.",
+   "dieu": "Phụ lục III mục 14",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Phương tiện đường thủy nội địa: sức chở từ 50 người, hoặc 500 GT, hoặc động cơ từ 300 sức ngựa; tàu biển không tuyến quốc tế từ 500 GT.",
+   "dieu": "Phụ lục III mục 16",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Lấy số tầng, tổng diện tích sàn (nhà lớn nhất), công năng, hạng nguy hiểm cháy nổ từ hồ sơ so với ngưỡng từng mục; ví dụ karaoke 1 tầng 925 m² không đạt mục 5 (cần từ 4 tầng hoặc từ 1.000 m²), trừ khi thuộc dự án có công trình khác thuộc diện hoặc là nhà hỗn hợp theo mục 8.",
+   "dieu": "suy từ Phụ lục III mục 5, 8",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh bị loại khỏi mục 8; ca nhập nhằng ghi CẦN XÁC NHẬN (đề xuất CATP Hà Nội 2360/CAHN-PC07 chưa phải hướng dẫn chính thức).",
+   "dieu": "Phụ lục III mục 8; mục 5.5",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ]
+}

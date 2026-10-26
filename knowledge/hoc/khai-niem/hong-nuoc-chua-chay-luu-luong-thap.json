@@ -1,0 +1,78 @@
+{
+ "slug": "hong-nuoc-chua-chay-luu-luong-thap",
+ "ten": "Họng nước chữa cháy lưu lượng thấp",
+ "dong_nghia": [
+  "họng nước chữa cháy lưu lượng nhỏ"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Họng nước chữa cháy lưu lượng trung bình",
+  "Bán kính phục vụ của họng nước chữa cháy trong nhà"
+ ],
+ "ngay": "2026-10-26T04:23:50.656Z",
+ "dinh_nghia": [
+  {
+   "y": "Căn cứ vào lưu lượng cấp nước, họng nước chữa cháy phân loại: lưu lượng thấp (từ 0,2 L/s đến 1,5 L/s); lưu lượng trung bình (lớn hơn 1,5 L/s).",
+   "dieu": "Phần họng nước chữa cháy trong nhà (Sửa đổi 1:2023)",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Thiết bị cho họng nước chữa cháy lưu lượng thấp có đường kính DN5, DN10, DN15, DN20, DN25, DN40.",
+   "dieu": "",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Phương án 2: họng lưu lượng nhỏ kết hợp đường ống họng khô, áp dụng với nhà ở, công trình công cộng.",
+   "dieu": "",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Phương án 3: họng lưu lượng nhỏ, áp dụng với công trình được trang bị hệ thống chữa cháy tự động cho toàn bộ công trình.",
+   "dieu": "",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Phương án 4: họng lưu lượng nhỏ kết hợp họng lưu lượng trung bình, áp dụng với nhà ở, công trình công cộng.",
+   "dieu": "",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Cho phép kết hợp nhiều phương án trang bị trong một công trình; việc trang bị họng lưu lượng nhỏ là không bắt buộc.",
+   "dieu": "Chú thích",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Khi dùng họng lưu lượng thấp phải bảo đảm tổng lưu lượng cấp nước và chiều cao tia nước đặc xác định theo các bảng 11, 12 và 13.",
+   "dieu": "Chú thích, bảng 11, 12, 13",
+   "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Ví dụ: 2 cuộn vòi rulô, mỗi vòi lưu lượng không nhỏ hơn 1,25 l/s thay cho 1 cuộn vòi, lăng phun loại B lưu lượng 2,5 l/s; 2 cuộn phải đặt cùng một vị trí để bán kính bảo vệ đến 1 điểm của nhà không đổi.",
+   "dieu": "Ví dụ trong nguồn",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem loại họng, DN, lưu lượng từng vòi; cộng tổng lưu lượng và chiều cao tia nước đặc so với bảng 11–13; kiểm các cuộn thay thế cùng vị trí.",
+   "dieu": "suy từ chú thích bảng 11–13",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Họng lưu lượng trung bình (>1,5 L/s) áp dụng mọi loại công trình (phương án 1); họng lưu lượng thấp bị giới hạn theo công năng/điều kiện.",
+   "dieu": "Phương án 1",
+   "nguon": "37d9e08d484e"
+  }
+ ]
+}

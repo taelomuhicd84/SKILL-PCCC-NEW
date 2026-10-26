@@ -1,0 +1,40 @@
+{
+ "slug": "do-choi",
+ "ten": "Độ chói",
+ "dong_nghia": [
+  "luminance"
+ ],
+ "anh_huong": [
+  "m14-den-su-co"
+ ],
+ "lien_quan": [
+  "Độ rọi",
+  "Biển báo an toàn"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [
+  {
+   "y": "Đại lượng dẫn xuất trong quang học, đặc trưng cho khả năng bức xạ ánh sáng của nguồn sáng gây nên cảm giác chói sáng đối với mắt. Đơn vị là cd/m².",
+   "dieu": "3.13",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Độ chói biển báo an toàn khi không có sự cố theo ISO 3864-1; khi có sự cố tối thiểu 2 cd/m² theo mọi hướng, tối thiểu 10 cd/m² khi tầm nhìn bị ảnh hưởng nhiều do khói.",
+   "dieu": "5.2.4",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Độ chói (cd/m²) áp dụng cho biển báo; độ rọi (lux) áp dụng cho mặt sàn.",
+   "dieu": "3.12, 3.13",
+   "nguon": "f0d3f93819cb"
+  }
+ ]
+}

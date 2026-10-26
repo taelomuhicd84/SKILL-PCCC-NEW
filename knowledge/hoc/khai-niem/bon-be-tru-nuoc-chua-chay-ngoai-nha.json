@@ -1,0 +1,113 @@
+{
+ "slug": "bon-be-tru-nuoc-chua-chay-ngoai-nha",
+ "ten": "Bồn, bể trữ nước chữa cháy ngoài nhà",
+ "dong_nghia": [
+  "Bồn, bể cấp nước chữa cháy",
+  "bể chứa nước dự trữ"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Trụ cấp nước chữa cháy",
+  "Thời gian chữa cháy",
+  "Thời gian phục hồi nước dự trữ chữa cháy",
+  "Mạng đường ống cụt"
+ ],
+ "ngay": "2026-10-26T04:01:34.447Z",
+ "dinh_nghia": [
+  {
+   "y": "Bồn, bể cấp nước theo công năng phải bao gồm cho điều tiết, chữa cháy, sự cố và nước mồi",
+   "dieu": "5.1.5.1",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Thể tích nước chữa cháy phải bảo đảm: cấp từ trụ nước ngoài nhà và các hệ thống chữa cháy khác; cấp cho thiết bị chữa cháy chuyên dụng (sprinkler, drencher...) không có bể riêng; lượng nước tối đa cho sinh hoạt và sản xuất trong suốt quá trình chữa cháy",
+   "dieu": "5.1.5.3",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Lượng nước chữa cháy xác định từ lượng nước tiêu thụ và thời gian chữa cháy theo 5.1.2.2–5.1.2.6 và 5.1.3.3",
+   "dieu": "5.1.5.8",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Bắt buộc có bồn, bể bảo đảm chữa cháy trong 3 giờ khi mạng ống ngoài nhà không đủ truyền lưu lượng tính toán, nối vào mạng cụt, hoặc khu dân cư không có đường ống nước chữa cháy",
+   "dieu": "Bảng 8 CHÚ THÍCH 1, 2",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Cho phép trữ nước trong bồn, bể chuyên dụng hoặc hồ nước hở với: khu dân cư đến 5 000 người; tòa nhà đứng riêng biệt không có đường ống nước sinh hoạt/sản xuất; nhà công năng khác nhau có lưu lượng ngoài nhà không quá 10 L/s; nhà 1–2 tầng có diện tích xây dựng không lớn hơn diện tích khoang cháy cho phép",
+   "dieu": "5.1.5.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Phải cung cấp hố thu khi không hút trực tiếp được bằng xe/máy bơm",
+   "dieu": "5.1.5.10",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Yêu cầu tổng số bồn, bể không nhỏ hơn 2 không áp dụng với bồn, bể cấp nước ngoài nhà của công trình độc lập",
+   "dieu": "5.1.5.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Cho phép không tính lượng nước bổ sung khi cấp bằng 1 đường ống dài không quá 500 m đối với khu dân cư đến 5 000 người, hoặc đối tượng có lưu lượng ngoài nhà không lớn hơn 40 L/s",
+   "dieu": "5.1.5.5",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Tổng số bồn, bể trong một mạng ống không nhỏ hơn 2; khi ngắt một bồn, bể thì lượng nước trữ trong các bồn, bể còn lại không nhỏ hơn 50% lượng nước yêu cầu",
+   "dieu": "5.1.5.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Khi cấp nước bằng 1 đường ống cấp thì phải dự phòng thêm lượng nước bổ sung cho chữa cháy",
+   "dieu": "5.1.5.5",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Bán kính phục vụ của bồn, bể, trụ nước, hồ khi có máy bơm xe chữa cháy: 400 m; được lắp ống cụt không quá 200 m đến bể trung gian (hố thu nước)",
+   "dieu": "5.1.5.9",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Hố thu thể tích không nhỏ hơn 3 m3; ống kết nối đường kính không nhỏ hơn 200 mm, có hộp van đóng mở được từ bên ngoài, đầu phía hồ nhân tạo có lưới chắn",
+   "dieu": "5.1.5.10",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Hồ ao cho xe chữa cháy hút nước phải có lối tiếp cận và bãi lấy nước chịu tải trọng xe chữa cháy; hồ nhân tạo hở: mực nước tối thiểu không nhỏ hơn 0,5 m, tính đến bốc hơi và đóng băng",
+   "dieu": "5.1.5.4, 5.1.5.8 CHÚ THÍCH 1, 2",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Bồn, bể áp lực: có thước đo mức nước và thiết bị báo tín hiệu mức nước cho trạm bơm/trạm phân phối; dùng khí ép thì ngoài máy ép vận hành phải có máy ép dự bị",
+   "dieu": "5.1.5.11, 5.1.5.12",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ tổng mặt bằng và thuyết minh: dung tích bể so với lưu lượng × thời gian chữa cháy (Bảng 7–10, 5.1.3.3), số bể, lối xe chữa cháy tiếp cận, bán kính 400 m, hố thu. Suy từ 5.1.5",
+   "dieu": "5.1.5",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Dễ nhầm với bể chứa nước trong nhà cấp cho họng nước/sprinkler (5.2.9) và với trụ cấp nước chữa cháy",
+   "dieu": "5.1.5, 5.2.9",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ]
+}

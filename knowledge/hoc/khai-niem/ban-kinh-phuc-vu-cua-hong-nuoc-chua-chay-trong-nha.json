@@ -1,0 +1,37 @@
+{
+ "slug": "ban-kinh-phuc-vu-cua-hong-nuoc-chua-chay-trong-nha",
+ "ten": "Bán kính phục vụ của họng nước chữa cháy trong nhà",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Họng nước chữa cháy lưu lượng thấp"
+ ],
+ "ngay": "2026-10-26T04:23:50.656Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Cho phép tăng bán kính phục vụ của các họng nước chữa cháy bằng việc kết nối các vòi chữa cháy với tổng chiều dài đến 40 m.",
+   "dieu": "Chú thích 3, Điều 5.2.11",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Các vòi phải treo ở dạng xếp trên giá đỡ và được kết nối sẵn với họng nước và lăng phun.",
+   "dieu": "Chú thích 3, Điều 5.2.11",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ/chi tiết họng có ghi vòi nối tổng dài ≤ 40 m, treo xếp trên giá đỡ, nối sẵn họng và lăng phun.",
+   "dieu": "suy từ 5.2.11",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "hay_nham": []
+}

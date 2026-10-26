@@ -1,0 +1,59 @@
+{
+ "slug": "mang-luoi-duong-ong-sprinkler",
+ "ten": "Mạng lưới đường ống Sprinkler",
+ "dong_nghia": [
+  "ống phân phối"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Cụm bảo vệ (hệ thống Sprinkler)"
+ ],
+ "ngay": "2026-10-26T04:29:36.048Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Đường kính ống phân phối và số đầu phun lắp trên đó xác định theo bảng tương quan. Với đầu phun có áp suất 0,5 MPa trở lên: DN20 – 1; DN25 – 3; DN32 – 5; DN40 – 9; DN50 – 18; DN70 – 28; DN80 – 46; DN100 – 80; DN125 – 150; DN150 – trên 150. Với áp suất đến 0,5 MPa: DN25 – 2; DN32 – 3; DN40 – 5; DN50 – 10; DN70 – 20; DN80 – 36; DN100 – 75; DN125 – 140; DN150 – trên 140.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đường ống có thể bằng kim loại, nhựa hoặc kim loại – nhựa, phù hợp với yêu cầu quy định hiện hành.",
+   "dieu": "Điều 5.5.1",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Phải có biện pháp ngăn áp lực trong đường ống chính và phân phối vượt quá 1 MPa.",
+   "dieu": "Điều 5.5.12",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Đường ống phải chịu được áp suất thử Pth = 1,25 × Plv.max.",
+   "dieu": "Điều 5.5.13",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Kết hợp với họng nước chữa cháy trong nhà: áp suất tại họng không vượt quá 0,4 MPa; lớn hơn thì phải có giải pháp giảm áp.",
+   "dieu": "Điều 5.2.23",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Các van khóa trên đường ống cấp vào máy bơm, đường ống cung cấp và đường ống chính phải giám sát được trực quan và tự động trạng thái đóng – mở.",
+   "dieu": "Điều 5.1.15",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đếm số đầu phun trên từng đoạn ống và so với bảng DN; xem ghi chú áp suất làm việc, van giám sát, giảm áp họng nước.",
+   "dieu": "suy từ bảng DN, Điều 5.1.15, 5.2.23, 5.5.12, 5.5.13",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "hay_nham": []
+}

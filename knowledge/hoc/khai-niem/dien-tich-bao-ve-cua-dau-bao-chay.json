@@ -1,0 +1,57 @@
+{
+ "slug": "dien-tich-bao-ve-cua-dau-bao-chay",
+ "ten": "Diện tích bảo vệ của đầu báo cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Kênh báo cháy",
+  "Lựa chọn đầu báo cháy"
+ ],
+ "ngay": "2026-10-26T04:28:22.955Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đầu báo cháy thường: khu vực kín 500 m2, khu vực hở 2000 m2",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Diện tích bảo vệ của đầu báo giảm 25% khi chiều cao kết cấu nhô ra ≤ 0,4 m; giảm 40% khi chiều cao kết cấu nhô ra > 0,4 m",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Lắp bổ sung đầu báo tại khu vực kết cấu có chiều rộng lớn hơn 0,75 m, chiều cao kết cấu lớn hơn 0,4 m",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Lắp đặt tại các khu vực trần treo hở và tại các mái dốc có độ dốc > 1/8",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Đầu báo tia chiếu: khoảng cách tia chiếu tới trần không quá 0,6 m",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Đèn chỉ thị tác động cho đầu báo thường phải chỉ thị cho tất cả các đầu báo lắp trong khu vực bảo vệ",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng bố trí đầu báo: diện tích mỗi đầu, kết cấu nhô ra (dầm), độ dốc mái (suy từ yêu cầu nguồn)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "he-thong-bao-chay-thong-minh",
+ "ten": "Hệ thống báo cháy thông minh",
+ "dong_nghia": [
+  "Intelligent fire alarm system"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy địa chỉ"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [
+  {
+   "y": "Ngoài chức năng báo cháy còn có khả năng đo lường các thông số của đám cháy tại khu vực lắp đặt đầu báo cháy như nhiệt độ, nồng độ khói; có thể tự điều chỉnh ngưỡng tác động của các đầu báo cháy để thích nghi với sự thay đổi của môi trường, nâng cao hiệu quả phát hiện cháy và giảm thiểu báo cháy giả.",
+   "dieu": "3.3",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

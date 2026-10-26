@@ -1,0 +1,76 @@
+{
+ "slug": "nghiem-thu-va-kiem-tra-bao-duong-tram-bom-nuoc-chua-chay",
+ "ten": "Nghiệm thu và kiểm tra bảo dưỡng trạm bơm nước chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "doc-ho-so"
+ ],
+ "lien_quan": [
+  "Trạm bơm nước chữa cháy",
+  "Tủ điều khiển máy bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T03:48:01.402Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Kết thúc nghiệm thu phải lập hồ sơ: phiếu kết quả thử nghiệm, vận hành và biên bản nghiệm thu; bản vẽ hoàn công; hồ sơ, tài liệu hướng dẫn vận hành, bảo dưỡng, sửa chữa thiết bị.",
+   "dieu": "3.3.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Chủ đầu tư thiết kế, thi công, kiểm tra, giám sát theo đúng thiết kế về PCCC đã được thẩm duyệt; thực hiện kiểm tra, bảo dưỡng theo quy định; lưu giữ hồ sơ, phiếu kết quả kiểm tra, bảo dưỡng, vận hành định kỳ để xuất trình khi cơ quan có thẩm quyền yêu cầu.",
+   "dieu": "5.1",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Trạm bơm đã được cơ quan Cảnh sát PCCC thẩm duyệt nhưng chưa xây dựng, lắp đặt mà không phù hợp quy chuẩn thì chủ đầu tư thực hiện giải pháp điều chỉnh phù hợp theo hướng dẫn của cơ quan Cảnh sát PCCC trước khi xây dựng, lắp đặt và nghiệm thu.",
+   "dieu": "5.6.2",
+   "nguon": "08bf60f5653f",
+   "can_xem": true
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nghiệm thu tủ điều khiển: tối thiểu không ít hơn 06 lần vận hành tự động và 06 lần vận hành thủ công; bơm điện vận hành ít nhất 5 phút ở tốc độ cao nhất mỗi lần.",
+   "dieu": "3.2.2, 3.2.3",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Thử nghiệm công suất ở 0%, 25%, 50%, 75%, 100%, 125% và 150% lưu lượng tải danh định.",
+   "dieu": "3.1.2.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Trạm bơm có từ 02 máy bơm hoạt động đồng thời trở lên: thử nghiệm nghiệm thu gồm thử dòng chảy của tất cả các máy bơm đang hoạt động đồng thời.",
+   "dieu": "3.1.1.4",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Kiểm tra hằng tuần: chạy không tải bơm điện tối thiểu 10 phút/lần/tuần, bơm diesel tối thiểu 30 phút/lần/tuần.",
+   "dieu": "4.1.2.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Nếu bơm giảm hơn 5% áp lực so với đường đặc tuyến thử nghiệm nghiệm thu ban đầu hoặc so với nhãn thì phải điều tra nguyên nhân.",
+   "dieu": "4.3.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Việc thiết kế, thi công, kiểm tra, bảo trì, bảo dưỡng và vận hành phải do đơn vị có đủ năng lực và tư cách pháp nhân. Trạm bơm phải công bố hợp quy theo Phương thức 8.",
+   "dieu": "5.2, 5.3",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem hồ sơ nghiệm thu có đủ biên bản, bản vẽ hoàn công, tài liệu hướng dẫn; suy từ 3.3.1.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "hay_nham": []
+}

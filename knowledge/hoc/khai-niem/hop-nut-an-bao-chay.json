@@ -1,0 +1,82 @@
+{
+ "slug": "hop-nut-an-bao-chay",
+ "ten": "Hộp nút ấn báo cháy",
+ "dong_nghia": [
+  "nút ấn báo cháy"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Trung tâm báo cháy",
+  "Đầu báo cháy",
+  "Hệ thống báo cháy"
+ ],
+ "ngay": "2026-10-26T04:53:50.362Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Lắp ở vị trí nhìn thấy rõ, tiếp cận dễ dàng, gần khu vực lối ra của tầng, công trình (tham khảo Phụ lục B); cho phép dùng chung vùng phát hiện cháy khi lắp bên ngoài.",
+   "dieu": "5.10.1, 5.10.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Có thể chỉ lắp hệ thống nút ấn khi không có yêu cầu tự động phát hiện cháy và các quy định khác cho phép.",
+   "dieu": "5.4",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Phải lắp đặt ở vị trí có thể nhìn thấy rõ và tiếp cận dễ dàng, gần khu vực lối ra của tầng, công trình (tham khảo Phụ lục B).",
+   "dieu": "5.10.1",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Cho phép lắp nút ấn báo cháy chung với vùng phát hiện cháy khi các nút ấn được lắp ở bên ngoài.",
+   "dieu": "5.10.2",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Khi quãng đường di chuyển vượt quá 45 m thì lắp thêm một hộp bổ sung và không cần áp dụng yêu cầu về vị trí trong 5.10.1.",
+   "dieu": "Chú thích 5.10.3",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Khoảng cách giữa các hộp nút ấn không vượt quá 45 m; quãng đường di chuyển vượt 45 m cần lắp bổ sung một hộp.",
+   "dieu": "5.10.3",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Lắp ở độ cao (1,4 ± 0,2) m tính từ mặt đường đi lại, có không gian trống nửa hình cầu bán kính 0,6 m quanh mặt trước.",
+   "dieu": "5.10.4",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khoảng cách giữa các hộp nút ấn báo cháy không được vượt quá 45 m.",
+   "dieu": "5.10.3",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Lắp ở chiều cao (1,4 ± 0,2) m tính từ mặt đường đi lại, có không gian trống dạng nửa hình cầu bán kính 0,6 m quanh mặt trước của hộp.",
+   "dieu": "5.10.4",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo trên mặt bằng tầng: khoảng cách giữa các nút ≤ 45 m, vị trí gần lối ra/cầu thang; xem chi tiết cao độ 1,4 ± 0,2 m; suy từ 5.10.",
+   "dieu": "5.10",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Xem bản vẽ mặt bằng báo cháy: khoảng cách giữa các hộp ≤ 45 m, vị trí gần lối ra tầng; xem chi tiết lắp đặt: cao độ (1,4 ± 0,2) m, không gian trống bán kính 0,6 m (suy từ 5.10.3, 5.10.4).",
+   "dieu": "suy từ 5.10.3, 5.10.4",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "hay_nham": []
+}

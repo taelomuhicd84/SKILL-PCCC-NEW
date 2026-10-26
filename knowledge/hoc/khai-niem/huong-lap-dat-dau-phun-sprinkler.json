@@ -1,0 +1,47 @@
+{
+ "slug": "huong-lap-dat-dau-phun-sprinkler",
+ "ten": "Hướng lắp đặt đầu phun Sprinkler",
+ "dong_nghia": [
+  "đầu phun hướng lên",
+  "đầu phun hướng xuống",
+  "đầu phun ngang (vách tường)",
+  "đầu phun âm trần"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nhiệt độ tác động danh định của đầu phun"
+ ],
+ "ngay": "2026-10-26T04:29:36.048Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hướng đầu phun phải phù hợp với đặc điểm kiến trúc khu vực bảo vệ (tầng hầm, văn phòng, căn hộ…) và với loại hệ thống Sprinkler.",
+   "dieu": "Điều 5.2.20, 5.4.3",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Cho phép lắp đầu phun âm trần tại trần treo trong các gian phòng có nguy cơ phát sinh cháy nhóm 1 (nội dung mới).",
+   "dieu": "Điều 5.1.13",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Hệ thống đường ống ướt (hoặc nhiệt độ > 5 °C): cho phép đầu phun hướng lên, xuống, ngang. Hệ thống đường ống khô (hoặc nhiệt độ < 5 °C): chỉ hướng lên, ngang.",
+   "dieu": "Điều 5.2.20, 5.4.3",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ hệ thống/mặt bằng: loại hệ thống (ướt/khô) và hướng đầu phun ghi trên bản vẽ có khớp không.",
+   "dieu": "suy từ Điều 5.2.20, 5.4.3",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "hay_nham": []
+}

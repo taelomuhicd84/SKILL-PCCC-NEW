@@ -1,0 +1,107 @@
+{
+ "slug": "bom-bu-ap",
+ "ten": "Bơm bù áp",
+ "dong_nghia": [
+  "Bơm duy trì áp"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Máy bơm nước chữa cháy",
+  "Máy bơm nước chữa cháy dự phòng",
+  "Tủ điều khiển máy bơm nước chữa cháy",
+  "Máy bơm dự phòng",
+  "Tủ điều khiển bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [
+  {
+   "y": "Bơm được thiết kế để duy trì áp lực trên hệ thống chữa cháy giữa các giới hạn định sẵn khi hệ thống không lưu thông nước.",
+   "dieu": "1.4.3",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Máy bơm duy trì áp lực thường trực trong hệ thống chữa cháy; không dùng bơm chữa cháy chính hoặc dự phòng để duy trì áp lực hệ thống.",
+   "dieu": "2.3.2, 2.3.5",
+   "nguon": "b6694167594c",
+   "can_xem": true
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Có thể bố trí chung thiết bị điều khiển bơm chữa cháy động cơ điện và bơm bù áp trong một tủ điều khiển, nhưng các khởi động từ phải riêng biệt, bố trí trên không gian tách biệt trong tủ.",
+   "dieu": "2.5.1.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không được sử dụng máy bơm nước chữa cháy chính hoặc máy bơm dự phòng để duy trì áp lực hệ thống.",
+   "dieu": "2.3.5",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Lưu lượng xác định theo tính toán, không nhỏ hơn 1% lưu lượng của máy bơm chữa cháy.",
+   "dieu": "2.3.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Áp lực đầu đẩy duy trì áp lực thường trực trong hệ thống lớn hơn áp lực chữa cháy thiết kế từ 0,3 bar đến 0,8 bar.",
+   "dieu": "2.3.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Đầu đẩy bố trí van một chiều. Nếu áp lực tại lưu lượng bằng không cộng áp lực lớn nhất tại cửa hút lớn hơn áp lực làm việc của thiết bị trên hệ thống, phải bố trí van an toàn trên ống đẩy, phía trước van một chiều.",
+   "dieu": "2.3.3, 2.3.4",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Áp lực dừng của bơm bù áp bằng 115% áp lực làm việc của bơm chữa cháy cộng áp suất tĩnh tại cửa hút của bơm bù.",
+   "dieu": "2.2.5",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Áp lực khởi động bơm bù áp thấp hơn áp lực dừng của nó tối thiểu 01 bar; áp lực khởi động bơm chữa cháy chính thấp hơn áp lực khởi động bơm bù áp tối thiểu 0,5 bar; áp lực khởi động bơm dự phòng thấp hơn bơm chính tối thiểu 01 bar.",
+   "dieu": "2.2.5",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Ống tín hiệu áp lực đường kính danh nghĩa không nhỏ hơn 15 mm, bằng thép không rỉ hoặc đồng, trích từ ống đẩy sau van một chiều; mỗi ống tín hiệu có hai van một chiều cách nhau không nhỏ hơn 1,5 m, lá van khoan lỗ đường kính 2,5 đến 3 mm.",
+   "dieu": "2.3.7, 2.3.9",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Áp lực đầu đẩy phải duy trì áp lực thường trực trong hệ thống lớn hơn áp lực chữa cháy thiết kế từ 0,3 bar đến 0,8 bar.",
+   "dieu": "2.3.2",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Nhãn trên vỏ bơm: loại bơm, mã bơm, số sê-ri, áp lực tối đa, lưu lượng, nhà sản xuất, nơi sản xuất, năm sản xuất.",
+   "dieu": "2.3.10",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý/thuyết minh: lưu lượng bơm bù so với 1% lưu lượng bơm chữa cháy, bảng áp lực khởi động – dừng; suy từ 2.3.1, 2.3.2, 2.2.5.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "So lưu lượng bơm bù áp với 1% lưu lượng bơm chữa cháy và áp đầu đẩy với áp chữa cháy thiết kế + 0,3–0,8 bar; suy từ 2.3.1, 2.3.2.",
+   "dieu": "2.3.1, 2.3.2",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bơm bù áp chỉ duy trì áp lực khi hệ thống không lưu thông nước; không thay cho bơm chữa cháy chính hoặc bơm dự phòng.",
+   "dieu": "1.4.3, 2.3.5",
+   "nguon": "08bf60f5653f"
+  }
+ ]
+}

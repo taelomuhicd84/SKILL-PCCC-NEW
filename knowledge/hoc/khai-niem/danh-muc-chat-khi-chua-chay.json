@@ -1,0 +1,39 @@
+{
+ "slug": "danh-muc-chat-khi-chua-chay",
+ "ten": "Danh mục chất khí chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "doc-ho-so"
+ ],
+ "lien_quan": [
+  "Hồ sơ thiết kế hệ thống chữa cháy bằng khí",
+  "Lượng khí chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tiêu chuẩn áp dụng theo loại khí: FK-5-1-12 – TCVN 7161-5 (ISO 14520-5); HFC 227ea – TCVN 7161-9 (ISO 14520-9); IG-100 (nitơ) – TCVN 7161-13 (ISO 14520-13); CF3I – ISO 14520-2; HCFC hỗn hợp A – ISO 14520-6; HFC 125 – ISO 14520-8; HFC 23 – ISO 14520-10; HFC 236fa – ISO 14520-11; IG-01 (argon) – ISO 14520-12; IG-55 (nitơ 50%, argon 50%) – ISO 14520-14; IG-541 (nitơ 52%, argon 40%, CO2 8%) – ISO 14520-15. Yêu cầu chung: TCVN 7161-1:2022 (ISO 14520-1:2015)",
+   "dieu": "Danh mục chất khí chữa cháy; Tiêu chuẩn áp dụng",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu loại khí ghi trong hồ sơ với tiêu chuẩn áp dụng tương ứng trong danh mục",
+   "dieu": "suy từ Danh mục chất khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Chỉ một số khí có tiêu chuẩn TCVN tương ứng (FK-5-1-12, HFC 227ea, IG-100); các khí còn lại trong nguồn chỉ nêu phần ISO 14520",
+   "dieu": "Danh mục chất khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ]
+}

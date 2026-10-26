@@ -1,0 +1,60 @@
+{
+ "slug": "ap-suat-thuy-tinh-cua-hong-nuoc-chua-chay",
+ "ten": "Áp suất thủy tĩnh của họng nước chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Áp suất tự do của họng nước chữa cháy",
+  "Họng nước chữa cháy trong nhà"
+ ],
+ "ngay": "2026-10-26T04:01:34.447Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Đo tại thiết bị vệ sinh - kỹ thuật (hệ thống nước sinh hoạt - chữa cháy) hoặc tại họng nước chữa cháy (hệ thống chữa cháy riêng biệt) đặt ở mức nước thấp nhất",
+   "dieu": "5.2.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khi tính toán, nếu áp suất trong hệ thống chữa cháy vượt quá 0,45 MPa thì phải lắp đặt mạng hệ thống chữa cháy riêng",
+   "dieu": "5.2.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Hệ thống nước sinh hoạt - chữa cháy: không vượt quá 0,45 MPa",
+   "dieu": "5.2.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Hệ thống chữa cháy riêng biệt: không vượt quá 0,6 MPa",
+   "dieu": "5.2.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Khi áp suất giữa van và đầu nối họng nước lớn hơn 0,45 MPa thì phải lắp màng ngăn và thiết bị điều chỉnh áp lực để giảm áp lực dư",
+   "dieu": "5.2.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem tính toán thủy lực/sơ đồ nguyên lý: áp suất tại họng thấp nhất so với 0,45 MPa (chung với sinh hoạt) hoặc 0,6 MPa (riêng); nếu vượt thì kiểm có màng ngăn/thiết bị giảm áp hoặc mạng riêng. Suy từ 5.2.6",
+   "dieu": "5.2.6",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác áp suất tự do: thủy tĩnh là giới hạn trên đo ở họng thấp nhất; tự do là áp suất đủ tạo tia nước đặc ở họng cao nhất, xa nhất",
+   "dieu": "5.2.6, 5.2.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ]
+}

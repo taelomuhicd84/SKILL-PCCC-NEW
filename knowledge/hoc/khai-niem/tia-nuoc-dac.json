@@ -1,0 +1,38 @@
+{
+ "slug": "tia-nuoc-dac",
+ "ten": "Tia nước đặc",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Áp suất tự do của họng nước chữa cháy",
+  "Họng nước chữa cháy trong nhà (phân loại theo lưu lượng)"
+ ],
+ "ngay": "2026-10-26T04:01:34.447Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Lưu lượng nước chữa cháy xác định căn cứ chiều cao tia nước đặc và đường kính đầu lăng phun theo Bảng 13 (lăng 13, 16, 19 mm; họng DN 50, DN 65; cuộn vòi 10, 15, 20 m)",
+   "dieu": "5.2.1; Bảng 13",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Bể áp lực cho nhà phải bảo đảm tia nước đặc cao trên 4 m tại tầng cao nhất hoặc tầng ngay dưới nơi đặt bể, không nhỏ hơn 6 m ở các tầng còn lại; số tia: 2 tia × 2,5 L/s trong 10 phút khi số tia tính toán từ 2 trở lên, 1 tia các trường hợp còn lại",
+   "dieu": "5.2.8",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Chiều cao tối thiểu 6 m (nhà có chiều cao PCCC đến 50 m), 8 m (nhà ở trên 50 m), 16 m (nhà công cộng, sản xuất, phụ trợ công nghiệp trên 50 m)",
+   "dieu": "5.2.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

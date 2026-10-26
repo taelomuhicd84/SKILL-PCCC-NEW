@@ -1,0 +1,46 @@
+{
+ "slug": "nha-hon-hop-trang-bi-he-thong-chua-chay-tu-dong",
+ "ten": "Nhà hỗn hợp (trang bị hệ thống chữa cháy tự động)",
+ "dong_nghia": [
+  "nhà hỗn hợp, nhà chung cư được xây dựng có mục đích sử dụng hỗn hợp"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Karaoke, vũ trường",
+  "Hệ thống chữa cháy tự động đóng gói (Package)"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà hỗn hợp không thuộc diện phải có chữa cháy tự động theo Bảng A.1 nhưng phần công năng bất kỳ của nhà có quy mô thuộc diện phải có chữa cháy tự động theo Bảng A.1 thì phải trang bị hệ thống chữa cháy tự động cho phần nhà đó.",
+   "dieu": "Bảng A.1, chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Karaoke, vũ trường trong nhà hỗn hợp: nếu phần kinh doanh karaoke, vũ trường có quy mô thuộc diện phải có chữa cháy tự động theo Bảng A.1, hoặc được bố trí từ tầng 3 trở lên, thì phải trang bị hệ thống chữa cháy tự động cho toàn bộ nhà.",
+   "dieu": "Bảng A.1, chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Mục 21 Bảng A.1: báo cháy tự động khi cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên; chữa cháy tự động khi chiều cao PCCC từ 25 m trở lên hoặc tổng diện tích sàn từ 5 000 m² trở lên.",
+   "dieu": "Bảng A.1, mục 21",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Rà từng phần công năng trong nhà hỗn hợp theo Bảng A.1; nếu phần nào thuộc diện chữa cháy tự động thì xem hồ sơ có chữa cháy tự động cho phần đó (hoặc cả nhà nếu có karaoke, vũ trường theo điều kiện trên). Suy từ chú thích (1).",
+   "dieu": "Bảng A.1, chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": []
+}

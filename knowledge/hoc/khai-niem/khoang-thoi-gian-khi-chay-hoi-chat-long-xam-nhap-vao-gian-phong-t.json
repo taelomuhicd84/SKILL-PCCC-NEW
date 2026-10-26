@@ -1,0 +1,39 @@
+{
+ "slug": "khoang-thoi-gian-khi-chay-hoi-chat-long-xam-nhap-vao-gian-phong-t",
+ "ten": "Khoảng thời gian khí cháy, hơi chất lỏng xâm nhập vào gian phòng (T)",
+ "dong_nghia": [
+  "T"
+ ],
+ "anh_huong": [
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Hạng nguy hiểm cháy nổ (xác định theo áp suất nổ dư)"
+ ],
+ "ngay": "2026-10-26T04:50:51.621Z",
+ "dinh_nghia": [
+  {
+   "y": "T là khoảng thời gian khí cháy, hơi của chất lỏng dễ cháy và chất lỏng cháy xâm nhập vào gian phòng; dùng tính khối lượng nhiên liệu m = W·Fn·T.",
+   "dieu": "SP 12.13130.2009 Công thức A.12",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bảng tính lấy T = 3600 s.",
+   "dieu": "SP 12.13130.2009 A.1.2 f)",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Nguồn không định nghĩa \"Hệ số T\" như một hệ số riêng. Ở đây T là khoảng thời gian (s).",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ]
+}

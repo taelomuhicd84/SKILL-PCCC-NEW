@@ -1,0 +1,92 @@
+{
+ "slug": "nha-o-rieng-le-ket-hop-kinh-doanh-dich-vu-san-xuat-kinh-doanh-hang-hoa-de-chay",
+ "ten": "Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ, sản xuất, kinh doanh hàng hóa dễ cháy",
+ "dong_nghia": [
+  "nhà ở riêng lẻ kết hợp sản xuất, kinh doanh"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nhà hỗn hợp",
+  "Thiết bị báo cháy độc lập",
+  "Chiều cao PCCC",
+  "Hệ thống họng nước chữa cháy trong nhà"
+ ],
+ "ngay": "2026-10-26T04:08:59.612Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Xét tỷ lệ phần diện tích để sản xuất, kinh doanh trên tổng diện tích sàn của nhà: dưới 30 %; từ 30 % đến 70 %; trên 70 %.",
+   "dieu": "Bảng A.1, mục 1, 2 và chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Phân biệt theo tỷ lệ diện tích sàn sản xuất, kinh doanh so với tổng diện tích của nhà: không quá 70 % hoặc trên 70 %.",
+   "dieu": "Bảng B.1, mục 1.1 và chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dưới 30 %: áp dụng mục 1 (kinh doanh dịch vụ) hoặc mục 2 (sản xuất, kinh doanh hàng hóa dễ cháy) của Bảng A.1.",
+   "dieu": "Bảng A.1, mục 1, 2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Từ 30 % đến 70 % tổng diện tích sàn: trang bị báo cháy tự động, thiết bị báo cháy độc lập và chữa cháy tự động như đối với nhà hỗn hợp.",
+   "dieu": "Bảng A.1, chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Trên 70 % tổng diện tích sàn: trang bị theo công năng sản xuất, kinh doanh.",
+   "dieu": "Bảng A.1, chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Phần diện tích sản xuất, kinh doanh không quá 70 %: trang bị họng nước chữa cháy trong nhà khi cao từ 7 tầng trở lên.",
+   "dieu": "Bảng B.1, mục 1.1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Phần diện tích sản xuất, kinh doanh trên 70 % trở lên: việc trang bị họng nước chữa cháy trong nhà thực hiện theo công năng sản xuất, kinh doanh.",
+   "dieu": "Bảng B.1, chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Mục 1: báo cháy tự động khi cao từ 7 tầng trở lên; chữa cháy tự động khi chiều cao PCCC từ 30 m trở lên. Mục 2: báo cháy tự động khi cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên; chữa cháy tự động khi chiều cao PCCC từ 30 m trở lên.",
+   "dieu": "Bảng A.1, mục 1, 2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Mỗi tầng của nhà phải có thiết bị cảnh báo âm thanh kết nối liên động với hệ thống báo cháy tự động hoặc thiết bị báo cháy độc lập.",
+   "dieu": "Bảng A.1, chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Lấy diện tích sản xuất, kinh doanh chia tổng diện tích sàn trong bảng thông số công trình, so với 30 % và 70 %, rồi chọn dòng áp dụng. Suy từ chú thích (2).",
+   "dieu": "Bảng A.1, chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Tính tỷ lệ diện tích sản xuất, kinh doanh trên tổng diện tích sàn từ bảng thống kê diện tích. Suy từ Bảng B.1.",
+   "dieu": "suy từ Bảng B.1, mục 1.1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ngưỡng 30 % và 70 % quyết định áp dụng theo nhà ở riêng lẻ, theo nhà hỗn hợp hay theo công năng sản xuất, kinh doanh.",
+   "dieu": "Bảng A.1, chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

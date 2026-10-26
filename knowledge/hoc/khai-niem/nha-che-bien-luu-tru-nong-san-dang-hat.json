@@ -1,0 +1,45 @@
+{
+ "slug": "nha-che-bien-luu-tru-nong-san-dang-hat",
+ "ten": "Nhà chế biến, lưu trữ nông sản dạng hạt",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nhà dạng hở"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Báo cháy tự động khi tổng diện tích sàn từ 500 m² trở lên; chữa cháy tự động khi tổng diện tích sàn từ 3 000 m² trở lên.",
+   "dieu": "Bảng A.1, mục 29",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không yêu cầu trang bị báo cháy tự động, chữa cháy tự động đối với nhà dạng hở để chế biến, lưu trữ nông sản dạng hạt.",
+   "dieu": "Bảng A.1, chú thích (6)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Kiểm nhà có dạng hở hay không (chú thích (5)) và tổng diện tích sàn so với 500 m² và 3 000 m². Suy từ Bảng A.1, mục 29.",
+   "dieu": "Bảng A.1, mục 29; chú thích (5), (6)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Các gian phòng kho, gian phòng sản xuất nằm trong nhà và cơ sở chế biến, lưu trữ nông sản dạng hạt được loại khỏi mục 1.4, 1.5, 2.2, 2.3 Bảng A.3.",
+   "dieu": "Bảng A.3, mục 1.4, 1.5, 2.2, 2.3",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

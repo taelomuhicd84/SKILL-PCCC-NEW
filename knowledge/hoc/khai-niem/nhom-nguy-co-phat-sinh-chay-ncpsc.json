@@ -1,0 +1,40 @@
+{
+ "slug": "nhom-nguy-co-phat-sinh-chay-ncpsc",
+ "ten": "Nhóm nguy cơ phát sinh cháy (NCPSC)",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Hệ số K đầu phun",
+  "Diện tích tính toán tối thiểu",
+  "Cường độ phun"
+ ],
+ "ngay": "2026-10-26T04:50:06.253Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Xác định theo Phụ lục A TCVN 7336:2021. Ví dụ trong bảng tính: nhà máy sản xuất sản phẩm thuốc và vật tư y tế thuộc Nhóm 2.",
+   "dieu": "Phụ lục A TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhóm NCPSC là căn cứ để chọn hệ số K đầu phun, diện tích tính toán tối thiểu và cường độ phun tối thiểu.",
+   "dieu": "Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu công năng công trình với Phụ lục A TCVN 7336:2021 để xác định nhóm, rồi xem bảng tính đã dùng đúng trị số của nhóm đó chưa. Suy từ nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,48 @@
+{
+ "slug": "tai-trong-chay-rieng",
+ "ten": "Tải trọng cháy riêng",
+ "dong_nghia": [
+  "tải trọng cháy",
+  "Hạng nguy hiểm cháy C3"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m02-bac-chiu-lua"
+ ],
+ "lien_quan": [
+  "Hạng nguy hiểm cháy nổ",
+  "Bậc chịu lửa"
+ ],
+ "ngay": "2026-10-26T04:40:34.533Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tổng tải trọng cháy Q = tổng (nhiệt lượng cháy thấp × khối lượng) của các vật liệu cháy (giấy và giá gỗ trong ví dụ). Tải trọng cháy riêng q = Q/S, với S là diện tích chiếm chỗ vật liệu trên sàn (trong ví dụ S = 20 m², không phải diện tích gian phòng 30 m²).",
+   "dieu": "Ví dụ phân hạng C",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Ví dụ: giấy 100 kg × 13,4 MJ/kg + gỗ 30 kg × 13,8 MJ/kg = 1754 MJ; q = 1754/20 = 87,7 MJ/m², thuộc khoảng 1–180 MJ/m². Do diện tích tải trọng cháy > 10 m² nên gian phòng hạng C3.",
+   "dieu": "Ví dụ phân hạng C",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khi không có tính toán cụ thể để phân hạng nguy hiểm cháy và cháy nổ, có thể tham khảo hạng của một số nhà và gian phòng thuộc phân xưởng, nhà kho, bộ phận sản xuất tại C.3.2 QCVN 06:2022/BXD.",
+   "dieu": "C.3.2 QCVN 06:2022/BXD",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Kiểm danh mục vật liệu, khối lượng, nhiệt lượng cháy thấp, diện tích chiếm chỗ; tính q và đối chiếu khoảng MJ/m² cùng ngưỡng diện tích 10 m².",
+   "dieu": "suy từ ví dụ trong nguồn",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": []
+}

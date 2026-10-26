@@ -1,0 +1,69 @@
+{
+ "slug": "dai-ngan-chay-theo-phuong-dung",
+ "ten": "Dải ngăn cháy theo phương đứng",
+ "dong_nghia": [
+  "dải tường ngoài theo phương đứng"
+ ],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m02-bac-chiu-lua"
+ ],
+ "lien_quan": [
+  "Đai ngăn cháy giữa các tầng",
+  "Tường ngăn cháy",
+  "Cấp nguy hiểm cháy kết cấu"
+ ],
+ "ngay": "2026-10-26T04:00:17.299Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Dùng để chia cắt/tiếp giáp tại chỗ các bộ phận ngăn cháy giao với tường ngoài khi ngăn chặn cháy lan theo phương ngang của mặt ngoài nhà",
+   "dieu": "4.32.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép không áp dụng 4.32.1 nếu nhà được trang bị chữa cháy tự động",
+   "dieu": "4.32.2",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Tường ngăn cháy loại 1 phải chia cắt các tường ngoài có cấp nguy hiểm cháy K1, K2, K3 và vươn ra khỏi mặt phẳng tường ngoài tối thiểu 30 cm",
+   "dieu": "4.32.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Cho phép không chia cắt tường ngoài nếu tường ngoài có cấp K0, hoặc tường ngăn cháy loại 1 tiếp giáp dải tường ngoài theo phương đứng rộng tối thiểu 1,2 m, giới hạn chịu lửa không thấp hơn E 60 và cấp K0",
+   "dieu": "4.32.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Tường ngăn cháy loại 2 và vách ngăn cháy loại 1 giao với tường ngoài phải tiếp giáp dải ngăn cháy theo phương đứng rộng không nhỏ hơn 1 m, có giới hạn chịu lửa quy định cho tường ngoài theo Bảng 4 hoặc Bảng A.1 tùy chiều cao nhà",
+   "dieu": "4.32.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Vách ngăn cháy loại 2 phải tiếp xúc với dải tường ngoài đặc theo phương đứng rộng không nhỏ hơn 1 m, giới hạn chịu lửa như trên",
+   "dieu": "4.32.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng/mặt đứng: chiều rộng dải tại vị trí tường/vách ngăn cháy giao tường ngoài (1,2 m với tường loại 1; 1 m với tường loại 2, vách loại 1 và 2); tường ngăn cháy loại 1 vươn ≥30 cm; cấp K của tường ngoài",
+   "dieu": "suy từ 4.32.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Dải ngăn cháy theo phương đứng (rộng 1,2 m hoặc 1 m) khác đai ngăn cháy giữa các tầng (cao ≥1,0 m, ô văng ≥0,6 m)",
+   "dieu": "4.32.1, 4.33.1",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ]
+}

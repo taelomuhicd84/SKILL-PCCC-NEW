@@ -1,0 +1,110 @@
+{
+ "slug": "he-thong-loa-thong-bao-va-huong-dan-thoat-nan",
+ "ten": "Hệ thống loa thông báo và hướng dẫn thoát nạn",
+ "dong_nghia": [
+  "Thiết bị loa cảnh báo và chỉ dẫn thoát nạn bằng giọng nói",
+  "Thiết bị loa cảnh báo cháy và điều khiển thoát nạn"
+ ],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m11-bao-chay",
+  "m17-lien-lac"
+ ],
+ "lien_quan": [
+  "Mức âm thanh tổng thể của tín hiệu loa",
+  "Mức âm thanh tín hiệu loa trong phòng ngủ"
+ ],
+ "ngay": "2026-10-26T04:07:56.942Z",
+ "dinh_nghia": [
+  {
+   "y": "Hệ thống phải bảo đảm mọi người trong nhà và công trình có thể nghe rõ thông báo, hướng dẫn khi có sự cố.",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Thuộc diện phải trang bị khi công trình nằm trong một dòng của Bảng G.1 (đối tượng và quy mô).",
+   "dieu": "Phụ lục G, Bảng G.1",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà, công trình phải trang bị hệ thống loa theo Phụ lục G.",
+   "dieu": "2.2.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Chung cư, nhà và công trình công cộng thuộc diện quản lý về PCCC: cao trên 10 tầng hoặc có từ 2 tầng hầm trở lên.",
+   "dieu": "Bảng G.1, STT 1",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Nhà karaoke, vũ trường (cơ sở kinh doanh dịch vụ karaoke, vũ trường) và nhà có công năng sử dụng tương tự; nhà hát; rạp chiếu phim; bệnh viện; nhà dưỡng lão: từ 50 người trên 1 tầng trở lên.",
+   "dieu": "Bảng G.1, STT 2",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Nhà để xe ô tô, xe máy dạng kín (độc lập hoặc trong nhà có chức năng khác): tổng diện tích sàn từ 18 000 m² trở lên.",
+   "dieu": "Bảng G.1, STT 3",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Nhà sản xuất: tổng diện tích sàn từ 18 000 m² trở lên và có từ 300 người trên 1 tầng trở lên.",
+   "dieu": "Bảng G.1, STT 4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Hầm giao thông đường bộ (hầm đường ô tô): chiều dài từ 500 m trở lên.",
+   "dieu": "Bảng G.1, STT 5",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Nhà ga hành khách thuộc cảng hàng không; nhà ga hành khách, đề-pô đường sắt; nhà ga hành khách, đề-pô đường sắt đô thị: không phụ thuộc quy mô.",
+   "dieu": "Bảng G.1, STT 6",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Thiết kế, lắp đặt phải bảo đảm các yêu cầu quy định tại H.4.",
+   "dieu": "2.2.5",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Số lượng thiết bị loa, cách bố trí và công suất phải đảm bảo mức âm thanh ở tất cả khu vực để ở phù hợp với các quy định của Quy chuẩn này.",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Thiết bị loa phát âm thanh có tần số trong dải từ 200 Hz đến 5 000 Hz.",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Loa gắn tường: phần trên cách mặt sàn ít nhất 2,3 m và cách trần tối thiểu 0,15 m.",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Phòng được bảo vệ nơi có người ở trong các thiết bị chống ồn, và phòng có mức ồn trên 95 dBA: phải kết hợp với cảnh báo bằng ánh sáng; được dùng thiết bị cảnh báo nhấp nháy bằng ánh sáng.",
+   "dieu": "H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu công năng, số tầng, số tầng hầm, diện tích sàn, số người trên 1 tầng, chiều dài hầm của công trình với Bảng G.1 để biết có phải trang bị không (suy từ Phụ lục G).",
+   "dieu": "suy từ Phụ lục G",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Xem bản vẽ bố trí loa: cao độ lắp loa trên tường ≥ 2,3 m từ sàn và ≥ 0,15 m từ trần; phòng ồn trên 95 dBA có thiết bị cảnh báo ánh sáng (suy từ H.4).",
+   "dieu": "suy từ H.4",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "hay_nham": []
+}

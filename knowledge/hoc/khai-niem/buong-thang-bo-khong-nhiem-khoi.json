@@ -1,0 +1,27 @@
+{
+ "slug": "buong-thang-bo-khong-nhiem-khoi",
+ "ten": "Buồng thang bộ không nhiễm khói",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m09-chong-khoi",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống đường ống khô có họng chờ cấp nước DN65"
+ ],
+ "ngay": "2026-10-26T04:08:59.612Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Họng chờ cấp nước DN65 của hệ thống đường ống khô được lắp tại các sảnh thang máy chữa cháy hoặc trong các khoang đệm của buồng thang bộ không nhiễm khói.",
+   "dieu": "2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

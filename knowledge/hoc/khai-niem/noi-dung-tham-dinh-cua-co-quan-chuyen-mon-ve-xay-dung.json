@@ -1,0 +1,44 @@
+{
+ "slug": "noi-dung-tham-dinh-cua-co-quan-chuyen-mon-ve-xay-dung",
+ "ten": "Nội dung thẩm định của cơ quan chuyên môn về xây dựng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m02-bac-chiu-lua",
+  "m03-khoang-cach",
+  "m04-giao-thong",
+  "m05-cong-nang",
+  "m06-ngan-chay",
+  "m07-thoat-nan",
+  "m08-thang-may-cc",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "nội dung thẩm định của cơ quan Công an",
+  "thẩm định thiết kế về PCCC (ba nơi thẩm định)"
+ ],
+ "ngay": "2026-10-26T03:46:27.194Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "(a) khoảng cách PCCC giữa các công trình, tới công trình tiếp giáp, ranh giới đất; (b) đường, bãi đỗ, vị trí, lối vào tiếp cận chữa cháy, cứu nạn; (c) lối thoát nạn, đường thoát nạn, thang bộ thoát nạn, thang máy chữa cháy, lối ra khẩn cấp, lối ra mái, gian lánh nạn; (d) bậc chịu lửa, phân chia khoang cháy, bố trí mặt bằng, công năng, hạng nguy hiểm cháy nổ, các bộ phận, cấu kiện, hệ thống kỹ thuật; (đ) giải pháp chống khói: thoát khói cho nhà, gian phòng; cấp không khí bảo vệ chống khói cho giếng thang máy, buồng thang bộ, khoang đệm.",
+   "dieu": "Điều 6 khoản 2 NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo.",
+   "dieu": "Điều 6 khoản 2 điểm e",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Các nội dung hệ thống/trang bị PCCC thuộc cơ quan Công an (Điều 9 khoản 2), không thuộc nhóm này.",
+   "dieu": "Điều 9 khoản 2",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ]
+}

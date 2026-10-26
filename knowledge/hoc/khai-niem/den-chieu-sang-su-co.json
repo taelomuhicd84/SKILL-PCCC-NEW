@@ -1,0 +1,28 @@
+{
+ "slug": "den-chieu-sang-su-co",
+ "ten": "Đèn chiếu sáng sự cố",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m07-thoat-nan",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống chữa cháy bằng khí",
+  "Cơ cấu làm trễ thời gian"
+ ],
+ "ngay": "2026-10-26T04:53:50.362Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khu vực có người được bảo vệ bằng hệ thống phun khí chữa cháy thể tích: đường thoát nạn phải được giữ thông thoáng mọi lúc và trang bị đầy đủ đèn chiếu sáng sự cố và chỉ dẫn thoát nạn để giảm tới mức nhỏ nhất quãng đường phải đi.",
+   "dieu": "mục Các khu vực có người, điểm c",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

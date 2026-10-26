@@ -1,0 +1,54 @@
+{
+ "slug": "nguon-dien-cua-may-bom-cap-nuoc",
+ "ten": "Nguồn điện của máy bơm cấp nước",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m13-cap-dien",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Máy bơm dự phòng"
+ ],
+ "ngay": "2026-10-26T04:18:40.747Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Máy bơm (chữa cháy, sinh hoạt, sản xuất) không cho phép ngừng cấp nước",
+   "dieu": "7.16",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Máy bơm không cho phép ngừng cấp nước phải bảo đảm cấp điện liên tục",
+   "dieu": "7.16",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Cấp điện liên tục bằng cách nối với hai nguồn điện độc lập",
+   "dieu": "7.16",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Nếu chỉ có một nguồn điện, cho phép đặt máy bơm chữa cháy dự phòng chạy bằng động cơ đốt trong",
+   "dieu": "7.16",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Máy bơm và động cơ điện phải nằm trên cùng trục",
+   "dieu": "7.17",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ cấp điện: có hai nguồn độc lập hay một nguồn kèm bơm dự phòng động cơ đốt trong (suy từ 7.16)",
+   "dieu": "7.16",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "hay_nham": []
+}

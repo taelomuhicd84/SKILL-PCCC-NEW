@@ -1,0 +1,44 @@
+{
+ "slug": "mat-na-phong-doc-cach-ly",
+ "ten": "Mặt nạ phòng độc cách ly",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m15-cnch",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Mặt nạ lọc độc"
+ ],
+ "ngay": "2026-10-26T04:06:22.541Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà, công trình phải trang bị mặt nạ phòng độc cách ly theo Phụ lục F. Trang bị tối thiểu 03 bộ cho: cơ sở chế biến khí đốt công suất từ 10 triệu m³ khí/ngày đêm trở lên; nhà máy lọc dầu, hóa dầu, lọc-hóa dầu (không phụ thuộc quy mô); kho dầu mỏ và sản phẩm dầu mỏ tổng dung tích từ 100 000 m³ trở lên; nhà máy thủy điện từ 1 000 MW trở lên; nhà máy nhiệt điện từ 600 MW trở lên; nhà máy dệt từ 25 triệu m²/năm trở lên; khu công nghiệp tổng diện tích từ 75 ha trở lên; bến cảng biển thuộc công trình cấp I trở lên có xuất, nhập chất nổ, chất khí, lỏng, rắn dễ cháy thuộc danh mục hàng hóa nguy hiểm.",
+   "dieu": "2.7.2, Bảng F.1 STT 3–10",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Tối thiểu 03 bộ; bố trí tại phòng trực điều khiển chống cháy hoặc khu vực thường trực PCCC, ở vị trí dễ thấy, dễ lấy, đúng hướng dẫn của nhà sản xuất.",
+   "dieu": "2.7.2, Bảng F.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu loại và quy mô cơ sở với các dòng 3–10 Bảng F.1; xem phòng trực có ghi tối thiểu 03 bộ (suy từ Bảng F.1).",
+   "dieu": "suy từ Bảng F.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác mặt nạ lọc độc ở đối tượng áp dụng, số lượng (tối thiểu 03 bộ, không tính theo đầu người) và vị trí đặt.",
+   "dieu": "2.7.2, Bảng F.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ]
+}

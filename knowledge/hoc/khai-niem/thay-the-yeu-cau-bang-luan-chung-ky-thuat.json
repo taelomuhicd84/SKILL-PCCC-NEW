@@ -1,0 +1,35 @@
+{
+ "slug": "thay-the-yeu-cau-bang-luan-chung-ky-thuat",
+ "ten": "Thay thế yêu cầu bằng luận chứng kỹ thuật",
+ "dong_nghia": [
+  "thay thế yêu cầu của Quy chuẩn"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "chung",
+  "ra-soat"
+ ],
+ "lien_quan": [
+  "Thẩm định thiết kế về PCCC"
+ ],
+ "ngay": "2026-10-26T04:07:26.921Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Trong một số trường hợp riêng biệt có thể thay thế một số yêu cầu của Quy chuẩn đối với công trình cụ thể khi có luận chứng kỹ thuật nêu rõ giải pháp bổ sung, thay thế bảo đảm an toàn cháy và được cơ quan quản lý về PCCC và CNCH chấp thuận: công trình thuộc khoản 1 Điều 9 TT 36/2025/TT-BCA và NĐ 105/2025/NĐ-CP do Cục Cảnh sát PCCC và CNCH chấp thuận; công trình thuộc khoản 2 Điều 9 TT 36/2025/TT-BCA, không thuộc diện thẩm định thiết kế nhưng phải trang bị phương tiện, do Phòng Cảnh sát PCCC và CNCH Công an cấp tỉnh chấp thuận.",
+   "dieu": "1.1.6",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Kiểm có luận chứng kỹ thuật kèm văn bản chấp thuận của đúng cơ quan; suy từ 1.1.6.",
+   "dieu": "suy từ 1.1.6",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "hay_nham": []
+}

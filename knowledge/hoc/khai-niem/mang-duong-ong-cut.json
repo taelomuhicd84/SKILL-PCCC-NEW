@@ -1,0 +1,62 @@
+{
+ "slug": "mang-duong-ong-cut",
+ "ten": "Mạng đường ống cụt",
+ "dong_nghia": [
+  "đường ống cụt"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Thời gian chữa cháy",
+  "Trụ cấp nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:09:37.893Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Mạng đường ống dẫn nước chữa cháy phải là mạng vòng. Cho phép làm đường ống cụt khi cấp nước chữa cháy hoặc sinh hoạt – chữa cháy nếu chiều dài đường ống không lớn hơn 200 m, không phụ thuộc lưu lượng nước chữa cháy yêu cầu.",
+   "dieu": "H.1.4.2",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Khu dân cư đến 5 000 người và lưu lượng nước chữa cháy ngoài nhà đến 10 L/s, hoặc số họng nước chữa cháy trong nhà mỗi nhà đến 12 họng: cho phép mạng cụt dài trên 200 m nếu có bồn bể, tháp nước áp lực hoặc bể điều tiết dành cho mạng cụt chứa toàn bộ lượng nước chữa cháy.",
+   "dieu": "H.1.4.2",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Để tăng phạm vi phục vụ, cho phép lắp đường ống cụt dài không quá 200 m từ bể, hồ nhân tạo đến bể trung gian (hố thu nước).",
+   "dieu": "H.1.5.8",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không cho phép nối vòng mạng đường ống ngoài nhà bằng mạng đường ống bên trong nhà và công trình.",
+   "dieu": "H.1.4.2",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Khi hiệu suất mạng ống ngoài nhà không đủ truyền lưu lượng tính toán, hoặc khi liên kết ống vào mạng cụt, cần xem xét lắp bồn, bể bảo đảm lưu lượng chữa cháy ngoài nhà trong 3 h.",
+   "dieu": "Bảng H.2, chú thích 1",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Nhánh cụt trong nhà: van khóa bố trí để mỗi đoạn ống chỉ khóa nhiều nhất 5 họng nước chữa cháy trên cùng một tầng.",
+   "dieu": "H.2.17",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ cấp nước chữa cháy ngoài nhà: có vòng không, đoạn cụt dài bao nhiêu m so với 200 m; suy từ H.1.4.2.",
+   "dieu": "H.1.4.2",
+   "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,65 @@
+{
+ "slug": "module-dia-chi",
+ "ten": "Module địa chỉ",
+ "dong_nghia": [
+  "Module đầu vào",
+  "Module đầu ra",
+  "Input Module",
+  "Output Module"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m09-chong-khoi",
+  "m08-thang-may-cc"
+ ],
+ "lien_quan": [
+  "Điều khiển liên động"
+ ],
+ "ngay": "2026-10-26T04:28:22.955Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Module đầu vào có điện áp / không điện áp; module đầu ra có điện áp / không điện áp; module kết hợp vào/ra; có thể có 1, 2 hoặc 4 đầu vào/đầu ra độc lập tùy hãng",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Module đầu vào (giám sát): kết nối nút ấn, công tắc dòng chảy, giám sát van chặn, công tắc áp lực (thiết bị tiếp điểm, công tắc không yêu cầu nguồn khi hoạt động)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Module đầu ra (điều khiển): kết nối chuông, đèn, còi báo cháy không địa chỉ, van điện từ (thiết bị công suất tiêu thụ nhỏ)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Module đầu ra không điện áp: kết nối liên động với hệ thống kỹ thuật công suất lớn như tăng áp, hút khói, thang máy",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Module kết hợp: giám sát/điều khiển tại chỗ đơn lẻ, cục bộ; kết nối với đầu báo cháy thường",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý báo cháy và bảng module: loại module phù hợp thiết bị được giám sát/điều khiển (suy từ nội dung nguồn)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Module có điện áp và không điện áp khác nhau ở việc có cấp nguồn/điện áp ở ngõ vào–ra hay chỉ là tiếp điểm khô",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ]
+}

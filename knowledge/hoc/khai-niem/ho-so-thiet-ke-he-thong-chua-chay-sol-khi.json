@@ -1,0 +1,34 @@
+{
+ "slug": "ho-so-thiet-ke-he-thong-chua-chay-sol-khi",
+ "ten": "Hồ sơ thiết kế hệ thống chữa cháy Sol-khí",
+ "dong_nghia": [],
+ "anh_huong": [
+  "doc-ho-so",
+  "m12-chua-chay",
+  "huong-dan"
+ ],
+ "lien_quan": [
+  "Nồng độ thiết kế (chữa cháy Sol-khí)",
+  "Bình phun Sol-khí"
+ ],
+ "ngay": "2026-10-26T04:25:20.406Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hồ sơ thiết kế hệ thống phải thể hiện: mặt bằng và kết cấu tường bao, tường ngăn khu vực bảo vệ; mặt bằng tường ngăn cháy (nếu có); mặt cắt, mặt bằng sàn, sàn kỹ thuật, trần, trần treo; loại Sol-khí; nồng độ thiết kế; (khu vực thường có người) nồng độ thiết kế lớn nhất cho phép; loại và sức chứa danh định (khối lượng) của bình phun; dây cáp, dây điện; phương pháp gắn đầu báo; danh mục thiết bị; sơ đồ khu vực bảo vệ (tường bao, chiều cao toàn phần/từng phần, đầu báo, chuông đèn, điều khiển, sơ đồ đấu dây, thiết bị cuối kênh, thiết bị được điều khiển như van/cửa chớp, biển chỉ dẫn, vị trí bình phun); sơ đồ tủ hiển thị phụ (nếu có); chi tiết giá đỡ ống, gắn bình phun; mô tả vận hành (ngắt tạm dừng, ngắt bảo trì, thời gian trễ, ngắt điện khẩn cấp); sơ đồ kết nối; tính toán thể tích, lượng chất, nguồn điện dự phòng, số lượng và vị trí thiết bị âm thanh, hình ảnh, đầu báo; khoảng cách tối thiểu từ bình phun đến vật liệu dễ cháy và đến lối ra thoát nạn; các tính năng đặc biệt khác.",
+   "dieu": "mục a–t",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu từng mục a–t với bản vẽ và thuyết minh; mục thiếu ghi CẦN XÁC NHẬN.",
+   "dieu": "suy từ mục a–t",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,76 @@
+{
+ "slug": "khoang-dem-ngan-chay",
+ "ten": "Khoang đệm ngăn cháy",
+ "dong_nghia": [
+  "khoang đệm",
+  "khoang đệm có áp suất không khí dương"
+ ],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m09-chong-khoi",
+  "m07-thoat-nan",
+  "m08-thang-may-cc"
+ ],
+ "lien_quan": [
+  "Buồng thang bộ không nhiễm khói",
+  "Phụ lục D",
+  "Hạng nguy hiểm cháy nổ"
+ ],
+ "ngay": "2026-10-26T04:00:17.299Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Cửa đi trong bộ phận ngăn cháy ngăn gian phòng hạng A hoặc B với không gian khác (phòng hạng khác A/B, hành lang, buồng thang bộ, sảnh thang máy) phải bố trí khoang đệm luôn có áp suất không khí dương theo Phụ lục D",
+   "dieu": "4.19",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Tầng hầm, tầng nửa hầm: trước lối vào thang máy phải bố trí khoang đệm ngăn cháy loại 1 có áp suất không khí dương khi cháy",
+   "dieu": "4.28",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Thang bộ riêng nối tầng hầm/nửa hầm với tầng một phải bao che bằng vách ngăn cháy loại 1 với khoang đệm ngăn cháy có áp suất dương khi cháy",
+   "dieu": "4.25",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Nhà có buồng thang bộ không nhiễm khói: giếng thang máy mà cửa ra không có khoang đệm ngăn cháy áp suất dương khi cháy phải có bảo vệ chống khói tự động",
+   "dieu": "4.23",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không được bố trí khoang đệm chung cho hai gian phòng trở lên cùng hạng A hoặc B",
+   "dieu": "4.19",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Cho phép không bố trí khoang đệm cho thang bộ tầng hầm/nửa hầm trong nhà nhóm F5 khi thang dẫn từ tầng hầm/nửa hầm có gian phòng hạng C4, D, E vào gian phòng cùng hạng ở tầng một",
+   "dieu": "4.25",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Khi không bố trí được khoang đệm (phòng hạng A, B) hoặc cửa (phòng hạng C) trong bộ phận ngăn cháy, phải thiết lập tổ hợp giải pháp ngăn lan truyền đám cháy và ngăn khí, hơi, bụi, xơ dễ cháy tạo nồng độ nổ xâm nhập phòng/tầng liền kề; hiệu quả phải được chứng minh",
+   "dieu": "4.20",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Giữa các gian phòng liền kề hạng C, D, E khi không đóng được bằng cửa ngăn cháy, cho phép khoang đệm hở có chữa cháy tự động; kết cấu bao che là kết cấu ngăn cháy phù hợp",
+   "dieu": "4.20",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng tầng hầm, buồng thang, sảnh thang máy, phòng hạng A/B: có khoang đệm áp suất dương hay không, có dùng chung không; đối chiếu hệ thống tăng áp Phụ lục D",
+   "dieu": "suy từ 4.19, 4.25, 4.28",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "hay_nham": []
+}

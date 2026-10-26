@@ -1,0 +1,69 @@
+{
+ "slug": "cong-nang-chinh-chiem-toi-thieu-90-dien-tich-san-tang",
+ "ten": "Công năng chính (chiếm tối thiểu 90% diện tích sàn tầng)",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m05-cong-nang",
+  "m06-ngan-chay",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Nhóm nguy hiểm cháy theo công năng",
+  "Hạng nguy hiểm cháy nổ",
+  "Bậc chịu lửa"
+ ],
+ "ngay": "2026-10-26T04:00:17.299Z",
+ "dinh_nghia": [
+  {
+   "y": "Tầng nhà có từ hai công năng khác nhau trở lên, trong đó một công năng chính chiếm tối thiểu 90% diện tích sàn tầng và các công năng còn lại là phụ trợ cho công năng chính",
+   "dieu": "4.5",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Tính tỷ lệ diện tích công năng chính trên diện tích sàn tầng (≥90%) và xét các công năng còn lại có phụ trợ cho công năng chính hay không",
+   "dieu": "suy từ 4.5",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cho phép không phân chia các khu vực thuộc nhóm nguy hiểm cháy theo công năng khác nhau bằng bộ phận ngăn cháy; toàn bộ tầng tuân thủ yêu cầu an toàn cháy của nhóm nguy hiểm cháy theo công năng chính",
+   "dieu": "4.5",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không áp dụng khi gian phòng công năng phụ trợ có hạng nguy hiểm cháy và cháy nổ cao hơn gian phòng công năng chính",
+   "dieu": "4.5",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Phải ngăn cách khu vực có nhóm nguy hiểm cháy theo công năng A, B, C với các khu vực có công năng ở hoặc công năng công cộng khác",
+   "dieu": "4.5",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Tầng (hoặc phần tầng đã ngăn cách) có từ hai công năng trở lên mà không ngăn cách theo quy chuẩn thì yêu cầu an toàn cháy lấy theo yêu cầu cao nhất giữa các công năng",
+   "dieu": "4.5",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Ngăn cách giữa các phần nhà/gian phòng khác nhóm công năng bằng bộ phận ngăn chia theo quy định hoặc bộ phận ngăn cháy giới hạn chịu lửa tối thiểu EI 45 (nhà bậc chịu lửa I–III), tối thiểu EI 15 (nhà bậc chịu lửa IV), hoặc giải pháp tương đương, trừ khi có quy định khác",
+   "dieu": "4.5",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bảng diện tích công năng từng tầng: tỷ lệ công năng chính ≥90%; kiểm các phòng phụ trợ có hạng cháy nổ cao hơn công năng chính không",
+   "dieu": "suy từ 4.5",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "hay_nham": []
+}

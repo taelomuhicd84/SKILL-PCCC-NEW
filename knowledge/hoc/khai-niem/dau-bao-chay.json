@@ -1,0 +1,43 @@
+{
+ "slug": "dau-bao-chay",
+ "ten": "Đầu báo cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy",
+  "Hộp nút ấn báo cháy",
+  "Mối nguy hiểm"
+ ],
+ "ngay": "2026-10-26T04:53:50.362Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khi có nhiều khu vực không được bảo vệ do đồ vật như máy bay, thiết bị hoặc giá bảo quản thì phải lắp thêm đầu báo cháy bổ sung để bao phủ các khu vực này.",
+   "dieu": "TCVN 7568-14:2025 (trước 5.9.4)",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Cần hiểu nguyên lý hoạt động của đầu báo cháy lửa (hồng ngoại hoặc tia cực tím) để chọn và định vị đúng thiết bị phù hợp với mối nguy hiểm cháy và mức bảo vệ yêu cầu; hướng dẫn của nhà sản xuất cung cấp thông tin về kiểu đầu báo cháy được chọn.",
+   "dieu": "Chú thích, TCVN 7568-14:2025",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đầu báo cháy hỗn hợp (đa cảm biến) mà chỉ có cảm biến nhiệt hoạt động thì đầu báo cháy lắp đặt phải bảo đảm theo yêu cầu đối với đầu báo nhiệt.",
+   "dieu": "5.9.4.1",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Đầu báo cháy thay đổi được thông số kỹ thuật (ngưỡng tác động, thời gian tác động) thì các giá trị này phải bảo đảm trong giới hạn cho phép.",
+   "dieu": "5.9.4.2",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

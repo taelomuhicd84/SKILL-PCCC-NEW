@@ -1,0 +1,73 @@
+{
+ "slug": "dong-co-diesel-dan-dong-bom",
+ "ten": "Động cơ diesel dẫn động bơm",
+ "dong_nghia": [
+  "Động cơ diesel"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Máy bơm nước chữa cháy",
+  "Tủ điều khiển máy bơm nước chữa cháy",
+  "Trạm bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T03:48:01.402Z",
+ "dinh_nghia": [
+  {
+   "y": "Động cơ diesel là động cơ đốt trong, trong đó nhiên liệu được đốt hoàn toàn bằng nhiệt lượng sinh ra từ sự nén ép lượng khí cung cấp cho buồng đốt.",
+   "dieu": "1.4.6",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Động cơ diesel là một trong hai loại động cơ được phép dẫn động bơm nước chữa cháy (cùng động cơ điện).",
+   "dieu": "2.2.3",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Là động cơ 4 thì; công suất bằng hoặc lớn hơn công suất tối đa trên trục bơm trong thời gian làm việc liên tục tối thiểu 4 giờ; dải công suất ở chế độ dài hạn không nhỏ hơn 110% công suất yêu cầu lớn nhất trên trục bơm.",
+   "dieu": "2.4.2.1, 2.4.2.2, 2.4.2.3",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Phải có thiết bị dừng động cơ khi tốc độ vượt quá 120% tốc độ định mức lớn nhất, tái thiết lập bằng tay.",
+   "dieu": "2.4.2.5",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Phải có hai bộ ắc quy; mỗi bộ có dung lượng gấp đôi điện lượng bảo đảm khởi động 6 lần liên tiếp, mỗi lần đề máy 15 giây, nghỉ 15 giây; ắc quy đặt trên giá kim loại cao hơn sàn tối thiểu 305 mm.",
+   "dieu": "2.4.2.10",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Bình chứa dầu dung tích không nhỏ hơn 110% giá trị tối thiểu 5 L/kW (1 gal/Hp), trong đó 5% cho giãn nở và 5% cho phần chứa dầu cặn; mỗi động cơ diesel có một bình chứa dầu riêng.",
+   "dieu": "2.4.2.17",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Mỗi động cơ bơm có một ống khí thải độc lập, đường kính không nhỏ hơn đầu xả khí thải; khí thải dẫn tới vị trí an toàn bên ngoài phòng bơm.",
+   "dieu": "2.4.2.19",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Khoảng cách tối thiểu giữa tủ điều khiển bơm và bồn nhiên liệu là 2 m khi không có vách ngăn.",
+   "dieu": "2.1.4",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh/bản vẽ trạm bơm diesel: dung tích bình dầu so với công suất, số bộ ắc quy, ống khí thải; suy từ 2.4.2.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "hay_nham": []
+}

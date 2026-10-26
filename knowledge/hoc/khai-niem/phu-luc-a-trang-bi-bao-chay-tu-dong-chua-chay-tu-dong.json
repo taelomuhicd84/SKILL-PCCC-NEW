@@ -1,0 +1,59 @@
+{
+ "slug": "phu-luc-a-trang-bi-bao-chay-tu-dong-chua-chay-tu-dong",
+ "ten": "Phụ lục A (trang bị báo cháy tự động, chữa cháy tự động)",
+ "dong_nghia": [
+  "Bảng A.1",
+  "Bảng A.2",
+  "Bảng A.3",
+  "Bảng A.4"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "m01-phan-loai",
+  "chung"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy tự động",
+  "Hệ thống chữa cháy tự động",
+  "Thiết bị báo cháy độc lập"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [
+  {
+   "y": "Phụ lục A (quy định) nêu quy định về trang bị hệ thống báo cháy tự động, thiết bị báo cháy độc lập và hệ thống chữa cháy tự động, thiết bị chữa cháy tự động kích hoạt.",
+   "dieu": "Phụ lục A",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Thứ tự xét: Bảng A.1 cho toàn nhà, rồi Bảng A.2 cho hạng mục/khu vực, Bảng A.3 cho gian phòng, Bảng A.4 cho thiết bị trong phạm vi công trình. Chú thích (1), (2), (3) của từng bảng ở cuối bảng.",
+   "dieu": "1.5.9; Phụ lục A",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Danh mục nhà, hạng mục/khu vực, gian phòng, thiết bị phải trang bị hệ thống báo cháy tự động, thiết bị báo cháy độc lập và chữa cháy tự động được quy định tại Phụ lục A.",
+   "dieu": "2.1.1; 2.5.1",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xét lần lượt Bảng A.1 (nhà), A.2 (hạng mục/khu vực), A.3 (gian phòng), A.4 (thiết bị); đọc cả chú thích cuối bảng. Suy từ 1.5.9.",
+   "dieu": "1.5.9",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Dấu \"-\" trong các bảng nghĩa là không bắt buộc phải trang bị hệ thống báo cháy tự động/chữa cháy tự động, không phải là cấm.",
+   "dieu": "Chú thích chung của Phụ lục A",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

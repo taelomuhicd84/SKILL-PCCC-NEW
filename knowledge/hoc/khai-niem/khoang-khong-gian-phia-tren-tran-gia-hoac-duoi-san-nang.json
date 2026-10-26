@@ -1,0 +1,65 @@
+{
+ "slug": "khoang-khong-gian-phia-tren-tran-gia-hoac-duoi-san-nang",
+ "ten": "Khoảng không gian phía trên trần giả hoặc dưới sàn nâng",
+ "dong_nghia": [
+  "không gian trần giả",
+  "không gian sàn nâng"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Hạng mục cáp",
+  "Hệ thống báo cháy tự động"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Khoảng không gian có chiều cao từ 0,35 m trở lên, thuộc các khu vực trong các gian phòng, nhà thuộc diện trang bị chữa cháy tự động và/hoặc báo cháy tự động.",
+   "dieu": "Bảng A.2, mục 7",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Có đường ống kỹ thuật được bọc bằng vật liệu có tính cháy Ch2–Ch4 (không phụ thuộc khối lượng): phải có báo cháy tự động, không phụ thuộc quy mô.",
+   "dieu": "Bảng A.2, mục 7.1",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Có máng cáp (bó cáp) điện áp từ 220 V trở lên và tổng thể tích chất cháy thuộc nhóm Ch2 đến Ch4 từ 0,0015 m³ chiều dài trở lên: phải có báo cháy tự động, không phụ thuộc quy mô.",
+   "dieu": "Bảng A.2, mục 7.2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Các khu vực áp dụng mục 7.1, 7.2: hành lang thoát nạn, hội trường, tiền sảnh; gian phòng có từ 50 người trở lên; gian phòng cấp nguy hiểm cháy theo công năng nhóm F1.1 và F4.1 và kinh doanh dịch vụ karaoke, vũ trường.",
+   "dieu": "Bảng A.2, chú thích (3)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép không trang bị báo cháy tự động khi cáp được luồn trong ống hoặc bọc bằng vật liệu không cháy hoặc có tính cháy Ch1, hoặc là cáp của hệ thống chiếu sáng, thông tin.",
+   "dieu": "Bảng A.2, chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Cho phép chỉ bố trí đầu báo cháy tại các vị trí các đường ống kỹ thuật và/hoặc đường máng cáp tại không gian phía trên trần treo và dưới sàn nâng.",
+   "dieu": "Bảng A.2, chú thích (3)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt cắt trần, sàn nâng: chiều cao khoảng không so với 0,35 m; vật liệu bọc ống kỹ thuật (Ch2–Ch4); tổng thể tích chất cháy máng cáp so với 0,0015 m³ chiều dài; có đầu báo cháy tại vị trí ống, máng cáp. Suy từ Bảng A.2, mục 7.",
+   "dieu": "Bảng A.2, mục 7",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": []
+}

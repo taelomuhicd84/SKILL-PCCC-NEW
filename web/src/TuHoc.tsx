@@ -1,8 +1,12 @@
 // Tab "Tự học": cấp quyền thư mục, bật học định kỳ, chạy học từ thư mục / mạng, duyệt ghi chú.
 // Ghi chú chưa duyệt không được agent thẩm định dùng làm căn cứ (trừ khi bật "tự duyệt" cho văn bản còn hiệu lực).
 import { useEffect, useState } from "react";
-import { cauHinhHoc, chayHoc, duyetHoc, thuMucHoc, xemHoc, type CauHinhHoc, type GhiChuHoc, type TrangThaiHoc } from "./runner";
+import { cauHinhHoc, chayHoc, duyetHoc, thuMucHoc, xemChecklistHoc, xemHoc, xemKhaiNiemHoc, type KhaiNiemHoc, type CauHinhHoc, type GhiChuHoc, type HangTaiLieu, type TrangThaiHoc } from "./runner";
 
+type Checklist = Awaited<ReturnType<typeof xemChecklistHoc>>["thu_muc"];
+const NHAN_HANG: Record<string, string> = { da_hoc: "✅ đã học", khong_lien_quan: "➖ không liên quan", scan: "⚠ bản scan", loi: "❌ lỗi", khong_ho_tro: "⏸ chưa đọc được" };
+
+const NHAN_TRUONG = { dinh_nghia: "Định nghĩa", cach_xac_dinh: "Cách xác định", ap_dung: "Khi nào áp dụng", khong_ap_dung: "Khi nào không áp dụng / ngoại lệ", yeu_cau: "Yêu cầu kỹ thuật", cach_kiem: "Cách kiểm trên hồ sơ", hay_nham: "Dễ nhầm với" } as const;
 const NHAN_HL: Record<string, string> = { con_hieu_luc: "còn hiệu lực", het_hieu_luc: "hết hiệu lực", de_xuat: "đề xuất", khong_ro: "chưa rõ" };
 const NHAN_TT: Record<GhiChuHoc["trang_thai"], string> = { cho_duyet: "chờ duyệt", da_duyet: "đã duyệt", bo: "đã bỏ", can_sua: "kiểm soát: cần sửa" };
 
@@ -14,10 +18,15 @@ export function TuHoc() {
   const [chuDe, setChuDe] = useState("");
   const [loc, setLoc] = useState<"tat-ca" | GhiChuHoc["trang_thai"]>("cho_duyet");
   const [loi, setLoi] = useState("");
+  const [cl, setCl] = useState<Checklist | null>(null);
+  const [kn, setKn] = useState<{ khai_niem: KhaiNiemHoc[]; lo_hong: string[] } | null>(null);
+  const [tim, setTim] = useState("");
 
   const tai = () => xemHoc().then((r) => { setCh(r.cau_hinh); setDs(r.ghi_chu); setTt(r.trang_thai); setLoi(""); })
     .catch(() => setLoi("Không kết nối được runner (http://127.0.0.1:8787). Bật runner rồi mở lại tab này."));
   useEffect(() => { tai(); }, []);
+  useEffect(() => { xemKhaiNiemHoc().then(setKn).catch(() => setKn(null)); }, [tt?.dang, ds.length]);
+  useEffect(() => { xemChecklistHoc().then((r) => setCl(r.thu_muc)).catch(() => setCl(null)); }, [tt?.dang, ds.length]);
   useEffect(() => { if (ch) setChuDe(ch.chu_de.join("\n")); }, [ch?.chu_de.join("|")]); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => { if (!tt?.dang) return; const t = setInterval(tai, 3000); return () => clearInterval(t); }, [tt?.dang]);
   const lam = (f: () => Promise<unknown>) => f().then(tai).catch((e) => setLoi(e instanceof Error ? e.message : String(e)));
@@ -55,6 +64,29 @@ export function TuHoc() {
         {tt && (tt.dang || tt.ket_thuc) && <p className={tt.dang ? "ok" : "muted"}>{tt.dang ? "Đang học: " : ""}{tt.viec} · {tt.xong}/{tt.tong} việc · {tt.moi} ghi chú mới</p>}
         {tt?.loi.length ? <details><summary>{tt.loi.length} lưu ý</summary><ul>{tt.loi.map((l, i) => <li key={i}>{l}</li>)}</ul></details> : null}
       </fieldset>
+
+      <h3>Checklist tài liệu</h3>
+      <p className="muted">Sổ nằm trong chính thư mục tài liệu (<code>_PCCC_so_hoc.json</code>, <code>_CHECKLIST_TAI_LIEU.md</code>): copy thư mục sang máy mới thì chỉ file mới được học. Trùng tên/số hiệu thì loại; văn bản thay thế hoặc sửa đổi thì thay ngay tại dòng văn bản cũ.</p>
+      {cl?.length ? cl.map((t) => (
+        <details key={t.duong}><summary><b>{t.duong}</b> · {t.hang.length} tài liệu · loại {t.loai.length}</summary>
+          <table><thead><tr><th>#</th><th>Tên file</th><th>Số hiệu</th><th>Loại</th><th>Tính năng</th><th>Cập nhật</th><th>Trạng thái</th><th>Khái niệm</th><th>Ghi chú</th></tr></thead>
+            <tbody>{t.hang.map((h: HangTaiLieu, i) => <tr key={h.rel}><td>{i + 1}</td><td title={h.rel}>{h.ten}</td><td>{h.so_hieu}</td><td>{h.loai_tl}</td><td>{h.tinh_nang}</td><td>{h.ngay.slice(0, 10)}</td><td>{NHAN_HANG[h.trang_thai] ?? h.trang_thai}</td><td>{h.khai_niem === undefined ? "chưa rút" : h.khai_niem}</td><td className="tom-tat">{h.ghi_chu}</td></tr>)}</tbody></table>
+          {t.loai.length ? <><p><b>Đã loại (trùng)</b></p><ul>{t.loai.map((l) => <li key={l.rel}>{l.ten} — {l.ly_do}</li>)}</ul></> : null}
+        </details>)) : <p className="muted">Chưa có checklist (cấp quyền thư mục rồi bấm học).</p>}
+
+      <h3>Khái niệm đã rút ({kn?.khai_niem.length ?? 0})</h3>
+      <p className="muted">Mỗi khái niệm có: định nghĩa · cách xác định · khi nào áp dụng · khi nào không · yêu cầu kỹ thuật · cách kiểm trên hồ sơ · dễ nhầm · liên quan. Chỉ mục từ ghi chú <b>đã duyệt</b> mới đưa cho agent thẩm định; văn bản bị thay thế được gắn "văn bản cũ". Học văn bản mới thì tự rút; phần cũ rút bằng hai nút dưới.</p>
+      <div className="hang">
+        <button disabled={tt?.dang} onClick={() => lam(() => chayHoc("khai-niem", 10))}>Rút khái niệm từ ghi chú (10 dòng chưa rút)</button>
+        <button disabled={tt?.dang} onClick={() => lam(() => chayHoc("khai-niem-file", 5))}>Rút sâu từ file gốc (5 dòng, tốn hơn)</button>
+        <input placeholder="tìm khái niệm…" value={tim} onChange={(e) => setTim(e.target.value)} />
+      </div>
+      {kn?.lo_hong.length ? <details><summary>{kn.lo_hong.length} khái niệm được nhắc nhưng chưa có định nghĩa (lần học sau sẽ ưu tiên)</summary><p>{kn.lo_hong.join("; ")}</p></details> : null}
+      {(kn?.khai_niem ?? []).filter((k) => !tim.trim() || (k.ten + " " + k.dong_nghia.join(" ")).toLowerCase().includes(tim.trim().toLowerCase())).map((k) => (
+        <details key={k.slug}><summary><b>{k.ten}</b>{k.dung_duoc ? "" : " · chưa có nguồn đã duyệt"}{k.anh_huong.length ? <span className="muted"> · {k.anh_huong.map((a) => a.replace(/^m(\d+)-.*/, "M$1")).join(", ")}</span> : null}</summary>
+          {(["dinh_nghia", "cach_xac_dinh", "ap_dung", "khong_ap_dung", "yeu_cau", "cach_kiem", "hay_nham"] as const).map((t) => k[t].length ? <div key={t}><b>{NHAN_TRUONG[t]}</b><ul>{k[t].map((m, i) => <li key={i}>{m.y}{m.dieu ? <span className="muted"> ({m.dieu})</span> : null}{m.can_xem ? <span className="c-do"> · cần xem lại</span> : null}</li>)}</ul></div> : null)}
+          {k.lien_quan.length ? <p className="muted">Liên quan: {k.lien_quan.join(", ")}</p> : null}
+        </details>))}
 
       <h3>Ghi chú đã học</h3>
       <div className="hang">

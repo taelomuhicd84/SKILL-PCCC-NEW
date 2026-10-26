@@ -1,0 +1,118 @@
+{
+ "slug": "cum-bao-ve-cua-he-thong-chua-chay",
+ "ten": "Cụm bảo vệ của hệ thống chữa cháy",
+ "dong_nghia": [
+  "Bộ điều khiển",
+  "Section of extinguishing system"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống Sprinkler",
+  "Trạm bơm nước chữa cháy",
+  "Công tắc dòng chảy",
+  "Bộ điều khiển",
+  "Đường ống phân phối",
+  "Máy nén (bù) khí"
+ ],
+ "ngay": "2026-10-26T04:44:52.603Z",
+ "dinh_nghia": [
+  {
+   "y": "Cụm bảo vệ là một phần của hệ thống chữa cháy, cấu thành bởi đường ống chính, đường ống nhánh, bộ điều khiển và thiết bị kỹ thuật để cấp chất chữa cháy cho vùng được bảo vệ.",
+   "dieu": "3.27",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Bộ điều khiển là tổ hợp thiết bị kỹ thuật (đường ống, phụ kiện, thiết bị khóa, thiết bị tín hiệu, bình làm trễ, thiết bị đo...) đặt giữa đường ống cấp và đường ống chính để điều khiển trạng thái và kiểm tra khả năng của hệ thống.",
+   "dieu": "3.32",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Một phần của hệ thống chữa cháy, cấu thành bởi đường ống chính, đường ống nhánh, bộ điều khiển và thiết bị kỹ thuật để cung cấp chất chữa cháy cho vùng được bảo vệ.",
+   "dieu": "3.27 TCVN 7336:2021",
+   "nguon": "kb:tk-cụm-bảo-vệ"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhận biết cụm bảo vệ theo thành phần: đường ống chính, đường ống nhánh, bộ điều khiển và thiết bị kỹ thuật cấp chất chữa cháy cho một vùng được bảo vệ.",
+   "dieu": "3.27 TCVN 7336:2021",
+   "nguon": "kb:tk-cụm-bảo-vệ"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Áp dụng cho hệ thống chữa cháy tự động Sprinkler: giới hạn số đầu phun tính theo từng cụm bảo vệ.",
+   "dieu": "5.2.3 TCVN 7336:2021",
+   "nguon": "kb:tk-cụm-bảo-vệ"
+  },
+  {
+   "y": "Với hệ thống Sprinkler khô hoặc Sprinkler - Drencher, mỗi cụm bảo vệ phải dùng máy nén khí độc lập.",
+   "dieu": "5.7.17 TCVN 7336:2021",
+   "nguon": "kb:tk-cụm-bảo-vệ"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bộ điều khiển đặt trong trạm bơm, phòng trực điều khiển chống cháy hoặc khu vực được bảo vệ có nhiệt độ từ 5 °C trở lên, dễ tiếp cận bảo dưỡng.",
+   "dieu": "5.6.1",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Bộ điều khiển đặt trong khu vực được bảo vệ phải ngăn cách bằng tường, vách, trần có giới hạn chịu lửa không nhỏ hơn EI 45 và cửa ngăn cháy không nhỏ hơn EI 30. Cho phép đặt tủ bảo vệ không cần ngăn cháy nếu cách khu vực có chất cháy không nhỏ hơn 2 m.",
+   "dieu": "5.6.2",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Một phần mạng vòng chia bằng van khóa có không quá 3 bộ điều khiển.",
+   "dieu": "5.5.3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Van báo động ướt: cho phép bình làm trễ hoặc trễ tín hiệu 3–5 s. Công tắc dòng chảy thay van báo động: trễ 3–5 s và có tối thiểu 02 tín hiệu.",
+   "dieu": "5.6.6, 5.6.7",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Tay van hoặc mô tơ điện cao hơn sàn 1,4 m thì phải có bậc hoặc sàn thao tác, cao đến tay van không quá 1 m.",
+   "dieu": "5.6.9",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Một cụm bảo vệ không được dùng quá 800 đầu phun.",
+   "dieu": "5.2.3 TCVN 7336:2021",
+   "nguon": "kb:tk-cụm-bảo-vệ"
+  },
+  {
+   "y": "Khi dùng công tắc dòng chảy cho từng vùng của khu vực bảo vệ, hoặc đầu phun có giám sát trạng thái, số đầu phun trên một cụm bảo vệ được tăng lên 1200.",
+   "dieu": "5.2.3 TCVN 7336:2021",
+   "nguon": "kb:tk-cụm-bảo-vệ"
+  },
+  {
+   "y": "Mỗi cụm bảo vệ của hệ thống Sprinkler khô hoặc Sprinkler - Drencher dùng máy nén khí độc lập.",
+   "dieu": "5.7.17 TCVN 7336:2021",
+   "nguon": "kb:tk-cụm-bảo-vệ"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng vị trí bộ điều khiển, nhiệt độ phòng, kết cấu ngăn cách (EI 45, cửa EI 30). Suy từ 5.6.",
+   "dieu": "5.6",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Đếm số đầu phun theo từng cụm bảo vệ trên sơ đồ nguyên lý và mặt bằng. Nếu một cụm có hơn 800 đầu thì kiểm có công tắc dòng chảy cho từng vùng hoặc đầu phun có giám sát trạng thái, và tổng không quá 1200 đầu. Với hệ thống khô hoặc Sprinkler - Drencher, kiểm mỗi cụm có máy nén khí riêng. (suy từ 5.2.3, 5.7.17)",
+   "dieu": "suy từ 5.2.3, 5.7.17 TCVN 7336:2021",
+   "nguon": "kb:tk-cụm-bảo-vệ"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Cụm bảo vệ (phần hệ thống) khác bộ điều khiển (tổ hợp thiết bị bên trong cụm).",
+   "dieu": "3.27, 3.32",
+   "nguon": "a478d8c7c431"
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "slug": "chi-so-thoi-gian-phan-ung-nhiet-rti",
+ "ten": "Chỉ số thời gian phản ứng nhiệt (RTI)",
+ "dong_nghia": [
+  "RTI",
+  "đầu phun tác động nhanh",
+  "đầu phun tác động tiêu chuẩn",
+  "chỉ số thời gian phản ứng nhiệt"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Hệ số K của đầu phun Sprinkler",
+  "Tải trọng cháy",
+  "Hệ số K đầu phun",
+  "Cường độ phun",
+  "Hệ số K của đầu phun",
+  "Nhiệt độ làm việc của đầu phun",
+  "Nhóm nguy cơ phát sinh cháy"
+ ],
+ "ngay": "2026-10-26T04:50:25.292Z",
+ "dinh_nghia": [
+  {
+   "y": "Chỉ số thời gian phản ứng nhiệt (RTI) của đầu phun sprinkler, đơn vị (m.s)^1/2",
+   "dieu": "Điều 5.2.19 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-rti"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Đầu phun tác động tiêu chuẩn: RTI > 80, đường kính bầu thủy tinh 5 mm. Đầu phun tác động nhanh: RTI < 50, đường kính bầu thủy tinh 3 mm.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Đầu phun tác động tiêu chuẩn có RTI > 80, đường kính bầu thủy tinh 5 mm; đầu phun tác động nhanh có RTI < 50, đường kính bầu thủy tinh 3 mm.",
+   "dieu": "Tài liệu tập huấn hệ thống sprinkler (không ghi điều)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Đầu phun tác động tiêu chuẩn có RTI > 80; đường kính bầu thủy tinh 5 mm",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-rti"
+  },
+  {
+   "y": "Đầu phun tác động nhanh có RTI < 50; đường kính bầu thủy tinh 3 mm",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-rti"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Tải trọng cháy từ 1400 MJ/m² đối với kho, các gian phòng có chiều cao hơn 10 m và các gian phòng có chất cháy chủ yếu là chất lỏng dễ cháy và chất lỏng cháy.",
+   "dieu": "Điều 5.2.19",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Với tải trọng cháy từ 1400 MJ/m2 đối với kho, các gian phòng có chiều cao hơn 10 m và các gian phòng có chất cháy chủ yếu là chất lỏng dễ cháy và chất lỏng cháy.",
+   "dieu": "5.2.19 TCVN 7336:2021 (theo tài liệu tập huấn)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Bắt buộc dùng đầu phun có RTI < 50 (m.s)^1/2 khi tải trọng cháy từ 1400 MJ/m2 đối với kho, các gian phòng cao hơn 10 m, và các gian phòng có chất cháy chủ yếu là chất lỏng dễ cháy và chất lỏng cháy",
+   "dieu": "Điều 5.2.19 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-rti"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Trong các trường hợp trên, RTI của đầu phun phải nhỏ hơn 50 (m·s)^1/2.",
+   "dieu": "Điều 5.2.19",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "RTI của các đầu phun phải nhỏ hơn 50 (m.s)^1/2.",
+   "dieu": "5.2.19 TCVN 7336:2021 (theo tài liệu tập huấn)",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "RTI của đầu phun phải nhỏ hơn 50 (m.s)^1/2 trong các trường hợp nêu ở mục áp dụng",
+   "dieu": "Điều 5.2.19 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-rti"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Với kho, phòng cao > 10 m hoặc chất cháy chủ yếu là chất lỏng cháy: xem catalogue/thuyết minh đầu phun có RTI < 50 không.",
+   "dieu": "suy từ Điều 5.2.19",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Xác định tải trọng cháy, chiều cao phòng, loại chất cháy; nếu thuộc diện trên, kiểm catalogue đầu phun có RTI < 50 (m.s)^1/2.",
+   "dieu": "suy từ 5.2.19 TCVN 7336:2021",
+   "nguon": "kb:tk-cường-độ-phun"
+  },
+  {
+   "y": "Xem thuyết minh và bảng thống kê đầu phun: với kho có tải trọng cháy từ 1400 MJ/m2, phòng cao hơn 10 m, hoặc phòng chứa chất lỏng cháy thì đầu phun phải là loại tác động nhanh (RTI < 50). Suy từ Điều 5.2.19",
+   "dieu": "suy từ Điều 5.2.19",
+   "nguon": "kb:tk-hệ-số-rti"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Đầu phun tác động tiêu chuẩn (RTI > 80, bầu 5 mm) khác đầu phun tác động nhanh (RTI < 50, bầu 3 mm). Hệ số K là thông số khác: hệ số K quyết định lưu lượng đầu ra, không phải thời gian phản ứng nhiệt",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-rti"
+  }
+ ]
+}

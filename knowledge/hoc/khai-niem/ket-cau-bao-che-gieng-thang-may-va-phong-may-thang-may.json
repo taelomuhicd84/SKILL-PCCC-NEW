@@ -1,0 +1,55 @@
+{
+ "slug": "ket-cau-bao-che-gieng-thang-may-va-phong-may-thang-may",
+ "ten": "Kết cấu bao che giếng thang máy và phòng máy thang máy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m08-thang-may-cc"
+ ],
+ "lien_quan": [
+  "Khoang đệm ngăn cháy",
+  "Buồng thang bộ không nhiễm khói"
+ ],
+ "ngay": "2026-10-26T04:00:17.299Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Áp dụng cho kết cấu bao che các giếng thang máy (trừ giếng nêu tại 3.4.6) và phòng máy thang máy (trừ phòng trên mái), cũng như kênh, giếng và hộp kỹ thuật",
+   "dieu": "4.23",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không quy định giới hạn chịu lửa của kết cấu bao che giữa giếng thang máy và phòng máy thang máy",
+   "dieu": "4.23",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Không yêu cầu giới hạn chịu lửa đối với cửa giếng thang máy mở ra hành lang bên",
+   "dieu": "4.23",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Đáp ứng yêu cầu như vách ngăn cháy loại 1 và sàn ngăn cháy loại 3",
+   "dieu": "4.23",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Khi không lắp được cửa ngăn cháy: bố trí khoang đệm hoặc sảnh với vách ngăn cháy loại 1 hoặc màn ngăn cháy tương đương, hoặc màn nước drencher (H.2.12.7) và sàn ngăn cháy loại 3, hoặc màn chắn tự động đóng lỗ cửa đi giếng thang khi cháy; màn chắn bằng vật liệu không cháy, giới hạn chịu lửa không nhỏ hơn E 30",
+   "dieu": "4.23",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng/mặt cắt giếng thang máy: loại vách (loại 1), sàn (loại 3), có cửa ngăn cháy hay khoang đệm/sảnh/màn thay thế",
+   "dieu": "suy từ 4.23",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "hay_nham": []
+}

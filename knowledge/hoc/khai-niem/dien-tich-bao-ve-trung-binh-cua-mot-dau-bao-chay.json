@@ -1,0 +1,60 @@
+{
+ "slug": "dien-tich-bao-ve-trung-binh-cua-mot-dau-bao-chay",
+ "ten": "Diện tích bảo vệ trung bình của một đầu báo cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Đầu báo khói kiểu điểm",
+  "Kết cấu nhô ra dưới trần"
+ ],
+ "ngay": "2026-10-26T04:33:40.905Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tra theo độ cao của khu vực bảo vệ (m): đến 3,5 thì 85 m²; lớn hơn 3,5 đến 6,0 thì 70 m²; lớn hơn 6,0 đến 10 thì nhỏ hơn 65 m²; lớn hơn 10 đến 12 thì 55 m²",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dùng bảng tra nhanh đầu báo khói kiểu điểm theo độ cao khu vực bảo vệ. Khi có kết cấu nhô ra thì diện tích này giảm 25% hoặc 40% tùy kích thước a, b",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Khoảng cách tối đa giữa các đầu báo / từ đầu báo đến tường nhà (m): độ cao đến 3,5 thì 9 / 4,5; lớn hơn 3,5 đến 6,0 thì 8,5 / 4; lớn hơn 6,0 đến 10 thì 8 / 4; lớn hơn 10 đến 12 thì 7,5 / 3,5",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  },
+  {
+   "y": "Khi diện tích bảo vệ giảm 25% (0,08 m ≤ a ≤ 0,4 m): 63,75 / 52,5 / 48,75 / 41,25 m² theo bốn mức độ cao nói trên; khoảng cách tối đa giữ nguyên 9/4,5; 8,5/4; 8/4; 7,5/3,5",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  },
+  {
+   "y": "Khi diện tích bảo vệ giảm 40% (a > 0,4 m; b < 0,75 m): 51 / 42 / 39 / 33 m² theo bốn mức độ cao nói trên; khoảng cách tối đa giữ nguyên 9/4,5; 8,5/4; 8/4; 7,5/3,5",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ bảng: lấy độ cao khu vực bảo vệ trên bản vẽ mặt cắt, tra diện tích và khoảng cách tối đa, so với bố trí đầu báo trên mặt bằng báo cháy",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Cột 'giữa các đầu báo cháy' khác cột 'từ đầu báo cháy đến tường nhà'. Khoảng cách đến tường chỉ bằng khoảng một nửa khoảng cách giữa các đầu báo",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "slug": "chong-on-chong-rung-cho-may-bom",
+ "ten": "Chống ồn, chống rung cho máy bơm",
+ "dong_nghia": [
+  "cách âm máy bơm"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Bố trí máy bơm trong phòng bơm"
+ ],
+ "ngay": "2026-10-26T04:18:40.747Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Phải có cấu tạo cách âm cho máy bơm cấp nước sinh hoạt trong nhà ở và nhà công cộng",
+   "dieu": "7.21",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Máy bơm đặt trên nền cách âm, như đặt tấm đệm dưới chân máy bơm bằng cao su hay gỗ mềm",
+   "dieu": "7.21",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Trên ống hút và ống đẩy phải có đệm lót chống rung dài ít nhất 1 m",
+   "dieu": "7.21",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem chi tiết móng và sơ đồ ống: có đệm cao su/gỗ mềm dưới chân bơm và khớp chống rung dài ≥ 1 m trên ống hút, ống đẩy (suy từ 7.21)",
+   "dieu": "7.21",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "hay_nham": []
+}

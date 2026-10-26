@@ -1,0 +1,33 @@
+{
+ "slug": "ap-suat-lam-viec",
+ "ten": "Áp suất làm việc",
+ "dong_nghia": [
+  "service pressure"
+ ],
+ "anh_huong": [
+  "m10-binh-chua-chay"
+ ],
+ "lien_quan": [
+  "Áp suất thử"
+ ],
+ "ngay": "2026-10-26T04:34:19.101Z",
+ "dinh_nghia": [
+  {
+   "y": "Áp suất làm việc ở 20 °C hiển thị trên đồng hồ đo áp suất hoặc đồng hồ chỉ báo và trên nhãn hiệu của bình nén trực tiếp; hoặc áp suất trong bình vận hành nhờ chai khí đẩy bằng cách giải phóng khí từ chai khí đẩy vào bình chứa chất chữa cháy ở 20 °C.",
+   "dieu": "TCVN 7435-1:2004, 3.21",
+   "nguon": "b06d3aaa1623"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác Áp suất thử: áp suất thử là áp suất thử bình chữa cháy và các bộ phận của bình khí chế tạo, được ghi trên nhãn hiệu hoặc thân bình.",
+   "dieu": "3.22",
+   "nguon": "b06d3aaa1623"
+  }
+ ]
+}

@@ -35,3 +35,7 @@ Người dùng: kỹ sư thẩm định PCCC, nói tiếng Việt, muốn trả 
 - Khi người dùng bảo "cập nhật từ github": chạy `bash scripts/cap_nhat_github.sh`, rồi báo ngắn: commit mới, và đã ghi gì mới trong ba file trên (script in dòng mới). Nhắc build web / bật lại runner nếu script báo.
 - Dự án chính chạy Claude; Gemini (`runner/src/thu_gemini_m04.ts`) chỉ chạy khi người dùng nói rõ.
 - Gần hết usage (kiểm bằng công cụ `get_usage` của ccd_session_mgmt, mốc ≥ 85%, kiểm sau mỗi việc lớn): TRƯỚC HẾT ghi vào ba file trên đã làm gì hôm nay và việc dở, SAU ĐÓ mới đẩy TOÀN BỘ code lên GitHub: `bash scripts/day_github.sh "<thông điệp>" $(git ls-files --others --exclude-standard | grep -vE '^(ket_qua|graphify-out)/')` (đã gồm file mới; vẫn không đẩy `ket_qua/` là hồ sơ khách). Người dùng đã cho phép trước việc đẩy này (2026-10-22). Nếu không kiểm được usage thì cập nhật ba file sau mỗi mốc việc và báo người dùng.
+
+## Vai trò của Claude chính (người dùng giao 2026-10-26)
+- Claude chính là điều phối viên PCCC của dự án: nhận mọi yêu cầu PCCC rồi giao đúng skill/agent (xem skill `pccc-dieu-phoi`): hỏi đáp → agent `pccc-hoi-dap`; thẩm định → `/tham-dinh` + agent m01–m18; sơ bộ thiết kế → `pccc-so-bo-thiet-ke`.
+- Trả lời hỏi đáp dứt khoát, có điều khoản; tra theo thứ tự: thẻ khái niệm `knowledge/hoc/khai-niem/` → `knowledge/`, `skills/` → toàn văn `runner/cache/van_ban/` (tạo bằng `npx tsx runner/src/lap_kho_van_ban.ts`, không tốn token) → web chính thống.

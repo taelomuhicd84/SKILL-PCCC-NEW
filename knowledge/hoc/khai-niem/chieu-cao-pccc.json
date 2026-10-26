@@ -1,0 +1,270 @@
+{
+ "slug": "chieu-cao-pccc",
+ "ten": "Chiều cao PCCC",
+ "dong_nghia": [
+  "chiều cao phòng cháy chữa cháy của nhà",
+  "chiều cao an toàn PCCC",
+  "Chiều cao PCCC của nhà"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua",
+  "m07-thoat-nan",
+  "chung",
+  "m12-chua-chay",
+  "m08-thang-may-cc",
+  "m04-giao-thong",
+  "m06-ngan-chay",
+  "so-bo-thiet-ke",
+  "doc-ho-so",
+  "m05-cong-nang",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Bậc chịu lửa",
+  "Cấp nguy hiểm cháy kết cấu",
+  "Khoang cháy",
+  "Số tầng nhà",
+  "Tầng hầm",
+  "Hệ thống đường ống khô có họng chờ cấp nước DN65",
+  "Hệ thống họng nước chữa cháy trong nhà",
+  "Chiều cao nhà",
+  "Tầng tum",
+  "Ngăn cháy theo phương đứng",
+  "Số lối ra thoát nạn",
+  "Giấy chứng nhận thẩm duyệt thiết kế về PCCC",
+  "Bố trí công năng",
+  "Giao thông cho xe chữa cháy",
+  "Đai ngăn cháy giữa các tầng"
+ ],
+ "ngay": "2026-10-26T04:44:36.571Z",
+ "dinh_nghia": [
+  {
+   "y": "Xác định theo QCVN 06:/BXD.",
+   "dieu": "1.4.23",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Chiều cao PCCC của nhà (không tính tầng kỹ thuật trên cùng) bằng khoảng cách lớn nhất từ mặt đường cho xe chữa cháy tiếp cận đến mép dưới của lỗ cửa (cửa sổ) mở trên tường ngoài của tầng trên cùng.",
+   "dieu": "3.5",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Khi không có lỗ cửa (cửa sổ): bằng một nửa tổng khoảng cách từ mặt đường cho xe chữa cháy tiếp cận đến mặt sàn và đến trần của tầng trên cùng.",
+   "dieu": "3.5",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh thuộc phạm vi TCVN 13967: cho phép áp dụng 9.1.2 của TCVN 13967 để xác định số tầng (chiều cao PCCC).",
+   "dieu": "1.4.24 chú thích (4)",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Mái được khai thác sử dụng: tính đến mép trên tường bao của mái. Mái không tính là khai thác nếu con người không có mặt thường xuyên trên mái.",
+   "dieu": "3.5 chú thích 1, 2",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Có kết cấu bao che hoặc lan can của ban công, lô gia, cửa sổ: tính đến mép trên của kết cấu bao che hoặc lan can đó.",
+   "dieu": "3.5 chú thích 3",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Mặt đường tiếp cận nhà có cao độ khác nhau thì nhà có thể có nhiều chiều cao PCCC. Hình A.2, A.3, A.6, A.7 lấy giá trị lớn hơn giữa H1 và H2.",
+   "dieu": "3.5 chú thích 4; Phụ lục A",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Khi xét an toàn cháy, số tầng và chiều cao PCCC tính đến tầng cao nhất có người sử dụng, với điều kiện các tầng trên đó không có người, không tập kết hoặc lưu giữ chất cháy, có ngăn cháy với khu vực có người và vẫn có lối đi theo thang bộ lên mái.",
+   "dieu": "9.1.2",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Văn bản chỉ nêu kết quả ví dụ, không nêu công thức: nhà xưởng 2 tầng có chiều cao PCCC 10,8 m, nhà văn phòng 4 tầng 14,81 m, nhà phụ trợ 1 tầng 6 m. Xem bản vẽ tổng mặt bằng và bản vẽ từng hạng mục để xác định quy mô.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Chiều cao PCCC lớn nhất cho phép tại các bảng H.5 (nhà trẻ, mẫu giáo, mầm non), H.6 (trường phổ thông F4.1 và nhà ngủ trường nội trú F1.1), H.7 (nhóm F2.1, F2.2) có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4 của bảng, nếu có) khi nhà được trang bị hệ thống báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC của nhà không quá 28 m.",
+   "dieu": "H.2.12.10",
+   "nguon": "kb:tk-bố-trí-công-năng"
+  },
+  {
+   "y": "Khi có ban công (lô gia) hoặc kết cấu bao che (lan can) cửa sổ thì chiều cao PCCC được tính bằng khoảng cách lớn nhất từ mặt đường cho xe chữa cháy tiếp cận đến mép trên của kết cấu bao che (lan can).",
+   "dieu": "Mục Chiều cao PCCC của nhà (chú thích đứng trước Chú thích 4)",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Khi các mặt đường tiếp cận nhà có cao độ khác nhau thì nhà có thể có các chiều cao PCCC khác nhau tùy phương án thiết kế an toàn cháy cụ thể.",
+   "dieu": "Chú thích 4",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Bảng H.1 đến H.4, H.5 đến H.8 quy định chiều cao PCCC lớn nhất cho phép của nhà theo bậc chịu lửa và cấp nguy hiểm cháy kết cấu; có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc) khi nhà có báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC không quá 28 m",
+   "dieu": "H.2.12.10",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Chiều cao nhà trong Bảng H.9, H.10, H.11 tính từ sàn tầng 1 đến trần tầng trên cùng, kể cả tầng kỹ thuật; trần có cao độ thay đổi thì lấy cao độ trung bình; khi xác định số tầng chỉ tính các tầng trên mặt đất",
+   "dieu": "Bảng H.9, H.10, H.11 chú thích 1)",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Căn hộ nhà nhóm F1.3 có chiều cao PCCC không quá 100 m được phép chỉ bố trí đầu phun sprinkler tại cửa căn hộ.",
+   "dieu": "1.5.12",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà có chiều cao PCCC từ 25 m trở lên: máy bơm họng nước chữa cháy trong nhà phải điều khiển bằng tay tại phòng bơm và điều khiển tự động.",
+   "dieu": "2.4.2, chú thích",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Nhà có chiều cao PCCC lớn hơn 28 m (lớn hơn 50 m với nhà nhóm F1.3): phải bố trí hệ thống đường ống khô có họng chờ DN65.",
+   "dieu": "2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Công trình đang thi công có chiều cao PCCC từ 28 m trở lên (hoặc từ 10 tầng trở lên) khi thi công hoàn thiện nội thất, lắp đặt thiết bị cơ điện: phải có đường ống khô có họng nước đến mỗi tầng.",
+   "dieu": "2.4.3",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Là một ngưỡng quy mô của Điều 9: dưới 25 m. Các ngưỡng khác: ≤ 15 m; trên 15 m đến 25 m.",
+   "dieu": "1.3; 9.3.3.1; 9.3.4.6",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Được thiết kế một lối ra thoát nạn cho mỗi tầng nhóm F1.2, F2, F3, F4.2, F4.3, F4.4 khi nhà có chiều cao PCCC không quá 15 m (kèm điều kiện diện tích tầng ≤ 300 m², tối đa 20 người/tầng).",
+   "dieu": "Giải pháp thoát nạn – Số lối ra thoát nạn",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Cho phép không áp dụng quy định 4.33 (ngăn cháy theo phương đứng) đối với nhà có chiều cao PCCC dưới 15 m.",
+   "dieu": "4.33",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Thang bộ thoát nạn rộng tối thiểu 0,7 m đối với nhà có chiều cao PCCC không quá 15 m và tổng số người thoát nạn qua thang từ mỗi tầng không quá 15 người.",
+   "dieu": "Yêu cầu về thang bộ thoát nạn, mục c",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Mốc tham chiếu (văn bản chỉ nêu trị số, không định nghĩa): nhà karaoke 1 tầng cao 5m có chiều cao PCCC 3,5m; nhà ở 1 tầng cao 4m có chiều cao PCCC 3,5m; mái che 1, mái che 2 và trạm bơm cao 3,7m có chiều cao PCCC 2,7m.",
+   "dieu": "Quy mô công trình",
+   "nguon": "3901f5c9810d"
+  },
+  {
+   "y": "Chiều cao PCCC của nhà được phép bố trí quy định trong Phụ lục H: công năng nhà trẻ bố trí đến chiều cao an toàn PCCC 9 m, các tầng cao hơn bố trí công năng khác như ban giám hiệu, văn phòng; tương tự trường phổ thông theo Bảng H.6, bệnh viện theo H.2.9.",
+   "dieu": "Phụ lục H; H.2.9",
+   "nguon": "kb:tk-bố-trí-công-năng"
+  },
+  {
+   "y": "Buồng thang bộ loại L1 và cầu thang bộ loại 3 được bố trí trong nhà thuộc mọi nhóm nguy hiểm cháy theo công năng có chiều cao PCCC tới 28 m.",
+   "dieu": "QCVN 06 (mục về buồng thang bộ, đoạn trích; số điều bị cắt)",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Được dùng cầu thang bộ loại 3 làm cầu thang thoát nạn trong nhà có chiều cao PCCC từ trên 28 m đến 50 m, với điều kiện phần thang loại 3 từ trên 28 m được bảo vệ chống rơi ngã trên toàn bộ chiều cao các mặt thang hở ra ngoài trời.",
+   "dieu": "QCVN 06 (đoạn trích; số điều bị cắt)",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Buồng thang bộ loại L2 được bố trí trong nhà bậc chịu lửa I, II, III, cấp S0, S1, nhóm F1, F2, F3, F4, với chiều cao PCCC không quá 9 m; cho phép tăng đến 12 m (điều kiện loại trừ bị cắt trong đoạn trích).",
+   "dieu": "QCVN 06 (đoạn trích; số điều bị cắt)",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Chiều cao PCCC lớn nhất của nhà tại Bảng H.5 (nhà trẻ), H.6 (trường học), H.7 (nhà cơ sở văn hóa) được xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4) khi nhà có báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC không quá 28 m. Ví dụ: nhà trẻ xây đến 3 tầng, chiều cao PCCC > 9 m.",
+   "dieu": "Phụ lục H, Bảng H.5, H.6, H.7",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Nhà bệnh viện (nhóm F1.1) bố trí trong nhà độc lập hoặc khoang cháy riêng có chiều cao PCCC không quá 28 m (hoặc 9 tầng).",
+   "dieu": "Phụ lục H (tài liệu sửa đổi 1:2023)",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không quy định chiều cao nhà một tầng có cấp nguy hiểm cháy S0 và S1 (nhà sản xuất, chăn nuôi)",
+   "dieu": "Bảng H.9, H.10 chú thích 1)",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Cho phép không áp dụng các quy định 4.33.1 đến 4.33.3 (đai ngăn cháy giữa các tầng) đối với nhà từ ba tầng trở xuống hoặc chiều cao PCCC dưới 15 m, ga ra để xe nổi dạng hở, hoặc nhà thỏa mãn đồng thời các điều kiện nêu tại Chú thích 6 Bảng 4 hoặc Chú thích 2 của Bảng (số bảng bị cắt).",
+   "dieu": "4.33",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nhà công cộng có chiều cao PCCC từ trên 50 m đến 150 m và nhà F1.3 từ trên 75 m đến 150 m: số tầng, diện tích khoang cháy theo Phụ lục A",
+   "dieu": "Bảng H.2 chú thích 4; Bảng H.1 chú thích 1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Với nhà trên 3 tầng hoặc có chiều cao PCCC lớn hơn 9 m: lối ra thoát nạn của các gian phòng và của mỗi tầng phải tuân thủ yêu cầu của quy chuẩn (không áp dụng ngoại lệ một lối).",
+   "dieu": "Giải pháp thoát nạn – Số lối ra thoát nạn",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Bệnh viện (F1.1) có công năng chính vượt chiều cao PCCC 28 m (hoặc quá 9 tầng, tối đa 50 m) phải đồng thời: bậc chịu lửa I; toàn nhà có báo cháy tự động và chữa cháy tự động; chiều cao PCCC bảo đảm cứu nạn và tiếp cận chữa cháy qua lối vào từ trên cao; chiều rộng bản thang thoát nạn tối thiểu 1,35 m; vật liệu hoàn thiện trên đường thoát nạn không nguy hiểm hơn CV1 (các điều kiện sau đó bị cắt).",
+   "dieu": "Phụ lục H (tài liệu sửa đổi 1:2023)",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Lấy chiều cao PCCC từ kết quả mục 1 (theo QCVN 06) rồi so ngưỡng 100 m khi xét 1.5.12.",
+   "dieu": "suy từ 1.5.12",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Đo trên mặt đứng, từ mặt đường xe chữa cháy tiếp cận đến mép dưới cửa sổ tầng trên cùng (hoặc điểm quy định). Suy từ 3.5 và Hình A.1–A.8.",
+   "dieu": "3.5",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Xem tổng mặt bằng và bản vẽ từng hạng mục: số tầng, chiều cao PCCC ghi trên bản vẽ; so với các ngưỡng 9 m, 15 m.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Trên mặt đứng/mặt cắt, xác định mặt đường xe chữa cháy tiếp cận từng mặt nhà, đo đến mép trên lan can hoặc kết cấu bao che; so với các ngưỡng 9 m, 12 m, 15 m, 28 m, 50 m. Suy từ chú thích về chiều cao PCCC và QCVN 06.",
+   "dieu": "",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhà sản xuất, kho: chiều cao tính sàn tầng 1 đến trần tầng trên cùng kể cả tầng kỹ thuật; nhà công cộng: số tầng không kể tầng kỹ thuật trên cùng",
+   "dieu": "Bảng H.2, H.9",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Ba ngưỡng khác nhau: 25 m (điều khiển máy bơm), 28 m (đường ống khô; công trình đang thi công), 50 m (đường ống khô với nhóm F1.3).",
+   "dieu": "2.4.2, 2.4.3, 2.4.4",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Khác 'chiều cao nhà' (3.4): chiều cao nhà tính từ mặt đất đặt nhà đến điểm cao nhất, kể cả tầng tum hoặc mái dốc. Chiều cao PCCC tính từ mặt đường xe chữa cháy đến mép dưới cửa sổ tầng trên cùng.",
+   "dieu": "3.4; 3.5",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Chiều cao PCCC khác chiều cao công trình: cùng một công trình văn bản ghi hai trị số riêng (vd. 5m và 3,5m).",
+   "dieu": "Quy mô công trình",
+   "nguon": "3901f5c9810d"
+  },
+  {
+   "y": "Nhà có nhiều mặt đường tiếp cận cao độ khác nhau có thể có nhiều chiều cao PCCC; không dùng một giá trị duy nhất cho mọi giải pháp.",
+   "dieu": "Chú thích 4",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ]
+}

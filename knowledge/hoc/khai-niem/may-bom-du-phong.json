@@ -1,0 +1,129 @@
+{
+ "slug": "may-bom-du-phong",
+ "ten": "Máy bơm dự phòng",
+ "dong_nghia": [
+  "Bơm dự phòng",
+  "bơm bù"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Điều khiển máy bơm chữa cháy",
+  "Nguồn điện của máy bơm",
+  "Ống hút máy bơm",
+  "Máy bơm nước chữa cháy",
+  "Bơm bù áp",
+  "Mạng lưới đường ống Sprinkler"
+ ],
+ "ngay": "2026-10-26T04:29:36.048Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Số lượng bơm dự phòng tính theo số máy bơm vận hành theo tính toán: từ một đến ba máy; từ bốn máy trở lên.",
+   "dieu": "2.2.8",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Chọn bơm từ QCT, HCT: chọn chủng loại, nhãn hiệu và tra đường đặc tính lưu lượng – cột áp theo catalogue để xác định công suất.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cho phép đặt máy bơm chữa cháy không cần máy bơm dự phòng: (a) trong nhà phụ của kho không có thiết bị chữa cháy tự động và có một cột nước chữa cháy; (b) trong xí nghiệp có hạng sản xuất D, E mà công trình có bậc chịu lửa I, II, hoặc khi lưu lượng nước chữa cháy bên ngoài không vượt quá 20 l/s",
+   "dieu": "7.9",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Nếu chỉ có một nguồn điện, cho phép đặt máy bơm chữa cháy dự phòng chạy bằng động cơ đốt trong",
+   "dieu": "7.16",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Số máy bơm vận hành theo tính toán từ một đến ba: có ít nhất một máy bơm dự phòng.",
+   "dieu": "2.2.8",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Số máy bơm vận hành theo tính toán từ bốn trở lên: có ít nhất 02 máy bơm dự phòng.",
+   "dieu": "2.2.8",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Phần kích thích khởi động và duy trì áp lực của hệ thống Sprinkler thường thực hiện nhờ công tắc áp lực và bơm bù.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không bố trí thiết bị điều khiển bơm chính và bơm dự phòng chung một tủ điều khiển.",
+   "dieu": "2.5.1.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Phải bảo đảm mở tự động máy bơm dự phòng nếu máy bơm làm việc không mở được vì lý do kỹ thuật",
+   "dieu": "7.12b",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Cho phép đặt một ống hút khi không có bơm dự phòng",
+   "dieu": "7.14 (chú thích)",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Máy bơm dự phòng có công suất tương đương công suất của máy bơm chính.",
+   "dieu": "2.2.8",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Dùng một hoặc một số bơm chính theo lưu lượng cần thiết; với bất kỳ số bơm hoạt động nào cũng phải có ít nhất một bơm dự phòng tương ứng với lưu lượng tối đa và áp lực cần thiết của bơm chính, tự động bật khi bơm chính sự cố hoặc ngắt khẩn cấp.",
+   "dieu": "Điều 5.8.2",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Trạm bơm có động cơ đốt trong: cho phép bồn nhiên liệu (xăng 250 l, dầu diesel 500 l) cách biệt phòng bơm bằng bộ phận ngăn cháy có giới hạn chịu lửa không nhỏ hơn EI 120.",
+   "dieu": "Điều 5.8.18",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Khi bơm khởi động tự động và từ xa, tín hiệu ánh sáng và âm thanh về trạng thái bơm phải chuyển đến phòng trực điều khiển chống cháy hoặc vị trí có người trực suốt ngày đêm.",
+   "dieu": "Điều 5.8.28",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Phòng có thiết bị điện không cách điện: phải tự động ngắt nguồn điện trước thời điểm phun chất chữa cháy; không được ngắt điện của hệ thống bảo vệ chống cháy.",
+   "dieu": "Điều 5.1.6",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu hồ sơ: công trình có thuộc các trường hợp được miễn bơm dự phòng (7.9) không; có sơ đồ điều khiển tự động chuyển sang bơm dự phòng không (suy từ 7.9, 7.12b)",
+   "dieu": "7.9, 7.12b",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Đếm số bơm vận hành theo tính toán rồi so với số bơm dự phòng trong bảng thiết bị/sơ đồ; suy từ 2.2.8.",
+   "dieu": "2.2.8",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Xem sơ đồ trạm bơm: có bơm dự phòng cùng thông số bơm chính, tự động bật; có bơm bù/công tắc áp lực; có tín hiệu về phòng trực; bồn nhiên liệu ngăn bằng EI 120.",
+   "dieu": "suy từ Điều 5.8.2, 5.8.18, 5.8.28",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bơm dự phòng khác bơm bù áp; không dùng bơm chính hoặc bơm dự phòng để duy trì áp lực hệ thống.",
+   "dieu": "2.3.5",
+   "nguon": "b6694167594c"
+  }
+ ]
+}

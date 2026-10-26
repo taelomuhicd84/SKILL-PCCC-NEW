@@ -1,0 +1,32 @@
+{
+ "slug": "ben-lay-nuoc",
+ "ten": "Bến lấy nước",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Hệ thống cấp nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T04:08:59.612Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Bến lấy nước của nguồn nước tự nhiên hoặc nhân tạo (ao, hồ, sông, bể nước…) được dùng làm điểm tính bán kính 400 m thay cho trụ cấp nước chữa cháy.",
+   "dieu": "2.3.2",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Yêu cầu đối với bến lấy nước quy định tại H.1.5.4 (nội dung H.1.5.4 nằm ở phụ lục H, chưa có trong đoạn này).",
+   "dieu": "2.3.2, chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

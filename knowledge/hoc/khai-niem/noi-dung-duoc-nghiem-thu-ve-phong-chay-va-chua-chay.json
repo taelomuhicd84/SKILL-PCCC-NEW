@@ -1,0 +1,53 @@
+{
+ "slug": "noi-dung-duoc-nghiem-thu-ve-phong-chay-va-chua-chay",
+ "ten": "Nội dung được nghiệm thu về phòng cháy và chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "doc-ho-so",
+  "chung",
+  "ra-soat",
+  "m03-khoang-cach",
+  "m04-giao-thong",
+  "m02-bac-chiu-lua",
+  "m05-cong-nang",
+  "m06-ngan-chay",
+  "m07-thoat-nan",
+  "m09-chong-khoi",
+  "m10-binh-chua-chay",
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "m13-cap-dien",
+  "m16-chong-set",
+  "m14-den-su-co"
+ ],
+ "lien_quan": [
+  "Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy",
+  "Bố trí công năng",
+  "Giao thông cho xe chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:38:10.107Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Các nhóm nội dung được nghiệm thu: bậc chịu lửa; giao thông cho xe chữa cháy; khoảng cách an toàn PCCC; bố trí công năng; giải pháp ngăn cháy, chống cháy lan; giải pháp thoát nạn; trang bị phương tiện PCCC ban đầu; hệ thống loa thông báo và hướng dẫn thoát nạn; báo cháy tự động; chữa cháy tự động sprinkler; họng nước chữa cháy trong nhà; cấp nước chữa cháy ngoài nhà; điện phục vụ PCCC; đèn chiếu sáng sự cố và đèn chỉ dẫn thoát nạn.",
+   "dieu": "Nội dung được nghiệm thu về PCCC",
+   "nguon": "3901f5c9810d"
+  },
+  {
+   "y": "Khi cải tạo, thay đổi tính chất sử dụng của công trình, hạng mục công trình phải đảm bảo yêu cầu PCCC, rồi gửi hồ sơ đến cơ quan Cảnh sát PCCC và CNCH theo thẩm quyền để được thẩm duyệt thiết kế và nghiệm thu. Văn bản dẫn Điều 11 NĐ 136/2020/NĐ-CP (đã hết hiệu lực từ 01/7/2025); điều khoản thay thế phải tra lại ở NĐ 105/2025/NĐ-CP đã sửa bởi NĐ 347/2026/NĐ-CP.",
+   "dieu": "Các yêu cầu kèm theo; Điều 11 NĐ 136/2020/NĐ-CP",
+   "nguon": "3901f5c9810d"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Đây là nội dung nghiệm thu, khác nội dung thẩm duyệt thiết kế (giai đoạn trước, giấy chứng nhận thẩm duyệt số 577/TD-PCCC ngày 28/6/2024).",
+   "dieu": "Căn cứ",
+   "nguon": "3901f5c9810d"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "gian-phong-co-nguoi-lam-viec-thuong-xuyen",
+ "ten": "Gian phòng có người làm việc thường xuyên",
+ "dong_nghia": [
+  "gian phòng thường xuyên có người"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m09-chong-khoi",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Gian phòng chung"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [
+  {
+   "y": "Gian phòng mà con người có mặt ở đó không ít hơn 2 giờ liên tục hoặc có mặt tổng cộng 6 giờ trong một ngày đêm.",
+   "dieu": "Điều 1.4.22",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Con người có mặt không ít hơn 2 giờ liên tục, hoặc tổng cộng 6 giờ trong một ngày đêm.",
+   "dieu": "Điều 1.4.22",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác gian phòng chung (Điều 1.4.21a).",
+   "dieu": "Điều 1.4.21a",
+   "nguon": "ee1434b8c963"
+  }
+ ]
+}

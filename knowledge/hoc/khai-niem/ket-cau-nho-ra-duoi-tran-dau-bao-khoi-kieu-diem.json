@@ -1,0 +1,60 @@
+{
+ "slug": "ket-cau-nho-ra-duoi-tran-dau-bao-khoi-kieu-diem",
+ "ten": "Kết cấu nhô ra dưới trần (đầu báo khói kiểu điểm)",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Khoang dầm",
+  "Diện tích bảo vệ trung bình của một đầu báo cháy"
+ ],
+ "ngay": "2026-10-26T04:33:40.905Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Xác định bằng hai kích thước a và b (nguồn không nói a, b là cạnh nào của kết cấu) để chọn cách bố trí đầu báo",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "a > 0,4 m và b ≥ 0,75 m: phải bổ sung đầu báo kiểu điểm ngay bên dưới kết cấu",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  },
+  {
+   "y": "0,08 m ≤ a ≤ 0,4 m: bố trí đầu báo kiểu điểm theo bảng có diện tích bảo vệ giảm 25%",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  },
+  {
+   "y": "a > 0,4 m và b < 0,75 m: bố trí đầu báo kiểu điểm theo bảng có diện tích bảo vệ giảm 40%",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Diện tích bảo vệ trung bình của một đầu báo giảm 25% (a từ 0,08 đến 0,4 m) hoặc giảm 40% (a > 0,4 m; b < 0,75 m) so với bảng gốc theo độ cao",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo a, b của dầm hoặc kết cấu nhô ra trên bản vẽ mặt cắt; đối chiếu ba trường hợp trên để xem có đầu báo bổ sung hoặc diện tích bảo vệ đã giảm đúng mức. Suy từ bảng tra nhanh",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Trường hợp a > 0,4 m có hai nhánh tùy b: b ≥ 0,75 m thì bổ sung đầu báo bên dưới kết cấu; b < 0,75 m thì giảm diện tích 40%",
+   "dieu": "",
+   "nguon": "0b87589569c1"
+  }
+ ]
+}

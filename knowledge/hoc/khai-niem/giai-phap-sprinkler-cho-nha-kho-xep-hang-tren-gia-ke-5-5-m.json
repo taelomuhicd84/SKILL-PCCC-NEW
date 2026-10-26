@@ -1,0 +1,90 @@
+{
+ "slug": "giai-phap-sprinkler-cho-nha-kho-xep-hang-tren-gia-ke-5-5-m",
+ "ten": "Giải pháp Sprinkler cho nhà kho xếp hàng trên giá kệ > 5,5 m",
+ "dong_nghia": [
+  "GP1",
+  "GP2",
+  "SP 241.1311500.2015",
+  "NFPA 13:2022"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nhóm nguy cơ phát sinh cháy (NCPSC)",
+  "Tải trọng cháy"
+ ],
+ "ngay": "2026-10-26T04:29:36.048Z",
+ "dinh_nghia": [
+  {
+   "y": "GP1 chỉ dùng mạng đầu phun Sprinkler trên trần. GP2 kết hợp mạng đầu phun trên trần với mạng đầu phun trong kệ hàng.",
+   "dieu": "Tập huấn",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà kho xếp hàng trên giá kệ cao trên 5,5 m có thể áp dụng hai tiêu chuẩn nước ngoài được chấp thuận theo Quyết định 4158/QĐ-BCA-PCCC&CNCH ngày 15/06/2023: SP 241.1311500.2015 (Liên bang Nga) và NFPA 13:2022 (Hoa Kỳ).",
+   "dieu": "QĐ 4158/QĐ-BCA-PCCC&CNCH",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "SP 241: giải pháp 1 áp dụng cho công trình cao tới 14 m, chiều cao xếp hàng tới 12,5 m (nhà kho nhóm 5, 6 và 1 tầng đầu phun dưới mái); giải pháp 2 áp dụng cho chiều cao xếp hàng tới 25 m; xếp hàng trên giá kệ có mâm tầng hở. NFPA 13: một số giải pháp không giới hạn chiều cao xếp hàng, phụ thuộc loại hàng, cách xếp, loại hệ thống.",
+   "dieu": "SP 241.1311500.2015; NFPA 13:2022",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "GP1 chỉ áp dụng khi chiều cao sắp xếp hàng thấp; GP2 cho chiều cao xếp hàng lớn hơn nhưng bố trí đầu phun trong kệ có nhiều yêu cầu khác cách thông dụng ở Việt Nam.",
+   "dieu": "Tập huấn",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Cần xác định đầu vào: nhóm hàng hóa theo đặc điểm cháy (loại hàng, kiểu đóng gói, loại pallet), cách xếp hàng (chồng đống, trên kệ) và loại kệ (đơn, đôi, nhiều dãy; mâm tầng đặc/hở; binbox).",
+   "dieu": "Tập huấn",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Tấm chắn: bắt buộc với SP 241.1311500.2015 (GP2), là một phương án trong NFPA 13:2022; làm bằng vật liệu không cháy/khó cháy; bao phủ toàn bộ bề mặt kệ hàng; khoảng cách tối đa giữa các tầng tấm chắn < 4,5 m.",
+   "dieu": "Tập huấn",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Đầu phun trong kệ nên đặt tại giao điểm khe khói ngang và khe khói dọc; nếu không được thì đặt trong khe khói ngang hoặc dọc; khi xếp, dỡ hàng vẫn phải giữ các khe khói.",
+   "dieu": "Tập huấn",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "SP 241 – lưu lượng tổng Q = Qm + Qr (Qm đầu phun dưới mái, Qr đầu phun trong kệ). Qm: xếp hàng đến 16 m thì cường độ tối thiểu 0,12 l/(s·m²); trên 16 m thì 0,18 l/(s·m²); diện tích tính toán tối thiểu 90 m². Qr = A·B·Σi (A chiều dài tính toán; B bề rộng tối đa giá đỡ; i cường độ yêu cầu). Chiều dài A: pallet dạng phẳng 15 m; dạng hộp 12 m; dạng hộp bằng kim loại 8 m.",
+   "dieu": "Mục 6.6, 6.10, 6.13 SP 241.1311500.2015",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "SP 241 – cường độ tối thiểu trong không gian giá đỡ theo chiều cao đến 2,0 / từ 2,0 đến 3,0 / từ 3,0 đến 4,5 m (l/s·m²): vật liệu dễ cháy thể rắn 0,24 / 0,36 / 0,5; vật liệu không cháy trong bao bì dễ cháy 0,20 / 0,30 / 0,4; sản phẩm cao su 0,40 / 0,60 / 0,8.",
+   "dieu": "Mục 6.10 SP 241.1311500.2015",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Tính thủy lực mạng đầu phun dưới mái theo Phụ lục B TCVN 7336:2021.",
+   "dieu": "Phụ lục B",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Kho xếp hàng trên giá kệ > 5,5 m: xem hồ sơ nêu rõ tiêu chuẩn nước ngoài áp dụng, nhóm hàng, loại kệ, có tấm chắn, vị trí đầu phun trong kệ, lưu lượng Qm + Qr.",
+   "dieu": "suy từ QĐ 4158 và SP 241",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Kho xếp hàng đến 5,5 m tra TCVN 7336:2021 (Bảng 2); trên 5,5 m dùng SP 241 hoặc NFPA 13.",
+   "dieu": "",
+   "nguon": "0295bcc50340"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "slug": "khoang-cach-phong-chay-chong-chay-giua-cac-nha",
+ "ten": "Khoảng cách phòng cháy chống cháy giữa các nhà",
+ "dong_nghia": [
+  "khoảng cách an toàn PCCC giữa các nhà"
+ ],
+ "anh_huong": [
+  "m03-khoang-cach"
+ ],
+ "lien_quan": [
+  "Khoảng cách theo đường ranh giới",
+  "Bậc chịu lửa"
+ ],
+ "ngay": "2026-10-26T04:32:03.287Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tra theo bậc chịu lửa và cấp nguy hiểm cháy kết cấu của hai nhà (Bảng E.2 QCVN 06:2022/BXD).",
+   "dieu": "E.2",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Phải bảo đảm khoảng cách giữa các nhà (E.1, E.2) và/hoặc khoảng cách theo đường ranh giới (E.3), tương ứng diện tích lỗ mở không được bảo vệ chống cháy của tường ngoài và giới hạn chịu lửa phần tường phải bảo vệ.",
+   "dieu": "4.34",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Hai nhà bậc chịu lửa I, II (hoặc III, IV với S0): nhà hạng D và E không quy định; nhà hạng A, B, C là 9 m. Nhà bậc III và S1: 9 m (với nhà I, II), 12 m (với III–IV S0...), 15 m (với bậc thấp hơn) theo bảng; bậc III S2, S3, bậc IV S1–S3, bậc V: 12/15/18 m.",
+   "dieu": "Bảng E.2",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Khoảng cách 9 m của nhà bậc I, II và nhà bậc III, IV cấp S0 thuộc hạng A, B, C được giảm xuống 6 m khi nhà được trang bị hệ thống chữa cháy tự động cho toàn nhà.",
+   "dieu": "Bảng E.2, chú thích 3",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem tổng mặt bằng: đo khoảng cách các cặp nhà, xác định bậc chịu lửa và cấp S của từng nhà, tra bảng E.2.",
+   "dieu": "suy từ E.2",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác khoảng cách theo đường ranh giới (E.3).",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ]
+}

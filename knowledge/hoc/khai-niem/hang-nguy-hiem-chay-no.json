@@ -1,0 +1,153 @@
+{
+ "slug": "hang-nguy-hiem-chay-no",
+ "ten": "Hạng nguy hiểm cháy nổ",
+ "dong_nghia": [
+  "hạng nguy hiểm cháy và cháy nổ",
+  "Hạng nguy hiểm cháy và cháy nổ",
+  "hạng nguy hiểm cháy",
+  "hạng theo tính nguy hiểm cháy và cháy nổ"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "chung",
+  "m02-bac-chiu-lua",
+  "m09-chong-khoi",
+  "m06-ngan-chay",
+  "doc-ho-so",
+  "m07-thoat-nan",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nhóm nguy hiểm cháy theo công năng",
+  "Gian phòng",
+  "Tải trọng cháy riêng",
+  "Khoang cháy",
+  "Nhà xưởng cho thuê và các công trình phụ trợ",
+  "Sàn lửng",
+  "Bậc chịu lửa",
+  "Bố trí công năng",
+  "Nhóm nhà F",
+  "Cấp nguy hiểm cháy kết cấu"
+ ],
+ "ngay": "2026-10-26T04:49:33.956Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà, công trình và gian phòng có công năng sản xuất, kho (nhóm F5) theo tính nguy hiểm cháy và cháy nổ được phân thành các hạng A, B, C, D, E theo QCVN 06:/BXD.",
+   "dieu": "1.5.2",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Phụ lục C (quy quy định) là phụ lục về hạng nguy hiểm cháy và cháy nổ của nhà, công trình và các gian phòng có công năng sản xuất và kho.",
+   "dieu": "Phụ lục C",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Phân hạng nhà, công trình và gian phòng có công năng sản xuất và kho theo tính nguy hiểm cháy và cháy nổ.",
+   "dieu": "2.5.6",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Hạng của nhà và công trình xác định căn cứ trên tỉ lệ và tổng diện tích các gian phòng thuộc hạng này hay hạng khác trong nhà và công trình đó.",
+   "dieu": "",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Phương pháp xác định các dấu hiệu để xếp nhà, công trình, gian phòng sản xuất và kho vào các hạng được quy định trong các tiêu chuẩn; có thể áp dụng tài liệu [8] và các tài liệu hướng dẫn liên quan. Thông số chất cháy trong nhà và gian phòng tham khảo các tài liệu chuẩn [3, 4, 5, 6, 8, 9] hoặc tài liệu chuẩn khác.",
+   "dieu": "C.3.1",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Khi không có tính toán cụ thể để phân hạng theo tiêu chuẩn, có thể tham khảo hạng nguy hiểm cháy và cháy nổ của một số nhà và gian phòng thuộc các phân xưởng, nhà kho (nội dung chi tiết bị cắt trong nguồn).",
+   "dieu": "C.3.2",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cải tạo thay đổi hạng nguy hiểm cháy và cháy nổ của bộ phận, khu vực thì áp dụng quy định trang bị của Quy chuẩn này đối với các bộ phận, khu vực trực tiếp được cải tạo, sửa chữa.",
+   "dieu": "Thông tư Điều 2 khoản 3",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Khoảng cách từ vị trí xa nhất đến lối ra thoát nạn gần nhất phải được hạn chế tùy thuộc vào nhóm nguy hiểm cháy theo công năng và hạng nguy hiểm cháy nổ (xem Phụ lục C) của gian phòng và nhà, cùng số người thoát nạn, thông số hình học và cấp nguy hiểm cháy kết cấu, bậc chịu lửa của nhà.",
+   "dieu": "3.2 (xem Phụ lục G)",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Nhà có hạng nguy hiểm cháy và cháy nổ D, E được phép bao che hành lang bằng tường kính hoặc bộ phận bao che từ vật liệu không cháy.",
+   "dieu": "3.3",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Không bố trí gian phòng nhóm F5 hạng A hoặc B dưới các gian phòng dùng cho hơn 50 người có mặt đồng thời; không bố trí các gian phòng nhóm F5 này trong tầng hầm và tầng nửa hầm.",
+   "dieu": "3.1.6",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Kho cất giữ hàng hạng C trên giá đỡ cao tầng phải bố trí trong nhà 1 tầng có bậc chịu lửa I đến IV và cấp nguy hiểm cháy kết cấu S0. Nếu bố trí trong nhà nhiều tầng thì giá đỡ cao tầng phải được bảo vệ bằng hệ thống chữa cháy tự động theo tài liệu chuẩn được phép áp dụng và phải bảo đảm mọi người trong nhà thoát nạn an toàn ra ngoài trong mọi trường hợp cháy.",
+   "dieu": "A.1.3.10",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Cải tạo, sửa chữa làm tăng hạng nguy hiểm cháy và cháy nổ của tầng nhà, khoang cháy hoặc nhà thì phải áp dụng yêu cầu của quy chuẩn cho phần được cải tạo; nếu không thể đáp ứng thì áp dụng 1.1.10.",
+   "dieu": "1.1 (điểm c; 1.1.10)",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Lưu lượng nước chữa cháy ngoài nhà: nhà và khu vực kho lạnh bảo quản thực phẩm lấy giống nhà hạng C; nhà phục vụ nông nghiệp và phát triển nông thôn bậc chịu lửa I, II, khối tích không lớn hơn 5 000 m3, hạng D, E lấy bằng 5 L/s.",
+   "dieu": "Chú thích 7 và Chú thích 3 (mục cấp nước chữa cháy ngoài nhà)",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Gian phòng hạng E, và hạng C4 (trừ gian phòng trong nhà F1.1, F1.2, F2.1, F4.1, F4.2) được loại khỏi yêu cầu trang bị báo cháy/chữa cháy tự động theo Phụ lục A.",
+   "dieu": "1.5.11",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà, công trình và gian phòng có công năng khác (không phải sản xuất và kho) không phân hạng theo tính nguy hiểm cháy và cháy nổ, trừ các gian phòng nêu tại 2.5.5.2.",
+   "dieu": "2.5.6",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Quy định cho phép không phân chia các khu vực khác nhóm nguy hiểm cháy theo công năng bằng bộ phận ngăn cháy (khi công năng chính chiếm phần lớn diện tích sàn tầng) không áp dụng nếu gian phòng công năng phụ trợ có hạng nguy hiểm cháy và cháy nổ cao hơn gian phòng công năng chính.",
+   "dieu": "mục bố trí công năng trong tầng nhà (số điều bị cắt trong nguồn)",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Không yêu cầu giới hạn chịu lửa của tường ngăn và ô cửa giữa các gian phòng và hành lang bên, trừ các gian phòng nhóm F5 hạng A, B, C hoặc bếp.",
+   "dieu": "3.3",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Với nhà sản xuất, nhà kho: xem hồ sơ có nêu hạng của từng gian phòng và hạng của cả nhà (theo tỉ lệ và tổng diện tích các gian phòng cùng hạng) hay không; có tính toán hoặc tham chiếu tài liệu chuẩn để phân hạng hay không. Suy từ 2.5.6, C.3.1, C.3.2.",
+   "dieu": "suy từ 2.5.6, C.3.1, C.3.2",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Với công năng khác: không đòi hỏi phân hạng, nhưng soát các gian phòng thuộc 2.5.5.2 (xem mục hay nhầm).",
+   "dieu": "suy từ 2.5.6",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Hạng nguy hiểm cháy và cháy nổ (A, B, C, D, E; chỉ cho sản xuất và kho) khác với nhóm nguy hiểm cháy theo công năng (F1…F5). Khoảng cách thoát nạn xét cả hai yếu tố.",
+   "dieu": "3.2",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Gian phòng sản xuất và kho (kể cả phòng thí nghiệm, nhà xưởng diện tích trên 50 m2) và gian phòng chuẩn bị đồ ăn có thiết bị đun nấu công suất trên 10 kW trong nhà nhóm F1, F2, F3, F4 được xếp vào nhóm F5, nên thuộc diện phải xét hạng.",
+   "dieu": "2.5.5.2",
+   "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  }
+ ]
+}

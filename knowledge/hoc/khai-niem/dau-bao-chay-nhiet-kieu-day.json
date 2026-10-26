@@ -1,0 +1,63 @@
+{
+ "slug": "dau-bao-chay-nhiet-kieu-day",
+ "ten": "Đầu báo cháy nhiệt kiểu dây",
+ "dong_nghia": [
+  "Cáp báo cháy nhiệt kiểu dây",
+  "Line-type heat detector",
+  "CBC nhiệt kiểu dây"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Lựa chọn đầu báo cháy"
+ ],
+ "ngay": "2026-10-26T04:28:22.955Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu báo cháy nhiệt có cấu tạo dạng dây hoặc ống nhỏ",
+   "dieu": "Điều 6.18 TCVN 5738:2021",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Phân loại: không xác định vị trí (tự hồi phục / không tự hồi phục); có xác định vị trí (theo nguyên lý truyền ánh sáng trong sợi quang)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Ứng dụng: máng cáp, băng tải, kho hàng, máy biến áp ngoài trời, công trình ngầm, đường hầm",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Khi lắp phải bảo đảm như đầu báo cháy nhiệt dạng điểm (khoảng cách, chiều cao lắp đặt...)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Lắp sát trần nhà, mái nhà (trong phạm vi < 51 cm)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Chiều cao lắp ≤ 9 m: lấy thông số khoảng cách theo bảng; > 9 m: lấy bằng ½ giá trị trong bảng",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem cao độ lắp, khoảng cách dây tới trần (< 51 cm) và khoảng cách giữa các tuyến dây so với bảng (suy từ yêu cầu nguồn)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "hay_nham": []
+}

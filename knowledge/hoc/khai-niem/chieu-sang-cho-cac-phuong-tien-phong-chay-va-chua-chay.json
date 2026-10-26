@@ -1,0 +1,35 @@
+{
+ "slug": "chieu-sang-cho-cac-phuong-tien-phong-chay-va-chua-chay",
+ "ten": "Chiếu sáng cho các phương tiện phòng cháy và chữa cháy",
+ "dong_nghia": [
+  "emergency lighting for firefighting facilities"
+ ],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Chiếu sáng sự cố"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [
+  {
+   "y": "Cung cấp ánh sáng để đảm bảo cho người vận hành, cũng như người sử dụng có thể thao tác đúng các quy trình hoạt động của phương tiện phòng cháy và chữa cháy bên trong nhà khi xảy ra sự cố.",
+   "dieu": "3.6",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Tủ trung tâm báo cháy, nút ấn báo cháy và phương tiện chữa cháy phải luôn được chiếu sáng đầy đủ; nếu không nằm trên đường thoát nạn hoặc trong phạm vi khoảng trống thì chiếu sáng tối thiểu 5 lux tại mặt sàn.",
+   "dieu": "5.1.6",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

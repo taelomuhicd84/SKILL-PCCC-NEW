@@ -1,0 +1,46 @@
+{
+ "slug": "kich-hoat-tu-xa",
+ "ten": "Kích hoạt từ xa",
+ "dong_nghia": [
+  "Kích hoạt cục bộ"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống Drencher",
+  "Màn nước"
+ ],
+ "ngay": "2026-10-26T04:17:45.822Z",
+ "dinh_nghia": [
+  {
+   "y": "Kích hoạt hệ thống từ xa là khởi động hệ thống bằng tay từ thiết bị đặt trong hoặc gần khu vực bảo vệ hoặc tại phòng trực điều khiển chống cháy.",
+   "dieu": "3.12",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Kích hoạt cục bộ là kích hoạt từ thiết bị lắp đặt tại trạm bơm nước chữa cháy.",
+   "dieu": "3.21",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Mọi hệ thống chữa cháy tự động, trừ Sprinkler, phải có cơ cấu kích hoạt bằng tay: từ xa (thiết bị tại lối vào khu vực bảo vệ và phòng trực điều khiển chống cháy nếu cần) và cục bộ (tại bộ điều khiển hoặc trạm bơm).",
+   "dieu": "5.1.7",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Thiết bị kích hoạt bằng tay phải được bảo vệ khỏi kích hoạt ngoài ý muốn và hư hỏng cơ học; không đặt tại vị trí có chất cháy. Thiết bị khởi động tại chỗ phải niêm phong (trừ thiết bị đặt trong phòng trực điều khiển chống cháy).",
+   "dieu": "5.1.8; 9.3",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

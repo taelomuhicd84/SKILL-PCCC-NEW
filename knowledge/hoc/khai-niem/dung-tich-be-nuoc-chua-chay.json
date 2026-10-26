@@ -1,0 +1,57 @@
+{
+ "slug": "dung-tich-be-nuoc-chua-chay",
+ "ten": "Dung tích bể nước chữa cháy",
+ "dong_nghia": [
+  "thể tích nước chữa cháy trong bồn, bể"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Lưu lượng cấp nước chữa cháy ngoài nhà",
+  "Thời gian chữa cháy",
+  "Bán kính phục vụ"
+ ],
+ "ngay": "2026-10-26T04:26:33.933Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Thể tích nước chữa cháy trong bồn, bể phải tính để bảo đảm: cấp nước chữa cháy từ trụ ngoài nhà và các hệ thống chữa cháy khác; cấp cho thiết bị chữa cháy chuyên dụng (sprinkler, drencher…) không có bể riêng; lượng nước tối đa cho sinh hoạt và sản xuất trong suốt quá trình chữa cháy",
+   "dieu": "Bồn, bể, ao hồ dự trữ nước",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Hệ thống họng nước trong nhà lắp riêng biệt với hệ thống chữa cháy tự động: thể tích bể dự trữ phải bảo đảm lượng nước dùng trong 01 giờ cho một họng nước và các nhu cầu dùng nước khác",
+   "dieu": "Họng nước trong nhà – Lượng nước tính toán",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Họng nước lắp trên hệ thống chữa cháy tự động: thời gian làm việc của họng nước lấy bằng thời gian làm việc của hệ thống chữa cháy tự động",
+   "dieu": "Họng nước trong nhà – Lượng nước tính toán",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Hồ ao cho xe chữa cháy hút nước: có lối tiếp cận và bãi đỗ xe kích thước không nhỏ hơn 12 m × 12 m, mặt bãi bảo đảm tải trọng xe chữa cháy",
+   "dieu": "Bồn, bể, ao hồ dự trữ nước",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Khi không hút trực tiếp từ bồn, bể, hồ bằng xe bơm hoặc máy bơm di động: phải có hố thu thể tích không nhỏ hơn 3 m³ (văn bản ghi 3 m³ đến 5 m³); ống nối bồn, bể, hồ với hố thu không nhỏ hơn 200 mm, có hộp van đóng mở được từ bên ngoài, đầu ống phía hồ nhân tạo có lưới chắn",
+   "dieu": "Bồn, bể, ao hồ dự trữ nước",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Cộng nước chữa cháy ngoài nhà (lưu lượng × thời gian), nước cho hệ thống tự động chưa có bể riêng, nước sinh hoạt, sản xuất; so với thể tích bể ghi trên bản vẽ/thuyết minh",
+   "dieu": "suy từ mục Bồn, bể, ao hồ dự trữ nước",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "hay_nham": []
+}

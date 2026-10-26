@@ -1,0 +1,90 @@
+{
+ "slug": "gara-o-to-bo-tri-ben-trong",
+ "ten": "Gara ô-tô bố trí bên trong",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Gara ô-tô bố trí liền kề",
+  "Khoang đệm ngăn cháy",
+  "Buồng thang bộ của gara ô-tô"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [
+  {
+   "y": "Gara ô-tô mà tất cả các gian phòng của nó nằm trong phạm vi một tòa nhà có chức năng khác. Phần gara nhô ra ngoài phạm vi tòa nhà không quá 1,5 m tính từ mặt đứng dọc nhà và không quá 6 m tính từ hai đầu hồi.",
+   "dieu": "1.2.6",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Mọi gian phòng của gara nằm trong tòa nhà chức năng khác; phần nhô ≤ 1,5 m (mặt đứng dọc nhà), ≤ 6 m (đầu hồi).",
+   "dieu": "1.2.6",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Được phép bố trí trong nhà chức năng khác có bậc chịu lửa I, II với cấu kiện bằng vật liệu không cháy và khó cháy; nhà F1.4 không phụ thuộc bậc chịu lửa; nhà F1.3 chỉ cho xe con có chỗ đỗ cố định (không có vách ngăn riêng) theo chủ xe.",
+   "dieu": "2.1.6",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không bố trí trong nhà F1.1, F4.1 và nhà sản xuất F5 hạng A, B.",
+   "dieu": "2.1.6",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Không lưu giữ ô-tô chạy khí nén tự nhiên và khí hóa lỏng trong gara dạng kín nằm trong nhà chức năng khác.",
+   "dieu": "2.1.7",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Bậc chịu lửa không thấp hơn bậc chịu lửa của chính nhà đó; ngăn cách với các gian phòng (tầng) của nhà bằng tường và sàn ngăn cháy loại 1 (nhà F1.3 cho phép sàn ngăn cháy loại 2, khi đó tầng ở phải cách gara bằng một tầng không có người ở, ví dụ tầng kỹ thuật).",
+   "dieu": "2.2.1.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Không được bố trí bên trong buồng thang bộ chung và giếng thang máy chung; lối ra từ buồng thang bộ, giếng thang máy của gara đi vào sảnh có lối ra chính của tòa nhà; trên các tầng gara lắp khoang đệm ngăn cháy loại 1 có áp suất dương khi có cháy.",
+   "dieu": "2.2.1.8",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Hệ thống kỹ thuật độc lập với hệ thống của tòa nhà đó.",
+   "dieu": "2.3.1.3",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Phải có hệ thống chữa cháy tự động.",
+   "dieu": "2.3.5.2 d",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Không được đẩy khói qua các lỗ cửa mở.",
+   "dieu": "2.3.3.5",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng, mặt cắt: nhóm nhà F và bậc chịu lửa của nhà chủ; tường, sàn ngăn cháy loại 1; vị trí buồng thang, thang máy. Suy từ 2.1.6, 2.2.1.5, 2.2.1.8.",
+   "dieu": "2.1.6; 2.2.1.5; 2.2.1.8",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác gara bố trí liền kề: liền kề có tường bao che là tường chung hoặc tiếp giáp với tường nhà khác; bố trí bên trong nằm hoàn toàn trong tòa nhà.",
+   "dieu": "1.2.6; 1.2.7",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

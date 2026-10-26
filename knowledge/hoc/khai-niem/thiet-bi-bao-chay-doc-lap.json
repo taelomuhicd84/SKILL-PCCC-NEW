@@ -1,0 +1,51 @@
+{
+ "slug": "thiet-bi-bao-chay-doc-lap",
+ "ten": "Thiết bị báo cháy độc lập",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy tự động",
+  "Hệ thống báo cháy địa chỉ",
+  "Phụ lục A (trang bị báo cháy tự động, chữa cháy tự động)"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhiều dòng Bảng A.1 cho phép trang bị thiết bị báo cháy độc lập thay hệ thống báo cháy tự động khi nhà thấp tầng và diện tích nhỏ, ví dụ: nhà ở riêng lẻ kết hợp kinh doanh dịch vụ cao từ 7 tầng trở lên (mục 1); chung cư, nhà ở tập thể, ký túc xá khi thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m² (mục 3); nhà trẻ, mầm non khi tổng diện tích sàn nhỏ hơn 500 m² (mục 4); nhà dưỡng lão khi thấp hơn 3 tầng và nhỏ hơn 300 m² (mục 7); khách sạn, trụ sở, văn phòng khi thấp hơn 5 tầng và nhỏ hơn 1 500 m² (mục 18, 20).",
+   "dieu": "Bảng A.1, mục 1, 3, 4, 7, 18, 20",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Việc lựa chọn, bố trí thiết bị báo cháy độc lập thực hiện như đối với các thiết bị tương tự của hệ thống báo cháy tự động.",
+   "dieu": "2.1.1",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Nhà ở riêng lẻ kết hợp kinh doanh, sản xuất: cho phép chỉ trang bị hệ thống báo cháy tự động hoặc thiết bị báo cháy độc lập tại khu vực sản xuất, kinh doanh, nhưng mỗi tầng của nhà phải có thiết bị cảnh báo âm thanh kết nối liên động với hệ thống báo cháy tự động hoặc thiết bị báo cháy độc lập.",
+   "dieu": "Bảng A.1, chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu số tầng và tổng diện tích sàn với ngưỡng \"cho phép trang bị thiết bị báo cháy độc lập\" ở đúng dòng loại nhà của Bảng A.1. Suy từ Bảng A.1.",
+   "dieu": "Bảng A.1",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ngưỡng cho phép dùng thiết bị độc lập khác nhau theo từng loại nhà (ví dụ mục 3 dùng 5 tầng và 1 500 m², mục 4 dùng 500 m²), không áp một ngưỡng chung.",
+   "dieu": "Bảng A.1",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

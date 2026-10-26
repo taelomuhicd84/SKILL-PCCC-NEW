@@ -1,0 +1,46 @@
+{
+ "slug": "luong-khi-chua-chay",
+ "ten": "Lượng khí chữa cháy",
+ "dong_nghia": [
+  "tổng khối lượng khí chữa cháy Q"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nồng độ thiết kế",
+  "Thể tích riêng"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [
+  {
+   "y": "Q là tổng khối lượng khí chữa cháy, kg",
+   "dieu": "Lượng khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Khí hóa lỏng: Q = V/v × C/(100 − C). Khí không hóa lỏng: Q = V/v × ln[100/(100 − C)]. Trong đó C là nồng độ thiết kế (% thể tích); V là thể tích khu vực có sự cố cháy, m³ (thể tích được bao quanh trừ các cấu trúc cố định không thấm khí chữa cháy); v là thể tích riêng, m³/kg: v = k1 + k2×T; k1, k2 là hằng số riêng của khí do nhà sản xuất cung cấp; T là nhiệt độ môi trường nhỏ nhất được định trước của thể tích được bảo vệ, °C",
+   "dieu": "Lượng khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Tính lại Q từ V, C, T, k1, k2 trong thuyết minh; so với tổng khối lượng khí nạp trong bình; kiểm V đã trừ cấu trúc cố định không thấm khí",
+   "dieu": "suy từ Lượng khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Công thức khí hóa lỏng (dạng C/(100−C)) khác khí không hóa lỏng (dạng ln); không dùng lẫn",
+   "dieu": "Lượng khí chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ]
+}

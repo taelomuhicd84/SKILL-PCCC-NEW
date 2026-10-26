@@ -1,0 +1,72 @@
+{
+ "slug": "khu-vuc-co-nguoi-khu-vuc-duoc-bao-ve-bang-he-thong-phun-khi-the-tich",
+ "ten": "Khu vực có người (khu vực được bảo vệ bằng hệ thống phun khí thể tích)",
+ "dong_nghia": [
+  "các khu vực có người"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m07-thoat-nan",
+  "m14-den-su-co",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "NOAEL",
+  "LOAEL",
+  "Bộ phận báo động và hiển thị"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Khu vực được bảo vệ bằng hệ thống phun khí chữa cháy thể tích và có thể có người",
+   "dieu": "Các khu vực có người",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Phải trang bị: (a) cơ cấu làm trễ thời gian, có tín hiệu báo động trước khi phun với độ trễ đủ để sơ tán người, chỉ dùng để sơ tán hoặc chuẩn bị phun; (b) bộ chuyển đổi tự động/bằng tay và cơ cấu khóa ngắt nếu cần theo 5.2; (c) đường thoát nạn thông thoáng mọi lúc, đủ đèn chiếu sáng sự cố và chỉ dẫn thoát nạn; (d) cửa mở ra ngoài có cơ cấu tự đóng, mở được từ bên trong; (e) báo động liên tục ánh sáng và âm thanh bên trong tại cửa ra vào, ánh sáng bên ngoài, hoạt động tới khi khu vực an toàn; (f) tín hiệu cảnh báo và hướng dẫn; (g) tín hiệu cảnh báo trước phun hoạt động tức thời từ lúc bắt đầu thời gian trễ, khác với mọi tín hiệu báo động khác; (h) thông gió tự nhiên hoặc cưỡng bức sau phun (cưỡng bức thường rất cần thiết), khuếch tán hoàn toàn khí nguy hiểm, không để lây sang vị trí khác vì phần lớn khí chữa cháy nặng hơn không khí; (i) hướng dẫn và huấn luyện cho người ở trong hoặc lân cận khu bảo vệ",
+   "dieu": "Các khu vực có người, a)–i)",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cơ cấu khóa ngắt thường không được sử dụng, chỉ dùng trong một số trường hợp, đặc biệt cho một số chức năng bảo dưỡng riêng",
+   "dieu": "Chú thích mục b)",
+   "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Cơ cấu làm trễ thời gian áp dụng cho khu vực mà thời gian trễ không làm tăng nguy hiểm đáng kể đến con người và tài sản",
+   "dieu": "Mục a)",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Với khu vực thường không có người: nồng độ lớn nhất không được vượt quá LOAEL của khí chữa cháy dùng nếu không lắp cơ cấu khóa ngắt",
+   "dieu": "Đối với các khu vực thường không có người",
+   "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Khi thiết kế hệ thống trong phòng có người với nồng độ vượt quá NOAEL thì hệ thống nên thiết kế ở chế độ không tự động",
+   "dieu": "Đối với các khu vực thường không có người",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ cửa mở ra ngoài, đèn sự cố/chỉ dẫn thoát nạn, chuông đèn báo trước phun, thuyết minh thời gian trễ, thông gió sau phun; so nồng độ thiết kế với NOAEL/LOAEL của khí",
+   "dieu": "suy từ Các khu vực có người",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Văn bản dùng tiêu đề 'Đối với các khu vực thường không có người' nhưng nội dung nêu cả trường hợp thiết kế trong phòng có người với nồng độ vượt NOAEL",
+   "dieu": "Đối với các khu vực thường không có người",
+   "nguon": "2db33f33c221"
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "slug": "duong-cho-xe-chua-chay",
+ "ten": "Đường cho xe chữa cháy",
+ "dong_nghia": [
+  "bãi đỗ xe chữa cháy",
+  "đường và bãi đỗ cho xe chữa cháy",
+  "Đường và bãi đỗ xe chữa cháy"
+ ],
+ "anh_huong": [
+  "m04-giao-thong",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Bãi đỗ xe chữa cháy",
+  "Bãi quay xe",
+  "Kết cấu chặn phía trên",
+  "Lối vào từ trên cao",
+  "Bề mặt dốc (nghiêng)",
+  "Đường cho xe chữa cháy",
+  "Giao thông cho xe chữa cháy",
+  "Chiều cao nhà",
+  "Khối tích"
+ ],
+ "ngay": "2026-10-26T04:40:34.533Z",
+ "dinh_nghia": [
+  {
+   "y": "Đường (kết hợp chung với đường theo công năng của nhà hoặc bố trí riêng) để xe chữa cháy và lực lượng chữa cháy tiếp cận nhà.",
+   "dieu": "6.1",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà nhóm F1, F2, F3, F4 có chiều cao PCCC không quá 15 m không yêu cầu bãi đỗ xe chữa cháy, nhưng phải có đường cho xe chữa cháy tiếp cận đến điểm bất kỳ trên hình chiếu bằng của nhà không lớn hơn 60 m, hoặc có phương án chữa cháy phù hợp từ ngoài nhà.",
+   "dieu": "6.2.2.1",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Tầng hầm phải có đường cho xe chữa cháy nằm trong phạm vi 18 m tính từ lối vào trên mặt đất của tất cả các khoang đệm của thang máy chữa cháy hoặc của buồng thang bộ thoát nạn có họng chờ DN 65 (hệ thống ống khô).",
+   "dieu": "6.2.2.4",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Đường giao thông công cộng có thể dùng làm bãi đỗ xe chữa cháy nếu vị trí phù hợp quy định khoảng cách đến lối vào từ trên cao tại 6.2.3.",
+   "dieu": "6.2.6",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Ví dụ trong tập huấn: nhà xưởng A, B, C, D đều có đường xe chữa cháy bao quanh mặt ngoài nhà.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Chiều rộng thông thủy mặt đường không nhỏ hơn 3,5 m.",
+   "dieu": "6.2.1.1",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Độ dốc đường cho xe chữa cháy không quá 1:8,3.",
+   "dieu": "6.2.4",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Đường cụt dài hơn 46 m thì cuối đoạn cụt phải có bãi quay xe.",
+   "dieu": "6.2.5",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Phải thông thoáng mọi thời điểm; đánh dấu các góc bằng dải sơn phản quang ở hai phía, khoảng cách không quá 5 m; biển báo nền trắng chữ đỏ, chữ cao không nhỏ hơn 50 mm ở điểm đầu và điểm cuối, treo cao 1,0–1,5 m, cách đường không quá 3 m, không phần nào của đường cách biển báo gần nhất quá 15 m.",
+   "dieu": "6.2.7, 6.2.8",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Mặt đường chịu được tải trọng xe chữa cháy theo thiết kế, phù hợp phương tiện của Cảnh sát PCCC và CNCH nơi xây dựng.",
+   "dieu": "6.2.9",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Khoảng cách từ mép đường đến tường nhà: không quá 5 m (chiều cao PCCC < 12 m), không quá 8 m (12–28 m), không quá 10 m (> 28 m). Không quy định khi không có yêu cầu cứu nạn từ trên cao và lực lượng chữa cháy có phương án khác.",
+   "dieu": "6.2.2.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Trường hợp cần thiết được tăng khoảng cách từ mép gần nhà đến tường ngoài lên 60 m nếu có đường cụt đi vào kèm bãi quay xe và trụ nước chữa cháy; khi đó khoảng cách từ nhà đến bãi quay xe 5–15 m và khoảng cách giữa các đường cụt không quá 100 m.",
+   "dieu": "6.2.2.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Mặt đường phải chịu được tải trọng của xe chữa cháy theo yêu cầu thiết kế và phù hợp với chủng loại phương tiện của cơ quan Cảnh sát PCCC và CNCH nơi xây dựng công trình.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Chiều rộng đảm bảo ≥ 3,5 m.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Độ dốc của đường cho xe chữa cháy không được quá 1 : 8,3.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Bề mặt của bãi đỗ xe chữa cháy phải ngang bằng.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Cứ mỗi đoạn đủ hoặc không đủ 20 m chiều dài bãi đỗ xe chữa cháy phải có 01 vị trí lối vào từ trên cao.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem tổng mặt bằng: đo bề rộng đường, khoảng cách mép đường đến tường nhà, độ dốc, bãi quay xe ở đường cụt > 46 m, biển báo/sơn đánh dấu; suy từ 6.2.1–6.2.8.",
+   "dieu": "suy từ 6.2",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Xem tổng mặt bằng: đường bao quanh nhà, chiều rộng ≥ 3,5 m, độ dốc ≤ 1:8,3, ghi chú tải trọng mặt đường.",
+   "dieu": "suy từ yêu cầu của nguồn",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Xem tổng mặt bằng: bãi đỗ ngang bằng hoặc ghi độ dốc, chiều dài bãi để đếm số lối vào từ trên cao.",
+   "dieu": "suy từ yêu cầu của nguồn",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Đường cho xe chữa cháy (rộng ≥ 3,5 m) khác bãi đỗ xe chữa cháy (kích thước theo Bảng 14).",
+   "dieu": "6.2.1",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Độ dốc đường (≤ 1:8,3) khác độ dốc bãi đỗ xe chữa cháy (≤ 1:15).",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ]
+}

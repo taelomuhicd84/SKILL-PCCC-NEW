@@ -1,0 +1,65 @@
+{
+ "slug": "ngan-chay-theo-cong-nang",
+ "ten": "Ngăn cháy theo công năng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Khoang cháy"
+ ],
+ "ngay": "2026-10-26T04:32:03.287Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Các phần nhà, gian phòng thuộc các nhóm nguy hiểm cháy theo công năng khác nhau.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Phải ngăn cách bằng bộ phận ngăn cháy có giới hạn chịu lửa tối thiểu EI45 đối với nhà bậc chịu lửa I đến III; tối thiểu EI15 đối với nhà bậc IV; hoặc giải pháp tương đương, trừ khi có quy định khác.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Một tầng có từ hai công năng trở lên, công năng chính chiếm tối thiểu 90% diện tích sàn tầng và các công năng còn lại phụ trợ: cho phép không ngăn cháy, cả tầng theo nhóm công năng chính.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Nhà nhóm F1, F2, F3, F4 không yêu cầu ngăn cháy với: gian phòng F5 hạng C4, E; phòng kỹ thuật nước; phòng ẩm ướt hoặc nguy cơ cháy thấp; phòng kho ≤ 10 m² không chứa khí/chất lỏng dễ cháy; phòng họp nội bộ; khu chỉ phục vụ ăn uống (không bếp nấu, không kho thực phẩm).",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Quy định công năng chính ≥ 90% không áp dụng khi gian phòng phụ trợ có hạng nguy hiểm cháy và cháy nổ cao hơn gian phòng công năng chính.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nếu không ngăn cách thì yêu cầu an toàn cháy của tầng lấy theo công năng cao nhất; phải ngăn cách khu vực công năng A, B, C với khu vực ở hoặc công cộng khác.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Ví dụ trong hồ sơ: ngăn cháy với khu văn phòng bằng tường EI45, cửa EI30.",
+   "dieu": "",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng: phân vùng công năng, chỉ rõ tường/cửa ngăn cháy và giới hạn chịu lửa EI.",
+   "dieu": "suy từ nguồn",
+   "nguon": "9c1acce62841"
+  }
+ ],
+ "hay_nham": []
+}

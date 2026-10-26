@@ -1,0 +1,40 @@
+{
+ "slug": "nhiet-do-tac-dong-danh-dinh-cua-dau-phun",
+ "ten": "Nhiệt độ tác động danh định của đầu phun",
+ "dong_nghia": [
+  "nhiệt độ làm việc của đầu phun"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hướng lắp đặt đầu phun",
+  "Hệ số RTI"
+ ],
+ "ngay": "2026-10-26T04:29:36.048Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhiệt độ làm việc của đầu phun phải chọn phù hợp với nhiệt độ môi trường trong khu vực bảo vệ.",
+   "dieu": "Điều 5.2.17, 5.2.18",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nhiệt độ môi trường tối đa trong khu vực → nhiệt độ tác động danh định (°C): dưới 39 → 57; 39 đến dưới 50 → 68, 72 hoặc 74; 50 đến dưới 70 → 79 hoặc 93; 70 đến dưới 77 → 100; 77 đến dưới 86 → 121; 86 đến dưới 100 → 141; 100 đến dưới 120 → 163; 120 đến dưới 140 → 182; 140 đến dưới 162 → 204; 162 đến dưới 185 → 227; 185 đến dưới 200 → 240.",
+   "dieu": "Điều 5.2.17, 5.2.18",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "So nhiệt độ ghi trên thông số đầu phun với nhiệt độ môi trường tối đa của khu vực (kho mái tôn, phòng kỹ thuật, bếp…) theo bảng.",
+   "dieu": "suy từ Điều 5.2.17, 5.2.18",
+   "nguon": "0295bcc50340"
+  }
+ ],
+ "hay_nham": []
+}

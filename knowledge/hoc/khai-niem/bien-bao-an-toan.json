@@ -1,0 +1,96 @@
+{
+ "slug": "bien-bao-an-toan",
+ "ten": "Biển báo an toàn",
+ "dong_nghia": [
+  "safety sign"
+ ],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Biển báo an toàn tầm thấp",
+  "Chiều cao nhỏ nhất của biển báo an toàn",
+  "Độ chói",
+  "Sơ đồ chỉ dẫn thoát nạn"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [
+  {
+   "y": "Các biển báo (biển báo chỉ hướng thoát nạn và biển báo chỉ dẫn lối ra thoát nạn) cung cấp chỉ dẫn thoát nạn thông qua sự kết hợp của màu sắc, hình dạng và một số ký hiệu hình học hoặc chữ. Gồm 2 loại: được chiếu sáng từ bên ngoài và được chiếu sáng từ bên trong.",
+   "dieu": "3.7",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Biển báo chỉ hướng thoát nạn: biển để đánh dấu hướng của một đường thoát nạn. Biển báo chỉ dẫn lối ra thoát nạn: biển để đánh dấu lối ra thoát nạn.",
+   "dieu": "3.10, 3.11",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Biển chỉ dẫn lối ra thoát nạn: lắp ở tất cả các lối ra vào của cầu thang bộ thoát nạn, các đường thoát nạn trên tầng nhà và tất cả các lối ra của gian phòng có từ 02 lối ra thoát nạn trở lên.",
+   "dieu": "5.2.1",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Biển chỉ hướng thoát nạn: lắp trên đường thoát nạn, trong gian phòng và tất cả các vị trí mà tầm nhìn bị che khuất không thể phát hiện được các lối ra thoát nạn.",
+   "dieu": "5.2.2",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Biển chỉ dẫn lối ra thoát nạn có thể không cần bố trí: gian phòng có chiếu sáng sự cố mà chỉ có 01 lối ra vào, hoặc có lối ra trực tiếp ra hành lang bên hoặc không gian ngoài nhà; gian phòng không có chiếu sáng sự cố mà chỉ có 01 lối ra vào và khoảng cách từ điểm bất kỳ đến lối ra gần nhất không lớn hơn 7 m, hoặc khoảng cách đến cửa ra vào không lớn hơn 13 m và tường giáp hành lang có tối thiểu 50% là kính đồng thời cửa mở vào hành lang có chiếu sáng sự cố hoặc mở ra hành lang bên/ra ngoài nhà; nhà 1 tầng diện tích sàn không quá 200 m² và diện tích lỗ hở trên tường ngoài đạt tối thiểu 80%.",
+   "dieu": "5.2.1",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Biển chỉ hướng thoát nạn có thể không cần bố trí: sân vườn, khu vực sân thượng không có mái che; nhà 1 tầng chỉ có mái che (không có tường bao quanh), diện tích sàn không quá 200 m² và diện tích lỗ hở chiếm tối thiểu 80% diện tích tường ngoài.",
+   "dieu": "5.2.2",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Phải thấy rõ chữ “LỐI RA” hoặc “EXIT”, ký hiệu hình học khác thích hợp; màu nền xanh lá cây, màu chữ và ký hiệu hình học màu trắng.",
+   "dieu": "4.6",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Biển báo dọc đường thoát nạn đáp ứng TCVN 8092:2009 (ISO 7010:2003), TCVN 5053:1990, ISO 3864-1; khoảng cách giữa các biển (không gồm biển tầm thấp) không lớn hơn 25 m.",
+   "dieu": "5.2.6",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Lắp ở độ cao từ 2 m đến 2,7 m so với mặt sàn, hoặc ngay trên cửa nếu cửa cao hơn 2,7 m. Khu vực không được bảo vệ chống khói khiến khói tích tụ thì nên gắn thấp hơn trần tối thiểu 0,5 m và không lắp biển chiếu sáng từ bên ngoài.",
+   "dieu": "5.2.8",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Độ chói khi có sự cố: tối thiểu 2 cd/m² theo mọi hướng; khi tầm nhìn bị ảnh hưởng nhiều do khói thì tối thiểu 10 cd/m².",
+   "dieu": "5.2.4",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Tính đồng đều độ chói trong cùng một màu (nhỏ nhất/lớn nhất) phải lớn hơn 1:5 (lớn hơn 1:10 nếu độ chói biển > 100 cd/m²); tỉ số độ chói màu tương phản/màu an toàn liền kề không nhỏ hơn 5:1 và không lớn hơn 15:1.",
+   "dieu": "5.2.5",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ 5.2.1, 5.2.2, 5.2.8: xem mặt bằng từng tầng đối chiếu vị trí biển với cửa thang, lối ra gian phòng ≥ 2 lối ra, điểm khuất tầm nhìn; xem chi tiết/ghi chú cao độ lắp 2–2,7 m, khoảng cách giữa các biển ≤ 25 m.",
+   "dieu": "suy từ 5.2.1, 5.2.2, 5.2.6, 5.2.8",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Biển chỉ dẫn lối ra (đánh dấu lối ra) khác biển chỉ hướng (đánh dấu hướng đường thoát nạn). Biển tầm thấp chỉ bổ trợ, không thay thế biển tiêu chuẩn.",
+   "dieu": "3.10, 3.11, 5.2.3",
+   "nguon": "f0d3f93819cb"
+  }
+ ]
+}

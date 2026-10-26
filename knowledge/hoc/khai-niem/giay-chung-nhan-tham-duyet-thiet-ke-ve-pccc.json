@@ -1,0 +1,77 @@
+{
+ "slug": "giay-chung-nhan-tham-duyet-thiet-ke-ve-pccc",
+ "ten": "Giấy chứng nhận thẩm duyệt thiết kế về PCCC",
+ "dong_nghia": [
+  "Giấy chứng nhận thẩm duyệt"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "chung",
+  "ra-soat"
+ ],
+ "lien_quan": [
+  "Thẩm duyệt điều chỉnh",
+  "Nội dung được nghiệm thu về PCCC",
+  "Nội dung thẩm duyệt thiết kế về PCCC"
+ ],
+ "ngay": "2026-10-26T04:48:43.259Z",
+ "dinh_nghia": [
+  {
+   "y": "Giấy do cơ quan Công an cấp cho dự án, công trình đã được thẩm duyệt thiết kế về PCCC.",
+   "dieu": "NĐ 347/2026 Điều 29 khoản 1",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Dự án đầu tư xây dựng, công trình được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC. Thời điểm cấp (trước hay sau 01/7/2025) là căn cứ để xét có thuộc trường hợp thẩm duyệt điều chỉnh hay không.",
+   "dieu": "NĐ 347/2026 Điều 29 khoản 1, sửa khoản 3 Điều 46 NĐ 105/2025",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Đã có Giấy chứng nhận mà chưa chấp thuận nghiệm thu thì tiếp tục theo khoản 3 Điều 46 NĐ 105/2025.",
+   "dieu": "khoản 3 Điều 46 NĐ 105/2025",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Đã có Giấy chứng nhận và điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6, khoản 3 Điều 9 NĐ 105/2025 thì thẩm duyệt điều chỉnh.",
+   "dieu": "NĐ 347/2026 Điều 29 khoản 1",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Đã có Giấy chứng nhận thẩm duyệt mà chưa chấp thuận nghiệm thu thì tiếp tục theo khoản 3 Điều 46 NĐ 105/2025.",
+   "dieu": "khoản 3 Điều 46 NĐ 105/2025",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Giấy tờ đã cấp còn hiệu lực thì tiếp tục dùng đến hết hạn.",
+   "dieu": "NĐ 347/2026 Điều 40 khoản 3",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Đã góp ý thiết kế cơ sở nhưng chưa cấp Giấy chứng nhận, không thuộc Phụ lục III: không thẩm định.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem hồ sơ có Giấy chứng nhận thẩm duyệt hay không, ngày cấp, và đã có chấp thuận kết quả nghiệm thu chưa (suy từ khoản 3 Điều 46 NĐ 105/2025, sửa bởi Điều 29 NĐ 347/2026).",
+   "dieu": "",
+   "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Đã góp ý thiết kế cơ sở chưa phải là đã có Giấy chứng nhận. Hai trường hợp xử lý khác nhau.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ]
+}

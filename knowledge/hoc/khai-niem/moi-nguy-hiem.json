@@ -1,0 +1,45 @@
+{
+ "slug": "moi-nguy-hiem",
+ "ten": "Mối nguy hiểm",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Hệ thống chữa cháy bằng Sol-khí",
+  "Đầu báo cháy",
+  "Hệ thống chữa cháy bằng khí"
+ ],
+ "ngay": "2026-10-26T04:53:50.362Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Bình phun Sol-khí phải được bố trí bên trong hoặc càng gần các mối nguy hiểm cần bảo vệ càng tốt, bảo đảm độ bao phủ và đạt nồng độ thiết kế trong tất cả khu vực bảo vệ.",
+   "dieu": "",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Khi chọn và định vị đầu báo cháy lửa (hồng ngoại hoặc tia cực tím), phải phù hợp với mối nguy hiểm cháy và mức bảo vệ yêu cầu.",
+   "dieu": "Chú thích 5.9.3 TCVN 7568-14:2025",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Bộ phận báo động và hiển thị dùng để báo hoạt động của hệ thống chữa cháy, mối nguy hiểm đối với con người hoặc sự hư hỏng của cơ cấu giám sát.",
+   "dieu": "",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Ngoài độ bao phủ và nồng độ thiết kế, bình phun phải bảo đảm khoảng cách an toàn đối với con người, vật liệu dễ cháy, thiết bị điện.",
+   "dieu": "",
+   "nguon": "kb:tk-mối-nguy-hiểm"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

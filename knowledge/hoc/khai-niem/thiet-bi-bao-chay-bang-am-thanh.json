@@ -1,0 +1,76 @@
+{
+ "slug": "thiet-bi-bao-chay-bang-am-thanh",
+ "ten": "Thiết bị báo cháy bằng âm thanh",
+ "dong_nghia": [
+  "thiết bị báo động âm thanh"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m14-den-su-co"
+ ],
+ "lien_quan": [
+  "Thiết bị báo cháy bằng ánh sáng"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Tín hiệu báo cháy phân bố đồng thời trong khoang cháy/nhà và công trình, nghe rõ ở mọi địa điểm.",
+   "dieu": "5.11.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khu vực như bệnh viện: bố trí mức âm và nội dung thông báo để báo cho nhân viên và giảm tối thiểu khủng hoảng tinh thần cho bệnh nhân.",
+   "dieu": "5.11.2.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phân bố đồng thời trong khoang cháy/nhà",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Lớn hơn 10 dB so với âm thanh xung quanh nhưng không lớn hơn 105 dB; tại vị trí ngủ phải > 15 dB",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Khu vực đặc biệt phải có biện pháp cung cấp âm thanh báo cháy hợp lý để tránh căng thẳng",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Mức âm (trung bình 60 s) tại mọi vị trí lớn hơn độ ồn xung quanh ít nhất 10 dBA, không nhỏ hơn 65 dBA và không lớn hơn 105 dBA.",
+   "dieu": "5.11.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khu vực ngủ: lớn hơn độ ồn xung quanh ít nhất 15 dBA (cửa đóng) và không nhỏ hơn 75 dBA.",
+   "dieu": "5.11.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bố trí còi/chuông trên mặt bằng và thuyết minh mức âm (suy từ yêu cầu nguồn)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Xem thuyết minh/bản vẽ loa, còi: mức dBA yêu cầu 65/75 dBA, phân bố mọi khu vực; suy từ 5.11.2.1.",
+   "dieu": "5.11.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác thiết bị báo cháy bằng ánh sáng (nhấp nháy, lắp ở hành lang, nơi ồn > 95 dBA, người khiếm thính).",
+   "dieu": "5.11.3.1.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ]
+}

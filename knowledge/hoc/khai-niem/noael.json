@@ -1,0 +1,47 @@
+{
+ "slug": "noael",
+ "ten": "NOAEL",
+ "dong_nghia": [
+  "Mức ảnh hưởng không có hại quan sát được",
+  "no observed adverse effect level"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "LOAEL",
+  "Khu vực có người"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [
+  {
+   "y": "Nồng độ cao nhất tại đó không quan sát được sự nhiễm độc hoặc sự tác động đến sinh lý",
+   "dieu": "Định nghĩa NOAEL",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Thiết kế trong phòng có người với nồng độ vượt NOAEL thì hệ thống nên ở chế độ không tự động",
+   "dieu": "Đối với các khu vực thường không có người",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "So nồng độ thiết kế của khí (thuyết minh) với NOAEL của khí đó",
+   "dieu": "suy từ Định nghĩa NOAEL",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác LOAEL: NOAEL là nồng độ cao nhất chưa quan sát được tác động; LOAEL là nồng độ thấp nhất đã quan sát được tác động",
+   "dieu": "Định nghĩa NOAEL, LOAEL",
+   "nguon": "2db33f33c221"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "slug": "van-bao-ve-vo-bom",
+ "ten": "Van bảo vệ vỏ bơm",
+ "dong_nghia": [
+  "Casing relief valve"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Động cơ diesel của bơm chữa cháy",
+  "Máy bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [
+  {
+   "y": "Van có lưu lượng nhỏ với mục đích làm mát cho vỏ bơm khi bơm làm việc với 0% lưu lượng qua bơm.",
+   "dieu": "2.6.4",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Phải lắp cho tất cả bơm điện, ngay trên vỏ bơm ở đầu đẩy hoặc trên đường ống đầu đẩy cạnh bơm, trước van một chiều của bơm.",
+   "dieu": "2.6.4",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không áp dụng cho bơm dẫn động bởi động cơ diesel có hệ thống làm mát bằng nước lấy từ đầu đẩy của bơm khi hoạt động.",
+   "dieu": "2.6.4",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Mỗi bơm lắp 01 van, độc lập với van an toàn của hệ thống; đường xả độc lập ra hệ thống nước thải nhìn thấy được; kích cỡ danh định 19 mm với bơm lưu lượng không vượt quá 9.462 l/phút (2.500 gpm), 25 mm với bơm từ 11.355 đến 18.925 l/phút (3.000–5.000 gpm).",
+   "dieu": "2.6.4",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác van an toàn cho bơm (2.6.5), chỉ bắt buộc cho bơm diesel hoặc khi áp suất dừng bơm cộng áp hút tĩnh tối đa vượt áp suất hệ thống, đặt giữa bơm và van một chiều đầu đẩy.",
+   "dieu": "2.6.4, 2.6.5",
+   "nguon": "b6694167594c"
+  }
+ ]
+}

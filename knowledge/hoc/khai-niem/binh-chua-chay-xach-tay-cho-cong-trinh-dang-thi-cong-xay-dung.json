@@ -1,0 +1,54 @@
+{
+ "slug": "binh-chua-chay-xach-tay-cho-cong-trinh-dang-thi-cong-xay-dung",
+ "ten": "Bình chữa cháy xách tay cho công trình đang thi công xây dựng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m10-binh-chua-chay",
+  "chung"
+ ],
+ "lien_quan": [
+  "Bình chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:06:22.541Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Công trình đang thi công xây dựng, kể cả các nhà tạm phục vụ thi công, phải trang bị bình chữa cháy xách tay.",
+   "dieu": "2.6.5",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Tối thiểu 01 bình bột chữa cháy xách tay loại ABC không nhỏ hơn 4 kg cho mỗi diện tích đến 500 m² sàn xây dựng, xét riêng cho mỗi tầng; diện tích chưa đủ 500 m² vẫn phải trang bị tối thiểu 01 bình.",
+   "dieu": "2.6.5",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Số lượng bình xách tay gấp đôi số lượng tối thiểu khi không thể bố trí đường giao thông cho xe chữa cháy tiếp cận đến công trình.",
+   "dieu": "2.6.5",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Bán kính bảo vệ tối đa của bình chữa cháy xách tay là 25 m, đặt tại nơi dễ thấy, dễ lấy.",
+   "dieu": "2.6.5",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Lấy diện tích sàn từng tầng chia 500 m² (làm tròn lên) để ra số bình tối thiểu loại ABC ≥ 4 kg; nhân đôi nếu không có đường cho xe chữa cháy tiếp cận; kiểm bán kính 25 m (suy từ 2.6.5).",
+   "dieu": "suy từ 2.6.5",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Định mức 500 m² sàn/bình và bình ABC ≥ 4 kg chỉ áp dụng cho công trình đang thi công, không phải công trình đã hoàn thành (trang bị theo điểm 6, 7 TCVN 7435-1).",
+   "dieu": "2.6.1, 2.6.5",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ]
+}

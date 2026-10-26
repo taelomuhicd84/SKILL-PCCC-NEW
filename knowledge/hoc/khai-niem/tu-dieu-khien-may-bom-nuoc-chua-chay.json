@@ -1,0 +1,81 @@
+{
+ "slug": "tu-dieu-khien-may-bom-nuoc-chua-chay",
+ "ten": "Tủ điều khiển máy bơm nước chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Máy bơm nước chữa cháy",
+  "Bơm bù áp",
+  "Công tắc chuyển đổi tự động (ATS)"
+ ],
+ "ngay": "2026-10-26T03:48:01.402Z",
+ "dinh_nghia": [
+  {
+   "y": "Là nhóm các thiết bị thực hiện công tác điều hành, theo cách thức định trước, sự chạy và ngừng của bộ truyền động bơm nước chữa cháy và thực hiện giám sát cũng như báo hiệu trạng thái và tình trạng của cụm bơm nước chữa cháy.",
+   "dieu": "1.4.7",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Không được bố trí thiết bị điều khiển bơm chữa cháy chính và bơm dự phòng chung một tủ điều khiển. Không được bố trí cảm biến điện áp thấp, lỗi phase, lỗi tần số hoặc cảm biến khác để cấp tín hiệu dừng máy bơm nước chữa cháy.",
+   "dieu": "2.5.1.1, 2.5.2.12",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Mỗi máy bơm được điều khiển và kiểm soát từ một tủ điều khiển riêng biệt, có chức năng khởi động tự động và bằng tay. Được chung tủ cho bơm động cơ điện và bơm bù áp, khi đó khởi động từ của các máy bơm phải riêng biệt và đặt trên không gian tách biệt trong tủ.",
+   "dieu": "2.5.1.1",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Khởi động máy bơm từ trạng thái dừng đến đầy tải không quá 30 giây kể từ khi nhận tín hiệu khởi động; có cổng kết nối hiển thị tình trạng và điều khiển từ xa.",
+   "dieu": "2.5.1.3",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Thiết bị bố trí trên vỏ tủ bằng kim loại, sơn màu đỏ; độ ẩm làm việc danh định 95%.",
+   "dieu": "2.5.1.4",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Tủ điều khiển bơm điện có 3 cách khởi động: tự động; ấn nút trên tủ; khẩn cấp bằng cách đóng thiết bị cơ học chuyển mạch trực tiếp cho mô tơ.",
+   "dieu": "2.5.2.2",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Tủ điều khiển bơm diesel có 2 cách khởi động: tự động và ấn nút trên tủ; đặt gần máy bơm ở vị trí dễ thao tác, cách mặt sàn không nhỏ hơn 0,3 m.",
+   "dieu": "2.5.3",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Dòng định mức của cầu dao cách ly không nhỏ hơn 115% dòng đầy tải định mức của động cơ điện; aptomat dòng làm việc định mức ở chế độ dài hạn không nhỏ hơn 115% dòng đầy tải, dòng nhả tức thời chỉnh không lớn hơn 20 lần dòng đầy tải.",
+   "dieu": "2.5.2.6, 2.5.2.7",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Tủ điều khiển theo nguyên lý giảm điện áp: thời gian để động cơ đạt tốc độ thiết kế không lớn hơn 10 giây.",
+   "dieu": "2.5.2.10",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Nhãn tủ thể hiện: tên tủ điều khiển, nhà sản xuất, nơi sản xuất, năm sản xuất; có dòng chữ tiếng Việt thể hiện chức năng tủ.",
+   "dieu": "2.5.4, 2.5.2.3",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ điện: số tủ so với số bơm, tủ bơm chính/dự phòng có tách riêng, các cách khởi động; suy từ 2.5.1.1, 2.5.2.2, 2.5.3.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "hay_nham": []
+}

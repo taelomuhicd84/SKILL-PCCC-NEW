@@ -1,0 +1,79 @@
+{
+ "slug": "gara-o-to-co-khi",
+ "ten": "Gara ô-tô cơ khí",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua",
+  "m04-giao-thong",
+  "m06-ngan-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Gara ô-tô dạng hở",
+  "Hệ thống chữa cháy tự động trong gara ô-tô"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [
+  {
+   "y": "Gara ô-tô mà việc vận chuyển ô-tô đến các vị trí lưu giữ được thực hiện bằng thiết bị cơ khí chuyên dùng (không có sự tham gia của người lái).",
+   "dieu": "1.2.5",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Không giới hạn 5 tầng ngầm như gara ngầm thông thường.",
+   "dieu": "2.2.1.1",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không yêu cầu từ mỗi tầng phải có không ít hơn hai lối thoát nạn phân tán (quy định này trừ gara cơ khí).",
+   "dieu": "2.2.1.14",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Điều khiển thiết bị, kiểm tra hoạt động và an toàn cháy thực hiện từ phòng điều độ ở tầng xe đến.",
+   "dieu": "2.2.5.1",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Nhà bằng vật liệu không cháy, được phép khung kim loại không bọc chống cháy với kết cấu bao che không cháy.",
+   "dieu": "2.2.5.2",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Chỉ được liền kề nhà chức năng khác tại vị trí tường đặc có giới hạn chịu lửa không nhỏ hơn REI 150.",
+   "dieu": "2.2.5.2",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Một khối có sức chứa không quá 50 xe và chiều cao nhà không quá 28 m; giữa các khối có vách ngăn cháy loại 1.",
+   "dieu": "2.2.5.3",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Mỗi khối phải cho xe chữa cháy và lực lượng chữa cháy tiếp cận từ hai phía đối diện nhau.",
+   "dieu": "2.2.5.4",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Lượng nước chữa cháy ngoài nhà 10 l/s; phải có chữa cháy tự động.",
+   "dieu": "2.3.2.5; 2.3.5.2 g",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh, mặt bằng: sức chứa mỗi khối ≤ 50 xe, cao ≤ 28 m, hai phía tiếp cận, tường liền kề REI 150. Suy từ 2.2.5.",
+   "dieu": "2.2.5",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": []
+}

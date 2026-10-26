@@ -1,0 +1,38 @@
+{
+ "slug": "bom-nuoc-chua-chay-bo-tri-noi-tiep",
+ "ten": "Bơm nước chữa cháy bố trí nối tiếp",
+ "dong_nghia": [
+  "Mạng bơm nối tiếp"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Máy bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Không được có hơn ba bơm trong mạng bơm nối tiếp; không bơm nào tự động tắt ở bất kỳ điều kiện áp suất hút nào; không lắp van giảm áp hoặc van điều tiết áp suất giữa các bơm nối tiếp.",
+   "dieu": "2.2.6.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Trong vòng 20 giây sau tín hiệu khởi động, bơm theo chuỗi phải cấp và duy trì áp suất xả ổn định (± 10%) suốt thời gian hoạt động.",
+   "dieu": "2.2.6.2",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Bố trí nối tiếp hoàn chỉnh phải được nghiệm thu sau khi lắp đặt.",
+   "dieu": "2.2.6.2",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

@@ -1,0 +1,96 @@
+{
+ "slug": "doi-nguyen-ly-bao-chay-chua-chay",
+ "ten": "Đổi nguyên lý báo cháy, chữa cháy",
+ "dong_nghia": [
+  "đổi nguyên lý báo cháy"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "doc-ho-so",
+  "chung"
+ ],
+ "lien_quan": [
+  "Đầu báo khói",
+  "Thẩm định điều chỉnh",
+  "Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy",
+  "Đầu báo cháy",
+  "Hệ thống báo cháy",
+  "Thẩm duyệt điều chỉnh",
+  "Tự thẩm định điều chỉnh"
+ ],
+ "ngay": "2026-10-26T04:48:12.578Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Ví dụ nguồn nêu: đổi đầu báo nhiệt sang đầu báo khói ở khu vực hầm đổi công năng là đổi nguyên lý báo cháy.",
+   "dieu": "",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Chỉ cải tạo bên trong làm điều chỉnh vị trí, bổ sung đầu báo, đầu phun nhưng không đổi nguyên lý thì không thuộc diện (ví dụ ngăn phòng, làm trần giả).",
+   "dieu": "",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Đổi đầu báo nhiệt sang đầu báo khói ở khu vực hầm đổi công năng là đổi nguyên lý báo cháy.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Hạng mục đầu tư giai đoạn sau, độc lập, đấu nối với hệ thống đã thẩm định mà làm đổi nguyên lý báo cháy, chữa cháy hoặc thông số bơm thì thuộc diện thẩm định; không đổi thì không.",
+   "dieu": "",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Tăng tầng dẫn đến lắp bổ sung hệ thống PCCC đấu nối với hệ thống hiện trạng là bổ sung hệ thống, thuộc diện thẩm định (ví dụ nhà văn phòng 7 tầng, xây thêm tầng 8, bổ sung báo cháy, họng nước tầng 8).",
+   "dieu": "khoản 3 Điều 9 NĐ 105/2025/NĐ-CP",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Cải tạo có đổi nguyên lý báo cháy thì thuộc diện thẩm định điều chỉnh.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô nhưng đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định, có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công: không thuộc diện thẩm định điều chỉnh.",
+   "dieu": "",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Chỉ cải tạo bên trong, điều chỉnh vị trí, bổ sung đầu báo, đầu phun nhưng không đổi nguyên lý (vd. ngăn phòng, làm trần giả): không thuộc diện.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Đấu nối với hệ thống đã thẩm định mà không đổi nguyên lý báo cháy, chữa cháy, thông số bơm: không thuộc diện.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "So sánh nguyên lý báo cháy/chữa cháy và thông số bơm giữa hồ sơ đã thẩm định và hồ sơ điều chỉnh để biết có đổi hay không.",
+   "dieu": "suy từ khoản 3 Điều 9 NĐ 105/2025",
+   "nguon": "kb:tk-đầu-báo-khói"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Điều chỉnh vị trí hoặc bổ sung số lượng đầu báo, đầu phun không phải là đổi nguyên lý.",
+   "dieu": "",
+   "nguon": "kb:tk-đầu-báo-khói"
+  },
+  {
+   "y": "Điều chỉnh vị trí hoặc bổ sung đầu báo, đầu phun không phải là đổi nguyên lý. Đổi loại đầu báo (nhiệt sang khói) mới là đổi nguyên lý.",
+   "dieu": "mục 5",
+   "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "slug": "chieu-sang-su-co-gian-phong",
+ "ten": "Chiếu sáng sự cố gian phòng",
+ "dong_nghia": [
+  "open area lighting",
+  "chiếu sáng khoảng trống",
+  "chiếu sáng chống hoảng loạn"
+ ],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Chiếu sáng sự cố",
+  "Chiếu sáng đường thoát nạn",
+  "Độ rọi"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [
+  {
+   "y": "Cung cấp ánh sáng để tránh hoảng sợ khi xảy ra sự cố và đảm bảo cho người tiếp cận đến vị trí có thể phát hiện ra đường thoát nạn (còn gọi là chiếu sáng khoảng trống hoặc chiếu sáng chống hoảng loạn).",
+   "dieu": "3.5",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Độ rọi trung bình theo phương nằm ngang không nhỏ hơn 0,5 lux tại mặt sàn, tại mọi điểm lõi của khoảng trống, không bao gồm đường viền 0,5 m theo chu vi khu vực.",
+   "dieu": "5.1.3",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Tỉ lệ độ rọi lớn nhất/nhỏ nhất của chiếu sáng khoảng trống không lớn hơn 40:1.",
+   "dieu": "5.1.4",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ 5.1.3: kiểm bản tính độ rọi mặt sàn gian phòng ≥ 0,5 lux, loại trừ dải viền 0,5 m quanh chu vi.",
+   "dieu": "suy từ 5.1.3",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "hay_nham": []
+}

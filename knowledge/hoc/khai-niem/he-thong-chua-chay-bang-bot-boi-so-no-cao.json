@@ -1,0 +1,67 @@
+{
+ "slug": "he-thong-chua-chay-bang-bot-boi-so-no-cao",
+ "ten": "Hệ thống chữa cháy bằng bọt bội số nở cao",
+ "dong_nghia": [
+  "chữa cháy theo thể tích",
+  "chữa cháy cục bộ"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Thời gian đáp ứng của hệ thống chữa cháy tự động",
+  "Trạm bơm nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:17:45.822Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Phân loại theo đối tượng bảo vệ: chữa cháy theo thể tích và chữa cháy cục bộ. Phân loại theo thiết bị tạo bọt: lấy không khí từ nguồn cưỡng bức hoặc ejector.",
+   "dieu": "6.2",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Chữa cháy theo thể tích hoặc cục bộ cho đám cháy ngầm, âm ỉ chất rắn và đám cháy chất lỏng. Khi không thể chữa cháy cả khu vực bảo vệ thì chữa cháy cục bộ từng thiết bị độc lập.",
+   "dieu": "6.1.1, 6.1.2",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Hệ thống thể tích phun bọt vào thể tích khu vực bảo vệ với độ cao vượt điểm cao nhất của thiết bị ít nhất 1 m trong thời gian không quá 10 min; thời gian đáp ứng không quá 180 s.",
+   "dieu": "6.3.1.2, 6.3.1.3",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Chữa cháy cục bộ: thiết bị ngăn cách bằng lưới kim loại ô không quá 5 mm, cao hơn thiết bị 1 m và cách thiết bị ít nhất 0,5 m; thời gian phun không quá 180 s.",
+   "dieu": "6.3.1.5, 6.3.1.6",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Chỉ dùng chất tạo bọt đặc biệt cho bọt bội số nở cao; dự trữ 100% thiết bị tạo bọt; trong một phòng chỉ dùng một loại thiết bị tạo bọt, số lượng tính toán không nhỏ hơn 2; đường ống là ống thép mạ kẽm.",
+   "dieu": "6.3.1.1, 6.3.1.10, 6.3.1.8, 6.3.1.11",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Phòng được bảo vệ có diện tích trên 400 m² phải phun bọt từ 02 phía đối diện; đường cấp bọt đảm bảo cấp nguy hiểm cháy K0.",
+   "dieu": "6.3.2.4, 6.3.2.2",
+   "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Khu vực có thể có người phải có thiết bị chuyển từ kích hoạt tự động sang bằng tay và tín hiệu ánh sáng, âm thanh.",
+   "dieu": "7.1.3",
+   "nguon": "a478d8c7c431"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác hệ thống bọt bội số nở thấp/trung bình (theo diện tích) tính theo Bảng 1, 2, 3 tại mục 5. Bọt bội số nở cao tính theo thể tích, Phụ lục C.",
+   "dieu": "6.3.1.4",
+   "nguon": "a478d8c7c431"
+  }
+ ]
+}

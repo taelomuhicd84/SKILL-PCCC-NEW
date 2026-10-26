@@ -19,7 +19,7 @@ import { nghi } from "./engines/nguoi_that";
 const goc = agentById("m04-giao-thong");
 const AGENT_ID = "m04-gemini";
 AGENTS.push({
-  id: AGENT_ID, ten: "Mục 4 – Đường, bãi đỗ xe chữa cháy (thử Gemini web)", viec: goc.viec, tri_thuc: goc.tri_thuc.filter((f) => !f.includes("hoc/_da_duyet")), // bỏ ghi chú tự học tổng hợp (hàng trăm KB): dán vào Gemini rất nặng, luật Mục 4 đã nằm trong luu_y
+  id: AGENT_ID, ten: "Mục 4 – Đường, bãi đỗ xe chữa cháy (thử Gemini web)", viec: goc.viec, tri_thuc: goc.tri_thuc.filter((f) => !f.includes("hoc/_da_duyet") && !f.includes("hoc/khai-niem")), // bỏ ghi chú tự học tổng hợp (hàng trăm KB): dán vào Gemini rất nặng, luật Mục 4 đã nằm trong luu_y
  
   luu_y: `${goc.luu_y ?? ""} Bạn đọc bản vẽ từ file PDF đính kèm (không có file chữ có vị trí): phóng to từng mặt bằng, đọc nhãn kích thước trên hình, đọc hết MỌI trang rồi mới kết luận. Trả lời đúng MỘT khối json.`,
 });

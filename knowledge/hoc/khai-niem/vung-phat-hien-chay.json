@@ -1,0 +1,83 @@
+{
+ "slug": "vung-phat-hien-chay",
+ "ten": "Vùng phát hiện cháy",
+ "dong_nghia": [
+  "fire detection zone"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Vùng báo động cháy",
+  "Khoang cháy"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [
+  {
+   "y": "Khu vực được chia theo kiến trúc của nhà, công trình, trong đó có lắp đặt đầu báo cháy tại một hoặc nhiều điểm và được cung cấp chỉ thị phát hiện cháy chung.",
+   "dieu": "3.14",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà và công trình phải được chia thành các vùng sao cho xác định nhanh nguồn gốc báo động từ chỉ báo tại tủ trung tâm và trên đầu báo.",
+   "dieu": "5.7.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cho phép dùng chung vùng phát hiện cháy đối với khu vực có tầng lửng khi tầng lửng tiếp cận được từ sàn chung.",
+   "dieu": "5.7.2.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Đầu báo cháy trong không gian bị che kín tổng diện tích không quá 500 m² được nối vào vùng phát hiện cháy trên cùng sàn, với điều kiện tổng số đầu báo không quá 40.",
+   "dieu": "5.7.2.3",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khu vực khó tiếp cận khi có cháy phải chia thành các vùng phát hiện cháy riêng và có đèn chỉ thị từ xa bên ngoài.",
+   "dieu": "5.8.2.8",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Không lớn hơn 2000 m² diện tích sàn liên tục; sàn không liên tục vẫn không quá 2000 m², với điều kiện lối vào của hai khu vực sàn liền kề cách nhau không quá 10 m và nhìn thấy nhau.",
+   "dieu": "5.7.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Kích thước lớn nhất không quá 100 m và giới hạn trong một tầng nhà.",
+   "dieu": "5.7.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Vùng không có lối vào từ bên trong nhà phải là vùng phát hiện cháy độc lập.",
+   "dieu": "5.7.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Một vùng phát hiện cháy chỉ thuộc một vùng báo động cháy; nhiều vùng phát hiện có thể chung một vùng báo động.",
+   "dieu": "5.7.2.5",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng/sơ đồ chia vùng: diện tích mỗi vùng ≤ 2000 m², cạnh lớn nhất ≤ 100 m, không vắt qua tầng; suy từ 5.7.2.1.",
+   "dieu": "5.7.2.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Dễ nhầm với vùng báo động cháy (chia theo mục đích thông báo/công năng, có thiết bị báo động).",
+   "dieu": "3.13, 3.14, 5.7.2.5",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ]
+}

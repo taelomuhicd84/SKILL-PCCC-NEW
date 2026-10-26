@@ -1,0 +1,45 @@
+{
+ "slug": "dien-tich-tinh-toan-toi-thieu",
+ "ten": "Diện tích tính toán tối thiểu",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Cường độ phun",
+  "Lưu lượng tối thiểu",
+  "Nhóm nguy cơ phát sinh cháy (NCPSC)"
+ ],
+ "ngay": "2026-10-26T04:50:06.253Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tra Bảng 1 TCVN 7336:2021 theo nhóm NCPSC. Nhóm 2: S = 120 m². Diện tích tính toán thực tế lấy theo bố trí trên bản vẽ (ví dụ 8,18 × 15,49 = 126,7 m²).",
+   "dieu": "Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Bảng tính lấy diện tích lớn hơn giữa diện tích thực tế và diện tích tối thiểu để tính lưu lượng đầu phun bất lợi nhất: q1 = IF(S thực tế > S min, S thực tế × qmin / n, S min × qmin / n).",
+   "dieu": "Bảng tính thủy lực Phụ lục B – mục I.1",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nhóm 2: diện tích tính toán tối thiểu 120 m².",
+   "dieu": "Bảng 1 TCVN 7336:2021",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "So diện tích tính toán thực tế trên bản vẽ với trị số tối thiểu của nhóm. Thực tế nhỏ hơn thì bảng tính phải lấy trị số tối thiểu. Suy từ công thức IF trong nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "dieu-khien-may-bom-chua-chay",
+ "ten": "Điều khiển máy bơm chữa cháy",
+ "dong_nghia": [
+  "mở tự động máy bơm"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay",
+  "m17-lien-lac"
+ ],
+ "lien_quan": [
+  "Máy bơm dự phòng",
+  "Thiết bị báo mực nước két nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:18:40.747Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Máy bơm có thể điều khiển bằng tay, điều khiển từ xa hay có thiết bị điều khiển tự động",
+   "dieu": "7.8",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Máy bơm có két nước khí nén phải thiết kế điều khiển tự động",
+   "dieu": "7.11",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Máy bơm của hệ thống cấp nước chữa cháy trong nhà có phân vùng, công trình đặc biệt, rạp chiếu bóng, câu lạc bộ, nhà văn hóa, phòng họp, hội trường và công trình có hệ thống chữa cháy tự động: ngoài điều khiển tự động hoặc từ xa còn cần có thiết bị điều khiển bằng tay",
+   "dieu": "7.10",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Khi máy bơm chữa cháy điều khiển từ xa, nút điều khiển cho máy bơm chạy phải để gần họng chữa cháy mà tại đó áp lực đường ống bên ngoài không đủ để chữa cháy",
+   "dieu": "7.8",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Khi mở tự động máy bơm chữa cháy đồng thời phải phát tín hiệu (ánh sáng và âm thanh) vào phòng thường trực hoặc vào phòng thường xuyên có công nhân phục vụ ngày đêm",
+   "dieu": "7.10 (chú thích)",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Phải bảo đảm vận hành thuận lợi: mở tự động máy bơm làm việc; mở tự động máy bơm dự phòng; mở tự động máy bơm chữa cháy",
+   "dieu": "7.12",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý/bản vẽ điều khiển: có chế độ tự động, từ xa và tay (với loại công trình nêu ở 7.10); vị trí nút điều khiển từ xa; có tín hiệu sáng và âm thanh về phòng trực (suy từ 7.8, 7.10)",
+   "dieu": "7.8, 7.10",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "hay_nham": []
+}

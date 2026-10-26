@@ -1,0 +1,90 @@
+{
+ "slug": "vung-an-toan",
+ "ten": "Vùng an toàn",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m01-phan-loai",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Chiều cao PCCC",
+  "Thang máy chữa cháy",
+  "Gian lánh nạn",
+  "Lối ra ngoài trực tiếp"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [
+  {
+   "y": "Vùng an toàn được phân thành 4 loại; là khu vực lánh nạn tạm thời khi chọn phương án vùng an toàn.",
+   "dieu": "A.3.2.2",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Loại 1: gian phòng ngăn cách bằng kết cấu bao che có giới hạn chịu lửa bằng tường trong buồng thang bộ tương ứng bậc chịu lửa của nhà, bộ phận chèn bịt lỗ mở EI 60 kín khói, có chữa cháy tự động, tạo áp suất dương khi cháy trong gian phòng hoặc khoang đệm ngăn cháy ở lối vào, hoặc lối vào qua vùng đệm không nhiễm khói (tương tự N1).",
+   "dieu": "A.3.2.2",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Loại 2: vùng trên mái có khai thác sử dụng, lối ra mái đi qua khoang đệm ngăn cháy loại 1.",
+   "dieu": "A.3.2.2",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Loại 3: khoang cháy hoặc phân khoang cháy có đường thoát nạn độc lập bảo vệ bằng vách ngăn cháy loại 1 và sàn ngăn cháy loại 3.",
+   "dieu": "A.3.2.2",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Loại 4: buồng thang bộ.",
+   "dieu": "A.3.2.2",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Mỗi tầng bệnh viện (F1.1) có chiều cao PCCC trên 28 m phải có vùng an toàn theo A.3.2.2; mỗi tầng nhà khám đa khoa ngoại trú (F3.4) trên 28 m cũng phải có",
+   "dieu": "H.2.9.1, H.2.10.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Bệnh viện (F1.1) có chiều cao PCCC trên 28 m: mỗi tầng có công năng F1.1 phải có vùng an toàn như A.3.2.2 với định mức 2,8 m2/bệnh nhân; có thể chia tầng thành tối thiểu hai khoang cháy để lánh nạn tạm thời.",
+   "dieu": "Slide bệnh viện (Phụ lục H)",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bệnh viện F1.1 trên 28 m: định mức 2,8 m2/bệnh nhân",
+   "dieu": "H.2.9.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Khám đa khoa ngoại trú F3.4 trên 28 m: 2,65 m2/bệnh nhân xe lăn có người hỗ trợ; 0,75 m2/bệnh nhân tự di chuyển với công cụ hỗ trợ; 0,5 m2/bệnh nhân tự di chuyển không cần công cụ",
+   "dieu": "H.2.10.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Có thể chia tầng thành tối thiểu hai khoang cháy, cho phép lánh nạn tạm thời trong khoang còn lại; mỗi khoang cháy tiếp cận trực tiếp qua lối vào từ trên cao và có đường thoát nạn vào buồng thang bộ không qua khoang cháy còn lại",
+   "dieu": "H.2.9.1, H.2.10.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Lối ra thoát nạn từ vùng an toàn loại 1 phải dẫn vào buồng thang bộ thoát nạn (trực tiếp, hoặc qua khu vực an toàn được bảo vệ, hoặc qua vùng đệm không khí không nhiễm khói).",
+   "dieu": "A.3.2.2",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ H.2.9.1: lấy số bệnh nhân theo thiết kế (cộng người chăm sóc nếu có) nhân định mức, so với diện tích vùng an toàn trên bản vẽ",
+   "dieu": "suy từ H.2.9.1",
+   "nguon": "kb:qcvn06-phu-luc-h.md"
+  }
+ ],
+ "hay_nham": []
+}

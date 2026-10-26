@@ -11,6 +11,7 @@ description: Thẩm định PCCC – Mục 15 – Dụng cụ phá dỡ, phươn
 - `knowledge/bai-hoc.md`
 - `knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md`
 - `knowledge/hoc/_da_duyet.md`
+- `knowledge/hoc/khai-niem/_theo_agent/m15-cnch.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)

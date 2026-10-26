@@ -1,0 +1,50 @@
+{
+ "slug": "thay-the-he-thong-trang-bi-bo-sung-he-thong-bao-chay-chua-chay",
+ "ten": "Thay thế hệ thống / trang bị bổ sung hệ thống (báo cháy, chữa cháy)",
+ "dong_nghia": [
+  "thay thế, trang bị bổ sung"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "đổi nguyên lý báo cháy, nguyên lý chữa cháy, chất chữa cháy, thông số máy bơm"
+ ],
+ "ngay": "2026-10-26T03:46:27.194Z",
+ "dinh_nghia": [
+  {
+   "y": "Thay thế hệ thống: báo cháy địa chỉ sang báo cháy thường hoặc ngược lại; chữa cháy bằng nước sang bọt, bột, khí hoặc ngược lại.",
+   "dieu": "Công văn C07 (khoản 3 Điều 9)",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Trang bị bổ sung hệ thống: công trình chưa có hệ thống đó; hoặc lắp mới hệ thống khác hoàn toàn độc lập, tách biệt với hệ thống cũ; hoặc lắp bổ sung hệ thống cho hạng mục, khu vực mở rộng.",
+   "dieu": "Công văn C07 (khoản 3 Điều 9)",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Mở rộng, tăng diện tích hoặc tăng tầng dẫn đến lắp bổ sung hệ thống PCCC đấu nối với hệ thống hiện trạng là bổ sung hệ thống, thuộc diện thẩm định (ví dụ nhà văn phòng 7 tầng xây thêm tầng 8, bổ sung báo cháy, họng nước tầng 8) – theo đề xuất CATP Hà Nội, chưa chính thức.",
+   "dieu": "mục 5.5 (đề xuất 2360/CAHN-PC07)",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Chỉ thay một số thiết bị như đầu phun, đầu báo cháy là bảo dưỡng, sửa chữa thông thường, không coi là thay thế hệ thống.",
+   "dieu": "Công văn C07",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Cải tạo bên trong chỉ điều chỉnh vị trí, bổ sung đầu báo, đầu phun nhưng không đổi nguyên lý (ngăn phòng, làm trần giả): không thuộc diện (đề xuất CATP Hà Nội).",
+   "dieu": "mục 5.5",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

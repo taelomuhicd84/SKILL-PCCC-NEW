@@ -1,0 +1,72 @@
+{
+ "slug": "duong-doc-cach-ly",
+ "ten": "Đường dốc cách ly",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m09-chong-khoi",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Khoang đệm ngăn cháy trong gara ô-tô",
+  "Gara ô-tô có đường dốc"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Trong gara dạng kín, đường dốc chung cho các tầng được cách ly trên mỗi tầng với phòng lưu giữ xe bằng vách, cửa và khoang đệm ngăn cháy.",
+   "dieu": "2.2.1.12",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cho phép một trong các lối thoát nạn bố trí trên đường dốc cách ly.",
+   "dieu": "2.2.1.14",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara trên mặt đất cho phép bố trí đường dốc không cách ly trong nhà cao không quá 3 tầng, bậc chịu lửa I, II cấp S0 và S1, tổng diện tích các tầng nối nhau bằng đường dốc không cách ly không quá 10.400 m².",
+   "dieu": "2.2.1.13",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không bố trí gian phòng lưu giữ xe chạy khí hóa lỏng, khí nén tự nhiên trong gara dạng kín trên mặt đất có đường dốc không cách ly.",
+   "dieu": "2.2.1.32 c",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Đường dốc kiêm đường thoát hiểm phải có vỉa hè rộng không nhỏ hơn 0,8 m ở một phía.",
+   "dieu": "2.2.1.14; 2.2.1.28",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Độ dốc dọc: đường thẳng có mái che ≤ 18%, đường cong ≤ 13%, đường hở không mái che ≤ 10%; độ dốc ngang ≤ 6%; sàn nghiêng giữa các tầng ≤ 6%.",
+   "dieu": "2.2.1.28; 2.2.1.29",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Phải lắp thông gió chống khói đẩy sản phẩm cháy từ đường dốc cách ly; tại các giếng hút trên mỗi tầng có van khói.",
+   "dieu": "2.3.3.4; 2.3.3.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Số đường dốc: đến 100 xe một đường dốc đơn; đến 1.000 xe một đường dốc đôi hoặc hai đường dốc đơn; trên 1.000 xe hai đường dốc đôi.",
+   "dieu": "2.2.1.11",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo độ dốc dọc, ngang trên mặt cắt đường dốc; kiểm vỉa hè ≥ 0,8 m; đếm số đường dốc theo số xe. Suy từ 2.2.1.28, 2.2.1.11.",
+   "dieu": "2.2.1.28; 2.2.1.11",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": []
+}

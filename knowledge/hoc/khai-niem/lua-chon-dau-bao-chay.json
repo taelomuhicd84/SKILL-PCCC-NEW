@@ -1,0 +1,50 @@
+{
+ "slug": "lua-chon-dau-bao-chay",
+ "ten": "Lựa chọn đầu báo cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Đầu báo cháy kiểu hút",
+  "Đầu báo cháy nhiệt kiểu dây",
+  "Kênh báo cháy"
+ ],
+ "ngay": "2026-10-26T04:28:22.955Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Căn cứ vào (1) yếu tố cháy đặc trưng của chất cháy; (2) quy mô khu vực bảo vệ (chiều cao); (3) công năng của khu vực bảo vệ; (4) đặc tính kỹ thuật của đầu báo",
+   "dieu": "TCVN 5738:2021",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Căn cứ phụ lục A, tính chất khu vực bảo vệ, chiều cao lắp đặt để chọn chủng loại (đầu báo cháy lửa, kiểu hút...)",
+   "dieu": "Phụ lục A TCVN 5738:2021",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dùng đầu báo cháy chống nổ tại các khu vực có nguy hiểm về nổ",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Chiều cao lắp đặt lớn nhất: đầu báo khói 12 m; đầu báo nhiệt 9 m; đầu báo tia chiếu 21 m; đầu báo kiểu hút 30 m",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu loại đầu báo trên bản vẽ/thuyết minh với công năng, chiều cao khu vực và Phụ lục A; khu vực nguy hiểm nổ phải là loại chống nổ (suy từ TCVN 5738:2021)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "hay_nham": []
+}

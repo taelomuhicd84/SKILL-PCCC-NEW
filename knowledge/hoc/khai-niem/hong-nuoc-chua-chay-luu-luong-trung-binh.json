@@ -1,0 +1,31 @@
+{
+ "slug": "hong-nuoc-chua-chay-luu-luong-trung-binh",
+ "ten": "Họng nước chữa cháy lưu lượng trung bình",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Họng nước chữa cháy lưu lượng thấp"
+ ],
+ "ngay": "2026-10-26T04:23:50.656Z",
+ "dinh_nghia": [
+  {
+   "y": "Họng nước chữa cháy có lưu lượng lớn hơn 1,5 L/s.",
+   "dieu": "Phần họng nước chữa cháy trong nhà",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Phương án 1: sử dụng họng lưu lượng trung bình, được phép áp dụng với mọi loại hình công trình.",
+   "dieu": "",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "tham-dinh-dieu-chinh-cai-tao-nha-da-dua-vao-su-dung",
+ "ten": "Thẩm định điều chỉnh / cải tạo nhà đã đưa vào sử dụng",
+ "dong_nghia": [
+  "cải tạo, thay đổi"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "chung"
+ ],
+ "lien_quan": [
+  "QCVN 10:2025/BCA",
+  "Thay thế hệ thống"
+ ],
+ "ngay": "2026-10-26T04:07:26.921Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Quy chuẩn áp dụng khi xây dựng mới hoặc khi cải tạo làm tăng quy mô, thay đổi công năng sử dụng hoặc thay đổi hạng nguy hiểm cháy và cháy nổ của gian phòng, nhà, công trình; cải tạo làm tăng quy mô của khu đô thị, khu nhà ở, khu công nghiệp, cụm công nghiệp, khu du lịch, khu nghiên cứu, đào tạo, khu thể dục, thể thao.",
+   "dieu": "1.1.1",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà đã nghiệm thu đưa vào sử dụng khi cải tạo làm tăng quy mô, thay đổi công năng, thay đổi hạng nguy hiểm cháy nổ hoặc cải tạo hệ thống PCCC thì áp dụng Quy chuẩn đối với các bộ phận, khu vực trực tiếp được cải tạo, sửa chữa.",
+   "dieu": "Thông tư Điều 2 khoản 3",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Hồ sơ thiết kế đã được thẩm duyệt, thẩm định trước 30/12/2025 thì tiếp tục thực hiện theo hồ sơ đã thẩm duyệt, thẩm định. Công trình không thuộc diện phải thẩm định/thẩm duyệt đã được cấp phép xây dựng, thi công hoặc nghiệm thu trước thời điểm đó thì trang bị theo tiêu chuẩn, quy chuẩn có hiệu lực tại thời điểm cấp phép, thi công hoặc đưa vào sử dụng.",
+   "dieu": "Thông tư Điều 2 khoản 2",
+   "nguon": "kb:qcvn10-2025-chung.md",
+   "can_xem": true
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xác định ngày thẩm duyệt/cấp phép/thi công/nghiệm thu so với mốc 30/12/2025 và phần được cải tạo; suy từ Điều 2 Thông tư.",
+   "dieu": "suy từ Điều 2 TT 103/2025/TT-BCA",
+   "nguon": "kb:qcvn10-2025-chung.md",
+   "can_xem": true
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Cải tạo chỉ kéo theo yêu cầu trang bị cho phần trực tiếp được cải tạo, không phải toàn nhà.",
+   "dieu": "Thông tư Điều 2 khoản 3",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ]
+}

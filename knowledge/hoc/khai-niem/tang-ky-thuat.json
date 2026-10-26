@@ -1,0 +1,52 @@
+{
+ "slug": "tang-ky-thuat",
+ "ten": "Tầng kỹ thuật",
+ "dong_nghia": [
+  "tầng hầm kỹ thuật",
+  "tầng áp mái kỹ thuật"
+ ],
+ "anh_huong": [
+  "m05-cong-nang",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Lối ra mái"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [
+  {
+   "y": "Tầng kỹ thuật bao gồm cả tầng hầm kỹ thuật và tầng áp mái kỹ thuật.",
+   "dieu": "6.8",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Chiều cao thông thủy lối đi không nhỏ hơn 1,8 m; trong tầng áp mái dọc toàn nhà không nhỏ hơn 1,6 m; chiều rộng lối đi không nhỏ hơn 1,2 m.",
+   "dieu": "6.8",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Đoạn riêng biệt dài không quá 2 m cho phép giảm chiều cao lối đi xuống 1,2 m, chiều rộng tối thiểu 0,9 m.",
+   "dieu": "6.8",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt cắt tầng kỹ thuật: chiều cao thông thủy và bề rộng lối đi; suy từ 6.8.",
+   "dieu": "suy từ 6.8",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Tầng áp mái nói chung khác tầng áp mái kỹ thuật ở trị số chiều cao thông thủy (1,6 m dọc toàn nhà).",
+   "dieu": "6.8",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ]
+}

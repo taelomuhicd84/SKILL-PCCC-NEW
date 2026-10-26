@@ -1,0 +1,152 @@
+{
+ "slug": "luu-luong-cap-nuoc-chua-chay-ngoai-nha",
+ "ten": "Lưu lượng cấp nước chữa cháy ngoài nhà",
+ "dong_nghia": [
+  "lưu lượng nước cho chữa cháy ngoài nhà",
+  "Lưu lượng nước cho chữa cháy ngoài nhà"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Số đám cháy tính toán đồng thời",
+  "Thời gian chữa cháy",
+  "Dung tích bể nước chữa cháy",
+  "Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà",
+  "Quy mô khối tích",
+  "Lỗ mở trên mái"
+ ],
+ "ngay": "2026-10-26T04:52:13.508Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tra theo bậc chịu lửa, cấp nguy hiểm cháy kết cấu, hạng nguy hiểm cháy nổ và khối tích nhà (đơn vị 1 000 m³), tính cho 1 đám cháy, đơn vị L/s",
+   "dieu": "Bảng 8 (nhà có lỗ mở trên mái, hoặc không có lỗ mở và rộng không quá 60 m)",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Nhà nhóm F5 không có lỗ mở trên mái, chiều rộng từ 60 m trở lên: tra bảng riêng theo khối tích",
+   "dieu": "Bảng 10",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Nhà nhóm F1, F2, F3, F4: tra Bảng 8 theo nhóm nhà, số tầng và khối tích nhà (1 000 m3), tính cho 1 đám cháy, L/s.",
+   "dieu": "Bảng 8",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà nhóm F5: tra Bảng 9 (nhà có lỗ mở trên mái, hoặc không có lỗ mở trên mái và rộng không quá 60 m) hoặc Bảng 10 (không có lỗ mở trên mái, rộng từ 60 m trở lên), theo bậc chịu lửa, cấp nguy hiểm cháy kết cấu, hạng nguy hiểm cháy và cháy nổ, khối tích.",
+   "dieu": "Bảng 9, Bảng 10",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà được ngăn chia bằng tường ngăn cháy thì lấy theo phần của nhà có yêu cầu lưu lượng lớn nhất.",
+   "dieu": "5.1.2.4",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà ngăn cách bằng vách ngăn cháy thì xác định theo khối tích chung và hạng nguy hiểm cháy, cháy nổ cao nhất.",
+   "dieu": "5.1.2.5",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Hệ thống cấp nước chữa cháy ngoài nhà phải trang bị theo Phụ lục C",
+   "dieu": "Đối tượng trang bị",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Cơ sở công nghiệp, nhà sản xuất, nhà kho: hạng A, B, C diện tích từ 300 m² hoặc khối tích từ 1 500 m³ hoặc cao từ 2 tầng; hạng D, E diện tích từ 500 m² hoặc khối tích từ 2 500 m³; trạm biến áp từ 110 kV; nhà máy điện không phụ thuộc quy mô; hầm có sản xuất, bảo quản, sử dụng chất cháy nổ khối tích từ 1 000 m³; nhà kho hàng cháy được hoặc bao bì cháy được khối tích từ 3 000 m³",
+   "dieu": "Đối tượng trang bị",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Nhà nằm trong phạm vi phục vụ của nguồn cấp nước chữa cháy ngoài nhà (bồn, bể, trụ, hồ tự nhiên, nhân tạo) thì không bắt buộc trang bị riêng, nhưng phải bảo đảm lưu lượng",
+   "dieu": "Đối tượng trang bị",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Khi tính cho 2 đám cháy thì lấy giá trị bằng cho 2 nhà có yêu cầu lưu lượng lớn nhất.",
+   "dieu": "Chú thích 1 (Bảng 7)",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Lưu lượng chữa cháy phải được bảo đảm ngay cả khi lưu lượng cho các nhu cầu khác (sinh hoạt, hộ kinh doanh, sản xuất, trạm xử lý nước…) là lớn nhất",
+   "dieu": "Bồn, bể, ao hồ dự trữ nước",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Áp suất tự do tối thiểu trong đường ống chữa cháy áp suất thấp, đo ở cao độ mặt đất, không nhỏ hơn 10 m cột nước; mạng kết hợp sinh hoạt hoặc sản xuất: 10 đến 60 m cột nước",
+   "dieu": "Áp suất trong đường ống",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Lưu lượng nước chữa cháy phải được bảo đảm ngay cả khi lưu lượng cho các nhu cầu khác là lớn nhất (nước sinh hoạt, hộ kinh doanh cá thể, cơ sở sản xuất công nghiệp và nông nghiệp…).",
+   "dieu": "5.1.2.6",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Trạm truyền thanh, truyền hình: không nhỏ hơn 15 L/s, ngay cả khi Bảng 9, 10 quy định thấp hơn.",
+   "dieu": "Chú thích 4",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà bậc chịu lửa II làm bằng kết cấu gỗ: lấy lớn hơn 5 L/s so với Bảng 9 và 10.",
+   "dieu": "Chú thích 6",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Kho lạnh bảo quản thực phẩm: lấy như nhà có hạng nguy hiểm cháy C.",
+   "dieu": "Chú thích 7",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà phục vụ nông nghiệp và phát triển nông thôn bậc chịu lửa I, II, khối tích không lớn hơn 5 000 m3, hạng D, E: lấy 5 L/s.",
+   "dieu": "Chú thích 3",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà có khối tích lớn hơn phạm vi Bảng 9 và 10 phải theo yêu cầu đặc biệt.",
+   "dieu": "Chú thích 5",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Cơ sở lưu trữ công-ten-nơ có hàng hóa: 30–50 công-ten-nơ lấy 15 L/s; 51–100 lấy 20; 101–300 lấy 25; 301–1 000 lấy 40; 1 001–1 500 lấy 60; 1 501–2 000 lấy 80; trên 2 000 lấy 100 L/s.",
+   "dieu": "Chú thích 8",
+   "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Nhà thuộc khu vực làng, xã (nông thôn) ở các ô đánh dấu 1) của Bảng 8: lấy 5 L/s cho 1 đám cháy.",
+   "dieu": "Bảng 8, chú thích 1)",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Lấy bậc chịu lửa, cấp nguy hiểm cháy kết cấu, hạng nguy hiểm cháy nổ và khối tích từ phần thông tin công trình, tra đúng bảng 8/9/10 rồi so với lưu lượng ghi trong thuyết minh",
+   "dieu": "suy từ Bảng 8, 9, 10",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Xác định nhóm nhà, số tầng, khối tích, bậc chịu lửa, hạng nguy hiểm; tra bảng tương ứng và so với lưu lượng ghi trong thuyết minh, bản vẽ cấp nước chữa cháy ngoài nhà. Suy từ Bảng 8–10.",
+   "dieu": "Bảng 8–10",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Lỗ mở trên mái là lỗ thông gió hoặc lấy sáng trên kết cấu mái (cửa trời, lỗ mở thường xuyên hoặc khi có cháy, ô kính, tấm lợp lấy sáng…) có diện tích không nhỏ hơn 2,5 % diện tích xây dựng của nhà; có hay không quyết định tra bảng nào",
+   "dieu": "Chú thích Bảng 10",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Lưu lượng chữa cháy ngoài nhà (Bảng 8–10) khác lưu lượng chữa cháy trong nhà (số tia phun × L/s, Bảng 11, 12).",
+   "dieu": "Bảng 8–12",
+   "nguon": "kb:tk-khối-tích"
+  }
+ ]
+}

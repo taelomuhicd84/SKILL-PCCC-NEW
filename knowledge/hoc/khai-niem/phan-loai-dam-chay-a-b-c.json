@@ -1,0 +1,42 @@
+{
+ "slug": "phan-loai-dam-chay-a-b-c",
+ "ten": "Phân loại đám cháy (A, B, C)",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Nồng độ thiết kế (chữa cháy Sol-khí)"
+ ],
+ "ngay": "2026-10-26T04:25:20.406Z",
+ "dinh_nghia": [
+  {
+   "y": "Đám cháy loại A: cháy các chất rắn, thường kèm tạo than hồng (gỗ, vải, giấy, cao su, nhiều loại nhựa).",
+   "dieu": "",
+   "nguon": "b8b0eb40c111"
+  },
+  {
+   "y": "Đám cháy loại B: cháy chất lỏng cháy, chất lỏng dễ cháy, dầu mỡ, hắc ín, xăng, sơn dầu, dung môi, cồn và các chất khí.",
+   "dieu": "",
+   "nguon": "b8b0eb40c111"
+  },
+  {
+   "y": "Đám cháy loại C: liên quan đến các thiết bị điện đang hoạt động.",
+   "dieu": "",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Mỗi loại Sol-khí và mỗi loại đám cháy có nồng độ chữa cháy, nồng độ thiết kế khác nhau.",
+   "dieu": "",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

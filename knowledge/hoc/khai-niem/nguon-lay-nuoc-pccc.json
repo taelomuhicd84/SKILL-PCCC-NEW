@@ -1,0 +1,39 @@
+{
+ "slug": "nguon-lay-nuoc-pccc",
+ "ten": "Nguồn lấy nước PCCC",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "doc-ho-so"
+ ],
+ "lien_quan": [
+  "Nguồn phục hồi nước",
+  "Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T04:41:52.316Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Trong nguồn, nguồn lấy nước PCCC được điều chỉnh từ Trạm bơm Nhà máy sợi Dehe thành trạm bơm độc lập và bể nước sinh hoạt + PCCC (bể âm và bể nổi) dung tích 1.223,5 m³ tại lô NS.",
+   "dieu": "Mục I.2",
+   "nguon": "ba7fde3a8ae7"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bể nước sinh hoạt + PCCC (âm và nổi) có tổng dung tích 1.223,5 m³ (nguồn chỉ nêu trị số này, không nêu cách tính).",
+   "dieu": "Mục I.2",
+   "nguon": "ba7fde3a8ae7"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Nguồn lấy nước (bể, trạm bơm) khác nguồn phục hồi nước (nguồn bổ sung nước cho bể).",
+   "dieu": "",
+   "nguon": "ba7fde3a8ae7"
+  }
+ ]
+}

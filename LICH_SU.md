@@ -71,3 +71,8 @@ Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạ
 
 ## 2026-10-19
 - Dựng hệ thống: dữ liệu bảng, shared, web, runner, 21 agent, chạy thật Hoàng Anh 1 (34/34 job, khớp báo cáo tay), Gemini API và Gemini web, chạy lô song song, đổi font VNI, xuất PDF/Word, sơ đồ kiến trúc ngang. Chi tiết: `TIEN_DO.md` mục "Lịch sử".
+
+## 2026-10-26
+- Agent tự học: sổ tài liệu trong thư mục, checklist trùng/thay thế/sửa đổi, bảng checklist ở tab Tự học (`runner/src/tai_lieu.ts`, test `runner/test/tai_lieu.test.ts`).
+- Kho khái niệm tự học: thẻ khái niệm theo quy trình định nghĩa → cách xác định → áp dụng/không → yêu cầu → cách kiểm; cột Khái niệm trong checklist; file khái niệm riêng từng agent.
+- Hợp nhất văn bản: Word gạch ngang chỉ lấy phần mới; sửa đổi/thay thế gộp thành bản hiện hành trong knowledge/hoc/hop-nhat.

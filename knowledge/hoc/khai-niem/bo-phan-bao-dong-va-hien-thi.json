@@ -1,0 +1,39 @@
+{
+ "slug": "bo-phan-bao-dong-va-hien-thi",
+ "ten": "Bộ phận báo động và hiển thị",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay",
+  "m14-den-su-co"
+ ],
+ "lien_quan": [
+  "Khu vực có người"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Bộ phận báo động và/hoặc hiển thị dùng để báo sự hoạt động của hệ thống chữa cháy, mối nguy hiểm đối với con người hoặc hư hỏng của cơ cấu giám sát; kiểu (âm thanh, ánh sáng, khứu giác), số lượng, vị trí phải bảo đảm hoàn thành nhiệm vụ",
+   "dieu": "Bộ phận báo động và hiển thị",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Báo động âm thanh và ánh sáng trước khi phun phải lắp trong khu vực được bảo vệ để cảnh báo chắc chắn việc sắp phun; hoạt động liên tục từ đầu tới khi báo động được xác nhận và bắt đầu hành động thích hợp",
+   "dieu": "Bộ phận báo động và hiển thị",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ vị trí chuông/đèn báo trong và ngoài phòng bảo vệ, sơ đồ điều khiển",
+   "dieu": "suy từ Bộ phận báo động và hiển thị",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,72 @@
+{
+ "slug": "dau-bao-chay-khoi-kieu-diem",
+ "ten": "Đầu báo cháy khói kiểu điểm",
+ "dong_nghia": [
+  "đầu báo cháy kiểu điểm",
+  "Point detector"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Đầu báo cháy nhiệt kiểu điểm",
+  "Khoang dầm"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu báo cháy đặt trực tiếp trong khu vực được bảo vệ để nhạy cảm với sự tác động của môi trường xung quanh vị trí lắp đặt theo đặc tính của từng loại đầu báo.",
+   "dieu": "3.5",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Trần cao dưới 4 m: cảm biến cách trần 0,025–0,3 m; trần cao 4–15 m: không quá 0,6 m.",
+   "dieu": "5.9.1.1.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Trần phẳng: từ điểm bất kỳ đến đầu báo gần nhất ≤ 7,2 m; giữa các đầu báo ≤ 10,2 m.",
+   "dieu": "5.9.1.1.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Từ hàng đầu báo gần nhất đến tường/vách ngăn ≤ 5,1 m và ≥ 0,5 m; đến mép cửa cấp không khí ≥ 0,4 m; đến chu vi cánh quạt ≥ 0,4 m.",
+   "dieu": "5.9.1.1.4",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Mái dốc: cách đỉnh mái 0,5–1,5 m, khoảng cách dọc tối đa 10,2 m; các hàng dưới cách nhau ≤ 10,2 m theo chiều ngang, có thể 20,4 m nếu bố trí so le.",
+   "dieu": "5.9.1.1.3",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khu vực thông gió cưỡng bức (bội số trao đổi khí 15 đến dưới 20 /h: 7,2 m, tường 3,6 m; 20–<30: 6,0/3,0; 30–<60: 4,8/2,4; ≥ 60: 3,6/1,8).",
+   "dieu": "5.9.1.1.5, Bảng 1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khoảng trống quanh đầu báo bán kính tối thiểu 0,1 m và sâu 0,6 m.",
+   "dieu": "5.8.2.1.1 d",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo trên mặt bằng trần: khoảng cách giữa đầu báo, đầu báo–tường; xem chiều cao trần để chọn khoảng cách cảm biến–trần; suy từ 5.9.1.1.",
+   "dieu": "5.9.1.1",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Đầu báo nhiệt có khoảng cách nhỏ hơn (7,2 m giữa các đầu; 5,1 m đến điểm gần nhất).",
+   "dieu": "5.9.2.1.2",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ]
+}

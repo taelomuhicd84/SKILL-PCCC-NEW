@@ -1,0 +1,45 @@
+{
+ "slug": "kenh-bao-chay",
+ "ten": "Kênh báo cháy",
+ "dong_nghia": [
+  "kênh"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Diện tích bảo vệ của đầu báo cháy",
+  "Lựa chọn đầu báo cháy"
+ ],
+ "ngay": "2026-10-26T04:28:22.955Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Không bố trí một kênh báo cháy cho các tầng khác nhau",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Một kênh kiểm soát không quá 20 phòng hoặc khu vực trên 1 tầng; thông thường 20–25 đầu báo cháy khói/kênh",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Hệ thống báo cháy dùng điều khiển hệ thống chữa cháy tự động: mỗi điểm trong khu vực bảo vệ phải được kiểm soát bằng 2 đầu báo cháy tự động thuộc 2 kênh hoặc 2 địa chỉ khác nhau",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý/bản vẽ báo cháy: số phòng, số đầu báo mỗi kênh, kênh không trải qua nhiều tầng (suy từ yêu cầu nguồn)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "hay_nham": []
+}

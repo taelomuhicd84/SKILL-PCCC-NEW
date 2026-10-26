@@ -1,0 +1,49 @@
+{
+ "slug": "ban-kinh-phuc-vu-cua-bon-be-tru-nuoc-chua-chay-ngoai-nha-ho-nuoc-chua-chay",
+ "ten": "Bán kính phục vụ của bồn, bể, trụ nước chữa cháy ngoài nhà, hồ nước chữa cháy",
+ "dong_nghia": [
+  "bán kính phục vụ nguồn nước chữa cháy ngoài nhà"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Trang bị cấp nước chữa cháy ngoài nhà",
+  "Bãi lấy nước",
+  "Hố thu nước"
+ ],
+ "ngay": "2026-10-26T04:23:50.656Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Bồn, bể, trụ nước chữa cháy ngoài nhà, hồ nước chữa cháy tự nhiên và nhân tạo phải đặt tại vị trí bảo đảm bán kính phục vụ: khi có máy bơm của xe chữa cháy là 400 m; khi có máy bơm di động đến 300 m trong phạm vi hoạt động kỹ thuật của máy bơm.",
+   "dieu": "5.1.5.9 (Sửa đổi 1:2023)",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bản 2022: xe bơm 200 m; máy bơm di động 100 m đến 150 m. Sửa đổi 1:2023 tăng gấp đôi bán kính: xe 400 m, máy bơm di động đến 300 m.",
+   "dieu": "5.1.5.9",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo trên tổng mặt bằng từ nguồn nước (bồn, bể, trụ, hồ) tới các điểm của nhà so với 400 m / 300 m.",
+   "dieu": "suy từ 5.1.5.9",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Trị số cũ 200 m và 100–150 m của QCVN 06:2022 không còn dùng sau Sửa đổi 1:2023.",
+   "dieu": "5.1.5.9",
+   "nguon": "37d9e08d484e"
+  }
+ ]
+}

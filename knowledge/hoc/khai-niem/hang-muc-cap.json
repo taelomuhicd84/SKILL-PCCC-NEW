@@ -1,0 +1,63 @@
+{
+ "slug": "hang-muc-cap",
+ "ten": "Hạng mục cáp",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "m13-cap-dien",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Khoảng không gian phía trên trần giả, dưới sàn nâng"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [
+  {
+   "y": "Hạng mục cáp trong Quy chuẩn này bao gồm tuy nen, giếng, sàn nâng (sàn kép), tầng cáp, hành lang cáp dùng để đặt cáp (bao gồm cả kết hợp với các phương tiện liên lạc khác).",
+   "dieu": "Bảng A.2, chú thích (1)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hạng mục cáp của nhà máy điện, của trạm biến áp 500 kV trở lên, của trạm biến áp không người trực (không gồm phần cáp đặt ngoài nhà, công trình): báo cháy tự động và chữa cháy tự động không phụ thuộc vào quy mô. Trạm biến áp 110–220 kV: báo cháy không phụ thuộc quy mô; chữa cháy chỉ khi máy biến áp từ 63 MVA trở lên.",
+   "dieu": "Bảng A.2, mục 1–4",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép không trang bị báo cháy tự động, chữa cháy tự động khi cáp được luồn trong ống hoặc bọc bằng vật liệu không cháy hoặc có tính cháy Ch1; hoặc là cáp, dây dẫn điện của hệ thống chiếu sáng, hệ thống thông tin.",
+   "dieu": "Bảng A.2, chú thích (2)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Hầm cáp (mương cáp) trong nhà sản xuất và nhà dân dụng đặt cáp hoặc dây dẫn điện áp từ 220 V trở lên: khối tích 10–100 m³ thì báo cháy tự động từ 5 sợi trở lên; khối tích trên 100 m³ thì báo cháy từ 5 sợi trở lên và chữa cháy tự động từ 12 sợi trở lên.",
+   "dieu": "Bảng A.2, mục 5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Hầm cáp (mương cáp) của hầm giao thông đường bộ có chiều dài từ 500 m trở lên: báo cháy tự động không phụ thuộc vào quy mô.",
+   "dieu": "Bảng A.2, mục 8",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ hầm cáp, mương cáp: khối tích, số sợi cáp, điện áp, vật liệu bọc cáp (Ch1 hay Ch2–Ch4). Suy từ Bảng A.2.",
+   "dieu": "Bảng A.2",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Hạng mục cáp (theo chú thích (1)) khác hầm cáp, mương cáp trong nhà sản xuất, nhà dân dụng (mục 5) có ngưỡng khối tích và số sợi riêng.",
+   "dieu": "Bảng A.2, mục 1–5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

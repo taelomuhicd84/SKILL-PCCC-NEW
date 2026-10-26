@@ -1,0 +1,39 @@
+{
+ "slug": "khu-cong-nghiep-cum-cong-nghiep",
+ "ten": "Khu công nghiệp, cụm công nghiệp",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m03-khoang-cach",
+  "m04-giao-thong"
+ ],
+ "lien_quan": [
+  "Hệ thống cấp nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T04:08:59.612Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khu công nghiệp, cụm công nghiệp phải trang bị hệ thống cấp nước chữa cháy ngoài nhà, không phụ thuộc quy mô.",
+   "dieu": "Bảng C.1, mục 10",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Nhà máy sản xuất, lắp ráp ô tô; công trình sản xuất săm, lốp ô tô; công trình sản xuất, kho trạm chiết nạp sản phẩm hóa dầu nằm trong khu công nghiệp, cụm công nghiệp thì không yêu cầu trang bị riêng hệ thống cấp nước chữa cháy ngoài nhà (mục 9a, 9b, 9c).",
+   "dieu": "Bảng C.1, chú thích (3)",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xác định công trình có nằm trong khu công nghiệp/cụm công nghiệp hay không (hồ sơ quy hoạch, tổng mặt bằng) để áp dụng miễn trừ mục 9a–9c. Suy từ Bảng C.1, chú thích (3).",
+   "dieu": "suy từ Bảng C.1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "hay_nham": []
+}

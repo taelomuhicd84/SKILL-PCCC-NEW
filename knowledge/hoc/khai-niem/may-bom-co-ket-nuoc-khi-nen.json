@@ -1,0 +1,44 @@
+{
+ "slug": "may-bom-co-ket-nuoc-khi-nen",
+ "ten": "Máy bơm có két nước khí nén",
+ "dong_nghia": [
+  "két nước khí nén"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Điều khiển máy bơm chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:18:40.747Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Mạng lưới đường ống cấp nước bên trong tăng áp lực theo phương án máy bơm có két nước khí nén được thiết kế theo dây chuyền công nghệ",
+   "dieu": "7.22",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phải đáp ứng các quy phạm của cơ quan kiểm tra an toàn Nhà nước",
+   "dieu": "7.22",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Máy bơm có két nước khí nén phải thiết kế điều khiển tự động",
+   "dieu": "7.11",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Kiểm hồ sơ có thuyết minh/quy phạm áp dụng cho két khí nén và điều khiển tự động (suy từ 7.11, 7.22)",
+   "dieu": "7.11, 7.22",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "hay_nham": []
+}

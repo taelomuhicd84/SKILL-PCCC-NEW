@@ -1,0 +1,40 @@
+{
+ "slug": "hang-nguy-hiem-chay-no-xac-dinh-theo-ap-suat-no-du",
+ "ten": "Hạng nguy hiểm cháy nổ (xác định theo áp suất nổ dư)",
+ "dong_nghia": [
+  "Hạng A, B"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Nhóm nhà F"
+ ],
+ "ngay": "2026-10-26T04:50:51.621Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Phân hạng nhà, công trình và gian phòng có công năng sản xuất và kho theo tính nguy hiểm cháy và cháy nổ (Điều 2.5.6). Nhà, công trình, gian phòng có công năng khác không phân hạng.",
+   "dieu": "2.5.6 (Sửa đổi 1:2023)",
+   "nguon": "kb:tk-hệ-số-t"
+  },
+  {
+   "y": "Bảng tính theo SP 12.13130.2009: áp suất nổ dư ΔP > 5 kPa và nhiệt độ bùng cháy > 28 °C thì gian phòng hạng B; ΔP > 5 kPa và nhiệt độ bùng cháy ≤ 28 °C thì hạng A; ΔP không vượt 5 kPa thì không thuộc hạng A, B.",
+   "dieu": "SP 12.13130.2009 Phụ lục A (bảng tính)",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Ngưỡng áp suất nổ dư tính toán: 5 kPa.",
+   "dieu": "SP 12.13130.2009 Phụ lục A",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

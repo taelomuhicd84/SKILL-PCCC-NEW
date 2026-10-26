@@ -1,0 +1,86 @@
+{
+ "slug": "nha-hon-hop",
+ "ten": "Nhà hỗn hợp",
+ "dong_nghia": [
+  "nhà chung cư có mục đích sử dụng hỗn hợp"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "chung",
+  "so-bo-thiet-ke",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nhà chung cư",
+  "Gian phòng",
+  "Nhóm nguy hiểm cháy theo công năng",
+  "Nhà nnhà nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường",
+  "Hệ thống họng nước chữa cháy trong nhà"
+ ],
+ "ngay": "2026-10-26T04:08:59.612Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà dân dụng có nhiều công năng sử dụng khác nhau (ví dụ văn phòng, dịch vụ thương mại, hoạt động công cộng…), không bao gồm nhà ở riêng lẻ kết hợp sản xuất, kinh doanh.",
+   "dieu": "1.4.18",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Diện tích sàn xây dựng dùng cho mỗi công năng không vượt quá 70 % tổng diện tích sàn xây dựng của nhà (không tính sàn dùng cho hệ thống kỹ thuật, PCCC, gian lánh nạn và đỗ xe) thì áp dụng quy định đối với nhà hỗn hợp, chung cư có mục đích sử dụng hỗn hợp.",
+   "dieu": "1.5.8",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nếu một công năng có diện tích sàn vượt 70 % tổng diện tích sàn xây dựng (không tính sàn kỹ thuật, PCCC, gian lánh nạn, đỗ xe) thì áp dụng quy định theo công năng đó.",
+   "dieu": "1.5.8",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà hỗn hợp thuộc mục 1.2 Bảng B.1: phải trang bị họng nước chữa cháy trong nhà khi cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 1 500 m² trở lên.",
+   "dieu": "Bảng B.1, mục 1.2",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Nhà hỗn hợp không thuộc diện phải trang bị nhưng có phần công năng bất kỳ đạt quy mô theo Bảng B.1 thì phải trang bị cho phần nhà đó.",
+   "dieu": "Bảng B.1, chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không bao gồm nhà ở riêng lẻ kết hợp sản xuất, kinh doanh.",
+   "dieu": "1.4.18",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nhà hỗn hợp có phần công năng karaoke, vũ trường từ tầng 3 trở lên: trang bị họng nước chữa cháy trong nhà cho toàn bộ nhà.",
+   "dieu": "Bảng B.1, chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Lập bảng diện tích sàn theo từng công năng, loại trừ sàn kỹ thuật, PCCC, gian lánh nạn, đỗ xe, rồi so với ngưỡng 70 %; suy từ 1.5.8.",
+   "dieu": "suy từ 1.5.8",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Tách từng phần công năng, so quy mô từng phần với Bảng B.1. Suy từ Bảng B.1, chú thích 1.",
+   "dieu": "suy từ Bảng B.1, chú thích 1",
+   "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhà chung cư theo khoản 3 Điều 2 Luật Nhà ở; chung cư chỉ áp dụng quy định hỗn hợp khi đúng điều kiện 1.5.8.",
+   "dieu": "1.4.19; 1.5.8",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ]
+}

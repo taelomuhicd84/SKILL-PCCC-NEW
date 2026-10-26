@@ -1,0 +1,35 @@
+{
+ "slug": "thiet-bi-dieu-khien",
+ "ten": "Thiết bị điều khiển",
+ "dong_nghia": [
+  "thiết bị điều khiển bằng điện",
+  "thiết bị điều khiển bằng khí nén"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Cơ cấu vận hành (tự động và bằng tay)"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Thiết bị điều khiển bằng điện dùng giám sát bộ phận phát hiện, bộ phận xả tay và tự động, bộ phận phát tín hiệu, cơ cấu khởi động điện, đường dây dẫn; phải hoạt động được với số lượng và kiểu cơ cấu kích hoạt được dùng",
+   "dieu": "Thiết bị điều khiển bằng điện",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Với điều khiển bằng khí nén, đường ống phải được bảo vệ chống bị uốn, gấp và hư hỏng cơ khí; nơi có thể bị phơi ra điều kiện gây tổn thất hoặc mất toàn vẹn đường ống khí nén phải đặc biệt chú ý để không xảy ra",
+   "dieu": "Thiết bị điều khiển bằng khí nén",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

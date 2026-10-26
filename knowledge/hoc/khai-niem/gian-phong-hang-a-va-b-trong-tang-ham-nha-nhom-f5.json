@@ -1,0 +1,46 @@
+{
+ "slug": "gian-phong-hang-a-va-b-trong-tang-ham-nha-nhom-f5",
+ "ten": "Gian phòng hạng A và B trong tầng hầm, nhà nhóm F5",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m05-cong-nang",
+  "m01-phan-loai",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Hạng nguy hiểm cháy nổ",
+  "Tầng hầm",
+  "Khoang đệm ngăn cháy"
+ ],
+ "ngay": "2026-10-26T04:00:17.299Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Trong nhà nhóm F5, nếu yêu cầu công nghệ cho phép, cần bố trí gian phòng hạng A và B gần tường ngoài; nhà nhiều tầng thì bố trí ở các tầng phía trên",
+   "dieu": "4.7",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Trong tầng hầm và tầng nửa hầm không cho phép bố trí gian phòng hạng A và B, trừ các trường hợp được quy định riêng",
+   "dieu": "4.8",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  },
+  {
+   "y": "Không được bố trí trần treo trong gian phòng hạng A hoặc B",
+   "dieu": "4.15",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem bảng hạng nguy hiểm cháy nổ từng phòng và mặt bằng tầng hầm/nửa hầm: có phòng hạng A, B không",
+   "dieu": "suy từ 4.8",
+   "nguon": "kb:qcvn06-dieu-4.md"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,86 @@
+{
+ "slug": "thoi-gian-phuc-hoi-nuoc-du-tru-chua-chay",
+ "ten": "Thời gian phục hồi nước dự trữ chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Bồn, bể trữ nước chữa cháy ngoài nhà",
+  "Thời gian chữa cháy",
+  "Dung tích bể nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:26:33.933Z",
+ "dinh_nghia": [
+  {
+   "y": "Thời gian lớn nhất để phục hồi nước dự trữ chữa cháy",
+   "dieu": "Thời gian phục hồi nước chữa cháy",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Nếu không thể phục hồi lượng nước dự trữ đúng thời gian quy định thì phải bổ sung lượng nước ∆W; K là tỉ số giữa thời gian phục hồi thực tế và thời gian phục hồi yêu cầu (công thức không đọc được trong nguồn)",
+   "dieu": "5.1.3.4 CHÚ THÍCH 2",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khi không thể phục hồi lượng nước dự trữ theo thời gian quy định thì phải cung cấp thêm lượng nước bổ sung ΔW; W là lượng nước dự trữ chữa cháy (m³), K là tỷ số giữa thời gian phục hồi thực tế và thời gian phục hồi quy định (công thức ΔW = W(K − 1) theo bản gốc; dạng công thức trong nguồn bị lỗi định dạng)",
+   "dieu": "Chú thích 2; tham chiếu 5.1.3.4",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Không lớn hơn 24 giờ với khu dân cư trên 5 000 người hoặc cơ sở công nghiệp có nhà hạng A, B, C",
+   "dieu": "5.1.3.4",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Không lớn hơn 36 giờ với cơ sở công nghiệp có nhà hạng D và E",
+   "dieu": "5.1.3.4",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Không lớn hơn 72 giờ với khu dân cư đến 5 000 người hoặc cơ sở nông nghiệp",
+   "dieu": "5.1.3.4",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Cơ sở công nghiệp có lưu lượng ngoài nhà đến 20 L/s: cho phép tăng lên 48 giờ (hạng D, E) và 36 giờ (hạng C)",
+   "dieu": "5.1.3.4 CHÚ THÍCH 1",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Không quá 24 giờ: khu dân cư trên 5 000 người hoặc cơ sở công nghiệp có nhà hạng A, B, C",
+   "dieu": "Thời gian phục hồi nước chữa cháy",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Không quá 36 giờ: cơ sở công nghiệp có nhà hạng D và E",
+   "dieu": "Thời gian phục hồi nước chữa cháy",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Không quá 72 giờ: khu dân cư đến 5 000 người hoặc cơ sở nông nghiệp",
+   "dieu": "Thời gian phục hồi nước chữa cháy",
+   "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Cơ sở công nghiệp có lưu lượng ngoài nhà đến 20 L/s: cho phép tăng đến 48 giờ với nhà hạng D, E và 36 giờ với nhà hạng C",
+   "dieu": "Chú thích 1",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh nguồn cấp bể: thời gian bơm đầy lại bể so với 24/36/72 giờ; nếu vượt thì kiểm có tính ΔW không",
+   "dieu": "suy từ mục Thời gian phục hồi nước chữa cháy",
+   "nguon": "d1cdbad641a2"
+  }
+ ],
+ "hay_nham": []
+}

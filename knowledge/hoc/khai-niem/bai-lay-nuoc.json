@@ -1,0 +1,46 @@
+{
+ "slug": "bai-lay-nuoc",
+ "ten": "Bãi lấy nước",
+ "dong_nghia": [
+  "bãi đỗ xe lấy nước"
+ ],
+ "anh_huong": [
+  "m04-giao-thong",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Bán kính phục vụ của bồn, bể, trụ nước chữa cháy ngoài nhà, hồ nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:23:50.656Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Các hồ ao để cho xe chữa cháy hút nước phải có lối tiếp cận và có bãi lấy nước với bề mặt bảo đảm tải trọng dành cho xe chữa cháy.",
+   "dieu": "5.1.5.4 (Sửa đổi 1:2023)",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Sửa đổi 1:2023 bỏ quy định kích thước bãi đỗ xe không nhỏ hơn 12 m × 12 m của bản 2022; bề mặt vẫn phải bảo đảm tải trọng xe chữa cháy.",
+   "dieu": "5.1.5.4",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem hồ ao có lối tiếp cận và bãi lấy nước, ghi chú tải trọng bề mặt (không còn kiểm kích thước 12 × 12 m).",
+   "dieu": "suy từ 5.1.5.4",
+   "nguon": "37d9e08d484e"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Không áp kích thước 12 m × 12 m của bản 2022 cho hồ lấy nước nữa.",
+   "dieu": "5.1.5.4",
+   "nguon": "37d9e08d484e"
+  }
+ ]
+}

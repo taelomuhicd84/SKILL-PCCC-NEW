@@ -1,0 +1,75 @@
+{
+ "slug": "tram-bom-tang-ap",
+ "ten": "Trạm bơm tăng áp",
+ "dong_nghia": [
+  "trạm máy bơm"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m05-cong-nang",
+  "m02-bac-chiu-lua"
+ ],
+ "lien_quan": [
+  "Bể chứa nước điều hòa",
+  "Máy bơm dự phòng",
+  "Bố trí máy bơm trong trạm"
+ ],
+ "ngay": "2026-10-26T04:18:40.747Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Mạng đường ống cấp nước bên ngoài thường xuyên hoặc từng thời gian không đủ áp lực cần thiết để đưa nước lên các tầng của công trình",
+   "dieu": "7.1",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Phải thiết kế trạm bơm tăng áp khi áp lực mạng cấp nước bên ngoài không đủ đưa nước lên các tầng công trình",
+   "dieu": "7.1",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Cho phép đặt riêng máy bơm cấp nước sinh hoạt và nước chữa cháy trong một trạm, hoặc kết hợp với các ngôi nhà khác",
+   "dieu": "7.3",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Máy bơm trong nhà sản xuất nên bố trí ngay trong xưởng dùng nước; nếu đặt trong gian sản xuất phải có hàng rào ngăn che",
+   "dieu": "7.5",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không cho phép đặt máy bơm trực tiếp dưới các căn hộ, phòng nhà trẻ, lớp học trường phổ thông, phòng điều trị bệnh viện, phòng hành chính, giảng đường trường đại học và các phòng tương tự",
+   "dieu": "7.4",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Nghiêm cấm đặt máy bơm hút trực tiếp trên đường ống dẫn nước vào nhà; phải hút qua bể chứa nước điều hòa",
+   "dieu": "7.1 (chú thích)",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Trạm chung với nhà khác phải ngăn cách bằng tường không cháy và có lối ra ngoài trực tiếp",
+   "dieu": "7.3",
+   "nguon": "c5c141d55d39"
+  },
+  {
+   "y": "Trạm máy bơm đặt riêng biệt phải làm bằng vật liệu có bậc chịu lửa III",
+   "dieu": "7.3 (chú thích)",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng/mặt cắt: vị trí phòng bơm so với căn hộ, lớp học, phòng điều trị...; có tường không cháy ngăn cách và lối ra ngoài trực tiếp không; sơ đồ nguyên lý có bể chứa trước bơm tăng áp không (suy từ 7.1, 7.3, 7.4)",
+   "dieu": "7.1, 7.3, 7.4",
+   "nguon": "c5c141d55d39"
+  }
+ ],
+ "hay_nham": []
+}

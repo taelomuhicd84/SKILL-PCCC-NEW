@@ -1,0 +1,39 @@
+{
+ "slug": "vung-bao-dong-chay",
+ "ten": "Vùng báo động cháy",
+ "dong_nghia": [
+  "alarm zone"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Vùng phát hiện cháy"
+ ],
+ "ngay": "2026-10-26T04:33:16.174Z",
+ "dinh_nghia": [
+  {
+   "y": "Khu vực được chia theo mục đích thông báo cháy hoặc/và theo công năng sử dụng trong nhà, công trình, ở đó được lắp đặt một hoặc nhiều thiết bị báo động cháy và được cung cấp chỉ thị báo động cháy chung.",
+   "dieu": "3.13",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Một vùng phát hiện cháy chỉ thuộc một vùng báo động cháy.",
+   "dieu": "5.7.2.5",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác vùng phát hiện cháy (chia theo kiến trúc, có đầu báo).",
+   "dieu": "3.13, 3.14",
+   "nguon": "kb:tcvn7568-14-2025.md"
+  }
+ ]
+}

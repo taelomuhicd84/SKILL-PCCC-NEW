@@ -1,0 +1,82 @@
+{
+ "slug": "dien-ap-cuc-thap",
+ "ten": "Điện áp cực thấp",
+ "dong_nghia": [
+  "extra low voltage"
+ ],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Đầu báo cháy",
+  "Khu vực bị che kín",
+  "Thiết bị chỉ thị cho đầu báo cháy",
+  "Hệ thống báo cháy"
+ ],
+ "ngay": "2026-10-26T04:47:41.458Z",
+ "dinh_nghia": [
+  {
+   "y": "Điện áp cực thấp là điện áp không vượt quá điện áp xoay chiều 50 V hoặc điện áp một chiều 120 V.",
+   "dieu": "TCVN 7568-14:2025, mục 3.18",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "So điện áp của thiết bị/nguồn với ngưỡng: xoay chiều ≤ 50 V hoặc một chiều ≤ 120 V thì là điện áp cực thấp; vượt ngưỡng thì không phải.",
+   "dieu": "3.18",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Làm ngưỡng để quyết định phải lắp đầu báo cháy: khu vực bị che kín chứa hệ thống điện chiếu sáng hoặc thiết bị điện cấp nguồn đặt hoàn toàn bên trong và nối với nguồn điện vượt quá điện áp cực thấp thì phải lắp đầu báo cháy trên trần của không gian bị che kín, khoảng cách tối đa theo phương ngang từ thiết bị điện đến đầu báo cháy không quá 1,5 m.",
+   "dieu": "5.8.2.4.2",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  },
+  {
+   "y": "Tủ có thể tích trên 1 m³ chứa thiết bị điện hoặc điện tử có điện áp lớn hơn điện áp cực thấp phải lắp đặt đầu báo cháy.",
+   "dieu": "5.8.2.5.2",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Thiết bị điện chiếu sáng có công suất danh định không vượt quá 100 W, thiết bị cung cấp năng lượng dạng tháo rời dưới 100 W hoặc thiết bị khác dưới 500 W không phải trang bị hệ thống báo cháy (thiết bị điện không đặt trong các khu vực kín).",
+   "dieu": "5.8.2.4.2",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  },
+  {
+   "y": "Đường dây điện, máng cáp của thiết bị chiếu sáng là vật liệu không cháy thì không được xem là thiết bị điện.",
+   "dieu": "5.8.2.4.2, Chú thích 1",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Khoảng cách ngang tối đa từ thiết bị điện (nguồn vượt điện áp cực thấp) đến đầu báo cháy: 1,5 m; nếu bề mặt lắp đặt dốc thì lắp đầu báo ở vị trí cao hơn.",
+   "dieu": "5.8.2.4.2",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  },
+  {
+   "y": "Tủ thể tích lớn hơn 3 m³ phải lắp đầu báo cháy; tủ chia bởi vách/giá thành các khu vực nhỏ hơn 3 m³ không yêu cầu.",
+   "dieu": "5.8.2.5.1",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ điện/báo cháy: xác định điện áp nguồn của thiết bị trong không gian kín và trong tủ; nếu vượt 50 V xoay chiều/120 V một chiều thì kiểm có đầu báo cháy, khoảng cách ngang ≤ 1,5 m (suy từ 5.8.2.4.2, 5.8.2.5.2).",
+   "dieu": "suy từ 5.8.2.4.2, 5.8.2.5.2",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ngưỡng xoay chiều (50 V) và một chiều (120 V) khác nhau; không nhầm với ngưỡng công suất 100 W/500 W của ngoại lệ thiết bị điện.",
+   "dieu": "3.18; 5.8.2.4.2",
+   "nguon": "kb:tk-điện-áp-cực-thấp"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "den-chieu-sang-su-co-cua-cong-trinh-dang-thi-cong",
+ "ten": "Đèn chiếu sáng sự cố của công trình đang thi công",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn"
+ ],
+ "ngay": "2026-10-26T04:07:56.942Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Áp dụng cho công trình đang thi công xây dựng, tại một số khu vực đã được bố trí trong công trình có các chức năng: phòng máy phát điện; phòng máy biến áp; phòng bơm cấp nước chữa cháy.",
+   "dieu": "2.2.3",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Công trình đang thi công xây dựng phải trang bị đèn chiếu sáng sự cố tại các khu vực nêu trên.",
+   "dieu": "2.2.3",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nguồn dự phòng không thấp hơn 1 h.",
+   "dieu": "2.2.3",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Độ rọi theo phương nằm ngang trên mặt sàn không nhỏ hơn 0,5 lux.",
+   "dieu": "2.2.3",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem biện pháp thi công và bản vẽ chiếu sáng tạm: có đèn sự cố ở phòng máy phát điện, phòng máy biến áp, phòng bơm chữa cháy; thời gian nguồn dự phòng ≥ 1 h; độ rọi sàn ≥ 0,5 lux (suy từ 2.2.3).",
+   "dieu": "suy từ 2.2.3",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác chiếu sáng sự cố của nhà đã hoàn thành, vốn theo TCVN 13456 (2.2.1, 2.2.2); mục 2.2.3 chỉ áp dụng cho công trình đang thi công.",
+   "dieu": "2.2.1, 2.2.3",
+   "nguon": "kb:qcvn10-2025-den-loa.md"
+  }
+ ]
+}

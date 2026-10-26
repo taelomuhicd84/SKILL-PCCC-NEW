@@ -1,0 +1,41 @@
+{
+ "slug": "luu-luong-toi-thieu",
+ "ten": "Lưu lượng tối thiểu",
+ "dong_nghia": [
+  "Lưu lượng tối thiểu của đầu phun bất lợi nhất"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Cường độ phun",
+  "Diện tích tính toán tối thiểu",
+  "Hệ số K đầu phun"
+ ],
+ "ngay": "2026-10-26T04:50:06.253Z",
+ "dinh_nghia": [
+  {
+   "y": "Lưu lượng tối thiểu của đầu phun bất lợi nhất q1 = S × qmin / n, với n là số đầu phun hoạt động đồng thời (theo bố trí thực tế trên bản vẽ).",
+   "dieu": "Bảng tính thủy lực Phụ lục B – mục I.1",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Ví dụ trong bảng tính: n = 15 đầu, q1 tính được ≈ 1,014 l/s. Bảng tính nhập thêm q1 thực tế tính toán của đầu phun là 1,734 l/s.",
+   "dieu": "Bảng tính thủy lực Phụ lục B – mục I.1",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Kiểm q1 thực tế tính toán có không nhỏ hơn q1 tối thiểu S × qmin / n hay không. Suy từ công thức trong nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  }
+ ],
+ "hay_nham": []
+}

@@ -1,0 +1,84 @@
+{
+ "slug": "ap-suat-tu-do-cua-hong-nuoc-chua-chay",
+ "ten": "Áp suất tự do của họng nước chữa cháy",
+ "dong_nghia": [
+  "Áp suất tự do trong đường ống nước chữa cháy"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Áp suất thủy tĩnh của họng nước chữa cháy",
+  "Tia nước đặc",
+  "Chiều cao PCCC"
+ ],
+ "ngay": "2026-10-26T04:01:34.447Z",
+ "dinh_nghia": [
+  {
+   "y": "Áp suất của họng nước chữa cháy phải bảo đảm cho chiều cao của tia nước đặc cần thiết để chữa cháy vào mọi thời điểm trong ngày đối với khu vực cao nhất và xa nhất",
+   "dieu": "5.2.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Phải tính tổn thất của cuộn vòi chữa cháy dài 10, 15 và 20 m; tra áp suất theo chiều cao tia nước đặc, đường kính lăng, chiều dài cuộn vòi ở Bảng 13",
+   "dieu": "5.2.7 CHÚ THÍCH 1; Bảng 13",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Họng nước DN 50 cho tia nước đặc lưu lượng đến 4 L/s; lưu lượng lớn hơn dùng DN 65. Khi có luận chứng kinh tế - kỹ thuật được dùng DN 50 cho lưu lượng trên 4 L/s",
+   "dieu": "5.2.7 CHÚ THÍCH 2",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Chiều cao tối thiểu và bán kính hoạt động của tia nước đặc bằng chiều cao khu vực (từ sàn đến điểm cao nhất của xà/trần), nhưng không nhỏ hơn: 6 m với nhà ở, nhà công cộng, nhà sản xuất, nhà phụ trợ công nghiệp có chiều cao PCCC đến 50 m",
+   "dieu": "5.2.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Nhà ở có chiều cao PCCC trên 50 m: không nhỏ hơn 8 m",
+   "dieu": "5.2.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Nhà công cộng, nhà sản xuất, nhà phụ trợ công nghiệp có chiều cao PCCC trên 50 m: không nhỏ hơn 16 m",
+   "dieu": "5.2.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Đường ống nước chữa cháy ngoài nhà áp suất thấp: áp suất tự do tối thiểu (đo ở cao độ mặt đất) không nhỏ hơn 10 m cột nước",
+   "dieu": "5.1.1.4",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Mạng đường ống chữa cháy áp suất cao: bảo đảm độ cao tia nước đặc không nhỏ hơn 10 m khi lưu lượng yêu cầu tối đa và lăng ở điểm cao nhất của tòa nhà",
+   "dieu": "5.1.1.4",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "Mạng kết hợp sinh hoạt hoặc sản xuất: không nhỏ hơn 10 m cột nước và không lớn hơn 60 m cột nước",
+   "dieu": "5.1.1.4",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem tính toán thủy lực họng bất lợi nhất (cao nhất, xa nhất): áp suất đạt tia nước đặc ≥ 6/8/16 m theo chiều cao PCCC. Suy từ 5.2.7",
+   "dieu": "5.2.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Dễ nhầm với áp suất thủy tĩnh (giới hạn trên 0,45/0,6 MPa); và nhầm áp suất tự do ngoài nhà (10 m cột nước) với yêu cầu chiều cao tia nước đặc trong nhà",
+   "dieu": "5.1.1.4, 5.2.6, 5.2.7",
+   "nguon": "kb:qcvn06-dieu-5.md"
+  }
+ ]
+}

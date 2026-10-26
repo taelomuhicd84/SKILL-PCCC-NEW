@@ -1,0 +1,45 @@
+{
+ "slug": "khoang-khong-gian-phia-tren-tran-gia-duoi-san-nang",
+ "ten": "Khoảng không gian phía trên trần giả, dưới sàn nâng",
+ "dong_nghia": [
+  "trần giả",
+  "sàn nâng"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Lựa chọn đầu báo cháy"
+ ],
+ "ngay": "2026-10-26T04:28:22.955Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khi lắp đầu báo cháy dưới sàn nâng, trên trần giả và những nơi khác không thấy đầu báo",
+   "dieu": "Điều 6.6 TCVN 5738:2021",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phải xác định được vị trí khi đầu báo hoạt động (ví dụ: đầu báo cháy địa chỉ, thiết bị báo địa chỉ hoặc chỉ thị quang từ xa)",
+   "dieu": "Điều 6.6 TCVN 5738:2021",
+   "nguon": "eae8f75f34ad"
+  },
+  {
+   "y": "Sàn nâng, trần giả phải có vị trí tiếp cận để bảo trì, bảo dưỡng các đầu báo cháy",
+   "dieu": "Điều 6.6 TCVN 5738:2021",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ trần/sàn: loại đầu báo (địa chỉ/chỉ thị từ xa) và cửa thăm, lối tiếp cận (suy từ Điều 6.6)",
+   "dieu": "",
+   "nguon": "eae8f75f34ad"
+  }
+ ],
+ "hay_nham": []
+}

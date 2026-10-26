@@ -1,0 +1,59 @@
+{
+ "slug": "so-do-chi-dan-thoat-nan",
+ "ten": "Sơ đồ chỉ dẫn thoát nạn",
+ "dong_nghia": [
+  "evacuation plan"
+ ],
+ "anh_huong": [
+  "m14-den-su-co",
+  "m07-thoat-nan",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Biển báo an toàn",
+  "Đường thoát nạn"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [
+  {
+   "y": "Sơ đồ chỉ dẫn lối ra, đường thoát nạn khi xảy ra cháy, nổ, sự cố.",
+   "dieu": "3.15",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Phải có tại các tầng có diện tích lớn hơn 1000 m² hoặc có từ hai lối ra thoát nạn trở lên; trong các phòng nghỉ của khách sạn và các cơ sở lưu trú, cho thuê phòng ở.",
+   "dieu": "5.2.9",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Gồm hai phần: chỉ dẫn bằng chữ (nội dung và trình tự xử lý khi có cháy) và ký hiệu hình học (mặt bằng tầng; lối ra và hướng đường thoát nạn; cầu thang bộ; vị trí của sơ đồ; vị trí phương tiện, thiết bị chữa cháy và cứu nạn, cứu hộ). Niêm yết ở vị trí dễ nhận biết, có người thường xuyên qua lại.",
+   "dieu": "5.2.9",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Kích thước không nhỏ hơn 600x400 mm (sơ đồ tại tầng) và 400x300 mm (sơ đồ tại phòng); mép dưới sơ đồ ở độ cao 1,5 m ± 0,2 m so với mặt sàn.",
+   "dieu": "5.2.9",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ 5.2.9: xem tầng có diện tích > 1000 m² hoặc ≥ 2 lối ra, phòng khách sạn/lưu trú; xem bản vẽ/ghi chú có sơ đồ, kích thước và cao độ lắp.",
+   "dieu": "suy từ 5.2.9",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Sơ đồ chỉ dẫn thoát nạn khác biển báo an toàn; điều kiện áp dụng là tầng > 1000 m² HOẶC ≥ 2 lối ra thoát nạn.",
+   "dieu": "4.2, 5.2.9",
+   "nguon": "f0d3f93819cb"
+  }
+ ]
+}

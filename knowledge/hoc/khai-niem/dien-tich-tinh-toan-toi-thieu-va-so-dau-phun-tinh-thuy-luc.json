@@ -1,0 +1,124 @@
+{
+ "slug": "dien-tich-tinh-toan-toi-thieu-va-so-dau-phun-tinh-thuy-luc",
+ "ten": "Diện tích tính toán tối thiểu và số đầu phun tính thủy lực",
+ "dong_nghia": [
+  "S",
+  "Ω"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "ra-soat",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Nhóm nguy cơ phát sinh cháy (NCPSC)",
+  "Đầu phun chủ đạo",
+  "Cường độ phun",
+  "Cụm bảo vệ",
+  "Lưu lượng tối thiểu"
+ ],
+ "ngay": "2026-10-26T04:46:52.672Z",
+ "dinh_nghia": [
+  {
+   "y": "Một trong các thông số của hệ thống chữa cháy tự động bằng nước, bọt, gồm: cường độ phun tối thiểu, lưu lượng tối thiểu, diện tích tính toán tối thiểu, thời gian phun tối thiểu và khoảng cách tối đa giữa các đầu phun. Các thông số này được quy định tại Bảng 1, 2, 3 và nhóm nguy cơ phát sinh cháy theo Phụ lục A.",
+   "dieu": "TCVN 7336:2021, 5.1.3",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Số đầu phun tính toán tối thiểu n ≥ S/Ω với Ω = an × ad. Ví dụ: nhóm 2, S = 120 m², bố trí 3 m × 3 m, Ω = 9 m² thì lấy 14 đầu phun để tính thủy lực.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Xác định nhóm nguy cơ phát sinh cháy, rồi tra Bảng 1. Nhóm 1: 60 m²; nhóm 2: 120 m²; nhóm 3: 120 m²; nhóm 4.1: 180 m²; nhóm 4.2: 180 m²; nhóm 5 và 6: 90 m²; nhóm 7: 90 m².",
+   "dieu": "TCVN 7336:2021, 5.1.3, Bảng 1",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Nhóm NCPSC 1, 2, 3, 4.1, 4.2 có chiều cao đến 10 m thì tra Bảng 1; chiều cao trên 10 m đến 20 m thì tra Bảng 3.",
+   "dieu": "Tài liệu tập huấn Sprinkler (theo TCVN 7336:2021, Bảng 1, 3)",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Nhóm NCPSC 5, 6, 7 (nhà kho) có chiều cao xếp hàng đến 5,5 m và chiều cao nhà đến 10 m thì tra Bảng 2 cho cường độ phun và lưu lượng. Diện tích tính toán tối thiểu của các nhóm này ghi trong Bảng 1.",
+   "dieu": "TCVN 7336:2021, Bảng 1, 2; Tài liệu tập huấn",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Tổng lưu lượng cần thiết của hệ thống QCT = Σqi (i = 1…n) phải ≥ QTT (lưu lượng tối thiểu theo Bảng 1, 2, 3).",
+   "dieu": "Bảng 1, 2, 3",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Cột lưu lượng tối thiểu và diện tích tính toán tối thiểu trong Bảng 1 (ký hiệu (1)) áp dụng cho hệ thống Sprinkler và hệ thống Sprinkler - Drencher.",
+   "dieu": "TCVN 7336:2021, Bảng 1, chú thích 1",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Dùng để tính số đầu phun tính toán thủy lực và lưu lượng tối thiểu của hệ thống Sprinkler.",
+   "dieu": "Tài liệu tập huấn Sprinkler, mục 3",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Điều chỉnh lại đường kính ống phân phối nếu vận tốc > 10 m/s.",
+   "dieu": "Tập huấn TCVN 7336:2021",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Áp suất cần thiết HCT = HDĐ1 + HDĐ2 + ΣHCB1 + HCB2 + HCĐ + Z − HS. Hệ số đặc tính thủy lực đường ống và sức cản đơn vị tra bảng B1, B2.",
+   "dieu": "Phụ lục B",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Nếu khu vực được bảo vệ thực tế (Stt) nhỏ hơn diện tích tính toán tối thiểu (S) trong Bảng 1 thì lưu lượng thực tế có thể giảm theo hệ số K = Stt / S. Cùng quy định này áp dụng với Bảng 3 cho Sprinkler, Sprinkler - Drencher.",
+   "dieu": "TCVN 7336:2021, Bảng 1 chú thích 5; Bảng 3 chú thích 4",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Số đầu phun tính toán tối thiểu n ≥ S/Ω, với Ω = an x ad (diện tích bảo vệ của một đầu phun theo khoảng cách bố trí). Ví dụ trong tài liệu: nhóm 2, S = 120 m², bố trí 3 m x 3 m, Ω = 9 m² thì lấy 14 đầu để tính thủy lực.",
+   "dieu": "Tài liệu tập huấn Sprinkler, mục e",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Số đầu phun Sprinkler dự trữ để thử nghiệm không thấp hơn 2 lần số đầu phun trên diện tích tính toán tối thiểu tại Bảng 1, tính cho mỗi khu vực thuộc nhóm nguy cơ phát sinh cháy khác nhau của công trình.",
+   "dieu": "TCVN 7336:2021, 5.1.12",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bảng tính thủy lực: số đầu phun tính toán ≥ S/Ω, QCT ≥ QTT, vận tốc ống ≤ 10 m/s.",
+   "dieu": "suy từ Bảng 1–3, Phụ lục B",
+   "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Xem nhóm NCPSC ghi trong hồ sơ, tra S ở Bảng 1 (hoặc Bảng 3 khi cao trên 10 m). Đối chiếu diện tích thực tế Stt trên bản vẽ với S. Kiểm số đầu phun hoạt động đồng thời có đạt n ≥ S/Ω. Nếu Stt < S mà giảm lưu lượng thì kiểm hệ số K = Stt/S. Suy từ Bảng 1 chú thích 5.",
+   "dieu": "suy từ Bảng 1 chú thích 5",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Bảng tính thủy lực mẫu (Phụ lục B) lấy nhóm 2 với S = 120 m² (Bảng 1) làm dữ liệu đầu vào, cạnh diện tích thực tế Stt đo theo bản vẽ. Bảng tính chọn giá trị lớn hơn giữa Stt và S khi tính q1 = S·qmin/n.",
+   "dieu": "suy từ bảng tính thủy lực Phụ lục B",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Diện tích tính toán tối thiểu (S, tra bảng) khác diện tích thực tế của khu vực bảo vệ (Stt, đo trên bản vẽ). Chỉ khi Stt < S mới được giảm lưu lượng theo K = Stt/S.",
+   "dieu": "TCVN 7336:2021, Bảng 1 chú thích 5",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  },
+  {
+   "y": "Nhóm 5, 6, 7 ghi trong Bảng 1 là 'Theo bảng 2' cho cường độ phun, nhưng diện tích tính toán tối thiểu vẫn là 90 m² ở Bảng 1.",
+   "dieu": "TCVN 7336:2021, Bảng 1, 2",
+   "nguon": "kb:tk-diện-tích-tính-toán-tối-thiểu"
+  }
+ ]
+}

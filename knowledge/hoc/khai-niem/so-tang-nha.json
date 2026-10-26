@@ -1,0 +1,160 @@
+{
+ "slug": "so-tang-nha",
+ "ten": "Số tầng nhà",
+ "dong_nghia": [
+  "số tầng cao của công trình",
+  "số tầng của nhà",
+  "Số tầng của nhà"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "chung",
+  "doc-ho-so",
+  "m06-ngan-chay",
+  "m02-bac-chiu-lua",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Chiều cao PCCC",
+  "Tầng hầm",
+  "Tầng tum",
+  "Chiều cao phòng cháy chữa cháy (chiều cao PCCC)",
+  "Tầng hầm, tầng nửa hầm",
+  "Chiều cao nhà",
+  "Khối tích"
+ ],
+ "ngay": "2026-10-26T04:44:36.571Z",
+ "dinh_nghia": [
+  {
+   "y": "Gồm toàn bộ các tầng trên mặt đất (kể cả tầng kỹ thuật, tầng tum) và tầng bán/nửa hầm, không gồm tầng áp mái.",
+   "dieu": "1.4.24",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Số tầng tòa nhà bao gồm toàn bộ các tầng trên mặt đất (kể cả tầng kỹ thuật, tầng lửng, tầng tum) và tầng nửa hầm.",
+   "dieu": "Slide 'Lưu ý khi xét số tầng' (TT 06/2021/TT-BXD)",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Tầng tum không tính vào số tầng khi chỉ bao che lồng cầu thang bộ/giếng thang máy và che chắn thiết bị kỹ thuật, diện tích mái tum không vượt quá 30 % diện tích sàn mái.",
+   "dieu": "1.4.24 chú thích (1)",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh: tầng lửng không tính vào số tầng khi diện tích sàn tầng lửng không vượt quá 65 % diện tích sàn xây dựng của tầng ngay bên dưới.",
+   "dieu": "1.4.24 chú thích (2)",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh thiết kế lệch tầng: xác định số tầng tham khảo TCVN 13967.",
+   "dieu": "1.4.24 chú thích (3)",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà kho, nhà sản xuất: sàn giá đỡ và sàn lửng ở cao độ bất kỳ không tính vào số tầng khi diện tích không lớn hơn 40 % diện tích một tầng.",
+   "dieu": "1.4.24 chú thích (5)",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Công trình nhà, kết cấu dạng nhà, công trình nhiều tầng có sàn (không gồm nhà ở riêng lẻ kết hợp sản xuất kinh doanh, nhà kho, nhà sản xuất): tầng lửng không tính vào số tầng khi chỉ bố trí khu kỹ thuật (sàn kỹ thuật đáy bể bơi, sàn đặt máy phát điện, thiết bị công nghệ khác), diện tích sàn không vượt quá 10 % diện tích sàn xây dựng của tầng ngay bên dưới và không vượt quá 300 m². Mỗi công trình chỉ có một tầng lửng không tính vào số tầng.",
+   "dieu": "1.4.24 chú thích (6)",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà sản xuất và nhà kho: mỗi sàn công tác, sàn đỡ thiết bị và sàn lửng ở cao độ bất kỳ có diện tích lớn hơn 40 % diện tích 1 tầng của nhà đó phải được tính như một tầng.",
+   "dieu": "Slide 'Khối tích, diện tích'",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Nhà ở riêng lẻ kết hợp mục đích dân dụng khác: tầng lửng có diện tích sàn không vượt quá 65 % diện tích sàn xây dựng của tầng có công năng chính ngay bên dưới, chỉ một tầng lửng, thì không tính vào số tầng cao.",
+   "dieu": "Slide 'Lưu ý khi xét số tầng'",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Nhà nhóm F1 đến F4: duy nhất 01 tầng lửng không tính vào số tầng khi chỉ làm khu kỹ thuật, diện tích sàn không vượt quá 10 % diện tích sàn tầng ngay bên dưới và không vượt quá 300 m2.",
+   "dieu": "Slide 'Lưu ý khi xét số tầng'",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Các công trình khác: tầng lửng chỉ làm khu kỹ thuật, diện tích sàn không vượt quá 10 % diện tích sàn xây dựng của tầng có công năng chính ngay bên dưới thì không tính vào số tầng.",
+   "dieu": "Slide 'Lưu ý khi xét số tầng'",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Tầng tum không tính vào số tầng cao khi diện tích mái tum không vượt quá 30% diện tích sàn mái và có chức năng làm tum thang, kỹ thuật.",
+   "dieu": "TT 06/2021/TT-BXD",
+   "nguon": "kb:tk-bố-trí-công-năng"
+  },
+  {
+   "y": "Nhà ở riêng lẻ kết hợp các mục đích dân dụng khác: tầng lửng có diện tích sàn không vượt quá 65% diện tích sàn xây dựng của tầng có công năng (nguồn trích dừng ở đây).",
+   "dieu": "TT 06/2021/TT-BXD",
+   "nguon": "kb:tk-bố-trí-công-năng"
+  },
+  {
+   "y": "Khi xác định số tầng nhà trong Phụ lục H chỉ tính các tầng trên mặt đất.",
+   "dieu": "Phụ lục H, chú thích 1)",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Là một căn cứ xét đối tượng thuộc diện thẩm duyệt thiết kế về PCCC (cùng chiều cao PCCC, khối tích, diện tích).",
+   "dieu": "Slide 'Lưu ý khi xét đối tượng công trình thuộc diện thẩm duyệt'",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không tính tầng áp mái.",
+   "dieu": "1.4.24",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Tầng tum không tính vào số tầng cao của công trình khi diện tích mái tum không vượt quá 30% diện tích sàn mái, có chức năng sử dụng làm tum thang, kỹ thuật (theo Thông tư 06/2021/TT-BXD ngày 30/6/2021 về cấp công trình).",
+   "dieu": "Thông tư 06/2021/TT-BXD, nêu trong tài liệu sửa đổi 1:2023",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đo diện tích tầng tum, tầng lửng, sàn giá đỡ trên mặt bằng rồi so các ngưỡng 30 %, 65 %, 40 %, 10 %/300 m² theo loại nhà; suy từ 1.4.24.",
+   "dieu": "suy từ 1.4.24",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Đếm tầng trên mặt bằng, mặt cắt; đo diện tích tầng lửng, sàn công tác so với diện tích tầng bên dưới.",
+   "dieu": "suy từ slide Lưu ý khi xét số tầng",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Suy từ nguồn: đo diện tích sàn lửng, sàn công tác, mái tum trên bản vẽ so với 40%, 30%, 65% nêu trên.",
+   "dieu": "",
+   "nguon": "kb:tk-bố-trí-công-năng"
+  },
+  {
+   "y": "Đếm tầng trên mặt đất, cộng tầng kỹ thuật, tầng lửng, tầng tum và tầng nửa hầm; trừ tum đủ điều kiện ≤ 30% diện tích sàn mái; với nhà sản xuất/kho, cộng thêm sàn công tác > 40% diện tích 1 tầng. Suy từ nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ngưỡng tầng lửng khác nhau theo loại nhà: 65 % (nhà ở riêng lẻ kết hợp SXKD), 40 % (nhà kho, nhà sản xuất), 10 % và ≤ 300 m² (các nhà nhiều tầng còn lại, chỉ khu kỹ thuật).",
+   "dieu": "1.4.24",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Khi xác định số tầng chỉ tính các tầng trên mặt đất; tầng hầm không tính.",
+   "dieu": "Lưu ý dưới slide Chiều cao PCCC của nhà",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Số tầng tính cả tầng nửa hầm nhưng Phụ lục H chỉ tính tầng trên mặt đất khi tra bảng; kiểm tra bảng áp dụng thuộc trường hợp nào.",
+   "dieu": "",
+   "nguon": "kb:tk-chiều-cao-nhà"
+  }
+ ]
+}

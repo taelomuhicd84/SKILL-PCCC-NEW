@@ -1,0 +1,33 @@
+{
+ "slug": "hong-nuoc-chua-chay-trong-nha",
+ "ten": "Họng nước chữa cháy trong nhà",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "chung"
+ ],
+ "lien_quan": [
+  "Hệ thống cấp nước chữa cháy ngoài nhà",
+  "Hệ thống chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:07:26.921Z",
+ "dinh_nghia": [
+  {
+   "y": "Tổ hợp thiết bị chuyên dùng (vòi, lăng chữa cháy, đầu nối, van) lắp đặt, trang bị sẵn để triển khai đưa nước đến đám cháy.",
+   "dieu": "1.4.6",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bảo dưỡng ít nhất một năm một lần.",
+   "dieu": "1.5.13",
+   "nguon": "kb:qcvn10-2025-chung.md"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

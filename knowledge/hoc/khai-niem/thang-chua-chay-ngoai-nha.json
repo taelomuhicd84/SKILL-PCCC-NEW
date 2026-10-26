@@ -1,0 +1,69 @@
+{
+ "slug": "thang-chua-chay-ngoai-nha",
+ "ten": "Thang chữa cháy ngoài nhà",
+ "dong_nghia": [
+  "thang chữa cháy loại P1",
+  "thang chữa cháy loại P2"
+ ],
+ "anh_huong": [
+  "m04-giao-thong",
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Lối ra mái"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Loại P1 dùng lên độ cao đến 20 m và tại chỗ chênh lệch độ cao mái từ 1,0 m đến 20 m; loại P2 dùng lên độ cao lớn hơn 20 m và tại chỗ chênh lệch độ cao trên 20 m.",
+   "dieu": "6.11",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Bố trí khi chọn lối tiếp cận mái bằng thang ngoài nhà (6.6); và tại các điểm chênh lệch độ cao mái lớn hơn 1,0 m.",
+   "dieu": "6.10, 6.11",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Khu vực chênh cao mái hơn 10 m có thể không bố trí thang nếu mỗi phần mái diện tích lớn hơn 100 m2 có cửa ra mái riêng thỏa 6.6, hoặc độ cao phần thấp hơn của mái xác định theo 6.6 không vượt 10 m.",
+   "dieu": "6.10",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Vật liệu không cháy, đặt ở nơi dễ thấy, cách cửa sổ không dưới 1,0 m; chiều rộng thang 0,7 m.",
+   "dieu": "6.11",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Thang P1 từ độ cao 10 m trở lên có cung tròn bảo hiểm bán kính 0,35 m, tâm cách thang 0,45 m, các cung cách nhau 0,7 m; nơi ra mái có chiếu tới với lan can cao ít nhất 0,6 m.",
+   "dieu": "6.11",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Thang P2 có tay vịn và chiếu nghỉ cách nhau không quá 8 m.",
+   "dieu": "6.11",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt đứng: loại thang theo độ cao, vị trí cách cửa sổ ≥ 1,0 m, cung bảo hiểm, chiếu nghỉ; suy từ 6.11.",
+   "dieu": "suy từ 6.11",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Thang P1 và P2 khác nhau ở phạm vi độ cao sử dụng và cấu tạo cung bảo hiểm/chiếu nghỉ.",
+   "dieu": "6.11",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ]
+}

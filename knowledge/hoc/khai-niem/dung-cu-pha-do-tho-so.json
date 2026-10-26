@@ -1,0 +1,46 @@
+{
+ "slug": "dung-cu-pha-do-tho-so",
+ "ten": "Dụng cụ phá dỡ thô sơ",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m15-cnch",
+  "m10-binh-chua-chay",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Mặt nạ lọc độc",
+  "Mặt nạ phòng độc cách ly",
+  "Karaoke, vũ trường"
+ ],
+ "ngay": "2026-10-26T04:06:22.541Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà, công trình phải trang bị dụng cụ phá dỡ thô sơ theo Phụ lục E. Đối tượng áp dụng, không phụ thuộc quy mô: nhà sản xuất; nhà kho (độc lập); nhà chung cư, nhà ở tập thể, khách sạn, nhà khách, nhà nghỉ và cơ sở dịch vụ lưu trú khác; nhà trụ sở, văn phòng làm việc, nhà thuộc cơ sở nghiên cứu chuyên ngành, trường học các cấp, bệnh viện; nhà ga hành khách, ga hàng hóa cảng hàng không, nhà ga/đề-pô đường sắt, đường sắt đô thị, nhà ga cáp treo, nhà dịch vụ thuộc cảng, bến thủy nội địa, bến cảng biển, bến xe khách, trạm dừng nghỉ; nhà karaoke, vũ trường và nhà có công năng tương tự, nhà hát, rạp chiếu phim; chợ hạng 1, chợ hạng 2, trung tâm thương mại.",
+   "dieu": "2.7.1, Bảng E.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Số lượng 01 bộ gồm: rìu (nặng tối thiểu 2 kg, thép cacbon cao); xà beng (một đầu nhọn, một đầu dẹt, dài tối thiểu 100 cm); búa (thép cacbon cao, nặng tối thiểu 5 kg); kìm cộng lực (tải cắt tối thiểu 60 kg).",
+   "dieu": "Bảng E.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Bố trí tại khu vực có người thường xuyên trực về PCCC.",
+   "dieu": "2.7.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ/thuyết minh có ghi bộ dụng cụ phá dỡ 4 món đủ thông số và đặt ở phòng trực PCCC (suy từ 2.7.1, Bảng E.1).",
+   "dieu": "suy từ 2.7.1, Bảng E.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "hay_nham": []
+}

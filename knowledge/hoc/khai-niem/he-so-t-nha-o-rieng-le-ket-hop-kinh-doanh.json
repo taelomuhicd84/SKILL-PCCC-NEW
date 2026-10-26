@@ -1,0 +1,76 @@
+{
+ "slug": "he-so-t-nha-o-rieng-le-ket-hop-kinh-doanh",
+ "ten": "Hệ số T (nhà ở riêng lẻ kết hợp kinh doanh)",
+ "dong_nghia": [
+  "tỉ lệ tầng kinh doanh"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m07-thoat-nan",
+  "chung"
+ ],
+ "lien_quan": [
+  "Nhà ở riêng lẻ kết hợp các mục đích sử dụng khác",
+  "Số tầng nhà"
+ ],
+ "ngay": "2026-10-26T04:21:19.609Z",
+ "dinh_nghia": [
+  {
+   "y": "T xét đến tỉ lệ tổng số tầng dùng cho kinh doanh trên tổng số tầng của nhà, 0 < T < 1,0; T = A0/A1. A0 là tổng số tầng dùng cho kinh doanh (gồm cả tầng có khu vực phụ trợ phục vụ kinh doanh). A1 là tổng số tầng (gồm cả tầng hầm và tầng nửa/bán hầm, nếu có).",
+   "dieu": "9.3.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Trường hợp 1: 0 < T < 0,3. Trường hợp 2: 0,3 ≤ T < 0,7. Trường hợp 3: 0,7 ≤ T < 1,0.",
+   "dieu": "9.3.2",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Nhà 1 tầng vừa ở vừa kinh doanh: A0 = 0,7.",
+   "dieu": "9.3.2 chú thích 1",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Nhà từ 2 tầng trở lên (kể cả hầm, nửa hầm): A0 = tổng số tầng kinh doanh (gồm tầng ở kết hợp kinh doanh) trừ 0,3. Ví dụ: 3 tầng, tầng 1–2 kinh doanh, tầng 3 kết hợp → A0 = 2,7, T = 0,9.",
+   "dieu": "9.3.2 chú thích 2, ví dụ 2",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Ví dụ 4: 3 tầng nổi + 1 bán hầm, tầng 1–2 café, tầng 3 ở: bán hầm để xe khách và chủ nhà → A0 = 2,7; chỉ xe khách → A0 = 3; chỉ xe chủ nhà → A0 = 2.",
+   "dieu": "9.3.2 ví dụ 4",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Áp dụng cho nhà ở riêng lẻ kết hợp mục đích kinh doanh, không gồm các trường hợp nêu tại 9.3.1.4.",
+   "dieu": "9.3.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không dùng cho phòng karaoke, vũ trường, phòng nhảy, điều trị nội trú, nhà trẻ… (9.3.1.4).",
+   "dieu": "9.3.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đếm số tầng kinh doanh và tổng số tầng (gồm hầm, nửa hầm) trên bản vẽ mặt bằng. Tính T theo công thức rồi xếp trường hợp 1, 2 hoặc 3. Suy từ 9.3.2.",
+   "dieu": "9.3.2",
+   "nguon": "6ae0fc981256"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "A1 tính cả tầng hầm và nửa hầm; số tầng nhà (3.24) không tính tầng áp mái và tầng hầm.",
+   "dieu": "9.3.2; 3.24",
+   "nguon": "6ae0fc981256"
+  }
+ ]
+}

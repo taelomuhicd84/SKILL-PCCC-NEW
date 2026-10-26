@@ -1,0 +1,62 @@
+{
+ "slug": "thoi-gian-duy-tri",
+ "ten": "Thời gian duy trì",
+ "dong_nghia": [
+  "Thời gian duy trì trạng thái chữa cháy"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Thời gian phun khí chữa cháy",
+  "Nồng độ thiết kế"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [
+  {
+   "y": "Khoảng thời gian trong đó nồng độ dập tắt được duy trì bên trong khu vực được bảo vệ",
+   "dieu": "Thời gian duy trì trạng thái chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Thời gian duy trì định trước được xác định bằng thử nghiệm quạt ở cửa quy định trong Phụ lục E hoặc thử nghiệm phun hoàn toàn dựa trên các chuẩn cứ a)–c)",
+   "dieu": "Thời gian duy trì trạng thái chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Quan trọng với mọi loại đám cháy do nguồn đốt cháy dai dẳng (ngọn lửa hồ quang, nguồn tạo nhiệt, đèn hàn oxy-axetylen, ngọn lửa âm ỉ) có thể dẫn đến cháy lại khi khí chữa cháy đã tiêu tan",
+   "dieu": "Thời gian duy trì trạng thái chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Nồng độ trong khu bảo vệ phải đạt nồng độ thiết kế tại lúc bắt đầu thời gian duy trì",
+   "dieu": "a)",
+   "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Nồng độ khí ở độ cao 10 %, 50 % và 90 % của khu bảo vệ không nhỏ hơn 85 % nồng độ thiết kế tại lúc kết thúc thời gian duy trì",
+   "dieu": "b)",
+   "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Thời gian duy trì không nhỏ hơn 10 min, nếu không có quy định khác của cơ quan có thẩm quyền",
+   "dieu": "c)",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh/biên bản thử quạt cửa (Phụ lục E) hoặc thử phun: thời gian duy trì ≥ 10 min, nồng độ cuối ≥ 85 % nồng độ thiết kế ở 10/50/90 % chiều cao",
+   "dieu": "suy từ Thời gian duy trì trạng thái chữa cháy",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": []
+}

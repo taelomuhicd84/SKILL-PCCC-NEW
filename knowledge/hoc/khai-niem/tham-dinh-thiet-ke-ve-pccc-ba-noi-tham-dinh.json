@@ -1,0 +1,65 @@
+{
+ "slug": "tham-dinh-thiet-ke-ve-pccc-ba-noi-tham-dinh",
+ "ten": "Thẩm định thiết kế về PCCC (ba nơi thẩm định)",
+ "dong_nghia": [
+  "thẩm định thiết kế PCCC"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "chung"
+ ],
+ "lien_quan": [
+  "Phụ lục III NĐ 105/2025/NĐ-CP (danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC)",
+  "nội dung thẩm định của cơ quan xây dựng và cơ quan Công an",
+  "thẩm định điều chỉnh"
+ ],
+ "ngay": "2026-10-26T03:46:27.194Z",
+ "dinh_nghia": [
+  {
+   "y": "Từ NĐ 105/2025, cơ quan Công an và cơ quan chuyên môn về xây dựng thẩm định thiết kế về PCCC (không còn gọi 'thẩm duyệt').",
+   "dieu": "NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Cơ quan chuyên môn về xây dựng (Điều 6): công trình thuộc diện thẩm định Báo cáo nghiên cứu khả thi tại cơ quan xây dựng và thuộc Phụ lục III. Cơ quan đăng kiểm (Điều 7): phương tiện giao thông thuộc Phụ lục III. Cơ quan Công an (Điều 9): công trình, phương tiện thuộc Phụ lục III ở bước thiết kế kỹ thuật hoặc thiết kế bản vẽ thi công, hồ sơ Mẫu PC11. Chủ đầu tư tự thẩm định (Điều 8 khoản 1): dự án, công trình thuộc Phụ lục III không thuộc thẩm quyền cơ quan xây dựng, kết quả ghi Mẫu PC13.",
+   "dieu": "Điều 6, 7, 8, 9 NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cơ quan Công an chỉ thẩm định nội dung điểm e, g khoản 1 Điều 16 Luật PCCC và CNCH; điểm a, b, c, d, đ thuộc chủ đầu tư, chủ sở hữu và cơ quan chuyên môn về xây dựng.",
+   "dieu": "Công văn C07 câu 6, 10, 12",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Nếu cả cơ quan xây dựng và Công an cùng thẩm định (công trình thuộc Điều 9 khoản 1), chủ đầu tư nộp đồng thời hai hồ sơ.",
+   "dieu": "Điều 9",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Thời hạn thẩm định ở Công an: dự án nhóm A hoặc quan trọng quốc gia không quá 10 ngày; công trình còn lại và phương tiện giao thông không quá 06 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
+   "dieu": "Điều 9 khoản 6 NĐ 105/2025",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Hồ sơ nộp Công an gồm văn bản Mẫu PC11; giấy tờ hợp pháp về đất đai hoặc văn bản về chủ trương đầu tư, xây dựng; hồ sơ thiết kế thể hiện nội dung điểm e, g khoản 1 Điều 16 Luật PCCC và CNCH. Hồ sơ thiết kế kỹ thuật/bản vẽ thi công phải phù hợp hồ sơ thiết kế cơ sở đã được cơ quan xây dựng thẩm định.",
+   "dieu": "Điều 14 NĐ 347/2026 (sửa Điều 9 khoản 4 điểm a NĐ 105); Công văn C07 câu 11",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "'Thẩm duyệt' (cũ) khác 'thẩm định' (từ NĐ 105/2025); chủ đầu tư tự thẩm định không phải nộp hồ sơ năng lực, chứng chỉ thiết kế của chủ đầu tư.",
+   "dieu": "Điều 8 khoản 1; Công văn C07",
+   "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "gara-o-to-tren-mat-dat-dang-kin",
+ "ten": "Gara ô-tô trên mặt đất dạng kín",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua",
+  "m06-ngan-chay",
+  "m09-chong-khoi",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Gara ô-tô dạng hở",
+  "Khoang cháy",
+  "Khoang đệm ngăn cháy"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [
+  {
+   "y": "Gara ô-tô có tường bao che ngoài.",
+   "dieu": "1.2.2",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Có tường bao che ngoài và không thỏa tiêu chí gara dạng hở (hai cạnh đối diện dài nhất để hở, phần hở không ít hơn 50% diện tích mặt ngoài của cạnh trên từng tầng).",
+   "dieu": "1.2.2; 1.2.3",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Bậc chịu lửa, số tầng tối đa và diện tích lớn nhất một tầng trong một khoang cháy lấy theo Bảng 5 (ví dụ bậc I, II, S0: tối đa 9 tầng; nhà một tầng 10.400 m², nhà nhiều tầng 5.200 m²).",
+   "dieu": "2.2.3.1, Bảng 5",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phải lắp thiết bị đo nồng độ khí CO, đầu báo tín hiệu đặt trong phòng có nhân viên trực suốt ngày đêm.",
+   "dieu": "2.3.3.2",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Cấp gió cơ khí chỉ cần cho các vùng xa lỗ cửa tường ngoài trên 18 m.",
+   "dieu": "2.3.3.1",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Phải có hệ thống chữa cháy tự động trong các gian phòng chứa ô-tô: gara trên mặt đất từ 2 tầng trở lên; gara 1 tầng bậc I, II, III từ 7000 m² trở lên, bậc IV cấp S0 từ 3600 m² trở lên, bậc IV cấp S1 từ 2000 m² trở lên, bậc IV làm từ vật liệu không thuộc hai cấp S2, S3 từ 1000 m² trở lên.",
+   "dieu": "2.3.5.2 b, c",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu bậc chịu lửa, cấp S, số tầng, diện tích khoang cháy với Bảng 5. Suy từ 2.2.3.1.",
+   "dieu": "2.2.3.1",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác gara dạng hở: dạng hở không có tường bao che ngoài, hoặc có hai cạnh đối diện dài nhất để hở ≥ 50%; Bảng 6 áp dụng cho dạng hở, Bảng 5 cho dạng kín.",
+   "dieu": "1.2.3; 2.2.4.1",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

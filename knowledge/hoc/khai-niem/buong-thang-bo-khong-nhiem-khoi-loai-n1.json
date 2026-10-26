@@ -1,0 +1,45 @@
+{
+ "slug": "buong-thang-bo-khong-nhiem-khoi-loai-n1",
+ "ten": "Buồng thang bộ không nhiễm khói loại N1",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m02-bac-chiu-lua",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Giới hạn chịu lửa",
+  "Cấp nguy hiểm cháy của cấu kiện"
+ ],
+ "ngay": "2026-10-26T04:51:12.365Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Trong buồng thang bộ không nhiễm khói loại N1 được phép dùng bản thang và chiếu thang có giới hạn chịu lửa R 15 và cấp nguy hiểm cháy K0.",
+   "dieu": "2.5.3",
+   "nguon": "kb:tk-hệ-số-t"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bản thang, chiếu thang: giới hạn chịu lửa R 15, cấp nguy hiểm cháy K0.",
+   "dieu": "2.5.3",
+   "nguon": "kb:tk-hệ-số-t"
+  },
+  {
+   "y": "Bản thang và chiếu thang: giới hạn chịu lửa R 15, cấp nguy hiểm cháy K0",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-tiết-diện-am-v"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ/thuyết minh kết cấu bản thang, chiếu thang của buồng thang N1 có ghi R 15 và K0 (suy từ nguồn)",
+   "dieu": "",
+   "nguon": "kb:tk-hệ-số-tiết-diện-am-v"
+  }
+ ],
+ "hay_nham": []
+}

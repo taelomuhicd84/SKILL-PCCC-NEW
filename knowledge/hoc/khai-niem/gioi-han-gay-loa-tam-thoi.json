@@ -1,0 +1,37 @@
+{
+ "slug": "gioi-han-gay-loa-tam-thoi",
+ "ten": "Giới hạn gây lóa tạm thời",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m14-den-su-co"
+ ],
+ "lien_quan": [
+  "Chiếu sáng sự cố",
+  "Độ chói"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phải giảm thiểu nguy cơ gây lóa tạm thời bằng cách hạn chế cường độ sáng ở giai đoạn phát sáng cực đại trong chế độ hoạt động khi có sự cố của mỗi đèn thuộc phạm vi quan sát. Đường thoát nạn theo phương ngang, gian phòng và phương tiện PCCC: cường độ của đèn trong phạm vi góc chiếu từ 60° đến 90° không vượt Bảng 1; đường thoát nạn khác: không vượt Bảng 1 ở bất kỳ góc chiếu nào.",
+   "dieu": "5.1.5",
+   "nguon": "f0d3f93819cb"
+  },
+  {
+   "y": "Bảng 1 – cường độ tối đa theo chiều cao lắp từ mặt sàn H: H < 2,5 m: 500 cd; 2,5 ≤ H < 3,0: 900 cd; 3,0 ≤ H < 3,5: 1 600 cd; 3,5 ≤ H < 4,0: 2 500 cd; 4,0 ≤ H < 4,5: 3 500 cd; H ≥ 4,5: 5 000 cd.",
+   "dieu": "Bảng 1",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ 5.1.5, Bảng 1: lấy chiều cao lắp đèn và dữ liệu cường độ sáng (cd) của đèn từ catalogue/số liệu quang học, so với trị số Bảng 1.",
+   "dieu": "suy từ 5.1.5, Bảng 1",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "hay_nham": []
+}

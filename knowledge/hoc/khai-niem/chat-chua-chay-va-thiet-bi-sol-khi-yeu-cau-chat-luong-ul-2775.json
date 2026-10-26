@@ -1,0 +1,48 @@
+{
+ "slug": "chat-chua-chay-va-thiet-bi-sol-khi-yeu-cau-chat-luong-ul-2775",
+ "ten": "Chất chữa cháy và thiết bị Sol-khí (yêu cầu chất lượng UL 2775)",
+ "dong_nghia": [
+  "Sol-khí dạng cô đặc",
+  "Aerosol"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "doc-ho-so"
+ ],
+ "lien_quan": [
+  "Nồng độ thiết kế (chữa cháy Sol-khí)",
+  "Hồ sơ thiết kế hệ thống chữa cháy Sol-khí"
+ ],
+ "ngay": "2026-10-26T04:25:20.406Z",
+ "dinh_nghia": [
+  {
+   "y": "Sol-khí (Aerosol) là hỗn hợp của chất khí và các hạt rắn có kích thước rất nhỏ, thường không lớn hơn 10 microns, tạo ra do nhiệt phân hỗn hợp chất rắn tạo Sol-khí; thành phần chính là muối kim loại kiềm như sodium bicarbonate (NaHCO3) và potassium bicarbonate (KHCO3).",
+   "dieu": "",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Chất chữa cháy và thiết bị của hệ thống chữa cháy bằng Sol-khí phải bảo đảm chất lượng, yêu cầu kỹ thuật theo tiêu chuẩn UL 2775 (Standard for fixed condensed aerosol extinguishing system units) hoặc tiêu chuẩn tương đương.",
+   "dieu": "Điều 4.2.1.2",
+   "nguon": "b8b0eb40c111"
+  },
+  {
+   "y": "Hồ sơ thẩm duyệt thiết kế về PCCC: chủ đầu tư và đơn vị thiết kế phải cung cấp chứng nhận bảo đảm chất lượng của tổ chức UL kèm theo hướng dẫn của nhà sản xuất (thành phần chất chữa cháy, nồng độ chữa cháy, thiết kế hệ thống, lắp đặt, vận hành, an toàn).",
+   "dieu": "",
+   "nguon": "b8b0eb40c111",
+   "can_xem": true
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem hồ sơ có chứng nhận UL 2775 (hoặc tương đương) và hướng dẫn nhà sản xuất cho đúng loại chất và thiết bị dùng. Suy từ Điều 4.2.1.2.",
+   "dieu": "Điều 4.2.1.2",
+   "nguon": "b8b0eb40c111"
+  }
+ ],
+ "hay_nham": []
+}

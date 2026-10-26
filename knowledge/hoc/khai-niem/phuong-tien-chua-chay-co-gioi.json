@@ -1,0 +1,85 @@
+{
+ "slug": "phuong-tien-chua-chay-co-gioi",
+ "ten": "Phương tiện chữa cháy cơ giới",
+ "dong_nghia": [
+  "xe ô tô chữa cháy",
+  "tàu chữa cháy",
+  "máy bơm chữa cháy loại khiêng tay"
+ ],
+ "anh_huong": [
+  "m15-cnch",
+  "m12-chua-chay",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Cấp nước chữa cháy ngoài nhà",
+  "Khu công nghiệp, cụm công nghiệp"
+ ],
+ "ngay": "2026-10-26T04:06:22.541Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Các kho, cơ sở sản xuất, cảng hàng không, bến cảng, khu công nghiệp, cụm công nghiệp, ngoài việc trang bị hệ thống chữa cháy, phải trang bị phương tiện chữa cháy cơ giới theo Phụ lục D.",
+   "dieu": "2.8.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phương tiện trang bị phải bảo đảm theo TCVN 13316 (các phần), TCVN 12110.",
+   "dieu": "2.8.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Xe ô tô chữa cháy, tàu chữa cháy: có đặc tính kỹ thuật và tính năng chữa cháy phù hợp loại nhà, công trình cần bảo vệ; có chất chữa cháy, phương tiện, dụng cụ trang bị kèm theo đúng quy định.",
+   "dieu": "2.8.2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Kho dầu mỏ và sản phẩm dầu mỏ: tổng dung tích trên 500 000 m³ → 2 xe; từ 100 000 đến 500 000 m³ → 1 xe; nhỏ hơn 100 000 m³ → 1 máy bơm khiêng tay.",
+   "dieu": "Bảng D.1 mục 1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Cảng hàng không: cấp 1–5 → 1 xe; cấp 6, 7 → 2 xe; cấp 8, 9, 10 → 3 xe (theo cấp PCCC, CNCH của ICAO, Doc 9137-AN/898).",
+   "dieu": "Bảng D.1 mục 2.1",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Bến cảng biển có xuất nhập hàng nguy hiểm: cấp đặc biệt → 2 xe; cấp I → 1 xe; cấp II, III → 1 máy bơm khiêng tay. Bến cảng chuyên dùng LNG tiếp nhận tàu/thiết bị dung tích chứa từ 8 000 m³ trở lên → 1 tàu chữa cháy.",
+   "dieu": "Bảng D.1 mục 2.2",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Nhà máy nhiệt điện: 600 MW đến dưới 1200 MW → 1 xe; từ 1200 MW → 2 xe. Nhà máy thủy điện từ 1000 MW → 1 xe. Thủy điện dưới 1000 MW, nhiệt điện dưới 600 MW → 1 máy bơm khiêng tay. Nhà máy dệt từ 25 triệu m²/năm → 1 xe. Nhà máy lọc dầu, lọc-hóa dầu (không phụ thuộc công suất) → 2 xe. Cơ sở chế biến khí đốt từ 10 triệu m³ khí/ngày đêm → 1 xe.",
+   "dieu": "Bảng D.1 mục 3",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Khu công nghiệp trên 300 ha → 2 xe; khu công nghiệp, cụm công nghiệp từ 75 đến 300 ha → 1 xe; dưới 75 ha → 1 máy bơm khiêng tay.",
+   "dieu": "Bảng D.1 mục 4",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Máy bơm chữa cháy khiêng tay phải bảo đảm lưu lượng và áp suất phun tối thiểu theo loại bơm B-1 Bảng 1 TCVN 12110.",
+   "dieu": "Bảng D.1 chú thích (2)",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xác định đối tượng và quy mô (dung tích, công suất, diện tích, cấp) rồi đối chiếu Bảng D.1 để ra số xe/tàu/máy bơm; kiểm chú thích (1) về kho có hay không có hệ thống chữa cháy cố định (suy từ Phụ lục D).",
+   "dieu": "suy từ Phụ lục D",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Kho không có hệ thống chữa cháy tự động, hệ thống chữa cháy và làm mát lắp cố định cho bồn chứa, trạm bơm dầu mỏ và sản phẩm dầu mỏ thì phải trang bị gấp hai lần định mức tại Bảng D.1.",
+   "dieu": "Bảng D.1 chú thích (1)",
+   "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  }
+ ]
+}

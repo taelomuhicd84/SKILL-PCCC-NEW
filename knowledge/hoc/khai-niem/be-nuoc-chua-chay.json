@@ -1,0 +1,57 @@
+{
+ "slug": "be-nuoc-chua-chay",
+ "ten": "Bể nước chữa cháy",
+ "dong_nghia": [
+  "bồn, bể",
+  "Bể PCCC",
+  "Bể nước ngầm"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m04-giao-thong",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Trạm bơm nước chữa cháy",
+  "Thời gian chữa cháy",
+  "Thời gian phục hồi nước dự trữ chữa cháy",
+  "Cấp nước chữa cháy ngoài nhà",
+  "Nguồn điện chữa cháy"
+ ],
+ "ngay": "2026-10-26T04:40:34.533Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khi bể nước chữa cháy dùng chung với bể nước phục vụ sinh hoạt trong tòa nhà.",
+   "dieu": "2.1.11",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đường ống hút của hệ thống nước sinh hoạt phải kết nối trên mức nước yêu cầu cho nhu cầu phòng cháy.",
+   "dieu": "2.1.11",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Mỗi bể nước phải có van tự động làm đầy và van thủ công làm đầy riêng biệt.",
+   "dieu": "2.1.11",
+   "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Khi chạy thử bơm xả ngược vào bể, vòi hoặc ống xả đặt ở vị trí cách xa ống hút của bơm để tránh bơm bị nhiễm khí.",
+   "dieu": "2.6.6.2",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem cao trình đầu ống hút sinh hoạt so với mức nước dành cho chữa cháy trên mặt cắt bể; suy từ 2.1.11.",
+   "dieu": "",
+   "nguon": "08bf60f5653f"
+  }
+ ],
+ "hay_nham": []
+}

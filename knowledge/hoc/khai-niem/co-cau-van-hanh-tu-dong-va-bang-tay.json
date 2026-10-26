@@ -1,0 +1,52 @@
+{
+ "slug": "co-cau-van-hanh-tu-dong-va-bang-tay",
+ "ten": "Cơ cấu vận hành (tự động và bằng tay)",
+ "dong_nghia": [
+  "vận hành tự động",
+  "vận hành bằng tay"
+ ],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Thiết bị điều khiển",
+  "Bộ phận báo động và hiển thị"
+ ],
+ "ngay": "2026-10-26T04:24:50.061Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hệ thống tự động điều khiển bởi phát hiện cháy tự động, kích hoạt cơ cấu thích hợp của hệ thống chữa cháy và cũng phải có cơ cấu vận hành bằng tay",
+   "dieu": "Vận hành tự động",
+   "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Phải có phương án vận hành bằng tay bằng một bộ điều khiển đặt ở bên ngoài khu vực được bảo vệ hoặc liền kề lối ra chính của khu vực",
+   "dieu": "Vận hành bằng tay",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Khi dùng hai hoặc nhiều bộ phát hiện (đầu báo khói hoặc lửa) thì hệ thống chỉ nên vận hành sau khi nhận tín hiệu từ hai bộ phát hiện",
+   "dieu": "Vận hành tự động",
+   "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Phát hiện tự động bằng phương pháp/thiết bị phát hiện sớm và chỉ báo tăng nhiệt, ngọn lửa, khói, hơi cháy hoặc trạng thái không bình thường tạo ra đám cháy",
+   "dieu": "Hệ thống phát hiện",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý/điều khiển: có chế độ tự động + tay, vị trí nút xả tay ngoài khu bảo vệ hoặc cạnh lối ra chính, logic hai tín hiệu phát hiện",
+   "dieu": "suy từ Cơ cấu vận hành",
+   "nguon": "2db33f33c221"
+  }
+ ],
+ "hay_nham": []
+}

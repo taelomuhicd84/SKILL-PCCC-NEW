@@ -1,0 +1,77 @@
+{
+ "slug": "nha-de-xe-o-to-xe-may-trung-bay-o-to-xe-may",
+ "ten": "Nhà để xe ô tô, xe máy, trưng bày ô tô, xe máy",
+ "dong_nghia": [
+  "nhà để xe"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nhà dạng hở",
+  "Bậc chịu lửa",
+  "Cấp nguy hiểm cháy kết cấu"
+ ],
+ "ngay": "2026-10-26T04:05:36.119Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà sử dụng với mục đích để xe ô tô, xe máy, trưng bày ô tô, xe máy.",
+   "dieu": "Bảng A.1, mục 25",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Phân theo dạng kín hay dạng hở; với dạng kín một tầng trên mặt đất thì phân theo bậc chịu lửa (I, II, III hay IV, V) và cấp nguy hiểm cháy kết cấu (S0, S1, S2, S3).",
+   "dieu": "Bảng A.1, mục 25",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dạng kín đặt tại tầng hầm, tầng bán hầm hoặc trên mặt đất từ 02 tầng trở lên: báo cháy tự động và chữa cháy tự động đều không phụ thuộc vào diện tích.",
+   "dieu": "Bảng A.1, mục 25.1",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Dạng kín một tầng trên mặt đất, báo cháy tự động không phụ thuộc diện tích; chữa cháy tự động khi tổng diện tích sàn từ: 7 000 m² (bậc I, II, III, S0); 3 600 m² (bậc I, II, III, S1); 3 600 m² (bậc IV, V, S0); 2 000 m² (bậc IV, V, S1); 1 000 m² (bậc IV, V, S2, S3).",
+   "dieu": "Bảng A.1, mục 25.2.1–25.2.5",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Cho phép không bố trí chữa cháy tự động trong nhà để xe ngầm một tầng hầm xây dưới khu đất trống khi sức chứa không quá 25 chỗ.",
+   "dieu": "Bảng A.1, chú thích (4)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Nhà để xe ô tô một hoặc hai tầng dạng ngăn (ngăn cách tối thiểu bằng vách ngăn cháy loại 1 có lối ra ngoài trời trực tiếp từ từng ngăn chứa): cho phép không trang bị báo cháy tự động và chữa cháy tự động, với điều kiện mỗi ngăn không quá 2 xe.",
+   "dieu": "Bảng A.1, chú thích (4)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Cho phép không trang bị báo cháy tự động, chữa cháy tự động đối với nhà lưu giữ, trưng bày xe máy cao không quá 02 tầng và tổng diện tích sàn không quá 1 000 m².",
+   "dieu": "Bảng A.1, chú thích (4)",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xác định dạng kín/hở, số tầng, bậc chịu lửa, cấp S rồi tra mục 25.1–25.3; kiểm các ngoại lệ ở chú thích (4). Suy từ Bảng A.1.",
+   "dieu": "Bảng A.1, mục 25",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Mục 25 (nhà để xe) khác mục 26 (gara ô tô cơ khí: chữa cháy tự động từ 4 ô đỗ xe cho mỗi tầng trở lên) và mục 4.4 Bảng A.3 (phòng lưu giữ ô tô trong nhà có công năng khác: chữa cháy tự động từ 3 xe ô tô trở lên).",
+   "dieu": "Bảng A.1 mục 25, 26; Bảng A.3 mục 4.4",
+   "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+- 2026-10-26T03:53 ghi bản hiện hành từ QCVN 06 SỬA ĐỔI BỔ SUNG 10.2023.docx: Word đã hợp nhất sẵn dạng so sánh (SĐ1:2023): chỉ lấy phần mới, bỏ phần gạch ngang

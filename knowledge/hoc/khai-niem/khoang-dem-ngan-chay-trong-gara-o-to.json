@@ -1,0 +1,85 @@
+{
+ "slug": "khoang-dem-ngan-chay-trong-gara-o-to",
+ "ten": "Khoang đệm ngăn cháy trong gara ô-tô",
+ "dong_nghia": [
+  "Khoang đệm có áp suất không khí dương khi có cháy"
+ ],
+ "anh_huong": [
+  "m06-ngan-chay",
+  "m07-thoat-nan",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Đường dốc cách ly",
+  "Gara ô-tô ngầm",
+  "Buồng thang bộ của gara ô-tô"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Trong gara dạng kín, đường dốc chung cho tất cả các tầng được cách ly trên mỗi tầng với phòng lưu giữ xe bằng vách, cửa và khoang đệm ngăn cháy có áp suất dương khi có cháy theo Bảng 2.",
+   "dieu": "2.2.1.12",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara trong nhà chức năng khác: trên các tầng gara lắp khoang đệm ngăn cháy loại 1 có áp suất dương khi có cháy tại lối ra buồng thang bộ, giếng thang máy.",
+   "dieu": "2.2.1.8",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara ngầm từ hai tầng hầm trở lên: bắt buộc ở từng tầng cho lối ra buồng thang bộ, giếng thang máy.",
+   "dieu": "2.2.2 d",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Gara trên mặt đất dạng kín (đường dốc cách ly): không cần khoang đệm.",
+   "dieu": "Bảng 2",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara một tầng dưới mặt đất: không cần khoang đệm trước các đường dốc không dùng làm đường thoát nạn.",
+   "dieu": "2.2.1.12",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Gara ngầm: tường El 90, cổng El 60; khoang đệm có độ sâu đảm bảo mở được cổng, nhưng không nhỏ hơn 1,5 m.",
+   "dieu": "Bảng 2",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara trên mặt đất: tường El 45, cổng El 30.",
+   "dieu": "Bảng 2",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Cửa, cổng trong vách ngăn cháy và khoang đệm trang bị thiết bị tự động đóng khi có cháy.",
+   "dieu": "2.2.1.12",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Cửa ngăn cháy bố trí gần cổng hoặc trong cổng có chiều cao ngưỡng không nhỏ hơn 15 cm.",
+   "dieu": "2.2.1.15",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng từng tầng: có khoang đệm hay không, độ sâu ≥ 1,5 m với gara ngầm, ghi chú El của tường/cổng, cửa tự đóng. Suy từ Bảng 2.",
+   "dieu": "Bảng 2",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Chỉ rõ gara ngầm so với gara trên mặt đất: ngầm bắt buộc khoang đệm, trên mặt đất không cần theo Bảng 2. Khoang đệm ngăn cháy loại 1 ở 2.2.1.8 viện dẫn QCVN 06:2010/BXD (hệ thống đang dùng QCVN 06:2022/BXD).",
+   "dieu": "Bảng 2; 2.2.1.8",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

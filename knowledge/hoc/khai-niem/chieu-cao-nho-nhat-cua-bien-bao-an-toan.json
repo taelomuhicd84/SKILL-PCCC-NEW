@@ -1,0 +1,37 @@
+{
+ "slug": "chieu-cao-nho-nhat-cua-bien-bao-an-toan",
+ "ten": "Chiều cao nhỏ nhất của biển báo an toàn",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m14-den-su-co"
+ ],
+ "lien_quan": [
+  "Biển báo an toàn"
+ ],
+ "ngay": "2026-10-26T04:19:41.587Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Công thức h = L / Z; h là chiều cao nhỏ nhất của biển báo (m), L là khoảng cách quan sát (m), Z là hằng số: 100 cho biển chiếu sáng từ bên ngoài, 200 cho biển chiếu sáng từ bên trong.",
+   "dieu": "5.2.7",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Suy từ 5.2.7: lấy khoảng cách quan sát lớn nhất đến biển, chia cho 100 (biển chiếu sáng ngoài) hoặc 200 (biển chiếu sáng trong), so với chiều cao biển trong hồ sơ.",
+   "dieu": "suy từ 5.2.7",
+   "nguon": "f0d3f93819cb"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Biển chiếu sáng từ bên trong (Z = 200) được phép nhỏ hơn biển chiếu sáng từ bên ngoài (Z = 100) ở cùng khoảng cách quan sát.",
+   "dieu": "5.2.7",
+   "nguon": "f0d3f93819cb"
+  }
+ ]
+}

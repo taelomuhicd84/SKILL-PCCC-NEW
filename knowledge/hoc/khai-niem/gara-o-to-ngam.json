@@ -1,0 +1,110 @@
+{
+ "slug": "gara-o-to-ngam",
+ "ten": "Gara ô-tô ngầm",
+ "dong_nghia": [
+  "Gara ô-tô dưới mặt đất"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua",
+  "m06-ngan-chay",
+  "m07-thoat-nan",
+  "m08-thang-may-cc",
+  "m09-chong-khoi",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Khoang đệm ngăn cháy",
+  "Khoang cháy",
+  "Tầng dưới mặt đất"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tầng được coi là dưới mặt đất khi các phòng của tầng có cao độ sàn thấp hơn cao độ mặt đất (theo quy hoạch) quá nửa chiều cao của các phòng đó.",
+   "dieu": "2.1.3",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Gara ngầm chứa xe con: bậc I, cấp S0 tối đa 5 tầng ngầm, diện tích lớn nhất một tầng trong một khoang cháy 3.000 m²; bậc II, cấp S0 tối đa 3 tầng ngầm, 3.000 m².",
+   "dieu": "2.2.2 a, Bảng 4",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gara ngầm được phép xây kể cả dưới lối đi, đường phố, quảng trường, vườn hoa, bãi cỏ.",
+   "dieu": "2.1.4",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không cho phép phân chia các chỗ đỗ xe thành các khoang riêng biệt bằng vách ngăn.",
+   "dieu": "2.2.2 c",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Không được lưu giữ ô-tô chạy khí nén tự nhiên và khí hóa lỏng ở dưới mặt đất trong gara dạng kín.",
+   "dieu": "2.1.7",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Cho phép không bố trí chữa cháy tự động trong gara ngầm một tầng có sức chứa tới 25 chỗ xây trên khu đất trống.",
+   "dieu": "2.3.5.2 g",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Có hai tầng hầm trở lên: lối ra từ tầng hầm vào buồng thang bộ và từ giếng thang máy đi qua khoang đệm ngăn cháy có áp suất không khí dương khi có cháy ở từng tầng.",
+   "dieu": "2.2.2 d",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Có trên hai tầng hầm: mỗi khoang cháy bố trí ít nhất một thang máy chế độ chuyên chở lực lượng chữa cháy.",
+   "dieu": "2.2.1.20",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Trên sàn tầng phải có thiết bị thoát nước chữa cháy, ống thoát riêng cho từng tầng hầm.",
+   "dieu": "2.2.2 f",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Lượng nước chữa cháy ngoài nhà gara ngầm từ 2 tầng trở lên: 20 l/s.",
+   "dieu": "2.3.2.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Phải có hệ thống chữa cháy tự động không phụ thuộc số tầng.",
+   "dieu": "2.3.5.2 a",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Hệ thống thông gió tách riêng cho từng tầng; được nối các vùng khói có diện tích không quá 900 m² ở từng tầng hầm tới một giếng khói.",
+   "dieu": "2.3.3.1; 2.3.3.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Khoảng cách từ lối ra vào tới lối vào nhà ở 100 m; tới phòng hành khách của bến xe, tổ chức thương mại, thực phẩm công cộng 150 m; tới cơ quan, xí nghiệp phục vụ dân sinh và nhà hành chính 250 m; tới lối vào công viên, triển lãm, sân vận động 400 m.",
+   "dieu": "2.2.2 e",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đếm số tầng hầm, diện tích mỗi tầng trong khoang cháy so với Bảng 4; xem khoang đệm tại buồng thang bộ, giếng thang máy khi có từ 2 tầng hầm. Suy từ 2.2.2.",
+   "dieu": "2.2.2",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Bảng 4 chỉ có bậc I và II (cấp S0) cho gara ngầm; không có bậc III trở xuống.",
+   "dieu": "Bảng 4",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "slug": "dien-tich-san-cho-phep-tiep-can",
+ "ten": "Diện tích sàn cho phép tiếp cận",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m04-giao-thong",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Bãi đỗ xe chữa cháy",
+  "Sàn thông tầng"
+ ],
+ "ngay": "2026-10-26T04:03:00.062Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Lấy giá trị của tầng có diện tích sàn cho phép tiếp cận lớn nhất để tra Bảng 15.",
+   "dieu": "6.2.2.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Nhà có các sàn thông tầng, kể cả tầng hầm thông với các tầng trên mặt đất: lấy bằng diện tích cộng dồn của tất cả các sàn thông tầng.",
+   "dieu": "6.2.2.3 a)",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Nhà có từ hai nhóm sàn thông tầng trở lên: lấy giá trị cộng dồn của nhóm sàn thông tầng có diện tích lớn nhất.",
+   "dieu": "6.2.2.3 b)",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  },
+  {
+   "y": "Nếu lỗ thông tầng được bảo vệ chống cháy lan: lấy diện tích một sàn lớn nhất trong các sàn nối thông cộng với diện tích các lỗ thông tầng trong phạm vi được bảo vệ.",
+   "dieu": "6.2.2.3 chú thích",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dùng tra chiều dài bãi đỗ xe chữa cháy cho nhà F1.1, F1.2, F2, F3, F4 (Bảng 15).",
+   "dieu": "Bảng 15",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Ngưỡng Bảng 15: ≤ 2 000; > 2 000–4 000; > 4 000–8 000; > 8 000–16 000; > 16 000–32 000; > 32 000 m2.",
+   "dieu": "Bảng 15",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Kiểm các mặt bằng tầng có thông tầng/giếng trời, cộng dồn diện tích theo a) b), xem lỗ thông tầng có bảo vệ chống cháy lan không; suy từ 6.2.2.3.",
+   "dieu": "suy từ 6.2.2.3",
+   "nguon": "kb:qcvn06-dieu-6.md"
+  }
+ ],
+ "hay_nham": []
+}

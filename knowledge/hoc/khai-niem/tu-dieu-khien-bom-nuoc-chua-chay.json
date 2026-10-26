@@ -1,0 +1,65 @@
+{
+ "slug": "tu-dieu-khien-bom-nuoc-chua-chay",
+ "ten": "Tủ điều khiển bơm nước chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Nguồn điện của máy bơm",
+  "Bơm bù áp",
+  "Máy bơm dự phòng"
+ ],
+ "ngay": "2026-10-26T04:27:46.534Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Mỗi máy bơm được điều khiển và kiểm soát từ một tủ điều khiển riêng biệt, có chức năng khởi động tự động và bằng tay.",
+   "dieu": "2.5.1.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không bố trí thiết bị điều khiển bơm chính và bơm dự phòng chung một tủ điều khiển.",
+   "dieu": "2.5.1.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Tủ điều khiển bơm điện có 3 cách khởi động: tự động; ấn nút khởi động trên tủ; khởi động khẩn cấp bằng đóng thiết bị cơ học chuyển mạch trực tiếp cho mô tơ, độc lập với mạch điều khiển điện và công tắc áp lực.",
+   "dieu": "2.5.2.2",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Tủ có nút ấn khởi động, dừng, kiểm tra đèn; đèn/đồng hồ/LCD hiển thị có nguồn, nguồn lỗi (mất nguồn, lệch pha, mất pha), bơm chạy, bơm dừng, chức năng tự động bị loại bỏ hoặc lỗi, điện áp, dòng điện các pha, áp lực hệ thống; cầu dao cách ly liên động với cửa tủ; chữ tiếng Việt thể hiện chức năng.",
+   "dieu": "2.5.2.3",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Dòng định mức của cầu dao cách ly không nhỏ hơn 115% dòng đầy tải định mức của động cơ.",
+   "dieu": "2.5.2.6",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Mỗi động cơ điện được bảo vệ bằng một aptomat nối trực tiếp với cổng ra cầu dao cách ly; dòng làm việc định mức dài hạn không nhỏ hơn 115% dòng đầy tải; cảm biến quá dòng không phải loại rơ le nhiệt; dòng nhả tức thời chỉnh không lớn hơn 20 lần dòng đầy tải.",
+   "dieu": "2.5.2.7",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Ống tín hiệu áp lực: đường kính danh nghĩa không nhỏ hơn 15 mm, trích từ ống đẩy phía sau van một chiều của mỗi bơm, bằng thép không rỉ hoặc đồng; mỗi ống có hai van một chiều cách nhau không nhỏ hơn 1,5 m, lá van khoan lỗ đường kính 2,5 đến 3 mm.",
+   "dieu": "2.3.7, 2.3.9",
+   "nguon": "b6694167594c"
+  },
+  {
+   "y": "Mạch khởi động chọn một trong: DOL, autotransformer, sao-tam giác, part winding, soft start, căn cứ công suất nguồn điện cấp cho bơm.",
+   "dieu": "2.5.2.1",
+   "nguon": "b6694167594c"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

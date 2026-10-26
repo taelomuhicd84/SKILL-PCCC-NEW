@@ -1,0 +1,57 @@
+{
+ "slug": "buong-thang-bo-cua-gara-o-to",
+ "ten": "Buồng thang bộ của gara ô-tô",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m09-chong-khoi",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Khoang đệm ngăn cháy trong gara ô-tô",
+  "Thoát khói và thông gió chống khói trong gara ô-tô"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Buồng thang bộ và giếng thang máy của gara phải được tạo áp suất không khí dương khi có cháy, hoặc có khoang đệm ngăn cháy loại 1 có áp suất dương, trên tất cả các tầng: gara có hai tầng hầm trở lên; cầu thang bộ và thang máy nối phần ngầm với phần trên mặt đất của gara; nối gara với các tầng trên mặt đất của nhà chức năng khác.",
+   "dieu": "2.3.3.6",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Gara gắn với nhà chức năng khác không được bố trí bên trong buồng thang bộ chung và giếng thang máy chung.",
+   "dieu": "2.2.1.8",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Gara bậc chịu lửa IV: kết cấu bao che buồng thang bộ thoát nạn thỏa yêu cầu đối với buồng thang bộ của nhà bậc III.",
+   "dieu": "2.2.4.5",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Lối ra từ buồng thang bộ và giếng thang máy của gara đi vào sảnh có lối ra chính của tòa nhà.",
+   "dieu": "2.2.1.8",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ thang bộ, hệ thống tăng áp/khoang đệm tại từng tầng khi gara thuộc 3 trường hợp 2.3.3.6. Suy từ 2.3.3.6.",
+   "dieu": "2.3.3.6",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Văn bản không có định nghĩa riêng 'buồng thang bộ không nhiễm khói'; chỉ nêu yêu cầu áp suất dương hoặc khoang đệm cho gara.",
+   "dieu": "2.3.3.6",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}

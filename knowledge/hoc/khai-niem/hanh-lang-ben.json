@@ -1,0 +1,90 @@
+{
+ "slug": "hanh-lang-ben",
+ "ten": "Hành lang bên",
+ "dong_nghia": [
+  "hành lang ngoài"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m09-chong-khoi",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Buồng thang bộ",
+  "Lối ra ngoài trực tiếp",
+  "Gian lánh nạn"
+ ],
+ "ngay": "2026-10-26T04:23:07.418Z",
+ "dinh_nghia": [
+  {
+   "y": "Không gian dành cho giao thông dẫn tới các phòng/không gian khác và có ít nhất một mặt tiếp xúc với không gian bên ngoài.",
+   "dieu": "3.12",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Hành lang mà ở một phía có thông gió với bên ngoài qua các lỗ mở thông với không khí bên ngoài khi có cháy, với chiều cao thông thủy tính từ đỉnh của tường chắn ở mép hành lang lên phía trên không nhỏ hơn 1,2 m.",
+   "dieu": "Điều 1.4.23",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Mặt tiếp xúc với bên ngoài: nếu hành lang bên được ngăn cách với phòng liền kề bằng bộ phận ngăn cháy thì tổng diện tích lỗ mở (hoặc cửa sổ mở được bằng tay) không nên nhỏ hơn 15% diện tích sàn hành lang bên; nếu không được ngăn cách bằng bộ phận ngăn cháy thì không nên nhỏ hơn 25%.",
+   "dieu": "9.1.4",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Khi hành lang bên được ngăn cách với các gian phòng liền kề bằng bộ phận ngăn cháy theo quy chuẩn: tổng diện tích các lỗ mở không nhỏ hơn 15 % diện tích sàn hành lang bên và khoảng cách từ một điểm bất kỳ trên hành lang bên đến mép gần nhất của lỗ mở không lớn hơn 9 m, đo theo phương ngang.",
+   "dieu": "Điều 1.4.23, chú thích",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Khi hành lang bên không được ngăn cách với các gian phòng liền kề bằng bộ phận ngăn cháy: tổng diện tích các lỗ mở không nhỏ hơn 50 % diện tích sàn hành lang bên và khoảng cách đến mép gần nhất của lỗ mở không lớn hơn 9 m.",
+   "dieu": "Điều 1.4.23, chú thích",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà ≥ 4 tầng hoặc chiều cao PCCC > 15 m có hành lang bên được thoát nạn qua cầu thang bộ loại 2.",
+   "dieu": "9.3.3.3.3",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Lối ra thoát nạn từ gian phòng có thể dẫn vào hành lang bên của nhà có chiều cao PCCC dưới 28 m dẫn trực tiếp vào cầu thang bộ loại 2.",
+   "dieu": "Slide 'Lối ra thoát nạn'",
+   "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Đường thoát nạn dẫn vào gian lánh nạn phải đi qua sảnh ngăn khói/sảnh thang máy chữa cháy hoặc một hành lang bên.",
+   "dieu": "A.3.2 (slide Gian lánh nạn, đoạn e)",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đo tổng diện tích lỗ mở trên mặt tiếp xúc ngoài, chia cho diện tích sàn hành lang; so với 15% hoặc 25%. Suy từ 9.1.4.",
+   "dieu": "9.1.4",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Đo trên mặt bằng tổng diện tích lỗ mở và khoảng cách ngang lớn nhất đến lỗ mở, so với 15 %/50 % và 9 m.",
+   "dieu": "suy từ Điều 1.4.23",
+   "nguon": "ee1434b8c963"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác 'hành lang' thường (3.11) không yêu cầu tiếp xúc không gian bên ngoài.",
+   "dieu": "3.11; 3.12",
+   "nguon": "6ae0fc981256"
+  },
+  {
+   "y": "Lối đi hở như hành lang bên có thể được coi là lối đi qua vùng an toàn để dẫn ra ngoài nhà (lối ra ngoài trực tiếp) khi được ngăn cách đúng quy định.",
+   "dieu": "Điều 1.4.33a, chú thích",
+   "nguon": "ee1434b8c963"
+  }
+ ]
+}

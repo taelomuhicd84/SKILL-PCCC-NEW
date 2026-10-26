@@ -1,0 +1,62 @@
+{
+ "slug": "gara-o-to-chua-xe-chay-khi-hoa-long-hoac-khi-nen-tu-nhien",
+ "ten": "Gara ô-tô chứa xe chạy khí hóa lỏng hoặc khí nén tự nhiên",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m05-cong-nang",
+  "m01-phan-loai",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Gara ô-tô ngầm",
+  "Gara ô-tô bố trí bên trong"
+ ],
+ "ngay": "2026-10-26T04:12:53.069Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Phải bổ sung yêu cầu cho gian phòng, nhà, công trình theo quy định riêng.",
+   "dieu": "2.2.1.30",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Gian phòng lưu giữ phải bố trí trong nhà, công trình riêng biệt có bậc chịu lửa I, II, III, IV thuộc cấp S0; xe con được phép đặt trên các tầng trên của gara đứng riêng chứa xe xăng, dầu diezen; nếu đảm bảo thông gió cho các tầng thì được bố trí trên các tầng của gara dạng hở và gara cơ khí.",
+   "dieu": "2.2.1.31",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không bố trí trong tầng hầm và nửa hầm của gara; trong gara dạng kín trên mặt đất đặt trong nhà chức năng khác; trong gara dạng kín trên mặt đất có đường dốc không cách ly; khi lưu giữ xe trong ngăn không có lối trực tiếp ra ngoài trời.",
+   "dieu": "2.2.1.32",
+   "nguon": "fbe776d86927"
+  },
+  {
+   "y": "Không lưu giữ trong gara dạng kín nằm trong hoặc liền kề nhà chức năng khác, hoặc ở dưới mặt đất.",
+   "dieu": "2.1.7",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Hệ thống kiểm soát tự động môi trường không khí trong gian phòng lưu giữ xe này thuộc hộ tiêu thụ điện hạng 1.",
+   "dieu": "2.3.4.2",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh loại nhiên liệu xe; nếu có xe khí, kiểm vị trí gian phòng không rơi vào các trường hợp cấm 2.2.1.32 và 2.1.7.",
+   "dieu": "2.2.1.32",
+   "nguon": "fbe776d86927"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ngoại lệ: hạng nguy hiểm cháy C tương đương cho gara xe con không áp dụng cho xe chạy khí nén hoặc khí hóa lỏng.",
+   "dieu": "2.2.1.4",
+   "nguon": "fbe776d86927"
+  }
+ ]
+}
