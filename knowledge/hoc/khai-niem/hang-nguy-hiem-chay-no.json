@@ -28,9 +28,10 @@
   "Bậc chịu lửa",
   "Bố trí công năng",
   "Nhóm nhà F",
-  "Cấp nguy hiểm cháy kết cấu"
+  "Cấp nguy hiểm cháy kết cấu",
+  "Bậc chịu lửa của nhà, công trình, khoang cháy"
  ],
- "ngay": "2026-10-26T04:49:33.956Z",
+ "ngay": "2026-10-26T07:04:38.007Z",
  "dinh_nghia": [
   {
    "y": "Nhà, công trình và gian phòng có công năng sản xuất, kho (nhóm F5) theo tính nguy hiểm cháy và cháy nổ được phân thành các hạng A, B, C, D, E theo QCVN 06:/BXD.",
@@ -63,6 +64,11 @@
    "y": "Khi không có tính toán cụ thể để phân hạng theo tiêu chuẩn, có thể tham khảo hạng nguy hiểm cháy và cháy nổ của một số nhà và gian phòng thuộc các phân xưởng, nhà kho (nội dung chi tiết bị cắt trong nguồn).",
    "dieu": "C.3.2",
    "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Hạng nguy hiểm cháy và cháy nổ của nhà, công trình, gian phòng có công năng sản xuất và kho xác định theo Phụ lục C (nguồn chỉ nêu tên phụ lục).",
+   "dieu": "Phụ lục C",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "ap_dung": [
@@ -100,6 +106,11 @@
    "y": "Lưu lượng nước chữa cháy ngoài nhà: nhà và khu vực kho lạnh bảo quản thực phẩm lấy giống nhà hạng C; nhà phục vụ nông nghiệp và phát triển nông thôn bậc chịu lửa I, II, khối tích không lớn hơn 5 000 m3, hạng D, E lấy bằng 5 L/s.",
    "dieu": "Chú thích 7 và Chú thích 3 (mục cấp nước chữa cháy ngoài nhà)",
    "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao lớn nhất và diện tích một tầng trong khoang cháy của nhà sản xuất phụ thuộc hạng nguy hiểm cháy nổ, theo Bảng H.9.",
+   "dieu": "H.4.1",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "khong_ap_dung": [
@@ -117,6 +128,11 @@
    "y": "Quy định cho phép không phân chia các khu vực khác nhóm nguy hiểm cháy theo công năng bằng bộ phận ngăn cháy (khi công năng chính chiếm phần lớn diện tích sàn tầng) không áp dụng nếu gian phòng công năng phụ trợ có hạng nguy hiểm cháy và cháy nổ cao hơn gian phòng công năng chính.",
    "dieu": "mục bố trí công năng trong tầng nhà (số điều bị cắt trong nguồn)",
    "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Nhà bậc chịu lửa IV và V không được tăng gấp 2 lần diện tích khi có chữa cháy tự động.",
+   "dieu": "H.4.1",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "yeu_cau": [
@@ -124,6 +140,36 @@
    "y": "Không yêu cầu giới hạn chịu lửa của tường ngăn và ô cửa giữa các gian phòng và hành lang bên, trừ các gian phòng nhóm F5 hạng A, B, C hoặc bếp.",
    "dieu": "3.3",
    "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Bảng H.9, hạng A: nhà bậc I, II cao tối đa 36 m, cấp S0, 1 tầng không hạn chế, 2 tầng 5 200 m2, từ 3 tầng 3 500 m2; bậc III cao 24 m, S0, 7 800 / 3 500 / 2 600 m2; bậc IV, S0, 1 tầng 3 500 m2.",
+   "dieu": "Bảng H.9",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Bảng H.9, hạng B: bậc I, II cao 36 m, 2 tầng 10 400 m2, từ 3 tầng 7 800 m2; bậc III cao 24 m như hạng A.",
+   "dieu": "Bảng H.9",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Trang bị chữa cháy tự động toàn nhà cho nhà sản xuất: cho phép tăng gấp 2 lần diện tích sàn trong khoang cháy ở Bảng H.9.",
+   "dieu": "H.4.1",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Nhà hạng C có các gian phòng hạng C1 tổng diện tích lớn hơn 1/2 diện tích tầng tương ứng: diện tích một tầng trong khoang cháy ở Bảng H.9 giảm đi 25%.",
+   "dieu": "H.4.1",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Dây chuyền công nghệ khác hạng bố trí chung trong một nhà/gian phòng: phải có giải pháp ngăn lan truyền cháy nổ; nếu không bảo đảm hiệu quả thì bố trí trong gian phòng riêng, ngăn cách theo Phụ lục E.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Sàn giá đỡ, sàn lửng có diện tích trên mỗi cao độ vượt 40% diện tích sàn thì xác định diện tích sàn như nhà nhiều tầng.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "cach_kiem": [
@@ -136,6 +182,11 @@
    "y": "Với công năng khác: không đòi hỏi phân hạng, nhưng soát các gian phòng thuộc 2.5.5.2 (xem mục hay nhầm).",
    "dieu": "suy từ 2.5.6",
    "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Lấy hạng của nhà/khoang cháy trong hồ sơ, tra Bảng H.9 theo bậc chịu lửa và số tầng để so chiều cao và diện tích một tầng; áp hệ số tăng 2 lần hoặc giảm 25% nếu thuộc trường hợp. Suy từ H.4.1.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "hay_nham": [
@@ -148,6 +199,11 @@
    "y": "Gian phòng sản xuất và kho (kể cả phòng thí nghiệm, nhà xưởng diện tích trên 50 m2) và gian phòng chuẩn bị đồ ăn có thiết bị đun nấu công suất trên 10 kW trong nhà nhóm F1, F2, F3, F4 được xếp vào nhóm F5, nên thuộc diện phải xét hạng.",
    "dieu": "2.5.5.2",
    "nguon": "kb:tk-hạng-nguy-hiểm-cháy"
+  },
+  {
+   "y": "Kho cất giữ hàng hạng C trên giá đỡ cao tầng phải bố trí trong nhà 1 tầng bậc I đến IV, cấp S0; bố trí trong nhà nhiều tầng thì giá đỡ phải có chữa cháy tự động.",
+   "dieu": "A.1.3.10",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ]
 }

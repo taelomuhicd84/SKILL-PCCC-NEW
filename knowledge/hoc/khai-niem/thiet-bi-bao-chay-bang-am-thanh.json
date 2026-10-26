@@ -9,9 +9,10 @@
   "m14-den-su-co"
  ],
  "lien_quan": [
-  "Thiết bị báo cháy bằng ánh sáng"
+  "Thiết bị báo cháy bằng ánh sáng",
+  "Khoang cháy"
  ],
- "ngay": "2026-10-26T04:33:16.174Z",
+ "ngay": "2026-10-26T07:10:51.055Z",
  "dinh_nghia": [],
  "cach_xac_dinh": [],
  "ap_dung": [
@@ -52,6 +53,26 @@
    "y": "Khu vực ngủ: lớn hơn độ ồn xung quanh ít nhất 15 dBA (cửa đóng) và không nhỏ hơn 75 dBA.",
    "dieu": "5.11.2.1",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Tín hiệu báo cháy phân bố đồng thời trong khoang cháy / nhà và công trình, nghe thấy rõ ở mọi địa điểm.",
+   "dieu": "TCVN 7568-14:2025, 5.11.2.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Mức âm thanh lớn hơn độ ồn xung quanh ít nhất 10 dBA, không nhỏ hơn 65 dBA, không lớn hơn 105 dBA.",
+   "dieu": "5.11.2.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Khu vực ngủ: lớn hơn độ ồn xung quanh ít nhất 15 dBA (khi cửa ra vào đóng) và không nhỏ hơn 75 dBA.",
+   "dieu": "5.11.2.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Khu vực như bệnh viện: bố trí mức âm thanh và nội dung thông báo để báo cho nhân viên và giảm tối thiểu khủng hoảng tinh thần của bệnh nhân.",
+   "dieu": "5.11.2.2",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "cach_kiem": [
@@ -64,6 +85,11 @@
    "y": "Xem thuyết minh/bản vẽ loa, còi: mức dBA yêu cầu 65/75 dBA, phân bố mọi khu vực; suy từ 5.11.2.1.",
    "dieu": "5.11.2.1",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Xem thuyết minh hoặc bản vẽ có tính mức âm thanh so với độ ồn môi trường; riêng phòng ngủ so với 15 dBA và 75 dBA.",
+   "dieu": "suy từ 5.11.2.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "hay_nham": [

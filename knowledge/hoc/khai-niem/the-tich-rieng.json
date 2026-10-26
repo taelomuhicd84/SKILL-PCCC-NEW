@@ -1,0 +1,45 @@
+{
+ "slug": "the-tich-rieng",
+ "ten": "Thể tích riêng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Tổng khối lượng khí chữa cháy",
+  "Nồng độ thiết kế",
+  "Thể tích khu vực có sự cố cháy"
+ ],
+ "ngay": "2026-10-26T07:10:00.332Z",
+ "dinh_nghia": [
+  {
+   "y": "v là thể tích riêng, tính bằng mét khối trên kilôgam: v = k1 + k2 x T",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "v = k1 + k2 x T; k1, k2 là các hằng số riêng cho khí chữa cháy được sử dụng, do nhà sản xuất khí chữa cháy cung cấp; T là nhiệt độ môi trường nhỏ nhất được định trước của thể tích được bảo vệ, tính bằng độ C",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dùng để tính tổng khối lượng khí chữa cháy Q, cả với khí hóa lỏng và khí không hóa lỏng",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem hồ sơ có k1, k2 của nhà sản xuất và nhiệt độ T nhỏ nhất định trước hay không (suy từ công thức tính Q)",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ],
+ "hay_nham": []
+}

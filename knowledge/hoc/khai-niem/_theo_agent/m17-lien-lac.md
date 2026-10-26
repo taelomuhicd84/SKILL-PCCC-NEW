@@ -36,7 +36,7 @@
 - Loại 1–5 ở đây là loại hệ thống báo cháy riêng của gara theo sức chứa; không nhầm với phân loại đầu báo hay hệ thống báo cháy thường. (2.3.5.5)
 **Liên quan:** Hệ thống chữa cháy tự động trong gara ô-tô, Thoát khói và thông gió chống khói trong gara ô-tô
 
-### Hệ thống loa thông báo và hướng dẫn thoát nạn (còn gọi: Thiết bị loa cảnh báo và chỉ dẫn thoát nạn bằng giọng nói, Thiết bị loa cảnh báo cháy và điều khiển thoát nạn)
+### Hệ thống loa thông báo và hướng dẫn thoát nạn (còn gọi: Thiết bị loa cảnh báo và chỉ dẫn thoát nạn bằng giọng nói, Thiết bị loa cảnh báo cháy và điều khiển thoát nạn, loa thông báo)
 **Định nghĩa:**
 - Hệ thống phải bảo đảm mọi người trong nhà và công trình có thể nghe rõ thông báo, hướng dẫn khi có sự cố. (H.4)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
@@ -49,6 +49,7 @@
 - Nhà sản xuất: tổng diện tích sàn từ 18 000 m² trở lên và có từ 300 người trên 1 tầng trở lên. (Bảng G.1, STT 4)
 - Hầm giao thông đường bộ (hầm đường ô tô): chiều dài từ 500 m trở lên. (Bảng G.1, STT 5)
 - Nhà ga hành khách thuộc cảng hàng không; nhà ga hành khách, đề-pô đường sắt; nhà ga hành khách, đề-pô đường sắt đô thị: không phụ thuộc quy mô. (Bảng G.1, STT 6)
+- Trang bị loa theo QCVN 10:2025/BCA Bảng G.1 và mục H.4 (nội dung chi tiết xem knowledge/qcvn10-2025-den-loa.md). (Phụ lục G (Bảng G.1), H.4)
 **Yêu cầu kỹ thuật, trị số:**
 - Thiết kế, lắp đặt phải bảo đảm các yêu cầu quy định tại H.4. (2.2.5)
 - Số lượng thiết bị loa, cách bố trí và công suất phải đảm bảo mức âm thanh ở tất cả khu vực để ở phù hợp với các quy định của Quy chuẩn này. (H.4)
@@ -58,9 +59,15 @@
 **Cách kiểm trên hồ sơ:**
 - Đối chiếu công năng, số tầng, số tầng hầm, diện tích sàn, số người trên 1 tầng, chiều dài hầm của công trình với Bảng G.1 để biết có phải trang bị không (suy từ Phụ lục G). (suy từ Phụ lục G)
 - Xem bản vẽ bố trí loa: cao độ lắp loa trên tường ≥ 2,3 m từ sàn và ≥ 0,15 m từ trần; phòng ồn trên 95 dBA có thiết bị cảnh báo ánh sáng (suy từ H.4). (suy từ H.4)
-**Liên quan:** Mức âm thanh tổng thể của tín hiệu loa, Mức âm thanh tín hiệu loa trong phòng ngủ
+**Dễ nhầm với:**
+- Khác với chiếu sáng sự cố và chỉ dẫn thoát nạn (TCVN 13456:2022).
+**Liên quan:** Mức âm thanh tổng thể của tín hiệu loa, Mức âm thanh tín hiệu loa trong phòng ngủ, Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn
 
-### Mặt nạ lọc độc
+### Mặt nạ lọc độc (còn gọi: mặt nạ phòng độc cách ly)
+**Định nghĩa:**
+- Thiết bị bảo hộ cá nhân bảo vệ cơ quan hô hấp trong một thời gian và ở giới hạn nồng độ ô xy trong không khí nhất định. (QCVN 10:2025/BCA, 1.4.12)
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Thuộc nhóm phương tiện chữa cháy ban đầu, gồm loại lọc độc và loại phòng độc cách ly
 **Khi nào áp dụng / được phép:**
 - Nhà, công trình phải trang bị mặt nạ lọc độc theo Phụ lục F. (2.7.2)
 - Khách sạn, nhà khách, nhà nghỉ và cơ sở dịch vụ lưu trú khác cao từ 3 tầng trở lên: trang bị tại tất cả các tầng nhà. (Bảng F.1, STT 1)
@@ -69,11 +76,13 @@
 - Khách sạn, nhà khách, nhà nghỉ, cơ sở lưu trú (cao từ 3 tầng): định mức 01 chiếc/01 người, gồm cả khách lưu trú và nhân viên phục vụ có mặt thường xuyên. (Bảng F.1, STT 1)
 - Karaoke, vũ trường: số lượng trên một tầng tính theo số người có mặt đồng thời trong một phòng có diện tích lớn nhất của tầng đó, định mức 01 chiếc/01 người. (Bảng F.1, STT 2)
 - Bố trí tại các tủ phương tiện trên hành lang, đường thoát nạn từng tầng hoặc trong các gian phòng thường xuyên có người. (2.7.2)
+- Trang bị theo QCVN 10:2025/BCA
 **Cách kiểm trên hồ sơ:**
 - Khách sạn: lấy số người (khách + nhân viên) của từng tầng. Karaoke: tìm phòng lớn nhất từng tầng, lấy số người đồng thời trong phòng đó; so với số mặt nạ ghi trong hồ sơ (suy từ Bảng F.1). (suy từ Bảng F.1)
 **Dễ nhầm với:**
 - Mặt nạ lọc độc đặt ở tủ phương tiện trên hành lang/đường thoát nạn hoặc phòng thường xuyên có người; mặt nạ phòng độc cách ly đặt ở phòng trực điều khiển chống cháy hoặc khu vực thường trực PCCC. (2.7.2)
-**Liên quan:** Mặt nạ phòng độc cách ly, Karaoke, vũ trường, Dụng cụ phá dỡ thô sơ
+- Khác mặt nạ phòng độc cách ly (có bình khí thở, chống không khí bên ngoài xâm nhập). (1.4.12, 1.4.13)
+**Liên quan:** Mặt nạ phòng độc cách ly, Karaoke, vũ trường, Dụng cụ phá dỡ thô sơ, Phương tiện chữa cháy ban đầu
 
 ### Phòng trực điều khiển chống cháy
 **Khi nào áp dụng / được phép:**
@@ -154,6 +163,8 @@
 - Phần điều khiển cách sàn không nhỏ hơn 0,75 m và không lớn hơn 1,85 m. (5.12.7)
 - Hai nguồn điện độc lập: 220 V xoay chiều và ắc quy dự phòng; dung lượng ắc quy đảm bảo ít nhất 24 h thường trực và 30 min khi có cháy; ắc quy nạp tự động; tiếp đất bảo vệ. (5.13, 5.13.1)
 - Tín hiệu âm thanh, ánh sáng khi báo cháy và báo sự cố phải khác nhau. (5.12.9)
+- Phải có chức năng tự động kiểm tra tín hiệu từ đầu báo cháy, kênh báo cháy và thiết bị báo cháy khác để loại trừ tín hiệu báo cháy giả. (TCVN 7568-14:2025, 5.12.1)
+- Thiết bị chỉ thị bên ngoài nhà phải kết nối với tín hiệu ra giám sát của tủ trung tâm. (5.11.3.2.3)
 **Cách kiểm trên hồ sơ:**
 - Xem bản vẽ phòng đặt tủ, sơ đồ nguồn, thuyết minh dung lượng ắc quy (24 h + 30 min), kết nối truyền tin; suy từ 5.12, 5.13. (5.12, 5.13)
-**Liên quan:** Hộp nút ấn báo cháy, Thiết bị báo cháy, Đầu báo khói
+**Liên quan:** Hộp nút ấn báo cháy, Thiết bị báo cháy, Đầu báo khói, Hệ thống báo cháy, Thiết bị báo cháy bằng ánh sáng

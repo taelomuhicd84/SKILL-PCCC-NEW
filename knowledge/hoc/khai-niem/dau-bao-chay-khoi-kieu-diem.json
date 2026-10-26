@@ -10,9 +10,12 @@
  ],
  "lien_quan": [
   "Đầu báo cháy nhiệt kiểu điểm",
-  "Khoang dầm"
+  "Khoang dầm",
+  "Đầu báo cháy khói",
+  "Đầu báo cháy nhiệt",
+  "Đầu báo cháy khói kiểu hút"
  ],
- "ngay": "2026-10-26T04:33:16.174Z",
+ "ngay": "2026-10-26T07:07:32.950Z",
  "dinh_nghia": [
   {
    "y": "Đầu báo cháy đặt trực tiếp trong khu vực được bảo vệ để nhạy cảm với sự tác động của môi trường xung quanh vị trí lắp đặt theo đặc tính của từng loại đầu báo.",
@@ -67,6 +70,11 @@
    "y": "Đầu báo nhiệt có khoảng cách nhỏ hơn (7,2 m giữa các đầu; 5,1 m đến điểm gần nhất).",
    "dieu": "5.9.2.1.2",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Đầu báo khói kiểu hút: mỗi miệng hút lấy mẫu tương đương một đầu báo khói kiểu điểm.",
+   "dieu": "3.11",
+   "nguon": "kb:tk-tcvn-7568-14"
   }
  ]
 }

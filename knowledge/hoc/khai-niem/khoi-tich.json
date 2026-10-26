@@ -8,21 +8,28 @@
   "m01-phan-loai",
   "doc-ho-so",
   "m12-chua-chay",
-  "m06-ngan-chay"
+  "m06-ngan-chay",
+  "m02-bac-chiu-lua"
  ],
  "lien_quan": [
   "Số tầng nhà",
   "Chiều cao nhà",
   "Khoang cháy",
   "Phân khoang cháy",
-  "Lưu lượng nước chữa cháy ngoài nhà"
+  "Lưu lượng nước chữa cháy ngoài nhà",
+  "Diện tích xây dựng"
  ],
- "ngay": "2026-10-26T04:52:13.508Z",
+ "ngay": "2026-10-26T07:06:10.175Z",
  "dinh_nghia": [
   {
    "y": "Khối tích của một không gian trong phạm vi một nhà hoặc khoang cháy. Không bao gồm tường của thang máy được bảo vệ, buồng thang bộ thoát nạn và các không gian khác (ví dụ khu vệ sinh, buồng để đồ) được bao che bằng tường có giới hạn chịu lửa không thấp hơn 60 phút, đồng thời lối đi qua tường được bảo vệ bằng cửa ngăn cháy loại 2 có cơ cấu tự đóng.",
    "dieu": "Thuật ngữ",
    "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Tổng khối tích các phần nhà trên mặt đất tính từ cốt ± 0,00 trở lên và phần ngầm từ cốt hoàn thiện nền sàn tầng hầm dưới cùng lên đến cốt ± 0,00; tính theo kích thước từ mặt ngoài kết cấu bao che, kể cả ô lấy sáng và thông gió của mỗi phần của nhà.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung; QCVN 10:2025/BCA 1.4.25 (theo TCVN 9255)",
+   "nguon": "kb:tk-sàn-lửng"
   }
  ],
  "cach_xac_dinh": [
@@ -45,6 +52,11 @@
    "y": "Nhà hoặc khoang cháy kéo lên đến mái: lấy đến bề mặt dưới của mái hoặc bề mặt dưới của trần tầng cao nhất trong khoang cháy, gồm cả không gian bị chiếm bởi tường, giếng đứng, kênh dẫn không được bảo vệ hoặc kết cấu nằm trong không gian đang xét.",
    "dieu": "Thuật ngữ",
    "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Trường hợp các nhà đã bảo đảm khoảng cách an toàn PCCC, thoát nạn và ngăn cháy lan, được kết nối bởi lối đi (hành lang cầu) thì cho phép tính diện tích và khối tích riêng biệt của từng nhà.",
+   "dieu": "QCVN 10:2025/BCA, chú thích 1.4.26",
+   "nguon": "kb:tk-sàn-lửng"
   }
  ],
  "ap_dung": [

@@ -19,9 +19,11 @@
   "Đường cho xe chữa cháy",
   "Giao thông cho xe chữa cháy",
   "Chiều cao nhà",
-  "Khối tích"
+  "Khối tích",
+  "Chiều cao PCCC",
+  "Nhóm nhà F"
  ],
- "ngay": "2026-10-26T04:40:34.533Z",
+ "ngay": "2026-10-26T07:04:38.007Z",
  "dinh_nghia": [
   {
    "y": "Đường (kết hợp chung với đường theo công năng của nhà hoặc bố trí riêng) để xe chữa cháy và lực lượng chữa cháy tiếp cận nhà.",
@@ -50,9 +52,30 @@
    "y": "Ví dụ trong tập huấn: nhà xưởng A, B, C, D đều có đường xe chữa cháy bao quanh mặt ngoài nhà.",
    "dieu": "",
    "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Nhà nhóm F5 phải có một bãi đỗ xe chữa cháy; chiều dài bãi lấy theo Bảng 16, dựa vào tổng quy mô khối tích của nhà (không gồm tầng hầm).",
+   "dieu": "6.2",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Chỉ yêu cầu có đường cho xe chữa cháy tiếp cận như 6.2.2.1 hoặc có phương án chữa cháy phù hợp khác đối với nhà F5 hạng A, B có tổng diện tích sàn đến 300 m2, và nhà F5 hạng C, D, E có diện tích và chiều cao không vượt giới hạn của nhà bậc chịu lửa V theo Phụ lục H.",
+   "dieu": "6.2",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Khi điều kiện sản xuất không yêu cầu có đường vào thì đường cho xe chữa cháy được phép bố trí phần đường rộng 3,5 m cho xe chạy, nền gia cố chịu tải trọng xe chữa cháy và bảo đảm thoát nước mặt.",
+   "dieu": "6.2",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
- "khong_ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Không quy định khoảng cách từ mép đường đến tường nhà khi không có yêu cầu cứu nạn từ trên cao và lực lượng chữa cháy có phương án khác để tiếp cận chữa cháy.",
+   "dieu": "6.2",
+   "nguon": "kb:tk-phụ-lục-h"
+  }
+ ],
  "yeu_cau": [
   {
    "y": "Chiều rộng thông thủy mặt đường không nhỏ hơn 3,5 m.",
@@ -113,6 +136,21 @@
    "y": "Cứ mỗi đoạn đủ hoặc không đủ 20 m chiều dài bãi đỗ xe chữa cháy phải có 01 vị trí lối vào từ trên cao.",
    "dieu": "",
    "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Khoảng cách từ mép đường đến tường nhà: không lớn hơn 5 m (chiều cao PCCC dưới 12 m); 8 m (12 m đến 28 m); 10 m (trên 28 m).",
+   "dieu": "6.2",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Trường hợp cần thiết, khoảng cách từ mép gần nhà của đường xe chạy đến tường ngoài được tăng đến 60 m với điều kiện có các đường cụt đi vào kèm bãi quay xe chữa cháy và trụ nước chữa cháy.",
+   "dieu": "6.2",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Khi đó, khoảng cách từ nhà đến bãi quay xe chữa cháy không nhỏ hơn 5 m và không lớn hơn 15 m; khoảng cách giữa các đường cụt không vượt quá 100 m.",
+   "dieu": "6.2",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "cach_kiem": [
@@ -130,6 +168,11 @@
    "y": "Xem tổng mặt bằng: bãi đỗ ngang bằng hoặc ghi độ dốc, chiều dài bãi để đếm số lối vào từ trên cao.",
    "dieu": "suy từ yêu cầu của nguồn",
    "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Xem mặt bằng tổng thể: đo từ mép đường đến tường nhà, đối chiếu với chiều cao PCCC; nếu dùng phương án 60 m thì đo khoảng cách bãi quay xe (5 đến 15 m) và khoảng cách giữa các đường cụt (không quá 100 m). Suy từ 6.2.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "hay_nham": [

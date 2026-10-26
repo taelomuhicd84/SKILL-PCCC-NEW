@@ -7,7 +7,8 @@
  "anh_huong": [
   "m01-phan-loai",
   "m05-cong-nang",
-  "chung"
+  "chung",
+  "m06-ngan-chay"
  ],
  "lien_quan": [
   "Khoang cháy",
@@ -16,7 +17,7 @@
   "Nhà hỗn hợp",
   "Bậc chịu lửa"
  ],
- "ngay": "2026-10-26T04:07:26.921Z",
+ "ngay": "2026-10-26T07:04:38.007Z",
  "dinh_nghia": [
   {
    "y": "Nhà, công trình, gian phòng dựa trên tính nguy hiểm cháy theo công năng được phân thành các nhóm F1, F2, F3, F4, F5 theo QCVN 06:/BXD.",
@@ -36,11 +37,38 @@
    "y": "Phụ lục H quy định bậc chịu lửa, cấp S, chiều cao PCCC, diện tích khoang cháy theo nhóm: F1.1 (nhà trẻ, mẫu giáo, mầm non, bệnh viện, nhà ngủ nội trú); F1.3 (nhà ở căn hộ); F2.1, F2.2 (cơ sở văn hóa); F2.3 (công trình thể thao); F3.1 (thương mại); F3.4 (khám đa khoa ngoại trú); F3.5 (dịch vụ); F4.1 (trường phổ thông); F4.3 (hành chính - phụ trợ của sản xuất và kho); F5.1, F5.2, F5.3 (sản xuất, kho, chăn nuôi)",
    "dieu": "H.1–H.5",
    "nguon": "kb:qcvn06-phu-luc-h.md"
+  },
+  {
+   "y": "Các phần nhà và gian phòng thuộc các nhóm nguy hiểm cháy theo công năng khác nhau phải ngăn cách bằng bộ phận ngăn chia có giới hạn chịu lửa và cấp nguy hiểm cháy kết cấu theo quy định, hoặc bằng vách ngăn cháy loại 1 và (hoặc) sàn ngăn cháy loại 3, bộ phận ngăn cháy tối thiểu EI 45 với nhà bậc I đến III, EI 15 với nhà bậc IV, hoặc giải pháp tương đương.",
+   "dieu": "4.5",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Một tầng có từ hai công năng trở lên, trong đó một công năng chính chiếm tối thiểu 90% diện tích sàn tầng và các công năng còn lại là phụ trợ, thì cho phép không cần phân chia khu vực các nhóm công năng bằng bộ phận ngăn cháy (nguồn còn điều kiện kèm theo, văn bản bị cắt).",
+   "dieu": "4.5",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
- "khong_ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Không cho phép bố trí gian phòng nhóm F5 hạng A hoặc B dưới các gian phòng dùng cho hơn 50 người có mặt đồng thời; không bố trí trong tầng hầm, tầng nửa hầm. Không cho phép bố trí gian phòng nhóm F1.1, F1.2, F1.3 trong tầng hầm và tầng nửa hầm.",
+   "dieu": "3.1.6",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Bệnh viện và trường phổ thông chỉ cho phép bố trí công năng khám bệnh không điều trị nội trú, văn phòng, phụ trợ từ tầng bán hầm (hoặc hầm 1 nếu không có tầng bán hầm) trở lên.",
+   "dieu": "3.1.7",
+   "nguon": "kb:tk-phụ-lục-h"
+  }
+ ],
  "yeu_cau": [],
- "cach_kiem": [],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ mặt bằng từng tầng: nhóm công năng từng gian, vị trí so với tầng hầm; kiểm bộ phận ngăn giữa các nhóm khác nhau. Suy từ 3.1.6, 3.1.7, 4.5.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
+  }
+ ],
  "hay_nham": [
   {
    "y": "Nhà ở và ký túc xá kiểu căn hộ tra Bảng H.1; ký túc xá và khách sạn kiểu căn hộ tính như nhà ở dạng căn hộ, không tra Bảng H.2",
@@ -51,6 +79,11 @@
    "y": "Nhóm F (theo công năng) khác hạng A–E (theo nguy hiểm cháy và cháy nổ, chỉ cho công năng sản xuất, kho F5).",
    "dieu": "1.5.2",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhóm F5 (sản xuất, kho) xét theo hạng nguy hiểm cháy nổ A, B, C, D, E; không lẫn với nhóm F1 đến F4 (ở, công cộng).",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ]
 }

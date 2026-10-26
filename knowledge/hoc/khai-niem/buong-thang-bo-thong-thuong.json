@@ -1,0 +1,58 @@
+{
+ "slug": "buong-thang-bo-thong-thuong",
+ "ten": "Buồng thang bộ thông thường",
+ "dong_nghia": [
+  "buồng thang bộ L1, L2"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Buồng thang bộ không nhiễm khói",
+  "Cầu thang bộ loại 1"
+ ],
+ "ngay": "2026-10-26T07:07:11.845Z",
+ "dinh_nghia": [
+  {
+   "y": "Buồng thang bộ thông thường gồm loại L1 và L2, phân biệt theo cách chiếu sáng tự nhiên.",
+   "dieu": "Sơ đồ phân loại cầu thang bộ và buồng thang bộ",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "L1: được chiếu sáng tự nhiên qua các lỗ cửa (để hở hoặc lắp kính) ở tường ngoài trên mỗi tầng.",
+   "dieu": "Sơ đồ phân loại",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "L2: được chiếu sáng tự nhiên qua các lỗ (để hở hoặc lắp kính) ở trên mái.",
+   "dieu": "Sơ đồ phân loại",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Lỗ lấy ánh sáng ở tường ngoài mỗi tầng (loại L1): tối thiểu 1,2 m2 ở mỗi tầng.",
+   "dieu": "Sơ đồ phân loại",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng và mặt cắt buồng thang: đo diện tích lỗ lấy sáng ở tường ngoài mỗi tầng, so với 1,2 m2. Suy từ sơ đồ phân loại.",
+   "dieu": "suy từ sơ đồ phân loại",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Không có biện pháp chống khói như buồng thang bộ không nhiễm khói N1, N2, N3.",
+   "dieu": "",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ]
+}

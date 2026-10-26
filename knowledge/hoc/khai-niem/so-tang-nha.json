@@ -4,7 +4,8 @@
  "dong_nghia": [
   "số tầng cao của công trình",
   "số tầng của nhà",
-  "Số tầng của nhà"
+  "Số tầng của nhà",
+  "số tầng cao"
  ],
  "anh_huong": [
   "m01-phan-loai",
@@ -21,9 +22,11 @@
   "Chiều cao phòng cháy chữa cháy (chiều cao PCCC)",
   "Tầng hầm, tầng nửa hầm",
   "Chiều cao nhà",
-  "Khối tích"
+  "Khối tích",
+  "Sàn lửng",
+  "Tầng lửng không tính vào số tầng"
  ],
- "ngay": "2026-10-26T04:44:36.571Z",
+ "ngay": "2026-10-26T07:06:10.175Z",
  "dinh_nghia": [
   {
    "y": "Gồm toàn bộ các tầng trên mặt đất (kể cả tầng kỹ thuật, tầng tum) và tầng bán/nửa hầm, không gồm tầng áp mái.",
@@ -115,6 +118,11 @@
    "y": "Tầng tum không tính vào số tầng cao của công trình khi diện tích mái tum không vượt quá 30% diện tích sàn mái, có chức năng sử dụng làm tum thang, kỹ thuật (theo Thông tư 06/2021/TT-BXD ngày 30/6/2021 về cấp công trình).",
    "dieu": "Thông tư 06/2021/TT-BXD, nêu trong tài liệu sửa đổi 1:2023",
    "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Tầng tum không tính vào số tầng cao khi diện tích mái tum không vượt quá 30 % diện tích sàn mái, có chức năng làm tum thang, kỹ thuật.",
+   "dieu": "Sửa đổi 1:2023 QCVN 06 (theo TT 06/2021/TT-BXD)",
+   "nguon": "kb:tk-sàn-lửng"
   }
  ],
  "yeu_cau": [],
@@ -155,6 +163,11 @@
    "y": "Số tầng tính cả tầng nửa hầm nhưng Phụ lục H chỉ tính tầng trên mặt đất khi tra bảng; kiểm tra bảng áp dụng thuộc trường hợp nào.",
    "dieu": "",
    "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Tầng đường thoát nạn bắt buộc đi từ dưới lên trên (không đủ khoảng cách thoát nạn tại mặt thoáng của cos bên dưới) thì xét là tầng hầm.",
+   "dieu": "Sửa đổi 1:2023 QCVN 06",
+   "nguon": "kb:tk-sàn-lửng"
   }
  ]
 }

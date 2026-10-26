@@ -1,0 +1,83 @@
+{
+ "slug": "ap-suat-tu-do-toi-thieu-trong-duong-ong-nuoc-chua-chay",
+ "ten": "Áp suất tự do tối thiểu trong đường ống nước chữa cháy",
+ "dong_nghia": [
+  "Áp suất tự do",
+  "áp suất tự do"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Đường ống nước chữa cháy áp suất cao",
+  "Trụ nước chữa cháy ngoài nhà",
+  "Cấp nước chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T07:13:09.706Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Với đường ống áp suất thấp, đo ở vị trí cao độ bằng với mặt đất khi chữa cháy",
+   "dieu": "",
+   "nguon": "kb:tk-trang-bị-cấp-nước-chữa-cháy-ngoài-nhà"
+  },
+  {
+   "y": "Đường ống chữa cháy áp suất thấp: đo ở vị trí cao độ bằng mặt đất, khi chữa cháy.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Mạng ống chữa cháy áp suất cao: phải bảo đảm độ cao tia nước đặc khi lưu lượng yêu cầu chữa cháy tối đa và lăng chữa cháy ở điểm cao nhất của tòa nhà.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Đường ống áp suất thấp: áp suất tự do tối thiểu không nhỏ hơn 10 m cột nước",
+   "dieu": "",
+   "nguon": "kb:tk-trang-bị-cấp-nước-chữa-cháy-ngoài-nhà"
+  },
+  {
+   "y": "Mạng đường ống chữa cháy áp suất cao: phải bảo đảm độ cao tia nước đặc không nhỏ hơn 10 m khi lưu lượng yêu cầu chữa cháy tối đa và lăng chữa cháy ở điểm cao nhất của tòa nhà",
+   "dieu": "",
+   "nguon": "kb:tk-trang-bị-cấp-nước-chữa-cháy-ngoài-nhà"
+  },
+  {
+   "y": "Mạng đường ống kết hợp sinh hoạt hoặc sản xuất: áp suất tự do không nhỏ hơn 10 m cột nước và không lớn hơn 60 m cột nước",
+   "dieu": "",
+   "nguon": "kb:tk-trang-bị-cấp-nước-chữa-cháy-ngoài-nhà"
+  },
+  {
+   "y": "Áp suất thấp: không nhỏ hơn 10 m cột nước.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Áp suất cao: độ cao tia nước đặc không nhỏ hơn 10 m.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Mạng kết hợp sinh hoạt hoặc sản xuất: không nhỏ hơn 10 m và không lớn hơn 60 m cột nước.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Đường ống áp suất cao: máy bơm chữa cháy hoạt động không trễ hơn 5 phút sau tín hiệu báo cháy.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem thuyết minh/bản tính thủy lực: áp suất tại điểm bất lợi so với 10 m cột nước; mạng kết hợp so thêm trần 60 m. Suy từ yêu cầu của nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
+ "hay_nham": []
+}

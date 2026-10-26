@@ -1,0 +1,38 @@
+{
+ "slug": "van-ban-vien-dan-qcvn-10-2025-bca",
+ "ten": "Văn bản viện dẫn (QCVN 10:2025/BCA)",
+ "dong_nghia": [
+  "tài liệu viện dẫn"
+ ],
+ "anh_huong": [
+  "chung",
+  "ra-soat"
+ ],
+ "lien_quan": [],
+ "ngay": "2026-10-26T07:09:38.601Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Văn bản viện dẫn có ghi năm thì áp dụng bản được nêu. Không ghi năm thì áp dụng bản mới nhất, kể cả sửa đổi, bổ sung.",
+   "dieu": "Mục 1.3",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Danh mục gồm NĐ 105/2025, TT 36/2025/TT-BCA, QCVN 06, TCVN 6100, 6101, 6379, 7026, 7027, 7161, 7336, 7435-1, 7568-14, 7568-25, 9255, 12110, 12314, 13316, 13332, 13333.",
+   "dieu": "Mục 1.3 (tr. 6–7)",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Khi trích tiêu chuẩn, xem có ghi năm không để chọn đúng bản. Suy từ mục 1.3.",
+   "dieu": "",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "hay_nham": []
+}

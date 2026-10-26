@@ -1,0 +1,44 @@
+{
+ "slug": "co-quan-chap-thuan-phuong-tien-pccc-cnch-theo-qcvn-10-2025-bca",
+ "ten": "Cơ quan chấp thuận phương tiện PCCC, CNCH theo QCVN 10:2025/BCA",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m10-binh-chua-chay",
+  "m15-cnch",
+  "chung"
+ ],
+ "lien_quan": [
+  "Công trình thuộc diện thẩm định thiết kế về PCCC"
+ ],
+ "ngay": "2026-10-26T07:09:38.601Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Công trình quy định tại khoản 1 Điều 9 Thông tư 36/2025/TT-BCA và NĐ 105/2025/NĐ-CP: do Cục Cảnh sát PCCC và CNCH chấp thuận (phần luận chứng được chấp thuận; đoạn đầu câu bị cắt trong nguồn).",
+   "dieu": "Khoản 1 Điều 9 TT 36/2025/TT-BCA",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Công trình quy định tại khoản 2 Điều 9 TT 36/2025/TT-BCA, không thuộc diện thẩm định thiết kế về PCCC nhưng thuộc đối tượng phải trang bị phương tiện PCCC, CNCH: do Phòng Cảnh sát PCCC và CNCH Công an cấp tỉnh chấp thuận.",
+   "dieu": "Khoản 2 Điều 9 TT 36/2025/TT-BCA",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xác định công trình thuộc khoản 1 hay khoản 2 Điều 9 TT 36/2025 để biết cơ quan chấp thuận. Suy từ nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Công trình không thuộc diện thẩm định thiết kế vẫn có thể phải trang bị phương tiện PCCC, CNCH, khi đó cơ quan chấp thuận là Phòng Cảnh sát PCCC và CNCH cấp tỉnh, không phải Cục.",
+   "dieu": "Khoản 2 Điều 9 TT 36/2025/TT-BCA",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ]
+}

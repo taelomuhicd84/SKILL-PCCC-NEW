@@ -26,9 +26,11 @@
   "Vùng phát hiện cháy",
   "Sàn ngăn cháy",
   "Khoang cháy",
-  "Quy mô khối tích"
+  "Quy mô khối tích",
+  "Bậc chịu lửa của nhà, công trình, khoang cháy",
+  "Sảnh thông tầng"
  ],
- "ngay": "2026-10-26T04:52:13.508Z",
+ "ngay": "2026-10-26T07:04:38.007Z",
  "dinh_nghia": [
   {
    "y": "Diện tích khoang cháy là diện tích lớn nhất của một tầng trong phạm vi một khoang cháy. Diện tích một tầng trong phạm vi một khoang cháy là diện tích tầng được giới hạn bởi các tường bao của nhà và (hoặc) các tường ngăn cháy loại 1",
@@ -44,6 +46,11 @@
    "y": "Một phần của khoang cháy được ngăn bởi các bộ phận ngăn cháy và (hoặc) khu vực không có tải trọng cháy.",
    "dieu": "Thuật ngữ",
    "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Khoang cháy, nhà và các công trình xây dựng sau đây gọi chung là nhà (quy ước dùng trong quy chuẩn).",
+   "dieu": "1.1.1",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "cach_xac_dinh": [
@@ -87,6 +94,11 @@
    "y": "Các khoang cháy được ngăn chia bởi các tường ngăn cháy loại 1 và (hoặc) sàn ngăn cháy loại 1.",
    "dieu": "2.5.3",
    "nguon": "kb:tk-hệ-số-t"
+  },
+  {
+   "y": "Khoang cháy được ngăn cách với nhau bằng tường ngăn cháy và sàn ngăn cháy hoặc bằng các tầng kỹ thuật. Tầng kỹ thuật ngăn cách bằng sàn ngăn cháy có giới hạn chịu lửa không nhỏ hơn REI 90.",
+   "dieu": "A.2.2",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "ap_dung": [
@@ -154,6 +166,21 @@
    "y": "Cho phép phân chia khoang cháy trong nhà có bậc chịu lửa IV và V bằng tường ngăn cháy loại 2.",
    "dieu": "2.5.3",
    "nguon": "kb:tk-hệ-số-t"
+  },
+  {
+   "y": "Phần nhà có công năng xác định (và công năng phụ trợ) được ngăn cách thành một khoang cháy riêng thì các yêu cầu của Phụ lục H áp dụng cho phần nhà (khoang cháy) đó. Công năng độc lập khác được bố trí ở phần nhà phía trên khoang này khi thỏa điều kiện Phụ lục H đối với công năng đó.",
+   "dieu": "H.7.1",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Số tầng, chiều cao hoặc diện tích không được quy định cụ thể hoặc bị giới hạn trong Phụ lục H thì có thể áp dụng NFPA 5000 hoặc tài liệu chuẩn khác, hoặc theo luận chứng kỹ thuật (phải gồm điều kiện thoát nạn cho người).",
+   "dieu": "H.7.2",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Cho phép phân chia khoang cháy nhà bậc IV và V bằng tường ngăn cháy loại 2.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "khong_ap_dung": [],
@@ -202,6 +229,21 @@
    "y": "Tầng hầm có gian phòng hạng C1, C2, C3 phải chia thành các phân khoang cháy diện tích không quá 3 000 m² bằng vách ngăn cháy loại 1.",
    "dieu": "Bố trí công năng tại tầng hầm",
    "nguon": "9c1acce62841"
+  },
+  {
+   "y": "Nhà phải chia khoang cháy theo chiều cao, mỗi khoang cao không lớn hơn 50 m (nhà thuộc Phụ lục A.2).",
+   "dieu": "A.2.2",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Tầng hầm có gian phòng hạng C1, C2, C3 chia thành các phân khoang cháy diện tích không quá 3 000 m2 mỗi phân khoang bằng vách ngăn cháy loại 1; bảo vệ chống khói theo Phụ lục D; sàn tầng phía trên tối thiểu là sàn ngăn cháy loại 3.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Khoang cháy ngăn bằng tường ngăn cháy loại 1 và (hoặc) sàn ngăn cháy loại 1; cho phép ngăn theo phương đứng bằng tầng kỹ thuật được ngăn với tầng liền kề bằng sàn ngăn cháy loại 2, nếu các tường ngăn cháy loại 1 không lệch khỏi trục chính.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "cach_kiem": [
@@ -219,6 +261,11 @@
    "y": "Xem bản vẽ mặt bằng, mặt cắt: loại tường, sàn ngăn cháy tại ranh giới khoang cháy; với tầng kỹ thuật thì xem tường loại 1 có lệch trục chính không (suy từ nguồn)",
    "dieu": "",
    "nguon": "kb:tk-hệ-số-tiết-diện-am-v"
+  },
+  {
+   "y": "Kiểm diện tích một tầng trong khoang cháy so với Bảng H.9 (nhà sản xuất) và các bảng tương ứng của Phụ lục H; kiểm chiều cao mỗi khoang theo A.2.2.",
+   "dieu": "suy từ Phụ lục H, A.2.2",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "hay_nham": [

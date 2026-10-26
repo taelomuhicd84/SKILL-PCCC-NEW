@@ -1,0 +1,44 @@
+{
+ "slug": "nha-o-rieng-le-ket-hop-san-xuat-kinh-doanh-hang-hoa-de-chay",
+ "ten": "Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ"
+ ],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà ở riêng lẻ có phần diện tích để sản xuất, kinh doanh dưới 30 % tổng diện tích sàn của nhà",
+   "dieu": "Bảng A.1 mục 2, chú thích (2)",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Báo cháy tự động: cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên (cho phép thiết bị báo cháy độc lập khi cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 500 m²)",
+   "dieu": "Bảng A.1 mục 2",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Chữa cháy tự động: chiều cao PCCC từ 30 m trở lên",
+   "dieu": "Bảng A.1 mục 2",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem số tầng, tổng diện tích sàn, chiều cao PCCC",
+   "dieu": "suy từ Bảng A.1 mục 2",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "hay_nham": []
+}

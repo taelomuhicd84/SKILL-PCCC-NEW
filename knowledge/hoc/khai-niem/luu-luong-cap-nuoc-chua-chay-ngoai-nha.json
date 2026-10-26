@@ -14,9 +14,11 @@
   "Dung tích bể nước chữa cháy",
   "Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà",
   "Quy mô khối tích",
-  "Lỗ mở trên mái"
+  "Lỗ mở trên mái",
+  "Cấp nước chữa cháy ngoài nhà",
+  "Đường ống phân phối"
  ],
- "ngay": "2026-10-26T04:52:13.508Z",
+ "ngay": "2026-10-26T07:12:23.316Z",
  "dinh_nghia": [],
  "cach_xac_dinh": [
   {
@@ -48,6 +50,16 @@
    "y": "Nhà ngăn cách bằng vách ngăn cháy thì xác định theo khối tích chung và hạng nguy hiểm cháy, cháy nổ cao nhất.",
    "dieu": "5.1.2.5",
    "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Lưu lượng nước cho chữa cháy ngoài nhà (tính cho 1 đám cháy) và số đám cháy đồng thời trong một khu dân cư, tính cho mạng đường ống chính nối vòng, lấy theo Bảng 7",
+   "dieu": "Bảng 7",
+   "nguon": "kb:tk-trang-bị-cấp-nước-chữa-cháy-ngoài-nhà"
+  },
+  {
+   "y": "Lưu lượng cho nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4 tính cho đường ống kết hợp và đường ống phân phối của mạng đường ống",
+   "dieu": "",
+   "nguon": "kb:tk-trang-bị-cấp-nước-chữa-cháy-ngoài-nhà"
   }
  ],
  "ap_dung": [
@@ -135,6 +147,11 @@
    "y": "Xác định nhóm nhà, số tầng, khối tích, bậc chịu lửa, hạng nguy hiểm; tra bảng tương ứng và so với lưu lượng ghi trong thuyết minh, bản vẽ cấp nước chữa cháy ngoài nhà. Suy từ Bảng 8–10.",
    "dieu": "Bảng 8–10",
    "nguon": "kb:tk-khối-tích"
+  },
+  {
+   "y": "Với công trình cụ thể, căn cứ Bảng 8, 9, 10 để xác định lưu lượng ngoài nhà",
+   "dieu": "suy từ lưu ý Sửa đổi 1:2023",
+   "nguon": "kb:tk-trang-bị-cấp-nước-chữa-cháy-ngoài-nhà"
   }
  ],
  "hay_nham": [

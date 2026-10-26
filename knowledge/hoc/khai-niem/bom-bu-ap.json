@@ -12,9 +12,10 @@
   "Máy bơm nước chữa cháy dự phòng",
   "Tủ điều khiển máy bơm nước chữa cháy",
   "Máy bơm dự phòng",
-  "Tủ điều khiển bơm nước chữa cháy"
+  "Tủ điều khiển bơm nước chữa cháy",
+  "Máy nén (bù) khí"
  ],
- "ngay": "2026-10-26T04:27:46.534Z",
+ "ngay": "2026-10-26T07:13:33.965Z",
  "dinh_nghia": [
   {
    "y": "Bơm được thiết kế để duy trì áp lực trên hệ thống chữa cháy giữa các giới hạn định sẵn khi hệ thống không lưu thông nước.",
@@ -83,6 +84,11 @@
    "y": "Nhãn trên vỏ bơm: loại bơm, mã bơm, số sê-ri, áp lực tối đa, lưu lượng, nhà sản xuất, nơi sản xuất, năm sản xuất.",
    "dieu": "2.3.10",
    "nguon": "b6694167594c"
+  },
+  {
+   "y": "Dùng đúng tên 'bơm bù áp'; trạm bơm áp dụng QCVN 02:2020/BCA (chưa xác minh còn hiệu lực 2026)",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
   }
  ],
  "cach_kiem": [
@@ -102,6 +108,11 @@
    "y": "Bơm bù áp chỉ duy trì áp lực khi hệ thống không lưu thông nước; không thay cho bơm chữa cháy chính hoặc bơm dự phòng.",
    "dieu": "1.4.3, 2.3.5",
    "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Không gọi là 'bơm duy trì'",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
   }
  ]
 }

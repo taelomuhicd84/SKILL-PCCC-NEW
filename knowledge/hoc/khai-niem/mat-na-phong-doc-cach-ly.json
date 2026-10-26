@@ -9,8 +9,14 @@
  "lien_quan": [
   "Mặt nạ lọc độc"
  ],
- "ngay": "2026-10-26T04:06:22.541Z",
- "dinh_nghia": [],
+ "ngay": "2026-10-26T07:10:51.055Z",
+ "dinh_nghia": [
+  {
+   "y": "Thiết bị bảo hộ cá nhân bảo vệ cơ quan hô hấp chống sự xâm nhập của không khí bên ngoài; gồm mặt trùm toàn bộ khuôn mặt và bình khí thở.",
+   "dieu": "QCVN 10:2025/BCA, 1.4.13",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  }
+ ],
  "cach_xac_dinh": [],
  "ap_dung": [
   {
@@ -39,6 +45,11 @@
    "y": "Khác mặt nạ lọc độc ở đối tượng áp dụng, số lượng (tối thiểu 03 bộ, không tính theo đầu người) và vị trí đặt.",
    "dieu": "2.7.2, Bảng F.1",
    "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Khác mặt nạ lọc độc.",
+   "dieu": "1.4.12, 1.4.13",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ]
 }

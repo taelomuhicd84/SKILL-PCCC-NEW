@@ -28,9 +28,10 @@
   "Hệ thống Sprinkler",
   "Hệ thống Drencher",
   "Kích hoạt từ xa",
-  "Kích hoạt cục bộ"
+  "Kích hoạt cục bộ",
+  "Chiều cao PCCC"
  ],
- "ngay": "2026-10-26T04:17:45.822Z",
+ "ngay": "2026-10-26T07:11:18.380Z",
  "dinh_nghia": [
   {
    "y": "Hệ thống tự động kích hoạt xả chất chữa cháy khi các yếu tố của đám cháy đạt đến giá trị thiết lập trong khu vực bảo vệ, có chức năng giám sát xả và dừng xả/dừng kích hoạt xả (ví dụ: bằng nước, gốc nước; bọt; khí, sol-khí; bột).",
@@ -105,6 +106,11 @@
    "y": "Khi trong nhà có các phòng riêng biệt mà theo quy định chỉ cần hệ thống báo cháy, có thể thay bằng hệ thống chữa cháy tự động. Khi đó cường độ phun phải đảm bảo theo tiêu chuẩn nhưng không quy định lưu lượng và thời gian chữa cháy.",
    "dieu": "4.3",
    "nguon": "a478d8c7c431"
+  },
+  {
+   "y": "Trang bị theo Phụ lục A: Bảng A.1 cho toàn nhà (ví dụ nhà ở riêng lẻ kết hợp kinh doanh, sản xuất: chiều cao PCCC từ 30 m trở lên; chung cư, nhà ở tập thể, ký túc xá thuộc cơ sở giáo dục: chiều cao PCCC từ 30 m trở lên).",
+   "dieu": "Phụ lục A, Bảng A.1",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "khong_ap_dung": [
@@ -191,6 +197,11 @@
    "y": "Đối chiếu loại chất chữa cháy trong bản vẽ với loại đám cháy của khu vực theo Bảng 2; suy từ 1.5.4, 1.5.5.",
    "dieu": "suy từ 1.5.5",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Đối chiếu loại nhà và chiều cao PCCC với Bảng A.1, rồi Bảng A.2, A.3, A.4.",
+   "dieu": "suy từ 1.5.9, Phụ lục A",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "hay_nham": [
@@ -203,6 +214,11 @@
    "y": "Khác thiết bị chữa cháy tự động kích hoạt (bình chứa khí, bột, sol-khí tự xả khi cảm biến nhiệt đạt ngưỡng, không có hệ thống giám sát xả).",
    "dieu": "1.4.4; 1.4.5",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Khác thiết bị chữa cháy tự động kích hoạt (xả theo ngưỡng nhiệt của cảm biến, không có chức năng giám sát xả/dừng xả theo định nghĩa).",
+   "dieu": "1.4.4, 1.4.5",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ]
 }

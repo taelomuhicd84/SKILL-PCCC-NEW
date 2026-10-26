@@ -1,0 +1,32 @@
+{
+ "slug": "dau-trong-phu-luc-a",
+ "ten": "Dấu \"-\" trong Phụ lục A",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Thứ tự xét Phụ lục A QCVN 10:2025/BCA"
+ ],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [
+  {
+   "y": "Dấu \"-\" trong các bảng tại Phụ lục A được hiểu là không bắt buộc phải trang bị hệ thống báo cháy tự động/chữa cháy tự động",
+   "dieu": "CHÚ THÍCH chung Phụ lục A",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Không có nghĩa là cấm trang bị, chỉ là không bắt buộc",
+   "dieu": "suy từ chú thích chung Phụ lục A",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "slug": "doi-nguyen-ly-chua-chay-chat-chua-chay",
+ "ten": "Đổi nguyên lý chữa cháy, chất chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "chung"
+ ],
+ "lien_quan": [
+  "Thay thế hệ thống",
+  "Đổi thông số máy bơm chữa cháy"
+ ],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Từ chữa cháy theo diện tích sang thể tích; chữa cháy cục bộ theo điểm sang chữa cháy theo diện tích và ngược lại",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Đổi chất chữa cháy nước sang khí, bọt, bột và ngược lại",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Đổi giữa các loại khí khác nhau (Nitơ, CO2, Novec 1230 (FK-5-1-12), HFC-227ea (FM200), IG-55, IG-541, sol-khí)",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

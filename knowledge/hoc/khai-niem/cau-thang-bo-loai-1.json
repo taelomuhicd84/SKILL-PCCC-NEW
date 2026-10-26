@@ -1,0 +1,42 @@
+{
+ "slug": "cau-thang-bo-loai-1",
+ "ten": "Cầu thang bộ loại 1",
+ "dong_nghia": [
+  "cầu thang kín, trong nhà"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Cầu thang bộ loại 2",
+  "Cầu thang bộ loại 3",
+  "Buồng thang bộ thông thường"
+ ],
+ "ngay": "2026-10-26T07:07:11.845Z",
+ "dinh_nghia": [
+  {
+   "y": "Cầu thang bộ loại 1 (cầu thang kín, trong nhà): cầu thang bên trong nhà, được bao bọc kín bởi kết cấu buồng thang và cửa ra vào có khả năng chịu lửa (ngăn cháy). Tường phía ngoài có thể có lỗ mở.",
+   "dieu": "Chú giải hình các dạng cầu thang bộ và buồng thang bộ thông thường, mục 1",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Cầu thang bên trong nhà, được đặt trong buồng thang.",
+   "dieu": "Sơ đồ phân loại",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác loại 2 (bên trong nhà, để hở) và loại 3 (bên ngoài nhà, để hở).",
+   "dieu": "Sơ đồ phân loại",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ]
+}

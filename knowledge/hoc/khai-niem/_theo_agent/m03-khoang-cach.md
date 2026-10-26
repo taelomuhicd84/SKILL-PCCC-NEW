@@ -1,12 +1,30 @@
 # Khái niệm thẩm định – Mục 3 – Khoảng cách an toàn PCCC (agent tự học rút từ văn bản, chỉ gồm mục từ nguồn đã duyệt)
-8 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
+9 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
 
 ### Bậc chịu lửa
 **Cách xác định (nhận biết, đo trên bản vẽ):**
 - Phân loại kỹ thuật về cháy (bậc chịu lửa, giải pháp ngăn cháy…) của nhà và công trình xác định theo QCVN 06:/BXD. (1.5.2)
+- Bậc chịu lửa được thiết lập phụ thuộc vào số tầng (hoặc chiều cao PCCC của nhà), nhóm nguy hiểm cháy theo công năng, diện tích khoang cháy (xem Phụ lục H) và tính nguy hiểm cháy của các quá trình công nghệ diễn ra trong nhà, công trình, khoang cháy. (2.5.3.2)
+- Nhà, công trình, khoang cháy được phân thành 5 bậc chịu lửa I, II, III, IV, V. (2.5.3.1)
 **Khi nào áp dụng / được phép:**
 - Nhà bậc I, II, III: gian phòng phân chia bởi tường/sàn ngăn cháy thấp hơn REI 45 hoặc vách thấp hơn EI 45 (hoặc không phân chia) thì trang bị báo cháy/chữa cháy tự động theo gian phòng Bảng A.3. Nhà bậc IV, V: ngưỡng REI 15, EI 15. (1.5.10)
-**Liên quan:** Nhóm nguy hiểm cháy theo công năng, Hệ số tiết diện Am/V, Khoảng cách phòng cháy chống cháy giữa các nhà, Hạng nguy hiểm cháy
+- Giới hạn chịu lửa cần thiết của kết cấu xây dựng phải chọn phù hợp với bậc chịu lửa đã chọn; sự phù hợp lấy theo Bảng 4, trừ trường hợp quy chuẩn quy định riêng. (2.5.3.3)
+- Không xác định được bậc chịu lửa và cấp nguy hiểm cháy kết cấu của nhà thì cho phép lấy bậc V và cấp S3 để xác định các yêu cầu an toàn cháy khác (khoảng cách PCCC...). (Phụ lục H)
+**Yêu cầu kỹ thuật, trị số:**
+- Bảng 4, giới hạn chịu lửa tối thiểu. Tường chịu lực, cột chịu lực: bậc I R120, II R90, III R45, IV R15, V không quy định. (Bảng 4)
+- Bảng 4, sàn tầng (kể cả sàn tầng áp mái, sàn trên tầng hầm): I REI60, II REI45, III REI45, IV REI15. (Bảng 4)
+- Bảng 4, tường trong buồng thang bộ: I REI120, II REI90, III REI60, IV REI45. Bản thang và chiếu thang: I R60, II R60, III R45, IV R15. (Bảng 4)
+- Nhà bậc I, II, III: sàn và trần của tầng hầm, tầng nửa hầm phải bằng vật liệu không cháy, giới hạn chịu lửa ít nhất REI 90. Sàn tầng 1 và tầng trên cùng làm bằng vật liệu có tính cháy không thấp hơn Ch1. (Bảng 4, chú thích 1)
+**Cách kiểm trên hồ sơ:**
+- Đối chiếu bậc chịu lửa ghi trong hồ sơ với số tầng/chiều cao PCCC, nhóm công năng, diện tích khoang cháy trong Phụ lục H; sau đó đối chiếu giới hạn chịu lửa từng cấu kiện với Bảng 4. Suy từ 2.5.3.2, 2.5.3.3.
+**Liên quan:** Nhóm nguy hiểm cháy theo công năng, Hệ số tiết diện Am/V, Khoảng cách phòng cháy chống cháy giữa các nhà, Hạng nguy hiểm cháy, Khoang cháy, Chiều cao PCCC, Nhóm nhà F, Cấp nguy hiểm cháy kết cấu
+
+### Diện tích xây dựng
+**Định nghĩa:**
+- Xác định theo chu vi ngoài của nhà ở cao độ chân tường, gồm cả các phần nhô ra, đường đi qua dưới nhà, các phần nhà không có kết cấu ngăn che bên ngoài. (QCVN 06:2022/BXD, Quy định chung)
+**Dễ nhầm với:**
+- Khác diện tích một tầng trong khoang cháy (tính theo chu vi bên trong tường bao).
+**Liên quan:** Khối tích xây dựng, Tổng diện tích của nhà
 
 ### Gara ô-tô bố trí liền kề
 **Định nghĩa:**
@@ -71,12 +89,15 @@
 **Liên quan:** Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy, Bố trí công năng, Giao thông cho xe chữa cháy
 
 ### Nội dung thẩm định của cơ quan chuyên môn về xây dựng
+**Định nghĩa:**
+- Gồm (phần nguồn có): (c) lối thoát nạn, đường thoát nạn, thang bộ thoát nạn, thang máy chữa cháy, lối ra khẩn cấp, lối ra mái, gian lánh nạn; (d) bậc chịu lửa, phân chia khoang cháy, bố trí mặt bằng, công năng, hạng nguy hiểm cháy nổ, các bộ phận, cấu kiện, hệ thống kỹ thuật; (đ) giải pháp chống khói: thoát khói cho nhà, gian phòng; cấp không khí bảo vệ chống khói cho giếng thang máy, buồng thang bộ, khoang đệm. (mục (c)–(đ); các điểm a, b không có trong đoạn trích)
 **Khi nào áp dụng / được phép:**
 - (a) khoảng cách PCCC giữa các công trình, tới công trình tiếp giáp, ranh giới đất; (b) đường, bãi đỗ, vị trí, lối vào tiếp cận chữa cháy, cứu nạn; (c) lối thoát nạn, đường thoát nạn, thang bộ thoát nạn, thang máy chữa cháy, lối ra khẩn cấp, lối ra mái, gian lánh nạn; (d) bậc chịu lửa, phân chia khoang cháy, bố trí mặt bằng, công năng, hạng nguy hiểm cháy nổ, các bộ phận, cấu kiện, hệ thống kỹ thuật; (đ) giải pháp chống khói: thoát khói cho nhà, gian phòng; cấp không khí bảo vệ chống khói cho giếng thang máy, buồng thang bộ, khoang đệm. (Điều 6 khoản 2 NĐ 105/2025)
 - Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo. (Điều 6 khoản 2 điểm e)
 **Dễ nhầm với:**
 - Các nội dung hệ thống/trang bị PCCC thuộc cơ quan Công an (Điều 9 khoản 2), không thuộc nhóm này. (Điều 9 khoản 2)
-**Liên quan:** nội dung thẩm định của cơ quan Công an, thẩm định thiết kế về PCCC (ba nơi thẩm định)
+- Không lẫn với nội dung thẩm định của cơ quan Công an (hệ thống, thiết bị PCCC, điện phục vụ PCCC).
+**Liên quan:** nội dung thẩm định của cơ quan Công an, thẩm định thiết kế về PCCC (ba nơi thẩm định), Nội dung thẩm định của cơ quan Công an, Thẩm định điều chỉnh
 
 ### Vị trí đặt trạm bơm nước chữa cháy
 **Cách xác định (nhận biết, đo trên bản vẽ):**

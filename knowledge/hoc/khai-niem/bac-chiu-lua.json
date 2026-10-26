@@ -6,21 +6,36 @@
   "m02-bac-chiu-lua",
   "chung",
   "m03-khoang-cach",
-  "m09-chong-khoi"
+  "m09-chong-khoi",
+  "m01-phan-loai"
  ],
  "lien_quan": [
   "Nhóm nguy hiểm cháy theo công năng",
   "Hệ số tiết diện Am/V",
   "Khoảng cách phòng cháy chống cháy giữa các nhà",
-  "Hạng nguy hiểm cháy"
+  "Hạng nguy hiểm cháy",
+  "Khoang cháy",
+  "Chiều cao PCCC",
+  "Nhóm nhà F",
+  "Cấp nguy hiểm cháy kết cấu"
  ],
- "ngay": "2026-10-26T04:40:34.533Z",
+ "ngay": "2026-10-26T07:04:38.007Z",
  "dinh_nghia": [],
  "cach_xac_dinh": [
   {
    "y": "Phân loại kỹ thuật về cháy (bậc chịu lửa, giải pháp ngăn cháy…) của nhà và công trình xác định theo QCVN 06:/BXD.",
    "dieu": "1.5.2",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Bậc chịu lửa được thiết lập phụ thuộc vào số tầng (hoặc chiều cao PCCC của nhà), nhóm nguy hiểm cháy theo công năng, diện tích khoang cháy (xem Phụ lục H) và tính nguy hiểm cháy của các quá trình công nghệ diễn ra trong nhà, công trình, khoang cháy.",
+   "dieu": "2.5.3.2",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Nhà, công trình, khoang cháy được phân thành 5 bậc chịu lửa I, II, III, IV, V.",
+   "dieu": "2.5.3.1",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "ap_dung": [
@@ -28,10 +43,47 @@
    "y": "Nhà bậc I, II, III: gian phòng phân chia bởi tường/sàn ngăn cháy thấp hơn REI 45 hoặc vách thấp hơn EI 45 (hoặc không phân chia) thì trang bị báo cháy/chữa cháy tự động theo gian phòng Bảng A.3. Nhà bậc IV, V: ngưỡng REI 15, EI 15.",
    "dieu": "1.5.10",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Giới hạn chịu lửa cần thiết của kết cấu xây dựng phải chọn phù hợp với bậc chịu lửa đã chọn; sự phù hợp lấy theo Bảng 4, trừ trường hợp quy chuẩn quy định riêng.",
+   "dieu": "2.5.3.3",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Không xác định được bậc chịu lửa và cấp nguy hiểm cháy kết cấu của nhà thì cho phép lấy bậc V và cấp S3 để xác định các yêu cầu an toàn cháy khác (khoảng cách PCCC...).",
+   "dieu": "Phụ lục H",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "khong_ap_dung": [],
- "yeu_cau": [],
- "cach_kiem": [],
+ "yeu_cau": [
+  {
+   "y": "Bảng 4, giới hạn chịu lửa tối thiểu. Tường chịu lực, cột chịu lực: bậc I R120, II R90, III R45, IV R15, V không quy định.",
+   "dieu": "Bảng 4",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Bảng 4, sàn tầng (kể cả sàn tầng áp mái, sàn trên tầng hầm): I REI60, II REI45, III REI45, IV REI15.",
+   "dieu": "Bảng 4",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Bảng 4, tường trong buồng thang bộ: I REI120, II REI90, III REI60, IV REI45. Bản thang và chiếu thang: I R60, II R60, III R45, IV R15.",
+   "dieu": "Bảng 4",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Nhà bậc I, II, III: sàn và trần của tầng hầm, tầng nửa hầm phải bằng vật liệu không cháy, giới hạn chịu lửa ít nhất REI 90. Sàn tầng 1 và tầng trên cùng làm bằng vật liệu có tính cháy không thấp hơn Ch1.",
+   "dieu": "Bảng 4, chú thích 1",
+   "nguon": "kb:tk-phụ-lục-h"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đối chiếu bậc chịu lửa ghi trong hồ sơ với số tầng/chiều cao PCCC, nhóm công năng, diện tích khoang cháy trong Phụ lục H; sau đó đối chiếu giới hạn chịu lửa từng cấu kiện với Bảng 4. Suy từ 2.5.3.2, 2.5.3.3.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
+  }
+ ],
  "hay_nham": []
 }

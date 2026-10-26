@@ -1,0 +1,42 @@
+{
+ "slug": "nghiem-thu-ve-pccc",
+ "ten": "Nghiệm thu về PCCC",
+ "dong_nghia": [
+  "Nội dung được nghiệm thu về PCCC"
+ ],
+ "anh_huong": [
+  "doc-ho-so",
+  "chung",
+  "ra-soat"
+ ],
+ "lien_quan": [
+  "Tự thẩm định điều chỉnh",
+  "Thẩm định điều chỉnh"
+ ],
+ "ngay": "2026-10-26T07:08:59.377Z",
+ "dinh_nghia": [
+  {
+   "y": "Chủ đầu tư tự tổ chức nghiệm thu về PCCC, chịu trách nhiệm về kết quả.",
+   "dieu": "Điều 16 NĐ 347/2026 (sửa Điều 12 NĐ 105/2025)",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Khai báo trên hệ thống Cơ sở dữ liệu về PCCC, CNCH và truyền tin báo cháy trước khi đưa công trình vào hoạt động.",
+   "dieu": "Điều 16 NĐ 347/2026",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Phạt 30–50 triệu đồng khi đưa vào sử dụng công trình đã thẩm định mà chưa nghiệm thu về PCCC; phạt 40–50 triệu đồng khi đưa vào sử dụng công trình thuộc diện phải thẩm định mà chưa có văn bản thẩm định.",
+   "dieu": "Điều 32 NĐ 347/2026 (sửa NĐ 106/2025)",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "cach_kiem": [],
+ "hay_nham": []
+}

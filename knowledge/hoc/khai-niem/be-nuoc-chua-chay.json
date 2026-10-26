@@ -16,19 +16,39 @@
   "Thời gian chữa cháy",
   "Thời gian phục hồi nước dự trữ chữa cháy",
   "Cấp nước chữa cháy ngoài nhà",
-  "Nguồn điện chữa cháy"
+  "Nguồn điện chữa cháy",
+  "Số đám cháy tính toán đồng thời",
+  "Lượng nước dự trữ chữa cháy",
+  "Bán kính phục vụ của nguồn nước chữa cháy ngoài nhà"
  ],
- "ngay": "2026-10-26T04:40:34.533Z",
+ "ngay": "2026-10-26T07:13:09.706Z",
  "dinh_nghia": [],
- "cach_xac_dinh": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Lượng nước của bồn, bể, hồ nhân tạo xác định theo lượng nước tiêu thụ và thời gian chữa cháy tại 5.1.2.2–5.1.2.6 và 5.1.3.3.",
+   "dieu": "5.1.5.8",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
  "ap_dung": [
   {
    "y": "Khi bể nước chữa cháy dùng chung với bể nước phục vụ sinh hoạt trong tòa nhà.",
    "dieu": "2.1.11",
    "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Được trữ nước chữa cháy trong bồn, bể chuyên dụng hoặc hồ hở cho: khu dân cư đến 5 000 người; tòa nhà đứng riêng không có đường ống nước sinh hoạt/sản xuất; nhà công năng khác nhau có lưu lượng ngoài nhà không quá 10 L/s; nhà 1–2 tầng có diện tích xây dựng không lớn hơn diện tích khoang cháy cho phép.",
+   "dieu": "5.1.5.7",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
- "khong_ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Yêu cầu số bồn, bể trong một mạng ống không nhỏ hơn 2 không áp dụng cho bồn, bể cấp nước ngoài nhà của công trình độc lập.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
  "yeu_cau": [
   {
    "y": "Đường ống hút của hệ thống nước sinh hoạt phải kết nối trên mức nước yêu cầu cho nhu cầu phòng cháy.",
@@ -44,6 +64,21 @@
    "y": "Khi chạy thử bơm xả ngược vào bể, vòi hoặc ống xả đặt ở vị trí cách xa ống hút của bơm để tránh bơm bị nhiễm khí.",
    "dieu": "2.6.6.2",
    "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Khi ngắt một bồn, bể, lượng nước trữ ở các bồn, bể còn lại không nhỏ hơn 50% lượng nước yêu cầu chữa cháy.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Hồ nhân tạo hở: tính đến bốc hơi và đóng băng; mực nước tối thiểu không nhỏ hơn 0,5 m.",
+   "dieu": "5.1.5.8 (chú thích 1)",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Hệ thống cấp nước chữa cháy ngoài nhà của cơ sở không bị ngừng cấp nước quá 10 phút và không giảm lưu lượng quá 30% lưu lượng tính toán trong 3 ngày.",
+   "dieu": "5.1.2.7",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
  "cach_kiem": [
@@ -51,6 +86,11 @@
    "y": "Xem cao trình đầu ống hút sinh hoạt so với mức nước dành cho chữa cháy trên mặt cắt bể; suy từ 2.1.11.",
    "dieu": "",
    "nguon": "08bf60f5653f"
+  },
+  {
+   "y": "Xem bản tính thể tích bể và sơ đồ nguyên lý: số bể, thể tích còn lại khi ngắt một bể ≥ 50%. Suy từ yêu cầu của nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
  "hay_nham": []

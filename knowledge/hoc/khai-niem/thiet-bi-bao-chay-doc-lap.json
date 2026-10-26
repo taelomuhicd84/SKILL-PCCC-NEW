@@ -9,16 +9,33 @@
  "lien_quan": [
   "Hệ thống báo cháy tự động",
   "Hệ thống báo cháy địa chỉ",
-  "Phụ lục A (trang bị báo cháy tự động, chữa cháy tự động)"
+  "Phụ lục A (trang bị báo cháy tự động, chữa cháy tự động)",
+  "Hệ thống báo cháy"
  ],
- "ngay": "2026-10-26T04:05:36.119Z",
- "dinh_nghia": [],
+ "ngay": "2026-10-26T07:11:18.380Z",
+ "dinh_nghia": [
+  {
+   "y": "Thiết bị tự động phát hiện và cảnh báo cháy bằng âm thanh.",
+   "dieu": "QCVN 10:2025/BCA, 1.4.11",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  }
+ ],
  "cach_xac_dinh": [],
  "ap_dung": [
   {
    "y": "Nhiều dòng Bảng A.1 cho phép trang bị thiết bị báo cháy độc lập thay hệ thống báo cháy tự động khi nhà thấp tầng và diện tích nhỏ, ví dụ: nhà ở riêng lẻ kết hợp kinh doanh dịch vụ cao từ 7 tầng trở lên (mục 1); chung cư, nhà ở tập thể, ký túc xá khi thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m² (mục 3); nhà trẻ, mầm non khi tổng diện tích sàn nhỏ hơn 500 m² (mục 4); nhà dưỡng lão khi thấp hơn 3 tầng và nhỏ hơn 300 m² (mục 7); khách sạn, trụ sở, văn phòng khi thấp hơn 5 tầng và nhỏ hơn 1 500 m² (mục 18, 20).",
    "dieu": "Bảng A.1, mục 1, 3, 4, 7, 18, 20",
    "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Được phép thay hệ thống báo cháy tự động khi nhà nhỏ hơn ngưỡng nêu trong ngoặc của từng dòng, ví dụ chung cư: chiều cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m²; nhà dưỡng lão: thấp hơn 3 tầng và nhỏ hơn 300 m².",
+   "dieu": "Bảng A.1 mục 3, 7",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Cho phép trang bị thay hệ thống báo cháy tự động: nhà ở riêng lẻ kết hợp kinh doanh dịch vụ cao từ 7 tầng trở lên; nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy khi chiều cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 500 m²; chung cư, nhà ở tập thể, ký túc xá thuộc cơ sở giáo dục khi chiều cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m².",
+   "dieu": "Bảng A.1, STT 1–3",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "khong_ap_dung": [],
@@ -32,6 +49,16 @@
    "y": "Nhà ở riêng lẻ kết hợp kinh doanh, sản xuất: cho phép chỉ trang bị hệ thống báo cháy tự động hoặc thiết bị báo cháy độc lập tại khu vực sản xuất, kinh doanh, nhưng mỗi tầng của nhà phải có thiết bị cảnh báo âm thanh kết nối liên động với hệ thống báo cháy tự động hoặc thiết bị báo cháy độc lập.",
    "dieu": "Bảng A.1, chú thích (2)",
    "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Các thiết bị báo cháy độc lập lắp trong cùng một nhà, công trình phải được liên kết với nhau, bảo đảm tất cả cùng phát tín hiệu báo cháy khi một thiết bị được kích hoạt.",
+   "dieu": "1.4.11 (chú thích)",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Bảo dưỡng ít nhất một năm một lần.",
+   "dieu": "1.5.13",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "cach_kiem": [
@@ -39,6 +66,16 @@
    "y": "Đối chiếu số tầng và tổng diện tích sàn với ngưỡng \"cho phép trang bị thiết bị báo cháy độc lập\" ở đúng dòng loại nhà của Bảng A.1. Suy từ Bảng A.1.",
    "dieu": "Bảng A.1",
    "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Xem bản vẽ có thể hiện liên kết giữa các thiết bị trong cùng nhà; so quy mô nhà với ngưỡng cho phép trong ngoặc ở Bảng A.1.",
+   "dieu": "suy từ 1.4.11 và Bảng A.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Kiểm trên bản vẽ các thiết bị độc lập trong cùng nhà có liên kết với nhau; đối chiếu số tầng và tổng diện tích sàn với ngưỡng Bảng A.1.",
+   "dieu": "suy từ 1.4.11, Bảng A.1",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "hay_nham": [
@@ -46,6 +83,16 @@
    "y": "Ngưỡng cho phép dùng thiết bị độc lập khác nhau theo từng loại nhà (ví dụ mục 3 dùng 5 tầng và 1 500 m², mục 4 dùng 500 m²), không áp một ngưỡng chung.",
    "dieu": "Bảng A.1",
    "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Chỉ cảnh báo bằng âm thanh, không phải hệ thống báo cháy có trung tâm.",
+   "dieu": "1.4.11",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Khác hệ thống báo cháy tự động (có trung tâm, đầu báo, nút ấn, chuông đèn…).",
+   "dieu": "1.4.8, 1.4.11",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ]
 }

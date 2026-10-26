@@ -1,0 +1,25 @@
+{
+ "slug": "doi-thong-so-may-bom-chua-chay",
+ "ten": "Đổi thông số máy bơm chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Đổi nguyên lý chữa cháy, chất chữa cháy"
+ ],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Đổi lưu lượng, cột áp của máy bơm chữa cháy",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

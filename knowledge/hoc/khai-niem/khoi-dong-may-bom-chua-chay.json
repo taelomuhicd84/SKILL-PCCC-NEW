@@ -1,0 +1,34 @@
+{
+ "slug": "khoi-dong-may-bom-chua-chay",
+ "ten": "Khởi động máy bơm chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [
+  "Phòng bơm",
+  "Trụ cấp nước",
+  "Hệ thống báo cháy"
+ ],
+ "ngay": "2026-10-26T07:05:03.586Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Máy bơm chữa cháy khởi động tự động hoặc điều khiển từ xa (tại phòng trực hoặc trụ cấp nước); ngoài ra phải có cơ cấu điều khiển bằng tay tại phòng bơm. Bơm được kích hoạt vận hành trong thời gian không chậm quá 3 min kể từ khi có thông tin báo cháy.",
+   "dieu": "QCVN 10:2025/BCA Phụ lục H",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý điều khiển bơm và thuyết minh: có chế độ tự động hoặc từ xa, có điều khiển tay tại phòng bơm, thời gian kích hoạt ≤ 3 min.",
+   "dieu": "suy từ Phụ lục H",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  }
+ ],
+ "hay_nham": []
+}

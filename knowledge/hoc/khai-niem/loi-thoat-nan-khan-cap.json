@@ -1,0 +1,50 @@
+{
+ "slug": "loi-thoat-nan-khan-cap",
+ "ten": "Lối thoát nạn khẩn cấp",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Ban công thoáng",
+  "Cầu thang bộ loại 2",
+  "Chiều cao PCCC"
+ ],
+ "ngay": "2026-10-26T07:07:11.845Z",
+ "dinh_nghia": [
+  {
+   "y": "Lối thoát nạn khẩn cấp gồm ra ban công, lô gia thoáng, qua cửa sổ hoặc lối thoát nạn khẩn cấp tương tự.",
+   "dieu": "Sửa đổi 1:2023, điều kiện một lối ra thoát nạn",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà có chiều cao PCCC từ trên 15 m đến 21 m và từ trên 21 m đến 25 m: người trong nhà có thể thoát ra ngoài qua lối thoát nạn khẩn cấp với các thiết bị hỗ trợ thoát nạn, hoặc lên được sân thượng thoáng khi có cháy.",
+   "dieu": "Sửa đổi 1:2023",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "Nhà từ 3 tầng trở xuống hoặc chiều cao PCCC từ 9 m trở xuống dùng cầu thang bộ loại 2: người trong nhà thoát ra lối thoát nạn khẩn cấp hoặc lên được sân thượng thoáng.",
+   "dieu": "Sửa đổi 1:2023",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Thiết bị hỗ trợ thoát nạn đi kèm (ví dụ): thang P1, P2, thang ngoài nhà, thang dây, ống tụt và các thiết bị hỗ trợ thoát nạn khác.",
+   "dieu": "Sửa đổi 1:2023, nhà trên 15 m đến 25 m",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ có lối ra khẩn cấp và thiết bị hỗ trợ thoát nạn ghi rõ loại, vị trí. Suy từ sửa đổi 1:2023.",
+   "dieu": "suy từ sửa đổi 1:2023",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "hay_nham": []
+}

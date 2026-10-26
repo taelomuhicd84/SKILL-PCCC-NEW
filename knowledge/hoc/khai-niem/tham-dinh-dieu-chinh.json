@@ -1,0 +1,82 @@
+{
+ "slug": "tham-dinh-dieu-chinh",
+ "ten": "Thẩm định điều chỉnh",
+ "dong_nghia": [
+  "thẩm định lại",
+  "hồ sơ thiết kế điều chỉnh"
+ ],
+ "anh_huong": [
+  "doc-ho-so",
+  "m01-phan-loai",
+  "chung",
+  "ra-soat",
+  "huong-dan"
+ ],
+ "lien_quan": [
+  "Thẩm duyệt điều chỉnh",
+  "Tự thẩm định điều chỉnh",
+  "Phụ lục III",
+  "Nội dung thẩm định của cơ quan xây dựng",
+  "Nội dung thẩm định của cơ quan Công an"
+ ],
+ "ngay": "2026-10-26T07:08:59.377Z",
+ "dinh_nghia": [
+  {
+   "y": "Điều chỉnh trong quá trình thi công: chủ đầu tư lập hồ sơ thiết kế điều chỉnh và tổ chức thẩm định trước khi tiếp tục thi công; kết quả thẩm định là căn cứ phê duyệt thiết kế xây dựng.",
+   "dieu": "Điều 8 khoản 1 NĐ 105/2025",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Đối chiếu từng thay đổi với danh sách đóng 5.1 (xây dựng, Điều 6 khoản 4) và 5.2 (Công an, Điều 9 khoản 3); trùng thì phải thẩm định lại, ghi mục cụ thể; không trùng thì xét 5.3. Diễn giải \"thay thế\", \"bổ sung\", \"đổi nguyên lý\" theo 5.4.",
+   "dieu": "mục 8 bước 3",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khi điều chỉnh thiết kế hoặc thay đổi công năng, cải tạo trong quá trình sử dụng (khoản 2 Điều 17 Luật PCCC và CNCH), chỉ các trường hợp trong danh sách đóng. Phía xây dựng gồm: (a) thay đổi vị trí, diện tích xây dựng làm giảm khoảng cách PCCC đến đối tượng khác; (b) giảm kích thước đường, bãi đỗ chữa cháy, cứu nạn làm thay đổi khả năng tiếp cận của phương tiện cơ giới; (c) giảm bậc chịu lửa (đoạn trích bị cắt, các điểm sau chưa có).",
+   "dieu": "Điều 6 khoản 4 NĐ 105/2025",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  },
+  {
+   "y": "Hạng mục đầu tư giai đoạn sau, độc lập: không thuộc Phụ lục III thì không thuộc diện; đấu nối với hệ thống đã thẩm định mà làm đổi nguyên lý báo cháy, chữa cháy hoặc thông số bơm thì thuộc diện, không đổi thì không.",
+   "dieu": "mục 5.3",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô nhưng đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định, có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công: không thuộc diện thẩm định điều chỉnh.",
+   "dieu": "mục 5.3",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  },
+  {
+   "y": "Dự án chưa góp ý thiết kế cơ sở trước 01/7/2025 mà không thuộc Phụ lục III thì không thuộc diện; đã góp ý thiết kế cơ sở nhưng chưa cấp Giấy chứng nhận thẩm duyệt và không thuộc Phụ lục III thì không thẩm định.",
+   "dieu": "mục 5.3",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Ca nhập nhằng (nhà ở riêng lẻ kết hợp kinh doanh, hỗn hợp có yếu tố ở): ghi CẦN XÁC NHẬN, nêu cả hai cách hiểu, dẫn mục 5.5 làm đề xuất.",
+   "dieu": "mục 8 bước 6",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Hỏi: công trình mới hay điều chỉnh, cải tạo; đã có Giấy chứng nhận thẩm duyệt (trước 01/7/2025) hay văn bản thẩm định (NĐ 105/2025); đã nghiệm thu chưa. Chỉ xét phần điều chỉnh, cải tạo.",
+   "dieu": "mục 8 bước 1, 5",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác thẩm duyệt điều chỉnh (dự án đã có Giấy chứng nhận thẩm duyệt, mục 6) và khác tự thẩm định điều chỉnh (chủ đầu tư tự làm, không thuộc diện thẩm định điều chỉnh).",
+   "dieu": "",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ]
+}

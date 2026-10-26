@@ -12,9 +12,11 @@
  "lien_quan": [
   "Đầu báo cháy khói kiểu điểm",
   "Vùng phát hiện cháy",
-  "Lựa chọn đầu báo cháy"
+  "Lựa chọn đầu báo cháy",
+  "Đầu báo cháy kiểu điểm",
+  "Đầu báo cháy khói"
  ],
- "ngay": "2026-10-26T04:33:16.174Z",
+ "ngay": "2026-10-26T07:07:32.950Z",
  "dinh_nghia": [
   {
    "y": "Đầu báo cháy khói có nhiệm vụ chủ động hút lấy mẫu không khí liên tục hoặc theo chu kỳ để phân tích nồng độ khói, từ đó xác định cháy xảy ra trong khu vực bảo vệ",
@@ -25,6 +27,11 @@
    "y": "Đầu báo cháy tự động lấy mẫu qua các miệng hút trên hệ thống đường ống, đưa mẫu không khí từ khu vực bảo vệ đến thiết bị để phân tích phát hiện dấu hiệu cháy. Mỗi miệng hút lấy mẫu tương đương một đầu báo cháy khói kiểu điểm.",
    "dieu": "3.11",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Đầu báo cháy tự động lấy mẫu thông qua các miệng hút lấy mẫu không khí trên hệ thống đường ống và đưa mẫu không khí (hút) từ khu vực bảo vệ đến thiết bị để phân tích và phát hiện dấu hiệu cháy (khói, thay đổi thành phần hóa học của môi trường).",
+   "dieu": "3.11",
+   "nguon": "kb:tk-tcvn-7568-14"
   }
  ],
  "cach_xac_dinh": [
@@ -97,6 +104,11 @@
    "y": "Vị trí lỗ lấy mẫu theo yêu cầu khoảng cách của đầu báo kiểu điểm.",
    "dieu": "5.9.1.2.2",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Mỗi miệng hút lấy mẫu tương đương như một đầu báo cháy khói kiểu điểm.",
+   "dieu": "3.11",
+   "nguon": "kb:tk-tcvn-7568-14"
   }
  ],
  "cach_kiem": [
@@ -104,6 +116,11 @@
    "y": "Xem loại (A/B/C) ghi trên bản vẽ/thuyết minh, so chiều cao phòng với Bảng 2, bán kính 6,5 m/lỗ; suy từ Bảng 2.",
    "dieu": "Bảng 2",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khi đếm số đầu/diện tích bảo vệ, tính mỗi miệng hút là một đầu báo khói kiểu điểm (suy từ 3.11).",
+   "dieu": "3.11",
+   "nguon": "kb:tk-tcvn-7568-14"
   }
  ],
  "hay_nham": [

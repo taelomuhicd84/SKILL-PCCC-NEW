@@ -5,21 +5,35 @@
  "anh_huong": [
   "m01-phan-loai",
   "doc-ho-so",
-  "chung"
+  "chung",
+  "ra-soat"
  ],
  "lien_quan": [
   "Thẩm duyệt điều chỉnh",
   "Đổi nguyên lý báo cháy",
-  "Nội dung được nghiệm thu về PCCC"
+  "Nội dung được nghiệm thu về PCCC",
+  "Thẩm định điều chỉnh",
+  "Nghiệm thu về PCCC"
  ],
- "ngay": "2026-10-26T04:48:12.578Z",
+ "ngay": "2026-10-26T07:08:59.377Z",
  "dinh_nghia": [],
- "cach_xac_dinh": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Hồ sơ tự thẩm định điều chỉnh đi kèm hồ sơ nghiệm thu hoàn công, khi chủ đầu tư giữ quy mô, đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định.",
+   "dieu": "mục 5.3",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
  "ap_dung": [
   {
    "y": "Dự án đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô nhưng đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định: có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công.",
    "dieu": "mục 5",
    "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Công trình đã thẩm định, chưa nghiệm thu, thay đổi như trên: không thuộc diện thẩm định điều chỉnh.",
+   "dieu": "mục 5.3",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
   }
  ],
  "khong_ap_dung": [
@@ -27,6 +41,11 @@
    "y": "Có đổi nguyên lý báo cháy, chữa cháy hoặc thông số bơm so với bản đã thẩm định thì không thuộc trường hợp này mà thuộc diện thẩm định điều chỉnh.",
    "dieu": "suy từ mục 5",
    "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Đổi nguyên lý hoặc thông số bơm so với đã thẩm định thì không thuộc trường hợp này (xét thẩm định điều chỉnh).",
+   "dieu": "suy từ mục 5.3",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
   }
  ],
  "yeu_cau": [
@@ -41,6 +60,11 @@
    "y": "Kiểm hồ sơ có đủ hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công; so nguyên lý và thông số bơm với bản đã thẩm định.",
    "dieu": "suy từ mục 5",
    "nguon": "kb:tk-đổi-nguyên-lý-báo-cháy-chữa-cháy"
+  },
+  {
+   "y": "Kiểm có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công; so nguyên lý, thông số bơm với bản đã thẩm định.",
+   "dieu": "suy từ mục 5.3",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
   }
  ],
  "hay_nham": []

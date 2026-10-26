@@ -3,7 +3,8 @@
  "ten": "Hệ thống loa thông báo và hướng dẫn thoát nạn",
  "dong_nghia": [
   "Thiết bị loa cảnh báo và chỉ dẫn thoát nạn bằng giọng nói",
-  "Thiết bị loa cảnh báo cháy và điều khiển thoát nạn"
+  "Thiết bị loa cảnh báo cháy và điều khiển thoát nạn",
+  "loa thông báo"
  ],
  "anh_huong": [
   "m14-den-su-co",
@@ -12,9 +13,10 @@
  ],
  "lien_quan": [
   "Mức âm thanh tổng thể của tín hiệu loa",
-  "Mức âm thanh tín hiệu loa trong phòng ngủ"
+  "Mức âm thanh tín hiệu loa trong phòng ngủ",
+  "Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn"
  ],
- "ngay": "2026-10-26T04:07:56.942Z",
+ "ngay": "2026-10-26T07:05:03.586Z",
  "dinh_nghia": [
   {
    "y": "Hệ thống phải bảo đảm mọi người trong nhà và công trình có thể nghe rõ thông báo, hướng dẫn khi có sự cố.",
@@ -64,6 +66,11 @@
    "y": "Nhà ga hành khách thuộc cảng hàng không; nhà ga hành khách, đề-pô đường sắt; nhà ga hành khách, đề-pô đường sắt đô thị: không phụ thuộc quy mô.",
    "dieu": "Bảng G.1, STT 6",
    "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Trang bị loa theo QCVN 10:2025/BCA Bảng G.1 và mục H.4 (nội dung chi tiết xem knowledge/qcvn10-2025-den-loa.md).",
+   "dieu": "Phụ lục G (Bảng G.1), H.4",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
   }
  ],
  "khong_ap_dung": [],
@@ -106,5 +113,11 @@
    "nguon": "kb:qcvn10-2025-den-loa.md"
   }
  ],
- "hay_nham": []
+ "hay_nham": [
+  {
+   "y": "Khác với chiếu sáng sự cố và chỉ dẫn thoát nạn (TCVN 13456:2022).",
+   "dieu": "",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  }
+ ]
 }

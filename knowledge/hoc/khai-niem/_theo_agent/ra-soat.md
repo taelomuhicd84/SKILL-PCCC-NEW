@@ -1,5 +1,5 @@
 # Khái niệm thẩm định – Rà soát chéo (agent tự học rút từ văn bản, chỉ gồm mục từ nguồn đã duyệt)
-300 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
+352 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
 
 ### Áp suất làm việc (còn gọi: service pressure)
 **Định nghĩa:**
@@ -15,6 +15,10 @@
 **Khi nào áp dụng / được phép:**
 - Họng nước DN 50 cho tia nước đặc lưu lượng đến 4 L/s; lưu lượng lớn hơn dùng DN 65. Khi có luận chứng kinh tế - kỹ thuật được dùng DN 50 cho lưu lượng trên 4 L/s (5.2.7 CHÚ THÍCH 2)
 
+### Áp suất tự do tối thiểu trong đường ống nước chữa cháy (còn gọi: Áp suất tự do, áp suất tự do)
+**Khi nào áp dụng / được phép:**
+- Mạng ống chữa cháy áp suất cao: phải bảo đảm độ cao tia nước đặc khi lưu lượng yêu cầu chữa cháy tối đa và lăng chữa cháy ở điểm cao nhất của tòa nhà.
+
 ### Bãi đỗ xe chữa cháy
 **Định nghĩa:**
 - Bãi để triển khai phương tiện chữa cháy, tiếp cận trực tiếp các tấm cửa của lối vào từ trên cao. (6.2.1.2, 6.2.2.3)
@@ -29,6 +33,11 @@
 **Khi nào áp dụng / được phép:**
 - Các hồ ao để cho xe chữa cháy hút nước phải có lối tiếp cận và có bãi lấy nước với bề mặt bảo đảm tải trọng dành cho xe chữa cháy. (5.1.5.4 (Sửa đổi 1:2023))
 
+### Bãi lấy nước cho xe chữa cháy (còn gọi: bãi đỗ xe hút nước)
+**Khi nào áp dụng / được phép:**
+- Hồ, ao để xe chữa cháy hút nước phải có lối tiếp cận và bãi lấy nước. (5.1.5.4)
+- Phải bảo đảm lối vào cho xe chữa cháy tiếp cận bể, hồ và các điểm lấy nước tương tự. (5.1.5.8 (chú thích 2))
+
 ### Bãi quay xe (còn gọi: Bãi quay xe chữa cháy)
 **Khi nào áp dụng / được phép:**
 - Bắt buộc ở cuối đoạn cụt khi đường hoặc bãi đỗ xe chữa cháy dạng cụt dài hơn 46 m. (6.2.5)
@@ -38,10 +47,20 @@
 **Khi nào áp dụng / được phép:**
 - Đường giao thông nhỏ hẹp chỉ đủ cho 1 làn xe chạy. (6.5)
 
+### Ban công thoáng (còn gọi: sân thượng thoáng)
+**Định nghĩa:**
+- Ban công thoáng hoặc sân thượng thoáng nghĩa là hở ra ngoài trời và bộ phận bao che (nếu có) phải bảo đảm cho việc thoát nạn, cứu nạn dễ dàng khi lực lượng chữa cháy tiếp cận. (CHÚ THÍCH)
+**Khi nào áp dụng / được phép:**
+- Điều kiện để dùng cầu thang bộ loại 2 thay buồng thang bộ ở nhà từ 3 tầng trở xuống hoặc chiều cao PCCC từ 9 m trở xuống: người trong nhà thoát ra được ban công thoáng hoặc sân thượng thoáng khi có cháy. (Sửa đổi 1:2023)
+- Nhà có chiều cao PCCC từ trên 15 m đến 21 m và từ trên 21 m đến 25 m (một lối ra thoát nạn): người trong nhà có thể lên được sân thượng thoáng khi có cháy, là phương án thay cho thoát qua lối thoát nạn khẩn cấp có thiết bị hỗ trợ. (Sửa đổi 1:2023)
+
 ### Bán kính phục vụ
+**Định nghĩa:**
+- Bồn, bể, trụ nước chữa cháy ngoài nhà, hồ nước chữa cháy tự nhiên và nhân tạo phải đặt tại vị trí bảo đảm bán kính phục vụ. (5.1.5.9)
 **Khi nào áp dụng / được phép:**
 - Trụ cấp nước chữa cháy bố trí trên mạng đường ống: tối thiểu 02 trụ khi lưu lượng yêu cầu từ 15 L/s trở lên; tối thiểu 01 trụ khi lưu lượng yêu cầu thấp hơn 15 L/s, phục vụ đến mọi điểm của nhà (Trụ nước chữa cháy – Bán kính phục vụ)
 - Bồn, bể, trụ nước, hồ nước chữa cháy tự nhiên và nhân tạo phải đặt ở vị trí bảo đảm bán kính phục vụ (Bồn, bể, ao hồ dự trữ nước)
+- Để tăng bán kính phục vụ, cho phép lắp đường ống cụt dài không quá 200 m từ bồn, bể, hồ nhân tạo đến các bể trung gian (hố thu nước), bảo đảm theo 5.1.5.8. (5.1.5.9)
 
 ### Bán kính phục vụ của họng nước chữa cháy trong nhà
 **Khi nào áp dụng / được phép:**
@@ -50,6 +69,8 @@
 ### Bậc chịu lửa
 **Khi nào áp dụng / được phép:**
 - Nhà bậc I, II, III: gian phòng phân chia bởi tường/sàn ngăn cháy thấp hơn REI 45 hoặc vách thấp hơn EI 45 (hoặc không phân chia) thì trang bị báo cháy/chữa cháy tự động theo gian phòng Bảng A.3. Nhà bậc IV, V: ngưỡng REI 15, EI 15. (1.5.10)
+- Giới hạn chịu lửa cần thiết của kết cấu xây dựng phải chọn phù hợp với bậc chịu lửa đã chọn; sự phù hợp lấy theo Bảng 4, trừ trường hợp quy chuẩn quy định riêng. (2.5.3.3)
+- Không xác định được bậc chịu lửa và cấp nguy hiểm cháy kết cấu của nhà thì cho phép lấy bậc V và cấp S3 để xác định các yêu cầu an toàn cháy khác (khoảng cách PCCC...). (Phụ lục H)
 
 ### Bể chứa nước điều hòa
 **Khi nào áp dụng / được phép:**
@@ -67,6 +88,9 @@
 ### Bể nước chữa cháy (còn gọi: bồn, bể, Bể PCCC, Bể nước ngầm)
 **Khi nào áp dụng / được phép:**
 - Khi bể nước chữa cháy dùng chung với bể nước phục vụ sinh hoạt trong tòa nhà. (2.1.11)
+- Được trữ nước chữa cháy trong bồn, bể chuyên dụng hoặc hồ hở cho: khu dân cư đến 5 000 người; tòa nhà đứng riêng không có đường ống nước sinh hoạt/sản xuất; nhà công năng khác nhau có lưu lượng ngoài nhà không quá 10 L/s; nhà 1–2 tầng có diện tích xây dựng không lớn hơn diện tích khoang cháy cho phép. (5.1.5.7)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Yêu cầu số bồn, bể trong một mạng ống không nhỏ hơn 2 không áp dụng cho bồn, bể cấp nước ngoài nhà của công trình độc lập.
 
 ### Bến lấy nước
 **Khi nào áp dụng / được phép:**
@@ -95,8 +119,11 @@
 - Loại treo có thể trang bị tại khu vực bếp của nhà hàng, các phòng nồi hơi, giặt là có diện tích không quá 100 m² và các phòng kỹ thuật điện có diện tích không quá 10 m². (2.5.4)
 
 ### Bình chữa cháy (còn gọi: bình chữa cháy xách tay, bình chữa cháy có bánh xe, fire extinguisher, portable extinguisher, phương tiện chữa cháy ban đầu)
+**Định nghĩa:**
+- Gồm bình chữa cháy xách tay/xe đẩy (TCVN 7435-1), dụng cụ phá dỡ thô sơ, mặt nạ lọc độc/mặt nạ phòng độc cách ly. (thuat-ngu-chuan.md)
 **Khi nào áp dụng / được phép:**
 - Tất cả các khu vực trong nhà, công trình, kể cả nơi đã trang bị hệ thống chữa cháy, phải trang bị bình chữa cháy xách tay hoặc bình chữa cháy có bánh xe. Việc lựa chọn, tính toán trang bị và bố trí theo điểm 6 và điểm 7 TCVN 7435-1. (2.6.1)
+- Trang bị theo QCVN 10:2025/BCA (hiệu lực 30/12/2025, thay tiêu chuẩn trang bị cũ). Danh mục dụng cụ, mặt nạ xem Phụ lục E, F. (QCVN 10:2025/BCA Phụ lục E, F)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không đặt bình chữa cháy: nơi đám cháy tiềm ẩn có thể ngăn cản việc tiếp cận; gần thiết bị sinh nhiệt có thể ảnh hưởng chất lượng, hiệu quả của bình; vị trí khuất sau cửa ra vào, trong tủ không quan sát được bình hoặc hốc sâu; nơi cản trở lối thoát nạn; vị trí trong phòng hoặc hành lang cách xa lối ra (trừ trường hợp cần thiết đối với nguy hiểm cháy); nơi bình có thể bị hỏng do hoạt động thường ngày. (2.6.4)
 
@@ -110,9 +137,15 @@
 **Khi nào áp dụng / được phép:**
 - Công trình đang thi công xây dựng, kể cả các nhà tạm phục vụ thi công, phải trang bị bình chữa cháy xách tay. (2.6.5)
 
-### Bình khí, bình sol-khí chữa cháy tự động kích hoạt (còn gọi: bình khí chữa cháy tự động kích hoạt loại treo)
+### Bình khí, bình sol-khí chữa cháy tự động kích hoạt (còn gọi: bình khí chữa cháy tự động kích hoạt loại treo, thiết bị chữa cháy tự động kích hoạt)
+**Định nghĩa:**
+- Bình khí, bình sol-khí chữa cháy tự động kích hoạt có chức năng giám sát trạng thái thường trực của thiết bị và giám sát trạng thái khi chữa cháy; các tín hiệu này phải liên động với hệ thống báo cháy tự động (2.5.5 QCVN 10:2025/BCA)
+- Gồm bình chứa chất chữa cháy bằng khí, bột, sol-khí và các bộ phận liên quan tự động xả chất chữa cháy khi nhiệt độ đạt ngưỡng tác động của bộ phận cảm biến nhiệt. (1.4.5)
 **Khi nào áp dụng / được phép:**
 - Cho phép trang bị thay thế hệ thống chữa cháy tự động tại các khu vực không thường xuyên có người với diện tích không quá 100 m². (2.5.5)
+- Cho phép trang bị thay thế hệ thống chữa cháy tự động tại khu vực không thường xuyên có người, diện tích không quá 100 m² (2.5.5 QCVN 10:2025/BCA)
+- Cho phép dùng thiết bị chữa cháy tự động thay thế hệ thống chữa cháy tự động (chú thích 1 Bảng A.1) (Phụ lục A, Bảng A.1 chú thích (1))
+- Được xét trang bị theo Phụ lục A: Bảng A.1 cho toàn nhà, Bảng A.2 cho hạng mục/khu vực, Bảng A.3 cho gian phòng, Bảng A.4 cho thiết bị trong phạm vi công trình. (1.5.9, Phụ lục A)
 
 ### Bình phun Sol-khí
 **Khi nào áp dụng / được phép:**
@@ -215,13 +248,26 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Gara gắn với nhà chức năng khác không được bố trí bên trong buồng thang bộ chung và giếng thang máy chung. (2.2.1.8)
 
-### Buồng thang bộ không nhiễm khói
+### Buồng thang bộ không nhiễm khói (còn gọi: buồng thang bộ loại N1, N2, N3)
+**Định nghĩa:**
+- Buồng thang bộ không nhiễm khói gồm ba loại N1, N2, N3, phân biệt theo cách ngăn khói xâm nhập vào buồng thang. (Sơ đồ phân loại cầu thang bộ và buồng thang bộ)
 **Khi nào áp dụng / được phép:**
 - Họng chờ cấp nước DN65 của hệ thống đường ống khô được lắp tại các sảnh thang máy chữa cháy hoặc trong các khoang đệm của buồng thang bộ không nhiễm khói. (2.4.4)
+- Hành lang chiều rộng không nhỏ hơn 2 m (của tầng hầm có gian phòng hạng C1, C2, C3) dẫn trực tiếp ra ngoài hoặc qua một buồng thang bộ không nhiễm khói.
+- Tại các khoang cháy phía trên (nhà thuộc Phụ lục A.2) phải bố trí phòng phương tiện chữa cháy ban đầu cách buồng thang bộ không nhiễm khói hoặc thang máy chữa cháy không quá 30 m. (A.2)
 
 ### Buồng thang bộ không nhiễm khói loại N1
 **Khi nào áp dụng / được phép:**
 - Trong buồng thang bộ không nhiễm khói loại N1 được phép dùng bản thang và chiếu thang có giới hạn chịu lửa R 15 và cấp nguy hiểm cháy K0. (2.5.3)
+
+### Buồng thang bộ loại N2 và N3
+**Khi nào áp dụng / được phép:**
+- Bảo vệ chống khói buồng thang bộ loại N2 và N3 phải tuân theo Phụ lục D. (3.4.9)
+- Khi cần thiết, buồng thang N2 phải chia thành các khoang theo chiều cao bằng vách ngăn cháy đặc loại 1, lối đi lại giữa các khoang nằm ngoài không gian buồng thang bộ. (3.4.9)
+
+### Buồng thang bộ thông thường (còn gọi: buồng thang bộ L1, L2)
+**Định nghĩa:**
+- Buồng thang bộ thông thường gồm loại L1 và L2, phân biệt theo cách chiếu sáng tự nhiên. (Sơ đồ phân loại cầu thang bộ và buồng thang bộ)
 
 ### Cấp nguy hiểm cháy kết cấu (còn gọi: cấp S, S0, S1, S2, S3, Cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy)
 **Định nghĩa:**
@@ -237,12 +283,35 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Nhà nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà thì không yêu cầu bắt buộc phải trang bị cấp nước chữa cháy ngoài nhà (5.1.1.1)
 
+### Cầu thang bộ loại 1 (còn gọi: cầu thang kín, trong nhà)
+**Định nghĩa:**
+- Cầu thang bộ loại 1 (cầu thang kín, trong nhà): cầu thang bên trong nhà, được bao bọc kín bởi kết cấu buồng thang và cửa ra vào có khả năng chịu lửa (ngăn cháy). Tường phía ngoài có thể có lỗ mở. (Chú giải hình các dạng cầu thang bộ và buồng thang bộ thông thường, mục 1)
+
+### Cầu thang bộ loại 2
+**Định nghĩa:**
+- Cầu thang bộ loại 2 là cầu thang bên trong nhà, để hở (không đặt trong buồng thang). (Sơ đồ phân loại)
+**Khi nào áp dụng / được phép:**
+- Nhà bậc chịu lửa I, II và cấp nguy hiểm cháy kết cấu S0: cho phép cầu thang bộ loại 2 đi từ tiền sảnh lên tầng hai (có tính đến 4.26); nhà F3.1, F3.2 cho phép kể cả khi không có tiền sảnh. (3.4.15)
+- Nhà có chiều cao PCCC không quá 28 m thuộc nhóm F1.2, F2, F3, F4, bậc chịu lửa I, II, cấp S0: cho phép cầu thang bộ loại 2 nối hai tầng trở lên khi buồng thang đáp ứng 4.27 và tài liệu chuẩn. (3.4.16)
+- Thang cuốn phải bố trí phù hợp yêu cầu quy định cho cầu thang bộ loại 2. (3.4.17)
+- Nhà từ 3 tầng trở xuống hoặc có chiều cao PCCC từ 9 m trở xuống: được dùng cầu thang bộ loại 2 thay buồng thang bộ khi người trong nhà có thể thoát ra ban công thoáng hoặc sân thượng thoáng khi có cháy (trừ biệt thự, villa, cơ sở nghỉ dưỡng theo quy định riêng). (QCVN 06 sửa đổi 1:2023, quy định thang thoát nạn)
+- Biệt thự, villa, cơ sở nghỉ dưỡng không cao quá 3 tầng thuộc nhóm F1.2: cho phép thay các loại buồng thang bộ bằng cầu thang bộ loại 2, khi đảm bảo đồng thời các điều kiện ở mục yêu cầu. (QCVN 06 sửa đổi 1:2023)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Cầu thang bộ loại 2 nối thông từ 3 tầng (sàn) trở lên không được tính toán, sử dụng làm đường thoát nạn khi có cháy, trừ các trường hợp 3.2.1, 3.2.2, 3.2.6. (3.4.16)
+- Không áp dụng cho nhà trên 3 tầng hoặc có chiều cao PCCC lớn hơn 9 m: phải có cửa đi ngăn cháy loại 2 trên lối ra thoát nạn từ mỗi tầng vào buồng thang bộ thoát nạn. (QCVN 06 sửa đổi 1:2023)
+
 ### Cầu thang bộ loại 2 (bao che, ngăn cách)
 **Khi nào áp dụng / được phép:**
 - Khi cầu thang bộ loại 2 đi từ sảnh tầng 1 lên tầng 2, sảnh phải ngăn cách khỏi hành lang và gian phòng liền kề bằng vách ngăn cháy loại 1 (4.26)
 - Khu vực có cầu thang bộ loại 2 phải ngăn cách với hành lang thông với nó hoặc gian phòng khác bằng vách ngăn cháy loại 1 hoặc giải pháp tương đương (4.26)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không yêu cầu giới hạn chịu lửa đối với vách ngăn khu vực có cầu thang bộ loại 2 hoặc hành lang thông với cầu thang loại 2 khi nhà (hoặc khoang cháy có cầu thang loại 2) có chiều cao PCCC không lớn hơn 9 m với diện tích một tầng không quá 300 m2, hoặc khi nhà có trang bị chữa cháy tự động (4.26)
+
+### Cầu thang bộ loại 3
+**Định nghĩa:**
+- Cầu thang bộ loại 3 là cầu thang bên ngoài nhà, để hở. (Sơ đồ phân loại)
+**Khi nào áp dụng / được phép:**
+- Là một trong hai phương án lối ra thoát nạn của biệt thự/villa/cơ sở nghỉ dưỡng F1.2 dùng cầu thang loại 2: lối ra trực tiếp ra ngoài hoặc ra cầu thang bộ loại 3. (Sửa đổi 1:2023)
 
 ### Chất chữa cháy và thiết bị Sol-khí (yêu cầu chất lượng UL 2775) (còn gọi: Sol-khí dạng cô đặc, Aerosol)
 **Định nghĩa:**
@@ -286,6 +355,9 @@
 - Buồng thang bộ loại L2 được bố trí trong nhà bậc chịu lửa I, II, III, cấp S0, S1, nhóm F1, F2, F3, F4, với chiều cao PCCC không quá 9 m; cho phép tăng đến 12 m (điều kiện loại trừ bị cắt trong đoạn trích). (QCVN 06 (đoạn trích; số điều bị cắt))
 - Chiều cao PCCC lớn nhất của nhà tại Bảng H.5 (nhà trẻ), H.6 (trường học), H.7 (nhà cơ sở văn hóa) được xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4) khi nhà có báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC không quá 28 m. Ví dụ: nhà trẻ xây đến 3 tầng, chiều cao PCCC > 9 m. (Phụ lục H, Bảng H.5, H.6, H.7)
 - Nhà bệnh viện (nhóm F1.1) bố trí trong nhà độc lập hoặc khoang cháy riêng có chiều cao PCCC không quá 28 m (hoặc 9 tầng). (Phụ lục H (tài liệu sửa đổi 1:2023))
+- Cách xác định theo số tầng chỉ dùng khi nhà được trang bị hệ thống báo cháy tự động hoặc hệ thống chữa cháy tự động, và chiều cao PCCC của nhà không quá 28 m. (H.2.12.10)
+- Phạm vi áp dụng quy chuẩn: chung cư, nhà ở tập thể có chiều cao PCCC đến 150 m và không quá 3 tầng hầm. (1.1.2)
+- Chiều cao PCCC của nhà được phép bố trí trong Phụ lục H hiểu là phần nhà/khoang cháy có công năng tương ứng được bố trí đến chiều cao đó. Công năng nhà trẻ bố trí đến chiều cao an toàn PCCC 9 m, các tầng cao hơn bố trí công năng khác (văn phòng, phòng ban giám hiệu...). (Phụ lục H (tài liệu hướng dẫn sửa đổi 1:2023))
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không quy định chiều cao nhà một tầng có cấp nguy hiểm cháy S0 và S1 (nhà sản xuất, chăn nuôi) (Bảng H.9, H.10 chú thích 1))
 - Cho phép không áp dụng các quy định 4.33.1 đến 4.33.3 (đai ngăn cháy giữa các tầng) đối với nhà từ ba tầng trở xuống hoặc chiều cao PCCC dưới 15 m, ga ra để xe nổi dạng hở, hoặc nhà thỏa mãn đồng thời các điều kiện nêu tại Chú thích 6 Bảng 4 hoặc Chú thích 2 của Bảng (số bảng bị cắt). (4.33)
@@ -318,6 +390,14 @@
 **Định nghĩa:**
 - Cung cấp ánh sáng để tránh hoảng sợ khi xảy ra sự cố và đảm bảo cho người tiếp cận đến vị trí có thể phát hiện ra đường thoát nạn (còn gọi là chiếu sáng khoảng trống hoặc chiếu sáng chống hoảng loạn). (3.5)
 
+### Cho phép bố trí một lối ra thoát nạn (còn gọi: một lối ra thoát nạn từ tầng)
+**Khi nào áp dụng / được phép:**
+- Cho phép bố trí một lối ra thoát nạn trong các trường hợp nêu trong quy chuẩn, trừ các nhà có bậc chịu lửa V. (QCVN 06)
+- Từ các tầng kỹ thuật hoặc khu vực để thiết bị kỹ thuật có diện tích không quá 300 m2: cứ mỗi 2 000 m2 diện tích còn lại phải thêm không ít hơn một lối ra thoát nạn (diện tích còn lại nhỏ hơn 2 000 m2 cũng phải thêm không ít hơn một lối ra). (QCVN 06)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Nhà có bậc chịu lửa V không được áp dụng. (QCVN 06)
+- Tầng hầm và nửa hầm có diện tích lớn hơn 300 m2 hoặc dùng cho hơn 15 người có mặt đồng thời thuộc nhóm trường hợp liệt kê cùng điều khoản (nguồn cắt đoạn, chưa rõ đây là trường hợp phải có từ hai lối ra). (QCVN 06 (nguồn cắt đoạn, cần đối chiếu))
+
 ### Chống ồn, chống rung cho máy bơm (còn gọi: cách âm máy bơm)
 **Khi nào áp dụng / được phép:**
 - Phải có cấu tạo cách âm cho máy bơm cấp nước sinh hoạt trong nhà ở và nhà công cộng (7.21)
@@ -338,6 +418,7 @@
 - Nhà, công trình, hạng mục/khu vực, gian phòng có quy mô quy định tại Phụ lục A phải trang bị cho toàn bộ (trừ các khu vực loại trừ ở 1.5.11). (1.5.11)
 - Căn hộ nhà nhóm F1.3 có chiều cao PCCC không quá 100 m: cho phép chỉ bố trí đầu phun sprinkler tại cửa căn hộ (lắp bên trong căn hộ). (1.5.12)
 - Khi trong nhà có các phòng riêng biệt mà theo quy định chỉ cần hệ thống báo cháy, có thể thay bằng hệ thống chữa cháy tự động. Khi đó cường độ phun phải đảm bảo theo tiêu chuẩn nhưng không quy định lưu lượng và thời gian chữa cháy. (4.3)
+- Trang bị theo Phụ lục A: Bảng A.1 cho toàn nhà (ví dụ nhà ở riêng lẻ kết hợp kinh doanh, sản xuất: chiều cao PCCC từ 30 m trở lên; chung cư, nhà ở tập thể, ký túc xá thuộc cơ sở giáo dục: chiều cao PCCC từ 30 m trở lên). (Phụ lục A, Bảng A.1)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Các khu vực loại trừ như hệ thống báo cháy tự động: quy trình ướt, hồ bơi, phòng tắm/rửa/vệ sinh; gian phòng hạng E, C4 (có ngoại lệ); hành lang bên; cầu thang bộ, buồng thang bộ; khoang đệm ngăn cháy; khu vực không nguy hiểm cháy. (1.5.11)
 - Tiêu chuẩn không áp dụng cho: nhà và công trình thiết kế theo quy định đặc biệt; thiết bị công nghệ bên ngoài nhà; nhà kho có giá đỡ di động; đám cháy kim loại và các chất có hoạt tính hóa học mạnh (chất phản ứng với nước/bọt gây nổ, giải phóng khí dễ cháy, tỏa nhiệt mạnh, tự cháy khi gặp nước). (1.2, 1.3)
@@ -370,6 +451,16 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh không thuộc mục 8. (Phụ lục III mục 8)
 
+### Công trình sau cải tạo, mở rộng
+**Khi nào áp dụng / được phép:**
+- Sau đó xét từng thay đổi với khoản 4 Điều 6 (cơ quan xây dựng) và khoản 3 Điều 9 (Công an) (Công văn C07, câu 9)
+
+### Công trình thuộc diện thẩm định thiết kế về PCCC (còn gọi: danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC)
+**Định nghĩa:**
+- Danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC theo Phụ lục III NĐ 105/2025. (Phụ lục III NĐ 105/2025/NĐ-CP)
+**Khi nào áp dụng / được phép:**
+- Áp dụng khi thiết kế, cải tạo, thay đổi công năng sử dụng. (Phụ lục III)
+
 ### Cơ cấu làm trễ thời gian (còn gọi: độ trễ thời gian, thời gian trễ trước khi phun)
 **Khi nào áp dụng / được phép:**
 - Khu vực được bảo vệ bằng hệ thống phun khí chữa cháy thể tích và có thể có người phải có cơ cấu làm trễ thời gian. (mục Các khu vực có người, điểm a)
@@ -381,6 +472,11 @@
 **Khi nào áp dụng / được phép:**
 - Hệ thống tự động điều khiển bởi phát hiện cháy tự động, kích hoạt cơ cấu thích hợp của hệ thống chữa cháy và cũng phải có cơ cấu vận hành bằng tay (Vận hành tự động)
 - Phải có phương án vận hành bằng tay bằng một bộ điều khiển đặt ở bên ngoài khu vực được bảo vệ hoặc liền kề lối ra chính của khu vực (Vận hành bằng tay)
+
+### Cơ quan chấp thuận phương tiện PCCC, CNCH theo QCVN 10:2025/BCA
+**Khi nào áp dụng / được phép:**
+- Công trình quy định tại khoản 1 Điều 9 Thông tư 36/2025/TT-BCA và NĐ 105/2025/NĐ-CP: do Cục Cảnh sát PCCC và CNCH chấp thuận (phần luận chứng được chấp thuận; đoạn đầu câu bị cắt trong nguồn). (Khoản 1 Điều 9 TT 36/2025/TT-BCA)
+- Công trình quy định tại khoản 2 Điều 9 TT 36/2025/TT-BCA, không thuộc diện thẩm định thiết kế về PCCC nhưng thuộc đối tượng phải trang bị phương tiện PCCC, CNCH: do Phòng Cảnh sát PCCC và CNCH Công an cấp tỉnh chấp thuận. (Khoản 2 Điều 9 TT 36/2025/TT-BCA)
 
 ### Cơ sở được xây dựng và hoạt động trước ngày 01 tháng 7 năm 2025
 **Khi nào áp dụng / được phép:**
@@ -402,6 +498,10 @@
 **Khi nào áp dụng / được phép:**
 - Áp dụng cho hệ thống chữa cháy tự động Sprinkler: giới hạn số đầu phun tính theo từng cụm bảo vệ. (5.2.3 TCVN 7336:2021)
 - Với hệ thống Sprinkler khô hoặc Sprinkler - Drencher, mỗi cụm bảo vệ phải dùng máy nén khí độc lập. (5.7.17 TCVN 7336:2021)
+
+### Cường độ phun
+**Khi nào áp dụng / được phép:**
+- Áp dụng cho hệ thống đầu phun dưới mái; lưu lượng nước yêu cầu Q_m (l/s) xác định theo chiều cao xếp hàng (6.6 (TCVN 7336:2021))
 
 ### Cường độ phun chất chữa cháy (còn gọi: Diện tích phun tối thiểu, Cường độ phun tối thiểu)
 **Định nghĩa:**
@@ -432,9 +532,19 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Cho phép không áp dụng 4.32.1 nếu nhà được trang bị chữa cháy tự động (4.32.2)
 
+### Dấu "-" trong Phụ lục A
+**Định nghĩa:**
+- Dấu "-" trong các bảng tại Phụ lục A được hiểu là không bắt buộc phải trang bị hệ thống báo cháy tự động/chữa cháy tự động (CHÚ THÍCH chung Phụ lục A)
+
 ### Diện tích bảo vệ trung bình của một đầu báo cháy
 **Khi nào áp dụng / được phép:**
 - Dùng bảng tra nhanh đầu báo khói kiểu điểm theo độ cao khu vực bảo vệ. Khi có kết cấu nhô ra thì diện tích này giảm 25% hoặc 40% tùy kích thước a, b
+
+### Diện tích một tầng trong phạm vi một khoang cháy (còn gọi: diện tích khoang cháy của tầng)
+**Định nghĩa:**
+- Xác định theo chu vi bên trong của tường bao của tầng, không tính diện tích buồng thang bộ. (QCVN 06:2022/BXD, Quy định chung)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Diện tích thềm (cầu) xếp dỡ phía ngoài dùng cho phương tiện vận tải đường bộ và đường sắt không tính vào diện tích tầng nhà trong phạm vi khoang cháy. (QCVN 06:2022/BXD, Quy định chung)
 
 ### Diện tích sàn cho phép tiếp cận
 **Khi nào áp dụng / được phép:**
@@ -443,6 +553,7 @@
 ### Diện tích tính toán tối thiểu
 **Khi nào áp dụng / được phép:**
 - Bảng tính lấy diện tích lớn hơn giữa diện tích thực tế và diện tích tối thiểu để tính lưu lượng đầu phun bất lợi nhất: q1 = IF(S thực tế > S min, S thực tế × qmin / n, S min × qmin / n). (Bảng tính thủy lực Phụ lục B – mục I.1)
+- Dùng làm S trong công thức n ≥ S/Ω; ví dụ nhóm nguy cơ phát sinh cháy 2 có S = 120 m² (ví dụ mục e/)
 
 ### Diện tích tính toán tối thiểu và số đầu phun tính thủy lực (còn gọi: S, Ω)
 **Định nghĩa:**
@@ -451,6 +562,10 @@
 - Tổng lưu lượng cần thiết của hệ thống QCT = Σqi (i = 1…n) phải ≥ QTT (lưu lượng tối thiểu theo Bảng 1, 2, 3). (Bảng 1, 2, 3)
 - Cột lưu lượng tối thiểu và diện tích tính toán tối thiểu trong Bảng 1 (ký hiệu (1)) áp dụng cho hệ thống Sprinkler và hệ thống Sprinkler - Drencher. (TCVN 7336:2021, Bảng 1, chú thích 1)
 - Dùng để tính số đầu phun tính toán thủy lực và lưu lượng tối thiểu của hệ thống Sprinkler. (Tài liệu tập huấn Sprinkler, mục 3)
+
+### Diện tích xây dựng
+**Định nghĩa:**
+- Xác định theo chu vi ngoài của nhà ở cao độ chân tường, gồm cả các phần nhô ra, đường đi qua dưới nhà, các phần nhà không có kết cấu ngăn che bên ngoài. (QCVN 06:2022/BXD, Quy định chung)
 
 ### Dụng cụ phá dỡ thô sơ
 **Khi nào áp dụng / được phép:**
@@ -479,6 +594,10 @@
 - Khi có nhiều khu vực không được bảo vệ do đồ vật như máy bay, thiết bị hoặc giá bảo quản thì phải lắp thêm đầu báo cháy bổ sung để bao phủ các khu vực này. (TCVN 7568-14:2025 (trước 5.9.4))
 - Cần hiểu nguyên lý hoạt động của đầu báo cháy lửa (hồng ngoại hoặc tia cực tím) để chọn và định vị đúng thiết bị phù hợp với mối nguy hiểm cháy và mức bảo vệ yêu cầu; hướng dẫn của nhà sản xuất cung cấp thông tin về kiểu đầu báo cháy được chọn. (Chú thích, TCVN 7568-14:2025)
 
+### Đầu báo cháy hỗn hợp (còn gọi: Combine detector)
+**Định nghĩa:**
+- Đầu báo cháy tự động nhạy cảm với ít nhất 2 hiện tượng kèm theo của sự cháy. (3.10)
+
 ### Đầu báo cháy khói kiểu điểm (còn gọi: đầu báo cháy kiểu điểm, Point detector)
 **Định nghĩa:**
 - Đầu báo cháy đặt trực tiếp trong khu vực được bảo vệ để nhạy cảm với sự tác động của môi trường xung quanh vị trí lắp đặt theo đặc tính của từng loại đầu báo. (3.5)
@@ -486,6 +605,7 @@
 ### Đầu báo cháy khói kiểu hút (còn gọi: Aspirating Smoke Detector, đầu báo cháy kiểu hút)
 **Định nghĩa:**
 - Đầu báo cháy tự động lấy mẫu qua các miệng hút trên hệ thống đường ống, đưa mẫu không khí từ khu vực bảo vệ đến thiết bị để phân tích phát hiện dấu hiệu cháy. Mỗi miệng hút lấy mẫu tương đương một đầu báo cháy khói kiểu điểm. (3.11)
+- Đầu báo cháy tự động lấy mẫu thông qua các miệng hút lấy mẫu không khí trên hệ thống đường ống và đưa mẫu không khí (hút) từ khu vực bảo vệ đến thiết bị để phân tích và phát hiện dấu hiệu cháy (khói, thay đổi thành phần hóa học của môi trường). (3.11)
 **Khi nào áp dụng / được phép:**
 - Cho phép bảo vệ phòng cao đến 40 m, lỗ lấy mẫu bố trí hai lớp: lớp 1 không thấp hơn loại B ở độ cao không quá 30 m (dưới các tầng giá đỡ); lớp 2 loại A ở độ cao không quá 40 m (dưới trần). (5.9.1.2.2, Bảng 2)
 
@@ -494,15 +614,26 @@
 - Lắp cho khu vực có chiều cao trần đến 40 m. (5.9.1.3.1)
 - Khói không đối lưu lên tới trần hoặc mái thì lắp bổ sung đầu báo tia chiếu ở chiều cao trung gian. (5.9.1.3.4)
 
+### Đầu báo cháy nhiệt cố định (còn gọi: Fixed temperature heat detector)
+**Định nghĩa:**
+- Đầu báo cháy nhiệt nhạy cảm với nhiệt độ môi trường đạt đến một giá trị xác định (ngưỡng). (3.7)
+
+### Đầu báo cháy nhiệt gia tăng (còn gọi: Rate of rise heat detector)
+**Định nghĩa:**
+- Đầu báo cháy nhiệt, tác động khi tốc độ gia tăng nhiệt độ tại vị trí lắp đặt đầu báo cháy đạt đến giá trị xác định. (3.8)
+
 ### Đầu báo cháy nhiệt kiểu điểm (còn gọi: Heat detector)
 **Định nghĩa:**
 - Đầu báo cháy nhiệt: đầu báo cháy tự động nhạy cảm với sự gia tăng nhiệt độ của môi trường nơi lắp đặt. (3.6)
+- Đầu báo cháy tự động nhạy cảm với sự gia tăng nhiệt độ của môi trường nơi lắp đặt đầu báo cháy. (3.6)
 **Khi nào áp dụng / được phép:**
 - Dùng ở nơi cháy giai đoạn đầu chủ yếu phát sinh nhiệt và dùng đầu báo khác có thể báo cháy giả. (4.1.5.4)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không dùng đầu báo nhiệt gia tăng hoặc nhiệt kép trong môi trường biến động nhiệt độ đột ngột vượt quá 5 °C/min; không dùng nhiệt cố định nơi nhiệt độ không khí trong đám cháy có thể không đạt ngưỡng hoặc đạt sau thời gian dài. (4.1.5.5)
 
-### Đầu báo khói (còn gọi: đầu báo cháy khói)
+### Đầu báo khói (còn gọi: đầu báo cháy khói, Smoke detector)
+**Định nghĩa:**
+- Đầu báo cháy tự động nhạy cảm với tác động của các hạt rắn hoặc lỏng sinh ra từ quá trình cháy và/hoặc quá trình phân hủy do nhiệt gọi là khói. (3.9)
 **Khi nào áp dụng / được phép:**
 - Trong các phòng của căn hộ và các hành lang tầng, kể cả sảnh thang máy, phải lắp đặt đầu báo khói; hệ thống báo cháy tự động phải báo rõ địa chỉ từng căn hộ. (QCVN 06:2022/BXD (sửa đổi 1:2023), phần yêu cầu cho nhà cao tầng (số điều chưa rõ trong đoạn trích))
 - Hệ thống chữa cháy bằng khí: khi dùng hai hoặc nhiều bộ phát hiện, như đầu báo khói hoặc lửa, thì hệ thống chỉ nên vận hành sau khi nhận được tín hiệu từ hai bộ phát hiện. (tài liệu 'Hệ thống chữa cháy bằng khí', mục Vận hành tự động (chưa rõ số điều))
@@ -585,6 +716,11 @@
 - Tầng hầm phải có đường cho xe chữa cháy nằm trong phạm vi 18 m tính từ lối vào trên mặt đất của tất cả các khoang đệm của thang máy chữa cháy hoặc của buồng thang bộ thoát nạn có họng chờ DN 65 (hệ thống ống khô). (6.2.2.4)
 - Đường giao thông công cộng có thể dùng làm bãi đỗ xe chữa cháy nếu vị trí phù hợp quy định khoảng cách đến lối vào từ trên cao tại 6.2.3. (6.2.6)
 - Ví dụ trong tập huấn: nhà xưởng A, B, C, D đều có đường xe chữa cháy bao quanh mặt ngoài nhà.
+- Nhà nhóm F5 phải có một bãi đỗ xe chữa cháy; chiều dài bãi lấy theo Bảng 16, dựa vào tổng quy mô khối tích của nhà (không gồm tầng hầm). (6.2)
+- Chỉ yêu cầu có đường cho xe chữa cháy tiếp cận như 6.2.2.1 hoặc có phương án chữa cháy phù hợp khác đối với nhà F5 hạng A, B có tổng diện tích sàn đến 300 m2, và nhà F5 hạng C, D, E có diện tích và chiều cao không vượt giới hạn của nhà bậc chịu lửa V theo Phụ lục H. (6.2)
+- Khi điều kiện sản xuất không yêu cầu có đường vào thì đường cho xe chữa cháy được phép bố trí phần đường rộng 3,5 m cho xe chạy, nền gia cố chịu tải trọng xe chữa cháy và bảo đảm thoát nước mặt. (6.2)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Không quy định khoảng cách từ mép đường đến tường nhà khi không có yêu cầu cứu nạn từ trên cao và lực lượng chữa cháy có phương án khác để tiếp cận chữa cháy. (6.2)
 
 ### Đường dốc cách ly
 **Khi nào áp dụng / được phép:**
@@ -592,6 +728,14 @@
 - Gara trên mặt đất cho phép bố trí đường dốc không cách ly trong nhà cao không quá 3 tầng, bậc chịu lửa I, II cấp S0 và S1, tổng diện tích các tầng nối nhau bằng đường dốc không cách ly không quá 10.400 m². (2.2.1.13)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không bố trí gian phòng lưu giữ xe chạy khí hóa lỏng, khí nén tự nhiên trong gara dạng kín trên mặt đất có đường dốc không cách ly. (2.2.1.32 c)
+
+### Đường ống nước chữa cháy áp suất cao
+**Định nghĩa:**
+- Hệ thống đường ống nước chữa cháy thường có áp suất thấp; khi duy trì áp suất cao thì phải tính toán bảo đảm áp suất làm việc của hệ thống đường ống
+
+### Đường ống phân phối
+**Khi nào áp dụng / được phép:**
+- Lưu lượng nước chữa cháy ngoài nhà cho nhà nhóm F1, F2, F3, F4 được tính toán cho đường ống kết hợp và đường ống phân phối của mạng đường ống
 
 ### Đường thoát nạn (còn gọi: escape route, Lối ra thoát nạn)
 **Định nghĩa:**
@@ -720,6 +864,12 @@
 - Phòng sản xuất C2, C3 ở tầng hầm, bán hầm: không có lối ra ngoài trực tiếp thì báo cháy không phụ thuộc diện tích, chữa cháy từ 300 m²; có lối ra ngoài trực tiếp thì chữa cháy từ 700 m², báo cháy không bắt buộc. Trên mặt đất: báo cháy từ 300 m², chữa cháy từ 1 000 m². (Bảng A.3, mục 2.3)
 - Phòng sản xuất chất lỏng dễ cháy (dung môi, sơn, keo dán, dung dịch ngâm tẩm, cao su tổng hợp), huyền phù bột nhôm, keo cao su; phòng sơn; phòng tổng hợp cao su nhân tạo; phòng máy nén có tuabin khí; phòng gia nhiệt dầu mỏ và dầu diesel: báo cháy và chữa cháy không phụ thuộc diện tích. (Bảng A.3, mục 2.4)
 
+### Gian phòng thông 2 tầng hoặc nhiều tầng
+**Định nghĩa:**
+- Gian phòng có chiều cao thông từ 2 tầng trở lên trong phạm vi một nhà nhiều tầng. (QCVN 06:2022/BXD, Quy định chung)
+**Khi nào áp dụng / được phép:**
+- Nếu lỗ thông tầng không được bảo vệ ngăn cháy thì diện tích gian phòng được tính vào diện tích tổng cộng của nhà trong phạm vi một tầng. (QCVN 06:2022/BXD, Quy định chung)
+
 ### Giấy chứng nhận thẩm duyệt thiết kế về PCCC (còn gọi: Giấy chứng nhận thẩm duyệt)
 **Định nghĩa:**
 - Giấy do cơ quan Công an cấp cho dự án, công trình đã được thẩm duyệt thiết kế về PCCC. (NĐ 347/2026 Điều 29 khoản 1)
@@ -757,6 +907,14 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Cho phép không trang bị báo cháy tự động, chữa cháy tự động khi cáp được luồn trong ống hoặc bọc bằng vật liệu không cháy hoặc có tính cháy Ch1; hoặc là cáp, dây dẫn điện của hệ thống chiếu sáng, hệ thống thông tin. (Bảng A.2, chú thích (2))
 
+### Hạng mục xây mới độc lập
+**Định nghĩa:**
+- Hạng mục có khoảng cách, kết cấu riêng; dùng chung hạ tầng, trạm bơm, bể nước đã thẩm duyệt (Công văn C07, câu 8)
+**Khi nào áp dụng / được phép:**
+- Công trình đã thẩm duyệt, chưa nghiệm thu, xây mới hạng mục độc lập: chỉ xét thẩm định nếu hạng mục mới thuộc Phụ lục III (Công văn C07, câu 1, câu 8)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Ví dụ nhà kho mới 192 m², cao 7,9 m, độc lập với xưởng đã thẩm duyệt: không thuộc Phụ lục III nên không thuộc diện (Công văn C07, câu 8)
+
 ### Hạng nguy hiểm cháy nổ (còn gọi: hạng nguy hiểm cháy và cháy nổ, Hạng nguy hiểm cháy và cháy nổ, hạng nguy hiểm cháy, hạng theo tính nguy hiểm cháy và cháy nổ)
 **Định nghĩa:**
 - Nhà, công trình và gian phòng có công năng sản xuất, kho (nhóm F5) theo tính nguy hiểm cháy và cháy nổ được phân thành các hạng A, B, C, D, E theo QCVN 06:/BXD. (1.5.2)
@@ -769,10 +927,12 @@
 - Kho cất giữ hàng hạng C trên giá đỡ cao tầng phải bố trí trong nhà 1 tầng có bậc chịu lửa I đến IV và cấp nguy hiểm cháy kết cấu S0. Nếu bố trí trong nhà nhiều tầng thì giá đỡ cao tầng phải được bảo vệ bằng hệ thống chữa cháy tự động theo tài liệu chuẩn được phép áp dụng và phải bảo đảm mọi người trong nhà thoát nạn an toàn ra ngoài trong mọi trường hợp cháy. (A.1.3.10)
 - Cải tạo, sửa chữa làm tăng hạng nguy hiểm cháy và cháy nổ của tầng nhà, khoang cháy hoặc nhà thì phải áp dụng yêu cầu của quy chuẩn cho phần được cải tạo; nếu không thể đáp ứng thì áp dụng 1.1.10. (1.1 (điểm c; 1.1.10))
 - Lưu lượng nước chữa cháy ngoài nhà: nhà và khu vực kho lạnh bảo quản thực phẩm lấy giống nhà hạng C; nhà phục vụ nông nghiệp và phát triển nông thôn bậc chịu lửa I, II, khối tích không lớn hơn 5 000 m3, hạng D, E lấy bằng 5 L/s. (Chú thích 7 và Chú thích 3 (mục cấp nước chữa cháy ngoài nhà))
+- Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao lớn nhất và diện tích một tầng trong khoang cháy của nhà sản xuất phụ thuộc hạng nguy hiểm cháy nổ, theo Bảng H.9. (H.4.1)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Gian phòng hạng E, và hạng C4 (trừ gian phòng trong nhà F1.1, F1.2, F2.1, F4.1, F4.2) được loại khỏi yêu cầu trang bị báo cháy/chữa cháy tự động theo Phụ lục A. (1.5.11)
 - Nhà, công trình và gian phòng có công năng khác (không phải sản xuất và kho) không phân hạng theo tính nguy hiểm cháy và cháy nổ, trừ các gian phòng nêu tại 2.5.5.2. (2.5.6)
 - Quy định cho phép không phân chia các khu vực khác nhóm nguy hiểm cháy theo công năng bằng bộ phận ngăn cháy (khi công năng chính chiếm phần lớn diện tích sàn tầng) không áp dụng nếu gian phòng công năng phụ trợ có hạng nguy hiểm cháy và cháy nổ cao hơn gian phòng công năng chính. (mục bố trí công năng trong tầng nhà (số điều bị cắt trong nguồn))
+- Nhà bậc chịu lửa IV và V không được tăng gấp 2 lần diện tích khi có chữa cháy tự động. (H.4.1)
 
 ### Hành lang bên (còn gọi: hành lang ngoài)
 **Định nghĩa:**
@@ -810,6 +970,7 @@
 ### Hệ thống báo cháy địa chỉ (còn gọi: Addressable fire alarm system)
 **Định nghĩa:**
 - Hệ thống báo cháy khi báo cháy sẽ báo đến từng thiết bị địa chỉ trong hệ thống (đầu báo cháy địa chỉ, module, nút ấn báo cháy địa chỉ,…). (3.2)
+- Khi báo cháy sẽ báo đến từng thiết bị địa chỉ trong hệ thống (đầu báo cháy địa chỉ, module, nút ấn báo cháy địa chỉ…). (QCVN 10:2025/BCA, 1.4.10)
 **Khi nào áp dụng / được phép:**
 - Phải trang bị khi xây dựng mới đối với: nhà điều trị nội trú có tổng diện tích sàn từ 3 000 m² trở lên; nhà khám, chữa bệnh của bệnh viện tâm thần có tổng diện tích sàn từ 3 000 m² trở lên; nhà dưỡng lão có tổng diện tích sàn từ 3 000 m² trở lên; các nhà dân dụng có chiều cao PCCC từ 75 m trở lên. (Bảng A.1, CHÚ THÍCH 2)
 
@@ -820,6 +981,10 @@
 - Gara trên mặt đất dạng kín từ 2 tầng trở lên (trừ gara có lối ra ngoài trời trực tiếp từ từng ngăn và gara cơ khí): sức chứa tới 100 chỗ-xe loại 1; lớn hơn 100 chỗ-xe loại 2. (2.3.5.5)
 - Gara ngầm từ 2 tầng hầm trở lên: tới 50 chỗ-xe loại 2; trên 50 đến 200 chỗ-xe loại 3; trên 200 chỗ-xe loại 4 và 5. (2.3.5.5)
 
+### Hệ thống báo cháy không dây (còn gọi: Wireless fire alarm system)
+**Định nghĩa:**
+- Là hệ thống báo cháy sử dụng sóng vô tuyến để truyền (đoạn văn bản bị cắt, chưa đủ định nghĩa). (3.12)
+
 ### Hệ thống báo cháy thông minh (còn gọi: Intelligent fire alarm system)
 **Định nghĩa:**
 - Ngoài chức năng báo cháy còn có khả năng đo lường các thông số của đám cháy tại khu vực lắp đặt đầu báo cháy như nhiệt độ, nồng độ khói; có thể tự điều chỉnh ngưỡng tác động của các đầu báo cháy để thích nghi với sự thay đổi của môi trường, nâng cao hiệu quả phát hiện cháy và giảm thiểu báo cháy giả. (3.3)
@@ -827,28 +992,44 @@
 ### Hệ thống báo cháy thường (còn gọi: Conventional fire alarm system)
 **Định nghĩa:**
 - Hệ thống báo cháy khi báo cháy sẽ báo đến một khu vực, khu vực đó có thể có một hoặc nhiều đầu báo cháy. (3.1)
+- Khi báo cháy sẽ báo đến một khu vực, khu vực đó có thể có một hoặc nhiều đầu báo cháy. (QCVN 10:2025/BCA, 1.4.9)
 
 ### Hệ thống báo cháy tự động
 **Định nghĩa:**
 - Hệ thống tự động phát hiện và thông báo địa điểm cháy; gồm trung tâm báo cháy, đầu báo cháy, hộp nút ấn báo cháy, chuông đèn báo cháy, các bộ phận liên kết, nguồn điện; tùy yêu cầu có module, thiết bị truyền tín hiệu, giám sát. Gồm hệ thống báo cháy thường và hệ thống báo cháy địa chỉ. (1.4.8)
+- Có module, thiết bị truyền tín hiệu, giám sát. Gồm hệ thống báo cháy thường và hệ thống báo cháy địa chỉ (đoạn đầu định nghĩa bị cắt trong trích đoạn). (QCVN 10:2025/BCA, 1.4 (đoạn ngay trước 1.4.9))
 **Khi nào áp dụng / được phép:**
 - Nhà, công trình, hạng mục/khu vực, gian phòng có quy mô quy định tại Phụ lục A phải trang bị cho toàn bộ nhà, công trình, gian phòng (trừ các khu vực loại trừ nêu ở 1.5.11 và 1.5.12). Xác định theo thứ tự: toàn nhà (Bảng A.1), hạng mục/khu vực (Bảng A.2), gian phòng (Bảng A.3), thiết bị (Bảng A.4). (1.5.9; 1.5.11)
+- Trang bị theo Bảng A.1 cho toàn nhà, sau đó Bảng A.2 cho hạng mục/khu vực, Bảng A.3 cho gian phòng, Bảng A.4 cho thiết bị trong phạm vi công trình. (QCVN 10:2025/BCA, 1.5.9, Phụ lục A)
+- Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ (phần kinh doanh dưới 30 % tổng diện tích sàn): cao từ 7 tầng trở lên. (Bảng A.1 mục 1)
+- Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy (phần sản xuất, kinh doanh dưới 30 % tổng diện tích sàn): cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên. (Bảng A.1 mục 2)
+- Chung cư, nhà ở tập thể, ký túc xá thuộc cơ sở giáo dục: cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 700 m² trở lên. (Bảng A.1 mục 3)
+- Nhà trẻ, trường mẫu giáo, mầm non: từ 100 cháu trở lên hoặc tổng diện tích sàn từ 300 m² trở lên. (Bảng A.1 mục 4)
+- Khách sạn, nhà khách, nhà nghỉ, cơ sở nghỉ dưỡng, dịch vụ lưu trú: cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 700 m² trở lên. (Bảng A.1 mục 18)
+- Nhà trụ sở, văn phòng, cơ sở nghiên cứu chuyên ngành: cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên. (Bảng A.1 mục 20)
+- Nhà hỗn hợp, chung cư có mục đích sử dụng hỗn hợp: cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên. (Bảng A.1 mục 21)
+- Nhà để xe, trưng bày ô tô, xe máy dạng kín đặt tại tầng hầm, tầng bán hầm hoặc trên mặt đất từ 02 tầng trở lên: không phụ thuộc diện tích. (Bảng A.1 mục 25.1)
+- Nhà trẻ, trường mẫu giáo, trường mầm non và cơ sở giáo dục mầm non khác: có từ 100 cháu trở lên hoặc tổng diện tích sàn từ 300 m² trở lên. (Bảng A.1, STT 4)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không bắt buộc ở: khu vực có quy trình ướt, hồ bơi, phòng tắm, phòng rửa, vệ sinh; gian phòng hạng E; gian phòng hạng C4 (trừ gian phòng trong nhà F1.1, F1.2, F2.1, F4.1, F4.2); hành lang bên; cầu thang bộ, buồng thang bộ; khoang đệm ngăn cháy; khu vực không có nguy hiểm về cháy. (1.5.11)
 - Gian phòng cao không quá 10 m trong nhà nhóm F5 (không tính gian phòng F5 nằm trong nhà thuộc nhóm công năng khác) đã có hệ thống chữa cháy tự động liên động với trung tâm báo cháy thì được không trang bị đầu báo cháy tự động; các thiết bị khác của hệ thống vẫn phải có và phải điều khiển được thiết bị ngoại vi. (1.5.6)
+- Nhà để xe ô tô một hoặc hai tầng dạng ngăn (ngăn cách tối thiểu bằng vách ngăn cháy loại 1, có lối ra ngoài trời trực tiếp từ từng ngăn): cho phép không trang bị hệ thống báo cháy tự động và chữa cháy tự động, với điều kiện mỗi ngăn không quá 2 xe. (Bảng A.1 chú thích (4))
 
-### Hệ thống cấp nước chữa cháy ngoài nhà (còn gọi: cấp nước chữa cháy ngoài nhà)
+### Hệ thống cấp nước chữa cháy ngoài nhà (còn gọi: cấp nước chữa cháy ngoài nhà, lưu lượng nước chữa cháy ngoài nhà)
 **Định nghĩa:**
 - Hệ thống thiết bị chuyên dùng lắp đặt ngoài nhà để cấp nước phục vụ chữa cháy. (1.4.7)
 **Khi nào áp dụng / được phép:**
 - Phải trang bị cho các đối tượng nêu ở Bảng C.1, gồm: nhà khám, chữa bệnh, lưu trú bệnh nhân của bệnh viện cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 3 000 m² trở lên; chợ hạng 1, chợ hạng 2, trung tâm thương mại (không phụ thuộc quy mô); hầm giao thông đường bộ dài từ 500 m trở lên; cơ sở đóng mới, sửa chữa, bảo dưỡng phương tiện thủy nội địa, tàu biển có tổng diện tích sàn từ 1 500 m² trở lên; nhà máy nhiệt điện, trạm biến áp từ 220 kV trở lên; kho cố định chứa vật liệu nổ, tiền chất thuốc nổ công nghiệp từ 20 tấn thuốc nổ trở lên; khu dân cư, khu đô thị, khu nhà ở, khu công nghiệp, cụm công nghiệp, khu du lịch, khu nghiên cứu, đào tạo, khu thể dục, thể thao (không phụ thuộc quy mô). (Phụ lục C, Bảng C.1)
 - Thiết kế, lắp đặt theo H.1, H.3 và TCVN 6379. (2.3.3)
 - Việc trang bị cấp nước chữa cháy ngoài nhà phải được thực hiện khi đầu tư xây dựng hạ tầng kỹ thuật của các khu dân cư, đô thị, khu công nghiệp, khu chế xuất, khu công nghệ cao, cụm công nghiệp và các khu có đặc điểm tương tự. (5.1.1.1 (Sửa đổi 1:2023))
+- Nhà nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà (bồn, bể, trụ nước, hồ nước chữa cháy tự nhiên và nhân tạo, nguồn tương tự) thì không yêu cầu bắt buộc phải trang bị cấp nước chữa cháy ngoài nhà.
+- Phải trang bị khi đầu tư xây dựng hạ tầng kỹ thuật của khu dân cư, đô thị, khu công nghiệp, khu chế xuất, khu công nghệ cao, cụm công nghiệp và các khu có đặc điểm tương tự (5.1.1.1 Sửa đổi 1:2023)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Cho phép không trang bị khi nhà, công trình nằm trong bán kính 400 m tính từ trụ cấp nước chữa cháy hoặc từ bến lấy nước của nguồn nước tự nhiên hoặc nhân tạo (ao, hồ, sông, bể nước, nguồn nhân tạo khác) đến mọi điểm của nhà xét theo phương ngang, và lưu lượng/trữ lượng nước chữa cháy bảo đảm theo quy định. (2.3.2)
 - Mục 9a, 9b, 9c của Bảng C.1 (nhà máy sản xuất, lắp ráp ô tô; công trình sản xuất săm, lốp ô tô; công trình sản xuất, kho trạm chiết nạp sản phẩm hóa dầu) không yêu cầu đối với nhà, công trình nằm trong khu công nghiệp, cụm công nghiệp. (Bảng C.1, chú thích (3))
 - Chú thích (1): trạm dừng nghỉ chỉ yêu cầu với trạm được quy hoạch theo các tuyến đường cao tốc. Chú thích (2): kho chứa khí hóa lỏng chỉ yêu cầu với kho nằm độc lập, không gồm kho của cơ sở sản xuất, dân dụng. (Bảng C.1, chú thích (1), (2))
 - Nhà nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà (bồn, bể, trụ nước chữa cháy ngoài nhà, hồ nước chữa cháy tự nhiên và nhân tạo và các nguồn nước tương tự khác) thì không yêu cầu bắt buộc phải trang bị cấp nước chữa cháy ngoài nhà. (5.1.1.1 (Sửa đổi 1:2023), xem 5.1.4.7; 5.1.5.9)
+- Nhà nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà thì không bắt buộc phải trang bị cấp nước chữa cháy ngoài nhà (5.1.1.1 Sửa đổi 1:2023)
 
 ### Hệ thống chữa cháy (còn gọi: hệ thống họng nước chữa cháy, hệ thống cấp nước chữa cháy)
 **Khi nào áp dụng / được phép:**
@@ -889,7 +1070,7 @@
 - Nhà và công trình có chiều cao PCCC lớn hơn 28 m (lớn hơn 50 m đối với nhà nhóm F1.3) hoặc nhà có chiều sâu sàn tầng hầm dưới cùng (tính đến cao độ lối ra thoát nạn ra ngoài) lớn hơn 9 m phải bố trí, có họng chờ DN65 lắp van khóa thường đóng cho lực lượng chữa cháy chuyên nghiệp tại các sảnh thang máy chữa cháy hoặc trong các khoang đệm của buồng thang bộ không nhiễm khói. (2.4.4)
 - Công trình đang thi công có chiều cao từ 10 tầng trở lên hoặc chiều cao PCCC từ 28 m trở lên, khi thi công hoàn thiện nội thất, lắp đặt thiết bị cơ điện: phải bố trí tối thiểu 01 hệ thống đường ống khô có họng nước đến mỗi tầng, kết nối được với xe chữa cháy, máy bơm chữa cháy bằng đầu nối bố trí bên ngoài công trình. (2.4.3)
 
-### Hệ thống loa thông báo và hướng dẫn thoát nạn (còn gọi: Thiết bị loa cảnh báo và chỉ dẫn thoát nạn bằng giọng nói, Thiết bị loa cảnh báo cháy và điều khiển thoát nạn)
+### Hệ thống loa thông báo và hướng dẫn thoát nạn (còn gọi: Thiết bị loa cảnh báo và chỉ dẫn thoát nạn bằng giọng nói, Thiết bị loa cảnh báo cháy và điều khiển thoát nạn, loa thông báo)
 **Định nghĩa:**
 - Hệ thống phải bảo đảm mọi người trong nhà và công trình có thể nghe rõ thông báo, hướng dẫn khi có sự cố. (H.4)
 **Khi nào áp dụng / được phép:**
@@ -900,6 +1081,7 @@
 - Nhà sản xuất: tổng diện tích sàn từ 18 000 m² trở lên và có từ 300 người trên 1 tầng trở lên. (Bảng G.1, STT 4)
 - Hầm giao thông đường bộ (hầm đường ô tô): chiều dài từ 500 m trở lên. (Bảng G.1, STT 5)
 - Nhà ga hành khách thuộc cảng hàng không; nhà ga hành khách, đề-pô đường sắt; nhà ga hành khách, đề-pô đường sắt đô thị: không phụ thuộc quy mô. (Bảng G.1, STT 6)
+- Trang bị loa theo QCVN 10:2025/BCA Bảng G.1 và mục H.4 (nội dung chi tiết xem knowledge/qcvn10-2025-den-loa.md). (Phụ lục G (Bảng G.1), H.4)
 
 ### Hệ thống Sprinkler (còn gọi: Sprinklers tự động, Đầu phun Sprinkler)
 **Định nghĩa:**
@@ -941,6 +1123,7 @@
 **Định nghĩa:**
 - Họng nước lưu lượng thấp: từ 0,2 L/s đến 1,5 L/s (thiết bị đường kính DN 5, DN 10, DN 15, DN 20, DN 25, DN 40). Lưu lượng trung bình: lớn hơn 1,5 L/s (5.2.1)
 - Họng nước chữa cháy lưu lượng thấp: từ 0,2 L/s đến 1,5 L/s, thiết bị DN 5, DN 10, DN 15, DN 20, DN 25, DN 40. Lưu lượng trung bình: lớn hơn 1,5 L/s (Phương án trang bị hệ thống)
+- Tổ hợp thiết bị chuyên dùng (vòi, lăng chữa cháy, đầu nối, van) lắp đặt, trang bị sẵn để triển khai đưa nước đến đám cháy. (1.4.6)
 **Khi nào áp dụng / được phép:**
 - Nhà ở, nhà công cộng, nhà hành chính - phụ trợ của công trình công nghiệp, nhà sản xuất, nhà kho phải lắp hệ thống họng nước chữa cháy trong nhà (5.2.1)
 - Phương án 1 (lưu lượng trung bình): mọi công trình; Phương án 2 (lưu lượng nhỏ + đường ống họng khô) và Phương án 4 (nhỏ kết hợp trung bình): nhà ở, công trình công cộng; Phương án 3 (lưu lượng nhỏ): công trình có chữa cháy tự động toàn bộ công trình (5.2.18)
@@ -960,6 +1143,10 @@
 **Khi nào áp dụng / được phép:**
 - Hệ thống họng nước chữa cháy trong nhà và công trình phải có họng chờ ở ngoài nhà, đầu nối kích cỡ phù hợp để kết nối phương tiện chữa cháy di động (Họng tiếp nước vào hệ thống)
 
+### Hồ sơ đề nghị thẩm định ở cơ quan Công an
+**Định nghĩa:**
+- Gồm văn bản theo Mẫu PC11; giấy tờ hợp pháp về đất đai hoặc văn bản về chủ trương đầu tư, xây dựng; hồ sơ thiết kế thể hiện các nội dung điểm e và g khoản 1 Điều 16 Luật PCCC và CNCH. (Điều 14 NĐ 347/2026 (sửa Điều 9 khoản 4 điểm a NĐ 105/2025))
+
 ### Hồ sơ thiết kế hệ thống chữa cháy bằng khí
 **Khi nào áp dụng / được phép:**
 - Hồ sơ phải gồm: bản vẽ tỷ lệ (bình chứa, vị trí bình, đường ống, đầu phun, van, cơ cấu giảm áp nếu có, khoảng cách giá treo ống); tên chủ sở hữu và người sử dụng; vị trí tòa nhà và khu vực bảo vệ; vị trí, cấu trúc thành và vách ngăn của cấu kiện bao che; mặt cắt ngang cấu kiện bao che, chiều cao hoặc sơ đồ bố trí gồm sàn nâng và trần treo; loại khí chữa cháy; nồng độ dập tắt/làm trơ, nồng độ thiết kế, nồng độ lớn nhất; mô tả vùng có nguy cơ cháy lan; đặc tính bình chứa (dung tích, áp suất bảo quản, khối lượng kể cả khí); mô tả đầu phun (kích thước, miệng lỗ, cỡ/mã lỗ, lỗ cơ cấu giảm áp); mô tả đường ống, van, phụ tùng (vật liệu, cấp, áp suất); danh mục thiết bị (tên, nhà sản xuất, model, số lượng); sơ đồ không gian hệ thống phân phối (chiều dài, đường kính từng đoạn ống, số nút tính lưu lượng); tính toán nén tăng áp của cấu kiện bao che và thông gió; mô tả hệ thống phát hiện, khởi động và điều khiển (Hồ sơ thiết kế, mục a)–o) (TCVN 7161-1))
@@ -968,9 +1155,10 @@
 **Khi nào áp dụng / được phép:**
 - Hồ sơ thiết kế hệ thống phải thể hiện: mặt bằng và kết cấu tường bao, tường ngăn khu vực bảo vệ; mặt bằng tường ngăn cháy (nếu có); mặt cắt, mặt bằng sàn, sàn kỹ thuật, trần, trần treo; loại Sol-khí; nồng độ thiết kế; (khu vực thường có người) nồng độ thiết kế lớn nhất cho phép; loại và sức chứa danh định (khối lượng) của bình phun; dây cáp, dây điện; phương pháp gắn đầu báo; danh mục thiết bị; sơ đồ khu vực bảo vệ (tường bao, chiều cao toàn phần/từng phần, đầu báo, chuông đèn, điều khiển, sơ đồ đấu dây, thiết bị cuối kênh, thiết bị được điều khiển như van/cửa chớp, biển chỉ dẫn, vị trí bình phun); sơ đồ tủ hiển thị phụ (nếu có); chi tiết giá đỡ ống, gắn bình phun; mô tả vận hành (ngắt tạm dừng, ngắt bảo trì, thời gian trễ, ngắt điện khẩn cấp); sơ đồ kết nối; tính toán thể tích, lượng chất, nguồn điện dự phòng, số lượng và vị trí thiết bị âm thanh, hình ảnh, đầu báo; khoảng cách tối thiểu từ bình phun đến vật liệu dễ cháy và đến lối ra thoát nạn; các tính năng đặc biệt khác. (mục a–t)
 
-### Hố thu nước (còn gọi: hố thu)
+### Hố thu nước (còn gọi: hố thu, bể trung gian)
 **Khi nào áp dụng / được phép:**
 - Khi không thể hút nước chữa cháy trực tiếp từ bồn, bể hoặc hồ bằng xe máy bơm hoặc máy bơm di động thì phải cung cấp các hố thu. (5.1.5.10)
+- Khi không thể hút nước chữa cháy trực tiếp từ bồn, bể hoặc hồ bằng xe bơm hoặc máy bơm di động thì phải cung cấp hố thu. (5.1.5.10)
 
 ### Hộp nút ấn báo cháy (còn gọi: nút ấn báo cháy)
 **Khi nào áp dụng / được phép:**
@@ -980,6 +1168,11 @@
 - Cho phép lắp nút ấn báo cháy chung với vùng phát hiện cháy khi các nút ấn được lắp ở bên ngoài. (5.10.2)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Khi quãng đường di chuyển vượt quá 45 m thì lắp thêm một hộp bổ sung và không cần áp dụng yêu cầu về vị trí trong 5.10.1. (Chú thích 5.10.3)
+
+### Hút khói, thoát khói tự nhiên, chống tụ khói, tăng áp (cấp không khí chống khói)
+**Định nghĩa:**
+- Chống tụ khói là hút/thoát khói khỏi gian phòng, hành lang
+- Tăng áp là cấp gió tạo áp dương cho buồng thang, giếng thang máy, khoang đệm
 
 ### Hướng lắp đặt đầu phun
 **Khi nào áp dụng / được phép:**
@@ -1048,6 +1241,7 @@
 - Diện tích khoang cháy là diện tích lớn nhất của một tầng trong phạm vi một khoang cháy. Diện tích một tầng trong phạm vi một khoang cháy là diện tích tầng được giới hạn bởi các tường bao của nhà và (hoặc) các tường ngăn cháy loại 1 (H.6.2)
 - Thể tích được giới hạn bởi các thành phần xây dựng để ngăn cản đám cháy và các sản phẩm cháy lan truyền từ một khoang cháy hoặc từ một gian phòng có đám cháy tới các khoang cháy hoặc gian phòng khác. (3.19)
 - Một phần của khoang cháy được ngăn bởi các bộ phận ngăn cháy và (hoặc) khu vực không có tải trọng cháy. (Thuật ngữ)
+- Khoang cháy, nhà và các công trình xây dựng sau đây gọi chung là nhà (quy ước dùng trong quy chuẩn). (1.1.1)
 **Khi nào áp dụng / được phép:**
 - Phần nhà có công năng xác định (và công năng phụ trợ) được ngăn cách thành khoang cháy riêng thì Phụ lục H áp dụng cho phần nhà (khoang cháy) đó; công năng độc lập khác được bố trí ở phần nhà phía trên khoang cháy khi thỏa điều kiện Phụ lục H đối với công năng đó (H.7.1)
 - Nhà bậc chịu lửa I, II, cấp S0 có chữa cháy tự động toàn nhà: diện tích khoang cháy ở các bảng H.2 đến H.4 tăng không quá 2 lần (H.2.12.2)
@@ -1062,6 +1256,15 @@
 - Khi không yêu cầu phát hiện cháy toàn bộ nhà, phạm vi thiết kế có thể gồm một hoặc nhiều khoang cháy hoặc một phần khoang cháy. (5.3)
 - Cho phép ngăn chia khoang cháy theo phương đứng bằng tầng kỹ thuật được ngăn cách với các tầng liền kề bằng sàn ngăn cháy loại 2, nếu các tường ngăn cháy loại 1 không lệch khỏi trục chính. (2.5.3)
 - Cho phép phân chia khoang cháy trong nhà có bậc chịu lửa IV và V bằng tường ngăn cháy loại 2. (2.5.3)
+- Phần nhà có công năng xác định (và công năng phụ trợ) được ngăn cách thành một khoang cháy riêng thì các yêu cầu của Phụ lục H áp dụng cho phần nhà (khoang cháy) đó. Công năng độc lập khác được bố trí ở phần nhà phía trên khoang này khi thỏa điều kiện Phụ lục H đối với công năng đó. (H.7.1)
+- Số tầng, chiều cao hoặc diện tích không được quy định cụ thể hoặc bị giới hạn trong Phụ lục H thì có thể áp dụng NFPA 5000 hoặc tài liệu chuẩn khác, hoặc theo luận chứng kỹ thuật (phải gồm điều kiện thoát nạn cho người). (H.7.2)
+- Cho phép phân chia khoang cháy nhà bậc IV và V bằng tường ngăn cháy loại 2.
+
+### Khoảng đệm không nhiễm khói
+**Khi nào áp dụng / được phép:**
+- Dẫn tới các buồng thang bộ không nhiễm khói loại N1; tính không nhiễm khói phải được bảo đảm bằng thông gió tự nhiên với giải pháp kết cấu và bố trí mặt bằng - không gian phù hợp. (3.4.10)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Yêu cầu khoảng cách 4 m tới đỉnh góc không áp dụng với lối đi nằm ở các góc tiếp giáp lớn hơn hoặc bằng 135°, cũng như phần nhô ra của tường ngoài không lớn hơn 1,2 m. (3.4.10 a))
 
 ### Khoang đệm ngăn cháy (còn gọi: khoang đệm, khoang đệm có áp suất không khí dương)
 **Khi nào áp dụng / được phép:**
@@ -1107,6 +1310,7 @@
 ### Khối tích (còn gọi: Khối tích của nhà)
 **Định nghĩa:**
 - Khối tích của một không gian trong phạm vi một nhà hoặc khoang cháy. Không bao gồm tường của thang máy được bảo vệ, buồng thang bộ thoát nạn và các không gian khác (ví dụ khu vệ sinh, buồng để đồ) được bao che bằng tường có giới hạn chịu lửa không thấp hơn 60 phút, đồng thời lối đi qua tường được bảo vệ bằng cửa ngăn cháy loại 2 có cơ cấu tự đóng. (Thuật ngữ)
+- Tổng khối tích các phần nhà trên mặt đất tính từ cốt ± 0,00 trở lên và phần ngầm từ cốt hoàn thiện nền sàn tầng hầm dưới cùng lên đến cốt ± 0,00; tính theo kích thước từ mặt ngoài kết cấu bao che, kể cả ô lấy sáng và thông gió của mỗi phần của nhà. (QCVN 06:2022/BXD, Quy định chung; QCVN 10:2025/BCA 1.4.25 (theo TCVN 9255))
 **Khi nào áp dụng / được phép:**
 - Khối tích là một tiêu chí quy mô: nhà ở riêng lẻ có khối tích từ 5 000 m3 trở lên thuộc phạm vi áp dụng QCVN 06. (1.1.2)
 - Khối tích nhà là căn cứ tra lưu lượng nước chữa cháy ngoài nhà (Bảng 8, 9, 10) và số tia phun, lưu lượng chữa cháy trong nhà (Bảng 11, 12). (Bảng 8–12)
@@ -1214,6 +1418,13 @@
 **Định nghĩa:**
 - Lối ra trên đường thoát nạn dẫn ra khu vực an toàn từ khu vực bị cháy, nổ. (3.2)
 
+### Lối thoát nạn khẩn cấp
+**Định nghĩa:**
+- Lối thoát nạn khẩn cấp gồm ra ban công, lô gia thoáng, qua cửa sổ hoặc lối thoát nạn khẩn cấp tương tự. (Sửa đổi 1:2023, điều kiện một lối ra thoát nạn)
+**Khi nào áp dụng / được phép:**
+- Nhà có chiều cao PCCC từ trên 15 m đến 21 m và từ trên 21 m đến 25 m: người trong nhà có thể thoát ra ngoài qua lối thoát nạn khẩn cấp với các thiết bị hỗ trợ thoát nạn, hoặc lên được sân thượng thoáng khi có cháy. (Sửa đổi 1:2023)
+- Nhà từ 3 tầng trở xuống hoặc chiều cao PCCC từ 9 m trở xuống dùng cầu thang bộ loại 2: người trong nhà thoát ra lối thoát nạn khẩn cấp hoặc lên được sân thượng thoáng. (Sửa đổi 1:2023)
+
 ### Lối vào từ trên cao
 **Định nghĩa:**
 - Lối xuyên qua tường ngoài vào bên trong nhà từ trên cao, dùng để triển khai hoạt động chữa cháy và cứu nạn; có thể là lỗ thông trên tường ngoài, cửa sổ, cửa ban công, tấm tường lắp kính, tấm cửa mở được từ trong và ngoài. (6.2.1.4, 6.3.1)
@@ -1236,6 +1447,10 @@
 ### Lượng khí CO2 cần thiết để chữa cháy (còn gọi: Mct)
 **Khi nào áp dụng / được phép:**
 - Căn cứ đặc điểm chất cháy từng khu vực bảo vệ, tra bảng 1, bảng 2 TCVN 6101-1996 để xác định hệ số vật liệu KB, nồng độ CO2 thiết kế, thời gian duy trì τng, thời gian xả của hệ thống τx (Bảng 1, bảng 2 TCVN 6101-1996)
+
+### Lưu lượng cần thiết của hệ thống sprinkler (còn gọi: Q_CT)
+**Định nghĩa:**
+- Q_CT: lưu lượng cần thiết của hệ thống, l/s; là tổng lưu lượng q_i tại các đầu phun tính toán (mục e/)
 
 ### Lưu lượng cấp nước chữa cháy ngoài nhà (còn gọi: lưu lượng nước cho chữa cháy ngoài nhà, Lưu lượng nước cho chữa cháy ngoài nhà)
 **Khi nào áp dụng / được phép:**
@@ -1287,6 +1502,13 @@
 **Khi nào áp dụng / được phép:**
 - Đường kính ống phân phối và số đầu phun lắp trên đó xác định theo bảng tương quan. Với đầu phun có áp suất 0,5 MPa trở lên: DN20 – 1; DN25 – 3; DN32 – 5; DN40 – 9; DN50 – 18; DN70 – 28; DN80 – 46; DN100 – 80; DN125 – 150; DN150 – trên 150. Với áp suất đến 0,5 MPa: DN25 – 2; DN32 – 3; DN40 – 5; DN50 – 10; DN70 – 20; DN80 – 36; DN100 – 75; DN125 – 140; DN150 – trên 140. (Tập huấn TCVN 7336:2021)
 
+### Máy biến áp đặt trong gian phòng của nhà có công năng khác
+**Khi nào áp dụng / được phép:**
+- Báo cháy tự động: không phụ thuộc công suất (Bảng A.4 mục 5)
+- Chữa cháy tự động: công suất từ 63 MVA trở lên hoặc điện áp từ 110 kV trở lên (Bảng A.4 mục 5)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Không bao gồm trường hợp mục 3 của bảng (Bảng A.4 mục 5)
+
 ### Máy bơm cấp nước chữa cháy (máy bơm dự phòng, thời gian kích hoạt) (còn gọi: trạm bơm cấp nước chữa cháy)
 **Khi nào áp dụng / được phép:**
 - Máy bơm chữa cháy dù thiết kế riêng hay kết hợp với hệ thống sinh hoạt, sản xuất đều phải có máy bơm dự phòng, thông số lưu lượng, áp lực không nhỏ hơn máy bơm chính (5.3.1)
@@ -1331,13 +1553,17 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Cho phép máy bơm chữa cháy chính chỉ đấu nối với một nguồn điện nếu có máy bơm dự phòng là máy bơm động cơ diesel. (2.4.1.6.1)
 
-### Mặt nạ lọc độc
+### Mặt nạ lọc độc (còn gọi: mặt nạ phòng độc cách ly)
+**Định nghĩa:**
+- Thiết bị bảo hộ cá nhân bảo vệ cơ quan hô hấp trong một thời gian và ở giới hạn nồng độ ô xy trong không khí nhất định. (QCVN 10:2025/BCA, 1.4.12)
 **Khi nào áp dụng / được phép:**
 - Nhà, công trình phải trang bị mặt nạ lọc độc theo Phụ lục F. (2.7.2)
 - Khách sạn, nhà khách, nhà nghỉ và cơ sở dịch vụ lưu trú khác cao từ 3 tầng trở lên: trang bị tại tất cả các tầng nhà. (Bảng F.1, STT 1)
 - Nhà kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở karaoke, vũ trường và nhà có công năng sử dụng tương tự, không phụ thuộc quy mô: trang bị tại tất cả các tầng nhà. (Bảng F.1, STT 2)
 
 ### Mặt nạ phòng độc cách ly
+**Định nghĩa:**
+- Thiết bị bảo hộ cá nhân bảo vệ cơ quan hô hấp chống sự xâm nhập của không khí bên ngoài; gồm mặt trùm toàn bộ khuôn mặt và bình khí thở. (QCVN 10:2025/BCA, 1.4.13)
 **Khi nào áp dụng / được phép:**
 - Nhà, công trình phải trang bị mặt nạ phòng độc cách ly theo Phụ lục F. Trang bị tối thiểu 03 bộ cho: cơ sở chế biến khí đốt công suất từ 10 triệu m³ khí/ngày đêm trở lên; nhà máy lọc dầu, hóa dầu, lọc-hóa dầu (không phụ thuộc quy mô); kho dầu mỏ và sản phẩm dầu mỏ tổng dung tích từ 100 000 m³ trở lên; nhà máy thủy điện từ 1 000 MW trở lên; nhà máy nhiệt điện từ 600 MW trở lên; nhà máy dệt từ 25 triệu m²/năm trở lên; khu công nghiệp tổng diện tích từ 75 ha trở lên; bến cảng biển thuộc công trình cấp I trở lên có xuất, nhập chất nổ, chất khí, lỏng, rắn dễ cháy thuộc danh mục hàng hóa nguy hiểm. (2.7.2, Bảng F.1 STT 3–10)
 
@@ -1382,11 +1608,23 @@
 - Kết thúc nghiệm thu phải lập hồ sơ: phiếu kết quả thử nghiệm, vận hành và biên bản nghiệm thu; bản vẽ hoàn công; hồ sơ, tài liệu hướng dẫn vận hành, bảo dưỡng, sửa chữa thiết bị. (3.3.1)
 - Chủ đầu tư thiết kế, thi công, kiểm tra, giám sát theo đúng thiết kế về PCCC đã được thẩm duyệt; thực hiện kiểm tra, bảo dưỡng theo quy định; lưu giữ hồ sơ, phiếu kết quả kiểm tra, bảo dưỡng, vận hành định kỳ để xuất trình khi cơ quan có thẩm quyền yêu cầu. (5.1)
 
+### Nghiệm thu về PCCC (còn gọi: Nội dung được nghiệm thu về PCCC)
+**Định nghĩa:**
+- Chủ đầu tư tự tổ chức nghiệm thu về PCCC, chịu trách nhiệm về kết quả. (Điều 16 NĐ 347/2026 (sửa Điều 12 NĐ 105/2025))
+**Khi nào áp dụng / được phép:**
+- Khai báo trên hệ thống Cơ sở dữ liệu về PCCC, CNCH và truyền tin báo cháy trước khi đưa công trình vào hoạt động. (Điều 16 NĐ 347/2026)
+
 ### Nghiệm thu về PCCC (chủ đầu tư tự tổ chức)
 **Định nghĩa:**
 - Chủ đầu tư tự tổ chức nghiệm thu về PCCC, chịu trách nhiệm về kết quả; khai báo trên hệ thống Cơ sở dữ liệu về PCCC, CNCH và truyền tin báo cháy trước khi đưa công trình vào hoạt động. (Điều 16 NĐ 347/2026 (sửa Điều 12 NĐ 105/2025))
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Bãi bỏ Điều 10 NĐ 105 (kiểm tra công tác nghiệm thu của cơ quan Công an) và các Mẫu PC15, PC16, PC17, PC19, PC20, PC21. (NĐ 347/2026 (mục 7))
+
+### Nguồn điện chữa cháy (còn gọi: Cấp điện cho thiết bị điện của hệ thống bảo vệ chống cháy)
+**Khi nào áp dụng / được phép:**
+- Thiết bị điện của hệ thống bảo vệ chống cháy của nhà phải được cấp điện ưu tiên từ hai nguồn độc lập (một nguồn điện lưới và một nguồn máy phát điện dự phòng). (3.1.10)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Thiết bị có nguồn dự phòng riêng (ví dụ bơm diezen, tủ chống cháy có ắc quy dự phòng) chỉ cần một nguồn điện lưới, nhưng nguồn dự phòng riêng phải bảo đảm hoạt động bình thường khi có cháy. (3.1.10 (Chú thích))
 
 ### Nguồn điện của máy bơm (còn gọi: Nguồn điện và các thiết bị bảo vệ mạch điện)
 **Khi nào áp dụng / được phép:**
@@ -1453,6 +1691,13 @@
 **Khi nào áp dụng / được phép:**
 - Có thể thực hiện theo 9.2 (chỉ để ở) đối với nhà quy mô: chiều cao PCCC ≤ 15 m, diện tích sàn mỗi tầng ≤ 100 m² (hoặc ≤ 300 m² khi phần không để ở chỉ bố trí đồ đạc, hàng hóa không cháy), số người mỗi tầng ≤ 20. (9.3.3.1 a; 9.3.3.2)
 
+### Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ
+**Định nghĩa:**
+- Nhà ở riêng lẻ có phần diện tích để kinh doanh dưới 30 % tổng diện tích sàn của nhà (Bảng A.1 mục 1, chú thích (2))
+**Khi nào áp dụng / được phép:**
+- Báo cháy tự động: cao từ 7 tầng trở lên (cho phép trang bị thiết bị báo cháy độc lập) (Bảng A.1 mục 1)
+- Chữa cháy tự động: chiều cao PCCC từ 30 m trở lên (Bảng A.1 mục 1)
+
 ### Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ, sản xuất, kinh doanh hàng hóa dễ cháy (còn gọi: nhà ở riêng lẻ kết hợp sản xuất, kinh doanh)
 **Khi nào áp dụng / được phép:**
 - Dưới 30 %: áp dụng mục 1 (kinh doanh dịch vụ) hoặc mục 2 (sản xuất, kinh doanh hàng hóa dễ cháy) của Bảng A.1. (Bảng A.1, mục 1, 2)
@@ -1461,7 +1706,14 @@
 - Phần diện tích sản xuất, kinh doanh không quá 70 %: trang bị họng nước chữa cháy trong nhà khi cao từ 7 tầng trở lên. (Bảng B.1, mục 1.1)
 - Phần diện tích sản xuất, kinh doanh trên 70 % trở lên: việc trang bị họng nước chữa cháy trong nhà thực hiện theo công năng sản xuất, kinh doanh. (Bảng B.1, chú thích 1)
 
-### Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường (còn gọi: karaoke, vũ trường, cơ sở kinh doanh dịch vụ karaoke, vũ trường, nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường, Karaoke)
+### Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy
+**Định nghĩa:**
+- Nhà ở riêng lẻ có phần diện tích để sản xuất, kinh doanh dưới 30 % tổng diện tích sàn của nhà (Bảng A.1 mục 2, chú thích (2))
+**Khi nào áp dụng / được phép:**
+- Báo cháy tự động: cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên (cho phép thiết bị báo cháy độc lập khi cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 500 m²) (Bảng A.1 mục 2)
+- Chữa cháy tự động: chiều cao PCCC từ 30 m trở lên (Bảng A.1 mục 2)
+
+### Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường (còn gọi: karaoke, vũ trường, cơ sở kinh doanh dịch vụ karaoke, vũ trường, nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường, Karaoke, nhà karaoke, vũ trường)
 **Định nghĩa:**
 - Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường. (Bảng A.1, mục 13)
 **Khi nào áp dụng / được phép:**
@@ -1474,6 +1726,8 @@
 - Xác định số tia phun và lưu lượng họng nước chữa cháy trong nhà theo mục 4 Bảng H.5 (ký túc xá và nhà công cộng): ≤ 10 tầng và khối tích ≤ 25 000 m³: 1 tia × 2,5 L/s; ≤ 10 tầng và > 25 000 m³: 2 tia; > 10 tầng và ≤ 25 000 m³: 2 tia; > 10 tầng và > 25 000 m³: 3 tia (mỗi tia 2,5 L/s). (Bảng H.5 mục 4)
 - Mốc tham chiếu đã duyệt và nghiệm thu: 1 tầng, diện tích 925,12m², gồm 16 phòng karaoke, 01 phòng bếp, 01 phòng trực điều khiển PCCC, 02 phòng kỹ thuật; khối tích 3.931,76m³. (Quy mô công trình)
 - Cấu hình PCCC được nghiệm thu: hệ thống báo cháy tự động; chữa cháy tự động sprinkler; họng nước chữa cháy trong nhà; cấp nước chữa cháy ngoài nhà; bể nước PCCC 45m³; trạm bơm PCCC 16m²; loa thông báo và hướng dẫn thoát nạn; đèn chiếu sáng sự cố và đèn chỉ dẫn thoát nạn. (Nội dung được nghiệm thu về PCCC)
+- Bố trí tại tầng hầm, tầng bán hầm: hệ thống báo cháy và hệ thống chữa cháy tự động đều không phụ thuộc vào diện tích. Dòng 13.2 (các tầng trên mặt đất) bị cắt trong trích đoạn. (Bảng A.1 mục 13.1)
+- Nhà kinh doanh karaoke, vũ trường bố trí từ tầng 3 trở lên thì phải trang bị hệ thống chữa cháy tự động cho toàn bộ nhà. (Bảng A.1 chú thích (1))
 
 ### Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường (nhóm F2.1) trong nhà ở riêng lẻ (còn gọi: phòng kinh doanh dịch vụ karaoke, dịch vụ vũ trường, nhóm F2.1)
 **Định nghĩa:**
@@ -1487,6 +1741,11 @@
 ### Nhiệt độ tác động danh định của đầu phun (còn gọi: nhiệt độ làm việc của đầu phun)
 **Khi nào áp dụng / được phép:**
 - Nhiệt độ làm việc của đầu phun phải chọn phù hợp với nhiệt độ môi trường trong khu vực bảo vệ. (Điều 5.2.17, 5.2.18)
+
+### Nhiều công trình trong một dự án (ghi chú Phụ lục III)
+**Khi nào áp dụng / được phép:**
+- Chủ đầu tư nộp đồng thời hồ sơ: Công an thẩm định công trình thuộc diện và các hạng mục khác có yêu cầu về PCCC (khoản 1 Điều 16 Luật; Công văn C07, câu 5)
+- Dự án có công trình thuộc diện thì các hạng mục khác cũng thẩm định; tổng diện tích sàn lấy theo nhà lớn nhất (quy trình bước 2)
 
 ### Nhóm nguy cơ phát sinh cháy (còn gọi: nhóm nguy cơ cháy, nhóm 1, 2, 3, 4.1, 4.2, 5, 6, 7, Nhóm nguy cơ cháy)
 **Định nghĩa:**
@@ -1510,6 +1769,11 @@
 - Nhà, công trình, gian phòng dựa trên tính nguy hiểm cháy theo công năng được phân thành các nhóm F1, F2, F3, F4, F5 theo QCVN 06:/BXD. (1.5.2)
 **Khi nào áp dụng / được phép:**
 - Phụ lục H quy định bậc chịu lửa, cấp S, chiều cao PCCC, diện tích khoang cháy theo nhóm: F1.1 (nhà trẻ, mẫu giáo, mầm non, bệnh viện, nhà ngủ nội trú); F1.3 (nhà ở căn hộ); F2.1, F2.2 (cơ sở văn hóa); F2.3 (công trình thể thao); F3.1 (thương mại); F3.4 (khám đa khoa ngoại trú); F3.5 (dịch vụ); F4.1 (trường phổ thông); F4.3 (hành chính - phụ trợ của sản xuất và kho); F5.1, F5.2, F5.3 (sản xuất, kho, chăn nuôi) (H.1–H.5)
+- Các phần nhà và gian phòng thuộc các nhóm nguy hiểm cháy theo công năng khác nhau phải ngăn cách bằng bộ phận ngăn chia có giới hạn chịu lửa và cấp nguy hiểm cháy kết cấu theo quy định, hoặc bằng vách ngăn cháy loại 1 và (hoặc) sàn ngăn cháy loại 3, bộ phận ngăn cháy tối thiểu EI 45 với nhà bậc I đến III, EI 15 với nhà bậc IV, hoặc giải pháp tương đương. (4.5)
+- Một tầng có từ hai công năng trở lên, trong đó một công năng chính chiếm tối thiểu 90% diện tích sàn tầng và các công năng còn lại là phụ trợ, thì cho phép không cần phân chia khu vực các nhóm công năng bằng bộ phận ngăn cháy (nguồn còn điều kiện kèm theo, văn bản bị cắt). (4.5)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Không cho phép bố trí gian phòng nhóm F5 hạng A hoặc B dưới các gian phòng dùng cho hơn 50 người có mặt đồng thời; không bố trí trong tầng hầm, tầng nửa hầm. Không cho phép bố trí gian phòng nhóm F1.1, F1.2, F1.3 trong tầng hầm và tầng nửa hầm. (3.1.6)
+- Bệnh viện và trường phổ thông chỉ cho phép bố trí công năng khám bệnh không điều trị nội trú, văn phòng, phụ trợ từ tầng bán hầm (hoặc hầm 1 nếu không có tầng bán hầm) trở lên. (3.1.7)
 
 ### NOAEL (còn gọi: Mức ảnh hưởng không có hại quan sát được, no observed adverse effect level)
 **Định nghĩa:**
@@ -1523,14 +1787,21 @@
 - Khi cải tạo, thay đổi tính chất sử dụng của công trình, hạng mục công trình phải đảm bảo yêu cầu PCCC, rồi gửi hồ sơ đến cơ quan Cảnh sát PCCC và CNCH theo thẩm quyền để được thẩm duyệt thiết kế và nghiệm thu. Văn bản dẫn Điều 11 NĐ 136/2020/NĐ-CP (đã hết hiệu lực từ 01/7/2025); điều khoản thay thế phải tra lại ở NĐ 105/2025/NĐ-CP đã sửa bởi NĐ 347/2026/NĐ-CP. (Các yêu cầu kèm theo; Điều 11 NĐ 136/2020/NĐ-CP)
 
 ### Nội dung thẩm định của cơ quan chuyên môn về xây dựng
+**Định nghĩa:**
+- Gồm (phần nguồn có): (c) lối thoát nạn, đường thoát nạn, thang bộ thoát nạn, thang máy chữa cháy, lối ra khẩn cấp, lối ra mái, gian lánh nạn; (d) bậc chịu lửa, phân chia khoang cháy, bố trí mặt bằng, công năng, hạng nguy hiểm cháy nổ, các bộ phận, cấu kiện, hệ thống kỹ thuật; (đ) giải pháp chống khói: thoát khói cho nhà, gian phòng; cấp không khí bảo vệ chống khói cho giếng thang máy, buồng thang bộ, khoang đệm. (mục (c)–(đ); các điểm a, b không có trong đoạn trích)
 **Khi nào áp dụng / được phép:**
 - (a) khoảng cách PCCC giữa các công trình, tới công trình tiếp giáp, ranh giới đất; (b) đường, bãi đỗ, vị trí, lối vào tiếp cận chữa cháy, cứu nạn; (c) lối thoát nạn, đường thoát nạn, thang bộ thoát nạn, thang máy chữa cháy, lối ra khẩn cấp, lối ra mái, gian lánh nạn; (d) bậc chịu lửa, phân chia khoang cháy, bố trí mặt bằng, công năng, hạng nguy hiểm cháy nổ, các bộ phận, cấu kiện, hệ thống kỹ thuật; (đ) giải pháp chống khói: thoát khói cho nhà, gian phòng; cấp không khí bảo vệ chống khói cho giếng thang máy, buồng thang bộ, khoang đệm. (Điều 6 khoản 2 NĐ 105/2025)
 - Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo. (Điều 6 khoản 2 điểm e)
 
-### Nội dung thẩm định của cơ quan Công an
+### Nội dung thẩm định của cơ quan Công an (còn gọi: Nội dung thẩm định về PCCC của cơ quan Công an)
+**Định nghĩa:**
+- Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 **Khi nào áp dụng / được phép:**
 - Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 - Thẩm định điều chỉnh hoặc cải tạo thì chỉ trong phạm vi điều chỉnh, cải tạo. Đây cũng là cách chia của bảng A1–A26 và B1–B14. (Điều 9 khoản 2 điểm e)
+- Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo. (Điều 9 khoản 2 điểm e)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Dòng ngoài phạm vi điều chỉnh, cải tạo ghi KHÔNG ÁP DỤNG, lý do "ngoài phạm vi điều chỉnh, cải tạo". (mục 8 bước 5 (cách dùng khi thẩm))
 
 ### Nồng độ thiết kế
 **Định nghĩa:**
@@ -1604,12 +1875,34 @@
 - Trừ: công trình tạm theo pháp luật xây dựng; công trình thuộc dự án đầu tư đặc biệt; công trình của cơ sở quốc phòng hoạt động quân sự; phương tiện giao thông chế tạo hoặc hoán cải chuyên dùng cho quân sự. (Điều 9 khoản 1 NĐ 105/2025)
 
 ### Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn
+**Định nghĩa:**
+- Đèn chiếu sáng sự cố, biển báo an toàn (lối ra, chỉ hướng), sơ đồ chỉ dẫn thoát nạn, theo TCVN 13456:2022. (thuat-ngu-chuan.md)
+- Gồm đèn chiếu sáng sự cố, biển báo an toàn (lối ra, chỉ hướng) và sơ đồ chỉ dẫn thoát nạn
 **Khi nào áp dụng / được phép:**
 - Nhà, công trình phải trang bị phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn theo quy định tại TCVN 13456. (2.2.1)
 
 ### Phương tiện chữa cháy cơ giới (còn gọi: xe ô tô chữa cháy, tàu chữa cháy, máy bơm chữa cháy loại khiêng tay)
 **Khi nào áp dụng / được phép:**
 - Các kho, cơ sở sản xuất, cảng hàng không, bến cảng, khu công nghiệp, cụm công nghiệp, ngoài việc trang bị hệ thống chữa cháy, phải trang bị phương tiện chữa cháy cơ giới theo Phụ lục D. (2.8.1)
+
+### Quy mô công trình (còn gọi: tính riêng từng khối tách biệt)
+**Định nghĩa:**
+- Công trình khác nhau, có kết cấu khác nhau và tách biệt bằng tường thì diện tích (và số tầng, khối tích) được tính riêng từng khối, không cộng gộp với khối kia. (Bài học 10 (người thẩm định dạy, 2026-10-20))
+**Khi nào áp dụng / được phép:**
+- So với ngưỡng Phụ lục III NĐ 105/2025 (ghi chú: tổng diện tích sàn lấy theo nhà có quy mô lớn nhất), ngưỡng trang bị của QCVN 10:2025/BCA Phụ lục A, B, C và ngưỡng khoang cháy đều xét theo từng khối. (Phụ lục III NĐ 105/2025; Phụ lục A, B, C QCVN 10:2025/BCA)
+- Nhà đã bảo đảm khoảng cách an toàn PCCC, thoát nạn, ngăn cháy lan, nối nhau bằng lối đi thì cho phép tính diện tích, khối tích riêng từng nhà. (QCVN 10:2025/BCA mục 1.4.26)
+
+### Sàn công tác, sàn đỡ thiết bị, sàn giá đỡ (còn gọi: sàn giá đỡ nhiều tầng)
+**Khi nào áp dụng / được phép:**
+- Được tính vào diện tích khoang cháy của tầng chứa nó (nhà 1 tầng: cộng tất cả; nhà nhiều tầng: cộng các sàn nằm trong tầng đó). (QCVN 06:2022/BXD, Quy định chung)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Diện tích sàn của giá đỡ nhiều tầng dùng để bảo dưỡng đường ray phía dưới cầu trục, bảo dưỡng cần trục, băng tải, đường ray đơn và thiết bị chiếu sáng không nằm trong tổng diện tích của nhà. (QCVN 06:2022/BXD, Quy định chung)
+
+### Sàn lửng (còn gọi: tầng lửng)
+**Khi nào áp dụng / được phép:**
+- Nhà 1 tầng: khi tính diện tích một tầng trong phạm vi một khoang cháy phải cộng thêm diện tích của tất cả các sàn lửng. (QCVN 06:2022/BXD, Quy định chung)
+- Nhà nhiều tầng (hoặc phần nhà nhiều tầng): diện tích khoang cháy của mỗi tầng cộng thêm diện tích các sàn lửng nằm trong tầng đó. (QCVN 06:2022/BXD, Quy định chung)
+- Nhà kho có sàn lửng: số tầng và diện tích tầng trong phạm vi một khoang cháy xác định tương tự nhà sản xuất (H.4.1); khi có lỗ mở trên sàn giữa các tầng thì tổng diện tích các tầng không vượt giá trị Bảng H.11. (QCVN 06:2022/BXD, H.5.2)
 
 ### Sàn thông tầng (còn gọi: lỗ thông tầng)
 **Khi nào áp dụng / được phép:**
@@ -1640,6 +1933,8 @@
 - Ngăn chặn cháy lan đối với sảnh thông tầng theo Điều 4.35 và H.6.2 (Phụ lục H), chỉ áp dụng cho nhà dân dụng và nhà ga hành khách. (Điều 4.35, H.6.2)
 - Diện tích tầng trong phạm vi khoang cháy có sảnh thông tầng xác định theo Phụ lục H; nếu có ngăn cách theo 4.35 b) thì là tổng diện tích tầng dưới cùng của gian thông tầng và hành lang, lối đi bộ, gian phòng các tầng phía trên trong phạm vi không gian được ngăn cách; nếu không ngăn cách thì là tổng diện tích các tầng tương ứng. (4.35 d))
 - Cho phép hút xả khói tự nhiên từ sảnh thông tầng nếu có luận cứ tính toán phù hợp. (4.35 e))
+- Diện tích tầng trong phạm vi khoang cháy có sảnh thông tầng được xác định theo Phụ lục H.
+- Để chữa cháy trong sảnh thông tầng, cho phép lắp đầu phun sprinkler bên dưới kết cấu nhô ra của sàn giữa các tầng, ban công (kể cả dưới thang cuốn) mà không phải lắp vào mái sảnh.
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Các lỗ mở trên sàn nối thông chỉ vì mục đích làm thang bộ, thang cuốn, giếng thang máy, hoặc các giếng, kênh kỹ thuật không được coi là sảnh thông tầng. (Điều 1.4.50)
 
@@ -1647,6 +1942,7 @@
 **Khi nào áp dụng / được phép:**
 - Cơ sở công nghiệp hoặc nông nghiệp: diện tích đến 150 ha lấy 1 đám cháy; trên 150 ha lấy 2 đám cháy (Số đám cháy tính toán đồng thời)
 - Khu vực kho dạng hở hoặc kín chứa vật liệu từ gỗ: diện tích kho đến 50 ha lấy 1 đám cháy; trên 50 ha lấy 2 đám cháy (Số đám cháy tính toán đồng thời)
+- Kết hợp đường ống chữa cháy khu dân cư với cơ sở công nghiệp ngoài khu dân cư: cơ sở đến 150 ha và dân số đến 10 000 người lấy 1 đám cháy (lưu lượng theo bên lớn hơn); dân số 10 000–25 000 người lấy 2 đám cháy. (5.1.3.2)
 
 ### Số lối ra thoát nạn
 **Khi nào áp dụng / được phép:**
@@ -1655,7 +1951,11 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Nhà bậc chịu lửa V không được áp dụng ngoại lệ một lối. Nhà trên 3 tầng hoặc có chiều cao PCCC > 9 m: lối ra thoát nạn của gian phòng và mỗi tầng phải tuân thủ yêu cầu của quy chuẩn.
 
-### Số tầng nhà (còn gọi: số tầng cao của công trình, số tầng của nhà, Số tầng của nhà)
+### Số lượng đầu phun tính toán tối thiểu
+**Khi nào áp dụng / được phép:**
+- Dùng để xác định số đầu phun đưa vào tính toán thủy lực mạng đầu phun (mục e/)
+
+### Số tầng nhà (còn gọi: số tầng cao của công trình, số tầng của nhà, Số tầng của nhà, số tầng cao)
 **Định nghĩa:**
 - Gồm toàn bộ các tầng trên mặt đất (kể cả tầng kỹ thuật, tầng tum) và tầng bán/nửa hầm, không gồm tầng áp mái. (1.4.24)
 - Số tầng tòa nhà bao gồm toàn bộ các tầng trên mặt đất (kể cả tầng kỹ thuật, tầng lửng, tầng tum) và tầng nửa hầm. (Slide 'Lưu ý khi xét số tầng' (TT 06/2021/TT-BXD))
@@ -1664,6 +1964,7 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không tính tầng áp mái. (1.4.24)
 - Tầng tum không tính vào số tầng cao của công trình khi diện tích mái tum không vượt quá 30% diện tích sàn mái, có chức năng sử dụng làm tum thang, kỹ thuật (theo Thông tư 06/2021/TT-BXD ngày 30/6/2021 về cấp công trình). (Thông tư 06/2021/TT-BXD, nêu trong tài liệu sửa đổi 1:2023)
+- Tầng tum không tính vào số tầng cao khi diện tích mái tum không vượt quá 30 % diện tích sàn mái, có chức năng làm tum thang, kỹ thuật. (Sửa đổi 1:2023 QCVN 06 (theo TT 06/2021/TT-BXD))
 
 ### Sơ đồ chỉ dẫn thoát nạn (còn gọi: evacuation plan)
 **Định nghĩa:**
@@ -1689,9 +1990,17 @@
 - Nhà chung cư, nhà ở tập thể, nhà công cộng thuộc diện áp dụng khi không quá 3 tầng hầm; nhà sản xuất, nhà kho khi không quá 1 tầng hầm. (Điều 1.1.2 (slide Phạm vi điều chỉnh))
 - Tầng hầm và nửa hầm có diện tích lớn hơn 300 m2 hoặc dùng cho hơn 15 người có mặt đồng thời thì phải có từ 2 lối ra thoát nạn trở lên. (Slide 'Số lối ra thoát nạn')
 
+### Tầng hầm và nửa hầm (diện tích, số người)
+**Khi nào áp dụng / được phép:**
+- Nguồn nêu tiêu chí: tầng hầm và nửa hầm có diện tích lớn hơn 300 m2 hoặc dùng cho hơn 15 người có mặt đồng thời (nằm trong danh sách điều kiện liên quan số lối ra thoát nạn; nguồn cắt đoạn nên phải đối chiếu toàn văn). (QCVN 06 (cần đối chiếu toàn văn))
+
 ### Tầng kỹ thuật (còn gọi: tầng hầm kỹ thuật, tầng áp mái kỹ thuật)
 **Định nghĩa:**
 - Tầng kỹ thuật bao gồm cả tầng hầm kỹ thuật và tầng áp mái kỹ thuật. (6.8)
+
+### Tầng lửng không tính vào số tầng
+**Khi nào áp dụng / được phép:**
+- Mỗi công trình chỉ được xác định có một tầng lửng không tính vào số tầng. (QCVN 10:2025/BCA, chú thích (6))
 
 ### Tầng tum (còn gọi: mái tum)
 **Khi nào áp dụng / được phép:**
@@ -1720,6 +2029,12 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không dùng thang máy chủ yếu vận chuyển hàng hóa làm thang máy chữa cháy. (6.13)
 
+### Thay thế hệ thống
+**Khi nào áp dụng / được phép:**
+- Thay thế hệ thống thuộc danh sách đóng thay đổi thiết kế phải thẩm định lại; đối chiếu với khoản 3 Điều 9 NĐ 105/2025, điểm b (thay thế hệ thống chữa cháy) (khoản 3 Điều 9 NĐ 105/2025)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Chỉ thay một số thiết bị như đầu phun, đầu báo cháy… là bảo dưỡng, sửa chữa thông thường, không coi là thay thế hệ thống (Công văn C07, mục 5.4)
+
 ### Thay thế hệ thống / trang bị bổ sung hệ thống (báo cháy, chữa cháy) (còn gọi: thay thế, trang bị bổ sung)
 **Định nghĩa:**
 - Thay thế hệ thống: báo cháy địa chỉ sang báo cháy thường hoặc ngược lại; chữa cháy bằng nước sang bọt, bột, khí hoặc ngược lại. (Công văn C07 (khoản 3 Điều 9))
@@ -1734,17 +2049,33 @@
 **Khi nào áp dụng / được phép:**
 - Trong một số trường hợp riêng biệt có thể thay thế một số yêu cầu của Quy chuẩn đối với công trình cụ thể khi có luận chứng kỹ thuật nêu rõ giải pháp bổ sung, thay thế bảo đảm an toàn cháy và được cơ quan quản lý về PCCC và CNCH chấp thuận: công trình thuộc khoản 1 Điều 9 TT 36/2025/TT-BCA và NĐ 105/2025/NĐ-CP do Cục Cảnh sát PCCC và CNCH chấp thuận; công trình thuộc khoản 2 Điều 9 TT 36/2025/TT-BCA, không thuộc diện thẩm định thiết kế nhưng phải trang bị phương tiện, do Phòng Cảnh sát PCCC và CNCH Công an cấp tỉnh chấp thuận. (1.1.6)
 
-### Thẩm duyệt điều chỉnh
+### Thẩm duyệt điều chỉnh (còn gọi: thẩm định thiết kế điều chỉnh)
 **Định nghĩa:**
 - Thủ tục chỉ còn cho dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC (trước 01/7/2025) mà trước hoặc trong thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025. (Điều 29 khoản 1 NĐ 347/2026 (sửa khoản 3 Điều 46 NĐ 105/2025))
 - Việc thẩm duyệt khi dự án, công trình đã có Giấy chứng nhận thẩm duyệt thiết kế về PCCC mà trước hoặc trong quá trình thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025. (NĐ 347/2026 Điều 29 khoản 1, sửa khoản 3 Điều 46 NĐ 105/2025)
+- Việc áp dụng với dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC, mà trước hoặc trong thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025 (danh sách 5.1 và 5.2). (Điều 29 khoản 1 NĐ 347/2026 (sửa khoản 3 Điều 46 NĐ 105/2025))
+- "Thẩm duyệt điều chỉnh" chỉ còn dùng cho dự án đã được cấp Giấy chứng nhận thẩm duyệt trước 01/7/2025. Dự án thẩm định theo NĐ 105/2025 gọi là "thẩm định thiết kế điều chỉnh". (Mục 1, mục 5)
 **Khi nào áp dụng / được phép:**
 - Đã thẩm duyệt, chưa nghiệm thu, nay thay đổi công năng (vd. F3.4 thành F1.1): phải thẩm duyệt điều chỉnh. Đã có Giấy chứng nhận, đã thi công mà đề nghị thẩm định lại theo NĐ 105: thực hiện theo khoản 3 Điều 46; chưa thi công: chủ đầu tư có thể đề nghị thẩm định theo NĐ 105/2025. (Công văn C07 (khoản 3 Điều 46 NĐ 105/2025; câu 13))
 - Dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC mà trước hoặc trong quá trình thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025 (danh sách 5.1 và 5.2 của nguồn) thì thực hiện thẩm duyệt điều chỉnh. (NĐ 347/2026 Điều 29 khoản 1, sửa khoản 3 Điều 46 NĐ 105/2025)
+- Công trình đã thẩm duyệt, chưa nghiệm thu, thay đổi công năng (ví dụ nhóm F3.4 thành F1.1) phải thẩm duyệt điều chỉnh (khoản 3 Điều 46 NĐ 105/2025)
+- Đối chiếu từng thay đổi với danh sách đóng 5.1 (xây dựng) và 5.2 (Công an); trùng thì phải thẩm định lại, không trùng thì áp dụng mục 5.3 (quy trình bước 3)
+- Đã có Giấy chứng nhận thẩm duyệt, chưa chấp thuận nghiệm thu thì tiếp tục theo khoản 3 Điều 46 NĐ 105/2025. (mục 5.3)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Dự án thẩm định theo NĐ 105/2025 dùng thuật ngữ 'thẩm định thiết kế điều chỉnh', không dùng 'thẩm duyệt điều chỉnh'. (mục 1)
 - Đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô, đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý và thông số bơm đã thẩm định, có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công: không thuộc diện thẩm định điều chỉnh. (mục 5)
 - Chưa có Giấy chứng nhận thẩm duyệt thì thẩm định theo Điều 6, 7, 8, 9 NĐ 105/2025, không phải thẩm duyệt điều chỉnh. (NĐ 105/2025 Điều 6, 7, 8, 9)
+- Chỉ xét phần điều chỉnh, cải tạo; dòng ngoài phạm vi ghi KHÔNG ÁP DỤNG, lý do "ngoài phạm vi điều chỉnh, cải tạo" (quy trình bước 5)
+
+### Thẩm định điều chỉnh (còn gọi: thẩm định lại, hồ sơ thiết kế điều chỉnh)
+**Định nghĩa:**
+- Điều chỉnh trong quá trình thi công: chủ đầu tư lập hồ sơ thiết kế điều chỉnh và tổ chức thẩm định trước khi tiếp tục thi công; kết quả thẩm định là căn cứ phê duyệt thiết kế xây dựng. (Điều 8 khoản 1 NĐ 105/2025)
+**Khi nào áp dụng / được phép:**
+- Khi điều chỉnh thiết kế hoặc thay đổi công năng, cải tạo trong quá trình sử dụng (khoản 2 Điều 17 Luật PCCC và CNCH), chỉ các trường hợp trong danh sách đóng. Phía xây dựng gồm: (a) thay đổi vị trí, diện tích xây dựng làm giảm khoảng cách PCCC đến đối tượng khác; (b) giảm kích thước đường, bãi đỗ chữa cháy, cứu nạn làm thay đổi khả năng tiếp cận của phương tiện cơ giới; (c) giảm bậc chịu lửa (đoạn trích bị cắt, các điểm sau chưa có). (Điều 6 khoản 4 NĐ 105/2025)
+- Hạng mục đầu tư giai đoạn sau, độc lập: không thuộc Phụ lục III thì không thuộc diện; đấu nối với hệ thống đã thẩm định mà làm đổi nguyên lý báo cháy, chữa cháy hoặc thông số bơm thì thuộc diện, không đổi thì không. (mục 5.3)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô nhưng đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định, có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công: không thuộc diện thẩm định điều chỉnh. (mục 5.3)
+- Dự án chưa góp ý thiết kế cơ sở trước 01/7/2025 mà không thuộc Phụ lục III thì không thuộc diện; đã góp ý thiết kế cơ sở nhưng chưa cấp Giấy chứng nhận thẩm duyệt và không thuộc Phụ lục III thì không thẩm định. (mục 5.3)
 
 ### Thẩm định điều chỉnh / cải tạo nhà đã đưa vào sử dụng (còn gọi: cải tạo, thay đổi)
 **Khi nào áp dụng / được phép:**
@@ -1761,6 +2092,12 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Ví dụ không phải thẩm định lại: đổi vị trí đầu báo, thêm đầu phun trong cùng hệ thống, đổi chủng loại bình chữa cháy, thêm bớt đèn EXIT; chỉ thay một số thiết bị như đầu phun, đầu báo là bảo dưỡng, sửa chữa thông thường, không coi là thay thế hệ thống. Các dòng thẩm chỉ trong phạm vi điều chỉnh; dòng ngoài phạm vi ghi KHÔNG ÁP DỤNG. (mục 5.3; Công văn C07)
 
+### Thẩm định thiết kế về PCCC (còn gọi: thẩm duyệt thiết kế về PCCC (cách gọi cũ))
+**Định nghĩa:**
+- Từ NĐ 105/2025, cơ quan Công an và cơ quan chuyên môn về xây dựng thẩm định thiết kế về PCCC (không còn gọi là "thẩm duyệt"). (Mục 1 (từ ngữ), NĐ 105/2025/NĐ-CP)
+**Khi nào áp dụng / được phép:**
+- Công trình khi thiết kế, cải tạo, thay đổi công năng sử dụng, và phương tiện giao thông khi sản xuất, lắp ráp, đóng mới, hoán cải thuộc danh mục Phụ lục III thì thuộc diện thẩm định thiết kế về PCCC. (Phụ lục III NĐ 105/2025/NĐ-CP)
+
 ### Thẩm định thiết kế về PCCC (ba nơi thẩm định) (còn gọi: thẩm định thiết kế PCCC)
 **Định nghĩa:**
 - Từ NĐ 105/2025, cơ quan Công an và cơ quan chuyên môn về xây dựng thẩm định thiết kế về PCCC (không còn gọi 'thẩm duyệt'). (NĐ 105/2025)
@@ -1768,9 +2105,20 @@
 - Cơ quan Công an chỉ thẩm định nội dung điểm e, g khoản 1 Điều 16 Luật PCCC và CNCH; điểm a, b, c, d, đ thuộc chủ đầu tư, chủ sở hữu và cơ quan chuyên môn về xây dựng. (Công văn C07 câu 6, 10, 12)
 - Nếu cả cơ quan xây dựng và Công an cùng thẩm định (công trình thuộc Điều 9 khoản 1), chủ đầu tư nộp đồng thời hai hồ sơ. (Điều 9)
 
+### Thể tích khu vực có sự cố cháy
+**Định nghĩa:**
+- V là thể tích của khu vực có sự cố cháy, tính bằng mét khối, nghĩa là thể tích được bao quanh trừ đi các cấu trúc cố định không thấm khí chữa cháy
+
+### Thể tích riêng
+**Định nghĩa:**
+- v là thể tích riêng, tính bằng mét khối trên kilôgam: v = k1 + k2 x T
+**Khi nào áp dụng / được phép:**
+- Dùng để tính tổng khối lượng khí chữa cháy Q, cả với khí hóa lỏng và khí không hóa lỏng
+
 ### Thiết bị báo cháy bằng ánh sáng (còn gọi: đèn báo cháy nhấp nháy)
 **Khi nào áp dụng / được phép:**
 - Lắp trên hành lang, lối ra thoát nạn; nơi người khiếm thính thường ở; nơi tiếng ồn xung quanh vượt 95 dBA; khu vực hạn chế âm thanh (ví dụ phòng mổ). (5.11.3.1.1)
+- Lắp trên hành lang, lối ra thoát nạn; nơi người khiếm thính thường ở; nơi có tiếng ồn xung quanh vượt quá 95 dBA; khu vực yêu cầu hạn chế âm thanh (ví dụ phòng mổ trong bệnh viện). (TCVN 7568-14:2025, 5.11.3.1.1)
 
 ### Thiết bị báo cháy bằng âm thanh (còn gọi: thiết bị báo động âm thanh)
 **Khi nào áp dụng / được phép:**
@@ -1778,8 +2126,12 @@
 - Khu vực như bệnh viện: bố trí mức âm và nội dung thông báo để báo cho nhân viên và giảm tối thiểu khủng hoảng tinh thần cho bệnh nhân. (5.11.2.2)
 
 ### Thiết bị báo cháy độc lập
+**Định nghĩa:**
+- Thiết bị tự động phát hiện và cảnh báo cháy bằng âm thanh. (QCVN 10:2025/BCA, 1.4.11)
 **Khi nào áp dụng / được phép:**
 - Nhiều dòng Bảng A.1 cho phép trang bị thiết bị báo cháy độc lập thay hệ thống báo cháy tự động khi nhà thấp tầng và diện tích nhỏ, ví dụ: nhà ở riêng lẻ kết hợp kinh doanh dịch vụ cao từ 7 tầng trở lên (mục 1); chung cư, nhà ở tập thể, ký túc xá khi thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m² (mục 3); nhà trẻ, mầm non khi tổng diện tích sàn nhỏ hơn 500 m² (mục 4); nhà dưỡng lão khi thấp hơn 3 tầng và nhỏ hơn 300 m² (mục 7); khách sạn, trụ sở, văn phòng khi thấp hơn 5 tầng và nhỏ hơn 1 500 m² (mục 18, 20). (Bảng A.1, mục 1, 3, 4, 7, 18, 20)
+- Được phép thay hệ thống báo cháy tự động khi nhà nhỏ hơn ngưỡng nêu trong ngoặc của từng dòng, ví dụ chung cư: chiều cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m²; nhà dưỡng lão: thấp hơn 3 tầng và nhỏ hơn 300 m². (Bảng A.1 mục 3, 7)
+- Cho phép trang bị thay hệ thống báo cháy tự động: nhà ở riêng lẻ kết hợp kinh doanh dịch vụ cao từ 7 tầng trở lên; nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy khi chiều cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 500 m²; chung cư, nhà ở tập thể, ký túc xá thuộc cơ sở giáo dục khi chiều cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m². (Bảng A.1, STT 1–3)
 
 ### Thiết bị báo mực nước két nước chữa cháy (còn gọi: thiết bị báo mực nước, dụng cụ báo tín hiệu mực nước)
 **Khi nào áp dụng / được phép:**
@@ -1846,6 +2198,7 @@
 - Khoảng thời gian trong đó nồng độ dập tắt được duy trì bên trong khu vực được bảo vệ (Thời gian duy trì trạng thái chữa cháy)
 **Khi nào áp dụng / được phép:**
 - Quan trọng với mọi loại đám cháy do nguồn đốt cháy dai dẳng (ngọn lửa hồ quang, nguồn tạo nhiệt, đèn hàn oxy-axetylen, ngọn lửa âm ỉ) có thể dẫn đến cháy lại khi khí chữa cháy đã tiêu tan (Thời gian duy trì trạng thái chữa cháy)
+- Không chỉ đạt được nồng độ hiệu quả của khí chữa cháy mà còn phải duy trì trong một khoảng thời gian đủ để việc chữa cháy có hiệu quả; đặc biệt quan trọng với các đám cháy do nguồn đốt cháy dai dẳng (ngọn lửa hồ quang, nguồn tạo nhiệt, đèn hàn oxy-axetylen, ngọn lửa âm ỉ) có thể dẫn đến cháy lại khi khí chữa cháy đã tiêu tan
 
 ### Thời gian đáp ứng của hệ thống chữa cháy tự động
 **Định nghĩa:**
@@ -1854,19 +2207,46 @@
 - Đường ống khô, Sprinkler khô và Sprinkler-Drencher điền khí: thời gian đáp ứng không quá 180 s. Bọt bội số nở cao: không quá 180 s. (5.2.4, 5.2.6, 6.3.1.3)
 - Với Sprinkler-Drencher điền khí (2) phải tính cả thời gian giảm áp khí nén đến mức kích hoạt công tắc áp lực. (5.4.5)
 
-### Thời gian phục hồi nước dự trữ chữa cháy
+### Thời gian phục hồi nước dự trữ chữa cháy (còn gọi: Thời gian phục hồi lượng nước dự trữ cho chữa cháy)
 **Định nghĩa:**
 - Thời gian lớn nhất để phục hồi nước dự trữ chữa cháy (Thời gian phục hồi nước chữa cháy)
 **Khi nào áp dụng / được phép:**
 - Khi không thể phục hồi lượng nước dự trữ theo thời gian quy định thì phải cung cấp thêm lượng nước bổ sung ΔW; W là lượng nước dự trữ chữa cháy (m³), K là tỷ số giữa thời gian phục hồi thực tế và thời gian phục hồi quy định (công thức ΔW = W(K − 1) theo bản gốc; dạng công thức trong nguồn bị lỗi định dạng) (Chú thích 2; tham chiếu 5.1.3.4)
+- Thời gian lớn nhất để phục hồi nước dự trữ chữa cháy: 24 giờ đối với khu dân cư trên 5 000 người hoặc cơ sở công nghiệp có các nhà thuộc hạng nguy hiểm cháy nổ A, B, C (5.1.3.4 QCVN 06)
+- 36 giờ đối với cơ sở công nghiệp có các nhà thuộc hạng nguy hiểm cháy nổ D và E (5.1.3.4 QCVN 06)
+- 72 giờ đối với các khu dân cư đến 5 000 người hoặc cơ sở nông nghiệp (5.1.3.4 QCVN 06)
+- Cơ sở công nghiệp có yêu cầu lưu lượng nước chữa cháy ngoài nhà đến 20 L/s thì cho phép tăng thời gian phục hồi lên đến 48 giờ đối với nhà hạng D và E; 36 giờ đối với nhà hạng C (Chú thích 1, 5.1.3.4 QCVN 06)
+- Khi không thể bảo đảm phục hồi lượng nước dự trữ theo thời gian quy định thì cần cung cấp thêm lượng nước bổ sung dự trữ cho chữa cháy ΔW (Chú thích 2, 5.1.3.4 QCVN 06)
+
+### Thời gian phun khí chữa cháy
+**Khi nào áp dụng / được phép:**
+- Khí hóa lỏng: việc phun phải hoàn thành càng nhanh càng tốt để dập tắt đám cháy và hạn chế sự tạo thành các sản phẩm phân hủy
 
 ### Thử thủy lực (còn gọi: áp suất thử)
 **Khi nào áp dụng / được phép:**
 - Đường ống chính và phân phối của Drencher, Sprinkler khô, Sprinkler-Drencher điền khí phải lắp để loại bỏ chất chữa cháy đọng lại sau khi kích hoạt hoặc sau khi thử nghiệm thủy lực. (5.5.10)
 
+### Thứ tự xét Phụ lục A QCVN 10:2025/BCA
+**Khi nào áp dụng / được phép:**
+- Chú thích (1), (2), (3) của từng bảng ở cuối bảng (Phụ lục A)
+
 ### Tia nước đặc
 **Khi nào áp dụng / được phép:**
 - Bể áp lực cho nhà phải bảo đảm tia nước đặc cao trên 4 m tại tầng cao nhất hoặc tầng ngay dưới nơi đặt bể, không nhỏ hơn 6 m ở các tầng còn lại; số tia: 2 tia × 2,5 L/s trong 10 phút khi số tia tính toán từ 2 trở lên, 1 tia các trường hợp còn lại (5.2.8)
+
+### Tính diện tích, khối tích riêng từng nhà (còn gọi: quy mô công trình tính riêng từng khối)
+**Khi nào áp dụng / được phép:**
+- Nhà đã bảo đảm khoảng cách an toàn PCCC, thoát nạn, ngăn cháy lan, nối với nhau bằng lối đi thì cho phép tính diện tích, khối tích riêng từng nhà. (QCVN 10:2025/BCA mục 1.4.26)
+
+### Tổng diện tích của nhà
+**Định nghĩa:**
+- Gồm diện tích các tầng (kể cả sàn giá đỡ trong nhà, sàn lửng, tất cả các sàn của giá đỡ nhiều tầng, thềm (cầu) xếp dỡ, hành lang và hành lang liên thông sang nhà khác, đường hầm), tính theo mặt bên trong tường bao (hoặc trục cột biên nơi không có tường bao). (QCVN 06:2022/BXD, Quy định chung)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Không bao gồm: diện tích các tầng hầm kỹ thuật (theo điều kiện chiều cao nêu trong văn bản), diện tích phía trên trần treo, diện tích sàn giá đỡ nhiều tầng dùng bảo dưỡng đường ray dưới cầu trục, cần trục, băng tải, đường ray đơn và thiết bị chiếu sáng. (QCVN 06:2022/BXD, Quy định chung)
+
+### Tổng khối lượng khí chữa cháy
+**Định nghĩa:**
+- Q là tổng khối lượng khí chữa cháy, tính bằng kilôgam
 
 ### Trạm bơm nước chữa cháy
 **Định nghĩa:**
@@ -1906,6 +2286,11 @@
 - Công trình thuộc diện trang bị họng nước chữa cháy hoặc sprinkler tự động phải có đường ống kết nối từ trạm bơm của công trình đến tối thiểu 01 trụ loại 03 cửa hoặc loại 02 cửa DN65 đặt ở mặt bên ngoài tường công trình về phía có đường giao thông (5.1.4.8)
 - Điểm dân cư đến 500 người: cho phép thay trụ loại 3 cửa bằng đoạn ống đứng DN 80 mm có lắp họng nước (5.1.4.7 CHÚ THÍCH)
 - Cho phép thay trụ cấp nước chữa cháy loại 3 cửa bằng đoạn ống đứng DN 80 mm có lắp họng nước trên mạng đường ống cho điểm dân cư đến 500 người (Chú thích – Bán kính phục vụ)
+- Bố trí trên mạng đường ống: tối thiểu 02 trụ khi lưu lượng yêu cầu từ 15 L/s trở lên; tối thiểu 01 trụ khi lưu lượng yêu cầu thấp hơn 15 L/s, phục vụ đến mọi điểm của nhà theo phương ngang.
+- Nhà nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà (bồn, bể, trụ nước, hồ tự nhiên và nhân tạo…) thì không bắt buộc trang bị cấp nước chữa cháy ngoài nhà riêng.
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Trên mạng ống cho điểm dân cư đến 500 người, cho phép thay trụ loại 3 cửa bằng đoạn ống đứng DN 80 mm có lắp họng nước.
+- Khu vực chưa có hạ tầng cấp nước chữa cháy ngoài nhà, hoặc có nhưng không đạt bảng 8, 9, 10: thực hiện theo hướng dẫn của cơ quan Cảnh sát PCCC và CNCH có thẩm quyền. (5.1.2.8)
 
 ### Trụ kết nối hệ thống chữa cháy trong nhà
 **Khi nào áp dụng / được phép:**
@@ -1930,8 +2315,10 @@
 ### Tự thẩm định điều chỉnh
 **Khi nào áp dụng / được phép:**
 - Dự án đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô nhưng đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định: có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công. (mục 5)
+- Công trình đã thẩm định, chưa nghiệm thu, thay đổi như trên: không thuộc diện thẩm định điều chỉnh. (mục 5.3)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Có đổi nguyên lý báo cháy, chữa cháy hoặc thông số bơm so với bản đã thẩm định thì không thuộc trường hợp này mà thuộc diện thẩm định điều chỉnh. (suy từ mục 5)
+- Đổi nguyên lý hoặc thông số bơm so với đã thẩm định thì không thuộc trường hợp này (xét thẩm định điều chỉnh). (suy từ mục 5.3)
 
 ### Van an toàn cho bơm (còn gọi: Van an toàn)
 **Định nghĩa:**
@@ -1946,6 +2333,10 @@
 - Phải lắp cho tất cả bơm điện, ngay trên vỏ bơm ở đầu đẩy hoặc trên đường ống đầu đẩy cạnh bơm, trước van một chiều của bơm. (2.6.4)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không áp dụng cho bơm dẫn động bởi động cơ diesel có hệ thống làm mát bằng nước lấy từ đầu đẩy của bơm khi hoạt động. (2.6.4)
+
+### Văn bản viện dẫn (QCVN 10:2025/BCA) (còn gọi: tài liệu viện dẫn)
+**Khi nào áp dụng / được phép:**
+- Danh mục gồm NĐ 105/2025, TT 36/2025/TT-BCA, QCVN 06, TCVN 6100, 6101, 6379, 7026, 7027, 7161, 7336, 7435-1, 7568-14, 7568-25, 9255, 12110, 12314, 13316, 13332, 13333. (Mục 1.3 (tr. 6–7))
 
 ### Vật liệu hoàn thiện, trang trí
 **Định nghĩa:**

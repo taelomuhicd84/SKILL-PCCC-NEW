@@ -1,0 +1,92 @@
+{
+ "slug": "cho-phep-bo-tri-mot-loi-ra-thoat-nan",
+ "ten": "Cho phép bố trí một lối ra thoát nạn",
+ "dong_nghia": [
+  "một lối ra thoát nạn từ tầng"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Chiều cao PCCC",
+  "Lối thoát nạn khẩn cấp",
+  "Ban công thoáng",
+  "Cầu thang bộ loại 2",
+  "Nhóm nhà F"
+ ],
+ "ngay": "2026-10-26T07:07:11.845Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Áp dụng cho từng tầng (hoặc phần tầng ngăn cách khỏi phần khác bằng bộ phận ngăn cháy) có nhóm nguy hiểm cháy theo công năng F1.2, F2, F3, F4.2, F4.3 và F4.4, khi thỏa mãn đồng thời các điều kiện theo chiều cao PCCC.",
+   "dieu": "QCVN 06, mục a) về một lối ra thoát nạn",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Cho phép bố trí một lối ra thoát nạn trong các trường hợp nêu trong quy chuẩn, trừ các nhà có bậc chịu lửa V.",
+   "dieu": "QCVN 06",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "Từ các tầng kỹ thuật hoặc khu vực để thiết bị kỹ thuật có diện tích không quá 300 m2: cứ mỗi 2 000 m2 diện tích còn lại phải thêm không ít hơn một lối ra thoát nạn (diện tích còn lại nhỏ hơn 2 000 m2 cũng phải thêm không ít hơn một lối ra).",
+   "dieu": "QCVN 06",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Nhà có bậc chịu lửa V không được áp dụng.",
+   "dieu": "QCVN 06",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "Tầng hầm và nửa hầm có diện tích lớn hơn 300 m2 hoặc dùng cho hơn 15 người có mặt đồng thời thuộc nhóm trường hợp liệt kê cùng điều khoản (nguồn cắt đoạn, chưa rõ đây là trường hợp phải có từ hai lối ra).",
+   "dieu": "QCVN 06 (nguồn cắt đoạn, cần đối chiếu)",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Nhà từ 3 tầng trở xuống hoặc chiều cao PCCC từ 9 m trở xuống (cơ bản): diện tích mỗi tầng không lớn hơn 300 m2; số người lớn nhất trên mỗi tầng không vượt quá 20 người; không để xe cơ giới, không bố trí kho hạng A, B, C tại tầng có lối thoát nạn ra ngoài nhà, trừ khi được ngăn cách theo quy chuẩn.",
+   "dieu": "QCVN 06",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "Nhà có chiều cao PCCC từ trên 15 m đến 21 m: diện tích mỗi tầng không lớn hơn 200 m2; không quá 20 người mỗi tầng; không để xe cơ giới, không bố trí kho hạng A, B, C tại tầng có lối thoát nạn ra ngoài; khu vực công năng được bảo vệ bằng chữa cháy tự động (không thể thì thay bằng báo cháy tự động cho toàn nhà, ưu tiên đầu báo khói); có lối thoát nạn khẩn cấp với thiết bị hỗ trợ hoặc lên sân thượng thoáng; lối ra thoát nạn các gian phòng và từ mỗi tầng tuân thủ quy chuẩn.",
+   "dieu": "QCVN 06, mục 2)",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "Nhà có chiều cao PCCC từ trên 21 m đến 25 m: diện tích mỗi tầng không lớn hơn 150 m2; không quá 15 người mỗi tầng; không để xe cơ giới, không bố trí kho A, B, C tại tầng có lối thoát nạn ra ngoài; nhà được bảo vệ bằng hệ thống báo cháy và chữa cháy tự động; có lối thoát nạn khẩn cấp với thiết bị hỗ trợ hoặc lên sân thượng thoáng; lối ra thoát nạn tuân thủ quy chuẩn.",
+   "dieu": "QCVN 06, mục 3)",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "Nhà trên 3 tầng hoặc chiều cao PCCC lớn hơn 9 m: lối ra thoát nạn của các gian phòng và từ mỗi tầng phải tuân thủ yêu cầu của quy chuẩn; có cửa đi ngăn cháy loại 2 trên lối ra thoát nạn từ mỗi tầng vào buồng thang bộ thoát nạn.",
+   "dieu": "QCVN 06, sửa đổi 1:2023",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "Tầng kỹ thuật/khu vực kỹ thuật nằm dưới hầm: lối ra thoát nạn phải riêng biệt với các lối ra khác của nhà và thoát thẳng ra ngoài.",
+   "dieu": "QCVN 06",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Lập bảng từng tầng: nhóm F, diện tích, số người, có xe cơ giới/kho A-B-C, chiều cao PCCC, hệ thống báo cháy/chữa cháy tự động; so với ngưỡng 300/200/150 m2 và 20/20/15 người. Suy từ điều khoản nêu trên.",
+   "dieu": "suy từ QCVN 06",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ngưỡng theo chiều cao PCCC: đến 9 m là 300 m2 và 20 người; trên 15 m đến 21 m là 200 m2 và 20 người; trên 21 m đến 25 m là 150 m2 và 15 người (đoạn từ trên 9 m đến 15 m không có trong nguồn này).",
+   "dieu": "QCVN 06",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ]
+}

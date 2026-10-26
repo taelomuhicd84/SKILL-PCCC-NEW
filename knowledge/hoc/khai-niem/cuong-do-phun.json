@@ -1,0 +1,48 @@
+{
+ "slug": "cuong-do-phun",
+ "ten": "Cường độ phun",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống đầu phun dưới mái",
+  "Diện tích tính toán"
+ ],
+ "ngay": "2026-10-26T07:12:00.035Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Áp dụng cho hệ thống đầu phun dưới mái; lưu lượng nước yêu cầu Q_m (l/s) xác định theo chiều cao xếp hàng",
+   "dieu": "6.6 (TCVN 7336:2021)",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Chiều cao xếp hàng đến 16 m: cường độ phun tối thiểu 0,12 l/(s.m²)",
+   "dieu": "6.6",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  },
+  {
+   "y": "Chiều cao xếp hàng trên 16 m: cường độ phun tối thiểu 0,18 l/(s.m²)",
+   "dieu": "6.6",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  },
+  {
+   "y": "Diện tích tính toán, không phụ thuộc cách bố trí đầu phun, tối thiểu 90 m²",
+   "dieu": "6.6",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ 6.6: xác định chiều cao xếp hàng, chọn cường độ 0,12 hoặc 0,18 l/(s.m²), nhân với diện tích tính toán ≥ 90 m² để so với Q_m",
+   "dieu": "suy từ 6.6",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "hay_nham": []
+}

@@ -8,9 +8,10 @@
   "m12-chua-chay"
  ],
  "lien_quan": [
-  "Cụm bảo vệ (hệ thống Sprinkler)"
+  "Cụm bảo vệ (hệ thống Sprinkler)",
+  "Lưu lượng cần thiết của hệ thống sprinkler"
  ],
- "ngay": "2026-10-26T04:29:36.048Z",
+ "ngay": "2026-10-26T07:12:00.035Z",
  "dinh_nghia": [],
  "cach_xac_dinh": [],
  "ap_dung": [
@@ -46,6 +47,16 @@
    "y": "Các van khóa trên đường ống cấp vào máy bơm, đường ống cung cấp và đường ống chính phải giám sát được trực quan và tự động trạng thái đóng – mở.",
    "dieu": "Điều 5.1.15",
    "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Điều chỉnh lại đường kính ống phân phối nếu vận tốc > 10 m/s",
+   "dieu": "lưu ý mục e/",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  },
+  {
+   "y": "Hệ số đặc tính thủy lực đường ống và sức cản đơn vị tra bảng B.1, B.2 TCVN 7336:2021",
+   "dieu": "bảng B.1, B.2 TCVN 7336:2021",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
   }
  ],
  "cach_kiem": [
@@ -53,6 +64,11 @@
    "y": "Đếm số đầu phun trên từng đoạn ống và so với bảng DN; xem ghi chú áp suất làm việc, van giám sát, giảm áp họng nước.",
    "dieu": "suy từ bảng DN, Điều 5.1.15, 5.2.23, 5.5.12, 5.5.13",
    "nguon": "0295bcc50340"
+  },
+  {
+   "y": "Suy từ mục e/: xem bảng tính thủy lực, kiểm vận tốc nước trong ống phân phối không quá 10 m/s",
+   "dieu": "suy từ mục e/",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
   }
  ],
  "hay_nham": []

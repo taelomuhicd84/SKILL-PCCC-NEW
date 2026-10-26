@@ -1,16 +1,22 @@
 {
  "slug": "thoi-gian-phuc-hoi-nuoc-du-tru-chua-chay",
  "ten": "Thời gian phục hồi nước dự trữ chữa cháy",
- "dong_nghia": [],
+ "dong_nghia": [
+  "Thời gian phục hồi lượng nước dự trữ cho chữa cháy"
+ ],
  "anh_huong": [
   "m12-chua-chay"
  ],
  "lien_quan": [
   "Bồn, bể trữ nước chữa cháy ngoài nhà",
   "Thời gian chữa cháy",
-  "Dung tích bể nước chữa cháy"
+  "Dung tích bể nước chữa cháy",
+  "Lượng nước dự trữ chữa cháy",
+  "Hạng nguy hiểm cháy nổ",
+  "Nhà nhóm F",
+  "Cấp nước chữa cháy ngoài nhà"
  ],
- "ngay": "2026-10-26T04:26:33.933Z",
+ "ngay": "2026-10-26T07:11:35.505Z",
  "dinh_nghia": [
   {
    "y": "Thời gian lớn nhất để phục hồi nước dự trữ chữa cháy",
@@ -23,6 +29,11 @@
    "y": "Nếu không thể phục hồi lượng nước dự trữ đúng thời gian quy định thì phải bổ sung lượng nước ∆W; K là tỉ số giữa thời gian phục hồi thực tế và thời gian phục hồi yêu cầu (công thức không đọc được trong nguồn)",
    "dieu": "5.1.3.4 CHÚ THÍCH 2",
    "nguon": "kb:qcvn06-dieu-5.md"
+  },
+  {
+   "y": "K là tỉ số giữa thời gian phục hồi lượng nước chữa cháy theo thực tế và thời gian phục hồi lượng nước chữa cháy theo yêu cầu quy định tại 5.1.3.4 (H.1.3.4 trong QCVN 10:2025/BCA Phụ lục H)",
+   "dieu": "5.1.3.4 QCVN 06; H.1.3.4 QCVN 10:2025 Phụ lục H",
+   "nguon": "kb:tk-thời-gian-phục-hồi-nước-chữa-cháy"
   }
  ],
  "ap_dung": [
@@ -30,6 +41,31 @@
    "y": "Khi không thể phục hồi lượng nước dự trữ theo thời gian quy định thì phải cung cấp thêm lượng nước bổ sung ΔW; W là lượng nước dự trữ chữa cháy (m³), K là tỷ số giữa thời gian phục hồi thực tế và thời gian phục hồi quy định (công thức ΔW = W(K − 1) theo bản gốc; dạng công thức trong nguồn bị lỗi định dạng)",
    "dieu": "Chú thích 2; tham chiếu 5.1.3.4",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Thời gian lớn nhất để phục hồi nước dự trữ chữa cháy: 24 giờ đối với khu dân cư trên 5 000 người hoặc cơ sở công nghiệp có các nhà thuộc hạng nguy hiểm cháy nổ A, B, C",
+   "dieu": "5.1.3.4 QCVN 06",
+   "nguon": "kb:tk-thời-gian-phục-hồi-nước-chữa-cháy"
+  },
+  {
+   "y": "36 giờ đối với cơ sở công nghiệp có các nhà thuộc hạng nguy hiểm cháy nổ D và E",
+   "dieu": "5.1.3.4 QCVN 06",
+   "nguon": "kb:tk-thời-gian-phục-hồi-nước-chữa-cháy"
+  },
+  {
+   "y": "72 giờ đối với các khu dân cư đến 5 000 người hoặc cơ sở nông nghiệp",
+   "dieu": "5.1.3.4 QCVN 06",
+   "nguon": "kb:tk-thời-gian-phục-hồi-nước-chữa-cháy"
+  },
+  {
+   "y": "Cơ sở công nghiệp có yêu cầu lưu lượng nước chữa cháy ngoài nhà đến 20 L/s thì cho phép tăng thời gian phục hồi lên đến 48 giờ đối với nhà hạng D và E; 36 giờ đối với nhà hạng C",
+   "dieu": "Chú thích 1, 5.1.3.4 QCVN 06",
+   "nguon": "kb:tk-thời-gian-phục-hồi-nước-chữa-cháy"
+  },
+  {
+   "y": "Khi không thể bảo đảm phục hồi lượng nước dự trữ theo thời gian quy định thì cần cung cấp thêm lượng nước bổ sung dự trữ cho chữa cháy ΔW",
+   "dieu": "Chú thích 2, 5.1.3.4 QCVN 06",
+   "nguon": "kb:tk-thời-gian-phục-hồi-nước-chữa-cháy"
   }
  ],
  "khong_ap_dung": [],
@@ -73,6 +109,11 @@
    "y": "Cơ sở công nghiệp có lưu lượng ngoài nhà đến 20 L/s: cho phép tăng đến 48 giờ với nhà hạng D, E và 36 giờ với nhà hạng C",
    "dieu": "Chú thích 1",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "ΔW = W(K − 1) / K; ΔW là lượng nước dự trữ bổ sung (m³); W là lượng nước dự trữ cho chữa cháy (m³); K là tỉ số giữa thời gian phục hồi thực tế và thời gian phục hồi theo yêu cầu",
+   "dieu": "Chú thích 2, 5.1.3.4 QCVN 06; Phụ lục H QCVN 10:2025",
+   "nguon": "kb:tk-thời-gian-phục-hồi-nước-chữa-cháy"
   }
  ],
  "cach_kiem": [
@@ -80,7 +121,18 @@
    "y": "Xem thuyết minh nguồn cấp bể: thời gian bơm đầy lại bể so với 24/36/72 giờ; nếu vượt thì kiểm có tính ΔW không",
    "dieu": "suy từ mục Thời gian phục hồi nước chữa cháy",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Xem thuyết minh cấp nước chữa cháy: đối chiếu thời gian phục hồi nước thực tế với ngưỡng theo loại cơ sở/hạng nguy hiểm cháy nổ; nếu vượt thì kiểm có tính ΔW bổ sung vào thể tích bể (suy từ Chú thích 2, 5.1.3.4)",
+   "dieu": "suy từ 5.1.3.4",
+   "nguon": "kb:tk-thời-gian-phục-hồi-nước-chữa-cháy"
   }
  ],
- "hay_nham": []
+ "hay_nham": [
+  {
+   "y": "Khác thời gian chữa cháy (thời gian tính lượng nước, ví dụ 1 giờ với nhà có lưu lượng ngoài nhà đến 15 L/s nhóm F1–F4 và 20 L/s nhóm F5); thời gian phục hồi là thời gian nạp lại lượng nước dự trữ",
+   "dieu": "",
+   "nguon": "kb:tk-thời-gian-phục-hồi-nước-chữa-cháy"
+  }
+ ]
 }

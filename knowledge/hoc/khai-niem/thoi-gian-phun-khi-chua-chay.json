@@ -7,12 +7,28 @@
  ],
  "lien_quan": [
   "Lượng khí chữa cháy",
-  "Thời gian duy trì"
+  "Thời gian duy trì",
+  "Nồng độ thiết kế",
+  "Khí hóa lỏng",
+  "Khí không hóa lỏng",
+  "Thời gian duy trì trạng thái chữa cháy"
  ],
- "ngay": "2026-10-26T04:24:50.061Z",
+ "ngay": "2026-10-26T07:10:00.332Z",
  "dinh_nghia": [],
- "cach_xac_dinh": [],
- "ap_dung": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Khí hóa lỏng: thời gian phun để đạt 95 % nồng độ thiết kế ở 20 °C. Khí trơ (không hóa lỏng): thời gian để đạt 95 % nồng độ thiết kế ở 20 °C",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Khí hóa lỏng: việc phun phải hoàn thành càng nhanh càng tốt để dập tắt đám cháy và hạn chế sự tạo thành các sản phẩm phân hủy",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ],
  "khong_ap_dung": [],
  "yeu_cau": [
   {
@@ -24,6 +40,11 @@
    "y": "Khí trơ (không hóa lỏng): thời gian đạt 95 % nồng độ thiết kế ở 20 °C không quá 60 s đối với đám cháy loại B, không quá 120 s đối với đám cháy loại A",
    "dieu": "Thời gian phun khí chữa cháy – khí không hóa lỏng",
    "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Khí trơ: không quá 60 s đối với đám cháy loại B; không quá 120 s đối với đám cháy loại A",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
   }
  ],
  "cach_kiem": [
@@ -31,7 +52,18 @@
    "y": "Xem thuyết minh/tính thủy lực: thời gian xả đạt 95 % nồng độ thiết kế so với 10 s (hóa lỏng), 60 s (loại B) hoặc 120 s (loại A) (khí trơ)",
    "dieu": "suy từ Thời gian phun khí chữa cháy",
    "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Xem thuyết minh/tính toán thủy lực thời gian phun, so với 10 s (khí hóa lỏng), 60 s (khí trơ, cháy loại B), 120 s (khí trơ, cháy loại A) (suy từ nguồn)",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
   }
  ],
- "hay_nham": []
+ "hay_nham": [
+  {
+   "y": "Mốc thời gian tính đến 95 % nồng độ thiết kế ở 20 °C, không phải tới 100 %. Ngưỡng khí hóa lỏng (10 s) khác khí trơ (60 s/120 s theo loại đám cháy)",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ]
 }

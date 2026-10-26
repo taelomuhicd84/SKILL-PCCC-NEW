@@ -1,0 +1,33 @@
+{
+ "slug": "tong-dien-tich-cua-nha",
+ "ten": "Tổng diện tích của nhà",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua"
+ ],
+ "lien_quan": [
+  "Sàn lửng",
+  "Diện tích xây dựng"
+ ],
+ "ngay": "2026-10-26T07:06:10.175Z",
+ "dinh_nghia": [
+  {
+   "y": "Gồm diện tích các tầng (kể cả sàn giá đỡ trong nhà, sàn lửng, tất cả các sàn của giá đỡ nhiều tầng, thềm (cầu) xếp dỡ, hành lang và hành lang liên thông sang nhà khác, đường hầm), tính theo mặt bên trong tường bao (hoặc trục cột biên nơi không có tường bao).",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Không bao gồm: diện tích các tầng hầm kỹ thuật (theo điều kiện chiều cao nêu trong văn bản), diện tích phía trên trần treo, diện tích sàn giá đỡ nhiều tầng dùng bảo dưỡng đường ray dưới cầu trục, cần trục, băng tải, đường ray đơn và thiết bị chiếu sáng.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

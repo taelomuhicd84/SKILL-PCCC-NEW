@@ -8,9 +8,11 @@
  "lien_quan": [
   "Cường độ phun",
   "Lưu lượng tối thiểu",
-  "Nhóm nguy cơ phát sinh cháy (NCPSC)"
+  "Nhóm nguy cơ phát sinh cháy (NCPSC)",
+  "Số lượng đầu phun tính toán tối thiểu",
+  "Nhóm nguy cơ phát sinh cháy"
  ],
- "ngay": "2026-10-26T04:50:06.253Z",
+ "ngay": "2026-10-26T07:12:00.035Z",
  "dinh_nghia": [],
  "cach_xac_dinh": [
   {
@@ -24,6 +26,11 @@
    "y": "Bảng tính lấy diện tích lớn hơn giữa diện tích thực tế và diện tích tối thiểu để tính lưu lượng đầu phun bất lợi nhất: q1 = IF(S thực tế > S min, S thực tế × qmin / n, S min × qmin / n).",
    "dieu": "Bảng tính thủy lực Phụ lục B – mục I.1",
    "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  },
+  {
+   "y": "Dùng làm S trong công thức n ≥ S/Ω; ví dụ nhóm nguy cơ phát sinh cháy 2 có S = 120 m²",
+   "dieu": "ví dụ mục e/",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
   }
  ],
  "khong_ap_dung": [],
@@ -32,6 +39,11 @@
    "y": "Nhóm 2: diện tích tính toán tối thiểu 120 m².",
    "dieu": "Bảng 1 TCVN 7336:2021",
    "nguon": "kb:tk-hệ-số-k-đầu-phun"
+  },
+  {
+   "y": "Với hệ thống đầu phun dưới mái, diện tích tính toán không phụ thuộc cách bố trí đầu phun, tối thiểu 90 m²",
+   "dieu": "6.6",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
   }
  ],
  "cach_kiem": [

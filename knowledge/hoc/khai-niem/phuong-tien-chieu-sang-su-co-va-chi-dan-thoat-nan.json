@@ -8,10 +8,22 @@
  ],
  "lien_quan": [
   "Đèn chiếu sáng sự cố của công trình đang thi công",
-  "Hệ thống loa thông báo và hướng dẫn thoát nạn"
+  "Hệ thống loa thông báo và hướng dẫn thoát nạn",
+  "Loa thông báo và hướng dẫn thoát nạn"
  ],
- "ngay": "2026-10-26T04:07:56.942Z",
- "dinh_nghia": [],
+ "ngay": "2026-10-26T07:13:33.965Z",
+ "dinh_nghia": [
+  {
+   "y": "Đèn chiếu sáng sự cố, biển báo an toàn (lối ra, chỉ hướng), sơ đồ chỉ dẫn thoát nạn, theo TCVN 13456:2022.",
+   "dieu": "thuat-ngu-chuan.md",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  },
+  {
+   "y": "Gồm đèn chiếu sáng sự cố, biển báo an toàn (lối ra, chỉ hướng) và sơ đồ chỉ dẫn thoát nạn",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ],
  "cach_xac_dinh": [],
  "ap_dung": [
   {
@@ -26,6 +38,16 @@
    "y": "Thiết kế, lắp đặt phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn theo TCVN 13456.",
    "dieu": "2.2.2",
    "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Đối chiếu bảng B13: độ rọi 1 lux trên đường thoát nạn (rộng đến 2 m), 0,5 lux trong gian phòng; có biển EXIT và sơ đồ chỉ dẫn.",
+   "dieu": "bảng B13; QCVN 10:2025/BCA mục 2.2; TCVN 13456:2022",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  },
+  {
+   "y": "Theo TCVN 13456:2022",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
   }
  ],
  "cach_kiem": [
@@ -33,7 +55,23 @@
    "y": "Xem bản vẽ và thuyết minh chiếu sáng sự cố, chỉ dẫn thoát nạn có dẫn chiếu và đáp ứng TCVN 13456 (suy từ 2.2.1, 2.2.2).",
    "dieu": "suy từ 2.2.1, 2.2.2",
    "nguon": "kb:qcvn10-2025-den-loa.md"
+  },
+  {
+   "y": "Xem bản vẽ chiếu sáng sự cố, chỉ dẫn thoát nạn; so độ rọi với bảng B13.",
+   "dieu": "suy từ bảng B13",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
   }
  ],
- "hay_nham": []
+ "hay_nham": [
+  {
+   "y": "Khác với loa thông báo và hướng dẫn thoát nạn (hệ thống riêng, theo QCVN 10 Bảng G.1 và H.4).",
+   "dieu": "",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  },
+  {
+   "y": "Khác với 'loa thông báo và hướng dẫn thoát nạn'",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ]
 }

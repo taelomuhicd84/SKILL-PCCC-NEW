@@ -2,7 +2,8 @@
  "slug": "binh-khi-binh-sol-khi-chua-chay-tu-dong-kich-hoat",
  "ten": "Bình khí, bình sol-khí chữa cháy tự động kích hoạt",
  "dong_nghia": [
-  "bình khí chữa cháy tự động kích hoạt loại treo"
+  "bình khí chữa cháy tự động kích hoạt loại treo",
+  "thiết bị chữa cháy tự động kích hoạt"
  ],
  "anh_huong": [
   "m12-chua-chay",
@@ -11,16 +12,44 @@
  ],
  "lien_quan": [
   "Bình bột chữa cháy tự động kích hoạt",
-  "Hệ thống chữa cháy tự động"
+  "Hệ thống chữa cháy tự động",
+  "Hệ thống báo cháy tự động",
+  "Thiết bị báo cháy độc lập"
  ],
- "ngay": "2026-10-26T04:05:36.119Z",
- "dinh_nghia": [],
+ "ngay": "2026-10-26T07:11:18.380Z",
+ "dinh_nghia": [
+  {
+   "y": "Bình khí, bình sol-khí chữa cháy tự động kích hoạt có chức năng giám sát trạng thái thường trực của thiết bị và giám sát trạng thái khi chữa cháy; các tín hiệu này phải liên động với hệ thống báo cháy tự động",
+   "dieu": "2.5.5 QCVN 10:2025/BCA",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Gồm bình chứa chất chữa cháy bằng khí, bột, sol-khí và các bộ phận liên quan tự động xả chất chữa cháy khi nhiệt độ đạt ngưỡng tác động của bộ phận cảm biến nhiệt.",
+   "dieu": "1.4.5",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
+  }
+ ],
  "cach_xac_dinh": [],
  "ap_dung": [
   {
    "y": "Cho phép trang bị thay thế hệ thống chữa cháy tự động tại các khu vực không thường xuyên có người với diện tích không quá 100 m².",
    "dieu": "2.5.5",
    "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Cho phép trang bị thay thế hệ thống chữa cháy tự động tại khu vực không thường xuyên có người, diện tích không quá 100 m²",
+   "dieu": "2.5.5 QCVN 10:2025/BCA",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Cho phép dùng thiết bị chữa cháy tự động thay thế hệ thống chữa cháy tự động (chú thích 1 Bảng A.1)",
+   "dieu": "Phụ lục A, Bảng A.1 chú thích (1)",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Được xét trang bị theo Phụ lục A: Bảng A.1 cho toàn nhà, Bảng A.2 cho hạng mục/khu vực, Bảng A.3 cho gian phòng, Bảng A.4 cho thiết bị trong phạm vi công trình.",
+   "dieu": "1.5.9, Phụ lục A",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "khong_ap_dung": [],
@@ -39,6 +68,21 @@
    "y": "Bình khí chữa cháy tự động kích hoạt loại treo phải phù hợp với TCVN 12314-2.",
    "dieu": "2.5.5",
    "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Khu vực trên 100 m² phải chia thành các khu vực không quá 100 m² bằng tường ngăn cháy (REI 45 trở lên) hoặc vách ngăn cháy (EI 45 trở lên)",
+   "dieu": "2.5.5 QCVN 10:2025/BCA",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Loại treo phải phù hợp TCVN 12314-2",
+   "dieu": "2.5.5 QCVN 10:2025/BCA",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Nếu lắp đặt tại khu vực có diện tích trên 100 m² thì phải phân chia thành các khu vực có diện tích không quá 100 m² bằng tường ngăn cháy (REI 45 trở lên) hoặc vách ngăn cháy (EI 45 trở lên).",
+   "dieu": "",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "cach_kiem": [
@@ -46,6 +90,16 @@
    "y": "Xem hồ sơ: khu vực bảo vệ có thường xuyên có người hay không, diện tích không quá 100 m², tín hiệu giám sát có liên động với trung tâm báo cháy. Suy từ 2.5.5.",
    "dieu": "2.5.5",
    "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Xem bản vẽ: diện tích khu vực đặt bình, có người thường xuyên không, có tín hiệu giám sát nối tủ báo cháy không, có tường REI 45/vách EI 45 khi chia khu vực",
+   "dieu": "suy từ 2.5.5 QCVN 10:2025/BCA",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Xem diện tích khu vực lắp đặt trên mặt bằng: trên 100 m² thì kiểm có phân chia khu vực ≤ 100 m² bằng tường REI 45 / vách EI 45 trở lên; kiểm bình loại treo có phù hợp TCVN 12314-2.",
+   "dieu": "suy từ yêu cầu của nguồn",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "hay_nham": [
@@ -53,6 +107,11 @@
    "y": "Chỉ thay thế hệ thống chữa cháy tự động ở khu vực không thường xuyên có người; không dùng thay thế ở khu vực thường xuyên có người.",
    "dieu": "2.5.5",
    "nguon": "kb:qcvn10-2025-bao-chay-chua-chay-tu-dong.md"
+  },
+  {
+   "y": "Khác hệ thống chữa cháy tự động: hệ thống tự kích hoạt xả khi yếu tố đám cháy đạt giá trị thiết lập, có chức năng giám sát xả và dừng xả; thiết bị này xả khi nhiệt độ đạt ngưỡng của bộ phận cảm biến nhiệt.",
+   "dieu": "1.4.4, 1.4.5",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ]
 }

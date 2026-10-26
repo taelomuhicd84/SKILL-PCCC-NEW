@@ -1,0 +1,70 @@
+{
+ "slug": "tang-lung-khong-tinh-vao-so-tang",
+ "ten": "Tầng lửng không tính vào số tầng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m07-thoat-nan",
+  "m08-thang-may-cc",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Sàn lửng",
+  "Số tầng của nhà",
+  "Tầng tum",
+  "Nhóm nhà F"
+ ],
+ "ngay": "2026-10-26T07:06:10.175Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà ở riêng lẻ kết hợp các mục đích dân dụng khác: tầng lửng có diện tích sàn không vượt quá 65 % diện tích sàn xây dựng của tầng có công năng sử dụng chính ngay bên dưới, và chỉ cho phép một tầng lửng không tính vào số tầng cao.",
+   "dieu": "Sửa đổi 1:2023 QCVN 06 (theo TT 06/2021/TT-BXD); QCVN 10:2025/BCA chú thích (2)",
+   "nguon": "kb:tk-sàn-lửng"
+  },
+  {
+   "y": "Nhà nhóm F1 đến F4: duy nhất 01 tầng lửng không tính vào số tầng cao khi chỉ bố trí làm khu kỹ thuật (sàn kỹ thuật đáy bể bơi, sàn đặt máy phát điện, thiết bị công trình khác), diện tích sàn xây dựng không quá 10 % diện tích sàn xây dựng của tầng ngay bên dưới và không quá 300 m².",
+   "dieu": "Sửa đổi 1:2023 QCVN 06",
+   "nguon": "kb:tk-sàn-lửng"
+  },
+  {
+   "y": "Các công trình nhà, kết cấu dạng nhà, công trình nhiều tầng có sàn (không gồm nhà ở riêng lẻ kết hợp sản xuất kinh doanh, nhà kho, nhà sản xuất): tầng lửng không tính vào số tầng khi chỉ bố trí khu kỹ thuật và diện tích sàn không vượt quá 10 % diện tích sàn xây dựng của tầng ngay bên dưới và không vượt quá 300 m².",
+   "dieu": "QCVN 10:2025/BCA, chú thích (6)",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Mỗi công trình chỉ được xác định có một tầng lửng không tính vào số tầng.",
+   "dieu": "QCVN 10:2025/BCA, chú thích (6)",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Ngưỡng 65 % diện tích sàn xây dựng tầng bên dưới (nhà ở riêng lẻ kết hợp).",
+   "dieu": "",
+   "nguon": "kb:tk-sàn-lửng"
+  },
+  {
+   "y": "Ngưỡng 10 % diện tích sàn tầng bên dưới và không quá 300 m² (tầng lửng khu kỹ thuật).",
+   "dieu": "",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng tầng lửng: công năng (chỉ khu kỹ thuật?), diện tích sàn so với tầng bên dưới, số tầng lửng trong công trình.",
+   "dieu": "suy từ QCVN 10:2025/BCA chú thích (6)",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác sàn lửng của nhà sản xuất/nhà kho (ngưỡng 40 %).",
+   "dieu": "",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ]
+}

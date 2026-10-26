@@ -1,0 +1,39 @@
+{
+ "slug": "cong-trinh-sau-cai-tao-mo-rong",
+ "ten": "Công trình sau cải tạo, mở rộng",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "chung"
+ ],
+ "lien_quan": [
+  "Thẩm duyệt điều chỉnh",
+  "Hạng mục xây mới độc lập"
+ ],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Tính diện tích sau cải tạo so với Phụ lục III (ví dụ 3.000 m² + 750 m² xây mới = 3.750 m²)",
+   "dieu": "Công văn C07, câu 9",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Sau đó xét từng thay đổi với khoản 4 Điều 6 (cơ quan xây dựng) và khoản 3 Điều 9 (Công an)",
+   "dieu": "Công văn C07, câu 9",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Cộng diện tích hiện có và diện tích xây mới rồi so Phụ lục III",
+   "dieu": "suy từ Công văn C07, câu 9",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "hay_nham": []
+}

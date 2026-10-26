@@ -8,14 +8,21 @@
   "m11-bao-chay"
  ],
  "lien_quan": [
-  "Đầu báo cháy khói kiểu điểm"
+  "Đầu báo cháy khói kiểu điểm",
+  "Đầu báo cháy nhiệt cố định",
+  "Đầu báo cháy nhiệt gia tăng"
  ],
- "ngay": "2026-10-26T04:33:16.174Z",
+ "ngay": "2026-10-26T07:07:32.950Z",
  "dinh_nghia": [
   {
    "y": "Đầu báo cháy nhiệt: đầu báo cháy tự động nhạy cảm với sự gia tăng nhiệt độ của môi trường nơi lắp đặt.",
    "dieu": "3.6",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Đầu báo cháy tự động nhạy cảm với sự gia tăng nhiệt độ của môi trường nơi lắp đặt đầu báo cháy.",
+   "dieu": "3.6",
+   "nguon": "kb:tk-tcvn-7568-14"
   }
  ],
  "cach_xac_dinh": [],

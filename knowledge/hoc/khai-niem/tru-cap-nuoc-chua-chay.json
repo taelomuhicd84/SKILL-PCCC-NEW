@@ -15,11 +15,19 @@
   "Bồn, bể trữ nước chữa cháy ngoài nhà",
   "Mạng đường ống cụt",
   "Bán kính phục vụ",
-  "Trụ kết nối hệ thống chữa cháy trong nhà"
+  "Trụ kết nối hệ thống chữa cháy trong nhà",
+  "Áp suất tự do tối thiểu",
+  "Cấp nước chữa cháy ngoài nhà"
  ],
- "ngay": "2026-10-26T04:26:33.933Z",
+ "ngay": "2026-10-26T07:13:09.706Z",
  "dinh_nghia": [],
- "cach_xac_dinh": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Loại trụ phù hợp TCVN 6379:1998 (theo tài liệu tóm tắt).",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
  "ap_dung": [
   {
    "y": "Công trình thuộc diện trang bị họng nước chữa cháy hoặc sprinkler tự động phải có đường ống kết nối từ trạm bơm của công trình đến tối thiểu 01 trụ loại 03 cửa hoặc loại 02 cửa DN65 đặt ở mặt bên ngoài tường công trình về phía có đường giao thông",
@@ -35,9 +43,30 @@
    "y": "Cho phép thay trụ cấp nước chữa cháy loại 3 cửa bằng đoạn ống đứng DN 80 mm có lắp họng nước trên mạng đường ống cho điểm dân cư đến 500 người",
    "dieu": "Chú thích – Bán kính phục vụ",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Bố trí trên mạng đường ống: tối thiểu 02 trụ khi lưu lượng yêu cầu từ 15 L/s trở lên; tối thiểu 01 trụ khi lưu lượng yêu cầu thấp hơn 15 L/s, phục vụ đến mọi điểm của nhà theo phương ngang.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Nhà nằm trong phạm vi phục vụ của các nguồn cấp nước chữa cháy ngoài nhà (bồn, bể, trụ nước, hồ tự nhiên và nhân tạo…) thì không bắt buộc trang bị cấp nước chữa cháy ngoài nhà riêng.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
- "khong_ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Trên mạng ống cho điểm dân cư đến 500 người, cho phép thay trụ loại 3 cửa bằng đoạn ống đứng DN 80 mm có lắp họng nước.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Khu vực chưa có hạ tầng cấp nước chữa cháy ngoài nhà, hoặc có nhưng không đạt bảng 8, 9, 10: thực hiện theo hướng dẫn của cơ quan Cảnh sát PCCC và CNCH có thẩm quyền.",
+   "dieu": "5.1.2.8",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
  "yeu_cau": [
   {
    "y": "Bố trí cách mép đường không lớn hơn 2,5 m, không gần hơn 1 m đến tường nhà; cho phép đặt trụ ngầm ở đường giao thông",
@@ -73,6 +102,21 @@
    "y": "Đường ống phải chia thành các đoạn bằng van khóa để khi sửa chữa không ngắt nhiều hơn 05 trụ",
    "dieu": "Bố trí van khóa – Van ngăn chia",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Cách mép đường không lớn hơn 2,5 m, không gần hơn 1 m đến tường nhà; cho phép đặt trụ ngầm nằm ở đường giao thông.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Trụ nổi trên vỉa hè: họng lớn quay ra lòng đường; từ mặt đất đến đỉnh trụ 700 mm.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Bán kính phục vụ mỗi trụ: 400 m khi có máy bơm của xe chữa cháy (Sửa đổi 1:2023 tăng từ 200 m), tính theo đường di chuyển của vòi chữa cháy bên ngoài nhà.",
+   "dieu": "5.1.5.9",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
  "cach_kiem": [
@@ -85,7 +129,18 @@
    "y": "Xem tổng mặt bằng cấp nước ngoài nhà: khoảng cách trụ tới mép đường (≤ 2,5 m) và tới tường nhà (≥ 1 m)",
    "dieu": "suy từ mục Trụ nước chữa cháy",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Xem tổng mặt bằng: khoảng cách trụ tới mép đường và tường nhà, số trụ so với lưu lượng yêu cầu, bán kính 400 m theo đường vòi đi tới mọi điểm của nhà. Suy từ yêu cầu của nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
- "hay_nham": []
+ "hay_nham": [
+  {
+   "y": "Số liệu 200 m là bản cũ; Sửa đổi 1:2023 nâng lên 400 m. Tài liệu tóm tắt có chỗ in chồng cả hai số.",
+   "dieu": "5.1.5.9",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ]
 }

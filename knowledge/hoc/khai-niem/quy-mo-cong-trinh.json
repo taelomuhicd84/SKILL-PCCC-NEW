@@ -1,0 +1,69 @@
+{
+ "slug": "quy-mo-cong-trinh",
+ "ten": "Quy mô công trình",
+ "dong_nghia": [
+  "tính riêng từng khối tách biệt"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m05-cong-nang",
+  "m10-binh-chua-chay",
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "doc-ho-so",
+  "chung"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Tổng diện tích sàn",
+  "Khối tích"
+ ],
+ "ngay": "2026-10-26T07:05:20.943Z",
+ "dinh_nghia": [
+  {
+   "y": "Công trình khác nhau, có kết cấu khác nhau và tách biệt bằng tường thì diện tích (và số tầng, khối tích) được tính riêng từng khối, không cộng gộp với khối kia.",
+   "dieu": "Bài học 10 (người thẩm định dạy, 2026-10-20)",
+   "nguon": "kb:tk-quy-mô-công-trình"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Cần xác nhận khối thật sự tách biệt: có tường riêng, kết cấu riêng, không chung khoang cháy.",
+   "dieu": "Bài học 10",
+   "nguon": "kb:tk-quy-mô-công-trình"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "So với ngưỡng Phụ lục III NĐ 105/2025 (ghi chú: tổng diện tích sàn lấy theo nhà có quy mô lớn nhất), ngưỡng trang bị của QCVN 10:2025/BCA Phụ lục A, B, C và ngưỡng khoang cháy đều xét theo từng khối.",
+   "dieu": "Phụ lục III NĐ 105/2025; Phụ lục A, B, C QCVN 10:2025/BCA",
+   "nguon": "kb:tk-quy-mô-công-trình"
+  },
+  {
+   "y": "Nhà đã bảo đảm khoảng cách an toàn PCCC, thoát nạn, ngăn cháy lan, nối nhau bằng lối đi thì cho phép tính diện tích, khối tích riêng từng nhà.",
+   "dieu": "QCVN 10:2025/BCA mục 1.4.26",
+   "nguon": "kb:tk-quy-mô-công-trình"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Khi bản vẽ chỉ có tổng diện tích cả khu đất, phải tách số liệu theo từng khối rồi mới kết luận. Kiểm tường riêng, kết cấu riêng, khoang cháy riêng giữa các khối.",
+   "dieu": "suy từ Bài học 10",
+   "nguon": "kb:tk-quy-mô-công-trình"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ca Karaoke Hoàng Yến: karaoke 925,12 m² tính riêng với nhà ở 68,48 m², mái che 114,9 m² và trạm bơm, không cộng gộp.",
+   "dieu": "Bài học 10",
+   "nguon": "kb:tk-quy-mô-công-trình"
+  },
+  {
+   "y": "Ví dụ liên hệ của agent, chưa được người thẩm định xác nhận: dính liền một vách mà chung kết cấu thì vẫn là một khối. Ghi CẦN XÁC NHẬN.",
+   "dieu": "Bài học 10",
+   "nguon": "kb:tk-quy-mô-công-trình"
+  }
+ ]
+}

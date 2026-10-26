@@ -2,7 +2,8 @@
  "slug": "dau-bao-khoi",
  "ten": "Đầu báo khói",
  "dong_nghia": [
-  "đầu báo cháy khói"
+  "đầu báo cháy khói",
+  "Smoke detector"
  ],
  "anh_huong": [
   "m11-bao-chay",
@@ -14,10 +15,19 @@
   "đổi nguyên lý báo cháy, chữa cháy",
   "Hệ thống báo cháy tự động",
   "Khoang dầm",
-  "Kết cấu nhô ra dưới trần"
+  "Kết cấu nhô ra dưới trần",
+  "Đầu báo cháy kiểu điểm",
+  "Đầu báo cháy khói kiểu hút",
+  "Đầu báo cháy hỗn hợp"
  ],
- "ngay": "2026-10-26T04:47:25.322Z",
- "dinh_nghia": [],
+ "ngay": "2026-10-26T07:07:32.950Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu báo cháy tự động nhạy cảm với tác động của các hạt rắn hoặc lỏng sinh ra từ quá trình cháy và/hoặc quá trình phân hủy do nhiệt gọi là khói.",
+   "dieu": "3.9",
+   "nguon": "kb:tk-tcvn-7568-14"
+  }
+ ],
  "cach_xac_dinh": [],
  "ap_dung": [
   {

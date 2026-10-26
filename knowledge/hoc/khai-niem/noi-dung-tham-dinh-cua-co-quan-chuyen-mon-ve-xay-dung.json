@@ -10,14 +10,23 @@
   "m06-ngan-chay",
   "m07-thoat-nan",
   "m08-thang-may-cc",
-  "m09-chong-khoi"
+  "m09-chong-khoi",
+  "chung"
  ],
  "lien_quan": [
   "nội dung thẩm định của cơ quan Công an",
-  "thẩm định thiết kế về PCCC (ba nơi thẩm định)"
+  "thẩm định thiết kế về PCCC (ba nơi thẩm định)",
+  "Nội dung thẩm định của cơ quan Công an",
+  "Thẩm định điều chỉnh"
  ],
- "ngay": "2026-10-26T03:46:27.194Z",
- "dinh_nghia": [],
+ "ngay": "2026-10-26T07:08:59.377Z",
+ "dinh_nghia": [
+  {
+   "y": "Gồm (phần nguồn có): (c) lối thoát nạn, đường thoát nạn, thang bộ thoát nạn, thang máy chữa cháy, lối ra khẩn cấp, lối ra mái, gian lánh nạn; (d) bậc chịu lửa, phân chia khoang cháy, bố trí mặt bằng, công năng, hạng nguy hiểm cháy nổ, các bộ phận, cấu kiện, hệ thống kỹ thuật; (đ) giải pháp chống khói: thoát khói cho nhà, gian phòng; cấp không khí bảo vệ chống khói cho giếng thang máy, buồng thang bộ, khoang đệm.",
+   "dieu": "mục (c)–(đ); các điểm a, b không có trong đoạn trích",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
  "cach_xac_dinh": [],
  "ap_dung": [
   {
@@ -39,6 +48,11 @@
    "y": "Các nội dung hệ thống/trang bị PCCC thuộc cơ quan Công an (Điều 9 khoản 2), không thuộc nhóm này.",
    "dieu": "Điều 9 khoản 2",
    "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Không lẫn với nội dung thẩm định của cơ quan Công an (hệ thống, thiết bị PCCC, điện phục vụ PCCC).",
+   "dieu": "",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
   }
  ]
 }

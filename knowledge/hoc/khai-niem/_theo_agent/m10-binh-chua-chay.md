@@ -1,5 +1,5 @@
 # Khái niệm thẩm định – Mục 10 – Bình chữa cháy, phương tiện ban đầu (agent tự học rút từ văn bản, chỉ gồm mục từ nguồn đã duyệt)
-17 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
+20 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
 
 ### Áp suất làm việc (còn gọi: service pressure)
 **Định nghĩa:**
@@ -22,8 +22,11 @@
 **Liên quan:** Bình khí, bình sol-khí chữa cháy tự động kích hoạt, Hệ thống chữa cháy tự động
 
 ### Bình chữa cháy (còn gọi: bình chữa cháy xách tay, bình chữa cháy có bánh xe, fire extinguisher, portable extinguisher, phương tiện chữa cháy ban đầu)
+**Định nghĩa:**
+- Gồm bình chữa cháy xách tay/xe đẩy (TCVN 7435-1), dụng cụ phá dỡ thô sơ, mặt nạ lọc độc/mặt nạ phòng độc cách ly. (thuat-ngu-chuan.md)
 **Khi nào áp dụng / được phép:**
 - Tất cả các khu vực trong nhà, công trình, kể cả nơi đã trang bị hệ thống chữa cháy, phải trang bị bình chữa cháy xách tay hoặc bình chữa cháy có bánh xe. Việc lựa chọn, tính toán trang bị và bố trí theo điểm 6 và điểm 7 TCVN 7435-1. (2.6.1)
+- Trang bị theo QCVN 10:2025/BCA (hiệu lực 30/12/2025, thay tiêu chuẩn trang bị cũ). Danh mục dụng cụ, mặt nạ xem Phụ lục E, F. (QCVN 10:2025/BCA Phụ lục E, F)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không đặt bình chữa cháy: nơi đám cháy tiềm ẩn có thể ngăn cản việc tiếp cận; gần thiết bị sinh nhiệt có thể ảnh hưởng chất lượng, hiệu quả của bình; vị trí khuất sau cửa ra vào, trong tủ không quan sát được bình hoặc hốc sâu; nơi cản trở lối thoát nạn; vị trí trong phòng hoặc hành lang cách xa lối ra (trừ trường hợp cần thiết đối với nguy hiểm cháy); nơi bình có thể bị hỏng do hoạt động thường ngày. (2.6.4)
 **Yêu cầu kỹ thuật, trị số:**
@@ -31,9 +34,11 @@
 - Bố trí tại: nơi người đi theo đường thoát nạn dễ nhìn thấy; gần lối ra, vào phòng, cầu thang bộ, hành lang và lối đi; ở các vị trí tương tự trên mỗi tầng nơi các tầng có cấu trúc giống nhau. (2.6.4)
 - Khu vực hẹp và dài hoặc nhiều cấp sàn khác nhau: khoảng cách di chuyển từ vị trí để bình đến điểm xa nhất cần bảo vệ của 01 bình không vượt quá quy định tại điểm 7 TCVN 7435-1. (2.6.2)
 - Trên cùng một sàn hoặc tầng, nếu mặt bằng bị ngăn thành các khu vực khác nhau bởi tường, vách, rào hoặc vật cản khác không có lối đi qua lại thì trang bị bình riêng biệt cho mỗi khu vực, đảm bảo theo điểm 6 và điểm 7 TCVN 7435-1. (2.6.3)
+- Trang bị theo QCVN 10:2025/BCA (hiệu lực 30/12/2025, thay tiêu chuẩn trang bị cũ)
 **Cách kiểm trên hồ sơ:**
 - Xem mặt bằng bố trí bình từng tầng: bình có nằm ở lối ra, cầu thang, hành lang, dễ thấy; có tập trung một chỗ không; mỗi khu vực bị ngăn không lối đi qua lại có bình riêng; khoảng cách đi tới điểm xa nhất so với điểm 7 TCVN 7435-1 (suy từ 2.6.2, 2.6.3, 2.6.4). (suy từ 2.6)
-**Liên quan:** Bình chữa cháy xách tay cho công trình đang thi công xây dựng, TCVN 7435-1, Bình chữa cháy xách tay, Xe đẩy chữa cháy, Công suất, Mối nguy hiểm, Bình chữa cháy, Loại mức nguy hiểm, Sprinklers tự động
+- Đối chiếu danh mục trang bị trong hồ sơ với QCVN 10:2025/BCA, không dùng tiêu chuẩn trang bị cũ (suy từ trạng thái văn bản)
+**Liên quan:** Bình chữa cháy xách tay cho công trình đang thi công xây dựng, TCVN 7435-1, Bình chữa cháy xách tay, Xe đẩy chữa cháy, Công suất, Mối nguy hiểm, Bình chữa cháy, Loại mức nguy hiểm, Sprinklers tự động, Dụng cụ phá dỡ thô sơ, Mặt nạ phòng độc
 
 ### Bình chữa cháy bằng nước (còn gọi: water-type extinguisher)
 **Định nghĩa:**
@@ -54,6 +59,16 @@
 **Dễ nhầm với:**
 - Định mức 500 m² sàn/bình và bình ABC ≥ 4 kg chỉ áp dụng cho công trình đang thi công, không phải công trình đã hoàn thành (trang bị theo điểm 6, 7 TCVN 7435-1). (2.6.1, 2.6.5)
 **Liên quan:** Bình chữa cháy
+
+### Cơ quan chấp thuận phương tiện PCCC, CNCH theo QCVN 10:2025/BCA
+**Khi nào áp dụng / được phép:**
+- Công trình quy định tại khoản 1 Điều 9 Thông tư 36/2025/TT-BCA và NĐ 105/2025/NĐ-CP: do Cục Cảnh sát PCCC và CNCH chấp thuận (phần luận chứng được chấp thuận; đoạn đầu câu bị cắt trong nguồn). (Khoản 1 Điều 9 TT 36/2025/TT-BCA)
+- Công trình quy định tại khoản 2 Điều 9 TT 36/2025/TT-BCA, không thuộc diện thẩm định thiết kế về PCCC nhưng thuộc đối tượng phải trang bị phương tiện PCCC, CNCH: do Phòng Cảnh sát PCCC và CNCH Công an cấp tỉnh chấp thuận. (Khoản 2 Điều 9 TT 36/2025/TT-BCA)
+**Cách kiểm trên hồ sơ:**
+- Xác định công trình thuộc khoản 1 hay khoản 2 Điều 9 TT 36/2025 để biết cơ quan chấp thuận. Suy từ nguồn.
+**Dễ nhầm với:**
+- Công trình không thuộc diện thẩm định thiết kế vẫn có thể phải trang bị phương tiện PCCC, CNCH, khi đó cơ quan chấp thuận là Phòng Cảnh sát PCCC và CNCH cấp tỉnh, không phải Cục. (Khoản 2 Điều 9 TT 36/2025/TT-BCA)
+**Liên quan:** Công trình thuộc diện thẩm định thiết kế về PCCC
 
 ### Diện tích bảo vệ lớn nhất của 1 bình chữa cháy
 **Yêu cầu kỹ thuật, trị số:**
@@ -153,6 +168,27 @@
 - Đối chiếu chất chữa cháy ghi trong thuyết minh/bản vẽ với loại đám cháy của khu vực theo Bảng 2; suy từ 1.5.5. (suy từ 1.5.5)
 **Liên quan:** Hệ thống chữa cháy tự động, Bình chữa cháy
 
+### Mặt nạ lọc độc (còn gọi: mặt nạ phòng độc cách ly)
+**Định nghĩa:**
+- Thiết bị bảo hộ cá nhân bảo vệ cơ quan hô hấp trong một thời gian và ở giới hạn nồng độ ô xy trong không khí nhất định. (QCVN 10:2025/BCA, 1.4.12)
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Thuộc nhóm phương tiện chữa cháy ban đầu, gồm loại lọc độc và loại phòng độc cách ly
+**Khi nào áp dụng / được phép:**
+- Nhà, công trình phải trang bị mặt nạ lọc độc theo Phụ lục F. (2.7.2)
+- Khách sạn, nhà khách, nhà nghỉ và cơ sở dịch vụ lưu trú khác cao từ 3 tầng trở lên: trang bị tại tất cả các tầng nhà. (Bảng F.1, STT 1)
+- Nhà kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở karaoke, vũ trường và nhà có công năng sử dụng tương tự, không phụ thuộc quy mô: trang bị tại tất cả các tầng nhà. (Bảng F.1, STT 2)
+**Yêu cầu kỹ thuật, trị số:**
+- Khách sạn, nhà khách, nhà nghỉ, cơ sở lưu trú (cao từ 3 tầng): định mức 01 chiếc/01 người, gồm cả khách lưu trú và nhân viên phục vụ có mặt thường xuyên. (Bảng F.1, STT 1)
+- Karaoke, vũ trường: số lượng trên một tầng tính theo số người có mặt đồng thời trong một phòng có diện tích lớn nhất của tầng đó, định mức 01 chiếc/01 người. (Bảng F.1, STT 2)
+- Bố trí tại các tủ phương tiện trên hành lang, đường thoát nạn từng tầng hoặc trong các gian phòng thường xuyên có người. (2.7.2)
+- Trang bị theo QCVN 10:2025/BCA
+**Cách kiểm trên hồ sơ:**
+- Khách sạn: lấy số người (khách + nhân viên) của từng tầng. Karaoke: tìm phòng lớn nhất từng tầng, lấy số người đồng thời trong phòng đó; so với số mặt nạ ghi trong hồ sơ (suy từ Bảng F.1). (suy từ Bảng F.1)
+**Dễ nhầm với:**
+- Mặt nạ lọc độc đặt ở tủ phương tiện trên hành lang/đường thoát nạn hoặc phòng thường xuyên có người; mặt nạ phòng độc cách ly đặt ở phòng trực điều khiển chống cháy hoặc khu vực thường trực PCCC. (2.7.2)
+- Khác mặt nạ phòng độc cách ly (có bình khí thở, chống không khí bên ngoài xâm nhập). (1.4.12, 1.4.13)
+**Liên quan:** Mặt nạ phòng độc cách ly, Karaoke, vũ trường, Dụng cụ phá dỡ thô sơ, Phương tiện chữa cháy ban đầu
+
 ### Nội dung được nghiệm thu về phòng cháy và chữa cháy
 **Khi nào áp dụng / được phép:**
 - Các nhóm nội dung được nghiệm thu: bậc chịu lửa; giao thông cho xe chữa cháy; khoảng cách an toàn PCCC; bố trí công năng; giải pháp ngăn cháy, chống cháy lan; giải pháp thoát nạn; trang bị phương tiện PCCC ban đầu; hệ thống loa thông báo và hướng dẫn thoát nạn; báo cháy tự động; chữa cháy tự động sprinkler; họng nước chữa cháy trong nhà; cấp nước chữa cháy ngoài nhà; điện phục vụ PCCC; đèn chiếu sáng sự cố và đèn chỉ dẫn thoát nạn. (Nội dung được nghiệm thu về PCCC)
@@ -161,11 +197,20 @@
 - Đây là nội dung nghiệm thu, khác nội dung thẩm duyệt thiết kế (giai đoạn trước, giấy chứng nhận thẩm duyệt số 577/TD-PCCC ngày 28/6/2024). (Căn cứ)
 **Liên quan:** Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy, Bố trí công năng, Giao thông cho xe chữa cháy
 
-### Nội dung thẩm định của cơ quan Công an
+### Nội dung thẩm định của cơ quan Công an (còn gọi: Nội dung thẩm định về PCCC của cơ quan Công an)
+**Định nghĩa:**
+- Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 **Khi nào áp dụng / được phép:**
 - Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 - Thẩm định điều chỉnh hoặc cải tạo thì chỉ trong phạm vi điều chỉnh, cải tạo. Đây cũng là cách chia của bảng A1–A26 và B1–B14. (Điều 9 khoản 2 điểm e)
-**Liên quan:** nội dung thẩm định của cơ quan chuyên môn về xây dựng, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Danh mục tài liệu, bản vẽ được thẩm duyệt, Nội dung được nghiệm thu về PCCC
+- Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo. (Điều 9 khoản 2 điểm e)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Dòng ngoài phạm vi điều chỉnh, cải tạo ghi KHÔNG ÁP DỤNG, lý do "ngoài phạm vi điều chỉnh, cải tạo". (mục 8 bước 5 (cách dùng khi thẩm))
+**Cách kiểm trên hồ sơ:**
+- Đây cũng là cách chia của bảng A1–A26 và B1–B14: phân dòng theo nhóm xây dựng hay Công an khi thẩm định. (suy từ Điều 9 khoản 2)
+**Dễ nhầm với:**
+- Khác nội dung thẩm định của cơ quan xây dựng: bên xây dựng xét lối thoát nạn, bậc chịu lửa, khoang cháy, công năng, chống khói; bên Công an xét hệ thống, thiết bị PCCC.
+**Liên quan:** nội dung thẩm định của cơ quan chuyên môn về xây dựng, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Danh mục tài liệu, bản vẽ được thẩm duyệt, Nội dung được nghiệm thu về PCCC, Nội dung thẩm định của cơ quan xây dựng, Thẩm định điều chỉnh
 
 ### Phân loại đám cháy
 **Định nghĩa:**
@@ -179,6 +224,21 @@
 **Cách kiểm trên hồ sơ:**
 - Xác định loại đám cháy của từng khu vực (A, B, C, D) rồi chọn Bảng 1 (loại A) hoặc Bảng 2 (loại B, C) để đối chiếu bình chữa cháy. Suy từ 4.2, 7.2, 7.3. (suy từ 4.2, 7.2, 7.3)
 **Liên quan:** Loại mức nguy hiểm, Khoảng cách di chuyển
+
+### Quy mô công trình (còn gọi: tính riêng từng khối tách biệt)
+**Định nghĩa:**
+- Công trình khác nhau, có kết cấu khác nhau và tách biệt bằng tường thì diện tích (và số tầng, khối tích) được tính riêng từng khối, không cộng gộp với khối kia. (Bài học 10 (người thẩm định dạy, 2026-10-20))
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Cần xác nhận khối thật sự tách biệt: có tường riêng, kết cấu riêng, không chung khoang cháy. (Bài học 10)
+**Khi nào áp dụng / được phép:**
+- So với ngưỡng Phụ lục III NĐ 105/2025 (ghi chú: tổng diện tích sàn lấy theo nhà có quy mô lớn nhất), ngưỡng trang bị của QCVN 10:2025/BCA Phụ lục A, B, C và ngưỡng khoang cháy đều xét theo từng khối. (Phụ lục III NĐ 105/2025; Phụ lục A, B, C QCVN 10:2025/BCA)
+- Nhà đã bảo đảm khoảng cách an toàn PCCC, thoát nạn, ngăn cháy lan, nối nhau bằng lối đi thì cho phép tính diện tích, khối tích riêng từng nhà. (QCVN 10:2025/BCA mục 1.4.26)
+**Cách kiểm trên hồ sơ:**
+- Khi bản vẽ chỉ có tổng diện tích cả khu đất, phải tách số liệu theo từng khối rồi mới kết luận. Kiểm tường riêng, kết cấu riêng, khoang cháy riêng giữa các khối. (suy từ Bài học 10)
+**Dễ nhầm với:**
+- Ca Karaoke Hoàng Yến: karaoke 925,12 m² tính riêng với nhà ở 68,48 m², mái che 114,9 m² và trạm bơm, không cộng gộp. (Bài học 10)
+- Ví dụ liên hệ của agent, chưa được người thẩm định xác nhận: dính liền một vách mà chung kết cấu thì vẫn là một khối. Ghi CẦN XÁC NHẬN. (Bài học 10)
+**Liên quan:** Khoang cháy, Tổng diện tích sàn, Khối tích
 
 ### TCVN 7435-1
 **Định nghĩa:**

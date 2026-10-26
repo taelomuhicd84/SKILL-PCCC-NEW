@@ -6,7 +6,8 @@
   "vũ trường",
   "cơ sở kinh doanh dịch vụ karaoke, vũ trường",
   "nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường",
-  "Karaoke"
+  "Karaoke",
+  "nhà karaoke, vũ trường"
  ],
  "anh_huong": [
   "m01-phan-loai",
@@ -24,9 +25,10 @@
   "Hệ thống chữa cháy",
   "Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy",
   "Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà",
-  "Chiều cao PCCC"
+  "Chiều cao PCCC",
+  "Hệ thống báo cháy"
  ],
- "ngay": "2026-10-26T04:35:20.067Z",
+ "ngay": "2026-10-26T07:10:51.055Z",
  "dinh_nghia": [
   {
    "y": "Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường.",
@@ -96,6 +98,16 @@
    "y": "Cấu hình PCCC được nghiệm thu: hệ thống báo cháy tự động; chữa cháy tự động sprinkler; họng nước chữa cháy trong nhà; cấp nước chữa cháy ngoài nhà; bể nước PCCC 45m³; trạm bơm PCCC 16m²; loa thông báo và hướng dẫn thoát nạn; đèn chiếu sáng sự cố và đèn chỉ dẫn thoát nạn.",
    "dieu": "Nội dung được nghiệm thu về PCCC",
    "nguon": "3901f5c9810d"
+  },
+  {
+   "y": "Bố trí tại tầng hầm, tầng bán hầm: hệ thống báo cháy và hệ thống chữa cháy tự động đều không phụ thuộc vào diện tích. Dòng 13.2 (các tầng trên mặt đất) bị cắt trong trích đoạn.",
+   "dieu": "Bảng A.1 mục 13.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Nhà kinh doanh karaoke, vũ trường bố trí từ tầng 3 trở lên thì phải trang bị hệ thống chữa cháy tự động cho toàn bộ nhà.",
+   "dieu": "Bảng A.1 chú thích (1)",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "khong_ap_dung": [],
@@ -126,6 +138,11 @@
    "y": "Xác định số tầng và khối tích nhà, tra mục 4 Bảng H.5 (suy từ H.2.1).",
    "dieu": "H.2.1",
    "nguon": "kb:qcvn10-2025-phu-luc-h.md"
+  },
+  {
+   "y": "Xem tầng bố trí karaoke, vũ trường; từ tầng 3 trở lên thì kiểm chữa cháy tự động phủ toàn nhà.",
+   "dieu": "suy từ chú thích (1) Bảng A.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "hay_nham": [

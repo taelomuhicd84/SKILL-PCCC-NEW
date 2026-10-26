@@ -1,0 +1,49 @@
+{
+ "slug": "buong-thang-bo-loai-n2-va-n3",
+ "ten": "Buồng thang bộ loại N2 và N3",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Khoảng đệm không nhiễm khói",
+  "Thang máy chữa cháy"
+ ],
+ "ngay": "2026-10-26T07:03:27.605Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Bảo vệ chống khói buồng thang bộ loại N2 và N3 phải tuân theo Phụ lục D.",
+   "dieu": "3.4.9",
+   "nguon": "kb:tk-phụ-lục-d"
+  },
+  {
+   "y": "Khi cần thiết, buồng thang N2 phải chia thành các khoang theo chiều cao bằng vách ngăn cháy đặc loại 1, lối đi lại giữa các khoang nằm ngoài không gian buồng thang bộ.",
+   "dieu": "3.4.9",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Cửa sổ trong buồng thang bộ loại N2 phải là cửa sổ không mở được.",
+   "dieu": "3.4.9",
+   "nguon": "kb:tk-phụ-lục-d"
+  },
+  {
+   "y": "Khoang đệm của buồng thang bộ loại N3 có diện tích không nhỏ hơn 3,0 m²; không nhỏ hơn 6,0 m² nếu đồng thời là sảnh thang máy chữa cháy.",
+   "dieu": "3.4.9",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng thang: loại thang ghi trên bản vẽ, diện tích khoang đệm N3, ghi chú cửa sổ N2 cố định (suy từ 3.4.9).",
+   "dieu": "suy từ 3.4.9",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "hay_nham": []
+}

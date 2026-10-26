@@ -1,0 +1,46 @@
+{
+ "slug": "he-thong-chua-chay-bang-sol-khi",
+ "ten": "Hệ thống chữa cháy bằng Sol-khí",
+ "dong_nghia": [
+  "chữa cháy bằng sol-khí"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Chữa cháy bằng khí",
+  "Chữa cháy bằng bọt"
+ ],
+ "ngay": "2026-10-26T07:13:33.965Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhóm chữa cháy bằng khí / sol-khí / bọt: sol-khí là loại riêng, tách khỏi chữa cháy bằng khí (theo TCVN 7161, ISO 14520) và bằng bọt",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Sol-khí phải đạt UL 2775",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Kiểm hồ sơ thiết bị sol-khí có nêu chứng nhận/tiêu chuẩn UL 2775 hay không; không nêu thì ghi CẦN XÁC NHẬN (suy từ yêu cầu 'sol-khí đạt UL 2775')",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khí chữa cháy theo TCVN 7161 (ISO 14520) khác sol-khí đạt UL 2775; bọt (bội số nở thấp/trung bình/cao) là loại thứ ba",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ]
+}

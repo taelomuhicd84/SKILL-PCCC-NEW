@@ -22,7 +22,7 @@
   "Họng tiếp nước vào hệ thống",
   "Trụ kết nối hệ thống chữa cháy trong nhà"
  ],
- "ngay": "2026-10-26T04:26:33.933Z",
+ "ngay": "2026-10-26T07:11:18.380Z",
  "dinh_nghia": [
   {
    "y": "Họng nước lưu lượng thấp: từ 0,2 L/s đến 1,5 L/s (thiết bị đường kính DN 5, DN 10, DN 15, DN 20, DN 25, DN 40). Lưu lượng trung bình: lớn hơn 1,5 L/s",
@@ -33,6 +33,11 @@
    "y": "Họng nước chữa cháy lưu lượng thấp: từ 0,2 L/s đến 1,5 L/s, thiết bị DN 5, DN 10, DN 15, DN 20, DN 25, DN 40. Lưu lượng trung bình: lớn hơn 1,5 L/s",
    "dieu": "Phương án trang bị hệ thống",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Tổ hợp thiết bị chuyên dùng (vòi, lăng chữa cháy, đầu nối, van) lắp đặt, trang bị sẵn để triển khai đưa nước đến đám cháy.",
+   "dieu": "1.4.6",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "cach_xac_dinh": [

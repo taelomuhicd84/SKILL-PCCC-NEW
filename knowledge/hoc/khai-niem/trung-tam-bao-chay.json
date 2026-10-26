@@ -14,9 +14,11 @@
  "lien_quan": [
   "Hộp nút ấn báo cháy",
   "Thiết bị báo cháy",
-  "Đầu báo khói"
+  "Đầu báo khói",
+  "Hệ thống báo cháy",
+  "Thiết bị báo cháy bằng ánh sáng"
  ],
- "ngay": "2026-10-26T04:40:34.533Z",
+ "ngay": "2026-10-26T07:10:51.055Z",
  "dinh_nghia": [],
  "cach_xac_dinh": [],
  "ap_dung": [
@@ -62,6 +64,16 @@
    "y": "Tín hiệu âm thanh, ánh sáng khi báo cháy và báo sự cố phải khác nhau.",
    "dieu": "5.12.9",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Phải có chức năng tự động kiểm tra tín hiệu từ đầu báo cháy, kênh báo cháy và thiết bị báo cháy khác để loại trừ tín hiệu báo cháy giả.",
+   "dieu": "TCVN 7568-14:2025, 5.12.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Thiết bị chỉ thị bên ngoài nhà phải kết nối với tín hiệu ra giám sát của tủ trung tâm.",
+   "dieu": "5.11.3.2.3",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "cach_kiem": [

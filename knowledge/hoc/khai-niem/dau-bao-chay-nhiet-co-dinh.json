@@ -1,0 +1,34 @@
+{
+ "slug": "dau-bao-chay-nhiet-co-dinh",
+ "ten": "Đầu báo cháy nhiệt cố định",
+ "dong_nghia": [
+  "Fixed temperature heat detector"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Đầu báo cháy nhiệt",
+  "Đầu báo cháy nhiệt gia tăng"
+ ],
+ "ngay": "2026-10-26T07:07:32.950Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu báo cháy nhiệt nhạy cảm với nhiệt độ môi trường đạt đến một giá trị xác định (ngưỡng).",
+   "dieu": "3.7",
+   "nguon": "kb:tk-tcvn-7568-14"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác đầu báo nhiệt gia tăng: nhiệt cố định tác động khi nhiệt độ đạt ngưỡng; nhiệt gia tăng tác động khi tốc độ tăng nhiệt độ đạt giá trị xác định.",
+   "dieu": "3.7, 3.8",
+   "nguon": "kb:tk-tcvn-7568-14"
+  }
+ ]
+}

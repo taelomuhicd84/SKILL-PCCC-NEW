@@ -1,27 +1,85 @@
 {
  "slug": "buong-thang-bo-khong-nhiem-khoi",
  "ten": "Buồng thang bộ không nhiễm khói",
- "dong_nghia": [],
+ "dong_nghia": [
+  "buồng thang bộ loại N1, N2, N3"
+ ],
  "anh_huong": [
   "m07-thoat-nan",
   "m09-chong-khoi",
-  "m12-chua-chay"
+  "m12-chua-chay",
+  "m06-ngan-chay"
  ],
  "lien_quan": [
-  "Hệ thống đường ống khô có họng chờ cấp nước DN65"
+  "Hệ thống đường ống khô có họng chờ cấp nước DN65",
+  "Bậc chịu lửa của nhà, công trình, khoang cháy",
+  "Khoang cháy",
+  "Buồng thang bộ thông thường",
+  "Cầu thang bộ loại 2",
+  "Khoang đệm ngăn cháy"
  ],
- "ngay": "2026-10-26T04:08:59.612Z",
- "dinh_nghia": [],
- "cach_xac_dinh": [],
+ "ngay": "2026-10-26T07:07:11.845Z",
+ "dinh_nghia": [
+  {
+   "y": "Buồng thang bộ không nhiễm khói gồm ba loại N1, N2, N3, phân biệt theo cách ngăn khói xâm nhập vào buồng thang.",
+   "dieu": "Sơ đồ phân loại cầu thang bộ và buồng thang bộ",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "N1: có lối vào buồng thang từ mỗi tầng qua một vùng đệm không khí không nhiễm khói, theo các đường đi chuyển tiếp hở.",
+   "dieu": "Sơ đồ phân loại (thứ tự N1)",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "N2: có áp suất không khí dương (cao hơn bên ngoài buồng thang) trong buồng thang bộ khi có cháy.",
+   "dieu": "Sơ đồ phân loại (thứ tự N2)",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "N3: có lối vào buồng thang bộ từ mỗi tầng qua khoang đệm ngăn cháy luôn có áp suất không khí dương.",
+   "dieu": "Sơ đồ phân loại (thứ tự N3)",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
  "ap_dung": [
   {
    "y": "Họng chờ cấp nước DN65 của hệ thống đường ống khô được lắp tại các sảnh thang máy chữa cháy hoặc trong các khoang đệm của buồng thang bộ không nhiễm khói.",
    "dieu": "2.4.4",
    "nguon": "kb:qcvn10-2025-nuoc-chua-chay.md"
+  },
+  {
+   "y": "Hành lang chiều rộng không nhỏ hơn 2 m (của tầng hầm có gian phòng hạng C1, C2, C3) dẫn trực tiếp ra ngoài hoặc qua một buồng thang bộ không nhiễm khói.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Tại các khoang cháy phía trên (nhà thuộc Phụ lục A.2) phải bố trí phòng phương tiện chữa cháy ban đầu cách buồng thang bộ không nhiễm khói hoặc thang máy chữa cháy không quá 30 m.",
+   "dieu": "A.2",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "khong_ap_dung": [],
- "yeu_cau": [],
- "cach_kiem": [],
- "hay_nham": []
+ "yeu_cau": [
+  {
+   "y": "Cấu kiện buồng thang bộ theo Bảng 4: tường trong REI 120 (bậc I), 90 (II), 60 (III), 45 (IV); bản thang và chiếu thang R60 (I, II), R45 (III), R15 (IV).",
+   "dieu": "Bảng 4",
+   "nguon": "kb:tk-phụ-lục-h"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ mặt bằng tầng và hệ thống tăng áp: N1 phải có vùng đệm hở, N2 phải có tăng áp buồng thang, N3 phải có khoang đệm ngăn cháy tăng áp. Suy từ sơ đồ phân loại.",
+   "dieu": "suy từ sơ đồ phân loại",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác buồng thang bộ thông thường (L1, L2) ở chỗ có biện pháp chống khói: vùng đệm không nhiễm khói, tăng áp hoặc khoang đệm ngăn cháy tăng áp.",
+   "dieu": "",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ]
 }

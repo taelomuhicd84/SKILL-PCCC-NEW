@@ -1,5 +1,23 @@
 # Khái niệm thẩm định – Mục 1 – Phân loại, diện thẩm duyệt (agent tự học rút từ văn bản, chỉ gồm mục từ nguồn đã duyệt)
-62 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
+80 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
+
+### Bậc chịu lửa
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Phân loại kỹ thuật về cháy (bậc chịu lửa, giải pháp ngăn cháy…) của nhà và công trình xác định theo QCVN 06:/BXD. (1.5.2)
+- Bậc chịu lửa được thiết lập phụ thuộc vào số tầng (hoặc chiều cao PCCC của nhà), nhóm nguy hiểm cháy theo công năng, diện tích khoang cháy (xem Phụ lục H) và tính nguy hiểm cháy của các quá trình công nghệ diễn ra trong nhà, công trình, khoang cháy. (2.5.3.2)
+- Nhà, công trình, khoang cháy được phân thành 5 bậc chịu lửa I, II, III, IV, V. (2.5.3.1)
+**Khi nào áp dụng / được phép:**
+- Nhà bậc I, II, III: gian phòng phân chia bởi tường/sàn ngăn cháy thấp hơn REI 45 hoặc vách thấp hơn EI 45 (hoặc không phân chia) thì trang bị báo cháy/chữa cháy tự động theo gian phòng Bảng A.3. Nhà bậc IV, V: ngưỡng REI 15, EI 15. (1.5.10)
+- Giới hạn chịu lửa cần thiết của kết cấu xây dựng phải chọn phù hợp với bậc chịu lửa đã chọn; sự phù hợp lấy theo Bảng 4, trừ trường hợp quy chuẩn quy định riêng. (2.5.3.3)
+- Không xác định được bậc chịu lửa và cấp nguy hiểm cháy kết cấu của nhà thì cho phép lấy bậc V và cấp S3 để xác định các yêu cầu an toàn cháy khác (khoảng cách PCCC...). (Phụ lục H)
+**Yêu cầu kỹ thuật, trị số:**
+- Bảng 4, giới hạn chịu lửa tối thiểu. Tường chịu lực, cột chịu lực: bậc I R120, II R90, III R45, IV R15, V không quy định. (Bảng 4)
+- Bảng 4, sàn tầng (kể cả sàn tầng áp mái, sàn trên tầng hầm): I REI60, II REI45, III REI45, IV REI15. (Bảng 4)
+- Bảng 4, tường trong buồng thang bộ: I REI120, II REI90, III REI60, IV REI45. Bản thang và chiếu thang: I R60, II R60, III R45, IV R15. (Bảng 4)
+- Nhà bậc I, II, III: sàn và trần của tầng hầm, tầng nửa hầm phải bằng vật liệu không cháy, giới hạn chịu lửa ít nhất REI 90. Sàn tầng 1 và tầng trên cùng làm bằng vật liệu có tính cháy không thấp hơn Ch1. (Bảng 4, chú thích 1)
+**Cách kiểm trên hồ sơ:**
+- Đối chiếu bậc chịu lửa ghi trong hồ sơ với số tầng/chiều cao PCCC, nhóm công năng, diện tích khoang cháy trong Phụ lục H; sau đó đối chiếu giới hạn chịu lửa từng cấu kiện với Bảng 4. Suy từ 2.5.3.2, 2.5.3.3.
+**Liên quan:** Nhóm nguy hiểm cháy theo công năng, Hệ số tiết diện Am/V, Khoảng cách phòng cháy chống cháy giữa các nhà, Hạng nguy hiểm cháy, Khoang cháy, Chiều cao PCCC, Nhóm nhà F, Cấp nguy hiểm cháy kết cấu
 
 ### Bố trí công năng
 **Khi nào áp dụng / được phép:**
@@ -75,6 +93,7 @@
 - Chiều cao PCCC lớn nhất cho phép tại các bảng H.5 (nhà trẻ, mẫu giáo, mầm non), H.6 (trường phổ thông F4.1 và nhà ngủ trường nội trú F1.1), H.7 (nhóm F2.1, F2.2) có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4 của bảng, nếu có) khi nhà được trang bị hệ thống báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC của nhà không quá 28 m. (H.2.12.10)
 - Khi có ban công (lô gia) hoặc kết cấu bao che (lan can) cửa sổ thì chiều cao PCCC được tính bằng khoảng cách lớn nhất từ mặt đường cho xe chữa cháy tiếp cận đến mép trên của kết cấu bao che (lan can). (Mục Chiều cao PCCC của nhà (chú thích đứng trước Chú thích 4))
 - Khi các mặt đường tiếp cận nhà có cao độ khác nhau thì nhà có thể có các chiều cao PCCC khác nhau tùy phương án thiết kế an toàn cháy cụ thể. (Chú thích 4)
+- Chiều cao PCCC lớn nhất cho phép của nhà tại các bảng H.5 (nhà trẻ, mẫu giáo, mầm non), H.6 (trường phổ thông F4.1 và nhà ngủ trường nội trú F1.1), H.7 (nhóm F2.1, F2.2) có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4 của bảng, nếu có). (H.2.12.10)
 **Khi nào áp dụng / được phép:**
 - Bảng H.1 đến H.4, H.5 đến H.8 quy định chiều cao PCCC lớn nhất cho phép của nhà theo bậc chịu lửa và cấp nguy hiểm cháy kết cấu; có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc) khi nhà có báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC không quá 28 m (H.2.12.10)
 - Chiều cao nhà trong Bảng H.9, H.10, H.11 tính từ sàn tầng 1 đến trần tầng trên cùng, kể cả tầng kỹ thuật; trần có cao độ thay đổi thì lấy cao độ trung bình; khi xác định số tầng chỉ tính các tầng trên mặt đất (Bảng H.9, H.10, H.11 chú thích 1))
@@ -93,6 +112,9 @@
 - Buồng thang bộ loại L2 được bố trí trong nhà bậc chịu lửa I, II, III, cấp S0, S1, nhóm F1, F2, F3, F4, với chiều cao PCCC không quá 9 m; cho phép tăng đến 12 m (điều kiện loại trừ bị cắt trong đoạn trích). (QCVN 06 (đoạn trích; số điều bị cắt))
 - Chiều cao PCCC lớn nhất của nhà tại Bảng H.5 (nhà trẻ), H.6 (trường học), H.7 (nhà cơ sở văn hóa) được xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4) khi nhà có báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC không quá 28 m. Ví dụ: nhà trẻ xây đến 3 tầng, chiều cao PCCC > 9 m. (Phụ lục H, Bảng H.5, H.6, H.7)
 - Nhà bệnh viện (nhóm F1.1) bố trí trong nhà độc lập hoặc khoang cháy riêng có chiều cao PCCC không quá 28 m (hoặc 9 tầng). (Phụ lục H (tài liệu sửa đổi 1:2023))
+- Cách xác định theo số tầng chỉ dùng khi nhà được trang bị hệ thống báo cháy tự động hoặc hệ thống chữa cháy tự động, và chiều cao PCCC của nhà không quá 28 m. (H.2.12.10)
+- Phạm vi áp dụng quy chuẩn: chung cư, nhà ở tập thể có chiều cao PCCC đến 150 m và không quá 3 tầng hầm. (1.1.2)
+- Chiều cao PCCC của nhà được phép bố trí trong Phụ lục H hiểu là phần nhà/khoang cháy có công năng tương ứng được bố trí đến chiều cao đó. Công năng nhà trẻ bố trí đến chiều cao an toàn PCCC 9 m, các tầng cao hơn bố trí công năng khác (văn phòng, phòng ban giám hiệu...). (Phụ lục H (tài liệu hướng dẫn sửa đổi 1:2023))
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không quy định chiều cao nhà một tầng có cấp nguy hiểm cháy S0 và S1 (nhà sản xuất, chăn nuôi) (Bảng H.9, H.10 chú thích 1))
 - Cho phép không áp dụng các quy định 4.33.1 đến 4.33.3 (đai ngăn cháy giữa các tầng) đối với nhà từ ba tầng trở xuống hoặc chiều cao PCCC dưới 15 m, ga ra để xe nổi dạng hở, hoặc nhà thỏa mãn đồng thời các điều kiện nêu tại Chú thích 6 Bảng 4 hoặc Chú thích 2 của Bảng (số bảng bị cắt). (4.33)
@@ -100,18 +122,20 @@
 - Nhà công cộng có chiều cao PCCC từ trên 50 m đến 150 m và nhà F1.3 từ trên 75 m đến 150 m: số tầng, diện tích khoang cháy theo Phụ lục A (Bảng H.2 chú thích 4; Bảng H.1 chú thích 1)
 - Với nhà trên 3 tầng hoặc có chiều cao PCCC lớn hơn 9 m: lối ra thoát nạn của các gian phòng và của mỗi tầng phải tuân thủ yêu cầu của quy chuẩn (không áp dụng ngoại lệ một lối). (Giải pháp thoát nạn – Số lối ra thoát nạn)
 - Bệnh viện (F1.1) có công năng chính vượt chiều cao PCCC 28 m (hoặc quá 9 tầng, tối đa 50 m) phải đồng thời: bậc chịu lửa I; toàn nhà có báo cháy tự động và chữa cháy tự động; chiều cao PCCC bảo đảm cứu nạn và tiếp cận chữa cháy qua lối vào từ trên cao; chiều rộng bản thang thoát nạn tối thiểu 1,35 m; vật liệu hoàn thiện trên đường thoát nạn không nguy hiểm hơn CV1 (các điều kiện sau đó bị cắt). (Phụ lục H (tài liệu sửa đổi 1:2023))
+- Khoảng cách từ mép đường cho xe chữa cháy đến tường nhà không lớn hơn 5 m với nhà có chiều cao PCCC nhỏ hơn 12 m; không lớn hơn 8 m với 12 m đến 28 m; không lớn hơn 10 m với trên 28 m. (6.2)
 **Cách kiểm trên hồ sơ:**
 - Lấy chiều cao PCCC từ kết quả mục 1 (theo QCVN 06) rồi so ngưỡng 100 m khi xét 1.5.12. (suy từ 1.5.12)
 - Đo trên mặt đứng, từ mặt đường xe chữa cháy tiếp cận đến mép dưới cửa sổ tầng trên cùng (hoặc điểm quy định). Suy từ 3.5 và Hình A.1–A.8. (3.5)
 - Xem tổng mặt bằng và bản vẽ từng hạng mục: số tầng, chiều cao PCCC ghi trên bản vẽ; so với các ngưỡng 9 m, 15 m.
 - Trên mặt đứng/mặt cắt, xác định mặt đường xe chữa cháy tiếp cận từng mặt nhà, đo đến mép trên lan can hoặc kết cấu bao che; so với các ngưỡng 9 m, 12 m, 15 m, 28 m, 50 m. Suy từ chú thích về chiều cao PCCC và QCVN 06.
+- Xác định chiều cao PCCC của nhà trong hồ sơ rồi chọn mốc 12 m, 28 m để so khoảng cách mép đường đến tường nhà. Suy từ yêu cầu khoảng cách trên.
 **Dễ nhầm với:**
 - Nhà sản xuất, kho: chiều cao tính sàn tầng 1 đến trần tầng trên cùng kể cả tầng kỹ thuật; nhà công cộng: số tầng không kể tầng kỹ thuật trên cùng (Bảng H.2, H.9)
 - Ba ngưỡng khác nhau: 25 m (điều khiển máy bơm), 28 m (đường ống khô; công trình đang thi công), 50 m (đường ống khô với nhóm F1.3). (2.4.2, 2.4.3, 2.4.4)
 - Khác 'chiều cao nhà' (3.4): chiều cao nhà tính từ mặt đất đặt nhà đến điểm cao nhất, kể cả tầng tum hoặc mái dốc. Chiều cao PCCC tính từ mặt đường xe chữa cháy đến mép dưới cửa sổ tầng trên cùng. (3.4; 3.5)
 - Chiều cao PCCC khác chiều cao công trình: cùng một công trình văn bản ghi hai trị số riêng (vd. 5m và 3,5m). (Quy mô công trình)
 - Nhà có nhiều mặt đường tiếp cận cao độ khác nhau có thể có nhiều chiều cao PCCC; không dùng một giá trị duy nhất cho mọi giải pháp. (Chú thích 4)
-**Liên quan:** Bậc chịu lửa, Cấp nguy hiểm cháy kết cấu, Khoang cháy, Số tầng nhà, Tầng hầm, Hệ thống đường ống khô có họng chờ cấp nước DN65, Hệ thống họng nước chữa cháy trong nhà, Chiều cao nhà, Tầng tum, Ngăn cháy theo phương đứng, Số lối ra thoát nạn, Giấy chứng nhận thẩm duyệt thiết kế về PCCC, Bố trí công năng, Giao thông cho xe chữa cháy, Đai ngăn cháy giữa các tầng
+**Liên quan:** Bậc chịu lửa, Cấp nguy hiểm cháy kết cấu, Khoang cháy, Số tầng nhà, Tầng hầm, Hệ thống đường ống khô có họng chờ cấp nước DN65, Hệ thống họng nước chữa cháy trong nhà, Chiều cao nhà, Tầng tum, Ngăn cháy theo phương đứng, Số lối ra thoát nạn, Giấy chứng nhận thẩm duyệt thiết kế về PCCC, Bố trí công năng, Giao thông cho xe chữa cháy, Đai ngăn cháy giữa các tầng, Bậc chịu lửa của nhà, công trình, khoang cháy
 
 ### Chiều cao phòng cháy chữa cháy (chiều cao PCCC) (còn gọi: chiều cao PCCC của nhà)
 **Định nghĩa:**
@@ -159,6 +183,52 @@
 **Dễ nhầm với:**
 - Theo đề xuất của CATP Hà Nội (chưa chính thức): nhà có yếu tố ở của chủ hộ là nhà ở riêng lẻ kết hợp kinh doanh, không phải đa năng/hỗn hợp; cho thuê cả nhà làm văn phòng, người thuê không ở thì không phải nhà ở riêng lẻ. Karaoke từ tầng 3 trở lên trong nhà hỗn hợp xét theo mục 8. (mục 5.5 (đề xuất 2360/CAHN-PC07))
 **Liên quan:** Phụ lục III NĐ 105/2025/NĐ-CP (danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC)
+
+### Công trình sau cải tạo, mở rộng
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Tính diện tích sau cải tạo so với Phụ lục III (ví dụ 3.000 m² + 750 m² xây mới = 3.750 m²) (Công văn C07, câu 9)
+**Khi nào áp dụng / được phép:**
+- Sau đó xét từng thay đổi với khoản 4 Điều 6 (cơ quan xây dựng) và khoản 3 Điều 9 (Công an) (Công văn C07, câu 9)
+**Cách kiểm trên hồ sơ:**
+- Cộng diện tích hiện có và diện tích xây mới rồi so Phụ lục III (suy từ Công văn C07, câu 9)
+**Liên quan:** Thẩm duyệt điều chỉnh, Hạng mục xây mới độc lập
+
+### Công trình thuộc diện thẩm định thiết kế về PCCC (còn gọi: danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC)
+**Định nghĩa:**
+- Danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC theo Phụ lục III NĐ 105/2025. (Phụ lục III NĐ 105/2025/NĐ-CP)
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Nhà ở: nhà chung cư, nhà ở tập thể cao từ 7 tầng trở lên hoặc tổng diện tích sàn từ 3.000 m² trở lên. (Phụ lục III, mục 1)
+- Giáo dục, đào tạo, nghiên cứu: nhà trẻ, trường mầm non, mẫu giáo từ 150 cháu trở lên hoặc tổng diện tích sàn từ 2.000 m² trở lên. (Phụ lục III, mục 2)
+- Giáo dục, đào tạo, nghiên cứu: các trường tiểu học, THCS, THPT, đại học, cao đẳng, trung học chuyên nghiệp, dạy nghề, trung tâm đào tạo khác, cơ sở nghiên cứu cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 3.000 m² trở lên. (Phụ lục III, mục 2)
+- Y tế (độc lập hoặc tổ hợp): bệnh viện, phòng khám, trạm y tế, nhà hộ sinh, cơ sở y tế khác cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 2.000 m² trở lên. (Phụ lục III, mục 3)
+- Thể thao: sân vận động có khán đài từ 5.000 chỗ trở lên. Nhà thi đấu, nhà tập luyện có khán đài từ 5.000 chỗ trở lên hoặc tổng diện tích sàn từ 5.000 m² trở lên. (Phụ lục III, mục 4)
+- Văn hóa: nhà hát, rạp chiếu phim, rạp xiếc từ 300 chỗ ngồi trở lên (văn bản bị cắt ở đây, các loại còn lại chưa có trong nguồn). (Phụ lục III, mục 5)
+**Khi nào áp dụng / được phép:**
+- Áp dụng khi thiết kế, cải tạo, thay đổi công năng sử dụng. (Phụ lục III)
+**Cách kiểm trên hồ sơ:**
+- Lấy loại công trình, số tầng, tổng diện tích sàn, số chỗ trong hồ sơ rồi so với ngưỡng từng nhóm. Suy từ Phụ lục III.
+**Dễ nhầm với:**
+- Các ngưỡng khác nhau theo nhóm công năng: nhà trẻ tính theo cháu, trường học và y tế 5 tầng, nhà ở 7 tầng. Tổng diện tích sàn cũng khác nhau (2.000, 3.000, 5.000 m²). (Phụ lục III, mục 1–4)
+**Liên quan:** Thẩm định thiết kế về PCCC
+
+### Diện tích một tầng trong phạm vi một khoang cháy (còn gọi: diện tích khoang cháy của tầng)
+**Định nghĩa:**
+- Xác định theo chu vi bên trong của tường bao của tầng, không tính diện tích buồng thang bộ. (QCVN 06:2022/BXD, Quy định chung)
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Nhà 1 tầng: cộng thêm diện tích của tất cả sàn công tác, sàn đỡ thiết bị, sàn lửng; nhà nhiều tầng: cộng sàn nằm trong tầng đó. (QCVN 06:2022/BXD, Quy định chung)
+- Diện tích các gian phòng cao thông từ 2 tầng trở lên mà lỗ thông tầng không được bảo vệ ngăn cháy thì được tính vào diện tích tổng cộng của nhà trong phạm vi một tầng. (QCVN 06:2022/BXD, Quy định chung)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Diện tích thềm (cầu) xếp dỡ phía ngoài dùng cho phương tiện vận tải đường bộ và đường sắt không tính vào diện tích tầng nhà trong phạm vi khoang cháy. (QCVN 06:2022/BXD, Quy định chung)
+**Cách kiểm trên hồ sơ:**
+- Đo chu vi trong tường bao từng tầng, trừ buồng thang bộ, cộng sàn lửng/sàn công tác; so với diện tích tối đa trong Bảng bậc chịu lửa (suy từ quy định chung). (suy từ QCVN 06:2022/BXD, Quy định chung)
+**Liên quan:** Khoang cháy, Sàn lửng, Gian phòng thông 2 tầng hoặc nhiều tầng
+
+### Diện tích xây dựng
+**Định nghĩa:**
+- Xác định theo chu vi ngoài của nhà ở cao độ chân tường, gồm cả các phần nhô ra, đường đi qua dưới nhà, các phần nhà không có kết cấu ngăn che bên ngoài. (QCVN 06:2022/BXD, Quy định chung)
+**Dễ nhầm với:**
+- Khác diện tích một tầng trong khoang cháy (tính theo chu vi bên trong tường bao).
+**Liên quan:** Khối tích xây dựng, Tổng diện tích của nhà
 
 ### Đổi nguyên lý báo cháy, chữa cháy (còn gọi: đổi nguyên lý báo cháy)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
@@ -365,6 +435,15 @@
 - Đoạn trích này dẫn lại NĐ 136/2020 và NĐ 50/2024 chỉ cho thủ tục thẩm duyệt điều chỉnh của dự án đã có Giấy chứng nhận. Các văn bản này vẫn hết hiệu lực từ 01/7/2025 đối với các nội dung khác. Văn bản hiện hành về thẩm định thiết kế là NĐ 105/2025/NĐ-CP đã sửa bởi NĐ 347/2026/NĐ-CP. (khoản 3 Điều 46)
 **Liên quan:** Thẩm duyệt điều chỉnh thiết kế về phòng cháy và chữa cháy, Nội dung thẩm duyệt thiết kế về PCCC
 
+### Hạng mục xây mới độc lập
+**Định nghĩa:**
+- Hạng mục có khoảng cách, kết cấu riêng; dùng chung hạ tầng, trạm bơm, bể nước đã thẩm duyệt (Công văn C07, câu 8)
+**Khi nào áp dụng / được phép:**
+- Công trình đã thẩm duyệt, chưa nghiệm thu, xây mới hạng mục độc lập: chỉ xét thẩm định nếu hạng mục mới thuộc Phụ lục III (Công văn C07, câu 1, câu 8)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Ví dụ nhà kho mới 192 m², cao 7,9 m, độc lập với xưởng đã thẩm duyệt: không thuộc Phụ lục III nên không thuộc diện (Công văn C07, câu 8)
+**Liên quan:** Thẩm duyệt điều chỉnh, Công trình sau cải tạo, mở rộng
+
 ### Hạng nguy hiểm cháy nổ (còn gọi: hạng nguy hiểm cháy và cháy nổ, Hạng nguy hiểm cháy và cháy nổ, hạng nguy hiểm cháy, hạng theo tính nguy hiểm cháy và cháy nổ)
 **Định nghĩa:**
 - Nhà, công trình và gian phòng có công năng sản xuất, kho (nhóm F5) theo tính nguy hiểm cháy và cháy nổ được phân thành các hạng A, B, C, D, E theo QCVN 06:/BXD. (1.5.2)
@@ -374,6 +453,7 @@
 - Hạng của nhà và công trình xác định căn cứ trên tỉ lệ và tổng diện tích các gian phòng thuộc hạng này hay hạng khác trong nhà và công trình đó.
 - Phương pháp xác định các dấu hiệu để xếp nhà, công trình, gian phòng sản xuất và kho vào các hạng được quy định trong các tiêu chuẩn; có thể áp dụng tài liệu [8] và các tài liệu hướng dẫn liên quan. Thông số chất cháy trong nhà và gian phòng tham khảo các tài liệu chuẩn [3, 4, 5, 6, 8, 9] hoặc tài liệu chuẩn khác. (C.3.1)
 - Khi không có tính toán cụ thể để phân hạng theo tiêu chuẩn, có thể tham khảo hạng nguy hiểm cháy và cháy nổ của một số nhà và gian phòng thuộc các phân xưởng, nhà kho (nội dung chi tiết bị cắt trong nguồn). (C.3.2)
+- Hạng nguy hiểm cháy và cháy nổ của nhà, công trình, gian phòng có công năng sản xuất và kho xác định theo Phụ lục C (nguồn chỉ nêu tên phụ lục). (Phụ lục C)
 **Khi nào áp dụng / được phép:**
 - Cải tạo thay đổi hạng nguy hiểm cháy và cháy nổ của bộ phận, khu vực thì áp dụng quy định trang bị của Quy chuẩn này đối với các bộ phận, khu vực trực tiếp được cải tạo, sửa chữa. (Thông tư Điều 2 khoản 3)
 - Khoảng cách từ vị trí xa nhất đến lối ra thoát nạn gần nhất phải được hạn chế tùy thuộc vào nhóm nguy hiểm cháy theo công năng và hạng nguy hiểm cháy nổ (xem Phụ lục C) của gian phòng và nhà, cùng số người thoát nạn, thông số hình học và cấp nguy hiểm cháy kết cấu, bậc chịu lửa của nhà. (3.2 (xem Phụ lục G))
@@ -382,19 +462,29 @@
 - Kho cất giữ hàng hạng C trên giá đỡ cao tầng phải bố trí trong nhà 1 tầng có bậc chịu lửa I đến IV và cấp nguy hiểm cháy kết cấu S0. Nếu bố trí trong nhà nhiều tầng thì giá đỡ cao tầng phải được bảo vệ bằng hệ thống chữa cháy tự động theo tài liệu chuẩn được phép áp dụng và phải bảo đảm mọi người trong nhà thoát nạn an toàn ra ngoài trong mọi trường hợp cháy. (A.1.3.10)
 - Cải tạo, sửa chữa làm tăng hạng nguy hiểm cháy và cháy nổ của tầng nhà, khoang cháy hoặc nhà thì phải áp dụng yêu cầu của quy chuẩn cho phần được cải tạo; nếu không thể đáp ứng thì áp dụng 1.1.10. (1.1 (điểm c; 1.1.10))
 - Lưu lượng nước chữa cháy ngoài nhà: nhà và khu vực kho lạnh bảo quản thực phẩm lấy giống nhà hạng C; nhà phục vụ nông nghiệp và phát triển nông thôn bậc chịu lửa I, II, khối tích không lớn hơn 5 000 m3, hạng D, E lấy bằng 5 L/s. (Chú thích 7 và Chú thích 3 (mục cấp nước chữa cháy ngoài nhà))
+- Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao lớn nhất và diện tích một tầng trong khoang cháy của nhà sản xuất phụ thuộc hạng nguy hiểm cháy nổ, theo Bảng H.9. (H.4.1)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Gian phòng hạng E, và hạng C4 (trừ gian phòng trong nhà F1.1, F1.2, F2.1, F4.1, F4.2) được loại khỏi yêu cầu trang bị báo cháy/chữa cháy tự động theo Phụ lục A. (1.5.11)
 - Nhà, công trình và gian phòng có công năng khác (không phải sản xuất và kho) không phân hạng theo tính nguy hiểm cháy và cháy nổ, trừ các gian phòng nêu tại 2.5.5.2. (2.5.6)
 - Quy định cho phép không phân chia các khu vực khác nhóm nguy hiểm cháy theo công năng bằng bộ phận ngăn cháy (khi công năng chính chiếm phần lớn diện tích sàn tầng) không áp dụng nếu gian phòng công năng phụ trợ có hạng nguy hiểm cháy và cháy nổ cao hơn gian phòng công năng chính. (mục bố trí công năng trong tầng nhà (số điều bị cắt trong nguồn))
+- Nhà bậc chịu lửa IV và V không được tăng gấp 2 lần diện tích khi có chữa cháy tự động. (H.4.1)
 **Yêu cầu kỹ thuật, trị số:**
 - Không yêu cầu giới hạn chịu lửa của tường ngăn và ô cửa giữa các gian phòng và hành lang bên, trừ các gian phòng nhóm F5 hạng A, B, C hoặc bếp. (3.3)
+- Bảng H.9, hạng A: nhà bậc I, II cao tối đa 36 m, cấp S0, 1 tầng không hạn chế, 2 tầng 5 200 m2, từ 3 tầng 3 500 m2; bậc III cao 24 m, S0, 7 800 / 3 500 / 2 600 m2; bậc IV, S0, 1 tầng 3 500 m2. (Bảng H.9)
+- Bảng H.9, hạng B: bậc I, II cao 36 m, 2 tầng 10 400 m2, từ 3 tầng 7 800 m2; bậc III cao 24 m như hạng A. (Bảng H.9)
+- Trang bị chữa cháy tự động toàn nhà cho nhà sản xuất: cho phép tăng gấp 2 lần diện tích sàn trong khoang cháy ở Bảng H.9. (H.4.1)
+- Nhà hạng C có các gian phòng hạng C1 tổng diện tích lớn hơn 1/2 diện tích tầng tương ứng: diện tích một tầng trong khoang cháy ở Bảng H.9 giảm đi 25%. (H.4.1)
+- Dây chuyền công nghệ khác hạng bố trí chung trong một nhà/gian phòng: phải có giải pháp ngăn lan truyền cháy nổ; nếu không bảo đảm hiệu quả thì bố trí trong gian phòng riêng, ngăn cách theo Phụ lục E.
+- Sàn giá đỡ, sàn lửng có diện tích trên mỗi cao độ vượt 40% diện tích sàn thì xác định diện tích sàn như nhà nhiều tầng.
 **Cách kiểm trên hồ sơ:**
 - Với nhà sản xuất, nhà kho: xem hồ sơ có nêu hạng của từng gian phòng và hạng của cả nhà (theo tỉ lệ và tổng diện tích các gian phòng cùng hạng) hay không; có tính toán hoặc tham chiếu tài liệu chuẩn để phân hạng hay không. Suy từ 2.5.6, C.3.1, C.3.2. (suy từ 2.5.6, C.3.1, C.3.2)
 - Với công năng khác: không đòi hỏi phân hạng, nhưng soát các gian phòng thuộc 2.5.5.2 (xem mục hay nhầm). (suy từ 2.5.6)
+- Lấy hạng của nhà/khoang cháy trong hồ sơ, tra Bảng H.9 theo bậc chịu lửa và số tầng để so chiều cao và diện tích một tầng; áp hệ số tăng 2 lần hoặc giảm 25% nếu thuộc trường hợp. Suy từ H.4.1.
 **Dễ nhầm với:**
 - Hạng nguy hiểm cháy và cháy nổ (A, B, C, D, E; chỉ cho sản xuất và kho) khác với nhóm nguy hiểm cháy theo công năng (F1…F5). Khoảng cách thoát nạn xét cả hai yếu tố. (3.2)
 - Gian phòng sản xuất và kho (kể cả phòng thí nghiệm, nhà xưởng diện tích trên 50 m2) và gian phòng chuẩn bị đồ ăn có thiết bị đun nấu công suất trên 10 kW trong nhà nhóm F1, F2, F3, F4 được xếp vào nhóm F5, nên thuộc diện phải xét hạng. (2.5.5.2)
-**Liên quan:** Nhóm nguy hiểm cháy theo công năng, Gian phòng, Tải trọng cháy riêng, Khoang cháy, Nhà xưởng cho thuê và các công trình phụ trợ, Sàn lửng, Bậc chịu lửa, Bố trí công năng, Nhóm nhà F, Cấp nguy hiểm cháy kết cấu
+- Kho cất giữ hàng hạng C trên giá đỡ cao tầng phải bố trí trong nhà 1 tầng bậc I đến IV, cấp S0; bố trí trong nhà nhiều tầng thì giá đỡ phải có chữa cháy tự động. (A.1.3.10)
+**Liên quan:** Nhóm nguy hiểm cháy theo công năng, Gian phòng, Tải trọng cháy riêng, Khoang cháy, Nhà xưởng cho thuê và các công trình phụ trợ, Sàn lửng, Bậc chịu lửa, Bố trí công năng, Nhóm nhà F, Cấp nguy hiểm cháy kết cấu, Bậc chịu lửa của nhà, công trình, khoang cháy
 
 ### Hạng nguy hiểm cháy nổ (xác định theo áp suất nổ dư) (còn gọi: Hạng A, B)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
@@ -439,6 +529,7 @@
 **Định nghĩa:**
 - Họng nước lưu lượng thấp: từ 0,2 L/s đến 1,5 L/s (thiết bị đường kính DN 5, DN 10, DN 15, DN 20, DN 25, DN 40). Lưu lượng trung bình: lớn hơn 1,5 L/s (5.2.1)
 - Họng nước chữa cháy lưu lượng thấp: từ 0,2 L/s đến 1,5 L/s, thiết bị DN 5, DN 10, DN 15, DN 20, DN 25, DN 40. Lưu lượng trung bình: lớn hơn 1,5 L/s (Phương án trang bị hệ thống)
+- Tổ hợp thiết bị chuyên dùng (vòi, lăng chữa cháy, đầu nối, van) lắp đặt, trang bị sẵn để triển khai đưa nước đến đám cháy. (1.4.6)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
 - Số tia và lưu lượng tối thiểu theo Bảng 11 (nhà ở, nhà công cộng, hành chính - phụ trợ) và Bảng 12 (nhà sản xuất, nhà kho); chiều cao PCCC trên 50 m: 4 tia × 2,5 L/s (công cộng), nhóm F5 hạng A, B, C: 4 tia × 5 L/s (5.2.1, 5.2.2)
 - Đối tượng phải trang bị xác định theo Bảng B.1 (loại nhà, công trình và quy mô: số tầng, tổng diện tích sàn, số chỗ ngồi, số cháu, chiều dài hầm). (2.4.1; Phụ lục B, Bảng B.1)
@@ -501,6 +592,7 @@
 - Diện tích khoang cháy là diện tích lớn nhất của một tầng trong phạm vi một khoang cháy. Diện tích một tầng trong phạm vi một khoang cháy là diện tích tầng được giới hạn bởi các tường bao của nhà và (hoặc) các tường ngăn cháy loại 1 (H.6.2)
 - Thể tích được giới hạn bởi các thành phần xây dựng để ngăn cản đám cháy và các sản phẩm cháy lan truyền từ một khoang cháy hoặc từ một gian phòng có đám cháy tới các khoang cháy hoặc gian phòng khác. (3.19)
 - Một phần của khoang cháy được ngăn bởi các bộ phận ngăn cháy và (hoặc) khu vực không có tải trọng cháy. (Thuật ngữ)
+- Khoang cháy, nhà và các công trình xây dựng sau đây gọi chung là nhà (quy ước dùng trong quy chuẩn). (1.1.1)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
 - Diện tích một tầng xác định theo chu vi bên trong tường bao của tầng, không tính diện tích các buồng thang bộ (trừ trường hợp đặc biệt yêu cầu riêng); không có một phần hoặc toàn bộ tường bao thì bằng diện tích sàn (H.6.2)
 - Các nhà nối với nhau bằng lối đi bộ kín, đường hầm hoặc hành lang kín: tính bằng tổng diện tích các tầng nhà được nối thông và của lối đi/đường hầm/hành lang kín (H.6.2)
@@ -509,6 +601,7 @@
 - Nhà F1.1, F1.2, F2 đến F4: kể cả diện tích mái che, sân trời, hành lang gắn với nhà nếu không ngăn cách với nhà chính bằng tường ngăn cháy loại 1 (H.6.2)
 - Gian thông tầng (cầu thang hở, thang cuốn, sảnh thông tầng): diện tích bằng tổng diện tích tầng dưới cùng của gian thông tầng và các hành lang, lối đi bộ, gian phòng của các tầng phía trên trong không gian được ngăn cách bởi vách ngăn cháy loại 1; không có vách ngăn cháy loại 1 (kể cả dùng rèm ngăn cháy, màn drencher thay thế) thì lấy tổng diện tích các tầng tương ứng (H.6.2)
 - Các khoang cháy được ngăn chia bởi các tường ngăn cháy loại 1 và (hoặc) sàn ngăn cháy loại 1. (2.5.3)
+- Khoang cháy được ngăn cách với nhau bằng tường ngăn cháy và sàn ngăn cháy hoặc bằng các tầng kỹ thuật. Tầng kỹ thuật ngăn cách bằng sàn ngăn cháy có giới hạn chịu lửa không nhỏ hơn REI 90. (A.2.2)
 **Khi nào áp dụng / được phép:**
 - Phần nhà có công năng xác định (và công năng phụ trợ) được ngăn cách thành khoang cháy riêng thì Phụ lục H áp dụng cho phần nhà (khoang cháy) đó; công năng độc lập khác được bố trí ở phần nhà phía trên khoang cháy khi thỏa điều kiện Phụ lục H đối với công năng đó (H.7.1)
 - Nhà bậc chịu lửa I, II, cấp S0 có chữa cháy tự động toàn nhà: diện tích khoang cháy ở các bảng H.2 đến H.4 tăng không quá 2 lần (H.2.12.2)
@@ -523,6 +616,9 @@
 - Khi không yêu cầu phát hiện cháy toàn bộ nhà, phạm vi thiết kế có thể gồm một hoặc nhiều khoang cháy hoặc một phần khoang cháy. (5.3)
 - Cho phép ngăn chia khoang cháy theo phương đứng bằng tầng kỹ thuật được ngăn cách với các tầng liền kề bằng sàn ngăn cháy loại 2, nếu các tường ngăn cháy loại 1 không lệch khỏi trục chính. (2.5.3)
 - Cho phép phân chia khoang cháy trong nhà có bậc chịu lửa IV và V bằng tường ngăn cháy loại 2. (2.5.3)
+- Phần nhà có công năng xác định (và công năng phụ trợ) được ngăn cách thành một khoang cháy riêng thì các yêu cầu của Phụ lục H áp dụng cho phần nhà (khoang cháy) đó. Công năng độc lập khác được bố trí ở phần nhà phía trên khoang này khi thỏa điều kiện Phụ lục H đối với công năng đó. (H.7.1)
+- Số tầng, chiều cao hoặc diện tích không được quy định cụ thể hoặc bị giới hạn trong Phụ lục H thì có thể áp dụng NFPA 5000 hoặc tài liệu chuẩn khác, hoặc theo luận chứng kỹ thuật (phải gồm điều kiện thoát nạn cho người). (H.7.2)
+- Cho phép phân chia khoang cháy nhà bậc IV và V bằng tường ngăn cháy loại 2.
 **Yêu cầu kỹ thuật, trị số:**
 - Kết hợp nhiều yêu cầu thì lấy diện tích tầng và chiều cao nhà theo yêu cầu bất lợi nhất đối với nhà có cấp nguy hiểm cháy kết cấu tương ứng (H.6.2)
 - Nhà 1 tầng có phần nhà 2 tầng chiếm không quá 15% diện tích xây dựng vẫn coi là nhà 1 tầng (H.2.12.3)
@@ -533,13 +629,17 @@
 - Tường ngăn cháy chia nhà thành các khoang cháy phải thi công trên toàn bộ chiều cao nhà và bảo đảm không cháy lan sang khoang liền kề khi kết cấu nhà phía có cháy sụp đổ.
 - Tổng diện tích các lỗ cửa trong các bộ phận ngăn cháy (trừ kết cấu bao che giếng thang máy) không vượt quá 25% diện tích bộ phận ngăn cháy đó.
 - Tầng hầm có gian phòng hạng C1, C2, C3 phải chia thành các phân khoang cháy diện tích không quá 3 000 m² bằng vách ngăn cháy loại 1. (Bố trí công năng tại tầng hầm)
+- Nhà phải chia khoang cháy theo chiều cao, mỗi khoang cao không lớn hơn 50 m (nhà thuộc Phụ lục A.2). (A.2.2)
+- Tầng hầm có gian phòng hạng C1, C2, C3 chia thành các phân khoang cháy diện tích không quá 3 000 m2 mỗi phân khoang bằng vách ngăn cháy loại 1; bảo vệ chống khói theo Phụ lục D; sàn tầng phía trên tối thiểu là sàn ngăn cháy loại 3.
+- Khoang cháy ngăn bằng tường ngăn cháy loại 1 và (hoặc) sàn ngăn cháy loại 1; cho phép ngăn theo phương đứng bằng tầng kỹ thuật được ngăn với tầng liền kề bằng sàn ngăn cháy loại 2, nếu các tường ngăn cháy loại 1 không lệch khỏi trục chính.
 **Cách kiểm trên hồ sơ:**
 - Suy từ H.6.2: tính diện tích từng tầng trong phạm vi tường bao/tường ngăn cháy loại 1, cộng các phần thông nhau (gian thông tầng, lỗ mở sàn, ram dốc, mái che), so với bảng H.1–H.12 theo bậc chịu lửa và cấp S (suy từ H.6.2)
 - Xác định hạng, bậc chịu lửa, cấp S, số tầng rồi so diện tích mỗi tầng trong khoang cháy với bảng; kiểm tỉ lệ lỗ cửa trên tường ngăn cháy ≤ 25%. (suy từ bảng diện tích khoang cháy)
 - Xem bản vẽ mặt bằng, mặt cắt: loại tường, sàn ngăn cháy tại ranh giới khoang cháy; với tầng kỹ thuật thì xem tường loại 1 có lệch trục chính không (suy từ nguồn)
+- Kiểm diện tích một tầng trong khoang cháy so với Bảng H.9 (nhà sản xuất) và các bảng tương ứng của Phụ lục H; kiểm chiều cao mỗi khoang theo A.2.2. (suy từ Phụ lục H, A.2.2)
 **Dễ nhầm với:**
 - Diện tích khoang cháy tính cho một tầng (lớn nhất), không phải tổng diện tích sàn cả nhà (H.6.2)
-**Liên quan:** Bậc chịu lửa, Cấp nguy hiểm cháy kết cấu, Chiều cao PCCC, Tường ngăn cháy, Chữa cháy tự động, Vùng khói, Hạng nguy hiểm cháy nổ, Ngăn cháy theo công năng, Ngăn cháy theo phương đứng, Vùng phát hiện cháy, Sàn ngăn cháy, Khoang cháy, Quy mô khối tích
+**Liên quan:** Bậc chịu lửa, Cấp nguy hiểm cháy kết cấu, Chiều cao PCCC, Tường ngăn cháy, Chữa cháy tự động, Vùng khói, Hạng nguy hiểm cháy nổ, Ngăn cháy theo công năng, Ngăn cháy theo phương đứng, Vùng phát hiện cháy, Sàn ngăn cháy, Khoang cháy, Quy mô khối tích, Bậc chịu lửa của nhà, công trình, khoang cháy, Sảnh thông tầng
 
 ### Khoảng thời gian khí cháy, hơi chất lỏng xâm nhập vào gian phòng (T) (còn gọi: T)
 **Định nghĩa:**
@@ -553,11 +653,13 @@
 ### Khối tích (còn gọi: Khối tích của nhà)
 **Định nghĩa:**
 - Khối tích của một không gian trong phạm vi một nhà hoặc khoang cháy. Không bao gồm tường của thang máy được bảo vệ, buồng thang bộ thoát nạn và các không gian khác (ví dụ khu vệ sinh, buồng để đồ) được bao che bằng tường có giới hạn chịu lửa không thấp hơn 60 phút, đồng thời lối đi qua tường được bảo vệ bằng cửa ngăn cháy loại 2 có cơ cấu tự đóng. (Thuật ngữ)
+- Tổng khối tích các phần nhà trên mặt đất tính từ cốt ± 0,00 trở lên và phần ngầm từ cốt hoàn thiện nền sàn tầng hầm dưới cùng lên đến cốt ± 0,00; tính theo kích thước từ mặt ngoài kết cấu bao che, kể cả ô lấy sáng và thông gió của mỗi phần của nhà. (QCVN 06:2022/BXD, Quy định chung; QCVN 10:2025/BCA 1.4.25 (theo TCVN 9255))
 **Cách xác định (nhận biết, đo trên bản vẽ):**
 - Khối tích của nhà được tính dựa trên các kích thước (tham khảo QCVN 06:2022/BXD và TCVN 9255:2012): kích thước mặt bằng lấy theo khoảng cách giữa các bề mặt hoàn thiện phía trong của tường bao, hoặc ở tất cả các mặt không có tường bao thì tính đến một mặt phẳng thẳng đứng kéo đến cạnh ngoài trên cùng của sàn (cách tính chiều cao kèm theo bị cắt trong đoạn trích). (Tài liệu sửa đổi 1:2023, mục Khối tích, diện tích)
 - Kích thước mặt bằng lấy theo khoảng cách giữa các bề mặt hoàn thiện phía trong của tường bao; nơi không có tường bao thì tính đến mặt phẳng thẳng đứng kéo đến cạnh ngoài trên cùng của sàn. (Thuật ngữ)
 - Chiều cao lấy từ bề mặt trên của sàn phía dưới đến bề mặt dưới của sàn phía trên của không gian. (Thuật ngữ)
 - Nhà hoặc khoang cháy kéo lên đến mái: lấy đến bề mặt dưới của mái hoặc bề mặt dưới của trần tầng cao nhất trong khoang cháy, gồm cả không gian bị chiếm bởi tường, giếng đứng, kênh dẫn không được bảo vệ hoặc kết cấu nằm trong không gian đang xét. (Thuật ngữ)
+- Trường hợp các nhà đã bảo đảm khoảng cách an toàn PCCC, thoát nạn và ngăn cháy lan, được kết nối bởi lối đi (hành lang cầu) thì cho phép tính diện tích và khối tích riêng biệt của từng nhà. (QCVN 10:2025/BCA, chú thích 1.4.26)
 **Khi nào áp dụng / được phép:**
 - Khối tích là một tiêu chí quy mô: nhà ở riêng lẻ có khối tích từ 5 000 m3 trở lên thuộc phạm vi áp dụng QCVN 06. (1.1.2)
 - Khối tích nhà là căn cứ tra lưu lượng nước chữa cháy ngoài nhà (Bảng 8, 9, 10) và số tia phun, lưu lượng chữa cháy trong nhà (Bảng 11, 12). (Bảng 8–12)
@@ -571,7 +673,7 @@
 - Lấy kích thước mặt bằng, chiều cao tầng trên bản vẽ, trừ các buồng thang, giếng thang máy, phòng nhỏ đáp ứng điều kiện EI 60 và cửa ngăn cháy loại 2 tự đóng. Suy từ định nghĩa. (Thuật ngữ)
 **Dễ nhầm với:**
 - Khối tích khác khối tích nhà theo thể tích xây dựng thông thường: định nghĩa này trừ các không gian được bao che bằng tường chịu lửa ≥ 60 phút kèm cửa ngăn cháy loại 2 tự đóng. (Thuật ngữ)
-**Liên quan:** Số tầng nhà, Chiều cao nhà, Khoang cháy, Phân khoang cháy, Lưu lượng nước chữa cháy ngoài nhà
+**Liên quan:** Số tầng nhà, Chiều cao nhà, Khoang cháy, Phân khoang cháy, Lưu lượng nước chữa cháy ngoài nhà, Diện tích xây dựng
 
 ### Loại mức nguy hiểm (còn gọi: Loại nguy hiểm)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
@@ -692,6 +794,20 @@
 - Nhà chỉ để ở theo 9.2; nhà kết hợp mục đích khác theo 9.3. (9.2; 9.3)
 **Liên quan:** Hệ số T, Chiều cao phòng cháy chữa cháy (chiều cao PCCC), Khu vực có nguy cơ phát sinh cháy cao
 
+### Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ
+**Định nghĩa:**
+- Nhà ở riêng lẻ có phần diện tích để kinh doanh dưới 30 % tổng diện tích sàn của nhà (Bảng A.1 mục 1, chú thích (2))
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Tính tỷ lệ diện tích kinh doanh trên tổng diện tích sàn, so với ngưỡng 30 % (Bảng A.1 mục 1)
+**Khi nào áp dụng / được phép:**
+- Báo cháy tự động: cao từ 7 tầng trở lên (cho phép trang bị thiết bị báo cháy độc lập) (Bảng A.1 mục 1)
+- Chữa cháy tự động: chiều cao PCCC từ 30 m trở lên (Bảng A.1 mục 1)
+**Cách kiểm trên hồ sơ:**
+- Xem số tầng, chiều cao PCCC và tỷ lệ diện tích kinh doanh trên bản vẽ (suy từ Bảng A.1 mục 1)
+**Dễ nhầm với:**
+- Ca nhập nhằng (nhà ở riêng lẻ kết hợp kinh doanh, hỗn hợp có yếu tố ở) ghi CẦN XÁC NHẬN, nêu cả hai cách hiểu, dẫn mục 5.5 là đề xuất chưa chính thức (quy trình bước 6)
+**Liên quan:** Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy
+
 ### Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ, sản xuất, kinh doanh hàng hóa dễ cháy (còn gọi: nhà ở riêng lẻ kết hợp sản xuất, kinh doanh)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
 - Xét tỷ lệ phần diện tích để sản xuất, kinh doanh trên tổng diện tích sàn của nhà: dưới 30 %; từ 30 % đến 70 %; trên 70 %. (Bảng A.1, mục 1, 2 và chú thích (2))
@@ -712,7 +828,17 @@
 - Ngưỡng 30 % và 70 % quyết định áp dụng theo nhà ở riêng lẻ, theo nhà hỗn hợp hay theo công năng sản xuất, kinh doanh. (Bảng A.1, chú thích (2))
 **Liên quan:** Nhà hỗn hợp, Thiết bị báo cháy độc lập, Chiều cao PCCC, Hệ thống họng nước chữa cháy trong nhà
 
-### Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường (còn gọi: karaoke, vũ trường, cơ sở kinh doanh dịch vụ karaoke, vũ trường, nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường, Karaoke)
+### Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy
+**Định nghĩa:**
+- Nhà ở riêng lẻ có phần diện tích để sản xuất, kinh doanh dưới 30 % tổng diện tích sàn của nhà (Bảng A.1 mục 2, chú thích (2))
+**Khi nào áp dụng / được phép:**
+- Báo cháy tự động: cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên (cho phép thiết bị báo cháy độc lập khi cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 500 m²) (Bảng A.1 mục 2)
+- Chữa cháy tự động: chiều cao PCCC từ 30 m trở lên (Bảng A.1 mục 2)
+**Cách kiểm trên hồ sơ:**
+- Xem số tầng, tổng diện tích sàn, chiều cao PCCC (suy từ Bảng A.1 mục 2)
+**Liên quan:** Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ
+
+### Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường (còn gọi: karaoke, vũ trường, cơ sở kinh doanh dịch vụ karaoke, vũ trường, nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường, Karaoke, nhà karaoke, vũ trường)
 **Định nghĩa:**
 - Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường thuộc cơ sở kinh doanh dịch vụ karaoke, vũ trường. (Bảng A.1, mục 13)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
@@ -729,6 +855,8 @@
 - Xác định số tia phun và lưu lượng họng nước chữa cháy trong nhà theo mục 4 Bảng H.5 (ký túc xá và nhà công cộng): ≤ 10 tầng và khối tích ≤ 25 000 m³: 1 tia × 2,5 L/s; ≤ 10 tầng và > 25 000 m³: 2 tia; > 10 tầng và ≤ 25 000 m³: 2 tia; > 10 tầng và > 25 000 m³: 3 tia (mỗi tia 2,5 L/s). (Bảng H.5 mục 4)
 - Mốc tham chiếu đã duyệt và nghiệm thu: 1 tầng, diện tích 925,12m², gồm 16 phòng karaoke, 01 phòng bếp, 01 phòng trực điều khiển PCCC, 02 phòng kỹ thuật; khối tích 3.931,76m³. (Quy mô công trình)
 - Cấu hình PCCC được nghiệm thu: hệ thống báo cháy tự động; chữa cháy tự động sprinkler; họng nước chữa cháy trong nhà; cấp nước chữa cháy ngoài nhà; bể nước PCCC 45m³; trạm bơm PCCC 16m²; loa thông báo và hướng dẫn thoát nạn; đèn chiếu sáng sự cố và đèn chỉ dẫn thoát nạn. (Nội dung được nghiệm thu về PCCC)
+- Bố trí tại tầng hầm, tầng bán hầm: hệ thống báo cháy và hệ thống chữa cháy tự động đều không phụ thuộc vào diện tích. Dòng 13.2 (các tầng trên mặt đất) bị cắt trong trích đoạn. (Bảng A.1 mục 13.1)
+- Nhà kinh doanh karaoke, vũ trường bố trí từ tầng 3 trở lên thì phải trang bị hệ thống chữa cháy tự động cho toàn bộ nhà. (Bảng A.1 chú thích (1))
 **Yêu cầu kỹ thuật, trị số:**
 - Máy bơm của hệ thống họng nước chữa cháy trong nhà phải điều khiển bằng tay tại phòng bơm và điều khiển tự động. (2.4.2, chú thích)
 - Nhà ở, nhà công cộng, nhà hành chính – phụ trợ của công trình công nghiệp phải lắp hệ thống họng nước chữa cháy với lưu lượng tối thiểu theo Bảng H.5. (H.2.1)
@@ -736,11 +864,12 @@
 - Xem mặt bằng công năng từng tầng để xác định tầng đặt karaoke, vũ trường và diện tích sàn, rồi đối chiếu mục 13 và chú thích (1). Suy từ Bảng A.1. (Bảng A.1, mục 13; chú thích (1))
 - Xem bản vẽ mặt bằng vị trí tầng bố trí karaoke/vũ trường (hầm, bán hầm, trên mặt đất), số tầng và tổng diện tích sàn của phần karaoke; với nhà hỗn hợp xem có phần karaoke từ tầng 3 trở lên không. Suy từ Bảng B.1. (suy từ Bảng B.1 mục 1.9, chú thích 1)
 - Xác định số tầng và khối tích nhà, tra mục 4 Bảng H.5 (suy từ H.2.1). (H.2.1)
+- Xem tầng bố trí karaoke, vũ trường; từ tầng 3 trở lên thì kiểm chữa cháy tự động phủ toàn nhà. (suy từ chú thích (1) Bảng A.1)
 **Dễ nhầm với:**
 - Karaoke, vũ trường là công năng bị kéo chữa cháy tự động ra toàn nhà trong nhà hỗn hợp, khác các công năng khác chỉ phải trang bị cho phần nhà đó. (Bảng A.1, chú thích (1))
 - Nhà hỗn hợp có karaoke từ tầng 3 trở lên phải trang bị cho toàn bộ nhà, khác quy tắc chung của nhà hỗn hợp (chỉ trang bị cho phần công năng đạt quy mô). (Bảng B.1, chú thích 1)
 - Không nhầm với mục 3 Bảng H.5 (phòng câu lạc bộ có sân khấu, nhà hát, rạp chiếu phim, phòng có thiết bị nghe nhìn: 2 tia, 2,5 L/s nếu ≤ 300 chỗ, 5,0 L/s nếu > 300 chỗ). (Bảng H.5 mục 3)
-**Liên quan:** Nhà hỗn hợp (trang bị hệ thống chữa cháy tự động), Hệ thống họng nước chữa cháy trong nhà, Nhà hỗn hợp, Tầng hầm, Họng nước chữa cháy trong nhà, Hệ thống chữa cháy, Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy, Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà, Chiều cao PCCC
+**Liên quan:** Nhà hỗn hợp (trang bị hệ thống chữa cháy tự động), Hệ thống họng nước chữa cháy trong nhà, Nhà hỗn hợp, Tầng hầm, Họng nước chữa cháy trong nhà, Hệ thống chữa cháy, Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy, Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà, Chiều cao PCCC, Hệ thống báo cháy
 
 ### Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường (nhóm F2.1) trong nhà ở riêng lẻ (còn gọi: phòng kinh doanh dịch vụ karaoke, dịch vụ vũ trường, nhóm F2.1)
 **Định nghĩa:**
@@ -767,6 +896,12 @@
 **Cách kiểm trên hồ sơ:**
 - Đối chiếu công năng thực tế bố trí với công năng trong hồ sơ đã thẩm duyệt. Suy từ Ghi chú nêu trên.
 **Liên quan:** Bố trí công năng, Giấy chứng nhận thẩm duyệt thiết kế về PCCC
+
+### Nhiều công trình trong một dự án (ghi chú Phụ lục III)
+**Khi nào áp dụng / được phép:**
+- Chủ đầu tư nộp đồng thời hồ sơ: Công an thẩm định công trình thuộc diện và các hạng mục khác có yêu cầu về PCCC (khoản 1 Điều 16 Luật; Công văn C07, câu 5)
+- Dự án có công trình thuộc diện thì các hạng mục khác cũng thẩm định; tổng diện tích sàn lấy theo nhà lớn nhất (quy trình bước 2)
+**Liên quan:** Hạng mục xây mới độc lập
 
 ### Nhóm nguy cơ phát sinh cháy (còn gọi: nhóm nguy cơ cháy, nhóm 1, 2, 3, 4.1, 4.2, 5, 6, 7, Nhóm nguy cơ cháy)
 **Định nghĩa:**
@@ -826,16 +961,33 @@
 - Phân loại theo QCVN 06:/BXD. Nhà, công trình không được quy định tại Phụ lục A, B, H thì trang bị như nhà có công năng tương tự xác định theo nhóm nguy hiểm cháy theo công năng. (1.5.2; 1.5.7)
 **Khi nào áp dụng / được phép:**
 - Phụ lục H quy định bậc chịu lửa, cấp S, chiều cao PCCC, diện tích khoang cháy theo nhóm: F1.1 (nhà trẻ, mẫu giáo, mầm non, bệnh viện, nhà ngủ nội trú); F1.3 (nhà ở căn hộ); F2.1, F2.2 (cơ sở văn hóa); F2.3 (công trình thể thao); F3.1 (thương mại); F3.4 (khám đa khoa ngoại trú); F3.5 (dịch vụ); F4.1 (trường phổ thông); F4.3 (hành chính - phụ trợ của sản xuất và kho); F5.1, F5.2, F5.3 (sản xuất, kho, chăn nuôi) (H.1–H.5)
+- Các phần nhà và gian phòng thuộc các nhóm nguy hiểm cháy theo công năng khác nhau phải ngăn cách bằng bộ phận ngăn chia có giới hạn chịu lửa và cấp nguy hiểm cháy kết cấu theo quy định, hoặc bằng vách ngăn cháy loại 1 và (hoặc) sàn ngăn cháy loại 3, bộ phận ngăn cháy tối thiểu EI 45 với nhà bậc I đến III, EI 15 với nhà bậc IV, hoặc giải pháp tương đương. (4.5)
+- Một tầng có từ hai công năng trở lên, trong đó một công năng chính chiếm tối thiểu 90% diện tích sàn tầng và các công năng còn lại là phụ trợ, thì cho phép không cần phân chia khu vực các nhóm công năng bằng bộ phận ngăn cháy (nguồn còn điều kiện kèm theo, văn bản bị cắt). (4.5)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Không cho phép bố trí gian phòng nhóm F5 hạng A hoặc B dưới các gian phòng dùng cho hơn 50 người có mặt đồng thời; không bố trí trong tầng hầm, tầng nửa hầm. Không cho phép bố trí gian phòng nhóm F1.1, F1.2, F1.3 trong tầng hầm và tầng nửa hầm. (3.1.6)
+- Bệnh viện và trường phổ thông chỉ cho phép bố trí công năng khám bệnh không điều trị nội trú, văn phòng, phụ trợ từ tầng bán hầm (hoặc hầm 1 nếu không có tầng bán hầm) trở lên. (3.1.7)
+**Cách kiểm trên hồ sơ:**
+- Xem bản vẽ mặt bằng từng tầng: nhóm công năng từng gian, vị trí so với tầng hầm; kiểm bộ phận ngăn giữa các nhóm khác nhau. Suy từ 3.1.6, 3.1.7, 4.5.
 **Dễ nhầm với:**
 - Nhà ở và ký túc xá kiểu căn hộ tra Bảng H.1; ký túc xá và khách sạn kiểu căn hộ tính như nhà ở dạng căn hộ, không tra Bảng H.2 (H.2.1)
 - Nhóm F (theo công năng) khác hạng A–E (theo nguy hiểm cháy và cháy nổ, chỉ cho công năng sản xuất, kho F5). (1.5.2)
+- Nhóm F5 (sản xuất, kho) xét theo hạng nguy hiểm cháy nổ A, B, C, D, E; không lẫn với nhóm F1 đến F4 (ở, công cộng).
 **Liên quan:** Khoang cháy, Chiều cao PCCC, Hạng nguy hiểm cháy nổ, Nhà hỗn hợp, Bậc chịu lửa
 
-### Nội dung thẩm định của cơ quan Công an
+### Nội dung thẩm định của cơ quan Công an (còn gọi: Nội dung thẩm định về PCCC của cơ quan Công an)
+**Định nghĩa:**
+- Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 **Khi nào áp dụng / được phép:**
 - Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 - Thẩm định điều chỉnh hoặc cải tạo thì chỉ trong phạm vi điều chỉnh, cải tạo. Đây cũng là cách chia của bảng A1–A26 và B1–B14. (Điều 9 khoản 2 điểm e)
-**Liên quan:** nội dung thẩm định của cơ quan chuyên môn về xây dựng, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Danh mục tài liệu, bản vẽ được thẩm duyệt, Nội dung được nghiệm thu về PCCC
+- Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo. (Điều 9 khoản 2 điểm e)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Dòng ngoài phạm vi điều chỉnh, cải tạo ghi KHÔNG ÁP DỤNG, lý do "ngoài phạm vi điều chỉnh, cải tạo". (mục 8 bước 5 (cách dùng khi thẩm))
+**Cách kiểm trên hồ sơ:**
+- Đây cũng là cách chia của bảng A1–A26 và B1–B14: phân dòng theo nhóm xây dựng hay Công an khi thẩm định. (suy từ Điều 9 khoản 2)
+**Dễ nhầm với:**
+- Khác nội dung thẩm định của cơ quan xây dựng: bên xây dựng xét lối thoát nạn, bậc chịu lửa, khoang cháy, công năng, chống khói; bên Công an xét hệ thống, thiết bị PCCC.
+**Liên quan:** nội dung thẩm định của cơ quan chuyên môn về xây dựng, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Danh mục tài liệu, bản vẽ được thẩm duyệt, Nội dung được nghiệm thu về PCCC, Nội dung thẩm định của cơ quan xây dựng, Thẩm định điều chỉnh
 
 ### Phân loại đám cháy (A, B, C)
 **Định nghĩa:**
@@ -907,7 +1059,46 @@
 - Kho không có hệ thống chữa cháy tự động, hệ thống chữa cháy và làm mát lắp cố định cho bồn chứa, trạm bơm dầu mỏ và sản phẩm dầu mỏ thì phải trang bị gấp hai lần định mức tại Bảng D.1. (Bảng D.1 chú thích (1))
 **Liên quan:** Cấp nước chữa cháy ngoài nhà, Khu công nghiệp, cụm công nghiệp
 
-### Số tầng nhà (còn gọi: số tầng cao của công trình, số tầng của nhà, Số tầng của nhà)
+### Quy mô công trình (còn gọi: tính riêng từng khối tách biệt)
+**Định nghĩa:**
+- Công trình khác nhau, có kết cấu khác nhau và tách biệt bằng tường thì diện tích (và số tầng, khối tích) được tính riêng từng khối, không cộng gộp với khối kia. (Bài học 10 (người thẩm định dạy, 2026-10-20))
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Cần xác nhận khối thật sự tách biệt: có tường riêng, kết cấu riêng, không chung khoang cháy. (Bài học 10)
+**Khi nào áp dụng / được phép:**
+- So với ngưỡng Phụ lục III NĐ 105/2025 (ghi chú: tổng diện tích sàn lấy theo nhà có quy mô lớn nhất), ngưỡng trang bị của QCVN 10:2025/BCA Phụ lục A, B, C và ngưỡng khoang cháy đều xét theo từng khối. (Phụ lục III NĐ 105/2025; Phụ lục A, B, C QCVN 10:2025/BCA)
+- Nhà đã bảo đảm khoảng cách an toàn PCCC, thoát nạn, ngăn cháy lan, nối nhau bằng lối đi thì cho phép tính diện tích, khối tích riêng từng nhà. (QCVN 10:2025/BCA mục 1.4.26)
+**Cách kiểm trên hồ sơ:**
+- Khi bản vẽ chỉ có tổng diện tích cả khu đất, phải tách số liệu theo từng khối rồi mới kết luận. Kiểm tường riêng, kết cấu riêng, khoang cháy riêng giữa các khối. (suy từ Bài học 10)
+**Dễ nhầm với:**
+- Ca Karaoke Hoàng Yến: karaoke 925,12 m² tính riêng với nhà ở 68,48 m², mái che 114,9 m² và trạm bơm, không cộng gộp. (Bài học 10)
+- Ví dụ liên hệ của agent, chưa được người thẩm định xác nhận: dính liền một vách mà chung kết cấu thì vẫn là một khối. Ghi CẦN XÁC NHẬN. (Bài học 10)
+**Liên quan:** Khoang cháy, Tổng diện tích sàn, Khối tích
+
+### Sàn công tác, sàn đỡ thiết bị, sàn giá đỡ (còn gọi: sàn giá đỡ nhiều tầng)
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Mỗi sàn công tác, sàn đỡ thiết bị, sàn lửng ở cao độ bất kỳ có diện tích lớn hơn 40 % diện tích một tầng của nhà (nhà sản xuất, nhà kho) thì tính như một tầng. (QCVN 06:2022/BXD, Quy định chung)
+**Khi nào áp dụng / được phép:**
+- Được tính vào diện tích khoang cháy của tầng chứa nó (nhà 1 tầng: cộng tất cả; nhà nhiều tầng: cộng các sàn nằm trong tầng đó). (QCVN 06:2022/BXD, Quy định chung)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Diện tích sàn của giá đỡ nhiều tầng dùng để bảo dưỡng đường ray phía dưới cầu trục, bảo dưỡng cần trục, băng tải, đường ray đơn và thiết bị chiếu sáng không nằm trong tổng diện tích của nhà. (QCVN 06:2022/BXD, Quy định chung)
+**Liên quan:** Sàn lửng, Số tầng của nhà
+
+### Sàn lửng (còn gọi: tầng lửng)
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Nhà sản xuất và nhà kho: sàn lửng ở cao độ bất kỳ có diện tích lớn hơn 40 % diện tích một tầng của nhà thì tính như một tầng. (QCVN 06:2022/BXD, Quy định chung (số tầng nhà sản xuất, nhà kho))
+- Nhà sản xuất, nhà kho: sàn giá đỡ và sàn lửng ở cao độ bất kỳ không tính vào số tầng khi diện tích không lớn hơn 40 % diện tích một tầng. (QCVN 10:2025/BCA, chú thích (5) của định nghĩa số tầng)
+- Khi sàn giá đỡ, sàn của giá đỡ nhiều tầng và sàn lửng có diện tích trên mỗi cao độ vượt quá 40 % diện tích sàn thì diện tích sàn được xác định như đối với nhà nhiều tầng. (QCVN 06:2022/BXD, Quy định chung)
+**Khi nào áp dụng / được phép:**
+- Nhà 1 tầng: khi tính diện tích một tầng trong phạm vi một khoang cháy phải cộng thêm diện tích của tất cả các sàn lửng. (QCVN 06:2022/BXD, Quy định chung)
+- Nhà nhiều tầng (hoặc phần nhà nhiều tầng): diện tích khoang cháy của mỗi tầng cộng thêm diện tích các sàn lửng nằm trong tầng đó. (QCVN 06:2022/BXD, Quy định chung)
+- Nhà kho có sàn lửng: số tầng và diện tích tầng trong phạm vi một khoang cháy xác định tương tự nhà sản xuất (H.4.1); khi có lỗ mở trên sàn giữa các tầng thì tổng diện tích các tầng không vượt giá trị Bảng H.11. (QCVN 06:2022/BXD, H.5.2)
+**Cách kiểm trên hồ sơ:**
+- Đo diện tích sàn lửng trên bản vẽ mặt bằng, so với 40 % diện tích một tầng của nhà (suy từ quy định tính số tầng). (suy từ QCVN 06:2022/BXD, Quy định chung)
+**Dễ nhầm với:**
+- Nhà sản xuất/nhà kho dùng ngưỡng 40 % diện tích một tầng; nhà ở riêng lẻ kết hợp dùng ngưỡng 65 %; tầng lửng chỉ làm khu kỹ thuật dùng ngưỡng 10 % và 300 m². (QCVN 10:2025/BCA; Sửa đổi 1:2023 QCVN 06)
+**Liên quan:** Số tầng của nhà, Tầng lửng không tính vào số tầng, Sàn công tác, sàn đỡ thiết bị, sàn giá đỡ, Diện tích một tầng trong phạm vi một khoang cháy
+
+### Số tầng nhà (còn gọi: số tầng cao của công trình, số tầng của nhà, Số tầng của nhà, số tầng cao)
 **Định nghĩa:**
 - Gồm toàn bộ các tầng trên mặt đất (kể cả tầng kỹ thuật, tầng tum) và tầng bán/nửa hầm, không gồm tầng áp mái. (1.4.24)
 - Số tầng tòa nhà bao gồm toàn bộ các tầng trên mặt đất (kể cả tầng kỹ thuật, tầng lửng, tầng tum) và tầng nửa hầm. (Slide 'Lưu ý khi xét số tầng' (TT 06/2021/TT-BXD))
@@ -929,6 +1120,7 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không tính tầng áp mái. (1.4.24)
 - Tầng tum không tính vào số tầng cao của công trình khi diện tích mái tum không vượt quá 30% diện tích sàn mái, có chức năng sử dụng làm tum thang, kỹ thuật (theo Thông tư 06/2021/TT-BXD ngày 30/6/2021 về cấp công trình). (Thông tư 06/2021/TT-BXD, nêu trong tài liệu sửa đổi 1:2023)
+- Tầng tum không tính vào số tầng cao khi diện tích mái tum không vượt quá 30 % diện tích sàn mái, có chức năng làm tum thang, kỹ thuật. (Sửa đổi 1:2023 QCVN 06 (theo TT 06/2021/TT-BXD))
 **Cách kiểm trên hồ sơ:**
 - Đo diện tích tầng tum, tầng lửng, sàn giá đỡ trên mặt bằng rồi so các ngưỡng 30 %, 65 %, 40 %, 10 %/300 m² theo loại nhà; suy từ 1.4.24. (suy từ 1.4.24)
 - Đếm tầng trên mặt bằng, mặt cắt; đo diện tích tầng lửng, sàn công tác so với diện tích tầng bên dưới. (suy từ slide Lưu ý khi xét số tầng)
@@ -938,7 +1130,8 @@
 - Ngưỡng tầng lửng khác nhau theo loại nhà: 65 % (nhà ở riêng lẻ kết hợp SXKD), 40 % (nhà kho, nhà sản xuất), 10 % và ≤ 300 m² (các nhà nhiều tầng còn lại, chỉ khu kỹ thuật). (1.4.24)
 - Khi xác định số tầng chỉ tính các tầng trên mặt đất; tầng hầm không tính. (Lưu ý dưới slide Chiều cao PCCC của nhà)
 - Số tầng tính cả tầng nửa hầm nhưng Phụ lục H chỉ tính tầng trên mặt đất khi tra bảng; kiểm tra bảng áp dụng thuộc trường hợp nào.
-**Liên quan:** Chiều cao PCCC, Tầng hầm, Tầng tum, Chiều cao phòng cháy chữa cháy (chiều cao PCCC), Tầng hầm, tầng nửa hầm, Chiều cao nhà, Khối tích
+- Tầng đường thoát nạn bắt buộc đi từ dưới lên trên (không đủ khoảng cách thoát nạn tại mặt thoáng của cos bên dưới) thì xét là tầng hầm. (Sửa đổi 1:2023 QCVN 06)
+**Liên quan:** Chiều cao PCCC, Tầng hầm, Tầng tum, Chiều cao phòng cháy chữa cháy (chiều cao PCCC), Tầng hầm, tầng nửa hầm, Chiều cao nhà, Khối tích, Sàn lửng, Tầng lửng không tính vào số tầng
 
 ### Tải trọng cháy riêng (còn gọi: tải trọng cháy, Hạng nguy hiểm cháy C3)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
@@ -994,14 +1187,32 @@
 - Tầng nằm dưới cao độ mặt đất theo quy hoạch chưa chắc là tầng hầm nếu thoát nạn không đi từ dưới lên. (Sửa đổi 1:2023 QCVN 06:2022)
 **Liên quan:** Hệ thống đường ống khô có họng chờ cấp nước DN65, Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường, Số tầng nhà, Khu vực có nguy cơ phát sinh cháy cao, Lối ra thoát nạn, Chiều cao phòng cháy chữa cháy (chiều cao PCCC), Thang máy chữa cháy, Bố trí công năng, Chiều cao nhà, Chiều cao PCCC
 
+### Tầng lửng không tính vào số tầng
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Nhà ở riêng lẻ kết hợp các mục đích dân dụng khác: tầng lửng có diện tích sàn không vượt quá 65 % diện tích sàn xây dựng của tầng có công năng sử dụng chính ngay bên dưới, và chỉ cho phép một tầng lửng không tính vào số tầng cao. (Sửa đổi 1:2023 QCVN 06 (theo TT 06/2021/TT-BXD); QCVN 10:2025/BCA chú thích (2))
+- Nhà nhóm F1 đến F4: duy nhất 01 tầng lửng không tính vào số tầng cao khi chỉ bố trí làm khu kỹ thuật (sàn kỹ thuật đáy bể bơi, sàn đặt máy phát điện, thiết bị công trình khác), diện tích sàn xây dựng không quá 10 % diện tích sàn xây dựng của tầng ngay bên dưới và không quá 300 m². (Sửa đổi 1:2023 QCVN 06)
+- Các công trình nhà, kết cấu dạng nhà, công trình nhiều tầng có sàn (không gồm nhà ở riêng lẻ kết hợp sản xuất kinh doanh, nhà kho, nhà sản xuất): tầng lửng không tính vào số tầng khi chỉ bố trí khu kỹ thuật và diện tích sàn không vượt quá 10 % diện tích sàn xây dựng của tầng ngay bên dưới và không vượt quá 300 m². (QCVN 10:2025/BCA, chú thích (6))
+**Khi nào áp dụng / được phép:**
+- Mỗi công trình chỉ được xác định có một tầng lửng không tính vào số tầng. (QCVN 10:2025/BCA, chú thích (6))
+**Yêu cầu kỹ thuật, trị số:**
+- Ngưỡng 65 % diện tích sàn xây dựng tầng bên dưới (nhà ở riêng lẻ kết hợp).
+- Ngưỡng 10 % diện tích sàn tầng bên dưới và không quá 300 m² (tầng lửng khu kỹ thuật).
+**Cách kiểm trên hồ sơ:**
+- Xem mặt bằng tầng lửng: công năng (chỉ khu kỹ thuật?), diện tích sàn so với tầng bên dưới, số tầng lửng trong công trình. (suy từ QCVN 10:2025/BCA chú thích (6))
+**Dễ nhầm với:**
+- Khác sàn lửng của nhà sản xuất/nhà kho (ngưỡng 40 %).
+**Liên quan:** Sàn lửng, Số tầng của nhà, Tầng tum, Nhóm nhà F
+
 ### Tầng tum (còn gọi: mái tum)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
 - Tầng tum không tính vào số tầng cao của công trình khi diện tích mái tum không vượt quá 30 % diện tích sàn mái và có chức năng sử dụng làm tum thang, kỹ thuật. (TT 06/2021/TT-BXD (nêu trong slide 'Lưu ý khi xét số tầng'))
+- Không tính vào số tầng cao khi diện tích mái tum không vượt quá 30 % diện tích sàn mái và có chức năng làm tum thang, kỹ thuật. (Sửa đổi 1:2023 QCVN 06 (theo TT 06/2021/TT-BXD))
 **Khi nào áp dụng / được phép:**
 - Số tầng tòa nhà bao gồm cả tầng tum, trừ trường hợp đáp ứng điều kiện 30 % diện tích sàn mái nói trên. (Slide 'Lưu ý khi xét số tầng')
 **Cách kiểm trên hồ sơ:**
 - Đo diện tích mái tum so với diện tích sàn mái và đối chiếu công năng ghi trên bản vẽ (tum thang, kỹ thuật). (suy từ nguồn)
-**Liên quan:** Số tầng nhà
+- Đo diện tích mái tum so với diện tích sàn mái; xem công năng. (suy từ Sửa đổi 1:2023 QCVN 06)
+**Liên quan:** Số tầng nhà, Số tầng của nhà
 
 ### Thay thế yêu cầu bằng luận chứng kỹ thuật (còn gọi: thay thế yêu cầu của Quy chuẩn)
 **Khi nào áp dụng / được phép:**
@@ -1010,30 +1221,43 @@
 - Kiểm có luận chứng kỹ thuật kèm văn bản chấp thuận của đúng cơ quan; suy từ 1.1.6. (suy từ 1.1.6)
 **Liên quan:** Thẩm định thiết kế về PCCC
 
-### Thẩm duyệt điều chỉnh
+### Thẩm duyệt điều chỉnh (còn gọi: thẩm định thiết kế điều chỉnh)
 **Định nghĩa:**
 - Thủ tục chỉ còn cho dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC (trước 01/7/2025) mà trước hoặc trong thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025. (Điều 29 khoản 1 NĐ 347/2026 (sửa khoản 3 Điều 46 NĐ 105/2025))
 - Việc thẩm duyệt khi dự án, công trình đã có Giấy chứng nhận thẩm duyệt thiết kế về PCCC mà trước hoặc trong quá trình thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025. (NĐ 347/2026 Điều 29 khoản 1, sửa khoản 3 Điều 46 NĐ 105/2025)
+- Việc áp dụng với dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC, mà trước hoặc trong thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025 (danh sách 5.1 và 5.2). (Điều 29 khoản 1 NĐ 347/2026 (sửa khoản 3 Điều 46 NĐ 105/2025))
+- "Thẩm duyệt điều chỉnh" chỉ còn dùng cho dự án đã được cấp Giấy chứng nhận thẩm duyệt trước 01/7/2025. Dự án thẩm định theo NĐ 105/2025 gọi là "thẩm định thiết kế điều chỉnh". (Mục 1, mục 5)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
 - Công trình đã có Giấy chứng nhận thẩm duyệt (trước 01/7/2025), chưa được chấp thuận kết quả nghiệm thu, nay điều chỉnh thiết kế hoặc đổi công năng thuộc danh sách đóng của cơ quan xây dựng hoặc Công an. (mục 6)
+- Công trình đã có Giấy chứng nhận thẩm duyệt, chưa nghiệm thu, nay có thay đổi thì thuộc diện thẩm duyệt điều chỉnh (Công văn C07; quy trình mục 4, 6)
+- Đã có Giấy chứng nhận thẩm duyệt mà chưa nghiệm thu thì là "thẩm duyệt điều chỉnh". (mục 8 bước 4)
+- Xem ngày cấp Giấy chứng nhận thẩm duyệt: trước 01/7/2025 thì "thẩm duyệt điều chỉnh", từ 01/7/2025 thì "thẩm định thiết kế điều chỉnh". (Mục 1, mục 5)
 **Khi nào áp dụng / được phép:**
 - Đã thẩm duyệt, chưa nghiệm thu, nay thay đổi công năng (vd. F3.4 thành F1.1): phải thẩm duyệt điều chỉnh. Đã có Giấy chứng nhận, đã thi công mà đề nghị thẩm định lại theo NĐ 105: thực hiện theo khoản 3 Điều 46; chưa thi công: chủ đầu tư có thể đề nghị thẩm định theo NĐ 105/2025. (Công văn C07 (khoản 3 Điều 46 NĐ 105/2025; câu 13))
 - Dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC mà trước hoặc trong quá trình thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025 (danh sách 5.1 và 5.2 của nguồn) thì thực hiện thẩm duyệt điều chỉnh. (NĐ 347/2026 Điều 29 khoản 1, sửa khoản 3 Điều 46 NĐ 105/2025)
+- Công trình đã thẩm duyệt, chưa nghiệm thu, thay đổi công năng (ví dụ nhóm F3.4 thành F1.1) phải thẩm duyệt điều chỉnh (khoản 3 Điều 46 NĐ 105/2025)
+- Đối chiếu từng thay đổi với danh sách đóng 5.1 (xây dựng) và 5.2 (Công an); trùng thì phải thẩm định lại, không trùng thì áp dụng mục 5.3 (quy trình bước 3)
+- Đã có Giấy chứng nhận thẩm duyệt, chưa chấp thuận nghiệm thu thì tiếp tục theo khoản 3 Điều 46 NĐ 105/2025. (mục 5.3)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Dự án thẩm định theo NĐ 105/2025 dùng thuật ngữ 'thẩm định thiết kế điều chỉnh', không dùng 'thẩm duyệt điều chỉnh'. (mục 1)
 - Đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô, đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý và thông số bơm đã thẩm định, có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công: không thuộc diện thẩm định điều chỉnh. (mục 5)
 - Chưa có Giấy chứng nhận thẩm duyệt thì thẩm định theo Điều 6, 7, 8, 9 NĐ 105/2025, không phải thẩm duyệt điều chỉnh. (NĐ 105/2025 Điều 6, 7, 8, 9)
+- Chỉ xét phần điều chỉnh, cải tạo; dòng ngoài phạm vi ghi KHÔNG ÁP DỤNG, lý do "ngoài phạm vi điều chỉnh, cải tạo" (quy trình bước 5)
 **Yêu cầu kỹ thuật, trị số:**
 - Thời hạn xử lý theo khoản 6 Điều 9 NĐ 105/2025: không quá 10 ngày với dự án nhóm A hoặc quan trọng quốc gia; các dự án còn lại không quá 06 ngày làm việc. (khoản 6 Điều 9 NĐ 105/2025)
+- Thời hạn xử lý theo khoản 6 Điều 9 NĐ 105/2025: không quá 10 ngày (dự án nhóm A hoặc quan trọ… đoạn trích bị cắt). (khoản 6 Điều 9 NĐ 105/2025)
 **Cách kiểm trên hồ sơ:**
 - Xác định có Giấy chứng nhận thẩm duyệt (trước 01/7/2025) hay văn bản thẩm định NĐ 105/2025, và đã nghiệm thu chưa. (suy từ mục 8)
 - Đối chiếu nội dung điều chỉnh với danh sách 5.1 và 5.2 (khoản 4 Điều 6, khoản 3 Điều 9 NĐ 105/2025); phần nguồn bị cắt, chưa rõ trình tự theo Điều 1... nên CẦN XÁC NHẬN. (suy từ NĐ 347/2026 Điều 29 khoản 1)
 - Đối chiếu nội dung điều chỉnh với danh sách ở khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025; kiểm tình trạng nghiệm thu (suy từ Điều 29 NĐ 347/2026).
+- Hỏi hồ sơ đã có Giấy chứng nhận thẩm duyệt chưa và đã nghiệm thu chưa (suy từ quy trình bước 1, 4)
+- Kiểm ngày cấp Giấy chứng nhận thẩm duyệt trong hồ sơ. Suy từ mục 1 và mục 5.
 **Dễ nhầm với:**
 - Nhà xây không đúng thiết kế đã thẩm duyệt (vd. kho hạng C trong khi thẩm duyệt hạng E): Công an trả lời không chấp thuận kết quả nghiệm thu, đề nghị thi công đúng thiết kế hoặc làm thủ tục thẩm duyệt điều chỉnh. (Công văn C07 câu 14)
 - Thẩm duyệt điều chỉnh (đã có Giấy chứng nhận) khác trường hợp tự thẩm định điều chỉnh kèm nghiệm thu hoàn công (không thuộc diện). (mục 5, mục 6)
 - Dễ nhầm với thẩm định mới theo Điều 6, 7, 8, 9 NĐ 105/2025. Thẩm duyệt điều chỉnh chỉ dành cho công trình đã có Giấy chứng nhận thẩm duyệt.
-**Liên quan:** thẩm định lại khi điều chỉnh thiết kế, thay đổi công năng, cải tạo (danh sách đóng), Giấy chứng nhận thẩm duyệt thiết kế về PCCC, Đổi nguyên lý báo cháy, Tự thẩm định điều chỉnh, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Nội dung thẩm duyệt thiết kế về PCCC
+- Khác thẩm định điều chỉnh theo NĐ 105/2025: thẩm duyệt điều chỉnh dành cho dự án đã có Giấy chứng nhận thẩm duyệt.
+**Liên quan:** thẩm định lại khi điều chỉnh thiết kế, thay đổi công năng, cải tạo (danh sách đóng), Giấy chứng nhận thẩm duyệt thiết kế về PCCC, Đổi nguyên lý báo cháy, Tự thẩm định điều chỉnh, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Nội dung thẩm duyệt thiết kế về PCCC, Thay thế hệ thống, Trang bị bổ sung hệ thống, Hạng mục xây mới độc lập, Công trình sau cải tạo, mở rộng, Thẩm định điều chỉnh, Giấy chứng nhận thẩm duyệt, Thẩm định thiết kế về PCCC
 
 ### Thẩm duyệt điều chỉnh thiết kế về phòng cháy và chữa cháy
 **Cách xác định (nhận biết, đo trên bản vẽ):**
@@ -1041,6 +1265,25 @@
 **Yêu cầu kỹ thuật, trị số:**
 - Thời hạn xử lý hồ sơ đề nghị thẩm duyệt điều chỉnh thực hiện theo khoản 6 Điều 9 NĐ 105/2025/NĐ-CP. Đoạn trích không nêu số ngày. (khoản 3 Điều 46)
 **Liên quan:** Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy
+
+### Thẩm định điều chỉnh (còn gọi: thẩm định lại, hồ sơ thiết kế điều chỉnh)
+**Định nghĩa:**
+- Điều chỉnh trong quá trình thi công: chủ đầu tư lập hồ sơ thiết kế điều chỉnh và tổ chức thẩm định trước khi tiếp tục thi công; kết quả thẩm định là căn cứ phê duyệt thiết kế xây dựng. (Điều 8 khoản 1 NĐ 105/2025)
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Đối chiếu từng thay đổi với danh sách đóng 5.1 (xây dựng, Điều 6 khoản 4) và 5.2 (Công an, Điều 9 khoản 3); trùng thì phải thẩm định lại, ghi mục cụ thể; không trùng thì xét 5.3. Diễn giải "thay thế", "bổ sung", "đổi nguyên lý" theo 5.4. (mục 8 bước 3)
+**Khi nào áp dụng / được phép:**
+- Khi điều chỉnh thiết kế hoặc thay đổi công năng, cải tạo trong quá trình sử dụng (khoản 2 Điều 17 Luật PCCC và CNCH), chỉ các trường hợp trong danh sách đóng. Phía xây dựng gồm: (a) thay đổi vị trí, diện tích xây dựng làm giảm khoảng cách PCCC đến đối tượng khác; (b) giảm kích thước đường, bãi đỗ chữa cháy, cứu nạn làm thay đổi khả năng tiếp cận của phương tiện cơ giới; (c) giảm bậc chịu lửa (đoạn trích bị cắt, các điểm sau chưa có). (Điều 6 khoản 4 NĐ 105/2025)
+- Hạng mục đầu tư giai đoạn sau, độc lập: không thuộc Phụ lục III thì không thuộc diện; đấu nối với hệ thống đã thẩm định mà làm đổi nguyên lý báo cháy, chữa cháy hoặc thông số bơm thì thuộc diện, không đổi thì không. (mục 5.3)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô nhưng đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định, có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công: không thuộc diện thẩm định điều chỉnh. (mục 5.3)
+- Dự án chưa góp ý thiết kế cơ sở trước 01/7/2025 mà không thuộc Phụ lục III thì không thuộc diện; đã góp ý thiết kế cơ sở nhưng chưa cấp Giấy chứng nhận thẩm duyệt và không thuộc Phụ lục III thì không thẩm định. (mục 5.3)
+**Yêu cầu kỹ thuật, trị số:**
+- Ca nhập nhằng (nhà ở riêng lẻ kết hợp kinh doanh, hỗn hợp có yếu tố ở): ghi CẦN XÁC NHẬN, nêu cả hai cách hiểu, dẫn mục 5.5 làm đề xuất. (mục 8 bước 6)
+**Cách kiểm trên hồ sơ:**
+- Hỏi: công trình mới hay điều chỉnh, cải tạo; đã có Giấy chứng nhận thẩm duyệt (trước 01/7/2025) hay văn bản thẩm định (NĐ 105/2025); đã nghiệm thu chưa. Chỉ xét phần điều chỉnh, cải tạo. (mục 8 bước 1, 5)
+**Dễ nhầm với:**
+- Khác thẩm duyệt điều chỉnh (dự án đã có Giấy chứng nhận thẩm duyệt, mục 6) và khác tự thẩm định điều chỉnh (chủ đầu tư tự làm, không thuộc diện thẩm định điều chỉnh).
+**Liên quan:** Thẩm duyệt điều chỉnh, Tự thẩm định điều chỉnh, Phụ lục III, Nội dung thẩm định của cơ quan xây dựng, Nội dung thẩm định của cơ quan Công an
 
 ### Thẩm định điều chỉnh / cải tạo nhà đã đưa vào sử dụng (còn gọi: cải tạo, thay đổi)
 **Khi nào áp dụng / được phép:**
@@ -1067,6 +1310,15 @@
 - Thẩm định lại theo NĐ 105/2025 (hồ sơ sau 01/7/2025) khác 'thẩm duyệt điều chỉnh' (dự án đã có Giấy chứng nhận thẩm duyệt). (mục 1, 6)
 **Liên quan:** đổi nguyên lý báo cháy, chữa cháy, thay thế hệ thống, trang bị bổ sung hệ thống, thẩm duyệt điều chỉnh
 
+### Thẩm định thiết kế về PCCC (còn gọi: thẩm duyệt thiết kế về PCCC (cách gọi cũ))
+**Định nghĩa:**
+- Từ NĐ 105/2025, cơ quan Công an và cơ quan chuyên môn về xây dựng thẩm định thiết kế về PCCC (không còn gọi là "thẩm duyệt"). (Mục 1 (từ ngữ), NĐ 105/2025/NĐ-CP)
+**Khi nào áp dụng / được phép:**
+- Công trình khi thiết kế, cải tạo, thay đổi công năng sử dụng, và phương tiện giao thông khi sản xuất, lắp ráp, đóng mới, hoán cải thuộc danh mục Phụ lục III thì thuộc diện thẩm định thiết kế về PCCC. (Phụ lục III NĐ 105/2025/NĐ-CP)
+**Dễ nhầm với:**
+- Không dùng "thẩm duyệt" cho dự án thẩm định theo NĐ 105/2025. Từ này chỉ còn dùng cho dự án đã được cấp Giấy chứng nhận thẩm duyệt trước 01/7/2025. (Mục 1, mục 5)
+**Liên quan:** Thẩm duyệt điều chỉnh, Công trình thuộc diện thẩm định thiết kế về PCCC
+
 ### Thẩm định thiết kế về PCCC (ba nơi thẩm định) (còn gọi: thẩm định thiết kế PCCC)
 **Định nghĩa:**
 - Từ NĐ 105/2025, cơ quan Công an và cơ quan chuyên môn về xây dựng thẩm định thiết kế về PCCC (không còn gọi 'thẩm duyệt'). (NĐ 105/2025)
@@ -1083,16 +1335,26 @@
 **Liên quan:** Phụ lục III NĐ 105/2025/NĐ-CP (danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC), nội dung thẩm định của cơ quan xây dựng và cơ quan Công an, thẩm định điều chỉnh
 
 ### Thiết bị báo cháy độc lập
+**Định nghĩa:**
+- Thiết bị tự động phát hiện và cảnh báo cháy bằng âm thanh. (QCVN 10:2025/BCA, 1.4.11)
 **Khi nào áp dụng / được phép:**
 - Nhiều dòng Bảng A.1 cho phép trang bị thiết bị báo cháy độc lập thay hệ thống báo cháy tự động khi nhà thấp tầng và diện tích nhỏ, ví dụ: nhà ở riêng lẻ kết hợp kinh doanh dịch vụ cao từ 7 tầng trở lên (mục 1); chung cư, nhà ở tập thể, ký túc xá khi thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m² (mục 3); nhà trẻ, mầm non khi tổng diện tích sàn nhỏ hơn 500 m² (mục 4); nhà dưỡng lão khi thấp hơn 3 tầng và nhỏ hơn 300 m² (mục 7); khách sạn, trụ sở, văn phòng khi thấp hơn 5 tầng và nhỏ hơn 1 500 m² (mục 18, 20). (Bảng A.1, mục 1, 3, 4, 7, 18, 20)
+- Được phép thay hệ thống báo cháy tự động khi nhà nhỏ hơn ngưỡng nêu trong ngoặc của từng dòng, ví dụ chung cư: chiều cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m²; nhà dưỡng lão: thấp hơn 3 tầng và nhỏ hơn 300 m². (Bảng A.1 mục 3, 7)
+- Cho phép trang bị thay hệ thống báo cháy tự động: nhà ở riêng lẻ kết hợp kinh doanh dịch vụ cao từ 7 tầng trở lên; nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy khi chiều cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 500 m²; chung cư, nhà ở tập thể, ký túc xá thuộc cơ sở giáo dục khi chiều cao thấp hơn 5 tầng và tổng diện tích sàn nhỏ hơn 1 500 m². (Bảng A.1, STT 1–3)
 **Yêu cầu kỹ thuật, trị số:**
 - Việc lựa chọn, bố trí thiết bị báo cháy độc lập thực hiện như đối với các thiết bị tương tự của hệ thống báo cháy tự động. (2.1.1)
 - Nhà ở riêng lẻ kết hợp kinh doanh, sản xuất: cho phép chỉ trang bị hệ thống báo cháy tự động hoặc thiết bị báo cháy độc lập tại khu vực sản xuất, kinh doanh, nhưng mỗi tầng của nhà phải có thiết bị cảnh báo âm thanh kết nối liên động với hệ thống báo cháy tự động hoặc thiết bị báo cháy độc lập. (Bảng A.1, chú thích (2))
+- Các thiết bị báo cháy độc lập lắp trong cùng một nhà, công trình phải được liên kết với nhau, bảo đảm tất cả cùng phát tín hiệu báo cháy khi một thiết bị được kích hoạt. (1.4.11 (chú thích))
+- Bảo dưỡng ít nhất một năm một lần. (1.5.13)
 **Cách kiểm trên hồ sơ:**
 - Đối chiếu số tầng và tổng diện tích sàn với ngưỡng "cho phép trang bị thiết bị báo cháy độc lập" ở đúng dòng loại nhà của Bảng A.1. Suy từ Bảng A.1. (Bảng A.1)
+- Xem bản vẽ có thể hiện liên kết giữa các thiết bị trong cùng nhà; so quy mô nhà với ngưỡng cho phép trong ngoặc ở Bảng A.1. (suy từ 1.4.11 và Bảng A.1)
+- Kiểm trên bản vẽ các thiết bị độc lập trong cùng nhà có liên kết với nhau; đối chiếu số tầng và tổng diện tích sàn với ngưỡng Bảng A.1. (suy từ 1.4.11, Bảng A.1)
 **Dễ nhầm với:**
 - Ngưỡng cho phép dùng thiết bị độc lập khác nhau theo từng loại nhà (ví dụ mục 3 dùng 5 tầng và 1 500 m², mục 4 dùng 500 m²), không áp một ngưỡng chung. (Bảng A.1)
-**Liên quan:** Hệ thống báo cháy tự động, Hệ thống báo cháy địa chỉ, Phụ lục A (trang bị báo cháy tự động, chữa cháy tự động)
+- Chỉ cảnh báo bằng âm thanh, không phải hệ thống báo cháy có trung tâm. (1.4.11)
+- Khác hệ thống báo cháy tự động (có trung tâm, đầu báo, nút ấn, chuông đèn…). (1.4.8, 1.4.11)
+**Liên quan:** Hệ thống báo cháy tự động, Hệ thống báo cháy địa chỉ, Phụ lục A (trang bị báo cháy tự động, chữa cháy tự động), Hệ thống báo cháy
 
 ### Thiết kế điều chỉnh, cải tạo (còn gọi: Thẩm duyệt thiết kế điều chỉnh, Thiết kế cải tạo)
 **Định nghĩa:**
@@ -1101,16 +1363,46 @@
 - Ví dụ trong nguồn: điều chỉnh nguồn lấy nước PCCC, điều chỉnh nguồn phục hồi nước, thiết kế thêm Nhà điều hành (Phòng trực PCCC, Phòng bơm, Phòng máy phát điện, Phòng kỹ thuật; 01 tầng, 178,95 m²). (Mục I.2)
 **Liên quan:** Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy, Nội dung thẩm duyệt thiết kế về PCCC, Nguồn lấy nước PCCC, Nguồn phục hồi nước
 
+### Thứ tự xét Phụ lục A QCVN 10:2025/BCA
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Bảng A.1 cho toàn nhà, rồi Bảng A.2 cho hạng mục/khu vực, Bảng A.3 cho gian phòng, Bảng A.4 cho thiết bị trong phạm vi công trình (1.5.9 QCVN 10:2025/BCA)
+**Khi nào áp dụng / được phép:**
+- Chú thích (1), (2), (3) của từng bảng ở cuối bảng (Phụ lục A)
+**Cách kiểm trên hồ sơ:**
+- Xét lần lượt A.1, A.2, A.3, A.4 khi lập danh sách hệ thống phải trang bị (suy từ 1.5.9)
+**Liên quan:** Dấu "-" trong Phụ lục A
+
+### Tính diện tích, khối tích riêng từng nhà (còn gọi: quy mô công trình tính riêng từng khối)
+**Khi nào áp dụng / được phép:**
+- Nhà đã bảo đảm khoảng cách an toàn PCCC, thoát nạn, ngăn cháy lan, nối với nhau bằng lối đi thì cho phép tính diện tích, khối tích riêng từng nhà. (QCVN 10:2025/BCA mục 1.4.26)
+**Cách kiểm trên hồ sơ:**
+- Khi bản vẽ chỉ có tổng diện tích cả khu đất, tách số liệu theo từng khối rồi mới so ngưỡng trang bị (Phụ lục A, B, C). Xác nhận khối tách biệt: tường riêng, kết cấu riêng, không chung khoang cháy. Chưa rõ thì ghi CẦN XÁC NHẬN. (suy từ mục 1.4.26 và bài học 10)
+**Dễ nhầm với:**
+- Dính liền một vách mà chung kết cấu thì vẫn là một khối (ví dụ của agent, chưa được người thẩm định xác nhận).
+**Liên quan:** Khoang cháy, Phụ lục A, B, C QCVN 10:2025/BCA
+
+### Tổng diện tích của nhà
+**Định nghĩa:**
+- Gồm diện tích các tầng (kể cả sàn giá đỡ trong nhà, sàn lửng, tất cả các sàn của giá đỡ nhiều tầng, thềm (cầu) xếp dỡ, hành lang và hành lang liên thông sang nhà khác, đường hầm), tính theo mặt bên trong tường bao (hoặc trục cột biên nơi không có tường bao). (QCVN 06:2022/BXD, Quy định chung)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Không bao gồm: diện tích các tầng hầm kỹ thuật (theo điều kiện chiều cao nêu trong văn bản), diện tích phía trên trần treo, diện tích sàn giá đỡ nhiều tầng dùng bảo dưỡng đường ray dưới cầu trục, cần trục, băng tải, đường ray đơn và thiết bị chiếu sáng. (QCVN 06:2022/BXD, Quy định chung)
+**Liên quan:** Sàn lửng, Diện tích xây dựng
+
 ### Tự thẩm định điều chỉnh
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Hồ sơ tự thẩm định điều chỉnh đi kèm hồ sơ nghiệm thu hoàn công, khi chủ đầu tư giữ quy mô, đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định. (mục 5.3)
 **Khi nào áp dụng / được phép:**
 - Dự án đã thẩm định, chưa nghiệm thu, chủ đầu tư giữ quy mô nhưng đổi công năng, ngăn chia, bổ sung hệ thống mà vẫn đúng nguyên lý, thông số bơm đã thẩm định: có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công. (mục 5)
+- Công trình đã thẩm định, chưa nghiệm thu, thay đổi như trên: không thuộc diện thẩm định điều chỉnh. (mục 5.3)
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Có đổi nguyên lý báo cháy, chữa cháy hoặc thông số bơm so với bản đã thẩm định thì không thuộc trường hợp này mà thuộc diện thẩm định điều chỉnh. (suy từ mục 5)
+- Đổi nguyên lý hoặc thông số bơm so với đã thẩm định thì không thuộc trường hợp này (xét thẩm định điều chỉnh). (suy từ mục 5.3)
 **Yêu cầu kỹ thuật, trị số:**
 - Cần có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công. (mục 5)
 **Cách kiểm trên hồ sơ:**
 - Kiểm hồ sơ có đủ hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công; so nguyên lý và thông số bơm với bản đã thẩm định. (suy từ mục 5)
-**Liên quan:** Thẩm duyệt điều chỉnh, Đổi nguyên lý báo cháy, Nội dung được nghiệm thu về PCCC
+- Kiểm có hồ sơ tự thẩm định điều chỉnh và hồ sơ nghiệm thu hoàn công; so nguyên lý, thông số bơm với bản đã thẩm định. (suy từ mục 5.3)
+**Liên quan:** Thẩm duyệt điều chỉnh, Đổi nguyên lý báo cháy, Nội dung được nghiệm thu về PCCC, Thẩm định điều chỉnh, Nghiệm thu về PCCC
 
 ### Vùng an toàn
 **Định nghĩa:**

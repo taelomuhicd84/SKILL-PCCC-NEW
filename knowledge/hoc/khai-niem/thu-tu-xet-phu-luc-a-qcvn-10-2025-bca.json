@@ -1,0 +1,39 @@
+{
+ "slug": "thu-tu-xet-phu-luc-a-qcvn-10-2025-bca",
+ "ten": "Thứ tự xét Phụ lục A QCVN 10:2025/BCA",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Dấu \"-\" trong Phụ lục A"
+ ],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Bảng A.1 cho toàn nhà, rồi Bảng A.2 cho hạng mục/khu vực, Bảng A.3 cho gian phòng, Bảng A.4 cho thiết bị trong phạm vi công trình",
+   "dieu": "1.5.9 QCVN 10:2025/BCA",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Chú thích (1), (2), (3) của từng bảng ở cuối bảng",
+   "dieu": "Phụ lục A",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xét lần lượt A.1, A.2, A.3, A.4 khi lập danh sách hệ thống phải trang bị",
+   "dieu": "suy từ 1.5.9",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "hay_nham": []
+}

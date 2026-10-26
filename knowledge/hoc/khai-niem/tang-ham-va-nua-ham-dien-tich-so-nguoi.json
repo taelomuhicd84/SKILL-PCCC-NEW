@@ -1,0 +1,39 @@
+{
+ "slug": "tang-ham-va-nua-ham-dien-tich-so-nguoi",
+ "ten": "Tầng hầm và nửa hầm (diện tích, số người)",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Cho phép bố trí một lối ra thoát nạn",
+  "Cầu thang bộ loại 2"
+ ],
+ "ngay": "2026-10-26T07:07:11.845Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nguồn nêu tiêu chí: tầng hầm và nửa hầm có diện tích lớn hơn 300 m2 hoặc dùng cho hơn 15 người có mặt đồng thời (nằm trong danh sách điều kiện liên quan số lối ra thoát nạn; nguồn cắt đoạn nên phải đối chiếu toàn văn).",
+   "dieu": "QCVN 06 (cần đối chiếu toàn văn)",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Thang bộ loại 2 phải được ngăn cách với khu vực tầng hầm (nếu có) bằng vách ngăn cháy loại 2.",
+   "dieu": "Sửa đổi 1:2023",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Đo diện tích tầng hầm, nửa hầm và đếm số người dự kiến có mặt đồng thời, so với 300 m2 và 15 người. Suy từ nguồn.",
+   "dieu": "suy từ QCVN 06",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "hay_nham": []
+}

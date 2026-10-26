@@ -1,0 +1,59 @@
+{
+ "slug": "ban-cong-thoang",
+ "ten": "Ban công thoáng",
+ "dong_nghia": [
+  "sân thượng thoáng"
+ ],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m05-cong-nang"
+ ],
+ "lien_quan": [
+  "Lối thoát nạn khẩn cấp",
+  "Cầu thang bộ loại 2",
+  "Chiều cao PCCC"
+ ],
+ "ngay": "2026-10-26T07:07:11.845Z",
+ "dinh_nghia": [
+  {
+   "y": "Ban công thoáng hoặc sân thượng thoáng nghĩa là hở ra ngoài trời và bộ phận bao che (nếu có) phải bảo đảm cho việc thoát nạn, cứu nạn dễ dàng khi lực lượng chữa cháy tiếp cận.",
+   "dieu": "CHÚ THÍCH",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Hở ra ngoài trời; nếu có bộ phận bao che thì bao che không cản trở thoát nạn, cứu nạn khi lực lượng chữa cháy tiếp cận.",
+   "dieu": "CHÚ THÍCH",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Điều kiện để dùng cầu thang bộ loại 2 thay buồng thang bộ ở nhà từ 3 tầng trở xuống hoặc chiều cao PCCC từ 9 m trở xuống: người trong nhà thoát ra được ban công thoáng hoặc sân thượng thoáng khi có cháy.",
+   "dieu": "Sửa đổi 1:2023",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  },
+  {
+   "y": "Nhà có chiều cao PCCC từ trên 15 m đến 21 m và từ trên 21 m đến 25 m (một lối ra thoát nạn): người trong nhà có thể lên được sân thượng thoáng khi có cháy, là phương án thay cho thoát qua lối thoát nạn khẩn cấp có thiết bị hỗ trợ.",
+   "dieu": "Sửa đổi 1:2023",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng tầng thượng, ban công: có hở ra ngoài trời không, lan can/mái che/lưới có cản thoát nạn, cứu nạn không. Suy từ chú thích.",
+   "dieu": "suy từ CHÚ THÍCH",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác lối thoát nạn khẩn cấp (ban công, lô gia thoáng, cửa sổ… dùng kèm thiết bị hỗ trợ thoát nạn).",
+   "dieu": "",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ]
+}

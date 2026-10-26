@@ -1,0 +1,43 @@
+{
+ "slug": "hut-khoi-thoat-khoi-tu-nhien-chong-tu-khoi-tang-ap-cap-khong-khi-chong-khoi",
+ "ten": "Hút khói, thoát khói tự nhiên, chống tụ khói, tăng áp (cấp không khí chống khói)",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Buồng thang bộ loại N2, N3",
+  "Khoang đệm"
+ ],
+ "ngay": "2026-10-26T07:13:33.965Z",
+ "dinh_nghia": [
+  {
+   "y": "Chống tụ khói là hút/thoát khói khỏi gian phòng, hành lang",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  },
+  {
+   "y": "Tăng áp là cấp gió tạo áp dương cho buồng thang, giếng thang máy, khoang đệm",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem bản vẽ từng khu vực dùng giải pháp nào: hút/thoát khói gian phòng, hành lang hay tăng áp buồng thang, giếng thang máy, khoang đệm; không gộp hai giải pháp làm một (suy từ thuật ngữ chuẩn)",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Chống tụ khói và tăng áp không đánh đồng: một bên hút/thoát khói, một bên cấp gió tạo áp dương",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "slug": "he-thong-bao-chay-khong-day",
+ "ten": "Hệ thống báo cháy không dây",
+ "dong_nghia": [
+  "Wireless fire alarm system"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Hệ thống báo cháy"
+ ],
+ "ngay": "2026-10-26T07:07:32.950Z",
+ "dinh_nghia": [
+  {
+   "y": "Là hệ thống báo cháy sử dụng sóng vô tuyến để truyền (đoạn văn bản bị cắt, chưa đủ định nghĩa).",
+   "dieu": "3.12",
+   "nguon": "kb:tk-tcvn-7568-14"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "TCVN 7568-25 là phần riêng về bộ phận sử dụng đường truyền vô tuyến (QCVN 10:2025/BCA viện dẫn).",
+   "dieu": "QCVN 10:2025/BCA mục 1.3",
+   "nguon": "kb:tk-tcvn-7568-14"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "slug": "dien-tich-mot-tang-trong-pham-vi-mot-khoang-chay",
+ "ten": "Diện tích một tầng trong phạm vi một khoang cháy",
+ "dong_nghia": [
+  "diện tích khoang cháy của tầng"
+ ],
+ "anh_huong": [
+  "m02-bac-chiu-lua",
+  "m06-ngan-chay",
+  "m01-phan-loai"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Sàn lửng",
+  "Gian phòng thông 2 tầng hoặc nhiều tầng"
+ ],
+ "ngay": "2026-10-26T07:06:10.175Z",
+ "dinh_nghia": [
+  {
+   "y": "Xác định theo chu vi bên trong của tường bao của tầng, không tính diện tích buồng thang bộ.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà 1 tầng: cộng thêm diện tích của tất cả sàn công tác, sàn đỡ thiết bị, sàn lửng; nhà nhiều tầng: cộng sàn nằm trong tầng đó.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  },
+  {
+   "y": "Diện tích các gian phòng cao thông từ 2 tầng trở lên mà lỗ thông tầng không được bảo vệ ngăn cháy thì được tính vào diện tích tổng cộng của nhà trong phạm vi một tầng.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Diện tích thềm (cầu) xếp dỡ phía ngoài dùng cho phương tiện vận tải đường bộ và đường sắt không tính vào diện tích tầng nhà trong phạm vi khoang cháy.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đo chu vi trong tường bao từng tầng, trừ buồng thang bộ, cộng sàn lửng/sàn công tác; so với diện tích tối đa trong Bảng bậc chịu lửa (suy từ quy định chung).",
+   "dieu": "suy từ QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "hay_nham": []
+}

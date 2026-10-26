@@ -1,7 +1,9 @@
 {
  "slug": "noi-dung-tham-dinh-cua-co-quan-cong-an",
  "ten": "Nội dung thẩm định của cơ quan Công an",
- "dong_nghia": [],
+ "dong_nghia": [
+  "Nội dung thẩm định về PCCC của cơ quan Công an"
+ ],
  "anh_huong": [
   "m10-binh-chua-chay",
   "m11-bao-chay",
@@ -18,10 +20,18 @@
   "nội dung thẩm định của cơ quan chuyên môn về xây dựng",
   "Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy",
   "Danh mục tài liệu, bản vẽ được thẩm duyệt",
-  "Nội dung được nghiệm thu về PCCC"
+  "Nội dung được nghiệm thu về PCCC",
+  "Nội dung thẩm định của cơ quan xây dựng",
+  "Thẩm định điều chỉnh"
  ],
- "ngay": "2026-10-26T04:38:39.186Z",
- "dinh_nghia": [],
+ "ngay": "2026-10-26T07:08:59.377Z",
+ "dinh_nghia": [
+  {
+   "y": "Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy.",
+   "dieu": "Điều 9 khoản 2 NĐ 105/2025",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
  "cach_xac_dinh": [],
  "ap_dung": [
   {
@@ -33,10 +43,33 @@
    "y": "Thẩm định điều chỉnh hoặc cải tạo thì chỉ trong phạm vi điều chỉnh, cải tạo. Đây cũng là cách chia của bảng A1–A26 và B1–B14.",
    "dieu": "Điều 9 khoản 2 điểm e",
    "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo.",
+   "dieu": "Điều 9 khoản 2 điểm e",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
   }
  ],
- "khong_ap_dung": [],
+ "khong_ap_dung": [
+  {
+   "y": "Dòng ngoài phạm vi điều chỉnh, cải tạo ghi KHÔNG ÁP DỤNG, lý do \"ngoài phạm vi điều chỉnh, cải tạo\".",
+   "dieu": "mục 8 bước 5 (cách dùng khi thẩm)",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
  "yeu_cau": [],
- "cach_kiem": [],
- "hay_nham": []
+ "cach_kiem": [
+  {
+   "y": "Đây cũng là cách chia của bảng A1–A26 và B1–B14: phân dòng theo nhóm xây dựng hay Công an khi thẩm định.",
+   "dieu": "suy từ Điều 9 khoản 2",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khác nội dung thẩm định của cơ quan xây dựng: bên xây dựng xét lối thoát nạn, bậc chịu lửa, khoang cháy, công năng, chống khói; bên Công an xét hệ thống, thiết bị PCCC.",
+   "dieu": "",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  }
+ ]
 }

@@ -1,0 +1,39 @@
+{
+ "slug": "hang-muc-xay-moi-doc-lap",
+ "ten": "Hạng mục xây mới độc lập",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "chung"
+ ],
+ "lien_quan": [
+  "Thẩm duyệt điều chỉnh",
+  "Công trình sau cải tạo, mở rộng"
+ ],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [
+  {
+   "y": "Hạng mục có khoảng cách, kết cấu riêng; dùng chung hạ tầng, trạm bơm, bể nước đã thẩm duyệt",
+   "dieu": "Công văn C07, câu 8",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Công trình đã thẩm duyệt, chưa nghiệm thu, xây mới hạng mục độc lập: chỉ xét thẩm định nếu hạng mục mới thuộc Phụ lục III",
+   "dieu": "Công văn C07, câu 1, câu 8",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Ví dụ nhà kho mới 192 m², cao 7,9 m, độc lập với xưởng đã thẩm duyệt: không thuộc Phụ lục III nên không thuộc diện",
+   "dieu": "Công văn C07, câu 8",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

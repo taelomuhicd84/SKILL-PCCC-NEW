@@ -1,0 +1,45 @@
+{
+ "slug": "so-luong-dau-phun-tinh-toan-toi-thieu",
+ "ten": "Số lượng đầu phun tính toán tối thiểu",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Diện tích tính toán",
+  "Nhóm nguy cơ phát sinh cháy",
+  "Lưu lượng cần thiết của hệ thống sprinkler"
+ ],
+ "ngay": "2026-10-26T07:12:00.035Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "n ≥ S/Ω, với Ω = a_n x a_d (S: diện tích tính toán tối thiểu; Ω: diện tích bảo vệ của một đầu phun, tính bằng tích hai khoảng cách lắp đặt)",
+   "dieu": "mục e/ Tính toán thủy lực mạng đầu phun, TCVN 7336:2021",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  },
+  {
+   "y": "Ví dụ: nhóm nguy cơ phát sinh cháy 2, S = 120 m², khoảng cách đầu phun 3 m x 3 m, Ω = 9 m² => số đầu phun để tính thủy lực là 14 đầu",
+   "dieu": "ví dụ minh họa trong tài liệu tập huấn",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Dùng để xác định số đầu phun đưa vào tính toán thủy lực mạng đầu phun",
+   "dieu": "mục e/",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Suy từ mục e/: lấy S theo nhóm nguy cơ phát sinh cháy, lấy khoảng cách đầu phun trên bản vẽ để tính Ω, rồi so số đầu phun đưa vào tính thủy lực với n = S/Ω",
+   "dieu": "suy từ mục e/",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "hay_nham": []
+}

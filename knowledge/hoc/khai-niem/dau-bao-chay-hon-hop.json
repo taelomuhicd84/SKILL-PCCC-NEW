@@ -1,0 +1,28 @@
+{
+ "slug": "dau-bao-chay-hon-hop",
+ "ten": "Đầu báo cháy hỗn hợp",
+ "dong_nghia": [
+  "Combine detector"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Đầu báo cháy khói",
+  "Đầu báo cháy nhiệt"
+ ],
+ "ngay": "2026-10-26T07:07:32.950Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu báo cháy tự động nhạy cảm với ít nhất 2 hiện tượng kèm theo của sự cháy.",
+   "dieu": "3.10",
+   "nguon": "kb:tk-tcvn-7568-14"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

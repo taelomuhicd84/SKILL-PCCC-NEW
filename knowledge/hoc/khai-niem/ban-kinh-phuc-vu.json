@@ -8,10 +8,18 @@
  ],
  "lien_quan": [
   "Trụ nước chữa cháy",
-  "Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà"
+  "Bồn, bể, ao hồ dự trữ nước chữa cháy ngoài nhà",
+  "Trụ nước chữa cháy ngoài nhà",
+  "Hố thu nước chữa cháy"
  ],
- "ngay": "2026-10-26T04:26:33.933Z",
- "dinh_nghia": [],
+ "ngay": "2026-10-26T07:13:09.706Z",
+ "dinh_nghia": [
+  {
+   "y": "Bồn, bể, trụ nước chữa cháy ngoài nhà, hồ nước chữa cháy tự nhiên và nhân tạo phải đặt tại vị trí bảo đảm bán kính phục vụ.",
+   "dieu": "5.1.5.9",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
  "cach_xac_dinh": [
   {
    "y": "Tính theo đường di chuyển của vòi chữa cháy đi bên ngoài nhà, theo phương ngang, tới mọi điểm của nhà",
@@ -29,6 +37,11 @@
    "y": "Bồn, bể, trụ nước, hồ nước chữa cháy tự nhiên và nhân tạo phải đặt ở vị trí bảo đảm bán kính phục vụ",
    "dieu": "Bồn, bể, ao hồ dự trữ nước",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Để tăng bán kính phục vụ, cho phép lắp đường ống cụt dài không quá 200 m từ bồn, bể, hồ nhân tạo đến các bể trung gian (hố thu nước), bảo đảm theo 5.1.5.8.",
+   "dieu": "5.1.5.9",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
  "khong_ap_dung": [],
@@ -47,6 +60,16 @@
    "y": "Để tăng bán kính phục vụ, cho phép lắp đường ống cụt dài không quá 200 m từ bồn, bể, hồ nhân tạo đến bể trung gian (hố thu nước)",
    "dieu": "Bồn, bể, ao hồ dự trữ nước; 5.1.5.8",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Có máy bơm của xe chữa cháy: 400 m.",
+   "dieu": "5.1.5.9",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Có máy bơm di động: đến 300 m trong phạm vi hoạt động kỹ thuật của máy bơm (theo Sửa đổi 1:2023).",
+   "dieu": "5.1.5.9",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
  "cach_kiem": [
@@ -54,6 +77,11 @@
    "y": "Xem tổng mặt bằng: đo từ trụ/bồn/bể/hồ tới điểm xa nhất của nhà theo đường vòi đi, so với trị số trên",
    "dieu": "suy từ mục Trụ nước chữa cháy và Bồn, bể, ao hồ",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Đo trên tổng mặt bằng từ nguồn nước tới các điểm của nhà. Suy từ 5.1.5.9.",
+   "dieu": "5.1.5.9",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
  "hay_nham": [
@@ -61,6 +89,11 @@
    "y": "Bán kính phục vụ tính theo đường di chuyển của vòi, không phải khoảng cách đường thẳng; trị số khác nhau giữa trụ nước, xe chữa cháy và máy bơm di động",
    "dieu": "",
    "nguon": "d1cdbad641a2"
+  },
+  {
+   "y": "Bản trước sửa đổi: 200 m (xe bơm), 100–150 m (máy bơm di động); bản hiện hành 400 m và đến 300 m.",
+   "dieu": "5.1.5.9",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ]
 }

@@ -2,16 +2,18 @@
  "slug": "ho-thu-nuoc",
  "ten": "Hố thu nước",
  "dong_nghia": [
-  "hố thu"
+  "hố thu",
+  "bể trung gian"
  ],
  "anh_huong": [
   "m12-chua-chay",
   "m04-giao-thong"
  ],
  "lien_quan": [
-  "Bãi lấy nước"
+  "Bãi lấy nước",
+  "Bán kính phục vụ của nguồn nước chữa cháy ngoài nhà"
  ],
- "ngay": "2026-10-26T04:23:50.656Z",
+ "ngay": "2026-10-26T07:13:09.706Z",
  "dinh_nghia": [],
  "cach_xac_dinh": [],
  "ap_dung": [
@@ -19,6 +21,11 @@
    "y": "Khi không thể hút nước chữa cháy trực tiếp từ bồn, bể hoặc hồ bằng xe máy bơm hoặc máy bơm di động thì phải cung cấp các hố thu.",
    "dieu": "5.1.5.10",
    "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Khi không thể hút nước chữa cháy trực tiếp từ bồn, bể hoặc hồ bằng xe bơm hoặc máy bơm di động thì phải cung cấp hố thu.",
+   "dieu": "5.1.5.10",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
  "khong_ap_dung": [],
@@ -27,6 +34,16 @@
    "y": "Thể tích hố thu không nhỏ hơn 3 m3 (bản 2022: từ 3 m3 đến 5 m3; Sửa đổi 1:2023 bỏ giới hạn tối đa 5 m3).",
    "dieu": "5.1.5.10 (Sửa đổi 1:2023)",
    "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Thể tích không nhỏ hơn 3 m3 (Sửa đổi 1:2023 bỏ giới hạn trên 5 m3).",
+   "dieu": "5.1.5.10",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Ống kết nối bồn, bể, hồ với hố thu: đường kính tính theo lưu lượng chữa cháy ngoài nhà, không nhỏ hơn 200 mm; có hộp van đóng mở được từ bên ngoài hộp; đầu ống phía hồ nhân tạo có lưới chắn (theo tài liệu tóm tắt).",
+   "dieu": "",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
  "cach_kiem": [
@@ -34,6 +51,11 @@
    "y": "Xem thể tích hố thu trên bản vẽ so với ≥ 3 m3.",
    "dieu": "suy từ 5.1.5.10",
    "nguon": "37d9e08d484e"
+  },
+  {
+   "y": "Xem mặt bằng/chi tiết hố thu: thể tích ≥ 3 m3, đường kính ống nối ≥ 200 mm. Suy từ 5.1.5.10.",
+   "dieu": "5.1.5.10",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
   }
  ],
  "hay_nham": []

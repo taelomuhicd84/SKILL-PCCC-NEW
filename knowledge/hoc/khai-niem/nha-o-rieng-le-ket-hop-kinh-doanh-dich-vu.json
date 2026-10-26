@@ -1,0 +1,56 @@
+{
+ "slug": "nha-o-rieng-le-ket-hop-kinh-doanh-dich-vu",
+ "ten": "Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m11-bao-chay",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy"
+ ],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [
+  {
+   "y": "Nhà ở riêng lẻ có phần diện tích để kinh doanh dưới 30 % tổng diện tích sàn của nhà",
+   "dieu": "Bảng A.1 mục 1, chú thích (2)",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Tính tỷ lệ diện tích kinh doanh trên tổng diện tích sàn, so với ngưỡng 30 %",
+   "dieu": "Bảng A.1 mục 1",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Báo cháy tự động: cao từ 7 tầng trở lên (cho phép trang bị thiết bị báo cháy độc lập)",
+   "dieu": "Bảng A.1 mục 1",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Chữa cháy tự động: chiều cao PCCC từ 30 m trở lên",
+   "dieu": "Bảng A.1 mục 1",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem số tầng, chiều cao PCCC và tỷ lệ diện tích kinh doanh trên bản vẽ",
+   "dieu": "suy từ Bảng A.1 mục 1",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Ca nhập nhằng (nhà ở riêng lẻ kết hợp kinh doanh, hỗn hợp có yếu tố ở) ghi CẦN XÁC NHẬN, nêu cả hai cách hiểu, dẫn mục 5.5 là đề xuất chưa chính thức",
+   "dieu": "quy trình bước 6",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ]
+}

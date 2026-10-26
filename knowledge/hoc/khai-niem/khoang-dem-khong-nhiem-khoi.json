@@ -1,0 +1,56 @@
+{
+ "slug": "khoang-dem-khong-nhiem-khoi",
+ "ten": "Khoảng đệm không nhiễm khói",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan",
+  "m09-chong-khoi"
+ ],
+ "lien_quan": [
+  "Buồng thang bộ không nhiễm khói",
+  "Buồng thang bộ loại N2, N3"
+ ],
+ "ngay": "2026-10-26T07:03:27.605Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Dẫn tới các buồng thang bộ không nhiễm khói loại N1; tính không nhiễm khói phải được bảo đảm bằng thông gió tự nhiên với giải pháp kết cấu và bố trí mặt bằng - không gian phù hợp.",
+   "dieu": "3.4.10",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Yêu cầu khoảng cách 4 m tới đỉnh góc không áp dụng với lối đi nằm ở các góc tiếp giáp lớn hơn hoặc bằng 135°, cũng như phần nhô ra của tường ngoài không lớn hơn 1,2 m.",
+   "dieu": "3.4.10 a)",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "yeu_cau": [
+  {
+   "y": "Phải để hở, thông với bên ngoài, thường đặt tại các góc bên trong của nhà.",
+   "dieu": "3.4.10 a)",
+   "nguon": "kb:tk-phụ-lục-d"
+  },
+  {
+   "y": "Khi tường ngoài nối tiếp phần tường khác dưới góc nhỏ hơn 135°, khoảng cách theo phương ngang từ lỗ cửa đi gần nhất của khoảng đệm tới đỉnh góc tiếp giáp không nhỏ hơn 4 m; có thể giảm đến bằng giá trị phần nhô ra của tường ngoài.",
+   "dieu": "3.4.10 a)",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng tầng điển hình: khoảng đệm có hở ra ngoài không; đo khoảng cách từ cửa đi gần nhất tới đỉnh góc tường (suy từ 3.4.10 a); đối chiếu Hình I.7 và I.3.2 Phụ lục I.",
+   "dieu": "suy từ 3.4.10",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Khoang đệm của buồng thang loại N3 (có yêu cầu diện tích) khác khoảng đệm không nhiễm khói dẫn vào buồng thang loại N1 (thông gió tự nhiên).",
+   "dieu": "3.4.9, 3.4.10",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ]
+}

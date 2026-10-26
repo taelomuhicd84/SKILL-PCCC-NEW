@@ -1,0 +1,72 @@
+{
+ "slug": "san-lung",
+ "ten": "Sàn lửng",
+ "dong_nghia": [
+  "tầng lửng"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua",
+  "m06-ngan-chay",
+  "m07-thoat-nan",
+  "so-bo-thiet-ke"
+ ],
+ "lien_quan": [
+  "Số tầng của nhà",
+  "Tầng lửng không tính vào số tầng",
+  "Sàn công tác, sàn đỡ thiết bị, sàn giá đỡ",
+  "Diện tích một tầng trong phạm vi một khoang cháy"
+ ],
+ "ngay": "2026-10-26T07:06:10.175Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà sản xuất và nhà kho: sàn lửng ở cao độ bất kỳ có diện tích lớn hơn 40 % diện tích một tầng của nhà thì tính như một tầng.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung (số tầng nhà sản xuất, nhà kho)",
+   "nguon": "kb:tk-sàn-lửng"
+  },
+  {
+   "y": "Nhà sản xuất, nhà kho: sàn giá đỡ và sàn lửng ở cao độ bất kỳ không tính vào số tầng khi diện tích không lớn hơn 40 % diện tích một tầng.",
+   "dieu": "QCVN 10:2025/BCA, chú thích (5) của định nghĩa số tầng",
+   "nguon": "kb:tk-sàn-lửng"
+  },
+  {
+   "y": "Khi sàn giá đỡ, sàn của giá đỡ nhiều tầng và sàn lửng có diện tích trên mỗi cao độ vượt quá 40 % diện tích sàn thì diện tích sàn được xác định như đối với nhà nhiều tầng.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Nhà 1 tầng: khi tính diện tích một tầng trong phạm vi một khoang cháy phải cộng thêm diện tích của tất cả các sàn lửng.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  },
+  {
+   "y": "Nhà nhiều tầng (hoặc phần nhà nhiều tầng): diện tích khoang cháy của mỗi tầng cộng thêm diện tích các sàn lửng nằm trong tầng đó.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  },
+  {
+   "y": "Nhà kho có sàn lửng: số tầng và diện tích tầng trong phạm vi một khoang cháy xác định tương tự nhà sản xuất (H.4.1); khi có lỗ mở trên sàn giữa các tầng thì tổng diện tích các tầng không vượt giá trị Bảng H.11.",
+   "dieu": "QCVN 06:2022/BXD, H.5.2",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Đo diện tích sàn lửng trên bản vẽ mặt bằng, so với 40 % diện tích một tầng của nhà (suy từ quy định tính số tầng).",
+   "dieu": "suy từ QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Nhà sản xuất/nhà kho dùng ngưỡng 40 % diện tích một tầng; nhà ở riêng lẻ kết hợp dùng ngưỡng 65 %; tầng lửng chỉ làm khu kỹ thuật dùng ngưỡng 10 % và 300 m².",
+   "dieu": "QCVN 10:2025/BCA; Sửa đổi 1:2023 QCVN 06",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ]
+}

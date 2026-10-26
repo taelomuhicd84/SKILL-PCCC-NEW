@@ -35,9 +35,10 @@
   "Giấy chứng nhận thẩm duyệt thiết kế về PCCC",
   "Bố trí công năng",
   "Giao thông cho xe chữa cháy",
-  "Đai ngăn cháy giữa các tầng"
+  "Đai ngăn cháy giữa các tầng",
+  "Bậc chịu lửa của nhà, công trình, khoang cháy"
  ],
- "ngay": "2026-10-26T04:44:36.571Z",
+ "ngay": "2026-10-26T07:04:38.007Z",
  "dinh_nghia": [
   {
    "y": "Xác định theo QCVN 06:/BXD.",
@@ -100,6 +101,11 @@
    "y": "Khi các mặt đường tiếp cận nhà có cao độ khác nhau thì nhà có thể có các chiều cao PCCC khác nhau tùy phương án thiết kế an toàn cháy cụ thể.",
    "dieu": "Chú thích 4",
    "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Chiều cao PCCC lớn nhất cho phép của nhà tại các bảng H.5 (nhà trẻ, mẫu giáo, mầm non), H.6 (trường phổ thông F4.1 và nhà ngủ trường nội trú F1.1), H.7 (nhóm F2.1, F2.2) có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4 của bảng, nếu có).",
+   "dieu": "H.2.12.10",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "ap_dung": [
@@ -187,6 +193,21 @@
    "y": "Nhà bệnh viện (nhóm F1.1) bố trí trong nhà độc lập hoặc khoang cháy riêng có chiều cao PCCC không quá 28 m (hoặc 9 tầng).",
    "dieu": "Phụ lục H (tài liệu sửa đổi 1:2023)",
    "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Cách xác định theo số tầng chỉ dùng khi nhà được trang bị hệ thống báo cháy tự động hoặc hệ thống chữa cháy tự động, và chiều cao PCCC của nhà không quá 28 m.",
+   "dieu": "H.2.12.10",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Phạm vi áp dụng quy chuẩn: chung cư, nhà ở tập thể có chiều cao PCCC đến 150 m và không quá 3 tầng hầm.",
+   "dieu": "1.1.2",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Chiều cao PCCC của nhà được phép bố trí trong Phụ lục H hiểu là phần nhà/khoang cháy có công năng tương ứng được bố trí đến chiều cao đó. Công năng nhà trẻ bố trí đến chiều cao an toàn PCCC 9 m, các tầng cao hơn bố trí công năng khác (văn phòng, phòng ban giám hiệu...).",
+   "dieu": "Phụ lục H (tài liệu hướng dẫn sửa đổi 1:2023)",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "khong_ap_dung": [
@@ -216,6 +237,11 @@
    "y": "Bệnh viện (F1.1) có công năng chính vượt chiều cao PCCC 28 m (hoặc quá 9 tầng, tối đa 50 m) phải đồng thời: bậc chịu lửa I; toàn nhà có báo cháy tự động và chữa cháy tự động; chiều cao PCCC bảo đảm cứu nạn và tiếp cận chữa cháy qua lối vào từ trên cao; chiều rộng bản thang thoát nạn tối thiểu 1,35 m; vật liệu hoàn thiện trên đường thoát nạn không nguy hiểm hơn CV1 (các điều kiện sau đó bị cắt).",
    "dieu": "Phụ lục H (tài liệu sửa đổi 1:2023)",
    "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Khoảng cách từ mép đường cho xe chữa cháy đến tường nhà không lớn hơn 5 m với nhà có chiều cao PCCC nhỏ hơn 12 m; không lớn hơn 8 m với 12 m đến 28 m; không lớn hơn 10 m với trên 28 m.",
+   "dieu": "6.2",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "cach_kiem": [
@@ -238,6 +264,11 @@
    "y": "Trên mặt đứng/mặt cắt, xác định mặt đường xe chữa cháy tiếp cận từng mặt nhà, đo đến mép trên lan can hoặc kết cấu bao che; so với các ngưỡng 9 m, 12 m, 15 m, 28 m, 50 m. Suy từ chú thích về chiều cao PCCC và QCVN 06.",
    "dieu": "",
    "nguon": "kb:tk-chiều-cao-nhà"
+  },
+  {
+   "y": "Xác định chiều cao PCCC của nhà trong hồ sơ rồi chọn mốc 12 m, 28 m để so khoảng cách mép đường đến tường nhà. Suy từ yêu cầu khoảng cách trên.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "hay_nham": [

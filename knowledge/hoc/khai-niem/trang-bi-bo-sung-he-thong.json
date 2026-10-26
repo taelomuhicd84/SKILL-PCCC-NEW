@@ -13,9 +13,10 @@
  ],
  "lien_quan": [
   "Buồng thang bộ",
-  "Khu vực có nguy cơ phát sinh cháy cao"
+  "Khu vực có nguy cơ phát sinh cháy cao",
+  "Thay thế hệ thống"
  ],
- "ngay": "2026-10-26T04:21:19.609Z",
+ "ngay": "2026-10-26T07:08:20.897Z",
  "dinh_nghia": [
   {
    "y": "Hệ thống nêu tại điều này không được coi là hệ thống trang bị bổ sung khi việc trang bị hệ thống đó là bắt buộc đối với nhà hoặc phần nhà theo các quy định hiện hành khác.",
@@ -23,7 +24,23 @@
    "nguon": "6ae0fc981256"
   }
  ],
- "cach_xac_dinh": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Công trình chưa có hệ thống đó",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Lắp mới hệ thống khác hoàn toàn, độc lập, tách biệt với hệ thống cũ",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Lắp bổ sung hệ thống cho hạng mục, khu vực mở rộng",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
  "ap_dung": [
   {
    "y": "Nhà ≥ 4 tầng hoặc chiều cao PCCC > 15 m, không có hành lang bên, thoát nạn qua cầu thang bộ loại 2: không gian liên thông ngăn cách theo 9.1.7, có lối ra khẩn cấp 9.1.9 và trang bị bổ sung một trong: (a) báo cháy hoặc thiết bị báo cháy cục bộ theo TCVN 5738, ưu tiên đầu báo khói; (b) họng nước chữa cháy trong nhà hoặc họng nước đóng gói theo TCVN 13926; (c) chữa cháy tự động hoặc tự động đóng gói theo TCVN 13926 khi phần nhà dùng cho mục đích khác để ở.",

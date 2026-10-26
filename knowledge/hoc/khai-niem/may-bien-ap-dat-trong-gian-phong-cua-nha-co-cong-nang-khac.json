@@ -1,0 +1,42 @@
+{
+ "slug": "may-bien-ap-dat-trong-gian-phong-cua-nha-co-cong-nang-khac",
+ "ten": "Máy biến áp đặt trong gian phòng của nhà có công năng khác",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "m13-cap-dien"
+ ],
+ "lien_quan": [],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Báo cháy tự động: không phụ thuộc công suất",
+   "dieu": "Bảng A.4 mục 5",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Chữa cháy tự động: công suất từ 63 MVA trở lên hoặc điện áp từ 110 kV trở lên",
+   "dieu": "Bảng A.4 mục 5",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Không bao gồm trường hợp mục 3 của bảng",
+   "dieu": "Bảng A.4 mục 5",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem công suất (MVA) và điện áp (kV) máy biến áp trong hồ sơ",
+   "dieu": "suy từ Bảng A.4 mục 5",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "hay_nham": []
+}

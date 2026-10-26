@@ -1,0 +1,40 @@
+{
+ "slug": "nguon-dien-chua-chay",
+ "ten": "Nguồn điện chữa cháy",
+ "dong_nghia": [
+  "Cấp điện cho thiết bị điện của hệ thống bảo vệ chống cháy"
+ ],
+ "anh_huong": [
+  "m13-cap-dien",
+  "m08-thang-may-cc"
+ ],
+ "lien_quan": [
+  "Hệ thống bảo vệ chống cháy"
+ ],
+ "ngay": "2026-10-26T07:03:27.605Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Thiết bị điện của hệ thống bảo vệ chống cháy của nhà phải được cấp điện ưu tiên từ hai nguồn độc lập (một nguồn điện lưới và một nguồn máy phát điện dự phòng).",
+   "dieu": "3.1.10",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Thiết bị có nguồn dự phòng riêng (ví dụ bơm diezen, tủ chống cháy có ắc quy dự phòng) chỉ cần một nguồn điện lưới, nhưng nguồn dự phòng riêng phải bảo đảm hoạt động bình thường khi có cháy.",
+   "dieu": "3.1.10 (Chú thích)",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Xem sơ đồ nguyên lý cấp điện: có 2 nguồn độc lập (lưới + máy phát) hay thiết bị có nguồn dự phòng riêng (suy từ 3.1.10).",
+   "dieu": "suy từ 3.1.10",
+   "nguon": "kb:tk-phụ-lục-d"
+  }
+ ],
+ "hay_nham": []
+}

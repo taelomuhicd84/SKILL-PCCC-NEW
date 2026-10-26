@@ -1,5 +1,5 @@
 # Khái niệm thẩm định – Mục 8 – Thang máy chữa cháy (agent tự học rút từ văn bản, chỉ gồm mục từ nguồn đã duyệt)
-12 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
+15 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
 
 ### Chiều cao PCCC (còn gọi: chiều cao phòng cháy chữa cháy của nhà, chiều cao an toàn PCCC, Chiều cao PCCC của nhà)
 **Định nghĩa:**
@@ -16,6 +16,7 @@
 - Chiều cao PCCC lớn nhất cho phép tại các bảng H.5 (nhà trẻ, mẫu giáo, mầm non), H.6 (trường phổ thông F4.1 và nhà ngủ trường nội trú F1.1), H.7 (nhóm F2.1, F2.2) có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4 của bảng, nếu có) khi nhà được trang bị hệ thống báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC của nhà không quá 28 m. (H.2.12.10)
 - Khi có ban công (lô gia) hoặc kết cấu bao che (lan can) cửa sổ thì chiều cao PCCC được tính bằng khoảng cách lớn nhất từ mặt đường cho xe chữa cháy tiếp cận đến mép trên của kết cấu bao che (lan can). (Mục Chiều cao PCCC của nhà (chú thích đứng trước Chú thích 4))
 - Khi các mặt đường tiếp cận nhà có cao độ khác nhau thì nhà có thể có các chiều cao PCCC khác nhau tùy phương án thiết kế an toàn cháy cụ thể. (Chú thích 4)
+- Chiều cao PCCC lớn nhất cho phép của nhà tại các bảng H.5 (nhà trẻ, mẫu giáo, mầm non), H.6 (trường phổ thông F4.1 và nhà ngủ trường nội trú F1.1), H.7 (nhóm F2.1, F2.2) có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4 của bảng, nếu có). (H.2.12.10)
 **Khi nào áp dụng / được phép:**
 - Bảng H.1 đến H.4, H.5 đến H.8 quy định chiều cao PCCC lớn nhất cho phép của nhà theo bậc chịu lửa và cấp nguy hiểm cháy kết cấu; có thể xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc) khi nhà có báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC không quá 28 m (H.2.12.10)
 - Chiều cao nhà trong Bảng H.9, H.10, H.11 tính từ sàn tầng 1 đến trần tầng trên cùng, kể cả tầng kỹ thuật; trần có cao độ thay đổi thì lấy cao độ trung bình; khi xác định số tầng chỉ tính các tầng trên mặt đất (Bảng H.9, H.10, H.11 chú thích 1))
@@ -34,6 +35,9 @@
 - Buồng thang bộ loại L2 được bố trí trong nhà bậc chịu lửa I, II, III, cấp S0, S1, nhóm F1, F2, F3, F4, với chiều cao PCCC không quá 9 m; cho phép tăng đến 12 m (điều kiện loại trừ bị cắt trong đoạn trích). (QCVN 06 (đoạn trích; số điều bị cắt))
 - Chiều cao PCCC lớn nhất của nhà tại Bảng H.5 (nhà trẻ), H.6 (trường học), H.7 (nhà cơ sở văn hóa) được xác định theo số tầng trên mặt đất không kể tầng kỹ thuật trên cùng (giá trị trong ngoặc đơn cột 4) khi nhà có báo cháy tự động hoặc chữa cháy tự động và chiều cao PCCC không quá 28 m. Ví dụ: nhà trẻ xây đến 3 tầng, chiều cao PCCC > 9 m. (Phụ lục H, Bảng H.5, H.6, H.7)
 - Nhà bệnh viện (nhóm F1.1) bố trí trong nhà độc lập hoặc khoang cháy riêng có chiều cao PCCC không quá 28 m (hoặc 9 tầng). (Phụ lục H (tài liệu sửa đổi 1:2023))
+- Cách xác định theo số tầng chỉ dùng khi nhà được trang bị hệ thống báo cháy tự động hoặc hệ thống chữa cháy tự động, và chiều cao PCCC của nhà không quá 28 m. (H.2.12.10)
+- Phạm vi áp dụng quy chuẩn: chung cư, nhà ở tập thể có chiều cao PCCC đến 150 m và không quá 3 tầng hầm. (1.1.2)
+- Chiều cao PCCC của nhà được phép bố trí trong Phụ lục H hiểu là phần nhà/khoang cháy có công năng tương ứng được bố trí đến chiều cao đó. Công năng nhà trẻ bố trí đến chiều cao an toàn PCCC 9 m, các tầng cao hơn bố trí công năng khác (văn phòng, phòng ban giám hiệu...). (Phụ lục H (tài liệu hướng dẫn sửa đổi 1:2023))
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Không quy định chiều cao nhà một tầng có cấp nguy hiểm cháy S0 và S1 (nhà sản xuất, chăn nuôi) (Bảng H.9, H.10 chú thích 1))
 - Cho phép không áp dụng các quy định 4.33.1 đến 4.33.3 (đai ngăn cháy giữa các tầng) đối với nhà từ ba tầng trở xuống hoặc chiều cao PCCC dưới 15 m, ga ra để xe nổi dạng hở, hoặc nhà thỏa mãn đồng thời các điều kiện nêu tại Chú thích 6 Bảng 4 hoặc Chú thích 2 của Bảng (số bảng bị cắt). (4.33)
@@ -41,18 +45,20 @@
 - Nhà công cộng có chiều cao PCCC từ trên 50 m đến 150 m và nhà F1.3 từ trên 75 m đến 150 m: số tầng, diện tích khoang cháy theo Phụ lục A (Bảng H.2 chú thích 4; Bảng H.1 chú thích 1)
 - Với nhà trên 3 tầng hoặc có chiều cao PCCC lớn hơn 9 m: lối ra thoát nạn của các gian phòng và của mỗi tầng phải tuân thủ yêu cầu của quy chuẩn (không áp dụng ngoại lệ một lối). (Giải pháp thoát nạn – Số lối ra thoát nạn)
 - Bệnh viện (F1.1) có công năng chính vượt chiều cao PCCC 28 m (hoặc quá 9 tầng, tối đa 50 m) phải đồng thời: bậc chịu lửa I; toàn nhà có báo cháy tự động và chữa cháy tự động; chiều cao PCCC bảo đảm cứu nạn và tiếp cận chữa cháy qua lối vào từ trên cao; chiều rộng bản thang thoát nạn tối thiểu 1,35 m; vật liệu hoàn thiện trên đường thoát nạn không nguy hiểm hơn CV1 (các điều kiện sau đó bị cắt). (Phụ lục H (tài liệu sửa đổi 1:2023))
+- Khoảng cách từ mép đường cho xe chữa cháy đến tường nhà không lớn hơn 5 m với nhà có chiều cao PCCC nhỏ hơn 12 m; không lớn hơn 8 m với 12 m đến 28 m; không lớn hơn 10 m với trên 28 m. (6.2)
 **Cách kiểm trên hồ sơ:**
 - Lấy chiều cao PCCC từ kết quả mục 1 (theo QCVN 06) rồi so ngưỡng 100 m khi xét 1.5.12. (suy từ 1.5.12)
 - Đo trên mặt đứng, từ mặt đường xe chữa cháy tiếp cận đến mép dưới cửa sổ tầng trên cùng (hoặc điểm quy định). Suy từ 3.5 và Hình A.1–A.8. (3.5)
 - Xem tổng mặt bằng và bản vẽ từng hạng mục: số tầng, chiều cao PCCC ghi trên bản vẽ; so với các ngưỡng 9 m, 15 m.
 - Trên mặt đứng/mặt cắt, xác định mặt đường xe chữa cháy tiếp cận từng mặt nhà, đo đến mép trên lan can hoặc kết cấu bao che; so với các ngưỡng 9 m, 12 m, 15 m, 28 m, 50 m. Suy từ chú thích về chiều cao PCCC và QCVN 06.
+- Xác định chiều cao PCCC của nhà trong hồ sơ rồi chọn mốc 12 m, 28 m để so khoảng cách mép đường đến tường nhà. Suy từ yêu cầu khoảng cách trên.
 **Dễ nhầm với:**
 - Nhà sản xuất, kho: chiều cao tính sàn tầng 1 đến trần tầng trên cùng kể cả tầng kỹ thuật; nhà công cộng: số tầng không kể tầng kỹ thuật trên cùng (Bảng H.2, H.9)
 - Ba ngưỡng khác nhau: 25 m (điều khiển máy bơm), 28 m (đường ống khô; công trình đang thi công), 50 m (đường ống khô với nhóm F1.3). (2.4.2, 2.4.3, 2.4.4)
 - Khác 'chiều cao nhà' (3.4): chiều cao nhà tính từ mặt đất đặt nhà đến điểm cao nhất, kể cả tầng tum hoặc mái dốc. Chiều cao PCCC tính từ mặt đường xe chữa cháy đến mép dưới cửa sổ tầng trên cùng. (3.4; 3.5)
 - Chiều cao PCCC khác chiều cao công trình: cùng một công trình văn bản ghi hai trị số riêng (vd. 5m và 3,5m). (Quy mô công trình)
 - Nhà có nhiều mặt đường tiếp cận cao độ khác nhau có thể có nhiều chiều cao PCCC; không dùng một giá trị duy nhất cho mọi giải pháp. (Chú thích 4)
-**Liên quan:** Bậc chịu lửa, Cấp nguy hiểm cháy kết cấu, Khoang cháy, Số tầng nhà, Tầng hầm, Hệ thống đường ống khô có họng chờ cấp nước DN65, Hệ thống họng nước chữa cháy trong nhà, Chiều cao nhà, Tầng tum, Ngăn cháy theo phương đứng, Số lối ra thoát nạn, Giấy chứng nhận thẩm duyệt thiết kế về PCCC, Bố trí công năng, Giao thông cho xe chữa cháy, Đai ngăn cháy giữa các tầng
+**Liên quan:** Bậc chịu lửa, Cấp nguy hiểm cháy kết cấu, Khoang cháy, Số tầng nhà, Tầng hầm, Hệ thống đường ống khô có họng chờ cấp nước DN65, Hệ thống họng nước chữa cháy trong nhà, Chiều cao nhà, Tầng tum, Ngăn cháy theo phương đứng, Số lối ra thoát nạn, Giấy chứng nhận thẩm duyệt thiết kế về PCCC, Bố trí công năng, Giao thông cho xe chữa cháy, Đai ngăn cháy giữa các tầng, Bậc chịu lửa của nhà, công trình, khoang cháy
 
 ### Chiều cao phòng cháy chữa cháy (chiều cao PCCC) (còn gọi: chiều cao PCCC của nhà)
 **Định nghĩa:**
@@ -96,6 +102,44 @@
 **Dễ nhầm với:**
 - Bảng 4 chỉ có bậc I và II (cấp S0) cho gara ngầm; không có bậc III trở xuống. (Bảng 4)
 **Liên quan:** Khoang đệm ngăn cháy, Khoang cháy, Tầng dưới mặt đất
+
+### Hệ thống báo cháy tự động
+**Định nghĩa:**
+- Hệ thống tự động phát hiện và thông báo địa điểm cháy; gồm trung tâm báo cháy, đầu báo cháy, hộp nút ấn báo cháy, chuông đèn báo cháy, các bộ phận liên kết, nguồn điện; tùy yêu cầu có module, thiết bị truyền tín hiệu, giám sát. Gồm hệ thống báo cháy thường và hệ thống báo cháy địa chỉ. (1.4.8)
+- Có module, thiết bị truyền tín hiệu, giám sát. Gồm hệ thống báo cháy thường và hệ thống báo cháy địa chỉ (đoạn đầu định nghĩa bị cắt trong trích đoạn). (QCVN 10:2025/BCA, 1.4 (đoạn ngay trước 1.4.9))
+**Khi nào áp dụng / được phép:**
+- Nhà, công trình, hạng mục/khu vực, gian phòng có quy mô quy định tại Phụ lục A phải trang bị cho toàn bộ nhà, công trình, gian phòng (trừ các khu vực loại trừ nêu ở 1.5.11 và 1.5.12). Xác định theo thứ tự: toàn nhà (Bảng A.1), hạng mục/khu vực (Bảng A.2), gian phòng (Bảng A.3), thiết bị (Bảng A.4). (1.5.9; 1.5.11)
+- Trang bị theo Bảng A.1 cho toàn nhà, sau đó Bảng A.2 cho hạng mục/khu vực, Bảng A.3 cho gian phòng, Bảng A.4 cho thiết bị trong phạm vi công trình. (QCVN 10:2025/BCA, 1.5.9, Phụ lục A)
+- Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ (phần kinh doanh dưới 30 % tổng diện tích sàn): cao từ 7 tầng trở lên. (Bảng A.1 mục 1)
+- Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy (phần sản xuất, kinh doanh dưới 30 % tổng diện tích sàn): cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên. (Bảng A.1 mục 2)
+- Chung cư, nhà ở tập thể, ký túc xá thuộc cơ sở giáo dục: cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 700 m² trở lên. (Bảng A.1 mục 3)
+- Nhà trẻ, trường mẫu giáo, mầm non: từ 100 cháu trở lên hoặc tổng diện tích sàn từ 300 m² trở lên. (Bảng A.1 mục 4)
+- Khách sạn, nhà khách, nhà nghỉ, cơ sở nghỉ dưỡng, dịch vụ lưu trú: cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 700 m² trở lên. (Bảng A.1 mục 18)
+- Nhà trụ sở, văn phòng, cơ sở nghiên cứu chuyên ngành: cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên. (Bảng A.1 mục 20)
+- Nhà hỗn hợp, chung cư có mục đích sử dụng hỗn hợp: cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên. (Bảng A.1 mục 21)
+- Nhà để xe, trưng bày ô tô, xe máy dạng kín đặt tại tầng hầm, tầng bán hầm hoặc trên mặt đất từ 02 tầng trở lên: không phụ thuộc diện tích. (Bảng A.1 mục 25.1)
+- Nhà trẻ, trường mẫu giáo, trường mầm non và cơ sở giáo dục mầm non khác: có từ 100 cháu trở lên hoặc tổng diện tích sàn từ 300 m² trở lên. (Bảng A.1, STT 4)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Không bắt buộc ở: khu vực có quy trình ướt, hồ bơi, phòng tắm, phòng rửa, vệ sinh; gian phòng hạng E; gian phòng hạng C4 (trừ gian phòng trong nhà F1.1, F1.2, F2.1, F4.1, F4.2); hành lang bên; cầu thang bộ, buồng thang bộ; khoang đệm ngăn cháy; khu vực không có nguy hiểm về cháy. (1.5.11)
+- Gian phòng cao không quá 10 m trong nhà nhóm F5 (không tính gian phòng F5 nằm trong nhà thuộc nhóm công năng khác) đã có hệ thống chữa cháy tự động liên động với trung tâm báo cháy thì được không trang bị đầu báo cháy tự động; các thiết bị khác của hệ thống vẫn phải có và phải điều khiển được thiết bị ngoại vi. (1.5.6)
+- Nhà để xe ô tô một hoặc hai tầng dạng ngăn (ngăn cách tối thiểu bằng vách ngăn cháy loại 1, có lối ra ngoài trời trực tiếp từ từng ngăn): cho phép không trang bị hệ thống báo cháy tự động và chữa cháy tự động, với điều kiện mỗi ngăn không quá 2 xe. (Bảng A.1 chú thích (4))
+**Yêu cầu kỹ thuật, trị số:**
+- Nhà bậc chịu lửa I, II, III không phân chia, hoặc phân chia bằng tường/sàn ngăn cháy có giới hạn chịu lửa thấp hơn REI 45, vách thấp hơn EI 45; nhà bậc IV, V phân chia bằng tường/sàn thấp hơn REI 15, vách thấp hơn EI 15: trang bị theo gian phòng ở Bảng A.3. (1.5.10)
+- Bảo dưỡng ít nhất một năm một lần. (1.5.13)
+- Công tắc dòng chảy, công tắc áp suất hoặc thiết bị tương tự của hệ thống chữa cháy tự động dùng làm tín hiệu báo cháy và được trung tâm báo cháy giám sát: mỗi thiết bị coi là một vùng phát hiện cháy riêng. (1.5.6 (chú thích))
+- Nhà ở riêng lẻ có kinh doanh: cho phép chỉ trang bị hệ thống báo cháy hoặc thiết bị báo cháy độc lập tại khu vực sản xuất, kinh doanh, nhưng mỗi tầng phải có thiết bị cảnh báo âm thanh liên động với hệ thống báo cháy hoặc thiết bị báo cháy độc lập. (Bảng A.1 chú thích (2))
+- Nhà ở riêng lẻ có phần sản xuất, kinh doanh từ 30 % đến 70 % tổng diện tích sàn: trang bị như nhà hỗn hợp; trên 70 %: trang bị theo công năng sản xuất, kinh doanh. (Bảng A.1 chú thích (2))
+- Trung tâm báo cháy phải tự động kiểm tra tín hiệu từ đầu báo cháy, kênh báo cháy và thiết bị báo cháy khác truyền về để loại trừ tín hiệu báo cháy giả. (TCVN 7568-14:2025, 5.12.1)
+- Sàn nâng, trần giả phải có vị trí tiếp cận để bảo trì, bảo dưỡng các đầu báo cháy. (Tài liệu tập huấn hệ thống BCTD)
+**Cách kiểm trên hồ sơ:**
+- Đối chiếu quy mô, công năng nhà với Bảng A.1–A.4 (Phụ lục A); kiểm các khu vực loại trừ; suy từ 1.5.9, 1.5.11. (suy từ 1.5.9)
+- Đối chiếu loại nhà, số tầng, tổng diện tích sàn, vị trí (tầng hầm hay trên mặt đất) với từng dòng Bảng A.1 rồi xét tiếp A.2–A.4; kiểm các chú thích (1)–(4). (suy từ 1.5.9 và Phụ lục A)
+- Đối chiếu số tầng, tổng diện tích sàn, số cháu với Bảng A.1; chú thích (1), (2), (3) ở cuối bảng. (suy từ Phụ lục A)
+**Dễ nhầm với:**
+- Hệ thống báo cháy thường (báo đến một khu vực, khu vực có thể có nhiều đầu báo) khác hệ thống báo cháy địa chỉ (báo đến từng thiết bị địa chỉ); khác thiết bị báo cháy độc lập (chỉ cảnh báo âm thanh, phải liên kết với nhau trong cùng nhà). (1.4.9; 1.4.10; 1.4.11)
+- Khác thiết bị báo cháy độc lập. Bảng A.1 có nhiều dòng cho phép thay hệ thống báo cháy bằng thiết bị báo cháy độc lập khi nhà nhỏ hơn ngưỡng nêu trong ngoặc. (Bảng A.1)
+- Khác thiết bị báo cháy độc lập (chỉ cảnh báo bằng âm thanh) và khác hệ thống chữa cháy tự động. (1.4.8, 1.4.11)
+**Liên quan:** Hệ thống báo cháy thường, Hệ thống báo cháy địa chỉ, Thiết bị báo cháy độc lập, Hệ thống chữa cháy tự động, TCVN 7568-14, Trung tâm báo cháy, Hộp nút ấn báo cháy
 
 ### Hệ thống đường ống khô có họng chờ cấp nước DN65 (còn gọi: hệ thống đường ống họng khô)
 **Khi nào áp dụng / được phép:**
@@ -154,13 +198,25 @@
 - Xem mặt bằng tầng hầm, buồng thang, sảnh thang máy, phòng hạng A/B: có khoang đệm áp suất dương hay không, có dùng chung không; đối chiếu hệ thống tăng áp Phụ lục D (suy từ 4.19, 4.25, 4.28)
 **Liên quan:** Buồng thang bộ không nhiễm khói, Phụ lục D, Hạng nguy hiểm cháy nổ
 
+### Nguồn điện chữa cháy (còn gọi: Cấp điện cho thiết bị điện của hệ thống bảo vệ chống cháy)
+**Khi nào áp dụng / được phép:**
+- Thiết bị điện của hệ thống bảo vệ chống cháy của nhà phải được cấp điện ưu tiên từ hai nguồn độc lập (một nguồn điện lưới và một nguồn máy phát điện dự phòng). (3.1.10)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Thiết bị có nguồn dự phòng riêng (ví dụ bơm diezen, tủ chống cháy có ắc quy dự phòng) chỉ cần một nguồn điện lưới, nhưng nguồn dự phòng riêng phải bảo đảm hoạt động bình thường khi có cháy. (3.1.10 (Chú thích))
+**Cách kiểm trên hồ sơ:**
+- Xem sơ đồ nguyên lý cấp điện: có 2 nguồn độc lập (lưới + máy phát) hay thiết bị có nguồn dự phòng riêng (suy từ 3.1.10). (suy từ 3.1.10)
+**Liên quan:** Hệ thống bảo vệ chống cháy
+
 ### Nội dung thẩm định của cơ quan chuyên môn về xây dựng
+**Định nghĩa:**
+- Gồm (phần nguồn có): (c) lối thoát nạn, đường thoát nạn, thang bộ thoát nạn, thang máy chữa cháy, lối ra khẩn cấp, lối ra mái, gian lánh nạn; (d) bậc chịu lửa, phân chia khoang cháy, bố trí mặt bằng, công năng, hạng nguy hiểm cháy nổ, các bộ phận, cấu kiện, hệ thống kỹ thuật; (đ) giải pháp chống khói: thoát khói cho nhà, gian phòng; cấp không khí bảo vệ chống khói cho giếng thang máy, buồng thang bộ, khoang đệm. (mục (c)–(đ); các điểm a, b không có trong đoạn trích)
 **Khi nào áp dụng / được phép:**
 - (a) khoảng cách PCCC giữa các công trình, tới công trình tiếp giáp, ranh giới đất; (b) đường, bãi đỗ, vị trí, lối vào tiếp cận chữa cháy, cứu nạn; (c) lối thoát nạn, đường thoát nạn, thang bộ thoát nạn, thang máy chữa cháy, lối ra khẩn cấp, lối ra mái, gian lánh nạn; (d) bậc chịu lửa, phân chia khoang cháy, bố trí mặt bằng, công năng, hạng nguy hiểm cháy nổ, các bộ phận, cấu kiện, hệ thống kỹ thuật; (đ) giải pháp chống khói: thoát khói cho nhà, gian phòng; cấp không khí bảo vệ chống khói cho giếng thang máy, buồng thang bộ, khoang đệm. (Điều 6 khoản 2 NĐ 105/2025)
 - Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo. (Điều 6 khoản 2 điểm e)
 **Dễ nhầm với:**
 - Các nội dung hệ thống/trang bị PCCC thuộc cơ quan Công an (Điều 9 khoản 2), không thuộc nhóm này. (Điều 9 khoản 2)
-**Liên quan:** nội dung thẩm định của cơ quan Công an, thẩm định thiết kế về PCCC (ba nơi thẩm định)
+- Không lẫn với nội dung thẩm định của cơ quan Công an (hệ thống, thiết bị PCCC, điện phục vụ PCCC).
+**Liên quan:** nội dung thẩm định của cơ quan Công an, thẩm định thiết kế về PCCC (ba nơi thẩm định), Nội dung thẩm định của cơ quan Công an, Thẩm định điều chỉnh
 
 ### Sảnh thang máy
 **Định nghĩa:**
@@ -225,6 +281,22 @@
 - Tầng thấp hơn cao độ quy hoạch nhưng thoát nạn không đi từ dưới lên trên thì không phải tầng hầm. (Slide 'Khối tích, diện tích')
 - Tầng nằm dưới cao độ mặt đất theo quy hoạch chưa chắc là tầng hầm nếu thoát nạn không đi từ dưới lên. (Sửa đổi 1:2023 QCVN 06:2022)
 **Liên quan:** Hệ thống đường ống khô có họng chờ cấp nước DN65, Nhà sử dụng với mục đích kinh doanh dịch vụ karaoke, vũ trường, Số tầng nhà, Khu vực có nguy cơ phát sinh cháy cao, Lối ra thoát nạn, Chiều cao phòng cháy chữa cháy (chiều cao PCCC), Thang máy chữa cháy, Bố trí công năng, Chiều cao nhà, Chiều cao PCCC
+
+### Tầng lửng không tính vào số tầng
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Nhà ở riêng lẻ kết hợp các mục đích dân dụng khác: tầng lửng có diện tích sàn không vượt quá 65 % diện tích sàn xây dựng của tầng có công năng sử dụng chính ngay bên dưới, và chỉ cho phép một tầng lửng không tính vào số tầng cao. (Sửa đổi 1:2023 QCVN 06 (theo TT 06/2021/TT-BXD); QCVN 10:2025/BCA chú thích (2))
+- Nhà nhóm F1 đến F4: duy nhất 01 tầng lửng không tính vào số tầng cao khi chỉ bố trí làm khu kỹ thuật (sàn kỹ thuật đáy bể bơi, sàn đặt máy phát điện, thiết bị công trình khác), diện tích sàn xây dựng không quá 10 % diện tích sàn xây dựng của tầng ngay bên dưới và không quá 300 m². (Sửa đổi 1:2023 QCVN 06)
+- Các công trình nhà, kết cấu dạng nhà, công trình nhiều tầng có sàn (không gồm nhà ở riêng lẻ kết hợp sản xuất kinh doanh, nhà kho, nhà sản xuất): tầng lửng không tính vào số tầng khi chỉ bố trí khu kỹ thuật và diện tích sàn không vượt quá 10 % diện tích sàn xây dựng của tầng ngay bên dưới và không vượt quá 300 m². (QCVN 10:2025/BCA, chú thích (6))
+**Khi nào áp dụng / được phép:**
+- Mỗi công trình chỉ được xác định có một tầng lửng không tính vào số tầng. (QCVN 10:2025/BCA, chú thích (6))
+**Yêu cầu kỹ thuật, trị số:**
+- Ngưỡng 65 % diện tích sàn xây dựng tầng bên dưới (nhà ở riêng lẻ kết hợp).
+- Ngưỡng 10 % diện tích sàn tầng bên dưới và không quá 300 m² (tầng lửng khu kỹ thuật).
+**Cách kiểm trên hồ sơ:**
+- Xem mặt bằng tầng lửng: công năng (chỉ khu kỹ thuật?), diện tích sàn so với tầng bên dưới, số tầng lửng trong công trình. (suy từ QCVN 10:2025/BCA chú thích (6))
+**Dễ nhầm với:**
+- Khác sàn lửng của nhà sản xuất/nhà kho (ngưỡng 40 %).
+**Liên quan:** Sàn lửng, Số tầng của nhà, Tầng tum, Nhóm nhà F
 
 ### Thang máy chữa cháy (còn gọi: thang máy có chế độ chuyên chở lực lượng chữa cháy, TMCC)
 **Định nghĩa:**

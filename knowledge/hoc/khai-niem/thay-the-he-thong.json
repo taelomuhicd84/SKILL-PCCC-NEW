@@ -1,0 +1,57 @@
+{
+ "slug": "thay-the-he-thong",
+ "ten": "Thay thế hệ thống",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m11-bao-chay",
+  "m12-chua-chay",
+  "chung"
+ ],
+ "lien_quan": [
+  "Trang bị bổ sung hệ thống",
+  "Đổi nguyên lý chữa cháy, chất chữa cháy"
+ ],
+ "ngay": "2026-10-26T07:08:20.897Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Báo cháy địa chỉ sang báo cháy thường hoặc ngược lại là thay thế hệ thống",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Chữa cháy bằng nước sang bọt, bột, khí hoặc ngược lại là thay thế hệ thống",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Thay thế hệ thống thuộc danh sách đóng thay đổi thiết kế phải thẩm định lại; đối chiếu với khoản 3 Điều 9 NĐ 105/2025, điểm b (thay thế hệ thống chữa cháy)",
+   "dieu": "khoản 3 Điều 9 NĐ 105/2025",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Chỉ thay một số thiết bị như đầu phun, đầu báo cháy… là bảo dưỡng, sửa chữa thông thường, không coi là thay thế hệ thống",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "So loại hệ thống trong hồ sơ điều chỉnh với hồ sơ đã thẩm duyệt; khác loại thì thuộc diện thẩm định lại, chỉ khác thiết bị thì không",
+   "dieu": "suy từ Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Thay một số thiết bị (đầu phun, đầu báo cháy) khác với thay thế cả hệ thống",
+   "dieu": "Công văn C07, mục 5.4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  }
+ ]
+}

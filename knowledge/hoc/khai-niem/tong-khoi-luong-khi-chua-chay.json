@@ -1,0 +1,47 @@
+{
+ "slug": "tong-khoi-luong-khi-chua-chay",
+ "ten": "Tổng khối lượng khí chữa cháy",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Thể tích riêng",
+  "Nồng độ thiết kế",
+  "Thể tích khu vực có sự cố cháy",
+  "Khí hóa lỏng",
+  "Khí không hóa lỏng"
+ ],
+ "ngay": "2026-10-26T07:10:00.332Z",
+ "dinh_nghia": [
+  {
+   "y": "Q là tổng khối lượng khí chữa cháy, tính bằng kilôgam",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Khí hóa lỏng: Q = (V/v) x C/(100 − C). Khí không hóa lỏng: Q = (V/v) x ln(100/(100 − C)). Trong đó C là nồng độ thiết kế (% theo thể tích), V là thể tích khu vực có sự cố cháy (m3), v là thể tích riêng (m3/kg)",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Kiểm thuyết minh tính toán: V, C, v (k1, k2, T) đã đủ chưa và đã dùng đúng công thức theo loại khí hóa lỏng hay không hóa lỏng (suy từ công thức nêu trong nguồn)",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Công thức khí hóa lỏng khác công thức khí không hóa lỏng (dạng phân số và dạng logarit)",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
+  }
+ ]
+}

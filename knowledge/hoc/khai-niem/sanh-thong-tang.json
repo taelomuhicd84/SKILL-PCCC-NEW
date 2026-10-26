@@ -20,7 +20,7 @@
   "Sảnh thang máy",
   "Thoát khói tự nhiên"
  ],
- "ngay": "2026-10-26T04:53:10.947Z",
+ "ngay": "2026-10-26T07:04:38.007Z",
  "dinh_nghia": [
   {
    "y": "Không gian trống nối thông từ hai tầng trở lên trong nhà dân dụng và được bao che ở trên đỉnh không gian này (thường là không gian rộng lớn, dùng vì mục đích kiến trúc hoặc tạo không gian thương mại, dịch vụ, kinh doanh, trưng bày và tương tự); có thể thông với các phần nhà tại mỗi tầng được nối thông.",
@@ -65,6 +65,16 @@
    "y": "Cho phép hút xả khói tự nhiên từ sảnh thông tầng nếu có luận cứ tính toán phù hợp.",
    "dieu": "4.35 e)",
    "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Diện tích tầng trong phạm vi khoang cháy có sảnh thông tầng được xác định theo Phụ lục H.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Để chữa cháy trong sảnh thông tầng, cho phép lắp đầu phun sprinkler bên dưới kết cấu nhô ra của sàn giữa các tầng, ban công (kể cả dưới thang cuốn) mà không phải lắp vào mái sảnh.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "khong_ap_dung": [
@@ -124,6 +134,21 @@
    "y": "Vách ngăn bằng vật liệu dày không nhỏ hơn 6 mm, giới hạn chịu lửa không quy định, được bảo vệ bằng sprinkler đặt từ phía các gian phòng (hành lang) liền kề, cách nhau không quá 2 m và cách vách ngăn không quá 0,5 m (nguồn bị cắt đầu câu, chưa rõ loại vật liệu).",
    "dieu": "4.35 b)",
    "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Rèm, màn ngăn khói cố định: chiều cao làm việc khi hạ xuống không nhỏ hơn chiều dày lớp khói khi cháy (xác định bằng tính toán); biên dưới lớp khói ở chiều cao không nhỏ hơn 2,5 m tính từ mặt sàn.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Tấm chắn lấy sáng ở mái phải bằng vật liệu không cháy, kết cấu mái làm từ kính có cốt gia cường và an toàn; được dùng vật liệu tấm lấy sáng có nhóm nguy hiểm cháy không nguy hiểm hơn Ch1 và không tạo giọt nóng chảy.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
+  },
+  {
+   "y": "Đầu phun sprinkler đặt cách nhau từ 1,5 m đến 2,0 m và cách mép/cạnh lỗ mở thông sàn không quá 0,5 m.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "cach_kiem": [
@@ -136,6 +161,11 @@
    "y": "Xem mặt bằng/mặt cắt: lỗ mở có rèm/màn ngăn khói E 45 hay không, khoảng cách sprinkler 1,5–2,0 m và ≤ 0,5 m cách mép lỗ mở, cách tính diện tích khoang cháy theo Phụ lục H. Suy từ 4.35.",
    "dieu": "",
    "nguon": "kb:tk-màn-ngăn-khói"
+  },
+  {
+   "y": "Xem mặt cắt sảnh: màn ngăn khói, biên lớp khói so với 2,5 m; xem bản vẽ sprinkler: khoảng cách đầu phun 1,5 đến 2,0 m, cách mép lỗ mở không quá 0,5 m. Suy từ nguồn.",
+   "dieu": "",
+   "nguon": "kb:tk-phụ-lục-h"
   }
  ],
  "hay_nham": [

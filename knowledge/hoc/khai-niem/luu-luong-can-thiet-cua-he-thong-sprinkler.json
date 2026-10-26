@@ -1,0 +1,52 @@
+{
+ "slug": "luu-luong-can-thiet-cua-he-thong-sprinkler",
+ "ten": "Lưu lượng cần thiết của hệ thống sprinkler",
+ "dong_nghia": [
+  "Q_CT"
+ ],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Số lượng đầu phun tính toán tối thiểu",
+  "Cường độ phun"
+ ],
+ "ngay": "2026-10-26T07:12:00.035Z",
+ "dinh_nghia": [
+  {
+   "y": "Q_CT: lưu lượng cần thiết của hệ thống, l/s; là tổng lưu lượng q_i tại các đầu phun tính toán",
+   "dieu": "mục e/",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Q_CT = Σ q_i (i = 1..n) ≥ Q_TT; q_i là lưu lượng tại đầu phun thứ i, l/s",
+   "dieu": "mục e/",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Q_CT phải không nhỏ hơn Q_TT (lưu lượng tối thiểu của hệ thống theo bảng 1, 2, 3 TCVN 7336:2021)",
+   "dieu": "bảng 1, 2, 3 TCVN 7336:2021",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Suy từ mục e/: cộng lưu lượng các đầu phun tính toán trong bảng tính thủy lực, so với Q_TT tra bảng 1, 2, 3 theo nhóm nguy cơ",
+   "dieu": "suy từ mục e/",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Q_TT là lưu lượng tối thiểu tra bảng; Q_CT là lưu lượng tính từ các đầu phun, phải ≥ Q_TT",
+   "dieu": "mục e/",
+   "nguon": "kb:tk-tính-toán-thủy-lực-mạng-đầu-phun"
+  }
+ ]
+}

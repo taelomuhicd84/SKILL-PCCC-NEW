@@ -1,5 +1,5 @@
 # Khái niệm thẩm định – Mục 14 – Chiếu sáng sự cố, chỉ dẫn thoát nạn, loa (agent tự học rút từ văn bản, chỉ gồm mục từ nguồn đã duyệt)
-28 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
+29 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
 
 ### Biển báo an toàn (còn gọi: safety sign)
 **Định nghĩa:**
@@ -202,7 +202,7 @@
 - Khi thiết bị lắp đặt có thể bị phơi ra trong điều kiện làm tổn thất hoặc mất toàn vẹn đường ống khí nén, phải đặc biệt chú ý bảo đảm không xảy ra tổn thất hoặc mất toàn vẹn đường ống.
 **Liên quan:** Cơ cấu làm trễ thời gian, Đèn chiếu sáng sự cố, Hệ thống chữa cháy bằng Sol-khí, Mối nguy hiểm
 
-### Hệ thống loa thông báo và hướng dẫn thoát nạn (còn gọi: Thiết bị loa cảnh báo và chỉ dẫn thoát nạn bằng giọng nói, Thiết bị loa cảnh báo cháy và điều khiển thoát nạn)
+### Hệ thống loa thông báo và hướng dẫn thoát nạn (còn gọi: Thiết bị loa cảnh báo và chỉ dẫn thoát nạn bằng giọng nói, Thiết bị loa cảnh báo cháy và điều khiển thoát nạn, loa thông báo)
 **Định nghĩa:**
 - Hệ thống phải bảo đảm mọi người trong nhà và công trình có thể nghe rõ thông báo, hướng dẫn khi có sự cố. (H.4)
 **Cách xác định (nhận biết, đo trên bản vẽ):**
@@ -215,6 +215,7 @@
 - Nhà sản xuất: tổng diện tích sàn từ 18 000 m² trở lên và có từ 300 người trên 1 tầng trở lên. (Bảng G.1, STT 4)
 - Hầm giao thông đường bộ (hầm đường ô tô): chiều dài từ 500 m trở lên. (Bảng G.1, STT 5)
 - Nhà ga hành khách thuộc cảng hàng không; nhà ga hành khách, đề-pô đường sắt; nhà ga hành khách, đề-pô đường sắt đô thị: không phụ thuộc quy mô. (Bảng G.1, STT 6)
+- Trang bị loa theo QCVN 10:2025/BCA Bảng G.1 và mục H.4 (nội dung chi tiết xem knowledge/qcvn10-2025-den-loa.md). (Phụ lục G (Bảng G.1), H.4)
 **Yêu cầu kỹ thuật, trị số:**
 - Thiết kế, lắp đặt phải bảo đảm các yêu cầu quy định tại H.4. (2.2.5)
 - Số lượng thiết bị loa, cách bố trí và công suất phải đảm bảo mức âm thanh ở tất cả khu vực để ở phù hợp với các quy định của Quy chuẩn này. (H.4)
@@ -224,7 +225,9 @@
 **Cách kiểm trên hồ sơ:**
 - Đối chiếu công năng, số tầng, số tầng hầm, diện tích sàn, số người trên 1 tầng, chiều dài hầm của công trình với Bảng G.1 để biết có phải trang bị không (suy từ Phụ lục G). (suy từ Phụ lục G)
 - Xem bản vẽ bố trí loa: cao độ lắp loa trên tường ≥ 2,3 m từ sàn và ≥ 0,15 m từ trần; phòng ồn trên 95 dBA có thiết bị cảnh báo ánh sáng (suy từ H.4). (suy từ H.4)
-**Liên quan:** Mức âm thanh tổng thể của tín hiệu loa, Mức âm thanh tín hiệu loa trong phòng ngủ
+**Dễ nhầm với:**
+- Khác với chiếu sáng sự cố và chỉ dẫn thoát nạn (TCVN 13456:2022).
+**Liên quan:** Mức âm thanh tổng thể của tín hiệu loa, Mức âm thanh tín hiệu loa trong phòng ngủ, Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn
 
 ### Khu vực có người
 **Cách xác định (nhận biết, đo trên bản vẽ):**
@@ -307,20 +310,38 @@
 - Đây là nội dung nghiệm thu, khác nội dung thẩm duyệt thiết kế (giai đoạn trước, giấy chứng nhận thẩm duyệt số 577/TD-PCCC ngày 28/6/2024). (Căn cứ)
 **Liên quan:** Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy, Bố trí công năng, Giao thông cho xe chữa cháy
 
-### Nội dung thẩm định của cơ quan Công an
+### Nội dung thẩm định của cơ quan Công an (còn gọi: Nội dung thẩm định về PCCC của cơ quan Công an)
+**Định nghĩa:**
+- Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 **Khi nào áp dụng / được phép:**
 - Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 - Thẩm định điều chỉnh hoặc cải tạo thì chỉ trong phạm vi điều chỉnh, cải tạo. Đây cũng là cách chia của bảng A1–A26 và B1–B14. (Điều 9 khoản 2 điểm e)
-**Liên quan:** nội dung thẩm định của cơ quan chuyên môn về xây dựng, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Danh mục tài liệu, bản vẽ được thẩm duyệt, Nội dung được nghiệm thu về PCCC
+- Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo. (Điều 9 khoản 2 điểm e)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Dòng ngoài phạm vi điều chỉnh, cải tạo ghi KHÔNG ÁP DỤNG, lý do "ngoài phạm vi điều chỉnh, cải tạo". (mục 8 bước 5 (cách dùng khi thẩm))
+**Cách kiểm trên hồ sơ:**
+- Đây cũng là cách chia của bảng A1–A26 và B1–B14: phân dòng theo nhóm xây dựng hay Công an khi thẩm định. (suy từ Điều 9 khoản 2)
+**Dễ nhầm với:**
+- Khác nội dung thẩm định của cơ quan xây dựng: bên xây dựng xét lối thoát nạn, bậc chịu lửa, khoang cháy, công năng, chống khói; bên Công an xét hệ thống, thiết bị PCCC.
+**Liên quan:** nội dung thẩm định của cơ quan chuyên môn về xây dựng, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Danh mục tài liệu, bản vẽ được thẩm duyệt, Nội dung được nghiệm thu về PCCC, Nội dung thẩm định của cơ quan xây dựng, Thẩm định điều chỉnh
 
 ### Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn
+**Định nghĩa:**
+- Đèn chiếu sáng sự cố, biển báo an toàn (lối ra, chỉ hướng), sơ đồ chỉ dẫn thoát nạn, theo TCVN 13456:2022. (thuat-ngu-chuan.md)
+- Gồm đèn chiếu sáng sự cố, biển báo an toàn (lối ra, chỉ hướng) và sơ đồ chỉ dẫn thoát nạn
 **Khi nào áp dụng / được phép:**
 - Nhà, công trình phải trang bị phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn theo quy định tại TCVN 13456. (2.2.1)
 **Yêu cầu kỹ thuật, trị số:**
 - Thiết kế, lắp đặt phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn theo TCVN 13456. (2.2.2)
+- Đối chiếu bảng B13: độ rọi 1 lux trên đường thoát nạn (rộng đến 2 m), 0,5 lux trong gian phòng; có biển EXIT và sơ đồ chỉ dẫn. (bảng B13; QCVN 10:2025/BCA mục 2.2; TCVN 13456:2022)
+- Theo TCVN 13456:2022
 **Cách kiểm trên hồ sơ:**
 - Xem bản vẽ và thuyết minh chiếu sáng sự cố, chỉ dẫn thoát nạn có dẫn chiếu và đáp ứng TCVN 13456 (suy từ 2.2.1, 2.2.2). (suy từ 2.2.1, 2.2.2)
-**Liên quan:** Đèn chiếu sáng sự cố của công trình đang thi công, Hệ thống loa thông báo và hướng dẫn thoát nạn
+- Xem bản vẽ chiếu sáng sự cố, chỉ dẫn thoát nạn; so độ rọi với bảng B13. (suy từ bảng B13)
+**Dễ nhầm với:**
+- Khác với loa thông báo và hướng dẫn thoát nạn (hệ thống riêng, theo QCVN 10 Bảng G.1 và H.4).
+- Khác với 'loa thông báo và hướng dẫn thoát nạn'
+**Liên quan:** Đèn chiếu sáng sự cố của công trình đang thi công, Hệ thống loa thông báo và hướng dẫn thoát nạn, Loa thông báo và hướng dẫn thoát nạn
 
 ### Sơ đồ chỉ dẫn thoát nạn (còn gọi: evacuation plan)
 **Định nghĩa:**
@@ -336,6 +357,23 @@
 - Sơ đồ chỉ dẫn thoát nạn khác biển báo an toàn; điều kiện áp dụng là tầng > 1000 m² HOẶC ≥ 2 lối ra thoát nạn. (4.2, 5.2.9)
 **Liên quan:** Biển báo an toàn, Đường thoát nạn
 
+### Thiết bị báo cháy bằng ánh sáng (còn gọi: đèn báo cháy nhấp nháy)
+**Khi nào áp dụng / được phép:**
+- Lắp trên hành lang, lối ra thoát nạn; nơi người khiếm thính thường ở; nơi tiếng ồn xung quanh vượt 95 dBA; khu vực hạn chế âm thanh (ví dụ phòng mổ). (5.11.3.1.1)
+- Lắp trên hành lang, lối ra thoát nạn; nơi người khiếm thính thường ở; nơi có tiếng ồn xung quanh vượt quá 95 dBA; khu vực yêu cầu hạn chế âm thanh (ví dụ phòng mổ trong bệnh viện). (TCVN 7568-14:2025, 5.11.3.1.1)
+**Yêu cầu kỹ thuật, trị số:**
+- Lắp trên trần hoặc tường, đủ số lượng để nhìn thấy ở mọi vị trí; trên tường cao từ chân tường tối thiểu 2 m, khoảng cách giữa các thiết bị không quá 45 m. (5.11.3.1.2)
+- Loại chớp nháy, đồng bộ; sự cố ở khu vực này không ảnh hưởng khu vực khác. (5.11.3.1.2)
+- Chỉ thị bên ngoài nhà: gắn tường cao tối đa 2,4 m từ mặt đường đi lại; chữ "FIRE" cao không nhỏ hơn 0,025 m. (5.11.3.2.1, 5.11.3.2.2)
+- Lắp trên trần hoặc tường, số lượng đủ để nhìn thấy ở mọi vị trí trong khu vực quy định. (5.11.3.1.2)
+- Lắp trên tường: chiều cao từ chân tường đến đèn tối thiểu 2 m; khoảng cách giữa các thiết bị không quá 45 m. (5.11.3.1.2)
+- Phải là loại chớp nháy, tín hiệu đồng bộ khi chớp nháy; sự cố ở khu vực này không ảnh hưởng thiết bị ở khu vực khác. (5.11.3.1.2)
+- Thiết bị chỉ thị bên ngoài gian phòng: nhìn thấy rõ từ lối đi chính, gần cửa ra vào; lắp trên tường cao tối đa 2,4 m tính từ mặt đường đi lại; có từ “FIRE” cao chữ không nhỏ hơn 0,025 m; kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy. (5.11.3.2.1 đến 5.11.3.2.3)
+**Cách kiểm trên hồ sơ:**
+- Xem mặt bằng hành lang, khu vực ồn/ngủ của người khiếm thính: có đèn nháy, cao ≥ 2 m, cách nhau ≤ 45 m; suy từ 5.11.3. (5.11.3)
+- Xem bản vẽ vị trí đèn: độ cao lắp, khoảng cách giữa các đèn, có nằm ở khu vực nêu ở 5.11.3.1.1 không. (suy từ 5.11.3.1)
+**Liên quan:** Thiết bị báo cháy bằng âm thanh, Trung tâm báo cháy
+
 ### Thiết bị báo cháy bằng âm thanh (còn gọi: thiết bị báo động âm thanh)
 **Khi nào áp dụng / được phép:**
 - Tín hiệu báo cháy phân bố đồng thời trong khoang cháy/nhà và công trình, nghe rõ ở mọi địa điểm. (5.11.2.1)
@@ -343,8 +381,13 @@
 **Yêu cầu kỹ thuật, trị số:**
 - Mức âm (trung bình 60 s) tại mọi vị trí lớn hơn độ ồn xung quanh ít nhất 10 dBA, không nhỏ hơn 65 dBA và không lớn hơn 105 dBA. (5.11.2.1)
 - Khu vực ngủ: lớn hơn độ ồn xung quanh ít nhất 15 dBA (cửa đóng) và không nhỏ hơn 75 dBA. (5.11.2.1)
+- Tín hiệu báo cháy phân bố đồng thời trong khoang cháy / nhà và công trình, nghe thấy rõ ở mọi địa điểm. (TCVN 7568-14:2025, 5.11.2.1)
+- Mức âm thanh lớn hơn độ ồn xung quanh ít nhất 10 dBA, không nhỏ hơn 65 dBA, không lớn hơn 105 dBA. (5.11.2.1)
+- Khu vực ngủ: lớn hơn độ ồn xung quanh ít nhất 15 dBA (khi cửa ra vào đóng) và không nhỏ hơn 75 dBA. (5.11.2.1)
+- Khu vực như bệnh viện: bố trí mức âm thanh và nội dung thông báo để báo cho nhân viên và giảm tối thiểu khủng hoảng tinh thần của bệnh nhân. (5.11.2.2)
 **Cách kiểm trên hồ sơ:**
 - Xem thuyết minh/bản vẽ loa, còi: mức dBA yêu cầu 65/75 dBA, phân bố mọi khu vực; suy từ 5.11.2.1. (5.11.2.1)
+- Xem thuyết minh hoặc bản vẽ có tính mức âm thanh so với độ ồn môi trường; riêng phòng ngủ so với 15 dBA và 75 dBA. (suy từ 5.11.2.1)
 **Dễ nhầm với:**
 - Khác thiết bị báo cháy bằng ánh sáng (nhấp nháy, lắp ở hành lang, nơi ồn > 95 dBA, người khiếm thính). (5.11.3.1.1)
-**Liên quan:** Thiết bị báo cháy bằng ánh sáng
+**Liên quan:** Thiết bị báo cháy bằng ánh sáng, Khoang cháy

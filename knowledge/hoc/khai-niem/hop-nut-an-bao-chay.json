@@ -12,7 +12,7 @@
   "Đầu báo cháy",
   "Hệ thống báo cháy"
  ],
- "ngay": "2026-10-26T04:53:50.362Z",
+ "ngay": "2026-10-26T07:10:51.055Z",
  "dinh_nghia": [],
  "cach_xac_dinh": [],
  "ap_dung": [
@@ -64,6 +64,11 @@
    "y": "Lắp ở chiều cao (1,4 ± 0,2) m tính từ mặt đường đi lại, có không gian trống dạng nửa hình cầu bán kính 0,6 m quanh mặt trước của hộp.",
    "dieu": "5.10.4",
    "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Quãng đường di chuyển tới hộp nút ấn không được vượt quá 45 m; vượt thì lắp thêm một hộp bổ sung.",
+   "dieu": "5.10.3 và chú thích",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "cach_kiem": [
@@ -76,6 +81,11 @@
    "y": "Xem bản vẽ mặt bằng báo cháy: khoảng cách giữa các hộp ≤ 45 m, vị trí gần lối ra tầng; xem chi tiết lắp đặt: cao độ (1,4 ± 0,2) m, không gian trống bán kính 0,6 m (suy từ 5.10.3, 5.10.4).",
    "dieu": "suy từ 5.10.3, 5.10.4",
    "nguon": "kb:tk-mối-nguy-hiểm"
+  },
+  {
+   "y": "Đo trên mặt bằng quãng đường đi tới hộp gần nhất so với 45 m; xem cao độ lắp.",
+   "dieu": "suy từ 5.10.3, 5.10.4",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "hay_nham": []

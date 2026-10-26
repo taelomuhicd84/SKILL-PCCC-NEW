@@ -1,0 +1,77 @@
+{
+ "slug": "cong-trinh-thuoc-dien-tham-dinh-thiet-ke-ve-pccc",
+ "ten": "Công trình thuộc diện thẩm định thiết kế về PCCC",
+ "dong_nghia": [
+  "danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so"
+ ],
+ "lien_quan": [
+  "Thẩm định thiết kế về PCCC"
+ ],
+ "ngay": "2026-10-26T07:09:38.601Z",
+ "dinh_nghia": [
+  {
+   "y": "Danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC theo Phụ lục III NĐ 105/2025.",
+   "dieu": "Phụ lục III NĐ 105/2025/NĐ-CP",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Nhà ở: nhà chung cư, nhà ở tập thể cao từ 7 tầng trở lên hoặc tổng diện tích sàn từ 3.000 m² trở lên.",
+   "dieu": "Phụ lục III, mục 1",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Giáo dục, đào tạo, nghiên cứu: nhà trẻ, trường mầm non, mẫu giáo từ 150 cháu trở lên hoặc tổng diện tích sàn từ 2.000 m² trở lên.",
+   "dieu": "Phụ lục III, mục 2",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Giáo dục, đào tạo, nghiên cứu: các trường tiểu học, THCS, THPT, đại học, cao đẳng, trung học chuyên nghiệp, dạy nghề, trung tâm đào tạo khác, cơ sở nghiên cứu cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 3.000 m² trở lên.",
+   "dieu": "Phụ lục III, mục 2",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Y tế (độc lập hoặc tổ hợp): bệnh viện, phòng khám, trạm y tế, nhà hộ sinh, cơ sở y tế khác cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 2.000 m² trở lên.",
+   "dieu": "Phụ lục III, mục 3",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Thể thao: sân vận động có khán đài từ 5.000 chỗ trở lên. Nhà thi đấu, nhà tập luyện có khán đài từ 5.000 chỗ trở lên hoặc tổng diện tích sàn từ 5.000 m² trở lên.",
+   "dieu": "Phụ lục III, mục 4",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Văn hóa: nhà hát, rạp chiếu phim, rạp xiếc từ 300 chỗ ngồi trở lên (văn bản bị cắt ở đây, các loại còn lại chưa có trong nguồn).",
+   "dieu": "Phụ lục III, mục 5",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Áp dụng khi thiết kế, cải tạo, thay đổi công năng sử dụng.",
+   "dieu": "Phụ lục III",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Lấy loại công trình, số tầng, tổng diện tích sàn, số chỗ trong hồ sơ rồi so với ngưỡng từng nhóm. Suy từ Phụ lục III.",
+   "dieu": "",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Các ngưỡng khác nhau theo nhóm công năng: nhà trẻ tính theo cháu, trường học và y tế 5 tầng, nhà ở 7 tầng. Tổng diện tích sàn cũng khác nhau (2.000, 3.000, 5.000 m²).",
+   "dieu": "Phụ lục III, mục 1–4",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ]
+}

@@ -9,14 +9,21 @@
  ],
  "lien_quan": [
   "Hệ thống báo cháy địa chỉ",
-  "Vùng phát hiện cháy"
+  "Vùng phát hiện cháy",
+  "Hệ thống báo cháy",
+  "Hệ thống báo cháy tự động"
  ],
- "ngay": "2026-10-26T04:33:16.174Z",
+ "ngay": "2026-10-26T07:11:18.380Z",
  "dinh_nghia": [
   {
    "y": "Hệ thống báo cháy khi báo cháy sẽ báo đến một khu vực, khu vực đó có thể có một hoặc nhiều đầu báo cháy.",
    "dieu": "3.1",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khi báo cháy sẽ báo đến một khu vực, khu vực đó có thể có một hoặc nhiều đầu báo cháy.",
+   "dieu": "QCVN 10:2025/BCA, 1.4.9",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "cach_xac_dinh": [],
@@ -29,6 +36,16 @@
    "y": "Báo về khu vực (vùng), khác hệ thống báo cháy địa chỉ báo đến từng thiết bị.",
    "dieu": "3.1, 3.2",
    "nguon": "kb:tcvn7568-14-2025.md"
+  },
+  {
+   "y": "Khác hệ thống báo cháy địa chỉ: thường báo theo khu vực, địa chỉ báo đến từng thiết bị.",
+   "dieu": "1.4.9, 1.4.10",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Khác hệ thống báo cháy địa chỉ: thường báo đến khu vực, địa chỉ báo đến từng thiết bị.",
+   "dieu": "1.4.9, 1.4.10",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ]
 }

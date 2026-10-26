@@ -1,0 +1,45 @@
+{
+ "slug": "bai-lay-nuoc-cho-xe-chua-chay",
+ "ten": "Bãi lấy nước cho xe chữa cháy",
+ "dong_nghia": [
+  "bãi đỗ xe hút nước"
+ ],
+ "anh_huong": [
+  "m04-giao-thong",
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Hố thu nước chữa cháy"
+ ],
+ "ngay": "2026-10-26T07:13:09.706Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Hồ, ao để xe chữa cháy hút nước phải có lối tiếp cận và bãi lấy nước.",
+   "dieu": "5.1.5.4",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  },
+  {
+   "y": "Phải bảo đảm lối vào cho xe chữa cháy tiếp cận bể, hồ và các điểm lấy nước tương tự.",
+   "dieu": "5.1.5.8 (chú thích 2)",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [
+  {
+   "y": "Bề mặt bãi bảo đảm tải trọng dành cho xe chữa cháy; Sửa đổi 1:2023 bỏ quy định kích thước tối thiểu 12 m × 12 m.",
+   "dieu": "5.1.5.4",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
+ "cach_kiem": [
+  {
+   "y": "Xem mặt bằng: có lối vào và bãi lấy nước, ghi chú tải trọng bề mặt. Suy từ 5.1.5.4.",
+   "dieu": "5.1.5.4",
+   "nguon": "kb:tk-trụ-nước-chữa-cháy"
+  }
+ ],
+ "hay_nham": []
+}

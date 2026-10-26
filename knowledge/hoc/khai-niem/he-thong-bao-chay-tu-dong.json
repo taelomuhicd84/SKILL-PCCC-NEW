@@ -5,21 +5,30 @@
  "anh_huong": [
   "m11-bao-chay",
   "chung",
-  "so-bo-thiet-ke"
+  "so-bo-thiet-ke",
+  "m09-chong-khoi",
+  "m08-thang-may-cc"
  ],
  "lien_quan": [
   "Hệ thống báo cháy thường",
   "Hệ thống báo cháy địa chỉ",
   "Thiết bị báo cháy độc lập",
   "Hệ thống chữa cháy tự động",
-  "TCVN 7568-14"
+  "TCVN 7568-14",
+  "Trung tâm báo cháy",
+  "Hộp nút ấn báo cháy"
  ],
- "ngay": "2026-10-26T04:07:26.921Z",
+ "ngay": "2026-10-26T07:11:18.380Z",
  "dinh_nghia": [
   {
    "y": "Hệ thống tự động phát hiện và thông báo địa điểm cháy; gồm trung tâm báo cháy, đầu báo cháy, hộp nút ấn báo cháy, chuông đèn báo cháy, các bộ phận liên kết, nguồn điện; tùy yêu cầu có module, thiết bị truyền tín hiệu, giám sát. Gồm hệ thống báo cháy thường và hệ thống báo cháy địa chỉ.",
    "dieu": "1.4.8",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Có module, thiết bị truyền tín hiệu, giám sát. Gồm hệ thống báo cháy thường và hệ thống báo cháy địa chỉ (đoạn đầu định nghĩa bị cắt trong trích đoạn).",
+   "dieu": "QCVN 10:2025/BCA, 1.4 (đoạn ngay trước 1.4.9)",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "cach_xac_dinh": [],
@@ -28,6 +37,56 @@
    "y": "Nhà, công trình, hạng mục/khu vực, gian phòng có quy mô quy định tại Phụ lục A phải trang bị cho toàn bộ nhà, công trình, gian phòng (trừ các khu vực loại trừ nêu ở 1.5.11 và 1.5.12). Xác định theo thứ tự: toàn nhà (Bảng A.1), hạng mục/khu vực (Bảng A.2), gian phòng (Bảng A.3), thiết bị (Bảng A.4).",
    "dieu": "1.5.9; 1.5.11",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Trang bị theo Bảng A.1 cho toàn nhà, sau đó Bảng A.2 cho hạng mục/khu vực, Bảng A.3 cho gian phòng, Bảng A.4 cho thiết bị trong phạm vi công trình.",
+   "dieu": "QCVN 10:2025/BCA, 1.5.9, Phụ lục A",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ (phần kinh doanh dưới 30 % tổng diện tích sàn): cao từ 7 tầng trở lên.",
+   "dieu": "Bảng A.1 mục 1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy (phần sản xuất, kinh doanh dưới 30 % tổng diện tích sàn): cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên.",
+   "dieu": "Bảng A.1 mục 2",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Chung cư, nhà ở tập thể, ký túc xá thuộc cơ sở giáo dục: cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 700 m² trở lên.",
+   "dieu": "Bảng A.1 mục 3",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Nhà trẻ, trường mẫu giáo, mầm non: từ 100 cháu trở lên hoặc tổng diện tích sàn từ 300 m² trở lên.",
+   "dieu": "Bảng A.1 mục 4",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Khách sạn, nhà khách, nhà nghỉ, cơ sở nghỉ dưỡng, dịch vụ lưu trú: cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 700 m² trở lên.",
+   "dieu": "Bảng A.1 mục 18",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Nhà trụ sở, văn phòng, cơ sở nghiên cứu chuyên ngành: cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên.",
+   "dieu": "Bảng A.1 mục 20",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Nhà hỗn hợp, chung cư có mục đích sử dụng hỗn hợp: cao từ 3 tầng trở lên hoặc tổng diện tích sàn từ 500 m² trở lên.",
+   "dieu": "Bảng A.1 mục 21",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Nhà để xe, trưng bày ô tô, xe máy dạng kín đặt tại tầng hầm, tầng bán hầm hoặc trên mặt đất từ 02 tầng trở lên: không phụ thuộc diện tích.",
+   "dieu": "Bảng A.1 mục 25.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Nhà trẻ, trường mẫu giáo, trường mầm non và cơ sở giáo dục mầm non khác: có từ 100 cháu trở lên hoặc tổng diện tích sàn từ 300 m² trở lên.",
+   "dieu": "Bảng A.1, STT 4",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "khong_ap_dung": [
@@ -40,6 +99,11 @@
    "y": "Gian phòng cao không quá 10 m trong nhà nhóm F5 (không tính gian phòng F5 nằm trong nhà thuộc nhóm công năng khác) đã có hệ thống chữa cháy tự động liên động với trung tâm báo cháy thì được không trang bị đầu báo cháy tự động; các thiết bị khác của hệ thống vẫn phải có và phải điều khiển được thiết bị ngoại vi.",
    "dieu": "1.5.6",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà để xe ô tô một hoặc hai tầng dạng ngăn (ngăn cách tối thiểu bằng vách ngăn cháy loại 1, có lối ra ngoài trời trực tiếp từ từng ngăn): cho phép không trang bị hệ thống báo cháy tự động và chữa cháy tự động, với điều kiện mỗi ngăn không quá 2 xe.",
+   "dieu": "Bảng A.1 chú thích (4)",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "yeu_cau": [
@@ -57,6 +121,26 @@
    "y": "Công tắc dòng chảy, công tắc áp suất hoặc thiết bị tương tự của hệ thống chữa cháy tự động dùng làm tín hiệu báo cháy và được trung tâm báo cháy giám sát: mỗi thiết bị coi là một vùng phát hiện cháy riêng.",
    "dieu": "1.5.6 (chú thích)",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Nhà ở riêng lẻ có kinh doanh: cho phép chỉ trang bị hệ thống báo cháy hoặc thiết bị báo cháy độc lập tại khu vực sản xuất, kinh doanh, nhưng mỗi tầng phải có thiết bị cảnh báo âm thanh liên động với hệ thống báo cháy hoặc thiết bị báo cháy độc lập.",
+   "dieu": "Bảng A.1 chú thích (2)",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Nhà ở riêng lẻ có phần sản xuất, kinh doanh từ 30 % đến 70 % tổng diện tích sàn: trang bị như nhà hỗn hợp; trên 70 %: trang bị theo công năng sản xuất, kinh doanh.",
+   "dieu": "Bảng A.1 chú thích (2)",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Trung tâm báo cháy phải tự động kiểm tra tín hiệu từ đầu báo cháy, kênh báo cháy và thiết bị báo cháy khác truyền về để loại trừ tín hiệu báo cháy giả.",
+   "dieu": "TCVN 7568-14:2025, 5.12.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Sàn nâng, trần giả phải có vị trí tiếp cận để bảo trì, bảo dưỡng các đầu báo cháy.",
+   "dieu": "Tài liệu tập huấn hệ thống BCTD",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ],
  "cach_kiem": [
@@ -64,6 +148,16 @@
    "y": "Đối chiếu quy mô, công năng nhà với Bảng A.1–A.4 (Phụ lục A); kiểm các khu vực loại trừ; suy từ 1.5.9, 1.5.11.",
    "dieu": "suy từ 1.5.9",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Đối chiếu loại nhà, số tầng, tổng diện tích sàn, vị trí (tầng hầm hay trên mặt đất) với từng dòng Bảng A.1 rồi xét tiếp A.2–A.4; kiểm các chú thích (1)–(4).",
+   "dieu": "suy từ 1.5.9 và Phụ lục A",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Đối chiếu số tầng, tổng diện tích sàn, số cháu với Bảng A.1; chú thích (1), (2), (3) ở cuối bảng.",
+   "dieu": "suy từ Phụ lục A",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ],
  "hay_nham": [
@@ -71,6 +165,16 @@
    "y": "Hệ thống báo cháy thường (báo đến một khu vực, khu vực có thể có nhiều đầu báo) khác hệ thống báo cháy địa chỉ (báo đến từng thiết bị địa chỉ); khác thiết bị báo cháy độc lập (chỉ cảnh báo âm thanh, phải liên kết với nhau trong cùng nhà).",
    "dieu": "1.4.9; 1.4.10; 1.4.11",
    "nguon": "kb:qcvn10-2025-chung.md"
+  },
+  {
+   "y": "Khác thiết bị báo cháy độc lập. Bảng A.1 có nhiều dòng cho phép thay hệ thống báo cháy bằng thiết bị báo cháy độc lập khi nhà nhỏ hơn ngưỡng nêu trong ngoặc.",
+   "dieu": "Bảng A.1",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  },
+  {
+   "y": "Khác thiết bị báo cháy độc lập (chỉ cảnh báo bằng âm thanh) và khác hệ thống chữa cháy tự động.",
+   "dieu": "1.4.8, 1.4.11",
+   "nguon": "kb:tk-thiết-bị-chữa-cháy-tự-động-kích-hoạt"
   }
  ]
 }

@@ -1,0 +1,43 @@
+{
+ "slug": "tinh-dien-tich-khoi-tich-rieng-tung-nha",
+ "ten": "Tính diện tích, khối tích riêng từng nhà",
+ "dong_nghia": [
+  "quy mô công trình tính riêng từng khối"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m12-chua-chay",
+  "m11-bao-chay",
+  "ra-soat"
+ ],
+ "lien_quan": [
+  "Khoang cháy",
+  "Phụ lục A, B, C QCVN 10:2025/BCA"
+ ],
+ "ngay": "2026-10-26T07:05:03.586Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Nhà đã bảo đảm khoảng cách an toàn PCCC, thoát nạn, ngăn cháy lan, nối với nhau bằng lối đi thì cho phép tính diện tích, khối tích riêng từng nhà.",
+   "dieu": "QCVN 10:2025/BCA mục 1.4.26",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [
+  {
+   "y": "Khi bản vẽ chỉ có tổng diện tích cả khu đất, tách số liệu theo từng khối rồi mới so ngưỡng trang bị (Phụ lục A, B, C). Xác nhận khối tách biệt: tường riêng, kết cấu riêng, không chung khoang cháy. Chưa rõ thì ghi CẦN XÁC NHẬN.",
+   "dieu": "suy từ mục 1.4.26 và bài học 10",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  }
+ ],
+ "hay_nham": [
+  {
+   "y": "Dính liền một vách mà chung kết cấu thì vẫn là một khối (ví dụ của agent, chưa được người thẩm định xác nhận).",
+   "dieu": "",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  }
+ ]
+}

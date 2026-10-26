@@ -11,7 +11,7 @@
   "Thời gian phun khí chữa cháy",
   "Nồng độ thiết kế"
  ],
- "ngay": "2026-10-26T04:24:50.061Z",
+ "ngay": "2026-10-26T07:10:00.332Z",
  "dinh_nghia": [
   {
    "y": "Khoảng thời gian trong đó nồng độ dập tắt được duy trì bên trong khu vực được bảo vệ",
@@ -24,6 +24,11 @@
    "y": "Thời gian duy trì định trước được xác định bằng thử nghiệm quạt ở cửa quy định trong Phụ lục E hoặc thử nghiệm phun hoàn toàn dựa trên các chuẩn cứ a)–c)",
    "dieu": "Thời gian duy trì trạng thái chữa cháy",
    "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Phải xác định khoảng thời gian trong đó nồng độ dập tắt sẽ được duy trì (nguồn bị cắt ở đoạn này, chưa nêu trị số)",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
   }
  ],
  "ap_dung": [
@@ -31,6 +36,11 @@
    "y": "Quan trọng với mọi loại đám cháy do nguồn đốt cháy dai dẳng (ngọn lửa hồ quang, nguồn tạo nhiệt, đèn hàn oxy-axetylen, ngọn lửa âm ỉ) có thể dẫn đến cháy lại khi khí chữa cháy đã tiêu tan",
    "dieu": "Thời gian duy trì trạng thái chữa cháy",
    "nguon": "2db33f33c221"
+  },
+  {
+   "y": "Không chỉ đạt được nồng độ hiệu quả của khí chữa cháy mà còn phải duy trì trong một khoảng thời gian đủ để việc chữa cháy có hiệu quả; đặc biệt quan trọng với các đám cháy do nguồn đốt cháy dai dẳng (ngọn lửa hồ quang, nguồn tạo nhiệt, đèn hàn oxy-axetylen, ngọn lửa âm ỉ) có thể dẫn đến cháy lại khi khí chữa cháy đã tiêu tan",
+   "dieu": "",
+   "nguon": "kb:tk-thể-tích-riêng"
   }
  ],
  "khong_ap_dung": [],

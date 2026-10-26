@@ -1,0 +1,42 @@
+{
+ "slug": "tham-dinh-thiet-ke-ve-pccc",
+ "ten": "Thẩm định thiết kế về PCCC",
+ "dong_nghia": [
+  "thẩm duyệt thiết kế về PCCC (cách gọi cũ)"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "doc-ho-so",
+  "chung"
+ ],
+ "lien_quan": [
+  "Thẩm duyệt điều chỉnh",
+  "Công trình thuộc diện thẩm định thiết kế về PCCC"
+ ],
+ "ngay": "2026-10-26T07:09:38.601Z",
+ "dinh_nghia": [
+  {
+   "y": "Từ NĐ 105/2025, cơ quan Công an và cơ quan chuyên môn về xây dựng thẩm định thiết kế về PCCC (không còn gọi là \"thẩm duyệt\").",
+   "dieu": "Mục 1 (từ ngữ), NĐ 105/2025/NĐ-CP",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Công trình khi thiết kế, cải tạo, thay đổi công năng sử dụng, và phương tiện giao thông khi sản xuất, lắp ráp, đóng mới, hoán cải thuộc danh mục Phụ lục III thì thuộc diện thẩm định thiết kế về PCCC.",
+   "dieu": "Phụ lục III NĐ 105/2025/NĐ-CP",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Không dùng \"thẩm duyệt\" cho dự án thẩm định theo NĐ 105/2025. Từ này chỉ còn dùng cho dự án đã được cấp Giấy chứng nhận thẩm duyệt trước 01/7/2025.",
+   "dieu": "Mục 1, mục 5",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "slug": "dau-bao-chay-nhiet-gia-tang",
+ "ten": "Đầu báo cháy nhiệt gia tăng",
+ "dong_nghia": [
+  "Rate of rise heat detector"
+ ],
+ "anh_huong": [
+  "m11-bao-chay"
+ ],
+ "lien_quan": [
+  "Đầu báo cháy nhiệt",
+  "Đầu báo cháy nhiệt cố định"
+ ],
+ "ngay": "2026-10-26T07:07:32.950Z",
+ "dinh_nghia": [
+  {
+   "y": "Đầu báo cháy nhiệt, tác động khi tốc độ gia tăng nhiệt độ tại vị trí lắp đặt đầu báo cháy đạt đến giá trị xác định.",
+   "dieu": "3.8",
+   "nguon": "kb:tk-tcvn-7568-14"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác đầu báo nhiệt cố định (tác động theo ngưỡng nhiệt độ).",
+   "dieu": "3.7, 3.8",
+   "nguon": "kb:tk-tcvn-7568-14"
+  }
+ ]
+}

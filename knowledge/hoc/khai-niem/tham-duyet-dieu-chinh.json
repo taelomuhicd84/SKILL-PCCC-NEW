@@ -1,12 +1,15 @@
 {
  "slug": "tham-duyet-dieu-chinh",
  "ten": "Thẩm duyệt điều chỉnh",
- "dong_nghia": [],
+ "dong_nghia": [
+  "thẩm định thiết kế điều chỉnh"
+ ],
  "anh_huong": [
   "m01-phan-loai",
   "doc-ho-so",
   "chung",
-  "ra-soat"
+  "ra-soat",
+  "huong-dan"
  ],
  "lien_quan": [
   "thẩm định lại khi điều chỉnh thiết kế, thay đổi công năng, cải tạo (danh sách đóng)",
@@ -14,9 +17,16 @@
   "Đổi nguyên lý báo cháy",
   "Tự thẩm định điều chỉnh",
   "Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy",
-  "Nội dung thẩm duyệt thiết kế về PCCC"
+  "Nội dung thẩm duyệt thiết kế về PCCC",
+  "Thay thế hệ thống",
+  "Trang bị bổ sung hệ thống",
+  "Hạng mục xây mới độc lập",
+  "Công trình sau cải tạo, mở rộng",
+  "Thẩm định điều chỉnh",
+  "Giấy chứng nhận thẩm duyệt",
+  "Thẩm định thiết kế về PCCC"
  ],
- "ngay": "2026-10-26T04:48:43.259Z",
+ "ngay": "2026-10-26T07:09:38.601Z",
  "dinh_nghia": [
   {
    "y": "Thủ tục chỉ còn cho dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC (trước 01/7/2025) mà trước hoặc trong thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025.",
@@ -27,6 +37,16 @@
    "y": "Việc thẩm duyệt khi dự án, công trình đã có Giấy chứng nhận thẩm duyệt thiết kế về PCCC mà trước hoặc trong quá trình thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025.",
    "dieu": "NĐ 347/2026 Điều 29 khoản 1, sửa khoản 3 Điều 46 NĐ 105/2025",
    "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Việc áp dụng với dự án, công trình đã được cơ quan Công an cấp Giấy chứng nhận thẩm duyệt thiết kế về PCCC, mà trước hoặc trong thi công có điều chỉnh thiết kế làm thay đổi điều kiện an toàn PCCC theo khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025 (danh sách 5.1 và 5.2).",
+   "dieu": "Điều 29 khoản 1 NĐ 347/2026 (sửa khoản 3 Điều 46 NĐ 105/2025)",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  },
+  {
+   "y": "\"Thẩm duyệt điều chỉnh\" chỉ còn dùng cho dự án đã được cấp Giấy chứng nhận thẩm duyệt trước 01/7/2025. Dự án thẩm định theo NĐ 105/2025 gọi là \"thẩm định thiết kế điều chỉnh\".",
+   "dieu": "Mục 1, mục 5",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
   }
  ],
  "cach_xac_dinh": [
@@ -34,6 +54,21 @@
    "y": "Công trình đã có Giấy chứng nhận thẩm duyệt (trước 01/7/2025), chưa được chấp thuận kết quả nghiệm thu, nay điều chỉnh thiết kế hoặc đổi công năng thuộc danh sách đóng của cơ quan xây dựng hoặc Công an.",
    "dieu": "mục 6",
    "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
+  },
+  {
+   "y": "Công trình đã có Giấy chứng nhận thẩm duyệt, chưa nghiệm thu, nay có thay đổi thì thuộc diện thẩm duyệt điều chỉnh",
+   "dieu": "Công văn C07; quy trình mục 4, 6",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Đã có Giấy chứng nhận thẩm duyệt mà chưa nghiệm thu thì là \"thẩm duyệt điều chỉnh\".",
+   "dieu": "mục 8 bước 4",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
+  },
+  {
+   "y": "Xem ngày cấp Giấy chứng nhận thẩm duyệt: trước 01/7/2025 thì \"thẩm duyệt điều chỉnh\", từ 01/7/2025 thì \"thẩm định thiết kế điều chỉnh\".",
+   "dieu": "Mục 1, mục 5",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
   }
  ],
  "ap_dung": [
@@ -58,6 +93,21 @@
    "dieu": "NĐ 347/2026 Điều 29 khoản 1",
    "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc",
    "can_xem": true
+  },
+  {
+   "y": "Công trình đã thẩm duyệt, chưa nghiệm thu, thay đổi công năng (ví dụ nhóm F3.4 thành F1.1) phải thẩm duyệt điều chỉnh",
+   "dieu": "khoản 3 Điều 46 NĐ 105/2025",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Đối chiếu từng thay đổi với danh sách đóng 5.1 (xây dựng) và 5.2 (Công an); trùng thì phải thẩm định lại, không trùng thì áp dụng mục 5.3",
+   "dieu": "quy trình bước 3",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Đã có Giấy chứng nhận thẩm duyệt, chưa chấp thuận nghiệm thu thì tiếp tục theo khoản 3 Điều 46 NĐ 105/2025.",
+   "dieu": "mục 5.3",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
   }
  ],
  "khong_ap_dung": [
@@ -75,6 +125,11 @@
    "y": "Chưa có Giấy chứng nhận thẩm duyệt thì thẩm định theo Điều 6, 7, 8, 9 NĐ 105/2025, không phải thẩm duyệt điều chỉnh.",
    "dieu": "NĐ 105/2025 Điều 6, 7, 8, 9",
    "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Chỉ xét phần điều chỉnh, cải tạo; dòng ngoài phạm vi ghi KHÔNG ÁP DỤNG, lý do \"ngoài phạm vi điều chỉnh, cải tạo\"",
+   "dieu": "quy trình bước 5",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
   }
  ],
  "yeu_cau": [
@@ -82,6 +137,11 @@
    "y": "Thời hạn xử lý theo khoản 6 Điều 9 NĐ 105/2025: không quá 10 ngày với dự án nhóm A hoặc quan trọng quốc gia; các dự án còn lại không quá 06 ngày làm việc.",
    "dieu": "khoản 6 Điều 9 NĐ 105/2025",
    "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Thời hạn xử lý theo khoản 6 Điều 9 NĐ 105/2025: không quá 10 ngày (dự án nhóm A hoặc quan trọ… đoạn trích bị cắt).",
+   "dieu": "khoản 6 Điều 9 NĐ 105/2025",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
   }
  ],
  "cach_kiem": [
@@ -99,6 +159,16 @@
    "y": "Đối chiếu nội dung điều chỉnh với danh sách ở khoản 4 Điều 6 và khoản 3 Điều 9 NĐ 105/2025; kiểm tình trạng nghiệm thu (suy từ Điều 29 NĐ 347/2026).",
    "dieu": "",
    "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Hỏi hồ sơ đã có Giấy chứng nhận thẩm duyệt chưa và đã nghiệm thu chưa",
+   "dieu": "suy từ quy trình bước 1, 4",
+   "nguon": "kb:tk-thay-thế-hệ-thống"
+  },
+  {
+   "y": "Kiểm ngày cấp Giấy chứng nhận thẩm duyệt trong hồ sơ. Suy từ mục 1 và mục 5.",
+   "dieu": "",
+   "nguon": "kb:tk-thẩm-định-thiết-kế-về-pccc"
   }
  ],
  "hay_nham": [
@@ -116,6 +186,11 @@
    "y": "Dễ nhầm với thẩm định mới theo Điều 6, 7, 8, 9 NĐ 105/2025. Thẩm duyệt điều chỉnh chỉ dành cho công trình đã có Giấy chứng nhận thẩm duyệt.",
    "dieu": "",
    "nguon": "kb:tk-giấy-chứng-nhận-thẩm-duyệt-thiết-kế-về-pccc"
+  },
+  {
+   "y": "Khác thẩm định điều chỉnh theo NĐ 105/2025: thẩm duyệt điều chỉnh dành cho dự án đã có Giấy chứng nhận thẩm duyệt.",
+   "dieu": "",
+   "nguon": "kb:tk-thẩm-định-điều-chỉnh"
   }
  ]
 }

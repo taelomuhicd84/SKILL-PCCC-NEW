@@ -1,16 +1,25 @@
 # Khái niệm thẩm định – Mục 13 – Cấp điện cho hệ thống PCCC (agent tự học rút từ văn bản, chỉ gồm mục từ nguồn đã duyệt)
-25 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
+29 khái niệm. Dùng để biết nghĩa, cách xác định và điều kiện áp dụng; kết luận vẫn phải trích điều khoản gốc. Mục ghi "VĂN BẢN CŨ" không làm căn cứ.
 
 ### Bể nước chữa cháy (còn gọi: bồn, bể, Bể PCCC, Bể nước ngầm)
+**Cách xác định (nhận biết, đo trên bản vẽ):**
+- Lượng nước của bồn, bể, hồ nhân tạo xác định theo lượng nước tiêu thụ và thời gian chữa cháy tại 5.1.2.2–5.1.2.6 và 5.1.3.3. (5.1.5.8)
 **Khi nào áp dụng / được phép:**
 - Khi bể nước chữa cháy dùng chung với bể nước phục vụ sinh hoạt trong tòa nhà. (2.1.11)
+- Được trữ nước chữa cháy trong bồn, bể chuyên dụng hoặc hồ hở cho: khu dân cư đến 5 000 người; tòa nhà đứng riêng không có đường ống nước sinh hoạt/sản xuất; nhà công năng khác nhau có lưu lượng ngoài nhà không quá 10 L/s; nhà 1–2 tầng có diện tích xây dựng không lớn hơn diện tích khoang cháy cho phép. (5.1.5.7)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Yêu cầu số bồn, bể trong một mạng ống không nhỏ hơn 2 không áp dụng cho bồn, bể cấp nước ngoài nhà của công trình độc lập.
 **Yêu cầu kỹ thuật, trị số:**
 - Đường ống hút của hệ thống nước sinh hoạt phải kết nối trên mức nước yêu cầu cho nhu cầu phòng cháy. (2.1.11)
 - Mỗi bể nước phải có van tự động làm đầy và van thủ công làm đầy riêng biệt. (2.1.11)
 - Khi chạy thử bơm xả ngược vào bể, vòi hoặc ống xả đặt ở vị trí cách xa ống hút của bơm để tránh bơm bị nhiễm khí. (2.6.6.2)
+- Khi ngắt một bồn, bể, lượng nước trữ ở các bồn, bể còn lại không nhỏ hơn 50% lượng nước yêu cầu chữa cháy.
+- Hồ nhân tạo hở: tính đến bốc hơi và đóng băng; mực nước tối thiểu không nhỏ hơn 0,5 m. (5.1.5.8 (chú thích 1))
+- Hệ thống cấp nước chữa cháy ngoài nhà của cơ sở không bị ngừng cấp nước quá 10 phút và không giảm lưu lượng quá 30% lưu lượng tính toán trong 3 ngày. (5.1.2.7)
 **Cách kiểm trên hồ sơ:**
 - Xem cao trình đầu ống hút sinh hoạt so với mức nước dành cho chữa cháy trên mặt cắt bể; suy từ 2.1.11.
-**Liên quan:** Trạm bơm nước chữa cháy, Thời gian chữa cháy, Thời gian phục hồi nước dự trữ chữa cháy, Cấp nước chữa cháy ngoài nhà, Nguồn điện chữa cháy
+- Xem bản tính thể tích bể và sơ đồ nguyên lý: số bể, thể tích còn lại khi ngắt một bể ≥ 50%. Suy từ yêu cầu của nguồn.
+**Liên quan:** Trạm bơm nước chữa cháy, Thời gian chữa cháy, Thời gian phục hồi nước dự trữ chữa cháy, Cấp nước chữa cháy ngoài nhà, Nguồn điện chữa cháy, Số đám cháy tính toán đồng thời, Lượng nước dự trữ chữa cháy, Bán kính phục vụ của nguồn nước chữa cháy ngoài nhà
 
 ### Bố trí máy bơm trong trạm (còn gọi: Phòng bơm, Nhà bơm)
 **Khi nào áp dụng / được phép:**
@@ -124,6 +133,15 @@
 - Xem thuyết minh/bản vẽ trạm bơm diesel: dung tích bình dầu so với công suất, số bộ ắc quy, ống khí thải; suy từ 2.4.2.
 **Liên quan:** Máy bơm nước chữa cháy, Tủ điều khiển máy bơm nước chữa cháy, Trạm bơm nước chữa cháy
 
+### Đường ống nước chữa cháy áp suất cao
+**Định nghĩa:**
+- Hệ thống đường ống nước chữa cháy thường có áp suất thấp; khi duy trì áp suất cao thì phải tính toán bảo đảm áp suất làm việc của hệ thống đường ống
+**Yêu cầu kỹ thuật, trị số:**
+- Máy bơm chữa cháy phải bảo đảm hoạt động không trễ hơn 5 phút sau khi có tín hiệu báo cháy
+**Dễ nhầm với:**
+- Khác đường ống áp suất thấp (áp suất tự do tối thiểu 10 m cột nước đo ở cao độ mặt đất)
+**Liên quan:** Áp suất tự do tối thiểu trong đường ống nước chữa cháy
+
 ### Hạng mục cáp
 **Định nghĩa:**
 - Hạng mục cáp trong Quy chuẩn này bao gồm tuy nen, giếng, sàn nâng (sàn kép), tầng cáp, hành lang cáp dùng để đặt cáp (bao gồm cả kết hợp với các phương tiện liên lạc khác). (Bảng A.2, chú thích (1))
@@ -158,6 +176,22 @@
 **Dễ nhầm với:**
 - Điều kiện 2.3.5.2 áp dụng cho gara dạng kín; 'chữa cháy tự động' (2.3.5.2) khác 'phát hiện cháy tự động' (2.3.5.3) áp dụng cho gara nhỏ hơn ngưỡng. (2.3.5.2; 2.3.5.3)
 **Liên quan:** Hệ thống báo cháy gara ô-tô (loại 1–5), Gara ô-tô cơ khí
+
+### Khởi động máy bơm chữa cháy
+**Yêu cầu kỹ thuật, trị số:**
+- Máy bơm chữa cháy khởi động tự động hoặc điều khiển từ xa (tại phòng trực hoặc trụ cấp nước); ngoài ra phải có cơ cấu điều khiển bằng tay tại phòng bơm. Bơm được kích hoạt vận hành trong thời gian không chậm quá 3 min kể từ khi có thông tin báo cháy. (QCVN 10:2025/BCA Phụ lục H)
+**Cách kiểm trên hồ sơ:**
+- Xem sơ đồ nguyên lý điều khiển bơm và thuyết minh: có chế độ tự động hoặc từ xa, có điều khiển tay tại phòng bơm, thời gian kích hoạt ≤ 3 min. (suy từ Phụ lục H)
+**Liên quan:** Phòng bơm, Trụ cấp nước, Hệ thống báo cháy
+
+### Máy biến áp đặt trong gian phòng của nhà có công năng khác
+**Khi nào áp dụng / được phép:**
+- Báo cháy tự động: không phụ thuộc công suất (Bảng A.4 mục 5)
+- Chữa cháy tự động: công suất từ 63 MVA trở lên hoặc điện áp từ 110 kV trở lên (Bảng A.4 mục 5)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Không bao gồm trường hợp mục 3 của bảng (Bảng A.4 mục 5)
+**Cách kiểm trên hồ sơ:**
+- Xem công suất (MVA) và điện áp (kV) máy biến áp trong hồ sơ (suy từ Bảng A.4 mục 5)
 
 ### Máy bơm cấp nước chữa cháy (máy bơm dự phòng, thời gian kích hoạt) (còn gọi: trạm bơm cấp nước chữa cháy)
 **Khi nào áp dụng / được phép:**
@@ -253,6 +287,15 @@
 - Bơm dự phòng khác nguồn điện dự phòng: một là máy bơm, một là nguồn cấp điện cho máy bơm. (2.2.8, 2.4.1.6.1)
 **Liên quan:** Máy bơm nước chữa cháy, Bơm bù áp, Tủ điều khiển máy bơm nước chữa cháy
 
+### Nguồn điện chữa cháy (còn gọi: Cấp điện cho thiết bị điện của hệ thống bảo vệ chống cháy)
+**Khi nào áp dụng / được phép:**
+- Thiết bị điện của hệ thống bảo vệ chống cháy của nhà phải được cấp điện ưu tiên từ hai nguồn độc lập (một nguồn điện lưới và một nguồn máy phát điện dự phòng). (3.1.10)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Thiết bị có nguồn dự phòng riêng (ví dụ bơm diezen, tủ chống cháy có ắc quy dự phòng) chỉ cần một nguồn điện lưới, nhưng nguồn dự phòng riêng phải bảo đảm hoạt động bình thường khi có cháy. (3.1.10 (Chú thích))
+**Cách kiểm trên hồ sơ:**
+- Xem sơ đồ nguyên lý cấp điện: có 2 nguồn độc lập (lưới + máy phát) hay thiết bị có nguồn dự phòng riêng (suy từ 3.1.10). (suy từ 3.1.10)
+**Liên quan:** Hệ thống bảo vệ chống cháy
+
 ### Nguồn điện của máy bơm (còn gọi: Nguồn điện và các thiết bị bảo vệ mạch điện)
 **Khi nào áp dụng / được phép:**
 - Máy bơm động cơ điện phải có ít nhất hai nguồn điện, một nguồn chính và một nguồn dự phòng. (2.4.1.6.1)
@@ -311,11 +354,20 @@
 - Đây là nội dung nghiệm thu, khác nội dung thẩm duyệt thiết kế (giai đoạn trước, giấy chứng nhận thẩm duyệt số 577/TD-PCCC ngày 28/6/2024). (Căn cứ)
 **Liên quan:** Nội dung thẩm duyệt thiết kế về phòng cháy và chữa cháy, Bố trí công năng, Giao thông cho xe chữa cháy
 
-### Nội dung thẩm định của cơ quan Công an
+### Nội dung thẩm định của cơ quan Công an (còn gọi: Nội dung thẩm định về PCCC của cơ quan Công an)
+**Định nghĩa:**
+- Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 **Khi nào áp dụng / được phép:**
 - Việc trang bị, bố trí, lắp đặt: (a) hệ thống báo cháy, thiết bị báo cháy độc lập; (b) hệ thống chữa cháy, bình chữa cháy, phương tiện chữa cháy cơ giới; (c) chiếu sáng sự cố và chỉ dẫn thoát nạn, loa thông báo và hướng dẫn thoát nạn; (d) dụng cụ phá dỡ thô sơ, mặt nạ lọc độc, mặt nạ phòng độc cách ly; (đ) hệ thống điện phục vụ PCCC: thiết bị bảo vệ và nguồn điện cấp cho hệ thống PCCC, hút khói, cấp không khí bảo vệ chống khói, thang máy chữa cháy, màn, rèm, cửa ngăn cháy. (Điều 9 khoản 2 NĐ 105/2025)
 - Thẩm định điều chỉnh hoặc cải tạo thì chỉ trong phạm vi điều chỉnh, cải tạo. Đây cũng là cách chia của bảng A1–A26 và B1–B14. (Điều 9 khoản 2 điểm e)
-**Liên quan:** nội dung thẩm định của cơ quan chuyên môn về xây dựng, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Danh mục tài liệu, bản vẽ được thẩm duyệt, Nội dung được nghiệm thu về PCCC
+- Thẩm định điều chỉnh hoặc cải tạo thì chỉ xem xét trong phạm vi điều chỉnh, cải tạo. (Điều 9 khoản 2 điểm e)
+**Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
+- Dòng ngoài phạm vi điều chỉnh, cải tạo ghi KHÔNG ÁP DỤNG, lý do "ngoài phạm vi điều chỉnh, cải tạo". (mục 8 bước 5 (cách dùng khi thẩm))
+**Cách kiểm trên hồ sơ:**
+- Đây cũng là cách chia của bảng A1–A26 và B1–B14: phân dòng theo nhóm xây dựng hay Công an khi thẩm định. (suy từ Điều 9 khoản 2)
+**Dễ nhầm với:**
+- Khác nội dung thẩm định của cơ quan xây dựng: bên xây dựng xét lối thoát nạn, bậc chịu lửa, khoang cháy, công năng, chống khói; bên Công an xét hệ thống, thiết bị PCCC.
+**Liên quan:** nội dung thẩm định của cơ quan chuyên môn về xây dựng, Giấy chứng nhận thẩm duyệt thiết kế về phòng cháy và chữa cháy, Danh mục tài liệu, bản vẽ được thẩm duyệt, Nội dung được nghiệm thu về PCCC, Nội dung thẩm định của cơ quan xây dựng, Thẩm định điều chỉnh
 
 ### Thang máy chữa cháy (còn gọi: thang máy có chế độ chuyên chở lực lượng chữa cháy, TMCC)
 **Định nghĩa:**
@@ -413,9 +465,11 @@
 - Phần điều khiển cách sàn không nhỏ hơn 0,75 m và không lớn hơn 1,85 m. (5.12.7)
 - Hai nguồn điện độc lập: 220 V xoay chiều và ắc quy dự phòng; dung lượng ắc quy đảm bảo ít nhất 24 h thường trực và 30 min khi có cháy; ắc quy nạp tự động; tiếp đất bảo vệ. (5.13, 5.13.1)
 - Tín hiệu âm thanh, ánh sáng khi báo cháy và báo sự cố phải khác nhau. (5.12.9)
+- Phải có chức năng tự động kiểm tra tín hiệu từ đầu báo cháy, kênh báo cháy và thiết bị báo cháy khác để loại trừ tín hiệu báo cháy giả. (TCVN 7568-14:2025, 5.12.1)
+- Thiết bị chỉ thị bên ngoài nhà phải kết nối với tín hiệu ra giám sát của tủ trung tâm. (5.11.3.2.3)
 **Cách kiểm trên hồ sơ:**
 - Xem bản vẽ phòng đặt tủ, sơ đồ nguồn, thuyết minh dung lượng ắc quy (24 h + 30 min), kết nối truyền tin; suy từ 5.12, 5.13. (5.12, 5.13)
-**Liên quan:** Hộp nút ấn báo cháy, Thiết bị báo cháy, Đầu báo khói
+**Liên quan:** Hộp nút ấn báo cháy, Thiết bị báo cháy, Đầu báo khói, Hệ thống báo cháy, Thiết bị báo cháy bằng ánh sáng
 
 ### Tủ điều khiển bơm nước chữa cháy
 **Khi nào áp dụng / được phép:**

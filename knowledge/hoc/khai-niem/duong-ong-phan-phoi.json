@@ -1,0 +1,31 @@
+{
+ "slug": "duong-ong-phan-phoi",
+ "ten": "Đường ống phân phối",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m12-chua-chay"
+ ],
+ "lien_quan": [
+  "Lưu lượng nước cho chữa cháy ngoài nhà"
+ ],
+ "ngay": "2026-10-26T07:12:23.316Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Lưu lượng nước chữa cháy ngoài nhà cho nhà nhóm F1, F2, F3, F4 được tính toán cho đường ống kết hợp và đường ống phân phối của mạng đường ống",
+   "dieu": "",
+   "nguon": "kb:tk-trang-bị-cấp-nước-chữa-cháy-ngoài-nhà"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác mạng đường ống chính nối vòng, nơi lưu lượng và số đám cháy đồng thời lấy theo Bảng 7",
+   "dieu": "Bảng 7",
+   "nguon": "kb:tk-trang-bị-cấp-nước-chữa-cháy-ngoài-nhà"
+  }
+ ]
+}

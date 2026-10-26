@@ -9,15 +9,21 @@
   "doc-ho-so"
  ],
  "lien_quan": [
-  "Số tầng nhà"
+  "Số tầng nhà",
+  "Số tầng của nhà"
  ],
- "ngay": "2026-10-26T04:23:07.418Z",
+ "ngay": "2026-10-26T07:06:10.175Z",
  "dinh_nghia": [],
  "cach_xac_dinh": [
   {
    "y": "Tầng tum không tính vào số tầng cao của công trình khi diện tích mái tum không vượt quá 30 % diện tích sàn mái và có chức năng sử dụng làm tum thang, kỹ thuật.",
    "dieu": "TT 06/2021/TT-BXD (nêu trong slide 'Lưu ý khi xét số tầng')",
    "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Không tính vào số tầng cao khi diện tích mái tum không vượt quá 30 % diện tích sàn mái và có chức năng làm tum thang, kỹ thuật.",
+   "dieu": "Sửa đổi 1:2023 QCVN 06 (theo TT 06/2021/TT-BXD)",
+   "nguon": "kb:tk-sàn-lửng"
   }
  ],
  "ap_dung": [
@@ -34,6 +40,11 @@
    "y": "Đo diện tích mái tum so với diện tích sàn mái và đối chiếu công năng ghi trên bản vẽ (tum thang, kỹ thuật).",
    "dieu": "suy từ nguồn",
    "nguon": "ee1434b8c963"
+  },
+  {
+   "y": "Đo diện tích mái tum so với diện tích sàn mái; xem công năng.",
+   "dieu": "suy từ Sửa đổi 1:2023 QCVN 06",
+   "nguon": "kb:tk-sàn-lửng"
   }
  ],
  "hay_nham": []

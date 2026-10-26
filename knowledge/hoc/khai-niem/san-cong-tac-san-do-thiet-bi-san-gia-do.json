@@ -1,0 +1,42 @@
+{
+ "slug": "san-cong-tac-san-do-thiet-bi-san-gia-do",
+ "ten": "Sàn công tác, sàn đỡ thiết bị, sàn giá đỡ",
+ "dong_nghia": [
+  "sàn giá đỡ nhiều tầng"
+ ],
+ "anh_huong": [
+  "m01-phan-loai",
+  "m02-bac-chiu-lua",
+  "m06-ngan-chay"
+ ],
+ "lien_quan": [
+  "Sàn lửng",
+  "Số tầng của nhà"
+ ],
+ "ngay": "2026-10-26T07:06:10.175Z",
+ "dinh_nghia": [],
+ "cach_xac_dinh": [
+  {
+   "y": "Mỗi sàn công tác, sàn đỡ thiết bị, sàn lửng ở cao độ bất kỳ có diện tích lớn hơn 40 % diện tích một tầng của nhà (nhà sản xuất, nhà kho) thì tính như một tầng.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "ap_dung": [
+  {
+   "y": "Được tính vào diện tích khoang cháy của tầng chứa nó (nhà 1 tầng: cộng tất cả; nhà nhiều tầng: cộng các sàn nằm trong tầng đó).",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "khong_ap_dung": [
+  {
+   "y": "Diện tích sàn của giá đỡ nhiều tầng dùng để bảo dưỡng đường ray phía dưới cầu trục, bảo dưỡng cần trục, băng tải, đường ray đơn và thiết bị chiếu sáng không nằm trong tổng diện tích của nhà.",
+   "dieu": "QCVN 06:2022/BXD, Quy định chung",
+   "nguon": "kb:tk-sàn-lửng"
+  }
+ ],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": []
+}

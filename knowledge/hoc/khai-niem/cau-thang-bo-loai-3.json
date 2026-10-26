@@ -1,0 +1,37 @@
+{
+ "slug": "cau-thang-bo-loai-3",
+ "ten": "Cầu thang bộ loại 3",
+ "dong_nghia": [],
+ "anh_huong": [
+  "m07-thoat-nan"
+ ],
+ "lien_quan": [
+  "Cầu thang bộ loại 2"
+ ],
+ "ngay": "2026-10-26T07:07:11.845Z",
+ "dinh_nghia": [
+  {
+   "y": "Cầu thang bộ loại 3 là cầu thang bên ngoài nhà, để hở.",
+   "dieu": "Sơ đồ phân loại",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "cach_xac_dinh": [],
+ "ap_dung": [
+  {
+   "y": "Là một trong hai phương án lối ra thoát nạn của biệt thự/villa/cơ sở nghỉ dưỡng F1.2 dùng cầu thang loại 2: lối ra trực tiếp ra ngoài hoặc ra cầu thang bộ loại 3.",
+   "dieu": "Sửa đổi 1:2023",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ],
+ "khong_ap_dung": [],
+ "yeu_cau": [],
+ "cach_kiem": [],
+ "hay_nham": [
+  {
+   "y": "Khác loại 2: loại 2 ở bên trong nhà, loại 3 ở bên ngoài nhà.",
+   "dieu": "Sơ đồ phân loại",
+   "nguon": "kb:tk-sân-thượng-thoáng"
+  }
+ ]
+}

@@ -11,7 +11,8 @@
  "anh_huong": [
   "m10-binh-chua-chay",
   "m05-cong-nang",
-  "chung"
+  "chung",
+  "m15-cnch"
  ],
  "lien_quan": [
   "Bình chữa cháy xách tay cho công trình đang thi công xây dựng",
@@ -22,16 +23,29 @@
   "Mối nguy hiểm",
   "Bình chữa cháy",
   "Loại mức nguy hiểm",
-  "Sprinklers tự động"
+  "Sprinklers tự động",
+  "Dụng cụ phá dỡ thô sơ",
+  "Mặt nạ phòng độc"
  ],
- "ngay": "2026-10-26T04:15:58.477Z",
- "dinh_nghia": [],
+ "ngay": "2026-10-26T07:13:33.965Z",
+ "dinh_nghia": [
+  {
+   "y": "Gồm bình chữa cháy xách tay/xe đẩy (TCVN 7435-1), dụng cụ phá dỡ thô sơ, mặt nạ lọc độc/mặt nạ phòng độc cách ly.",
+   "dieu": "thuat-ngu-chuan.md",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
+  }
+ ],
  "cach_xac_dinh": [],
  "ap_dung": [
   {
    "y": "Tất cả các khu vực trong nhà, công trình, kể cả nơi đã trang bị hệ thống chữa cháy, phải trang bị bình chữa cháy xách tay hoặc bình chữa cháy có bánh xe. Việc lựa chọn, tính toán trang bị và bố trí theo điểm 6 và điểm 7 TCVN 7435-1.",
    "dieu": "2.6.1",
    "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Trang bị theo QCVN 10:2025/BCA (hiệu lực 30/12/2025, thay tiêu chuẩn trang bị cũ). Danh mục dụng cụ, mặt nạ xem Phụ lục E, F.",
+   "dieu": "QCVN 10:2025/BCA Phụ lục E, F",
+   "nguon": "kb:tk-qcvn-10-2025-bca"
   }
  ],
  "khong_ap_dung": [
@@ -61,6 +75,11 @@
    "y": "Trên cùng một sàn hoặc tầng, nếu mặt bằng bị ngăn thành các khu vực khác nhau bởi tường, vách, rào hoặc vật cản khác không có lối đi qua lại thì trang bị bình riêng biệt cho mỗi khu vực, đảm bảo theo điểm 6 và điểm 7 TCVN 7435-1.",
    "dieu": "2.6.3",
    "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Trang bị theo QCVN 10:2025/BCA (hiệu lực 30/12/2025, thay tiêu chuẩn trang bị cũ)",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
   }
  ],
  "cach_kiem": [
@@ -68,6 +87,11 @@
    "y": "Xem mặt bằng bố trí bình từng tầng: bình có nằm ở lối ra, cầu thang, hành lang, dễ thấy; có tập trung một chỗ không; mỗi khu vực bị ngăn không lối đi qua lại có bình riêng; khoảng cách đi tới điểm xa nhất so với điểm 7 TCVN 7435-1 (suy từ 2.6.2, 2.6.3, 2.6.4).",
    "dieu": "suy từ 2.6",
    "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Đối chiếu danh mục trang bị trong hồ sơ với QCVN 10:2025/BCA, không dùng tiêu chuẩn trang bị cũ (suy từ trạng thái văn bản)",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
   }
  ],
  "hay_nham": []

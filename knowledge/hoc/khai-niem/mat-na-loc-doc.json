@@ -1,20 +1,36 @@
 {
  "slug": "mat-na-loc-doc",
  "ten": "Mặt nạ lọc độc",
- "dong_nghia": [],
+ "dong_nghia": [
+  "mặt nạ phòng độc cách ly"
+ ],
  "anh_huong": [
   "m15-cnch",
   "m17-lien-lac",
-  "m05-cong-nang"
+  "m05-cong-nang",
+  "m10-binh-chua-chay"
  ],
  "lien_quan": [
   "Mặt nạ phòng độc cách ly",
   "Karaoke, vũ trường",
-  "Dụng cụ phá dỡ thô sơ"
+  "Dụng cụ phá dỡ thô sơ",
+  "Phương tiện chữa cháy ban đầu"
  ],
- "ngay": "2026-10-26T04:06:22.541Z",
- "dinh_nghia": [],
- "cach_xac_dinh": [],
+ "ngay": "2026-10-26T07:13:33.965Z",
+ "dinh_nghia": [
+  {
+   "y": "Thiết bị bảo hộ cá nhân bảo vệ cơ quan hô hấp trong một thời gian và ở giới hạn nồng độ ô xy trong không khí nhất định.",
+   "dieu": "QCVN 10:2025/BCA, 1.4.12",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
+  }
+ ],
+ "cach_xac_dinh": [
+  {
+   "y": "Thuộc nhóm phương tiện chữa cháy ban đầu, gồm loại lọc độc và loại phòng độc cách ly",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
+  }
+ ],
  "ap_dung": [
   {
    "y": "Nhà, công trình phải trang bị mặt nạ lọc độc theo Phụ lục F.",
@@ -48,6 +64,11 @@
    "y": "Bố trí tại các tủ phương tiện trên hành lang, đường thoát nạn từng tầng hoặc trong các gian phòng thường xuyên có người.",
    "dieu": "2.7.2",
    "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Trang bị theo QCVN 10:2025/BCA",
+   "dieu": "",
+   "nguon": "kb:tk-ul-2775"
   }
  ],
  "cach_kiem": [
@@ -62,6 +83,11 @@
    "y": "Mặt nạ lọc độc đặt ở tủ phương tiện trên hành lang/đường thoát nạn hoặc phòng thường xuyên có người; mặt nạ phòng độc cách ly đặt ở phòng trực điều khiển chống cháy hoặc khu vực thường trực PCCC.",
    "dieu": "2.7.2",
    "nguon": "kb:qcvn10-2025-binh-dung-cu-co-gioi.md"
+  },
+  {
+   "y": "Khác mặt nạ phòng độc cách ly (có bình khí thở, chống không khí bên ngoài xâm nhập).",
+   "dieu": "1.4.12, 1.4.13",
+   "nguon": "kb:tk-thiết-bị-báo-cháy"
   }
  ]
 }
