@@ -52,3 +52,8 @@ File này Claude cập nhật. Mỗi lần tôi bảo "cập nhật từ github"
 - Khung vị trí đã sửa tay đúng toạ độ: `ket_qua/hoang_hung/gemini_m04/ket_qua_khoanh.json` (thư mục `ket_qua/` không lên GitHub).
 - Web build lại (`web/dist` không nằm trong git: máy nào kéo code mới cũng phải `npm run build`).
 - Runner tự học tự sửa `knowledge/hoc/*.md` khi bật: xem trước khi commit.
+
+### 2026-10-27
+- **Bạn dạy:** giáp ranh/khoảng cách PCCC (khoảng cách tính từ tường công trình, không phải ranh đất; kính cường lực ≥ 6 mm + sprinkler mới miễn E60), lối vào từ trên cao trên mặt đứng (ký hiệu + ghi chú + kích thước tối thiểu), QCVN 06 Điều 5 đã chuyển sang QCVN 10:2025, chống trùng lặp tri thức (mỗi quy tắc một file nguồn, agent chỉ giữ con trỏ). Chi tiết: `TIEN_DO.md` mục 2026-10-27.
+- **Kiểm bảng tính thủy lực:** lỗi nặng ở nhánh phải, cộng áp họng vách tường, hệ số bơm; checklist ở `knowledge/kiem-bang-tinh-thuy-luc-7336.md`. Bạn tự chỉnh thiết kế (H13, số hàng); ô `#N/A` để trống là chủ ý.
+- **Chưa làm:** skill tự kiểm bảng tính thủy lực, skill tính bể nước PCCC, gộp 2 cặp skill trùng. Sơ đồ đã cập nhật, đã đẩy GitHub (ket_qua không đẩy).

@@ -80,3 +80,10 @@ Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạ
 - Cập nhật sơ đồ 26/10: node (bước 9 tự học, 10 hỏi đáp/điều phối, ghép vào dữ liệu đã lưu), công việc (bộ phận 7), kiến trúc + quy trình chi tiết (mục lớp tự học); ghi chú ngày trong NOTE_CUA_TOI.md.
 - Xem thử hồ sơ nhà kho Liên Minh Xưởng 01 (ket_qua/lien_minh_xuong01): nhóm F5.2, thoát nạn/bãi xe tính lại, 7 chỗ lệch số liệu, chiều cao PCCC 4,0 m (người thiết kế ghi 7 m), khoảng cách PCCC, thoát khói, ngăn cháy; Bài học 27–29.
 - Cập nhật sơ đồ cuối ngày 26/10 và đẩy toàn bộ lên GitHub.
+- Bài học 30 (27/10): giáp ranh/khoảng cách PCCC không đủ hoặc không ghi chú → thẩm định CHƯA ĐẠT + khoanh + hướng dẫn E60/sprinkler; sơ bộ khoanh + hướng dẫn; m03, so-bo-thiet-ke, PHAN_KHOANH, web nhãn mới.
+- Tách Bài học 30 thành knowledge/giap-ranh-khoang-cach-pccc.md (nguồn duy nhất), nối m03/m06/sơ bộ; thêm scripts/quet_trung_lap.py.
+- Bỏ knowledge/qcvn06-dieu-5.md khỏi m12 và hoc.ts (cấp nước chữa cháy đã sang QCVN 10:2025, người dùng xác nhận).
+- Thêm knowledge/loi-vao-tren-cao.md (mẫu ký hiệu + ghi chú + kích thước mặt đứng), nối m04/sơ bộ, loại khoanh loi_vao_tren_cao.
+- Sơ bộ Hoàng Hùng: thêm mục 8 (giáp ranh 3 phía, lối vào từ trên cao) + so_bo_khoang_cach_tuong_ranh.png.
+- Kiểm 3 bảng tính thủy lực Excel (BANG TINH THUY LUC11, Bảng Tính Toán Thủy Lực TCVN 7336, kho lạnh PCCC-18) theo TCVN 7336 Phụ lục B + QCVN 10:2025 H.5–H.7; giải đáp họng vách tường (áp so tại nút rẽ, không cộng); sửa công thức file người dùng; rút `knowledge/kiem-bang-tinh-thuy-luc-7336.md`.
+- Cập nhật sơ đồ 27/10 (node: Bài học 1–30, kn giáp ranh/lối vào từ trên cao/kiểm bảng tính, bỏ qcvn06-dieu-5; công việc: mục tri thức mới) và đẩy lên GitHub.

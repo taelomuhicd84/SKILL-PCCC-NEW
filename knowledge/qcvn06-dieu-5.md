@@ -1,7 +1,7 @@
 # QCVN 06:2022/BXD (sửa đổi, bổ sung 10/2023) – Điều 5 – Cấp nước chữa cháy
 Nguồn: `D:\$.4. QC - TCVN\QCVN 06 SỬA ĐỔI BỔ SUNG 10.2023.docx`, đọc trực tiếp từ file Word: đã bỏ chữ bị gạch (phần bị bãi bỏ), dựng lại số điều khoản từ danh sách đánh số của Word, bảng ghi dạng `| ô | ô |`. Đối chiếu số liệu quan trọng với bản gốc.
 
-Dùng cho: m12-chua-chay.
+HẾT HIỆU LỰC (người dùng xác nhận 2026-10-27): cấp nước chữa cháy đã chuyển sang QCVN 10:2025/BCA (`qcvn10-2025-phu-luc-h.md`, `qcvn10-2025-nuoc-chua-chay.md`). Không agent nào nạp file này; chỉ giữ để tra lịch sử.
 
 5 CẤP NƯỚC CHỮA CHÁY
 5.1 Cấp nước chữa cháy ngoài nhà

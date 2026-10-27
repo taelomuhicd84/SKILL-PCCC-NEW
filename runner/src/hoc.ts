@@ -230,7 +230,7 @@ const nhatKy = (dong: string) => { try { appendFileSync(FILE_NHAT_KY, `- ${new D
 /** Tri thức chính thức (knowledge/) theo số hiệu văn bản, dùng để đối chiếu xung đột. */
 const KNOWLEDGE_THEO_SO_HIEU: [RegExp, string[]][] = [
   [/QCVN 10\b/, ["qcvn10-2025-chung.md", "qcvn10-2025-nuoc-chua-chay.md", "qcvn10-2025-bao-chay-chua-chay-tu-dong.md", "qcvn10-2025-binh-dung-cu-co-gioi.md", "qcvn10-2025-den-loa.md", "qcvn10-2025-phu-luc-h.md"]],
-  [/QCVN 06\b/, ["qcvn06-dieu-4.md", "qcvn06-dieu-5.md", "qcvn06-dieu-6.md", "qcvn06-dieu-7.md", "qcvn06-phu-luc-h.md"]],
+  [/QCVN 06\b/, ["qcvn06-dieu-4.md", "qcvn06-dieu-6.md", "qcvn06-dieu-7.md", "qcvn06-phu-luc-h.md"]],
   [/TCVN 7568/, ["tcvn7568-14-2025.md"]],
   [/N[Đđ] (105|347)\//, ["nghi-dinh-tham-dinh-dieu-chinh.md"]],
 ];

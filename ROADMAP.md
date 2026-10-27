@@ -1,5 +1,5 @@
 # Lộ trình (Roadmap) – Website thẩm định PCCC
-Cập nhật: 2026-10-21 (chiều). File này trả lời "đang ở đâu, còn gì". Chi tiết kỹ thuật: `TIEN_DO.md`; nhật ký từng mốc: `LICH_SU.md`.
+Cập nhật: 2026-10-27. File này trả lời "đang ở đâu, còn gì". Chi tiết kỹ thuật: `TIEN_DO.md`; nhật ký từng mốc: `LICH_SU.md`.
 Ký hiệu: ✅ xong · 🔄 đang làm · ⏳ chưa làm · 👤 người dùng phải làm.
 
 ## Bức tranh tổng
@@ -31,6 +31,11 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Hợp nhất văn bản (`runner/src/hop_nhat.ts`, `knowledge/hoc/hop-nhat/`, skill `tra-<slug>` tự sinh): Word gạch ngang → chỉ lấy phần mới (đã áp cho QCVN 06 + SĐ1:2023, và cho mọi đọc Word); văn bản thay thế hẳn → thành bản hiện hành; văn bản sửa đổi bằng chữ → AI trích từng sửa đổi rồi áp đúng điều/khoản, chỗ không định vị để "Chưa gộp được". **Mới có test đơn vị cho gạch ngang và áp điều/khoản; chưa chạy thật AI trích sửa đổi bằng chữ (cần một văn bản sửa đổi thật).**
 - 🔄 Skill `phan-tich-ban-ve` (PDF → xác định loại hạng mục như thang thoát nạn → kiểm tra → giải pháp), nối agent đọc hồ sơ, m07 và các mục, hướng dẫn, hỏi đáp. **Mới viết quy trình, CHƯA chạy thử trên bản vẽ thật.**
 - ✅ Xem thử hồ sơ nhà kho Liên Minh Xưởng 01 và sơ bộ khách sạn Hoàng Hùng (ket_qua/lien_minh_xuong01, hoang_hung_so_bo2): Bài học 27–29 (nhà hỗn hợp 70%, mái chữ A, xét đủ nhóm yêu cầu). Chưa xét nhánh PCCC (Công an Điều 9) cho hai hồ sơ này.
+- ✅ Quy tắc giáp ranh/khoảng cách PCCC không đủ hoặc thiếu ghi chú (Bài học 30): thẩm định = CHƯA ĐẠT + khoanh + hướng dẫn; sơ bộ = khoanh + hướng dẫn (loại khoang_cach_pccc). Chưa chạy thử trên hồ sơ thật, đã đọc 4.35b (sprinkler chỉ miễn khi kết hợp kính cường lực >= 6 mm), chưa tra lại toàn văn E.3.3.
+- ✅ Chống trùng lặp tri thức: mỗi quy tắc một file nguồn, agent chỉ giữ con trỏ + nạp file (mẫu: `knowledge/giap-ranh-khoang-cach-pccc.md`, nối m03, m06, sơ bộ); `scripts/quet_trung_lap.py` báo đoạn trùng (chỉ báo cáo). ✅ Đã bỏ qcvn06-dieu-5 khỏi m12 (cấp nước đã sang QCVN 10:2025). ⏳ Còn gộp: skills/VI_DU_hoang_anh_1 ↔ MOD_*, DU_LIEU_TU_SKILL_KHAC ↔ SKILL_ngan_chay_cong_nang.
+- ✅ Lối vào từ trên cao trên mặt đứng (`knowledge/loi-vao-tren-cao.md`): thiếu ký hiệu/ghi chú/kích thước → CHƯA ĐẠT + khoanh + hướng dẫn; sơ bộ khoanh đề xuất. Nối m04, sơ bộ. Chưa chạy thử hồ sơ thật.
+- ✅ Lối vào từ trên cao trên mặt đứng, giáp ranh, bỏ QCVN 06 Điều 5 khỏi m12: đã chạy gen:claude, build, test; chưa chạy thử hồ sơ thật.
+- ✅ Kiểm 3 bảng tính thủy lực Excel của người dùng theo TCVN 7336 (sửa bản `_da_sua`); rút checklist lỗi vào `knowledge/kiem-bang-tinh-thuy-luc-7336.md`. ⏳ Skill/script tự kiểm bảng tính thủy lực; ⏳ skill tính bể nước PCCC.
 - ⏳ 👤 Xác nhận QCVN 02 trạm bơm còn hiệu lực sau QCVN 10:2025 (ghi chú `08bf60f5653f`).
 - ⏳ 👤 Cấp quyền thư mục hồ sơ 2017–2023 nếu muốn học thêm.
 

@@ -5,6 +5,7 @@ description: Thẩm định PCCC – Mục 6 – Ngăn cháy, chống cháy lan.
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 6 – Ngăn cháy, chống cháy lan
 **Việc:** Ngăn cháy ngang, đứng, theo công năng, hành lang; vật liệu; cửa, tường, sàn ngăn cháy; tỉ lệ cửa/tường.
+**Lưu ý:** Tường ngoài theo ranh/đường quy ước (E.3) và ngăn cháy phương đứng (4.33): làm theo knowledge/giap-ranh-khoang-cach-pccc.md.
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
@@ -14,6 +15,7 @@ description: Thẩm định PCCC – Mục 6 – Ngăn cháy, chống cháy lan.
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/qcvn06-phu-luc-h.md`
 - `knowledge/qcvn06-dieu-4.md`
+- `knowledge/giap-ranh-khoang-cach-pccc.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m06-ngan-chay.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.

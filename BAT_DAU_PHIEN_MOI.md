@@ -1,5 +1,7 @@
 # Bàn giao sang phiên mới (cập nhật 2026-10-24)
 
+**Mới 2026-10-27:** quy tắc giáp ranh + lối vào từ trên cao (file nguồn `knowledge/giap-ranh-khoang-cach-pccc.md`, `knowledge/loi-vao-tren-cao.md`, nối m03/m04/m06/sơ bộ), chống trùng lặp tri thức (`scripts/quet_trung_lap.py`), checklist kiểm bảng tính thủy lực `knowledge/kiem-bang-tinh-thuy-luc-7336.md`. QCVN 06 Điều 5 đã bỏ (chuyển QCVN 10:2025). Chi tiết `TIEN_DO.md` đầu mục ĐANG LÀM.
+
 **Mới 2026-10-24 (đọc đầu tiên):** thêm tab 8 Báo cáo khảo sát và báo giá + nút Bắt đầu ở bước 1 + Bài học 26 + hai sơ đồ `so_do/so_do_cong_viec.htm`, `so_do/so_do_quy_trinh_node.htm` (mở qua runner `/so-do/<tên>` để tự lưu; máy khác dùng `node scripts/chia_se_so_do.mjs`). Chi tiết đầu `TIEN_DO.md`. Máy mới: `npm run build`, bật lại runner (có route mới). Sửa md thì chạy `node scripts/sinh_so_do_node.mjs`.
 
 **Mới 2026-10-23:** hôm nay làm bot chat mục 7 Sơ bộ thiết kế PCCC (tab 7 trên web) và Bài học 17–25, chi tiết ở đầu `TIEN_DO.md`. Việc lần sau: bot phải VẼ hướng dẫn lên bản vẽ (bãi đỗ, làn xe, bãi quay xe, tuyến thoát nạn góc vuông, khung tính toán), hiện mới trả chữ và khoanh khung. Cookie Gemini hay bị Google huỷ: khi lỗi 'chế độ khách' thì xuất file cookie mới thả vào `runner/gemini_cookies.json`. Máy mới kéo code: `npm run build`, bật lại runner.

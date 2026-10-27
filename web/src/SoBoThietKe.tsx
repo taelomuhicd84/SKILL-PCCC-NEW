@@ -5,7 +5,7 @@ import { tachJson, type LuotChat } from "@pccc/shared";
 type Nguon = "claude" | "gemini";
 export interface DeXuat { loai: string; muc: string; ly_do: string; trang: number; bbox?: number[]; kich_thuoc_trong_m?: string; kich_thuoc_can_m?: string; du?: boolean | null }
 type Tin = { vai: "nguoi" | "bot"; nd: string; nguon?: Nguon; loi?: boolean; dx?: DeXuat[] };
-const LOAI: Record<string, string> = { thang_thoat_nan: "Thang thoát nạn", thang_may_cc: "Thang máy chữa cháy", bai_do: "Bãi đỗ xe chữa cháy", khac: "Mục khác" };
+const LOAI: Record<string, string> = { thang_thoat_nan: "Thang thoát nạn", thang_may_cc: "Thang máy chữa cháy", bai_do: "Bãi đỗ xe chữa cháy", khoang_cach_pccc: "Khoảng cách PCCC", loi_vao_tren_cao: "Lối vào từ trên cao", khac: "Mục khác" };
 /** Lấy danh sách đề xuất từ câu trả lời (khối json); không có hoặc sai thì trả null. */
 function docDeXuat(t: string): DeXuat[] | null {
   try { const j = tachJson(t) as { de_xuat?: unknown }; if (!Array.isArray(j.de_xuat)) return null;

@@ -5,10 +5,12 @@ description: Thẩm định PCCC – Mục 3 – Khoảng cách an toàn PCCC. K
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Mục 3 – Khoảng cách an toàn PCCC
 **Việc:** Khoảng cách tới công trình lân cận (Bảng E1, Phụ lục E).
+**Lưu ý:** Giáp ranh đất, khoảng cách PCCC không đủ hoặc không ghi chú: làm theo knowledge/giap-ranh-khoang-cach-pccc.md (CHUA_DAT, khoanh, hướng dẫn)
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
+- `knowledge/giap-ranh-khoang-cach-pccc.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m03-khoang-cach.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
