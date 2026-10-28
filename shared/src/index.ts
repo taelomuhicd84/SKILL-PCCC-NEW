@@ -8,3 +8,4 @@ export * from "./pdf_chu";
 export * from "./vni";
 export * from "./nhom_ho_so";
 export * from "./trang_lien_quan";
+export * from "./thuy_luc";

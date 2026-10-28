@@ -19,7 +19,7 @@ if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --o
   fi
   git commit -q -m "$MSG
 
-Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>" || { echo "không có gì để commit"; }
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" || { echo "không có gì để commit"; }
 fi
 
 [ "$(git rev-list --count origin/main..HEAD)" = "0" ] && { echo "không có commit nào cần đẩy"; exit 0; }

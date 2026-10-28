@@ -87,3 +87,5 @@ Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạ
 - Sơ bộ Hoàng Hùng: thêm mục 8 (giáp ranh 3 phía, lối vào từ trên cao) + so_bo_khoang_cach_tuong_ranh.png.
 - Kiểm 3 bảng tính thủy lực Excel (BANG TINH THUY LUC11, Bảng Tính Toán Thủy Lực TCVN 7336, kho lạnh PCCC-18) theo TCVN 7336 Phụ lục B + QCVN 10:2025 H.5–H.7; giải đáp họng vách tường (áp so tại nút rẽ, không cộng); sửa công thức file người dùng; rút `knowledge/kiem-bang-tinh-thuy-luc-7336.md`.
 - Cập nhật sơ đồ 27/10 (node: Bài học 1–30, kn giáp ranh/lối vào từ trên cao/kiểm bảng tính, bỏ qcvn06-dieu-5; công việc: mục tri thức mới) và đẩy lên GitHub.
+- 28/10: Tính toán thủy lực: agent pccc-thuy-luc (có Bash), lõi shared/src/thuy_luc.ts + 6 test, CLI scripts/thuy_luc.ts (tinh | so-bo | toi-uu, --excel), Excel mẫu bang_tinh/thuy_luc (+ o_nhap.json, vi_du/, scripts/xuat_thuy_luc_excel.py), nối pccc-dieu-phoi; sơ đồ thêm bước 11.
+- 28/10: Thủy lực tự nhận diện đối xứng/bất đối xứng, mạch vòng/cụt; Excel mẫu thêm ô D182 và cân bằng nhánh tổng quát; đọc file .xlsx đúng mẫu; rút tài liệu tập huấn sprinkler C07 (H1, bố trí đầu phun, điểm kiểm bơm 140%).

@@ -10,6 +10,7 @@ Claude chính là người điều phối; không tự làm hết, giao đúng c
 | Thẩm định hồ sơ PDF | Skill `tham-dinh` (`/tham-dinh <pdf>`): đọc hồ sơ → chọn bảng → 18 mục + bảng hệ thống → rà soát → gộp. Tách xây dựng (bảng KT, NĐ 105 Điều 6) và hệ thống (A/B Đồng Nai). Khi cần xét riêng một hạng mục: agent `pccc-m01…m18`, `pccc-doc-ho-so`, `pccc-ra-soat`, `pccc-huong-dan`. |
 | Đưa PDF bản vẽ, hỏi về một hạng mục (vd. thang thoát nạn loại gì, có đạt không, giải pháp) | Skill `phan-tich-ban-ve`: xác định loại → kiểm tra bằng tri thức đã học → giải pháp nếu không đạt. |
 | Sơ bộ thiết kế PCCC (đường xe chữa cháy, bãi đỗ, thoát nạn, bảng thông tin PCCC) | Agent/skill `pccc-so-bo-thiet-ke`. |
+| Tính thủy lực sprinkler/họng nước: kiểm bảng tính Excel, tính theo bản vẽ, sơ bộ khi chỉ có mặt bằng, tối ưu phương án, xuất Excel | Agent/skill `pccc-thuy-luc` (CLI `npx tsx scripts/thuy_luc.ts tinh|so-bo|toi-uu … --excel ra.xlsx`, Excel mẫu `bang_tinh/thuy_luc/`). |
 | Thêm tài liệu để học | Bỏ file vào thư mục học tập, rồi tab "Tự học" hoặc runner `batDauHoc` (xem ROADMAP). Checklist và khái niệm tự cập nhật. |
 | Câu hỏi có "NÊN HỌC: …" từ agent hỏi đáp | Rút khái niệm đó từ toàn văn (`runner/cache/van_ban/`) vào `knowledge/hoc/khai-niem/`. |
 

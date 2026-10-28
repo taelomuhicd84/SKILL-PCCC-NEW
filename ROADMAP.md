@@ -36,6 +36,8 @@ Quy trình một lần thẩm định (đã chạy được):
 - ✅ Lối vào từ trên cao trên mặt đứng (`knowledge/loi-vao-tren-cao.md`): thiếu ký hiệu/ghi chú/kích thước → CHƯA ĐẠT + khoanh + hướng dẫn; sơ bộ khoanh đề xuất. Nối m04, sơ bộ. Chưa chạy thử hồ sơ thật.
 - ✅ Lối vào từ trên cao trên mặt đứng, giáp ranh, bỏ QCVN 06 Điều 5 khỏi m12: đã chạy gen:claude, build, test; chưa chạy thử hồ sơ thật.
 - ✅ Kiểm 3 bảng tính thủy lực Excel của người dùng theo TCVN 7336 (sửa bản `_da_sua`); rút checklist lỗi vào `knowledge/kiem-bang-tinh-thuy-luc-7336.md`. ⏳ Skill/script tự kiểm bảng tính thủy lực; ⏳ skill tính bể nước PCCC.
+- ✅ Tính toán thủy lực (2026-10-28): agent `pccc-thuy-luc`, lõi `shared/src/thuy_luc.ts` (TCVN 7336 PL B, test khớp 2 bảng thật), CLI `scripts/thuy_luc.ts` (tinh, so-bo khi chỉ có mặt bằng, toi-uu so 4 phương án), xuất Excel mẫu `bang_tinh/thuy_luc/MAU_THUY_LUC_7336.xlsx` (đã sửa 3 lỗi công thức: thiếu DN80, cục bộ 20% gồm cả P1, tổn thất ống họng thiếu L và lẫn đơn vị). Tự nhận diện đối xứng, mạch vòng/cụt; đọc thẳng file .xlsx đúng mẫu; rút tập huấn sprinkler C07. Chưa mở file xuất bằng Excel thật.
+- ⏳ Thủy lực mở rộng: Bảng 2 kho nhóm 5–7, TCVN 14496 giá kệ, drencher, bọt; đọc thẳng mặt bằng sprinkler ra số liệu; tab web; skill tính bể nước PCCC.
 - ⏳ 👤 Xác nhận QCVN 02 trạm bơm còn hiệu lực sau QCVN 10:2025 (ghi chú `08bf60f5653f`).
 - ⏳ 👤 Cấp quyền thư mục hồ sơ 2017–2023 nếu muốn học thêm.
 
