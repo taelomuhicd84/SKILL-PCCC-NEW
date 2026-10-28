@@ -1,5 +1,5 @@
 """Đọc file Excel thủy lực theo đúng mẫu bang_tinh/thuy_luc/MAU_THUY_LUC_7336.xlsx thành so_lieu.json (in ra stdout).
-Tự nhận diện: nhánh đối xứng (ô D98), mạch vòng hay cụt (ô D182, bản cũ không có ô thì đọc chữ B183).
+Tự nhận diện: 1 hay 2 nhánh (ô O77), nhánh đối xứng (ô D98), mạch vòng hay cụt (ô D182, bản cũ không có ô thì đọc chữ B183).
 Dùng: python scripts/doc_thuy_luc_excel.py <file.xlsx>      Thoát 2 nếu không phải mẫu (agent đọc tay theo quy tắc nhận diện).
 """
 import json, os, re, sys, warnings
@@ -45,13 +45,17 @@ def doc(path):
     so = lambda x: isinstance(x, (int, float)) and not isinstance(x, bool)
     if not (so(gt('H14')) and so(gt('F62'))):
         raise SystemExit(2)
+    # Bản cũ (trước 28/10): i ở H10, n ở H12; bản mới: i H9, Qmin H10, n H11, diện tích bảo vệ 1 đầu H12
+    cu = {'i_min': 'H10', 'n': 'H12'} if not str(wf['G9'].value or '').strip().startswith('imin') else {}
     sl = {}
-    for k in ('mo_ta', 'S', 'i_min', 'n', 'q1', 'K_gpm', 'Q_ngoai_nha', 'Z', 'doi_xung', 'mang'):
+    for k in ('nhom', 'mo_ta', 'S', 'i_min', 'n', 'q1', 'K_gpm', 'Q_ngoai_nha', 'Z', 'doi_xung', 'mang', 'so_nhanh', 'mach_vt'):
         o = BD[k]['o']
-        v = gt(o[0] if isinstance(o, list) else o)
+        v = gt(cu.get(k) or (o[0] if isinstance(o, list) else o))
         if v is not None:
             sl[k] = v
     sl['Q_min'] = gt('H17')
+    if sl.get('q1') is None and so(sl.get('i_min')):  # H13 = H12*H9 chưa được Excel tính: diện tích bảo vệ 1 đầu theo nhóm
+        sl['q1'] = (12 if re.search(r'Nhóm [123](?!\d)', str(sl.get('nhom') or '')) else 9) * sl['i_min']
     for k in ('nhanh_trai', 'nhanh_phai', 'ong_chinh'):
         ds = []
         for h in BD[k]:
@@ -64,6 +68,12 @@ def doc(path):
     vong[-1]['ca'] = True  # dòng F-J: cả lưu lượng từ ống góp bơm
     sl['vong'] = [d for d in vong if d['l']]
     sl['hong'] = {k: gt(v['o']) for k, v in BD['hong'].items() if k in ('so_tia', 'q_tia', 'P_lang', 'L_voi', 'Kp', 'L_1', 'A_1', 'L_2', 'A_2')}
+    # 1 nhánh: ô O77 (bản cũ ghi "Một phía" ở D98)
+    if re.search(r'1 nhánh', str(sl.pop('so_nhanh', '') or ''), re.I) or re.search(r'một phía', str(sl.get('doi_xung') or ''), re.I):
+        sl['mot_phia'] = True
+        sl['nhanh_phai'] = []
+    if re.search(r'riêng', str(sl.pop('mach_vt', '') or ''), re.I):
+        sl['vt_rieng'] = True
     m = str(sl.get('mang') or wv[doi('B183')].value or '')
     sl['mang'] = 'cut' if re.search(r'cụt', m, re.I) else 'vong'
     return sl

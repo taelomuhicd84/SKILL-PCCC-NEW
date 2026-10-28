@@ -69,4 +69,17 @@ describe("thủy lực TCVN 7336", () => {
     expect(kiemBoTri("2", 1.2, 3).join()).toMatch(/1,5 m/);
     expect(soBoThuyLuc({ nhom: "4.1", cao_phong: 6, L_ong_chinh_den_bom: 50, Z_m: 6 }).loi_bo_tri).toEqual([]);
   });
+  it("nhánh một phía: Q hàng = Q nhánh, không nhân đôi", () => {
+    const sl = { ...mau, nhanh_phai: undefined, doi_xung: undefined };
+    const hai = tinhThuyLuc(sl), mot = tinhThuyLuc({ ...sl, mot_phia: true });
+    expect(mot.QI).toBeCloseTo(hai.QI / 2, 6);
+    expect(mot.nhan_dien.mot_phia).toBe(true);
+  });
+  it("họng vách tường mạch riêng: ống vòng chỉ mang Q sprinkler, QVT cộng ở bơm", () => {
+    const chung = tinhThuyLuc(mau), rieng = tinhThuyLuc({ ...mau, vt_rieng: true });
+    expect(rieng.Qsp).toBeCloseTo(chung.Qsp, 9);
+    expect(rieng.Qbom).toBeCloseTo(chung.Qbom, 9);
+    expect(rieng.PJ).toBeLessThan(chung.PJ);
+    expect(rieng.canhBao.join()).toMatch(/mạch họng/);
+  });
 });

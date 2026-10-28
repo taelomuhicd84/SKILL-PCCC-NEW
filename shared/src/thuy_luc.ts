@@ -7,7 +7,10 @@ export interface HongNuoc { so_tia: number; q_tia: number; P_lang: number; L_voi
 export interface SoLieuThuyLuc {
   K_gpm?: number; K?: number; // K đầu phun: gpm/psi^0,5 hoặc l/(s·MPa^0,5) dạng q = K√P (= 10·K của B.2.2)
   q1: number; Q_min: number; Z: number; PH?: number; Q_ngoai_nha?: number;
+  vt_rieng?: boolean; // Excel H182 "SP và VT riêng": họng vách tường mạch riêng, ống sprinkler chỉ mang Q sprinkler, QVT cộng ở bơm
+  nhom?: string; // Excel H6 "Nhóm 1"…"Nhóm 7": diện tích bảo vệ 1 đầu 12 m2 (nhóm 1–3) hoặc 9 m2
   doi_xung?: boolean | string; // bỏ trống: tự nhận diện (nhanDienMang)
+  mot_phia?: boolean;          // đầu phun chỉ ở một phía ống phân phối (không có nhánh phải): QI = Q nhánh trái
   mang?: "vong" | "cut";       // ống từ vùng tính toán về bơm: vòng (mỗi nửa ½ lưu lượng, B.2.12) hay cụt (cả lưu lượng); bỏ trống = vòng
   nhanh_trai: Doan[]; nhanh_phai?: Doan[]; ong_chinh: Doan[]; vong?: Doan[]; hong?: HongNuoc;
   [k: string]: unknown;
@@ -75,13 +78,14 @@ const giongNhau = (a: Doan[], b: Doan[]) => a.length === b.length && a.every((d,
 export function nhanDienMang(sl: SoLieuThuyLuc) {
   const ly_do: string[] = [];
   let doi_xung: boolean;
+  if (sl.mot_phia) return { doi_xung: false, mot_phia: true, mang: sl.mang ?? "vong", ly_do: ["nhánh một phía: đầu phun chỉ ở một bên ống phân phối, Q hàng = Q nhánh", sl.mang ? `mạng: theo số liệu (${sl.mang === "cut" ? "mạch cụt" : "mạch vòng"})` : "mạng: không ghi, mặc định mạch vòng như Excel mẫu"] };
   if (typeof sl.doi_xung === "boolean") { doi_xung = sl.doi_xung; ly_do.push("đối xứng: theo số liệu ghi"); }
   else if (typeof sl.doi_xung === "string") { doi_xung = /^đối xứng/i.test(sl.doi_xung.trim()); ly_do.push(`đối xứng: theo ô "${sl.doi_xung}"`); }
   else if (!sl.nhanh_phai?.length) { doi_xung = true; ly_do.push("đối xứng: chỉ có nhánh trái, coi nhánh phải giống hệt"); }
   else { doi_xung = giongNhau(sl.nhanh_trai, sl.nhanh_phai); ly_do.push(doi_xung ? "đối xứng: hai nhánh cùng số đầu, cùng DN và chiều dài" : "không đối xứng: hai nhánh khác số đầu, DN hoặc chiều dài"); }
   const mang = sl.mang ?? "vong";
   ly_do.push(sl.mang ? `mạng: theo số liệu (${sl.mang === "cut" ? "mạch cụt" : "mạch vòng"})` : "mạng: không ghi, mặc định mạch vòng như Excel mẫu");
-  return { doi_xung, mang, ly_do };
+  return { doi_xung, mot_phia: false, mang, ly_do };
 }
 
 export function tinhThuyLuc(sl: SoLieuThuyLuc) {
@@ -89,9 +93,9 @@ export function tinhThuyLuc(sl: SoLieuThuyLuc) {
   if (!(K > 0)) throw new Error("Thiếu K hoặc K_gpm");
   const P1 = (sl.q1 / K) ** 2;
   const trai = nhanh(K, P1, sl.nhanh_trai);
-  const doiXung = nhanDienMang(sl).doi_xung;
-  let PA = trai.P, QI = 2 * trai.Q;
-  if (!doiXung) { // B.2.11.3: nhánh áp thấp hơn được điều chỉnh về áp lớn hơn tại nút
+  const nd = nhanDienMang(sl);
+  let PA = trai.P, QI = nd.mot_phia ? trai.Q : 2 * trai.Q;
+  if (!nd.doi_xung && !nd.mot_phia) { // B.2.11.3: nhánh áp thấp hơn được điều chỉnh về áp lớn hơn tại nút
     const phai = nhanh(K, P1, sl.nhanh_phai!);
     PA = Math.max(trai.P, phai.P);
     QI = trai.Q * Math.sqrt(PA / trai.P) + phai.Q * Math.sqrt(PA / phai.P);
@@ -105,20 +109,21 @@ export function tinhThuyLuc(sl: SoLieuThuyLuc) {
   const QVT = h ? h.so_tia * h.q_tia : 0;
   const PVT = h ? h.P_lang + (h.L_voi * h.q_tia ** 2 * h.Kp + ((h.A_1 ?? 0) * (h.L_1 ?? 0) + (h.A_2 ?? 0) * (h.L_2 ?? 0)) * h.q_tia ** 2) / 100 : 0;
   // Vòng/ống tới bơm: lưu lượng (sprinkler + họng) chia đôi mỗi nửa vòng (B.2.12); họng là nhánh song song: áp nút lấy max, không cộng.
-  const Qcap = Qsp + QVT;
+  const Qcap = Qsp + (sl.vt_rieng ? 0 : QVT);
   P = Pvung;
   const caDoan = (d: Doan) => sl.mang === "cut" || !!d.ca;
-  (sl.vong ?? []).forEach((d, i) => { P += tonThat(caDoan(d) ? Qcap : Qcap / 2, d); if (i === 0) P = Math.max(P, PVT); });
-  if (!sl.vong?.length) P = Math.max(P, PVT);
+  (sl.vong ?? []).forEach((d, i) => { P += tonThat(caDoan(d) ? Qcap : Qcap / 2, d); if (i === 0 && !sl.vt_rieng) P = Math.max(P, PVT); });
+  if (!sl.vong?.length && !sl.vt_rieng) P = Math.max(P, PVT);
   const PJ = P;
   const PB = PJ + 0.2 * (PJ - P1) + sl.Z - (sl.PH ?? 0); // B.3.9, cục bộ 20% tổn thất dọc đường (B.3.13)
-  const Qbom = Math.max(Qcap, sl.Q_min + QVT + (sl.Q_ngoai_nha ?? 0));
+  const Qbom = Math.max(Qsp + QVT, sl.Q_min + QVT + (sl.Q_ngoai_nha ?? 0));
   const doan = [...sl.nhanh_trai.map((d, i) => ({ ten: `trái ${i + 1}`, d, Q: trai.q.slice(0, i + 1).reduce((a, b) => a + b, 0) })),
     ...sl.ong_chinh.map((d, i) => ({ ten: `ống chính ${i + 1}`, d, Q: hang[i].Q })),
     ...(sl.vong ?? []).map((d, i) => ({ ten: `vòng ${i + 1}`, d, Q: caDoan(d) ? Qcap : Qcap / 2 }))];
   const vMax = Math.max(...doan.map((x) => vanToc(x.Q, x.d.dn)));
   const canhBao: string[] = [];
   if (Qsp < sl.Q_min) canhBao.push(`KHÔNG ĐẠT: Q sprinkler ${Qsp.toFixed(2)} < Qmin ${sl.Q_min} (B.3.1)`);
+  if (sl.vt_rieng && QVT) canhBao.push("Mạch họng vách tường riêng: kiểm riêng cột áp bơm cho mạch họng (PVT + tổn thất mạch họng + Z)");
   if (vMax > 10) canhBao.push(`Vận tốc ${vMax.toFixed(2)} m/s > 10 m/s (B.1.9)`);
   if (PB > 1) canhBao.push(`PB ${PB.toFixed(3)} MPa > 1 MPa: kiểm áp tại bộ điều khiển (B.3.14)`);
   if (P1 < 0.05) canhBao.push(`P1 ${P1.toFixed(3)} MPa < 0,05 MPa (Hmin 5 m.c.n theo catalogue): kiểm áp tối thiểu của hãng`);
@@ -172,7 +177,7 @@ export function soBoThuyLuc(mb: MatBang) {
   const sl: SoLieuThuyLuc = {
     K_gpm: mb.K_gpm ?? 8, q1: +(ts.i * om).toFixed(3), Q_min: ts.Q, Z: mb.Z_m / 100, PH: mb.PH,
     doi_xung: "Đối xứng với nhánh phải", nhanh_trai: nhanhDoan, ong_chinh: ong, vong, hong: mb.hong,
-    S: ts.S, i_min: ts.i, n: 2 * m * soHang,
+    S: ts.S, i_min: ts.i, n: 2 * m * soHang, nhom: `Nhóm ${mb.nhom}`,
     mo_ta: `Sơ bộ: nhóm nguy cơ phát sinh cháy ${mb.nhom} (TCVN 7336 Phụ lục A), phòng cao ${mb.cao_phong} m; số liệu ước lượng, chờ bản vẽ`,
   };
   sl.q1 = q1DatQmin(sl); // vận tốc > 10 m/s thì tinhThuyLuc cảnh báo; dùng toiUuThuyLuc để nâng DN
