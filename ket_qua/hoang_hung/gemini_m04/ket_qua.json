@@ -1,0 +1,435 @@
+{
+ "phien_ban": 1,
+ "ten_cong_trinh": "KIẾN TRÚC KET CAU KS Hoàng Hùng",
+ "bang_chinh": null,
+ "bang_he_thong": [],
+ "bang_kien_truc": "KT18",
+ "thong_tin": {
+  "ten_cong_trinh": "KIẾN TRÚC KET CAU KS Hoàng Hùng",
+  "dia_diem": "KCN Minh Hưng III, Bình Phước",
+  "chu_dau_tu": "",
+  "don_vi_thiet_ke": "",
+  "cong_nang": "khách sạn",
+  "truong": {},
+  "he_thong": {},
+  "trang": [],
+  "cau_hoi": []
+ },
+ "dong": [
+  {
+   "bang": "KT18",
+   "idx": 18,
+   "tt": "4",
+   "noi_dung_thiet_ke": "",
+   "ket_luan": "KHONG_AP_DUNG",
+   "ly_do": "dòng tiêu đề",
+   "dieu_khoan": "",
+   "chinh_ban_ve": "",
+   "nguon": [],
+   "vi_tri": [],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 19,
+   "tt": "4.1",
+   "noi_dung_thiet_ke": "",
+   "ket_luan": "KHONG_AP_DUNG",
+   "ly_do": "dòng tiêu đề",
+   "dieu_khoan": "",
+   "chinh_ban_ve": "",
+   "nguon": [],
+   "vi_tri": [],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 20,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Mặt bằng tổng thể cho thấy có đường BT hiện hữu (LG: 12m), đường vào KCN Minh Hưng III (LG: 50m). Có đường giao thông PCCC quanh công trình, bề rộng đường giao thông đảm bảo tối thiểu 3,5m (theo thuyết minh trang 2). Đường trên mặt bằng tổng thể (trang 1) có thể hiện bề rộng 6m và 25m từ tim đường.",
+   "ket_luan": "DAT",
+   "ly_do": "Chiều rộng đường giao thông PCCC theo thuyết minh đảm bảo tối thiểu 3,5m, phù hợp với quy định chiều rộng thông thủy không nhỏ hơn 3,5m.",
+   "dieu_khoan": "Đ 6.2.1.1, 6.2.2.3 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "",
+   "nguon": [
+    {
+     "trang": 1,
+     "ghi_chu": "MẶT BẰNG TỔNG THỂ L:1/100"
+    },
+    {
+     "trang": 2,
+     "ghi_chu": "Thuyết minh đường giao thông PCCC"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 2,
+     "anchor": "Bề rộng đường giao thông đảm bảo tối thiểu 3.5m"
+    }
+   ],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 21,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Theo thuyết minh trang 2: Phía trên đường cho xe chữa cháy không có các kết cấu chặn phía trên. Chiều cao thông thủy của đường cho xe chữa cháy lớn hơn 4.5m.",
+   "ket_luan": "DAT",
+   "ly_do": "Thiết kế không có kết cấu chặn phía trên, chiều cao thông thủy > 4,5m, thỏa mãn quy định.",
+   "dieu_khoan": "Đ 6.2.1.3 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "",
+   "nguon": [
+    {
+     "trang": 2,
+     "ghi_chu": "Thuyết minh đường giao thông PCCC"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 2,
+     "anchor": "Chiều cao thông thủy của đường cho xe chữa cháy lớn hơn 4.5m"
+    }
+   ],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 22,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Chiều cao PCCC của Khách sạn là 35.25 m (theo bảng Thống kê diện tích xây dựng trang 1 và 2). Khoảng cách từ mép đường giao thông PCCC tới tường ngoài (Khách sạn) không được ghi chú (dim) trực tiếp khoảng cách này trên bản vẽ mặt bằng tổng thể (trang 1). Bãi đỗ xe có khoảng cách 2-10m theo thuyết minh, nhưng khoảng cách từ mép đường thì không thấy dim rõ.",
+   "ket_luan": "CAN_XAC_NHAN",
+   "ly_do": "Chiều cao PCCC là 35,25 m (> 28 m), yêu cầu khoảng cách từ mép đường cho xe chữa cháy đến tường nhà không lớn hơn 10 m. Bản vẽ mặt bằng tổng thể chưa ghi kích thước (dim) khoảng cách này từ mép đường đến tường ngoài của Khách sạn.",
+   "dieu_khoan": "Đ 6.2.2.3 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "Bổ sung kích thước (dim) khoảng cách từ mép đường giao thông PCCC đến tường ngoài Khách sạn trên mặt bằng tổng thể (đảm bảo <= 10m).",
+   "nguon": [
+    {
+     "trang": 1,
+     "ghi_chu": "MẶT BẰNG TỔNG THỂ L:1/100"
+    },
+    {
+     "trang": 1,
+     "ghi_chu": "NỘI DUNG THÔNG TIN CÔNG TRÌNH"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 1,
+     "anchor": "MẶT BẰNG TỔNG THỂ L:1/100"
+    }
+   ],
+   "nhom": "kien_truc",
+   "khung": 1
+  },
+  {
+   "bang": "KT18",
+   "idx": 23,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Đường giao thông bao quanh công trình, có vẻ không phải là đường cụt dài hơn 46m. Tuy nhiên, bản vẽ không thể hiện chi tiết bãi quay xe hay thông tin cụ thể về đường cụt.",
+   "ket_luan": "CAN_XAC_NHAN",
+   "ly_do": "Bản vẽ mặt bằng tổng thể thể hiện đường giao thông bao quanh công trình, cần xác nhận lại có đoạn đường cụt nào dài hơn 46m hay không, nếu có cần bố trí bãi quay xe theo quy định.",
+   "dieu_khoan": "Đ 6.2.5, 6.4 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "",
+   "nguon": [
+    {
+     "trang": 1,
+     "ghi_chu": "MẶT BẰNG TỔNG THỂ L:1/100"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 1,
+     "anchor": "MẶT BẰNG TỔNG THỂ L:1/100"
+    }
+   ],
+   "nhom": "kien_truc",
+   "khung": 2
+  },
+  {
+   "bang": "KT18",
+   "idx": 24,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Không có thông tin về đường giao thông nhỏ hẹp chỉ đủ cho 1 làn xe chạy.",
+   "ket_luan": "CAN_XAC_NHAN",
+   "ly_do": "Cần xác nhận kích thước chiều rộng các đoạn đường giao thông xung quanh để đảm bảo không rơi vào trường hợp đường nhỏ hẹp 1 làn xe chạy, nếu có cần bố trí đoạn tránh xe.",
+   "dieu_khoan": "Đ 6.5 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "",
+   "nguon": [
+    {
+     "trang": 1,
+     "ghi_chu": "MẶT BẰNG TỔNG THỂ L:1/100"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 1,
+     "anchor": "MẶT BẰNG TỔNG THỂ L:1/100"
+    }
+   ],
+   "nhom": "kien_truc",
+   "khung": 3
+  },
+  {
+   "bang": "KT18",
+   "idx": 25,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Theo thuyết minh trang 2: Độ dốc của đường xe chữa cháy không vượt quá 1:8,3.",
+   "ket_luan": "DAT",
+   "ly_do": "Độ dốc đường xe chữa cháy thiết kế <= 1:8,3 phù hợp với quy định.",
+   "dieu_khoan": "Đ 6.2.4 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "",
+   "nguon": [
+    {
+     "trang": 2,
+     "ghi_chu": "Thuyết minh đường giao thông PCCC"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 2,
+     "anchor": "Độ dốc của đường xe chữa cháy không vượt quá 1:8,3"
+    }
+   ],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 26,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Theo thuyết minh trang 2: Đường giao thông chịu được tải trọng của xe chữa cháy theo yêu cầu thiết kế & phù hợp với chủng loại phương tiện của cơ quan Cảnh sát PCCC & CNCH (>= 30 tấn). Đánh dấu tất cả các góc của bãi đỗ xe chữa cháy và đường cho xe chữa cháy ngoại trừ những đường giao thông công cộng... Việc đánh dấu phải thực hiện bằng các dải sơn phản quang... Khoảng không từ bãi đỗ xe đến công trình đảm bảo thông thoáng không bị cản trở bởi cây xanh và các vật thể cố định khác. Tại các điểm đầu và điểm cuối của bãi đỗ xe chữa cháy có biển báo...",
+   "ket_luan": "DAT",
+   "ly_do": "Thiết kế đã có thuyết minh về tải trọng (>= 30 tấn), sự thông thoáng và đánh dấu (sơn phản quang, biển báo) cho đường và bãi đỗ xe chữa cháy theo quy định.",
+   "dieu_khoan": "Đ 6.2.7, 6.2.8, 6.2.9 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "",
+   "nguon": [
+    {
+     "trang": 2,
+     "ghi_chu": "Thuyết minh đường giao thông PCCC"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 2,
+     "anchor": "Thuyết minh đường giao thông PCCC"
+    }
+   ],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 27,
+   "tt": "4.2",
+   "noi_dung_thiet_ke": "",
+   "ket_luan": "KHONG_AP_DUNG",
+   "ly_do": "dòng tiêu đề",
+   "dieu_khoan": "",
+   "chinh_ban_ve": "",
+   "nguon": [],
+   "vi_tri": [],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 28,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Công năng công trình: Khách sạn (Nhóm F1.2), có chiều cao PCCC là 35,25 m (> 15 m). Theo Đ 6.2.2.3 QCVN 06:2022/BXD, nhà nhóm F1.2 có chiều cao PCCC > 15 m phải bố trí bãi đỗ xe chữa cháy. Bản vẽ (trang 1 và 2) có bố trí 01 bãi đỗ xe chữa cháy kích thước 6x20m.",
+   "ket_luan": "DAT",
+   "ly_do": "Nhà nhóm F1.2 có chiều cao PCCC > 15m đã được bố trí bãi đỗ xe chữa cháy theo quy định.",
+   "dieu_khoan": "Đ 6.2.2.3 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "",
+   "nguon": [
+    {
+     "trang": 1,
+     "ghi_chu": "NỘI DUNG THÔNG TIN CÔNG TRÌNH"
+    },
+    {
+     "trang": 1,
+     "ghi_chu": "MẶT BẰNG TỔNG THỂ L:1/100"
+    },
+    {
+     "trang": 2,
+     "ghi_chu": "Thuyết minh đường giao thông PCCC"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 1,
+     "anchor": "Khách sạn"
+    },
+    {
+     "trang": 1,
+     "anchor": "BÃI ĐỖ XE PCCC: (6x20m)"
+    }
+   ],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 29,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Khách sạn có chiều cao PCCC = 35.25m (> 28m). Kích thước bãi đỗ xe chữa cháy thiết kế là 6x20m (chiều rộng 6m).",
+   "ket_luan": "DAT",
+   "ly_do": "Đối với nhà nhóm F1.2 có chiều cao PCCC > 28m, yêu cầu chiều rộng bãi đỗ xe chữa cháy >= 6m. Thiết kế bãi đỗ có chiều rộng 6m là đạt.",
+   "dieu_khoan": "Đ 6.2.1.2, Bảng 14 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "",
+   "nguon": [
+    {
+     "trang": 2,
+     "ghi_chu": "Thuyết minh đường giao thông PCCC"
+    },
+    {
+     "trang": 1,
+     "ghi_chu": "NỘI DUNG THÔNG TIN CÔNG TRÌNH"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 2,
+     "anchor": "Có kích thước: (6 x 20)m"
+    }
+   ],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 30,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Khách sạn (nhóm F1.2), chiều cao PCCC 35.25m. Theo Bảng 15 QCVN 06:2022/BXD, chiều dài bãi đỗ xe chữa cháy đối với nhà nhóm F1.2 tính theo diện tích sàn cho phép tiếp cận. Bản vẽ thiết kế bãi đỗ xe chữa cháy có chiều dài 20m. Khách sạn có 11 tầng, diện tích xây dựng 468.39 m2. Chưa có số liệu cụ thể về diện tích sàn cho phép tiếp cận để so sánh theo Bảng 15. Thiết kế có sprinkler (theo bảng thông tin trang 2).",
+   "ket_luan": "CAN_XAC_NHAN",
+   "ly_do": "Cần số liệu tính toán diện tích sàn cho phép tiếp cận của Khách sạn (nhóm F1.2) để đối chiếu chiều dài bãi đỗ xe chữa cháy yêu cầu theo Bảng 15. Thiết kế bãi đỗ dài 20m cần xác minh lại với diện tích sàn tiếp cận lớn nhất.",
+   "dieu_khoan": "Đ 6.2.2.3, Bảng 15 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "Bổ sung thuyết minh tính toán diện tích sàn cho phép tiếp cận lớn nhất và xác định chiều dài bãi đỗ xe chữa cháy theo Bảng 15.",
+   "nguon": [
+    {
+     "trang": 1,
+     "ghi_chu": "NỘI DUNG THÔNG TIN CÔNG TRÌNH"
+    },
+    {
+     "trang": 2,
+     "ghi_chu": "BÃI ĐỖ XE CHỮA CHÁY"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 2,
+     "anchor": "Có kích thước: (6 x 20)m"
+    }
+   ],
+   "nhom": "kien_truc",
+   "khung": 4
+  },
+  {
+   "bang": "KT18",
+   "idx": 31,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Theo thuyết minh trang 2: Bãi đỗ xe chữa cháy bố trí cách công trình trong khoảng 2-10m. Tuy nhiên, trên mặt bằng tổng thể không thấy kích thước (dim) cụ thể từ mép bãi đỗ xe đến công trình (hay đến lối vào từ trên cao).",
+   "ket_luan": "CAN_XAC_NHAN",
+   "ly_do": "Mặc dù thuyết minh ghi khoảng cách từ 2-10m, nhưng trên mặt bằng tổng thể chưa ghi rõ khoảng cách thực tế đo được từ mép bãi đỗ xe đến mặt nhà/lối vào từ trên cao. Cần ghi kích thước trực tiếp trên bản vẽ.",
+   "dieu_khoan": "Đ 6.2.3 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "Ghi rõ kích thước (dim) khoảng cách từ mép bãi đỗ xe chữa cháy đến mặt ngoài công trình (lối vào từ trên cao) trên mặt bằng tổng thể (đảm bảo từ 2m đến 10m).",
+   "nguon": [
+    {
+     "trang": 1,
+     "ghi_chu": "MẶT BẰNG TỔNG THỂ L:1/100"
+    },
+    {
+     "trang": 2,
+     "ghi_chu": "Thuyết minh đường giao thông PCCC"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 2,
+     "anchor": "Bãi đỗ xe chữa cháy bố trí cách công trình trong khoảng 2-10m"
+    }
+   ],
+   "nhom": "kien_truc",
+   "khung": 5
+  },
+  {
+   "bang": "KT18",
+   "idx": 32,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Theo thuyết minh trang 2: Độ dốc bãi đỗ xe chữa cháy không dốc hơn 1:15.",
+   "ket_luan": "DAT",
+   "ly_do": "Độ dốc bãi đỗ xe chữa cháy thiết kế <= 1:15, phù hợp với quy định.",
+   "dieu_khoan": "Đ 6.2.4 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "",
+   "nguon": [
+    {
+     "trang": 2,
+     "ghi_chu": "Thuyết minh đường giao thông PCCC"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 2,
+     "anchor": "Độ dốc bãi đỗ xe chữa cháy không dốc hơn 1:15"
+    }
+   ],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 33,
+   "tt": "4.3",
+   "noi_dung_thiet_ke": "",
+   "ket_luan": "KHONG_AP_DUNG",
+   "ly_do": "dòng tiêu đề",
+   "dieu_khoan": "",
+   "chinh_ban_ve": "",
+   "nguon": [],
+   "vi_tri": [],
+   "nhom": "kien_truc"
+  },
+  {
+   "bang": "KT18",
+   "idx": 34,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Công năng là Khách sạn (nhóm F1.2), chiều cao PCCC 35.25m (> 15m đến 50m). Theo Đ 6.3.5, đối với nhà nhóm F1.2 có chiều cao PCCC từ trên 15 m đến 50 m, phải có lối vào từ trên cao ở tất cả các tầng trừ tầng 1 và phải nằm đối diện với bãi đỗ xe chữa cháy. Bản vẽ tổng thể và mặt bằng mái (nếu có) chưa thể hiện vị trí, số lượng lối vào từ trên cao.",
+   "ket_luan": "CAN_XAC_NHAN",
+   "ly_do": "Khách sạn nhóm F1.2 cao 35.25m cần bố trí lối vào từ trên cao ở các tầng (trừ tầng 1) đối diện bãi đỗ xe chữa cháy. Bản vẽ hiện tại chưa thể hiện hoặc không có thông tin về lối vào từ trên cao.",
+   "dieu_khoan": "Đ 6.3.5 QCVN 06:2022/BXD (sửa đổi 1:2023)",
+   "chinh_ban_ve": "Bổ sung thể hiện lối vào từ trên cao trên các bản vẽ mặt bằng tầng (trừ tầng 1) và mặt đứng, đối diện với bãi đỗ xe chữa cháy.",
+   "nguon": [
+    {
+     "trang": 1,
+     "ghi_chu": "NỘI DUNG THÔNG TIN CÔNG TRÌNH"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 1,
+     "anchor": "Khách sạn"
+    }
+   ],
+   "nhom": "kien_truc",
+   "khung": 6
+  },
+  {
+   "bang": "KT18",
+   "idx": 35,
+   "tt": "-",
+   "noi_dung_thiet_ke": "Bản vẽ chưa có thông tin về kích thước (rộng x cao), đặc điểm, đánh dấu của lối vào từ trên cao.",
+   "ket_luan": "CAN_XAC_NHAN",
+   "ly_do": "Chưa có thông tin hoặc bản vẽ chi tiết thể hiện lối vào từ trên cao (kích thước >= 850x1000mm, cao độ, biển báo, không bị cản trở) theo quy định.",
+   "dieu_khoan": "Đ 6.3.1 đến 6.3.4 QCVN 06:2022/BXD",
+   "chinh_ban_ve": "Bổ sung chi tiết cấu tạo, kích thước và ghi chú đánh dấu lối vào từ trên cao trên bản vẽ kiến trúc.",
+   "nguon": [
+    {
+     "trang": 1,
+     "ghi_chu": "MẶT BẰNG TỔNG THỂ L:1/100"
+    }
+   ],
+   "vi_tri": [
+    {
+     "trang": 1,
+     "anchor": "MẶT BẰNG TỔNG THỂ L:1/100"
+    }
+   ],
+   "nhom": "kien_truc",
+   "khung": 7
+  }
+ ],
+ "loi_job": [],
+ "ngay": "2026-10-22T14:34:15.629Z"
+}
