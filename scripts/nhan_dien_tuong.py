@@ -2,7 +2,7 @@
 Tường = nét đen đậm (>= 0,5 pt), mảng gạch chéo xám trong tường, cột tô đen (cạnh 0,2–1,2 m); bỏ nét đứt (trục, đường cắt).
 Khép khe cửa/cửa sổ <= 2 x r_khe bằng cách nở nét tường r_khe (phép đóng không lấp được khe giữa hai đầu nét mảnh), rồi chia mặt bằng thành vùng kín. Mỗi vùng:
 - ngoài khuôn nhà (khuôn = tường nở r_khuon, lấp kín trong, co lại): ngoài nhà;
-- có chữ RAM, TAM CẤP (cả vùng) hoặc WC, VỆ SINH, THANG MÁY, BTB, HỘP KT/GEN trong vùng < dt_phong m²: không lắp; vùng lớn hơn (vách mảnh không khép) chỉ loại quanh chữ (WC 1,2 m, thang 2,5 m);
+- có chữ RAM, TAM CẤP (cả vùng) hoặc WC, VỆ SINH, THANG MÁY, BTB, HỘP KT/GEN trong vùng < dt_phong m²: không lắp; vùng lớn hơn (vách mảnh không khép) chỉ loại quanh chữ (WC 1,5 m, thang 2,5 m);
 - vùng < dt_kin m² không có chữ nào và không có cung cửa: khoảng kín (đất đắp, hộp kỹ thuật), không lắp.
 Dùng: from nhan_dien_tuong import MatBang; mb = MatBang(page, S_pt_moi_m); ok, ly_do = mb.lap_duoc((x_pt, y_pt))
 Tự kiểm: python -I scripts/nhan_dien_tuong.py --tu-kiem   |   Xem vùng: python -I scripts/nhan_dien_tuong.py <pdf> <trang> <ra.png>
@@ -109,7 +109,7 @@ class MatBang:
             return False, i['khong_lap']
         for c, t in self.chu:  # vùng lớn chứa chữ WC, thang… (vách mảnh không nhận là tường): chỉ loại quanh chữ
             m = KHONG_LAP.search(t)
-            r = 1.2 if m and re.match(r'W|V', m.group(0), re.I) else 2.5  # WC ~ 1,5 x 2 m; buồng thang lớn hơn
+            r = 1.5 if m and re.match(r'W|V', m.group(0), re.I) else 2.5  # WC ~ 1,5 x 2 m (góc cách chữ ~1,3 m); buồng thang lớn hơn
             if m and np.hypot(pt[0] - c[0], pt[1] - c[1]) < r * self.S and self._vung(c) == v:
                 return False, f'gần chữ {m.group(0)}'
         return True, f"trong nhà (vùng {i['dt']:.0f} m²)"
