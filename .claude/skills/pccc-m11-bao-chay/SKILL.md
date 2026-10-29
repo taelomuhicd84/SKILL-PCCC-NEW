@@ -15,6 +15,7 @@ description: Thẩm định PCCC – Mục 11 – Báo cháy. Đối tượng ph
 - `skills/MOD_dau_bao_khoi_khoang_dam.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m11-bao-chay.md`
+- `knowledge/hoc/du-an/m11-bao-chay.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)

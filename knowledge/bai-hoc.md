@@ -96,3 +96,15 @@ Người dùng chỉ ra khi xem hồ sơ nhà kho Liên Minh: bỏ sót khoảng
 
 ## Bài học 30 (2026-10-27): giáp ranh đất / khoảng cách PCCC không đủ hoặc không ghi chú
 Nội dung đầy đủ ở `knowledge/giap-ranh-khoang-cach-pccc.md` (m03, m06, sơ bộ thiết kế nạp file đó). Tóm tắt: thẩm định = CHƯA ĐẠT + khoanh + hướng dẫn; sơ bộ = khoanh + hướng dẫn.
+
+## Bài học 31 (2026-10-29): sprinkler có dầm phải bố trí trong từng khoang dầm
+Người dùng dạy: trần phẳng thì bố trí đầu phun theo lưới bình thường; có dầm, vì kèo, cấu kiện nhô ra > 0,3 m (K0, K1) hoặc > 0,2 m (K2, K3) thì phải bố trí đầu phun trong từng khoang dầm (TCVN 7336:2021 5.2.11); ống, thiết bị, sàn thao tác ngang/xiên rộng hoặc đường kính > 0,75 m ở cao ≥ 0,7 m so với sàn cản tia phun thì bổ sung đầu bên dưới (5.2.15). Thẩm định (m12): không thể hiện thì hướng dẫn thể hiện rõ, thiết kế bổ sung đầu phun theo 5.2.11, 5.2.15; chưa có mặt bằng dầm thì CẦN XÁC NHẬN chiều cao dầm.
+
+## Bài học 32 (2026-10-29): hội trường đãi tiệc trong khách sạn là nhà hàng, nhóm 1
+Xếp nhóm nguy cơ sprinkler (TCVN 7336 Phụ lục A) theo công năng thật, không theo chữ "hội trường": hội trường đãi tiệc, phòng tiệc trong khách sạn dùng để ăn uống → giống nhà hàng, nhóm 1 (i 0,08, S 60, Q 10 l/s). Chỉ xếp nhóm 2 (trung tâm hội nghị, tổ chức sự kiện) khi công năng chính là hội nghị, hội thảo, biểu diễn. Ca nguồn: KS Hoàng Hùng T2.
+
+## Bài học 33 (2026-10-29): ống chính sprinkler mỗi tầng phải mạch vòng, trừ công trình nhỏ
+Người dùng chốt: tùy quy mô; công trình lớn không làm mạch cụt. Cho phép cụt ở nhánh trong tầng, còn ống chính từ trục đứng đi ra phải nối vòng. Mạch cụt cả tầng chỉ chấp nhận cho công trình nhỏ (~100 m²/tầng, 7–8 tầng). Thẩm định (m12): công trình lớn mà ống chính tầng cụt thì hướng dẫn nối vòng; tính thủy lực theo TCVN 7336 B.2.12 (mỗi nửa vòng ½ Q). Ca nguồn: KS Hoàng Hùng (454 m²/tầng, 11 tầng).
+
+## Bài học 34 (2026-10-29): báo cháy không đóng trần, mỗi khoang dầm một đầu báo
+Người dùng chốt: không đóng trần thì đầu báo lắp dưới sàn/dầm; dầm nối các cột chia khoang, mỗi khoang một đầu báo ở giữa (dầm sâu ≥ 0,3 m, ô ≥ 4 m², h < 4 m; dầm sâu > 0,4 m: b ≥ 0,75 m thêm đầu dưới dầm, b < 0,75 m giảm diện tích bảo vệ 40 %, TCVN 7568-14). Phòng dài qua nhiều khoang thì mỗi khoang một đầu. Thiếu mặt bằng dầm: giả định dầm khung 600x300 nối cột, dầm phụ 300, ghi rõ giả định; cột chỉ ở trục có cột. Bỏ buồng thang, giếng thang máy, sân thượng hở. Ca nguồn: KS Hoàng Hùng (ảnh `ket_qua/hoang_hung_bao_chay/`; chưa kiểm khoảng cách tối đa tới tường, chưa có tủ trung tâm/chuông/nút ấn).

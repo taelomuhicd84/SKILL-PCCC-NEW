@@ -2,13 +2,14 @@
 // cùng logic với bang_tinh/thuy_luc/MAU_THUY_LUC_7336.xlsx (khóa số liệu trùng o_nhap.json để xuất Excel).
 // Đơn vị: Q l/s, P MPa, L m, DN mm, KT l6/s2. Ba việc: tinhThuyLuc (kiểm/tính theo bản vẽ), soBoThuyLuc (chỉ có mặt bằng), toiUuThuyLuc (so phương án).
 
-export interface Doan { dn: number; l: number; kt?: number; ca?: boolean } // kt: ghi đè KT (vd ống hàn điện); ca: đoạn vòng mang cả lưu lượng (không chia đôi)
+export interface Doan { dn: number; l: number; kt?: number; ca?: boolean; nut?: string } // nut: nhãn nút theo bản vẽ (vd "1-2"), bỏ trống thì Excel tự đánh; kt: ghi đè KT (vd ống hàn điện); ca: đoạn vòng mang cả lưu lượng (không chia đôi)
 export interface HongNuoc { so_tia: number; q_tia: number; q_tia_h6?: number; // q_tia: Bảng H.7 (bơm, bể); q_tia_h6: Bảng H.6 (QBmin)
   P_lang: number; L_voi: number; Kp: number; L_1?: number; A_1?: number; L_2?: number; A_2?: number }
 export interface SoLieuThuyLuc {
   K_gpm?: number; K?: number; // K đầu phun: gpm/psi^0,5 hoặc l/(s·MPa^0,5) dạng q = K√P (= 10·K của B.2.2)
   q1: number; Q_min: number; Z: number; PH?: number; Q_ngoai_nha?: number;
   hang_cuoi?: { nhanh_trai: Doan[]; nhanh_phai?: Doan[] }; // hàng cuối của vùng tính chỉ lấy một phần đầu (các đầu gần nút nhất), xem chonSoDau
+  hang_rieng?: { chi_so: number; nhanh_trai: Doan[]; nhanh_phai?: Doan[] }[]; // hàng có cấu trúc khác hàng I (chi_so = chỉ số đoạn ống chính dẫn tới hàng đó: 0 = hàng II), vd hàng I thiếu đầu vì vướng ram dốc
   P_van?: number; // HCB2 (tập huấn C07): tổn thất cụm van báo động/van tín hiệu/van cổng theo catalogue, MPa
   vt_rieng?: boolean; // Excel H182 "SP và VT riêng": họng vách tường mạch riêng, ống sprinkler chỉ mang Q sprinkler, QVT cộng ở bơm
   nhom?: string; // Excel H6 "Nhóm 1"…"Nhóm 7": diện tích bảo vệ 1 đầu 12 m2 (nhóm 1–3) hoặc 9 m2
@@ -111,14 +112,14 @@ export function tinhThuyLuc(sl: SoLieuThuyLuc) {
   const nd = nhanDienMang(sl);
   const h0 = hangNhanh(K, P1, sl.nhanh_trai, sl.nhanh_phai, nd.mot_phia, nd.doi_xung);
   const { trai, PA, QI, Bp } = h0;
-  let Bc = Bp; // hàng cuối thiếu đầu có đặc tính riêng
-  if (sl.hang_cuoi) {
-    const c = sl.hang_cuoi, mot = nd.mot_phia || !c.nhanh_phai?.length;
-    Bc = hangNhanh(K, P1, c.nhanh_trai, c.nhanh_phai, mot, !mot && giongNhau(c.nhanh_trai, c.nhanh_phai!)).Bp;
-  }
+  const bpHang = (c: { nhanh_trai: Doan[]; nhanh_phai?: Doan[] }, mot: boolean) => hangNhanh(K, P1, c.nhanh_trai, c.nhanh_phai, mot, !mot && giongNhau(c.nhanh_trai, c.nhanh_phai!)).Bp;
+  const bpRieng = new Map((sl.hang_rieng ?? []).map((c) => [c.chi_so, bpHang(c, !c.nhanh_phai?.length)] as const)); // Bp không phụ thuộc áp khởi đầu
+  const cuoi = sl.ong_chinh.length - 1;
+  if (sl.hang_cuoi) bpRieng.set(cuoi, bpHang(sl.hang_cuoi, nd.mot_phia || !sl.hang_cuoi.nhanh_phai?.length)); // hàng cuối thiếu đầu có đặc tính riêng
+  const Bc = bpRieng.get(cuoi) ?? Bp;
   let Q = QI, P = PA;
   const hang = [{ Q: QI, P: PA }];
-  sl.ong_chinh.forEach((d, i) => { P += tonThat(Q, d); Q += Math.sqrt((i === sl.ong_chinh.length - 1 ? Bc : Bp) * P); hang.push({ Q, P }); }); // B.2.10.10–13
+  sl.ong_chinh.forEach((d, i) => { P += tonThat(Q, d); Q += Math.sqrt((bpRieng.get(i) ?? Bp) * P); hang.push({ Q, P }); }); // B.2.10.10–13
   const Qsp = Q, Pvung = P;
   const h = sl.hong;
   const QVT = h ? h.so_tia * h.q_tia : 0;

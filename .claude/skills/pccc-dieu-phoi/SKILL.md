@@ -11,6 +11,7 @@ Claude chính là người điều phối; không tự làm hết, giao đúng c
 | Đưa PDF bản vẽ, hỏi về một hạng mục (vd. thang thoát nạn loại gì, có đạt không, giải pháp) | Skill `phan-tich-ban-ve`: xác định loại → kiểm tra bằng tri thức đã học → giải pháp nếu không đạt. |
 | Sơ bộ thiết kế PCCC (đường xe chữa cháy, bãi đỗ, thoát nạn, bảng thông tin PCCC) | Agent/skill `pccc-so-bo-thiet-ke`. |
 | Tính thủy lực sprinkler/họng nước: kiểm bảng tính Excel, tính theo bản vẽ, sơ bộ khi chỉ có mặt bằng, tối ưu phương án, xuất Excel | Agent/skill `pccc-thuy-luc` (CLI `npx tsx scripts/thuy_luc.ts tinh|so-bo|toi-uu … --excel ra.xlsx`, Excel mẫu `bang_tinh/thuy_luc/`). |
+| Xong một dự án / người dùng sửa, chốt cách làm / "học từ dự án X" | Agent/skill `pccc-hoc-du-an`: rút bài học từ chỗ người dùng sửa, kiểm (`npx tsx runner/src/hoc_du_an.ts kiem`), ghi vào `knowledge/hoc/du-an/<agent>.md` của đúng hạng mục, rồi `npm run gen:claude`. |
 | Thêm tài liệu để học | Bỏ file vào thư mục học tập, rồi tab "Tự học" hoặc runner `batDauHoc` (xem ROADMAP). Checklist và khái niệm tự cập nhật. |
 | Câu hỏi có "NÊN HỌC: …" từ agent hỏi đáp | Rút khái niệm đó từ toàn văn (`runner/cache/van_ban/`) vào `knowledge/hoc/khai-niem/`. |
 

@@ -13,6 +13,7 @@ description: Thẩm định PCCC – Mục 14 – Chiếu sáng sự cố, chỉ
 - `knowledge/qcvn10-2025-den-loa.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m14-den-su-co.md`
+- `knowledge/hoc/du-an/m14-den-su-co.md`
 - Điều khoản chưa nạp (vd. nghị định về diện thẩm duyệt, TCVN 7336, TCVN 13456): dùng cột "Quy định" của dòng bảng; không có thì CAN_XAC_NHAN.
 
 ## Nguyên tắc (bắt buộc)

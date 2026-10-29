@@ -64,18 +64,19 @@ if (ra) { writeFileSync(ra, JSON.stringify(soLieu, null, 2)); console.log(`Đã 
 if (excel) {
   // Khóa không có trong o_nhap.json (kt, ca, PH, K) chỉ dùng cho tính; bỏ trước khi ghi Excel.
   const { K, PH, ...x } = soLieu;
-  const sach = (ds?: { dn: number; l: number }[]) => ds?.map(({ dn, l }) => ({ dn, l }));
+  const sach = (ds?: { dn: number; l: number; nut?: string }[]) => ds?.map(({ dn, l, nut }) => (nut ? { dn, l, nut } : { dn, l }));
   const json = { ...x, nhanh_trai: sach(x.nhanh_trai), nhanh_phai: sach(x.nhanh_phai), ong_chinh: sach(x.ong_chinh), vong: vongMau(x.vong ?? []) };
   const nd = nhanDienMang(soLieu);
   json.doi_xung = nd.doi_xung && !nd.mot_phia ? "Đối xứng với nhánh phải" : "Không đối xứng với nhánh phải";
   json.so_nhanh = nd.mot_phia ? "1 nhánh" : "2 nhánh";
   if (nd.mot_phia) json.nhanh_phai = [];
   delete json.mot_phia;
-  if (x.hang_cuoi) { // hàng cuối thiếu đầu: đoạn ống vào phụ lục Excel (dòng 212–229), Bp hàng cuối trỏ về J229
-    json.hang_cuoi_trai = sach(x.hang_cuoi.nhanh_trai);
-    json.hang_cuoi_phai = sach(x.hang_cuoi.nhanh_phai) ?? [];
-    json.hang_cuoi_bp = { chi_so: x.ong_chinh.length - 1 };
-    delete json.hang_cuoi;
+  if (x.hang_cuoi || x.hang_rieng) { // hàng có cấu trúc riêng (thiếu đầu): xuat_thuy_luc_excel.py chèn dòng tính ngay tại nút hàng đó (Excel COM)
+    const cuoi = x.ong_chinh.length - 1;
+    const ds = (x.hang_rieng ?? []).filter((h) => !(x.hang_cuoi && h.chi_so === cuoi)).map((h) => ({ chi_so: h.chi_so, trai: sach(h.nhanh_trai), phai: sach(h.nhanh_phai) ?? [] }));
+    if (x.hang_cuoi) ds.push({ chi_so: cuoi, trai: sach(x.hang_cuoi.nhanh_trai), phai: sach(x.hang_cuoi.nhanh_phai) ?? [] });
+    json.hang_rieng_bp = ds;
+    delete json.hang_cuoi; delete json.hang_rieng;
   }
   json.mach_vt = soLieu.vt_rieng ? "SP và VT riêng" : "SP + VT chung";
   delete json.vt_rieng;

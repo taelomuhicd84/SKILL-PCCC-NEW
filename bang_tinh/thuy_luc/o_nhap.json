@@ -15,12 +15,12 @@
   "mach_vt": {"o": "H182", "ghi": "'SP + VT chung' (họng vách tường đi chung ống sprinkler: QVT cộng vào ống vòng/cụt, so áp PVT tại nút) hoặc 'SP và VT riêng' (ống sprinkler chỉ mang Q sprinkler, QVT cộng ở bơm I203)"},
   "Z": {"o": "L200", "dv": "MPa", "ghi": "Chênh cao đầu phun chủ đạo so với trục bơm, H/100"},
   "nhanh_trai": [
-    {"e": "E62", "dn": "F62", "l": "I62"}, {"e": "E65", "dn": "F65", "l": "I65"}, {"e": "E68", "dn": "F68", "l": "I68"},
-    {"e": "E71", "dn": "F71", "l": "I71"}, {"e": "E74", "dn": "F74", "l": "I74"}
+    {"b": "B62", "dn": "F62", "l": "I62"}, {"b": "B65", "dn": "F65", "l": "I65"}, {"b": "B68", "dn": "F68", "l": "I68"},
+    {"b": "B71", "dn": "F71", "l": "I71"}, {"b": "B74", "dn": "F74", "l": "I74"}
   ],
   "nhanh_phai": [
-    {"e": "E77", "dn": "F77", "l": "I77"}, {"e": "E80", "dn": "F80", "l": "I80"}, {"e": "E83", "dn": "F83", "l": "I83"},
-    {"e": "E86", "dn": "F86", "l": "I86"}
+    {"b": "B77", "dn": "F77", "l": "I77"}, {"b": "B80", "dn": "F80", "l": "I80"}, {"b": "B83", "dn": "F83", "l": "I83"},
+    {"b": "B86", "dn": "F86", "l": "I86"}
   ],
   "ong_chinh": [
     {"dn": "F101", "l": "I101"}, {"dn": "F109", "l": "I109"}, {"dn": "F117", "l": "I117"}, {"dn": "F125", "l": "I125"},
@@ -28,7 +28,7 @@
   ],
   "hong": {
     "so_tia": {"o": "I160", "ghi": "QCVN 10:2025 Bảng H.5/H.6"},
-    "q_tia_h6": {"o": "K160", "dv": "l/s", "ghi": "Lưu lượng 1 tia theo Bảng H.6 (thường 2,5), QHR = số tia × q_tia_h6 dùng cho QBmin H18"},
+    "q_tia_h6": {"o": "H18", "cong_thuc": "=I160*{}", "dv": "l/s", "ghi": "Lưu lượng 1 tia theo Bảng H.6 (thường 2,5): ghi vào công thức QBmin H18 = I160 × q_tia_h6"},
     "q_tia": {"o": "I161", "dv": "l/s", "ghi": "Lưu lượng lăng tra Bảng H.7 theo chiều cao tia đặc cần (thường 2,6), dùng cho bơm và bể; số tia theo H.5/H.6"},
     "P_lang": {"o": "I163", "dv": "MPa", "ghi": "Áp lăng phun (Bảng H.7, đã gồm cuộn vòi 10/15/20 m)"},
     "DN_voi": {"o": "I164", "dv": "mm"},
@@ -41,13 +41,7 @@
     "L_2": {"o": "I177", "dv": "m"},
     "A_2": {"o": "I179", "dv": "s2/l6"}
   },
-  "hang_cuoi_trai": [
-    {"dn": "D215", "l": "E215"}, {"dn": "D216", "l": "E216"}, {"dn": "D217", "l": "E217"}, {"dn": "D218", "l": "E218"}, {"dn": "D219", "l": "E219"}
-  ],
-  "hang_cuoi_phai": [
-    {"dn": "D220", "l": "E220"}, {"dn": "D221", "l": "E221"}, {"dn": "D222", "l": "E222"}, {"dn": "D223", "l": "E223"}
-  ],
-  "_hang_cuoi_ghi": "Phụ lục dòng 212–229: đoạn ống các đầu hàng cuối thiếu đầu (C07), từ đầu xa nút tới nút; Bp tính ở J229, ô J (Bp1) của nút hàng cuối trỏ =$J$229",
+  "_hang_cuoi_ghi": "Hàng cuối thiếu đầu (C07): khóa hang_cuoi_bp {chi_so, trai, phai} trong so_lieu; xuat_thuy_luc_excel.py gọi scripts/chen_hang_cuoi.ps1 (Excel COM) chèn dòng tính ngay tại nút hàng cuối, Bp1 của nút trỏ về các dòng đó",
   "vong": [
     {"dn": "F184", "l": "I184"}, {"dn": "F187", "l": "I187"}, {"dn": "F190", "l": "I190"}, {"dn": "F193", "l": "I193"}
   ]

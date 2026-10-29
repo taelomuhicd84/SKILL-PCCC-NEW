@@ -62,11 +62,8 @@ def o_tu_so_lieu(sl, ban_do):
         if k == 'o':
             o.update(v)
             continue
-        if k == 'hang_cuoi_bp':  # hàng cuối thiếu đầu: Bp (ô J) của khối ống chính cuối trỏ về phụ lục J229, nhãn ở cột B cùng dòng
-            j = 105 + 8 * v['chi_so'] if v['chi_so'] < 6 else 154
-            o[f'J{j}'] = '=$J$229'
-            o[f'B{j}'] = '="Hàng cuối chỉ lấy "&COUNT(D215:D223)&" đầu gần nút nhất (tập huấn C07): Bp riêng tính ở phụ lục dòng 212–229 = "&ROUND(J229,2)'
-            if v['chi_so'] == 0:
+        if k in ('hang_cuoi_bp', 'hang_rieng_bp'):  # hàng có cấu trúc riêng: chèn dòng tính sau khi ghi (chen_hang_cuoi.ps1); hàng II thì F106 dùng Bp J105
+            if any(h['chi_so'] == 0 for h in (v if isinstance(v, list) else [v])):
                 o['F106'] = '=ROUND(SQRT(J105*L101),2)'
             continue
         if k not in ban_do or k.startswith('_'):
@@ -78,15 +75,15 @@ def o_tu_so_lieu(sl, ban_do):
         elif isinstance(bd, list):  # dãy đoạn ống: phần thiếu thì xóa để chuỗi dừng
             for i, hang in enumerate(bd):
                 d = v[i] if i < len(v) else None
-                if 'e' in hang:
-                    o[hang['e']] = (i + 1) if d else None
+                if 'b' in hang and d and d.get('nut'):  # nhãn nút theo bản vẽ; không có thì giữ công thức tự đánh của mẫu
+                    o[hang['b']] = str(d['nut'])
                 o[hang['dn']] = d['dn'] if d else None
                 o[hang['l']] = d['l'] if d else None
         elif isinstance(bd, dict):  # nhóm ô (vd họng nước)
             for kk, vv in v.items():
                 if kk not in bd:
                     raise SystemExit(f'Không có khóa "{k}.{kk}" trong o_nhap.json')
-                o[bd[kk]['o']] = vv
+                o[bd[kk]['o']] = bd[kk]['cong_thuc'].format(vv) if 'cong_thuc' in bd[kk] else vv
     return o
 
 
@@ -125,4 +122,17 @@ if __name__ == '__main__':
     sl = json.load(open(a[0], encoding='utf-8'))
     o = o_tu_so_lieu(sl, json.load(open(O_NHAP, encoding='utf-8')))
     xuat(o, a[1], mau)
+    import subprocess
+
+    def ps(ten, *ts):  # bước hoàn thiện bằng Excel COM (cần Excel trên máy)
+        r = subprocess.run(['powershell', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', os.path.join(GOC, 'scripts', ten), os.path.abspath(a[1]), *ts],
+                           capture_output=True, text=True, encoding='utf-8', errors='replace')
+        print(r.stdout.strip(), r.stderr.strip())
+        if r.returncode:
+            raise SystemExit(f'{ten} lỗi (cần Excel trên máy)')
+    ds = lambda L: ';'.join(f"{d['dn']}:{d['l']}" + (f":{d['nut']}" if d.get('nut') else '') for d in L or [])
+    hr = sl.get('hang_rieng_bp') or ([sl['hang_cuoi_bp']] if sl.get('hang_cuoi_bp') else [])
+    for hc in sorted(hr, key=lambda h: -h['chi_so']):  # chèn từ dưới lên: dòng phía trên không bị dời
+        ps('chen_hang_cuoi.ps1', str(105 + 8 * hc['chi_so'] if hc['chi_so'] < 6 else 154), ds(hc['trai']), ds(hc.get('phai')))
+    ps('hoan_thien_excel.ps1')  # hiện dòng có số liệu, ẩn dòng trống/#N/A
     print(f'Đã ghi {len(o)} ô vào {a[1]}. Mở bằng Excel để tính lại.')

@@ -27,4 +27,11 @@ describe("chọn số đầu vùng tính", () => {
     expect(r.chon!.Qsp).toBeGreaterThanOrEqual(30);
     expect(r.phuong_an.filter((p) => p.n < r.chon!.n).every((p) => !p.dat)).toBe(true);
   });
+  it("hang_rieng: hàng II cấu trúc như hàng I cho cùng kết quả; hàng II ít đầu cho Q nhỏ hơn", () => {
+    const hai = tinhThuyLuc(goc);
+    const giong = tinhThuyLuc({ ...goc, hang_rieng: [{ chi_so: 0, nhanh_trai: goc.nhanh_trai, nhanh_phai: goc.nhanh_phai }] });
+    expect(giong.Qsp).toBeCloseTo(hai.Qsp, 6);
+    const it = tinhThuyLuc({ ...goc, hang_rieng: [{ chi_so: 0, nhanh_trai: goc.nhanh_trai.slice(2) }] });
+    expect(it.Qsp).toBeLessThan(hai.Qsp);
+  });
 });
