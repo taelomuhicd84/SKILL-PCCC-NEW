@@ -121,7 +121,7 @@ export function tinhThuyLuc(sl: SoLieuThuyLuc) {
   const hang = [{ Q: QI, P: PA }];
   sl.ong_chinh.forEach((d, i) => { P += tonThat(Q, d); Q += Math.sqrt((bpRieng.get(i) ?? Bp) * P); hang.push({ Q, P }); }); // B.2.10.10–13
   const Qsp = Q, Pvung = P;
-  const h = sl.hong;
+  const h = sl.hong && hongMacDinh(sl.hong); // L_voi hoặc Kp bằng 0 thì lấy mặc định (20 m, 0,012) thay vì tổn thất cuộn vòi = 0
   const QVT = h ? h.so_tia * h.q_tia : 0;
   const PVT = h ? h.P_lang + (h.L_voi * h.q_tia ** 2 * h.Kp + ((h.A_1 ?? 0) * (h.L_1 ?? 0) + (h.A_2 ?? 0) * (h.L_2 ?? 0)) * h.q_tia ** 2) / 100 : 0;
   // Vòng/ống tới bơm: lưu lượng (sprinkler + họng) chia đôi mỗi nửa vòng (B.2.12); họng là nhánh song song: áp nút lấy max, không cộng.
@@ -169,6 +169,9 @@ const lenDn = (dn: number) => DN.find((x) => x > dn) ?? dn;
 /** TCVN 7336 Bảng B.3 (áp đến 0,5 MPa): DN theo số đầu phun đoạn ống mang. */
 export const dnTheoSoDau = (n: number) => (n <= 2 ? 25 : n <= 3 ? 32 : n <= 5 ? 40 : n <= 10 ? 50 : n <= 20 ? 65 : n <= 36 ? 80 : n <= 75 ? 100 : n <= 140 ? 125 : 150);
 
+/** Cuộn vòi họng vách tường (người dùng dặn 2026-10-29): bản vẽ thiết kế có bán kính phục vụ của tủ vách tường thì lấy số đó làm chiều dài cuộn vòi; chỉ có mặt bằng chưa thiết kế PCCC (làm sơ bộ) thì tự chọn 20 m hoặc 40 m cho thuận tiện. Kp mặc định 0,012 (vòi DN50, TCVN 4513-1988 mục 6.19, như mẫu Excel); L_voi hoặc Kp = 0 là thiếu số liệu, không để 0. */
+export const hongMacDinh = (h: HongNuoc, banKinhTu?: number): HongNuoc => ({ ...h, L_voi: h.L_voi > 0 ? h.L_voi : banKinhTu ?? 20, Kp: h.Kp > 0 ? h.Kp : 0.012 });
+
 export interface MatBang {
   nhom: string; cao_phong: number; K_gpm?: number; khoang_cach?: number; dau_moi_nhanh?: number;
   L_ong_chinh_den_bom: number; Z_m: number; PH?: number; hong?: HongNuoc; vong?: boolean;
@@ -194,7 +197,7 @@ export function soBoThuyLuc(mb: MatBang) {
     : [{ dn: dnChinh, l: mb.L_ong_chinh_den_bom, ca: true }];
   const sl: SoLieuThuyLuc = {
     K_gpm: mb.K_gpm ?? 8, q1: +(ts.i * om).toFixed(3), Q_min: ts.Q, Z: mb.Z_m / 100, PH: mb.PH,
-    doi_xung: "Đối xứng với nhánh phải", nhanh_trai: nhanhDoan, ong_chinh: ong, vong, hong: mb.hong,
+    doi_xung: "Đối xứng với nhánh phải", nhanh_trai: nhanhDoan, ong_chinh: ong, vong, hong: mb.hong && hongMacDinh(mb.hong),
     S: ts.S, i_min: ts.i, n: 2 * m * soHang, nhom: `Nhóm ${mb.nhom}`,
     mo_ta: `Sơ bộ: nhóm nguy cơ phát sinh cháy ${mb.nhom} (TCVN 7336 Phụ lục A), phòng cao ${mb.cao_phong} m; số liệu ước lượng, chờ bản vẽ`,
   };

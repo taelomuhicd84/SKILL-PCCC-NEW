@@ -7,6 +7,8 @@ File này Claude cập nhật. Mỗi lần tôi bảo "cập nhật từ github"
 3. **Lần sau: vẽ hướng dẫn lên bản vẽ cho bot chat mục 7.** Hôm nay mới làm sơ bộ con bot (chat Claude/Gemini, khoanh khung đề xuất, kéo thả PDF); chưa hướng dẫn kỹ bằng cách vẽ lên bản vẽ (bãi đỗ, làn xe, bãi quay xe, tuyến thoát nạn góc vuông ghi L từng đoạn, chú giải, khung tính toán). Hãy cố vẽ vào lần sau. Sau đó làm báo cáo khảo sát và báo giá dựa trên bot.
 4. **Định nghĩa lại buồng thang xoắn và thang rẽ quạt bằng hình ảnh và mô tả** (chưa làm). Hiện `skills/MOD_cau_thang_buong_thang.md` (3.4.4) chỉ có điều kiện bằng chữ về thang cong, bậc chéo, rẻ quạt; cần bổ sung phần định nghĩa nhận dạng trên bản vẽ (hình minh hoạ + mô tả): thế nào là thang xoắn, thế nào là thang rẽ quạt, khác thang 2 vế thường ra sao, rồi nối vào Bài học 26 (xét từng thang trước khi đếm lối thoát nạn). Lần sau: người dùng đưa hình, Claude viết định nghĩa vào skill và `dinh-nghia`.
 
+5. **SÁNG 2026-10-31, làm ngay: thư viện bản vẽ tham khảo dạng chữ.** Bạn có kho bản vẽ thẩm duyệt và thẩm định; chuyển mỗi bản thành thẻ chữ + mục lục (chi tiết ở đầu `TIEN_DO.md`). Claude nhắc bạn đầu phiên. LUẬT: quy định cũ (NĐ 136/2020, NĐ 50/2024, TCVN 3890, TCVN 5687:2010, QCVN 06 chưa sửa đổi…) chỉ coi là "cách thể hiện"; điều khoản chỉ lấy theo luật mới hiện hành (NĐ 105/2025 + NĐ 347/2026, QCVN 06 hợp nhất, QCVN 10:2025/BCA, TCVN 7336:2021). Mỗi lô bản vẽ bạn đưa vào, Claude sẽ hỏi năm thiết kế và văn bản căn cứ.
+
 ## Chạy dự án
 - Bấm đúp `chay.bat` → http://127.0.0.1:8787 (runner + web trong một). Web ra bản mới sau `npm run build`, runner phải bật lại sau khi sửa `runner/`.
 - Kéo code từ GitHub: bảo Claude "cập nhật từ github" (hoặc `bash scripts/cap_nhat_github.sh`).

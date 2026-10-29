@@ -1,6 +1,7 @@
 # MODULE: Đầu báo cháy khói trong khoang dầm (TCVN 7568-14:2025, 5.9.1.1.6)
 Mở khi kiểm tra bố trí đầu báo cháy khói kiểu điểm (và khói kiểu hút, cùng Hình 4) trên trần có dầm. Dùng để (1) thẩm: ghi kết luận và ghi chú; (2) hướng dẫn thiết kế: nói cho đúng cách đặt.
 Nguồn điều khoản: `knowledge/tcvn7568-14-2025.md`. Sơ đồ minh hoạ 6 trường hợp: file "6TH BC 7568-142025.pdf" (Sugar MEPF, N. Duong), cùng nội dung với 5.9.1.1.6 a–f.
+Chọn khói hay nhiệt hay tia chiếu theo khu vực: `knowledge/chon-loai-dau-bao.md` (nguồn duy nhất, không chép lại ở đây).
 Phạm vi: **chỉ đầu báo khói**. Đầu báo nhiệt có quy tắc riêng (5.9.2.1.5: dầm sâu hơn 0,3 m thì giảm khoảng cách 30 %). Không áp quy tắc này cho đầu báo nhiệt.
 
 ## 1. Ba số cần đo trước khi kết luận

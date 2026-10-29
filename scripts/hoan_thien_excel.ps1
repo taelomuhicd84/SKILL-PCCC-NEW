@@ -26,10 +26,10 @@ try {
     foreach ($b in 7, 8, 9, 10) { $kh.Borders($b).LineStyle = 1; $kh.Borders($b).Weight = 2 }
     $s.Range("B$($c):N$c").Borders(9).LineStyle = 1; $s.Range("B$($c):N$c").Borders(9).Weight = 2
   }
-  # Đối xứng: ẩn phần cân bằng bất đối xứng 93–97, hiện 99–100; ngược lại (mẫu ghi ở P92, P99)
+  # D98 quyết định (mẫu ghi ở P92, P99): "Đối xứng với nhánh phải" thì ẨN 92–96 (cân bằng bất đối xứng), HIỆN 99–100; "Không đối xứng với nhánh phải" thì ẨN 99–100, HIỆN 92–96. Dòng 97 (áp tại nút A) dùng chung nên luôn hiện.
   $dx = "$($s.Range('D98').Text)" -eq 'Đối xứng với nhánh phải'
-  foreach ($i in 93..97) { if ($dx) { $s.Rows($i).Hidden = $true } elseif ($s.Rows($i).Hidden) { $s.Rows($i).RowHeight = 23.5 } }
-  foreach ($i in 99..100) { if ($dx) { $s.Rows($i).RowHeight = 23.5 } else { $s.Rows($i).Hidden = $true } }
+  foreach ($i in 92..96) { if ($dx) { $s.Rows($i).Hidden = $true } else { $s.Rows($i).Hidden = $false; if ($s.Rows($i).RowHeight -lt 5) { $s.Rows($i).RowHeight = 23.5 } } }
+  foreach ($i in 99..100) { if ($dx) { $s.Rows($i).Hidden = $false; if ($s.Rows($i).RowHeight -lt 5) { $s.Rows($i).RowHeight = 23.5 } } else { $s.Rows($i).Hidden = $true } }
   # Ống chính: khối từ dòng đoạn "X-Y" (B) tới trước đoạn sau; đoạn không có DN hoặc ra #N/A thì ẩn cả khối
   $cuoi = $s.UsedRange.Find('Tổng lưu lượng: Q =').Row
   $dau = @(101..($cuoi - 1) | Where-Object { "$($s.Range("B$_").Text)" -match '^[A-J]-[A-J]$' })

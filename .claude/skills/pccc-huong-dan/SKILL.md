@@ -5,6 +5,7 @@ description: Thẩm định PCCC – Hướng dẫn thẩm định. Viết hư�
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Hướng dẫn thẩm định
 **Việc:** Viết hướng dẫn cho người thiết kế ở các dòng CHƯA ĐẠT, CẦN XÁC NHẬN, chỉnh bản vẽ: bản vẽ thiếu đường thoát nạn, thiếu bề rộng thoát nạn, thiếu ghi chú… thì cần bổ sung gì, ở đâu, trị số yêu cầu, điều khoản.
+**Lưu ý:** Hướng dẫn đầu báo cháy (loại, vị trí, khoảng cách): theo knowledge/chon-loai-dau-bao.md.
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
@@ -14,6 +15,7 @@ description: Thẩm định PCCC – Hướng dẫn thẩm định. Viết hư�
 - `skills/PHU_LUC_G_QCVN06.md`
 - `skills/MOD_cau_thang_buong_thang.md`
 - `memory/pccc-escape-route-method.md`
+- `knowledge/chon-loai-dau-bao.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/huong-dan.md`
 - `knowledge/hoc/du-an/huong-dan.md`

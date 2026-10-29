@@ -108,3 +108,6 @@ Người dùng chốt: tùy quy mô; công trình lớn không làm mạch cụt
 
 ## Bài học 34 (2026-10-29): báo cháy không đóng trần, mỗi khoang dầm một đầu báo
 Người dùng chốt: không đóng trần thì đầu báo lắp dưới sàn/dầm; dầm nối các cột chia khoang, mỗi khoang một đầu báo ở giữa (dầm sâu ≥ 0,3 m, ô ≥ 4 m², h < 4 m; dầm sâu > 0,4 m: b ≥ 0,75 m thêm đầu dưới dầm, b < 0,75 m giảm diện tích bảo vệ 40 %, TCVN 7568-14). Phòng dài qua nhiều khoang thì mỗi khoang một đầu. Thiếu mặt bằng dầm: giả định dầm khung 600x300 nối cột, dầm phụ 300, ghi rõ giả định; cột chỉ ở trục có cột. Bỏ buồng thang, giếng thang máy, sân thượng hở. Ca nguồn: KS Hoàng Hùng (ảnh `ket_qua/hoang_hung_bao_chay/`; chưa kiểm khoảng cách tối đa tới tường, chưa có tủ trung tâm/chuông/nút ấn).
+
+## Bài học 35 (2026-10-30): chọn loại đầu báo theo khu vực
+Nguồn duy nhất: `knowledge/chon-loai-dau-bao.md` (m11, hướng dẫn nạp file đó; không lặp bảng ở nơi khác). Người dùng chốt: phòng hát karaoke dùng đầu báo NHIỆT vì có hút thuốc, khói thuốc gây báo giả (TCVN 7568-14 4.1.5.4); hành lang, lối thoát nạn dùng KHÓI; WC, buồng thang bộ, hành lang bên miễn (QCVN 10 1.5.11). Quy tắc chung (người dùng dạy): gian phòng nghi vấn bốc khói, hơi, bụi (mạt gỗ báo giả cả khói lẫn tia chiếu) thì chuyển sang nhiệt. Ca nguồn: Karaoke Galaxy tầng trệt.

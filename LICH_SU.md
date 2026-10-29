@@ -1,7 +1,23 @@
 # Lịch sử làm việc (mới nhất ở trên)
 Mỗi dòng là một mốc đã làm và đã commit trừ khi ghi khác. Trạng thái hiện tại và việc tiếp theo: `TIEN_DO.md`. Mở phiên mới: đọc `BAT_DAU_PHIEN_MOI.md` rồi `TIEN_DO.md`.
 
+## 2026-10-30
+- Bàn thư viện bản vẽ tham khảo dạng chữ (thẻ .md + .json + mục lục, không nạp lại PDF); người dùng có kho bản vẽ thẩm duyệt/thẩm định; luật: phần quy định cũ chỉ ghi là "cách thể hiện", điều khoản chỉ lấy theo văn bản mới hiện hành. Ghi nhắc làm sáng 2026-10-31 ở đầu `TIEN_DO.md`, `NOTE_CUA_TOI.md`.
+- Thử vẽ tường/vách nhận từ ảnh Galaxy (nét đôi song song): đúng phần lớn vách phòng và tường bao, sai/thiếu tường hành lang, nhầm bậc thang và ký hiệu. Bàn hướng làm cho PDF scan (OpenCV, OCR, vector hoá); người dùng hẹn làm sau, ghi việc dở ở đầu `TIEN_DO.md`.
+- Tạm dừng nhận diện kết cấu: chưa giải quyết được tư duy xác định dầm, vách, tường, lỗ thông tầng (cột giả định giữa hành lang khi bản vẽ không vẽ cột; dầm biên, dầm quanh lỗ mở, dầm đỡ tường; phân biệt tường/vách/lỗ thông tầng). Việc dở ghi ở đầu `TIEN_DO.md`.
+- Test nhận diện dầm Karaoke Galaxy (ảnh): người dùng sửa "không có cột giữa hành lang" -> bỏ cột, dầm ở giao trục rơi vào lối đi (trục 3, 7, 12 đoạn C–D); kinh nghiệm 17 trong `knowledge/nhan-dien-ket-cau.md`. Script chưa áp quy tắc này (cần kiểm giao điểm có nằm trên tường).
+- Học bộ kết cấu Hoàng Hùng (Downloads/21412552.pdf, 9 trang): thêm dầm suốt trục nhịp dài gối dầm ngang (trục 7'), khung dầm lõi thang máy (chữ THANG MÁY + tường lõi); kinh nghiệm 10–16 trong `knowledge/nhan-dien-ket-cau.md`. Tầng 1 Hoàng Hùng giờ khớp đáp án trừ dầm biên sân trục 1, dầm quanh ô thang bộ. Chưa commit.
+- Đối chiếu đáp án mặt bằng đà kiềng Hoàng Hùng: công cụ đúng phần dầm theo cột (kể cả xiên); thiếu dầm phụ giữa nhịp 9 m, dầm bo lõi thang máy và thang bộ, tiết diện. Ghi kinh nghiệm 5–9 vào `knowledge/nhan-dien-ket-cau.md`. Chưa làm vào code.
+- Quy tắc người dùng: có cột thì nối dầm giữa hai cột liền kề dù xiên (`dam_chinh` nối cột gần nhất hai chiều, lệch ≤ 25°); khoang dầm theo vùng kín mọi hình; gộp khối tô sát nhau thành một cột; bỏ khối ngoài lưới trục. `knowledge/nhan-dien-ket-cau.md`. Chưa commit.
+- Thử bố trí đầu báo khói theo khoang dầm sâu 500 mm cho Karaoke Galaxy tầng trệt (`scripts/bo_tri_dau_bao_dam.py`, ảnh `ket_qua/galaxy_bao_chay_dam/`): lưới dầm giả định theo trục, ô >= ngưỡng 1 đầu trong ô, ô nhỏ dưới dầm; chưa trừ tường/WC/thang (bản vẽ này chưa nhận diện được tường). Chưa commit.
+- Nạp `knowledge/chon-loai-dau-bao.md` (nguồn duy nhất chọn đầu báo khói, nhiệt, tia chiếu theo khu vực và gian phòng; m11 và hướng dẫn nạp file, skill khoang dầm chỉ trỏ sang, `quet_trung_lap` không báo trùng) + Bài học 35. Người dùng dạy: karaoke dùng NHIỆT vì hút thuốc gây báo giả; gian phòng nghi vấn khói, hơi, bụi (mạt gỗ báo giả cả khói lẫn tia chiếu) chuyển sang nhiệt; ký hiệu đầu báo, chuông, nút ấn do người thiết kế đặt, không cứng nhắc (suy từ ngữ cảnh, chỉ hỏi khi không xác định được loại). Chưa chạy m11 thật. Chưa commit.
+- Kiểm Excel thủy lực mẫu theo 4 điều người dùng dặn (xuất 2 file thử rồi mở bằng Excel: 3+3 đầu không đối xứng, 4 đầu đối xứng): nhãn C/K và hình equation đổi theo số nút ✓, đầu thừa ẩn và cột E trống ✓, D98 ẩn 99–100 hay 92–96 ✓, cuộn vòi mặc định ✓. Sửa 2 chỗ còn thiếu: chữ B99 "QI = 2 * Q5-A" cứng nay theo nút cuối nhánh trái; L_voi hoặc Kp bằng 0 nay lấy mặc định 20 m và 0,012 cả trong lõi tính (`hongMacDinh` trong `tinh`) lẫn `xuat_thuy_luc_excel.py` (trước chỉ ở `so-bo`). Chưa kiểm trên kho 54x30 thật (thư mục `ket_qua/lien_minh_*` không có trên máy này).
+
+## 2026-10-30
+- Bản đầu nhận diện kết cấu tự động từ PDF vector `scripts/nhan_dien_ket_cau.py` (trục, tỷ lệ, cột, dầm chính, dầm phụ nét đỏ, khoang dầm; JSON + ảnh); thử Hoàng Hùng tầng bán hầm, 1, 2 (`ket_qua/nhan_dien_ket_cau/`). Chưa commit.
+
 ## 2026-10-29
+- Excel thủy lực: nhãn q/P/Q cột C/K, chữ M và hình equation đổi theo số nút thật (nhánh phải đánh ngược nL+nR…nL+1 như cột B); ẩn 92–96 hay 99–100 theo D98 (trước ẩn nhầm 93–97); cuộn vòi mặc định `hongMacDinh` (L_voi 20/40 m, Kp 0,012); quy tắc ghi vào knowledge, agent thuy-luc. Đã xuất thử ví dụ 3+3 đầu và 2 đầu đối xứng, xem ảnh bằng Excel.
 - Báo cháy không đóng trần: bố trí thử đầu báo khói giả định (dầm 600x300 nối cột, mỗi khoang một đầu) cho hầm, tầng 1-9 KS Hoàng Hùng, ảnh `ket_qua/hoang_hung_bao_chay/`; ghi bài học 34 và memory. Chưa kiểm hết ảnh, chưa commit.
 
 ## 2026-10-24

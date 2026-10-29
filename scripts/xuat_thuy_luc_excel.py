@@ -23,6 +23,42 @@ def _esc(t):
     return t.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
 
+_FONT = '<sz val="10"/><rFont val="Arial"/><family val="2"/>'
+
+
+def _runs(parts):
+    out = []
+    for i, (t, sub) in enumerate(parts):
+        rpr = f'<rPr><vertAlign val="subscript"/>{_FONT}</rPr>' if sub else ('' if i == 0 else f'<rPr>{_FONT}</rPr>')
+        out.append(f'<r>{rpr}<t xml:space="preserve">{_esc(t)}</t></r>')
+    return ''.join(out)
+
+
+def nhan_nut(nl, nr):
+    """Nhãn q, P, Q, ΔP theo SỐ NÚT thật (mẫu ghi cứng q1…q5, P4…): trái nút 1…nl; phải đánh ngược nl+nr…nl+1 như công thức cột B.
+    Trả {ô: danh sách đoạn chữ}. Đoạn cuối mỗi nhánh nối về nút A ('-A')."""
+    o = {}
+
+    def hang(c, k, r, q, p, ten_q, ten_p, ra_a, dau):
+        o[f'C{r}'] = [('q', False), (str(q), True), (' = ', False)]
+        o[f'K{r}'] = [('P', False), (str(p), True)] + ([(' =P', False), ('1', True), ('= ', False)] if dau == 'phai1' else [(' = ', False)])
+        rq = r + 2
+        o[f'C{rq}'] = [('Q', False), (ten_q, True), (' = ', False)]
+        o[f'K{r + 2 if dau in ("trai1", "phai1") else r + 1}'] = [('P', False), (ten_p, True), (' = ', False)]
+    for i in range(1, 6):  # trái: đầu i ở dòng 62 + 3(i-1)
+        r = 62 + 3 * (i - 1)
+        t = f'{i}-A' if i == nl else f'{i}-{i + 1}'
+        hang('C', 'K', r, i, i, t, t, i == nl, 'trai1' if i == 1 else 'trai')
+    for e in range(1, 5):  # phải: đầu e ở dòng 77 + 3(e-1), nút a = nl + nr - e + 1
+        r = 77 + 3 * (e - 1)
+        a = nl + max(nr, e) - e + 1
+        t = f'{a}-A' if e == nr else f'{a}-{a - 1}'
+        hang('C', 'K', r, a, a, t, t, e == nr, 'phai1' if e == 1 else 'phai')
+    # hàng I đối xứng: chữ 'QI = 2 * Q5-A' (B99) theo nút cuối nhánh trái, mẫu ghi cứng 5
+    o['B99'] = [('Lưu lượng tại hàng I:         Q', False), ('I', True), ('= 2 * Q', False), (f'{nl}-A', True), (' =', False)]
+    return o
+
+
 def set_cell(xml, ref, val):
     """Ghi một ô: số, chữ, '=công thức' hoặc None (xóa nội dung, giữ kiểu ô). Tự chèn ô/dòng nếu chưa có."""
     r = int(re.search(r'\d+', ref).group(0))
@@ -30,6 +66,8 @@ def set_cell(xml, ref, val):
     st = re.search(r' s="\d+"', m.group(1)).group(0) if m and re.search(r' s="\d+"', m.group(1)) else ''
     if val is None:
         new = f'<c r="{ref}"{st}/>'
+    elif isinstance(val, list):  # chữ có chỉ số dưới: [(chữ, True nếu chỉ số dưới), ...] như nhãn q1, P1-2 của mẫu
+        new = f'<c r="{ref}"{st} t="inlineStr"><is>{_runs(val)}</is></c>'
     elif isinstance(val, str) and val.startswith('='):
         new = f'<c r="{ref}"{st}><f>{_esc(val[1:])}</f></c>'
     elif isinstance(val, str):
@@ -80,6 +118,8 @@ def o_tu_so_lieu(sl, ban_do):
                 o[hang['dn']] = d['dn'] if d else None
                 o[hang['l']] = d['l'] if d else None
         elif isinstance(bd, dict):  # nhóm ô (vd họng nước)
+            if k == 'hong':  # cuộn vòi: thiếu hoặc bằng 0 thì mặc định 20 m và Kp 0,012 (như hongMacDinh trong thuy_luc.ts), không để tổn thất cuộn vòi = 0
+                v = {**v, 'L_voi': v.get('L_voi') or 20, 'Kp': v.get('Kp') or 0.012}
             for kk, vv in v.items():
                 if kk not in bd:
                     raise SystemExit(f'Không có khóa "{k}.{kk}" trong o_nhap.json')
@@ -87,7 +127,30 @@ def o_tu_so_lieu(sl, ban_do):
     return o
 
 
-def xuat(o, ra, mau=MAU, sheet='SP chung voi HR'):
+def so_nhanh(sl):
+    """Số đầu mỗi nhánh theo số liệu: trái = số đoạn nhanh_trai; phải = số đoạn nhanh_phai (trống: đối xứng thì bằng trái, 1 nhánh thì 0)."""
+    nl = len([d for d in sl.get('nhanh_trai') or [] if d])
+    nr = len([d for d in sl.get('nhanh_phai') or [] if d])
+    if not nr and (sl.get('doi_xung') or '').startswith('Đối xứng') and sl.get('so_nhanh') != '1 nhánh':
+        nr = nl
+    if sl.get('so_nhanh') == '1 nhánh':
+        nr = 0
+    return nl, nr
+
+
+def doi_so_nut(xml, drawing, nl, nr):
+    """Đổi toàn bộ số nút cứng của mẫu: nhãn q/P/Q ở cột C, K (nhánh trái và phải), chữ M 'Q3-A2', và hình equation 'Q5-A', 'Q6-A'."""
+    for ref, parts in nhan_nut(nl, nr).items():
+        xml = set_cell(xml, ref, parts)
+    xml = xml.replace('Q3-A2/Paitrái', 'Q"&amp;$Q$60&amp;"-A2/Paitrái').replace('Q5-A2/Paiphai', 'Q"&amp;($Q$60+1)&amp;"-A2/Paiphai')
+    if drawing:  # hình equation: nút cuối nhánh trái = nl, nút cuối nhánh phải = nl + 1 (mẫu ghi cứng 5 và 6)
+        so = lambda m: str(nl if m.group(1) == '5' else nl + 1)
+        drawing = re.sub(r'(?<=<m:t>)([56])(?=−</m:t>)', so, drawing)  # equation: số nút và "−" nằm trong m:t riêng, chữ A ở m:t kế tiếp
+        drawing = re.sub(r'(?<![\d.])([56])(?=−(?:A|𝐴))', so, drawing)  # chữ dự phòng a:t
+    return xml, drawing
+
+
+def xuat(o, ra, mau=MAU, sheet='SP chung voi HR', nut=None):
     zin = zipfile.ZipFile(mau)
     wb = zin.read('xl/workbook.xml').decode('utf-8')
     rid = re.search(r'<sheet name="%s" sheetId="\d+" r:id="(rId\d+)"' % re.escape(sheet), wb).group(1)
@@ -97,6 +160,12 @@ def xuat(o, ra, mau=MAU, sheet='SP chung voi HR'):
     xml = zin.read(sp).decode('utf-8')
     for ref, val in o.items():
         xml = set_cell(xml, ref, val)
+    dpath = dr = None
+    if nut:  # (nl, nr): đổi số nút cứng của mẫu theo số đầu phun thật
+        srel = 'xl/worksheets/_rels/' + os.path.basename(sp) + '.rels'
+        mr = re.search(r'Target="\.\./drawings/(drawing\d+\.xml)"', zin.read(srel).decode('utf-8')) if srel in zin.namelist() else None
+        dpath = 'xl/drawings/' + mr.group(1) if mr else None
+        xml, dr = doi_so_nut(xml, zin.read(dpath).decode('utf-8') if dpath else None, *nut)
     wb = re.sub(r'<calcPr([^>]*?)/>', lambda m: '<calcPr' + re.sub(r' fullCalcOnLoad="\d"', '', m.group(1)) + ' fullCalcOnLoad="1"/>', wb)
     rels = re.sub(r'<Relationship [^>]*calcChain[^>]*/>', '', rels)
     ct = re.sub(r'<Override[^>]*calcChain[^>]*/>', '', zin.read('[Content_Types].xml').decode('utf-8'))
@@ -106,7 +175,7 @@ def xuat(o, ra, mau=MAU, sheet='SP chung voi HR'):
         for it in zin.infolist():
             if it.filename == 'xl/calcChain.xml':
                 continue
-            data = {sp: xml, 'xl/workbook.xml': wb, 'xl/_rels/workbook.xml.rels': rels, '[Content_Types].xml': ct}.get(it.filename)
+            data = {sp: xml, 'xl/workbook.xml': wb, 'xl/_rels/workbook.xml.rels': rels, '[Content_Types].xml': ct, **({dpath: dr} if dpath and dr else {})}.get(it.filename)
             zo.writestr(it, data.encode('utf-8') if data is not None else zin.read(it.filename))
     zin.close()
     os.replace(tam, ra)  # lỗi PermissionError nếu file ra đang mở trong Excel: đổi tên file ra
@@ -121,7 +190,7 @@ if __name__ == '__main__':
         raise SystemExit(__doc__)
     sl = json.load(open(a[0], encoding='utf-8'))
     o = o_tu_so_lieu(sl, json.load(open(O_NHAP, encoding='utf-8')))
-    xuat(o, a[1], mau)
+    xuat(o, a[1], mau, nut=so_nhanh(sl))
     import subprocess
 
     def ps(ten, *ts):  # bước hoàn thiện bằng Excel COM (cần Excel trên máy)
