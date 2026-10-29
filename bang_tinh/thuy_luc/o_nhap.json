@@ -28,6 +28,7 @@
   ],
   "hong": {
     "so_tia": {"o": "I160", "ghi": "QCVN 10:2025 Bảng H.5/H.6"},
+    "q_tia_h6": {"o": "K160", "dv": "l/s", "ghi": "Lưu lượng 1 tia theo Bảng H.6 (thường 2,5), QHR = số tia × q_tia_h6 dùng cho QBmin H18"},
     "q_tia": {"o": "I161", "dv": "l/s", "ghi": "Lưu lượng lăng tra Bảng H.7 theo chiều cao tia đặc cần (thường 2,6), dùng cho bơm và bể; số tia theo H.5/H.6"},
     "P_lang": {"o": "I163", "dv": "MPa", "ghi": "Áp lăng phun (Bảng H.7, đã gồm cuộn vòi 10/15/20 m)"},
     "DN_voi": {"o": "I164", "dv": "mm"},
@@ -40,6 +41,13 @@
     "L_2": {"o": "I177", "dv": "m"},
     "A_2": {"o": "I179", "dv": "s2/l6"}
   },
+  "hang_cuoi_trai": [
+    {"dn": "D215", "l": "E215"}, {"dn": "D216", "l": "E216"}, {"dn": "D217", "l": "E217"}, {"dn": "D218", "l": "E218"}, {"dn": "D219", "l": "E219"}
+  ],
+  "hang_cuoi_phai": [
+    {"dn": "D220", "l": "E220"}, {"dn": "D221", "l": "E221"}, {"dn": "D222", "l": "E222"}, {"dn": "D223", "l": "E223"}
+  ],
+  "_hang_cuoi_ghi": "Phụ lục dòng 212–229: đoạn ống các đầu hàng cuối thiếu đầu (C07), từ đầu xa nút tới nút; Bp tính ở J229, ô J (Bp1) của nút hàng cuối trỏ =$J$229",
   "vong": [
     {"dn": "F184", "l": "I184"}, {"dn": "F187", "l": "I187"}, {"dn": "F190", "l": "I190"}, {"dn": "F193", "l": "I193"}
   ]

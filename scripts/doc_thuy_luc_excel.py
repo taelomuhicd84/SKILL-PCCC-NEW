@@ -64,10 +64,13 @@ def doc(path):
                 break  # DN trống: chuỗi dừng như trong Excel (#N/A); chiều dài trống Excel tính là 0
             ds.append({'dn': dn, 'l': l if so(l) else 0})
         sl[k] = ds
+    hc = {k: [{'dn': gt(h['dn']), 'l': gt(h['l']) or 0} for h in BD[k] if so(gt(h['dn']))] for k in ('hang_cuoi_trai', 'hang_cuoi_phai') if k in BD}
+    if hc.get('hang_cuoi_trai') or hc.get('hang_cuoi_phai'):  # phụ lục hàng cuối thiếu đầu (C07)
+        sl['hang_cuoi'] = {'nhanh_trai': hc.get('hang_cuoi_trai', []), 'nhanh_phai': hc.get('hang_cuoi_phai', [])}
     vong = [{'dn': gt(h['dn']), 'l': gt(h['l']) or 0} for h in BD['vong']]
     vong[-1]['ca'] = True  # dòng F-J: cả lưu lượng từ ống góp bơm
     sl['vong'] = [d for d in vong if d['l']]
-    sl['hong'] = {k: gt(v['o']) for k, v in BD['hong'].items() if k in ('so_tia', 'q_tia', 'P_lang', 'L_voi', 'Kp', 'L_1', 'A_1', 'L_2', 'A_2')}
+    sl['hong'] = {k: gt(v['o']) for k, v in BD['hong'].items() if k in ('so_tia', 'q_tia', 'q_tia_h6', 'P_lang', 'L_voi', 'Kp', 'L_1', 'A_1', 'L_2', 'A_2')}
     # 1 nhánh: ô O77 (bản cũ ghi "Một phía" ở D98)
     if re.search(r'1 nhánh', str(sl.pop('so_nhanh', '') or ''), re.I) or re.search(r'một phía', str(sl.get('doi_xung') or ''), re.I):
         sl['mot_phia'] = True

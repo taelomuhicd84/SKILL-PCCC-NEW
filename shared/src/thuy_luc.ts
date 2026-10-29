@@ -3,12 +3,16 @@
 // Đơn vị: Q l/s, P MPa, L m, DN mm, KT l6/s2. Ba việc: tinhThuyLuc (kiểm/tính theo bản vẽ), soBoThuyLuc (chỉ có mặt bằng), toiUuThuyLuc (so phương án).
 
 export interface Doan { dn: number; l: number; kt?: number; ca?: boolean } // kt: ghi đè KT (vd ống hàn điện); ca: đoạn vòng mang cả lưu lượng (không chia đôi)
-export interface HongNuoc { so_tia: number; q_tia: number; P_lang: number; L_voi: number; Kp: number; L_1?: number; A_1?: number; L_2?: number; A_2?: number }
+export interface HongNuoc { so_tia: number; q_tia: number; q_tia_h6?: number; // q_tia: Bảng H.7 (bơm, bể); q_tia_h6: Bảng H.6 (QBmin)
+  P_lang: number; L_voi: number; Kp: number; L_1?: number; A_1?: number; L_2?: number; A_2?: number }
 export interface SoLieuThuyLuc {
   K_gpm?: number; K?: number; // K đầu phun: gpm/psi^0,5 hoặc l/(s·MPa^0,5) dạng q = K√P (= 10·K của B.2.2)
   q1: number; Q_min: number; Z: number; PH?: number; Q_ngoai_nha?: number;
+  hang_cuoi?: { nhanh_trai: Doan[]; nhanh_phai?: Doan[] }; // hàng cuối của vùng tính chỉ lấy một phần đầu (các đầu gần nút nhất), xem chonSoDau
+  P_van?: number; // HCB2 (tập huấn C07): tổn thất cụm van báo động/van tín hiệu/van cổng theo catalogue, MPa
   vt_rieng?: boolean; // Excel H182 "SP và VT riêng": họng vách tường mạch riêng, ống sprinkler chỉ mang Q sprinkler, QVT cộng ở bơm
   nhom?: string; // Excel H6 "Nhóm 1"…"Nhóm 7": diện tích bảo vệ 1 đầu 12 m2 (nhóm 1–3) hoặc 9 m2
+  S?: number; i_min?: number; // diện tích tính toán (m2), cường độ tối thiểu (l/s.m2), dùng cho chonSoDau
   doi_xung?: boolean | string; // bỏ trống: tự nhận diện (nhanDienMang)
   mot_phia?: boolean;          // đầu phun chỉ ở một phía ống phân phối (không có nhánh phải): QI = Q nhánh trái
   mang?: "vong" | "cut";       // ống từ vùng tính toán về bơm: vòng (mỗi nửa ½ lưu lượng, B.2.12) hay cụt (cả lưu lượng); bỏ trống = vòng
@@ -88,22 +92,33 @@ export function nhanDienMang(sl: SoLieuThuyLuc) {
   return { doi_xung, mot_phia: false, mang, ly_do };
 }
 
+/** Một hàng (nhánh qua nút ống chính): áp tại nút PA, lưu lượng QI, đặc tính Bp = QI²/PA (B.2.10.9, B.2.11.3). */
+function hangNhanh(K: number, P1: number, trai: Doan[], phai: Doan[] | undefined, mot_phia: boolean, doi_xung: boolean) {
+  const t = nhanh(K, P1, trai);
+  let PA = t.P, QI = mot_phia ? t.Q : 2 * t.Q;
+  if (!doi_xung && !mot_phia) { // nhánh áp thấp hơn được điều chỉnh về áp lớn hơn tại nút
+    const ph = nhanh(K, P1, phai!);
+    PA = Math.max(t.P, ph.P);
+    QI = t.Q * Math.sqrt(PA / t.P) + ph.Q * Math.sqrt(PA / ph.P);
+  }
+  return { PA, QI, Bp: QI ** 2 / PA, trai: t };
+}
+
 export function tinhThuyLuc(sl: SoLieuThuyLuc) {
   const K = sl.K ?? kTuGpm(sl.K_gpm ?? NaN);
   if (!(K > 0)) throw new Error("Thiếu K hoặc K_gpm");
   const P1 = (sl.q1 / K) ** 2;
-  const trai = nhanh(K, P1, sl.nhanh_trai);
   const nd = nhanDienMang(sl);
-  let PA = trai.P, QI = nd.mot_phia ? trai.Q : 2 * trai.Q;
-  if (!nd.doi_xung && !nd.mot_phia) { // B.2.11.3: nhánh áp thấp hơn được điều chỉnh về áp lớn hơn tại nút
-    const phai = nhanh(K, P1, sl.nhanh_phai!);
-    PA = Math.max(trai.P, phai.P);
-    QI = trai.Q * Math.sqrt(PA / trai.P) + phai.Q * Math.sqrt(PA / phai.P);
+  const h0 = hangNhanh(K, P1, sl.nhanh_trai, sl.nhanh_phai, nd.mot_phia, nd.doi_xung);
+  const { trai, PA, QI, Bp } = h0;
+  let Bc = Bp; // hàng cuối thiếu đầu có đặc tính riêng
+  if (sl.hang_cuoi) {
+    const c = sl.hang_cuoi, mot = nd.mot_phia || !c.nhanh_phai?.length;
+    Bc = hangNhanh(K, P1, c.nhanh_trai, c.nhanh_phai, mot, !mot && giongNhau(c.nhanh_trai, c.nhanh_phai!)).Bp;
   }
-  const Bp = QI ** 2 / PA; // B.2.10.9
   let Q = QI, P = PA;
   const hang = [{ Q: QI, P: PA }];
-  for (const d of sl.ong_chinh) { P += tonThat(Q, d); Q += Math.sqrt(Bp * P); hang.push({ Q, P }); } // B.2.10.10–13
+  sl.ong_chinh.forEach((d, i) => { P += tonThat(Q, d); Q += Math.sqrt((i === sl.ong_chinh.length - 1 ? Bc : Bp) * P); hang.push({ Q, P }); }); // B.2.10.10–13
   const Qsp = Q, Pvung = P;
   const h = sl.hong;
   const QVT = h ? h.so_tia * h.q_tia : 0;
@@ -115,8 +130,9 @@ export function tinhThuyLuc(sl: SoLieuThuyLuc) {
   (sl.vong ?? []).forEach((d, i) => { P += tonThat(caDoan(d) ? Qcap : Qcap / 2, d); if (i === 0 && !sl.vt_rieng) P = Math.max(P, PVT); });
   if (!sl.vong?.length && !sl.vt_rieng) P = Math.max(P, PVT);
   const PJ = P;
-  const PB = PJ + 0.2 * (PJ - P1) + sl.Z - (sl.PH ?? 0); // B.3.9, cục bộ 20% tổn thất dọc đường (B.3.13)
-  const Qbom = Math.max(Qsp + QVT, sl.Q_min + QVT + (sl.Q_ngoai_nha ?? 0));
+  const PB = PJ + 0.2 * (PJ - P1) + (sl.P_van ?? 0) + sl.Z - (sl.PH ?? 0); // B.3.9, cục bộ 20% tổn thất dọc đường (B.3.13), HCB2 cụm van (C07)
+  const QHR6 = h ? h.so_tia * (h.q_tia_h6 ?? h.q_tia) : 0; // QBmin theo H.6 (Excel H18)
+  const Qbom = Math.max(Qsp + QVT, sl.Q_min + QHR6 + (sl.Q_ngoai_nha ?? 0));
   const doan = [...sl.nhanh_trai.map((d, i) => ({ ten: `trái ${i + 1}`, d, Q: trai.q.slice(0, i + 1).reduce((a, b) => a + b, 0) })),
     ...sl.ong_chinh.map((d, i) => ({ ten: `ống chính ${i + 1}`, d, Q: hang[i].Q })),
     ...(sl.vong ?? []).map((d, i) => ({ ten: `vòng ${i + 1}`, d, Q: caDoan(d) ? Qcap : Qcap / 2 }))];
@@ -124,12 +140,13 @@ export function tinhThuyLuc(sl: SoLieuThuyLuc) {
   const canhBao: string[] = [];
   if (Qsp < sl.Q_min) canhBao.push(`KHÔNG ĐẠT: Q sprinkler ${Qsp.toFixed(2)} < Qmin ${sl.Q_min} (B.3.1)`);
   if (sl.vt_rieng && QVT) canhBao.push("Mạch họng vách tường riêng: kiểm riêng cột áp bơm cho mạch họng (PVT + tổn thất mạch họng + Z)");
+  if (sl.P_van === undefined) canhBao.push("Chưa cộng tổn thất cụm van báo động HCB2 (catalogue van, tập huấn C07): ghi P_van");
   if (vMax > 10) canhBao.push(`Vận tốc ${vMax.toFixed(2)} m/s > 10 m/s (B.1.9)`);
   if (PB > 1) canhBao.push(`PB ${PB.toFixed(3)} MPa > 1 MPa: kiểm áp tại bộ điều khiển (B.3.14)`);
   if (P1 < 0.05) canhBao.push(`P1 ${P1.toFixed(3)} MPa < 0,05 MPa (Hmin 5 m.c.n theo catalogue): kiểm áp tối thiểu của hãng`);
   if (P1 > 1) canhBao.push(`P1 ${P1.toFixed(3)} MPa > 1 MPa (Hmax 100 m.c.n, 5.1.4)`);
   return {
-    K, P1, QI, PA, hang, Qsp, Pvung, QVT, PVT, PJ, PB, PB_m: PB * 101.972, Qbom,
+    K, P1, QI, PA, Bp, Bc, hang, Qsp, Pvung, QVT, PVT, PJ, PB, PB_m: PB * 101.972, Qbom,
     // điểm kiểm đường đặc tính bơm (tập huấn C07): tại 150% Qtk cột áp >= 65% Htk; tại Q = 0 cột áp <= 140% Htk
     bom_kiem: { Q_150_m3h: Qbom * 3.6 * 1.5, H_toi_thieu_tai_Q150_m: PB * 101.972 * 0.65, H_toi_da_tai_Q0_m: PB * 101.972 * 1.4 },
     be_m3: Qbom * 3.6 + (sl.Q_ngoai_nha ?? 0) * 2 * 3.6, // như mẫu Excel: 60 phút + ngoài nhà
@@ -206,4 +223,27 @@ export function toiUuThuyLuc(sl: SoLieuThuyLuc) {
     const kq = tinhThuyLuc(so_lieu);
     return { mo_ta: p.mo_ta, q1, P1: kq.P1, Qsp: kq.Qsp, PB: kq.PB, Qbom: kq.Qbom, be_m3: kq.be_m3, vMax: kq.vMax, canhBao: kq.canhBao, so_lieu };
   }).sort((x, y) => x.PB - y.PB);
+}
+
+/** Chọn số đầu vùng tính theo tập huấn C07: n >= S/Ω; hàng đầy đủ ở đầu xa, hàng cuối chỉ lấy các đầu gần nút nhất; tăng n tới khi Q sprinkler >= Qmin.
+ * sl: nhanh_trai/nhanh_phai là NHÁNH ĐẦY ĐỦ, ong_chinh[0] là đoạn ống chính giữa hai hàng; q1 mặc định Ω·i. */
+export function chonSoDau(sl: SoLieuThuyLuc, soHangToiDa = 8) {
+  const om = /nhóm\s*[123](?!\d)/i.test(sl.nhom ?? "") ? 12 : 9, q1 = sl.q1 ?? om * sl.i_min!;
+  const nMin = Math.ceil(sl.S! / om - 1e-9);
+  const A = sl.nhanh_trai, B = sl.mot_phia ? [] : sl.nhanh_phai?.length ? sl.nhanh_phai : A;
+  const khoang = (L: Doan[], j: number) => L.slice(j).reduce((t, d) => t + d.l, 0);
+  const dau = [...A.map((_, j) => ({ ben: "A", d: khoang(A, j) })), ...B.map((_, j) => ({ ben: "B", d: khoang(B, j) }))].sort((x, y) => x.d - y.d);
+  const moiHang = A.length + B.length;
+  const kq: { n: number; hang_day_du: number; dau_hang_cuoi: number; Qsp: number; Qbom: number; PB_m: number; vMax: number; dat: boolean; so_lieu: SoLieuThuyLuc }[] = [];
+  for (let n = nMin; n <= soHangToiDa * moiHang; n++) {
+    const day = Math.floor(n / moiHang), r = n % moiHang, hang = day + (r ? 1 : 0);
+    if (hang < 1) continue;
+    const gan = dau.slice(0, r), nA = gan.filter((x) => x.ben === "A").length, nB = r - nA;
+    const phanA = A.slice(A.length - nA), phanB = B.slice(B.length - nB);
+    const hang_cuoi = r ? (nA ? { nhanh_trai: phanA, nhanh_phai: nB ? phanB : undefined } : { nhanh_trai: phanB }) : undefined;
+    const x = { ...sl, q1, n, ong_chinh: Array.from({ length: hang - 1 }, () => ({ ...sl.ong_chinh[0] })), hang_cuoi };
+    const k = tinhThuyLuc(x);
+    kq.push({ n, hang_day_du: day, dau_hang_cuoi: r, Qsp: k.Qsp, Qbom: k.Qbom, PB_m: k.PB_m, vMax: k.vMax, dat: k.dat, so_lieu: x });
+  }
+  return { omega: om, n_min: nMin, q1, chon: kq.find((x) => x.dat), phuong_an: kq };
 }

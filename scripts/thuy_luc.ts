@@ -2,12 +2,13 @@
 // npx tsx scripts/thuy_luc.ts tinh   <so_lieu.json>            [--excel ra.xlsx]   tính/kiểm theo số liệu bản vẽ
 // npx tsx scripts/thuy_luc.ts so-bo  <mat_bang.json> <ra.json> [--excel ra.xlsx]   phương án sơ bộ khi chỉ có mặt bằng
 // npx tsx scripts/thuy_luc.ts toi-uu <so_lieu.json>  <ra.json> [--excel ra.xlsx]   so 4 phương án, ghi phương án PB thấp nhất
+// npx tsx scripts/thuy_luc.ts chon-dau <nhanh_day_du.json> <ra.json> [--excel ra.xlsx]   chọn số đầu vùng tính (n >= S/Ω, hàng cuối lấy các đầu gần nút) cho Q sprinkler >= Qmin
 // so_lieu.json theo khóa bang_tinh/thuy_luc/o_nhap.json, hoặc đưa thẳng file .xlsx theo mẫu (tự đọc, tự nhận diện đối xứng, vòng/cụt);
 // mat_bang.json theo kiểu MatBang (shared/src/thuy_luc.ts).
 import { readFileSync, writeFileSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import path from "node:path";
-import { tinhThuyLuc, soBoThuyLuc, toiUuThuyLuc, nhanDienMang, ONG_THEP } from "../shared/src/thuy_luc";
+import { tinhThuyLuc, soBoThuyLuc, toiUuThuyLuc, chonSoDau, nhanDienMang, ONG_THEP } from "../shared/src/thuy_luc";
 
 const a = process.argv.slice(2);
 const iEx = a.indexOf("--excel");
@@ -51,7 +52,13 @@ if (viec === "tinh") {
   const pa = toiUuThuyLuc(doc);
   console.log(tron(pa.map(({ so_lieu, ...p }) => p)));
   soLieu = pa.find((p) => !p.canhBao.length)?.so_lieu ?? pa[0].so_lieu;
-} else throw new Error(`Việc "${viec}" không có (tinh | so-bo | toi-uu)`);
+} else if (viec === "chon-dau") {
+  const r = chonSoDau(doc), toi = r.chon ? r.phuong_an.findIndex((x) => x.n === r.chon!.n) : r.phuong_an.length;
+  console.log(tron({ omega: r.omega, n_min: r.n_min, q1: r.q1, phuong_an: r.phuong_an.slice(0, toi + 2).map(({ so_lieu, ...p }) => p) }));
+  if (!r.chon) throw new Error("Không phương án nào đạt Qmin trong số hàng tối đa");
+  console.log(`CHỌN n = ${r.chon.n} đầu: ${r.chon.hang_day_du} hàng đầy đủ${r.chon.dau_hang_cuoi ? ` + hàng cuối ${r.chon.dau_hang_cuoi} đầu gần nút` : ""}`);
+  soLieu = r.chon.so_lieu;
+} else throw new Error(`Việc "${viec}" không có (tinh | so-bo | toi-uu | chon-dau)`);
 
 if (ra) { writeFileSync(ra, JSON.stringify(soLieu, null, 2)); console.log(`Đã ghi số liệu: ${ra}`); }
 if (excel) {
@@ -64,6 +71,12 @@ if (excel) {
   json.so_nhanh = nd.mot_phia ? "1 nhánh" : "2 nhánh";
   if (nd.mot_phia) json.nhanh_phai = [];
   delete json.mot_phia;
+  if (x.hang_cuoi) { // hàng cuối thiếu đầu: đoạn ống vào phụ lục Excel (dòng 212–229), Bp hàng cuối trỏ về J229
+    json.hang_cuoi_trai = sach(x.hang_cuoi.nhanh_trai);
+    json.hang_cuoi_phai = sach(x.hang_cuoi.nhanh_phai) ?? [];
+    json.hang_cuoi_bp = { chi_so: x.ong_chinh.length - 1 };
+    delete json.hang_cuoi;
+  }
   json.mach_vt = soLieu.vt_rieng ? "SP và VT riêng" : "SP + VT chung";
   delete json.vt_rieng;
   json.mang = soLieu.mang === "cut" ? "Mạch cụt" : "Mạch vòng";

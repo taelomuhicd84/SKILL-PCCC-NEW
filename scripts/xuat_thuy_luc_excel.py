@@ -62,6 +62,13 @@ def o_tu_so_lieu(sl, ban_do):
         if k == 'o':
             o.update(v)
             continue
+        if k == 'hang_cuoi_bp':  # hàng cuối thiếu đầu: Bp (ô J) của khối ống chính cuối trỏ về phụ lục J229, nhãn ở cột B cùng dòng
+            j = 105 + 8 * v['chi_so'] if v['chi_so'] < 6 else 154
+            o[f'J{j}'] = '=$J$229'
+            o[f'B{j}'] = '="Hàng cuối chỉ lấy "&COUNT(D215:D223)&" đầu gần nút nhất (tập huấn C07): Bp riêng tính ở phụ lục dòng 212–229 = "&ROUND(J229,2)'
+            if v['chi_so'] == 0:
+                o['F106'] = '=ROUND(SQRT(J105*L101),2)'
+            continue
         if k not in ban_do or k.startswith('_'):
             raise SystemExit(f'Không có khóa "{k}" trong o_nhap.json')
         bd = ban_do[k]
