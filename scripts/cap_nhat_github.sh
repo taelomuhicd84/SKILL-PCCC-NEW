@@ -4,7 +4,7 @@
 set -u
 cd "$(dirname "$0")/.." || exit 1
 export PATH="$LOCALAPPDATA/Programs/node-v22.23.3-win-x64:$PATH"
-FILES="NOTE_CUA_TOI.md TIEN_DO.md BAT_DAU_PHIEN_MOI.md"
+FILES="NOTE_CUA_TOI.md TIEN_DO.md BAT_DAU_PHIEN_MOI.md DONG_BO_TRAIN.md"
 OLD=$(git rev-parse HEAD)
 git pull --ff-only 2>&1 | tail -3
 [ "${PIPESTATUS[0]}" = 0 ] || { echo "PULL LỖI (có thay đổi cục bộ vướng?): xem git status"; exit 1; }

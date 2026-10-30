@@ -28,6 +28,17 @@ Không phải thẩm định. Từ bản vẽ (hoặc thông tin bằng chữ) l
 - Chiều cao PCCC ≈ (số tầng - 1) x 3,3 đến 3,8 m (tính tới sàn tầng trên cùng, không tính mái; tầng hầm không cộng). Tầng kỹ thuật hoặc trệt cao bất thường thì nói rõ và nới khoảng.
 - Nếu khoảng này nằm hai bên một ngưỡng của quy chuẩn (vd. 15, 28 m) thì kết luận liên quan là CẦN XÁC NHẬN.
 
+## Form tư vấn thiết kế PCCC (người dùng chốt 30/10/2026)
+Khi người dùng nói "tư vấn thiết kế PCCC" kèm bản vẽ: trình bày báo cáo đúng 7 mục, đúng thứ tự, lưu `ket_qua/<cong_trinh>/bao_cao_khao_sat.md`:
+1. Thông tin công trình (bảng theo tầng: diện tích, công năng, nhóm F; chiều cao PCCC, khối tích, bậc chịu lửa)
+2. Thuộc diện thẩm định PCCC không (Phụ lục III NĐ 105/2025, cơ quan thẩm định; không thuộc thì thuộc diện quản lý của ai)
+3. Bãi đỗ xe chữa cháy (và đường, lối vào từ trên cao)
+4. Ngăn cháy công năng (4.5; kho, labo > 50 m², bếp đun > 10 kW mới thành F5; tầng có công năng chính ≥ 90 % thì phụ trợ không phải ngăn)
+5. Ngăn cháy phương đứng, ngang (buồng thang, giếng thang máy, hộp kỹ thuật, 4.33; sàn ngăn cháy giữa công năng ở và công cộng)
+6. Hệ thống PCCC yêu cầu (QCVN 10:2025, bể nước)
+7. Các mục khác trong bảng đối chiếu (thoát nạn: số lối, phân tán 3.2.8, loại thang, cửa, lối ra mái; khoảng cách PCCC; chống khói…)
+Trước khi viết: chạy `python -I -X utf8 scripts/mau_giai_phap.py loc …`, tra thẻ bản vẽ mẫu cùng công năng (`knowledge/ban-ve-mau.md`), bài học `knowledge/hoc/du-an/so-bo-thiet-ke.md`. Mẫu văn phong: `ket_qua/hoang_hung_so_bo2/tu_van_thiet_ke_v3.md` (nếu máy có).
+
 ## Định dạng trả lời
 Phần chữ ngắn (tóm tắt từng mục 1–8, mục nào là ước lượng thì ghi "ước lượng"), rồi thêm đúng MỘT khối ```json ở cuối để điền Excel:
 ```json

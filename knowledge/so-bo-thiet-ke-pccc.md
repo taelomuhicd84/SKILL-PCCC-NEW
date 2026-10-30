@@ -40,6 +40,9 @@ Nhóm nhà (VD F5.2), chiều cao PCCC, chiều cao công trình, diện tích s
 - Hồ sơ test (NM1, cao PCCC 11,5 m, chu vi 144 m): 2 bãi 15 m (Bắc, Nam), 2 bãi quay xe tam giác 7 m ở hai góc phía Tây, không cần bãi tránh xe. `ket_qua/cong_trinh_test/thiet_ke_bai_do_v3.png`.
 - Kho Tân Kiên (nhà kho F5.2, cao PCCC 11 m, 770 m2, chu vi 120,8 m, có sprinkler): 1 bãi 21 m x 3,5 m dọc tường nam; khe Bắc 1,5 m và khe Đông–Bắc 1,8 m (< 3,5 m) không phải đường nên không có đường vòng; đường cụt ~37 m < 46 m nên không cần bãi quay xe. `ket_qua/kho_tan_kien/thiet_ke_m04_kho_tan_kien_v2.png`.
 
+## Tư vấn thiết kế PCCC: form 7 mục
+Người dùng nói "tư vấn thiết kế PCCC" thì trình bày theo form 7 mục ở `knowledge/khao-sat-bao-gia.md` (mục "Form tư vấn thiết kế PCCC"), không trả lời rời rạc.
+
 ## Thoát nạn: mẫu trình bày
 Chọn phương án: chạy `python scripts/mau_giai_phap.py loc --F <nhóm F> --cao <m> --tang <n> --dt <m2/tầng> --nguoi <người/tầng> --ham 0|1 --cong-nang <chữ>` (bỏ tham số chưa biết), CHỈ dùng các mẫu trả về (yêu cầu, nhận diện, lỗi hay gặp, giải pháp); mẫu có `can_xac_nhan` thì hỏi số liệu đó. Mục lục: `muc-luc`. Nguồn `data/mau_giai_phap/*.json`, xem `thu_vien.html`.
 Theo Bài học 24–25 (`bai-hoc.md`): điểm xa nhất, tuyến góc vuông, L từng đoạn, khung tính toán, chú giải, chi tiết cửa. Ví dụ: `ket_qua/the_sun/thiet_ke_thoat_nan_the_sun_lau1.png`, `ket_qua/mn_vs/thiet_ke_thoat_nan_mn_vs_tang3.png`.

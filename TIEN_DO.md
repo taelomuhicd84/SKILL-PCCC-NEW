@@ -1,6 +1,8 @@
 # Tiến độ dự án Website thẩm định PCCC
 Phiên mới: đọc `ROADMAP.md` (tổng quan giai đoạn) trước, rồi mục "ĐANG LÀM" dưới đây. Quy tắc phiên: `CLAUDE.md`.
 
+**[30/10 tối, ĐỌC NGAY khi cập nhật từ GitHub] ĐỒNG BỘ TRAIN HAI MÁY:** mở `DONG_BO_TRAIN.md`, làm các mục "Việc chờ" (máy kia đẩy mẫu tư vấn Hoàng Hùng `ket_qua/hoang_hung_so_bo2`, `hoang_hung_final` và form tư vấn 7 mục nếu còn ở máy đó). Form tư vấn thiết kế PCCC 7 mục đã ghi ở `knowledge/khao-sat-bao-gia.md`.
+
 **Thư viện bản vẽ mẫu đã thẩm duyệt (30/10, đang dở một phần):** 64 bộ (karaoke, nhà xưởng, chung cư/KS, văn phòng/nhà hàng, mầm non, phòng khám, trường học, NLMT, showroom, cây xăng, nhà ở xã hội, căn hộ dịch vụ; 2024–2026) → `data/ban_ve_mau/<loai>_NN/the.json|the.md`, mục lục `muc_luc.json`, kho gộp `kho_ghi_chu.json|md` (11.206 ghi chú, 1.263 có ở ≥2 bộ, bỏ 57 ghi chú chỉ dựa TCVN 3890/2622; phân loại chủ đề PCCC × hạng mục công trình × loại công trình × lap_luan/tinh_toan/yeu_cau; cờ ⚠ văn bản cũ, [OCR kém]). Script: `scripts/the_ban_ve.py` (một bộ), `scripts/quet_ban_ve.py "<thư mục năm>" --nam n25` (cả năm, bỏ giấy tờ, trùng hash, sổ vân tay `_van_tay.json`), `scripts/kho_ghi_chu.py`, `scripts/an_danh_ban_ve.py "<gốc hồ sơ>"` (CHẠY TRƯỚC KHI ĐẨY GITHUB: id trung tính, thay tên dự án, tên file → tep_N; tên thật ở `_ten_that.local.json`, gitignore). Agent tra qua `knowledge/ban-ve-mau.md`.
 Việc dở: (1) bộ New Emotion 2024 (file 339 MB) còn chạy nền lúc đẩy → khi xong chạy lại `an_danh_ban_ve.py`, `kho_ghi_chu.py`, mục lục; (2) ~20 file scan không có lớp chữ cần OCR (danh sách `_quet_*.json`, máy chưa có OCR, cần người dùng cho cài); (3) nhóm 'khác' 2.335 câu (kết cấu, tiêu đề, chữ Trung) chưa lọc; (4) năm 2017–2023 chưa quét; (5) phân loại theo từ khóa, chưa người duyệt.
 
