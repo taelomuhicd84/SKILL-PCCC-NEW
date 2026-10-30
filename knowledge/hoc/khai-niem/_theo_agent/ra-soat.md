@@ -694,7 +694,7 @@
 
 ### Đổi nguyên lý báo cháy, nguyên lý chữa cháy, chất chữa cháy, thông số máy bơm
 **Khi nào áp dụng / được phép:**
-- Các thay đổi này thuộc diện thẩm định lại ở cơ quan Công an. Ví dụ theo đề xuất CATP Hà Nội (chưa chính thức): đổi đầu báo nhiệt sang đầu báo khói ở khu vực hầm đổi công năng là đổi nguyên lý báo cháy. (Điều 9 khoản 3; mục 5.5)
+- Các thay đổi này thuộc diện thẩm định lại ở cơ quan Công an. Ví dụ theo 2360/CAHN-PC07 (C07 thống nhất tại 1183/C07-P4): đổi đầu báo nhiệt sang đầu báo khói ở khu vực hầm đổi công năng là đổi nguyên lý báo cháy. (Điều 9 khoản 3; mục 5.5)
 
 ### Động cơ diesel của bơm chữa cháy
 **Khi nào áp dụng / được phép:**
@@ -2040,10 +2040,10 @@
 - Thay thế hệ thống: báo cháy địa chỉ sang báo cháy thường hoặc ngược lại; chữa cháy bằng nước sang bọt, bột, khí hoặc ngược lại. (Công văn C07 (khoản 3 Điều 9))
 - Trang bị bổ sung hệ thống: công trình chưa có hệ thống đó; hoặc lắp mới hệ thống khác hoàn toàn độc lập, tách biệt với hệ thống cũ; hoặc lắp bổ sung hệ thống cho hạng mục, khu vực mở rộng. (Công văn C07 (khoản 3 Điều 9))
 **Khi nào áp dụng / được phép:**
-- Mở rộng, tăng diện tích hoặc tăng tầng dẫn đến lắp bổ sung hệ thống PCCC đấu nối với hệ thống hiện trạng là bổ sung hệ thống, thuộc diện thẩm định (ví dụ nhà văn phòng 7 tầng xây thêm tầng 8, bổ sung báo cháy, họng nước tầng 8) – theo đề xuất CATP Hà Nội, chưa chính thức. (mục 5.5 (đề xuất 2360/CAHN-PC07))
+- Mở rộng, tăng diện tích hoặc tăng tầng dẫn đến lắp bổ sung hệ thống PCCC đấu nối với hệ thống hiện trạng là bổ sung hệ thống, thuộc diện thẩm định (ví dụ nhà văn phòng 7 tầng xây thêm tầng 8, bổ sung báo cháy, họng nước tầng 8) – theo 2360/CAHN-PC07, C07 thống nhất tại 1183/C07-P4. (mục 5.5 (đề xuất 2360/CAHN-PC07))
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Chỉ thay một số thiết bị như đầu phun, đầu báo cháy là bảo dưỡng, sửa chữa thông thường, không coi là thay thế hệ thống. (Công văn C07)
-- Cải tạo bên trong chỉ điều chỉnh vị trí, bổ sung đầu báo, đầu phun nhưng không đổi nguyên lý (ngăn phòng, làm trần giả): không thuộc diện (đề xuất CATP Hà Nội). (mục 5.5)
+- Cải tạo bên trong chỉ điều chỉnh vị trí, bổ sung đầu báo, đầu phun nhưng không đổi nguyên lý (ngăn phòng, làm trần giả): không thuộc diện (2360/CAHN-PC07, C07 thống nhất). (mục 5.5)
 
 ### Thay thế yêu cầu bằng luận chứng kỹ thuật (còn gọi: thay thế yêu cầu của Quy chuẩn)
 **Khi nào áp dụng / được phép:**

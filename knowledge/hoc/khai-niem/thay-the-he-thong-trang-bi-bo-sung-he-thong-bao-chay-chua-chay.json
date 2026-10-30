@@ -27,7 +27,7 @@
  "cach_xac_dinh": [],
  "ap_dung": [
   {
-   "y": "Mở rộng, tăng diện tích hoặc tăng tầng dẫn đến lắp bổ sung hệ thống PCCC đấu nối với hệ thống hiện trạng là bổ sung hệ thống, thuộc diện thẩm định (ví dụ nhà văn phòng 7 tầng xây thêm tầng 8, bổ sung báo cháy, họng nước tầng 8) – theo đề xuất CATP Hà Nội, chưa chính thức.",
+   "y": "Mở rộng, tăng diện tích hoặc tăng tầng dẫn đến lắp bổ sung hệ thống PCCC đấu nối với hệ thống hiện trạng là bổ sung hệ thống, thuộc diện thẩm định (ví dụ nhà văn phòng 7 tầng xây thêm tầng 8, bổ sung báo cháy, họng nước tầng 8) – theo 2360/CAHN-PC07, C07 thống nhất tại 1183/C07-P4.",
    "dieu": "mục 5.5 (đề xuất 2360/CAHN-PC07)",
    "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
   }
@@ -39,7 +39,7 @@
    "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
   },
   {
-   "y": "Cải tạo bên trong chỉ điều chỉnh vị trí, bổ sung đầu báo, đầu phun nhưng không đổi nguyên lý (ngăn phòng, làm trần giả): không thuộc diện (đề xuất CATP Hà Nội).",
+   "y": "Cải tạo bên trong chỉ điều chỉnh vị trí, bổ sung đầu báo, đầu phun nhưng không đổi nguyên lý (ngăn phòng, làm trần giả): không thuộc diện (2360/CAHN-PC07, C07 thống nhất).",
    "dieu": "mục 5.5",
    "nguon": "kb:nghi-dinh-tham-dinh-dieu-chinh.md"
   }

@@ -1081,7 +1081,7 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh không thuộc mục 8. (Phụ lục III mục 8)
 **Dễ nhầm với:**
-- Theo đề xuất của CATP Hà Nội (chưa chính thức): nhà có yếu tố ở của chủ hộ là nhà ở riêng lẻ kết hợp kinh doanh, không phải đa năng/hỗn hợp; cho thuê cả nhà làm văn phòng, người thuê không ở thì không phải nhà ở riêng lẻ. Karaoke từ tầng 3 trở lên trong nhà hỗn hợp xét theo mục 8. (mục 5.5 (đề xuất 2360/CAHN-PC07))
+- Theo 2360/CAHN-PC07 (C07 thống nhất tại 1183/C07-P4): nhà có yếu tố ở của chủ hộ là nhà ở riêng lẻ kết hợp kinh doanh, không phải đa năng/hỗn hợp; cho thuê cả nhà làm văn phòng, người thuê không ở thì không phải nhà ở riêng lẻ. Karaoke từ tầng 3 trở lên trong nhà hỗn hợp xét theo mục 8. (mục 5.5 (đề xuất 2360/CAHN-PC07))
 **Liên quan:** Phụ lục III NĐ 105/2025/NĐ-CP (danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC)
 
 ### Công trình sau cải tạo, mở rộng
@@ -1686,7 +1686,7 @@
 - Đổi nguyên lý chữa cháy, chất chữa cháy: chữa cháy theo diện tích sang thể tích; chữa cháy cục bộ theo điểm sang theo diện tích và ngược lại; nước sang khí, bọt, bột và ngược lại; giữa các loại khí khác nhau (Nitơ, CO2, Novec 1230 (FK-5-1-12), HFC-227ea (FM200), IG-55, IG-541, sol-khí). (Công văn C07 (khoản 3 Điều 9))
 - Đổi thông số máy bơm chữa cháy: đổi lưu lượng, cột áp. (Công văn C07 (khoản 3 Điều 9))
 **Khi nào áp dụng / được phép:**
-- Các thay đổi này thuộc diện thẩm định lại ở cơ quan Công an. Ví dụ theo đề xuất CATP Hà Nội (chưa chính thức): đổi đầu báo nhiệt sang đầu báo khói ở khu vực hầm đổi công năng là đổi nguyên lý báo cháy. (Điều 9 khoản 3; mục 5.5)
+- Các thay đổi này thuộc diện thẩm định lại ở cơ quan Công an. Ví dụ theo 2360/CAHN-PC07 (C07 thống nhất tại 1183/C07-P4): đổi đầu báo nhiệt sang đầu báo khói ở khu vực hầm đổi công năng là đổi nguyên lý báo cháy. (Điều 9 khoản 3; mục 5.5)
 **Cách kiểm trên hồ sơ:**
 - So loại đầu báo, loại hệ thống/chất chữa cháy, lưu lượng và cột áp bơm giữa hồ sơ đã thẩm định và hồ sơ điều chỉnh. (suy từ Điều 9 khoản 3)
 **Liên quan:** thay thế hệ thống, trang bị bổ sung hệ thống, thẩm định lại khi điều chỉnh thiết kế, thay đổi công năng, cải tạo (danh sách đóng)
@@ -4033,7 +4033,7 @@
 **Cách kiểm trên hồ sơ:**
 - Xem số tầng, chiều cao PCCC và tỷ lệ diện tích kinh doanh trên bản vẽ (suy từ Bảng A.1 mục 1)
 **Dễ nhầm với:**
-- Ca nhập nhằng (nhà ở riêng lẻ kết hợp kinh doanh, hỗn hợp có yếu tố ở) ghi CẦN XÁC NHẬN, nêu cả hai cách hiểu, dẫn mục 5.5 là đề xuất chưa chính thức (quy trình bước 6)
+- Ca nhập nhằng (nhà ở riêng lẻ kết hợp kinh doanh, hỗn hợp có yếu tố ở) ghi CẦN XÁC NHẬN, nêu cả hai cách hiểu, xét giấy phép xây dựng theo mục 5.5 (C07 thống nhất tại 1183/C07-P4) (quy trình bước 6)
 **Liên quan:** Nhà ở riêng lẻ kết hợp sản xuất, kinh doanh hàng hóa dễ cháy
 
 ### Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ, sản xuất, kinh doanh hàng hóa dễ cháy (còn gọi: nhà ở riêng lẻ kết hợp sản xuất, kinh doanh)
@@ -4414,7 +4414,7 @@
 **Cách kiểm trên hồ sơ:**
 - Lấy số tầng, tổng diện tích sàn (nhà lớn nhất), công năng, hạng nguy hiểm cháy nổ từ hồ sơ so với ngưỡng từng mục; ví dụ karaoke 1 tầng 925 m² không đạt mục 5 (cần từ 4 tầng hoặc từ 1.000 m²), trừ khi thuộc dự án có công trình khác thuộc diện hoặc là nhà hỗn hợp theo mục 8. (suy từ Phụ lục III mục 5, 8)
 **Dễ nhầm với:**
-- Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh bị loại khỏi mục 8; ca nhập nhằng ghi CẦN XÁC NHẬN (đề xuất CATP Hà Nội 2360/CAHN-PC07 chưa phải hướng dẫn chính thức). (Phụ lục III mục 8; mục 5.5)
+- Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh bị loại khỏi mục 8; ca nhập nhằng ghi CẦN XÁC NHẬN (2360/CAHN-PC07, C07 thống nhất tại 1183/C07-P4). (Phụ lục III mục 8; mục 5.5)
 **Liên quan:** thẩm định thiết kế về PCCC, công trình đa năng, công trình hỗn hợp, thẩm định điều chỉnh
 
 ### Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn
@@ -4839,10 +4839,10 @@
 - Thay thế hệ thống: báo cháy địa chỉ sang báo cháy thường hoặc ngược lại; chữa cháy bằng nước sang bọt, bột, khí hoặc ngược lại. (Công văn C07 (khoản 3 Điều 9))
 - Trang bị bổ sung hệ thống: công trình chưa có hệ thống đó; hoặc lắp mới hệ thống khác hoàn toàn độc lập, tách biệt với hệ thống cũ; hoặc lắp bổ sung hệ thống cho hạng mục, khu vực mở rộng. (Công văn C07 (khoản 3 Điều 9))
 **Khi nào áp dụng / được phép:**
-- Mở rộng, tăng diện tích hoặc tăng tầng dẫn đến lắp bổ sung hệ thống PCCC đấu nối với hệ thống hiện trạng là bổ sung hệ thống, thuộc diện thẩm định (ví dụ nhà văn phòng 7 tầng xây thêm tầng 8, bổ sung báo cháy, họng nước tầng 8) – theo đề xuất CATP Hà Nội, chưa chính thức. (mục 5.5 (đề xuất 2360/CAHN-PC07))
+- Mở rộng, tăng diện tích hoặc tăng tầng dẫn đến lắp bổ sung hệ thống PCCC đấu nối với hệ thống hiện trạng là bổ sung hệ thống, thuộc diện thẩm định (ví dụ nhà văn phòng 7 tầng xây thêm tầng 8, bổ sung báo cháy, họng nước tầng 8) – theo 2360/CAHN-PC07, C07 thống nhất tại 1183/C07-P4. (mục 5.5 (đề xuất 2360/CAHN-PC07))
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Chỉ thay một số thiết bị như đầu phun, đầu báo cháy là bảo dưỡng, sửa chữa thông thường, không coi là thay thế hệ thống. (Công văn C07)
-- Cải tạo bên trong chỉ điều chỉnh vị trí, bổ sung đầu báo, đầu phun nhưng không đổi nguyên lý (ngăn phòng, làm trần giả): không thuộc diện (đề xuất CATP Hà Nội). (mục 5.5)
+- Cải tạo bên trong chỉ điều chỉnh vị trí, bổ sung đầu báo, đầu phun nhưng không đổi nguyên lý (ngăn phòng, làm trần giả): không thuộc diện (2360/CAHN-PC07, C07 thống nhất). (mục 5.5)
 **Liên quan:** đổi nguyên lý báo cháy, nguyên lý chữa cháy, chất chữa cháy, thông số máy bơm
 
 ### Thay thế yêu cầu bằng luận chứng kỹ thuật (còn gọi: thay thế yêu cầu của Quy chuẩn)

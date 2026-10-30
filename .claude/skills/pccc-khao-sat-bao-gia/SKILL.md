@@ -18,6 +18,7 @@ description: Thẩm định PCCC – Báo cáo khảo sát và báo giá PCCC. M
 - `knowledge/qcvn10-2025-bao-chay-chua-chay-tu-dong.md`
 - `knowledge/qcvn10-2025-nuoc-chua-chay.md`
 - `knowledge/nghi-dinh-tham-dinh-dieu-chinh.md`
+- `knowledge/cv-2360-cahn-1183-c07-dien-tham-dinh.md`
 - `skills/MOD_so_luong_loi_ra.md`
 - `skills/PHU_LUC_G_QCVN06.md`
 - `knowledge/so-bo-thiet-ke-pccc.md`

@@ -15,6 +15,8 @@ Người dùng train ở hai máy. Máy nào làm xong buổi train thì ghi và
 
 ## Nhật ký train (mới nhất trên cùng)
 ### 30/10 tối – máy F:\1_ToolMMo\2_VibeCode\Webpccc (Claude Opus)
+- Người dùng chốt: diện thẩm định xét theo CÔNG NĂNG THỰC TẾ; giấy phép xây dựng chưa khớp thì chỉ ghi chú chủ đầu tư làm lại để hợp thức hóa (đã ghi vào `knowledge/cv-2360-cahn-1183-c07-dien-tham-dinh.md`, `nghi-dinh-tham-dinh-dieu-chinh.md`).
+- Nạp công văn 2360/CAHN-PC07 + 1183/C07-P4 (C07 thống nhất) thành `knowledge/cv-2360-cahn-1183-c07-dien-tham-dinh.md` (không lưu PDF). Máy kia nếu có ghi chú nào còn coi 2360 là "chưa chính thức" thì sửa theo file này.
 - Người dùng chốt **form tư vấn thiết kế PCCC 7 mục**, đã ghi vào `knowledge/khao-sat-bao-gia.md` và `knowledge/so-bo-thiet-ke-pccc.md`.
 - Bắt buộc trước khi tư vấn: chạy `scripts/mau_giai_phap.py loc`, tra thẻ bản vẽ mẫu cùng công năng (`data/ban_ve_mau`), đọc bài học `knowledge/hoc/du-an/so-bo-thiet-ke.md`. Lần đầu làm Thanh Triều Claude bỏ bước này nên sót phân tán lối ra (3.2.8).
 - Đã làm thử: Phòng khám/Nha khoa Thanh Triều 7 tầng → `ket_qua/thanh_trieu/bao_cao_khao_sat.md` (hồ sơ khách, không đẩy).

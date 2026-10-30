@@ -179,7 +179,7 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh không thuộc mục 8. (Phụ lục III mục 8)
 **Dễ nhầm với:**
-- Theo đề xuất của CATP Hà Nội (chưa chính thức): nhà có yếu tố ở của chủ hộ là nhà ở riêng lẻ kết hợp kinh doanh, không phải đa năng/hỗn hợp; cho thuê cả nhà làm văn phòng, người thuê không ở thì không phải nhà ở riêng lẻ. Karaoke từ tầng 3 trở lên trong nhà hỗn hợp xét theo mục 8. (mục 5.5 (đề xuất 2360/CAHN-PC07))
+- Theo 2360/CAHN-PC07 (C07 thống nhất tại 1183/C07-P4): nhà có yếu tố ở của chủ hộ là nhà ở riêng lẻ kết hợp kinh doanh, không phải đa năng/hỗn hợp; cho thuê cả nhà làm văn phòng, người thuê không ở thì không phải nhà ở riêng lẻ. Karaoke từ tầng 3 trở lên trong nhà hỗn hợp xét theo mục 8. (mục 5.5 (đề xuất 2360/CAHN-PC07))
 **Liên quan:** Phụ lục III NĐ 105/2025/NĐ-CP (danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC)
 
 ### Công trình sau cải tạo, mở rộng
@@ -688,7 +688,7 @@
 **Cách kiểm trên hồ sơ:**
 - Lấy số tầng, tổng diện tích sàn (nhà lớn nhất), công năng, hạng nguy hiểm cháy nổ từ hồ sơ so với ngưỡng từng mục; ví dụ karaoke 1 tầng 925 m² không đạt mục 5 (cần từ 4 tầng hoặc từ 1.000 m²), trừ khi thuộc dự án có công trình khác thuộc diện hoặc là nhà hỗn hợp theo mục 8. (suy từ Phụ lục III mục 5, 8)
 **Dễ nhầm với:**
-- Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh bị loại khỏi mục 8; ca nhập nhằng ghi CẦN XÁC NHẬN (đề xuất CATP Hà Nội 2360/CAHN-PC07 chưa phải hướng dẫn chính thức). (Phụ lục III mục 8; mục 5.5)
+- Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh bị loại khỏi mục 8; ca nhập nhằng ghi CẦN XÁC NHẬN (2360/CAHN-PC07, C07 thống nhất tại 1183/C07-P4). (Phụ lục III mục 8; mục 5.5)
 **Liên quan:** thẩm định thiết kế về PCCC, công trình đa năng, công trình hỗn hợp, thẩm định điều chỉnh
 
 ### Quy mô công trình (còn gọi: tính riêng từng khối tách biệt)

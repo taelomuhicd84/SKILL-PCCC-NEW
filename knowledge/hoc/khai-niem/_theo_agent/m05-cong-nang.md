@@ -351,7 +351,7 @@
 **Khi nào KHÔNG áp dụng, ngoại lệ, cấm:**
 - Nhà ở riêng lẻ có kết hợp sản xuất, kinh doanh không thuộc mục 8. (Phụ lục III mục 8)
 **Dễ nhầm với:**
-- Theo đề xuất của CATP Hà Nội (chưa chính thức): nhà có yếu tố ở của chủ hộ là nhà ở riêng lẻ kết hợp kinh doanh, không phải đa năng/hỗn hợp; cho thuê cả nhà làm văn phòng, người thuê không ở thì không phải nhà ở riêng lẻ. Karaoke từ tầng 3 trở lên trong nhà hỗn hợp xét theo mục 8. (mục 5.5 (đề xuất 2360/CAHN-PC07))
+- Theo 2360/CAHN-PC07 (C07 thống nhất tại 1183/C07-P4): nhà có yếu tố ở của chủ hộ là nhà ở riêng lẻ kết hợp kinh doanh, không phải đa năng/hỗn hợp; cho thuê cả nhà làm văn phòng, người thuê không ở thì không phải nhà ở riêng lẻ. Karaoke từ tầng 3 trở lên trong nhà hỗn hợp xét theo mục 8. (mục 5.5 (đề xuất 2360/CAHN-PC07))
 **Liên quan:** Phụ lục III NĐ 105/2025/NĐ-CP (danh mục công trình, phương tiện thuộc diện thẩm định thiết kế về PCCC)
 
 ### Dụng cụ phá dỡ thô sơ
