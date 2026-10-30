@@ -10,6 +10,7 @@ description: Thẩm định PCCC – Mục 2 – Bậc chịu lửa. Bậc chị
 - `knowledge/bai-hoc.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/qcvn06-phu-luc-h.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m02-bac-chiu-lua.md`
 - `knowledge/hoc/du-an/m02-bac-chiu-lua.md`

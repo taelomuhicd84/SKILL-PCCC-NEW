@@ -15,6 +15,7 @@ description: Thẩm định PCCC – Mục 1 – Phân loại, diện thẩm duy
 - `knowledge/qcvn10-2025-chung.md`
 - `knowledge/qcvn06-dieu-7.md`
 - `knowledge/nghi-dinh-tham-dinh-dieu-chinh.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m01-phan-loai.md`
 - `knowledge/hoc/du-an/m01-phan-loai.md`

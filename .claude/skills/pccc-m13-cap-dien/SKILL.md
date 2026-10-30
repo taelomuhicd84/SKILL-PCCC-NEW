@@ -9,6 +9,7 @@ description: Thẩm định PCCC – Mục 13 – Cấp điện cho hệ thống
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m13-cap-dien.md`
 - `knowledge/hoc/du-an/m13-cap-dien.md`

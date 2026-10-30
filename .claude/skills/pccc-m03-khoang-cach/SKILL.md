@@ -11,6 +11,7 @@ description: Thẩm định PCCC – Mục 3 – Khoảng cách an toàn PCCC. K
 - `knowledge/bai-hoc.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/giap-ranh-khoang-cach-pccc.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m03-khoang-cach.md`
 - `knowledge/hoc/du-an/m03-khoang-cach.md`

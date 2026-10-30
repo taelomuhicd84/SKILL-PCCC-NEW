@@ -118,8 +118,10 @@ def o_tu_so_lieu(sl, ban_do):
                 o[hang['dn']] = d['dn'] if d else None
                 o[hang['l']] = d['l'] if d else None
         elif isinstance(bd, dict):  # nhóm ô (vd họng nước)
-            if k == 'hong':  # cuộn vòi: thiếu hoặc bằng 0 thì mặc định 20 m và Kp 0,012 (như hongMacDinh trong thuy_luc.ts), không để tổn thất cuộn vòi = 0
-                v = {**v, 'L_voi': v.get('L_voi') or 20, 'Kp': v.get('Kp') or 0.012}
+            if k == 'hong':  # cuộn vòi: thiếu thì mặc định DN50, 20 m; Kp để công thức I166 tra theo DN (TCVN 4513-1988 mục 6.19: 50 mm 0,012; 66 mm 0,00385), chỉ ghi Kp khi số liệu có sẵn
+                v = {**v, 'DN_voi': v.get('DN_voi') or 50, 'L_voi': v.get('L_voi') or 20}
+                if not v.get('Kp'):
+                    v.pop('Kp', None)
             for kk, vv in v.items():
                 if kk not in bd:
                     raise SystemExit(f'Không có khóa "{k}.{kk}" trong o_nhap.json')

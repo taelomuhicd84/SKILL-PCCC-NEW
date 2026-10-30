@@ -8,6 +8,7 @@ description: Thẩm định PCCC – Mục 17 – Liên lạc. Hệ thống liê
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m17-lien-lac.md`
 - `knowledge/hoc/du-an/m17-lien-lac.md`

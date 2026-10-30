@@ -10,6 +10,7 @@ description: Thẩm định PCCC – Mục 5 – Bố trí công năng. Vị tr�
 - `knowledge/bai-hoc.md`
 - `skills/SKILL_ngan_chay_cong_nang.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m05-cong-nang.md`
 - `knowledge/hoc/du-an/m05-cong-nang.md`

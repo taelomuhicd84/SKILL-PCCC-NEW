@@ -16,6 +16,7 @@ description: Thẩm định PCCC – Hướng dẫn thẩm định. Viết hư�
 - `skills/MOD_cau_thang_buong_thang.md`
 - `memory/pccc-escape-route-method.md`
 - `knowledge/chon-loai-dau-bao.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/huong-dan.md`
 - `knowledge/hoc/du-an/huong-dan.md`

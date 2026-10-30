@@ -10,6 +10,7 @@ description: Thẩm định PCCC – Mục 15 – Dụng cụ phá dỡ, phươn
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
 - `knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m15-cnch.md`
 - `knowledge/hoc/du-an/m15-cnch.md`

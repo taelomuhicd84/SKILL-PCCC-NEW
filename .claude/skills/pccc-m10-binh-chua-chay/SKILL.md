@@ -11,6 +11,7 @@ description: Thẩm định PCCC – Mục 10 – Bình chữa cháy, phương t
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
 - `knowledge/qcvn10-2025-binh-dung-cu-co-gioi.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m10-binh-chua-chay.md`
 - `knowledge/hoc/du-an/m10-binh-chua-chay.md`

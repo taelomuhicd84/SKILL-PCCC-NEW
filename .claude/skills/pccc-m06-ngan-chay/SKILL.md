@@ -16,6 +16,7 @@ description: Thẩm định PCCC – Mục 6 – Ngăn cháy, chống cháy lan.
 - `knowledge/qcvn06-phu-luc-h.md`
 - `knowledge/qcvn06-dieu-4.md`
 - `knowledge/giap-ranh-khoang-cach-pccc.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m06-ngan-chay.md`
 - `knowledge/hoc/du-an/m06-ngan-chay.md`

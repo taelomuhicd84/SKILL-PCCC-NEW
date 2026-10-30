@@ -13,6 +13,7 @@ description: Thẩm định PCCC – Mục 12 – Chữa cháy (sprinkler, họn
 - `knowledge/qcvn10-2025-bao-chay-chua-chay-tu-dong.md`
 - `knowledge/qcvn10-2025-nuoc-chua-chay.md`
 - `knowledge/qcvn10-2025-phu-luc-h.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m12-chua-chay.md`
 - `knowledge/hoc/du-an/m12-chua-chay.md`

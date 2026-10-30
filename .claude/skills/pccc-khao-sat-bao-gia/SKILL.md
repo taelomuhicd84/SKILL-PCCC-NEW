@@ -5,12 +5,13 @@ description: Thẩm định PCCC – Báo cáo khảo sát và báo giá PCCC. M
 <!-- Sinh tự động từ shared/src/agents.ts bằng `npm run gen:claude`. Không sửa tay. -->
 # Báo cáo khảo sát và báo giá PCCC
 **Việc:** Mục 8 (không phải thẩm định): từ bản vẽ hoặc thông tin bằng chữ lấy hạng mục, công năng, diện tích, số tầng, chiều cao PCCC, khối tích (không có thì diện tích x chiều cao); công trình có thuộc diện thẩm định không; số lối thoát nạn trên bản vẽ và đã đảm bảo yêu cầu QCVN 06 chưa; thuộc diện lắp đặt hệ thống PCCC nào; có chữa cháy nước thì cần tính bể nước PCCC (skill tính bể làm sau).
-**Lưu ý:** Số lối thoát nạn: xét từng buồng thang theo MOD_cau_thang_buong_thang (thang rẽ quạt thêm 3.4.4) rồi mới đếm. Đếm theo tầng: tầng trên = số buồng thang đạt, tầng trệt = số lối ra ngoài nhà, tầng hầm = số thang lên tầng 1 hoặc lên sân (Bài học 26). Đây là số liệu sơ bộ để khảo sát và báo giá, không phải kết luận thẩm định. Trả lời tiếng Việt, ngắn, theo đúng 8 mục trong knowledge/khao-sat-bao-gia.md và kết thúc bằng MỘT khối json khao_sat. Khối tích không có trên bản vẽ thì tự tính diện tích x chiều cao và ghi rõ. Bản vẽ không có bề rộng thoát nạn thì chỉ ghi yêu cầu theo QCVN 06, không kết luận bề rộng. Bể nước PCCC: chưa tự tính, ghi CẦN TÍNH BỂ NƯỚC PCCC khi có chữa cháy nước. Số liệu thiếu thì ước lượng có nhãn hoặc CẦN XÁC NHẬN; không bịa ngưỡng quy chuẩn.
+**Lưu ý:** Số lối thoát nạn: cắt phóng to từng thang (scripts/cat_thang.py), xem chiếu nghỉ theo knowledge/nhan-dien-thang-thoat-nan.md (bậc chéo, rẽ quạt, cong, xoắn thường không thoát nạn), rồi xét từng buồng thang theo MOD_cau_thang_buong_thang (thang rẽ quạt thêm 3.4.4) rồi mới đếm. Đếm theo tầng: tầng trên = số buồng thang đạt, tầng trệt = số lối ra ngoài nhà, tầng hầm = số thang lên tầng 1 hoặc lên sân (Bài học 26). Đây là số liệu sơ bộ để khảo sát và báo giá, không phải kết luận thẩm định. Trả lời tiếng Việt, ngắn, theo đúng 8 mục trong knowledge/khao-sat-bao-gia.md và kết thúc bằng MỘT khối json khao_sat. Khối tích không có trên bản vẽ thì tự tính diện tích x chiều cao và ghi rõ. Bản vẽ không có bề rộng thoát nạn thì chỉ ghi yêu cầu theo QCVN 06, không kết luận bề rộng. Bể nước PCCC: chưa tự tính, ghi CẦN TÍNH BỂ NƯỚC PCCC khi có chữa cháy nước. Số liệu thiếu thì ước lượng có nhãn hoặc CẦN XÁC NHẬN; không bịa ngưỡng quy chuẩn.
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/khao-sat-bao-gia.md`
 - `knowledge/bai-hoc.md`
 - `skills/MOD_cau_thang_buong_thang.md`
+- `knowledge/nhan-dien-thang-thoat-nan.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/qcvn06-phu-luc-h.md`
 - `knowledge/qcvn10-2025-chung.md`
@@ -20,6 +21,7 @@ description: Thẩm định PCCC – Báo cáo khảo sát và báo giá PCCC. M
 - `skills/MOD_so_luong_loi_ra.md`
 - `skills/PHU_LUC_G_QCVN06.md`
 - `knowledge/so-bo-thiet-ke-pccc.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/khao-sat-bao-gia.md`
 - `knowledge/hoc/du-an/khao-sat-bao-gia.md`

@@ -11,6 +11,7 @@ description: Thẩm định PCCC – Mục 14 – Chiếu sáng sự cố, chỉ
 - `knowledge/bai-hoc.md`
 - `skills/SKILL_thoat_nan.md`
 - `knowledge/qcvn10-2025-den-loa.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m14-den-su-co.md`
 - `knowledge/hoc/du-an/m14-den-su-co.md`

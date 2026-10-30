@@ -14,6 +14,7 @@ description: Thẩm định PCCC – Mục 11 – Báo cháy. Đối tượng ph
 - `knowledge/qcvn10-2025-bao-chay-chua-chay-tu-dong.md`
 - `knowledge/chon-loai-dau-bao.md`
 - `skills/MOD_dau_bao_khoi_khoang_dam.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m11-bao-chay.md`
 - `knowledge/hoc/du-an/m11-bao-chay.md`

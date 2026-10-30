@@ -10,6 +10,7 @@ description: Thẩm định PCCC – Mục 9 – Chống tụ khói. Hút xả k
 - `knowledge/bai-hoc.md`
 - `skills/MOD_chong_khoi_PL_D.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m09-chong-khoi.md`
 - `knowledge/hoc/du-an/m09-chong-khoi.md`

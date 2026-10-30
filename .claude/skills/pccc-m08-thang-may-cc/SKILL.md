@@ -10,6 +10,7 @@ description: Thẩm định PCCC – Mục 8 – Thang máy chữa cháy. Đối
 - `knowledge/bai-hoc.md`
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/qcvn06-dieu-6.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m08-thang-may-cc.md`
 - `knowledge/hoc/du-an/m08-thang-may-cc.md`

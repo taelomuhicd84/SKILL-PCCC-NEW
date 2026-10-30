@@ -12,6 +12,7 @@ description: Thẩm định PCCC – Mục 4 – Đường, bãi đỗ xe chữa
 - `knowledge/dinh-nghia/dinh-nghia.md`
 - `knowledge/qcvn06-dieu-6.md`
 - `knowledge/loi-vao-tren-cao.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m04-giao-thong.md`
 - `knowledge/hoc/du-an/m04-giao-thong.md`

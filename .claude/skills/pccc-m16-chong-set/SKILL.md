@@ -8,6 +8,7 @@ description: Thẩm định PCCC – Mục 16 – Chống sét. Phương án ch�
 
 ## Tri thức (nguyên văn điều khoản – chỉ mở file cần cho dòng đang xét)
 - `knowledge/bai-hoc.md`
+- `knowledge/ban-ve-mau.md`
 - `knowledge/hoc/_da_duyet.md`
 - `knowledge/hoc/khai-niem/_theo_agent/m16-chong-set.md`
 - `knowledge/hoc/du-an/m16-chong-set.md`
