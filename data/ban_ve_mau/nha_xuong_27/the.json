@@ -1,0 +1,2735 @@
+{
+ "id": "nha_xuong_27",
+ "cong_nang": "nha_xuong",
+ "so_trang": 54,
+ "phan": [
+  "KIẾN TRÚC + HỆ THỐNG PCCC",
+  "TỔNG THỂ",
+  "KIẾN TRÚC",
+  "NHÀ KHO",
+  "NHÀ XE",
+  "NHÀ BẢO VỆ",
+  "BÁO CHÁY",
+  "ĐÈN EX - EM",
+  "BÌNH CHỮA CHÁY",
+  "CẤP ĐIỆN",
+  "CHỮA CHÁY",
+  "CHỐNG SÉT"
+ ],
+ "cao_pccc_m": [],
+ "ghcl": [
+  "E15",
+  "EI60",
+  "REI90"
+ ],
+ "van_ban_trich": {
+  "QCVN 06:2022": [
+   "bảng 4",
+   "bảng 9",
+   "điều 3.2.5",
+   "điều 4.32",
+   "điều 4.33.3"
+  ],
+  "QCVN 06:2023": [
+   "điều 3.2.3"
+  ],
+  "TCVN 13456:2022": [
+   "điều 5.1"
+  ],
+  "TCVN 3890:2023": [],
+  "TCVN 4879:1989": [],
+  "TCVN 5738:2021": [
+   "điều 6.10"
+  ],
+  "TCVN 7435-1:2004": [
+   "bảng 1"
+  ],
+  "TCVN 7722-2-22:2013": []
+ },
+ "luu_y": "Trích tự động từ PDF; mọi số liệu là CẦN XÁC NHẬN khi dùng cho dự án khác. Hình học: tọa độ pt PDF, mm_moi_pt để đổi ra mm.",
+ "trang": [
+  {
+   "trang": 1,
+   "loai": "bia",
+   "phan": "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 2,
+   "loai": "bia",
+   "phan": "TỔNG THỂ",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 3,
+   "ma": "TT-01",
+   "ten": "MẶT BẰNG TÔNG THỂ",
+   "hang_muc": "TỔNG THỂ",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Hạng mục hiện hữu giai đoạn 1 đã được thẩm duyệt theo số 626/TD-PCCC-P2 ngày 26/08/2016 và được nghiệm",
+     "xy": [
+      828,
+      516
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nhà xưởng (38m x76m) Hồ nước PCCC (500m3) Nhà bảo vệ Nhà kho Nhà xe",
+     "xy": [
+      659,
+      518
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI60"
+   ],
+   "ky_hieu": [
+    "D1",
+    "D2"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 4,
+   "ma": "TT-02",
+   "ten": "MẶT BẰNG TÔNG THỂ MÁI",
+   "hang_muc": "TỔNG THỂ",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Hạng mục hiện hữu giai đoạn 1 đã được thẩm duyệt theo số 626/TD-PCCC-P2 ngày 26/08/2016 và được nghiệm",
+     "xy": [
+      828,
+      542
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nhà xưởng (38m x76m) Hồ nước PCCC (500m3) Nhà bảo vệ Nhà kho Nhà xe",
+     "xy": [
+      659,
+      544
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 5,
+   "ma": "TT-03",
+   "ten": "MẶT BẰNG TÔNG THỂ GIAO THÔNG",
+   "hang_muc": "TỔNG THỂ",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "LỚP NY LONG DÀY 0.3mm LỚP ĐÁ 0x4 DÀY 200 LỚP ĐẤT LU LÈN CHẶT",
+     "xy": [
+      99,
+      109
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ghi chú đường giao thông PCCC: - Bề rộng đường giao thông đảm bảo tối thiếu 3.5m - Phía trên đường cho xe chữa cháy không có các kết cấu chặn phía trên - Chiều cao thông thủy của đường cho xe chữa cháy lớn hơn 4.5m - Độ dốc của đường xe chữa cháy không vượt quá 1:8,3 - Đường giao thông chịu được tải trọng của xe chữa cháy theo yêu cầu thiết kế & phù hợp với chủng loại phương tiện của cơ quan cảnh sát PCCC & CNCH ( >= 30 tấn).",
+     "xy": [
+      602,
+      712
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "m04-giao-thong"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 6,
+   "ma": "TT-04",
+   "ten": "CHI TIẾT BÃI ĐỖ XE PCCC",
+   "hang_muc": "TỔNG THỂ",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "LỚP NY LONG DÀY 0.3mm LỚP ĐÁ 0x4 DÀY 200 LỚP ĐẤT LU LÈN CHẶT",
+     "xy": [
+      829,
+      86
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÃI ĐỖ XE PCCC 15 x 3.5M CỦA NHÀ KHO VÀ NHÀ XE",
+     "xy": [
+      155,
+      170
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ghi chú đường giao thông PCCC: - Bãi đỗ xe chữa cháy dùng cho nhà kho và nhà xe có kích thước 15x3.5m - Đỗ dốc bãi đỗ xe chữa cháy không quá 1:15. - Bãi đỗ xe chữa cháy bố trí cách công trình khoảng 2 -10m - Đánh dấu tất cả các góc của bãi đỗ xe chữa cháy và đường cho xe chữa cháy ngoại trừ những đường giao thông công cộng được sử dụng làm bãi đỗ xe chữa cháy hoặc đường cho xe chữa cháy, việc đánh dấu phải thực hiện bằng các dải sơn phản quang, đảm bảo có thể nhìn thấy được vào buổi tối và phải bố trí ở cả hai phía của đường cho xe chữa cháy hoặc bãi đỗ xe chữa cháy với khoảng cách không quá 5m. - Tại các điểm đầu và điểm cuối của bãi đỗ xe chữa cháy có biện bảo nền trắng, chữ đỏ với chiều cao chữ không nhỏ hơn 50mm. Chiều cao từ mặt đất đến điểm thấp nhất phải nằm trong khoảng 1 - 1.5m. Biển báo phải đảm bảo nhìn thấy được vào buổi tối và không được bố trí cách đường cho xe chữa cháy hoặc bãi đỗ xe không quá 3m. Tất cả các phần của đường cho xe chữa cháy hoặc bãi đỗ xe chữa cháy không được cách biển báo gần quá 15m.",
+     "xy": [
+      629,
+      471
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ghi chú đường giao thông PCCC:",
+     "xy": [
+      53,
+      476
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Bề rộng đường giao thông đảm bảo tối thiếu 3.5m Phía trên đường cho xe chữa cháy không có các kết cấu chặn phía trên Chiều cao thông thủy của đường cho xe chữa cháy lớn hơn 4.5m Độ dốc của đường xe chữa cháy không vượt quá 1:8,3 Đường giao thông chịu được tải trọng của xe chữa cháy theo yêu cầu thiết kế & phù hợp với chủng loại phương tiện của cơ quan Cảnh sát PCCC & CNCH ( >= 30 tấn).",
+     "xy": [
+      93,
+      495
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 7,
+   "ma": "TT-05",
+   "ten": "MẶT BẰNG KHOẢNG CÁCH AN TOÀN PCCC",
+   "hang_muc": "TỔNG THỂ",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG THỐNG KÊ KHOẢNG CÁCH AN TOÀN PCCC CỦA CÁC HẠNG MỤC CÔNG TRÌNH",
+     "xy": [
+      644,
+      667
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI60"
+   ],
+   "ky_hieu": [
+    "D1",
+    "D2",
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "m03-khoang-cach",
+    "m06-ngan-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 8,
+   "loai": "bia",
+   "phan": "KIẾN TRÚC",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 9,
+   "loai": "bia",
+   "phan": "NHÀ KHO",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 10,
+   "ma": "KT-01",
+   "ten": "MẶT BẰNG NHÀ KHO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Biển thông báo ( ghi chú ) loại cửa và chiều mở cửa",
+     "xy": [
+      893,
+      346
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: - Nhà kho có hạng sản xuất C - Số người làm việc đồng thời tại nhà kho là 20 người < 25 người. - Diện tích của nhà kho là 296 m2 < 1000 m2 => Nhà kho đảm bảo việc bố trí 1 lối thoát nạn trực tiếp ra bên ngoài ( Đảm bảo theo mục F điều 3.2.5 Sửa đổi 01 QCVN 06:2022/BXD)",
+     "xy": [
+      425,
+      423
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 3.2.5"
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ : Theo chú thích 2 bảng 4 QC06:2022 + Tấm lợp là vật liệu không cháy ( Kim loại ) không yêu cầu GHCL ( chú thích 2/ bảng 4 sửa đổi 01:2023 QCVN 06:2022/BXD) + Công trình không có lắp đặt các tấm lợp cách nhiệt * Theo chú thích 6 bảng 4 sửa đổi 01:2023 QCVN 06:2022/BXD Không quy định GHCL tường ngoài vì công trình không yêu cầu ngăn cháy theo phương ngang, phương đứng tại điều 4.32 & 4.33 QCVN 06:2022/BXD. GHI CHÚ: - Nhà kho chứa bao bì đóng gói hàng hoá có hạng sản xuất C thuộc nhóm nhà F5.2. - Chiều cao sắp xếp hàng hóa < 2m - Tổng số lượng người làm việc đồng thời trong nhà kho là 20 người. - Không bố trí các gian phòng hạng A, B, các hóa chất dung môi dễ cháy bên trong nhà kho - Tất cả các tủ điện có thể tích < 1m3, được đặt bên ngoài nhà kho *Nhà kho có bậc chịu lửa bậc IV + Cột thép, vi kèo chịu lực có GHCL R15 (xem bảng tính toán theo hệ số tiết diện Am/V nhỏ hơn hoặc bằng 250 m-1 ) lưu ý hệ số Am/V được xác định theo ISO 834-10. + Kết cấu mái: xà gồ mái có GHCL R15 ( Công trình có lắp đặt các tấm lớp các nhiệt có GHCL E15) *Ghi chú: các bộ phận chịu lực bao gồm: cột thép, vi kèo đảm bảo độ bền tổng thể & sự ổn định của nhà khi có cháy *Nhà kho có cấp nguy hiểm cháy kết cấu S0: + Các bộ phận chịu lực bao gồm cột, vi kèo có cấp nguy hiểm cháy K0. + Tường ngoài là vách Tole và tường gạch có cấp nguy hiểm cháy K0 + Các bộ phận kết cấu mái bao gồm xà gồ & tấm lợp có cấp nguy hiểm cháy K0. *Vật liệu hoàn thiện, trang trí và trần ( bao gồm cả tấm trần treo nếu có), vật liệu ốp lát, vật liệu phủ sàn trên đường thoát nạn có cấp nguy hiểm cháy CV0 tuân thủ yêu cầu tại bảng B.8, phụ lục B-QCVN06:2022/BXD)",
+     "xy": [
+      44,
+      561
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 4.32"
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Lưu ý: Tất cả các cửa đi thoát nạn dạng trượt đều được trang bị biển thông báo/ ghi chú về loại cửa và chiều mở cửa ( theo điều 3.2.3 sửa đổi 1:2023 QCVN 06:2023/BXD)",
+     "xy": [
+      834,
+      573
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2023",
+       "dieu": "điều 3.2.3"
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ : - Nhà kho có hạng sản xuất C. - Diện tích nhà kho là 296 m2. => Không yêu cầu trang bị hệ thống chữa cháy tự động Spinkler (Phụ lục A TCVN 3890-2023). => Không yêu cầu trang bị hệ thống chữa cháy vách tường (Phụ lục B TCVN 3890-2023).",
+     "xy": [
+      820,
+      626
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 06:2022",
+     "bảng 4"
+    ],
+    [
+     "QCVN 06:2022",
+     "điều 3.2.5"
+    ],
+    [
+     "QCVN 06:2022",
+     "điều 4.32"
+    ],
+    [
+     "QCVN 06:2023",
+     "điều 3.2.3"
+    ]
+   ],
+   "ghcl": [
+    "E15"
+   ],
+   "ky_hieu": [
+    "D1",
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ KHO",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 11,
+   "ma": "KT-02",
+   "ten": "MẶT BẰNG ĐỊNH VỊ CỘT",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ KHO",
+   "agent": [
+    "m01-phan-loai"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 12,
+   "ma": "KT-03",
+   "ten": "MẶT BẰNG MÁI NHÀ KHO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ : Theo chú thích 2 bảng 4 QC06:2022 + Tấm lợp là vật liệu không cháy ( Kim loại ) không yêu cầu GHCL ( chú thích 2/ bảng 4 sửa đổi 01:2023 QCVN 06:2022/BXD) + Công trình không có lắp đặt các tấm lợp cách nhiệt * Theo chú thích 6 bảng 4 sửa đổi 01:2023 QCVN 06:2022/BXD Không quy định GHCL tường ngoài vì công trình không yêu cầu ngăn cháy theo phương ngang, phương đứng tại điều 4.32 & 4.33 QCVN 06:2022/BXD.",
+     "xy": [
+      802,
+      716
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 4.32"
+      }
+     ]
+    },
+    {
+     "chu": "Theo mục A.1.3.1 Sửa đổi 01 QCVN 06:2022/BXD quy định : - Đối với các nhà có chiều cao từ cốt mặt đất thiết kế đến thành gờ hoặc mặt trên của tường chắn mái lớn hơn hoặc bằng 10m thì cứ 40 000m2 diện tích mặt bằng mái phải có 1 lối lên mái, nếu diện tích mặt bằng mái chưa đủ 40 000m2 thì vẫn phải bố trí ít nhất 1 lối lên mái. => Nhà kho có chiều cao diềm mái là 5.5m < 10m nên không cần phải trang bị lối lên mái.",
+     "xy": [
+      50,
+      733
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 06:2022",
+     "bảng 4"
+    ],
+    [
+     "QCVN 06:2022",
+     "điều 4.32"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ KHO",
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 13,
+   "ma": "KT-04",
+   "ten": "MẶT ĐỨNG 1 - 3 VÀ 3 - 1 NHÀ KHO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "1. Mặt đứng 1 - 3 của Nhà kho cách nhà xưởng hiện hữu 6m < 9m. => Thiết kế tường gạch dày 100mm cao tới mái có GHCL REI90 và không trổ ô cửa sổ tại trục 1-3. 2. Mặt đứng 1 - 3 của Nhà kho là tường gạch 100mm GHCL REI90. 3. Nhà kho có chiều cao PCCC < 15m nên không yêu cầu ngăn cháy theo phương đứng theo điều (Đ.4.33.1 đến Đ.4.33.3 Sửa đổi 01:2023 QCVN06/2022-BXD).",
+     "xy": [
+      49,
+      712
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 4.33.3"
+      }
+     ]
+    },
+    {
+     "chu": "1. Mặt đứng 3 - 1 của Nhà kho giáp với nhà xe. => Biện pháp đảm bảo bảo an toàn PCCC : Xây dựng tường gạch 100mm cao đến mái GHCL REI90 và không trổ ô cửa sổ tại trục 3 - 1 của Nhà kho.",
+     "xy": [
+      437,
+      750
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 4.33.3"
+    ]
+   ],
+   "ghcl": [
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ KHO",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 14,
+   "ma": "KT-05",
+   "ten": "MẶT ĐỨNG A - D VÀ E - A NHÀ KHO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "Biển thông báo ( ghi chú ) loại cửa và chiều mở cửa",
+     "xy": [
+      107,
+      35
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Biển thông báo ( ghi chú ) loại cửa và chiều mở cửa",
+     "xy": [
+      432,
+      150
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lưu ý: Tất cả các cửa đi thoát nạn dạng trượt đều được trang bị biển thông báo/ ghi chú về loại cửa và chiều mở cửa ( theo điều 3.2.3 sửa đổi 1:2023 QCVN 06:2023/BXD)",
+     "xy": [
+      47,
+      269
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2023",
+       "dieu": "điều 3.2.3"
+      }
+     ]
+    },
+    {
+     "chu": "TỶ LỆ % MỞ LOUVER TRÊN TƯỜNG THEO PHỤ LỤC D-QC06/2022",
+     "xy": [
+      383,
+      732
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 06:2023",
+     "điều 3.2.3"
+    ]
+   ],
+   "ghcl": [
+    "REI90"
+   ],
+   "ky_hieu": [
+    "D1",
+    "LV1",
+    "S1",
+    "S2"
+   ],
+   "cao_pccc_m": [],
+   "phan": "NHÀ KHO",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 15,
+   "ma": "KT-06",
+   "ten": "CHI TIẾT TƯỜNG NGĂN CHÁY GIỮA HAI CÔNG NĂNG",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "Nhà xe được ngăn cách với kho bằng tường gạch cao 100mm đến mái có GHCL REI90",
+     "xy": [
+      701,
+      59
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT TƯỜNG NGĂN CHÁY GIỮA HAI CÔNG NĂNG",
+     "xy": [
+      311,
+      404
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tường gạch cao 100mm đến mái có GHCL REI90 ngăn cách nhà xe với kho",
+     "xy": [
+      263,
+      436
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tường gạch cao 100mm đến mái có GHCL REI90 ngăn cách nhà xe với kho",
+     "xy": [
+      637,
+      440
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT TƯỜNG NGĂN CHÁY GIỮA HAI CÔNG NĂNG",
+     "xy": [
+      313,
+      771
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ KHO",
+   "agent": [
+    "m06-ngan-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 16,
+   "ma": "KT-07",
+   "ten": "MẶT ĐỨNG KHUNG KÈO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ KHO",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 17,
+   "ma": "KT-08",
+   "ten": "MẶT CẮT A - A VÀ B - B NHÀ KHO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [
+    {
+     "chu": "Ống thép Steel pipe Vữa xi măng Chống cháy Fire stop Tắc kê nỡ Anchor screw Thép tấm 2mmt Steel plate 2mmt Ống bộc ngoài Cover pipe",
+     "xy": [
+      129,
+      664
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tắc kê nở Anchor screw Vữa xi măng Chống cháy Fire stop",
+     "xy": [
+      257,
+      676
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ống bảo vệ bên ngoài (1.2mm G. I. SHEET) Pipe sleeve (1.2mm G. I. SHEET)",
+     "xy": [
+      243,
+      735
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ống bảo vệ bên ngoài (1.2mm G. I. SHEET) Pipe sleeve (1.2mm G. I. SHEET)",
+     "xy": [
+      116,
+      744
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Màu lớp phủ ngoài của sắt tấm và tường phải giống nhau Coating colour of steel plate and wall must be same",
+     "xy": [
+      201,
+      754
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG XUYÊN TƯỜNG NGĂN CHÁY SLEEVE PIPE THROUGH R.C WALL",
+     "xy": [
+      212,
+      777
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ỐNG XUYÊN SÀN, TƯỜNG GẠCH",
+     "xy": [
+      68,
+      803
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ KHO",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 18,
+   "ma": "KT-09",
+   "ten": "MẶT BẰNG THOÁT NẠN NHÀ KHO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC BỐ TRÍ HÀNG HÓA ( CHIỀU CAO KỆ HÀNG < 2M)",
+     "xy": [
+      469,
+      218
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: - Nhà kho có hạng sản xuất C - Số người làm việc đồng thời tại nhà kho là 20 người < 25 người. - Diện tích của nhà kho là 296 m2 < 1000 m2 => Nhà kho đảm bảo việc bố trí 1 lối thoát nạn trực tiếp ra bên ngoài ( Đảm bảo theo mục F điều 3.2.5 Sửa đổi 01 QCVN 06:2022/BXD)",
+     "xy": [
+      797,
+      420
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 3.2.5"
+      }
+     ]
+    },
+    {
+     "chu": "KHU VỰC BỐ TRÍ HÀNG HÓA ( CHIỀU CAO KỆ HÀNG < 2M)",
+     "xy": [
+      469,
+      427
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: - Số lượng người làm việc dự kiến tại nhà kho là 20 người. - Hành lang thoát nạn có kích bề rộng 1.2m, cao > 2.1m. - Trên đường thoát nạn không bố trí vật dụng, máy móc gây cản trở thoát nạn.",
+     "xy": [
+      45,
+      448
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Biển thông báo ( ghi chú ) loại cửa và chiều mở cửa",
+     "xy": [
+      869,
+      493
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "* Yêu cầu về vật liệu hoàn thiện, trang trí, ốp lát, tấm phủ sàn: **Vật liệu hoàn thiện, trang trí tường và trần (bao gồm cả tấm trần treo nếu có), vật liệu ốp lát, vật liệu phủ sàn trên đường thoát nạn tuân thủ theo yêu cầu tại bảng B.8, phụ lục B, QCVN 06:2022/BXD. - Vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trên đường thoát nạn: + Tường hành lang thoát nạn có kết cấu gạch, bê tông được được trát xi măng. +Sàn hành lang thoát nạn sàn BTCT.",
+     "xy": [
+      359,
+      723
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Lưu ý: Tất cả các cửa đi thoát nạn dạng trượt đều được trang bị biển thông báo/ ghi chú về loại cửa và chiều mở cửa ( theo điều 3.2.3 sửa đổi 1:2023 QCVN 06:2023/BXD)",
+     "xy": [
+      799,
+      765
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2023",
+       "dieu": "điều 3.2.3"
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 06:2022",
+     "điều 3.2.5"
+    ],
+    [
+     "QCVN 06:2023",
+     "điều 3.2.3"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [
+    "D1"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ KHO",
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 19,
+   "loai": "bia",
+   "phan": "NHÀ XE",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 20,
+   "ma": "KT-10",
+   "ten": "MẶT BẰNG NHÀ XE",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Nhà xe có bậc chịu lửa bậc IV, cấp nguy hiểm cháy S0: - Cột chịu lực và các bộ phận chịu lực khác: R15 => Thiết kế cột thép GHCL R15 (xem bảng tính Am/V<250m-1). - Tường ngoài không chịu lực: Không yêu cầu ( Chiều cao PCCC<15m) - Kết cấu mái: + Tấm lợp (mái, vách): tole kim loại + Xà gồ: R 15 => Thiết kế xà gồ thép GHCL R15 (xem bảng tính Am/V<250m-1).",
+     "xy": [
+      655,
+      26
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CỬA ĐI 1 CÁNH MỞ CÓ GIỚI HẠN CHỊU LỬA EI60. - CÓ CƠ CẤU ĐÓNG TỰ ĐỘNG, KHÔNG KHÓA, CÓ THỂ MỞ TỰ DO TỪ BÊN TRONG VÀ BÊN NGOÀI. KHE CỬA ĐƯỢC CHÈN KÍN",
+     "xy": [
+      923,
+      288
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nhà rác được ngăn cách với nhà xe bằng tường gạch cao đến mái và cửa chống cháy",
+     "xy": [
+      313,
+      365
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nhà xe được ngăn cách với kho bằng tường gạch cao 100mm đến mái có GHCL REI90",
+     "xy": [
+      66,
+      613
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Cửa đi 1 cánh, kích thước 900x2200mm Cửa chống cháy 1 cánh có GHCL EI60, kích thước 900x2100mm",
+     "xy": [
+      764,
+      636
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI60",
+    "REI90"
+   ],
+   "ky_hieu": [
+    "D2",
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ XE",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 21,
+   "ma": "KT-11",
+   "ten": "MẶT BẰNG MÁI CHE NHÀ XE",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Theo mục A.1.3.1 Sửa đổi 01 QCVN 06:2022/BXD quy định : - Đối với các nhà có chiều cao từ cốt mặt đất thiết kế đến thành gờ hoặc mặt trên của tường chắn mái lớn hơn hoặc bằng 10m thì cứ 40 000m2 diện tích mặt bằng mái phải có 1 lối lên mái, nếu diện tích mặt bằng mái chưa đủ 40 000m2 thì vẫn phải bố trí ít nhất 1 lối lên mái. => Nhà xe có chiều cao diềm mái là 2.2m < 10m nên không cần phải trang bị lối lên mái.",
+     "xy": [
+      547,
+      30
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ XE",
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 22,
+   "ma": "KT-12",
+   "ten": "MẶT ĐỨNG 1 - 6 VÀ 6 - 1 NHÀ XE",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "1. Mặt đứng 1 - 6 của Nhà xe giáp với Nhà kho. => Biện pháp đảm bảo bảo an toàn PCCC : Xây dựng tường gạch 100mm cao đến mái GHCL REI90 và không trổ ô cửa sổ tại trục 1 - 6 của Nhà xe giáp.",
+     "xy": [
+      48,
+      744
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. Mặt đứng 6 - 1 của Nhà xe giáp với ranh đất. => Biện pháp đảm bảo bảo an toàn PCCC : Xây dựng tường gạch 100mm cao đến mái GHCL REI90 và không trổ ô cửa sổ tại trục 6 - 1 của Nhà xe giáp.",
+     "xy": [
+      661,
+      744
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XE",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 23,
+   "ma": "KT-13",
+   "ten": "MẶT ĐỨNG F - D VÀ G - F NHÀ XE",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XE",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 24,
+   "ma": "KT-14",
+   "ten": "MẶT ĐỨNG 5/(A-C) VÀ E - A NHÀ XE",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "1. Mặt đứng E - A của Nhà xe giáp với ranh đất. => Biện pháp đảm bảo bảo an toàn PCCC : Xây dựng tường gạch 100mm cao đến mái GHCL REI90 và không trổ ô cửa sổ tại trục E - A của Nhà xe giáp.",
+     "xy": [
+      661,
+      747
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XE",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 25,
+   "ma": "KT-15",
+   "ten": "MẶT ĐỨNG TÍNH TOÁN THÔNG GIÓ TỰ NHIÊN CHO NHÀ XE",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "Chú thích 4 Sửa đổi 01:2023 QCVN06:2022/BXD: Để thông gió tự nhiên khi có cháy cho các gian phòng hoặc hành lang, cũng có thể bố trí (phân bố tương đối đều) các ô cửa mở trên kết cấu bao che ngoài của gian phòng, hành lang ở độ cao không nhỏ hơn 2,2 m từ mặt sàn đến mép dưới của ô cửa và với tổng diện tích hữu hiệu không nhỏ hơn 2,5 % diện tích sàn của gian phòng, hành lang.",
+     "xy": [
+      336,
+      44
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "LƯU Ý: Nhà rác có mật độ < 1ng/1m2 (không tập trung đông người): không yêu cầu giải pháp thoát khói theo quy định tại điểm G mục D.2 phụ lục D sửa đối 01:2023 QCVN06:2022/BXD.",
+     "xy": [
+      583,
+      147
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "DIỆN TÍCH THÔNG GIÓ TỰ NHIÊN HỮU HIỆU",
+     "xy": [
+      610,
+      228
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG TÍNH TOÁN THÔNG GIÓ TỰ NHIÊN",
+     "xy": [
+      369,
+      603
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỶ LỆ % MỞ LOUVER TRÊN TƯỜNG THEO PHỤ LỤC D-QC06/2022",
+     "xy": [
+      434,
+      718
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "REI90"
+   ],
+   "ky_hieu": [
+    "LV2",
+    "S1",
+    "S2"
+   ],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XE",
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 26,
+   "ma": "KT-16",
+   "ten": "MẶT CẮT A - A VÀ B - B NHÀ XE",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [
+    {
+     "chu": "Ống thép Steel pipe Vữa xi măng Chống cháy Fire stop Tắc kê nỡ Anchor screw Thép tấm 2mmt Steel plate 2mmt Ống bộc ngoài Cover pipe",
+     "xy": [
+      123,
+      545
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tắc kê nở Anchor screw Vữa xi măng Chống cháy Fire stop",
+     "xy": [
+      234,
+      556
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ống bảo vệ bên ngoài (1.2mm G. I. SHEET) Pipe sleeve (1.2mm G. I. SHEET)",
+     "xy": [
+      222,
+      608
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ống bảo vệ bên ngoài (1.2mm G. I. SHEET) Pipe sleeve",
+     "xy": [
+      111,
+      615
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Màu lớp phủ ngoài của sắt tấm và tường phải giống nhau Coating colour of steel plate and wall must be same",
+     "xy": [
+      185,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG XUYÊN TƯỜNG NGĂN CHÁY SLEEVE PIPE THROUGH R.C WALL",
+     "xy": [
+      195,
+      644
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ỐNG XUYÊN SÀN, TƯỜNG GẠCH",
+     "xy": [
+      69,
+      667
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XE",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 27,
+   "ma": "KT-17",
+   "ten": "MẶT BẰNG THOÁT NẠN NHÀ XE",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "LƯU Ý: Nhà rác có mật độ < 1ng/1m2 (không tập trung đông người): không yêu cầu giải pháp thoát khói theo quy định tại điểm G mục D.2 phụ lục D sửa đối 01:2023 QCVN06:2022/BXD.",
+     "xy": [
+      109,
+      35
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "- CỬA ĐI 1 CÁNH",
+     "xy": [
+      644,
+      148
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CỬA ĐI 1 CÁNH MỞ CÓ GIỚI HẠN CHỊU LỬA EI60. - CÓ CƠ CẤU ĐÓNG TỰ ĐỘNG, KHÔNG KHÓA, CÓ THỂ MỞ TỰ DO TỪ BÊN TRONG VÀ BÊN NGOÀI. KHE CỬA ĐƯỢC CHÈN KÍN",
+     "xy": [
+      913,
+      259
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Cửa đi 1 cánh, kích thước 900x2200mm Cửa chống cháy 1 cánh có GHCL EI60, kích thước 900x2100mm",
+     "xy": [
+      769,
+      634
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: - Số lượng người có mặt tại nhà xe là 48 người. - Hành lang thoát nạn có kích bề rộng 1.2m, cao > 2.1m. - Trên đường thoát nạn không bố trí vật dụng, máy móc gây cản trở thoát nạn. * Yêu cầu về vật liệu hoàn thiện, trang trí, ốp lát, tấm phủ sàn: **Vật liệu hoàn thiện, trang trí tường và trần (bao gồm cả tấm trần treo nếu có), vật liệu ốp lát, vật liệu phủ sàn trên đường thoát nạn và trong các gian phòng thoát nạn tuân thủ theo yêu cầu tại bảng B.8 và B.9, phụ lục B, QC06/2022. - Vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trên đường thoát nạn: + Tường hành lang thoát nạn có kết cấu gạch, bê tông được được trát xi măng. +Sàn hành lang thoát nạn sàn BTCT.",
+     "xy": [
+      49,
+      667
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "EI60"
+   ],
+   "ky_hieu": [
+    "D2"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ XE",
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 28,
+   "loai": "bia",
+   "phan": "NHÀ BẢO VỆ",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 29,
+   "ma": "KT-18",
+   "ten": "CHI TIẾT NHÀ BẢO VỆ",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "Vật liệu trang trí : Tường gạch, sơn nước, nền Bê tông",
+     "xy": [
+      730,
+      694
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D2"
+   ],
+   "cao_pccc_m": [],
+   "phan": "NHÀ BẢO VỆ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 30,
+   "loai": "bia",
+   "phan": "BÁO CHÁY",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 31,
+   "ma": "EXEM-01",
+   "ten": "MẶT BẰNG BỐ TRÍ ĐÈN EX - EM NHÀ XƯỞNG B",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "đặt tại nhà bảo vệ, nơi có người thường trực 24/24h",
+     "xy": [
+      432,
+      326
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TCVN 5738-2021, MỤC 6.15 QUI ĐỊNH: LẮP ĐẶT ĐẦU BÁO CHÁY NHIỆT KIỂU ĐIỂM",
+     "xy": [
+      699,
+      561
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DIỆN TÍCH BẢO VỆ CỦA MỘT ĐẦU BÁO CHÁY",
+     "xy": [
+      767,
+      582
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TCVN 5738-2021, MỤC 6.13 QUI ĐỊNH: LẮP ĐẶT ĐẦU BÁO CHÁY KHÓI KIỂU ĐIỂM",
+     "xy": [
+      709,
+      688
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DIỆN TÍCH BẢO VỆ CỦA MỘT ĐẦU BÁO CHÁY",
+     "xy": [
+      767,
+      708
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay",
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 32,
+   "ma": "BC-02",
+   "ten": "MẶT BẰNG BÁO CHÁY NHÀ KHO",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "TCVN 5738-2021, MỤC 6.13 QUI ĐỊNH: LẮP ĐẶT ĐẦU BÁO CHÁY KHÓI KIỂU ĐIỂM",
+     "xy": [
+      698,
+      685
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DIỆN TÍCH BẢO VỆ CỦA MỘT ĐẦU BÁO CHÁY",
+     "xy": [
+      759,
+      706
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 33,
+   "ma": "BC-03",
+   "ten": "MẶT BẰNG BÁO CHÁY NHÀ XE",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "đặt tại nhà bảo vệ, nơi có người thường trực 24/24h",
+     "xy": [
+      759,
+      613
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TCVN 5738-2021, MỤC 6.15 QUI ĐỊNH: LẮP ĐẶT ĐẦU BÁO CHÁY NHIỆT KIỂU ĐIỂM",
+     "xy": [
+      79,
+      694
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TCVN 5738-2021, MỤC 6.13 QUI ĐỊNH: LẮP ĐẶT ĐẦU BÁO CHÁY KHÓI KIỂU ĐIỂM",
+     "xy": [
+      480,
+      694
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DIỆN TÍCH BẢO VỆ CỦA MỘT ĐẦU BÁO CHÁY",
+     "xy": [
+      536,
+      714
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DIỆN TÍCH BẢO VỆ CỦA MỘT ĐẦU BÁO CHÁY",
+     "xy": [
+      151,
+      718
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 34,
+   "ma": "BC-04",
+   "ten": "MẶT CẮT ĐIỂN HÌNH LẮP ĐẶT ĐẦU BÁO CHÁY",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_cat",
+   "ghi_chu": [
+    {
+     "chu": "MẶT CẮT ĐIỂN HÌNH LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      377,
+      634
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 35,
+   "ma": "BC-05",
+   "ten": "THUYẾT MINH HỆ THỐNG BÁO CHÁY",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "Tiêu chuẩn thiết kế: TCVN 5738 - 2021 Hệ thống báo cháy - Yêu cầu kỹ thuật. Sửa đổi 01:2023 QCVN 06:2022/BXD & QCVN 06:2022/BXD: Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình. TCVN 3890:2023: Phương tiện phòng cháy và chữa cháy cho nhà và công trình - Trang bị, bố trí, kiểm tra, bảo dưỡng. Hệ thống được thiết kế như sau: Tủ trung tâm báo cháy: Sử dụng điện lưới 220V/AC và nguồn điện dự phòng 24V/DC - 7Ah đảm bảo hoạt động liên tục 24h",
+     "xy": [
+      250,
+      41
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "2. + ở chế độ thường trực và 1h khi có cháy. Khi sử dụng Ắc quy làm nguồn điện, ắc quy phải được nạp điện tự động.Tủ có dung löôïng 04 ZONE, ñöôïc ñaët tại Nhà bảo vệ, nôi coù ngöôøi thöôøng tröïc 24/24h, taïi ví trí thuaän tieän quan saùt vaø thao taùc, trung taâm được lắp trên tường khoảng cách từ mặt sàn đến trung tâm là 1,5m.Trung tâm báo cháy tự động phải được lắp đặt trên tường, vách ngăn tại những nơi không nguy hiểm về cháy nổ. Khoảng cách giữa trung tâm báo cháy và trần nhà bằng vật liệu không cháy không được nhỏ hơn 1m. Nhiệt độ và độ ẩm tại nơi đặt trung tâm báo cháy phải phù hợp với tài liệu kỹ thuật và hướng dẫn sử dụng của trung tâm báo cháy.Trung tâm báo cháy phải được tiếp đất bảo vệ. Ngoài ra tủ trung tâm báo cháy cung cấp nguồn cho các đầu báo và thực hiện các chứa năng sau:",
+     "xy": [
+      217,
+      100
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nhaän tín hieäu töø caùc ñaàu baùo, nuùt nhaán khaån vaø phaùt tín hieäu baùo ñoäng, hieån thò khu vöïc xảy ra chaùy. Kiểm tra, giám sát tình trạng hoạt động bình thường của toàn bộ hệ thống, hiển thị sự cố của hệ thống như đứt dây, chập mạch, hoạt mất thiết bị. Đầu báo nhiệt: Được lắp đặt trên trần bêtông, trần giả, mái tole trong các phòng công năng. khoảng cách giữa các đầu báo",
+     "xy": [
+      249,
+      224
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ không được lớn hơn 4.5 mét và giữa các đầu báo với tường không được lớn hơn 2m. + không được lớn hơn 8.5 mét và giữa các đầu báo với tường không được lớn hơn 4m. + người qua lại. Nút nhấn báo cháy là thiết bị giúp con người chủ động báo cháy bằng tay khi phát hiện ra cháy trong trường hợp hệ thống báo cháy tự động chưa làm việc hoặc gặp phải trục trặc kỹ thuật.Nơi lắp đặt các nút nhấn báo cháy phải được chiếu sáng liên tục vào ban đêm. Khoảng cách giữa các nút nhấn không quá 45m, khoảng cách từ nút nhấn đến các lối ra của gian phòng không quá 30m theo quy định.",
+     "xy": [
+      216,
+      265
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đầu báo khói: Được lắp đặt trên trần bêtông, trần giả, mái tole trong các phòng công năng. khoảng cách giữa các đầu báo",
+     "xy": [
+      249,
+      292
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nút nhấn khẩn, Còi đèn báo cháy kết hợp: Nút nhấn khẩn cấp Lắp đặt ở độ cao 1,5m trên lối đi lại, nơi dễ nhìn thấy, đông",
+     "xy": [
+      249,
+      319
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Khi có tín hiệu báo cháy từ các đầu báo cháy hoặc nút nhấn báo cháy, trung tâm sẽ điều khiển cho đèn, còi của các khu vực đưa ra tín hiệu cảnh báo và ở trung tâm sẽ kêu báo cho mọi người biết để kịp thời có biện pháp cứu chữa. Còi đèn các tầng được lắp đặt ở độ cao 2,2m so với mặt sàn các tầng. Dây tín hiệu báo cháy: Dây tín hiệu là yếu tố liên kết giữa các thiết bị trong hệ thống, , đồng thời có nhiệm vụ truyền dẫn nguồn cho đầu báo cháy làm việc và truyền dẫn tín hiệu,đi độc lập so với các hệ thống kỹ thuật khác. Không cho phép lắp đặt chung dây tín hiệu của hệ thống báo cháy tự động và dây tín hiệu điều khiển của hệ thống chữa cháy tự động có điện áp nhở hơn 60V với đường dây có điện áp khác trên 110V trong cùng một đường ống, một hộp, một bó, một rãnh kín của cấu kiện xây dựng.Sử duïng daây choáng chaùy, chống nhiễu toái thieåu 30 phuùt cho toaøn boä daây daãn tín hieäu vaø caáp nguoàn 24V. Dây tín hiệu 2x1.0mm2 sử dụng cho các đầu báo cháy nút nhấn khẩn và dây 2x1.5mm2 sử dụng cấp nguồn cho chuông và các thiết bị ngoại vi. Dây tín hiệu được luồn trong ống PVC chôn chìm trong tường hoặc đi nổi trên trần nhà. Tại các vị trí xuống trần giả, dây được luồn trong ống gen mềm thả xuống trần tại vị trí lắp đầu báo. Đối với các khu vực có trần giả, hệ thống đường ống gel luồn dây được ghim nổi trên trần bêtông và thả xuống trần giả. Đường ống được ghim sát vào trần bêtông, tại vị trí chính giữa khoang sàn, khoang trần. Đối với các vị trí không có trần giả mà ống luồn dây không thể đi nổi mất thẩm mỹ của công trình, Nên đi ống bảo vệ dây theo phương án đi chìm trên trần bêtông cách mặt ngoài hoàn thiện 1-2cm. Đối với các vị trí đường ống đi trên tường, vách bê tông đường ống được đi chìm, cách mặt ngoài hoàn thiện 2cm, cách đáy dầm 30cm. Đường ống đi từ vị trí đặt Nút nhấn khẩn, chuông báo cháy được chôn chìm trên tường, cách mặt ngoài hoàn thiện 2cm. Đối với đường ống gel đi trong hộp kỹ thuật, đường ống được đi nổi, ghim sát mặt tường. Tại mỗi tầng, dây tín hiệu được đi từ các đầu báo cháy về hộp kỹ thuật đấu nối dây tầng để đi về trung tâm báo cháy. Hộp đấu nối lựa chọn hộp nối cáp, hộp nối kỹ thuật là loại chắc chắn chống cháy, chống bụi, chống nước, có thể lắp ở trong nhà hoặc ngoài trời với số cầu đấu phù hợp với thiết kế, dễ lắp đặt và đảm bảo theo các tiêu chuẩn lắp đặt hiện hành của Việt Nam. Khi nhận được tín hiệu từ khu vực xảy ra cháy, trung tâm báo cháy sẽ gửi tín hiệu vềä đóng cắt nguồn không ưu tiên tại tủ điện khu vực cắt điện để quá trình chữa cháy diễn ra an toàn. Khoảng cách từ đầu báo cháy đến mép ngoài cửa miệng thổi của các hệ thống thông gió hoặc hệ thống điều hòa không khí không nhỏ hơn 1m theo quy định tại điều 6.10 TCVN 5738:2021. Đối với khu vực có bố trí kênh báo cháy thông thường thì tổng trở trên mỗi kênh không lớn hơn 100 Ohm và không được lớn hơn giá trị yêu cầu đối với từng loại trung tâm báo cháy Số lượng đầu nối của các hộp đấu dây và số lượng dây dẫn cáp của trục chính phải có dự phòng là 20%.",
+     "xy": [
+      249,
+      387
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 5738:2021",
+       "dieu": "điều 6.10"
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 5738:2021",
+     "điều 6.10"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 36,
+   "ma": "BC-06",
+   "ten": "THUYẾT MINH HỆ THỐNG BÁO CHÁY",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "KẾT NỐI VỀ CƠ QUAN CẢNH SÁT PCCC THEO TCVN 3890-2023",
+     "xy": [
+      490,
+      577
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỦ TRUNG TÂM BÁO CHÁY CÓ CHỨC NĂNG TỰ NẠP ĐIỆN",
+     "xy": [
+      206,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NGUỒN ĐIỆN CHÍNH 220V AC ( NGUỒN ĐIỆN ƯU TIÊN)",
+     "xy": [
+      490,
+      661
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 37,
+   "ma": "BC-07",
+   "ten": "CHI TIẾT LẮP ĐẶT ĐẦU BÁO CHÁY",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT TỦ TRUNG TÂM BÁO CHÁY",
+     "xy": [
+      435,
+      383
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT NÚT NHẤN BÁO CHÁY",
+     "xy": [
+      768,
+      383
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 38,
+   "loai": "bia",
+   "phan": "ĐÈN EX - EM",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 39,
+   "ma": "EXEM-01",
+   "ten": "MẶT BẰNG ĐÈN EX - EM NHÀ KHO",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC BỐ TRÍ HÀNG HÓA ( CHIỀU CAO KỆ HÀNG < 2M)",
+     "xy": [
+      475,
+      216
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỐ TRÍ HÀNG HÓA ( CHIỀU CAO KỆ HÀNG < 2M)",
+     "xy": [
+      475,
+      419
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHIỀU CAO CỦA BIỂN BÁO AN TOÀN TƯƠNG ỨNG VỚI KHOẢNG CÁCH NHÌN PHẢI ĐƯỢC XÁC ĐỊNH QUA CÔNG THỨC SAU",
+     "xy": [
+      775,
+      496
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "h - chiều cao nhỏ nhất của biển báo an toàn(m) l - khoảng cách quan sát(m) z- hằng số lấy bằng 200 nếu chiếu sáng bên trong,",
+     "xy": [
+      788,
+      649
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN EXIT: - CÓ NGUỒN ĐIỆN DỰ PHÒNG ĐẢM BẢO SÁNG 2H KHI CÓ SỰ CỐ CHÁY VÀ KHI MẤT ĐIỆN. - ĐÈN SÁNG LIÊN TỤC KHI Ở TRẠNG THÁI BÌNH THƯỜNG. - ĐÈN CÓ CHỮ EXIT CHỈ DẪN THOÁT NẠN VÀ MŨI TÊN CHỈ DẪN. - SẠC TỰ ĐỘNG, TỰ NGẮT SẠC KHI ĐẦY. ĐÈN SỰ CỐ: - CÓ NGUỒN ĐIỆN DỰ PHÒNG ĐẢM BẢO SÁNG 2H KHI CÓ SỰ CỐ CHÁY VÀ KHI MẤT ĐIỆN. - Ở TRẠNG THÁI BÌNH THƯỜNG ĐÈN Ở TRẠNG THÁI SẠC ĐIỆN. - SẠC TỰ ĐỘNG, TỰ NGẮT SẠC KHI ĐẦY. - ĐÈN CÓ NÚT TEST SÁNG. ĐÈN CHIẾU SÁNG CÓ ĐỘ SÁNG KHÔNG NHỎ HƠN 10 LUX.",
+     "xy": [
+      706,
+      711
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 40,
+   "ma": "EXEM-02",
+   "ten": "MẶT BẰNG ĐÈN EX - EM NHÀ XE",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHIỀU CAO CỦA BIỂN BÁO AN TOÀN TƯƠNG ỨNG VỚI KHOẢNG CÁCH NHÌN PHẢI ĐƯỢC XÁC ĐỊNH QUA CÔNG THỨC SAU",
+     "xy": [
+      712,
+      31
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "h - chiều cao nhỏ nhất của biển báo an toàn(m) l - khoảng cách quan sát(m) z- hằng số lấy bằng 200 nếu chiếu sáng bên trong,",
+     "xy": [
+      727,
+      219
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN EXIT: - CÓ NGUỒN ĐIỆN DỰ PHÒNG ĐẢM BẢO SÁNG 2H KHI CÓ SỰ CỐ CHÁY VÀ KHI MẤT ĐIỆN. - ĐÈN SÁNG LIÊN TỤC KHI Ở TRẠNG THÁI BÌNH THƯỜNG. - ĐÈN CÓ CHỮ EXIT CHỈ DẪN THOÁT NẠN VÀ MŨI TÊN CHỈ DẪN. - SẠC TỰ ĐỘNG, TỰ NGẮT SẠC KHI ĐẦY. ĐÈN SỰ CỐ: - CÓ NGUỒN ĐIỆN DỰ PHÒNG ĐẢM BẢO SÁNG 2H KHI CÓ SỰ CỐ CHÁY VÀ KHI MẤT ĐIỆN. - Ở TRẠNG THÁI BÌNH THƯỜNG ĐÈN Ở TRẠNG THÁI SẠC ĐIỆN. - SẠC TỰ ĐỘNG, TỰ NGẮT SẠC KHI ĐẦY. - ĐÈN CÓ NÚT TEST SÁNG. ĐÈN CHIẾU SÁNG CÓ ĐỘ SÁNG KHÔNG NHỎ HƠN 10 LUX.",
+     "xy": [
+      647,
+      691
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 41,
+   "ma": "EXEM-03",
+   "ten": "THUYẾT MINH HỆ THỐNG ĐÈN EX - EM",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "Sửa đổi 01:2023 QCVN 06:2022/BXD & QCVN 06:2022/BXD: Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình. TCVN 3890:2023: Phương tiện phòng cháy và chữa cháy cho nhà và công trình - Trang bị, bố trí, kiểm tra, bảo dưỡng. TCVN 13456:2022 Phòng cháy chữa cháy – Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn – Yêu cầu thiết kế, lắp đặt.",
+     "xy": [
+      160,
+      62
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Việc thiết kế, lắp đặt phương tiện chiếu sáng và chỉ dẫn thoát nạn phải tuân thủ các yêu cầu, quy định của các quy chuẩn, tiêu chuẩn, quy phạm hiện hành. Đèn chiếu sáng sự cố và biển báo an toàn có nguồn điện dự phòng phải đảm bảo thời gian hoạt động ổn định liên tục tối thiểu 120 phút khi có sự cố cháy, nổ Biển báo an toàn phải được nhìn thẫy rõ ràng các chứ \"LỐI RA\" hoặc chữ \"EXIT\", ký hiệu hình hóc khác thích hợp. Màu sắc của biển báo an toàn: màu nền là màu xanh lá",
+     "xy": [
+      161,
+      118
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "cây, màu chữ và ký hiệu hình học là màu trắng.",
+     "xy": [
+      130,
+      161
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn phải được lựa chọn, trang bị phù hợp để đảm bảo tầm nhìn thoát nạn, chỉ thị rõ ràng đường thoát nạn, cảnh báo những",
+     "xy": [
+      160,
+      176
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "vị trí có nguy cơ gây nguy hiểm trong quá trình thoát nạn và nhận biết các vị trí trang bị các thiết bị phòng cháy và chữa cháy. Thuyết minh lắp đặt: Lắp đặt đèn chiếu sáng sự cố và biển báo an toàn phải phù hợp theo quy định của TCVN 7722-2-22:2013. Khi lắp đặt đèn chiếu sáng sự cố và biển báo an toàn trong nhà, công trình, hạng mục công trình có nguy hiểm về nổ hoặc độ ẩm cao phải sử dụng các đèn, biển báo có khả năng chống nổ hoặc chống ẩm",
+     "xy": [
+      130,
+      190
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7722-2-22:2013",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Phương tiện chiếu sáng sự cố: Đối với chiếu sáng sự cố đường thoát nạn: có chiều rộng đến 2m, thì độ rọi trung bình theo phương nằm ngang trên mặt sàn dọc theo tâm của đường thoát nạn phải lớn",
+     "xy": [
+      160,
+      248
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "hơn hoặc bằng 1 lux và ở dải giữa với chiều rộng lớn hơn hoặc bằng một nửa chiều rộng của đường thoát nạn phải được chiếu sáng tối thiểu 50% giá trị đó.",
+     "xy": [
+      130,
+      277
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với chiếu sáng sự cố gian phòng: Độ rọi trung bình theo phương nằm ngang không được nhỏ hơn 0.5 lux tại mặt sàn tại mọi điểm lõi của khoảng trống, không bao gồm",
+     "xy": [
+      161,
+      291
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tỉ lệ giữa độ rọi lớn nhất và độ rọi nhỏ nhất dọc theo đường tâm của đường thoát nạn và chiếu sáng khoảng trống ( chống hoảng loạn) không được lớn hơn 40:1 Phải đảm bảo giảm thiểu nguy cơ gây lóa tạm thời bằng cách hạn chế cường độ sáng ở giai đoạn phát sáng cực đại trong chế độ hoạt động khi có sự cố của mỗi đèn",
+     "xy": [
+      160,
+      320
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": ". Đối với việc chiếu sáng đường thoát nạn theo phương ngang so với mặt sàn,chiếu sáng gian phòng và chiếu sáng các phương tiện phòng cháy và chữa cháy, cường độ",
+     "xy": [
+      160,
+      363
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "chiếu sáng của các đèn trong phạm vi góc chiếu từ 60° đến 90° không được vượt quá giá trị quy định tại Bảng 1.",
+     "xy": [
+      130,
+      377
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": ". Đối với đường thoát nạn khác, cường độ chiếu sáng của các đèn không được vượt quá giá trị tại Bảng 1 ở bất kỳ góc chiếu nào. Các tủ trung tâm báo cháy, nút nhấn báo cháy và phương tiện chữa cháy phải được chiếu sáng đầy đủ để có thể dễ dàng xác định vị trí và nếu không nằm trên đường",
+     "xy": [
+      160,
+      392
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thoát nạn hoặc không nằm trong một phạm vi khoảng trống thì phải được chiếu sáng tối thiểu 5 Lux tại mặt sàn.",
+     "xy": [
+      130,
+      420
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Chỉ dẫn thoát nạn: Biển báo chỉ dẫn lối thoát nạn ở tất cả các lối dẫn tới đường thoát nạn. Trường hợp biển chỉ dẫn thoát nạn bị che khuất tầm nhìn cần trang bị bổ sung biển chỉ hướng. Vị trí lắp đặt giữa các biển báo an toàn ( không bao gồm biển báo an toàn tầm thấp ) phải đảm bảo khoảng cách không lớn hơn 25m. Biển báo an toàn ( không bao gồm",
+     "xy": [
+      160,
+      435
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "biển báo an toàn tầm thấp) phải lắp đặt ở độ cao từ 2-2.7m so với sàn hoàn thiện hoặc ngay trên đầu cửa có chiều cao lớn hơn 2.7m. Các khu vực không được bảo vệ chống khói khiến khói tích tụ thì biển báo an toàn nên được gắn thấp hơn trần nhà tối thiểu 0.5m. Không được lắp biển báo an toàn được chiếu sáng từ bên ngoài Tại các tầng có diện tích lớn hơn 1000m2 hoặc có từ 2 lối thoát nạn trở lên phải có sơ đồ chỉ dẫn thoát nạn.Nằm tại độ cao 1.5±0.2m so với mặt sàn hoàn thiện.",
+     "xy": [
+      130,
+      478
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Sơ đồ chỉ dẫn thoát nạn gồm 2 phần: phần bằng chữ và phần ký hiệu hình học. Sơ đồ chỉ dẫn thoát nạn phải được niêm yết tại vị trí dễ nhận biết, dễ thấy và vị trí có người",
+     "xy": [
+      160,
+      521
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ + Kích thước của sơ đồ chỉ dẫn thoát nạn phụ thuộc vào đặc tính, tính chất hoạt động, diện tích của tầng, phòng; phương án thoát nạn nhưng không được nhỏ hơn: 600x400 mm - đối với sơ đồ chỉ dẫn tại tầng; 400x300 mm - đối với sơ đồ chỉ dẫn tại phòng.",
+     "xy": [
+      137,
+      548
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phần ký hiệu hình học bao gồm mặt bằng tầng, lối ra chỉ hướng thoát nạn, cầu thang bộ, vị trí sơ đồ tại tầng , vị trí đặt phương tiện, thiết bị chữa cháy và cứu nạn, cứu hộ. Phần chỉ dẫn bằng chứ gồm nội dung và trình tự xử lý khi có cháy.",
+     "xy": [
+      160,
+      548
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Tính toán độ rọi cho đường thoát nạn tầng 1 (theo phương pháp chung đều): E=ksd*Φ/S Trong đó: Φ: tổng quang thông của 10 bộ đèn thoát nạn 10w =10*10*100=10.000 (lm) S: là tổng diện tích lối thoát nạn = 1601,7m2 Ksd: Chọn hệ số sử dụng là 0,4 QTTSP < Q tối thiểu + Vậy: E=0,4*10.000/820 = 12, 19 (lux) - Trong đó: H : chiều cao nhỏ nhất cho phép của biển báo an toàn L : khoảng cách quan sát (m), căn cứ bản vẽ chọn khoảng cách bất lợi nhất là 85m Z: Vậy: H=L/Z=30/200=0.15m. Thiết kế chọn đèn biển báo thoát nạn có chiều cao là 202, chiều dài là 370.",
+     "xy": [
+      141,
+      625
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Tính toán độ chói lóa : L= Φ/Φ/Steradian Trong đó: L: Độ chói lóa của đèn Φ: quang thông của 1 bộ đèn thoát nạn 10w =10*100=1.000 (lm) Steradian: đèn lắp trên tường có góc steradian là 1/2 hình cầu, vậy Steradian = 2Π + Vậy: L = 1000/(2Π) = 159cd Căn cứ điều 5.1 TCVN 13456:2022 bảng 1, lắp đặt đèn chiều sáng sự cố ở cao độ 2.6m có độ chói lóa cho phép là 900cd. Vậy phương án thiết kế đèn chiếu sáng sự cố phù hợp TCVN 13456:2022",
+     "xy": [
+      493,
+      626
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": "điều 5.1"
+      },
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Tại các vị trí bình chửa cháy + tủ chữa cháy bằng nước + nút nhấn, bố trí đèn chiếu sáng sự cố trực tiếp tại các vị trí này có độ rọi trung bình như tính toán ở trên, cụ thể là 13 lux . Đèn chỉ dẫn thoát nạn",
+     "xy": [
+      678,
+      629
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán chiều cao nhỏ nhất cho phép của biển báo an toàn: H= L/Z",
+     "xy": [
+      170,
+      715
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "hằng số, trong đó Z=200 áp dụng cho các biển báo nhìn từ bên trong",
+     "xy": [
+      169,
+      769
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "TCVN 13456:2022",
+     ""
+    ],
+    [
+     "TCVN 13456:2022",
+     "điều 5.1"
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 7722-2-22:2013",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 42,
+   "ma": "EXEM-04",
+   "ten": "SƠ ĐỒ NGUYÊN LÍ HỆ THỐNG ĐÈN EX - EM",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "CHIỀU CAO CỦA BIỂN BÁO AN TOÀN TƯƠNG ỨNG VỚI KHOẢNG CÁCH NHÌN PHẢI ĐƯỢC XÁC ĐỊNH QUA CÔNG THỨC SAU",
+     "xy": [
+      741,
+      30
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "h - chiều cao nhỏ nhất của biển báo an toàn(m) l - khoảng cách quan sát(m) z- hằng số lấy bằng 200 nếu chiếu sáng bên trong,",
+     "xy": [
+      755,
+      200
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN EXIT: - CÓ NGUỒN ĐIỆN DỰ PHÒNG ĐẢM BẢO SÁNG 2H KHI CÓ SỰ CỐ CHÁY VÀ KHI MẤT ĐIỆN. - ĐÈN SÁNG LIÊN TỤC KHI Ở TRẠNG THÁI BÌNH THƯỜNG. - ĐÈN CÓ CHỮ EXIT CHỈ DẪN THOÁT NẠN VÀ MŨI TÊN CHỈ DẪN. - SẠC TỰ ĐỘNG, TỰ NGẮT SẠC KHI ĐẦY. ĐÈN SỰ CỐ: - CÓ NGUỒN ĐIỆN DỰ PHÒNG ĐẢM BẢO SÁNG 2H KHI CÓ SỰ CỐ CHÁY VÀ KHI MẤT ĐIỆN. - Ở TRẠNG THÁI BÌNH THƯỜNG ĐÈN Ở TRẠNG THÁI SẠC ĐIỆN. - SẠC TỰ ĐỘNG, TỰ NGẮT SẠC KHI ĐẦY. - ĐÈN CÓ NÚT TEST SÁNG. ĐÈN CHIẾU SÁNG CÓ ĐỘ SÁNG KHÔNG NHỎ HƠN 10 LUX.",
+     "xy": [
+      518,
+      648
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 43,
+   "ma": "EXEM-05",
+   "ten": "CHI TIẾT LẮP ĐẶT HỆ THỐNG ĐÈN EX - EM",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "+ Sơ đồ chỉ dẫn thoát nạn gồm 2 phần: phần chỉ dẫn bằng chữvà phần ký hiệu hình học. + Sơ đồ chỉ dẫn thoát nạn phải được niêm yết ở vị trí dễ nhận biết, dễ thấy và vị trí có người thường xuyên qua lại. + Phần ký hiệu hình học bao gồm mặt bằng các tầng, cầu thang bộ, vị trí sơ đồ tại tầng, vị trí đặt phương tiện, thiết bị chữa cháy và cứu nạn, cứu hộ (ký hiệu phù hợp với quy định tại TCVN 4879:1989 và TCVN 5053;1990).",
+     "xy": [
+      792,
+      275
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 4879:1989",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐÈN EXIT + ĐÈN SỰ CỐ TẠI CỬA THOÁT NẠN",
+     "xy": [
+      111,
+      411
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐÈN EXIT 2 MẶT MŨI TÊN CHỈ HƯỚNG",
+     "xy": [
+      512,
+      413
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 4879:1989",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 44,
+   "loai": "bia",
+   "phan": "BÌNH CHỮA CHÁY",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 45,
+   "ma": "BCC-01",
+   "ten": "MẶT BẰNG BÌNH CHỮA CHÁY NHÀ KHO",
+   "hang_muc": "BÌNH CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC BỐ TRÍ HÀNG HÓA ( CHIỀU CAO KỆ HÀNG < 2M)",
+     "xy": [
+      475,
+      216
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỐ TRÍ HÀNG HÓA ( CHIỀU CAO KỆ HÀNG < 2M)",
+     "xy": [
+      475,
+      419
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG TÍNH PHÂN BỐ BÌNH CHỮA CHÁY XÁCH TAY",
+     "xy": [
+      803,
+      635
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY BỘT ABC VÀ BÌNH KHÍ CO2",
+     "xy": [
+      121,
+      723
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÌNH CHỮA CHÁY",
+   "agent": [
+    "m10-binh-chua-chay",
+    "m15-cnch"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 46,
+   "ma": "BCC-02",
+   "ten": "MẶT BẰNG BÌNH CHỮA CHÁY NHÀ XE",
+   "hang_muc": "BÌNH CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG TÍNH PHÂN BỐ BÌNH CHỮA CHÁY XÁCH TAY",
+     "xy": [
+      742,
+      36
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY BỘT ABC VÀ BÌNH KHÍ CO2",
+     "xy": [
+      127,
+      715
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÌNH CHỮA CHÁY",
+   "agent": [
+    "m10-binh-chua-chay",
+    "m15-cnch"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 47,
+   "ma": "BCC-03",
+   "ten": "CHI TIẾT LẮP ĐẶT BÌNH CHỮA CHÁY VÀ TỦ PHÁ DỠ",
+   "hang_muc": "BÌNH CHỮA CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "GIÁ ĐỰNG BÌNH CHỮA CHÁY XÁCH TAY GỒM:",
+     "xy": [
+      596,
+      148
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- 01 BÌNH XÁCH TAY CHỮA CHÁY KHÍ CO2 - 01 BÌNH XÁCH TAY CHỮA CHÁY BỘT ABC",
+     "xy": [
+      596,
+      168
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT TỦ ĐỰNG BỘ DỤNG CỤ PHÁ DỠ CHUYÊN DỤNG",
+     "xy": [
+      80,
+      445
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT CỦA BÌNH CHỮA CHÁY XÁCH TAY",
+     "xy": [
+      595,
+      446
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THUYẾT MINH BÌNH CHỮA CHÁY XÁCH TAY: Nguyên tắc bố trí bình chữa cháy dựa theo bảng 1 – TCVN 7435-1:2004. Công trình có mức nguy hiểm cháy cao, diện tích bảo vệ 01 bình chữa cháy là 100 m2, khoảng cách di chuyển lớn nhất đến bình chữa cháy là 15m. - Số lượng bình chữa cháy dự phòng đảm bảo không nhỏ hơn 10% tổng số bình. - Bình chữa cháy được kiểm tra thường xuyên, định kỳ khoảng 30 ngày/1 lần. Bình chữa cháy phải được đặt đúng vị trí đã quy định, không bị vật cản che chắn tầm nhìn, hướng dẫn sử dụng bình phải rõ ràng và quay ra ngoài, niêm phong hoặc bộ phận chèn không bị vỡ hoặc bị mất, các bình chữa cháy phải ở trạng thái còn sử dụng được (áp suất, vỏ bình, vòi, loa phun, đồng hồ áp suất,…) - Tất cả các loại bình chữa cháy trong công trình phải được bảo dưỡng định kỳ 06 tháng/1 lần ( kiểm tra niêm phong và cơ cấu an toàn)",
+     "xy": [
+      559,
+      538
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7435-1:2004",
+       "dieu": "bảng 1"
+      }
+     ]
+    },
+    {
+     "chu": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+     "xy": [
+      109,
+      564
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Để bảo vệ tài sản của NHÀ NƯỚC , tính mạng và tài sản nhân dân , bảo vệ sản xuất và trật trự chung . Nay quy định việc phòng cháy và chữa cháy như sau :",
+     "xy": [
+      78,
+      608
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU 1 : Việc phòng cháy và chữa cháy là nghĩa vụ của mỗi công dân .",
+     "xy": [
+      78,
+      623
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU 2 : Mỗi công dân phải tích cực đề phòng không để nạn cháy xảy ra , đồng thời",
+     "xy": [
+      78,
+      633
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "chuẩn bị sẳn sàng về lực lượng , phương tiện để khi cần chữa cháy kịp thời và có hiệu quả .",
+     "xy": [
+      89,
+      637
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU 3 : Phải thận trọng việc sử dụng lửa , các nguồn nhiệt , hoá chất và các chất",
+     "xy": [
+      78,
+      652
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "dễ cháy , nổ độc hại , phóng xạ . Triệt để tuân theo các quy định về phòng cháy , chữa cháy .",
+     "xy": [
+      89,
+      657
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU 4 : Cấm câu mắc , sử dụng điện tuỳ tiện , sau giờ làm việc phải kiểm tra lại",
+     "xy": [
+      78,
+      671
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "các thiết bị tiêu thụ điện . Chú ý đến đèn , quạt , bếp điện trước lúc ra về . Không để hàng hóa , vật tư áp sát vào hông đèn , dây điện . Phải tuân thủ nghiêm ngặt quy định về kĩ thuật an toàn khi sử dụng điện.",
+     "xy": [
+      89,
+      676
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU 5 : Vật tư, hàng hoá phải xếp gọn gàng , đảm bảo khoảng cách an toàn phòng",
+     "xy": [
+      78,
+      695
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "cháy , chữa cháy , tạo điều kiện thuận lợi cho việc bảo vệ , kiểm tra và cứu chữa khi cần thiết . Không dùng khoá mở nấp phuy xăng và các dung môi dễ cháy bằng sắt , thép .",
+     "xy": [
+      89,
+      700
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỆN THOẠI SOÁ ĐỘI CHỮA CHÁY CHUYÊN NGHIỆP",
+     "xy": [
+      452,
+      705
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DÙNG BÌNH CHỮA CHÁY CÁT VÀ NƯỚC ĐỂ DẬP TẮT",
+     "xy": [
+      403,
+      706
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU 6 : Khi giao nhận hàng , xe không được nổ máy trong kho, nơi chứa nhiều chất",
+     "xy": [
+      78,
+      720
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "dễ cháy và khi đậu phải hướng đầu xe ra ngoài .",
+     "xy": [
+      89,
+      724
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU 7 : Trên các lối đi lại nhất là ở chổ lối thoát hiểm không để các chướng ngại vật",
+     "xy": [
+      78,
+      734
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU 8 : Đơn vị hoặc cá nhân có thành tích phòng cháy , chữa cháy sẽ được khen",
+     "xy": [
+      78,
+      744
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thưởng , người nào quy phạm các điều quy định trên tuỳ trách nhiệm nặng nhẹ mà bị xử lý từ thi hành kỹ luật hành chính đến truy tố phám luật hiện hành",
+     "xy": [
+      89,
+      749
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nội quy này có hiệu lực kể từ ngày ban hành .",
+     "xy": [
+      89,
+      763
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Giấy chứng nhận Bản quyền số 482 VH\\BQ\\ĐD của cục bảo quyền tác giả .",
+     "xy": [
+      74,
+      765
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7435-1:2004",
+     "bảng 1"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÌNH CHỮA CHÁY",
+   "agent": [
+    "m10-binh-chua-chay",
+    "m15-cnch"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 48,
+   "ma": "BCC-04",
+   "ten": "CHI TIẾT LẮP ĐẶT BÌNH CẦU CHỮA CHÁY TỰ ĐỘNG",
+   "hang_muc": "BÌNH CHỮA CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BÌNH CẦU CHỮA CHÁY TỰ ĐỘNG",
+     "xy": [
+      329,
+      607
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "* THUYẾT MINH THIẾT KẾ TRANG BỊ BÌNH CHỮA CHÁY TỰ ĐỘNG:",
+     "xy": [
+      174,
+      679
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Các bình bột chữa cháy tự động kích hoạt loại treo phải phù hợp với TCVN 12314-1.",
+     "xy": [
+      163,
+      702
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Lắp đặt bình cầu chữa cháy tự động ở trên mái nhà rác đảm bảo theo yêu cầu của nhà sản xuất. - Khoảng cách từ bộ phận cảm biến nhiệt của bình cầu chữa cháy tự động đến mái tole nhà rác nhỏ hơn 40 cm. - Bình cầu chữa cháy tự động kích hoạt loại treo được trang bị tại nhà rác có diện tích không quá 100 m2.",
+     "xy": [
+      174,
+      726
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÌNH CHỮA CHÁY",
+   "agent": [
+    "m10-binh-chua-chay",
+    "m12-chua-chay",
+    "m15-cnch"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 49,
+   "loai": "bia",
+   "phan": "CẤP ĐIỆN",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 50,
+   "ma": null,
+   "ten": "SƠ ĐỒ NGUYÊN LÍ HỆ THỐNG CẤP ĐIỆN",
+   "hang_muc": "CẤP ĐIỆN",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "Các hệ thống PCCC được cấp điện ưu tiên gồm: Hệ thống báo cháy tự động; hệ thống chữa cháy; hệ",
+     "xy": [
+      606,
+      47
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thống chiếu sáng sự cố, thoát nạn; hệ thống hút khói, tăng áp",
+     "xy": [
+      578,
+      61
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nguồn cấp điện ưu tiên cho các hệ thống: Hệ thống báo cháy: 01 từ điện lưới, 01 nguồn từ hệ thống ác quy dự phòng Hệ thống chiếu sáng sự cố, chỉ dẫn thoát nạn: 01 từ điện lưới, 01 nguồn từ hệ thống ác quy dự phòng Mạch điện của nguồn điện ưu tiên: Được thiết kế độc lập với các mạch điện khác Dây dẫn là loại chống cháy và không đi dây trong khoang thang máy, các ống thông hơi, thông khói Khi nguồn điện lưới bị cúp nguồn diện dự phòng tự động hoạt động Tín hiệu của hệ thống báo cháy tự động sẽ điều khiển nguồn điện lưới ngừng cấp điện cho hệ thống điện",
+     "xy": [
+      606,
+      76
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "sinh hoạt, phụ tải và duy trì nguồn điện cho hệ thống PCCC",
+     "xy": [
+      578,
+      193
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CẤP ĐIỆN",
+   "agent": [
+    "m13-cap-dien"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 51,
+   "loai": "bia",
+   "phan": "CHỮA CHÁY",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 52,
+   "ma": "CC-01",
+   "ten": "MẶT BẰNG CHỮA CHÁY TỔNG THỂ HIỆN HỮU",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Hạng mục hiện hữu giai đoạn 1 đã được thẩm duyệt theo số 626/TD-PCCC-P2 ngày 26/08/2016 và được nghiệm",
+     "xy": [
+      826,
+      80
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nhà xưởng (38m x76m) Hồ nước PCCC (500m3) Nhà bảo vệ Nhà kho Nhà xe",
+     "xy": [
+      656,
+      82
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Trụ nước chữa cháy ngoài nhà đã được thẩm duyệt theo số 626/TD-PCCC-P2 ngày 26/08/2016 và được nghiệm thu theo số 444/CSPC&CC-PS5 ngày 14/12/2017",
+     "xy": [
+      633,
+      204
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: - Nhà kho có khối tích S = 1731.6m3 < 3000m3 - Nhà kho có bậc chịu lửa IV - Nhà kho có hạng sản xuất C, cấp nguy hiểm cháy S0. => Lưu lượng chữa cháy ngoài nhà yêu cầu là 15 L/s ( Theo bảng 9 Sửa đổi 01:2023 QCVN 06:2022/ BXD) - Công trình có 2 trụ chữa cháy ngoài nhà hiện hữu ( lưu lượng mỗi trụ là 10 L/s) đã được thẩm duyệt và nghiệm thu, đặt cách nhà kho < 400m * Kết luận : Tận dụng hệ thống chữa cháy ngoài nhà đã được thẩm duyệt theo số 626/TD-PCCC-P2 ngày 26/08/2016 và được nghiệm thu theo số 444/CSPC&CC-PS5 ngày 14/12/2017",
+     "xy": [
+      709,
+      346
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 9"
+      }
+     ]
+    },
+    {
+     "chu": "7. LỖ XẢ NƯỚC ĐỌNG 8. XÍCH BẢO VỆ NẮP HỌNG",
+     "xy": [
+      987,
+      497
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "4. HỌNG VÀ NẮP HỌNG LỚN 5. TRỤC VAN 6. CÁNH VAN",
+     "xy": [
+      934,
+      498
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. NẮP BẢO VỆ TRỤC VAN 2. HỌNG VÀ NẮP HỌNG NHỎ 3. THÂN TRỤ",
+     "xy": [
+      876,
+      498
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ghi chú: Trụ nước chữa cháy ngoài nhà - Được bố trí ở khoảng cách không lớn hơn 2,5 m đến mép đường, đồng thời không gần hơn 1 m đến tường ngôi nhà; - Đường ống cấp kết nối từ trạm bơm cấp nước chữa cháy. - Loại trụ 02 cửa DN65 đặt ở vị trí mặt bên ngoài tường công trình về phía có đường giao thông - Họng lớn của trụ quay ra phía lòng đường, khoảng cách từ mặt đất đến đỉnh trụ nước là 700mm",
+     "xy": [
+      869,
+      535
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỤM MÁY BƠM MÁY BƠM DIESEL : Q = 113 L/S, H = 70M MÁY BƠM ĐIỆN : Q = 113 L/S, H = 70M MÁY BƠM BÙ ÁP : Q = 6 M3/H, H = 70M HỒ NƯỚC 500M3",
+     "xy": [
+      615,
+      609
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Trụ nước chữa cháy ngoài nhà đã được thẩm duyệt theo số 626/TD-PCCC-P2 ngày 26/08/2016 và được nghiệm thu theo số 444/CSPC&CC-PS5 ngày 14/12/2017",
+     "xy": [
+      43,
+      622
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng 9"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 53,
+   "loai": "bia",
+   "phan": "CHỐNG SÉT",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 54,
+   "ma": "CS-01",
+   "ten": "MẶT BẰNG CHỐNG SÉT HIỆN HỮU",
+   "hang_muc": "CHỐNG SÉT",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Hệ thống chống sét hiện hữu giai đoạn 1 đã được thẩm duyệt theo số 626/TD-PCCC-P2 ngày 26/08/2016 và được nghiệm thu theo số 444/CSPC&CC-PS5 ngày 14/12/2017",
+     "xy": [
+      644,
+      48
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỘP KIỂM TRA ĐIỆN TRỞ GIẾNG TIẾP ĐỊA THU SÉT",
+     "xy": [
+      409,
+      422
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỐNG SÉT",
+   "agent": [
+    "m16-chong-set"
+   ],
+   "file": "tep_1.pdf"
+  }
+ ]
+}

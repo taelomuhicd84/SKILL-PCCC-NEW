@@ -1,0 +1,3587 @@
+{
+ "id": "nha_xuong_26",
+ "cong_nang": "nha_xuong",
+ "so_trang": 50,
+ "phan": [
+  "CƠ ĐIỆN",
+  "CHỮA CHÁY",
+  "EXIT & EM",
+  "BÁO CHÁY",
+  "HÚT KHÓI",
+  "CHỐNG SÉT"
+ ],
+ "cao_pccc_m": [],
+ "ghcl": [
+  "E10",
+  "E11",
+  "E12",
+  "E13",
+  "E14",
+  "E15",
+  "E65",
+  "EI60",
+  "REI15",
+  "REI45"
+ ],
+ "van_ban_trich": {
+  "QCVN 06:2022": [
+   "bảng 16"
+  ],
+  "TCVN 13456:2022": [
+   "bảng 1",
+   "điều 5.1"
+  ],
+  "TCVN 2622:1996": [],
+  "TCVN 3890:2023": [
+   "điều 10.1.5"
+  ],
+  "TCVN 5738:2021": [],
+  "TCVN 7336:2021": []
+ },
+ "luu_y": "Trích tự động từ PDF; mọi số liệu là CẦN XÁC NHẬN khi dùng cho dự án khác. Hình học: tọa độ pt PDF, mm_moi_pt để đổi ra mm.",
+ "trang": [
+  {
+   "trang": 1,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "E1, ĐƯỜNG 5, KHU XƯỞNG KIZUNA 2, LÔ B2-9-1-10, KCN TÂN KIM, THỊ TRẤN CẦN GIUỘC, HUYỆN CẦN GIUỘC, TỈNH [TÊN]",
+     "xy": [
+      236,
+      205
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Người ký: Công Ty Cổ Phần T.L.K Thời gian ký: 19.01.2024 16:47:01 +07:00",
+     "xy": [
+      1284,
+      931
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 2,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 3,
+   "ma": "A-01.00",
+   "ten": "MẶT BẰNG HIỆN TRẠNG EXISTING FLOOR PLAN",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG CHỈ DẪN LỐI THOÁT NẠN TẦNG 1",
+     "xy": [
+      920,
+      500
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ VỊ TRÍ NHÀ XƯỞNG CẢI TẠO",
+     "xy": [
+      594,
+      530
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG CHỈ DẪN LỐI THOÁT NẠN TẦNG 2",
+     "xy": [
+      920,
+      530
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐỊNH VỊ KHU VỰC CẢI TẠO",
+     "xy": [
+      613,
+      565
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG CHI TIẾT VỊ TRÍ CẢI TẠO",
+     "xy": [
+      933,
+      601
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VỊ TRÍ ỐP VÁCH THẠCH CAO CHỐNG CHÁY",
+     "xy": [
+      922,
+      780
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 4,
+   "ma": "A-01.01",
+   "ten": "MẶT BẰNG TỔNG THỂ VỊ TRÍ NHÀ XƯỞNG CẢI TẠO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "1. ĐÃ THẨM DUYỆT SỐ 186/TD-PCCC NGÀY 15-06-2015 2. NGHIỆM THU SỐ 102/CAT-PC66 NGÀY 24-03-2016 1. ĐÃ THẨM DUYỆT SỐ 186/TD-PCCC NGÀY 15-06-2015 2. NGHIỆM THU SỐ 102/CAT-PC66 NGÀY 24-03-2016",
+     "xy": [
+      250,
+      463
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. ĐÃ THẨM DUYỆT SỐ 186/TD-PCCC NGÀY 15-06-2015 2. NGHIỆM THU SỐ 102/CAT-PC66 NGÀY 24-03-2016",
+     "xy": [
+      250,
+      520
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. ĐÃ THẨM DUYỆT SỐ 186/TD-PCCC NGÀY 15-06-2015 2. NGHIỆM THU SỐ 102/CAT-PC66 NGÀY 24-03-2016",
+     "xy": [
+      250,
+      550
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. ĐÃ THẨM DUYỆT SỐ 190/TD-PCCC ngày 17/05/2016 2. NGHIỆM THU SỐ 80/CAT-PC66 ngày 06/03/2017",
+     "xy": [
+      250,
+      579
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NHÀ ĐIỀU HÀNH P.KỸ THUẬT TRẠM BIẾN THẾ TRẠM PHÁT ĐIỆN TRẠM BƠM",
+     "xy": [
+      1096,
+      794
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NHÀ ĂN HỒ NƯỚC NGẦM PCCC HỒ NƯỚC NGẦM SINH HOẠT CỘT CỜ - BẢNG THÔNG TIN CANTEEN BÃI XE MÁY",
+     "xy": [
+      1096,
+      872
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NHÀ XƯỞNG CẢI TẠO E1: DIỆN TÍCH TẦNG 1: 582m2 DIỆN TÍCH TẦNG LỬNG: 75m2",
+     "xy": [
+      805,
+      1038
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC ĐÃ ĐƯỢC THẨM DUYỆT VÀ NGHIỆM THU PCCC",
+     "xy": [
+      533,
+      1064
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ - VỊ TRÍ NHÀ XƯỞNG CẢI TẠO",
+     "xy": [
+      374,
+      1104
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "E65"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": 1.813,
+    "truc": [
+     {
+      "nhan": "4",
+      "huong": "doc",
+      "pos": 474.75,
+      "tu": 824.1,
+      "den": 991.8
+     },
+     {
+      "nhan": "7",
+      "huong": "doc",
+      "pos": 479.31,
+      "tu": 344.22,
+      "den": 1002.48
+     },
+     {
+      "nhan": "6",
+      "huong": "doc",
+      "pos": 479.91,
+      "tu": 344.22,
+      "den": 1003.26
+     },
+     {
+      "nhan": "5",
+      "huong": "doc",
+      "pos": 479.97,
+      "tu": 344.22,
+      "den": 1003.26
+     },
+     {
+      "nhan": "2",
+      "huong": "doc",
+      "pos": 493.29,
+      "tu": 337.44,
+      "den": 1017.78
+     },
+     {
+      "nhan": "11",
+      "huong": "doc",
+      "pos": 497.91,
+      "tu": 155.82,
+      "den": 1022.76
+     },
+     {
+      "nhan": "9",
+      "huong": "ngang",
+      "pos": 354.63,
+      "tu": 502.14,
+      "den": 1158.96
+     },
+     {
+      "nhan": "3",
+      "huong": "ngang",
+      "pos": 358.65,
+      "tu": 613.92,
+      "den": 1157.46
+     },
+     {
+      "nhan": "11",
+      "huong": "ngang",
+      "pos": 372.75,
+      "tu": 487.56,
+      "den": 1161.12
+     },
+     {
+      "nhan": "2",
+      "huong": "ngang",
+      "pos": 811.83,
+      "tu": 1414.26,
+      "den": 1655.16
+     },
+     {
+      "nhan": "3",
+      "huong": "ngang",
+      "pos": 827.43,
+      "tu": 440.04,
+      "den": 1642.92
+     },
+     {
+      "nhan": "6",
+      "huong": "ngang",
+      "pos": 874.23,
+      "tu": 492.66,
+      "den": 1630.62
+     },
+     {
+      "nhan": "11",
+      "huong": "ngang",
+      "pos": 952.17,
+      "tu": 468.3,
+      "den": 539.4
+     }
+    ],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": null
+   },
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 5,
+   "ma": "A-01.02",
+   "ten": "MẶT BẰNG ĐỊNH VỊ KHU VỰC CẢI TẠO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "NHÀ XƯỞNG CẢI TẠO E1: DIỆN TÍCH TẦNG 1: 582m2 DIỆN TÍCH TẦNG LỬNG: 75m2",
+     "xy": [
+      624,
+      862
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC CẢI TẠO KHU VỰC ĐÃ ĐƯỢC THẨM DUYỆT VÀ NGHIỆM THU PCCC",
+     "xy": [
+      347,
+      890
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐỊNH VỊ KHU VỰC CẢI TẠO",
+     "xy": [
+      577,
+      994
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "m01-phan-loai"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 6,
+   "ma": "A-01.03",
+   "ten": "MẶT BẰNG TỔNG THỂ HIỆN TRẠNG",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÂN TƯỜNG GẠCH BLOCK CAO 500mm TƯỜNG TOLE HIỆN HỮU",
+     "xy": [
+      311,
+      670
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHÂN TƯỜNG GẠCH BLOCK CAO 500mm VÁCH TOLE HIỆN HỮU",
+     "xy": [
+      346,
+      827
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC ĐÃ ĐƯỢC THẨM DUYỆT VÀ NGHIỆM THU PCCC",
+     "xy": [
+      284,
+      891
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 7,
+   "ma": "A-01.04",
+   "ten": "MẶT BẰNG TỔNG THỂ MÁI HIỆN TRẠNG",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 8,
+   "ma": "A-01.05",
+   "ten": "MẶT BẰNG TỔNG THỂ CẢI TẠO TẦNG 1",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "LÀM MỚI VÁCH THẠCH CAO CHỐNG CHÁY EI 60 CAO TỚI MÁI",
+     "xy": [
+      401,
+      720
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NGĂN CHIA PHÒNG SẢN XUẤT BẰNG VÁCH VINYL - CỬA TRƯỢT VINYL",
+     "xy": [
+      363,
+      861
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC ĐÃ ĐƯỢC THẨM DUYỆT VÀ NGHIỆM THU PCCC",
+     "xy": [
+      317,
+      907
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 9,
+   "ma": "A-01.05",
+   "ten": "MẶT BẰNG BÃI ĐỖ XE PCCC",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BIỂN BÁO NỀN TRẮNG - ĐỎ CHỮ MÀU ĐỎ PHẢN QUANG",
+     "xy": [
+      503,
+      107
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHIỀU DÀI BÃI XE CHỮA CHÁY YÊU CẦU",
+     "xy": [
+      947,
+      179
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHIỀU DÀI BÃI XE CHỮA CHÁY THIẾT KẾ",
+     "xy": [
+      947,
+      206
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THUYẾT MINH BÃI ĐỖ XE PCCC: 1. BÃI ĐỖ XE PCCC, BIỂN BÁO KẺ VẠCH, SƠN PHẢN QUANG ĐẢM BẢO NHÌN THẤY ĐƯỢC VÀO BAN ĐÊM. 2. ĐẢM BẢO KHÔNG BỊ CẢN TRỞ BỞI CÂY XANH HOẶC VẬT CẢN CỐ ĐỊNH. 3. TẠI ĐIỂM ĐẦU VÀ CUỐI CỦA BÃI ĐỖ XE PCCC CÓ BIỂN BÁO NỀN TRẮNG, CHỮ ĐỎ, CHIỀU CAO CHỮ 100mm, CÁCH MẶT ĐẤT 1.5m. BIỂN BÁO KHÔNG ĐƯỢC CÁCH BÃI ĐỖ QUÁ 3m.",
+     "xy": [
+      750,
+      215
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHIỀU RỘNG BÃI ĐỖ XE CHỮA CHÁY YÊU CẦU",
+     "xy": [
+      947,
+      235
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHIỀU RỘNG BÃI ĐỖ XE CHỮA CHÁY THIẾT KẾ",
+     "xy": [
+      947,
+      263
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LÀM MỚI VÁCH THẠCH CAO CHỐNG CHÁY EI 60 CAO TỚI MÁI",
+     "xy": [
+      401,
+      803
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NGĂN CHIA PHÒNG SẢN XUẤT BẰNG VÁCH VINYL - CỬA TRƯỢT VINYL",
+     "xy": [
+      362,
+      944
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Bãi đỗ xe chữa cháy phải được bố trí đảm bảo để khoảng cách đo theo phương nằm ngang từ mép gần nhà hơn của bãi đổ đến điểm giữa của lối vào từ trên cao không gần hơn 2m và không xa quá 10m - áp dụng theo chú thích 1 bảng 16 QC06/2022",
+     "xy": [
+      892,
+      949
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 16"
+      }
+     ]
+    },
+    {
+     "chu": "KHU VỰC ĐÃ ĐƯỢC THẨM DUYỆT VÀ NGHIỆM THU PCCC",
+     "xy": [
+      316,
+      989
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng 16"
+    ]
+   ],
+   "ghcl": [
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "EI60"
+   ],
+   "ky_hieu": [
+    "D90",
+    "S1",
+    "S2",
+    "W1",
+    "W2",
+    "W4"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 10,
+   "ma": "A-01.06",
+   "ten": "MẶT BẰNG HIỆN TRẠNG",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 11,
+   "ma": "A-01.07",
+   "ten": "MẶT BẰNG CẢI TẠO TẦNG 1 - 2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 12,
+   "ma": "A-01.08",
+   "ten": "MẶT BẰNG CHỈ DẪN LỐI THOÁT NẠN TẦNG 1",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG CHỈ DẪN LỐI THOÁT NẠN TẦNG 1",
+     "xy": [
+      541,
+      604
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN, KHÔNG NHỎ HƠN",
+     "xy": [
+      604,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CẤP NGUY HIỂM CHÁY KẾT CẤU CỦA NHÀ, CÔNG",
+     "xy": [
+      921,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CẤP NGUY HIỂM CHÁY CỦA CẤU KIỆN XÂY DỰNG",
+     "xy": [
+      1057,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁC CẤU KIỆN XÂY DỰNG CỦA BUỒNG THANG BỘ",
+     "xy": [
+      797,
+      691
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁC BỘ PHẬN CHỊU LỰC DẠNG THANH (CỘT, XÀ, GIÀN VÀ",
+     "xy": [
+      983,
+      694
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG CỦA BUỒNG THANG BỘ, BỘ PHẬN NGĂN KHĂN CHÁY",
+     "xy": [
+      1207,
+      694
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG CHỊU LỰC, CỘT CHỊU LỰC & CÁI BỘ PHẬN CHỊU",
+     "xy": [
+      504,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM LỢP ( KỂ CẢ TẤM LỢP CÓ LỚP",
+     "xy": [
+      701,
+      718
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: - KHU VỰC CHO THUÊ - CẢI TẠO E1 SẢN XUẤT CÁC LOẠI BAO BÌ TỪ PLASTIC (CÓ CÔNG ĐOẠN IN) - CÓ HẠNG NGUY HIỂM CHÁY NỔ LÀ HẠNG C; DIỆN TÍCH SỬ DỤNG LÀ 657m2. - KHÔNG BỐ TRÍ CÁC GIAN PHÒNG HẠNG A, B, KHO VẬT LIỆU DỄ CHÁY; - CÓ CHỨA CÁC VẬT LIỆU NGUỒN GỐC TỪ PLASTIC; - KHÔNG CHỨA CHẤT LỎNG DỄ CHÁY, CHẤT LỎNG CHẢY. - TRONG TRƯỜNG HỢP THAY ĐỔI HẠNG SẢN XUẤT CỦA CÔNG TRÌNH THÌ PHẢI THỰC HIỆN THẨM DUYỆT ĐIỀU CHỈNH VỀ PCCC. - TẤT CẢ CÁC TỦ ĐIỆN CÓ THỂ TÍCH < 1m3, ĐỂ CÁCH KHU VỰC MÁY MÓC THIẾT BỊ, VẬT LIỆU DỄ CHÁY >=0.5m",
+     "xy": [
+      995,
+      789
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-VẬT LIỆU HOÀN THIỆN, TRANG TRÍ, VẬT LIỆU ỐP LÁT, VẬT LIỆU PHỦ SÀN TRÊN ĐƯỜNG THOÁT NẠN: + TƯỜNG HÀNH LANG THOÁT NẠN BẰNG GẠCH XÂY ĐƯỢC TRÁT XI MĂNG, VÁCH THẠCH CAO CHỐNG CHÁY EI 60. + SÀN HÀNH LANG THOÁT NẠN SÀN BTCT .",
+     "xy": [
+      482,
+      789
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỪ CHỖ LÀM VIỆC XA NHẤT TỚI CHỖ THOÁT NẠN GẦN NHẤT",
+     "xy": [
+      103,
+      833
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÁC GIAN PHÒNG SỬ DỤNG VẬT LIỆU HOÀN THIỆN NHƯ SAU: + TƯỜNG CHÂN BẰNG GẠCH XÂY ĐƯỢC TRÁT XI MĂNG. + KHUNG XƯƠNG THÉP, ỐP TẤM THẠCH CAO (CHỐNG CHÁY Ở CÁC KHU VỰC CẦN THIẾT). HOÀN THIỆN BẢ BỘT, SƠN NƯỚC. + KHÔNG ĐÓNG TRẦN.",
+     "xy": [
+      482,
+      837
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- VẬT LIỆU HOÀN THIỆN, TRANG TRÍ VÀ TRẦN, VẬT LIỆU ỐP LÁT, VẬT LIỆU PHỦ SÀN TRÊN ĐƯỜNG THOÁT NẠN VÀ GIAN PHÒNG CÓ CẤP NGUY HIỂM CHÁY CV0 TUÂN THỦ YÊU CẦU TẠI BẢNG B.8, B.9 PHỤ LỤC B-QC06.2022) - NHÀ XƯỞNG E1 CÓ CẤP NGUY HIỂM CHÁY KẾT CẤU S0 ĐÃ ĐƯỢC THẨM DUYỆT & NGHIỆM THU PCCC: + CÁC BỘ PHẬN CHỊU LỰC CÓ CẤP NGUY HIỂM CHÁY K0. + TƯỜNG NGOÀI CÓ CẤP NGUY HIỂM CHÁY K0 + CÁC BỘ PHẬN KẾT CẤU MÁI BAO GỒM XÀ GỒ & TẤM LỢP CÓ CẤP NGUY HIỂM CHÁY K0.",
+     "xy": [
+      482,
+      895
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "ĐẢM BẢO YÊU CẦU ĐẢM BẢO YÊU CẦU ĐẢM BẢO YÊU CẦU",
+     "xy": [
+      399,
+      961
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHOẢNG CÁCH XA NHẤT ĐẾN CỬA THOÁT NẠN GẦN NHẤT (m) SỐ LƯỢNG NGƯỜI TỐI ĐA TRÊN 1m CHIỀU RỘNG CỬA THOÁT NẠN TỪ GIAN PHÒNG SỐ LƯỢNG NGƯỜI TỐI ĐA TRÊN 1m CHIỀU RỘNG CỦA LỐI THOÁT NẠN HÀNH LANG",
+     "xy": [
+      97,
+      961
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "EI60",
+    "REI15",
+    "REI45"
+   ],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 13,
+   "ma": "A-01.09",
+   "ten": "MẶT BẰNG CHỈ DẪN LỐI THOÁT NẠN TẦNG 2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC KHÔNG CÓ NHÂN VIÊN LÀM VIỆC",
+     "xy": [
+      1230,
+      214
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG CHỈ DẪN LỐI THOÁT NẠN TẦNG 2",
+     "xy": [
+      544,
+      604
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN, KHÔNG NHỎ HƠN",
+     "xy": [
+      608,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CẤP NGUY HIỂM CHÁY KẾT CẤU CỦA NHÀ, CÔNG",
+     "xy": [
+      925,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CẤP NGUY HIỂM CHÁY CỦA CẤU KIỆN XÂY DỰNG",
+     "xy": [
+      1061,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁC CẤU KIỆN XÂY DỰNG CỦA BUỒNG THANG BỘ",
+     "xy": [
+      802,
+      691
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁC BỘ PHẬN CHỊU LỰC DẠNG THANH (CỘT, XÀ, GIÀN VÀ",
+     "xy": [
+      987,
+      694
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG CỦA BUỒNG THANG BỘ, BỘ PHẬN NGĂN KHĂN CHÁY",
+     "xy": [
+      1211,
+      694
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG CHỊU LỰC, CỘT CHỊU LỰC & CÁI BỘ PHẬN CHỊU",
+     "xy": [
+      509,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM LỢP ( KỂ CẢ TẤM LỢP CÓ LỚP",
+     "xy": [
+      705,
+      718
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: - KHU VỰC CHO THUÊ - CẢI TẠO E1 SẢN XUẤT CÁC LOẠI BAO BÌ TỪ PLASTIC (CÓ CÔNG ĐOẠN IN) - CÓ HẠNG NGUY HIỂM CHÁY NỔ LÀ HẠNG C; DIỆN TÍCH SỬ DỤNG LÀ 657m2. - KHÔNG BỐ TRÍ CÁC GIAN PHÒNG HẠNG A, B, KHO VẬT LIỆU DỄ CHÁY; - CÓ CHỨA CÁC VẬT LIỆU NGUỒN GỐC TỪ PLASTIC; - KHÔNG CHỨA CHẤT LỎNG DỄ CHÁY, CHẤT LỎNG CHẢY. - TRONG TRƯỜNG HỢP THAY ĐỔI HẠNG SẢN XUẤT CỦA CÔNG TRÌNH THÌ PHẢI THỰC HIỆN THẨM DUYỆT ĐIỀU CHỈNH VỀ PCCC. - TẤT CẢ CÁC TỦ ĐIỆN CÓ THỂ TÍCH < 1m3, ĐỂ CÁCH KHU VỰC MÁY MÓC THIẾT BỊ, VẬT LIỆU DỄ CHÁY >=0.5m",
+     "xy": [
+      999,
+      789
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-VẬT LIỆU HOÀN THIỆN, TRANG TRÍ, VẬT LIỆU ỐP LÁT, VẬT LIỆU PHỦ SÀN TRÊN ĐƯỜNG THOÁT NẠN: + TƯỜNG HÀNH LANG THOÁT NẠN BẰNG GẠCH XÂY ĐƯỢC TRÁT XI MĂNG, VÁCH THẠCH CAO CHỐNG CHÁY EI 60. + SÀN HÀNH LANG THOÁT NẠN SÀN BTCT .",
+     "xy": [
+      486,
+      789
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỪ CHỖ LÀM VIỆC XA NHẤT TỚI CHỖ THOÁT NẠN GẦN NHẤT",
+     "xy": [
+      108,
+      833
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÁC GIAN PHÒNG SỬ DỤNG VẬT LIỆU HOÀN THIỆN NHƯ SAU: + TƯỜNG CHÂN BẰNG GẠCH XÂY ĐƯỢC TRÁT XI MĂNG. + KHUNG XƯƠNG THÉP, ỐP TẤM THẠCH CAO (CHỐNG CHÁY Ở CÁC KHU VỰC CẦN THIẾT). HOÀN THIỆN BẢ BỘT, SƠN NƯỚC. + KHÔNG ĐÓNG TRẦN.",
+     "xy": [
+      486,
+      837
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- VẬT LIỆU HOÀN THIỆN, TRANG TRÍ VÀ TRẦN, VẬT LIỆU ỐP LÁT, VẬT LIỆU PHỦ SÀN TRÊN ĐƯỜNG THOÁT NẠN VÀ GIAN PHÒNG CÓ CẤP NGUY HIỂM CHÁY CV0 TUÂN THỦ YÊU CẦU TẠI BẢNG B.8, B.9 PHỤ LỤC B-QC06.2022) - NHÀ XƯỞNG E1 CÓ CẤP NGUY HIỂM CHÁY KẾT CẤU S0 ĐÃ ĐƯỢC THẨM DUYỆT & NGHIỆM THU PCCC: + CÁC BỘ PHẬN CHỊU LỰC CÓ CẤP NGUY HIỂM CHÁY K0. + TƯỜNG NGOÀI CÓ CẤP NGUY HIỂM CHÁY K0 + CÁC BỘ PHẬN KẾT CẤU MÁI BAO GỒM XÀ GỒ & TẤM LỢP CÓ CẤP NGUY HIỂM CHÁY K0.",
+     "xy": [
+      486,
+      895
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "ĐẢM BẢO YÊU CẦU ĐẢM BẢO YÊU CẦU ĐẢM BẢO YÊU CẦU",
+     "xy": [
+      403,
+      939
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHOẢNG CÁCH XA NHẤT ĐẾN CỬA THOÁT NẠN GẦN NHẤT (m) SỐ LƯỢNG NGƯỜI TỐI ĐA TRÊN 1m CHIỀU RỘNG CỬA THOÁT NẠN TỪ GIAN PHÒNG SỐ LƯỢNG NGƯỜI TỐI ĐA TRÊN 1m CHIỀU RỘNG CỦA LỐI THOÁT NẠN HÀNH LANG",
+     "xy": [
+      101,
+      939
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "EI60",
+    "REI15",
+    "REI45"
+   ],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 14,
+   "ma": "A-01.10",
+   "ten": "MẶT BẰNG ĐỊNH VỊ TƯỜNG - CỬA",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG ĐỊNH VỊ VÁCH - CỬA CẢI TẠO TẦNG 1",
+     "xy": [
+      526,
+      539
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐỊNH VỊ VÁCH - CỬA CẢI TẠO TẦNG 2",
+     "xy": [
+      525,
+      1093
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": null,
+   "agent": [
+    "m01-phan-loai"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 15,
+   "ma": "A-01.11",
+   "ten": "MẶT BẰNG CHI TIẾT VỊ TRÍ CẢI TẠO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC KHÔNG CÓ NHÂN VIÊN LÀM VIỆC THƯỜNG XUYÊN",
+     "xy": [
+      1080,
+      428
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH THẠCH CAO CAO TỚI TRẦN HOÀN THIỆN SƠN NƯỚC",
+     "xy": [
+      1121,
+      456
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG CẢI TẠO PHÒNG QUẢN LÝ TẦNG 2",
+     "xy": [
+      831,
+      881
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG CẢI TẠO KHU SẢN XUẤT TẦNG 1",
+     "xy": [
+      171,
+      881
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": 8.021,
+    "truc": [
+     {
+      "nhan": "1",
+      "huong": "doc",
+      "pos": 279.93,
+      "tu": 290.4,
+      "den": 847.5
+     },
+     {
+      "nhan": "3",
+      "huong": "doc",
+      "pos": 404.61,
+      "tu": 290.4,
+      "den": 847.5
+     },
+     {
+      "nhan": "1",
+      "huong": "doc",
+      "pos": 951.51,
+      "tu": 324.72,
+      "den": 859.260009765625
+     },
+     {
+      "nhan": "3",
+      "huong": "doc",
+      "pos": 1068.39,
+      "tu": 324.72,
+      "den": 859.260009765625
+     },
+     {
+      "nhan": "2",
+      "huong": "ngang",
+      "pos": 785.43,
+      "tu": 221.34,
+      "den": 686.0999755859375
+     },
+     {
+      "nhan": "2",
+      "huong": "ngang",
+      "pos": 797.19,
+      "tu": 892.9199829101562,
+      "den": 1357.679931640625
+     }
+    ],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": null
+   },
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 16,
+   "ma": "A-01.12",
+   "ten": "CHI TIẾT CỬA",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "- CỬA ĐI NHÔM KÍNH - HỆ 1000,NAMSUNG. - KÍNH CƯỜNG LỰC, TRONG ,DÀY 8MM,VIỆT NHẬT. - PHỤ KIỆN VICKINI.",
+     "xy": [
+      980,
+      711
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CỬA ĐI VINYL 1 CÁNH TRƯỢT, LỖ MỞ 1600x2200. - CÁNH CỬA W1700xH2200. - KHUNG THÉP HỘP 30x30x1.4. - TẤM VINYL DÀY 2mm.",
+     "xy": [
+      350,
+      711
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 17,
+   "ma": "A-01.13",
+   "ten": "MẶT CẮT 1-1",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 18,
+   "ma": "A-01.14",
+   "ten": "MẶT CẮT 2-2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 19,
+   "ma": "A-01.15",
+   "ten": "MẶT CẮT 3-3",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 20,
+   "ma": "A-01.16",
+   "ten": "VỊ TRÍ ỐP VÁCH THẠCH CAO CHỐNG CHÁY",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "XỬ LÝ MỐI NỐI BẰNG BĂNG LƯỚI VÀ BỘT XỬ LÝ MỐI NỐI GỐC THẠCH CAO",
+     "xy": [
+      1319,
+      324
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG VỊ TRÍ THẠCH CAO CHỐNG CHÁY",
+     "xy": [
+      408,
+      470
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH THẠCH CAO CHỐNG CHÁY EI 60 - CAO TỚI MÁI ÁP DỤNG SỬA ĐỔI 01:2023 QCVN06/2022-BXD & QCVN06/2022-BXD",
+     "xy": [
+      710,
+      751
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "VỊ TRÍ ỐP VÁCH THẠCH CAO CHỐNG CHÁY",
+     "xy": [
+      382,
+      1046
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 21,
+   "ma": "A-01.17",
+   "ten": "CHI TIẾT THANG THOÁT HIỂM TẦNG LỬNG",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CẦU THANG BỘ THÉP, LAN CAN CAO 1000mm. BẢN THANG RỘNG 1400mm, BẬC THANG CAO 170mm. ĐỘ DỐC THANG 39.80 < 450",
+     "xy": [
+      884,
+      251
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 1,
+   "loai": "bia",
+   "phan": "CƠ ĐIỆN",
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 2,
+   "ma": null,
+   "ten": null,
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHIẾU SÁNG SỰ CỐ & THOÁT NẠN - CẢI TẠO",
+     "xy": [
+      971,
+      331
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ HỆ THỐNG CHỮA CHÁY BỔ SUNG",
+     "xy": [
+      280,
+      393
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY LÔ E HIỆN HỮU",
+     "xy": [
+      279,
+      456
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ HỆ THỐNG BÁO CHÁY BỔ SUNG",
+     "xy": [
+      979,
+      456
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG BÁO CHÁY HIỆN HỮU XƯỞNG E1 - BLOCK E (ĐÃ THẨM DUYỆT)",
+     "xy": [
+      979,
+      510
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHỮA CHÁY VÁCH TƯỜNG VÀ BÌNH CHỮA CHÁY XÁCH TAY",
+     "xy": [
+      280,
+      519
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG BÁO CHÁY HIỆN HỮU - XƯỞNG E1",
+     "xy": [
+      971,
+      581
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY VÁCH TƯỜNG",
+     "xy": [
+      280,
+      581
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG SPRINKLER (LÀM MỚI)",
+     "xy": [
+      280,
+      644
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG BÁO CHÁY CẢI TẠO XƯỞNG E1 - BLOCK E",
+     "xy": [
+      971,
+      644
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG SPRINKLER (LÀM MỚI) - MẶT ĐỨNG CHỮA CHÁY",
+     "xy": [
+      279,
+      699
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG BÁO CHÁY CẢI TẠO BỔ SUNG - XƯỞNG E1",
+     "xy": [
+      971,
+      707
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TÍNH TOÁN THỦY LỰC HỆ THỐNG CHỮA CHÁY",
+     "xy": [
+      280,
+      769
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢN VẼ SƠ ĐỒ KHÔNG GIAN TÍNH TOÁN HỆ THỐNG CHỮA CHÁY",
+     "xy": [
+      280,
+      832
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG BỐ TRÍ LAM GIÓ THOÁT KHÓI",
+     "xy": [
+      979,
+      895
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ HỆ THỐNG CHỐNG SÉT - BLOCK E (HIỆN HỮU) (ĐÃ THẨM DUYỆT)",
+     "xy": [
+      979,
+      949
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ HỆ THỐNG CHIẾU SÁNG KHẨN BỔ SUNG",
+     "xy": [
+      272,
+      957
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHIẾU SÁNG SỰ CỐ & THOÁT NẠN - HIỆN HỮU (ĐÃ THẨM DUYỆT)",
+     "xy": [
+      272,
+      1011
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CƠ ĐIỆN",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 3,
+   "loai": "bia",
+   "phan": "CHỮA CHÁY",
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 4,
+   "ma": null,
+   "ten": "MẶT BẰNG TỔNG THỂ HỆ THỐNG CHỮA CHÁY BỔ SUNG",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "VỊ TRÍ KẾT NỐI VỚI NHÀ XƯỞNG CẢI TẠO",
+     "xy": [
+      396,
+      821
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY HIỆN HỮU BAO GỒM: 1. BƠM CẤP NƯỚC CHỮA CHÁY HIỆN HỮU:",
+     "xy": [
+      1060,
+      944
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- BƠM ĐIỆN (CHÍNH) Q = 385 m3/h, H = 70 mH2O - BƠM DIESEL (DỰ PHÒNG) Q = 385 m3/h, H = 70 mH2O - BƠM BÙ ÁP Q = 7.2 m3/h, H = 70 mH2O 2. BỂ NƯỚC NGẦM PCCC HIỆN HỮU: 400m3",
+     "xy": [
+      1063,
+      987
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỔ SUNG HỆ THỐNG CHỮA CHÁY",
+     "xy": [
+      132,
+      1103
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ HỆ THỐNG CHỮA CHÁY BỔ SUNG",
+     "xy": [
+      487,
+      1113
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D65"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [
+     {
+      "nhan": "4",
+      "huong": "ngang",
+      "pos": 352.95,
+      "tu": 365.28,
+      "den": 1671.0
+     }
+    ],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 5,
+   "ma": null,
+   "ten": "SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY LÔ E HIỆN HỮU",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY LÔ E HIỆN HỮU",
+     "xy": [
+      428,
+      504
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY HIỆN HỮU BAO GỒM: 1. BƠM CẤP NƯỚC CHỮA CHÁY HIỆN HỮU:",
+     "xy": [
+      1060,
+      1058
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHỮA CHÁY LÔ E HIỆN HỮU",
+     "xy": [
+      408,
+      1066
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- BƠM ĐIỆN (CHÍNH) Q = 385 m3/h, H = 70 mH2O - BƠM DIESEL (DỰ PHÒNG) Q = 385 m3/h, H = 70 mH2O - BƠM BÙ ÁP Q = 7.2 m3/h, H = 70 mH2O 2. BỂ NƯỚC NGẦM PCCC HIỆN HỮU: 400m3",
+     "xy": [
+      1063,
+      1101
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 6,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG CHỮA CHÁY VÁCH TƯỜNG VÀ BÌNH CHỮA CHÁY XÁCH TAY",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHỮA CHÁY HIỆN HỮU NHÀ XƯỞNG",
+     "xy": [
+      268,
+      422
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG HT CHỮA CHÁY VÁCH TƯỜNG VÀ BÌNH CHỮA CHÁY THÊM MỚI",
+     "xy": [
+      399,
+      835
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hộp chữa cháy vách tường trong nhà Indoor hydrant box Bình chữa cháy CO2 5kg 5kg CO2 powder fire-extinguisher Bình chữa cháy bột 6kg",
+     "xy": [
+      218,
+      961
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LỰA CHỌN TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY",
+     "xy": [
+      487,
+      989
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY HIỆN HỮU BAO GỒM: 1. BƠM CẤP NƯỚC CHỮA CHÁY HIỆN HỮU:",
+     "xy": [
+      1030,
+      1036
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "6kg powder fire-extinguisher Đầu phun Sprinkler hướng lên Upright Sprinkler head Đầu phun Sprinkler hướng xuống Pendent Sprinkler head Van khóa Valve",
+     "xy": [
+      218,
+      1041
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- BƠM ĐIỆN (CHÍNH) Q = 385 m3/h, H = 70 mH2O - BƠM DIESEL (DỰ PHÒNG) Q = 385 m3/h, H = 70 mH2O - BƠM BÙ ÁP Q = 7.2 m3/h, H = 70 mH2O 2. BỂ NƯỚC NGẦM PCCC HIỆN HỮU: 400m3",
+     "xy": [
+      1034,
+      1078
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m10-binh-chua-chay",
+    "m12-chua-chay",
+    "m15-cnch"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 7,
+   "ma": null,
+   "ten": "SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY VÁCH TƯỜNG",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "Hộp chữa cháy vách tường trong nhà Indoor hydrant box Bình chữa cháy CO2 5kg 5kg CO2 powder fire-extinguisher Bình chữa cháy bột 6kg",
+     "xy": [
+      1272,
+      106
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "6kg powder fire-extinguisher Đầu phun Sprinkler hướng lên Upright Sprinkler head Đầu phun Sprinkler hướng xuống Pendent Sprinkler head Van khóa Valve",
+     "xy": [
+      1272,
+      187
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY VÁCH TƯỜNG VÀ HỆ THỐNG CẤP NƯỚC CHỮA CHÁY TỰ ĐỘNG SPRINKLER ĐƯỢC THIÊT KẾ THEO CÁC TIÊU CHUẨN SAU:",
+     "xy": [
+      49,
+      826
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TCVN 2622:1996 - PHÒNG CHÁY CHỮA CHÁY CHO NHÀ VÀ CÔNG TRÌNH - YÊU CẦU THIẾT KẾ. TCVN 7336:2021 - PHÒNG CHÁY CHỮA CHÁY - HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG BẰNG NƯỚC, BỌT - YÊU CẦU THIẾT KẾ VÀ LẮP ĐẶT. TCVN 3890:2023 - PHÒNG CHÁY CHỮA CHÁY - PHƯƠNG TIỆN PHÒNG CHÁY VÀ CHỮA CHÁY CHO NHÀ VÀ CÔNG TRÌNH - TRANG BỊ, BỐ TRÍ.",
+     "xy": [
+      59,
+      847
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 2622:1996",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "ĐƯỜNG ỐNG CẤP NƯỚC CHỮA CHÁY CHÍNH CHO HỆ THỐNG CHỮA CHÁY SỬ DỤN ỐNG THÉP TRÁNG KẼM DN150, DN100 DẪN TỪ TRẠM BƠM CHỮA CHÁY (HỆ THỐNG MÁY BƠM HIỆN HỮU) ĐẾN CÁC THIẾT BỊ CHỮA CHÁY (HỘP CHỮA CHÁY VÁCH TƯỜNG, ĐẦU PHUN SPRINKLER,...) HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG, CÁC ĐƯỜNG ỐNG CHỮA CHÁY TỰ ĐỘNG SPRINKLER DN100 ĐI TRÊN CAO NỐI VỚI ĐƯỜNG ỐNG CHÍNH VÀ VUÔNG GÓC VỚI MẶT SÀN. ĐƯỜNG ỐNG NHÁNH THÉP TRÁNG KẼM DN25, DN32, DN40 DẪN TỪ ĐƯỜNG ỐNG CHÍNH DN100 VÀ XUỐNG CÁC ĐẦU PHUN SPRINKLER. CÁC ĐẦU PHUN TỰ ĐỘNG CÓ NHIỆT ĐỘ 68°C ĐƯỢC LẮP ĐẶT VUÔNG GÓC VỚI MẶT SÀN NHÀ XƯỞNG. KHOẢNG CÁCH CÁC ĐẦU PHUN 3M, CÁCH TƯỜNG 1.5M. ĐƯỜNG ỐNG CHỮA CHÁY VÁCH TƯỜNG DN50 NỐI VỚI ĐƯỜNG ỐNG CHÍNH DN100 DẪN VÀO CÁC HỘP CHỮA CHÁY. TRONG HỘP CHỮA CHÁY CHỨA 1 CUỘN VÒI DN50 DÀI 20M, 1 LĂNG PHUN DN50 / 13 VÀ 1 VAN GÓC CHỮA CHÁY DN50. HỘP CHỮA CHÁY ĐƯỢC LẮP ĐẶT TRÊN VÁCH NHÀ XƯỞNG ĐỂ THUẬN TIỆN CHO THAO TÁC CHỮA CHÁY. TÂM HỌNG CHỮA CHÁY ĐẶT CÁCH SÀN HOÀN THIỆN 1.25M. TRẠM BƠM CHỮA CHÁY HIỆN HỮU GỒM:",
+     "xy": [
+      49,
+      900
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY HIỆN HỮU BAO GỒM: 1. BƠM CẤP NƯỚC CHỮA CHÁY HIỆN HỮU:",
+     "xy": [
+      565,
+      987
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- BƠM ĐIỆN (CHÍNH) Q = 385 m3/h, H = 70 mH2O - BƠM DIESEL (DỰ PHÒNG) Q = 385 m3/h, H = 70 mH2O - BƠM BÙ ÁP Q = 7.2 m3/h, H = 70 mH2O 2. BỂ NƯỚC NGẦM PCCC HIỆN HỮU: 400m3",
+     "xy": [
+      569,
+      1029
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "01 MÁY BƠM ĐỘNG CƠ ĐIỆN : P = 150HP, Q=385 M3/H, H=70M 01 MÁY BƠM ĐỘNG CƠ DIESEL : P = 150HP, Q=385 M3/H, H=70M 01 MÁY BƠM ĐỘNG CƠ ĐIỆN BÙ ÁP : P = 4HP, Q=7.2M3/H, H=70M",
+     "xy": [
+      59,
+      1070
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY VÁCH TƯỜNG",
+     "xy": [
+      351,
+      1132
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 2622:1996",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 7336:2021",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 8,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG SPRINKLER (LÀM MỚI)",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Hộp chữa cháy vách tường trong nhà Indoor hydrant box Bình chữa cháy CO2 5kg",
+     "xy": [
+      1235,
+      108
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "5kg CO2 powder fire-extinguisher Bình chữa cháy bột 6kg",
+     "xy": [
+      1236,
+      146
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "6kg powder fire-extinguisher Đầu phun Sprinkler hướng lên Upright Sprinkler head Đầu phun Sprinkler hướng xuống Pendent Sprinkler head Van khóa Valve",
+     "xy": [
+      1235,
+      173
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG SPRINKLER (LÀM MỚI) - TẦNG 1",
+     "xy": [
+      206,
+      411
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG SPRINKLER (LÀM MỚI) - TẦNG 2",
+     "xy": [
+      184,
+      831
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY VÁCH TƯỜNG VÀ HỆ THỐNG CẤP NƯỚC CHỮA CHÁY TỰ ĐỘNG SPRINKLER ĐƯỢC THIÊT KẾ THEO CÁC TIÊU CHUẨN SAU:",
+     "xy": [
+      73,
+      877
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TCVN 2622:1996 - PHÒNG CHÁY CHỮA CHÁY CHO NHÀ VÀ CÔNG TRÌNH - YÊU CẦU THIẾT KẾ. TCVN 7336:2021 - PHÒNG CHÁY CHỮA CHÁY - HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG BẰNG NƯỚC, BỌT - YÊU CẦU THIẾT KẾ VÀ LẮP ĐẶT. TCVN 3890:2023 - PHÒNG CHÁY CHỮA CHÁY - PHƯƠNG TIỆN PHÒNG CHÁY VÀ CHỮA CHÁY CHO NHÀ VÀ CÔNG TRÌNH - TRANG BỊ, BỐ TRÍ.",
+     "xy": [
+      84,
+      898
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 2622:1996",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "ĐƯỜNG ỐNG CẤP NƯỚC CHỮA CHÁY CHÍNH CHO HỆ THỐNG CHỮA CHÁY SỬ DỤN ỐNG THÉP TRÁNG KẼM DN150, DN100 DẪN TỪ TRẠM BƠM CHỮA CHÁY (HỆ THỐNG MÁY BƠM HIỆN HỮU) ĐẾN CÁC THIẾT BỊ CHỮA CHÁY (HỘP CHỮA CHÁY VÁCH TƯỜNG, ĐẦU PHUN SPRINKLER,...) HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG, CÁC ĐƯỜNG ỐNG CHỮA CHÁY TỰ ĐỘNG SPRINKLER DN100 ĐI TRÊN CAO NỐI VỚI ĐƯỜNG ỐNG CHÍNH VÀ VUÔNG GÓC VỚI MẶT SÀN. ĐƯỜNG ỐNG NHÁNH THÉP TRÁNG KẼM DN25, DN32, DN40 DẪN TỪ ĐƯỜNG ỐNG CHÍNH DN100 VÀ XUỐNG CÁC ĐẦU PHUN SPRINKLER. CÁC ĐẦU PHUN TỰ ĐỘNG CÓ NHIỆT ĐỘ 68°C ĐƯỢC LẮP ĐẶT VUÔNG GÓC VỚI MẶT SÀN NHÀ XƯỞNG. KHOẢNG CÁCH CÁC ĐẦU PHUN 3M, CÁCH TƯỜNG 1.5M. ĐƯỜNG ỐNG CHỮA CHÁY VÁCH TƯỜNG DN50 NỐI VỚI ĐƯỜNG ỐNG CHÍNH DN100 DẪN VÀO CÁC HỘP CHỮA CHÁY. TRONG HỘP CHỮA CHÁY CHỨA 1 CUỘN VÒI DN50 DÀI 20M, 1 LĂNG PHUN DN50 / 13 VÀ 1 VAN GÓC CHỮA CHÁY DN50. HỘP CHỮA CHÁY ĐƯỢC LẮP ĐẶT TRÊN VÁCH NHÀ XƯỞNG ĐỂ THUẬN TIỆN CHO THAO TÁC CHỮA CHÁY. TÂM HỌNG CHỮA CHÁY ĐẶT CÁCH SÀN HOÀN THIỆN 1.25M. TRẠM BƠM CHỮA CHÁY HIỆN HỮU GỒM:",
+     "xy": [
+      73,
+      952
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SỐ LƯỢNG ĐẦU PHUN CHỮA CHÁY DỰ PHÒNG",
+     "xy": [
+      1113,
+      958
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ KHOẢNG CÁCH LẮP ĐẶT GIỮA CÁC ĐAI ỐNG CÓ ĐƯỜNG KÍNH KHÔNG QUÁ DN50 LẮP ĐẶT",
+     "xy": [
+      518,
+      983
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ KHOẢNG CÁCH TỪ ĐAI GIỮA ĐẾN ĐẦU PHUN CUỐI CÙNG KHÔNG LỚN HƠN 0.9m ĐỐI VỚI",
+     "xy": [
+      518,
+      1004
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG ỐNG PHÂN PHỐI CÓ ĐƯỜNG KÍNH DN25 TRỞ XUỐNG VÀ KHÔNG LỚN HƠN 1.2m ĐỐI VỚI ĐƯỜNG ỐNG CÓ ĐƯỜNG KÍNH LỚN HƠN DN25.",
+     "xy": [
+      529,
+      1014
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ ĐƯỜNG ỐNG SPRINKLER ĐƯỢC SƠN MÀU ĐỎ VÀ ĐÁNH SỐ \"1\" + MÀU SẮC PHÂN BIỆT CỦA BẢNG KÝ HIỆU CHUYỂN HƯỚNG CỦA CHẤT CHỮA CHÁY VÀ SỐ",
+     "xy": [
+      518,
+      1035
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KÝ HIỆU LÀ MÀU TRẮNG, CÁC BẢNG KÝ HIỆU VÀ SỐ KÝ HIỆU ĐƯỢC BỐ TRÍ TẠI CÁC ĐIỂM KẾT NỐI QUAN TRỌNG NHẤT (TẠI ĐẦU VÀO VÀ ĐẦU RA CỦA MÁY BƠM CHỮA CHÁY, TẠI ĐẦU RA CỦA ĐƯỜNG ỐNG CẤP NƯỚC, TRÊN CÁC NHÁNH, TẠI CÁC KẾT NỐI, TẠI CÁC THIẾT BỊ KHÓA MÀ QUA ĐÓ NƯỚC ĐƯỢC CUNG CẤP CHO ĐƯỜNG ỐNG CHÍNH, ĐƯỜNG ỐNG CẤP LẠI NHỮNG NƠI MÀ ĐƯỜNG ỐNG ĐI QUA CÁC BỨC TƯỜNG, VÁCH NGĂN, TẠI CÁC LỐI VÀO CỦA CÔNG TRÌNH VÀ Ở NHỮNG NƠI KHÁC CẦN THIẾT ĐỂ NHẬN BIẾT ĐƯỜNG ỐNG CHỮA CHÁY",
+     "xy": [
+      529,
+      1056
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TIÊU CHUẨN ÁP DỤNG: CĂN CỨ THEO ĐIỀU 5.1.12/TCVN 7336-2021",
+     "xy": [
+      1094,
+      1084
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+TẤT CẢ ĐƯỜNG ỐNG CHỮA CHÁY CÔNG TRÌNH SỬ DỤNG ỐNG THÉP +TẤT CẢ ĐƯỜNG ỐNG CHỮA CHÁY SƠN MÀU ĐỎ +ĐƯỜNG ỐNG CHỮA CHÁY VÁCH TƯỜNG VÀ CHỮA CHÁY SPRINKLER",
+     "xy": [
+      1095,
+      1112
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "01 MÁY BƠM ĐỘNG CƠ ĐIỆN : P = 150HP, Q=385 M3/H, H=70M 01 MÁY BƠM ĐỘNG CƠ DIESEL : P = 150HP, Q=385 M3/H, H=70M 01 MÁY BƠM ĐỘNG CƠ ĐIỆN BÙ ÁP : P = 4HP, Q=7.2M3/H, H=70M",
+     "xy": [
+      84,
+      1121
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ ĐẦU PHUN SPRINKLER ĐƯỢC LẮP ĐẶT SÁT TRẦN THẠCH CAO + VAN XẢ KHÍ & ĐỒNG HỒ ÁP SUẤT ĐƯỢC BỐ TRÍ TRƯỚC ĐẦU PHUN CHỦ ĐẠO + ÁP SUẤT TẠI ĐẦU PHUN KHI KẾT HỢP VỚI CHỮA CHÁY VÁCH TƯỜNG KHÔNG QUÁ 0.4 MPa",
+     "xy": [
+      518,
+      1130
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 2622:1996",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 7336:2021",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 9,
+   "ma": null,
+   "ten": "- SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG (LÀM MỚI) - MẶT ĐỨNG CHỮA CHÁY",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "SỐ LƯỢNG ĐẦU PHUN CHỮA CHÁY DỰ PHÒNG",
+     "xy": [
+      1119,
+      23
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TIÊU CHUẨN ÁP DỤNG: CĂN CỨ THEO ĐIỀU 5.1.12/TCVN 7336-2021",
+     "xy": [
+      1095,
+      179
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+TẤT CẢ ĐƯỜNG ỐNG CHỮA CHÁY CÔNG TRÌNH SỬ DỤNG ỐNG THÉP +TẤT CẢ ĐƯỜNG ỐNG CHỮA CHÁY SƠN MÀU ĐỎ +ĐƯỜNG ỐNG CHỮA CHÁY VÁCH TƯỜNG VÀ CHỮA CHÁY SPRINKLER",
+     "xy": [
+      1096,
+      214
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY HIỆN HỮU BAO GỒM: 1. BƠM CẤP NƯỚC CHỮA CHÁY HIỆN HỮU: - BƠM ĐIỆN (CHÍNH) Q = 385 m3/h, H = 70 mH2O - BƠM DIESEL (DỰ PHÒNG) Q = 385 m3/h, H = 70 mH2O - BƠM BÙ ÁP Q = 7.2 m3/h, H = 70 mH2O 2. BỂ NƯỚC NGẦM PCCC HIỆN HỮU: 400m3",
+     "xy": [
+      59,
+      378
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY VÁCH TƯỜNG VÀ HỆ THỐNG CẤP NƯỚC CHỮA CHÁY TỰ ĐỘNG SPRINKLER ĐƯỢC THIÊT KẾ THEO CÁC TIÊU CHUẨN SAU:",
+     "xy": [
+      73,
+      497
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TCVN 2622:1996 - PHÒNG CHÁY CHỮA CHÁY CHO NHÀ VÀ CÔNG TRÌNH - YÊU CẦU THIẾT KẾ. TCVN 7336:2021 - PHÒNG CHÁY CHỮA CHÁY - HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG BẰNG NƯỚC, BỌT - YÊU CẦU THIẾT KẾ VÀ LẮP ĐẶT. TCVN 3890:2023 - PHÒNG CHÁY CHỮA CHÁY - PHƯƠNG TIỆN PHÒNG CHÁY VÀ CHỮA CHÁY CHO NHÀ VÀ CÔNG TRÌNH - TRANG BỊ, BỐ TRÍ.",
+     "xy": [
+      84,
+      518
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 2622:1996",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "ĐƯỜNG ỐNG CẤP NƯỚC CHỮA CHÁY CHÍNH CHO HỆ THỐNG CHỮA CHÁY SỬ DỤN ỐNG THÉP TRÁNG KẼM DN150, DN100 DẪN TỪ TRẠM BƠM CHỮA CHÁY (HỆ THỐNG MÁY BƠM HIỆN HỮU) ĐẾN CÁC THIẾT BỊ CHỮA CHÁY (HỘP CHỮA CHÁY VÁCH TƯỜNG, ĐẦU PHUN SPRINKLER,...) HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG, CÁC ĐƯỜNG ỐNG CHỮA CHÁY TỰ ĐỘNG SPRINKLER DN100 ĐI TRÊN CAO NỐI VỚI ĐƯỜNG ỐNG CHÍNH VÀ VUÔNG GÓC VỚI MẶT SÀN. ĐƯỜNG ỐNG NHÁNH THÉP TRÁNG KẼM DN25, DN32, DN40 DẪN TỪ ĐƯỜNG ỐNG CHÍNH DN100 VÀ XUỐNG CÁC ĐẦU PHUN SPRINKLER. CÁC ĐẦU PHUN TỰ ĐỘNG CÓ NHIỆT ĐỘ 68°C ĐƯỢC LẮP ĐẶT VUÔNG GÓC VỚI MẶT SÀN NHÀ XƯỞNG. KHOẢNG CÁCH CÁC ĐẦU PHUN 3M, CÁCH TƯỜNG 1.5M. ĐƯỜNG ỐNG CHỮA CHÁY VÁCH TƯỜNG DN50 NỐI VỚI ĐƯỜNG ỐNG CHÍNH DN100 DẪN VÀO CÁC HỘP CHỮA CHÁY. TRONG HỘP CHỮA CHÁY CHỨA 1 CUỘN VÒI DN50 DÀI 20M, 1 LĂNG PHUN DN50 / 13 VÀ 1 VAN GÓC CHỮA CHÁY DN50. HỘP CHỮA CHÁY ĐƯỢC LẮP ĐẶT TRÊN VÁCH NHÀ XƯỞNG ĐỂ THUẬN TIỆN CHO THAO TÁC CHỮA CHÁY. TÂM HỌNG CHỮA CHÁY ĐẶT CÁCH SÀN HOÀN THIỆN 1.25M. TRẠM BƠM CHỮA CHÁY HIỆN HỮU GỒM:",
+     "xy": [
+      73,
+      571
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "01 MÁY BƠM ĐỘNG CƠ ĐIỆN : P = 150HP, Q=385 M3/H, H=70M 01 MÁY BƠM ĐỘNG CƠ DIESEL : P = 150HP, Q=385 M3/H, H=70M 01 MÁY BƠM ĐỘNG CƠ ĐIỆN BÙ ÁP : P = 4HP, Q=7.2M3/H, H=70M",
+     "xy": [
+      84,
+      741
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 2622:1996",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 7336:2021",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 10,
+   "ma": null,
+   "ten": "TÍNH TOÁN THỦY LỰC HỆ THỐNG CHỮA CHÁY",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "thuyet_minh",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 11,
+   "ma": null,
+   "ten": "BẢN VẼ SƠ ĐỒ KHÔNG GIAN TÍNH TOÁN HỆ THỐNG CHỮA CHÁY",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY HIỆN HỮU BAO GỒM: 1. BƠM CẤP NƯỚC CHỮA CHÁY HIỆN HỮU:",
+     "xy": [
+      980,
+      39
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- BƠM ĐIỆN (CHÍNH) Q = 385 m3/h, H = 70 mH2O - BƠM DIESEL (DỰ PHÒNG) Q = 385 m3/h, H = 70 mH2O - BƠM BÙ ÁP Q = 7.2 m3/h, H = 70 mH2O 2. BỂ NƯỚC NGẦM PCCC HIỆN HỮU: 400m3",
+     "xy": [
+      983,
+      82
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ KHÔNG GIAN TÍNH TOÁN HỆ THỐNG CHỮA CHÁY",
+     "xy": [
+      103,
+      739
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 12,
+   "ma": null,
+   "ten": "CHI TIẾT CHỮA CHÁY",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CHI TIẾT BÌNH CHỮA CHÁY XÁCH LÀM MỚI",
+     "xy": [
+      115,
+      319
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tủ vách tường gồm: 01 Cuộn vòi DN50 01 lăng phun DN50, 13mm",
+     "xy": [
+      410,
+      407
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT TỦ CHỮA CHÁY TRONG NHÀ LÀM MỚI",
+     "xy": [
+      85,
+      621
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1- ỐNG THÉP TRÁNG KẼM 2- ĐOẠN ỐNG ĐÃ ĐƯỢC REN 3- TÊ THÉP 4- KÉP THÉP 5- CÔN THU",
+     "xy": [
+      994,
+      672
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1- ỐNG THÉP TRÁNG KẼM 2- ĐOẠN ỐNG ĐÃ ĐƯỢC REN 3- CÚT THÉP",
+     "xy": [
+      182,
+      697
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1- ỐNG THÉP TRÁNG KẼM 2- ĐOẠN ỐNG ĐÃ ĐƯỢC REN 3- TÊ THÉP",
+     "xy": [
+      551,
+      699
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1- ỐNG THÉP TRÁNG KẼM 2- ĐOẠN ỐNG ĐÃ ĐƯỢC REN 3- MĂNG XÔNG THÉP",
+     "xy": [
+      783,
+      699
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ỐNG VÀ PHỤ KIỆN DẠNG REN",
+     "xy": [
+      540,
+      873
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1- ỐNG THÉP 2- BULONG M14 3- LOND ĐEN ĐỆM M16 4- MẶT BÍCH D150 5- ĐAI ỐC M14 6- MỐI HÀN GÓC 7- GIOĂNG CAO SU",
+     "xy": [
+      1085,
+      915
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ỐNG VÀ PHỤ KIỆN DẠNG HÀN",
+     "xy": [
+      541,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 13,
+   "loai": "bia",
+   "phan": "EXIT & EM",
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 14,
+   "ma": "EXM-01",
+   "ten": "MẶT BẰNG TỔNG THỂ HỆ THỐNG CHIẾU SÁNG KHẨN BỔ SUNG",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC BỔ SUNG HỆ THỐNG CHIẾU SÁNG KHẨN",
+     "xy": [
+      164,
+      1078
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ HỆ THỐNG CHIẾU SÁNG KHẨN BỔ SUNG",
+     "xy": [
+      464,
+      1100
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [
+     {
+      "nhan": "4",
+      "huong": "ngang",
+      "pos": 281.97,
+      "tu": 427.86,
+      "den": 1084.62
+     }
+    ],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "EXIT & EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 15,
+   "ma": "EXM-02",
+   "ten": "MẶT BẰNG HỆ THỐNG CHIẾU SÁNG SỰ CỐ & THOÁT NẠN - HIỆN HỮU (ĐÃ THẨM DUYỆT)",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHIẾU SÁNG SỰ CỐ & THOÁT NẠN - HIỆN HỮU",
+     "xy": [
+      300,
+      776
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "EXIT & EM",
+   "agent": [
+    "m07-thoat-nan",
+    "m14-den-su-co"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 16,
+   "ma": "EXM-03",
+   "ten": "MẶT BẰNG HỆ THỐNG CHIẾU SÁNG SỰ CỐ & THOÁT NẠN - CẢI TẠO",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG CHIẾU SÁNG SỰ CỐ & THOÁT NẠN - CẢI TẠO",
+     "xy": [
+      232,
+      665
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THUYẾT MINH: -Hệ thống đáp ứng TCVN 13456-2022: Phòng cháy chữa cháy-Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn-Yêu cầu lắp đặt. -Đèn chiếu sáng sự cố & chỉ dẫn thoát nạn có nguồn điện dự phòng đảm bảo thời gian hoạt động tối thiểu là 2h. -Đèn chiếu sáng sự cố có độ chiếu sáng ban đầu trung bình là 10lux và cường độ chiếu sáng nhỏ nhất tại bất kì thời điểm nào dọc theo đường thoát nạn đó không được nhỏ hơn 1 lux. -Đèn chỉ dẫn thoát nạn phải nhìn thấy rõ ràng chữ \" LỐI RA\" hoặc có các chữ khác thích hợp từ khoảng cách tối thiểu 25m trong điều kiện chiếu sáng bình thường (300lux) hoặc khi có sự cố (10lux). -Đèn chiếu sáng sự cố & đèn chỉ dẫn thoát nạn được lắp đặt và bố trí tại các cửa ra vào, hành lang thoát nạn, lối rẻ trên đường thoát nạn để chiếu sáng, chỉ dẫn lối đi & dễ quan sát. Vị trí lắp đặt giữa các đèn chỉ dẫn thoát nạn phải dảm bảo nhìn thấy lối thoát nạn và khoảng cách không lớn hơn 25m. -Biển bảo an toàn phải được nhìn thấy rõ ràng các chữ \" LỐI RA\" hoặc \" EXIT\", ký hiệu hình học khác thích hợp. Trong đó lưu ý: màu sắc của biển báo an toàn có nền màu xanh lá cây, màu chữ và ký hiệu hình học là màu trắng được chiếu sáng bên trong.",
+     "xy": [
+      765,
+      757
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "EXIT & EM",
+   "agent": [
+    "m07-thoat-nan",
+    "m14-den-su-co"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 17,
+   "ma": "EXM-04",
+   "ten": "THUYẾT MINH & CHI TIẾT LẮP ĐẶT",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "Đèn chiếu sáng sự cố, chỉ dẫn thoát nạn thiết kế theo điều 10.1.5 tiêu chuẩn TCVN 3890:2023 và",
+     "xy": [
+      233,
+      81
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": "điều 10.1.5"
+      }
+     ]
+    },
+    {
+     "chu": "Nguồn điện sử dụng cho chiếu sáng khẩn được kiểm soát tại tủ phân phối. Quy định này không áp",
+     "xy": [
+      233,
+      109
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với đèn sự cố và biển báo an toàn:",
+     "xy": [
+      184,
+      135
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phải có nguồn điện dự phòng đảm bảo thời gian hoạt động ổn định liên tục tối thiểu là 120min khi",
+     "xy": [
+      233,
+      149
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đèn chiều sáng khẩn có cường độ chiếu sáng ban đầu trung bình là 10lux và cường độ sáng nhỏ",
+     "xy": [
+      233,
+      177
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "nhất tại bất kì thời điểm nào dọc theo đường thoát hiểm không nhỏ hơn 1lux",
+     "xy": [
+      198,
+      191
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với đường thoát nạn có chiều rộng đến 2m thì độ rọi trung bình theo phương ngang đường",
+     "xy": [
+      233,
+      205
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thoát hiểm lớn hơn hoặc bằng 1lux và dài ở giữa với chiều rộng lơn hơn hoặc bằng 1 thoát nạn phải có được chiếu sáng tối thiểu 50% giá trị đó",
+     "xy": [
+      198,
+      218
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Độ rọi trung bình của phương ngang không được nhỏ hơn 0.5 lux tại mặt sàn, không bao gồm",
+     "xy": [
+      233,
+      247
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phải đảm bảo giảm thiểu nguy cơ gây lóa tạm thời bằng hạn chế cường độ sáng ở giai đoạn phát",
+     "xy": [
+      233,
+      275
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "sáng cực đại trong chế độ hoạt động khi có sự cố của mỗi đèn thuộc phạm vi quan sát",
+     "xy": [
+      198,
+      289
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tỷ lệ độ rọi lớn nhất dọc theo đường tâm của đường thoát nạn và chiếu sáng khoảng trống (chống",
+     "xy": [
+      233,
+      304
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phải giảm thiểu nguy cơ gây lóa tạm thời bằng cách hạn chế cường độ sáng ở giai đoạn phát sáng cực đại:",
+     "xy": [
+      184,
+      330
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với đèn chiếu sáng thoát nạn theo phương ngang so với mặt sàn, chiếu sáng gian phòng, chiếu",
+     "xy": [
+      233,
+      344
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "sáng cho các phương tiện PCCC. Cường độ chiếu sáng trong phạm vi góc chiếu từ 60-90 độ không được vượt quá giá trị quy địnhtại bảng 1 TCVN 13456:2022",
+     "xy": [
+      198,
+      358
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": "bảng 1"
+      }
+     ]
+    },
+    {
+     "chu": "Đối với đường thoát nạn khác, cường độ chiếu sáng của đèn không được vượt quá giá trị bảng 1 ở",
+     "xy": [
+      233,
+      384
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lắp biển báo chỉ dẫn lối ra thoát nạn ở cầu thang bộ thoát nạn, các đường thoát nạn trên tầng nhà",
+     "xy": [
+      233,
+      426
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "và các lối ra của gian phòng có 2 lối thoát nạn trở lên",
+     "xy": [
+      198,
+      440
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lắp biển báo chỉ hướng thoát nạn trên đường thoát nạn trong gian phòng và tát cả các vịt trí mà",
+     "xy": [
+      233,
+      454
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Vị trí lắp đặt giữa các biển báo an toàn phải đảm bảo khoảng cách không lớn hơn 25m Đèn chỉ dẫn thoát nạn được nhìn thất rõ ràng các chữ \"LỐI RA\" hoặc các chữ khác thích hợp với",
+     "xy": [
+      233,
+      482
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "khoảng cách tối thiểu 25m trong điều kiện chiếu sáng bình thường (300 lux) hoặc khi sự cố (10lux)",
+     "xy": [
+      198,
+      510
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hạn chế gây chói lóa chiếu sáng đường thoát nạn theo phương ngang so với mặt sàn, chiếu sáng",
+     "xy": [
+      233,
+      524
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "gian phòng, chiếu sáng cho các phương tiện PCCC. Cường độ chiếu sáng của các đèn trong phạm vi góc chiếu từ 60-90 độ",
+     "xy": [
+      198,
+      538
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Chiếu sáng phương tiện PCCC tối thiểu 5lux tại mặt sàn Chiều cao lắp biển an toàn 2,4m Các đường ống kỹ thuật chữa cháy, dây dẫn, cáp xuyên tường ngăn cháy được chèn bịt bằng bê",
+     "xy": [
+      233,
+      567
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LƯU Ý: Các tủ trung tâm báo cháy, nút ấn báo cháy, phương tiện chữa cháy phải luôn được chiếu sáng đầy đủ để có",
+     "xy": [
+      155,
+      621
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thể dễ dàng xác định vị trí và nếu không nằm trên đường thoát nạn hoặc không nằm trong phạm vi khoảng trống thì phải được chiếu sáng tối thiểu 5lux tại mặt sàn",
+     "xy": [
+      212,
+      635
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Chiều cao nhỏ nhất của biển báo an toàn được xác định theo công thức sau: h = l / Z",
+     "xy": [
+      156,
+      677
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "h : chiều cachiều cao nhỏ nhất của biển báo an toàn (m);",
+     "xy": [
+      163,
+      709
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "l : khoảng cách quan sát (m); căn cứ bản vẽ chọn khoảng cách bất lợi nhất là 30m Z : hằng số",
+     "xy": [
+      156,
+      725
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ợc chiếu sáng từ bên ngoài và bằng 200 cho các biển báo an toàn chiếu sáng từ bên",
+     "xy": [
+      392,
+      740
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "200 =0.15 --> Thiết kế chọn đèn có chiều cao > 150mm",
+     "xy": [
+      205,
+      769
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "L= Φ/Steradian Trong đó: L: Φ: quang thông của 1 bộ đèn thoát nạn 10w =10*100=1.000 (lm) Steradian: đèn lắp trên tường có góc steradian là 1/2 hình cầu, vậy Steradian = 2Π",
+     "xy": [
+      191,
+      794
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Căn cứ điều 5.1 TCVN 13456:2022 bảng 1, lắp đặt đèn chiều sáng sự cố ở",
+     "xy": [
+      148,
+      893
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": "điều 5.1"
+      }
+     ]
+    },
+    {
+     "chu": "cao độ 2.5m có độ chói lóa cho phép là 500cd. Vậy phương án thiết kế đèn chiếu",
+     "xy": [
+      191,
+      904
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 13456:2022",
+     "bảng 1"
+    ],
+    [
+     "TCVN 13456:2022",
+     "điều 5.1"
+    ],
+    [
+     "TCVN 3890:2023",
+     "điều 10.1.5"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "EXIT & EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 18,
+   "loai": "bia",
+   "phan": "BÁO CHÁY",
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 19,
+   "ma": null,
+   "ten": "MẶT BẰNG TỔNG THỂ HỆ THỐNG BÁO CHÁY BỔ SUNG",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "TỦ ĐIỀU KHIỂN BÁO CHÁY HIỆN HỮU BLOCK E",
+     "xy": [
+      296,
+      193
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VỊ TRÍ ĐẶT TỦ ĐẤU NỐI TRUNG GIAN",
+     "xy": [
+      433,
+      815
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỔ SUNG HỆ THỐNG BÁO CHÁY",
+     "xy": [
+      156,
+      1090
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ HỆ THỐNG BÁO CHÁY BỔ SUNG",
+     "xy": [
+      468,
+      1121
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [
+     {
+      "nhan": "4",
+      "huong": "ngang",
+      "pos": 326.73,
+      "tu": 338.52,
+      "den": 995.22
+     }
+    ],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 20,
+   "ma": null,
+   "ten": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG BÁO CHÁY HIỆN HỮU XƯỞNG E1 - BLOCK E (ĐÃ THẨM DUYỆT)",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "BỘ BEAM BÁO CHÁY (HIỆN HỮU) LOẠI GƯƠNG CHIẾU 50M",
+     "xy": [
+      1078,
+      546
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỦ ĐIỀU KHIỂN BÁO CHÁY HIỆN HỮU BLOCK E",
+     "xy": [
+      222,
+      728
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU CÔNG NGHIỆP- 32 ZONE ĐẶT TẠI P. KỸ THUẬT BLOCK A",
+     "xy": [
+      249,
+      737
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG BÁO CHÁY HIỆN HỮU XƯỞNG E1 - BLOCK E",
+     "xy": [
+      265,
+      774
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐẦU BÁO KHÓI DƯỚI XÀ GỒ",
+     "xy": [
+      661,
+      915
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT CHUÔNG / NÚT NHẤN HORN/FUNCTION INSTALLATION DETAIL",
+     "xy": [
+      402,
+      1056
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐẦU BÁO KHÓI DƯỚI TRẦN GIẢ",
+     "xy": [
+      926,
+      1077
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẦU BÁO BEAM TREO TƯỜNG",
+     "xy": [
+      656,
+      1083
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 21,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG BÁO CHÁY HIỆN HỮU - XƯỞNG E1",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG BÁO CHÁY HIỆN HỮU - XƯỞNG E1",
+     "xy": [
+      404,
+      762
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ LẮP ĐẶT ĐẦU BÁO KHÓI: - Công trình sử dụng đầu báo khói kiểu điểm & đầu báo khói tia chiếu - Cao độ lắp đặt đầu báo khói từ 6m đến 10m. - Diện tích bảo vệ trung bình của 01 đầu báo khói là 65m2. - Khoảng cách từ đầu báo khói tới tường tối đa là 4m. - Khoảng cách tối đa giữa các đầu báo khói là 8m.",
+     "xy": [
+      1049,
+      999
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Khoảng cách lắp đặt đầu báo tia chiếu tối đa 9m , cách tường tối đa 4.5m . - Khoảng cách từ đầu báo cháy đến mép ngoài miệng thổi của hệ thống ĐHKK không được nhỏ hơn 1m.",
+     "xy": [
+      1049,
+      1083
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 22,
+   "ma": null,
+   "ten": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG BÁO CHÁY CẢI TẠO XƯỞNG E1 - BLOCK E",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "THUYẾT MINH HỆ THỐNG BÁO CHÁY TỰ ĐỘNG:",
+     "xy": [
+      776,
+      205
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "* HỆ THỐNG BÁO CHÁY TỰ ĐỘNG ĐƯỢC THIẾT KẾ THEO CÁC TIÊU CHUẨN SAU:",
+     "xy": [
+      776,
+      218
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TCVN 2622-1995: Phòng chống cháy cho nhà và công trình - yêu cầu thiết kế - TCVN 217-1998: Hệ thống phát hiện cháy và báo động cháy - quy định chung - TCVN 5738-2021: Hệ thống báo cháy tự động - yêu cầu kỹ thuật",
+     "xy": [
+      776,
+      231
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QCVN 06/2022 BXD: Quy chuẩn kỹ thuật Quốc gia về an toàn PCCC Thiết kế hệ thống báo cháy tự động, , nút ân báo cháy đảm bảo các yêu cầu theo TCVN 5738:2021 \"hệ thống báo cháy- yêu cầu kỹ thuật, cụ thể:",
+     "xy": [
+      809,
+      271
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 5738:2021",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "- Trung tâm báo cháy hiện hữu khu công nghiệp có 32 kênh, nhà xưởng E-1 sử dụng zone 1 (zone 1). - Trung tâm báo cháy được kết nối với 2 nguồn điện: Nguồn xoay chiều và nguồn acquy dự phòng (dung",
+     "xy": [
+      776,
+      310
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Trung tâm báo cháy hiện hữu được lắp ở vị trí có người trực 24/24h.",
+     "xy": [
+      809,
+      322
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "lượng acquy phải đảm báo hoạt động liên tục trong 24h cho hệ thống hoat động ở chế độ thường trực và 1h khi có cháy) thiết bị khác truyền về để loại trừ báo cháy giả. Không được dùng các trung tâm không có chức năng báo cháy làm trung tâm báo cháy tự động.",
+     "xy": [
+      776,
+      349
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Trung tâm báo cháy tự động phải có chức năng kiểm tra tín hiệu từ đầu báo cháy, kênh báo cháy và các",
+     "xy": [
+      776,
+      373
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Bố trí cài đặt nút nhấn báo cháy, đảm bảo khoảng cách giữa các nút tối đa là 45m.",
+     "xy": [
+      776,
+      411
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Dây đẫn báo cháy là loại chống cháy có tiết diện 2Cx1.5mm và được luồn trong ống nhựa bảo vệ PVC D20mm. Các mạch tín hiệu của hệ thống báo cháy tự động phải được kiểm tra tự động về tình trạng kỹ thuât theo suốt chiều dài của mạch tín hiệu. Các mạch tín hiệu của hệ thống báo cháy tự động phải sử dụng dây dẫn riêng và cáp có lõi đồng.",
+     "xy": [
+      809,
+      425
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Số lượng đầu nối các hộp đấu dây, số lượng dây dẫn của cáp trục chính phải có dự phòng lớn - Tổng trở mỗi kênh liên lạc báo cháy không được lớn hơn 100Ohm, nhưng không được lớn hơn",
+     "xy": [
+      776,
+      489
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "hơn hoặc bằng 20% giá trị yêu cầu đối với từng loại trung tâm báo cháy.",
+     "xy": [
+      776,
+      502
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Yêu cầu đối với đầu báo, nút nhấn khẩn, chuông báo cháy theo TCVN 5738/2021:",
+     "xy": [
+      776,
+      543
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Các đầu báo cháy đều có đèn chỉ thị khi tác động. Trong khoảng cách giữa đầu phát và đầu thu của đầu báo cháy tia chiếu không có vật chắn che khuất tia chiếu Diện tích bảo vệ của đầu báo tia chiếu là phần giới hạn bởi khoảng cách giữa đầu phát và đầu thu <100m (theo tài liệu kỹ thuật). Khoảng cách lắp đặt đầu báo tia chiếu tối đa 9m , cách tường tối đa 4.5m Khoảng cách từ tia chiếu đền trần phải trong khoảng 0.025m đến 0.6m. Cho phép tia chiếu cách trần lớn hơn 0.6m khi khoảng cách giữa các tia chiếu không lớn hơn 25% chiều cao lắp đặt của đầu báo cháy khói tia chiếu và khoảng cách giữa tia chiếu với tường không lớn hơn 12.5% chiều cao lắp đặt đầu báo cháy khói tia chiều, khi đó khoảng cách của tia chiếu theo phương đứng đến điểm cao nhất của chất cháy không nhỏ hơn 2m. Khoảng cách các đầu báo khói không vượt quá 8 m và giữa đầu báo cháy khói vớ quá 4m. Công tắt khẩn được bố trí ở giữa cửa thoát nạn và lắp đặt ở cao độ 1.4m so với mặt nền hoặc sàn hoàn thiện, khoảng cách giữa các nút nhấn không quá 45m. Chuông báo cháy được bố trí ở của thoát nạn và cách nền ít nhất 2.2m",
+     "xy": [
+      809,
+      556
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỦ ĐIỀU KHIỂN BÁO CHÁY HIỆN HỮU BLOCK E",
+     "xy": [
+      261,
+      744
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU CÔNG NGHIỆP- 32 ZONE ĐẶT TẠI P. KỸ THUẬT BLOCK A",
+     "xy": [
+      287,
+      752
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG BÁO CHÁY CẢI TẠO XƯỞNG E1 - BLOCK E",
+     "xy": [
+      312,
+      788
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐẦU BÁO KHÓI DƯỚI XÀ GỒ",
+     "xy": [
+      480,
+      923
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BỘ BEAM BÁO CHÁY (HIỆN HỮU) LOẠI GƯƠNG CHIẾU 50M BỘ BEAM BÁO CHÁY (MỚI) LOẠI GƯƠNG CHIẾU 50M",
+     "xy": [
+      1034,
+      980
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐẦU BÁO KHÓI DƯỚI TRẦN GIẢ",
+     "xy": [
+      714,
+      983
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "TCVN 5738:2021",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 23,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG BÁO CHÁY CẢI TẠO - XƯỞNG E1",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG HỆ THỐNG BÁO CHÁY CẢI TẠO BỔ SUNG - XƯỞNG E1",
+     "xy": [
+      348,
+      804
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ LẮP ĐẶT ĐẦU BÁO KHÓI: - Công trình sử dụng đầu báo khói kiểu điểm & đầu báo khói tia chiếu - Cao độ lắp đặt đầu báo khói từ 6m đến 10m. - Diện tích bảo vệ trung bình của 01 đầu báo khói là 65m2. - Khoảng cách từ đầu báo khói tới tường tối đa là 4m. - Khoảng cách tối đa giữa các đầu báo khói là 8m.",
+     "xy": [
+      839,
+      945
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BỘ BEAM BÁO CHÁY (HIỆN HỮU) BEAM DETECTOR (EXIST) BỘ BEAM BÁO CHÁY (MỚI) BEAM DETECTOR (NEW)",
+     "xy": [
+      195,
+      976
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Khoảng cách lắp đặt đầu báo tia chiếu tối đa 9m , cách tường tối đa 4.5m . - Khoảng cách từ đầu báo cháy đến mép ngoài miệng thổi của hệ thống ĐHKK không được nhỏ hơn 1m.",
+     "xy": [
+      839,
+      1030
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHUÔNG VÀ NÚT NHẤN KHẨN (HIỆN HỮU) HORN BELL & BREAK GLASS POINT (EXIST)",
+     "xy": [
+      203,
+      1052
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 24,
+   "ma": null,
+   "ten": "MẶT CẮT CHI TIẾT BEAM",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_cat",
+   "ghi_chu": [
+    {
+     "chu": "VỊ TRÍ ỐP VÁCH THẠCH CAO CHỐNG CHÁY",
+     "xy": [
+      504,
+      664
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ghi chú: Khoảng cách từ tia",
+     "xy": [
+      202,
+      745
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BỘ BEAM BÁO CHÁY BEAM DETECTOR BỘ BEAM BÁO CHÁY BEAM DETECTOR",
+     "xy": [
+      591,
+      760
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 25,
+   "loai": "bia",
+   "phan": "HÚT KHÓI",
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 26,
+   "ma": "HK-01",
+   "ten": "MẶT BẰNG LAM GIÓ THOÁT KHÓI",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "THUYẾT MINH HỆ THỐNG THOÁT KHÓI TỰ NHIÊN VÀ CẤP BÙ KHÔNG KHÍ:",
+     "xy": [
+      73,
+      529
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lưu lượng khói cần thoát ra ngoài: G=678,8*Pf*y^1,5*Ks(kg/h)",
+     "xy": [
+      155,
+      556
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "G là lưu lượng khói cần thải ra từ không gian phòng 1.600m², tính bằng kg/h. Pf là chu vi vùng cháy trong giai đoạn đầu, tính bằng m. y là khoảng cách từ mép dưới của vùng khói đến sàn nhà, tính bằng m. Ks là hệ số, lấy bằng 1,2",
+     "xy": [
+      128,
+      606
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "=> G=678,8*12*2,5^1,5*1.2=38.638kg/h Trọng lượng riêng trung bình của khói theo điều 6.10 tcvn 5687-2010 là γ=5N/m³. Diện tích khu sản xuất cần thoát khói: 442m2 => G=38.638/5*9.8*442/1600=20.920m³/h. chọn 21.000m³/h.",
+     "xy": [
+      101,
+      711
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Vận tốc gió trung bình khu vực [TÊN]: v=1,8m/s Diện tích lam gió cần thoát khói: S=G/v=21.000/3600/1,8=3,2m2 Diện tích lam gió thoát khói kích thước 2,0x1,0m số lượng 5 cái: S=2,0*1,0*5= 10m2 >3,2m2",
+     "xy": [
+      155,
+      813
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "=> Đảm bảo diện tích thoát khói tự nhiên.",
+     "xy": [
+      73,
+      892
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Cấp bù không khí theo cơ chế tự nhiên:",
+     "xy": [
+      155,
+      917
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lưu lượng khí bù: 21.000m³/h. Vận tốc tối đa: v=6m/s. Diện tích làm gió tối thiểu cần thiết để cấp khí bù: S=21.000/3600/6=1,0m2. Diện tích lam gió cấp khí bù kích thước 1x0,6m số lượng 3 cái: S=1*0,6*3=1,8m2.",
+     "xy": [
+      128,
+      942
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "=> Đảm bảo diện tích cấp khí bù.",
+     "xy": [
+      73,
+      1048
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "HÚT KHÓI",
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 27,
+   "ma": "HK-02",
+   "ten": "MẶT ĐỨNG BỐ TRÍ LAM GIÓ THOÁT KHÓI",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "MẶT ĐỨNG BỐ TRÍ LAM GIÓ THOÁT KHÓI",
+     "xy": [
+      485,
+      1091
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "HÚT KHÓI",
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 28,
+   "loai": "bia",
+   "phan": "CHỐNG SÉT",
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 29,
+   "ma": "CS-01",
+   "ten": "MẶT BẰNG BỐ TRÍ HỆ THỐNG CHỐNG SÉT - BLOCK E (HIỆN HỮU)",
+   "hang_muc": "CƠ ĐIỆN",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "HỆ THỐNG CHỐNG SÉT HIỆN HỮU ĐƯỢC THIẾT KẾ THEO TIÊU CHUẨN TCXDVN 9385-2012 : CHỐNG SÉT CHO CÔNG TRÌNH XÂY DỰNG. GIẢI PHÁP THIẾT KẾ:",
+     "xy": [
+      1003,
+      67
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÔNG TRÌNH HIỆN HỮU SỬ DỤNG 02 KIM THU SÉT ESE BÁN KÍNH MỖI KIM 120M LẮP TRÊN MÁI. CÔNG TRÌNH GIAI ĐOẠN MỞ RỘNG (LÔ E) SỬ DỤNG 01 KIM THU SÉT BÁN KÍNH 87M ĐỂ BẢO VỆ LÔ E. CÁP THOÁT SÉT SỬ DỤNG CÁO ĐỒNG TRẦN 70MM2. HỆ THỐNG TIẾP ĐẤT THOÁT SÉT SỬ DỤNG CÁC CỌC THÉP MẠ ĐỒNG D16-L2400 CHÔN XUỐNG ĐẤT. ĐIỆN TRỞ TIẾP ĐẤT CỦA HỆ THỐNG PHẢI NHỎ HƠN 10 Ohm.",
+     "xy": [
+      1035,
+      151
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÁN KÍNH BẢO VỆ R=87M, BẢO VỆ CẤP III",
+     "xy": [
+      274,
+      743
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÁN KÍNH BẢO VỆ R=87M, BẢO VỆ CẤP III",
+     "xy": [
+      346,
+      777
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁP THOÁT SÉT HIỆN HỮU (CÁP ĐỒNG TRẦN M70)",
+     "xy": [
+      476,
+      808
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG TIẾP ĐẤT THOÁT SÉT HIỆN HỮU",
+     "xy": [
+      510,
+      856
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ HỆ THỐNG CHỐNG SÉT - BLOCK E (HIỆN HỮU)",
+     "xy": [
+      465,
+      1076
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D16"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "hinh_hoc": {
+    "mm_moi_pt": null,
+    "truc": [
+     {
+      "nhan": "4",
+      "huong": "ngang",
+      "pos": 178.41,
+      "tu": 226.2,
+      "den": 1641.84
+     }
+    ],
+    "cot": [],
+    "so_dam_chinh": 0,
+    "so_khoang_dam": 0,
+    "loi": "Không tìm được tỷ lệ (thiếu trục có nhãn trong vòng tròn hoặc số kích thước giữa trục)"
+   },
+   "phan": "CHỐNG SÉT",
+   "agent": [
+    "m16-chong-set"
+   ],
+   "file": "tep_2.pdf"
+  }
+ ]
+}

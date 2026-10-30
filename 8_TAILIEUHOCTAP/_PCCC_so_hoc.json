@@ -1,0 +1,1016 @@
+{
+ "v": 1,
+ "hang": [
+  {
+   "ten": "2075_C07-P4_531271 (1).doc",
+   "rel": "01_Van ban phap luat/Cong van C07/2075_C07-P4_531271 (1).doc",
+   "sha": "",
+   "size": 2675200,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Văn bản pháp luật",
+   "tinh_nang": "",
+   "ngay": "2025-07-16T06:37:28.542Z",
+   "trang_thai": "khong_ho_tro",
+   "ghi_chu": "Word cũ .doc: lưu thành .docx để học"
+  },
+  {
+   "ten": "105-ndcp.signed.pdf",
+   "rel": "01_Van ban phap luat/Nghi dinh/105-ndcp.signed.pdf",
+   "sha": "",
+   "size": 6565982,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Văn bản pháp luật",
+   "tinh_nang": "",
+   "ngay": "2025-09-06T07:19:43.527Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã nạp trước vào knowledge/nghi-dinh-tham-dinh-dieu-chinh.md",
+   "khai_niem": 12,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "347_2026_nd-cp_08092026_7-signed.signed.pdf",
+   "rel": "01_Van ban phap luat/Nghi dinh/347_2026_nd-cp_08092026_7-signed.signed.pdf",
+   "sha": "",
+   "size": 384446,
+   "so_hieu": "NĐ 347/2026",
+   "tieu_de": "",
+   "loai_tl": "Văn bản pháp luật",
+   "tinh_nang": "",
+   "ngay": "2026-10-16T03:39:17.609Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã nạp trước vào knowledge/nghi-dinh-tham-dinh-dieu-chinh.md",
+   "khai_niem": 10,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "qc02 bca.pdf",
+   "rel": "02_Quy chuan QCVN/QCVN 02-2020-BCA tram bom/qc02 bca.pdf",
+   "sha": "",
+   "size": 962789,
+   "so_hieu": "QCVN 2:2020",
+   "tieu_de": "QCVN 02:2020/BCA – Quy chuẩn kỹ thuật quốc gia về trạm bơm nước chữa cháy (Thông tư 52/2020/TT-BCA, 26/5/2020)",
+   "loai_tl": "Quy chuẩn QCVN",
+   "tinh_nang": "M12, M13, M09, M14, M06, M05, ra-soat",
+   "ngay": "2026-10-20T08:01:39.310Z",
+   "trang_thai": "da_hoc",
+   "id": "08bf60f5653f",
+   "ghi_chu": "",
+   "khai_niem": 13,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "QCVN 06 SỬA ĐỔI BỔ SUNG 10.2023.docx",
+   "rel": "02_Quy chuan QCVN/QCVN 06-2022 an toan chay (va SD1-2023)/QCVN 06 SỬA ĐỔI BỔ SUNG 10.2023.docx",
+   "sha": "",
+   "size": 864528,
+   "so_hieu": "QCVN 6",
+   "tieu_de": "",
+   "loai_tl": "Quy chuẩn QCVN",
+   "tinh_nang": "",
+   "ngay": "2023-12-02T03:31:00.856Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã nạp trước vào knowledge/qcvn06-*",
+   "khai_niem": 55,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "QCVN 06 SỬA ĐỔI BỔ SUNG 10.2023.pdf",
+   "rel": "02_Quy chuan QCVN/QCVN 06-2022 an toan chay (va SD1-2023)/QCVN 06 SỬA ĐỔI BỔ SUNG 10.2023.pdf",
+   "sha": "",
+   "size": 1859964,
+   "so_hieu": "QCVN 6",
+   "tieu_de": "",
+   "loai_tl": "Quy chuẩn QCVN",
+   "tinh_nang": "",
+   "ngay": "2025-05-12T08:56:09.084Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã nạp trước vào knowledge/qcvn06-*",
+   "khai_niem": 47,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "TT 103 NGÀY 04.11.2025 BANH HÀNH QCVN 10.pdf",
+   "rel": "02_Quy chuan QCVN/QCVN 10-2025-BCA trang bi phuong tien PCCC/TT 103 NGÀY 04.11.2025 BANH HÀNH QCVN 10.pdf",
+   "sha": "",
+   "size": 27307366,
+   "so_hieu": "QCVN 10",
+   "tieu_de": "",
+   "loai_tl": "Quy chuẩn QCVN",
+   "tinh_nang": "",
+   "ngay": "2025-11-08T07:12:13.384Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã nạp trước vào knowledge/qcvn10-2025-*",
+   "khai_niem": 62,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "qc13.pdf",
+   "rel": "02_Quy chuan QCVN/QCVN 13-2018-BXD gara/qc13.pdf",
+   "sha": "",
+   "size": 638671,
+   "so_hieu": "QCVN 13:2018",
+   "tieu_de": "QCVN 13:2018/BXD — gara ô-tô: bố trí, khoang cháy, thoát nạn, chữa cháy, chống khói",
+   "loai_tl": "Quy chuẩn QCVN",
+   "tinh_nang": "M05, M06, M07, M09, M10, M12",
+   "ngay": "2026-10-20T06:13:36.414339Z",
+   "trang_thai": "da_hoc",
+   "id": "fbe776d86927",
+   "ghi_chu": "",
+   "khai_niem": 15,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "qcvn-13-2018-bxd753.pdf",
+   "rel": "02_Quy chuan QCVN/QCVN 13-2018-BXD gara/qcvn-13-2018-bxd753.pdf",
+   "sha": "",
+   "size": 371061,
+   "so_hieu": "QCVN 13:2018",
+   "tieu_de": "QCVN 13:2018/BXD — gara ô-tô: bố trí, khoang cháy, thoát nạn, chữa cháy, chống khói",
+   "loai_tl": "Quy chuẩn QCVN",
+   "tinh_nang": "M05, M06, M07, M09, M10, M12",
+   "ngay": "2026-10-20T06:13:36.414339Z",
+   "trang_thai": "da_hoc",
+   "id": "fbe776d86927",
+   "ghi_chu": "",
+   "khai_niem": 16,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "TCVN 7568-14_2025 bản riu ko chỉnh dc .pdf",
+   "rel": "03_Tieu chuan TCVN/Bao chay/TCVN 7568-14_2025 bản riu ko chỉnh dc .pdf",
+   "sha": "",
+   "size": 1540580,
+   "so_hieu": "TCVN 7568-14:2025",
+   "tieu_de": "",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "",
+   "ngay": "2026-01-12T06:49:52.081Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã nạp trước vào knowledge/tcvn7568-14-2025.md",
+   "khai_niem": 16,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "TCVN 7435-1-2004 BỐ TRÍ BÌNH CHỮA CHÁY P1.pdf",
+   "rel": "03_Tieu chuan TCVN/Binh chua chay/TCVN 7435-1-2004 BỐ TRÍ BÌNH CHỮA CHÁY P1.pdf",
+   "sha": "",
+   "size": 216943,
+   "so_hieu": "TCVN 7435-1:2004",
+   "tieu_de": "TCVN 7435-1/-2:2004 — chọn, bố trí, số bình chữa cháy (Bảng 1, 2, D.1)",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "M10",
+   "ngay": "2026-10-20T06:14:16.695666Z",
+   "trang_thai": "da_hoc",
+   "id": "b06d3aaa1623",
+   "ghi_chu": "",
+   "khai_niem": 15,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "TCVN 7435-2-2004 BỐ TRÍ BÌNH CHỮA CHÁY P2.pdf",
+   "rel": "03_Tieu chuan TCVN/Binh chua chay/TCVN 7435-2-2004 BỐ TRÍ BÌNH CHỮA CHÁY P2.pdf",
+   "sha": "",
+   "size": 395228,
+   "so_hieu": "TCVN 7435-2:2004",
+   "tieu_de": "TCVN 7435-1/-2:2004 — chọn, bố trí, số bình chữa cháy (Bảng 1, 2, D.1)",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "M10",
+   "ngay": "2026-10-20T06:14:16.695666Z",
+   "trang_thai": "da_hoc",
+   "id": "b06d3aaa1623",
+   "ghi_chu": "",
+   "khai_niem": 9,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "TCVN 14496_2025 .pdf",
+   "rel": "03_Tieu chuan TCVN/Chua chay bang nuoc - sprinkler - hong nuoc/TCVN 14496_2025 .pdf",
+   "sha": "",
+   "size": 12388392,
+   "so_hieu": "TCVN 14496:2025",
+   "tieu_de": "TCVN 14496:2025 — chữa cháy tự động bằng nước cho kho giá đỡ cao 5,5–25 m",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:18:31.396617Z",
+   "trang_thai": "da_hoc",
+   "id": "fbddfa71a9e7",
+   "ghi_chu": "",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "TCVN 7336_2021.pdf",
+   "rel": "03_Tieu chuan TCVN/Chua chay bang nuoc - sprinkler - hong nuoc/TCVN 7336_2021.pdf",
+   "sha": "",
+   "size": 926066,
+   "so_hieu": "TCVN 7336:2021",
+   "tieu_de": "TCVN 7336:2021 — Bảng 1–3, Phụ lục A (nhóm nguy cơ; karaoke nhóm 2), trạm bơm, bọt nở cao",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:15:41.012360Z",
+   "trang_thai": "da_hoc",
+   "id": "a478d8c7c431",
+   "ghi_chu": "",
+   "khai_niem": 15,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "tcvn-4513-1988 thiết kế tủ vách tường P1.pdf",
+   "rel": "03_Tieu chuan TCVN/Chua chay bang nuoc - sprinkler - hong nuoc/tcvn-4513-1988 thiết kế tủ vách tường P1.pdf",
+   "sha": "",
+   "size": 228555,
+   "so_hieu": "TCVN 4513:1988",
+   "tieu_de": "TCVN 4513:1988 — trạm bơm (7.13–7.22) và báo mực nước (8.9): cơ quan PCCC 2026 vẫn viện dẫn",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:25:10.025518Z",
+   "trang_thai": "da_hoc",
+   "id": "c5c141d55d39",
+   "ghi_chu": "",
+   "khai_niem": 10,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "11. TCVN 13456 2022 Phương tiện chiếu sáng sự cố.pdf",
+   "rel": "03_Tieu chuan TCVN/Den su co - chi dan thoat nan/11. TCVN 13456 2022 Phương tiện chiếu sáng sự cố.pdf",
+   "sha": "",
+   "size": 1125901,
+   "so_hieu": "TCVN 13456:2022",
+   "tieu_de": "TCVN 13456:2022 — chiếu sáng sự cố & chỉ dẫn thoát nạn (đèn, biển, sơ đồ)",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "M14",
+   "ngay": "2026-10-20T06:14:40.278759Z",
+   "trang_thai": "da_hoc",
+   "id": "f0d3f93819cb",
+   "ghi_chu": "",
+   "khai_niem": 14,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "13581-2023 Final.pdf",
+   "rel": "03_Tieu chuan TCVN/Hut khoi - thong gio/13581-2023 Final.pdf",
+   "sha": "",
+   "size": 13495084,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "",
+   "ngay": "2024-10-14T02:40:00.711Z",
+   "trang_thai": "scan",
+   "ghi_chu": "TCVN 13581:2023: lắp đặt đường ống gió và nghiệm thu hệ thống thông gió/điều hòa (scan); không dùng khi thẩm định PCCC, chỉ ghi nhận"
+  },
+  {
+   "ten": "TCVN 5687_2024- xuat ban lan 3 - hut khoi.pdf",
+   "rel": "03_Tieu chuan TCVN/Hut khoi - thong gio/TCVN 5687_2024- xuat ban lan 3 - hut khoi.pdf",
+   "sha": "",
+   "size": 6102252,
+   "so_hieu": "TCVN 5687:2024",
+   "tieu_de": "TCVN 5687:2024 — mục 7 bảo vệ chống khói (áp dư 20–50 Pa, 150 Pa cửa, vùng khói 3000 m2)",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "M09, M13, M11",
+   "ngay": "2026-10-20T06:19:17.695669Z",
+   "trang_thai": "da_hoc",
+   "id": "a2cc3b6d98d1",
+   "ghi_chu": "",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "TCVN 13967_2024-Ban Final - TC NHÀ Ở RIÊNG LẺ.pdf",
+   "rel": "03_Tieu chuan TCVN/Nha o rieng le/TCVN 13967_2024-Ban Final - TC NHÀ Ở RIÊNG LẺ.pdf",
+   "sha": "",
+   "size": 5111692,
+   "so_hieu": "TCVN 13967:2024",
+   "tieu_de": "TCVN 13967:2024 — Điều 9 an toàn cháy nhà ở riêng lẻ kết hợp kinh doanh (có điều karaoke F2.1)",
+   "loai_tl": "Tiêu chuẩn TCVN",
+   "tinh_nang": "M01, M05, M07, M11, M12, M14",
+   "ngay": "2026-10-20T06:17:03.508004Z",
+   "trang_thai": "da_hoc",
+   "id": "6ae0fc981256",
+   "ghi_chu": "",
+   "khai_niem": 12,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "SP241 KỆ HÀNG CAO TẦNG TC NGA- BẢN DỊCH.pdf",
+   "rel": "04_Tieu chuan nuoc ngoai/SP241 KỆ HÀNG CAO TẦNG TC NGA- BẢN DỊCH.pdf",
+   "sha": "",
+   "size": 3959887,
+   "so_hieu": "TCVN 14496:2025",
+   "tieu_de": "TCVN 14496:2025 — chữa cháy tự động bằng nước cho kho giá đỡ cao 5,5–25 m",
+   "loai_tl": "Tiêu chuẩn nước ngoài",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:18:31.396617Z",
+   "trang_thai": "da_hoc",
+   "id": "fbddfa71a9e7",
+   "ghi_chu": "",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "1. Sửa đổi 1 2023 QCVN 06 2022.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/1. Sửa đổi 1 2023 QCVN 06 2022.pdf",
+   "sha": "",
+   "size": 18227206,
+   "so_hieu": "QCVN 6:2022",
+   "tieu_de": "C07 tập huấn: lưu ý QCVN 06:2022/BXD và Sửa đổi 1:2023 khi thẩm duyệt (114 trang)",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M01, M02, M03, M04, M05, M06, M07, M08, M09, M12",
+   "ngay": "2026-10-20T06:05:52.314206Z",
+   "trang_thai": "da_hoc",
+   "id": "ee1434b8c963",
+   "ghi_chu": "",
+   "khai_niem": 15,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "cấp nước trong Sửa đổi 1.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/cấp nước trong Sửa đổi 1.pdf",
+   "sha": "",
+   "size": 1644641,
+   "so_hieu": "QCVN 6",
+   "tieu_de": "QCVN 06 SĐ1:2023 — cấp nước chữa cháy ngoài nhà và họng trong nhà (nội dung mới)",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:10:06.659552Z",
+   "trang_thai": "da_hoc",
+   "id": "37d9e08d484e",
+   "ghi_chu": "",
+   "khai_niem": 10,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Hệ thống chữa cháy bằng khí.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/Hệ thống chữa cháy bằng khí.pdf",
+   "sha": "",
+   "size": 1111599,
+   "so_hieu": "TCVN 7161",
+   "tieu_de": "Tập huấn chữa cháy bằng khí (TCVN 7161/ISO 14520): hồ sơ, bình, khu vực có người, công thức",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:10:06.643666Z",
+   "trang_thai": "da_hoc",
+   "id": "2db33f33c221",
+   "ghi_chu": "",
+   "khai_niem": 14,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Hệ thống chữa cháy bằng Sol-khí.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/Hệ thống chữa cháy bằng Sol-khí.pdf",
+   "sha": "",
+   "size": 508126,
+   "so_hieu": "",
+   "tieu_de": "Tập huấn chữa cháy sol-khí: UL 2775, nồng độ x1,3, hồ sơ, kích hoạt",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:10:06.647173Z",
+   "trang_thai": "da_hoc",
+   "id": "b8b0eb40c111",
+   "ghi_chu": "",
+   "khai_niem": 6,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Hệ thống cấp nước chữa cháy ngoài nhà, bên trong.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/Hệ thống cấp nước chữa cháy ngoài nhà, bên trong.pdf",
+   "sha": "",
+   "size": 2242458,
+   "so_hieu": "QCVN 6:2022",
+   "tieu_de": "Tập huấn cấp nước chữa cháy ngoài nhà và họng trong nhà (QCVN 06:2022 + SĐ1)",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:10:06.667060Z",
+   "trang_thai": "da_hoc",
+   "id": "d1cdbad641a2",
+   "ghi_chu": "",
+   "khai_niem": 12,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Tài liệu QCVN 02.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/Tài liệu QCVN 02.pdf",
+   "sha": "",
+   "size": 5606019,
+   "so_hieu": "QCVN 2",
+   "tieu_de": "QCVN 02:2020/BCA — trạm bơm nước chữa cháy (slide tập huấn)",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:11:47.945273Z",
+   "trang_thai": "da_hoc",
+   "id": "b6694167594c",
+   "ghi_chu": "",
+   "khai_niem": 13,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Tài liệu tập huấn  he thong BCTD.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/Tài liệu tập huấn  he thong BCTD.pdf",
+   "sha": "",
+   "size": 4439302,
+   "so_hieu": "TCVN 5738:2021",
+   "tieu_de": "Tập huấn BCTD: chọn đầu báo, kênh, module, nhiệt dây, khói hút (TCVN 5738:2021)",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M11",
+   "ngay": "2026-10-20T06:08:44.674890Z",
+   "trang_thai": "da_hoc",
+   "id": "eae8f75f34ad",
+   "ghi_chu": "",
+   "khai_niem": 10,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Tài liệu tập huấn hệ thống sprinkler.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/Tài liệu tập huấn hệ thống sprinkler.pdf",
+   "sha": "",
+   "size": 6443489,
+   "so_hieu": "TCVN 7336:2021",
+   "tieu_de": "Tập huấn Sprinkler TCVN 7336:2021: đầu phun, khoảng cách, thủy lực, kho giá kệ > 5,5 m",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M12",
+   "ngay": "2026-10-20T06:08:44.674890Z",
+   "trang_thai": "da_hoc",
+   "id": "0295bcc50340",
+   "ghi_chu": "",
+   "khai_niem": 13,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "tài liệu tập huấn Nhà công nghiệp - 9.5.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/tài liệu tập huấn Nhà công nghiệp - 9.5.pdf",
+   "sha": "",
+   "size": 19167101,
+   "so_hieu": "QCVN 6",
+   "tieu_de": "Tập huấn nhà công nghiệp (QCVN 06): bậc chịu lửa, khoảng cách, khoang cháy, thoát nạn, hút khói",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M02, M03, M04, M05, M06, M07, M09",
+   "ngay": "2026-10-20T06:11:04.747555Z",
+   "trang_thai": "da_hoc",
+   "id": "9c1acce62841",
+   "ghi_chu": "",
+   "khai_niem": 15,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "tài liệu tập huấn Nhà công nghiệp - f.pdf",
+   "rel": "05_Tai lieu tap huan - chuyen de C07/tài liệu tập huấn Nhà công nghiệp - f.pdf",
+   "sha": "",
+   "size": 16641632,
+   "so_hieu": "QCVN 6",
+   "tieu_de": "Tập huấn nhà công nghiệp (QCVN 06): bậc chịu lửa, khoảng cách, khoang cháy, thoát nạn, hút khói",
+   "loai_tl": "Tài liệu tập huấn",
+   "tinh_nang": "M02, M03, M04, M05, M06, M07, M09",
+   "ngay": "2026-10-20T06:11:04.747555Z",
+   "trang_thai": "da_hoc",
+   "id": "9c1acce62841",
+   "ghi_chu": "",
+   "khai_niem": 15,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "6TH BC 7568-142025.pdf",
+   "rel": "06_So do - bang tra nhanh/6TH BC 7568-142025.pdf",
+   "sha": "",
+   "size": 254122,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Sơ đồ – tra nhanh",
+   "tinh_nang": "",
+   "ngay": "2025-11-07T04:47:16.509Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã nạp trước vào knowledge/tcvn7568-14-2025.md",
+   "khai_niem": 17,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Smoke D..pdf",
+   "rel": "06_So do - bang tra nhanh/Smoke D..pdf",
+   "sha": "",
+   "size": 214733,
+   "so_hieu": "",
+   "tieu_de": "Bảng tra nhanh đầu báo khói điểm theo độ cao và kết cấu nhô ra (Smoke D.)",
+   "loai_tl": "Sơ đồ – tra nhanh",
+   "tinh_nang": "M11",
+   "ngay": "2026-10-20T06:15:41.012360Z",
+   "trang_thai": "da_hoc",
+   "id": "0b87589569c1",
+   "ghi_chu": "",
+   "khai_niem": 2,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "tra bảng 7435-2004 bao nhiêu bình chữa cháy.pdf",
+   "rel": "06_So do - bang tra nhanh/tra bảng 7435-2004 bao nhiêu bình chữa cháy.pdf",
+   "sha": "",
+   "size": 227535,
+   "so_hieu": "TCVN 7435-1",
+   "tieu_de": "TCVN 7435-1/-2:2004 — chọn, bố trí, số bình chữa cháy (Bảng 1, 2, D.1)",
+   "loai_tl": "Sơ đồ – tra nhanh",
+   "tinh_nang": "M10",
+   "ngay": "2026-10-20T06:14:16.695666Z",
+   "trang_thai": "da_hoc",
+   "id": "b06d3aaa1623",
+   "ghi_chu": "",
+   "khai_niem": 7,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "bang chon day va mcb.xls",
+   "rel": "07_Bang tinh Excel/bang chon day va mcb.xls",
+   "sha": "",
+   "size": 23040,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-10-10T08:25:29.625Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "BANG_TINH_PCCC_TONG_HOP.xlsx",
+   "rel": "07_Bang tinh Excel/BANG_TINH_PCCC_TONG_HOP.xlsx",
+   "sha": "",
+   "size": 52189,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2026-10-20T04:58:31.735Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Công Suất Quạt Hút Khói TCVN 5687.xlsx",
+   "rel": "07_Bang tinh Excel/Bảng Tính Công Suất Quạt Hút Khói TCVN 5687.xlsx",
+   "sha": "",
+   "size": 13940,
+   "so_hieu": "TCVN 5687",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:17.551Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Cột Áp Quạt Hút Khói Ashrae.xlsm",
+   "rel": "07_Bang tinh Excel/Bảng Tính Cột Áp Quạt Hút Khói Ashrae.xlsm",
+   "sha": "",
+   "size": 919255,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:21.148Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Cột Áp Quạt Hút Khói.xlsx",
+   "rel": "07_Bang tinh Excel/Bảng Tính Cột Áp Quạt Hút Khói.xlsx",
+   "sha": "",
+   "size": 73897,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:21.843Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Foam Bội Số Nở Cao.xlsx",
+   "rel": "07_Bang tinh Excel/Bảng Tính Foam Bội Số Nở Cao.xlsx",
+   "sha": "",
+   "size": 57630,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:23.711Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Kết Cấu R15.xlsx",
+   "rel": "07_Bang tinh Excel/Bảng Tính Kết Cấu R15.xlsx",
+   "sha": "",
+   "size": 457339,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:25.458Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Thoát Khói Tự Nhiên NFPA 204 (1).xlsx",
+   "rel": "07_Bang tinh Excel/Bảng Tính Thoát Khói Tự Nhiên NFPA 204 (1).xlsx",
+   "sha": "",
+   "size": 92739,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:27.334Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Thoát Khói Tự Nhiên Tính Toán Cơ Sở .xlsx",
+   "rel": "07_Bang tinh Excel/Bảng Tính Thoát Khói Tự Nhiên Tính Toán Cơ Sở .xlsx",
+   "sha": "",
+   "size": 298324,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:30.297Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "BẢNG TÍNH THUỶ LỰC PHỤ LỤC B 7336.xlsx",
+   "rel": "07_Bang tinh Excel/BẢNG TÍNH THUỶ LỰC PHỤ LỤC B 7336.xlsx",
+   "sha": "",
+   "size": 138323,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2026-09-28T03:14:19.745Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Thủy Lực Sprinkler, Tủ Vách Tường.xls",
+   "rel": "07_Bang tinh Excel/Bảng Tính Thủy Lực Sprinkler, Tủ Vách Tường.xls",
+   "sha": "",
+   "size": 97792,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:30.837Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Toán Bơm SP241 7336 (Giá Kệ Cao Tầng).xlsx",
+   "rel": "07_Bang tinh Excel/Bảng Tính Toán Bơm SP241 7336 (Giá Kệ Cao Tầng).xlsx",
+   "sha": "",
+   "size": 2094409,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-10-25T08:15:37.503Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Toán Máy Phát Điện TCVN 9206.xlsx",
+   "rel": "07_Bang tinh Excel/Bảng Tính Toán Máy Phát Điện TCVN 9206.xlsx",
+   "sha": "",
+   "size": 15569,
+   "so_hieu": "TCVN 9206",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:34.356Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Bảng Tính Áp Suất Nổ Dư SP 12.13130.2009 (1).xlsx",
+   "rel": "07_Bang tinh Excel/Bảng Tính Áp Suất Nổ Dư SP 12.13130.2009 (1).xlsx",
+   "sha": "",
+   "size": 424525,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:53:14.857Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "Công Thức Tính Ống.xls",
+   "rel": "07_Bang tinh Excel/Công Thức Tính Ống.xls",
+   "sha": "",
+   "size": 1337856,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-09-16T07:54:27.522Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "hút khói tự nhiên 2025 vip pro.xlsx",
+   "rel": "07_Bang tinh Excel/hút khói tự nhiên 2025 vip pro.xlsx",
+   "sha": "",
+   "size": 298195,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Bảng tính",
+   "tinh_nang": "",
+   "ngay": "2025-04-14T09:51:25.664Z",
+   "trang_thai": "da_hoc",
+   "ghi_chu": "đã học và tổng hợp vào bang_tinh/BANG_TINH_PCCC.xlsx (phiên trước)",
+   "khai_niem": 0,
+   "kn_tu": "file"
+  },
+  {
+   "ten": "NEW FIRE FIGHTING WITH WATER PROTECTION FOAM PETERBO part HAI.mp4",
+   "rel": "08_Video/NEW FIRE FIGHTING WITH WATER PROTECTION FOAM PETERBO part HAI.mp4",
+   "sha": "",
+   "size": 717936985,
+   "so_hieu": "",
+   "tieu_de": "",
+   "loai_tl": "Video",
+   "tinh_nang": "",
+   "ngay": "2023-06-08T04:09:03.290Z",
+   "trang_thai": "khong_ho_tro",
+   "ghi_chu": "Định dạng này agent chưa đọc"
+  }
+ ],
+ "loai": [],
+ "da_doc": {
+  "01_Van ban phap luat/Nghi dinh/105-ndcp.signed.pdf": {
+   "sha": "",
+   "size": 6565982,
+   "mtime": 1757143183527.2495
+  },
+  "01_Van ban phap luat/Nghi dinh/347_2026_nd-cp_08092026_7-signed.signed.pdf": {
+   "sha": "",
+   "size": 384446,
+   "mtime": 1792121957609.879
+  },
+  "02_Quy chuan QCVN/QCVN 02-2020-BCA tram bom/qc02 bca.pdf": {
+   "sha": "",
+   "size": 962789,
+   "mtime": 1757492288324.5432
+  },
+  "02_Quy chuan QCVN/QCVN 06-2022 an toan chay (va SD1-2023)/QCVN 06 SỬA ĐỔI BỔ SUNG 10.2023.docx": {
+   "sha": "",
+   "size": 864528,
+   "mtime": 1701487860856.1267
+  },
+  "02_Quy chuan QCVN/QCVN 06-2022 an toan chay (va SD1-2023)/QCVN 06 SỬA ĐỔI BỔ SUNG 10.2023.pdf": {
+   "sha": "",
+   "size": 1859964,
+   "mtime": 1747040169084.672
+  },
+  "02_Quy chuan QCVN/QCVN 10-2025-BCA trang bi phuong tien PCCC/TT 103 NGÀY 04.11.2025 BANH HÀNH QCVN 10.pdf": {
+   "sha": "",
+   "size": 27307366,
+   "mtime": 1762585933384.0532
+  },
+  "02_Quy chuan QCVN/QCVN 13-2018-BXD gara/qc13.pdf": {
+   "sha": "",
+   "size": 638671,
+   "mtime": 1761365764696.2793
+  },
+  "02_Quy chuan QCVN/QCVN 13-2018-BXD gara/qcvn-13-2018-bxd753.pdf": {
+   "sha": "",
+   "size": 371061,
+   "mtime": 1751857432988.8704
+  },
+  "03_Tieu chuan TCVN/Bao chay/TCVN 7568-14_2025 bản riu ko chỉnh dc .pdf": {
+   "sha": "",
+   "size": 1540580,
+   "mtime": 1768200592081.845
+  },
+  "03_Tieu chuan TCVN/Binh chua chay/TCVN 7435-1-2004 BỐ TRÍ BÌNH CHỮA CHÁY P1.pdf": {
+   "sha": "",
+   "size": 216943,
+   "mtime": 1683535086318.5376
+  },
+  "03_Tieu chuan TCVN/Binh chua chay/TCVN 7435-2-2004 BỐ TRÍ BÌNH CHỮA CHÁY P2.pdf": {
+   "sha": "",
+   "size": 395228,
+   "mtime": 1683535077076.4023
+  },
+  "03_Tieu chuan TCVN/Chua chay bang nuoc - sprinkler - hong nuoc/TCVN 14496_2025 .pdf": {
+   "sha": "",
+   "size": 12388392,
+   "mtime": 1762500648031.4338
+  },
+  "03_Tieu chuan TCVN/Chua chay bang nuoc - sprinkler - hong nuoc/TCVN 7336_2021.pdf": {
+   "sha": "",
+   "size": 926066,
+   "mtime": 1746500285533.2585
+  },
+  "03_Tieu chuan TCVN/Chua chay bang nuoc - sprinkler - hong nuoc/tcvn-4513-1988 thiết kế tủ vách tường P1.pdf": {
+   "sha": "",
+   "size": 228555,
+   "mtime": 1754902799474.2112
+  },
+  "03_Tieu chuan TCVN/Den su co - chi dan thoat nan/11. TCVN 13456 2022 Phương tiện chiếu sáng sự cố.pdf": {
+   "sha": "",
+   "size": 1125901,
+   "mtime": 1732757093614.985
+  },
+  "03_Tieu chuan TCVN/Hut khoi - thong gio/13581-2023 Final.pdf": {
+   "sha": "",
+   "size": 13495084,
+   "mtime": 1728873600711.8503
+  },
+  "03_Tieu chuan TCVN/Hut khoi - thong gio/TCVN 5687_2024- xuat ban lan 3 - hut khoi.pdf": {
+   "sha": "",
+   "size": 6102252,
+   "mtime": 1728640788086.2556
+  },
+  "03_Tieu chuan TCVN/Nha o rieng le/TCVN 13967_2024-Ban Final - TC NHÀ Ở RIÊNG LẺ.pdf": {
+   "sha": "",
+   "size": 5111692,
+   "mtime": 1728358925306.672
+  },
+  "04_Tieu chuan nuoc ngoai/SP241 KỆ HÀNG CAO TẦNG TC NGA- BẢN DỊCH.pdf": {
+   "sha": "",
+   "size": 3959887,
+   "mtime": 1750907753374.6367
+  },
+  "05_Tai lieu tap huan - chuyen de C07/1. Sửa đổi 1 2023 QCVN 06 2022.pdf": {
+   "sha": "",
+   "size": 18227206,
+   "mtime": 1716186388119.9077
+  },
+  "05_Tai lieu tap huan - chuyen de C07/cấp nước trong Sửa đổi 1.pdf": {
+   "sha": "",
+   "size": 1644641,
+   "mtime": 1716186388279.481
+  },
+  "05_Tai lieu tap huan - chuyen de C07/Hệ thống chữa cháy bằng khí.pdf": {
+   "sha": "",
+   "size": 1111599,
+   "mtime": 1716186388303.4175
+  },
+  "05_Tai lieu tap huan - chuyen de C07/Hệ thống chữa cháy bằng Sol-khí.pdf": {
+   "sha": "",
+   "size": 508126,
+   "mtime": 1716186388305.0867
+  },
+  "05_Tai lieu tap huan - chuyen de C07/Hệ thống cấp nước chữa cháy ngoài nhà, bên trong.pdf": {
+   "sha": "",
+   "size": 2242458,
+   "mtime": 1716186388310.0754
+  },
+  "05_Tai lieu tap huan - chuyen de C07/Tài liệu QCVN 02.pdf": {
+   "sha": "",
+   "size": 5606019,
+   "mtime": 1716186388515.526
+  },
+  "05_Tai lieu tap huan - chuyen de C07/Tài liệu tập huấn  he thong BCTD.pdf": {
+   "sha": "",
+   "size": 4439302,
+   "mtime": 1716186388526.3652
+  },
+  "05_Tai lieu tap huan - chuyen de C07/Tài liệu tập huấn hệ thống sprinkler.pdf": {
+   "sha": "",
+   "size": 6443489,
+   "mtime": 1716186388542.3215
+  },
+  "05_Tai lieu tap huan - chuyen de C07/tài liệu tập huấn Nhà công nghiệp - 9.5.pdf": {
+   "sha": "",
+   "size": 19167101,
+   "mtime": 1716186388589.1963
+  },
+  "05_Tai lieu tap huan - chuyen de C07/tài liệu tập huấn Nhà công nghiệp - f.pdf": {
+   "sha": "",
+   "size": 16641632,
+   "mtime": 1716186388629.0913
+  },
+  "06_So do - bang tra nhanh/6TH BC 7568-142025.pdf": {
+   "sha": "",
+   "size": 254122,
+   "mtime": 1762490836509.8955
+  },
+  "06_So do - bang tra nhanh/Smoke D..pdf": {
+   "sha": "",
+   "size": 214733,
+   "mtime": 1732585175129.296
+  },
+  "06_So do - bang tra nhanh/tra bảng 7435-2004 bao nhiêu bình chữa cháy.pdf": {
+   "sha": "",
+   "size": 227535,
+   "mtime": 1695701904384.4065
+  },
+  "07_Bang tinh Excel/bang chon day va mcb.xls": {
+   "sha": "",
+   "size": 23040,
+   "mtime": 1760084729625.1858
+  },
+  "07_Bang tinh Excel/BANG_TINH_PCCC_TONG_HOP.xlsx": {
+   "sha": "",
+   "size": 52189,
+   "mtime": 1792472311735.1028
+  },
+  "07_Bang tinh Excel/Bảng Tính Công Suất Quạt Hút Khói TCVN 5687.xlsx": {
+   "sha": "",
+   "size": 13940,
+   "mtime": 1758009197551.4639
+  },
+  "07_Bang tinh Excel/Bảng Tính Cột Áp Quạt Hút Khói Ashrae.xlsm": {
+   "sha": "",
+   "size": 919255,
+   "mtime": 1758009201148.8916
+  },
+  "07_Bang tinh Excel/Bảng Tính Cột Áp Quạt Hút Khói.xlsx": {
+   "sha": "",
+   "size": 73897,
+   "mtime": 1758009201843.6833
+  },
+  "07_Bang tinh Excel/Bảng Tính Foam Bội Số Nở Cao.xlsx": {
+   "sha": "",
+   "size": 57630,
+   "mtime": 1758009203711.1018
+  },
+  "07_Bang tinh Excel/Bảng Tính Kết Cấu R15.xlsx": {
+   "sha": "",
+   "size": 457339,
+   "mtime": 1758009205458.7559
+  },
+  "07_Bang tinh Excel/Bảng Tính Thoát Khói Tự Nhiên NFPA 204 (1).xlsx": {
+   "sha": "",
+   "size": 92739,
+   "mtime": 1758009207334.3264
+  },
+  "07_Bang tinh Excel/Bảng Tính Thoát Khói Tự Nhiên Tính Toán Cơ Sở .xlsx": {
+   "sha": "",
+   "size": 298324,
+   "mtime": 1758009210297.0696
+  },
+  "07_Bang tinh Excel/BẢNG TÍNH THUỶ LỰC PHỤ LỤC B 7336.xlsx": {
+   "sha": "",
+   "size": 138323,
+   "mtime": 1790565259745
+  },
+  "07_Bang tinh Excel/Bảng Tính Thủy Lực Sprinkler, Tủ Vách Tường.xls": {
+   "sha": "",
+   "size": 97792,
+   "mtime": 1758009210837.8657
+  },
+  "07_Bang tinh Excel/Bảng Tính Toán Bơm SP241 7336 (Giá Kệ Cao Tầng).xlsx": {
+   "sha": "",
+   "size": 2094409,
+   "mtime": 1761380137503.8835
+  },
+  "07_Bang tinh Excel/Bảng Tính Toán Máy Phát Điện TCVN 9206.xlsx": {
+   "sha": "",
+   "size": 15569,
+   "mtime": 1758009214356.5017
+  },
+  "07_Bang tinh Excel/Bảng Tính Áp Suất Nổ Dư SP 12.13130.2009 (1).xlsx": {
+   "sha": "",
+   "size": 424525,
+   "mtime": 1758009194857.1477
+  },
+  "07_Bang tinh Excel/Công Thức Tính Ống.xls": {
+   "sha": "",
+   "size": 1337856,
+   "mtime": 1758009267522.619
+  },
+  "07_Bang tinh Excel/hút khói tự nhiên 2025 vip pro.xlsx": {
+   "sha": "",
+   "size": 298195,
+   "mtime": 1744624285664
+  }
+ }
+}

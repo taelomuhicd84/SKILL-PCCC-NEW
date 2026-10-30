@@ -1,0 +1,4524 @@
+{
+ "id": "khach_san_01",
+ "cong_nang": "khach_san",
+ "so_trang": 48,
+ "phan": [
+  "HỆ THỐNG PCCC",
+  "BÁO CHÁY",
+  "ĐÈN EX - EM",
+  "CHỮA CHÁY"
+ ],
+ "cao_pccc_m": [],
+ "ghcl": [
+  "E15",
+  "E30",
+  "EI60",
+  "REI45",
+  "REI90"
+ ],
+ "van_ban_trich": {
+  "QCVN 06:2022": [
+   "bảng 4",
+   "bảng 5",
+   "điều 5.2.7"
+  ],
+  "QCVN 10:2025": [
+   "bảng 2",
+   "bảng a2",
+   "bảng h7"
+  ],
+  "QCVN 12:2014": [],
+  "TCVN 13456:2022": [
+   "điều 5.1"
+  ],
+  "TCVN 4513:1988": [],
+  "TCVN 568-14:2025": [
+   "điều 5.8.2.1.1"
+  ],
+  "TCVN 5740:2023": [],
+  "TCVN 7336:2021": [
+   "mục 5.1.12"
+  ],
+  "TCVN 7568-14:2025": [
+   "điều 5.11.2.1",
+   "điều 5.11.3.1.2",
+   "điều 5.12.2",
+   "điều 5.14.5"
+  ],
+  "TCVN 7722-2-22:2013": []
+ },
+ "luu_y": "Trích tự động từ PDF; mọi số liệu là CẦN XÁC NHẬN khi dùng cho dự án khác. Hình học: tọa độ pt PDF, mm_moi_pt để đổi ra mm.",
+ "trang": [
+  {
+   "trang": 1,
+   "loai": "bia",
+   "phan": "HỆ THỐNG PCCC",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 2,
+   "loai": "bia",
+   "phan": "HỆ THỐNG PCCC",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 3,
+   "loai": "bia",
+   "phan": "HỆ THỐNG PCCC",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 4,
+   "ma": "TM-01",
+   "ten": "THUYẾT MINH THÔNG TIN CÔNG TRÌNH",
+   "hang_muc": "THUYẾT MINH",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "CĂN CỨ: BẢNG 5 - QCVN 06:2022/BXD VÀ SỬA ĐỔI 1:2023 QCVN 06:2022/BXD SỰ PHÙ HỢP GIỮA CẤP NGUY HIỂM CHÁY KẾT CẤU CỦA NHÀ, CÔNG TRÌNH VÀ",
+     "xy": [
+      141,
+      123
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 5"
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 5"
+      }
+     ]
+    },
+    {
+     "chu": "KHOANG CHÁY VỚI CẤP NGUY HIỂM CHÁY CỦA CẤU KIỆN XÂY DỰNG",
+     "xy": [
+      158,
+      150
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CẤP NGUY HIỂM CHÁY CỦA CẤU KIỆN XÂY DỰNG",
+     "xy": [
+      224,
+      174
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CẤP NGUY HIỂM CHÁY KẾT CẤU CỦA NHÀ, CÔNG TRÌNH VÀ KHOANG CHÁY.",
+     "xy": [
+      28,
+      176
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢN THANG VÀ CHIẾU THANG TRONG BUOÀNG THANG BỘ",
+     "xy": [
+      473,
+      201
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG, VÁCH NGĂN, SÀN GIỮA CÁC TẦNG, VÀ MÁI KHÔNG CÓ TẦNG ÁP MÁI",
+     "xy": [
+      296,
+      201
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG CỦA BUỒNG THANG BỘ; BỘ PHẬN NGĂN CHÁY",
+     "xy": [
+      385,
+      201
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁC BỘ PHẬN CHỊU LỰC DẠNG THANH (CỘT, XÀ, GIÀN VÀ TƯƠNG TỰ)",
+     "xy": [
+      117,
+      202
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KẾT LUẬN CÔNG TRÌNH: CẤP S0",
+     "xy": [
+      26,
+      316
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CĂN CỨ: BẢNG 4 - QCVN 06:2022/BXD VÀ SỬA ĐỔI 1:2023 QCVN 06:2022/BXD",
+     "xy": [
+      174,
+      357
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      }
+     ]
+    },
+    {
+     "chu": "SỰ PHÙ HỢP GIỮA BẬC CHỊU LỬA CỦA NHÀ, CÔNG TRÌNH VÀ KHOANG CHÁY VỚI GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN",
+     "xy": [
+      116,
+      367
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "XÂY DỰNG CỦA NHÀ, CÔNG TRÌNH VÀ KHOANG CHÁY",
+     "xy": [
+      210,
+      378
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN, KHÔNG NHỎ HƠN",
+     "xy": [
+      228,
+      395
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA CỦA NHÀ, CÔNG TRÌNH VÀ KHOANG CHÁY",
+     "xy": [
+      27,
+      398
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁC CẤU KIỆN XÂY DỰNG CỦA BUỒNG THANG BỘ",
+     "xy": [
+      452,
+      411
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SÀN TẦNG (BAO GỒM CẢ SÀN TẦNG ÁP MÁI)",
+     "xy": [
+      228,
+      416
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KẾT CẤU MÁI KHÔNG CÓ TẦNG ÁP MÁI",
+     "xy": [
+      295,
+      416
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG CHỊU LỰC, CỘT CHỊU LỰC VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC",
+     "xy": [
+      95,
+      416
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM LỢP (KỂ CẢ TẤM LỢP CÓ CÁCH NHIỆT)",
+     "xy": [
+      296,
+      438
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC II YÊU CẦU THIẾT KẾ KẾT CẤU CÔNG TRÌNH",
+     "xy": [
+      32,
+      478
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SÀN TẦNG NỔI BẰNG BTCT GHCL REI 45 ==> ĐẢM BẢO GHCL REI 45",
+     "xy": [
+      232,
+      502
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GIÀN, DÀM, XÀ GỒ BẰNG BTCT ==> ĐẢM BẢO GHCL R15",
+     "xy": [
+      363,
+      502
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢN THANG VÀ CHIẾU THANG BẰNG BTCT ==> ĐẢM BẢO GHCL R60",
+     "xy": [
+      497,
+      502
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG GẠCH XÂY, TRÁT VỮA DÀY 100MM, 200MM; CỘT, DẦM CHỊU LỰC BẰNG BTCT. ==> ĐẢM BẢO GHCL R90",
+     "xy": [
+      96,
+      502
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG NGOÀI GẠCH XÂY, TRÁT VỮA DÀY 100MM, 200MM. ==> ĐẢM BẢO GHCL E30",
+     "xy": [
+      163,
+      502
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG TRONG GẠCH XÂY TRÁT VỮA DÀY 200MM ==> ĐẢM BẢO GHCL REI90",
+     "xy": [
+      431,
+      502
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "* GIẢI PHÁP GIAO THÔNG PHỤC VỤ PCCC: 1. Sử dụng đường chính phía trước công trình làm đường cho xe chữa cháy tiếp cận công trình. Đường giao thông xe chữa cháy có bề rộng thông thủy trên 3.5m, chiều cao thông thủy trên 4.5m, đảm bảo thông thoáng mọi thời & không có các kết cấu chặn ở phía trên. 2. Bề mặt đường xe chữa cháy ngang bằng và chịu được tải trọng của xe chữa cháy. Độ dốc của đường cho xe chữa cháy phải không được quá 1:8,3. Mặt đường dành cho xe PCCC đảm bảo thông thoáng, bằng phẳng không bị cản trở. Đường cho xe chữa cháy tiếp cận được đến điểm bất kỳ trong công trình trong vòng bánh kính <60m.",
+     "xy": [
+      575,
+      514
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SÀN TẦNG HẦM BẰNG BTCT GHCL REI 90 ==> ĐẢM BẢO GHCL REI 45",
+     "xy": [
+      232,
+      547
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KẾT LUẬN CÔNG TRÌNH: BẬC II",
+     "xy": [
+      27,
+      590
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "* GHI CHÚ: - Thiết bị điện đặt trong khu vực phòng kỹ thuật được khống chế chung bằng thiết bị đóng ngắt tự động ( cầu dao, aptomat) và đặt trên tường ngoài khu bằng vật liệu chống cháy. - Các lỗ mở xuyên sàn, tường của các đuồng ống và đường dây điện, điện nhẹ, PCCC, điều hòa không khí, thông gió và hệ thống cấp thoát nước đều chèn các vật liệu chống cháy lan như Silicon chống cháy, vữa chống cháy và tấm chống cháy. - Không sử dụng khí đốt LPG trung tâm cho công trình",
+     "xy": [
+      30,
+      623
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "* VẬT LIỆU HOÀN THIỆN: - Vật liệu hoàn thiện, trang trí tường và trần ( Bao gồm cả tấm treo trần nếu có), vật liệu ốp lát, vật liệu phủ sàn trên đường thoát nạn tuân thủ yêu cầu tại bảng B.8, phụ lục B, QCVN 06:2022/BXD và sửa đổi 01:2023 QCVN 06:2022/BXD. - Vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trong các gian phòng chung, gian phòng riêng tuân thủ yêu cầu tại bảng B.9, Phụ lục B, QCVN 06:2022/BXD và sửa đổi 01:2023 QCVN 06:2022/BXD.",
+     "xy": [
+      576,
+      640
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 06:2022",
+     "bảng 4"
+    ],
+    [
+     "QCVN 06:2022",
+     "bảng 5"
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "E30",
+    "REI45",
+    "REI90"
+   ],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phan": "HỆ THỐNG PCCC",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 5,
+   "ma": "TM-02",
+   "ten": "MẶT BẰNG ĐỊNH VỊ CÔNG TRÌNH",
+   "hang_muc": "THUYẾT MINH",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: - Khách sạn không thuộc diện phải trang bị hệ thống chữa cháy ngoài nhà theo phụ lục C QCVN 10:2025/BCA",
+     "xy": [
+      46,
+      754
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 10:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "HỆ THỐNG PCCC",
+   "agent": [
+    "m01-phan-loai"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 6,
+   "loai": "bia",
+   "phan": "BÁO CHÁY",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 7,
+   "ma": "BC-01",
+   "ten": "MẶT BẰNG BÁO CHÁY TẦNG HẦM",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "*Thiết bị chỉ thị báo cháy: A) Thiết bị chỉ thị báo cháy bằng âm thanh: Mức cường độ âm thanh được tính toán trung bình trong khoảng thời gian 60 s, mức cường độ âm ở tất cả các vị trí đảm bảo lớn hơn độ ồn của môi trường xung quanh ít nhất là 10 dBA, mức cường độ âm thanh ≥ 65 dBA và ≤ 105 dBA. Tín hiệu báo động bằng âm thanh đối với các khu vực ngủ phải lớn hơn độ ồn của môi trường xung quanh ít nhất 15 dBA (với điều kiện các cửa ra vào đều đóng) và ≥75 ĐẢM BẢO Điều 5.11.2.1 TCVN 7568-14:2025 B) Thiết bị chỉ thị báo cháy bằng ánh sáng: 1) Thiết bị chỉ thị trong nhà: - Được lắp đặt trên hành lang, lối ra thoát nạn; - Nơi người khiếm thính thường ở; - Nơi có tiếng ồn xung quanh vượt quá 95 dBA; - Phải lắp đặt trên trần hoặc tường với số lượng thích hợp sao cho có thể nhìn thấy ở tất cả các vị trí trong khu vực quy định tại điều 5.11.3.1.1: - Khi lắp đặt trên tường chiều cao từ chân tường đến đèn tối thiểu 2m, khoảng cách giữa các thiết bị không quá 45m; - Thiết bị báo cháy bằng ánh sáng phải là loại chớp nháy và tín hiệu báo cháy bằng ánh sáng cần bảo đảm tính đồng bộ khi chớp nháy; - Sự cố của thiết bị báo cháy bằng ánh sáng trong khu vực bất kỳ không làm ảnh hưởng đến hoạt động của các thiết bị báo cháy bằng ánh sáng trong khu vực khác. ĐẢM BẢO Điều 5.11.3.1.1 , Điều 5.11.3.1.2 TCVN 7568-14:2025 2) Thiết bị chỉ thị ngoài nhà và công trình: - Thiết bị chỉ thị được đặt bên ngoài gian phòng được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4m. - Từ “FIRE” được tích hợp hoặc đạnh cạnh đèn chỉ thị đảm bảo chiều cao bằng chữ không hỏ hơn 0,025m trên nền tương phản, chữ viết phải đứng thẳng và đọc được một cách rõ ràng. Thiết bị chỉ thị phải được kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy 3) Thiết bị chỉ thị cho đầu báo cháy: - Có đèn chỉ thị từ xa để hiển thị trạng thái báo cháy - Các thiết bị chỉ thị từ xa dùng cho các phòng, các tủ hoặc các khu vực tương tự được lắp đặt liền kề với cửa ra vào để xác định được vị trí đầu báo cháy. - Các thiết bị chỉ thị từ xa cho không gian kín được lắp đặt ở khu vực có thể tiếp cận được. - Thiết bị chỉ thị được đặt bên ngoài gian phòng được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4 m tính từ mặt đường đi lại * Hệ thống cáp và dây tín hiệu, dây cấp nguồn: - Cáp tín hiệu điều khiển thiết bị ngoại vi và dây tín hiệu nối từ các đầu báo cháy trong hệ thống báo cháy dùng để kích hoạt hệ thống chữa cháy tự động là loại chịu nhiệt cao (cáp, dây tín hiệu chống cháy có thời gian chịu lửa 30 min). Cho phép sử dụng cáp tín hiệu điều khiển thiết bị ngoại vi là loại cáp thường nhưng phải có biện pháp bảo vệ khỏi sự tác động của nhiệt ít nhất trong thời gian 30 min",
+     "xy": [
+      557,
+      100
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": "điều 5.11.2.1"
+      },
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": "điều 5.11.3.1.2"
+      }
+     ]
+    },
+    {
+     "chu": "- Tiêu chuẩn thiết kế áp dụng: TCVN 7568-14:2025 và QCVN 10:2025/BCA. *Trung tâm báo cháy: - Trung tâm báo cháy được đặt ở những nơi thường xuyên có người trực suốt ngày đêm. Trong trường hợp không có người trực suốt ngày đêm, trung tâm báo cháy phải có chức năng truyền các tín hiệu báo cháy và báo sự cố đến nơi trực cháy hay nơi có người thường trực suốt ngày đêm và phải có biện pháp phòng ngừa người không có nhiệm vụ tiếp xúc với trung tâm báo cháy - Trung tâm báo cháy có chức năng tự động truyền tin báo cháy đến đơn vị Cảnh sát Phòng cháy, chữa cháy và cứu nạn, cứu hộ. Nơi đặt các trung tâm báo cháy có điện thoại liên lạc trực tiếp với đơn vị Cảnh sát Phòng cháy, chữa cháy và cứu nạn, cứu hộ hay nơi nhận tin báo cháy - Trung tâm báo cháy được lắp đặt trên tường, vách ngăn, trên bàn tại những nơi không nguy hiểm về cháy và nổ và có một không gian trống xung quanh mặt trước của tủ trung tâm báo cháy ≥ 1,5 m. - Trung tâm của hệ thống báo cháy có hai nguồn điện độc lập: Một nguồn 220 V xoay chiều và một nguồn là ắc quy dự phòng. Dung lượng của ắc quy dự phòng bảo đảm ít nhất 24 h cho thiết bị hoạt động ở chế độ thường trực và 1 giờ khi có cháy. - Khi sử dụng ắc quy làm nguồn điện, ắc quy phải được nạp điện tự động. - Việc đấu nối dây điện từ thiết bị phân phối đầu vào đến các hệ thống bảo vệ chống cháy (thiết bị điện của hệ thống chữa cháy, báo cháy, hút xả khói, chiếu sáng thoát nạn...) phải được thực hiện bằng các cáp có khả năng chịu lửa, có lớp khỏang cách điện, có giới hạn chịu lửa không thấp hơn 120 phút",
+     "xy": [
+      34,
+      104
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "*Nút ấn báo cháy: - Hộp nút ấn báo cháy ở vị trí có thể nhìn thấy rõ và tiếp cận được dễ dàng gần với khu vực lối ra của tầng, công trình. Khoảng cách giữa các hộp nút ấn báo cháy ≤ 45 m - Hộp nút ấn báo cháy được lắp đặt ở chiều cao 1,5m tính từ mặt đường đi lại và có một không gian trống dạng nửa hình cầu bán kính 0,6 m xung quanh mặt trước của hộp nút ấn báo cháy *Đầu báo cháy: a. Đầu báo nhiệt kiểu điểm: - Đầu báo cháy nhiệt kiểu điểm: từ bộ phận cảm biến đến trần hoặc mái nằm trong khoảng từ 0,015 m đến 0,1 m; khoảng cách từ bất cứ điểm nào trên bề mặt bằng phẳng đến đầu báo cháy gần nhất cũng không được vượt quá 5,1 m và khoảng cách giữa các đầu báo cháy không được vượt quá 7,2 m; Khoảng cách từ hàng đầu báo cháy tới tường, vách ngăn nằm trong khoảng từ 0,3 m đến 3,6 m; - Khoảng cách từ đầu báo cháy đến lỗ mở cấp không khí không nhỏ hơn 0,6 m. - Vị trí lắp đặt: đầu báo nhiệt được lắp đặt tại các khu vực khi xảy ra cháy ở giai đoạn ban đầu của đám cháy chủ yếu phát sinh nhiệt và khi sử dụng các đầu báo khác có thể xảy ra hiện tượng báo cháy giả: gara để xe, khu vực tương tự khác - Đầu báo nhiệt có ngưỡng nhiệt độ kích hoạt cao hơn ít nhất 20 độ c so với nhiệt độ tối đa của môi trường của khu vực lắp đặt đầu báo cháy b. Đầu báo khói kiểu điểm: - Đầu báo cháy khói: Đối với khu vực có chiều cao trần dưới 4 m, khoảng cách từ bộ phận cảm biến của các đầu báo cháy kiểu điểm đến trần từ 0,025 m đến 0,3 m. Đối với khu vực có chiều cao trần từ 4 m đến 15 m, khoảng cách từ bộ phận cảm biến đến trần không quá 0,6 m. Khoảng cách giữa các đầu báo cháy trên trần phẳng: không vượt quá 7,2 m và khoảng cách giữa các đầu báo cháy không được vượt quá 10,2 m; Khoảng cách từ hàng của đầu báo cháy gần nhất tới tường không vượt quá 5,1 m, không nhỏ hơn 0,5m; Khoảng cách từ đầu báo cháy đến mép ngoài gần nhất của cửa cấp không khí không khí không nhỏ hơn 0,4 m. - Vị trí lắp đặt: đầu báo khói được lắp đặt tại các khu vực trần giả, hành lang, đường lối đi thoát nạn, không gian kín hoặc các khu vực tương tự khác",
+     "xy": [
+      34,
+      327
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "và dây tín hiệu chống nhiễu. Nếu cáp và dây tín hiệu không chống nhiễu thì nhất thiết phải luồn trong ống hoặc hộp kim loại có tiếp đất",
+     "xy": [
+      557,
+      581
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "phép chỉ sử dụng dây chống nhiễu khi thiết bị và trung tâm báo cháy được kết nối dưới dạng mạch vòng) - Tiết diện lõi đồng của cáp và dây tín hiệu phải được xác định dựa trên độ sụt áp cho phép của hệ thống báo cháy nhưng ≥ 0,75 mm2 (tương đương với lõi đồng có đường kính 1 mm) đối với đường cáp trục chính. Cho phép dùng nhiều dây dẫn tết lại nhưng tổng diện tích tiết diện của các lõi đồng được tết lại ≥ 0,75 mm2. Tiết diện từng lõi đồng của đường",
+     "xy": [
+      557,
+      619
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "cáp trục chính phải ≥ 0,5 mm2. Cho phép dùng cáp nhiều dây trong một lớp bọc bảo vệ chung nhưng đường kính lõi đồng của mỗi dây ≥ 0,5 mm. - Tổng điện trở của đường dây tín hiệu trên mỗi kênh báo cháy ≤ 100 Ω và không được lớn hơn giá trị yêu cầu đối với từng loại trung tâm báo cháy *Các ghi chú khác: - Các tủ điện tầng có kích thước không quá 1m3, các tủ có kích thước quá 1m3 sẽ được bổ sung trang bị đầu báo cháy trong tủ khi có thông tin - Các tủ khác được chia nhỏ bởi các vách ngăn thể tích nhỏ hơn 3m3 nên không lắp đặt các đầu báo cháy trong tủ.",
+     "xy": [
+      557,
+      666
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 10:2025",
+     ""
+    ],
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ],
+    [
+     "TCVN 7568-14:2025",
+     "điều 5.11.2.1"
+    ],
+    [
+     "TCVN 7568-14:2025",
+     "điều 5.11.3.1.2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 8,
+   "ma": "BC-02",
+   "ten": "SƠ ĐỒ NGUYÊN LÍ HỆ THỐNG BÁO CHÁY",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "Cáp tín hiệu điều khiển thiết bị ngoại vi và dây tín hiệu nối từ các đầu báo cháy trong hệ thống báo cháy dùng để kích hoạt hệ thống chữa cháy tự động là loại chịu nhiệt cao (cáp, dây tín hiệu chống cháy có thời gian chịu lửa 30 min).",
+     "xy": [
+      409,
+      17
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tổng điện trở của đường dây tín hiệu trên mỗi kênh báo cháy đảm bảo nhỏ hơn 100 Ω (theo quy định tại điều 5.14.5 của TCVN 7568-14:2025.)",
+     "xy": [
+      79,
+      296
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": "điều 5.14.5"
+      }
+     ]
+    },
+    {
+     "chu": "CHUÔNG ĐÈN KẾT HỢP (Cường độ âm thanh =>65dBA và <105dBA) NÚT NHẤN BÁO CHÁY (Có một không gian trống dạng nửa hình cầu, bán kính 0,6m xung quanh mặt trước của hộp nút nhấn khẩn) CHỮ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CÓ CHIỀU CAO CHỮ 0,025M TRÊN NỀN TƯƠNG PHẢN, CHỮ VIẾT ĐỨNG THẲNG",
+     "xy": [
+      834,
+      378
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nơi đặt trung tâm báo cháy có điện thoại liên lạc trực tiếp với đơn vị Cảnh sát Phòng cháy, chữa cháy và cứu nạn, cứu hộ theo quy định tại Điều 5.12.2 Tiêu chuẩn TCVN 7568-14:2025",
+     "xy": [
+      73,
+      419
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": "điều 5.12.2"
+      }
+     ]
+    },
+    {
+     "chu": "LƯU Ý KHI LẮP ĐẶT TRUNG TÂM BÁO CHÁY: Trung tâm báo cháy lắp trên tường, cột nhà có khoảng cách từ phần điều khiển của trung tâm báo cháy đến mặt sàn từ 0,8 đến 1,8 m và phù hợp chiều cao vận hành của con người. Khoảng cách giữa các trung tâm báo cháy và trần nhà bằng vật liệu cháy được không nhỏ hơn 1,0 m Trung tâm báo cháy tự động được lắp đặt trên tường gạch tại nhà bảo vệ, không nguy hiểm về cháy và nổ - Nơi đặt các trung tâm báo cháy phải có điện thoại liên lạc trực tiếp với đơn vị Cảnh sát Phòng cháy, chữa cháy và cứu nạn, cứu hộ hay nơi nhận tin báo cháy. - Trung tâm báo cháy tự động có chức năng tự động kiểm tra tín hiệu từ các đầu báo cháy, kênh báo cháy và các thiết bị báo cháy khác truyền về để loại trừ các tín hiệu báo cháy giả. Không được dùng các trung tâm không có chức năng báo cháy làm trung tâm báo cháy tự động. - Trung tâm báo cháy tự động phải đặt ở nhà bảo vệ, những nơi thường xuyên có người trực suốt ngày đêm - Tín hiệu âm thanh, ánh sáng khi báo cháy và báo sự cố phải khác nhau. - Tiết diện lõi đồng của cáp và dây tín hiệu phải được xác định dựa trên độ sụt áp cho phép của hệ thống báo cháy tự động nhưng không nhỏ hơn 0,75 mm2(tương đương với lõi đồng có đường kính 1 mm) đối với đường cáp trục chính. Cho phép dùng nhiều dây dẫn tết lại nhưng tổng diện tích tiết diện của các lõi đồng được tết lại không được nhỏ hơn 0,75 mm2. - Tiết diện từng lõi đồng của đường cáp trục chính phải không nhỏ hơn 0,5 mm2. Cho phép dùng cáp nhiều dây trong một lớp bọc bảo vệ chung nhưng đường kính lõi đồng của mỗi dây không được nhỏ hơn 0,5 mm. - Tổng điện trở của đường dây tín hiệu trên mỗi kênh báo cháy không được lớn 100 Ω và không được lớn hơn giá trị yêu cầu đối với từng loại trung tâm báo cháy. - Các trung tâm báo cháy tự động phải được tiếp đất bảo vệ. Việc tiếp đất bảo vệ phải thỏa măn yêu cầu của quy phạm nối đất thiết bị điện hiện hành. - Trung tâm của hệ thống báo cháy tự động phải có hai nguồn điện độc lập: Một nguồn 220 V xoay chiều và một nguồn là ắc quy dự phòng.",
+     "xy": [
+      602,
+      532
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỦ TRUNG TÂM BÁO CHÁY CÓ CHỨC NĂNG TỰ NẠP ĐIỆN",
+     "xy": [
+      112,
+      690
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NGUỒN ĐIỆN CHÍNH 220V AC ( NGUỒN ĐIỆN ƯU TIÊN)",
+     "xy": [
+      313,
+      717
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tiếp đất cho tủ và tiếp đất cho hệ chống sét",
+     "xy": [
+      28,
+      724
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "lan truyền có điện trở không vượt quá 4Ω",
+     "xy": [
+      32,
+      735
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TỦ BÁO CHÁY TRUNG TÂM ĐẶT TẠI TẦNG HẦM (NƠI CÓ NGƯỜI THƯỜNG TRỰC 24/24. - DUNG LƯỢNG BÌNH ẮC QUY:",
+     "xy": [
+      31,
+      768
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "24H CHẾ ĐỘ BÌNH THƯỜNG 1H CHẾ ĐỘ SỰ CỐ",
+     "xy": [
+      51,
+      805
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7568-14:2025",
+     "điều 5.12.2"
+    ],
+    [
+     "TCVN 7568-14:2025",
+     "điều 5.14.5"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 9,
+   "ma": "BC-03",
+   "ten": "MẶT BẰNG BÁO CHÁY TẦNG HẦM",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN CHỈ THỊ ĐẦU BÁO CHÁY ĐƯỢC QUAN SÁT TỪ CÁC LỐI ĐI. CÔNG TRÌNH KHÔNG CÓ BỀ MẶT TRUNG GIAN NẰM NGANG NHƯ ĐƯỜNG ỐNG, SÀN THAO TÁC GIÁ KỆ. ĐỘ SÂU CỦA DẦM TRONG CÔNG",
+     "xy": [
+      615,
+      37
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TRÌNH < 0,3M. * KHU VỰC TRÊN KHÔNG GIAN TRẦN TREO: CÁP ĐI TRÊN TRẦN ĐƯỢC LUỒN TRONG ỐNG HOẶC BỌC BẰNG VẬT LIỆU CÓ TÍNH CHÁY CH1; LÀ CÁP, DÂY DẪN ĐIỆN CỦA HỆ THỐNG CHIẾU SÁNG, HỆ THỐNG THÔNG TIN => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY TRÊN TRẦN KỸ THUẬT. - ÁP CỰC THẤP => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY CHO THIẾT BỊ ĐIỆN TRÊN TRẦN KỸ THUẬT, BỊ CHE KÍN - DƯỚI 500 W => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY THIẾT BỊ ĐIỆN. -",
+     "xy": [
+      608,
+      47
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỊ CHE KÍN CHỨA HỆ THỐNG ĐIỆN CHIẾU SÁNG VÀ THIẾT BỊ ĐIỆN DÙNG ĐỂ CẤP NGUỒN VỚI NGUỒN ĐIỆN KHÔNG VƯỢT QUÁ ĐIỆN",
+     "xy": [
+      615,
+      85
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THIẾT BỊ ĐIỆN CHIẾU SÁNG TRONG CÔNG TRÌNH CÓ CÔNG SUẤT DANH ĐỊNH ≤ 100 W VÀ CÁC THIẾT BỊ KHÁC CÓ CÔNG SUẤT DANH ĐỊNH",
+     "xy": [
+      615,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHÔNG CÓ TỦ THỂ TÍCH >3M3 VÀ KHÔNG CÓ TỦ CHỨA CÁC THIẾT BỊ ĐIỆN THỂ TÍCH >1M3 => KHÔNG YÊU CẦU PHẢI LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      615,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tủ trung tâm báo cháy đặt tại nơi có người thường trực 24/24 có thiết bị truyền tin về cơ quan cảnh sát PCCC & CNCH",
+     "xy": [
+      346,
+      217
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUY ĐỊNH LẮP ĐẶT ĐẦU BÁO CHÁY THEO TCVN 7568-14:2025",
+     "xy": [
+      21,
+      608
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỐI ĐA GIỮA ĐẦU BÁO CHÁY",
+     "xy": [
+      299,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Khoảng cách lắp đặt đầu báo cháy:",
+     "xy": [
+      27,
+      690
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHUÔNG ĐÈN KẾT HỢP (Cường độ âm thanh =>65dBA và <105dBA) NÚT NHẤN BÁO CHÁY (Có một không gian trống dạng nửa hình cầu, bán kính 0,6m xung quanh mặt trước của hộp nút nhấn khẩn) CHỮ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CÓ CHIỀU CAO CHỮ 0,025M TRÊN NỀN TƯƠNG PHẢN, CHỮ VIẾT ĐỨNG THẲNG",
+     "xy": [
+      835,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với khu vực có chiều cao trần dưới 4 m, khoảng cách từ bộ phận cảm biến của các đầu báo cháy khói kiểu điểm đến trần từ 0,025 m đến 0,3 m.Khoảng cách từ bộ phận cảm biến đầu báo cháy nhiệt kiểu điểm đến trần hoặc mái nằm trong khoảng từ 0,015 m đến 0,1 m - Đối với khu vực có chiều cao trần từ 4 m đến 15 m, khoảng cách từ bộ phận cảm biến đến trần không quá 0,6 m. - Các đầu báo cháy phải được lắp đặt cách đỉnh mái một khoảng giữa 0,5 m và 1,5 m * Thiết bị chỉ thị bên ngoài nhà và công trình. - Thiết bị chỉ thị được đặt bên ngoài cồng trình được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4 m tính từ mặt đường đi lại. - Từ “FIRE” phải được tích hợp hoặc đặt cạnh đèn chỉ thị đảm bảo chiều cao bằng chữ không nhỏ hơn 0,025 m trên nền tương phản, chữ viết phải đứng thẳng và đọc được một cách rõ ràng. - Thiết bị chỉ thị phải được kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy.",
+     "xy": [
+      27,
+      703
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 10,
+   "ma": "BC-04",
+   "ten": "MẶT BẰNG BÁO CHÁY TẦNG 1",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN CHỈ THỊ ĐẦU BÁO CHÁY ĐƯỢC QUAN SÁT TỪ CÁC LỐI ĐI. CÔNG TRÌNH KHÔNG CÓ BỀ MẶT TRUNG GIAN NẰM NGANG NHƯ ĐƯỜNG ỐNG, SÀN THAO TÁC GIÁ KỆ. ĐỘ SÂU CỦA DẦM TRONG CÔNG",
+     "xy": [
+      615,
+      37
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TRÌNH < 0,3M. * KHU VỰC TRÊN KHÔNG GIAN TRẦN TREO: CÁP ĐI TRÊN TRẦN ĐƯỢC LUỒN TRONG ỐNG HOẶC BỌC BẰNG VẬT LIỆU CÓ TÍNH CHÁY CH1; LÀ CÁP, DÂY DẪN ĐIỆN CỦA HỆ THỐNG CHIẾU SÁNG, HỆ THỐNG THÔNG TIN => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY TRÊN TRẦN KỸ THUẬT. - ÁP CỰC THẤP => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY CHO THIẾT BỊ ĐIỆN TRÊN TRẦN KỸ THUẬT, BỊ CHE KÍN - DƯỚI 500 W => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY THIẾT BỊ ĐIỆN. -",
+     "xy": [
+      608,
+      47
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỊ CHE KÍN CHỨA HỆ THỐNG ĐIỆN CHIẾU SÁNG VÀ THIẾT BỊ ĐIỆN DÙNG ĐỂ CẤP NGUỒN VỚI NGUỒN ĐIỆN KHÔNG VƯỢT QUÁ ĐIỆN",
+     "xy": [
+      615,
+      85
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THIẾT BỊ ĐIỆN CHIẾU SÁNG TRONG CÔNG TRÌNH CÓ CÔNG SUẤT DANH ĐỊNH ≤ 100 W VÀ CÁC THIẾT BỊ KHÁC CÓ CÔNG SUẤT DANH ĐỊNH",
+     "xy": [
+      615,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHÔNG CÓ TỦ THỂ TÍCH >3M3 VÀ KHÔNG CÓ TỦ CHỨA CÁC THIẾT BỊ ĐIỆN THỂ TÍCH >1M3 => KHÔNG YÊU CẦU PHẢI LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      615,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUY ĐỊNH LẮP ĐẶT ĐẦU BÁO CHÁY THEO TCVN 7568-14:2025",
+     "xy": [
+      21,
+      608
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỐI ĐA GIỮA ĐẦU BÁO CHÁY",
+     "xy": [
+      299,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Khoảng cách lắp đặt đầu báo cháy:",
+     "xy": [
+      27,
+      690
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHUÔNG ĐÈN KẾT HỢP (Cường độ âm thanh =>65dBA và <105dBA) NÚT NHẤN BÁO CHÁY (Có một không gian trống dạng nửa hình cầu, bán kính 0,6m xung quanh mặt trước của hộp nút nhấn khẩn) CHỮ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CÓ CHIỀU CAO CHỮ 0,025M TRÊN NỀN TƯƠNG PHẢN, CHỮ VIẾT ĐỨNG THẲNG",
+     "xy": [
+      835,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với khu vực có chiều cao trần dưới 4 m, khoảng cách từ bộ phận cảm biến của các đầu báo cháy khói kiểu điểm đến trần từ 0,025 m đến 0,3 m.Khoảng cách từ bộ phận cảm biến đầu báo cháy nhiệt kiểu điểm đến trần hoặc mái nằm trong khoảng từ 0,015 m đến 0,1 m - Đối với khu vực có chiều cao trần từ 4 m đến 15 m, khoảng cách từ bộ phận cảm biến đến trần không quá 0,6 m. - Các đầu báo cháy phải được lắp đặt cách đỉnh mái một khoảng giữa 0,5 m và 1,5 m * Thiết bị chỉ thị bên ngoài nhà và công trình. - Thiết bị chỉ thị được đặt bên ngoài cồng trình được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4 m tính từ mặt đường đi lại. - Từ “FIRE” phải được tích hợp hoặc đặt cạnh đèn chỉ thị đảm bảo chiều cao bằng chữ không nhỏ hơn 0,025 m trên nền tương phản, chữ viết phải đứng thẳng và đọc được một cách rõ ràng. - Thiết bị chỉ thị phải được kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy.",
+     "xy": [
+      27,
+      703
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 11,
+   "ma": "BC-05",
+   "ten": "MẶT BẰNG BÁO CHÁY TẦNG 2",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "* Ghi chú: - Tủ mặt nạ lọc độc được trang bị trên các tầng của khách sạn. Tủ được đặt tại vị trí dễ dàng tiếp cận khi có sự cố cháy xảy ra. - Số lượng mặt nạ phòng độc được tính toán theo số người có mặt đồng thời trong một phòng có diện tích lớn nhất của tầng đó với định mức 01 người/chiếc ( Theo bảng F1. Phụ Lục F, QVCN 10:2025/BCA).",
+     "xy": [
+      25,
+      14
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHỈ THỊ ĐẦU BÁO CHÁY ĐƯỢC QUAN SÁT TỪ CÁC LỐI ĐI. CÔNG TRÌNH KHÔNG CÓ BỀ MẶT TRUNG GIAN NẰM NGANG NHƯ ĐƯỜNG ỐNG, SÀN THAO TÁC GIÁ KỆ. ĐỘ SÂU CỦA DẦM TRONG CÔNG",
+     "xy": [
+      615,
+      37
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TRÌNH < 0,3M. * KHU VỰC TRÊN KHÔNG GIAN TRẦN TREO: CÁP ĐI TRÊN TRẦN ĐƯỢC LUỒN TRONG ỐNG HOẶC BỌC BẰNG VẬT LIỆU CÓ TÍNH CHÁY CH1; LÀ CÁP, DÂY DẪN ĐIỆN CỦA HỆ THỐNG CHIẾU SÁNG, HỆ THỐNG THÔNG TIN => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY TRÊN TRẦN KỸ THUẬT. - ÁP CỰC THẤP => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY CHO THIẾT BỊ ĐIỆN TRÊN TRẦN KỸ THUẬT, BỊ CHE KÍN - DƯỚI 500 W => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY THIẾT BỊ ĐIỆN. -",
+     "xy": [
+      608,
+      47
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỊ CHE KÍN CHỨA HỆ THỐNG ĐIỆN CHIẾU SÁNG VÀ THIẾT BỊ ĐIỆN DÙNG ĐỂ CẤP NGUỒN VỚI NGUỒN ĐIỆN KHÔNG VƯỢT QUÁ ĐIỆN",
+     "xy": [
+      615,
+      85
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ TÍNH TOÁN MẶT NẠ LỌC ĐỘC",
+     "xy": [
+      71,
+      103
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THIẾT BỊ ĐIỆN CHIẾU SÁNG TRONG CÔNG TRÌNH CÓ CÔNG SUẤT DANH ĐỊNH ≤ 100 W VÀ CÁC THIẾT BỊ KHÁC CÓ CÔNG SUẤT DANH ĐỊNH",
+     "xy": [
+      615,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHÔNG CÓ TỦ THỂ TÍCH >3M3 VÀ KHÔNG CÓ TỦ CHỨA CÁC THIẾT BỊ ĐIỆN THỂ TÍCH >1M3 => KHÔNG YÊU CẦU PHẢI LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      615,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUY ĐỊNH LẮP ĐẶT ĐẦU BÁO CHÁY THEO TCVN 7568-14:2025",
+     "xy": [
+      21,
+      608
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỐI ĐA GIỮA ĐẦU BÁO CHÁY",
+     "xy": [
+      299,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Khoảng cách lắp đặt đầu báo cháy:",
+     "xy": [
+      27,
+      690
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHUÔNG ĐÈN KẾT HỢP (Cường độ âm thanh =>65dBA và <105dBA) NÚT NHẤN BÁO CHÁY (Có một không gian trống dạng nửa hình cầu, bán kính 0,6m xung quanh mặt trước của hộp nút nhấn khẩn) CHỮ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CÓ CHIỀU CAO CHỮ 0,025M TRÊN NỀN TƯƠNG PHẢN, CHỮ VIẾT ĐỨNG THẲNG",
+     "xy": [
+      835,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với khu vực có chiều cao trần dưới 4 m, khoảng cách từ bộ phận cảm biến của các đầu báo cháy khói kiểu điểm đến trần từ 0,025 m đến 0,3 m.Khoảng cách từ bộ phận cảm biến đầu báo cháy nhiệt kiểu điểm đến trần hoặc mái nằm trong khoảng từ 0,015 m đến 0,1 m - Đối với khu vực có chiều cao trần từ 4 m đến 15 m, khoảng cách từ bộ phận cảm biến đến trần không quá 0,6 m. - Các đầu báo cháy phải được lắp đặt cách đỉnh mái một khoảng giữa 0,5 m và 1,5 m * Thiết bị chỉ thị bên ngoài nhà và công trình. - Thiết bị chỉ thị được đặt bên ngoài cồng trình được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4 m tính từ mặt đường đi lại. - Từ “FIRE” phải được tích hợp hoặc đặt cạnh đèn chỉ thị đảm bảo chiều cao bằng chữ không nhỏ hơn 0,025 m trên nền tương phản, chữ viết phải đứng thẳng và đọc được một cách rõ ràng. - Thiết bị chỉ thị phải được kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy.",
+     "xy": [
+      27,
+      703
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 12,
+   "ma": "BC-06",
+   "ten": "MẶT BẰNG BÁO CHÁY TẦNG 3,4,5",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "* Ghi chú: - Tủ mặt nạ lọc độc được trang bị trên các tầng của khách sạn. Tủ được đặt tại vị trí dễ dàng tiếp cận khi có sự cố cháy xảy ra. - Số lượng mặt nạ phòng độc được tính toán theo số người có mặt đồng thời trong một phòng có diện tích lớn nhất của tầng đó với định mức 01 người/chiếc ( Theo bảng F1. Phụ Lục F, QVCN 10:2025/BCA).",
+     "xy": [
+      26,
+      14
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHỈ THỊ ĐẦU BÁO CHÁY ĐƯỢC QUAN SÁT TỪ CÁC LỐI ĐI. CÔNG TRÌNH KHÔNG CÓ BỀ MẶT TRUNG GIAN NẰM NGANG NHƯ ĐƯỜNG ỐNG, SÀN THAO TÁC GIÁ KỆ. ĐỘ SÂU CỦA DẦM TRONG CÔNG",
+     "xy": [
+      615,
+      37
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TRÌNH < 0,3M. * KHU VỰC TRÊN KHÔNG GIAN TRẦN TREO: CÁP ĐI TRÊN TRẦN ĐƯỢC LUỒN TRONG ỐNG HOẶC BỌC BẰNG VẬT LIỆU CÓ TÍNH CHÁY CH1; LÀ CÁP, DÂY DẪN ĐIỆN CỦA HỆ THỐNG CHIẾU SÁNG, HỆ THỐNG THÔNG TIN => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY TRÊN TRẦN KỸ THUẬT. - ÁP CỰC THẤP => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY CHO THIẾT BỊ ĐIỆN TRÊN TRẦN KỸ THUẬT, BỊ CHE KÍN - DƯỚI 500 W => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY THIẾT BỊ ĐIỆN. -",
+     "xy": [
+      608,
+      47
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỊ CHE KÍN CHỨA HỆ THỐNG ĐIỆN CHIẾU SÁNG VÀ THIẾT BỊ ĐIỆN DÙNG ĐỂ CẤP NGUỒN VỚI NGUỒN ĐIỆN KHÔNG VƯỢT QUÁ ĐIỆN",
+     "xy": [
+      615,
+      85
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ TÍNH TOÁN MẶT NẠ LỌC ĐỘC",
+     "xy": [
+      69,
+      97
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THIẾT BỊ ĐIỆN CHIẾU SÁNG TRONG CÔNG TRÌNH CÓ CÔNG SUẤT DANH ĐỊNH ≤ 100 W VÀ CÁC THIẾT BỊ KHÁC CÓ CÔNG SUẤT DANH ĐỊNH",
+     "xy": [
+      615,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHÔNG CÓ TỦ THỂ TÍCH >3M3 VÀ KHÔNG CÓ TỦ CHỨA CÁC THIẾT BỊ ĐIỆN THỂ TÍCH >1M3 => KHÔNG YÊU CẦU PHẢI LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      615,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUY ĐỊNH LẮP ĐẶT ĐẦU BÁO CHÁY THEO TCVN 7568-14:2025",
+     "xy": [
+      21,
+      608
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỐI ĐA GIỮA ĐẦU BÁO CHÁY",
+     "xy": [
+      299,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Khoảng cách lắp đặt đầu báo cháy:",
+     "xy": [
+      27,
+      690
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHUÔNG ĐÈN KẾT HỢP (Cường độ âm thanh =>65dBA và <105dBA) NÚT NHẤN BÁO CHÁY (Có một không gian trống dạng nửa hình cầu, bán kính 0,6m xung quanh mặt trước của hộp nút nhấn khẩn) CHỮ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CÓ CHIỀU CAO CHỮ 0,025M TRÊN NỀN TƯƠNG PHẢN, CHỮ VIẾT ĐỨNG THẲNG",
+     "xy": [
+      835,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với khu vực có chiều cao trần dưới 4 m, khoảng cách từ bộ phận cảm biến của các đầu báo cháy khói kiểu điểm đến trần từ 0,025 m đến 0,3 m.Khoảng cách từ bộ phận cảm biến đầu báo cháy nhiệt kiểu điểm đến trần hoặc mái nằm trong khoảng từ 0,015 m đến 0,1 m - Đối với khu vực có chiều cao trần từ 4 m đến 15 m, khoảng cách từ bộ phận cảm biến đến trần không quá 0,6 m. - Các đầu báo cháy phải được lắp đặt cách đỉnh mái một khoảng giữa 0,5 m và 1,5 m * Thiết bị chỉ thị bên ngoài nhà và công trình. - Thiết bị chỉ thị được đặt bên ngoài cồng trình được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4 m tính từ mặt đường đi lại. - Từ “FIRE” phải được tích hợp hoặc đặt cạnh đèn chỉ thị đảm bảo chiều cao bằng chữ không nhỏ hơn 0,025 m trên nền tương phản, chữ viết phải đứng thẳng và đọc được một cách rõ ràng. - Thiết bị chỉ thị phải được kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy.",
+     "xy": [
+      27,
+      703
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 13,
+   "ma": "BC-07",
+   "ten": "MẶT BẰNG BÁO CHÁY TẦNG 6",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "* Ghi chú: - Tủ mặt nạ lọc độc được trang bị trên các tầng của khách sạn. Tủ được đặt tại vị trí dễ dàng tiếp cận khi có sự cố cháy xảy ra. - Số lượng mặt nạ phòng độc được tính toán theo số người có mặt đồng thời trong một phòng có diện tích lớn nhất của tầng đó với định mức 01 người/chiếc ( Theo bảng F1. Phụ Lục F, QVCN 10:2025/BCA).",
+     "xy": [
+      26,
+      14
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHỈ THỊ ĐẦU BÁO CHÁY ĐƯỢC QUAN SÁT TỪ CÁC LỐI ĐI. CÔNG TRÌNH KHÔNG CÓ BỀ MẶT TRUNG GIAN NẰM NGANG NHƯ ĐƯỜNG ỐNG, SÀN THAO TÁC GIÁ KỆ. ĐỘ SÂU CỦA DẦM TRONG CÔNG",
+     "xy": [
+      615,
+      37
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TRÌNH < 0,3M. * KHU VỰC TRÊN KHÔNG GIAN TRẦN TREO: CÁP ĐI TRÊN TRẦN ĐƯỢC LUỒN TRONG ỐNG HOẶC BỌC BẰNG VẬT LIỆU CÓ TÍNH CHÁY CH1; LÀ CÁP, DÂY DẪN ĐIỆN CỦA HỆ THỐNG CHIẾU SÁNG, HỆ THỐNG THÔNG TIN => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY TRÊN TRẦN KỸ THUẬT. - ÁP CỰC THẤP => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY CHO THIẾT BỊ ĐIỆN TRÊN TRẦN KỸ THUẬT, BỊ CHE KÍN - DƯỚI 500 W => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY THIẾT BỊ ĐIỆN. -",
+     "xy": [
+      608,
+      47
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỊ CHE KÍN CHỨA HỆ THỐNG ĐIỆN CHIẾU SÁNG VÀ THIẾT BỊ ĐIỆN DÙNG ĐỂ CẤP NGUỒN VỚI NGUỒN ĐIỆN KHÔNG VƯỢT QUÁ ĐIỆN",
+     "xy": [
+      615,
+      85
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ TÍNH TOÁN MẶT NẠ LỌC ĐỘC",
+     "xy": [
+      69,
+      97
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THIẾT BỊ ĐIỆN CHIẾU SÁNG TRONG CÔNG TRÌNH CÓ CÔNG SUẤT DANH ĐỊNH ≤ 100 W VÀ CÁC THIẾT BỊ KHÁC CÓ CÔNG SUẤT DANH ĐỊNH",
+     "xy": [
+      615,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHÔNG CÓ TỦ THỂ TÍCH >3M3 VÀ KHÔNG CÓ TỦ CHỨA CÁC THIẾT BỊ ĐIỆN THỂ TÍCH >1M3 => KHÔNG YÊU CẦU PHẢI LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      615,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUY ĐỊNH LẮP ĐẶT ĐẦU BÁO CHÁY THEO TCVN 7568-14:2025",
+     "xy": [
+      21,
+      608
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỐI ĐA GIỮA ĐẦU BÁO CHÁY",
+     "xy": [
+      299,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Khoảng cách lắp đặt đầu báo cháy:",
+     "xy": [
+      27,
+      690
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHUÔNG ĐÈN KẾT HỢP (Cường độ âm thanh =>65dBA và <105dBA) NÚT NHẤN BÁO CHÁY (Có một không gian trống dạng nửa hình cầu, bán kính 0,6m xung quanh mặt trước của hộp nút nhấn khẩn) CHỮ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CÓ CHIỀU CAO CHỮ 0,025M TRÊN NỀN TƯƠNG PHẢN, CHỮ VIẾT ĐỨNG THẲNG",
+     "xy": [
+      835,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với khu vực có chiều cao trần dưới 4 m, khoảng cách từ bộ phận cảm biến của các đầu báo cháy khói kiểu điểm đến trần từ 0,025 m đến 0,3 m.Khoảng cách từ bộ phận cảm biến đầu báo cháy nhiệt kiểu điểm đến trần hoặc mái nằm trong khoảng từ 0,015 m đến 0,1 m - Đối với khu vực có chiều cao trần từ 4 m đến 15 m, khoảng cách từ bộ phận cảm biến đến trần không quá 0,6 m. - Các đầu báo cháy phải được lắp đặt cách đỉnh mái một khoảng giữa 0,5 m và 1,5 m * Thiết bị chỉ thị bên ngoài nhà và công trình. - Thiết bị chỉ thị được đặt bên ngoài cồng trình được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4 m tính từ mặt đường đi lại. - Từ “FIRE” phải được tích hợp hoặc đặt cạnh đèn chỉ thị đảm bảo chiều cao bằng chữ không nhỏ hơn 0,025 m trên nền tương phản, chữ viết phải đứng thẳng và đọc được một cách rõ ràng. - Thiết bị chỉ thị phải được kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy.",
+     "xy": [
+      27,
+      703
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 14,
+   "ma": "BC-08",
+   "ten": "MẶT BẰNG BÁO CHÁY TẦNG 7",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "* Ghi chú: - Tủ mặt nạ lọc độc được trang bị trên các tầng của khách sạn. Tủ được đặt tại vị trí dễ dàng tiếp cận khi có sự cố cháy xảy ra. - Số lượng mặt nạ phòng độc được tính toán theo số người có mặt đồng thời trong một phòng có diện tích lớn nhất của tầng đó với định mức 01 người/chiếc ( Theo bảng F1. Phụ Lục F, QVCN 10:2025/BCA).",
+     "xy": [
+      26,
+      14
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHỈ THỊ ĐẦU BÁO CHÁY ĐƯỢC QUAN SÁT TỪ CÁC LỐI ĐI. CÔNG TRÌNH KHÔNG CÓ BỀ MẶT TRUNG GIAN NẰM NGANG NHƯ ĐƯỜNG ỐNG, SÀN THAO TÁC GIÁ KỆ. ĐỘ SÂU CỦA DẦM TRONG CÔNG",
+     "xy": [
+      615,
+      37
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TRÌNH < 0,3M. * KHU VỰC TRÊN KHÔNG GIAN TRẦN TREO: CÁP ĐI TRÊN TRẦN ĐƯỢC LUỒN TRONG ỐNG HOẶC BỌC BẰNG VẬT LIỆU CÓ TÍNH CHÁY CH1; LÀ CÁP, DÂY DẪN ĐIỆN CỦA HỆ THỐNG CHIẾU SÁNG, HỆ THỐNG THÔNG TIN => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY TRÊN TRẦN KỸ THUẬT. - ÁP CỰC THẤP => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY CHO THIẾT BỊ ĐIỆN TRÊN TRẦN KỸ THUẬT, BỊ CHE KÍN - DƯỚI 500 W => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY THIẾT BỊ ĐIỆN. -",
+     "xy": [
+      608,
+      47
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỊ CHE KÍN CHỨA HỆ THỐNG ĐIỆN CHIẾU SÁNG VÀ THIẾT BỊ ĐIỆN DÙNG ĐỂ CẤP NGUỒN VỚI NGUỒN ĐIỆN KHÔNG VƯỢT QUÁ ĐIỆN",
+     "xy": [
+      615,
+      85
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ TÍNH TOÁN MẶT NẠ LỌC ĐỘC",
+     "xy": [
+      69,
+      97
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THIẾT BỊ ĐIỆN CHIẾU SÁNG TRONG CÔNG TRÌNH CÓ CÔNG SUẤT DANH ĐỊNH ≤ 100 W VÀ CÁC THIẾT BỊ KHÁC CÓ CÔNG SUẤT DANH ĐỊNH",
+     "xy": [
+      615,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHÔNG CÓ TỦ THỂ TÍCH >3M3 VÀ KHÔNG CÓ TỦ CHỨA CÁC THIẾT BỊ ĐIỆN THỂ TÍCH >1M3 => KHÔNG YÊU CẦU PHẢI LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      615,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUY ĐỊNH LẮP ĐẶT ĐẦU BÁO CHÁY THEO TCVN 7568-14:2025",
+     "xy": [
+      21,
+      608
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỐI ĐA GIỮA ĐẦU BÁO CHÁY",
+     "xy": [
+      299,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Khoảng cách lắp đặt đầu báo cháy:",
+     "xy": [
+      27,
+      690
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHUÔNG ĐÈN KẾT HỢP (Cường độ âm thanh =>65dBA và <105dBA) NÚT NHẤN BÁO CHÁY (Có một không gian trống dạng nửa hình cầu, bán kính 0,6m xung quanh mặt trước của hộp nút nhấn khẩn) CHỮ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CÓ CHIỀU CAO CHỮ 0,025M TRÊN NỀN TƯƠNG PHẢN, CHỮ VIẾT ĐỨNG THẲNG",
+     "xy": [
+      835,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với khu vực có chiều cao trần dưới 4 m, khoảng cách từ bộ phận cảm biến của các đầu báo cháy khói kiểu điểm đến trần từ 0,025 m đến 0,3 m.Khoảng cách từ bộ phận cảm biến đầu báo cháy nhiệt kiểu điểm đến trần hoặc mái nằm trong khoảng từ 0,015 m đến 0,1 m - Đối với khu vực có chiều cao trần từ 4 m đến 15 m, khoảng cách từ bộ phận cảm biến đến trần không quá 0,6 m. - Các đầu báo cháy phải được lắp đặt cách đỉnh mái một khoảng giữa 0,5 m và 1,5 m * Thiết bị chỉ thị bên ngoài nhà và công trình. - Thiết bị chỉ thị được đặt bên ngoài cồng trình được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4 m tính từ mặt đường đi lại. - Từ “FIRE” phải được tích hợp hoặc đặt cạnh đèn chỉ thị đảm bảo chiều cao bằng chữ không nhỏ hơn 0,025 m trên nền tương phản, chữ viết phải đứng thẳng và đọc được một cách rõ ràng. - Thiết bị chỉ thị phải được kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy.",
+     "xy": [
+      27,
+      703
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 15,
+   "ma": "BC-09",
+   "ten": "MẶT BẰNG BÁO CHÁY TẦNG 8",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "* Ghi chú: - Tủ mặt nạ lọc độc được trang bị trên các tầng của khách sạn. Tủ được đặt tại vị trí dễ dàng tiếp cận khi có sự cố cháy xảy ra. - Số lượng mặt nạ phòng độc được tính toán theo số người có mặt đồng thời trong một phòng có diện tích lớn nhất của tầng đó với định mức 01 người/chiếc ( Theo bảng F1. Phụ Lục F, QVCN 10:2025/BCA).",
+     "xy": [
+      26,
+      14
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHỈ THỊ ĐẦU BÁO CHÁY ĐƯỢC QUAN SÁT TỪ CÁC LỐI ĐI. CÔNG TRÌNH KHÔNG CÓ BỀ MẶT TRUNG GIAN NẰM NGANG NHƯ ĐƯỜNG ỐNG, SÀN THAO TÁC GIÁ KỆ. ĐỘ SÂU CỦA DẦM TRONG CÔNG",
+     "xy": [
+      615,
+      37
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TRÌNH < 0,3M. * KHU VỰC TRÊN KHÔNG GIAN TRẦN TREO: CÁP ĐI TRÊN TRẦN ĐƯỢC LUỒN TRONG ỐNG HOẶC BỌC BẰNG VẬT LIỆU CÓ TÍNH CHÁY CH1; LÀ CÁP, DÂY DẪN ĐIỆN CỦA HỆ THỐNG CHIẾU SÁNG, HỆ THỐNG THÔNG TIN => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY TRÊN TRẦN KỸ THUẬT. - ÁP CỰC THẤP => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY CHO THIẾT BỊ ĐIỆN TRÊN TRẦN KỸ THUẬT, BỊ CHE KÍN - DƯỚI 500 W => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY THIẾT BỊ ĐIỆN. -",
+     "xy": [
+      608,
+      47
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỊ CHE KÍN CHỨA HỆ THỐNG ĐIỆN CHIẾU SÁNG VÀ THIẾT BỊ ĐIỆN DÙNG ĐỂ CẤP NGUỒN VỚI NGUỒN ĐIỆN KHÔNG VƯỢT QUÁ ĐIỆN",
+     "xy": [
+      615,
+      85
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ TÍNH TOÁN MẶT NẠ LỌC ĐỘC",
+     "xy": [
+      69,
+      97
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THIẾT BỊ ĐIỆN CHIẾU SÁNG TRONG CÔNG TRÌNH CÓ CÔNG SUẤT DANH ĐỊNH ≤ 100 W VÀ CÁC THIẾT BỊ KHÁC CÓ CÔNG SUẤT DANH ĐỊNH",
+     "xy": [
+      615,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHÔNG CÓ TỦ THỂ TÍCH >3M3 VÀ KHÔNG CÓ TỦ CHỨA CÁC THIẾT BỊ ĐIỆN THỂ TÍCH >1M3 => KHÔNG YÊU CẦU PHẢI LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      615,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUY ĐỊNH LẮP ĐẶT ĐẦU BÁO CHÁY THEO TCVN 7568-14:2025",
+     "xy": [
+      21,
+      608
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỐI ĐA GIỮA ĐẦU BÁO CHÁY",
+     "xy": [
+      299,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Khoảng cách lắp đặt đầu báo cháy:",
+     "xy": [
+      27,
+      690
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHUÔNG ĐÈN KẾT HỢP (Cường độ âm thanh =>65dBA và <105dBA) NÚT NHẤN BÁO CHÁY (Có một không gian trống dạng nửa hình cầu, bán kính 0,6m xung quanh mặt trước của hộp nút nhấn khẩn) CHỮ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CÓ CHIỀU CAO CHỮ 0,025M TRÊN NỀN TƯƠNG PHẢN, CHỮ VIẾT ĐỨNG THẲNG",
+     "xy": [
+      835,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với khu vực có chiều cao trần dưới 4 m, khoảng cách từ bộ phận cảm biến của các đầu báo cháy khói kiểu điểm đến trần từ 0,025 m đến 0,3 m.Khoảng cách từ bộ phận cảm biến đầu báo cháy nhiệt kiểu điểm đến trần hoặc mái nằm trong khoảng từ 0,015 m đến 0,1 m - Đối với khu vực có chiều cao trần từ 4 m đến 15 m, khoảng cách từ bộ phận cảm biến đến trần không quá 0,6 m. - Các đầu báo cháy phải được lắp đặt cách đỉnh mái một khoảng giữa 0,5 m và 1,5 m * Thiết bị chỉ thị bên ngoài nhà và công trình. - Thiết bị chỉ thị được đặt bên ngoài cồng trình được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4 m tính từ mặt đường đi lại. - Từ “FIRE” phải được tích hợp hoặc đặt cạnh đèn chỉ thị đảm bảo chiều cao bằng chữ không nhỏ hơn 0,025 m trên nền tương phản, chữ viết phải đứng thẳng và đọc được một cách rõ ràng. - Thiết bị chỉ thị phải được kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy.",
+     "xy": [
+      27,
+      703
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 16,
+   "ma": "BC-10",
+   "ten": "MẶT BẰNG BÁO CHÁY SÂN THƯỢNG",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN CHỈ THỊ ĐẦU BÁO CHÁY ĐƯỢC QUAN SÁT TỪ CÁC LỐI ĐI. CÔNG TRÌNH KHÔNG CÓ BỀ MẶT TRUNG GIAN NẰM NGANG NHƯ ĐƯỜNG ỐNG, SÀN THAO TÁC GIÁ KỆ. ĐỘ SÂU CỦA DẦM TRONG CÔNG",
+     "xy": [
+      615,
+      37
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TRÌNH < 0,3M. * KHU VỰC TRÊN KHÔNG GIAN TRẦN TREO: CÁP ĐI TRÊN TRẦN ĐƯỢC LUỒN TRONG ỐNG HOẶC BỌC BẰNG VẬT LIỆU CÓ TÍNH CHÁY CH1; LÀ CÁP, DÂY DẪN ĐIỆN CỦA HỆ THỐNG CHIẾU SÁNG, HỆ THỐNG THÔNG TIN => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY TRÊN TRẦN KỸ THUẬT. - ÁP CỰC THẤP => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY CHO THIẾT BỊ ĐIỆN TRÊN TRẦN KỸ THUẬT, BỊ CHE KÍN - DƯỚI 500 W => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY THIẾT BỊ ĐIỆN. -",
+     "xy": [
+      608,
+      47
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỊ CHE KÍN CHỨA HỆ THỐNG ĐIỆN CHIẾU SÁNG VÀ THIẾT BỊ ĐIỆN DÙNG ĐỂ CẤP NGUỒN VỚI NGUỒN ĐIỆN KHÔNG VƯỢT QUÁ ĐIỆN",
+     "xy": [
+      615,
+      85
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THIẾT BỊ ĐIỆN CHIẾU SÁNG TRONG CÔNG TRÌNH CÓ CÔNG SUẤT DANH ĐỊNH ≤ 100 W VÀ CÁC THIẾT BỊ KHÁC CÓ CÔNG SUẤT DANH ĐỊNH",
+     "xy": [
+      615,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHÔNG CÓ TỦ THỂ TÍCH >3M3 VÀ KHÔNG CÓ TỦ CHỨA CÁC THIẾT BỊ ĐIỆN THỂ TÍCH >1M3 => KHÔNG YÊU CẦU PHẢI LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      615,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUY ĐỊNH LẮP ĐẶT ĐẦU BÁO CHÁY THEO TCVN 7568-14:2025",
+     "xy": [
+      21,
+      608
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỐI ĐA GIỮA ĐẦU BÁO CHÁY",
+     "xy": [
+      299,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Khoảng cách lắp đặt đầu báo cháy:",
+     "xy": [
+      27,
+      690
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHUÔNG ĐÈN KẾT HỢP (Cường độ âm thanh =>65dBA và <105dBA) NÚT NHẤN BÁO CHÁY (Có một không gian trống dạng nửa hình cầu, bán kính 0,6m xung quanh mặt trước của hộp nút nhấn khẩn) CHỮ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CÓ CHIỀU CAO CHỮ 0,025M TRÊN NỀN TƯƠNG PHẢN, CHỮ VIẾT ĐỨNG THẲNG",
+     "xy": [
+      835,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với khu vực có chiều cao trần dưới 4 m, khoảng cách từ bộ phận cảm biến của các đầu báo cháy khói kiểu điểm đến trần từ 0,025 m đến 0,3 m.Khoảng cách từ bộ phận cảm biến đầu báo cháy nhiệt kiểu điểm đến trần hoặc mái nằm trong khoảng từ 0,015 m đến 0,1 m - Đối với khu vực có chiều cao trần từ 4 m đến 15 m, khoảng cách từ bộ phận cảm biến đến trần không quá 0,6 m. - Các đầu báo cháy phải được lắp đặt cách đỉnh mái một khoảng giữa 0,5 m và 1,5 m * Thiết bị chỉ thị bên ngoài nhà và công trình. - Thiết bị chỉ thị được đặt bên ngoài cồng trình được nhìn thấy rõ ràng từ các lối đi chính, gần các cửa ra vào. Khi được lắp đặt trên tường, chiều cao tối đa không quá 2,4 m tính từ mặt đường đi lại. - Từ “FIRE” phải được tích hợp hoặc đặt cạnh đèn chỉ thị đảm bảo chiều cao bằng chữ không nhỏ hơn 0,025 m trên nền tương phản, chữ viết phải đứng thẳng và đọc được một cách rõ ràng. - Thiết bị chỉ thị phải được kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy.",
+     "xy": [
+      27,
+      703
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 17,
+   "ma": "BC-11",
+   "ten": "MẶT CẮT ĐIỂN HÌNH LẮP ĐẶT ĐẦU BÁO CHÁY",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "mat_cat",
+   "ghi_chu": [
+    {
+     "chu": "QUY ĐỊNH LẮP ĐẶT ĐẦU BÁO CHÁY THEO TCVN 7568-14:2025",
+     "xy": [
+      630,
+      8
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7568-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH TỐI ĐA GIỮA ĐẦU BÁO CHÁY",
+     "xy": [
+      955,
+      26
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Thuyết minh Báo cháy trên trần: 1. Cáp được luồn trong ống hoặc được bọc bằng vật liệu không cháy hoặc có tình cháy Ch1; 2. Cáp đi trên trần là cáp, dây dẫn điện của hệ thống chiếu sáng, hệ thống thông tin => Kết luận: Công trình thuộc diện không trang bị hệ thống báo cháy tự động, chữa cháy tự động trên trần ( Đảm bảo theo chú thích 2, bảng A2, QCVN10:2025/BCA",
+     "xy": [
+      702,
+      185
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng a2"
+      }
+     ]
+    },
+    {
+     "chu": "Khoảng cách lớn nhất giữa các đầu báo cháy khói",
+     "xy": [
+      636,
+      521
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Khoảng cách lớn nhất giữa các đầu báo cháy nhiệt",
+     "xy": [
+      849,
+      521
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHỈ THỊ ĐẦU BÁO CHÁY ĐƯỢC QUAN SÁT TỪ CÁC LỐI ĐI. CÔNG TRÌNH KHÔNG CÓ BỀ MẶT TRUNG GIAN NẰM NGANG NHƯ ĐƯỜNG ỐNG, SÀN THAO TÁC GIÁ KỆ. ĐỘ SÂU CỦA DẦM TRONG CÔNG",
+     "xy": [
+      606,
+      732
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TRÌNH < 0,3M. * KHU VỰC TRÊN KHÔNG GIAN TRẦN TREO: CÁP ĐI TRÊN TRẦN ĐƯỢC LUỒN TRONG ỐNG HOẶC BỌC BẰNG VẬT LIỆU CÓ TÍNH CHÁY CH1; LÀ CÁP, DÂY DẪN ĐIỆN CỦA HỆ THỐNG CHIẾU SÁNG, HỆ THỐNG THÔNG TIN => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY TRÊN TRẦN KỸ THUẬT. - ÁP CỰC THẤP => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY CHO THIẾT BỊ ĐIỆN TRÊN TRẦN KỸ THUẬT, BỊ CHE KÍN - DƯỚI 500 W => KHÔNG THUỘC DIỆN BỐ TRÍ ĐẦU BÁO CHÁY THIẾT BỊ ĐIỆN. -",
+     "xy": [
+      597,
+      742
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC BỊ CHE KÍN CHỨA HỆ THỐNG ĐIỆN CHIẾU SÁNG VÀ THIẾT BỊ ĐIỆN DÙNG ĐỂ CẤP NGUỒN VỚI NGUỒN ĐIỆN KHÔNG VƯỢT QUÁ ĐIỆN",
+     "xy": [
+      605,
+      781
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT CẮT ĐIỂN HÌNH LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      113,
+      783
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THIẾT BỊ ĐIỆN CHIẾU SÁNG TRONG CÔNG TRÌNH CÓ CÔNG SUẤT DANH ĐỊNH ≤ 100 W VÀ CÁC THIẾT BỊ KHÁC CÓ CÔNG SUẤT DANH ĐỊNH",
+     "xy": [
+      605,
+      801
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHÔNG CÓ TỦ THỂ TÍCH >3M3 VÀ KHÔNG CÓ TỦ CHỨA CÁC THIẾT BỊ ĐIỆN THỂ TÍCH >1M3 => KHÔNG YÊU CẦU PHẢI LẮP ĐẶT ĐẦU BÁO CHÁY",
+     "xy": [
+      605,
+      821
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 10:2025",
+     "bảng a2"
+    ],
+    [
+     "TCVN 7568-14:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 18,
+   "ma": "BC-12",
+   "ten": "CHI TIẾT LẮP ĐẶT HỆ THỐNG BÁO CHÁY",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "Có một không gian trống dạng nửa hình cầu bán kính 0,6 m xung quanh mặt trước của hộp nút ấn báo cháy Đối với còi báo cháy: mức cường độ âm thanh ≥ 65 dBA và ≤ 105 dBA",
+     "xy": [
+      456,
+      32
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Khoảng cách giữa các trung tâm báo cháy và trần nhà bằng vật liệu cháy không được nhỏ hơn 1,0 m",
+     "xy": [
+      294,
+      51
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Tủ trung tâm cách sàn từ ≥ 0,75 m và ≤ 1,85 m - Lắp đặt trên tường, có không gian trống xung quanh mặt trước tủ ≥ 1,5 m",
+     "xy": [
+      293,
+      83
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NẾU KHOANG DẦM CÓ CHIỀU SÂU HƠN 400MM VÀ CHIỀU RỘNG",
+     "xy": [
+      768,
+      114
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HƠN 750MM PHẢI BỐ TRÍ ĐẦU BÁO TRÊN DẦM",
+     "xy": [
+      785,
+      122
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: ĐỐI VỚI CÁC KHU VỰC CÓ THIẾT BỊ ĐIỆN CHIẾU SÁNG HOẶC CÁC THIẾT BỊ KHÁC LẮP ĐẶT TRÊN TRẦN ĐẢM BẢO BÁN KÍNH TỐI THIỂU 0.1M XUNG QUANH ĐẦU BÁO CHÁY. VỊ TRÍ LẮP ĐẶT ĐẦU BÁO CHÁY SAO CHO HẠN CHẾ TỐI ĐA SỰ CHE CHẮN CỦA THIẾT BỊ CHIẾU SÁNG HOẶC THIẾT BỊ KHÁC ĐỐI VỚI KHẢ NĂNG PHÁT HIỆN KHÓI/NHIỆT CỦA ĐẦU BÁO",
+     "xy": [
+      645,
+      295
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHOẢNG TRỐNG BÁN KÍNH TỐI THIỂU 0.1M KHOẢNG TRỐNG ĐỘ SÂU TỐI THIỂU 0.6M ĐẢM BẢO THEO ĐIỀU 5.8.2.1.1 TCVN 568-14:2025",
+     "xy": [
+      622,
+      369
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 568-14:2025",
+       "dieu": "điều 5.8.2.1.1"
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH BỘ PHẬN CẢM BIẾN CỦA ĐẦU BÁO CHÁY ĐIỂM ĐẾN TRẦN",
+     "xy": [
+      214,
+      416
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỪ \"FIRE\" ĐẶT CẠNH ĐÈN CHỈ THỊ CHIỀU CAO CHỮ 100MM, CHỮ ĐƯỢC ĐẶT TRÊN NỀN TƯƠNG PHẢN ( NỀN VÀNG CHỮ ĐỎ)",
+     "xy": [
+      94,
+      580
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN BÁO CHỈ THỊ KẾT NỐI VỚI TỦ BÁO CHÁY TRUNG TÂM",
+     "xy": [
+      52,
+      610
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: Đèn báo cháy gian phòng : được lắp đặt trên tường, chiều cao tối đa không quá 2,4m.có kết nối với tín hiệu ra giám sát của tủ trung tâm báo cháy",
+     "xy": [
+      179,
+      646
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐIỂN HÌNH CHỐNG CHÁY LAN ỐNG KỸ THUẬT XUYÊN TƯỜNG / SÀN",
+     "xy": [
+      290,
+      792
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHỈ THỊ NGOÀI NHÀ VÀ CÔNG TRÌNH",
+     "xy": [
+      45,
+      807
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 568-14:2025",
+     "điều 5.8.2.1.1"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 19,
+   "ma": "BC-13",
+   "ten": "TÍNH TOÁN ACQUY TỦ TRUNG TÂM BÁO CHÁY",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: Các thông số IA(A) thiết bị và IQ(A) được tra cứu, tham chiếu từ CATALOG của nhà sản xuất.",
+     "xy": [
+      24,
+      44
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "=> Dung lượng của ác quy, dòng điện nạp và nguồn cấp điện trung tâm báo cháy đã được tính toán đảm bảo Phụ lục C TCVN 7568:14-2025. Trung tâm của hệ thống báo cháy có hai nguồn điện độc lập: Một nguồn 220 V xoay chiều và một nguồn là ắc quy dự phòng. Dung lượng của ắc quy dự phòng bảo đảm ít nhất 24 h cho thiết bị hoạt động ở chế độ thường trực và 1 giờ khi có cháy Ắc quy làm nguồn điện được nạp điện tự động Chọn Ắc quy có dung lượng (7.5AH; 24V) cho tủ trung tâm báo cháy.",
+     "xy": [
+      32,
+      661
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 20,
+   "ma": "BC-13",
+   "ten": "TÍNH TOÁN NGUỒN ĐIỆN PCCC",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay",
+    "m13-cap-dien"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 21,
+   "ma": "BC-14",
+   "ten": "SƠ ĐỒ NGUYÊN LÍ CẤP ĐIỆN PCCC",
+   "hang_muc": "BÁO CHÁY",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "Ghi chú yêu cầu về cắt điện khi có xảy ra sự cố cháy, nổ : - Tín hiệu của hệ thống báo cháy tự động điều khiển nguồn điện lưới tự động dừng cấp điện cho các hệ thống điện sinh hoạt, phụ tải và duy trì nguồn điện cho các hệ thống phòng cháy, chữa cháy hoạt động.",
+     "xy": [
+      115,
+      28
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nhận Tín hiệu từ tủ trung tâm báo cháy",
+     "xy": [
+      265,
+      339
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ghi chú: - Dây dẫn và cáp cấp điện cho các phụ tải phục vụ công tác PCCC khi xảy ra hỏa hoạn phải dùng dây dẫn và cáp điện có lớp vỏ là vật liệu chống cháy. - Hệ thống điện được thiết kế theo QCVN 12:2014/BXD; TCVN 9206-2016, TCVN 2622 - 1995, TCVN 9207 - 2012, QCVN 06-2022/BXD và Sửa đổi 1-2023 - Khi có tín hiệu báo cháy, ngắt điện sinh hoạt thì hệ thống phòng cháy chữa cháy vẫn hoạt động bình thường. - Các tủ trung tâm báo cháy sử dụng 1 nguồn điện chính từ lưới điện, 01 nguồn dự phòng từ ắc quy đảm bảo hoạt động 24 giờ khi không có cháy và 1 giờ khi có cháy. - Hệ thống bơm : Sử dụng 01 bơm điện sử dụng nguồn điện từ lưới điện, 01 máy bơm Diesel (dự phòng)",
+     "xy": [
+      178,
+      725
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 12:2014",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 12:2014",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "BÁO CHÁY",
+   "agent": [
+    "m11-bao-chay",
+    "m13-cap-dien"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 22,
+   "loai": "bia",
+   "phan": "ĐÈN EX - EM",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 23,
+   "ma": "EX-01",
+   "ten": "MẶT BẰNG ĐÈN EX - EM TẦNG HẦM",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN EXIT: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Đèn sáng liên tục khi ở trạng thái bình thường. - Đèn có chữ exit chỉ dẫn thoát nạn và mũi tên chỉ dẫn. - Sạc tự động, tự ngắt sạc khi đầy. ĐÈN SỰ CỐ: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Ở trạng thái bình thường đèn ở trạng thái sạc điện. - Sạc tự động, tự ngắt sạc khi đầy. - Đèn có nút test sáng. đèn chiếu sáng có độ sáng không nhỏ hơn 10lux.",
+     "xy": [
+      26,
+      659
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Các đèn chiếu sáng sự cố lắp đặt tại hành lang đảm bảo chiếu sáng đủ tầm nhìn thấy các thiết bị như: nút nhấn báo cháy, bình chữa cháy và tủ dụng cụ phá dỡ thô sơ khi có sự cố cháy xảy ra",
+     "xy": [
+      27,
+      802
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 24,
+   "ma": "EX-02",
+   "ten": "MẶT BẰNG ĐÈN EX - EM TẦNG 1",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN EXIT: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Đèn sáng liên tục khi ở trạng thái bình thường. - Đèn có chữ exit chỉ dẫn thoát nạn và mũi tên chỉ dẫn. - Sạc tự động, tự ngắt sạc khi đầy. ĐÈN SỰ CỐ: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Ở trạng thái bình thường đèn ở trạng thái sạc điện. - Sạc tự động, tự ngắt sạc khi đầy. - Đèn có nút test sáng. đèn chiếu sáng có độ sáng không nhỏ hơn 10lux.",
+     "xy": [
+      26,
+      659
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Các đèn chiếu sáng sự cố lắp đặt tại hành lang đảm bảo chiếu sáng đủ tầm nhìn thấy các thiết bị như: nút nhấn báo cháy, bình chữa cháy và tủ dụng cụ phá dỡ thô sơ khi có sự cố cháy xảy ra",
+     "xy": [
+      27,
+      802
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 25,
+   "ma": "EX-03",
+   "ten": "MẶT BẰNG ĐÈN EX - EM TẦNG 2",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN EXIT: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Đèn sáng liên tục khi ở trạng thái bình thường. - Đèn có chữ exit chỉ dẫn thoát nạn và mũi tên chỉ dẫn. - Sạc tự động, tự ngắt sạc khi đầy. ĐÈN SỰ CỐ: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Ở trạng thái bình thường đèn ở trạng thái sạc điện. - Sạc tự động, tự ngắt sạc khi đầy. - Đèn có nút test sáng. đèn chiếu sáng có độ sáng không nhỏ hơn 10lux.",
+     "xy": [
+      26,
+      659
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Các đèn chiếu sáng sự cố lắp đặt tại hành lang đảm bảo chiếu sáng đủ tầm nhìn thấy các thiết bị như: nút nhấn báo cháy, bình chữa cháy và tủ dụng cụ phá dỡ thô sơ khi có sự cố cháy xảy ra",
+     "xy": [
+      27,
+      802
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 26,
+   "ma": "EX-04",
+   "ten": "MẶT BẰNG ĐÈN EX - EM TẦNG 3,4,5",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN EXIT: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Đèn sáng liên tục khi ở trạng thái bình thường. - Đèn có chữ exit chỉ dẫn thoát nạn và mũi tên chỉ dẫn. - Sạc tự động, tự ngắt sạc khi đầy. ĐÈN SỰ CỐ: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Ở trạng thái bình thường đèn ở trạng thái sạc điện. - Sạc tự động, tự ngắt sạc khi đầy. - Đèn có nút test sáng. đèn chiếu sáng có độ sáng không nhỏ hơn 10lux.",
+     "xy": [
+      30,
+      660
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Các đèn chiếu sáng sự cố lắp đặt tại hành lang đảm bảo chiếu sáng đủ tầm nhìn thấy các thiết bị như: nút nhấn báo cháy, bình chữa cháy và tủ dụng cụ phá dỡ thô sơ khi có sự cố cháy xảy ra",
+     "xy": [
+      31,
+      802
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 27,
+   "ma": "EX-05",
+   "ten": "MẶT BẰNG ĐÈN EX - EM TẦNG 6",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN EXIT: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Đèn sáng liên tục khi ở trạng thái bình thường. - Đèn có chữ exit chỉ dẫn thoát nạn và mũi tên chỉ dẫn. - Sạc tự động, tự ngắt sạc khi đầy. ĐÈN SỰ CỐ: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Ở trạng thái bình thường đèn ở trạng thái sạc điện. - Sạc tự động, tự ngắt sạc khi đầy. - Đèn có nút test sáng. đèn chiếu sáng có độ sáng không nhỏ hơn 10lux.",
+     "xy": [
+      30,
+      660
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Các đèn chiếu sáng sự cố lắp đặt tại hành lang đảm bảo chiếu sáng đủ tầm nhìn thấy các thiết bị như: nút nhấn báo cháy, bình chữa cháy và tủ dụng cụ phá dỡ thô sơ khi có sự cố cháy xảy ra",
+     "xy": [
+      31,
+      802
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 28,
+   "ma": "EX-06",
+   "ten": "MẶT BẰNG ĐÈN EX - EM TẦNG 7",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN EXIT: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Đèn sáng liên tục khi ở trạng thái bình thường. - Đèn có chữ exit chỉ dẫn thoát nạn và mũi tên chỉ dẫn. - Sạc tự động, tự ngắt sạc khi đầy. ĐÈN SỰ CỐ: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Ở trạng thái bình thường đèn ở trạng thái sạc điện. - Sạc tự động, tự ngắt sạc khi đầy. - Đèn có nút test sáng. đèn chiếu sáng có độ sáng không nhỏ hơn 10lux.",
+     "xy": [
+      30,
+      660
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Các đèn chiếu sáng sự cố lắp đặt tại hành lang đảm bảo chiếu sáng đủ tầm nhìn thấy các thiết bị như: nút nhấn báo cháy, bình chữa cháy và tủ dụng cụ phá dỡ thô sơ khi có sự cố cháy xảy ra",
+     "xy": [
+      31,
+      802
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 29,
+   "ma": "EX-07",
+   "ten": "MẶT BẰNG ĐÈN EX - EM TẦNG 8",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN EXIT: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Đèn sáng liên tục khi ở trạng thái bình thường. - Đèn có chữ exit chỉ dẫn thoát nạn và mũi tên chỉ dẫn. - Sạc tự động, tự ngắt sạc khi đầy. ĐÈN SỰ CỐ: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Ở trạng thái bình thường đèn ở trạng thái sạc điện. - Sạc tự động, tự ngắt sạc khi đầy. - Đèn có nút test sáng. đèn chiếu sáng có độ sáng không nhỏ hơn 10lux.",
+     "xy": [
+      30,
+      660
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Các đèn chiếu sáng sự cố lắp đặt tại hành lang đảm bảo chiếu sáng đủ tầm nhìn thấy các thiết bị như: nút nhấn báo cháy, bình chữa cháy và tủ dụng cụ phá dỡ thô sơ khi có sự cố cháy xảy ra",
+     "xy": [
+      31,
+      802
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 30,
+   "ma": "EX-08",
+   "ten": "MẶT BẰNG ĐÈN EX - EM SÂN THƯỢNG",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN EXIT: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Đèn sáng liên tục khi ở trạng thái bình thường. - Đèn có chữ exit chỉ dẫn thoát nạn và mũi tên chỉ dẫn. - Sạc tự động, tự ngắt sạc khi đầy. ĐÈN SỰ CỐ: - Có nguồn điện dự phòng đảm bảo sáng 2h khi có sự cố cháy và khi mất điện. - Ở trạng thái bình thường đèn ở trạng thái sạc điện. - Sạc tự động, tự ngắt sạc khi đầy. - Đèn có nút test sáng. đèn chiếu sáng có độ sáng không nhỏ hơn 10lux.",
+     "xy": [
+      30,
+      660
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Các đèn chiếu sáng sự cố lắp đặt tại hành lang đảm bảo chiếu sáng đủ tầm nhìn thấy các thiết bị như: nút nhấn báo cháy, bình chữa cháy và tủ dụng cụ phá dỡ thô sơ khi có sự cố cháy xảy ra",
+     "xy": [
+      31,
+      802
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 31,
+   "ma": "EX-09",
+   "ten": "THUYẾT MINH HỆ THỐNG ĐÈN EX - EM",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "QCVN 10:2025/BCA: Quy chuẩn kỹ thuật quốc gia về trang bị, bố trí phương tiện PCCC và CNCH cho nhà và công trình. TCVN 13456:2022 Phòng cháy chữa cháy – Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn – Yêu cầu thiết kế, lắp đặt.",
+     "xy": [
+      145,
+      51
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Việc thiết kế, lắp đặt phương tiện chiếu sáng và chỉ dẫn thoát nạn phải tuân thủ các yêu cầu, quy định của các quy chuẩn, tiêu chuẩn, quy phạm hiện hành. Đèn chiếu sáng sự cố và biển báo an toàn có nguồn điện dự phòng phải đảm bảo thời gian hoạt động ổn định liên tục tối thiểu 120 phút khi có sự cố cháy, nổ Biển báo an toàn phải được nhìn thẫy rõ ràng các chứ \"LỐI RA\" hoặc chữ \"EXIT\", ký hiệu hình hóc khác thích hợp. Màu sắc của biển báo an toàn: màu nền là màu xanh lá",
+     "xy": [
+      146,
+      94
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "cây, màu chữ và ký hiệu hình học là màu trắng.",
+     "xy": [
+      114,
+      138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn phải được lựa chọn, trang bị phù hợp để đảm bảo tầm nhìn thoát nạn, chỉ thị rõ ràng đường thoát nạn, cảnh báo những",
+     "xy": [
+      145,
+      153
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "vị trí có nguy cơ gây nguy hiểm trong quá trình thoát nạn và nhận biết các vị trí trang bị các thiết bị phòng cháy và chữa cháy. Thuyết minh lắp đặt: Lắp đặt đèn chiếu sáng sự cố và biển báo an toàn phải phù hợp theo quy định của TCVN 7722-2-22:2013. Khi lắp đặt đèn chiếu sáng sự cố và biển báo an toàn trong nhà, công trình, hạng mục công trình có nguy hiểm về nổ hoặc độ ẩm cao phải sử dụng các đèn, biển báo có khả năng chống nổ hoặc chống ẩm",
+     "xy": [
+      114,
+      168
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7722-2-22:2013",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Phương tiện chiếu sáng sự cố: Đối với chiếu sáng sự cố đường thoát nạn: có chiều rộng đến 2m, thì độ rọi trung bình theo phương nằm ngang trên mặt sàn dọc theo tâm của đường thoát nạn phải lớn",
+     "xy": [
+      145,
+      228
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "hơn hoặc bằng 1 lux và ở dải giữa với chiều rộng lớn hơn hoặc bằng một nửa chiều rộng của đường thoát nạn phải được chiếu sáng tối thiểu 50% giá trị đó.",
+     "xy": [
+      114,
+      257
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với chiếu sáng sự cố gian phòng: Độ rọi trung bình theo phương nằm ngang không được nhỏ hơn 0.5 lux tại mặt sàn tại mọi điểm lõi của khoảng trống, không bao gồm",
+     "xy": [
+      146,
+      272
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tỉ lệ giữa độ rọi lớn nhất và độ rọi nhỏ nhất dọc theo đường tâm của đường thoát nạn và chiếu sáng khoảng trống ( chống hoảng loạn) không được lớn hơn 40:1 Phải đảm bảo giảm thiểu nguy cơ gây lóa tạm thời bằng cách hạn chế cường độ sáng ở giai đoạn phát sáng cực đại trong chế độ hoạt động khi có sự cố của mỗi đèn",
+     "xy": [
+      145,
+      302
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": ". Đối với việc chiếu sáng đường thoát nạn theo phương ngang so với mặt sàn,chiếu sáng gian phòng và chiếu sáng các phương tiện phòng cháy và chữa cháy, cường độ",
+     "xy": [
+      145,
+      347
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "chiếu sáng của các đèn trong phạm vi góc chiếu từ 60° đến 90° không được vượt quá giá trị quy định tại Bảng 1.",
+     "xy": [
+      114,
+      362
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": ". Đối với đường thoát nạn khác, cường độ chiếu sáng của các đèn không được vượt quá giá trị tại Bảng 1 ở bất kỳ góc chiếu nào. Các tủ trung tâm báo cháy, nút nhấn báo cháy và phương tiện chữa cháy phải được chiếu sáng đầy đủ để có thể dễ dàng xác định vị trí và nếu không nằm trên đường",
+     "xy": [
+      145,
+      376
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thoát nạn hoặc không nằm trong một phạm vi khoảng trống thì phải được chiếu sáng tối thiểu 5 Lux tại mặt sàn.",
+     "xy": [
+      114,
+      406
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Chỉ dẫn thoát nạn: Biển báo chỉ dẫn lối thoát nạn ở tất cả các lối dẫn tới đường thoát nạn. Trường hợp biển chỉ dẫn thoát nạn bị che khuất tầm nhìn cần trang bị bổ sung biển chỉ hướng. Vị trí lắp đặt giữa các biển báo an toàn ( không bao gồm biển báo an toàn tầm thấp ) phải đảm bảo khoảng cách không lớn hơn 25m. Biển báo an toàn ( không bao gồm",
+     "xy": [
+      145,
+      421
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "biển báo an toàn tầm thấp) phải lắp đặt ở độ cao từ 2-2.7m so với sàn hoàn thiện hoặc ngay trên đầu cửa có chiều cao lớn hơn 2.7m. Các khu vực không được bảo vệ chống khói khiến khói tích tụ thì biển báo an toàn nên được gắn thấp hơn trần nhà tối thiểu 0.5m. Không được lắp biển báo an toàn được chiếu sáng từ bên ngoài",
+     "xy": [
+      114,
+      466
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lắp đặt biển báo chỉ dẫn thoát nạn tầm thấp cách sàn 1 khoảng từ 150-200mm & khoảng cách giữa 2 biển báo chỉ dẫn thoát nạn tầm thấp tối đa 10m",
+     "xy": [
+      145,
+      495
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tại các tầng có diện tích lớn hơn 1000m2 hoặc có từ 2 lối thoát nạn trở lên phải có sơ đồ chỉ dẫn thoát nạn.Nằm tại độ cao 1.5±0.2m so với mặt sàn hoàn thiện.",
+     "xy": [
+      114,
+      510
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Sơ đồ chỉ dẫn thoát nạn gồm 2 phần: phần bằng chữ và phần ký hiệu hình học. Sơ đồ chỉ dẫn thoát nạn phải được niêm yết tại vị trí dễ nhận biết, dễ thấy và vị trí có người",
+     "xy": [
+      145,
+      525
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ + Kích thước của sơ đồ chỉ dẫn thoát nạn phụ thuộc vào đặc tính, tính chất hoạt động, diện tích của tầng, phòng; phương án thoát nạn nhưng không được nhỏ hơn: 600x400 mm - đối với sơ đồ chỉ dẫn tại tầng; 400x300 mm - đối với sơ đồ chỉ dẫn tại phòng.",
+     "xy": [
+      122,
+      553
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phần ký hiệu hình học bao gồm mặt bằng tầng, lối ra chỉ hướng thoát nạn, cầu thang bộ, vị trí sơ đồ tại tầng , vị trí đặt phương tiện, thiết bị chữa cháy và cứu nạn, cứu hộ. Phần chỉ dẫn bằng chứ gồm nội dung và trình tự xử lý khi có cháy.",
+     "xy": [
+      145,
+      553
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Tính toán độ rọi cho đường thoát nạn tầng 1 (theo phương pháp chung đều): E=ksd*Φ/S Trong đó: Φ: tổng quang thông của 10 bộ đèn thoát nạn 10w =10*10*100=10.000 (lm) S: là tổng diện tích lối thoát nạn = 1601,7m2 Ksd: Chọn hệ số sử dụng là 0,4 QTTSP < Q tối thiểu + Vậy: E=0,4*10.000/820 = 12, 19 (lux) - Trong đó: H : chiều cao nhỏ nhất cho phép của biển báo an toàn L : khoảng cách quan sát (m), căn cứ bản vẽ chọn khoảng cách bất lợi nhất là 85m Z: Vậy: H=L/Z=30/200=0.15m.",
+     "xy": [
+      138,
+      651
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Tính toán độ chói lóa : L= Φ/Φ/Steradian Trong đó: L: Độ chói lóa của đèn Φ: quang thông của 1 bộ đèn thoát nạn 10w =10*100=1.000 (lm) Steradian: đèn lắp trên tường có góc steradian là 1/2 hình cầu, vậy Steradian = 2Π + Vậy: L = 1000/(2Π) = 159cd Căn cứ điều 5.1 TCVN 13456:2022 bảng 1, lắp đặt đèn chiều sáng sự cố ở cao độ 2.6m có độ chói lóa cho phép là 900cd. Vậy phương án thiết kế đèn chiếu sáng sự cố phù hợp TCVN 13456:2022",
+     "xy": [
+      502,
+      652
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": "điều 5.1"
+      },
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Tại các vị trí bình chửa cháy + tủ chữa cháy bằng nước + nút nhấn, bố trí đèn chiếu sáng sự cố trực tiếp tại các vị trí này có độ rọi trung bình như tính toán ở trên, cụ thể là 13 lux . Đèn chỉ dẫn thoát nạn",
+     "xy": [
+      693,
+      656
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán chiều cao nhỏ nhất cho phép của biển báo an toàn: H= L/Z",
+     "xy": [
+      168,
+      745
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "hằng số, trong đó Z=200 áp dụng cho các biển báo nhìn từ bên trong",
+     "xy": [
+      167,
+      800
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 10:2025",
+     ""
+    ],
+    [
+     "TCVN 13456:2022",
+     ""
+    ],
+    [
+     "TCVN 13456:2022",
+     "điều 5.1"
+    ],
+    [
+     "TCVN 7722-2-22:2013",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 32,
+   "ma": "EX-10",
+   "ten": "CHI TIẾT LẮP ĐẶT HỆ THỐNG ĐÈN EX - EM",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "VÙNG CHIẾU SÁNG GIAN PHÒNG TỐI THIỂU 0,5 LUX",
+     "xy": [
+      513,
+      78
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT CHIẾU SÁNG SỰ CỐ GIAN PHÒNG",
+     "xy": [
+      544,
+      136
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÙNG CÓ NGUY CƠ LÓA TẠM THỜI ĐỐI VỚI ĐƯỜNG THOÁT NẠN THEO PHƯƠNG NGANG",
+     "xy": [
+      47,
+      145
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÙNG CÓ NGUY CƠ LÓA TẠM THỜI ĐỐI VỚI",
+     "xy": [
+      251,
+      153
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐÈN CHIẾU SÁNG SỰ CỐ",
+     "xy": [
+      856,
+      191
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN GỒM 2 PHẦN: PHẦN CHỈ DẪN BẰNG CHỮ VÀ KÍ HIỆU BẰNG HÌNH HỌC: - PHẦN KÍ HIỆU HÌNH HỌC BAO GỒM MẶT BẰNG CỦA TẦNG; LỐI RA VÀ CHỈ HƯỚNG THOÁT NẠN; CẦU THANG BỘ; VỊ TRÍ CỦA SƠ ĐỒ TẠI TẦNG; VỊ TRÍ LẮP ĐẶT PHƯƠNG TIỆN; THIẾT BỊ CHỮA CHÁY VÀ CỨU NẠN, CỨU HỘ KÍ HIỆU PHÙ HỢP VỚI QUY ĐỊNH TẠI (TCVN 13456:2022) - PHẦN CHỈ DẪN BẰNG CHỮ GỒM CÁC NỘI DUNG VÀ TRÌNH TỰ XỬ LÝ KHI CÓ CHÁY",
+     "xy": [
+      259,
+      205
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "ĐỘ RỌI TẠI TÂM ĐƯỜNG THOÁT NẠN KHÔNG NHỎ HƠN 1 LUX",
+     "xy": [
+      438,
+      210
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐỘ RỌI GIỮ ĐƯỜNG THOÁT NẠN VỚI CHIỀU RỘNG KHÔNG NHỎ HƠN MỘT NỬA CHIỀU RỘNG ĐƯỜNG THOÁT NẠN PHẢM ĐẢM BẢO TỐI THIỂU 0,5 LUX",
+     "xy": [
+      613,
+      210
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐỘ RỌI CHIẾU SÁNG SỰ CỐ CÓ",
+     "xy": [
+      551,
+      344
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN TẠI TẦNG",
+     "xy": [
+      34,
+      368
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN TẠI PHÒNG",
+     "xy": [
+      157,
+      368
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐÈN CHIẾU SÁNG SỰ CỐ",
+     "xy": [
+      855,
+      409
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH BIỂN BÁO AN TOÀN TẦNG THẤP",
+     "xy": [
+      153,
+      573
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐÈN CHIẾU SÁNG SỰ CỐ",
+     "xy": [
+      865,
+      590
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHÚ THÍCH: CÁC GIÁ TRỊ ĐƯỢC SO SÁNH VỚI DỮ LIỆU ĐÈN ĐIỆN",
+     "xy": [
+      475,
+      593
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐÈN EXIT & EM GẮN TƯỜNG TRÊN ĐẦU CỬA DƯỚI TRẦN",
+     "xy": [
+      332,
+      797
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "& EM GẮN TƯỜNG TRÊN ĐẦU CỬA DƯỚI SÀN",
+     "xy": [
+      74,
+      809
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 13456:2022",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [
+    "D20"
+   ],
+   "cao_pccc_m": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 33,
+   "loai": "bia",
+   "phan": "CHỮA CHÁY",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 34,
+   "ma": "CC-01",
+   "ten": "THUYẾT MINH HỆ THỐNG CHỮA CHÁY",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "Bộ phận điều khiển đặt bên ngoài nhà và cách chất cháy 2m. Được bảo vệ bằng lưới bảo vệ. Áp suất làm việc tối đa của thiết bị trong bộ điều khiển không được nhỏ hơn giá trị tính toán. Các bộ điều khiển cần đảm bảo:",
+     "xy": [
+      610,
+      23
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- QCVN 10:2025/BCA Quy chuẩn Kỹ thuật Quốc Gia về trang bị, bố trí phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho nhà và công trình. - TCVN 7336:2021 Phòng cháy chữa cháy – Hệ thống chữa cháy tự động bằng nước, bọt – Yêu cầu thiết kế; - TCVN 4513:1988 Cấp nước bên trong tiêu chuẩn thiết kế; - TCVN 5740:2023 Phương tiện PCCC – Vòi đẩy chữa cháy – Vòi đẩy bằng sợi tổng hợp tráng cao su;",
+     "xy": [
+      60,
+      56
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 4513:1988",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 5740:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "+ Cung cấp nước (dung dịch chất tạo bọt) để chữa cháy;- Điền đầy nước cho đường ống chính và phân",
+     "xy": [
+      637,
+      61
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ Thoát nước từ đường ống chính và phân phối; + Bù trừ sự rò rỉ nước từ hệ thống chữa cháy; + Tạo tín hiệu khi van báo động được kích hoạt; + Kiểm tra trạng thái và kiểm tra tín hiệu khi bộ điều khiển được kích hoạt;- Đo áp suất trước và sau bộ",
+     "xy": [
+      637,
+      86
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "điều khiển. Để hạn chế báo động sai của các van báo động trong hệ thống Sprinkler dạngướt, cho phép lắp đặt bình làm trễ trước công tắc áp lực hoặc đặt thời gian trễ đầu ra tín hiệu từ 3 s đến 5 s (nếu hệ thống được thiết kế báo động theo áp suất).đảm bảo Điểm 5.6.6, TCVN 7336. Dự án thiết kế cụm van báo động, Trường hợp khi sử dụng công tắc dòng chảy trong bộ điều khiển thay van báo động hoặc khi sử dụng chính các tiếp điểm của công tắc dòng chảy để truyền tín hiệu kích hoạt bơm chữa cháy, cần cài đặt thời gian trễ từ 3 s đến 5 s và bảo đảm có tối thiểu 02 tín hiệu từ công tắc dòng chảy. CHÚ THÍCH: Việc loại trừ kích hoạt giả của công tắc dòng chảy phải được kiểm tra trong quá trình chạy thử hệ thống chữa cháy. Ban đầu đặt thời gian trễ tối thiểu, nếu xảy ra kích hoạt giả thì tăng thời gian trễ lên. Các van khóa trong bộ điều khiển được lắp đặt:",
+     "xy": [
+      610,
+      135
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Khoảng cách các đai giữ đường ống có đường kính danh định không quá DN50 phải được lắp đặt với",
+     "xy": [
+      50,
+      138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "khoảng cách không quá 4m. Đối với các đường ống có đường kính danh định lớn hơn DN50, có thể tăng khoảng cách giữa các đai lên đến 6m.",
+     "xy": [
+      58,
+      149
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Khoảng cách từ đai giữ đến đầu phun cuối cùng khống lớn hơn 0.9m đối với đường ống phân phối có",
+     "xy": [
+      50,
+      180
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "đường kính DN25 trở xuống và không lớn hơn 1,2m đối với đường ống phân phối có đường kính lớn hơn DN25.",
+     "xy": [
+      58,
+      190
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Đường ống sprinkler được sơn màu đỏ và đánh số \"1\"",
+     "xy": [
+      50,
+      229
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Nguồn điện cấp cho hệ thống chữa cháy, báo cháy, chiếu sáng và chỉ dẫn thoát nạn,...được thiết kế",
+     "xy": [
+      49,
+      253
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Trước van báo động trong hệ thống chữa cháy Sprinkler; Trước và sau van báo động trong hệ thống Drencher và Sprinkler-Drencher; Trong hệ thống chữa cháy ướt và khô, cho phép lắp đặt van khóa phía sau van báo động khi các",
+     "xy": [
+      659,
+      260
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "riêng biệt để duy trì hoạt động các bộ phận thiết yếu làm việc ở mọi thời điểm, mọi điều khiện. Cáp điện sử dụng cho các hệ thống nêu trên sử dụng loại cáp chống cháy.",
+     "xy": [
+      56,
+      264
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "van này được giám sát trạng thái đóng - mở, tín hiệu giám sát được truyền về phòng có người trực thường xuyên.",
+     "xy": [
+      580,
+      298
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Màu sắc phân biệt của các bảng ký hiệu chỉ hướng chuyển động của chất chữa cháy và số ký hiệu là màu trắng. Các bảng ký hiệu và số ký hiệu đường ống phải được bố trí tại các điểm kết nối quan trọng nhất ( tại đầu vào và đầu ra của máy bơm chữa cháy, tại đầu vào và đầu ra của đường ống cấp, trên các nhánh, tại các kết nối, tại các thiết bị khóa mà qua đó nước được cung cấp cho đường ống chính, đường ống cấp tại những nơi mà đường ống đi qua các bức tường, vách ngăn, tại các lối vào của các tòa nhà và ở những nơi khác cần thiết để nhận biết đường ống chữa cháy).",
+     "xy": [
+      64,
+      307
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Trường hợp vị trí mô tơ điện (đối với van điều khiển bằng điện) hoặc tay vancách sàn trên 1,4 m, phải bố trí bậc hoặc sàn",
+     "xy": [
+      577,
+      317
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thao tác, có chiều cao đến mô tơ điện hoặc tay van không quá 1 m.",
+     "xy": [
+      585,
+      329
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Cho phép lắp đặt thiết bị và phụ kiện thủy lực dưới sàn thao tác khi khoảngcách từ sàn (hoặc cầu) đến phần dưới của các",
+     "xy": [
+      577,
+      340
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "kết cấu nhô ra không nhỏ hơn 1,8 m. Trong trường hợp này, tấm che di động hoặc lỗ mở của sàn phải được bố trí phía trên thiết bị và phụ kiện.",
+     "xy": [
+      585,
+      352
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Thiết bị khởi động hệ thống chữa cháy phải được bảo vệ khỏi việc kích hoạtngoài ý muốn. - Việc bố trí hệ thống chữa cháy phải đảm bảo việc tháo dỡ các thiết bị đo đểkiểm tra mà không làm gián đoạn quá trình",
+     "xy": [
+      577,
+      374
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Áp suất tối đa tại đầu phun không vượt quá 1MPa, khi kết hợp hệ thống chữa cháy sprinkler với hệ",
+     "xy": [
+      53,
+      394
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Tại vị trí phòng trực điều khiển chống cháy hiện hữu có người trực suốt ngày đêm phải đảm bảo được trang bị:",
+     "xy": [
+      577,
+      409
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thống họng nước chữa cháy trong nhà thì áp suất họng nước không vượt quá 0,4Mpa.",
+     "xy": [
+      62,
+      411
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Về việc khởi động máy bơm; Về việc hệ thống hoạt động và xác định vị trí chữa cháy. CHÚ THÍCH: Cần có",
+     "xy": [
+      622,
+      430
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Đường ống chính và phân phối phải lắp đặt dốc về phía bộ điều khiển hoặc các thiết bị thoát nước, tối thiểu:",
+     "xy": [
+      53,
+      436
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "tín hiệu cảnh báo âm thanh dạng ngắn đối với: Việc vô hiệu hóa chế độ tự động khởi động máy bơm và hệ thống; Các lỗi hệ thống theo quy định tại 7.1.1, g), mất nguồn chính và nguồn dự phòng, van khóa chưa được mở hết đối với van điện khi có chế độ giám sát trạng thái mở, lỗi mạch điện của van điện, mực nước và áp suất không khí dưới mức cho phép (tín hiệu chung);Báo động mực nước bể nước chữa cháy, bồn chất tạo bọt (tín hiệu chung); b) Tín hiệu ánh sáng về trạng thái đóng mở của các van điện được lắp đặt trên đường ống chính.",
+     "xy": [
+      604,
+      441
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1% đối với đường ống có đường kính danh định nhỏ hơn DN 50; 0,5% đối với đường ống có đường kính danh định từ DN 50 trở lên.",
+     "xy": [
+      79,
+      448
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Khoảng cách giữa đường ống và tường nhà không được nhỏ hơn 2 cm Đường ống phải được gắn bởi các thiết bị giữ trực tiếp với kết cấu của tòa nhà và không được phép sử dụng chúng để trợ lực cho các cấu trúc khác.",
+     "xy": [
+      77,
+      479
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MỤC 5.1.12 (TCVN 7336: 2021) - PHẢI DỰ PHOØNG TỐI THIỂU SỐ LƯỢNG ĐẦU PHUN SPRINKLER CỦA HỆ THỐNG CHỮA CHAÙY TỰ ĐỘNG:",
+     "xy": [
+      599,
+      484
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": "mục 5.1.12"
+      }
+     ]
+    },
+    {
+     "chu": "Đầu phun Sprinkler Số lượng đầu phun dự phòng theo quy định",
+     "xy": [
+      601,
+      517
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Các đai giữ đường ống có đường kính danh định không quá DN 50 phải đượclắp đặt với khoảng cách không quá 4 m. Đối với các đường ống có đường kính danh định lớn hơn DN 50, có thể tăng khoảng cách giữa các đai giữ lên đến 6 m",
+     "xy": [
+      78,
+      525
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Cần thực hiện các biện pháp để ngăn chặn sự gia tăng áp lực trong đường ốngchính và phân phối của hệ thống quá 1 MPa",
+     "xy": [
+      78,
+      560
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Khi đặt đường ống kim loại phía trên trần treo không thể tháo rời, trong các khuvực kín và trong những trường hợp tương tự, chỉ được kết nối ống bằng phương pháp hàn.",
+     "xy": [
+      77,
+      581
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐỂ PHỤC VỤ THỬ NGHIỆM, SỐ LƯỢNG ĐẦU PHUN SPRINKLER DÖÏ TRÖÕ KHOÂNG THAÁP HƠN 2 LẦN SỐ LƯỢNG ĐẦU PHUN TREÂN DIỆN TÍCH TÍNH TOAÙN TỐI THIỂU TẠI BẢNG 1 CHO MỖI KHU VỰC THUỘC NHOÙM NGUY CƠ PHAÙT SINH CHAÙY KHAÙC NHAU CỦA COÂNG TRÌNH. SOÁ ÑAÀU PHUN THÖÛ NGHIEÄM 20 ĐẦU",
+     "xy": [
+      587,
+      581
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Các thiết bị kích hoạt bằng tay phải được bảo vệ khỏi các nguy cơ kích hoạt ngoài ý muốn và hư hỏng do tác động cơ học; không được đặt tại vị trí có chất cháy",
+     "xy": [
+      78,
+      613
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Bảng B.3 (TCVN 7336: 2021) - MỐI QUAN HỆ GẦN ĐÚNG GIỮA CÁC ĐƯỜNG KÍNH ĐƯỢC SỬ DỤNG PHỔ BIẾN NHẤT CỦA ĐƯỜNG ỐNG PHÂN PHỐI, ÁP SUẤT VÀ SỐ LƯỢNG ĐẦU PHUN SPRINKLER ĐƯỢC LẮP ĐẶT.",
+     "xy": [
+      586,
+      633
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Sè L¦îNG §ÇU PHUN Cã ¸P SUÊT 0.5MPA TRë L£N",
+     "xy": [
+      591,
+      724
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Sè L¦îNG §ÇU PHUN Cã ¸P SUÊT §ÕN 0.5PMA",
+     "xy": [
+      591,
+      761
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 10:2025",
+     ""
+    ],
+    [
+     "TCVN 4513:1988",
+     ""
+    ],
+    [
+     "TCVN 5740:2023",
+     ""
+    ],
+    [
+     "TCVN 7336:2021",
+     ""
+    ],
+    [
+     "TCVN 7336:2021",
+     "mục 5.1.12"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 35,
+   "ma": "CC-02",
+   "ten": "THUYẾT MINH TRẠM BƠM CHỮA CHÁY",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BƠM CHỮA CHÁY ĐIỆN",
+     "xy": [
+      96,
+      271
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lỗ thoát nước chống ngập cho trạm bơm PCCC",
+     "xy": [
+      748,
+      313
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH NHIÊN LIỆU GẮN TRÊN THÂN BƠM, V = 100 lít",
+     "xy": [
+      337,
+      418
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ẮC QUY 24VDC DUY TRÌ NGUỒN GIÁM SÁT VÀ KÍCH HOẠT CÔNG TẮC ÁP SUẤT TRONG TRƯỜNG HỢP NGUỒN ĐIỆN LƯỚI BỊ NGẮT.",
+     "xy": [
+      350,
+      487
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BƠM CHỮA CHÁY DIEZEL",
+     "xy": [
+      112,
+      539
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ PHÒNG BƠM PCCC: Phòng bơm PCCC đặt tại tầng hầm. đồng thời phòng bơm được ngăn cách với các công năng khác bằng tường gạch dày 100mm cao đến trần BTCT đảm bảo GHCL ≥ REI45, cửa mở phòng bơm là cửa chống cháy có GHCL EI60. Các lỗ mở xuyên tường của các đường ống và đường dây điện, điện nhẹ, PCCC và các đường ống kỹ thuật khác được chèn bịt kín bằng vật liệu không cháy (đảm bảo Đ.5.8.5, 5.8.6 TCVN 7336-2021)",
+     "xy": [
+      29,
+      570
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*THUYẾT MINH TÍNH TOÁN LƯỢNG DẦU TIÊU THỤ CỦA BƠM ĐỘNG CƠ DIESEL (BƠM DIESEL CÓ BÌNH CHỨA NHIÊN LIỆU RIÊNG) - BƠM DIESEL CÓ CÔNG SUẤT 20HP. MỨC TIÊU HAO NHIÊN LIỆU LÀ 3 - 5 LÍT/GIỜ. TÍNH TOÁN LỰA CHỌN MỨC TIÊU HAO NHIÊN LIỆU LÀ 5 LIT/GIỜ - CÔNG THỨC TÍNH: NHIÊN LIỆU TIÊU HAO = SUẤT TIÊU HAO X THỜI GIAN TIÊU HAO - SUẤT TIÊU HAO = 5 LÍT/GIỜ. THỜI GIAN TIÊU HAO = 3 GIỜ - DUNG TÍCH CẦN THIẾT = NHIÊN LIỆU TIÊU HAO + 10% X NHIÊN LIỆU TIÊU HAO - ÁP DỤNG CÔNG THỨC TA CÓ NHIÊN LIỆU TIÊU HAO = 5 X 3 + (10% X (5X3)) = 16.5 LÍT DẦU DIESEL - BƠM CÓ BÌNH NHIÊN LIỆU 20 LÍT DẦU DIESEL. - KẾT LUẬN: BÌNH NHIÊN LIỆU ĐẢM BẢO BƠM CHỮA CHÁY HOẠT ĐỘNG LIÊN TỤC TRONG 03 GIỜ",
+     "xy": [
+      29,
+      659
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Thuyết minh chế độ điều khiển của trạm bơm PCCC: - Khi lưu lượng cấp nước cho chữa cháy ngoài nhà yêu cầu từ 25 l/s trở lên thì phải có cơ cấu điều khiển máy bơm chữa cháy tự động hoặc điều khiển từ xa (Công trình không thuộc diện trang bị hệ thống chữa cháy ngoài nhà theo PL.C QCVN 10:2025/BCA) - Trạm bơm có cơ cấu điều khiển bằng tay. - Trạm bơm bảo đảm cho máy bơm được kích hoạt vận hành trong thời gian không quá 3 min kể từ khi có thông tin báo cháy. - CHÚ THÍCH: Máy bơm cấp nước chữa cháy của hệ thống họng nước chữa cháy trong nhà được điều khiển bằng tay hoặc điều khiển tự động hoặc điều khiển từ xa.",
+     "xy": [
+      448,
+      738
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 10:2025",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "EI60",
+    "REI45"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 36,
+   "ma": "CC-03",
+   "ten": "SƠ ĐỒ NGUYÊN LÍ HỆ THỐNG CHỮA CHÁY",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "NỐI VỚI MẠNG LƯỚI CẤP NƯỚC THÀNH PHỐ - PHỤC HỒI ĐẦY BỂ TRONG VÒNG 24 GIỜ",
+     "xy": [
+      496,
+      20
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NỐI VỚI MẠNG LƯỚI CẤP NƯỚC THÀNH PHỐ - PHỤC HỒI ĐẦY BỂ TRONG VÒNG 24 GIỜ",
+     "xy": [
+      496,
+      20
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NỐI VỚI MẠNG LƯỚI CẤP NƯỚC THÀNH PHỐ - PHỤC HỒI ĐẦY BỂ TRONG VÒNG 24 GIỜ",
+     "xy": [
+      496,
+      20
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NỐI VỚI MẠNG LƯỚI CẤP NƯỚC THÀNH PHỐ - PHỤC HỒI ĐẦY BỂ TRONG VÒNG 24 GIỜ",
+     "xy": [
+      496,
+      20
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Van xả khí tự động Đầu phun chủ đạo K=5.6",
+     "xy": [
+      223,
+      36
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU PHUN TỰ ĐỘNG NHÌN THẤY HƯỚNG XUỐNG K = 5.6",
+     "xy": [
+      137,
+      128
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU PHUN TỰ ĐỘNG NHÌN THẤY HƯỚNG LÊN K = 5.6",
+     "xy": [
+      137,
+      151
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CHUNG: -",
+     "xy": [
+      687,
+      158
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHOẢNG CÁCH CÁC ĐAI GIỮ ĐƯỜNG ỐNG CÓ ĐƯỜNG KÍNH DANH ĐỊNH KHÔNG QUÁ DN50 PHẢI ĐƯỢC LẮP ĐẶT VỚI KHOẢNG CÁCH KHÔNG QUÁ 4M. ĐỐI VỚI CÁC ĐƯỜNG ỐNG CÓ ĐƯỜNG KÍNH DANH ĐỊNH LỚN HƠN DN50, CÓ THỂ TĂNG KHOẢNG CÁCH GIỮA CÁC ĐAI LÊN ĐẾN 6M. KHOẢNG CÁCH TỪ ĐAI GIỮ ĐẾN ĐẦU PHUN CUỐI CÙNG KHỐNG LỚN HƠN 0.9M ĐỐI VỚI ĐƯỜNG ỐNG PHÂN PHỐI CÓ ĐƯỜNG KÍNH DN25 TRỞ XUỐNG VÀ KHÔNG LỚN HƠN 1,2M ĐỐI VỚI ĐƯỜNG ỐNG PHÂN PHỐI CÓ ĐƯỜNG KÍNH LỚN HƠN DN25. MÀU SẮC PHÂN BIỆT CỦA CÁC BẢNG KÝ HIỆU CHỈ HƯỚNG CHUYỂN ĐỘNG CỦA CHẤT CHỮA CHÁY VÀ SỐ KÝ HIỆU LÀ MÀU TRẮNG. CÁC BẢNG KÝ HIỆU VÀ SỐ KÝ HIỆU ĐƯỜNG ỐNG PHẢI ĐƯỢC BỐ TRÍ TẠI CÁC ĐIỂM KẾT NỐI QUAN TRỌNG NHẤT ( TẠI ĐẦU VÀO VÀ ĐẦU RA CỦA MÁY BƠM CHỮA CHÁY, TẠI ĐẦU VÀO VÀ ĐẦU RA CỦA ĐƯỜNG ỐNG CẤP, TRÊN CÁC NHÁNH, TẠI CÁC KẾT NỐI, TẠI CÁC THIẾT BỊ KHÓA MÀ QUA ĐÓ NƯỚC ĐƯỢC CUNG CẤP CHO ĐƯỜNG ỐNG CHÍNH, ĐƯỜNG ỐNG CẤP TẠI NHỮNG NƠI MÀ ĐƯỜNG ỐNG ĐI QUA CÁC BỨC TƯỜNG, VÁCH NGĂN, TẠI CÁC LỐI VÀO CỦA CÁC TÒA NHÀ VÀ Ở NHỮNG NƠI KHÁC CẦN THIẾT ĐỂ NHẬN BIẾT ĐƯỜNG ỐNG CHỮA CHÁY).",
+     "xy": [
+      693,
+      167
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "PIPE ACCESSORIES LEGEND KÍ HIỆU PHỤ KIỆN ĐƯỜNG ỐNG",
+     "xy": [
+      35,
+      174
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ PHÒNG BƠM: + LẮP ĐẶT 02 BƠM (BƠM CHÍNH, BƠM DỰ PHÒNG, BƠM BÙ ) TRÊN CÙNG MỘT MÓNG VỚI KHOẢNG CÁCH TỐI THIỂU 0.2M. BỐ TRÍ LỐI ĐI XUNG QUANH MÓNG VỚI CHIỀU RỘNG 0.7M. + NHIỆT ĐỘ KHÔNG KHÍ TRONG PHÒNG BƠM ĐẢM BẢO TỪ 5 ĐỘ C - 40 ĐỘ C. + Ở LỐI VÀO TRẠM BƠM PHẢI CÓ ĐÈN GHI CHỮ \" TRẠM BƠM CHỮA CHÁY\", KẾT NỐI VỚI ĐÈN CHIẾU SÁNG SỰ CỐ. + CÁC MÁY BƠM SỬ DỤNG ĐỘNG CƠ ĐIỆN PHẢI ĐƯỢC NỐI ĐẤT. BƠM CHÍNH VÀ BƠM DỰ PHÒNG ĐƯỢC BẢO VỆ QUÁ TẢI VÀ QUÁ NHIỆT.",
+     "xy": [
+      692,
+      298
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "FIRE PUMP LEVEL GROUND BƠM CHỮA CHÁY ĐẶT TẠI TẦNG HẦM LEGEND",
+     "xy": [
+      690,
+      378
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÁY BƠM ĐỘNG CƠ ĐIỆN ( BƠM CHÍNH) MÁY BƠM ĐỘNG CƠ DIESEL ( BƠM DỰ PHÒNG) MÁY BƠM BÙ ÁP",
+     "xy": [
+      729,
+      435
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐỒNG HỒ ÁP LỰC (BAO GỒM VAN COCK)",
+     "xy": [
+      136,
+      584
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THỜI GIAN LỚN NHẤT ĐỂ PHỤC HỒI NƯỚC DỰ TRỮ CHỮA CHÁY KHÔNG QUÁ 24 GIỜ.",
+     "xy": [
+      803,
+      666
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG CHỮA CHÁY",
+     "xy": [
+      595,
+      683
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG CẤP NƯỚC CHỮA CHÁY ĐƯỢC TRANG BỊ TRONG CÔNG TRÌNH ĐẢM BẢO CÁC TIÊU CHUẨN SAU: QCVN 10:2025/BCA: QUY CHUẨN KỸ THUẬT QUỐC GIA VỀ TRANG BỊ, BỐ TRÍ PHƯƠNG TIỆN PHÒNG CHÁY, CHỮA CHÁY, CỨU NẠN, CỨU HỘ CHO NHÀ VÀ CÔNG TRÌNH. TCVN 4513:1988: TIÊU CHUẨN VIỆT NAM \"CẤP NƯỚC BÊN TRONG - YÊU CẦU THIẾT KẾ\". TCVN 7336:2021 : PHÒNG CHÁY CHỮA CHÁY - HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG BẰNG NƯỚC, BỌT - YÊU CẦU THIẾT KẾ VÀ LẮP ĐẶT. HỆ THỐNG NƯỚC CHỮA CHÁY: HỘP CHỮA CHÁY ĐẶT CHIỀU CAO TỪ SÀN ĐẾN TÂM HỌNG LÀ 1,25M, BAO GỒM: 01 CUỘN VÒI D50 DÀI 20M, 01 VAN ĐÓNG MỞ DN50, 01 LĂNG PHUN ĐƯỜNG D13MM ÁP LỰC ĐẦU LĂNG PHUN KHI MỞ HỌNG CHỮA CHÁY ĐẠT 2,5KG/CM2/LĂNG HOẶC CHIỀU CAO TỐI THIỂU VÀ BÁN KÍNH HOẠT ĐỘNG CỦA TIA NƯỚC ĐẶC CHỮA CHÁY ĐẠT 10M ĐẢM BẢO QUY ĐỊNH BẢNG H7 QCVN 10:2025/BCA HỌNG CHỜ TIẾP NƯỚC LÀ LOẠI 2 NGÕ, ĐẶT CÁCH SÀN 0,6M - 1,25M. LƯU LƯỢNG YÊU CẦU CỦA HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG SPRINKLER VÀ CHỮA CHÁY VÁCH TƯỜNG TRONG 0.5 GIỜ LÀ 22.5M3",
+     "xy": [
+      384,
+      702
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 4513:1988",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng h7"
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY ABC LOẠI 8 kG",
+     "xy": [
+      136,
+      741
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- - => THỂ TÍCH NƯỚC CHỮA CHÁY CẦN THIẾT: 23 M3 3. - - - 4. 5. TỔNG DUNG TÍCH NƯỚC PHỤC VỤ PCCC LÀ 23M3 (ĐẢM BẢO).",
+     "xy": [
+      373,
+      761
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÁY BƠM CHỮA CHÁY ĐẶT TRONG PHÒNG BƠM Ở TẦNG HẦM: 01 MÁY BƠM ĐIỆN: Q= 27 - 72 m3/h, H= 77 - 50m 01 MÁY BƠM DIESEL: Q= 27 - 72 m3/h, H= 77 - 50m 01 MÁY BƠM BÙ ÁP: Q= 1 - 6 m3/h, H= 114 - 57m NGUỒN ĐIỆN CẤP CHO MÁY BƠM HOẠT ĐỘNG ĐƯỢC CẤP TỪ LƯỚI ĐIỆN BỂ NƯỚC PCCC : CÔNG TRÌNH TRANG BỊ 6 BỒN NƯỚC 2M3 ĐẶT TRÊN SÂN THƯỢNG, 1 BỒN LẮP RÁP 11M3 ĐẶT TẠI TẦNG HẦM:",
+     "xy": [
+      384,
+      784
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỔNG SỐ LƯỢNG ĐẦU PHUN DỰ PHÒNG TỔNG SỐ LƯỢNG ĐẦU PHUN DỰ PHÒNG KHÔNG THẤP HƠN 2 LẦN SỐ LƯỢNG ĐẦU PHUN TÍNH TOÁN ( SỐ LƯỢNG ĐẦU PHUN TÍNH TOÁN LÀ 6 ĐẦU PHUN)",
+     "xy": [
+      858,
+      784
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỦ ĐỰNG BỘ DỤNG CỤ PHÁ DỠ CHUYÊN DỤNG",
+     "xy": [
+      136,
+      815
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 10:2025",
+     ""
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng h7"
+    ],
+    [
+     "TCVN 4513:1988",
+     ""
+    ],
+    [
+     "TCVN 7336:2021",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [
+    "D50"
+   ],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 37,
+   "ma": "CC-04",
+   "ten": "TÍNH TOÁN THỦY LỰC HỆ THỐNG CHỮA CHÁY",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG TÍNH TOÁN THỦY LỰC HT CHỮA CHÁY TỰ ĐỘNG",
+     "xy": [
+      165,
+      116
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CHỌN CUÏM BÔM BAO GOÀM: + 1 BƠM CHỮA CHÁY ĐỘNG CƠ ĐIỆN Q = 27 - 72 M3/H, H = 77 - 50 MCN + 1 BƠM CHỮA CHÁY ĐỘNG CƠ DIESEL Q = 27 - 72 M3/H, H = 77 - 50 MCN + 1 BƠM BÙ ÁP Q = 1 - 6 M3/H, H = 114 - 57 MCN - BỂ NƯỚC PHỤC VỤ PCCC CÓ THỂ TÍCH BỂ 23M3 =>KEÁT LUAÄN: THOÂNG QUA TÍNH TOAÙN THUÛY LÖÏC CUÛA COÂNG TRÌNH TA CHỌN THOÂNG SOÁ CUÏM BÔM VAØ BEÅ NÖÔÙC NHƯ TRÊN ÑAÛM BAÛO SO VÔÙI YEÂU CAÀU PCCC",
+     "xy": [
+      401,
+      674
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 38,
+   "ma": "CC-05",
+   "ten": "MẶT BẰNG CHỮA CHÁY TẦNG HẦM",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Lỗ thoát nước chống ngập cho trạm bơm PCCC",
+     "xy": [
+      863,
+      184
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Trục ống cấp DN80 kết nối họng tiếp nước",
+     "xy": [
+      249,
+      378
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Trục ống cấp DN80 Trục ống xả DN32",
+     "xy": [
+      669,
+      460
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Áp suất tự do của họng nước chữa cháy bảo đảm cho chiều cao của tia nước đặc cần thiết để chữa cháy vào mọi thời điểm trong ngày đối với khu vực cao nhất và xa nhất của công trình. Chiều cao tối thiểu và bán kính hoạt động của tia nước đặc chữa cháy bằng chiều cao của khu vực, tính từ sàn đến điểm cao nhất của xà (trần), đồng thời đảm bảo không nhỏ hơn 06 m. ( Đảm bảo theo điều 5.2.7 QCVN 06:2022/BXD)",
+     "xy": [
+      473,
+      738
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 5.2.7"
+      }
+     ]
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY:",
+     "xy": [
+      121,
+      744
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán dựa trên bảng D.1 TCVN 7435-2, Bảng 2 QCVN 10:2025/BCA",
+     "xy": [
+      39,
+      767
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘ QUY TIÊU LỆNH PCCC",
+     "xy": [
+      881,
+      814
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 5.2.7"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 39,
+   "ma": "CC-06",
+   "ten": "MẶT BẰNG CHỮA CHÁY TẦNG 1",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "*Thuyết minh: Trên trần kỹ thuật caùp ñöôïc luồn trong oáng hoaëc ñöôïc boïc baèng vaät lieäu khoâng chaùy hoaëc coù tình chaùy Ch1; là cáp, dây dẫn điện của hệ thống chiếu sáng, hệ thống thông tin. => Keát luaän: Coâng trình thuoäc dieän thiết kế hệ thống chữa cháy tự động trên không gian trần treo kỹ thuật ( Đảm bảo theo chú thích 2, bảng A2,QCVN10:2025/BCA",
+     "xy": [
+      31,
+      17
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng a2"
+      }
+     ]
+    },
+    {
+     "chu": "Trục ống cấp DN80 kết nối họng tiếp nước",
+     "xy": [
+      249,
+      371
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Trục ống cấp DN80 Trục ống xả DN32",
+     "xy": [
+      669,
+      460
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Áp suất tự do của họng nước chữa cháy bảo đảm cho chiều cao của tia nước đặc cần thiết để chữa cháy vào mọi thời điểm trong ngày đối với khu vực cao nhất và xa nhất của công trình. Chiều cao tối thiểu và bán kính hoạt động của tia nước đặc chữa cháy bằng chiều cao của khu vực, tính từ sàn đến điểm cao nhất của xà (trần), đồng thời đảm bảo không nhỏ hơn 06 m. ( Đảm bảo theo điều 5.2.7 QCVN 06:2022/BXD)",
+     "xy": [
+      473,
+      738
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 5.2.7"
+      }
+     ]
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY:",
+     "xy": [
+      121,
+      744
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán dựa trên bảng D.1 TCVN 7435-2, Bảng 2 QCVN 10:2025/BCA",
+     "xy": [
+      39,
+      767
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘ QUY TIÊU LỆNH PCCC",
+     "xy": [
+      881,
+      814
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 5.2.7"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng a2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 40,
+   "ma": "CC-07",
+   "ten": "MẶT BẰNG CHỮA CHÁY TẦNG 2",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "*Thuyết minh: Trên trần kỹ thuật caùp ñöôïc luồn trong oáng hoaëc ñöôïc boïc baèng vaät lieäu khoâng chaùy hoaëc coù tình chaùy Ch1; là cáp, dây dẫn điện của hệ thống chiếu sáng, hệ thống thông tin. => Keát luaän: Coâng trình thuoäc dieän thiết kế hệ thống chữa cháy tự động trên không gian trần treo kỹ thuật ( Đảm bảo theo chú thích 2, bảng A2,QCVN10:2025/BCA",
+     "xy": [
+      31,
+      17
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng a2"
+      }
+     ]
+    },
+    {
+     "chu": "Trục ống cấp DN80 Trục ống xả DN32",
+     "xy": [
+      669,
+      460
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Áp suất tự do của họng nước chữa cháy bảo đảm cho chiều cao của tia nước đặc cần thiết để chữa cháy vào mọi thời điểm trong ngày đối với khu vực cao nhất và xa nhất của công trình. Chiều cao tối thiểu và bán kính hoạt động của tia nước đặc chữa cháy bằng chiều cao của khu vực, tính từ sàn đến điểm cao nhất của xà (trần), đồng thời đảm bảo không nhỏ hơn 06 m. ( Đảm bảo theo điều 5.2.7 QCVN 06:2022/BXD)",
+     "xy": [
+      473,
+      738
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 5.2.7"
+      }
+     ]
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY:",
+     "xy": [
+      121,
+      744
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán dựa trên bảng D.1 TCVN 7435-2, Bảng 2 QCVN 10:2025/BCA",
+     "xy": [
+      39,
+      767
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘ QUY TIÊU LỆNH PCCC",
+     "xy": [
+      881,
+      814
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 5.2.7"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng a2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 41,
+   "ma": "CC-08",
+   "ten": "MẶT BẰNG CHỮA CHÁY TẦNG 3,4,5",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "*Thuyết minh: Trên trần kỹ thuật caùp ñöôïc luồn trong oáng hoaëc ñöôïc boïc baèng vaät lieäu khoâng chaùy hoaëc coù tình chaùy Ch1; là cáp, dây dẫn điện của hệ thống chiếu sáng, hệ thống thông tin. => Keát luaän: Coâng trình thuoäc dieän thiết kế hệ thống chữa cháy tự động trên không gian trần treo kỹ thuật ( Đảm bảo theo chú thích 2, bảng A2,QCVN10:2025/BCA",
+     "xy": [
+      29,
+      16
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng a2"
+      }
+     ]
+    },
+    {
+     "chu": "Trục ống cấp DN80 Trục ống xả DN32",
+     "xy": [
+      585,
+      453
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Áp suất tự do của họng nước chữa cháy bảo đảm cho chiều cao của tia nước đặc cần thiết để chữa cháy vào mọi thời điểm trong ngày đối với khu vực cao nhất và xa nhất của công trình. Chiều cao tối thiểu và bán kính hoạt động của tia nước đặc chữa cháy bằng chiều cao của khu vực, tính từ sàn đến điểm cao nhất của xà (trần), đồng thời đảm bảo không nhỏ hơn 06 m. ( Đảm bảo theo điều 5.2.7 QCVN 06:2022/BXD)",
+     "xy": [
+      473,
+      736
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 5.2.7"
+      }
+     ]
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY:",
+     "xy": [
+      123,
+      742
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán dựa trên bảng D.1 TCVN 7435-2, Bảng 2 QCVN 10:2025/BCA",
+     "xy": [
+      41,
+      765
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘ QUY TIÊU LỆNH PCCC",
+     "xy": [
+      880,
+      812
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 5.2.7"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng a2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 42,
+   "ma": "CC-09",
+   "ten": "MẶT BẰNG CHỮA CHÁY TẦNG 6",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "*Thuyết minh: Trên trần kỹ thuật caùp ñöôïc luồn trong oáng hoaëc ñöôïc boïc baèng vaät lieäu khoâng chaùy hoaëc coù tình chaùy Ch1; là cáp, dây dẫn điện của hệ thống chiếu sáng, hệ thống thông tin. => Keát luaän: Coâng trình thuoäc dieän thiết kế hệ thống chữa cháy tự động trên không gian trần treo kỹ thuật ( Đảm bảo theo chú thích 2, bảng A2,QCVN10:2025/BCA",
+     "xy": [
+      29,
+      16
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng a2"
+      }
+     ]
+    },
+    {
+     "chu": "Trục ống cấp DN80 Trục ống xả DN32",
+     "xy": [
+      585,
+      453
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Áp suất tự do của họng nước chữa cháy bảo đảm cho chiều cao của tia nước đặc cần thiết để chữa cháy vào mọi thời điểm trong ngày đối với khu vực cao nhất và xa nhất của công trình. Chiều cao tối thiểu và bán kính hoạt động của tia nước đặc chữa cháy bằng chiều cao của khu vực, tính từ sàn đến điểm cao nhất của xà (trần), đồng thời đảm bảo không nhỏ hơn 06 m. ( Đảm bảo theo điều 5.2.7 QCVN 06:2022/BXD)",
+     "xy": [
+      473,
+      736
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 5.2.7"
+      }
+     ]
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY:",
+     "xy": [
+      123,
+      742
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán dựa trên bảng D.1 TCVN 7435-2, Bảng 2 QCVN 10:2025/BCA",
+     "xy": [
+      41,
+      765
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘ QUY TIÊU LỆNH PCCC",
+     "xy": [
+      880,
+      812
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 5.2.7"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng a2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 43,
+   "ma": "CC-10",
+   "ten": "MẶT BẰNG CHỮA CHÁY TẦNG 7",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "*Thuyết minh: Trên trần kỹ thuật caùp ñöôïc luồn trong oáng hoaëc ñöôïc boïc baèng vaät lieäu khoâng chaùy hoaëc coù tình chaùy Ch1; là cáp, dây dẫn điện của hệ thống chiếu sáng, hệ thống thông tin. => Keát luaän: Coâng trình thuoäc dieän thiết kế hệ thống chữa cháy tự động trên không gian trần treo kỹ thuật ( Đảm bảo theo chú thích 2, bảng A2,QCVN10:2025/BCA",
+     "xy": [
+      29,
+      16
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng a2"
+      }
+     ]
+    },
+    {
+     "chu": "Trục ống cấp DN80 Trục ống xả DN32",
+     "xy": [
+      585,
+      453
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Áp suất tự do của họng nước chữa cháy bảo đảm cho chiều cao của tia nước đặc cần thiết để chữa cháy vào mọi thời điểm trong ngày đối với khu vực cao nhất và xa nhất của công trình. Chiều cao tối thiểu và bán kính hoạt động của tia nước đặc chữa cháy bằng chiều cao của khu vực, tính từ sàn đến điểm cao nhất của xà (trần), đồng thời đảm bảo không nhỏ hơn 06 m. ( Đảm bảo theo điều 5.2.7 QCVN 06:2022/BXD)",
+     "xy": [
+      473,
+      736
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 5.2.7"
+      }
+     ]
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY:",
+     "xy": [
+      123,
+      742
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán dựa trên bảng D.1 TCVN 7435-2, Bảng 2 QCVN 10:2025/BCA",
+     "xy": [
+      41,
+      765
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘ QUY TIÊU LỆNH PCCC",
+     "xy": [
+      880,
+      812
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 5.2.7"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng a2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 44,
+   "ma": "CC-11",
+   "ten": "MẶT BẰNG CHỮA CHÁY TẦNG 8",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "*Thuyết minh: Trên trần kỹ thuật caùp ñöôïc luồn trong oáng hoaëc ñöôïc boïc baèng vaät lieäu khoâng chaùy hoaëc coù tình chaùy Ch1; là cáp, dây dẫn điện của hệ thống chiếu sáng, hệ thống thông tin. => Keát luaän: Coâng trình thuoäc dieän thiết kế hệ thống chữa cháy tự động trên không gian trần treo kỹ thuật ( Đảm bảo theo chú thích 2, bảng A2,QCVN10:2025/BCA",
+     "xy": [
+      29,
+      16
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng a2"
+      }
+     ]
+    },
+    {
+     "chu": "Trục ống cấp DN80 Trục ống xả DN32",
+     "xy": [
+      585,
+      453
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Áp suất tự do của họng nước chữa cháy bảo đảm cho chiều cao của tia nước đặc cần thiết để chữa cháy vào mọi thời điểm trong ngày đối với khu vực cao nhất và xa nhất của công trình. Chiều cao tối thiểu và bán kính hoạt động của tia nước đặc chữa cháy bằng chiều cao của khu vực, tính từ sàn đến điểm cao nhất của xà (trần), đồng thời đảm bảo không nhỏ hơn 06 m. ( Đảm bảo theo điều 5.2.7 QCVN 06:2022/BXD)",
+     "xy": [
+      473,
+      736
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 5.2.7"
+      }
+     ]
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY:",
+     "xy": [
+      123,
+      742
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán dựa trên bảng D.1 TCVN 7435-2, Bảng 2 QCVN 10:2025/BCA",
+     "xy": [
+      41,
+      765
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘ QUY TIÊU LỆNH PCCC",
+     "xy": [
+      880,
+      812
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 5.2.7"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng a2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 45,
+   "ma": "CC-12",
+   "ten": "MẶT BẰNG CHỮA CHÁY SÂN THƯỢNG",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Trục ống cấp DN80 Trục ống xả DN32",
+     "xy": [
+      585,
+      453
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Trục ống DN65 nối bồn về trạm bơm đặt tại tầng hầm",
+     "xy": [
+      667,
+      478
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Áp suất tự do của họng nước chữa cháy bảo đảm cho chiều cao của tia nước đặc cần thiết để chữa cháy vào mọi thời điểm trong ngày đối với khu vực cao nhất và xa nhất của công trình. Chiều cao tối thiểu và bán kính hoạt động của tia nước đặc chữa cháy bằng chiều cao của khu vực, tính từ sàn đến điểm cao nhất của xà (trần), đồng thời đảm bảo không nhỏ hơn 06 m. ( Đảm bảo theo điều 5.2.7 QCVN 06:2022/BXD)",
+     "xy": [
+      473,
+      736
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 5.2.7"
+      }
+     ]
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY:",
+     "xy": [
+      123,
+      742
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán dựa trên bảng D.1 TCVN 7435-2, Bảng 2 QCVN 10:2025/BCA",
+     "xy": [
+      41,
+      765
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘ QUY TIÊU LỆNH PCCC",
+     "xy": [
+      880,
+      812
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 5.2.7"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 46,
+   "ma": "CC-13",
+   "ten": "CHI TIẾT LẮP ĐẶT 01",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "ĐIỆN THOẠI SOÁ ĐỘI CHỮA CHÁY CHUYÊN NGHIỆP",
+     "xy": [
+      782,
+      258
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DÙNG BÌNH CHỮA CHÁY CÁT VÀ NƯỚC ĐỂ DẬP TẮT",
+     "xy": [
+      716,
+      259
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỦ THÉP SƠN TĨNH ĐIỆN MÀU ĐỎ CÓ MẶT KÍNH.",
+     "xy": [
+      746,
+      454
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1- XÀ BENG (MỘT ĐẦU NHỌN, MỘT ĐẦU DẸT, DÀI 100CM) 2- RÌU CỨU NẠN (TRỌNG LƯỢNG 2KG, CÁN DÀI 90CM, CHẤT LIỆU THÉP CACBON CƯỜNG ĐỘ CAO) 3- KÌM CỘNG LỰC (DÀI 60CM, TẢI CẮT 60KG) 4- BÚA TẠ (THÉP CACBON CƯỜNG ĐỘ CAO, NẶNG 5KG, CÁN DÀI 50CM)",
+     "xy": [
+      273,
+      719
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT TỦ DỤNG CỤ PHÁ DỠ THÔ SƠ",
+     "xy": [
+      362,
+      800
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 47,
+   "ma": "CC-14",
+   "ten": "CHI TIẾT LẮP ĐẶT 02",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "GIÁ ĐỰNG BÌNH CHỮA CHÁY XÁCH TAY GỒM: BRACKET OF FIRE EXTINGUISHERS:",
+     "xy": [
+      83,
+      38
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- 02 BÌNH XÁCH TAY CHỮA CHÁY BỘT ABC 8KG 02 PORTABLE FIRE EXTINGUISHER POWDER ABC 8KG",
+     "xy": [
+      83,
+      57
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TÍN HIỆU VỀ MODUL GIÁM SÁT TRẠNG THÁI CỦA TTBC",
+     "xy": [
+      575,
+      61
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DỤNG CỤ CÓ TRỤC ĐỂ CHÈN VÀO LỖ XUYÊN QUA ỐNG",
+     "xy": [
+      736,
+      82
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG ĐỨNG STK DN80 TỪ TRẠM BƠM CHỮA CHÁY",
+     "xy": [
+      377,
+      211
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TY RĂNG M10: ỐNG DN32 ĐẾN DN50 TY RĂNG M12: ỐNG DN80 TRỞ LÊN",
+     "xy": [
+      225,
+      355
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KẾT NỐI ĐƯỜNG ỐNG CHỮA CHÁY TẠI TẦNG HẦM",
+     "xy": [
+      805,
+      360
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG XUYÊN SÀN / TƯỜNG VÀ GIÁ ĐỠ ỐNG",
+     "xy": [
+      424,
+      543
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Dầm công trình sau < 0.3m nên không cần bố trí đầu phun theo khoang dầm",
+     "xy": [
+      482,
+      580
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỦ CHỮA CHÁY TOLE DÀY 0.7MM KT(400X600)X200 MẶT KÍNH DÀY 5mm",
+     "xy": [
+      187,
+      608
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- 01 VAN GỐC LOẠI GIẢM ÁP DN50 - 01 LĂNG PHUN D13-D16 - 01 ĐẦU NỐI PHUN - 01 VÒI TIÊU CHUẨN DN50, L=20m - CUỘN VÒI CHỊU ĐƯỢC ÁP LỰC NƯỚC 16 BAR - TỦ CC CÓ LỖ THÔNG GIÓ ĐƯỢC DÁN NIÊM PHONG - ÁP SUẤT ĐẦU RA TẠI VAN GIẢM ÁP LÀ 2 - 4,0 BAR",
+     "xy": [
+      198,
+      658
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG CẤP NƯỚC CHỮA CHÁY KẸP SÁT VÁCH TƯỜNG",
+     "xy": [
+      534,
+      691
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG CẤP NƯỚC CHỮA CHÁY KẸP SÁT VÁCH TƯỜNG",
+     "xy": [
+      874,
+      698
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Khoảng cách từ tâm của phần tử nhạy cảm với nhiệt của đầu phun đến mặt phẳng trần (mái) nằm trong khoảng 0,08 m đến 0,30 m",
+     "xy": [
+      373,
+      711
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Khoảng cách từ tâm của phần tử nhạy cảm với nhiệt của đầu phun đến mặt phẳng trần (mái) nằm trong khoảng 0,08 m đến 0,30 m",
+     "xy": [
+      713,
+      713
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GỐC CHỮA CHÁY (LOẠI GIẢM ÁP TRỰC TIẾP)",
+     "xy": [
+      48,
+      717
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT TỦ CHỮA CHÁY FHC1",
+     "xy": [
+      99,
+      805
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐẦU PHUN SPINKLER ĐIỂN HÌNH",
+     "xy": [
+      403,
+      805
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐẦU PHUN SPINKLER ĐIỂN HÌNH",
+     "xy": [
+      761,
+      805
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D13",
+    "D16"
+   ],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 48,
+   "ma": "CC-15",
+   "ten": "CHI TIẾT LẮP ĐẶT 03",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: * Ống chữa cháy đi ngầm được xử lý chống gỉ bằng 2 lớp như sau: - Lớp 1: Sơn chống gỉ lót bằng Premcote Primer bao quanh ống. - Lớp 2: Quấn băng chống gỉ bằng Premcote 101 bao quanh ống. * Lưu ý: - Quấn lớp 2 chồng mí 15% - Lớp sơn dày 0.1mm và lớp băng quấn dày 1.0mm",
+     "xy": [
+      32,
+      166
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Bầu thủy tinh Nhiệt độ tác động 68OC",
+     "xy": [
+      849,
+      414
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "bố trí tại các điểm kết nối quan trọng nhất (tại đầu vào và đầu ra của máy bơm chữa cháy, tại đầu vào và đầu ra của đường ống cấp, trên các nhánh, tại các kết nối, tại các thiết bị khóa mà qua đó nước được cung cấp cho đường ống chính, đường ống cấp tại những nơi mà đường ống đi qua các bức tường, vách ngăn, tại các lối vào của các tòa nhà và ở những nơi khác cần thiết để nhận biết đường ống chữa cháy). - Khoảng cách giữa đường ống và tường nhà không được nhỏ hơn 2 cm. - Đường ống phải được gắn bởi các thiết bị giữ trực tiếp với kết cấu của tòa nhà và không được phép sử dụng chúng để trợ lực cho các cấu trúc khác. - Đường ống có thể được gắn vào cấu trúc của các thiết bị công nghệ trong trường hợp ngoại lệ. Trong trường hợp này, tải trọng thiết kế của các thiết bị công nghệ phải lấy không nhỏ hơn hai lần so với hiết kế đối với đường ống được gắn. - Các đai giữ đường ống có đường kính danh định không quá DN 50 phải được lắp đặt với khoảng cách không quá 4 m. Đối với các đường ống có đường kính danh định lớn hơn DN 50, có thể tăng khoảng cách giữa các đai giữ lên đến 6 m. - Khoảng cách từ đai giữ đến đầu phun cuối cùng không lớn hơn 0,9 m đối với đường ống phân phối có đường kính DN 25 trở xuống và không lớn hơn 1,2 m đối với đường ống phân phối có đường kính lớn hơn DN 25. - Đoạn uốn cong trên các đường ống phân phối có chiều dài hơn 0,9 m phải có đai giữ bổ sung; khoảng cách từ đai giữ đến đầu phun trên đoạn uốn cong phải bảo đảm:",
+     "xy": [
+      546,
+      570
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THUYẾT MINH CHUNG VỀ ĐƯỜNG ỐNG HỆ THỐNG CHỮA CHÁY",
+     "xy": [
+      37,
+      571
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Đường ống của hệ thống chữa cháy tự động cho công trình bằng kim loại, phần ống đi ngầm - 800 bằng nhựa HDPE phù hợp với yêu cầu quy định hiện hành. - Khi đặt đường ống kim loại phía trên trần treo không thể tháo rời, trong các khu vực kín và trong những trường hợp tương tự, chỉ được kết nối ống bằng phương pháp hàn. - Các đường ống cấp mạng vòng (trong nhà và ngoài nhà) phải chia thành các phần để sửa chữa bằng các van khóa; số lượng bộ điều khiển trong một phần không quá ba; khi tính toán thủy lực của đường ống không cần tính đến việc ngắt các phần sửa chữa của mạng vòng; đường kính của đường ống mạng vòng không được nhỏ hơn đường kính của ống cấp cho các bộ điều khiển. - Không được phép kết nối các thiết bị công nghiệp và vệ sinh đến đường chính và phân phối của hệ thống chữa cháy tự động. - Số lượng đầu phun trên một nhánh đường ống phân phối không bị giới hạn; đồng thời, mạng lưới phân phối hệ thống chữa cháy phải cung cấp lưu lượng và cường độ phun theo yêu cầu. - Đường ống cụt và mạng vòng của hệ thống chữa cháy tự động phải được trang bị thiết bị xả hoặc thiết bị khóa có đường kính danh định không nhỏ hơn 50 mm; nếu đường kính của các đường ống này nhỏ hơn 50 mm, thì đường kính của thiết bị xả hoặc thiết bị khóa phải tương ứng với đường kính danh định của đường ống. - Thiết bị xả trên đường ống được lắp đặt ở cuối với các đường ống cụt và ở vị trí xa nhất từ bộ điều khiển đối với mạng đường ống vòng. - Phải lắp đặt:",
+     "xy": [
+      37,
+      581
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ 0,15-0,20 m đối với đường ống có đường kính danh định DN 25 trở xuống; + 0,20-0,30 m đối với đường ống có đường kính danh định lớn hơn DN 25.",
+     "xy": [
+      565,
+      679
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Trong trường hợp đặt đường ống qua rãnh của kết cấu tòa nhà, chiều dài đoạn ống nằm giữa các đoạn rãnh không được quá 6 m nếu không có thiết bị giữ. - Đoạn đường ống phải được chèn bịt khi đi xuyên qua các bộ phận ngăn cháy. Việc chèn bịt kín phải được thực hiện bằng vật liệu chống cháy bảo đảm giới hạn chịu lửa của bộ phận ngăn cháy đó. - Tổn thất thủy lực trên đường ống nhựa hoặc kim loại-nhựa phải được lấy theo tài liệu kỹ thuật của nhà sản xuất và phải lưu ý đường kính danh định của ống nhựa được xác định bằng đường kính ngoài. - Khi sử dụng ống nhựa hoặc kim loại-nhựa, phải lắp đặt giá đỡ cố định, đai treo cách mỗi đầu phun ở khoảng cách 5-10 cm để cố định hướng của đầu phun. - Khoảng cách từ đai giữ đến đầu phun cuối cùng trên đường ống phân phối, chiều dài tối đa của đường ống cong và khoảng cách cho phép từ đầu phun trên nhánh đến đai giữ được lấy theo thông số của nhà sản xuất ống nhựa hoặc kim loại-nhựa. - Khi một số đường ống nhựa hoặc kim loại-nhựa có đường kính khác nhau được đặt cùng nhau, khoảng cách giữa các đai giữ phải được lấy theo đường kính ống nhỏ nhất. - Khi đặt các đường ống nhựa hoặc kim loại-nhựa gần ống nước nóng, ống sinh nhiệt thì phải đặt bên dưới với khoảng cách không nhỏ hơn 0,1 m. - Khi ống nhựa hoặc kim loại-nhựa đi qua bộ phận ngăn cháy, phải đảm bảo chuyển động tự do theo chiều dọc của ống bằng cách sử dụng các ống, rãnh chống cháy với khả năng chống cháy không được thấp hơn so giới hạn chịu lửa của kết cấu đi xuyên qua. - Đường ống kim loại lắp đặt được sử dụng để bảo vệ thiết bị có điện áp phải được nối đất.",
+     "xy": [
+      546,
+      697
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ Van xả khí ở điểm trên cùng của mạng đường ống chữa cháy bằng nước để giải phóng không khí trong đường ống; + Van với đồng hồ đo áp suất để kiểm soát áp suất trước đầu phun chủ đạo. Không được phép lắp đặt các van khóa trên đường ống chính và phân phối, trừ các",
+     "xy": [
+      56,
+      697
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "trường hợp được quy định trong tiêu chuẩn này. - Các đường ống chính và phân phối của hệ thống Drencher, Sprinkler khô, Sprinkler-Drencher điền khí phải được lắp đặt để loại bỏ chất chữa cháy đọng lại trong đường ống sau khi hệ thống chữa cháy được kích hoạt hoặc sau khi tiến hành các thử nghiệm thủy lực. - Đường ống chính và phân phối phải lắp đặt dốc về phía bộ điều khiển hoặc các thiết bị thoát nước, tối thiểu:",
+     "xy": [
+      37,
+      715
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ 1% đối với đường ống có đường kính danh định nhỏ hơn DN 50; + 0,5% đối với đường ống có đường kính danh định từ DN 50 trở lên.",
+     "xy": [
+      56,
+      751
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Cần thực hiện các biện pháp để ngăn chặn sự gia tăng áp lực trong đường ống chính và phân phối của hệ thống quá 1 MPa. - Đường ống phải chịu được áp suất thử Pth = 1.25 Plv.max (trong đó Plv.max là áp suất làm việc tối đa). - Kết nối giữa các đường ống và với các phụ kiện thủy lực phải đảm bảo độ kín với áp suất Plv.max. - Màu sắc nhận dạng hoặc chỉ thị của các đường ống kim loại: Đường ống Sprinkler dạng ướt cũng như đường ống chứa đầy nước của trụ nước – màu đỏ và đánh số “1”; - Tất cả các đường ống chữa cháy tự động phải có ký hiệu số dọc theo mạng đường ống. - Màu sắc phân biệt của các bảng ký hiệu chỉ hướng chuyển động của chất chữa cháy và số ký hiệu là màu trắng. Các bảng ký hiệu và số ký hiệu đường ống phải được",
+     "xy": [
+      37,
+      769
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  }
+ ]
+}

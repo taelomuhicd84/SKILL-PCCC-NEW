@@ -1,0 +1,21 @@
+{
+ "luat": {
+  "tuong_day_mm": [
+   96.0,
+   259.0
+  ],
+  "tuong_gach_min_m": 2.87,
+  "vach_day_mm": [
+   48.0,
+   111.0
+  ],
+  "khe_cua_m": [
+   0.5,
+   4.0
+  ]
+ },
+ "mau": [
+  "karaoke_hoang_anh_11_dap_an.json",
+  "karaoke_hoang_yen_dap_an.json"
+ ]
+}

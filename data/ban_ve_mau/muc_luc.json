@@ -1,0 +1,1730 @@
+[
+ {
+  "id": "can_ho_dich_vu_01",
+  "cong_nang": "can_ho_dich_vu",
+  "so_trang": 64,
+  "phan": [
+   "HỆ THỐNG PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "QCVN 13:2018",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "can_ho_dich_vu_01/the.json"
+ },
+ {
+  "id": "can_ho_dich_vu_02",
+  "cong_nang": "can_ho_dich_vu",
+  "so_trang": 56,
+  "phan": [
+   "HỆ THỐNG PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 4513:1988",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "can_ho_dich_vu_02/the.json"
+ },
+ {
+  "id": "chung_cu_khach_san_01",
+  "cong_nang": "chung_cu_khach_san",
+  "so_trang": 9,
+  "phan": [],
+  "cao_pccc_m": [],
+  "van_ban": [],
+  "the": "chung_cu_khach_san_01/the.json"
+ },
+ {
+  "id": "chung_cu_khach_san_02",
+  "cong_nang": "chung_cu_khach_san",
+  "so_trang": 95,
+  "phan": [
+   "PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 5738:2021",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "chung_cu_khach_san_02/the.json"
+ },
+ {
+  "id": "chung_cu_khach_san_03",
+  "cong_nang": "chung_cu_khach_san",
+  "so_trang": 35,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "chung_cu_khach_san_03/the.json"
+ },
+ {
+  "id": "chung_cu_khach_san_04",
+  "cong_nang": "chung_cu_khach_san",
+  "so_trang": 93,
+  "phan": [],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 01:2008",
+   "QCVN 04:2021",
+   "QCVN 06:2022",
+   "QCVN 09:2017",
+   "QCVN 12:2014",
+   "QCVN 13:2018",
+   "QCVN 26:2010",
+   "TCVN 07336:2021",
+   "TCVN 13333:2021",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 5768-14:2025",
+   "TCVN 5949:1998",
+   "TCVN 6160:1996",
+   "TCVN 7336:2021",
+   "TCVN 7435:2004"
+  ],
+  "the": "chung_cu_khach_san_04/the.json"
+ },
+ {
+  "id": "chung_cu_khach_san_05",
+  "cong_nang": "chung_cu_khach_san",
+  "so_trang": 140,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 5738:2021",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "chung_cu_khach_san_05/the.json"
+ },
+ {
+  "id": "karaoke_01",
+  "cong_nang": "karaoke",
+  "so_trang": 123,
+  "phan": [
+   "KIẾN TRÚC",
+   "THÔNG GIÓ",
+   "NHÀ Ở NHÂN VIÊN",
+   "MÁI CHE (KHÔNG CHỨA XE) + PHÒNG BƠM PCCC",
+   "PHÒNG TRỰC PCCC",
+   "PHÒNG CHÁY CHỮA CHÁY",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "EXIT-EM",
+   "BÌNH CHỮA CHÁY",
+   "HỆ THỐNG ÂM THANH",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [
+   6.0
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 17:2018",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5687:2024",
+   "TCVN 5760:1993",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "karaoke_01/the.json"
+ },
+ {
+  "id": "karaoke_02",
+  "cong_nang": "karaoke",
+  "so_trang": 85,
+  "phan": [
+   "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "TỔNG THỂ",
+   "NHÀ KARAOKE",
+   "THÔNG GIÓ",
+   "NHÀ Ở",
+   "CÔNG TRÌNH PHỤ TRỢ",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "HỆ THỐNG ÂM THANH",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 17:2018",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 5760:1993",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013",
+   "TT 147/2020"
+  ],
+  "the": "karaoke_02/the.json"
+ },
+ {
+  "id": "karaoke_03",
+  "cong_nang": "karaoke",
+  "so_trang": 134,
+  "phan": [
+   "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "KẾT CẤU",
+   "BÁO CHÁY",
+   "HỆ THỐNG ÂM THANH",
+   "ĐÈN EX - EM",
+   "THIẾT BỊ PCCC",
+   "CHỮA CHÁY",
+   "HÚT KHÓI - BÙ KHÍ - TĂNG ÁP",
+   "CẤP ĐIỆN",
+   "CHỐNG SÉT"
+  ],
+  "cao_pccc_m": [
+   13.3
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 17:2018",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 5760:1993",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TT 147/2020"
+  ],
+  "the": "karaoke_03/the.json"
+ },
+ {
+  "id": "karaoke_04",
+  "cong_nang": "karaoke",
+  "so_trang": 83,
+  "phan": [
+   "KIẾN TRÚC",
+   "THÔNG GIÓ",
+   "PHÒNG BƠM PCCC",
+   "HỆ THỐNG PCCC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "HỆ THỐNG ÂM THANH",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [
+   5.5
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 17:2018",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 5760:1993",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013",
+   "TT 147/2020"
+  ],
+  "the": "karaoke_04/the.json"
+ },
+ {
+  "id": "karaoke_05",
+  "cong_nang": "karaoke",
+  "so_trang": 84,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "TỔNG THỂ",
+   "NHÀ KARAOKE",
+   "PCCC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "HỆ THỐNG ÂM THANH",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [
+   5.5,
+   6.6
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 17:2018",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5760:1993",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013",
+   "TT 147/2020"
+  ],
+  "the": "karaoke_05/the.json"
+ },
+ {
+  "id": "karaoke_06",
+  "cong_nang": "karaoke",
+  "so_trang": 74,
+  "phan": [
+   "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "TỔNG THỂ",
+   "NHÀ KARAOKE",
+   "THÔNG GIÓ",
+   "CÔNG TRÌNH PHỤ TRỢ",
+   "HỆ THỐNG PCCC",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "EXIT-EM",
+   "BÌNH CHỮA CHÁY",
+   "HỆ THỐNG ÂM THANH",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [
+   1.8
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 17:2018",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013",
+   "TT 147/2020"
+  ],
+  "the": "karaoke_06/the.json"
+ },
+ {
+  "id": "karaoke_07",
+  "cong_nang": "karaoke",
+  "so_trang": 78,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "ÂM THANH THOÁT NẠN",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "karaoke_07/the.json"
+ },
+ {
+  "id": "karaoke_08",
+  "cong_nang": "karaoke",
+  "so_trang": 45,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "ÂM THANH THOÁT NẠN",
+   "CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "QCVN 12:2014",
+   "TCVN 13456:2022",
+   "TCVN 4513:1988",
+   "TCVN 568-14:2025",
+   "TCVN 5740:2023",
+   "TCVN 7336:2021",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "karaoke_08/the.json"
+ },
+ {
+  "id": "khach_san_01",
+  "cong_nang": "khach_san",
+  "so_trang": 48,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "QCVN 12:2014",
+   "TCVN 13456:2022",
+   "TCVN 4513:1988",
+   "TCVN 568-14:2025",
+   "TCVN 5740:2023",
+   "TCVN 7336:2021",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "khach_san_01/the.json"
+ },
+ {
+  "id": "mam_non_01",
+  "cong_nang": "mam_non",
+  "so_trang": 122,
+  "phan": [
+   "KIẾN TRÚC",
+   "KẾT CẤU",
+   "CHỮA CHÁY",
+   "BÁO CHÁY",
+   "EXIT-EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "HỆ THỐNG ĐIỆN"
+  ],
+  "cao_pccc_m": [
+   8.1
+  ],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 5760:1993",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "mam_non_01/the.json"
+ },
+ {
+  "id": "mam_non_02",
+  "cong_nang": "mam_non",
+  "so_trang": 77,
+  "phan": [],
+  "cao_pccc_m": [
+   11.8
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 06:2023",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 5760:1993",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021"
+  ],
+  "the": "mam_non_02/the.json"
+ },
+ {
+  "id": "nha_o_xa_hoi_01",
+  "cong_nang": "nha_o_xa_hoi",
+  "so_trang": 53,
+  "phan": [
+   "PHÒNG CHÁY CHỮA CHÁY",
+   "TỔNG THỂ",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "ĐÈN EXIT-EM",
+   "BÌNH CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [
+   11.5
+  ],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_o_xa_hoi_01/the.json"
+ },
+ {
+  "id": "nha_xuong_01",
+  "cong_nang": "nha_xuong",
+  "so_trang": 76,
+  "phan": [
+   "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "ĐÈN EX - EM",
+   "THIẾT BỊ PCCC",
+   "CHỐNG SÉT",
+   "HÚT KHÓI & BÙ KHÍ",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 06:2023",
+   "TCVN 13456:2022",
+   "TCVN 20:2006",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5687:2024",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025"
+  ],
+  "the": "nha_xuong_01/the.json"
+ },
+ {
+  "id": "nha_xuong_02",
+  "cong_nang": "nha_xuong",
+  "so_trang": 30,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "THIẾT BỊ PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_02/the.json"
+ },
+ {
+  "id": "nha_xuong_03",
+  "cong_nang": "nha_xuong",
+  "so_trang": 67,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "CHỮA CHÁY",
+   "BÁO CHÁY",
+   "EXIT-EM",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_03/the.json"
+ },
+ {
+  "id": "nha_xuong_04",
+  "cong_nang": "nha_xuong",
+  "so_trang": 28,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "THIẾT BỊ PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_04/the.json"
+ },
+ {
+  "id": "nha_xuong_05",
+  "cong_nang": "nha_xuong",
+  "so_trang": 35,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "THUYẾT MINH",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 4513:1988",
+   "TCVN 7336:2021",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_05/the.json"
+ },
+ {
+  "id": "nha_xuong_06",
+  "cong_nang": "nha_xuong",
+  "so_trang": 424,
+  "phan": [
+   "TỔNG THỂ",
+   "NHÀ XƯỞNG 01",
+   "NHÀ XƯỞNG 02",
+   "NHÀ XƯỞNG 03",
+   "NHÀ XE + CĂN TIN",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN",
+   "LÒ HƠI"
+  ],
+  "cao_pccc_m": [
+   9.4,
+   12.9
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 20:2006",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 5760:1993",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_06/the.json"
+ },
+ {
+  "id": "nha_xuong_07",
+  "cong_nang": "nha_xuong",
+  "so_trang": 48,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "ĐÈN EX - EM",
+   "THIẾT BỊ PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5053:1990",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_07/the.json"
+ },
+ {
+  "id": "nha_xuong_08",
+  "cong_nang": "nha_xuong",
+  "so_trang": 24,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_08/the.json"
+ },
+ {
+  "id": "nha_xuong_09",
+  "cong_nang": "nha_xuong",
+  "so_trang": 170,
+  "phan": [
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013",
+   "TCVN 9393:2012"
+  ],
+  "the": "nha_xuong_09/the.json"
+ },
+ {
+  "id": "nha_xuong_10",
+  "cong_nang": "nha_xuong",
+  "so_trang": 439,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "TỔNG THỂ",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "HÚT KHÓI",
+   "CẤP ĐIỆN",
+   "BỂ PHÒNG CHÁY CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "NĐ 136/2020",
+   "QCVN 03:2021",
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 20:2006",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 5760:1993",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013",
+   "TCVN 9383:2012"
+  ],
+  "the": "nha_xuong_10/the.json"
+ },
+ {
+  "id": "nha_xuong_11",
+  "cong_nang": "nha_xuong",
+  "so_trang": 44,
+  "phan": [],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 7336:2021"
+  ],
+  "the": "nha_xuong_11/the.json"
+ },
+ {
+  "id": "nha_xuong_12",
+  "cong_nang": "nha_xuong",
+  "so_trang": 74,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "TỔNG THỂ",
+   "KIẾN TRÚC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 20:2006",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_12/the.json"
+ },
+ {
+  "id": "nha_xuong_13",
+  "cong_nang": "nha_xuong",
+  "so_trang": 170,
+  "phan": [
+   "CHỮA CHÁY",
+   "BÌNH CHỮA CHÁY",
+   "HÚT KHÓI"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "NĐ 136/2020",
+   "NĐ 40/2020",
+   "QCVN 01:2019",
+   "QCVN 01:2020",
+   "QCVN 05:2020",
+   "QCVN 06:2021",
+   "QCVN 06:2022",
+   "TCVN 13333:2021",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4317:1986",
+   "TCVN 4513:1988",
+   "TCVN 4604:2012",
+   "TCVN 4879:1989",
+   "TCVN 5053:1990",
+   "TCVN 5307:2009",
+   "TCVN 5687:2010",
+   "TCVN 5687:2024",
+   "TCVN 5738:2021",
+   "TCVN 5740:2009",
+   "TCVN 6101:1996",
+   "TCVN 6305-10:2007",
+   "TCVN 6305-12:2007",
+   "TCVN 6305-1:2007",
+   "TCVN 6305-9:2007",
+   "TCVN 6379:1998",
+   "TCVN 7161-13:2009",
+   "TCVN 7161-1:2009",
+   "TCVN 7161-5:2021",
+   "TCVN 7161-9:2009",
+   "TCVN 7336:2021",
+   "TCVN 7441:2004",
+   "TCVN 8092:2009",
+   "TCVN 9358:2012"
+  ],
+  "the": "nha_xuong_13/the.json"
+ },
+ {
+  "id": "nha_xuong_14",
+  "cong_nang": "nha_xuong",
+  "so_trang": 75,
+  "phan": [
+   "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_14/the.json"
+ },
+ {
+  "id": "nha_xuong_15",
+  "cong_nang": "nha_xuong",
+  "so_trang": 142,
+  "phan": [
+   "HỆ THỐNG PHÒNG CHÁY CHỮA CHÁY",
+   "ĐƯỜNG CHO XE CHỮA CHÁY",
+   "HỆ THỐNG CẤP NƯỚC PHÂN KỲ 3"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "NĐ 136/2020",
+   "NĐ 35/2003",
+   "NĐ 40/2020",
+   "NĐ 50/2024",
+   "NĐ 79/2014",
+   "NĐ 83/2017",
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 14496:2025",
+   "TCVN 2622:1995",
+   "TCVN 5053:1990",
+   "TCVN 6379:2024",
+   "TCVN 7336:2021",
+   "TCVN 7568-14:2025",
+   "TCVN 8092:2009",
+   "TCVN 9206:2012"
+  ],
+  "the": "nha_xuong_15/the.json"
+ },
+ {
+  "id": "nha_xuong_16",
+  "cong_nang": "nha_xuong",
+  "so_trang": 73,
+  "phan": [
+   "KIẾN TRÚC",
+   "PHÒNG CHÁY CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "BÁO CHÁY",
+   "ĐÈN EXIT-EM",
+   "BÌNH CHỮA CHÁY",
+   "HÚT KHÓI",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 4879:1989",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_16/the.json"
+ },
+ {
+  "id": "nha_xuong_17",
+  "cong_nang": "nha_xuong",
+  "so_trang": 45,
+  "phan": [
+   "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "TỔNG THỂ",
+   "NHÀ XƯỞNG B",
+   "CÔNG TRÌNH PHỤ TRỢ",
+   "ĐÈN EX - EM",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5740:2023",
+   "TCVN 6379:2024",
+   "TCVN 7722-2-22:2013",
+   "TT 150/2020"
+  ],
+  "the": "nha_xuong_17/the.json"
+ },
+ {
+  "id": "nha_xuong_18",
+  "cong_nang": "nha_xuong",
+  "so_trang": 22,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "THUYẾT MINH",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "NĐ 105/2025",
+   "QCVN 06:2010",
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 3980:2009",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_18/the.json"
+ },
+ {
+  "id": "nha_xuong_19",
+  "cong_nang": "nha_xuong",
+  "so_trang": 48,
+  "phan": [
+   "HỆ THỐNG PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_19/the.json"
+ },
+ {
+  "id": "nha_xuong_20",
+  "cong_nang": "nha_xuong",
+  "so_trang": 338,
+  "phan": [
+   "HỆ THỐNG PHÒNG CHÁY CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [
+   9.0
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 5738:2021",
+   "TCVN 9393:2012",
+   "TCVN 9394:2012"
+  ],
+  "the": "nha_xuong_20/the.json"
+ },
+ {
+  "id": "nha_xuong_21",
+  "cong_nang": "nha_xuong",
+  "so_trang": 84,
+  "phan": [
+   "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "KẾT CẤU",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "ĐÈN EX-EM",
+   "THIẾT BỊ PCCC",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN",
+   "HÚT KHÓI"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004"
+  ],
+  "the": "nha_xuong_21/the.json"
+ },
+ {
+  "id": "nha_xuong_22",
+  "cong_nang": "nha_xuong",
+  "so_trang": 170,
+  "phan": [],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 06:2022",
+   "TCVN 13333:2021",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 5709:2009",
+   "TCVN 5738:2021",
+   "TCVN 5760:1993",
+   "TCVN 6284-3:1997",
+   "TCVN 6288:1997",
+   "TCVN 6379:1998",
+   "TCVN 7026:2013",
+   "TCVN 7336:2021",
+   "TCVN 7888:2014",
+   "TCVN 9206:2012",
+   "TCVN 9207:2012",
+   "TCVN 9358:2012",
+   "TCVN 9385:2012"
+  ],
+  "the": "nha_xuong_22/the.json"
+ },
+ {
+  "id": "nha_xuong_23",
+  "cong_nang": "nha_xuong",
+  "so_trang": 72,
+  "phan": [],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 20:2006",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 7336:2021"
+  ],
+  "the": "nha_xuong_23/the.json"
+ },
+ {
+  "id": "nha_xuong_24",
+  "cong_nang": "nha_xuong",
+  "so_trang": 38,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "TỔNG THỂ",
+   "KIẾN TRÚC",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 6379:1998",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_24/the.json"
+ },
+ {
+  "id": "nha_xuong_25",
+  "cong_nang": "nha_xuong",
+  "so_trang": 178,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "TỔNG THỂ",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "HÚT KHÓI",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [
+   5.97
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 20:2006",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_25/the.json"
+ },
+ {
+  "id": "nha_xuong_26",
+  "cong_nang": "nha_xuong",
+  "so_trang": 50,
+  "phan": [
+   "CƠ ĐIỆN",
+   "CHỮA CHÁY",
+   "EXIT & EM",
+   "BÁO CHÁY",
+   "HÚT KHÓI",
+   "CHỐNG SÉT"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 2622:1996",
+   "TCVN 3890:2023",
+   "TCVN 5738:2021",
+   "TCVN 7336:2021"
+  ],
+  "the": "nha_xuong_26/the.json"
+ },
+ {
+  "id": "nha_xuong_27",
+  "cong_nang": "nha_xuong",
+  "so_trang": 54,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "TỔNG THỂ",
+   "KIẾN TRÚC",
+   "NHÀ KHO",
+   "NHÀ XE",
+   "NHÀ BẢO VỆ",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CẤP ĐIỆN",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 06:2023",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_27/the.json"
+ },
+ {
+  "id": "nha_xuong_28",
+  "cong_nang": "nha_xuong",
+  "so_trang": 52,
+  "phan": [],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022"
+  ],
+  "the": "nha_xuong_28/the.json"
+ },
+ {
+  "id": "nha_xuong_29",
+  "cong_nang": "nha_xuong",
+  "so_trang": 103,
+  "phan": [
+   "PHỤ TRỢ",
+   "KẾT CẤU"
+  ],
+  "cao_pccc_m": [
+   8.7
+  ],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 06:2023",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_29/the.json"
+ },
+ {
+  "id": "nha_xuong_30",
+  "cong_nang": "nha_xuong",
+  "so_trang": 118,
+  "phan": [
+   "KIẾN TRÚC",
+   "KHO A",
+   "KHO B",
+   "CÔNG TRÌNH PHỤ TRỢ",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "HÚT KHỐI",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 06:2023",
+   "TCVN 13456:2022",
+   "TCVN 20:2006",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "nha_xuong_30/the.json"
+ },
+ {
+  "id": "nha_xuong_31",
+  "cong_nang": "nha_xuong",
+  "so_trang": 98,
+  "phan": [
+   "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "KẾT CẤU",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "ĐÈN EX - EM",
+   "THIẾT BỊ PCCC",
+   "CHỐNG SÉT"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 20:2006",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 9385:2012"
+  ],
+  "the": "nha_xuong_31/the.json"
+ },
+ {
+  "id": "phong_kham_01",
+  "cong_nang": "phong_kham",
+  "so_trang": 46,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "phong_kham_01/the.json"
+ },
+ {
+  "id": "phong_kham_02",
+  "cong_nang": "phong_kham",
+  "so_trang": 46,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "CHỮA CHÁY",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "CHỐNG SÉT"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "phong_kham_02/the.json"
+ },
+ {
+  "id": "showroom_01",
+  "cong_nang": "showroom",
+  "so_trang": 77,
+  "phan": [
+   "KIẾN TRÚC+PHÒNG CHÁY CHỮA CHÁY",
+   "TỔNG THỂ",
+   "NHÀ KHO",
+   "CÔNG TRÌNH PHỤ TRỢ",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 20:2006",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "showroom_01/the.json"
+ },
+ {
+  "id": "truong_hoc_01",
+  "cong_nang": "truong_hoc",
+  "so_trang": 67,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "CHỮA CHÁY",
+   "BÁO CHÁY",
+   "EXIT-EM",
+   "BÌNH CHỮA CHÁY",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4518:1988",
+   "TCVN 4879:1989",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013",
+   "TCVN 9207:2012"
+  ],
+  "the": "truong_hoc_01/the.json"
+ },
+ {
+  "id": "truong_hoc_02",
+  "cong_nang": "truong_hoc",
+  "so_trang": 35,
+  "phan": [
+   "HỆ THỐNG PCCC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "CHỮA CHÁY"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "QCVN 12:2014",
+   "TCVN 13456:2022",
+   "TCVN 4513:1988",
+   "TCVN 568-14:2025",
+   "TCVN 5740:2023",
+   "TCVN 6379:2024",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "truong_hoc_02/the.json"
+ },
+ {
+  "id": "truong_hoc_03",
+  "cong_nang": "truong_hoc",
+  "so_trang": 103,
+  "phan": [],
+  "cao_pccc_m": [
+   14.75
+  ],
+  "van_ban": [
+   "NĐ 10/2021",
+   "NĐ 104/2026",
+   "NĐ 175/2024",
+   "NĐ 178/2025",
+   "NĐ 275/2025",
+   "NĐ 85/2025",
+   "NĐ 98/2025",
+   "QCVN 01:2021",
+   "QCVN 03:2022",
+   "QCVN 06:2020",
+   "QCVN 06:2022",
+   "QCVN 10:2024",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 4319:2012",
+   "TCVN 4601:2012",
+   "TCVN 5740:2023",
+   "TCVN 6379:2024",
+   "TCVN 7336:2023",
+   "TCVN 8794:2021",
+   "TT 12/2021",
+   "TT 13/2020",
+   "TT 23/2024"
+  ],
+  "the": "truong_hoc_03/the.json"
+ },
+ {
+  "id": "van_phong_01",
+  "cong_nang": "van_phong",
+  "so_trang": 64,
+  "phan": [
+   "KIẾN TRÚC",
+   "PCCC"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "QCVN 10:2025",
+   "TCVN 13456:2022",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "van_phong_01/the.json"
+ },
+ {
+  "id": "van_phong_nha_hang_01",
+  "cong_nang": "van_phong_nha_hang",
+  "so_trang": 91,
+  "phan": [
+   "KIẾN TRÚC + KẾT CẤU",
+   "KIẾN TRÚC",
+   "KẾT CẤU",
+   "HỆ THỐNG PCCC",
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT",
+   "CẤP ĐIỆN"
+  ],
+  "cao_pccc_m": [
+   3.5,
+   5.0,
+   7.0
+  ],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 06:2022",
+   "QCVN 13:2018",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "van_phong_nha_hang_01/the.json"
+ },
+ {
+  "id": "van_phong_nha_hang_02",
+  "cong_nang": "van_phong_nha_hang",
+  "so_trang": 4,
+  "phan": [],
+  "cao_pccc_m": [],
+  "van_ban": [],
+  "the": "van_phong_nha_hang_02/the.json"
+ },
+ {
+  "id": "van_phong_nha_hang_03",
+  "cong_nang": "van_phong_nha_hang",
+  "so_trang": 202,
+  "phan": [
+   "KẾT CẤU"
+  ],
+  "cao_pccc_m": [
+   20.5
+  ],
+  "van_ban": [
+   "QCVN 02:2020",
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5738:2021",
+   "TCVN 6379:1998",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "van_phong_nha_hang_03/the.json"
+ },
+ {
+  "id": "van_phong_nha_hang_04",
+  "cong_nang": "van_phong_nha_hang",
+  "so_trang": 43,
+  "phan": [
+   "BÁO CHÁY",
+   "ĐÈN EX - EM",
+   "CHỮA CHÁY",
+   "CHỐNG SÉT"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 4879:1989",
+   "TCVN 7336:2021",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2025",
+   "TCVN 7722-2-22:2013"
+  ],
+  "the": "van_phong_nha_hang_04/the.json"
+ },
+ {
+  "id": "van_phong_nha_hang_05",
+  "cong_nang": "van_phong_nha_hang",
+  "so_trang": 59,
+  "phan": [
+   "KIẾN TRÚC + HỆ THỐNG PCCC",
+   "KIẾN TRÚC",
+   "PCCC",
+   "BÁO CHÁY",
+   "CHỮA CHÁY",
+   "ĐÈN EX - EM",
+   "BÌNH CHỮA CHÁY",
+   "THÔNG GIÓ TẦNG HẦM"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 3890:2023",
+   "TCVN 7435-1:2004",
+   "TCVN 7568-14:2015",
+   "TCVN 7568-14:2025"
+  ],
+  "the": "van_phong_nha_hang_05/the.json"
+ },
+ {
+  "id": "van_phong_nha_hang_06",
+  "cong_nang": "van_phong_nha_hang",
+  "so_trang": 137,
+  "phan": [],
+  "cao_pccc_m": [
+   8.55
+  ],
+  "van_ban": [
+   "NĐ 136/2020",
+   "NĐ 15/2021",
+   "NĐ 40/2020",
+   "QCVN 02:2020",
+   "QCVN 05:2020",
+   "QCVN 06:2021",
+   "QCVN 06:2022",
+   "QCVN 10:2012",
+   "TCVN 13333:2021",
+   "TCVN 13456:2022",
+   "TCVN 3890:2023",
+   "TCVN 4879:1989",
+   "TCVN 5053:1990",
+   "TCVN 5307:2009",
+   "TCVN 5687:2010",
+   "TCVN 5738:2021",
+   "TCVN 5740:2009",
+   "TCVN 6101:1996",
+   "TCVN 6379:1998",
+   "TCVN 7161-13:2009",
+   "TCVN 7161-1:2022",
+   "TCVN 7161-5:2021",
+   "TCVN 7161-9:2009",
+   "TCVN 7336:2021",
+   "TCVN 7441:2004",
+   "TCVN 7722-2-22:2013",
+   "TCVN 8092:2009"
+  ],
+  "the": "van_phong_nha_hang_06/the.json"
+ },
+ {
+  "id": "van_phong_nha_hang_07",
+  "cong_nang": "van_phong_nha_hang",
+  "so_trang": 27,
+  "phan": [
+   "PHÒNG CHÁY CHỮA CHÁY",
+   "KIẾN TRÚC - KẾT CẤU",
+   "CHỮA CHÁY",
+   "BÁO CHÁY",
+   "EXIT-EM"
+  ],
+  "cao_pccc_m": [],
+  "van_ban": [
+   "QCVN 06:2022",
+   "TCVN 13456:2022",
+   "TCVN 2622:1995",
+   "TCVN 3890:2023",
+   "TCVN 4513:1988",
+   "TCVN 5738:2009",
+   "TCVN 5760:1993",
+   "TCVN 7336:2021"
+  ],
+  "the": "van_phong_nha_hang_07/the.json"
+ }
+]

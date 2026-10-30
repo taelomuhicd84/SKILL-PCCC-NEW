@@ -1,0 +1,7522 @@
+{
+ "id": "chung_cu_khach_san_04",
+ "cong_nang": "chung_cu_khach_san",
+ "so_trang": 93,
+ "phan": [],
+ "cao_pccc_m": [],
+ "ghcl": [
+  "E15",
+  "E30",
+  "E60",
+  "EI30",
+  "EI45",
+  "EI60",
+  "EI90",
+  "REI120",
+  "REI150",
+  "REI45",
+  "REI90"
+ ],
+ "van_ban_trich": {
+  "QCVN 01:2008": [],
+  "QCVN 04:2021": [],
+  "QCVN 06:2022": [
+   "bảng 14",
+   "bảng e4",
+   "bảng g2",
+   "mục 4.35"
+  ],
+  "QCVN 09:2017": [],
+  "QCVN 12:2014": [],
+  "QCVN 13:2018": [
+   "bảng 3",
+   "điều 2.3.1.3"
+  ],
+  "QCVN 26:2010": [],
+  "TCVN 07336:2021": [],
+  "TCVN 13333:2021": [],
+  "TCVN 13456:2022": [],
+  "TCVN 3890:2023": [
+   "điều 5.1.1.5"
+  ],
+  "TCVN 5768-14:2025": [],
+  "TCVN 5949:1998": [],
+  "TCVN 6160:1996": [
+   "mục 12.1"
+  ],
+  "TCVN 7336:2021": [],
+  "TCVN 7435:2004": []
+ },
+ "luu_y": "Trích tự động từ PDF; mọi số liệu là CẦN XÁC NHẬN khi dùng cho dự án khác. Hình học: tọa độ pt PDF, mm_moi_pt để đổi ra mm.",
+ "trang": [
+  {
+   "trang": 1,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 2,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 3,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 4,
+   "ma": "GEN-01",
+   "ten": "DANH SÁCH BẢN VẼ WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "khac",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 5,
+   "ma": "PLN-01",
+   "ten": "BẢN ĐỒ VỊ TRÍ SƠ ĐỒ CHỈ DẪN WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "SƠ ĐỒ VỊ TRÍ VÀ PHẠM VI RANH GIỚI KHU ĐẤT- TL: 1/2000",
+     "xy": [
+      112,
+      627
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 6,
+   "ma": "PLN-02",
+   "ten": "MẶT BẰNG TỔNG THỂ TẦNG 1 WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐƯỜNG TRUNG TUYẾN CỦA ĐƯỜNG GIAO THOÂNG TIẾP GIAÙP",
+     "xy": [
+      759,
+      182
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Theo quyết định số 580/QĐ-UBND ngày 24/02/2025 về phê duyệt Đồ án Quy hoạch chi tiết theo quy trình rút gọn (quy hoạch tổng mặt bằng) tỷ lệ 1/500",
+     "xy": [
+      1297,
+      631
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích khu đất Diện tích đất phạm lộ giới Diện tích đất phù hợp quy hoạch Đất xây dựng công trình Đất sân đường nội bộ Đất cây xanh",
+     "xy": [
+      761,
+      685
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích khu đất phù hợp quy hoạch Chức năng công trình",
+     "xy": [
+      1097,
+      719
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hệ số sử dụng đất (Không bao gồm diện tích tầng hầm để xe và kỹ thuật), (2.182,2m² / 727,4m²)",
+     "xy": [
+      1097,
+      777
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích xây dựng hầm Diện tích xây dựng tầng 1 Diện tích xây dựng tầng 2 - 6 (363,7 x 5 tầng) Diện tích xây dựng mái Diện tích xây dựng tầng tum Tổng diện tích sàn xây dựng (CFA) (kể cả tầng hầm) Tổng diện tích sàn xây dựng (GFA) (không kể tầng hầm)",
+     "xy": [
+      761,
+      822
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lộ giới đường Phan Liêm tiếp giáp công trình Khoảng lùi xây dựng - Lùi so với ranh lộ giới đường Phan Liêm - Lùi so với các ranh đất còn lại",
+     "xy": [
+      1097,
+      867
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NHÓM NGUY HIỂM CHÁY THEO CÔNG NĂNG CỦA NHÀ",
+     "xy": [
+      713,
+      973
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ÁP DỤNG BẢNG 14 QCVN06:2022BXD KHÔNG YÊU CẦU BÃI ĐỔ XE CHỮA CHÁY CHO CÔNG TRÌNH KHOẢNG CÁCH TỪ ĐƯỜNG CHO XE CHỮA CHÁY TỚI HỌNG TIẾP NƯỚC NHỎ HƠN 18M MẶT ĐƯỜNG PHẢI ĐẢM BẢO CHỊU ĐƯỢC TẢI TRỌNG CỦA XE CHỮA CHÁY ĐƯỜNG CHO XE CHỮA CHÁY VÀ BÃI ĐỖ XE CHỮA CHÁY PHẢI ĐƯỢC ĐẢM BẢO THÔNG THOÁNG TẠI MỌI THỜI ĐIỂM ĐỘ DỐC ĐƯỜNG CHO XE CHỮA CHÁY KHÔNG ĐƯỢC QUÁ: 8,3",
+     "xy": [
+      1140,
+      1009
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 14"
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng 14"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 7,
+   "ma": "PLN-03",
+   "ten": "MẶT BẰNG TỔNG THỂ WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Theo quyết định số 580/QĐ-UBND ngày 24/02/2025 về phê duyệt Đồ án Quy hoạch chi tiết theo quy trình rút gọn (quy hoạch tổng mặt bằng) tỷ lệ 1/500",
+     "xy": [
+      1287,
+      631
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích khu đất Diện tích đất phạm lộ giới Diện tích đất phù hợp quy hoạch Đất xây dựng công trình Đất sân đường nội bộ Đất cây xanh",
+     "xy": [
+      751,
+      685
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích khu đất phù hợp quy hoạch Chức năng công trình",
+     "xy": [
+      1087,
+      719
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hệ số sử dụng đất (Không bao gồm diện tích tầng hầm để xe và kỹ thuật), (2.182,2m² / 727,4m²)",
+     "xy": [
+      1087,
+      777
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích xây dựng hầm Diện tích xây dựng tầng 1 Diện tích xây dựng tầng 2 - 6 (363,7 x 5 tầng) Diện tích xây dựng mái Diện tích xây dựng tầng tum Tổng diện tích sàn xây dựng (CFA) (kể cả tầng hầm) Tổng diện tích sàn xây dựng (GFA) (không kể tầng hầm)",
+     "xy": [
+      751,
+      822
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lộ giới đường Phan Liêm tiếp giáp công trình Khoảng lùi xây dựng - Lùi so với ranh lộ giới đường Phan Liêm - Lùi so với các ranh đất còn lại",
+     "xy": [
+      1087,
+      867
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NHÓM NGUY HIỂM CHÁY THEO CÔNG NĂNG CỦA NHÀ",
+     "xy": [
+      713,
+      973
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ÁP DỤNG BẢNG 14 QCVN06:2022BXD KHÔNG YÊU CẦU BÃI ĐỔ XE CHỮA CHÁY CHO CÔNG TRÌNH KHOẢNG CÁCH TỪ ĐƯỜNG CHO XE CHỮA CHÁY TỚI HỌNG TIẾP NƯỚC NHỎ HƠN 18M MẶT ĐƯỜNG PHẢI ĐẢM BẢO CHỊU ĐƯỢC TẢI TRỌNG CỦA XE CHỮA CHÁY ĐƯỜNG CHO XE CHỮA CHÁY VÀ BÃI ĐỖ XE CHỮA CHÁY PHẢI ĐƯỢC ĐẢM BẢO THÔNG THOÁNG TẠI MỌI THỜI ĐIỂM ĐỘ DỐC ĐƯỜNG CHO XE CHỮA CHÁY KHÔNG ĐƯỢC QUÁ: 8,3",
+     "xy": [
+      1140,
+      1009
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 14"
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng 14"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 8,
+   "ma": "PLN-04",
+   "ten": "MẶT BẰNG HẦM WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ÁP DỤNG BẢNG 3 QCVN13:2018 KHOẢNG CÁCH ĐẾN LỐI THOÁT HIỂM CHO GARA NGẦM TẠI PHẦN CỤT 20M. KHOẢNG CÁCH ĐẾN LỐI THOÁT HIỂM CHO GARA NGẦM TẠI GIỮA CÁC LỐI THOÁT HIỂM 40M.",
+     "xy": [
+      143,
+      89
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 13:2018",
+       "dieu": "bảng 3"
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ: CÔNG TRÌNH BẬC CHỊU LỬA II",
+     "xy": [
+      315,
+      160
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÁC HỘP GEN KỸ THUẬT THÔNG TẦNG ĐƯỜNG ỐNG ĐƯỢC CHỐNG CHÁY LAN BẰNG BÔNG THỦY TINH , TẤM CEMBOARD 8MM, VỮA HỒ. - CÁC THIẾT BỊ ĐIỆN ĐƯỢC BẢO VỆ BẰNG CẦU DAO ĐÓNG NGẮT TỰ ĐỘNG. - PHÒNG TỦ ĐIỆN KHÔNG CÓ NGƯỜI BÊN TRONG VÀ THAO TÁC BẢO TRÌ TỪ PHÍA BÊN NGOÀI. - GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN:",
+     "xy": [
+      322,
+      177
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ TƯỜNG CHỊU LỰC, CỘT CHỊU LỰC VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC: GHCL R90 + TƯỜNG NGOÀI KHÔNG CHỊU LỰC: GHCL E15 + SÀN TẦNG (BAO GỒM CẢ SÀN MÁI): GHCL REI 45 + SÀN VÀ TRẦN TẦNG HẦM: GHCL REI 150 + TƯỜNG TRONG BUỒNG THANG BỘ: GHCL REI 90 + KẾT CẤU BAO BỌC GIẾNG THANG MÁY: GHCL REI 120 + BẢN THANG VÀ CHIẾU THANG: GHCL R60 + TƯỜNG NGĂN CHÁY SẢNH THANG MÁY, BUỒNG THANG BỘ, CÁC KHOANG ĐỆM, CÁC PHÒNG KỸ THUẬT ĐIỆN, BƠM, QUẠT... (HẦM) LÀ TƯỜNG GẠCH XÂY : GHCL EI90",
+     "xy": [
+      327,
+      227
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1000X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 900X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      362,
+      325
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      362,
+      385
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      362,
+      401
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1550X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN. CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      362,
+      417
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      362,
+      456
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 800X2150.",
+     "xy": [
+      362,
+      472
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 700X2150.",
+     "xy": [
+      362,
+      489
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60. KÍCH THƯỚC LỌT LÒNG: 600X2050.",
+     "xy": [
+      362,
+      506
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÔNG TRÌNH ĐƯỢC BỐ TRÍ DỤNG CỤ PHÁ DỠ THEO PHỤ LỤC E, TCVN3890:2023",
+     "xy": [
+      321,
+      525
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "MƯƠNG THU DẦU TRÀN 200x150mm LẮP ĐẦY MƯƠNG BẰNG CÁT KHÔ",
+     "xy": [
+      1342,
+      573
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LƯỢNG DẦU DỰ TRỬ CỦA MÁY PHÁT ĐIỆN KHÔNG QUÁ 3 GIỜ LỰƠNG DẦU TIÊU THỤ CỦA MÁY PHÁT",
+     "xy": [
+      1336,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ TƯỜNG NGĂN CHÁY:",
+     "xy": [
+      310,
+      919
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG NGĂN CHÁY GẠCH DÀY 200mm , TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 150, TƯỜNG GẠCH DÀY 100mm, TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 120.",
+     "xy": [
+      304,
+      943
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TƯỜNG BTCT 200mm, GIỚI HẠN CHỊU LỬA REI 150. -CỘT, VÁCH BTCT CÓ GHCL REI90 -BẢN THANG VÀ CHIẾU THANG TRONG NHÀ ĐƯỢC LÀM BẰNG BTCT CÓ GHCL R60 - TƯỜNG BAO BUỒNG THANG BỘ CÓ GHCL REI90 -SÀN GIỮA CÁC TẦNG TỪ TẦNG 1 ĐẾN TẦNG MÁI LÀM BẰNG BTCT CÓ GHCL REI45 -SÀN VÀ TRẦN TẦNG HẦM LÀM BẰNG BTCT CÓ GHCL REI150",
+     "xy": [
+      308,
+      974
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VỊ TRÍ THOÁT NẠN XA NHẤT CỬA RA THOÁT NẠN",
+     "xy": [
+      139,
+      1081
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 13:2018",
+     "bảng 3"
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "E30",
+    "EI60",
+    "EI90",
+    "REI120",
+    "REI150",
+    "REI45",
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 9,
+   "ma": "PLN-05",
+   "ten": "MẶT BẰNG TẦNG 1 WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: CÔNG TRÌNH BẬC CHỊU LỬA II",
+     "xy": [
+      269,
+      121
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÁC HỘP GEN KỸ THUẬT THÔNG TẦNG ĐƯỜNG ỐNG ĐƯỢC CHỐNG CHÁY LAN BẰNG BÔNG THỦY TINH , TẤM CEMBOARD 8MM, VỮA HỒ. - CÁC THIẾT BỊ ĐIỆN ĐƯỢC BẢO VỆ BẰNG CẦU DAO ĐÓNG NGẮT TỰ ĐỘNG. - PHÒNG TỦ ĐIỆN KHÔNG CÓ NGƯỜI BÊN TRONG VÀ THAO TÁC BẢO TRÌ TỪ PHÍA BÊN NGOÀI. - GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN:",
+     "xy": [
+      276,
+      138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ TƯỜNG CHỊU LỰC, CỘT CHỊU LỰC VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC: GHCL R90 + TƯỜNG NGOÀI KHÔNG CHỊU LỰC: GHCL E15 + SÀN TẦNG (BAO GỒM CẢ SÀN MÁI): GHCL REI 45 + SÀN VÀ TRẦN TẦNG HẦM: GHCL REI 150 + TƯỜNG TRONG BUỒNG THANG BỘ: GHCL REI 90 + KẾT CẤU BAO BỌC GIẾNG THANG MÁY: GHCL REI 120 + BẢN THANG VÀ CHIẾU THANG: GHCL R60 + TƯỜNG NGĂN CHÁY SẢNH THANG MÁY, BUỒNG THANG BỘ, CÁC KHOANG ĐỆM, CÁC PHÒNG KỸ THUẬT ĐIỆN, BƠM, QUẠT... (HẦM) LÀ TƯỜNG GẠCH XÂY : GHCL EI90",
+     "xy": [
+      281,
+      188
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1000X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 900X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      316,
+      287
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      316,
+      347
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      316,
+      362
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      959,
+      366
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1550X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN. CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      316,
+      378
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      316,
+      417
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 800X2150.",
+     "xy": [
+      316,
+      434
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 700X2150.",
+     "xy": [
+      316,
+      451
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60. KÍCH THƯỚC LỌT LÒNG: 600X2050.",
+     "xy": [
+      316,
+      467
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÔNG TRÌNH ĐƯỢC BỐ TRÍ DỤNG CỤ PHÁ DỠ THEO PHỤ LỤC E, TCVN3890:2023",
+     "xy": [
+      275,
+      487
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      959,
+      708
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ TƯỜNG NGĂN CHÁY:",
+     "xy": [
+      327,
+      925
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG NGĂN CHÁY GẠCH DÀY 200mm , TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 150, TƯỜNG GẠCH DÀY 100mm, TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 120.",
+     "xy": [
+      321,
+      948
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TƯỜNG BTCT 200mm, GIỚI HẠN CHỊU LỬA REI 150. -CỘT, VÁCH BTCT CÓ GHCL REI90 -BẢN THANG VÀ CHIẾU THANG TRONG NHÀ ĐƯỢC LÀM BẰNG BTCT CÓ GHCL R60 - TƯỜNG BAO BUỒNG THANG BỘ CÓ GHCL REI90 -SÀN GIỮA CÁC TẦNG TỪ TẦNG 1 ĐẾN TẦNG MÁI LÀM BẰNG BTCT CÓ GHCL REI45 -SÀN VÀ TRẦN TẦNG HẦM LÀM BẰNG BTCT CÓ GHCL REI150",
+     "xy": [
+      326,
+      979
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VỊ TRÍ THOÁT NẠN XA NHẤT CỬA RA THOÁT NẠN",
+     "xy": [
+      141,
+      1085
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 3890:2023",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "E30",
+    "EI60",
+    "EI90",
+    "REI120",
+    "REI150",
+    "REI45",
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 10,
+   "ma": "PLN-06",
+   "ten": "MẶT BẰNG TẦNG 2 WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẬT ĐỘ DÒNG NGƯỜI THOÁT NẠN BẢNG G2.a QCVN06:2022",
+     "xy": [
+      407,
+      85
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng g2"
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH THOÁT NẠN TỪ GIAN PHÒNG CÓ BỐ TRÍ CỬA RA Ở GIỮA THANG BỘ THOÁT NẠN LÀ 40M",
+     "xy": [
+      188,
+      138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KẾT LUẬN ĐẢM BẢO",
+     "xy": [
+      140,
+      140
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHOẢNG CÁCH THOÁT NẠN TỪ GIAN PHÒNG CÓ BỐ TRÍ CỬA RA Ở HÀNH LANG CỤT TỚI THANG BỘ THOÁT NẠN LÀ 20M",
+     "xy": [
+      188,
+      154
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: CÔNG TRÌNH BẬC CHỊU LỬA II",
+     "xy": [
+      230,
+      168
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÁC HỘP GEN KỸ THUẬT THÔNG TẦNG ĐƯỜNG ỐNG ĐƯỢC CHỐNG CHÁY LAN BẰNG BÔNG THỦY TINH , TẤM CEMBOARD 8MM, VỮA HỒ. - CÁC THIẾT BỊ ĐIỆN ĐƯỢC BẢO VỆ BẰNG CẦU DAO ĐÓNG NGẮT TỰ ĐỘNG. - PHÒNG TỦ ĐIỆN KHÔNG CÓ NGƯỜI BÊN TRONG VÀ THAO TÁC BẢO TRÌ TỪ PHÍA BÊN NGOÀI. - GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN:",
+     "xy": [
+      236,
+      184
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ TƯỜNG CHỊU LỰC, CỘT CHỊU LỰC VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC: GHCL R90 + TƯỜNG NGOÀI KHÔNG CHỊU LỰC: GHCL E15 + SÀN TẦNG (BAO GỒM CẢ SÀN MÁI): GHCL REI 45 + SÀN VÀ TRẦN TẦNG HẦM: GHCL REI 150 + TƯỜNG TRONG BUỒNG THANG BỘ: GHCL REI 90 + KẾT CẤU BAO BỌC GIẾNG THANG MÁY: GHCL REI 120 + BẢN THANG VÀ CHIẾU THANG: GHCL R60 + TƯỜNG NGĂN CHÁY SẢNH THANG MÁY, BUỒNG THANG BỘ, CÁC KHOANG ĐỆM, CÁC PHÒNG KỸ THUẬT ĐIỆN, BƠM, QUẠT... (HẦM) LÀ TƯỜNG GẠCH XÂY : GHCL EI90",
+     "xy": [
+      242,
+      235
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1000X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 900X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      277,
+      333
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      277,
+      393
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      277,
+      408
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1550X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN. CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      276,
+      425
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      277,
+      463
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 800X2150.",
+     "xy": [
+      276,
+      480
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 700X2150.",
+     "xy": [
+      276,
+      497
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SÀN LẮP GHÉP BỐ TRÍ CỤC NÓNG MÁY LẠNH",
+     "xy": [
+      1220,
+      497
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60. KÍCH THƯỚC LỌT LÒNG: 600X2050.",
+     "xy": [
+      276,
+      513
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÔNG TRÌNH ĐƯỢC BỐ TRÍ DỤNG CỤ PHÁ DỠ THEO PHỤ LỤC E, TCVN3890:2023",
+     "xy": [
+      236,
+      533
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ TƯỜNG NGĂN CHÁY:",
+     "xy": [
+      168,
+      893
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG NGĂN CHÁY GẠCH DÀY 200mm , TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 150, TƯỜNG GẠCH DÀY 100mm, TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 120.",
+     "xy": [
+      162,
+      916
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TƯỜNG BTCT 200mm, GIỚI HẠN CHỊU LỬA REI 150. -CỘT, VÁCH BTCT CÓ GHCL REI90 -BẢN THANG VÀ CHIẾU THANG TRONG NHÀ ĐƯỢC LÀM BẰNG BTCT CÓ GHCL R60 - TƯỜNG BAO BUỒNG THANG BỘ CÓ GHCL REI90 -SÀN GIỮA CÁC TẦNG TỪ TẦNG 1 ĐẾN TẦNG MÁI LÀM BẰNG BTCT CÓ GHCL REI45 -SÀN VÀ TRẦN TẦNG HẦM LÀM BẰNG BTCT CÓ GHCL REI150",
+     "xy": [
+      167,
+      948
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VỊ TRÍ THOÁT NẠN XA NHẤT CỬA RA THOÁT NẠN",
+     "xy": [
+      143,
+      1080
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng g2"
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "E30",
+    "EI60",
+    "EI90",
+    "REI120",
+    "REI150",
+    "REI45",
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 11,
+   "ma": "PLN-07",
+   "ten": "MẶT BẰNG TẦNG 3 - 6 WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẬT ĐỘ DÒNG NGƯỜI THOÁT NẠN BẢNG G2.a QCVN06:2022",
+     "xy": [
+      407,
+      85
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng g2"
+      }
+     ]
+    },
+    {
+     "chu": "KHOẢNG CÁCH THOÁT NẠN TỪ GIAN PHÒNG CÓ BỐ TRÍ CỬA RA Ở GIỮA THANG BỘ THOÁT NẠN LÀ 40M",
+     "xy": [
+      188,
+      138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KẾT LUẬN ĐẢM BẢO",
+     "xy": [
+      140,
+      140
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHOẢNG CÁCH THOÁT NẠN TỪ GIAN PHÒNG CÓ BỐ TRÍ CỬA RA Ở HÀNH LANG CỤT TỚI THANG BỘ THOÁT NẠN LÀ 20M",
+     "xy": [
+      188,
+      154
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: CÔNG TRÌNH BẬC CHỊU LỬA II",
+     "xy": [
+      230,
+      189
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÁC HỘP GEN KỸ THUẬT THÔNG TẦNG ĐƯỜNG ỐNG ĐƯỢC CHỐNG CHÁY LAN BẰNG BÔNG THỦY TINH , TẤM CEMBOARD 8MM, VỮA HỒ. - CÁC THIẾT BỊ ĐIỆN ĐƯỢC BẢO VỆ BẰNG CẦU DAO ĐÓNG NGẮT TỰ ĐỘNG. - PHÒNG TỦ ĐIỆN KHÔNG CÓ NGƯỜI BÊN TRONG VÀ THAO TÁC BẢO TRÌ TỪ PHÍA BÊN NGOÀI. - GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN:",
+     "xy": [
+      236,
+      206
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ TƯỜNG CHỊU LỰC, CỘT CHỊU LỰC VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC: GHCL R90 + TƯỜNG NGOÀI KHÔNG CHỊU LỰC: GHCL E15 + SÀN TẦNG (BAO GỒM CẢ SÀN MÁI): GHCL REI 45 + SÀN VÀ TRẦN TẦNG HẦM: GHCL REI 150 + TƯỜNG TRONG BUỒNG THANG BỘ: GHCL REI 90 + KẾT CẤU BAO BỌC GIẾNG THANG MÁY: GHCL REI 120 + BẢN THANG VÀ CHIẾU THANG: GHCL R60 + TƯỜNG NGĂN CHÁY SẢNH THANG MÁY, BUỒNG THANG BỘ, CÁC KHOANG ĐỆM, CÁC PHÒNG KỸ THUẬT ĐIỆN, BƠM, QUẠT... (HẦM) LÀ TƯỜNG GẠCH XÂY : GHCL EI90",
+     "xy": [
+      242,
+      256
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1000X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 900X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      277,
+      354
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      277,
+      414
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      277,
+      430
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1550X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN. CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      276,
+      446
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      277,
+      485
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SÀN LẮP GHÉP BỐ TRÍ CỤC NÓNG MÁY LẠNH",
+     "xy": [
+      1218,
+      497
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 800X2150.",
+     "xy": [
+      276,
+      501
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 700X2150.",
+     "xy": [
+      276,
+      518
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60. KÍCH THƯỚC LỌT LÒNG: 600X2050.",
+     "xy": [
+      276,
+      535
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÔNG TRÌNH ĐƯỢC BỐ TRÍ DỤNG CỤ PHÁ DỠ THEO PHỤ LỤC E, TCVN3890:2023",
+     "xy": [
+      236,
+      554
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ TƯỜNG NGĂN CHÁY:",
+     "xy": [
+      168,
+      893
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG NGĂN CHÁY GẠCH DÀY 200mm , TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 150, TƯỜNG GẠCH DÀY 100mm, TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 120.",
+     "xy": [
+      162,
+      916
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TƯỜNG BTCT 200mm, GIỚI HẠN CHỊU LỬA REI 150. -CỘT, VÁCH BTCT CÓ GHCL REI90 -BẢN THANG VÀ CHIẾU THANG TRONG NHÀ ĐƯỢC LÀM BẰNG BTCT CÓ GHCL R60 - TƯỜNG BAO BUỒNG THANG BỘ CÓ GHCL REI90 -SÀN GIỮA CÁC TẦNG TỪ TẦNG 1 ĐẾN TẦNG MÁI LÀM BẰNG BTCT CÓ GHCL REI45 -SÀN VÀ TRẦN TẦNG HẦM LÀM BẰNG BTCT CÓ GHCL REI150",
+     "xy": [
+      167,
+      948
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VỊ TRÍ THOÁT NẠN XA NHẤT CỬA RA THOÁT NẠN",
+     "xy": [
+      139,
+      1084
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng g2"
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "E30",
+    "EI60",
+    "EI90",
+    "REI120",
+    "REI150",
+    "REI45",
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 12,
+   "ma": "PLN-08",
+   "ten": "MẶT BẰNG TUM WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: CÔNG TRÌNH BẬC CHỊU LỬA II",
+     "xy": [
+      226,
+      249
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÁC HỘP GEN KỸ THUẬT THÔNG TẦNG ĐƯỜNG ỐNG ĐƯỢC CHỐNG CHÁY LAN BẰNG BÔNG THỦY TINH , TẤM CEMBOARD 8MM, VỮA HỒ. - CÁC THIẾT BỊ ĐIỆN ĐƯỢC BẢO VỆ BẰNG CẦU DAO ĐÓNG NGẮT TỰ ĐỘNG. - PHÒNG TỦ ĐIỆN KHÔNG CÓ NGƯỜI BÊN TRONG VÀ THAO TÁC BẢO TRÌ TỪ PHÍA BÊN NGOÀI. - GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN:",
+     "xy": [
+      233,
+      266
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ TƯỜNG CHỊU LỰC, CỘT CHỊU LỰC VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC: GHCL R90 + TƯỜNG NGOÀI KHÔNG CHỊU LỰC: GHCL E15 + SÀN TẦNG (BAO GỒM CẢ SÀN MÁI): GHCL REI 45 + SÀN VÀ TRẦN TẦNG HẦM: GHCL REI 150 + TƯỜNG TRONG BUỒNG THANG BỘ: GHCL REI 90 + KẾT CẤU BAO BỌC GIẾNG THANG MÁY: GHCL REI 120 + BẢN THANG VÀ CHIẾU THANG: GHCL R60 + TƯỜNG NGĂN CHÁY SẢNH THANG MÁY, BUỒNG THANG BỘ, CÁC KHOANG ĐỆM, CÁC PHÒNG KỸ THUẬT ĐIỆN, BƠM, QUẠT... (HẦM) LÀ TƯỜNG GẠCH XÂY : GHCL EI90",
+     "xy": [
+      238,
+      316
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1000X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 900X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN, KHE CỬA ĐƯỢC CHÈN KÍN NGĂN KHÓI CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      273,
+      415
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      273,
+      474
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1600X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      273,
+      490
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SÀN LẮP GHÉP BỐ TRÍ CỤC NÓNG MÁY LẠNH",
+     "xy": [
+      1219,
+      497
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 1550X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN. CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      273,
+      506
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60, KÍCH THƯỚC LỌT LÒNG: 800X2150, CÓ CƠ CẤU TỰ ĐÓNG KÍN.",
+     "xy": [
+      273,
+      545
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 800X2150.",
+     "xy": [
+      273,
+      561
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY GHCL EI60. KÍCH THƯỚC LỌT LÒNG: 700X2150.",
+     "xy": [
+      273,
+      578
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY EI60. KÍCH THƯỚC LỌT LÒNG: 600X2050.",
+     "xy": [
+      273,
+      595
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- CÔNG TRÌNH ĐƯỢC BỐ TRÍ DỤNG CỤ PHÁ DỠ THEO PHỤ LỤC E, TCVN3890:2023",
+     "xy": [
+      232,
+      614
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ TƯỜNG NGĂN CHÁY:",
+     "xy": [
+      168,
+      893
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG NGĂN CHÁY GẠCH DÀY 200mm , TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 150, TƯỜNG GẠCH DÀY 100mm, TRÁT VỮA 12,5mm, GIỚI HẠN CHỊU LỬA REI 120.",
+     "xy": [
+      162,
+      916
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TƯỜNG BTCT 200mm, GIỚI HẠN CHỊU LỬA REI 150. -CỘT, VÁCH BTCT CÓ GHCL REI90 -BẢN THANG VÀ CHIẾU THANG TRONG NHÀ ĐƯỢC LÀM BẰNG BTCT CÓ GHCL R60 - TƯỜNG BAO BUỒNG THANG BỘ CÓ GHCL REI90 -SÀN GIỮA CÁC TẦNG TỪ TẦNG 1 ĐẾN TẦNG MÁI LÀM BẰNG BTCT CÓ GHCL REI45 -SÀN VÀ TRẦN TẦNG HẦM LÀM BẰNG BTCT CÓ GHCL REI150",
+     "xy": [
+      167,
+      948
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VỊ TRÍ THOÁT NẠN XA NHẤT CỬA RA THOÁT NẠN",
+     "xy": [
+      140,
+      1079
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 3890:2023",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "E30",
+    "EI60",
+    "EI90",
+    "REI120",
+    "REI150",
+    "REI45",
+    "REI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 13,
+   "ma": "PLN-09",
+   "ten": "MẶT BẰNG MÁI WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 14,
+   "ma": "ELE-01",
+   "ten": "MẶT ĐỨNG (TRỤC A - D) WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: ÁP DỤNG BẢNG E4.b PHỤ LỤC E QCVN06:2022BXD",
+     "xy": [
+      196,
+      499
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng e4"
+      }
+     ]
+    },
+    {
+     "chu": "· MẶT ĐỨNG TRỤC A-D KHOẢNG CÁCH PHÒNG CHÁY CHỐNG CHÁY THEO",
+     "xy": [
+      197,
+      511
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI TÍNH TỪ TƯỜNG NGOÀI NHÀ TỚI ĐƯỜNG TRUNG TUYẾN CỦA ĐƯỜNG GIAO THÔNG TIẾP GIÁP ) LÀ 3.33M>3M => KẾT LUẬN: ĐẢM BẢO THEO BẢNG E3,PHỤ LỤC E, QUY CHUẨN 06:2022BXD => KHÔNG YÊU CẦU GIỚI HẠN CHỊU LỬA TRÊN MẶT ĐỨNG TRỤC A - D => TỶ LỆ TỔNG DIỆN TÍCH LỚN NHẤT CỦA CÁC LỖ MỞ KHÔNG BẢO VỆ CHỐNG CHÁY SO VỚI TỔNG DIỆN TÍCH BỀ MẶT TƯỜNG ĐỐI DIỆN ĐƯỜNG RANH GIỚI LÀ 100% KHÔNG LÀM CHỐNG CHÁY",
+     "xy": [
+      197,
+      523
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "· CÔNG TRÌNH CÓ TƯỜNG NGOÀI KHÔNG CHỊU LỰC XÂY GẠCH, TRÁT XI",
+     "xy": [
+      197,
+      611
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MĂNG, SƠN NƯỚC CẤP NGUY HIỂM CHÁY K0, VẬT LIỆU HOÀN THIỆN TƯỜNG NGOÀI LÀ VẬT LIỆU KHÔNG CHÁY, TÍNH LAN TRUYỀN CHÁY KHÔNG THẤP HƠN LT1. => CÔNG TRÌNH ĐƯỢC TRANG BỊ HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG, THÌ TRÊN MẶT ĐỨNG A-D CÁC CỬA,VÁCH KÍNH CỬA SỔ, VÁCH THÔNG GIÓ KHÔNG QUI ĐỊNH GIỚI HẠN CHỊU LỬA. => CÔNG TRÌNH ĐƯỢC TRANG BỊ HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG THÌ TRÊN MẶT ĐỨNG A-D KHÔNG ÁP DỤNG NGĂN CHÁY LAN THEO PHƯƠNG NGANG, PHƯƠNG ĐỨNG MỤC 4.32.1 QC06-2022.",
+     "xy": [
+      196,
+      624
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng e4"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 15,
+   "ma": "ELE-02",
+   "ten": "MẶT ĐỨNG (TRỤC D - A) WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: ÁP DỤNG BẢNG E4.b PHỤ LỤC E QCVN06:2022BXD · MẶT ĐỨNG TRỤC C-A KHOẢNG CÁCH PHÒNG CHÁY CHỐNG CHÁY THEO ĐƯỜNG RANH GIỚI TÍNH TỪ TƯỜNG NGOÀI NHÀ TỚI RANH ĐẤT LÀ 3.01M>3M => KẾT LUẬN: ĐẢM BẢO THEO BẢNG E3,PHỤ LỤC E, QUY CHUẨN 06:2022BXD => KHÔNG YÊU CẦU GIỚI HẠN CHỊU LỬA TRÊN MẶT ĐỨNG TRỤC C-A => TỶ LỆ TỔNG DIỆN TÍCH LỚN NHẤT CỦA CÁC LỖ MỞ KHÔNG BẢO VỆ CHỐNG CHÁY SO VỚI TỔNG DIỆN TÍCH BỀ MẶT TƯỜNG ĐỐI DIỆN ĐƯỜNG RANH GIỚI LÀ 100% KHÔNG LÀM CHỐNG CHÁY",
+     "xy": [
+      190,
+      243
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng e4"
+      }
+     ]
+    },
+    {
+     "chu": "· CÔNG TRÌNH CÓ TƯỜNG NGOÀI KHÔNG CHỊU LỰC XÂY GẠCH, TRÁT XI",
+     "xy": [
+      191,
+      343
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MĂNG, SƠN NƯỚC CẤP NGUY HIỂM CHÁY K0, VẬT LIỆU HOÀN THIỆN TƯỜNG NGOÀI LÀ VẬT LIỆU KHÔNG CHÁY, TÍNH LAN TRUYỀN CHÁY KHÔNG THẤP HƠN LT1. => CÔNG TRÌNH ĐƯỢC TRANG BỊ HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG THÌ TRÊN MẶT ĐỨNG C-A CÁC CỬA,VÁCH KÍNH CỬA SỔ, VÁCH THÔNG GIÓ KHÔNG QUI ĐỊNH GIỚI HẠN CHỊU LỬA. GHI CHÚ: ÁP DỤNG BẢNG E4.b PHỤ LỤC E QCVN06:2022BXD",
+     "xy": [
+      190,
+      355
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng e4"
+      }
+     ]
+    },
+    {
+     "chu": "· MẶT ĐỨNG TRỤC D - C KHOẢNG CÁCH PHÒNG CHÁY CHỐNG CHÁY THEO",
+     "xy": [
+      191,
+      445
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI TÍNH TỪ TƯỜNG NGOÀI NHÀ TỚI RANH ĐẤT LÀ 2.1M<3M",
+     "xy": [
+      191,
+      458
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "=> GIỚI HẠN CHỊU LỬA CỦA TƯỜNG NGOÀI LÀ E60 ( BẢNG E.3, PHỤ LỤC E, QUY CHUẨN 06:2022BXD) -TỶ LỆ TỔNG DIỆN TÍCH LỚN NHẤT CỦA CÁC LỖ MỞ KHÔNG ĐƯỢC BẢO VỆ CHỐNG CHÁY SO VỚI TỔNG DIỆN TÍCH BỀ MẶT TƯỜNG ĐỐI DIỆN VỚI ĐƯỜNG RANH GIỚI LÀ 8%. => KẾT LUẬN: KHÔNG ĐẢM BẢO THEO BẢNG E4.b, PHỤ LỤC E, QUY CHUẨN 06:2022BXD",
+     "xy": [
+      191,
+      568
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỂM 4.35 ĐỐI VỚI CÁC Ô CỬA TỪ E60 TRỞ XUỐNG ( MỤC E.3.3, PHỤ LỤC E, QUY CHUẨN 06:2022BXD): THIẾT KẾ CÁC Ô KÍNH LÀ KÍNH CƯỜNG LỰC CHIỀU DÀY TỐI THIỂU 6mm, ĐƯỢC TRANG BỊ ĐẦU PHUN CHỮA CHÁY ĐẢM BẢO CÁC ĐẦU PHUN ĐƯỢC ĐẶT TỪ PHÍA CÁC GIAN PHÒNG LIỀN KỀ, CÁCH NHAU KHÔNG QUÁ 2M VÀ CÁCH VÁCH NGĂN KHÔNG QUÁ 0.5M - MĂNG, SƠN NƯỚC CẤP NGUY HIỂM CHÁY K0, VẬT LIỆU HOÀN THIỆN TƯỜNG NGOÀI LÀ VẬT LIỆU KHÔNG CHÁY, TÍNH LAN TRUYỀN CHÁY KHÔNG THẤP HƠN LT1.",
+     "xy": [
+      191,
+      667
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÔNG TRÌNH CÓ TƯỜNG NGOÀI KHÔNG CHỊU LỰC XÂY GẠCH, TRÁT XI",
+     "xy": [
+      217,
+      729
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÔNG TRÌNH ĐƯỢC TRANG BỊ HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG THÌ TRÊN MẶT ĐỨNG D-C KHÔNG ÁP DỤNG NGĂN CHÁY LAN THEO PHƯƠNG NGANG, PHƯƠNG ĐỨNG MỤC 4.32.1 QC06-2022.",
+     "xy": [
+      217,
+      777
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng e4"
+    ]
+   ],
+   "ghcl": [
+    "E60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 16,
+   "ma": "ELE-03",
+   "ten": "MẶT ĐỨNG (TRỤC 5a - 1) WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: ÁP DỤNG BẢNG E4.b PHỤ LỤC E QCVN06:2022BXD",
+     "xy": [
+      168,
+      316
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng e4"
+      }
+     ]
+    },
+    {
+     "chu": "· MẶT ĐỨNG TRỤC 5a-1 KHOẢNG CÁCH PHÒNG CHÁY CHỐNG CHÁY THEO",
+     "xy": [
+      169,
+      329
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI TÍNH TỪ TƯỜNG NGOÀI NHÀ TỚI RANH ĐẤT LÀ 2M<3M",
+     "xy": [
+      169,
+      341
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "=> GIỚI HẠN CHỊU LỬA CỦA TƯỜNG NGOÀI LÀ E60 ( BẢNG E.3, PHỤ LỤC E, QUY CHUẨN 06:2022BXD) -TỶ LỆ TỔNG DIỆN TÍCH LỚN NHẤT CỦA CÁC LỖ MỞ KHÔNG ĐƯỢC BẢO VỆ CHỐNG CHÁY SO VỚI TỔNG DIỆN TÍCH BỀ MẶT TƯỜNG ĐỐI DIỆN VỚI ĐƯỜNG RANH GIỚI LÀ 7%. => KẾT LUẬN: KHÔNG ĐẢM BẢO THEO BẢNG E4.b, PHỤ LỤC E, QUY CHUẨN 06:2022BXD",
+     "xy": [
+      168,
+      495
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỂM 4.35 ĐỐI VỚI CÁC Ô CỬA TỪ E60 TRỞ XUỐNG ( MỤC E.3.3, PHỤ LỤC E, QUY CHUẨN 06:2022BXD): THIẾT KẾ CÁC Ô KÍNH LÀ KÍNH CƯỜNG LỰC CHIỀU DÀY TỐI THIỂU 6mm, ĐƯỢC TRANG BỊ ĐẦU PHUN CHỮA CHÁY ĐẢM BẢO CÁC ĐẦU PHUN ĐƯỢC ĐẶT TỪ PHÍA CÁC GIAN PHÒNG LIỀN KỀ, CÁCH NHAU KHÔNG QUÁ 2M VÀ CÁCH VÁCH NGĂN KHÔNG QUÁ 0.5M - MĂNG, SƠN NƯỚC CẤP NGUY HIỂM CHÁY K0, VẬT LIỆU HOÀN THIỆN TƯỜNG NGOÀI LÀ VẬT LIỆU KHÔNG CHÁY, TÍNH LAN TRUYỀN CHÁY KHÔNG THẤP HƠN LT1. - MẶT ĐỨNG 5a-1 KHÔNG ÁP DỤNG NGĂN CHÁY LAN THEO PHƯƠNG NGANG, PHƯƠNG ĐỨNG MỤC 4.32.1 QC06-2022.",
+     "xy": [
+      169,
+      594
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÔNG TRÌNH CÓ TƯỜNG NGOÀI KHÔNG CHỊU LỰC XÂY GẠCH, TRÁT XI",
+     "xy": [
+      194,
+      656
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÔNG TRÌNH ĐƯỢC TRANG BỊ HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG THÌ TRÊN",
+     "xy": [
+      194,
+      704
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng e4"
+    ]
+   ],
+   "ghcl": [
+    "E60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 17,
+   "ma": "ELE-04",
+   "ten": "MẶT ĐỨNG (TRỤC 1 - 5) WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: ÁP DỤNG BẢNG E4.b PHỤ LỤC E QCVN06:2022BXD",
+     "xy": [
+      138,
+      507
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng e4"
+      }
+     ]
+    },
+    {
+     "chu": "· MẶT ĐỨNG TRỤC 1-5 KHOẢNG CÁCH PHÒNG CHÁY CHỐNG CHÁY THEO",
+     "xy": [
+      139,
+      519
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI TÍNH TỪ TƯỜNG NGOÀI NHÀ TỚI RANH ĐẤT LÀ 2M<3M",
+     "xy": [
+      139,
+      532
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "=> GIỚI HẠN CHỊU LỬA CỦA TƯỜNG NGOÀI LÀ E60 ( BẢNG E.3, PHỤ LỤC E, QUY CHUẨN 06:2022BXD) -TỶ LỆ TỔNG DIỆN TÍCH LỚN NHẤT CỦA CÁC LỖ MỞ KHÔNG ĐƯỢC BẢO VỆ CHỐNG CHÁY SO VỚI TỔNG DIỆN TÍCH BỀ MẶT TƯỜNG ĐỐI DIỆN VỚI ĐƯỜNG RANH GIỚI LÀ 7%. => KẾT LUẬN: KHÔNG ĐẢM BẢO THEO BẢNG E4.b, PHỤ LỤC E, QUY CHUẨN 06:2022BXD",
+     "xy": [
+      138,
+      653
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỂM 4.35 ĐỐI VỚI CÁC Ô CỬA TỪ E60 TRỞ XUỐNG ( MỤC E.3.3, PHỤ LỤC E, QUY CHUẨN 06:2022BXD): THIẾT KẾ CÁC Ô KÍNH LÀ KÍNH CƯỜNG LỰC CHIỀU DÀY TỐI THIỂU 6mm, ĐƯỢC TRANG BỊ ĐẦU PHUN CHỮA CHÁY ĐẢM BẢO CÁC ĐẦU PHUN ĐƯỢC ĐẶT TỪ PHÍA CÁC GIAN PHÒNG LIỀN KỀ, CÁCH NHAU KHÔNG QUÁ 2M VÀ CÁCH VÁCH NGĂN KHÔNG QUÁ 0.5M - MĂNG, SƠN NƯỚC CẤP NGUY HIỂM CHÁY K0, VẬT LIỆU HOÀN THIỆN TƯỜNG NGOÀI LÀ VẬT LIỆU KHÔNG CHÁY, TÍNH LAN TRUYỀN CHÁY KHÔNG THẤP HƠN LT1. - MẶT ĐỨNG 1-5 KHÔNG ÁP DỤNG NGĂN CHÁY LAN THEO PHƯƠNG NGANG, PHƯƠNG ĐỨNG MỤC 4.32.1 QC06-2022.",
+     "xy": [
+      139,
+      751
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÔNG TRÌNH CÓ TƯỜNG NGOÀI KHÔNG CHỊU LỰC XÂY GẠCH, TRÁT XI",
+     "xy": [
+      165,
+      814
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÔNG TRÌNH ĐƯỢC TRANG BỊ HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG THÌ TRÊN",
+     "xy": [
+      165,
+      862
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "bảng e4"
+    ]
+   ],
+   "ghcl": [
+    "E60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 18,
+   "ma": "SEC-01",
+   "ten": "MẶT CẮT A - A WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 19,
+   "ma": "SEC-02",
+   "ten": "MẶT CẮT B - B WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 20,
+   "ma": "SEC-03",
+   "ten": "MẶT CẮT C - C WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 21,
+   "ma": "STA-01",
+   "ten": "CT CẦU THANG BÊ TÔNG CỐT THÉP WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "khac",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 22,
+   "ma": "STA-02",
+   "ten": "CT CẦU THANG SẮT NGOÀI NHÀ WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "SÀN LẮP GHÉP BỐ TR CỤC NÓNG MÁY LẠNH",
+     "xy": [
+      779,
+      127
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MB CT CẦU THANG SẮT TẦNG TUM TL: 1/50",
+     "xy": [
+      659,
+      876
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 23,
+   "ma": "DET-01",
+   "ten": "CHI TIẾT CỬA CHỐNG CHÁY CHI TIẾT CHỐNG LỬA XUYÊN SÀN CHI TIẾT LẮP ĐẶT TRUNKING XUYÊN TƯỜNG WARNING - This drawing shall not be used for construction unless certified.",
+   "hang_muc": "THIẾT KẾ KIẾN TRÚC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      138,
+      84
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÔNG THỦY TINH TẤM CEMBOARD 8mm VỮA HỒ CHẤT CHỐNG CHÁY",
+     "xy": [
+      1276,
+      167
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÔNG THỦY TINH TẤM CEMBOARD 8mm VỮA HỒ CHẤT CHỐNG CHÁY",
+     "xy": [
+      1344,
+      388
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU E30",
+     "xy": [
+      490,
+      398
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      711,
+      404
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      957,
+      404
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CẤU TẠO ĐIỂN HÌNH CỬA CHỐNG CHÁY TỈ LỆ 1/25 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      141,
+      451
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Cửa chống cháy 60 phút- Toàn bộ cửa sơn tĩnh điện màu ... - Thép làm khung cửa dày 50x110x1.2 mm - Thép làm cánh cửa dày 50x1.0 mm - Bản lề lá khấu âm , gioăng gài - Phụ kiện: Thanh thoát hiểm....Khóa cho thanh thoát hiểm ....Tay co .... - Vật liệu bên trong cửa là MgO (Magie oxit)...",
+     "xy": [
+      126,
+      520
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁC CỬA CỦA CÁ LỐI RA THOÁT NẠN TỪ HÀNH LANG TẦNG, KHÔNG GIAN CHUNG, PHÒNG CHỜ, SẢNH VÀ BUỒNG THANG BỘ PHẢI MỞ ĐƯỢC CỬA TỰ DO TỪ BÊN TRONG , CÁC CÁNH CỬA NÓI TRÊN, NGOẠI TRỪ CÁC CỬA CỦA CĂN HỘ, PHẢI LÀ CỬA ĐẶC HOẠC CỬA VỚI KÌNH CƯỜNG LỰC. NGƯỜI SỬ DỤNG BUỒNG THANG LUÔN CÓ THỂ QUAY TRỞ LẠI PHÍA TRONG NHÀ QUA CHÍNH CỬA VỪA ĐI QUA",
+     "xy": [
+      128,
+      586
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr02 TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      976,
+      586
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA TẦNG THANG MÁY CHỐNG CHÁY TỶ LỆ 1/50",
+     "xy": [
+      443,
+      587
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr01 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      731,
+      587
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      313,
+      631
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      556,
+      631
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      773,
+      631
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      1207,
+      631
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      122,
+      641
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      998,
+      641
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr03 TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      129,
+      829
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr04 TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      338,
+      829
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr04a TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      549,
+      829
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr05 TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      765,
+      829
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr06 TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      1006,
+      829
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr06a TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      1224,
+      829
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 30",
+     "xy": [
+      346,
+      871
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 30",
+     "xy": [
+      754,
+      876
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY, GIỚI HẠN CHỊU LỬA TỐI THIỂU EI 60",
+     "xy": [
+      122,
+      880
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr07 TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      349,
+      1067
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr07a TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      752,
+      1067
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA NHÔM-KÍNH Dfr08 TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      1007,
+      1067
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA NHÔM-KÍNH Dfr08a TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      1224,
+      1067
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dfr02a TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      548,
+      1067
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CHỐNG CHÁY Dkt01 TỶ LỆ 1/50 CƠ CẤU TỰ ĐỘNG ĐÓNG",
+     "xy": [
+      140,
+      1068
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "E30",
+    "EI30",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m06-ngan-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 1,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 2,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 3,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ MẶT BẰNG BỐ TRÍ C.SÁNG THANG THOÁT HIỂM WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "TẦNG MÁI-MẶT BẰNG BỐ TRÍ C.SÁNG THANG THOÁT HIỂM",
+     "xy": [
+      202,
+      209
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BUỒNG THANG BỘ TRỤC 4-C ĐƯỢC CHIẾU SÁNG BẰNG ĐÈN TÍP, CÓ 2 NGUỒN ĐIỆN CẤP CHO (1 NGUỒN ĐIỆN LƯỚI VÀ 1 NGUỒN MÁY PHÁT ĐIỆN DỰ PHÒNG) ĐẢM BẢO DUY TRÌ LIÊN TỤC NGUỒN ĐIỆN CẤP CHO CÔNG TRÌNH HOẠT ĐỘNG ỔN ĐỊNH KHI CÓ CHÁY XẢY RA VÀ ÁNH SÁNG ĐỦ ĐỂ NGƯỜI THOÁT NẠN THEO BUỒNG THANG NÀY CÓ THỂ NHÌN THẤY RÕ ĐƯỜNG THOÁT NẠN VÀ KHÔNG BỊ LÓA MẮT",
+     "xy": [
+      803,
+      448
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẦNG 2~6-MẶT BẰNG BỐ TRÍ C.SÁNG THANG THOÁT HIỂM",
+     "xy": [
+      203,
+      472
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẦNG HẦM-MẶT BẰNG BỐ TRÍ CHIẾU SÁNG THANG THOÁT HIỂM",
+     "xy": [
+      831,
+      1056
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN LED TUÝP GẮN NỔI 1.2m 18W NHIỆT ĐỘ MÀU: 4000K,6500K mica",
+     "xy": [
+      311,
+      1122
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 4,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ SƠ ĐỒ NGUYÊN LÝ CẤP ĐIỆN WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "ĐIỆN CẤP ĐÈN CHIẾU SÁNG SỰ CỐ, CHỈ DẪN THOÁT NẠN",
+     "xy": [
+      740,
+      65
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỆN CẤP HỆ THỐNG HÚT KHÓI, BÙ ÁP",
+     "xy": [
+      740,
+      467
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HỆ THỐNG ĐÈN CHIẾU SÁNG, SINH HOẠT, BẢO VỆ, HỆ THỐNG PCCC, HỆ THỐNG HÚT KHÓI PHẢI ĐƯỢC ĐẤU NỐI RIÊNG BIỆT TỪ TỦ ĐIỆN CHÍNH.",
+     "xy": [
+      1178,
+      676
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Nguồn điện cấp cho các hệ thống PCCC như: hệ thống bảo",
+     "xy": [
+      67,
+      793
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "vệ chống khói, hệ thống chiếu sáng sự cố, chỉ dẫn thoát nạn, hệ thống báo cháy tự động, hệ thống thoát khói, các hệ thống chữa cháy… phải được cấp bởi 02 nguồn điện riêng (01 nguồn điện lưới và 01 nguồn điện của máy phát điện dự phòng) từ tủ điện chính. Dây dẫn điện cấp cho các hệ thống PCCC phải là dây, cáp có vỏ bọc chống cháy. - Các thiết bị điện phòng kho được khống chế chung bằng thiết bị đóng cắt tự động (cầu dao, aptomat),được lắp phía ngoài đặt trên tường bằng vật liệu không cháy.; - Bồn nhiên liệu Máy Phát Điện không quá 3m3 - Các hệ thống kỹ thuật của gara ôtô đặt trong nhà có chức năng khác hoặc liền kề với chúng phải độc lập với các hệ thống kỹ thuật của tòa nhà đó theo quy định Điều 2.3.1.3 Quy chuẩn QCVN 13:2018/BXD - Bảng vẽ thiết kế hệ thống điện cấp cho hệ thống PCCC phải đảm bảo các yêu cầu theo quy định tại quy chuẩn QCVN:12:2014/BXD và các quy chuẩn, tiêu chuẩn khác có liên quan",
+     "xy": [
+      67,
+      813
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 13:2018",
+       "dieu": "điều 2.3.1.3"
+      }
+     ]
+    },
+    {
+     "chu": "BẢNG THUYẾT MINH CÔNG SUẤT CỦA MÁY PHÁT ĐIỆN CẤP CHO HỆ THỐNG PCCC TẠI CÔNG TRÌNH",
+     "xy": [
+      806,
+      874
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lượng điện năng tiêu thụ của thiết bị, hệ thống (A)",
+     "xy": [
+      1061,
+      901
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Công suất máy phát điện 250KVA, hệ số CosP = 0.8",
+     "xy": [
+      1181,
+      905
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Thời gian hoạt động của hệ thống theo yêu cầu (t)",
+     "xy": [
+      951,
+      906
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Quạt Tạo áp Hầm Q=3000 L/s, P =700Pa Quạt bù áp Hầm Q=2325 L/s, P =560Pa Quạt hút khói Hầm Q=2550 L/s, P =675Pa Quạt hút khói hành lang Q=2600 L/s, P =450Pa Máy bơm điện PCCC Q = 46L/s, H = 60m, 65KW Máy bơm bù PCCC Q = 1 L/S, H =65m, 1.5KW Quạt Tạo áp buồng đệm thang bộ 1 Q=3200 L/s, P =700Pa Quạt Tạo áp buồng đệm thang bộ 2 Q=3200 L/s, P =700Pa",
+     "xy": [
+      616,
+      965
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tổng lượng điện năng tiêu thụ của các hệ thống PCCC tại công trình được cấp nguồn điện từ máy phát Att = 0.5+3+3+3+3+65+1.5+3+3 = 85 KW * Kết luận: - Do Ampđ > Att vì vậy máy phát điện đảm bảo yêu cầu cho các hệ thống",
+     "xy": [
+      1299,
+      986
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 13:2018",
+     "điều 2.3.1.3"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m13-cap-dien"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 5,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ CHI TIẾT LẮP ĐẶT TỜ 1 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT HỆ THỐNG CHIẾU SÁNG SỰ CỐ ( TCVN 13456:2022)",
+     "xy": [
+      590,
+      258
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM LED 1W TỰ DUY TRÌ 2 GIỜ",
+     "xy": [
+      1111,
+      301
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM LED 1W , CÓ CHỈ HƯỚNG , TỰ DUY TRÌ 2 GIỜ",
+     "xy": [
+      1100,
+      316
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁP NGUỒN 2CX2.5MM2 MCB 1P 16A-T.... KẾT NỐI TỦ ĐIỆN PHÂN PHỐI TẦNG",
+     "xy": [
+      1111,
+      341
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN TẠI TẦNG",
+     "xy": [
+      1103,
+      381
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN TẠI PHÒNG",
+     "xy": [
+      1228,
+      398
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN LED CHIẾU SÁNG KHẨN TỰ DUY TRÌ 2H/ ĐỘ SÁNG TỐI THIỂU 10LUX VỚI Ổ CẮM ĐƠN , BÓNG 2X3W LED",
+     "xy": [
+      1059,
+      421
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BIỂN CHỈ DẪN THOÁT NẠN",
+     "xy": [
+      181,
+      445
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐỘ RỌI TRUNG BÌNH THEO PHƯƠNG NGANG DỌC THEO ĐƯỜNG THOÁT NẠN >= 1LUX. ĐỘ RỌI Ở GIỮA ĐỘ RỌI Ở GIỮA ĐƯỜNG THOÁT NẠN VỚI CHIỀU RỘNG KHÔNG NHỎ HƠN MỘT NỮA CHIỀU RỘNG ĐƯỜNG THOÁT NẠN PHẢI ĐẢM BẢO TỐI THIỂU 0.5LUX.",
+     "xy": [
+      961,
+      491
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐỘ RỌI TRUNG BÌNH THEO PHƯƠNG NGANG >=0.5LUX TẠI MẶT SÀN TẠI MỌI ĐIỂM LỐI CỦA KHOẢNG TRỐNG, KHÔNG BAO GỒM ĐƯỜNG VIỀN 0.5M THEO CHU VI KHU VỰC",
+     "xy": [
+      961,
+      563
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CƯỜNG ĐỘ CHIẾU SÁNG TỐI ĐA CỦA ĐÈN SỰ CỐ",
+     "xy": [
+      1085,
+      612
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BIỂN CHỈ DẪN THOÁT NẠN",
+     "xy": [
+      181,
+      752
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG CHỈ DẪN THOÁT NẠN ĐƯỢC GẮN SAO CHO MÉP DƯỚI CỦA SƠ ĐỒ CHỈ DẪN THOÁT NẠN NẰM Ở CAO ĐỘ 1.5M SO VỚI SÀN.",
+     "xy": [
+      214,
+      818
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ THOÁT NẠN GỒM HAI PHẦN: CHỈ DẪN BẰNG CHỮ VÀ PHẦN KÝ HIỆU HÌNH HỌC",
+     "xy": [
+      214,
+      844
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "PHẦN KÝ HIỆU HÌNH HỌC BAO GỒM MẶT BẰNG CỦA TẦNG, LỐI RA VÀ CHỈ HƯỚNG ĐƯỜNG THOÁT NẠN, CẦU THANG BỘ",
+     "xy": [
+      214,
+      871
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VỊ TRÍ CỦA SƠ ĐỒ, THIẾT BỊ CHỮA CHÁY, CỨU NẠN CỨU HỘ...VV",
+     "xy": [
+      214,
+      895
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "PHẦN CHỈ DẪN BẰNG CHỮ GỒM NỘI DUNG VÀ TRÌNH TỰ XỬ LÝ KHI CÓ CHÁY",
+     "xy": [
+      214,
+      917
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 13456:2022",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 6,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH TỜ 2 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐẦU BÁO KHU VỰC KHÔNG ĐÓNG TRẦN",
+     "xy": [
+      738,
+      317
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU BÁO CHÁY TRÊN TRẦN TREO KỸ THUẬT/ TRẦN BETONG",
+     "xy": [
+      537,
+      379
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHỈ THỊ BÁO CHÁY CHO ĐẦU BÁO BÊN TRÊN TRẦN",
+     "xy": [
+      542,
+      484
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐẦU BÁO DƯỚI TRẦN & TRÊN TRẦN TREO",
+     "xy": [
+      138,
+      499
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐẦU BÁO CHÁY DƯỚI ỐNG GIÓ",
+     "xy": [
+      766,
+      627
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TIẾP ĐẤT BẢO VỆ THEO HỆ ĐIỆN NHẸ <1(OHM)",
+     "xy": [
+      585,
+      889
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT TỦ BÁO CHÁY GẮN ÂM TƯỜNG",
+     "xy": [
+      447,
+      953
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 7,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH TỜ 3 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CÁP ĐIỆN CADIVI 2C*2.5MM2 BỌC TRONG ỐNG PVC D20",
+     "xy": [
+      430,
+      321
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BIỂN BÁO AN TOÀN TẦM THẤP",
+     "xy": [
+      217,
+      593
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÁY CỦA BIỂN BÁO AN TOÀN TẦM THẤP PHẢI CÁCH MẶT SÀN TỪ 150MM~200MM KHOẢNG CÁCH CÁC BIỂN BẢO PHẢI ĐẶT TỐI THIỂU KHÔNG QUÁ 10M",
+     "xy": [
+      705,
+      811
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐỐI VỚI CÁC CỬA THOÁT NẠN BIỂN BẢO PHẢI Ở TRÊN CỬA HOẶC CÁCH MÉP CỬA KHÔNG QUÁ 100MM",
+     "xy": [
+      705,
+      870
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D20"
+   ],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 8,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ TẦNG HẦM-MẶT BẰNG BỐ TRÍ CHIẾU SÁNG KHẨN CẤP VÀ THOÁT HIỂM WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN GẮN TRẦN, 3W~5W BÓNG LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      307,
+      414
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      307,
+      449
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ TRÁII)",
+     "xy": [
+      307,
+      483
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ PHẢI)",
+     "xy": [
+      307,
+      514
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN CẤP 2X1W, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      307,
+      551
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN TỪNG TẦNG",
+     "xy": [
+      307,
+      614
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 9,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ TẦNG 1-MẶT BẰNG BỐ TRÍ CHIẾU SÁNG KHẨN CẤP VÀ THOÁT HIỂM WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN GẮN TRẦN, 3W~5W BÓNG LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      362,
+      407
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      949,
+      440
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      363,
+      442
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ TRÁII)",
+     "xy": [
+      363,
+      476
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ PHẢI)",
+     "xy": [
+      363,
+      507
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN CẤP 2X1W, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      363,
+      544
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN TỪNG TẦNG",
+     "xy": [
+      363,
+      607
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      949,
+      812
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 10,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ TẦNG 2 MẶT BẰNG BỐ TRÍ CHIẾU SÁNG KHẨN CẤP VÀ THOÁT HIỂM WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN GẮN TRẦN, 3W~5W BÓNG LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      326,
+      587
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      326,
+      622
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ TRÁII)",
+     "xy": [
+      326,
+      656
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ PHẢI)",
+     "xy": [
+      326,
+      687
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN CẤP 2X1W, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      326,
+      724
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN TỪNG TẦNG",
+     "xy": [
+      326,
+      787
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TÍNH TOÁN TRANG BỊ MẶT NẠ LỌC ĐỘC( BAO GỒM CẢ KHÁCH LƯU TRÚ & NHÂN VIÊN PHỤC VỤ THƯỜNG XUYÊN)",
+     "xy": [
+      214,
+      826
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 11,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ TẦNG 3~6 MẶT BẰNG BỐ TRÍ CHIẾU SÁNG KHẨN CẤP VÀ THOÁT HIỂM WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN GẮN TRẦN, 3W~5W BÓNG LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      338,
+      604
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      338,
+      638
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ TRÁII)",
+     "xy": [
+      338,
+      672
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ PHẢI)",
+     "xy": [
+      338,
+      703
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN CẤP 2X1W, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      338,
+      740
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN TỪNG TẦNG",
+     "xy": [
+      338,
+      804
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TÍNH TOÁN TRANG BỊ MẶT NẠ LỌC ĐỘC( BAO GỒM CẢ KHÁCH LƯU TRÚ & NHÂN VIÊN PHỤC VỤ THƯỜNG XUYÊN)",
+     "xy": [
+      242,
+      865
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 12,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ TẦNG TUM MẶT BẰNG BỐ TRÍ CHIẾU SÁNG KHẨN CẤP VÀ THOÁT HIỂM WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN GẮN TRẦN, 3W~5W BÓNG LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      345,
+      533
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      345,
+      567
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ TRÁII)",
+     "xy": [
+      345,
+      601
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN THOÁT HIỂM 1.2W LED, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ ( HAI MẶT HƯỚNG RẼ PHẢI)",
+     "xy": [
+      345,
+      632
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN CHIẾU SÁNG KHẨN CẤP 2X1W, BỘ LƯU ĐIỆN TỐI THIỂU 2 GIỜ",
+     "xy": [
+      345,
+      669
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ CHỈ DẪN THOÁT NẠN TỪNG TẦNG",
+     "xy": [
+      345,
+      732
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 13,
+   "ma": null,
+   "ten": "HỆ THỐNG ĐIỆN - ĐIỆN NHẸ SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG BÁO CHÁY WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "ĐẦU BÁO KHÓI LOẠI THƯỜNG KÈM ĐÈN BÁO,LẮP TRONG TRẦN",
+     "xy": [
+      1184,
+      310
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU BÁO NHIỆT LOẠI THƯỜNG KÈM ĐÈN BÁO, LẮP TRONG TRẦN",
+     "xy": [
+      1184,
+      393
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NÚT ẤN BÁO CHÁY + MODULE ĐIỀU KHIỂN ( CHỐNG THẤM)",
+     "xy": [
+      1184,
+      643
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT TRẠNG THÁI ĐÓNG MỞ VAN",
+     "xy": [
+      1181,
+      716
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KẾT NỐI HỆ THỐNG QUẢN LÝ CƠ SỞ DỮ LIỆU PCCC",
+     "xy": [
+      454,
+      865
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÀ TRUYỀN TIN BÁO CÁO SỰ CỐ CỦA CS PCCC",
+     "xy": [
+      466,
+      878
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KẾT NỐI TỦ ĐIỆN ĐIỀU KHIỂN BƠM CHỮA CHÁY, CÔNG TẮC DÒNG CHẢY, VAN TÍN HIỆU, VAN BÁO ĐỘNG",
+     "xy": [
+      459,
+      896
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÁY PHÁT ĐIỆN, HỆ THỐNG TĂNG ÁP, HÚT KHÓI....",
+     "xy": [
+      435,
+      907
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT BƠM ĐIỆN/ BƠM ĐIỆN/ BƠM BÙ ÁP",
+     "xy": [
+      1179,
+      1035
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 14,
+   "ma": null,
+   "ten": "HỆ THỐNG BÁO CHÁY TẦNG HẦM -MẶT BẰNG BỐ TRÍ WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐẦU BÁO KHÓI LOẠI THƯỜNG KÈM ĐÈN BÁO,LẮP TRONG TRẦN",
+     "xy": [
+      294,
+      187
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU BÁO NHIỆT LOẠI THƯỜNG KÈM ĐÈN BÁO, LẮP TRONG TRẦN",
+     "xy": [
+      294,
+      255
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NÚT ẤN BÁO CHÁY + MODULE ĐIỀU KHIỂN ( CHỐNG THẤM)",
+     "xy": [
+      294,
+      459
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT TRẠNG THÁI ĐÓNG MỞ VAN",
+     "xy": [
+      291,
+      523
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT BƠM ĐIỆN/ BƠM ĐIỆN/ BƠM BÙ ÁP",
+     "xy": [
+      290,
+      778
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 15,
+   "ma": null,
+   "ten": "HỆ THỐNG BÁO CHÁY TẦNG 1-MẶT BẰNG BỐ TRÍ WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐẦU BÁO KHÓI LOẠI THƯỜNG KÈM ĐÈN BÁO,LẮP TRONG TRẦN",
+     "xy": [
+      316,
+      142
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU BÁO NHIỆT LOẠI THƯỜNG KÈM ĐÈN BÁO, LẮP TRONG TRẦN",
+     "xy": [
+      316,
+      210
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NÚT ẤN BÁO CHÁY + MODULE ĐIỀU KHIỂN ( CHỐNG THẤM)",
+     "xy": [
+      316,
+      415
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT TRẠNG THÁI ĐÓNG MỞ VAN",
+     "xy": [
+      313,
+      478
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      956,
+      501
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT BƠM ĐIỆN/ BƠM ĐIỆN/ BƠM BÙ ÁP",
+     "xy": [
+      312,
+      734
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      956,
+      873
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 16,
+   "ma": null,
+   "ten": "HỆ THỐNG BÁO CHÁY TẦNG 2 MẶT BẰNG BỐ TRÍ WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐẦU BÁO KHÓI LOẠI THƯỜNG KÈM ĐÈN BÁO,LẮP TRONG TRẦN",
+     "xy": [
+      275,
+      208
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU BÁO NHIỆT LOẠI THƯỜNG KÈM ĐÈN BÁO, LẮP TRONG TRẦN",
+     "xy": [
+      275,
+      276
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NÚT ẤN BÁO CHÁY + MODULE ĐIỀU KHIỂN ( CHỐNG THẤM)",
+     "xy": [
+      275,
+      480
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT TRẠNG THÁI ĐÓNG MỞ VAN",
+     "xy": [
+      271,
+      543
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT BƠM ĐIỆN/ BƠM ĐIỆN/ BƠM BÙ ÁP",
+     "xy": [
+      270,
+      799
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ:PHẦN TRẦN KỸ THUẬT BÊN TRONG CĂN HỘ CÓ: CÁP ĐƯỢC LUỒN TRONG ỐNG PVC CÓ TÍNH CHÁY CH1 CÁP NGUỒN ĐƠN( DÂY DẪN) ĐỂ CẤP NGUỒN CHO CÁC HỆ THỐNG CHIẾU SÁNG VÀ HỆ THỐNG CÁP THÔNG TIN",
+     "xy": [
+      360,
+      1062
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 17,
+   "ma": null,
+   "ten": "HỆ THỐNG BÁO CHÁY TẦNG 3~6 MẶT BẰNG BỐ TRÍ WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐẦU BÁO KHÓI LOẠI THƯỜNG KÈM ĐÈN BÁO,LẮP TRONG TRẦN",
+     "xy": [
+      280,
+      142
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU BÁO NHIỆT LOẠI THƯỜNG KÈM ĐÈN BÁO, LẮP TRONG TRẦN",
+     "xy": [
+      280,
+      210
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NÚT ẤN BÁO CHÁY + MODULE ĐIỀU KHIỂN ( CHỐNG THẤM)",
+     "xy": [
+      280,
+      414
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT TRẠNG THÁI ĐÓNG MỞ VAN",
+     "xy": [
+      277,
+      477
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT BƠM ĐIỆN/ BƠM ĐIỆN/ BƠM BÙ ÁP",
+     "xy": [
+      276,
+      733
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ:PHẦN TRẦN KỸ THUẬT BÊN TRONG CĂN HỘ CÓ: CÁP ĐƯỢC LUỒN TRONG ỐNG PVC CÓ TÍNH CHÁY CH1 CÁP NGUỒN ĐƠN( DÂY DẪN) ĐỂ CẤP NGUỒN CHO CÁC HỆ THỐNG CHIẾU SÁNG VÀ HỆ THỐNG CÁP THÔNG TIN",
+     "xy": [
+      365,
+      924
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 18,
+   "ma": null,
+   "ten": "HỆ THỐNG BÁO CHÁY TẦNG TUM MẶT BẰNG BỐ TRÍ WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐẦU BÁO KHÓI LOẠI THƯỜNG KÈM ĐÈN BÁO,LẮP TRONG TRẦN",
+     "xy": [
+      287,
+      170
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU BÁO NHIỆT LOẠI THƯỜNG KÈM ĐÈN BÁO, LẮP TRONG TRẦN",
+     "xy": [
+      287,
+      238
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NÚT ẤN BÁO CHÁY + MODULE ĐIỀU KHIỂN ( CHỐNG THẤM)",
+     "xy": [
+      287,
+      443
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT TRẠNG THÁI ĐÓNG MỞ VAN",
+     "xy": [
+      284,
+      506
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MODULE GIÁM SÁT BƠM ĐIỆN/ BƠM ĐIỆN/ BƠM BÙ ÁP",
+     "xy": [
+      283,
+      762
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ:TUM KHÔNG ĐÓNG TRẦN THẠCH CAO",
+     "xy": [
+      422,
+      941
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m11-bao-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 19,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY KÝ HIỆU, CHỮ VIẾT TẮT GHI CHÚ CHUNG WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ CHUNG/GENERAL NOTE",
+     "xy": [
+      951,
+      88
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. HỆ THỐNG CHỮA CHÁY TUÂN THEO ÁP DỤNG TẠI ĐỊA PHƯƠNG ( TCVN3890:2023, TCVN7336:2021, TCVN 7435:2004, QCVN06:2022 + SỬA ĐỔI 01..VVV",
+     "xy": [
+      930,
+      113
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 7435:2004",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "2. TUÂN THỦ CÁC NỘI DUNG THỎA THUẬN CẤP PHÉP VÀ CÁC YÊU CẦU CỦA NHÀ CHỨC TRÁCH.",
+     "xy": [
+      930,
+      148
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "3. KIỂM TRA VÀ PHÊ CHUẨN CUỐI CÙNG BỞI CƠ QUAN PCCC ĐỊA PHƯƠNG VÀ NHÀ TƯ VẤN/QUẢN LÝ DỰ ÁN.",
+     "xy": [
+      929,
+      180
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "4. VIỆC CHIA CẮT CẤU TRÚC HAY CÁC THÀNH PHẦN KẾT CẤU ĐƯỢC TIẾN HÀNH CHỈ KHI CÓ SỰ PHÊ CHUẨN BẰNG VĂN BẢN CỦA NHÀ TƯ VẤN/QUẢN LÝ DỰ ÁN",
+     "xy": [
+      928,
+      211
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "5. LẮP ĐẶT VẬT LIỆU NGĂN CHÁY Ở TẤT CẢ LỖ XUYÊN TƯỜNG, TRẦN, SÀN NHÀ CHỊU LỬA, KHÓI.",
+     "xy": [
+      928,
+      243
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "6. LẮP ĐẶT NẮP THĂM CHO TẤT CẢ VAN Ở TRÊN TRẦN NHÀ VÀ RÃNH ỐNG KHÔNG TIẾP CẬN ĐƯỢC.",
+     "xy": [
+      928,
+      278
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "7. ĐẦU PHUN NƯỚC ĐƯỢC PHỐI HỢP VỚI TẤT CẢ HỆ THỐNG MIỆNG GIÓ, LOA, ĐÈN VÀ TRẦN NHÀ.",
+     "xy": [
+      928,
+      318
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "8. CUNG CẤP CÁC ĐẦU PHUN NƯỚC DỰ PHÒNG THEO TCVN07336:2021",
+     "xy": [
+      929,
+      357
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 07336:2021",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "9. PHƯƠNG PHÁP TREO ỐNG, ĐẦU GÓP VÀ CÁC ỐNG NHÁNH THEO NFPA20.",
+     "xy": [
+      925,
+      392
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "10. NHIỆT ĐỘ DANH ĐỊNH CỦA CÁC CHI TIẾT NÓNG CHẢY CỦA ĐẦU PHUN NƯỚC TUÂN THEO AS2118.",
+     "xy": [
+      925,
+      427
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "11. TẤT CẢ DÂY ĐIỆN SẼ ĐƯỢC THỰC HIỆN THEO HẠNG MỤC ĐIỆN. TẤT CẢ DÂY DẪN KHÓA LIÊN ĐỘNG VÀ DÂY DẪN ĐIỀU KHIỂN SẼ ĐƯỢC THỰC",
+     "xy": [
+      927,
+      461
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HIỆN NHƯ TRONG TÀI LIỆU QUI ĐỊNH KỸ THUẬT VỀ HẠNG MỤC ĐIỆN. KẾT HỢP TẤT CẢ HẠNG MỤC ĐIỆN VỚI NHÀ THẦU ĐIỆN.",
+     "xy": [
+      950,
+      475
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "12. VÒI PHUN SẼ BẢO VỆ TOÀN BỘ KHU VỰC PHÒNG BAO GỒM CÁC HÓC TƯỜNG. SỰ PHUN SẼ KHÔNG BỊ CẢN BỞI TƯỜNG HAY VÁCH NGĂN.",
+     "xy": [
+      925,
+      519
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "13. TẤT CẢ ĐẦU PHUN NƯỚC ĐƯỢC GẮN Ở TRẦN NHÀ CÓ VÍ TRÍ TỐI THIỂU LÀ 100MM CÁCH XA TƯỜNG, NƠI THAY ĐỔI ĐỘ CAO TRẦN",
+     "xy": [
+      925,
+      549
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HAY BẤT KỲ BỀ MẶT GIAO NHAU THẲNG ĐỨNG NÀO .",
+     "xy": [
+      950,
+      564
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "14. ỐNG PHẢI ĐƯỢC KHOÉT RỘNG VÀ LÀM SẠCH TRƯỚC KHI LẮP RÁP.",
+     "xy": [
+      925,
+      612
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "15. NHÀ THẦU PHẢI CÓ TRÁCH NHIỆM KIỂM TRA LẠI CỘT ÁP TẤT CẢ CÁC BƠM CHỮA CHÁY THEO THỰC TẾ CÔNG TRƯỜNG NHẰM ĐẢM BẢO ÁP LỰC",
+     "xy": [
+      925,
+      641
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐI LÊN TRÊN/ ĐI XUỐNG DƯỚI/ TỪ TRÊN/ TỪ DƯỚI/ KÈM VỚI/ THƯỜNG MỞ/ THƯỜNG ĐÓNG/ CAO ĐỘ THẤP/ CAO ĐỘ CAO/ TRẠM VAN BÁO ĐỘNG ƯỚT/",
+     "xy": [
+      543,
+      649
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG BỘT ABC LOẠI 4kg/",
+     "xy": [
+      127,
+      653
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẠI ĐẦU RA CÁC THIẾT BỊ THEO ĐÚNG TIÊU CHUẨN PCCC Ở ĐỊA PHƯƠNG.",
+     "xy": [
+      949,
+      655
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG CO2 LOẠI 5kg/",
+     "xy": [
+      127,
+      682
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "16. CUNG CẤP HỆ THỐNG CÓ ĐẦU NỐI XÚC RỬA VÀ XẢ TRÀN.",
+     "xy": [
+      925,
+      699
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "17. CUNG CẤP CÁC ĐẦU PHUN Ở TRÊN VÀ DƯỚI CÁC ỐNG GIÓ THI CÔNG THEO TCVN7336:2021.",
+     "xy": [
+      926,
+      733
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "18. TẤT CẢ CÁC BƠM DÀNH CHO HỆ THỐNG CHỮA CHÁY PHẢI ĐƯỢC KẾT NỐI VÀO NGUỒN ĐIỆN MÁY PHÁT DỰ PHÒNG.",
+     "xy": [
+      926,
+      768
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "TCVN 07336:2021",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 7336:2021",
+     ""
+    ],
+    [
+     "TCVN 7435:2004",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 20,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG CHỮA CHÁY VÁCH TƯỜNG VÀ TỰ ĐỘNG WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "ÁP DỤNG TCVN 7336:2021 CÔNG TRÌNH CÓ DƯỚI 1000 ĐẦU PHUN PHẢI TRANG BỊ TỐI THIỂU 10 ĐẦU PHUN SPRINKLER DỰ PHÒNG THEO QUY ĐỊNH",
+     "xy": [
+      395,
+      505
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "- EP-01 CHẠY ƯU TIÊN - EP-02 CHẠY KHI EP-01 GẶP SỰ CỐ HOẶC LUÂN PHIÊN",
+     "xy": [
+      1076,
+      645
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT B XEM TRÊN BV CHI TIẾT ĐIỂN HÌNH",
+     "xy": [
+      442,
+      746
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG XẢ NỐI VÀO BỂ NƯỚC CHỮA CHÁY",
+     "xy": [
+      1161,
+      1025
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG CHỮA CHÁY VÁCH TƯỜNG VÀ TỰ ĐỘNG",
+     "xy": [
+      461,
+      1088
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 7336:2021",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 21,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY TẦNG HẦM-MẶT BẰNG BỐ TRÍ CHỮA CHÁY VÁCH TƯỜNG VÀ TỰ ĐỘNG WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY ( TẦNG HẦM)",
+     "xy": [
+      91,
+      32
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CĂN CỨ BẢNG D.1 TCVN 7435-2 LỰA CHỌN LOẠI MỨC NGUY HIỂM TRUNG BÌNH + BẢNG 1 TCVN 7434-1 CHỌN DIỆN TÍCH BẢO VỆ CỦA 1 BÌNH CHỮA CHÁY 150M2 THEO ĐIỀU 5.1.1.5( TCVN 3890:2023) PHẢI CÓ TỔNG SỐ LƯỢNG BÌNH DỰ TRỮ >10% THEO TÍNH TOÁN STT 1 2",
+     "xy": [
+      34,
+      61
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": "điều 5.1.1.5"
+      }
+     ]
+    },
+    {
+     "chu": "SỐ LƯỢNG BÌNH CHỮA CHÁY THEO THIẾT KẾ SỐ LƯỢNG BÌNH DỰ PHÒNG THEO TIÊU CHUẨN TCVN 3890:2023 TỔNG SỐ LƯỢNG BÌNH THEO THIẾT KẾ",
+     "xy": [
+      72,
+      153
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG BỘT ABC LOẠI 4kg/",
+     "xy": [
+      106,
+      433
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG CO2 LOẠI 5kg/",
+     "xy": [
+      106,
+      455
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BỘ DỤNG CỤ PHÁ DỠ THÔ SƠ XEM CHI TIẾT",
+     "xy": [
+      522,
+      486
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1380,
+      505
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1380,
+      587
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1353,
+      656
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1353,
+      711
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG CẤP VÀO CW-DN50 sau đồng hồ nước đến",
+     "xy": [
+      217,
+      726
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1357,
+      804
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1348,
+      860
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "PPR DN110 BÊN TRONG BỂ PCCC LÊN TRỤ CHỮA CHÁY NGOÀI NHÀ, HỌNG NẠP NƯỚC HỆ THỐNG",
+     "xy": [
+      48,
+      874
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NGUYÊN LÝ HOẠT ĐỘNG BÌNH KHÍ TỰ KÍCH HOẠT BẰNG THÉP CHỐNG ĂN MÒN, KHÔNG ÁP SUẤT, GỌN NHẸ, THÂN THIỆN VỚI CON NGƯỜI, KHI CÓ CHÁY VỚI BỘ PHẬN LÀM MÁT BÊN TRONG BÌNH, ĐỂ GIẢM TỐI ĐA NHIỆT ĐỘ KHÍ SOL KHI THOÁT RA NGOÀI. BÌNH ĐƯỢC LIÊN KẾT VỚI ĐẦU DÒ NHIỆT TỰ KÍCH HOẠT KHI CÓ CHÁY Ở NHIỆT ĐỘ 68 ĐỘ C. KÍCH HOẠT BÌNH HOẠT ĐỘNG, ĐẦU DÒ NHIỆT TỰ KÍCH HOẠT CUNG CẤP TIẾP ĐIỂM VỀ MODULE GIÁM SÁT TRẠNG THÁI CỦA TỦ TRUNG TÂM BÁO CHÁY TÒA NHÀ CẢNH BẢO TRẠNG THÁI HOẠT ĐỘNG. NGOÀI RA KHI ĐẦU DÒ NHIỆT TỰ KÍCH HOẠT BỊ SỰ CỐ THÌ BÌNH CÓ THỂ TỰ KÍCH HOẠT KHI NHIỆT ĐỘ XUNG QUANH BÌNH LÊN TỚI 180 ĐỘ C.",
+     "xy": [
+      960,
+      1094
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     "điều 5.1.1.5"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 22,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY TẦNG 1-MẶT BẰNG BỐ TRÍ CHỮA CHÁY VÁCH TƯỜNG VÀ TỰ ĐỘNG WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "TRỤC CẤP NƯỚC CHỮA CHÁY DN125 CHUYỂN TRỤC",
+     "xy": [
+      800,
+      64
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TRỤC KIỂM TRA NƯỚC CHỮA CHÁY DN32 CHUYỂN TRỤC",
+     "xy": [
+      782,
+      80
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TRỤC CẤP NƯỚC CHỮA CHÁY DN125 CHUYỂN TRỤC",
+     "xy": [
+      825,
+      97
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH KÍNH CƯỜNG LỰC DÀY 6MM ĐƯỢC TRANG BỊ CÁC ĐẦU PHUN SPRINKLER CHỮA CHÁY TỰ ĐỘNG, BỐ TRÍ VÁCH KHÔNG QUÁ 0.5M VÀ CÁCH NHAU KHÔNG QUÁ 2M",
+     "xy": [
+      1074,
+      197
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TRỤ NƯỚC ĐÔ THỊ 10L/S CÁCH CÔNG TRÌNH <400M CHO PHÉP TÍNH TOÁN TRỤ NƯỚC ĐÔ THỊ VÀO LƯU LƯỢNG NƯỚC CHỮA CHÁY NGOÀI NHÀ CỦA CÔNG TRÌNH",
+     "xy": [
+      179,
+      261
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      952,
+      418
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG BỘT ABC LOẠI 4kg/",
+     "xy": [
+      246,
+      547
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG CO2 LOẠI 5kg/",
+     "xy": [
+      246,
+      568
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1191,
+      604
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      952,
+      790
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VỊ TRÍ HỌNG TIẾP NƯỚC - TRỤ CHỮA CHÁY - TỦ CHỮA CHÁY NGOÀI NHÀ",
+     "xy": [
+      227,
+      986
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CĂN CỨ BẢNG D.1 TCVN 7435-2 LỰA CHỌN LOẠI MỨC NGUY HIỂM TRUNG BÌNH + BẢNG 1 TCVN 7434-1 CHỌN DIỆN TÍCH BẢO VỆ CỦA 1 BÌNH CHỮA CHÁY 150M2 THEO ĐIỀU 5.1.1.5( TCVN 3890:2023) PHẢI CÓ TỔNG SỐ LƯỢNG BÌNH DỰ TRỮ >10% THEO TÍNH TOÁN STT 1 2",
+     "xy": [
+      1037,
+      1042
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": "điều 5.1.1.5"
+      }
+     ]
+    },
+    {
+     "chu": "VÁCH KÍNH CƯỜNG LỰC DÀY 6MM ĐƯỢC TRANG BỊ CÁC ĐẦU PHUN SPRINKLER CHỮA CHÁY TỰ ĐỘNG, BỐ TRÍ VÁCH KHÔNG QUÁ 0.5M VÀ CÁCH NHAU KHÔNG QUÁ 2M",
+     "xy": [
+      883,
+      1075
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TRỤ NƯỚC ĐÔ THỊ 10L/S CÁCH CÔNG TRÌNH <400M CHO PHÉP TÍNH TOÁN TRỤ NƯỚC ĐÔ THỊ VÀO LƯU LƯỢNG NƯỚC CHỮA CHÁY NGOÀI NHÀ CỦA CÔNG TRÌNH",
+     "xy": [
+      179,
+      1104
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SỐ LƯỢNG BÌNH CHỮA CHÁY THEO THIẾT KẾ SỐ LƯỢNG BÌNH DỰ PHÒNG THEO TIÊU CHUẨN TCVN 3890:2023 TỔNG SỐ LƯỢNG BÌNH THEO THIẾT KẾ",
+     "xy": [
+      1066,
+      1113
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     "điều 5.1.1.5"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 23,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY TẦNG 2 MẶT BẰNG BỐ TRÍ CHỮA CHÁY VÁCH TƯỜNG VÀ TỰ ĐỘNG WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY ( TẦNG 2)",
+     "xy": [
+      113,
+      57
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CĂN CỨ BẢNG D.1 TCVN 7435-2 LỰA CHỌN LOẠI MỨC NGUY HIỂM TRUNG BÌNH + BẢNG 1 TCVN 7434-1 CHỌN DIỆN TÍCH BẢO VỆ CỦA 1 BÌNH CHỮA CHÁY 150M2 THEO ĐIỀU 5.1.1.5( TCVN 3890:2023) PHẢI CÓ TỔNG SỐ LƯỢNG BÌNH DỰ TRỮ >10% THEO TÍNH TOÁN STT 1 2",
+     "xy": [
+      59,
+      85
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": "điều 5.1.1.5"
+      }
+     ]
+    },
+    {
+     "chu": "SỐ LƯỢNG BÌNH CHỮA CHÁY THEO THIẾT KẾ SỐ LƯỢNG BÌNH DỰ PHÒNG THEO TIÊU CHUẨN TCVN 3890:2023 TỔNG SỐ LƯỢNG BÌNH THEO THIẾT KẾ",
+     "xy": [
+      95,
+      174
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "VÁCH KÍNH CƯỜNG LỰC DÀY 6MM ĐƯỢC TRANG BỊ CÁC ĐẦU PHUN SPRINKLER CHỮA CHÁY TỰ ĐỘNG, BỐ TRÍ VÁCH KHÔNG QUÁ 0.5M VÀ CÁCH NHAU KHÔNG QUÁ 2M",
+     "xy": [
+      1009,
+      251
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG BỘT ABC LOẠI 4kg/",
+     "xy": [
+      204,
+      523
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG CO2 LOẠI 5kg/",
+     "xy": [
+      204,
+      544
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1284,
+      664
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH KÍNH CƯỜNG LỰC DÀY 6MM ĐƯỢC TRANG BỊ CÁC ĐẦU PHUN SPRINKLER CHỮA CHÁY TỰ ĐỘNG, BỐ TRÍ VÁCH KHÔNG QUÁ 0.5M VÀ CÁCH NHAU KHÔNG QUÁ 2M",
+     "xy": [
+      967,
+      982
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     "điều 5.1.1.5"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 24,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY TẦNG 3~6 MẶT BẰNG BỐ TRÍ CHỮA CHÁY VÁCH TƯỜNG VÀ TỰ ĐỘNG WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY ( TẦNG 3~6)",
+     "xy": [
+      109,
+      130
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CĂN CỨ BẢNG D.1 TCVN 7435-2 LỰA CHỌN LOẠI MỨC NGUY HIỂM TRUNG BÌNH + BẢNG 1 TCVN 7434-1 CHỌN DIỆN TÍCH BẢO VỆ CỦA 1 BÌNH CHỮA CHÁY 150M2 THEO ĐIỀU 5.1.1.5( TCVN 3890:2023) PHẢI CÓ TỔNG SỐ LƯỢNG BÌNH DỰ TRỮ >10% THEO TÍNH TOÁN STT 1 2",
+     "xy": [
+      55,
+      159
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": "điều 5.1.1.5"
+      }
+     ]
+    },
+    {
+     "chu": "SỐ LƯỢNG BÌNH CHỮA CHÁY THEO THIẾT KẾ SỐ LƯỢNG BÌNH DỰ PHÒNG THEO TIÊU CHUẨN TCVN 3890:2023 TỔNG SỐ LƯỢNG BÌNH THEO THIẾT KẾ",
+     "xy": [
+      91,
+      248
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "VÁCH KÍNH CƯỜNG LỰC DÀY 6MM ĐƯỢC TRANG BỊ CÁC ĐẦU PHUN SPRINKLER CHỮA CHÁY TỰ ĐỘNG, BỐ TRÍ VÁCH KHÔNG QUÁ 0.5M VÀ CÁCH NHAU KHÔNG QUÁ 2M",
+     "xy": [
+      1040,
+      287
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG BỘT ABC LOẠI 4kg/",
+     "xy": [
+      224,
+      556
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG CO2 LOẠI 5kg/",
+     "xy": [
+      224,
+      577
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1293,
+      706
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH KÍNH CƯỜNG LỰC DÀY 6MM ĐƯỢC TRANG BỊ CÁC ĐẦU PHUN SPRINKLER CHỮA CHÁY TỰ ĐỘNG, BỐ TRÍ VÁCH KHÔNG QUÁ 0.5M VÀ CÁCH NHAU KHÔNG QUÁ 2M",
+     "xy": [
+      997,
+      1022
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     "điều 5.1.1.5"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 25,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY TẦNG TUM-MẶT BẰNG BỐ TRÍ CHỮA CHÁY VÁCH TƯỜNG VÀ TỰ ĐỘNG WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG BỘT ABC LOẠI 4kg/",
+     "xy": [
+      150,
+      239
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY XÁCH TAY BẰNG CO2 LOẠI 5kg/",
+     "xy": [
+      150,
+      260
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH KÍNH CƯỜNG LỰC DÀY 6MM ĐƯỢC TRANG BỊ CÁC ĐẦU PHUN SPRINKLER CHỮA CHÁY TỰ ĐỘNG, BỐ TRÍ VÁCH KHÔNG QUÁ 0.5M VÀ CÁCH NHAU KHÔNG QUÁ 2M",
+     "xy": [
+      1022,
+      303
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY ( TẦNG TUM)",
+     "xy": [
+      140,
+      454
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CĂN CỨ BẢNG D.1 TCVN 7435-2 LỰA CHỌN LOẠI MỨC NGUY HIỂM TRUNG BÌNH + BẢNG 1 TCVN 7434-1 CHỌN DIỆN TÍCH BẢO VỆ CỦA 1 BÌNH CHỮA CHÁY 150M2 THEO ĐIỀU 5.1.1.5( TCVN 3890:2023) PHẢI CÓ TỔNG SỐ LƯỢNG BÌNH DỰ TRỮ >10% THEO TÍNH TOÁN STT 1 2",
+     "xy": [
+      85,
+      483
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": "điều 5.1.1.5"
+      }
+     ]
+    },
+    {
+     "chu": "SỐ LƯỢNG BÌNH CHỮA CHÁY THEO THIẾT KẾ SỐ LƯỢNG BÌNH DỰ PHÒNG THEO TIÊU CHUẨN TCVN 3890:2023 TỔNG SỐ LƯỢNG BÌNH THEO THIẾT KẾ",
+     "xy": [
+      121,
+      572
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "BÌNH KHÍ TỰ KÍCH HOẠT KHI CÓ CHÁY",
+     "xy": [
+      1286,
+      722
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 3890:2023",
+     "điều 5.1.1.5"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 26,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY CHI TIẾT PHÒNG BƠM CHỮA CHÁY WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ TRẠM BƠM",
+     "xy": [
+      789,
+      227
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- BẬC CHỊU LỬA III",
+     "xy": [
+      789,
+      272
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- NHIỆT ĐỘ KHÔNG KHÍ TRONG PHÒNG CỦA TRẠM BƠM PHẢI TỪ 5~40 ĐỘ C - GIỮA CÁC BỘ ĐIỀU KHIỂN VÀ GIỮA BỘ ĐIỀU KHIỂN VỚI TƯỜNG 0.5M - GIỮA CÁC MÁY BƠM HOẶC ĐỘNG CƠ ĐIỆN : 0.7M - Ở LỐI VÀO TRẠM BƠM PHẢI CÓ ĐÈN GHI CHỮ \" TRẠM BƠM CHỮA CHÁY \" KẾT NỐI VỚI ĐÈN CHIẾU SÁNG SỰ CỐ - BƠM CÓ ĐƯỜNG KÍNH HỌNG ĐẨY ĐẾN DN100 CHO PHÉP - LẮP ĐẶT BƠM GẦN TƯỜNG HOẶC TRÊN GIÁ ĐỠ -LẮP ĐẶT 2 BƠM TRÊN CÙNG 1 MÓNG VỚI KHOẢNG CÁCH TỐI THIỂU 0.2M NHƯNG PHẢI CÓ LỐI ĐI XUNG QUANH MÓNG VỚI CHIỀU RỘNG TỐI THIỂU 0.7M",
+     "xy": [
+      789,
+      303
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang",
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 27,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH TỜ 1 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "ĐẦU SPRINKLER HƯỚNG LÊN DN15 UPRIGHT SPRINKLER HEAD DN15 CÔN GIẢM/ REDUCE DN25XDN15",
+     "xy": [
+      1036,
+      133
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU PHUN CẠNH ỐNG GIÓ Ở VỊ TRÍ CAO ĐỘ KHÔNG ĐỦ",
+     "xy": [
+      1299,
+      229
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG CHỮA CHÁY CHÍNH MAIN FIRE WATER PIPE",
+     "xy": [
+      818,
+      282
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG CHỮA CHÁY CHÍNH MAIN FIRE WATER PIPE",
+     "xy": [
+      329,
+      288
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẦU SPRINKLER HƯỚNG XUỐNG DN15 UNDER CEILING SPRINKLER HEAD DN15",
+     "xy": [
+      595,
+      294
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH CÔNG TẮC DÒNG CHẢY FLOW SWITCH TYPICAL INSTALLATION DETAIL",
+     "xy": [
+      59,
+      322
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LẮP ĐẶT ĐẦU SPRINKLER HƯỚNG XUỐNG/ UNDER CEILING SPRINKLER HEAD INSTALLATION",
+     "xy": [
+      325,
+      331
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LẮP ĐẶT ĐẦU SPRINKLER HƯỚNG LÊN/ UPRIGHT SPRINKLER HEAD INSTALLATION",
+     "xy": [
+      765,
+      331
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỚI CÁC ĐẦU CHỮA CHÁY TỰ ĐỘNG TO SPRINKLER HEAD",
+     "xy": [
+      346,
+      438
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỚI CÁC ĐẦU CHỮA CHÁY TỰ ĐỘNG TO SPRINKLER HEAD",
+     "xy": [
+      640,
+      476
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐẾN ĐIỂM THỬ, DN25 TO TEST POINT, DN25",
+     "xy": [
+      316,
+      498
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỪ CỤM VAN BÁO ĐỘNG 1 CHIỀU TỚI FROM ALAM GONG VALVE SETS",
+     "xy": [
+      122,
+      601
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUY CÁCH LẮP ĐẶT ĐẦU PHUN SPRINKLER/ SPRINKLER HEAD INSTALLION SPECIFICATION",
+     "xy": [
+      887,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG KÍNH(MM)NHIỆT ĐỘ HOẠT ĐỘNG (oC) DIMENSION (MM)",
+     "xy": [
+      943,
+      638
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": ": VAN CỔNG (LOẠI OS &Y) KÈM GIÁM SÁT : ĐỒNG HỒ ĐO ÁP SUẤT DN15 (VAN BI) : CÔNG TẮC DÒNG CHẢY : VAN CỔNG DN25 (CHỈ KIỂM TRA) : KÍNH QUAN SÁT DN25 : NỐI SỐNG DN25 : VAN XẢ DN25 ( VAN CỔNG )",
+     "xy": [
+      121,
+      647
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ/ NOTES: (*): NHIỆT ĐỘ HOẠT ĐỘNG CỦA SPRINKLER CHỌN CUỐI CÙNG DỰA THEO VÙNG NHIỆT ĐỘ MÔI TRƯỜNG THỰC TẾ XÁC ĐỊNH TẠI CÔNG TRƯỜNG.",
+     "xy": [
+      785,
+      689
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỪ CỤM VAN BÁO ĐỘNG 1 CHIỀU TỚI FROM ALAM GONG VALVE SETS",
+     "xy": [
+      462,
+      693
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "OPERATING TEMPERATURE OF SPRINKLER WILL BE CHOSE FLOW ENVIRONMENT TEMPERATURE AT THE SITE.",
+     "xy": [
+      797,
+      712
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT B\"CỤM CÔNG TẮC DÒNG CHẢY VÀ ĐIỂM THỬ/ FLOW SWITCH SETS AND TEST POINT DETAIL\"",
+     "xy": [
+      212,
+      743
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐIỂN HÌNH ĐẦU PHUN TỰ ĐỘNG/ SPRINKLER HEAD TYPICAL DETAIL",
+     "xy": [
+      788,
+      743
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "* TRANG BỊ 01 BỘ DỤNG CỤ PHÁ DỠ THÔ SƠ CHO CÔNG TRÌNH; BỐ TRÍ TẠI NHÀ BẢO VỆ, ĐÁNH DẤU DỄ NHẬN BIẾT (cơn màu đỏ), ĐẶT NƠI DỄ LẤY VÀ DỄ NHÌN THẤY; GỒM CÁC DỤNG CỤ NHƯ SAU:",
+     "xy": [
+      321,
+      795
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- RÌU CỨU NẠN ( trọng lượng 2kg, cán dài 90cm, chất liệu cacbon cường độ cao. - XÀ BENG ( 1 đầu nhọn, 1 đầu dẹt, dài 100cm). - BÚA TẠ (thép cacbon cường độ cao, nặng 5kg, cán dài 50cm). - KÌM CỘNG LỰC (dài 60cm, tải cắt 60kg). * BỘ DỤNG CỤ NÀY THÔNG THƯỜNG PHẢI ĐƯỢC KIỂM TRA ĐỊNH KỲ 6 THÁNG.",
+     "xy": [
+      321,
+      825
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ỐNG ĐI XUYÊN SÀN THE PIPE THROUGHED FLOOR INSTALLATION DETAIL",
+     "xy": [
+      66,
+      897
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DN32 DN40 DN50 DN65 DN80 DN100 & LỚN HƠN",
+     "xy": [
+      1356,
+      919
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỢP CHẤT BỊT KÍN ỐNG CHÁY FIREPROOF COMPOUNDS ỐNG BẢO VỆ BÊN NGOÀI SLEEVE",
+     "xy": [
+      180,
+      941
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LẮP ĐẶT GIÁ ĐỠ CHO KÍCH CỠ DƯỚI 50MM HANGER INSTALLATION WITH DIMENSION TO 50MM",
+     "xy": [
+      954,
+      956
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LẮP ĐẶT GIÁ ĐỠ CHO KÍCH CỠ TRÊN 65MM HANGER INSTALLATION WITH DIMENSION FROM 65MM",
+     "xy": [
+      1217,
+      956
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1 XÀ BENG. 2 RÌU CỨU NẠN. 3 KÌM CỘNG LỰC. 4 BÚA TẠ.",
+     "xy": [
+      495,
+      963
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "75X50X5MM THÉP NỐI THÉP/ STEEL \"C\" TI REN/ BULON 30MMX4MM TẤM THÉP/ STEEL PLATE",
+     "xy": [
+      1322,
+      1006
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT TỦ ĐỰNG BỘ DỤNG CỤ PHÁ DỠ THÔ SƠ (điển hình)",
+     "xy": [
+      324,
+      1013
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ỐNG ĐI XUYÊN TƯỜNG THE PIPE THROUGHED WALL INSTALLATION DETAIL",
+     "xy": [
+      56,
+      1089
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐIỂN HÌNH GIÁ ĐỠ ỐNG/ HANGER TYPICAL DETAIL",
+     "xy": [
+      639,
+      1128
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT KHỚP NỐI, ĐẦU TREO ỐNG/ THE COUPLING, HANGER INSTALLATED DETAIL",
+     "xy": [
+      1028,
+      1128
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ỐNG ĐI XUYÊN SÀN,TƯỜNG/ THE PIPE THROUGHED FLOOR,WALL INSTALLATION DETAIL",
+     "xy": [
+      64,
+      1129
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 28,
+   "ma": null,
+   "ten": "HỆ THỐNG CHỮA CHÁY CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH TỜ 2 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "kết nối tín hiệu tới module giám sát trung tâm báo cháy",
+     "xy": [
+      1180,
+      42
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TIẾP ĐIỂM KẾT NỐI LIÊN ĐỘNG HỆ THỐNG BÁO CHÁY",
+     "xy": [
+      89,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỚI HỆ THỐNG CHỮA CHÁY TO FIRE WATER PIPE",
+     "xy": [
+      198,
+      146
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BÌNH CHỮA CHÁY TỰ KÍCH AEROSOL",
+     "xy": [
+      794,
+      185
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG CHỮA CHÁY KHÍ SẠCH",
+     "xy": [
+      1202,
+      186
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "RA HỆ THỐNG NƯỚC CHỮA CHÁY TO FIRE WATER PIPE",
+     "xy": [
+      93,
+      221
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN KIỂM TRA BÁO CHÁY (N.C) ALAM TEST VALVE (N.C)",
+     "xy": [
+      109,
+      256
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN KIỂM TRA BÁO CHÁY (N.C) ALAM TEST VALVE (N.C)",
+     "xy": [
+      67,
+      292
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN XẢ VÀ KIỂM TRA GATE VALVE & TEST",
+     "xy": [
+      360,
+      337
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỚI MƯƠNG THOÁT NƯỚC GẦN NHẤT TO DRAIN STRENCH NEAREST",
+     "xy": [
+      407,
+      397
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỚI MƯƠNG THOÁT NƯỚC GẦN NHẤT TO DRAIN STRENCH NEAREST",
+     "xy": [
+      282,
+      458
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ở CHẾ ĐỘ BÌNH THƯỜNG( NC) VAN THƯỜNG ĐÓNG",
+     "xy": [
+      416,
+      476
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN CỔNG (LOẠI OS&Y) GATE VALVE (TYPE OS&Y)",
+     "xy": [
+      103,
+      480
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ở CHẾ ĐỘ KIỂM TRA, BẢO DƯỠNG VAN THƯỜNG MỞ (N0) KHI ĐÓ NƯỚC TỪ HỆ THỐNG CHỮA CHÁY SẼ ĐI QUA VAN VỀ MƯƠNG THOÁT NƯỚCI, KẾT NỐI TIẾP ĐIỂM TẠI CÔNG TẮC ÁP SUẤT (N0)~(NC) KÍCH TIẾP ĐIỂM BÁO CHÁY",
+     "xy": [
+      408,
+      487
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT TRỤ CHỮA CHÁY (FH) VÀ HỌNG TIẾP NƯỚC ĐIỂN HÌNH(FDC)",
+     "xy": [
+      613,
+      553
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BƠM BÙ CHỮA CHÁY",
+     "xy": [
+      1091,
+      554
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐIỂN HÌNH CỤM VAN BÁO ĐỘNG MỘT CHIỀU/ ALAM GONG VALVE TYPICAL DETAIL",
+     "xy": [
+      122,
+      556
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "01 VAN GÓC DN50 01 CUỘN VÒI DN50 01 LĂNG DN50",
+     "xy": [
+      170,
+      853
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "02 VAN GÓC DN50 02 CUỘN VÒI DN50 02 LĂNG DN50",
+     "xy": [
+      685,
+      854
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐIỂN HÌNH LẮP ĐẶT TỦ CHỮA CHÁY + BÌNH CHỮA CHÁY TRONG NHÀ TẦNG NỔI FH2",
+     "xy": [
+      61,
+      1131
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐIỂN HÌNH LẮP ĐẶT TỦ CHỮA CHÁY + BÌNH CHỮA CHÁY TRONG NHÀ TẦNG HẦM FH1",
+     "xy": [
+      558,
+      1131
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BƠM CHÍNH CHỮA CHÁY",
+     "xy": [
+      1168,
+      1138
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 29,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 30,
+   "ma": null,
+   "ten": "DANH SÁCH BẢN VẼ WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "khac",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 31,
+   "ma": null,
+   "ten": "BẢNG KÊ THIẾT BỊ WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "thuyet_minh",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 32,
+   "ma": null,
+   "ten": "TÍNH TOÁN HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TỜ 1 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "thuyet_minh",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 33,
+   "ma": null,
+   "ten": "TÍNH TOÁN HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TỜ 2 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "thuyet_minh",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 34,
+   "ma": null,
+   "ten": "TÍNH TOÁN HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TỜ 3 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "thuyet_minh",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 35,
+   "ma": null,
+   "ten": "TÍNH TOÁN HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TỜ 4 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "thuyet_minh",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 36,
+   "ma": null,
+   "ten": "KÝ HIỆU & GHI CHÚ CHUNG WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH KÝ HIỆU (TẤT CẢ CÁC KÝ HIỆU ĐƯỢC SCALE THEO TỈ LỆ 1:100)",
+     "xy": [
+      171,
+      64
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ CHỮ NHẬT: A THỂ HIỆN KÍCH THƯỚC CẠNH THẤY",
+     "xy": [
+      852,
+      120
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUẠT CẤP GIÓ TẠO ÁP SẢNH THANG, PHÒNG ĐỆM",
+     "xy": [
+      208,
+      178
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ-TƠ (DÙNG NGĂN CHÁY LAN HOẶC XẢ ÁP CÁC KHU VỰC TRONG NHÀ)",
+     "xy": [
+      516,
+      197
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY CÓ ĐỘNG CƠ CÓ CỬA THĂM GHCL: EI60. CHO CÁC VAN Ở TẦNG HẦM GHCL: EI30. CHO CÁC VAN HỆ THỐNG HÚT KHÓI HÀNH LANG",
+     "xy": [
+      852,
+      207
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MIỆNG GIÓ GẮN TRÊN CỬA (XEM BẢNG LIỆT KÊ MIỆNG GIÓ)",
+     "xy": [
+      541,
+      384
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SỐ THỰ TỰ THIẾT BỊ VỊ TRÍ TẦNG PHỤC VỤ",
+     "xy": [
+      1254,
+      507
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ TỔNG QUÁT",
+     "xy": [
+      157,
+      616
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "24. CỬA CẤP / THẢI GIÓ BÊN NGOÀI NHÀ ĐƯỢC THỰC HIỆN BỞI NHÀ THẦU XÂY DỰNG. DIỆN TÍCH HIỆU DỤNG TỐI THIỂU 50%. 25. CÁC CÔNG TẮC ĐIỀU KHIỂN TỪ XA BẰNG TAY PHẢI ĐƯỢC LẮP ĐẶT TẠI TỦ TẦNG VÀ TẠI PHÒNG ĐIỀU KHIỂN TRUNG TÂM KHI CÓ CHÁY ĐỂ VẬN HÀNH CÁC QUẠT HÚT KHÓI, CẤP GIÓ BÙ, ĐIỀU ÁP VÀ CÁC VAN ĐIỀU KHIỂN, VAN NGĂN CHÁY ĐIỀU KHIỂN BẰNG ĐỘNG CƠ KHI HỆ THỐNG TỰ ĐỘNG GẶP SỰ CỐ. 26. CHIỀU CAO LẮP ĐẶT CỦA CỬA GIÓ THẢI PHẢI ĐẢM BẢO THEO QUY ĐỊNH TẠI ĐIỀU 5.6.5 THEO TIÊU CHUẨN 5687-2024. 27. ỐNG GIÓ SẼ ĐƯỢC LÓT LỚP CÁCH ÂM ÍT NHẤT 2M TẠI ĐẦU VÀO/ RA CỦA QUẠT NẾU KHÔNG ĐƯỢC CHỈ ĐỊNH TRÊN BẢN VẼ NHẰM ĐẢM BẢO ĐỘ ỒN THEO QUY ĐỊNH. 28. CÁC THÔNG SỐ CHÍNH XÁC VỀ ĐIỆN SẼ ĐƯỢC CUNG CẤP VÀ LẮP ĐẶT BỞI NHÀ THẦU PHỤ ĐỂ BẢO",
+     "xy": [
+      568,
+      639
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "YÊU CẦU KỸ THUẬT CHUNG HỆ THỐNG THÔNG GIÓ SỰ CỐ:",
+     "xy": [
+      1024,
+      640
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. BẢN VẼ LÀ 1 PHẦN TRONG HỒ SƠ THIẾT KẾ, ĐƯỢC ĐỌC KẾT HỢP VỚI BẢNG ĐẶC TÍNH KỸ THUẬT VÀ CÁC BẢNG KÊ THIẾT BỊ. 2. NHỮNG BẢN VẼ NÀY CHỦ YẾU NÊU LÊN NGUYÊN LÝ, KHÔNG THỂ TRÌNH BÀY TOÀN BỘ TÌNH HUỐNG CÓ THỂ XẢY RA. ĐÓ CHỈ ĐƯỢC COI NHƯ MỘT HỆ THỐNG ACMV HOÀN TẤT KHI ĐƯỢC CUNG CẤP TẤT CẢ CÁC THIẾT BỊ CẦN THIẾT, VẬT TƯ, PHỤ TÙNG VÀ PHẦN ĐIỀU KHIỂN. 3. KHI THỰC HIỆN CÁC CÔNG VIỆC Ở CHỖ BỊ CHE KHUẤT PHẢI CUNG CẤP BẢN VẼ CỦA CỬA THĂM VÀ CÁC CỬA CHO VIỆC NGHIỆM THU VÀ BẢO TRÌ. 4. CUNG CẤP BỆ BÊ TÔNG CHO CÁC THIẾT BỊ LẮP TRÊN SÀN. 5. ĐẢM BẢO TẤT CẢ CÁC LỖ XUYÊN TƯỜNG, XUYÊN MÁI PHẢI ĐƯỢC CHỐNG THẤM THÍCH HỢP TRONG VÀ SAU THỜI GIAN XÂY DỰNG. 6. CÁC BỘ CẢM BIẾN NHIỆT ĐỘ, CẢM BIẾN CO PHẢI ĐẶT Ở ĐỘ CAO 1200mm TÍNH TỪ MẶT SÀN HOÀN THIỆN. VỊ TRÍ CUỐI CÙNG ĐƯỢC XÁC ĐỊNH TRÊN CÔNG TRƯỜNG DO CÁC KỸ SƯ PHÊ DUYỆT. 7. KÍCH THƯỚC TRÊN BẢN VẼ LÀ KÍCH THƯỚC LỌT LÒNG TÍNH BẰNG MM, SAU KHI TRỪ ĐI LỚP CÁCH NHIỆT BÊN TRONG VÀ BÊN NGOÀI. 8. CỬA BẢO TRÌ CHO CÁC VAN NGĂN CHÁY PHẢI ĐƯỢC ĐẶT TRÊN ỐNG GIÓ SAO CHO CÓ THỂ NHÌN THẤY ĐƯỢC VÀ CÀI ĐẶT ĐƯỢC CÁC CỬA NGĂN CHÁY. 9. TẤT CẢ CÁC QUẠT HÚT KHÓI, QUẠT CẤP GIÓ BÙ, QUẠT ĐIỀU ÁP, QUẠT CẤP VÀ HÚT GIÓ THẢI BÃI ĐẬU XE ĐƯỢC ĐIỀU KHIỂN BỞI TÍN HIỆU BÁO CHÁY. 10. NGUỒN ĐIỆN CẤP CHO QUẠT HÚT KHÓI, CẤP GIÓ BÙ, QUẠT ĐIỀU ÁP LÀ NGUỒN ĐIỆN KHẨN CẤP. 11. CÁP TÍN HIỆU / ĐỘNG LỰC CHO QUẠT HÚT KHÓI, CẤP GIÓ BÙ, QUẠT ĐIỀU ÁP, QUẠT CẤP VÀ HÚT GIÓ THẢI BÃI ĐẬU XE LÀ CÁP CHỐNG CHÁY. 12. CỬA BẢO TRÌ PHẢI ĐƯỢC ĐẶT TRÊN ỐNG GIÓ SAO CHO CÓ THỂ NHÌN THẤY ĐƯỢC VÀ LẮP Ở VỊ TRÍ CỦA CÁC CỬA NGĂN CHÁY. KÍCH THƯỚC THAM KHẢO CỬA BẢO TRÌ SẼ LÀ 450mm (DÀI) x 450mm (RỘNG); VỚI NHỮNG ỐNG GIÓ NHỎ HƠN THÌ CHIỀU RỘNG CỬA CÓ THỂ GIẢM ĐẾN CHIỀU RỘNG ỐNG GIÓ. 13. TẤT CẢ ỐNG GIÓ XUYÊN QUA TƯỜNG NGĂN CHÁY, XUYÊN SÀN PHẢI GẮN VAN CHẶN LỬA. 14. CỬA CẤP GIÓ VÀ CỬA THẢI GIÓ BÊN NGOÀI NGĂN ĐƯỢC MƯA VÀ CÔN TRÙNG. LƯỚI CHẮN ĐƯỢC LÀM BẰNG VẬT LIỆU CHỐNG ĂN MÒN VÀ KHE LƯỚI KHÔNG LỚN HƠN 10mm. 15. TẤT CẢ CÁC MIỆNG GIÓ PHẢI ĐƯỢC HOÀN THIỆN BẰNG VAN ĐIỀU CHỈNH LƯU LƯỢNG GIÓ. 16. VAN GIÓ ĐỘNG CƠ HAY VAN GIÓ XẢ ÁP TẠI HỆ THỐNG ĐIỀU ÁP SẼ HOẠT ĐỘNG KHI ÁP SUẤT BUỒNG ĐIỀU ÁP, PHÒNG ĐỆM VƯỢT QUÁ 50Pa. 17. TẤT CẢ ỐNG NỐI MỀM KHÔNG ĐƯỢC DÀI HƠN 2m. 18. VẬN TỐC GIÓ TRONG ỐNG NỐI MỀM KHÔNG VƯỢT QUÁ 3.5 m/s. 19. CHIỀU DÀY CÁCH ÂM CHO THIẾT BỊ / ỐNG GIÓ NẾU KHÔNG CHỈ ĐỊNH TRÊN BẢN VẼ THÌ PHẢI THEO CHỈ DẪN KỸ THUẬT. 20. CÁCH NHIỆT BÊN NGOÀI CHO TẤT CẢ ỐNG GIÓ Ở VỊ TRÍ TRONG KHOẢNG KHÔNG GIAN MÁI CÓ CHIỀU DÀY LÀ 50mm. 21. ĐỘ DỐC ỐNG NƯỚC NGƯNG =1/100. 22. ĐƯỜNG ỐNG NƯỚC NGƯNG LOẠI uPVC - CÓ ÁP LỰC NHỎ NHẤT PN4. 23. QUẠT TRONG HỆ THỐNG HÚT KHÓI, CẤP GIÓ BÙ, ĐIỀU ÁP NẰM BÊN TRONG NHÀ LÀ LOẠI CÓ KHẢ NĂNG CHỐNG CHÁY VỚI NHIỆT ĐỘ 300 oC TRONG VÒNG 2 GIỜ HOẠT ĐỘNG.",
+     "xy": [
+      155,
+      640
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. CÁC CÔNG TẮC TỰ ĐỘNG PHẢI ĐƯỢC LẮP ĐẶT ĐỂ ĐẢM BẢO HỆ THỐNG THÔNG GIÓ VẪN TIẾP TỤC HOẠT ĐỘNG TRONG TRƯỜNG HỢP NGUỒN CẤP CHÍNH BỊ SỰ CỐ. 2. HỆ THỐNG THÔNG GIÓ SỰ CỐ PHẢI ĐƯỢC NỐI VÀO NGUỒN ĐIỆN KHẨN CẤP . 3. CÁC QUẠT HÚT, QUẠT CẤP NẰM TRONG NHÀ PHẢI CÓ KHẢ NĂNG LÀM VIỆC TỐT Ở NHIỆT ĐỘ TỐI THIỂU 300oC TRONG 2 GIỜ VÀ PHẢI CÓ NGUỒN DỰ PHÒNG. 4. HỆ THỐNG HÚT KHÓI, CẤP GIÓ (CÁC QUẠT & VAN GIÓ CÓ MÔ TƠ) CŨNG SẼ CÓ THỂ ĐƯỢC KÍCH HOẠT BẰNG CÔNG TẮC ĐIỀU KHIỂN TAY TẠI BẢNG ĐIỀU KHIỂN ĐẶT TRONG PHÒNG ĐIỀU KHIỂN CHÁY TRUNG TÂM VÀ CÁC NÚT BẤM TRÊN LỐI THOÁT NẠN CỦA CÁC TẦNG DÙNG CHO NHÂN VIÊN CỨU HOẢ. 5. TẠI CHẾ ĐỘ THÔNG THƯỜNG CÁC QUẠT THÔNG GIÓ TẦNG HẦM ĐƯỢC ĐIỀU KHIỂN THÔNG QUA HỆ THỐNG KIỂM SOÁT NỒNG ĐỘ CO, CÁC QUẠT THÔNG GIÓ SỰ CỐ KHÁC Ở CHẾ ĐỘ KHÔNG HOẠT ĐỘNG. 6. TẤT CẢ CÁC MIỆNG GIÓ CẤP, THẢI ĐỀU KÈM VỚI VAN ĐIỀU CHỈNH LƯU LƯỢNG. 7. ỐNG GIÓ SỬ DỤNG LÀ LOẠI KHÔNG CHÁY, ĐẠT GHCL \"EI\" THEO QCVN06:2022, XEM THÊM TRÊN BẢN VẼ MẶT BẰNG. 8. VẬN TỐC QUA CỬA GIÓ, LỖ GIÓ BÙ CHO HỆ THỐNG HÚT KHÓI ≤ 6M/S. 9. RÒ RỈ GIÓ TỐI ĐA CỦA VAN GIÓ (MFD, M), ĐƯỜNG ỐNG THEO TIÊU CHUẨN QCVN06: 2022/BXD",
+     "xy": [
+      1023,
+      658
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "29. TẤT CẢ CÁC THIẾT BỊ ĐẶT NGOÀI TRỜI LÀ LOẠI CHỊU ĐƯỢC THỜI TIẾT. 30. NHÀ THẦU PHẦN CƠ CUNG CẤP TẤT CẢ CÁC BỘ PHẬN ĐIỀU KHIỂN ĐỘNG CƠ CHO CÁC ĐỘNG CƠ CƠ KHÍ. 31. TẤT CẢ MIỆNG GIÓ LÀM BẰNG NHÔM TRỪ KHI CÓ CHỈ ĐỊNH KHÁC. MÀU SẮC VÀ BỀ MẶT HOÀN THIỆN PHẢI ĐƯỢC PHÊ DUYỆT BỞI KIẾN TRÚC SƯ. 32. KÍCH THƯỚC CỦA MIỆNG GIÓ LÀ KÍCH THƯỚC CỔ NẾU KHÔNG CÓ CHỈ ĐỊNH KHÁC. 33. CUNG CẤP CÁNH HƯỚNG DÒNG CHO TẤT CẢ CO VUÔNG VÀ CO 90°. 34. THI CÔNG ỐNG GIÓ SẼ TUÂN THEO TIÊU CHUẨN SMACNA, DW142 BẢN MỚI NHẤT. 35.TẤT CẢ KHE HỞ ỐNG GIÓ XUYÊN TƯỜNG/ SÀN PHẢI ĐƯỢC TRÁT KÍN BẰNG VẬT LIỆU NGĂN CHÁY. 36. ỐNG GIÓ CỦA HỆ THỐNG THẢI KHÓI, BÙ GIÓ HÚT KHÓI & TẠO ÁP PHẢI LÀM BẰNG VẬT LIỆU KHÔNG CHÁY CÓ GIỚI HẠN CHỊU LỬA NHƯ TRONG QCVN06-2022 BXD. NỐI MỀM QUẠT PHẢI ĐƯỢC LÀM BẰNG VẬT LIỆU KHÔNG CHÁY. 37. SAU KHI ĐƯỢC CHẤP NHẬN VÀ TRƯỚC KHI THỰC HIỆN LẮP ĐẶT HOẶC GIA CÔNG CÁC THIẾT BỊ, PHỤ KIỆN...NHÀ THẦU PHẢI ĐẢM BẢO MỌI THỨ ĐÃ ĐƯỢC XÁC ĐỊNH CHÍNH XÁC Ở CÔNG TRÌNH CŨNG NHƯ PHỐI HỢP VỚI CÁC NHÀ THẦU KHÁC. NẾU VÌ LÝ DO NÀO ĐÓ MÀ XUẤT HIỆN NHỮNG MÂU THUẪN BỜI NHÀ THẦU, NHƯ VIỆC KHÔNG THỰC HIỆN ĐẦY ĐỦ CÁC MỤC TRÊN ĐÂY HOẶC THIẾU CHUYÊN CẦN. TẤT CẢ CÁC CÔNG VIỆC CẦN PHẢI THỰC HIỆN BỞI NHÀ THẦU MÀ KHÔNG PHẢI TRẢ THÊM BẤT KỲ LOẠI CHI PHÍ NÀO. 38. TOÀN BỘ CÔNG VIỆC CHO THÔNG GIÓ CẦN GIÁM SÁT BỞI KỸ SƯ CHUYÊN NGÀNH CÓ KINH NGHIỆM. 39. CỬA CẤP / THẢI GIÓ BÊN TRONG NHÀ PHẢI CÓ DIỆN TÍCH HIỆU DỤNG TỐI THIỂU 60% VÀ NGĂN ĐƯỢC CÔN TRÙNG . 40. NHÀ THẦU PHẢI KIỂM TRA TẤT CẢ CÁC KÍCH THƯỚC TẠI HIỆN TRƯỜNG VÀ GIẢI QUYẾT TẤT CẢ SỰ KHÁC BIỆT VỚI KIẾN TRÚC TRƯỚC KHI BẮT ĐẦU LẮP ĐẶT THỰC TẾ. 41. NHÀ THẦU CƠ ĐIỆN PHẢI CÓ TRÁCH NHIỆM TÍNH TOÁN LẠI CỘT ÁP TĨNH CỦA CÁC THIẾT BỊ BƠM/ QUẠT/ FCU/AHU/PAU THEO THỰC TẾ TẠI CÔNG TRƯỜNG VÀ ĐỆ TRÌNH CHO TƯ VẤN PHÊ DUYỆT. 42. ĐỂ ĐẢM BẢO ĐỘ ỔN ĐỊNH TRONG QUÁ TRÌNH HOẠT ĐỘNG THÌ QUẠT PHẢI ĐẠT ĐƯỢC CÁC CHỨNG NHẬN ĐẦY ĐỦ CŨNG NHƯ CÁC BÁO CÁO KIỂM TRA ĐỊNH MỨC CHÁY THEO CÁC TIÊU CHUẨN ISO, EN... ; CÁC TIÊU CHÍ CỦA CÁC TRUNG TÂM CHỨNG NHẬN QUỐC TẾ, KHU VỰC... (CÁC CHỨNG NHẬN AMCA LICENCE, TUV-SUD... ĐƯỢC COI LÀ TIÊU CHÍ ƯU TIÊN) KHI LỰA CHỌN QUẠT. QUẠT VÀ MOTOR PHẢI ĐỒNG NHẤT BỞI 1 NHÀ CUNG CẤP, CÙNG BRANAME.",
+     "xy": [
+      568,
+      771
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: MÀU MIỆNG GIÓ ĐƯỢC PHÊ DUYỆT BỞI KIẾN TRÚC",
+     "xy": [
+      1133,
+      1046
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "EI30",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 37,
+   "ma": null,
+   "ten": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG HÚT KHÓI & TĂNG ÁP WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "ỐNG GIÓ HÚT KHÓI MIỆNG GIÓ HÚT CỬA GIÓ BÙ",
+     "xy": [
+      615,
+      120
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÔ TẢ HOẠT ĐỘNG: - CHẾ ĐỘ THÔNG THƯỜNG: QUẠT HOẠT ĐỘNG THEO TIMER CÀI ĐẶT. - CHẾ ĐỘ KHI CHÁY: QUẠT KHÔNG HOẠT ĐỘNG.",
+     "xy": [
+      113,
+      191
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT HÚT KHÓI VÀ BÙ GIÓ CƯỠNG",
+     "xy": [
+      479,
+      242
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NGUYÊN LÝ HOẠT ĐỘNG & ĐIỀU KHIỂN ĐIỂN HÌNH",
+     "xy": [
+      121,
+      243
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT HÚT KHÓI VÀ BÙ GIÓ TỰ NHIÊN",
+     "xy": [
+      1057,
+      245
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TÍN HIỆU NÚT NHẤN BẰNG TAY TÍN HIỆU BÁO CHÁY",
+     "xy": [
+      100,
+      414
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TÍN HIỆU NÚT NHẤN BẰNG TAY TÍN HIỆU BÁO CHÁY",
+     "xy": [
+      488,
+      419
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TÍN HIỆU NÚT NHẤN BẰNG TAY TÍN HIỆU BÁO CHÁY",
+     "xy": [
+      1065,
+      467
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÔ TẢ HOẠT ĐỘNG: - CHẾ ĐỘ THÔNG THƯỜNG: KHI NỒNG ĐỘ CO < 9ppm. TẤT CẢ CÁC QUẠT (THẢI & CẤP) Ở CHẾ ĐỘ TẮT. KHI NỒNG ĐỘ CO ≥ 9ppm VÀ CO ≤ 25ppm. TẤT CẢ CÁC QUẠT (THẢI & CẤP) HOẠT ĐỘNG Ở TỐC ĐỘ THẤP. KHI NỒNG ĐỘ CO > 25ppm. TẤT CẢ CÁC QUẠT (THẢI & CẤP) HOẠT ĐỘNG Ở TỐC ĐỘ CAO. - CHẾ ĐỘ KHI CHÁY: KHI CÓ TÍN HIỆU BÁO CHÁY Ở TẦNG HẦM THÌ QUẠT THẢI & CẤP Ở TẦNG HẦM ĐÓ ĐƯỢC CẤP NGUỒN & CÁC QUẠT CHẠY Ở TỐC ĐỘ CAO NHẤT THỰC HIỆN VIỆC HÚT KHÓI & BÙ GIÓ. + GHI CHÚ: - MIỆNG GIÓ CẤP GIÓ BÙ CHO TẦNG HẦM ĐƯỢC LẮP ĐẶT PHÍA DƯỚI THẤP CỦA SÀN TẦNG HẦM. KHOẢNG CÁCH TỐI THIỂU GIỮA MIỆNG HÚT KHÓI VÀ CẤP GIÓ BÙ THEO PHƯƠNG ĐỨNG LÀ 1.5M & THEO PHƯƠNG NGANG LÀ 5M - KHI HỆ THỐNG HÚT KHÓI & CẤP GIÓ HOẠT ĐỘNG PHẢI ĐẢM BẢO RẰNG CHÊNH LỆCH ÁP SUẤT TRÊN CÁC CỬA MỞ THOÁT NẠN LÀ NHỎ ĐẢM BẢO NGƯỜI BÌNH THƯỜNG DỄ DÀNG MỞ ĐƯỢC. - CÁC QUẠT CÓ NÚT ĐIỀU KHIỂN TẮT/ MỞ BẰNG TAY ĐẶT TẠI TỦ TẦNG VÀ TẠI PHÒNG ĐIỀU KHIỂN CHÁY TRUNG TÂM/ BẢNG ĐIỀU KHIỂN DÀNH CHO NHÂN VIÊN CỨU HỎA.",
+     "xy": [
+      101,
+      500
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÔ TẢ HOẠT ĐỘNG: - CHẾ ĐỘ THÔNG THƯỜNG: QUẠT KHÔNG HOẠT ĐỘNG. - CHẾ ĐỘ KHI CHÁY: KHI NHẬN ĐƯỢC TÍN HIỆU TỪ CẢM BIẾN KHÓI, QUẠT TĂNG ÁP ĐƯỢC CẤP NGUỒN VÀ THỰC HIỆN VIỆC TĂNG ÁP CHO SẢNH/ P. ĐỆM. ÁP SUẤT TRONG SẢNH/ P. ĐỆM ĐƯỢC DUY TRÌ ÁP SUẤT TỪ 20÷50 Pa THÔNG QUA VAN XẢ ÁP \"MFD\" VÀ CẢM BIẾN ÁP SUẤT \"P\". GHI CHÚ: - CÁC QUẠT & VAN TỰ ĐỘNG CÓ NÚT ĐIỀU KHIỂN TẮT/ MỞ BẰNG TAY ĐẶT TẠI TỦ TẦNG VÀ TẠI PHÒNG ĐIỀU KHIỂN CHÁY TRUNG TÂM/ BẢNG ĐIỀU KHIỂN DÀNH CHO NHÂN VIÊN CỨU HỎA. - VẬN TỐC GIÓ QUA CỬA MỞ TÍNH TOÁN LÀ 1.3M/S",
+     "xy": [
+      469,
+      595
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẦNG KHÔNG CÓ SỰ CỐ CHÁY MÔ TẢ HOẠT ĐỘNG: - CHẾ ĐỘ THÔNG THƯỜNG: CÁC MFD Ở TRẠNG THÁI OFF - CHẾ ĐỘ KHI CHÁY: KHI NHẬN ĐƯỢC TÍN HIỆU TỪ CẢM BIẾN KHÓI CỦA TẦNG CÓ CHÁY THÌ QUẠT HÚT KHÓI SẼ ĐƯỢC CẤP NGUỒN VÀ THỰC HIỆN VIỆC HÚT KHÓI. MFD CỦA TẦNG CÓ SỰ CỐ CHÁY MỞ (TRẠNG THÁI ON) - QUẠT & VAN TỰ ĐỘNG CÓ NÚT ĐIỀU KHIỂN TẮT/ MỞ BẰNG TAY ĐẶT TẠI TỦ TẦNG VÀ TẠI PHÒNG ĐIỀU KHIỂN CHÁY TRUNG TÂM/ BẢNG ĐIỀU KHIỂN DÀNH CHO NHÂN VIÊN CỨU HỎA.",
+     "xy": [
+      1043,
+      615
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NGUYÊN LÝ HOẠT ĐỘNG & ĐIỀU KHIỂN ĐIỂN HÌNH CỦA HỆ",
+     "xy": [
+      455,
+      752
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THỐNG TẠO ÁP PHÒNG ĐỆM/ SẢNH THANG TẦNG HẦM",
+     "xy": [
+      466,
+      771
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: - CÁC ỐNG GIÓ HÚT KHÓI, BÙ GIÓ & TĂNG ÁP TẠI TẦNG HẦM CÓ GHCL EI60",
+     "xy": [
+      112,
+      1073
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG HÚT KHÓI & TĂNG ÁP",
+     "xy": [
+      567,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI30",
+    "EI45",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 38,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TẦNG HẦM WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH KÝ HIỆU (TẤT CẢ CÁC KÝ HIỆU ĐƯỢC SCALE THEO TỈ LỆ 1:100)",
+     "xy": [
+      75,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ CHỮ NHẬT: A THỂ HIỆN KÍCH THƯỚC CẠNH THẤY",
+     "xy": [
+      526,
+      156
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUẠT CẤP GIÓ TẠO ÁP SẢNH THANG, PHÒNG ĐỆM",
+     "xy": [
+      108,
+      208
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BỌC THẠCH CAO CHỐNG CHÁY GHCL: EI45 BPF-B-2",
+     "xy": [
+      1212,
+      219
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ-TƠ (DÙNG NGĂN CHÁY LAN HOẶC XẢ ÁP CÁC KHU VỰC TRONG NHÀ)",
+     "xy": [
+      319,
+      226
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ - TƠ CÓ CỬA THĂM GHCL: EI60. CHO CÁC VAN Ở TẦNG HẦM GHCL: EI30. CHO CÁC VAN HỆ THỐNG HÚT KHÓI HÀNH LANG",
+     "xy": [
+      526,
+      235
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "(QUẠT CẤP BÙ) BỌC THẠCH CAO CHỐNG CHÁY GHCL: EI45",
+     "xy": [
+      1166,
+      450
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "(QUẠT TĂNG ÁP) BỌC THẠCH CAO CHỐNG CHÁY GHCL: EI45 BOB:FFL+2300",
+     "xy": [
+      1028,
+      457
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ HÚT KHÓI MIỆNG GIÓ HÚT CỬA GIÓ BÙ",
+     "xy": [
+      391,
+      638
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT HÚT KHÓI VÀ BÙ GIÓ CƯỠNG",
+     "xy": [
+      254,
+      761
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SEAG:850x250 c/w OBD 4 NOS -NL: 425 L/S -EL: 635 L/S SEAD 800x350 BOD: FFL +2700",
+     "xy": [
+      894,
+      838
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI30",
+    "EI45",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 39,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TẦNG 1 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH KÝ HIỆU (TẤT CẢ CÁC KÝ HIỆU ĐƯỢC SCALE THEO TỈ LỆ 1:100)",
+     "xy": [
+      67,
+      202
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DIỆN TÍCH: 5.05M2 DIỆN TÍCH HIỆU DỤNG TỐI THIỂU: 50% BỞI KIẾN TRÚC BOL: FFL +1000",
+     "xy": [
+      1083,
+      229
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ CHỮ NHẬT: A THỂ HIỆN KÍCH THƯỚC CẠNH THẤY",
+     "xy": [
+      518,
+      253
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LỔ MỞ SÀN THÔNG GIÓ TẦNG HẦM KÍCH THƯỚC: 2400x600",
+     "xy": [
+      1085,
+      294
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUẠT CẤP GIÓ TẠO ÁP SẢNH THANG, PHÒNG ĐỆM",
+     "xy": [
+      100,
+      306
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ-TƠ (DÙNG NGĂN CHÁY LAN HOẶC XẢ ÁP CÁC KHU VỰC TRONG NHÀ)",
+     "xy": [
+      311,
+      323
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ - TƠ CÓ CỬA THĂM GHCL: EI60. CHO CÁC VAN Ở TẦNG HẦM GHCL: EI30. CHO CÁC VAN HỆ THỐNG HÚT KHÓI HÀNH LANG",
+     "xy": [
+      518,
+      332
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      959,
+      441
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU PHỤC VỤ ĂN SÁNG VÀ CÀ PHÊ",
+     "xy": [
+      959,
+      813
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LỔ MỞ SÀN THÔNG GIÓ TẦNG HẦM KÍCH THƯỚC: 1200x750",
+     "xy": [
+      1261,
+      949
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DIỆN TÍCH: 1.32M2 DIỆN TÍCH HIỆU DỤNG TỐI THIỂU: 50% BỞI KIẾN TRÚC BOL: FFL +2000",
+     "xy": [
+      1262,
+      998
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI30",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 40,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TẦNG 2 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH KÝ HIỆU (TẤT CẢ CÁC KÝ HIỆU ĐƯỢC SCALE THEO TỈ LỆ 1:100)",
+     "xy": [
+      68,
+      241
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ CHỮ NHẬT: A THỂ HIỆN KÍCH THƯỚC CẠNH THẤY",
+     "xy": [
+      519,
+      292
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUẠT CẤP GIÓ TẠO ÁP SẢNH THANG, PHÒNG ĐỆM",
+     "xy": [
+      101,
+      344
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ-TƠ (DÙNG NGĂN CHÁY LAN HOẶC XẢ ÁP CÁC KHU VỰC TRONG NHÀ)",
+     "xy": [
+      312,
+      362
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ - TƠ CÓ CỬA THĂM GHCL: EI60. CHO CÁC VAN Ở TẦNG HẦM GHCL: EI30. CHO CÁC VAN HỆ THỐNG HÚT KHÓI HÀNH LANG",
+     "xy": [
+      519,
+      371
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LOUVER BÙ GIÓ GẮN TRÊN CỬA KÍCH THƯỚC: 540x800 BOL: FFL+100 GHCL: EI30 SEAD 700x200 BOD: FFL +2550 SEAD 800x200 BOD: FFL +2550 SEAD 700x200 BOD: FFL +2550",
+     "xy": [
+      1190,
+      522
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT HÚT KHÓI VÀ BÙ GIÓ TỰ NHIÊN",
+     "xy": [
+      487,
+      912
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI30",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 41,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TẦNG 3,4 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH KÝ HIỆU (TẤT CẢ CÁC KÝ HIỆU ĐƯỢC SCALE THEO TỈ LỆ 1:100)",
+     "xy": [
+      81,
+      241
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ CHỮ NHẬT: A THỂ HIỆN KÍCH THƯỚC CẠNH THẤY",
+     "xy": [
+      532,
+      292
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUẠT CẤP GIÓ TẠO ÁP SẢNH THANG, PHÒNG ĐỆM",
+     "xy": [
+      114,
+      344
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ-TƠ (DÙNG NGĂN CHÁY LAN HOẶC XẢ ÁP CÁC KHU VỰC TRONG NHÀ)",
+     "xy": [
+      325,
+      362
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ - TƠ CÓ CỬA THĂM GHCL: EI60. CHO CÁC VAN Ở TẦNG HẦM GHCL: EI30. CHO CÁC VAN HỆ THỐNG HÚT KHÓI HÀNH LANG",
+     "xy": [
+      532,
+      371
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LOUVER BÙ GIÓ GẮN TRÊN CỬA KÍCH THƯỚC: 540x800 BOL: FFL+100 GHCL: EI30 SEAD 700x200 BOD: FFL +2550 SEAD 800x200 BOD: FFL +2550 SEAD 700x200 BOD: FFL +2550",
+     "xy": [
+      1203,
+      521
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT HÚT KHÓI VÀ BÙ GIÓ TỰ NHIÊN",
+     "xy": [
+      501,
+      912
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI30",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 42,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TẦNG 5 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH KÝ HIỆU (TẤT CẢ CÁC KÝ HIỆU ĐƯỢC SCALE THEO TỈ LỆ 1:100)",
+     "xy": [
+      74,
+      241
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ CHỮ NHẬT: A THỂ HIỆN KÍCH THƯỚC CẠNH THẤY",
+     "xy": [
+      525,
+      292
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUẠT CẤP GIÓ TẠO ÁP SẢNH THANG, PHÒNG ĐỆM",
+     "xy": [
+      108,
+      344
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ-TƠ (DÙNG NGĂN CHÁY LAN HOẶC XẢ ÁP CÁC KHU VỰC TRONG NHÀ)",
+     "xy": [
+      319,
+      362
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ - TƠ CÓ CỬA THĂM GHCL: EI60. CHO CÁC VAN Ở TẦNG HẦM GHCL: EI30. CHO CÁC VAN HỆ THỐNG HÚT KHÓI HÀNH LANG",
+     "xy": [
+      525,
+      371
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LOUVER BÙ GIÓ GẮN TRÊN CỬA KÍCH THƯỚC: 540x800 BOL: FFL+100 GHCL: EI30 SEAD 700x200 BOD: FFL +2550 SEAD 800x200 BOD: FFL +2550 SEAD 700x200 BOD: FFL +2550",
+     "xy": [
+      1197,
+      522
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT HÚT KHÓI VÀ BÙ GIÓ TỰ NHIÊN",
+     "xy": [
+      494,
+      912
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI30",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 43,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TẦNG 6 WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH KÝ HIỆU (TẤT CẢ CÁC KÝ HIỆU ĐƯỢC SCALE THEO TỈ LỆ 1:100)",
+     "xy": [
+      86,
+      241
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ CHỮ NHẬT: A THỂ HIỆN KÍCH THƯỚC CẠNH THẤY",
+     "xy": [
+      537,
+      292
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUẠT CẤP GIÓ TẠO ÁP SẢNH THANG, PHÒNG ĐỆM",
+     "xy": [
+      119,
+      344
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ-TƠ (DÙNG NGĂN CHÁY LAN HOẶC XẢ ÁP CÁC KHU VỰC TRONG NHÀ)",
+     "xy": [
+      330,
+      362
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ - TƠ CÓ CỬA THĂM GHCL: EI60. CHO CÁC VAN Ở TẦNG HẦM GHCL: EI30. CHO CÁC VAN HỆ THỐNG HÚT KHÓI HÀNH LANG",
+     "xy": [
+      537,
+      371
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LOUVER BÙ GIÓ GẮN TRÊN CỬA KÍCH THƯỚC: 540x800 BOL: FFL+100 GHCL: EI30 SEAD 700x200 BOD: FFL +2550 SEAD 800x200 BOD: FFL +2550 SEAD 700x200 BOD: FFL +2550",
+     "xy": [
+      1208,
+      522
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT HÚT KHÓI VÀ BÙ GIÓ TỰ NHIÊN",
+     "xy": [
+      505,
+      912
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI30",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 44,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TẦNG TUM WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH KÝ HIỆU (TẤT CẢ CÁC KÝ HIỆU ĐƯỢC SCALE THEO TỈ LỆ 1:100)",
+     "xy": [
+      89,
+      241
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ CHỮ NHẬT: A THỂ HIỆN KÍCH THƯỚC CẠNH THẤY",
+     "xy": [
+      540,
+      292
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUẠT CẤP GIÓ TẠO ÁP SẢNH THANG, PHÒNG ĐỆM",
+     "xy": [
+      123,
+      344
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ-TƠ (DÙNG NGĂN CHÁY LAN HOẶC XẢ ÁP CÁC KHU VỰC TRONG NHÀ)",
+     "xy": [
+      333,
+      362
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ - TƠ CÓ CỬA THĂM GHCL: EI60. CHO CÁC VAN Ở TẦNG HẦM GHCL: EI30. CHO CÁC VAN HỆ THỐNG HÚT KHÓI HÀNH LANG",
+     "xy": [
+      540,
+      371
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI30",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 45,
+   "ma": null,
+   "ten": "MẶT BẰNG HỆ THỐNG HÚT KHÓI & TĂNG ÁP - TẦNG MÁI WARNING",
+   "hang_muc": "THIẾT KẾ XIN PHÉP PCCC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH KÝ HIỆU (TẤT CẢ CÁC KÝ HIỆU ĐƯỢC SCALE THEO TỈ LỆ 1:100)",
+     "xy": [
+      87,
+      241
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG GIÓ CHỮ NHẬT: A THỂ HIỆN KÍCH THƯỚC CẠNH THẤY",
+     "xy": [
+      538,
+      292
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QUẠT CẤP GIÓ TẠO ÁP SẢNH THANG, PHÒNG ĐỆM",
+     "xy": [
+      121,
+      344
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ-TƠ (DÙNG NGĂN CHÁY LAN HOẶC XẢ ÁP CÁC KHU VỰC TRONG NHÀ)",
+     "xy": [
+      332,
+      362
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VAN GIÓ CHỐNG CHÁY ĐIỀU KHIỂN BẰNG MÔ - TƠ CÓ CỬA THĂM GHCL: EI60. CHO CÁC VAN Ở TẦNG HẦM GHCL: EI30. CHO CÁC VAN HỆ THỐNG HÚT KHÓI HÀNH LANG",
+     "xy": [
+      538,
+      371
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LƯỚI BẢO VỆ CHỐNG NGƯỜI LẠ TIẾP XÚC SEF-R-1",
+     "xy": [
+      1271,
+      527
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI30",
+    "EI60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m09-chong-khoi"
+   ],
+   "file": "tep_2.pdf"
+  },
+  {
+   "trang": 1,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "ceNG uda xA Hgt cnt xcui.r vIET NArvI",
+     "xy": [
+      272,
+      38
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Cdn ci Nghi dinh s6 I 36/2020/ND-CP ngdy 24/I 1/2020 cila Chinh phi quy dlnh chi tiat",
+     "xy": [
+      82,
+      169
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "mot s6 diiu vd biQn phdp thi hdnh Luqt Phdng chdy vd chfta chdy vd Ludt stlra d6i, b6 sung mot Chinh pht) srla diii, bd sung mAt sii diiu Ngh! dlnh sd l36tZ020ttO-CP ngdy 24/11/2020 ctia vd Ngh! dinh s6 $/2017/NE-CP ngtty 18/7/2017 cia Chtnh phi quy dlnh c6ng tdc ctru nan,",
+     "xy": [
+      51,
+      188
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "s6 diiu cia LuQt phdng chdy vd ch*a chdy, Nghi dinh sii SO/202ltt'tO-CP ngdy 10/5/2024 cuo Chinh pht) quy dlnh chi ti,t mpt s6 diiu va biQn phdp thi hdnh LuQt Phdng chdy vd chira chay",
+     "xy": [
+      51,
+      204
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "aru ho cua lqrc lrgng phdng chdy vd ch[ia chdy;",
+     "xy": [
+      51,
+      273
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Xdt h6 so vd vdn bdn di n,hi thdm duy(t thiAt kA vi phdng chay vd chfta chdy cia C6ng ty",
+     "xy": [
+      82,
+      286
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ngtrdi dqi etiQn theo phdp luQt Id ong/bd Truong Thi Thily Nga - Chttc vlt: T6ng Gitim d6c",
+     "xy": [
+      85,
+      321
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "PHONG CANH SAT PCCC&CNCH - CONG AN TP TTd CUi TTITXTT",
+     "xy": [
+      106,
+      345
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Dia di6m x6y dlmg: ,6 t6-t 8 ituong Phan Li€m, phudng Da Kao, Quan 1, Thirnh phd Chri diu tu: C6ng ty TNHII Dich vu Ch6n Ve.",
+     "xy": [
+      100,
+      406
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Don vi tu v6n ttritlt k6: Cdng ty C6 phan fniiSt t<.i Xdy dr,rng S vir K.",
+     "xy": [
+      101,
+      455
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Dd dugc thAm duyQt ttri6t tri5 v6 phdng chriy vd ch[a chriy c6c nQi dung sau: 2. B4c chiu hia, bi5 fi c6ng nlng cua c6ng trinh li6n quan d6n phdng chriy vi chta ch6y;",
+     "xy": [
+      100,
+      473
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "l. Duong giao th6ng cho xe chta ch6y; khodng cdch an toirn phdng ch6y ch[a ch6y;",
+     "xy": [
+      103,
+      489
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "giai ph6p ngln ch6y, ch6ng ch6y lan; gi6i ph6p cjp diQn cho hQ th6ng phdng ch6y vd ch1a ch6y vd",
+     "xy": [
+      68,
+      525
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "c6c hQ tlr6ng k! thuft c6 li6n quan v6 phdng chiiy vi chta chiiy;",
+     "xy": [
+      68,
+      540
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "3. LOi, duong tho6t n4n; <ldn chi6u silng sq cti' tldn chi dlrr thodt n?n;",
+     "xy": [
+      102,
+      559
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "a. HQ th6ng bao chriy tg dQng; hQ th6ng chira ch6y biurg nudc; h€ th6ng bno v€ ch6ng kh6i;",
+     "xy": [
+      102,
+      576
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "5. Trang bi dgng cA phri d0 thd so vir phuo,g tiQn chira ch6y ban elAu, tfri6t Ui chfa ch6y tr;",
+     "xy": [
+      103,
+      593
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Quy m6 dg 6nlc6ng trinh/phuong tign vi danh mgc ciic tdi liQu, b6n v€ dugc th6m",
+     "xy": [
+      101,
+      624
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "auvet ttri6t ki5 v0 phdng ch6y vd chira ch6y ghi t4i trang 2 d€nttang3rL-",
+     "xy": [
+      69,
+      644
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- C6ng ty TNHI I Dich rrr Chon V6; - COT.BCA; - DQi CC&C|ICH I{ur qrc l;",
+     "xy": [
+      75,
+      711
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- D/c Thi6u nrng Nguy6n Thantr Huong - PGD CATP; - Luu: VI', D2 (l .T.Dtng,&). 250613{0038.",
+     "xy": [
+      76,
+      735
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D2",
+    "S6"
+   ],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_3.pdf"
+  },
+  {
+   "trang": 2,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "(Kdm theo Giiiy chilmg nhfut thiim chryAt thi6t li vi phdng chay vd chfta chay sii l.Ok./TD-",
+     "xy": [
+      64,
+      113
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "PCCC ngay .N../6/2025 ctia Phdng Cdnh sdt PCCC&CNCH - C6ng an TP 116 Chi llinlt",
+     "xy": [
+      66,
+      134
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "C6ng trinh c6 quy rn6 01 him, 0O tAng, 01 ting tum, miii, diQn tich xdy - TAng hAm c6 diQn tich xAy dpng khoang 672,6m2, bO tri c6ng n6ng gara dqngcp, phdng rn6y pl6t dien, phong r6c, phong thi6t bi xri ly nu6c thii, - TAng I c6 diQn tich khoing 363,7rn2, b6 tri c6ng nlng sAnh, khu phuc vu - Ting 2 <l6n 6 c6 diQn tich khoang 363,7m2, b6 tri c6ng nAng phong nghi, - TAng tum c6 diQn tich khoing 363jm2: b6 tri c6ng ndng phong ky thuat, B. Cdc hC. ttfing phbng chtiy chim chdy vd hp th6ng kj tttug kluic lbn quan: chi vdi 3 loop, 2 loop brio ch6y chinh vd 0l loop brlo chriy dg phdng; th6ng s6 ky thuat Qtk: 46(l/s), Htk-:60m.c.n; 0t bom bir 6p th6ng s6 ky th6ng chfa 9h,iy tu dQng bdng nudc vd.hQ th6ng hong nudc chira chiiy",
+     "xy": [
+      103,
+      218
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "duns. b6 tri c6ne niue cu th6: xe, phong k! thu{t, phdng born, phdng tfr <tiQn, phong mriy bi6n iip, kho",
+     "xy": [
+      103,
+      234
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "phdng truc tdng, sinh thang. kho, sinh, h6_ti€u cinh, sdn thuqng.",
+     "xy": [
+      102,
+      354
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. HC thdng brlo ch6y t1r dQng duqc thi6t kti g6m tt trung t6m b6o .nny aiu",
+     "xy": [
+      103,
+      412
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2. H6 th6ng chira chriy bing nudc g6m 02 bom dQng co aign u6.i .i,ng",
+     "xy": [
+      102,
+      443
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thuat Qtk: l(l/s), Htk: 65m.c.n rtritlt t<,5 cung c6p nudc chti cnay cno f4 trong nhd. B0 nuoc chta chiiy c6 tdng kh6i tich l65mr. He th6ng cdp nudc 400m; - Thi€t k€.gi6i ph6p h,rit kh6i cu0ng br?c vd bi khi, cu th6: 25501/s, P:300-675Pa, chiu nhiQt 300\"C12h, vi sri dung btr khi bing 0l",
+     "xy": [
+      101,
+      471
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "chta ch6y ngodi nhd st dung 02 tr1r chta chriy d6 thi trong brin kinh dudi",
+     "xy": [
+      101,
+      517
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ Tang hdm: thi€t k6 0l quat htt kh6i hArn v6i th6ng s6 quat e:17001/s-",
+     "xy": [
+      100,
+      575
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "300\"C/2h; 02 qu4t ting rip_kho.ang rtQm thang bQ tho6t nan e=32001/i,",
+     "xy": [
+      100,
+      636
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "P{00Pa, chlu nhiQt 300\"C12h; t6t ca quat dugc bgc ch6ng ch6y EI45.",
+     "xy": [
+      99,
+      652
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "lTne? d€n t6ng 6: thi6t k6 0t quat htt kh6i hdnh lang rl4t tr€n rn6i vdi",
+     "xy": [
+      99,
+      667
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thOng so qu4t Q=2600 (l/s), p:450pa, chiu nhiQt 3OO\"Cl2h vd sri dqng bir",
+     "xy": [
+      99,
+      681
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HQ thiing <IiQn: Thitit ki! 0Z nguOn diQn phuc vu cho hQ th6ng phdng ch6y vd",
+     "xy": [
+      99,
+      714
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ch&a ch6y vd c6c hQ-th6ng k! thudt c6 [6n quan vd phdng chZy vd .lllfu.my - HQ thiing ddn chitiu s6ng su c6 vd ddn chi din ii,\"a, ,+, tni3it3-lt o \"a.",
+     "xy": [
+      99,
+      727
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "g6m: 01. ngudn diQn.luoi vd 0l ngu6n di0rr dg phong tir rnriy phrit diQn; gian phdng, hanh lang, bu6ng thang vd ciic khu vuc;",
+     "xy": [
+      98,
+      742
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI45"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_3.pdf"
+  },
+  {
+   "trang": 3,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "nh4 trCn hdnh lang, iluong tho6t nq!; 0l bQ dung cu ph6 dd th6 so;",
+     "xy": [
+      97,
+      58
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Trang bi thi6t bi chfa ch6y S pang khi.Aerosol khu vgc phdng tu diQn,",
+     "xy": [
+      97,
+      73
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "phdng m6y ph6! phdng ti tung th€ tr4m bi6n 6p;",
+     "xy": [
+      96,
+      86
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Trang bi h€ thdng chtra ch6y t.u il0ng Sprinkler cho toan bQ nhn.",
+     "xy": [
+      97,
+      105
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ RSTN-SD-ARC-PLN-O I +RSTN-SD-ARC-PLN-09; + RSTN-SD-ARC-SEC-OI + RSTN-SD-ARC-SEC-03; + RSTN-SD-ARC- DET-OI. RSTN-DD.MEP-F-PLN-O 1 + RSTN-DD-MEP-F-PLN-06 ; RSTN-DD-MEP-F-DIA-O I ; Ban vE hQ th6ng brlo ch6y, ddn RSTN-DD-MEP-FA-DIA-O I ; RSTN-DD.MEP-EL-PLN-O I :RSTN.DD-MEP-EL-PLN-05 ; Be\" re t e. th6-\"g",
+     "xy": [
+      97,
+      151
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ RSTN-SD-ARC-ELE-OI + RSTN-SD.ARC-ELE.O4; + RSTN-SD-ARC-STA-01 + RSTN-SD-ARC-STA-02; Ban v RSTN-DD-MEP-F-DET-O 1 + RSTN-DD-MEP-F-DET.O2 ; RSTN-DD-MEP-F-LEG-O I . RSTN-DD-MEP-E-PLN-O I ; RSTN-DD-MEP-FA-PLN-O I + RSTN-DD-MEP-FA-PLN-05 ; RSTN-DD-MEP-E-DET-0 I - RSTN-DD-MEP-E-DET-03. RSTN-DD-MEP-SP-GEN-02 +. RSTN-DD-MEP-SP-GEN-06 ; RSTN-DD-MEP-SP-DIA-O I ; Ban vE h0 thdng",
+     "xy": [
+      97,
+      167
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "c [c. th5;g .hta ih,iy, trang bi phuong tiQn chta ch6y ban ddu:",
+     "xy": [
+      129,
+      229
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- vai mn noy thay thii Giiiy chilmg nhQn thiim duyQt vi pccc sii lslo/ro-pccc",
+     "xy": [
+      93,
+      523
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Th6ng tin tqi Cidy chimg nhqn.ncy chi xdc nhQn bdo ddm cdc y€u cdu vC",
+     "xy": [
+      93,
+      561
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "chay vd chfra chay, kh6ng c6 gid tr! vi quydn st dqng ddt vd cdc chi ti€u vO quy",
+     "xy": [
+      58,
+      575
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "xdy d,mg. phit hqp thiiit ki vi phdng chtiy, chiia chdy theo quy dinh./.",
+     "xy": [
+      57,
+      597
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Chil ddu tt fiAn hQ co quan qudn l!'xay dqmg dA duqc",
+     "xy": [
+      86,
+      607
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_3.pdf"
+  },
+  {
+   "trang": 4,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "CQNG HOA XA HQI CHU NGHiA VIET NAM",
+     "xy": [
+      295,
+      52
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Thdnh ph6 Ho Chi Minh, ngiryt<t rhdng 6 ndn 2025",
+     "xy": [
+      328,
+      98
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "V/v phi thim duyCt tlitit ti! vc pcCC d6i voi",
+     "xy": [
+      71,
+      117
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "h6 so thi6t k6 c6ng trinh XAy dqng moi Kh6ch san",
+     "xy": [
+      55,
+      133
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Kinh gui: C6ng tY TNHH Dich vu Ch6n V€",
+     "xy": [
+      194,
+      176
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Theo dd ngh! ctia C6ng ty TNHH Dlch vu Ch6n VA vi: viec dd nghi thAm",
+     "xy": [
+      122,
+      210
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "duyQt thiiit t ii ,e pnOrg ch6y vd chfta ch5y eOi vOi h6 so thitit k6 c6ng trinh X6y",
+     "xy": [
+      86,
+      228
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "dgng moi Kh6ch spn t?i s6 16-18 duong Phan Li€m, phuong Da Kao, Quan l,",
+     "xy": [
+      86,
+      242
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phong C6nh sdt PCCC&CNCH - C6ng an Thdnh ph6 UO Chi Minh th6ng",
+     "xy": [
+      115,
+      284
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "b6o phi thdm dinh ph€ duyQt thi6t ki5 phong ch6Ly vd chta ch6y d6i v6i c6ng trinh",
+     "xy": [
+      87,
+      301
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "n6u ir€n dugc x6c dlnh theo Th6ng tu s6 ZSgtZOrcfiT-BTC ngdy I I i I 112016 cta",
+     "xy": [
+      87,
+      316
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "B0 -fdi chinh quy dinh mric thu, chti aq thu, nQp, quin lli vir sri dqng phi thdrn",
+     "xy": [
+      87,
+      332
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "dinh ph€ duyQt thitit ki5 phong ch6y vir chira ch6y nhu sau:",
+     "xy": [
+      87,
+      354
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tong mirc dAu tu kh6ng bao g6rn tidn d6t vd tinh to6n trudc thue: phi thAm dinh ph€ duyQt thii5t k6 vi phong ch6y vir chira. ch6y tluoc tinh",
+     "xy": [
+      122,
+      371
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "to6n rheo quy dinh tai Diiu 5 Th6ng tu s6 258/20t61TT-BTC d6i voi c6ng trinh b6n ding) duyqt thitit [e'pnOni.'t,ay ch1a chriy trqc tuy5n tr6n C6ng dlch vu c6ng BQ C6ng cac bu.ctc hu,ong din o trang 2 vdn ban,ayi. Nqi dung: NQp ti6n phi th6nr dlnh",
+     "xy": [
+      87,
+      423
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ld 2.916,4l.l dbng tBing chfi.: Hui tri€u chin trdm mtrdi sdu nghin bdn tdm mrd'i",
+     "xy": [
+      88,
+      438
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DC nghi C6ng ty TNHH Dlch vq Ch6n V€ n6p sO tiAn phi thAm dinh ph6",
+     "xy": [
+      123,
+      475
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "an theo duong link tnrT' c$p httrt.//dichvrrcong.bQcQngan.gQv v!1, fthu'c hi2n rheo ph0 duyQt thiiit k6 PCCC cdng trinh BQnh viQn chuyCn khoa'",
+     "xy": [
+      87,
+      507
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "phong cdnh s6t pccc&CNCH th6ng b6o d6 c6ng ty TNHH Dich vgr Ch6n",
+     "xy": [
+      124,
+      557
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "\\'il bi6t vd thpc hiQn theo quy d!nL/../.",
+     "xy": [
+      88,
+      577
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Lrru: VT, D2 (TTDiing 04b) - 250613-00038'",
+     "xy": [
+      94,
+      646
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D2"
+   ],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_3.pdf"
+  },
+  {
+   "trang": 5,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_3.pdf"
+  },
+  {
+   "trang": 1,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 2,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "PHẦN THIẾT KẾ XÂY DỰNG S VÀ K Ngày ký: 13-06-2025 14:09:57 +07:00",
+     "xy": [
+      346,
+      414
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 3,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "trình “ XÂY DỰNG MỚI KHÁCH SẠN”. Mục đích của thuyết minh thiết kế cơ sở này là xác định các tiêu chí, giả định và dữ liệu thiết kế, cùng phương pháp phân tích sơ đồ nguyên lý, hệ thống và trình bày những lựa chọn thiết kế cần thiết cho việc sử dụng và vận hành công trình.",
+     "xy": [
+      112,
+      97
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2.1 Mô tả dự án Dự án có tên gọi “XÂY DỰNG MỚI KHÁCH SẠN”, tọa lạc tại số 16-18 Đường Phan Liêm, Phường Đa Kao, Quận 1, TP Hồ Chí Minh. Công trình này là một khách sạn gồm 1 tầng hầm dùng để xe và hệ thống kỹ thuật, tầng 1 bố trí công năng công cộng, tầng 2 đến tầng 6 làm các phòng khách sạn, 01 tum thang.",
+     "xy": [
+      112,
+      189
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "3.1 Các Quy chuẩn và tiêu chuẩn bên dưới sẽ được áp dụng cho việc thiết kế hệ thống điện cho công trình: - -",
+     "xy": [
+      110,
+      307
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "QCVN 01:2008/BCT: Quy chuẩn kỹ thuật quốc gia về An toàn điện. QCVN 04- 2015: Quy chuẩn kỹ thuật Quốc gia về Nhà ở và Công trình công cộng- Phần 1- Nhà ở. QCVN 09:2017/BXD: Quy chuẩn kỹ thuật quốc gia về các công trình xây dựng sử dụng năng lượng hiệu quả. QCVN 12:2014/BXD: Quy chuẩn kỹ thuật quốc gia về hệ thống điện cho nhà ở và nhà công cộng QCVN 07-5:2016/BXD: Công trình cấp điện QCVN 07-7:2016/BXD: Công trình chiếu sáng QCXDVN 05: 2008/BXD: Quy chuẩn xây dựng Việt nam- Nhà ở và Công trình công cộng- An toàn sinh mạng và sức khỏe. TCXD 16 - 1986: Thiết kế chiếu sáng nhân tạo trong công trình xây dựng dân dụng. TCXDVN 333:2005: Chiếu sáng nhân tạo bên ngoài các công trình công cộng và kỹ thuật hạ tầng đô thị – Tiêu chuẩn thiết kế TCVN 9206 - 2012: Lắp đặt thiết bị điện trong nhà ở và công trình công cộng – Tiêu chuẩn thiết kế. TCVN 9207 - 2012: Lắp đặt đường dẫn điện trong nhà ở và công trình công cộng – Tiêu chuẩn thiết kế. TCXD 29-1991: Chiếu sáng tự nhiên trong công trình dân dụng - tiêu chuẩn thiết kế TCVN 7114 – 1:2008: Tiêu chuẩn quốc gia - Chiếu sáng nơi làm việc - Phần 1: Trong nhà TCVN 7447: Hệ thống lắp đặt điện hạ áp TCVN 9358 - 2012: Lắp đặt hệ thống nối đất thiết bị cho các công trình công nghiệp.",
+     "xy": [
+      130,
+      358
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 01:2008",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 09:2017",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 12:2014",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 01:2008",
+     ""
+    ],
+    [
+     "QCVN 09:2017",
+     ""
+    ],
+    [
+     "QCVN 12:2014",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 4,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "- - - 3.2 3.2.1 lực Nguồn cung cấp điện cho công trình : - Dự án được cấp điện từ một điểm trung thế 15/ 22KV. Nguồn trung thế cấp điện cho tủ trung thế đặt tại tầng hầm cung cấp cho toàn dự án. Tổng nhu cầu điện cho toàn bộ công trình dự kiến khoảng: 560kVA. Phần cấp điện trung thế: Cáp trung thế vào là cáp 24kV XLPE/DSTA/PVC 240mm2 đi trong ống chôn ngầm trong đất. Cáp trung thế ra máy biến áp là cáp 24kV XLPE/DSTA/PVC 240mm2 đi trong mương/ trên thang cáp. Máy biến áp dầu: Máy biến áp cấp điện cho dự án: - công trình. Máy phát điện dự phòng: Máy phát điện dự phòng cấp điện toàn bộ công trình khi mất điện lưới bên ngoài: - -",
+     "xy": [
+      112,
+      65
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "11 TCN 18¸21:2006: Quy phạm trang bị điện phần I, II, III, IV TT - Bộ Công Nghiệp 07 - 2006: Hướng dẫn mua, bán công suất phản kháng. Quy chuẩn xây dựng Việt Nam - Tập II 1998.",
+     "xy": [
+      130,
+      65
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phương pháp tính toán và thiết kế Hệ thống điện động",
+     "xy": [
+      146,
+      119
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1x560kVA 15(22)kV/0.4kV 3 pha, 4dây 50Hz,loại dầu cấp điện cho toàn",
+     "xy": [
+      130,
+      349
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1x250kVA Standby 400V 50Hz 3 pha, cấp điện cho toàn công trình. Máy phát sẽ tự động khởi động và cung cấp điện cho phụ tải nhờ bộ tự động chuyển nguồn ATS. Máy phát điện cung cấp 100% công suất điện cho toàn công trình, tải kỹ thuật, tải cháy (cung cấp điện nguồn khẩn cấp cho các thiết bị liên quan đến công tác PCCC hoạt động trong trường hợp khẩn cấp hoặc có cháy xảy ra).",
+     "xy": [
+      130,
+      403
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "3.2.2 Nguyên lý cấp điện cho tải phòng khách sạn, tải công cộng , kỹ thuật: Nguồn điện trung thế 15/22kV của Điện lực bên ngoài dự án sẽ được đấu nối vào tủ trung thế MV, từ đây cấp điện vào cho 1 máy biến áp khô 560kVA 15/22 kV/0,4 kV, sau đó nguồn điện hạ thế 0,4 kV được đấu vào tủ điện hạ thế chính MSB. Từ đây sử dụng cáp đi đến các gen kỹ thuật phân phối đến từng tầng và từ đây cấp đến thiết bị sử dụng trong mỗi phòng. Máy phát điện dự phòng sẽ cấp điện cho toàn bộ công trình và phòng cháy chữa cháy. 3.3 Tham khảo Phụ lục A về Chi tiết tính toán hệ thống Cung cấp điện.",
+     "xy": [
+      112,
+      493
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 5,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "3.4 Mức độ chiếu sáng được thiết kế và lắp đặt theo các tiêu chí đề ra bởi: Quy chuẩn xây dựng Việt nam-Các công trình xây dựng sử dụng năng lượng có hiệu quả. Các độ sáng được chọn như sau:",
+     "xy": [
+      110,
+      39
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Các hệ thống đèn chiếu sáng bao gồm các hệ thống sau: -",
+     "xy": [
+      112,
+      335
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hệ thống chiếu sáng bình thường: Mục đích đáp ứng đầy đủ các yêu cầu theo mục đích sử dụng về độ sáng, độ chói, màu sắc và độ đồng đều. Hệ thống chiếu sáng khẩn cấp, sự cố và thóat hiểm: Duy trì độ sáng tối thiểu 1-10 lux để đi lại khi mất điện nguồn và chỉ hướng thóat hiểm.",
+     "xy": [
+      130,
+      353
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Các đèn chiếu sáng khẩn cấp sau đây có bộ pin Ni-CD và bộ phận sạc pin có công suất đủ cung cấp nguồn điện dự phòng trong 2 giờ: - -",
+     "xy": [
+      112,
+      413
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Bảng báo thoát hiểm Đèn chiếu sáng tại cầu thang",
+     "xy": [
+      130,
+      443
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TCVN 5768-14:2025: Thiết kế, lắp đặt các hệ thống báo cháy cho nhà và công trình. TCVN 3890 – 2023: Phương tiện báo cháy và chữa cháy cho nhà và công trình – trang bị, bố trí, kiểm tra và bảo dưỡng.",
+     "xy": [
+      130,
+      537
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 5768-14:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "4.2 Căn cứ vào mục 12.1 của TCVN 6160: 1996 thiết kế phòng cháy chữa cháy cho công trình, tùy thuộc vào tính chất sử dụng của nhà cao tầng mà thiết kế hệ thống báo cháy cho phù hợp, hệ thống báo cháy được thiết kế vừa phù hợp với TCVN, vừa tuân thủ đúng tiêu chuẩn Anh, là bộ tiêu chuẩn được Bộ Xây dựng công nhận. Hệ thống báo cháy tự động phục vụ cho mục đích cung cấp cảnh báo sớm của vụ cháy tới cư dân trong tòa nhà và đội cứu hoả sao cho thời gian yêu cầu cho việc di tản và sự đáp ứng của đội cứu hoả được giảm thiểu. Hệ thống đặc biệt hữu ích cho các phần của toà nhà mà không có người hiện diện (ví dụ nhà kho) không được chú ý, lửa có thể nhanh chóng phát triển và lan rộng. Hệ thống báo cháy tự động sẽ được thiết kế theo tiêu chuẩn TCVN 5768-14:2025. 4.3 Hệ thống báo cháy bao gồm hệ thống nhận biết và hệ thống cảnh báo.",
+     "xy": [
+      112,
+      585
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 6160:1996",
+       "dieu": "mục 12.1"
+      },
+      {
+       "van_ban": "TCVN 5768-14:2025",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 5768-14:2025",
+     ""
+    ],
+    [
+     "TCVN 6160:1996",
+     "mục 12.1"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 6,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "các đầu dò tự động được lắp khắp toà nhà hoặc bằng các nút nhấn tay mà người cư ngụ có thể sử dụng. Đầu dò sẽ lấy mẫu liên tục và phân tích không khí đi qua nó. Nó sẽ kích hoạt báo động nếu dò ra sự hiện diện một lượng lớn các phần tử khói (đầu dò khói) hay nhiệt độ không khí đã tăng lên tới một giới hạn định trước (đầu dò nhiệt). Tín hiệu đó sẽ được chuyển về các tủ báo cháy, rồi sau đó chuyển thành tín hiệu báo động cho cả toà nhà để cư dân di tản. Thiết kế cho hệ thống báo cháy tự động cho toàn bộ toà nhà sẽ tuân theo các nguyên tắc sau đây: -",
+     "xy": [
+      111,
+      68
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Mỗi phòng khách sạn được trang bị các đầu báo khói, nhiệt đặt tại bên trong mỗi phòng,",
+     "xy": [
+      130,
+      152
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "gửi tín hiệu về tủ trung tâm để phát tín hiệu báo cháy bằng chuông/ loa báo cho người bên trong thoát nạn hay xử lý đám cháy. Hành lang sẽ được trang bị các đầu dò khói với khoảng cách không xa hơn 15 m và sử dụng đầu báo nhiệt loại thường lắp đặt trên trần giả. Các khu vực hành lang tầng nổi sẽ được gắn bổ sung các đầu báo nhiệt phía trên trần. Khu vực đậu xe tầng hầm được bố trí các đầu báo nhiệt dạng thường gắn trên trần tầng",
+     "xy": [
+      130,
+      187
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Các nút nhấn sẽ được bố trí tại mỗi tầng, sao cho bất kỳ vị trí nào trong toà nhà cũng có thể tiếp cận nút nhấn không quá 40m. Thông thường, nút nhấn được bố trí trên đường thoát nạn. Hệ thống báo cháy tự động sẽ được lắp đặt với các mạng đầu dò tạo thàng mạch vòng.",
+     "xy": [
+      130,
+      313
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tổng quát, trang bị các đầu dò nhiệt dạng thường có giao tiếp với các module giao tiếp",
+     "xy": [
+      130,
+      403
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thể bụi có thể gây ra các báo động giả. Các đầu báo nhiệt được bố trí không xa hơn 7 m. Âm thanh cảnh báo được tích hợp với hệ thống âm thanh công cộng. Khi có sự cố, tủ báo cháy gửi tín hiệu đến hệ thống âm thanh, phát âm thanh cảnh báo. Đồng thời hệ thống báo cháy cũng làm việc kết hợp để theo dõi, điều khiển hệ thống chữa cháy, bơm chữa cháy, quạt tạo áp, hút khói...",
+     "xy": [
+      130,
+      427
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "4.4 Hệ thống báo cháy tự động bao gồm các bộ phận chính sau: 4.4.1 Tủ trung tâm chính được đặt tại tầng 1, được nối tiếp địa với hệ thống tiếp địa chung của tòa nhà. Trung tâm báo cháy lắp đặt cách sàn 1,5m. Các chức năng báo cháy và điều khiển như thể hiện trên bản vẽ sơ đồ nguyên lý hệ thống báo cháy. 4.4.2",
+     "xy": [
+      112,
+      504
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "4.4.3 Hộp nút được đặt cách sàn 1,2m~1.35m. Hộp nút báo cháy được lắp chung với kênh các đầu báo cháy. 4.4.4 Hệ thống bao gồm: Các linh kiện, dây tín hiệu, cáp tín hiệu, hộp nói dây cùng các bộ phận khác tạo thành tuyến liên kết thống nhất các thiết bị của hệ thống báo cháy. Dây tín hiệu 2x2.5mm2, 2x1.5mm2 chống cháy luồn trong ống nhựa cứng đặt trong tường, trần",
+     "xy": [
+      112,
+      680
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 7,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "nhà. 4.4.5 Nguồn cấp chính cho hệ thống được lấy từ lưới điện 220VAC của công trình. Để đảm bảo hệ thống báo cháy làm việc liên tục khi mất điện hoặc có cháy, chúng tôi thiết kế máy phát điện dự phòng cho công trình. Máy phát điện sẽ tự động chạy trong vòng 30 giây khi xảy ra mất điện lưới. Ngoài ra hệ thống báo cháy được thiết kế có nguồn ắc quy dự phòng có dung lượng đảm bảo cho hệ thống làm việc trong vòng 24h ở điều kiện làm việc bình thường hay 2 giờ khi xảy ra cháy ngay cả khi bị mất điện. 4.5 Khi hoả hoạn được phát hiện ở bất kỳ một tầng nào của toà nhà, thì tầng đó sẽ được di tản trước và sau đó là tầng trên và tầng dưới kế cận sẽ được di tản tiếp theo. Sau thời gian trì hoãn nhất định, và nếu chuông báo cháy không tắt thì tiến hành di tản toàn bộ các tầng phía trên còn lại và tiếp theo là các tầng còn lại ở phía dưới",
+     "xy": [
+      111,
+      27
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hệ thống thông gió bằng cơ khí (MV) sẽ được thiết kế căn cứ vào các tiêu chuẩn thiết kế sau: QCVN 09: 2017/BXD: Quy chuẩn kỹ thuật quốc gia về Các công trình xây dựng sử dụng năng lượng hiệu quả. QCVN 26:2010/BTNMT - Quy chuẩn tiếng ồn. TCVN 5949:1998 – Âm học – Tiếng ồn khu vực công cộng và dân cư. Mức ồn tối đa cho phép TCVN 2622-1995: Phòng Cháy, Chống Cháy cho nhà và công trình. Yêu cầu thiết kế. QCVN 06-2022/BXD sửa đổi 1:2023 Quy Chuẩn Kỹ Thuật Quốc Gia Về An Toàn Cháy Cho Nhà Và Công Trình. QCVN 13:2018/BXD: Quy chuẩn kỹ thuật quốc gia về gara ô tô. TCVN 5687 – 2024: Thông gió - điều hòa không khí – tiêu chuẩn thiết kế. QCVN 04:2021/BXD: Quy chuẩn kỹ thuật quốc gia về nhà chung cư Những yêu cầu của Sở Khoa học, Công nghệ và Môi Trường Thành phố Hồ Chí Minh.",
+     "xy": [
+      130,
+      284
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 09:2017",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 26:2010",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 5949:1998",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 13:2018",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 04:2021",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Mô tả hệ thống. Nguyên nhân cần thông gió:",
+     "xy": [
+      148,
+      511
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Không gian bãi đậu xe là nơi có mục đích chủ yếu là làm bãi để xe, phòng kỹ thuật… nên sinh ra một lượng lớn khí độc hại như: NO, CO2, CO… Điều đó ảnh hưởng lớn đến cuộc sống và công việc của cư dân và các nhân viên làm việc tại các khu vực trong tầng hầm. Thông gió trong các sự cố xảy ra ngoài ý muốn như hỏa hoạn… Với yêu cầu trên, sự cần thiết để di chuyển các chất độc hại và nhiệt, ẩm ra bên ngoài để đưa không khí tươi vào tránh ảnh hưởng đến môi trường sống và làm việc của con người là vô cùng cần thiết.",
+     "xy": [
+      130,
+      547
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Thông gió đi đường ống gió: Hệ thống cấp gió tươi và hút gió thải thông qua quạt và đường ống gió với miệng gió hút và cấp được phân bố đồng đều trên toàn bộ diện tích cần thông gió. Thông thường được thiết kế cho những tầng hầm có cao độ lớn, có không gian đi đường ống. Phương án này phân bố lưu lượng khí tươi điều trên toàn tầng hầm thông qua hệ thống miệng gió.",
+     "xy": [
+      130,
+      665
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nguyên lý hoạt động phương án thông gió hút gió thải bẳng ống gió:",
+     "xy": [
+      146,
+      718
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hệ thống thông gió bao gồm: Quạt hút và quạt cấp gió. Các quạt hút và cấp là loại quạt chạy biến tần VSD. Tại các tầng hầm được bố trí cảm biến khí CO mục đích kiểm soát nồng độ CO trong không khí. Nồng độ CO sẽ điều chỉnh chế độ hoạt động của quạt. Chế độ hoạt động của quạt như sau:",
+     "xy": [
+      130,
+      736
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 04:2021",
+     ""
+    ],
+    [
+     "QCVN 09:2017",
+     ""
+    ],
+    [
+     "QCVN 13:2018",
+     ""
+    ],
+    [
+     "QCVN 26:2010",
+     ""
+    ],
+    [
+     "TCVN 5949:1998",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 8,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "Khi nồng độ CO nhỏ hơn 9 PPM các quạt đều tắt. Khi nồng độ CO => 9PPM và <=25PPM thì các quạt thải và cấp chạy tốc độ thấp. Khi nồng độ CO > 25PPM thì các quạt thải và cấp chạy tốc độ cao. Khi có cháy: các quạt thải và cấp chạy tốc độ cao thực hiện việc hút khói và bù gió.",
+     "xy": [
+      129,
+      28
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Lưu lượng thông gió bình thường được tính toán dựa trên số lần trao đổi gió là 6ACH. Lưu lượng gió cấp bù vào lấy bằng 90% lưu lượng gió thải ở điều kiện thông thường. Lưu lượng hút khói khi có cháy được tính toán dựa trên số lần trao đổi gió là 9ACH. Lưu lượng bù gió hút khói tính bằng 90% lượng hút thải",
+     "xy": [
+      130,
+      101
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nhằm tránh hiện tượng khói tụ tại đường thoát hiểm, đảm bảo cho việc thoát nạn của cư dân cũng như việc tiếp cận đám cháy của nhân viên cứu hỏa, phải thiết kế hệ thống hút khói cho khu vực hành lang này. Lưu lượng quạt hút khói hành lang được tính toán dựa theo tiêu chuẩn TCVN_5687_2024, phụ lục H. Khói được hút bởi một (01) quạt hút chính theo trục gen đứng xây lên tầng tum/ mái. Hành lang được hút khói thông qua hệ thống miệng gió và ống gió chống cháy 0.5 giờ trong điều kiện 300°C tại mỗi tầng và thải gió vào ống chính bằng tường kết cấu, các van gió ngăn cháy điều khiển bằng động cơ, và các quạt hút khói là loại quạt chống cháy được 2 giờ trong điều kiện 300°C được bố trí ở trên tầng tum hoặc mái. Khi có cháy ở 1 tầng bất kỳ, tín hiệu cháy sẽ được đưa đến tủ báo cháy. Tủ báo cháy sẽ điều khiển kích hoạt quạt hút khói ở tầng tum hoặc mái và kích hoạt mở van gió ngăn cháy gắn động cơ ở tầng có cháy, các van gió của các tầng khác thì vẫn ở trạng thái đóng, đảm bảo cho việc di tản người trong tầng cháy ra khỏi tòa nhà. Để bù lại lượng gió thải ra ngoài công trình, hệ thống bù gió được thiết kế để bảo theo quy định. Dự án sẽ thiết kế hệ thống bù gió theo phương pháp bù tự nhiên qua các louver gió chịu được thời tiết gắn trên tường hoặc cửa.",
+     "xy": [
+      130,
+      178
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Thiết kế hệ thống tạo áp cho các phòng đệm trước lối vào cầu thang bộ, buồng thang bộ tầng hầm, sảnh thang máy tầng hầm để duy trì độ chênh lệch áp suất không khí giữa bên trong các khu vực này so với bên ngoài từ 20Pa đến 50Pa nhằm không cho khói khi có cháy lan vào các khu vự này theo QCVN 06:2022/BXD sửa đổi 1 Phụ lục D.12. Các cửa vào buồng thang, sảnh thang máy tầng hầm và phòng đệm là cửa chống cháy, tự động đóng, có đệm kín.",
+     "xy": [
+      130,
+      406
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Tạo áp sảnh thang máy tầng hầm, phòng đệm thang bộ tầng hầm, buồng thang bộ tầng hầm: Gồm quạt cấp gió tạo áp đặt ở tầng hầm và đi ống gió cấp gió vào sảnh đệm, buồng thang thông qua các miệng gió. Khi có tín hiệu báo cháy quạt tạo áp chạy cấp gió đến miệng gió ở các sảnh đệm. Để duy trì áp suất từ 20Pa đến 50Pa sử dụng cảm biến áp suất để điều khiển van xả động cơ đặt ở tầng hầm. Các quạt tạo áp sẽ được điều khiển chạy biến tần (VSD)",
+     "xy": [
+      130,
+      487
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ở chế độ bình thường, quạt không hoạt động. Hệ thống sẽ tự động hoạt động khi nhận tín hiệu từ hệ thống báo cháy Quạt có thể cài đặt lại được bằng tay. Quạt phải được nối vào nguồn điện khẩn cấp. Các quạt hút khói và quạt tạo áp đặt trong tầng hầm phải có khả năng làm việc tốt ở nhiệt độ tối thiểu 300oc trong 2 giờ. Các công tắc tự động phải được sắp xếp để bảo đảm rằng hệ thống thông gió vẫn tiếp tục hoạt động trong trường hợp nguồn cấp chính bị sự cố. MFD cũng sẽ có thể được kích hoạt bằng 1 công tắc điều khiển tay tại bảng điều khiển dành cho nhân viên cứu hoả. Nút nhấn khởi động quạt từ xa và đèn hiển thị trạng thái quạt chạy đặt tại bảng điều khiển dành cho nhân viên cứu hỏa. Các dây điều khiển MFD phải được kéo về bảng điều khiển dành cho viên cứu hỏa Yêu cầu phải có 1 nguồn dự phòng cho quạt.",
+     "xy": [
+      130,
+      569
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 9,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "Hệ thống thông gió phòng rác tại tầng hầm và phòng rác tầng được thiết kế để giảm bớt mùi hôi phát sinh.",
+     "xy": [
+      130,
+      45
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TÍNH TOÁN HỆ THỐNG ĐIỀU HÒA KHÔNG KHÍ VÀ THÔNG GIÓ",
+     "xy": [
+      190,
+      83
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 10,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 11,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 12,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 13,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "TCVN 2622 - 1995: Phòng cháy, chống cháy cho nhà và công trình - Yêu cầu thiết kế. TCVN 6160 - 1996: Phòng cháy chữa cháy cho nhà cao tầng - Yêu cầu thiết kế. TCVN 7336 - 2021: Hệ thống sprinkler tự động - Yêu cầu thiết kế và lắp đặt. QCVN 13: 2018/BXD: Quy chuẩn kỹ thuật Quốc gia -Gara ôtô. QCVN 06: 2022/BXD, Sửa đổi 1:2023: Quy chuẩn kỹ thuật Quốc gia - An toàn cháy nổ cho nhà ở và công trình. TCVN 3890 – 2023: Phương tiện báo cháy và chữa cháy cho nhà và công trình – trang bị, bố trí, kiểm tra và bảo dưỡng. TCVN 13333:2021 về Hệ thống chữa cháy bằng Sol – Khí TCVN 7435:2004 : Bình chữa cháy xách tay và xe đẩy chữa cháy",
+     "xy": [
+      130,
+      83
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 13:2018",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 13333:2021",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 7435:2004",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "- - 6.2 Tổng quát Ba cấp độ chữa cháy được thực hiện. -",
+     "xy": [
+      112,
+      213
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Cấp độ thứ nhất bởi các đầu phun tự động. Hệ thống đầu phun tự động sprinkler được thiết kế cho toàn bộ công trình trừ một số khu vực. Cấp độ thứ hai là sử dụng hệ thống cuộn vòi chữa cháy bằng nước và bình chữa cháy cho những người cư ngụ trong tòa nhà. Cấp độ thứ ba là đội ngũ chữa cháy và các cuộn vòi chữa cháy (loại lớn) đường kính 65mm cho tầng Hầm, DN50 cho tầng nổi.",
+     "xy": [
+      130,
+      281
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Trong mọi trường hợp, khi mà thiết bị chưa đáp ứng tự động với đám cháy nhỏ, con người luôn là nhân tố phát hiện cháy đầu tiên, và luôn có sẵn các nút ấn báo cháy bằng tay tại các vị trí thuận tiện để tác động hệ thống báo cháy (lối thoát nạn, sảnh thang). 6.3 Hệ thống đầu phun tự động",
+     "xy": [
+      112,
+      371
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hệ thống đầu phun tự động loại đáp ứng nhanh, khi được lắp đặt sẽ dập lửa và ngăn chặn ngọn lửa không lớn lên một cách không kiểm soát được mà nó có thể thiêu rụi tòa nhà, trong khi chờ đội cứu hỏa tới.",
+     "xy": [
+      112,
+      448
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hệ thống đầu phun tự động bao gồm bể nước, thiết bị bơm, ống phân phối, van điều khiển và đầu phun tự động cho việc xả nước vào đám cháy. Các công việc về điện và hệ thống điều khiển cũng yêu cầu hoạt động tự động. Toàn bộ hệ thống ống cho đầu phun tự động luôn ở trạng thái đầy nước và có áp suất để phun nước. Hoạt động tự động của hệ thống phun dựa vào đầu phun và hệ thống điều khiển. Trong các đầu phun có bầu chất lỏng nhạy về nhiệt mà nó ngăn nước chảy ra từ các đầu phun. Khi nhiệt độ trong không gian tăng cao, chất lỏng trong nhiệt kế giãn ra. Dựa trên việc đạt được nhiệt độ cài sẵn, sự giãn nở này sẽ làm bung bầu chất lỏng, nhờ đó nước tự do chảy qua đầu phun. Hệ thống điều khiển, thông qua các thiết bị sử dụng, sẽ phát hiện sự tụt áp suất nước hệ thống và khởi động các bơm chữa cháy. Các thông số thiết kế, phù hợp với TCVN 7336:2021, theo các yêu cầu sau: - - -",
+     "xy": [
+      112,
+      508
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Tỷ lệ cháy thấp nhất cho hành lang thang máy và hành lang và phòng khách sạn. Mức độ nguy hiểm trung bình – nhóm 1 cho khu vực chung và nhóm 2 cho tầng nhà xe Cường độ xả nước và hoạt động cho khu vực giả định sẽ dựa vào điều kiện trong TCVN 7336:2021. Mức trung bình cho mỗi đầu phun dựa vào yêu cầu của TCVN 7336:2021",
+     "xy": [
+      130,
+      657
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "- 7.1.1 7.1.1.1 Mục đích Hệ thống cuộn vòi bên cạnh việc cung cấp phương tiện cho người cư ngụ có thể chữa cháy",
+     "xy": [
+      112,
+      723
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 13:2018",
+     ""
+    ],
+    [
+     "TCVN 13333:2021",
+     ""
+    ],
+    [
+     "TCVN 7336:2021",
+     ""
+    ],
+    [
+     "TCVN 7435:2004",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 14,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "như là hổ trợ ban đầu để chống lửa lan ra. Nó cũng sẽ cung cấp cho đội cứu hỏa nước cần thiết để dập tắt lửa. 7.1.1.2 Mô tả hệ thống Nhiều loại khác nhau của cùng hệ thống hiện có trong cộng đồng quốc tế cho những mục đích này. Tham số được dùng cho thiết kế hệ thống là: -",
+     "xy": [
+      112,
+      27
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Giả định 2 cuộn vòi hoạt động đồng thời khi có cháy cho khu vực tầng hầm, 01 cuộn vòi hoạt động cho khối tầng nổi. Các vòi và van khoá sẽ được bố trí tại mỗi tầng của khối nhà và khu vực chung, sao cho mỗi điểm của toà nhà được tiếp cận.",
+     "xy": [
+      130,
+      111
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Mạng ống chữa cháy cuộn vòi ngoài nhà",
+     "xy": [
+      130,
+      177
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Vị trí của công trình nằm trong khu dân cư hiện hữu đã có bố trí các trụ chữa cháy ngoài nhà nằm dọc hai bên đường và có bản kính phục vụ từ 150 đến 400m. Khi cần thiết lực lượng chữa cháy và CNCH có thể tiếp nước cho xe chữa cháy và tiếp nước vào hệ thống chữa cháy bên trong côn trình. Do đó không phải lắp đặt thêm trụ cấp nước chữa cháy ngoài nhà bên trong công trình.",
+     "xy": [
+      130,
+      207
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Cấp nước chữa cháy phải phù hợp cho việc tồn trữ và phân phối. Sự phù hợp của nước cấp phụ thuộc vào thời gian hoạt động giả định. Sự phù hợp việc phân phối liên quan đến bơm chữa cháy. Thiết kế được đề xuất sẽ kết hợp hệ bơm chung cho họng vòi và đầu phun tự động.",
+     "xy": [
+      130,
+      301
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Hệ thống chữa cháy cho dự án được thiết kế chung một cụm bơm chữa cháy tự động và vách tường đặt tại tầng hầm 1. Hệ thống được liên động với tủ báo cháy trung tâm đặt tại tầng 1. Khi có xảy ra sự cố ở bất kỳ vị trí nào thì lập tức trạm bơm chữa cháy lập tức khởi động và dập tắt đám cháy, đồng thời sẽ phát tín hiệu đến tủ báo cháy trung tâm của tòa nhà đó để giám sát và theo dõi hoạt động của hệ thống. Mỗi hệ thống bơm chữa cháy sẽ bao gồm 2 bơm chính, một chạy và một dự phòng và có thể hoạt động luân phiên trong chế độ bình thường, và một bơm bù áp dùng để duy trì áp suất trên đường ống. Tất cả các bơm chữa cháy là bơm điện. Nguồn điện cho máy bơm sẽ được cấp từ nguồn điện thông thường và một nguồn khẩn cấp được duy trì bởi máy phát điện. Tủ điều khiển các cụm bơm của công trình được đặt tại phòng bơm và nút khởi động khẩn cấp được lắp đặt tại phòng trực quản lý tòa nhà. Yêu cầu về tồn trữ nước Bể trữ nước ngầm: Tổng thể tích nước tồn trữ cho công tác chữa cháy: 126 m3.",
+     "xy": [
+      130,
+      366
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tòa nhà được lắp đặt bình chữa cháy xách tay bằng bột khô A-B-C 4 kg và bình khí CO2 5 kg bố trí phân tán tại các lối thoát nạn, hành lang đảm bảo đủ điều kiện để dập tắt các đám cháy ở giai đoạn đầu mới phát sinh, thích hợp với tất cả các nhóm cháy của tòa nhà. Bình chữa cháy được tính toán thiết kế theo D.1 TCVN 7435-2 lựa chọn mức nguy hiểm trung bình và theo TCVN 3890:2023 phải có số lượng bình dự trữ >10% theo tính toán.",
+     "xy": [
+      130,
+      557
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Bình khí tự kích hoạt bằng thép chống ăn mòn, không áp suất, gọn nhẹ, thân thiện với môi trườngm con người, khi có cháy bộ phận làm mát bên trong bình, để giảm tốt đa nhiệt độ sol khi thoát ra ngoài. Bình được liên kết với đầu dò nhiệt tự kích hoạt khi có cháy ở nhiệt độ 68 độ, kích hoạt bình hoạt động, đầu dò nhiệt tự kích hoạt cung cấp tiếp điểm về module giám sát trạng thái của tủ trung tâm báo cháy tòa nhà, cảnh báo trạng thái hoạt động, ngoài ra khi đầu dò nhiệt tự kích hoạt bị sự cố thì bình có thể tự kích hoạt theo nhiệt độ xung quanh bình lên tới 180 độ C.",
+     "xy": [
+      130,
+      633
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TÍNH TOÁN HỆ THỐNG CHỮA CHÁY ( BỂ NƯỚC VÀ TRẠM BƠM PCCC )",
+     "xy": [
+      190,
+      737
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 3890:2023",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 15,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 16,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 17,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 18,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 19,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "* Kết luận chữa cháy tự động sprinkler:",
+     "xy": [
+      89,
+      67
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tầng hầm yêu cầu lưu lượng chữa cháy tự động: 30 l/s Tầng nổi khách yêu cầu lưu lượng chữa cháy tự động: 10 l/s",
+     "xy": [
+      112,
+      88
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": " Chọn lưu lượng chữa cháy tự động có nguy cơ cháy cao hơn (Tầng hầm để xe);  ∑Qsprinkler = 30 l/s;  Lượng nước đảm bảo cho hệ thống chữa cháy tự động sử dụng trong 1 giờ: Vsprinkler =",
+     "xy": [
+      89,
+      128
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "D. Hệ thống chữa cháy tự động cho giải pháp chống cháy lan tường biên:",
+     "xy": [
+      89,
+      204
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tường biên các trục D-A, 5a-1, 1-5 cách đường ranh giới khu đất nhỏ hơn 3m. Sử",
+     "xy": [
+      122,
+      225
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "dụng giải pháp ngăn cháy lan như quy định tại đoạn b) mục 4.35 đối với các ô cửa từ E60 trở xuống ( Mục E.3.3 phụ lục E QCVN06/2022 và sửa đổi 01/2023): Thiết ké các ô kính là kính cường lực chiều dài tối thiểu từ 6mm, được trang bị đầu phun chữa cháy đảm bảo các đầu phun được đặt từ phía các gian phòng liền kề, cách nhau không quá 2m và cách vách ngăn không quá 0.5m",
+     "xy": [
+      88,
+      239
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "mục 4.35"
+      }
+     ]
+    },
+    {
+     "chu": " Tổng diện tích ô cửa không được bảo vệ chống cháy lớn nhất tại một tầng (chọn",
+     "xy": [
+      107,
+      333
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "* Kết luận chữa cháy tự động sprinkler cho giải pháp chống cháy lan tường biên:",
+     "xy": [
+      89,
+      408
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": " Lưu lượng nước chữa cháy sprinkler cho giải pháp chống lan tường biên đảm bảo",
+     "xy": [
+      107,
+      450
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "sử dụng trong 1 giờ: Vsprinkler chống cháy lan = 38.1m3.",
+     "xy": [
+      125,
+      464
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- V bể nước PCCC = ∑Q ngoài nhà + ∑Q trong nhà + ∑Q sprinkler + ∑Q Sprinkler chống cháy lan = 0 + 18 +",
+     "xy": [
+      94,
+      505
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": " Thiết kế bể nước PCCC có dung tích V= 165m3.",
+     "xy": [
+      89,
+      540
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ 02 máy bơm điện có lưu lượng Q = 46 l/s, cột áp H= 60 m.c.n; + 01 máy bơm duy trì áp Q = 1 l/s, H = 65 m.c.n.",
+     "xy": [
+      97,
+      582
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "mục 4.35"
+    ]
+   ],
+   "ghcl": [
+    "E60"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_4.pdf"
+  },
+  {
+   "trang": 20,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_4.pdf"
+  }
+ ]
+}

@@ -1,0 +1,2752 @@
+{
+ "id": "nha_xuong_11",
+ "cong_nang": "nha_xuong",
+ "so_trang": 44,
+ "phan": [],
+ "cao_pccc_m": [],
+ "ghcl": [
+  "E15",
+  "EI70",
+  "EI90",
+  "REI15",
+  "REI60"
+ ],
+ "van_ban_trich": {
+  "QCVN 06:2022": [
+   "bảng 9",
+   "mục 5.2"
+  ],
+  "TCVN 7336:2021": []
+ },
+ "luu_y": "Trích tự động từ PDF; mọi số liệu là CẦN XÁC NHẬN khi dùng cho dự án khác. Hình học: tọa độ pt PDF, mm_moi_pt để đổi ra mm.",
+ "trang": [
+  {
+   "trang": 1,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "THIẾT KẾ VỀ PHÒNG CHÁY VÀ CHỮA CHÁY",
+     "xy": [
+      455,
+      229
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU CHỈNH THIẾT KẾ CÔNG TRÌNH NHÀ XƯỞNG, VĂN PHÒNG, NHÀ PHỤ TRỢ",
+     "xy": [
+      337,
+      319
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Thương Mại Dịch Vụ Quang Huy Đạt TNHH Một Thành Viên Thương Mại Dịch Vụ Quang",
+     "xy": [
+      1248,
+      966
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 2,
+   "ma": null,
+   "ten": "DANH MỤC PHẦN KIẾN TRÚC",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "TT-01 TT-02 TT-03 TT-04 KT-01 KT-02 KT-03 KT-04 KT-05 KT-06 KT-07 KT-08 KT-09 KT-10 KT-11 KT-12 KT-13 KT-14 KT-15 KT-16 KT-17 KT-18 KT-19",
+     "xy": [
+      402,
+      302
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ MÁI, KHOẢNG CÁCH PHÒNG CHÁY",
+     "xy": [
+      742,
+      339
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ BÃI ĐỖ XE CHỮA CHÁY",
+     "xy": [
+      783,
+      373
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG THOÁT NẠN TẦNG LỬNG NHÀ XƯỞNG 3-4",
+     "xy": [
+      757,
+      578
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG 01 NHÀ XƯỞNG 3-4 MẶT ĐỨNG 02 NHÀ XƯỞNG 3-4",
+     "xy": [
+      836,
+      612
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TẦNG 1 NHÀ XƯỞNG 1-2 MẶT BẰNG TẦNG 2 NHÀ XƯỞNG 1-2",
+     "xy": [
+      820,
+      715
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG THOÁT NẠN TẦNG LỬNG NHÀ XƯỞNG 1-2",
+     "xy": [
+      757,
+      852
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG 01 NHÀ XƯỞNG 1-2 MẶT ĐỨNG 02 NHÀ XƯỞNG 1-2",
+     "xy": [
+      836,
+      886
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT THANG THOÁT NẠN A CHI TIẾT THANG THOÁT NẠN B",
+     "xy": [
+      837,
+      988
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 3,
+   "ma": null,
+   "ten": null,
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "CC-01 CC-02 CC-03 CC-04 CC-05 CC-06 CC-07 CC-08 CC-09 CC-10 CC-11 CC-12 CC-13 CC-14 CC-15 CC-16 CC-17 CC-18 CC-19 CC-20 BC-01 BC-02 BC-03 BC-04 BC-05 BC-06 BC-07",
+     "xy": [
+      102,
+      222
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HK-01 HK-02 HK-03 HK-04 HK-05 HK-06 HK-07 HK-08 HK-09 HK-10 HK-11 HK-12 HK-13 HK-14 HK-15",
+     "xy": [
+      788,
+      222
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ ĐIỀU CHỈNH HỆ THỐNG CHỮA CHÁY NGOÀI NHÀ",
+     "xy": [
+      211,
+      225
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ TỦ ĐIỀU KHIỂN QUẠT VÀ MÁY PHÁT ĐIỆN TỔNG THỂ",
+     "xy": [
+      898,
+      226
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH HỆ THỐNG CHỮA CHÁY TỔNG THỂ NHÀ XƯỞNG",
+     "xy": [
+      206,
+      254
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ HỆ THỐNG HÚT KHÓI BÊN DƯỞI TẦNG LỬNG XƯỞNG 1, 2",
+     "xy": [
+      879,
+      254
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY DƯỚI TẦNG LỬNG XƯỞNG 1,2",
+     "xy": [
+      224,
+      282
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ HỆ THỐNG HÚT KHÓI TRÊN MÁI NHÀ XƯỞNG 1, 2",
+     "xy": [
+      910,
+      282
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY TRÊN MÁI XƯỞNG 1,2",
+     "xy": [
+      255,
+      310
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG TÍNH HÚT KHÓI BÊN DƯỚI TẦNG LỬNG NHÀ XƯỞNG 1, 2",
+     "xy": [
+      928,
+      311
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY DƯỚI TẦNG LỬNG XƯỞNG 3,4",
+     "xy": [
+      224,
+      339
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG TÍNH HÚT KHÓI TRÊN MÁI NHÀ XƯỞNG 1, 2",
+     "xy": [
+      976,
+      339
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG HÚT KHÓI NHÀ XƯỞNG 1, 2",
+     "xy": [
+      943,
+      367
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY TRÊN MÁI XƯỞNG 3,4 SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY NHÀ XƯỞNG",
+     "xy": [
+      255,
+      367
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG CẤP KHÍ BÙ TRỤC Y1-Y7 VÀ Y7-Y1 NHÀ XƯỞNG 1, 2",
+     "xy": [
+      927,
+      395
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG CẤP KHÍ BÙ TRỤC X1-X13 VÀ X13-X1 NHÀ XƯỞNG 1, 2",
+     "xy": [
+      919,
+      423
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ TRẠM BƠM PCCC K1 SƠ ĐỒ NGUYÊN LÝ TRẠM BƠM PCCC K1",
+     "xy": [
+      325,
+      452
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ HỆ THỐNG HÚT KHÓI BÊN DƯỚI TẦNG LỬNG XƯỞNG 3, 4",
+     "xy": [
+      879,
+      452
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ HỆ THỐNG HÚT KHÓI TRÊN MÁI NHÀ XƯỞNG 3, 4",
+     "xy": [
+      910,
+      480
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG TÍNH HÚT KHÓI BÊN DƯỚI TẦNG LỬNG NHÀ XƯỞNG 3, 4",
+     "xy": [
+      928,
+      508
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ TRẠM BƠM PCCC K2 SƠ ĐỒ NGUYÊN LÝ TRẠM BƠM PCCC K2",
+     "xy": [
+      324,
+      536
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG TÍNH HÚT KHÓI TRÊN MÁI NHÀ XƯỞNG 3, 4",
+     "xy": [
+      975,
+      536
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG HÚT KHÓI NHÀ XƯỞNG 3, 4",
+     "xy": [
+      943,
+      564
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG CẤP KHÍ BÙ TRỤC Y1-Y7 VÀ Y7-Y1 NHÀ XƯỞNG 3, 4",
+     "xy": [
+      927,
+      593
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG CẤP KHÍ BÙ TRỤC X1-X13 VÀ X13-X1 NHÀ XƯỞNG 3, 4",
+     "xy": [
+      919,
+      621
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "EXIT-01 EXIT-02 EXIT-03 EXIT-04 EXIT-05 EXIT-06 BCC-01 BCC-02 BCC-03 BCC-04 BCC-05 BCC-06",
+     "xy": [
+      782,
+      646
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH TỜ 01 CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH TỜ 02 CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH TỜ 03 CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH TỜ 04 CHI TIẾT LẮP ĐẶT ĐIỂN HÌNH TỜ 05",
+     "xy": [
+      340,
+      649
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH HỆ THỐNG ĐÈN EXIT, SỰ CỐ TỔNG THỂ NHÀ XƯỞNG",
+     "xy": [
+      876,
+      649
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH ĐÈN EXIT, SỰ CỐ TRÊN TẦNG LỬNG XƯỞNG 1,2 MẶT BẰNG ĐIỀU CHỈNH ĐÈN EXIT, SỰ CỐ TRÊN TẦNG LỬNG XƯỞNG 1,2 MẶT BẰNG ĐIỀU CHỈNH ĐÈN EXIT, SỰ CỐ DƯỚI TẦNG LỬNG XƯỞNG 3,4 MẶT BẰNG ĐIỀU CHỈNH ĐÈN EXIT, SỰ CỐ TRÊN TẦNG LỬNG XƯỞNG 3,4",
+     "xy": [
+      894,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ ĐIỀU CHỈNH HỆ THỐNG BÁO CHÁY NHÀ XƯỞNG",
+     "xy": [
+      213,
+      790
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ CẤP ĐIỆN ĐÈN EXIT VÀ SỰ CỐ",
+     "xy": [
+      973,
+      791
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH HỆ THỐNG BÁO CHÁY DƯỚI TẦNG LỬNG XƯỞNG 1,2 MẶT BẰNG ĐIỀU CHỈNH HỆ THỐNG BÁO CHÁY TRÊN TẦNG LỬNG XƯỞNG 1,2 MẶT BẰNG ĐIỀU CHỈNH HỆ THỐNG BÁO CHÁY DƯỚI TẦNG LỬNG XƯỞNG 3,4 MẶT BẰNG ĐIỀU CHỈNH HỆ THỐNG BÁO CHÁY TRÊN TẦNG LỬNG XƯỞNG 3,4",
+     "xy": [
+      190,
+      818
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG XIN PHÉP ĐIỀU CHỈNH BÌNH CHỮA CHÁY TỔNG THỂ NHÀ XƯỞNG",
+     "xy": [
+      879,
+      819
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH BÌNH CHỮA CHÁY TRÊN TẦNG LỬNG XƯỞNG 1,2 MẶT BẰNG ĐIỀU CHỈNH BÌNH CHỮA CHÁY TRÊN TẦNG LỬNG XƯỞNG 1,2 MẶT BẰNG ĐIỀU CHỈNH BÌNH CHỮA CHÁY DƯỚI TẦNG LỬNG XƯỞNG 3,4 MẶT BẰNG ĐIỀU CHỈNH BÌNH CHỮA CHÁY TRÊN TẦNG LỬNG XƯỞNG 3,4",
+     "xy": [
+      892,
+      847
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ NGUYÊN LÝ HỆ THỐNG BÁO CHÁY NHÀ XƯỞNG",
+     "xy": [
+      267,
+      931
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT HỆ THỐNG BÁO CHÁY TỰ ĐỘNG",
+     "xy": [
+      284,
+      960
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BÌNH CHỮA CHÁY VÀ DỤNG CỤ PHÁ DỞ",
+     "xy": [
+      944,
+      961
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 4,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 5,
+   "ma": "TT-01",
+   "ten": "MẶT BẰNG TỔNG THỂ",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      395,
+      42
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      967,
+      396
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHÚ THÍCH: - DỰ ÁN ĐÃ ĐƯỢC THẨM DUYỆT PCCC SỐ 44/TD-PCCC (TU) ngày 05/02/2013",
+     "xy": [
+      249,
+      432
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC CỘNG TRÌNH XIN PHÉP ĐIỀU CHỈNH",
+     "xy": [
+      77,
+      455
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      318,
+      509
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      1105,
+      849
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ CÁC HẠNG MỤC XÂY DỰNG DỰ ÁN",
+     "xy": [
+      36,
+      966
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ HẠNG MỤC ĐIỀU CHỈNH, BỔ SUNG",
+     "xy": [
+      774,
+      966
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO",
+     "xy": [
+      365,
+      970
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA VÀ HẠNG ( QCVN 06:2022/BXD VÀ",
+     "xy": [
+      458,
+      988
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "NỘI DUNG XIN PHÉP ĐIỀU CHỈNH THẨM DUYỆT",
+     "xy": [
+      947,
+      991
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO VÀ GIỚI HẠN CHỊU LỬA CẤU KIỆN",
+     "xy": [
+      323,
+      996
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐIỀU CHỈNH VỊ TRÍ XÂY DỰNG",
+     "xy": [
+      877,
+      1016
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      317,
+      1024
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      474,
+      1036
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐIỀU CHỈNH VÁCH NGĂN PHÂN CHIA CÁC KHU VỰC SẢN XUẤT TRONG XƯỞNG - ĐIỀU CHỈNH BỔ SUNG CỬA THOÁT NẠN VÀ CỬA LÙA NHÀ XƯỞNG - ĐIỀU CHỈNH KÍCH THƯỚC SÀN LỬNG VÀ THANG THOÁT NẠN",
+     "xy": [
+      877,
+      1039
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐIỀU CHỈNH VÁCH NGĂN PHÂN CHIA CÁC KHU VỰC SẢN XUẤT TRONG XƯỞNG - ĐIỀU CHỈNH BỔ SUNG CỬA THOÁT NẠN VÀ CỬA LÙA NHÀ XƯỞNG - ĐIỀU CHỈNH KÍCH THƯỚC SÀN LỬNG VÀ THANG THOÁT NẠN",
+     "xy": [
+      877,
+      1081
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      317,
+      1085
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      474,
+      1097
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÊ TÔNG ĐÁ 1X2 MAC 250 DÀY 150MM LƯỚI THÉP CÓ GIỚI HẠN CHẢY >= 3400 kg/cm2 LỚP NHỰA CHỒNG MÍ 200 CẤP PHỐI ĐÁ 0-4 DÀY 150 DẦM CHẶT K>=0.95, E>= 112MPa ĐẤT SAN LU CHẶT K>=0.90, E>= 48MPa",
+     "xy": [
+      1129,
+      1118
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- KHÔNG THỰC HIỆN THIẾT KẾ VÀ THI CÔNG",
+     "xy": [
+      877,
+      1124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R45 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - TƯỜNG TRONG : REI60 - SÀ GỒ : R15 - TẤM LỢP : RE15",
+     "xy": [
+      314,
+      1135
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BẬC: III -CẤP: S0",
+     "xy": [
+      477,
+      1147
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐIỀU CHỈNH VỊ TRÍ XÂY DỰNG",
+     "xy": [
+      877,
+      1154
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "REI15",
+    "REI60"
+   ],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m04-giao-thong"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 6,
+   "ma": "TT-01",
+   "ten": "MẶT BẰNG TỔNG THỂ",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      395,
+      42
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      967,
+      396
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHÚ THÍCH: - DỰ ÁN ĐÃ ĐƯỢC THẨM DUYỆT PCCC SỐ 44/TD-PCCC (TU) ngày 05/02/2013",
+     "xy": [
+      249,
+      432
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC CỘNG TRÌNH XIN PHÉP ĐIỀU CHỈNH",
+     "xy": [
+      77,
+      455
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      318,
+      509
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      1105,
+      849
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ CÁC HẠNG MỤC XÂY DỰNG DỰ ÁN",
+     "xy": [
+      36,
+      966
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ HẠNG MỤC ĐIỀU CHỈNH, BỔ SUNG",
+     "xy": [
+      774,
+      966
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO",
+     "xy": [
+      365,
+      970
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA VÀ HẠNG ( QCVN 06:2022/BXD VÀ",
+     "xy": [
+      458,
+      988
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "NỘI DUNG XIN PHÉP ĐIỀU CHỈNH THẨM DUYỆT",
+     "xy": [
+      947,
+      991
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO VÀ GIỚI HẠN CHỊU LỬA CẤU KIỆN",
+     "xy": [
+      323,
+      996
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐIỀU CHỈNH VỊ TRÍ XÂY DỰNG",
+     "xy": [
+      877,
+      1016
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      317,
+      1024
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      474,
+      1036
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐIỀU CHỈNH VÁCH NGĂN PHÂN CHIA CÁC KHU VỰC SẢN XUẤT TRONG XƯỞNG - ĐIỀU CHỈNH BỔ SUNG CỬA THOÁT NẠN VÀ CỬA LÙA NHÀ XƯỞNG - ĐIỀU CHỈNH KÍCH THƯỚC SÀN LỬNG VÀ THANG THOÁT NẠN",
+     "xy": [
+      877,
+      1039
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐIỀU CHỈNH VÁCH NGĂN PHÂN CHIA CÁC KHU VỰC SẢN XUẤT TRONG XƯỞNG - ĐIỀU CHỈNH BỔ SUNG CỬA THOÁT NẠN VÀ CỬA LÙA NHÀ XƯỞNG - ĐIỀU CHỈNH KÍCH THƯỚC SÀN LỬNG VÀ THANG THOÁT NẠN",
+     "xy": [
+      877,
+      1081
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      317,
+      1085
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      474,
+      1097
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÊ TÔNG ĐÁ 1X2 MAC 250 DÀY 150MM LƯỚI THÉP CÓ GIỚI HẠN CHẢY >= 3400 kg/cm2 LỚP NHỰA CHỒNG MÍ 200 CẤP PHỐI ĐÁ 0-4 DÀY 150 DẦM CHẶT K>=0.95, E>= 112MPa ĐẤT SAN LU CHẶT K>=0.90, E>= 48MPa",
+     "xy": [
+      1129,
+      1118
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- KHÔNG THỰC HIỆN THIẾT KẾ VÀ THI CÔNG",
+     "xy": [
+      877,
+      1124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R45 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - TƯỜNG TRONG : REI60 - SÀ GỒ : R15 - TẤM LỢP : RE15",
+     "xy": [
+      314,
+      1135
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BẬC: III -CẤP: S0",
+     "xy": [
+      477,
+      1147
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐIỀU CHỈNH VỊ TRÍ XÂY DỰNG",
+     "xy": [
+      877,
+      1154
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "REI15",
+    "REI60"
+   ],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m04-giao-thong"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 7,
+   "ma": "TT-02",
+   "ten": "MẶT BẰNG TỔNG THỂ MÁI, KHOẢNG CÁCH PHÒNG CHÁY",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      318,
+      44
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      1105,
+      385
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHÚ THÍCH: - DỰ ÁN ĐÃ ĐƯỢC THẨM DUYỆT PCCC SỐ 44/TD-PCCC (TU) ngày 05/02/2013",
+     "xy": [
+      1255,
+      448
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      433,
+      517
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG RANH GIỚI ĐẤT XÂY TƯỜNG 200mm CAO 2M",
+     "xy": [
+      1105,
+      857
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ CÁC HẠNG MỤC XÂY DỰNG DỰ ÁN",
+     "xy": [
+      50,
+      861
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ KHOẢNG CÁCH DỰ ÁN",
+     "xy": [
+      617,
+      862
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO",
+     "xy": [
+      353,
+      864
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA VÀ HẠNG ( QCVN 06:2022/BXD VÀ",
+     "xy": [
+      434,
+      880
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO VÀ GIỚI HẠN CHỊU LỬA CẤU KIỆN",
+     "xy": [
+      317,
+      887
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      311,
+      911
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      449,
+      921
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      311,
+      964
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      449,
+      975
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R45 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - TƯỜNG TRONG : REI60 - SÀ GỒ : R15 - TẤM LỢP : RE15",
+     "xy": [
+      309,
+      1008
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BẬC: III -CẤP: S0",
+     "xy": [
+      451,
+      1019
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG E.1 QCVN 06:2022/BXD SỬA ĐỔI 1:2023 KHOẢNG CÁCH CHỐNG CHÁY GIỮA NHÀ",
+     "xy": [
+      245,
+      1054
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "REI15",
+    "REI60"
+   ],
+   "ky_hieu": [
+    "CT1",
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m03-khoang-cach",
+    "m06-ngan-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 8,
+   "ma": "TT-04",
+   "ten": "MẶT ĐỨNG LỐI VÀO TRÊN CAO",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "LỐI VÀO TỪ TRÊN CAO KHÔNG ĐƯỢC GÂY CẢN TRỞ",
+     "xy": [
+      976,
+      310
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG VỊ TRÍ LỐI VÀO TRÊN CAO XƯỞNG 3,4",
+     "xy": [
+      498,
+      540
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LỐI VÀO TỪ TRÊN CAO KHÔNG ĐƯỢC GÂY CẢN TRỞ",
+     "xy": [
+      628,
+      828
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LỐI VÀO TỪ TRÊN CAO KHÔNG ĐƯỢC GÂY CẢN TRỞ",
+     "xy": [
+      940,
+      828
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT ĐỨNG VỊ TRÍ LỐI VÀO TRÊN CAO XƯỞNG 1.2",
+     "xy": [
+      506,
+      1054
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 9,
+   "ma": "KT-01",
+   "ten": "MẶT BẰNG TẦNG 1 NHÀ XƯỞNG 3-4",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG THỐNG KÊ DIỆN TÍCH KHOANG CHÁY NHÀ XƯỞNG 3,4",
+     "xy": [
+      1138,
+      910
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích sàn lửng <40% so với sàn bên dưới nên quy mô",
+     "xy": [
+      1378,
+      959
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO",
+     "xy": [
+      252,
+      1001
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA VÀ HẠNG ( QCVN 06:2022/BXD VÀ",
+     "xy": [
+      406,
+      1032
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO VÀ GIỚI HẠN CHỊU LỬA CẤU KIỆN",
+     "xy": [
+      182,
+      1046
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      171,
+      1091
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      434,
+      1111
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "REI15"
+   ],
+   "ky_hieu": [
+    "D1",
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 10,
+   "ma": "KT-02",
+   "ten": "MẶT BẰNG TẦNG LỬNG NHÀ XƯỞNG 3-4",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG THỐNG KÊ DIỆN TÍCH KHOANG CHÁY NHÀ XƯỞNG 3,4",
+     "xy": [
+      1138,
+      911
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích sàn lửng <40% so với sàn bên dưới nên quy mô",
+     "xy": [
+      1377,
+      959
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO",
+     "xy": [
+      252,
+      1002
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA VÀ HẠNG ( QCVN 06:2022/BXD VÀ",
+     "xy": [
+      406,
+      1032
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO VÀ GIỚI HẠN CHỊU LỬA CẤU KIỆN",
+     "xy": [
+      182,
+      1046
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      171,
+      1092
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      434,
+      1112
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "REI15"
+   ],
+   "ky_hieu": [
+    "D1",
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 11,
+   "ma": "KT-03",
+   "ten": "MẶT BẰNG MÁI NHÀ XƯỞNG 3-4",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ CẤU TẠO",
+     "xy": [
+      252,
+      1002
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA VÀ HẠNG ( QCVN 06:2022/BXD VÀ",
+     "xy": [
+      406,
+      1033
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO VÀ GIỚI HẠN CHỊU LỬA CẤU KIỆN",
+     "xy": [
+      182,
+      1046
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      171,
+      1092
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      434,
+      1112
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "REI15"
+   ],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 12,
+   "ma": "KT-04",
+   "ten": "MẶT BẰNG THOÁT NẠN TẦNG 1 NHÀ XƯỞNG 3-4",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC DỰ KIẾN BỐ TRÍ MÁY MÓC SẢN XUẤT",
+     "xy": [
+      134,
+      978
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Kết luận : Khoảng phân tán thoát nạn >",
+     "xy": [
+      32,
+      1149
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "3 đường chéo công trình theo quy định => ĐẠT",
+     "xy": [
+      214,
+      1149
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 13,
+   "ma": "KT-05",
+   "ten": "MẶT BẰNG THOÁT NẠN TẦNG LỬNG NHÀ XƯỞNG 3-4",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC XA NHẤT ĐẾN CỬA THOÁT NẠN 45M",
+     "xy": [
+      1158,
+      283
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "{ Kích thước đã được cộng thêm 3 lần chiều cao thang }",
+     "xy": [
+      1149,
+      295
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC XA NHẤT ĐẾN CỬA THOÁT NẠN 55M",
+     "xy": [
+      1150,
+      721
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "{ Kích thước đã được cộng thêm 3 lần chiều cao thang }",
+     "xy": [
+      1141,
+      733
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG THOÁT NẠN TẦNG LỬNG NHÀ XƯỞNG 3-4",
+     "xy": [
+      542,
+      887
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC DỰ KIẾN BỐ TRÍ MÁY MÓC SẢN XUẤT",
+     "xy": [
+      134,
+      978
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Kết luận : Khoảng phân tán thoát nạn >",
+     "xy": [
+      33,
+      1149
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "3 đường chéo công trình theo quy định => ĐẠT",
+     "xy": [
+      215,
+      1149
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 14,
+   "ma": "KT-06",
+   "ten": "MẶT ĐỨNG 01 NHÀ XƯỞNG 3-4",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [
+    "E15",
+    "EI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 15,
+   "ma": "KT-07",
+   "ten": "MẶT ĐỨNG 02 NHÀ XƯỞNG 3-4",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [
+    "E15",
+    "EI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 16,
+   "ma": "KT-08",
+   "ten": "MẶT CĂT NHÀ XƯỞNG 3-4",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "khac",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [
+    "E15",
+    "EI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 17,
+   "ma": "KT-09",
+   "ten": "MẶT BẰNG TẦNG 1 NHÀ XƯỞNG 1-2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG THỐNG KÊ DIỆN TÍCH KHOANG CHÁY NHÀ XƯỞNG 1,2",
+     "xy": [
+      1137,
+      909
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích sàn lửng <40% so với sàn bên dưới nên quy mô",
+     "xy": [
+      1377,
+      959
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO",
+     "xy": [
+      252,
+      1002
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA VÀ HẠNG ( QCVN 06:2022/BXD VÀ",
+     "xy": [
+      406,
+      1033
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO VÀ GIỚI HẠN CHỊU LỬA CẤU KIỆN",
+     "xy": [
+      182,
+      1046
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      171,
+      1092
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      434,
+      1112
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "REI15"
+   ],
+   "ky_hieu": [
+    "D1",
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 18,
+   "ma": "KT-10",
+   "ten": "MẶT BẰNG TẦNG 2 NHÀ XƯỞNG 1-2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "BẢNG THỐNG KÊ DIỆN TÍCH KHOANG CHÁY NHÀ XƯỞNG 1,2",
+     "xy": [
+      1137,
+      909
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Diện tích sàn lửng <40% so với sàn bên dưới nên quy mô",
+     "xy": [
+      1377,
+      959
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO",
+     "xy": [
+      252,
+      1002
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA VÀ HẠNG ( QCVN 06:2022/BXD VÀ",
+     "xy": [
+      406,
+      1033
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO VÀ GIỚI HẠN CHỊU LỬA CẤU KIỆN",
+     "xy": [
+      182,
+      1046
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      171,
+      1092
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      433,
+      1112
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "REI15"
+   ],
+   "ky_hieu": [
+    "D1",
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 19,
+   "ma": "KT-11",
+   "ten": "MẶT BẰNG MÁI NHÀ XƯỞNG 1-2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ CẤU TẠO",
+     "xy": [
+      227,
+      1022
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẬC CHỊU LỬA VÀ HẠNG ( QCVN 06:2022/BXD VÀ",
+     "xy": [
+      364,
+      1049
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ CẤU TẠO VÀ GIỚI HẠN CHỊU LỬA CẤU KIỆN",
+     "xy": [
+      165,
+      1061
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- TƯỜNG,CỘT,VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC : R15 - TƯỜNG NGOÀI KHÔNG CHỊU LỰC : E15 - SÀN TẦNG : REI15 - GIÀN, DẦM, XÀ GỒ : R15 - TẤM LỢP MÁI: RE15",
+     "xy": [
+      155,
+      1101
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- HẠNG: C -BẬC: IV -CẤP: S0",
+     "xy": [
+      388,
+      1119
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "E15",
+    "REI15"
+   ],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 20,
+   "ma": "KT-12",
+   "ten": "MẶT BẰNG THOÁT NẠN TẦNG 1 NHÀ XƯỞNG 1-2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC DỰ KIẾN BỐ TRÍ MÁY MÓC SẢN XUẤT",
+     "xy": [
+      134,
+      978
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Kết luận : Khoảng phân tán thoát nạn >",
+     "xy": [
+      32,
+      1150
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "3 đường chéo công trình theo quy định => ĐẠT",
+     "xy": [
+      214,
+      1150
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 21,
+   "ma": "KT-13",
+   "ten": "MẶT BẰNG THOÁT NẠN TẦNG LỬNG NHÀ XƯỞNG 1-2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KHU VỰC XA NHẤT ĐẾN CỬA THOÁT NẠN 55M",
+     "xy": [
+      1024,
+      161
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "{ Kích thước đã được cộng thêm 3 lần chiều cao thang }",
+     "xy": [
+      1015,
+      173
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG THOÁT NẠN TẦNG LỬNG NHÀ XƯỞNG 1-2",
+     "xy": [
+      525,
+      897
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC DỰ KIẾN BỐ TRÍ MÁY MÓC SẢN XUẤT",
+     "xy": [
+      134,
+      978
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Kết luận : Khoảng phân tán thoát nạn >",
+     "xy": [
+      32,
+      1150
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "3 đường chéo công trình theo quy định => ĐẠT",
+     "xy": [
+      214,
+      1150
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 22,
+   "ma": "KT-14",
+   "ten": "MẶT ĐỨNG 01 NHÀ XƯỞNG 1-2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [
+    "E15",
+    "EI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 23,
+   "ma": "KT-15",
+   "ten": "MẶT ĐỨNG 02 NHÀ XƯỞNG 1-2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [
+    "E15",
+    "EI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 24,
+   "ma": "KT-16",
+   "ten": "MẶT CẮT NHÀ XƯỞNG 1-2",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [
+    "E15",
+    "EI90"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 25,
+   "ma": "KT-17",
+   "ten": "CHI TIẾT THANG THOÁT NẠN A",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "chi_tiet",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 26,
+   "ma": "KT-18",
+   "ten": "CHI TIẾT THANG THOÁT NẠN B",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "chi_tiet",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 27,
+   "ma": "KT-19",
+   "ten": "CHI TIÊT NHÀ BƠM PCCC 01",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "TƯỜNG 100 XÂY CAO TỚI MÁI CỬA CHỐNG CHÁY EI70",
+     "xy": [
+      150,
+      610
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [
+    "EI70"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 28,
+   "ma": "KT-20",
+   "ten": "CHI TIẾT BỂ NƯỚC NGẦM PCCC",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "chi_tiet",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 29,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 30,
+   "ma": "CC-01",
+   "ten": "MẶT BẰNG TỔNG THỂ ĐIỀU CHỈNH HỆ THỐNG CHỮA CHÁY NGOÀI NHÀ",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHÚ THÍCH: - DỰ ÁN ĐÃ ĐƯỢC THẨM DUYỆT PCCC SỐ 44/TD-PCCC (TU) ngày 05/02/2013",
+     "xy": [
+      112,
+      57
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TRỤ CHỮA CHÁY KHU CÔNG NGIỆP LƯU LƯỢNG 15 l/s",
+     "xy": [
+      1104,
+      81
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TRỤ CHỮA CHÁY KHU CÔNG NGIỆP LƯU LƯỢNG 15 l/s",
+     "xy": [
+      1068,
+      484
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MẶT BẰNG TỔNG THỂ ĐIỀU CHỈNH HỆ THỐNG CHỮA CHÁY NGOÀI NHÀ",
+     "xy": [
+      375,
+      567
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "4.HỌNG VÀ NẮP HỌNG LỚN 5.TRỤC VAN 6.CÁNH VAN",
+     "xy": [
+      1042,
+      646
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHU VỰC XIN PHÉP LẮP ĐẶT BỔ SUNG",
+     "xy": [
+      160,
+      686
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỔ SUNG 1 TRỤ CHỮA CHÁY NGOÀI NHÀ LƯU LƯỢNG 10L/S. KẾT NỐI VỚI",
+     "xy": [
+      779,
+      733
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU CHỈNH HỆ THỐNG CHỮA CHÁY NGOÀI NHÀ",
+     "xy": [
+      575,
+      739
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TRẠM BƠM ĐỘC LẬP VỚI HỆ THỐNG CHỮA CHÁY TRONG NHÀ XƯỞNG.",
+     "xy": [
+      784,
+      744
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-ĐIỀU CHỈNH LẠI HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG",
+     "xy": [
+      816,
+      764
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐIỀU CHỈNH LẠI HỆ THỐNG CHỮA CHÁY TRONG NHÀ XƯỞNG",
+     "xy": [
+      555,
+      774
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- BỔ SUNG HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG DƯỚI SÀN LỬNG.",
+     "xy": [
+      796,
+      775
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỔ SUNG TỦ CHỮA CHÁY VÁCH TƯỜNG TRÊN SÀN LỬNG",
+     "xy": [
+      804,
+      786
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- ĐIỀU CHỈNH LẠI LƯU LƯỢNG VÀ CỘT ÁP 2 CỤM BƠM PCCC",
+     "xy": [
+      801,
+      811
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN LƯU LƯỢNG CHỮA CHÁY NGOÀI NHÀ - BẢNG 9 / 10 QCVN 06:2022/BXD-SỬA ĐỔI 01-2023",
+     "xy": [
+      339,
+      856
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 9"
+      }
+     ]
+    },
+    {
+     "chu": "Cấp Nguy Hiểm Cháy Kết Cấu Của Nhà",
+     "xy": [
+      344,
+      886
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐƯỜNG DI CHUYỂN CỦA CUỘN VÒI CHỮA CHÁY TỪ TRỤ CHỮA CHÁY ĐẾN ĐIỂM XA NHẤT CỦA NHÀ XƯỞNG",
+     "xy": [
+      237,
+      966
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG TRỤ CHỮA CHÁY BÊN NGOÀI NHÀ CÓ 2 TRỤ CHỮA CHÁY KHU CÔNG NGHIỆP MỖI TRỤ CÓ LƯU LƯỢNG 15l/s VÀ 1 TRỤ CHỮA CHÁY NHÀ XƯỞNG TỰ LẮP CÓ LƯU LƯỢNG 10l/S, KHOẢNG CÁCH ĐẢM BẢO PHỤC VỤ ĐẾN MỌI ĐIỂM CỦA NHÀ XÉT THEO PHƯƠNG NGANG VÀ BÁN KÍNH PHỤC VỤ CỦA TRỤ KHÔNG LỚN HƠN 400m TÍNH THEO ĐƯỜNG DI CHUYỂN CỦA VÒI CHỮA CHÁY ĐI BÊN NGOÀI NHÀ. KẾT LUẬN : ĐẢM BẢO THEO QCVN 06:2022/BXD VÀ SỬA ĐỔI 01-2023",
+     "xy": [
+      129,
+      1039
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 06:2022",
+     "bảng 9"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 31,
+   "ma": "CC-02",
+   "ten": "MẶT BẰNG ĐIỀU CHỈNH HỆ THỐNG CHỮA CHÁY TỔNG THỂ NHÀ XƯỞNG",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH HỆ THỐNG CHỮA CHÁY TỔNG THỂ NHÀ XƯỞNG",
+     "xy": [
+      435,
+      508
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "4.HỌNG VÀ NẮP HỌNG LỚN 5.TRỤC VAN 6.CÁNH VAN",
+     "xy": [
+      1047,
+      642
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG TRỤ CHỮA CHÁY BÊN NGOÀI NHÀ CÓ 2 TRỤ CHỮA CHÁY KHU CÔNG NGHIỆP MỖI TRỤ CÓ LƯU LƯỢNG 15l/s VÀ 1 TRỤ CHỮA CHÁY NHÀ XƯỞNG TỰ LẮP CÓ LƯU LƯỢNG 10l/S, KHOẢNG CÁCH ĐẢM BẢO PHỤC VỤ ĐẾN MỌI ĐIỂM CỦA NHÀ XÉT THEO PHƯƠNG NGANG VÀ BÁN KÍNH PHỤC VỤ CỦA TRỤ KHÔNG LỚN HƠN 400m TÍNH THEO ĐƯỜNG DI CHUYỂN CỦA VÒI CHỮA CHÁY ĐI BÊN NGOÀI NHÀ. KẾT LUẬN : ĐẢM BẢO THEO QCVN 06:2022/BXD VÀ SỬA ĐỔI 01-2023",
+     "xy": [
+      131,
+      1004
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 32,
+   "ma": "CC-03",
+   "ten": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY DƯỚI TẦNG LỬNG XƯỞNG 1,2",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY DƯỚI TẦNG LỬNG",
+     "xy": [
+      621,
+      908
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ SỐ LƯỢNG ĐẦU PHUN SPRINKLER ĐIỀU CHỈNH",
+     "xy": [
+      573,
+      1047
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 33,
+   "ma": "CC-04",
+   "ten": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY TRÊN MÁI XƯỞNG 1,2",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY TRÊN MÁI XƯỞNG 1,2",
+     "xy": [
+      718,
+      887
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ SỐ LƯỢNG ĐẦU PHUN SPRINKLER ĐIỀU CHỈNH",
+     "xy": [
+      573,
+      1048
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 34,
+   "ma": "CC-05",
+   "ten": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY DƯỚI TẦNG LỬNG XƯỞNG 3,4",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY DƯỚI TẦNG LỬNG XƯỞNG 3,4",
+     "xy": [
+      713,
+      951
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ SỐ LƯỢNG ĐẦU PHUN SPRINKLER ĐIỀU CHỈNH",
+     "xy": [
+      576,
+      1045
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 35,
+   "ma": "CC-06",
+   "ten": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY TRÊN MÁI XƯỞNG 3,4",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG ĐIỀU CHỈNH CHỮA CHÁY TRÊN MÁI XƯỞNG 3,4",
+     "xy": [
+      798,
+      958
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG THỐNG KÊ SỐ LƯỢNG ĐẦU PHUN SPRINKLER ĐIỀU CHỈNH",
+     "xy": [
+      600,
+      1061
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 36,
+   "ma": "CC-07",
+   "ten": "SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY NHÀ XƯỞNG",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ : HỌNG NƯỚC CHỮA CHÁY TRONG NHÀ ĐẢM BẢO 2 TIA PHUN CHỮA CHÁY THEO BẢNG 12, MỤC 5.2 QCVN 06:2022/BXD VÀ SỬA ĐỔI 01:2023",
+     "xy": [
+      512,
+      60
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "mục 5.2"
+      }
+     ]
+    },
+    {
+     "chu": "TCVN 7336 : 2021 5.2.12 Khoảng cách từ tâm của phần tử nhạy cảm với nhiệt của đầu phun đến mặt phẳng trần (mái) phải nằm trong khoảng 0,08 m đến 0,30 m; trong trường hợp đặc biệt, do thiết kế trần (ví dụ có các phần nhô ra) được phép tăng khoảng cách này lên 0,40 m.",
+     "xy": [
+      51,
+      302
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7336:2021",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "KẾT NỐI SPRINKLER VAN KHÓA CÔNG TẮC DÒNG CHẢY",
+     "xy": [
+      1218,
+      615
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT VAN KHÓA SPRINKLER (CT2)",
+     "xy": [
+      1198,
+      889
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY NHÀ XƯỞNG",
+     "xy": [
+      502,
+      943
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "mục 5.2"
+    ],
+    [
+     "TCVN 7336:2021",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [
+    "CT2"
+   ],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 37,
+   "ma": "CC-08",
+   "ten": "MẶT BẰNG TRẠM BƠM K1",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 38,
+   "ma": "CC-09",
+   "ten": "MẶT BẰNG BỐ TRÍ TRẠM BƠM PCCC K1",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ NHÀ BƠM PCCC TL: 1/50",
+     "xy": [
+      66,
+      382
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 39,
+   "ma": "CC-10",
+   "ten": "SƠ ĐỒ NGUYÊN LÝ TRẠM BƠM PCCC K1",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "LƯU Ý : THỜI GIAN LỚN NHẤT ĐỂ PHỤC HỒI NƯỚC DỰ TRỮ CHỮACHÁY KHÔNG LỚN HƠN : ĐỐI VỚI KHU DÂN CƯ VÀ CƠ SỞ CÔNG NGHIỆP CÓ KHU VỰC THUỘC HẠNG NGUY HIỂM CHÁY A, B, C LẤY LÀ 24h TÂT CẢ CÁC VAN KHÓA TRONG PHÒNG BƠM ĐỀU LÀ VAN GIÁM SÁT",
+     "xy": [
+      45,
+      957
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 40,
+   "ma": "CC-11",
+   "ten": "MẶT BẰNG TRẠM BƠM K2",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 41,
+   "ma": "CC-12",
+   "ten": "MẶT BẰNG BỐ TRÍ TRẠM BƠM PCCC K2",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MẶT BẰNG BỐ TRÍ NHÀ BƠM PCCC TL: 1/50",
+     "xy": [
+      64,
+      384
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 42,
+   "ma": "CC-13",
+   "ten": "SƠ ĐỒ NGUYÊN LÝ TRẠM BƠM PCCC K2",
+   "hang_muc": "PHÒNG CHÁY CHỮA CHÁY",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "LƯU Ý : THỜI GIAN LỚN NHẤT ĐỂ PHỤC HỒI NƯỚC DỰ TRỮ CHỮACHÁY KHÔNG LỚN HƠN : ĐỐI VỚI KHU DÂN CƯ VÀ CƠ SỞ CÔNG NGHIỆP CÓ KHU VỰC THUỘC HẠNG NGUY HIỂM CHÁY A, B, C LẤY LÀ 24h TÂT CẢ CÁC VAN KHÓA TRONG PHÒNG BƠM ĐỀU LÀ VAN GIÁM SÁT",
+     "xy": [
+      51,
+      956
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 43,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 44,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_1.pdf"
+  }
+ ]
+}

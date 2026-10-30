@@ -1,0 +1,375 @@
+{
+ "id": "van_phong_nha_hang_02",
+ "cong_nang": "van_phong_nha_hang",
+ "so_trang": 4,
+ "phan": [],
+ "cao_pccc_m": [],
+ "ghcl": [],
+ "van_ban_trich": {},
+ "luu_y": "Trích tự động từ PDF; mọi số liệu là CẦN XÁC NHẬN khi dùng cho dự án khác. Hình học: tọa độ pt PDF, mm_moi_pt để đổi ra mm.",
+ "trang": [
+  {
+   "trang": 1,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "CQNG HOA XA HQI CITU NGHIA VIET NAM",
+     "xy": [
+      277,
+      61
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THAM DTIYET THITT Xf VT PHONG CHAY VA CHUA CHAY",
+     "xy": [
+      93,
+      155
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ctin cti .\\'glri ctinh sd t36/2020/n\"D-CP ngA.r'21 thting ll ndm 2020 ctia Chinh phti qq'",
+     "xy": [
+      99,
+      180
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": ".linlt chi riit nOi s,i ctiiu vit biQn phap thi hdnh LtQt Phdng chalt vd chiia chd1, vd Luar stia doi,",
+     "xy": [
+      67,
+      203
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "bi .stttrg ttrot .s6 diiu cua l-uat Phdng chat'vd chiia chat'. Ngh! clinh so 50/2021/lnD-CP ngiiy l0",
+     "xy": [
+      68,
+      216
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thung 5 ntim 2021 ctiu chinh phu stia doi, bo sung m7r sti diiu Nshi dinh sti tsanozot\\g-cp",
+     "xy": [
+      67,
+      234
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ttgil' )-l rlting I I narn )020 cua Chinh phu qt4'ctinh chi tiir ntor sd diiu uit biQn phop thi hdnh tlriitr tlui.t vi \\'gtri dirth t,j 83'2017i,\\D-CP ngdl' l8 thting 7 ntim 2017 cua Clinh plni qu1' dryh",
+     "xy": [
+      70,
+      252
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ltrtit Pht)try t'hth'va clfitt chal' vd Luat stra doi, bd sung mOt s6 cliiu cict Ludt Ph<)ng chay vit",
+     "xy": [
+      67,
+      269
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "cong kit ttht nan. c'thr lt6 ctru luc lu'rng phdng clfiy vir chiro chdt'.",
+     "xy": [
+      67,
+      302
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": ".Yt,r lti .trt t'tt vcin butt tti ngh! thint duyQt thi\\t kd ti phong chtit t'it chira chal'ngw\\ 18 \\'.gttr'ti thti tliitt tlrut phQt ltrit li Ong,iBir /r'gu.v€n 'l'lri liin 'l'lruu; Chrc vu. Chti dau nL",
+     "xy": [
+      98,
+      315
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "rlttitrs lttttirut )tt).1 Lrirr Ottg Bit l{guvdn T'hi KimTlno.",
+     "xy": [
+      69,
+      335
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "I)tn vi trr r rin thiCt li0: C6nc L I)rr,rrr.q r:irro rlrirrtrr t.lrrr 19 chii6 e hiil : klroang cdch phorrr.l e hil e lrone chir :",
+     "xy": [
+      100,
+      475
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "I llo tri ciurg rrirng ctur ctirrg trinh lidn quan di'n phong chril r'a ch rlra chiir: I I ii. tlLrtvng llrorir nan. h.; thong dtn chidu siing su cir. clen chi din thozit nan:",
+     "xy": [
+      100,
+      518
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "l (ir;rr Phun cip di\";n cho h0 thong pht)ng cha1,r,i chira chiil,vd c6c he th6ng l(y n lnrrrg hi phrnrrru tir-1rr ul:rl'ir chdr han rliiu.",
+     "xy": [
+      102,
+      566
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thuiit khric cti liin quan re phong cheiv r.,ii chtia chdr.:",
+     "xy": [
+      66,
+      585
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "5. I Lr thong chira chrir hAns nuric: hQ thong brio chdr, trr d6ng:",
+     "xy": [
+      99,
+      604
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "(lLrr mo tltr rin,'cting trinhi phtLtrng ti.An vii danh uruc cdc tdi liQu. bdn vcr duoc thiur",
+     "xy": [
+      98,
+      632
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "dur 0t thiit ke1 r i phone chiir r ii chira chrir ghi tai trarrg 2.1!--",
+     "xy": [
+      65,
+      644
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Thirnlt pltit t-t6 Chi Minh, ngir:' /ij thdng /,'i ncint 2021",
+     "xy": [
+      255,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Corg art QLrrrr i:",
+     "xy": [
+      60,
+      733
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 2,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 3,
+   "ma": null,
+   "ten": null,
+   "hang_muc": null,
+   "loai": "khac",
+   "ghi_chu": [
+    {
+     "chu": "cQN(; iloA XA HQI CrIa NGtliA vltlT NAM",
+     "xy": [
+      301,
+      51
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Viv phi.thdrn duyQt thi6t t<6 vC pCCC OOi vOi",
+     "xy": [
+      42,
+      117
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-l'heo d6 nghj cua Ong/Bd Nguy6n Thi Kim Thoa t4i vdn bdn ngdy",
+     "xy": [
+      122,
+      204
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1.3/1012024 v0 vi6c thArn duyQt thi6t ke vA phong ch6y v2r chira chdy OOi vOl nO",
+     "xy": [
+      88,
+      227
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "scr rhiet t<6 Van phong cho thue tei dia chi Sii 36 duong Phu Thuan, Phudng Tdn",
+     "xy": [
+      86,
+      244
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phdng Canh srit PCCC&CNCH - C6ng an 'Ihrinh pnO UO Chi Minh th6ng",
+     "xy": [
+      115,
+      279
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "bio phi thArn duyet thiet kd v6 phong ch6y vd chta chriy d6i voi c6ng trinh n6u",
+     "xy": [
+      86,
+      300
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "trern ducrc xrlc clinh theo hudng dAn cta Bg 'fei chinh t4i Th6ng tu s6",
+     "xy": [
+      86,
+      308
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "158/2016/l'1'-B'l'C ngdy lllll12016 quy dinh rnuc thu, ngp, quan lf vd su dung",
+     "xy": [
+      86,
+      330
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "phi thdm rluyQt thi6t k5 v6 phdng ch6y vir chira ch6y vd Th6ng tu s6",
+     "xy": [
+      87,
+      347
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "43l2)24rll-B'l'C ngdy 281612024 cua BQ 'l'rii chinh quy dlnh rnric thu rnQt s6",
+     "xy": [
+      88,
+      364
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "khodn phi. I0 phi nhinr ti6p tuc thdo gO kho khan, h6 tro cho hoqt dQng san xu6t",
+     "xy": [
+      86,
+      387
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "'l'ong rnuc diu tu di duoc ph€ duy6t truoc thu6: 4.450.955.400 tl6ng. I)hi thirn clr-ry6t cua c6ng trinh: 250.000 d6ng (Bdng chi: Hai trdm ndnt",
+     "xy": [
+      122,
+      421
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "De nghi Ong/lld Nguy6n Thi Kim 'l'hoa nQp s6 tien phi th6m duyQt thiiit",
+     "xy": [
+      123,
+      485
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ke ve PCCC d6i vrii c6ng trinlr ncu tr0n qua C6ng dlch vu c6ng BQ C6ng an theo",
+     "xy": [
+      86,
+      506
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "duong link truy c{p http://dichvucong.bocongan.gov.vn (thtrc hi€n theo cdc",
+     "xy": [
+      86,
+      522
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "I'troi htrirng ldn tt tt'ung ) vdn ban na1').",
+     "xy": [
+      86,
+      537
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Iloac rrop tiOn mit tqi: Phong C6nh srit PCCC&CNCH - C6ng an TP Hd",
+     "xy": [
+      123,
+      562
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Chi Minh. s6 :S,l - 25tl du<rng'l'rin I-lung Dao, phuong Nguy6n Cu'Irinh. QuAn",
+     "xy": [
+      86,
+      579
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D2",
+    "S6"
+   ],
+   "cao_pccc_m": [],
+   "phan": null,
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 4,
+   "loai": "bia",
+   "phan": null,
+   "file": "tep_1.pdf"
+  }
+ ]
+}

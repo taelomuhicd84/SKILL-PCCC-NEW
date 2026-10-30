@@ -1,0 +1,3438 @@
+{
+ "id": "nha_xuong_17",
+ "cong_nang": "nha_xuong",
+ "so_trang": 45,
+ "phan": [
+  "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+  "TỔNG THỂ",
+  "NHÀ XƯỞNG B",
+  "CÔNG TRÌNH PHỤ TRỢ",
+  "ĐÈN EX - EM",
+  "CHỮA CHÁY",
+  "CHỐNG SÉT",
+  "CẤP ĐIỆN"
+ ],
+ "cao_pccc_m": [],
+ "ghcl": [
+  "E15",
+  "REI150",
+  "REI90"
+ ],
+ "van_ban_trich": {
+  "QCVN 06:2022": [
+   "bảng 4",
+   "mục d2",
+   "điều 4.33.3",
+   "điều 6.4"
+  ],
+  "QCVN 10:2025": [
+   "bảng 2",
+   "bảng h5"
+  ],
+  "TCVN 13456:2022": [
+   "điều 5.1"
+  ],
+  "TCVN 3890:2023": [],
+  "TCVN 4879:1989": [],
+  "TCVN 5740:2023": [],
+  "TCVN 6379:2024": [],
+  "TCVN 7722-2-22:2013": [],
+  "TT 150/2020": []
+ },
+ "luu_y": "Trích tự động từ PDF; mọi số liệu là CẦN XÁC NHẬN khi dùng cho dự án khác. Hình học: tọa độ pt PDF, mm_moi_pt để đổi ra mm.",
+ "trang": [
+  {
+   "trang": 1,
+   "loai": "bia",
+   "phan": "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 2,
+   "loai": "bia",
+   "phan": "KIẾN TRÚC + KẾT CẤU + HỆ THỐNG PCCC",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 3,
+   "loai": "bia",
+   "phan": "TỔNG THỂ",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 4,
+   "ma": null,
+   "ten": "MẶT BẰNG TỔNG THỂ",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Cụm bơm chữa cháy hiện hữu gồm: 1 bơm điện 65 L/s, H=70mcn 1 bơm Diesel 65 L/s, H=70mcn 1 Bơm bù áp 5 M3/h, H= 80 mcn",
+     "xy": [
+      58,
+      679
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ VĂN PHÒNG + KÝ TÚC XÁ: (75x14)M",
+     "xy": [
+      1301,
+      999
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1 2 3 4 5 6 7 8 9 10 -HỆ THỐNG NĂNG LƯỢNG MẶT TRỜI: (5x15)M 11 -NHÀ RÁC: (5x15)M 12 -NHÀ XE 02: (6x22)M 13 -TRẠM GAS (500T): (7,1x15,3)M",
+     "xy": [
+      1074,
+      1003
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ BẢO VỆ + PHÒNG ĐỢI: (4x10)M",
+     "xy": [
+      1301,
+      1010
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ BẢO DƯỠNG KHUÔN 02: (6x25,6)M",
+     "xy": [
+      1084,
+      1017
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BÃI ĐỖ XE Ô TÔ: (15x5)M",
+     "xy": [
+      1300,
+      1022
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-PHÒNG BẢO TRÌ: (5x20,2)M",
+     "xy": [
+      1084,
+      1031
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ BẢO VỆ: (4.6x4)M",
+     "xy": [
+      1300,
+      1034
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ VS CÔNG CỘNG 03: (4x10)M",
+     "xy": [
+      1084,
+      1044
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ NƯỚC CỨU HỎA NGẦM: (15x5)M",
+     "xy": [
+      1300,
+      1045
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HẠNG MỤC HIỆN HỮU CỦA GĐ1 ĐÃ ĐƯỢC THẨM DUYỆT SỐ",
+     "xy": [
+      1433,
+      1049
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ VS CÔNG CỘNG 04: (4x5)M",
+     "xy": [
+      1084,
+      1058
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ VỆ SINH CÔNG NHÂN: 3x(4x11,5)M",
+     "xy": [
+      1300,
+      1068
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TRẠM KHÍ NÉN P3: (10x4)M",
+     "xy": [
+      1083,
+      1071
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      404,
+      1077
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ NƯỚC NGẦM 03",
+     "xy": [
+      1084,
+      1085
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      436,
+      1091
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TRẠM KHÍ NÉN: 2x(5x8)M",
+     "xy": [
+      1300,
+      1092
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-PHÒNG ĐÓNG GÓI: (5,5x5)M",
+     "xy": [
+      1084,
+      1099
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TRẠM KHÍ NÉN: (5x14)M",
+     "xy": [
+      1300,
+      1103
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TRẠM BIẾN ÁP: (5x5)M",
+     "xy": [
+      1083,
+      1112
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      436,
+      1123
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ NƯỚC NGẦM 1: 2x(20x5)M",
+     "xy": [
+      1300,
+      1126
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ NƯỚC NGẦM 2: (10x5)M",
+     "xy": [
+      1300,
+      1138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      405,
+      1144
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ BẢO DƯỠNG KHUÔN: (15x5)M",
+     "xy": [
+      1300,
+      1149
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ XLNT SINH HOẠT: (20x5)M",
+     "xy": [
+      1300,
+      1161
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "m04-giao-thong"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 5,
+   "ma": null,
+   "ten": "MẶT BẰNG TỔNG THỂ MÁI",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "-NHÀ VĂN PHÒNG + KÝ TÚC XÁ: (75x14)M",
+     "xy": [
+      1301,
+      999
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1 2 3 4 5 6 7 8 9 10 -HỆ THỐNG NĂNG LƯỢNG MẶT TRỜI: (5x15)M 11 -NHÀ RÁC: (5x15)M 12 -NHÀ XE 02: (6x22)M 13 -TRẠM GAS (500T): (7,1x15,3)M",
+     "xy": [
+      1074,
+      1003
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ BẢO VỆ + PHÒNG ĐỢI: (4x10)M",
+     "xy": [
+      1301,
+      1010
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ BẢO DƯỠNG KHUÔN 02: (6x25,6)M",
+     "xy": [
+      1084,
+      1017
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BÃI ĐỖ XE Ô TÔ: (15x5)M",
+     "xy": [
+      1300,
+      1022
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-PHÒNG BẢO TRÌ: (5x20,2)M",
+     "xy": [
+      1084,
+      1031
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ BẢO VỆ: (4.6x4)M",
+     "xy": [
+      1300,
+      1034
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ VS CÔNG CỘNG 03: (4x10)M",
+     "xy": [
+      1084,
+      1044
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ NƯỚC CỨU HỎA NGẦM: (15x5)M",
+     "xy": [
+      1300,
+      1045
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HẠNG MỤC HIỆN HỮU CỦA GĐ1 ĐÃ ĐƯỢC THẨM DUYỆT SỐ",
+     "xy": [
+      1433,
+      1049
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ VS CÔNG CỘNG 04: (4x5)M",
+     "xy": [
+      1084,
+      1058
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ VỆ SINH CÔNG NHÂN: 3x(4x11,5)M",
+     "xy": [
+      1300,
+      1068
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TRẠM KHÍ NÉN P3: (10x4)M",
+     "xy": [
+      1083,
+      1071
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ NƯỚC NGẦM 03",
+     "xy": [
+      1084,
+      1085
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      403,
+      1091
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TRẠM KHÍ NÉN: 2x(5x8)M",
+     "xy": [
+      1300,
+      1092
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-PHÒNG ĐÓNG GÓI: (5,5x5)M",
+     "xy": [
+      1084,
+      1099
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      431,
+      1103
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TRẠM KHÍ NÉN: (5x14)M",
+     "xy": [
+      1300,
+      1103
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-TRẠM BIẾN ÁP: (5x5)M",
+     "xy": [
+      1083,
+      1112
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ NƯỚC NGẦM 1: 2x(20x5)M",
+     "xy": [
+      1300,
+      1126
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      431,
+      1131
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ NƯỚC NGẦM 2: (10x5)M",
+     "xy": [
+      1300,
+      1138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-NHÀ BẢO DƯỠNG KHUÔN: (15x5)M",
+     "xy": [
+      1300,
+      1149
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      404,
+      1149
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "-BỂ XLNT SINH HOẠT: (20x5)M",
+     "xy": [
+      1300,
+      1161
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 6,
+   "ma": null,
+   "ten": "MẶT BẰNG TỔNG THỂ MÁI",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "* GHI CHÚ BÃI QUAY XE PCCC: - Bãi quay xe PCCC được thiết kế theo điều 6.4 QCVN 06:2022/BXD. - Hình tam giác đều có cạnh không nhỏ hơn 7m, một đỉnh nằm ở đường cụt, hai đỉnh nằm cân đối ở hai bên đường",
+     "xy": [
+      36,
+      974
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 6.4"
+      }
+     ]
+    },
+    {
+     "chu": "Ghi chú đường giao thông PCCC: - Bề rộng đường giao thông đảm bảo tối thiếu 3.5m - Phía trên đường cho xe chữa cháy không có các kết cấu chặn phía trên - Chiều cao thông thủy của đường cho xe chữa cháy lớn hơn 4.5m - Độ dốc của đường xe chữa cháy không vượt quá 1:8,3 - Đường giao thông chịu được tải trọng của xe chữa cháy theo yêu cầu thiết kế & phù hợp với chủng loại phương tiện của cơ quan cảnh sát PCCC & CNCH ( >= 30 tấn).",
+     "xy": [
+      37,
+      1035
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      633,
+      1060
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      669,
+      1076
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      669,
+      1113
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      634,
+      1136
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 6.4"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 7,
+   "ma": null,
+   "ten": "THUYẾT MINH BÃI ĐỖ XE PCCC",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "Nền bê tông cốt thép dày 150, 2 lớp thép hàn d10a200, bê tông xoa phẳng, lăn lu lô Lớp đá 0x4 dày 300 lu lèn đầm chặt Lớp đất tự nhiên lu lèn đầm chặt",
+     "xy": [
+      1157,
+      46
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Nền bê tông cốt thép dày 150, 2 lớp thép hàn d8a200, bê tông xoa phẳng, lăn lu lô Lớp đá 0x4 dày 300 lu lèn đầm chặt Lớp đất tự nhiên lu lèn đầm chặt",
+     "xy": [
+      1141,
+      365
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ghi chú đường giao thông PCCC:",
+     "xy": [
+      49,
+      670
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ghi chú bãi đỗ xe PCCC: - Bãi đỗ xe chữa cháy dùng cho Nhà xưởng B - Đỗ dốc bãi đỗ xe chữa cháy không quá 1:15. - Bãi đỗ xe chữa cháy bố trí cách công trình khoảng 2 -10m - Đánh dấu tất cả các góc của bãi đỗ xe chữa cháy và đường cho xe chữa cháy ngoại trừ những đường giao thông công cộng được sử dụng làm bãi đỗ xe chữa cháy hoặc đường cho xe chữa cháy, việc đánh dấu phải thực hiện bằng các dải sơn phản quang, đảm bảo có thể nhìn thấy được vào buổi tối và phải bố trí ở cả hai phía của đường cho xe chữa cháy hoặc bãi đỗ xe chữa cháy với khoảng cách không quá 5m. - Tại các điểm đầu và điểm cuối của bãi đỗ xe chữa cháy có biện bảo nền trắng, chữ đỏ với chiều cao chữ không nhỏ hơn 50mm. Chiều cao từ mặt đất đến điểm thấp nhất phải nằm trong khoảng 1 - 1.5m. Biển báo phải đảm bảo nhìn thấy được vào buổi tối và không được bố trí cách đường cho xe chữa cháy hoặc bãi đỗ xe không quá 3m. Tất cả các phần của đường cho xe chữa cháy hoặc bãi đỗ xe chữa cháy không được cách biển báo gần quá 15m.",
+     "xy": [
+      886,
+      676
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Bề rộng đường giao thông đảm bảo tối thiếu 3.5m Phía trên đường cho xe chữa cháy không có các kết cấu chặn phía trên Chiều cao thông thủy của đường cho xe chữa cháy lớn hơn 4.5m Độ dốc của đường xe chữa cháy không vượt quá 1:8,3 Đường giao thông chịu được tải trọng của xe chữa cháy theo yêu cầu thiết kế & phù hợp với chủng loại phương tiện của cơ quan Cảnh sát PCCC & CNCH ( >= 30 tấn).",
+     "xy": [
+      106,
+      697
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Chữ đỏ, chiều cao chữ không nhỏ hơn 50mm.",
+     "xy": [
+      728,
+      898
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CT BIỂN BÁO BÃI ĐỖ XE CHỮA CHÁY",
+     "xy": [
+      565,
+      1134
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 8,
+   "ma": null,
+   "ten": "MẶT BẰNG TỔNG THỂ MÁI",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "Cụm bơm chữa cháy hiện hữu gồm: 1 bơm điện 65 L/s, H=70mcn 1 bơm Diesel 65 L/s, H=70mcn 1 Bơm bù áp 5 M3/h, H= 80 mcn",
+     "xy": [
+      58,
+      679
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      507,
+      1061
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      544,
+      1077
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      544,
+      1114
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      508,
+      1137
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "TỔNG THỂ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 9,
+   "loai": "bia",
+   "phan": "NHÀ XƯỞNG B",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 10,
+   "ma": null,
+   "ten": "THUYẾT MINH KIẾN TRÚC",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "KẾT CẤU THÉP (VÌ KÈO, XÀ GỒ, MÁI TÔN...) CỘT THÉP",
+     "xy": [
+      359,
+      161
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "NỀN BÊ TÔNG CỐT THÉP TƯỜNG XÂY GẠCH ĐẶC DÀY 200MM CỬA ĐI BẰNG THÉP",
+     "xy": [
+      359,
+      220
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG CHÚ THÍCH GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN NHÀ XƯỞNG CHỊU LỬA BẬC IV",
+     "xy": [
+      579,
+      352
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GIỚI HẠN CHỊU LỬA CỦA CẤU KIỆN KHÔNG NHỎ HƠN",
+     "xy": [
+      660,
+      395
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG CHỊU LỰC, CỘT CHỊU LỰC VÀ CÁC BỘ PHẬN CHỊU LỰC KHÁC",
+     "xy": [
+      447,
+      434
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG CHÚ THÍCH CẤP NGUY HIỂM CHÁY CỦA CẤU KIỆN XÂY DỰNG NHÀ XƯỞNG CÓ CẤP NGUY HIỂM CHÁY S0",
+     "xy": [
+      367,
+      589
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CẤP NGUY HIỂM CHÁY CỦA CẤU KIỆN XÂY DỰNG",
+     "xy": [
+      674,
+      628
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁC BỘ PHẬN CHỊU LỰC DẠNG THANH (CỘT, XÀ, GIÀN VÀ",
+     "xy": [
+      463,
+      654
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG, VÁCH NGĂN, SÀN GIỮA CÁC TẦNG VÀ MÁI KHÔNG CÓ",
+     "xy": [
+      756,
+      654
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TƯỜNG CỦA CÁC BUỒNG THANG BỘ, BỘ PHẬN NGĂN CHÁY",
+     "xy": [
+      936,
+      660
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Kết cấu chịu lực chính của nhà xưởng B bao gồm: + Cột btct đảm bảo GHCL R=15 phút + kèo, giằng chính (và các liên kết giữa cột, kèo, giằng chính) tham gia đảm bảo ổn định của công trình đảm bảo giới hạn chịu lửa R = 15 phút. hệ số tiết diện Am/V < 250 m-1 (tính theo TCVN ISO 834-10). + Tấm lợp: mái tôn kim loại không yêu cầu giới hạn chịu lửa. + Tường ngoài không chịu lực là tường gạch 100mm có GHCL REI90 và vách tole",
+     "xy": [
+      129,
+      840
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Thuyết minh vật liệu: - Vật liệu hoàn thiện được trang trí tường và trần ( bao gồm tấm trần treo nếu có), vật liệu ốp lát, vật liệu phủ sàn trên đường thoát nạn, trong các gian phòng chung tuân thủ yêu cầu tại bảng B.8, B.9 Phụ lục B QCVN 06:2022/BXD. - Nền nhà hoàn thiện bằng BTCT, mặt nền phủ lớp hoàn thiện bằng xi măng, cấp nguy hiểm cháy của vật liệu làm nền nhà dọc theo đường thoát nạn CV0. - Trên đường thoát nạn, trong các gian phòng không ốp lát vật liệu trang trí ( sàn BTCT, Tường gạch trát xi măng sơn nước, trần thạch cao).",
+     "xy": [
+      752,
+      847
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "+ Xà gồ không tham gia vào tính ổn định của công trình",
+     "xy": [
+      129,
+      979
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "*Ghi chú: Khi bố trí các đường ống kỹ thuật, đường cáp đi xuyên qua các kết cấu tường, sàn, vách thì chỗ tiếp giáp giữa các đường ống, đường cáp với các kết cấu này phải được chèn bịt hoặc xử lí thích hợp để không làm giảm các chỉ tiêu kỹ thuật về cháy theo yêu cầu của kết cấu.",
+     "xy": [
+      482,
+      1050
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ]
+   ],
+   "ghcl": [
+    "REI90"
+   ],
+   "ky_hieu": [
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XƯỞNG B",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 11,
+   "ma": null,
+   "ten": "MẶT BẰNG TRỆT NHÀ XƯỞNG B",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ : Nhà xưởng có công năng sản xuất phụ tùng và bộ phận phụ trợ cho xe có động cơ và động cơ xe bao gồm : + Sản xuất, gia công sản xuất thanh, ống kim loại ép đùn. + Sản xuất gia công ống kim loại đầu nhọn. + Sản xuất gia công thanh, ống kim loại kéo dài. + Sản xuất thanh, ống kim loại thẳng. => Nhà xưởng có hạng sản xuất hạng D (Mục C.3.2.3 phụ lục C, QCVN 06:2022- BXD) - Không yêu cầu trang bị hệ thống báo cháy theo điều 4.12 TCVN 3890-2023 BXD. - Không yêu cầu trang bị hệ thống chữa cháy tự động Spinkler (Phụ lục A TCVN 3890-2023) - Không yêu cầu trang bị hệ thống thông gió hút khói (Điều f mục D2, Phụ lục D, Sửa đổi 01 QCVN 06:2022-BXD)",
+     "xy": [
+      42,
+      22
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "mục d2"
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ: - Nhà xưởng cơ khí có hạng nguy hiểm cháy nổ D, thuộc nhóm nhà F5.1, nhóm nguy cơ phát sinh cháy nhóm 2 - Không bố trí các gian phòng hạng A, B, các hóa chất dung môi dễ cháy bên trong nhà xưởng - Nhà xưởng cho thuê có tải trong cháy riêng từ 181 MJ/m2 đến 1400 MJ/m2. - Tất cả các tủ điện có thể tích < 1m3, được đặt bên ngoài nhà xưởng - Trong trường hợp thay đổi hạng sản xuất của công trình phải thực hiện thẩm duyệt điều chỉnh PCCC. *Nhà xưởng có bậc chịu lửa bậc IV + Cột thép, vi kèo chịu lực có GHCL R15 (xem bảng tính toán theo hệ số tiết diện Am/V nhỏ hơn hoặc bằng 250 m-1 ) lưu ý hệ số Am/V được xác định theo ISO 834-10. + Kết cấu mái: xà gồ mái có GHCL R15 ( Công trình có lắp đặt các tấm lớp các nhiệt có GHCL E15) *Ghi chú: các bộ phận chịu lực bao gồm: cột thép, vi kèo đảm bảo độ bền tổng thể & sự ổn định của nhà khi có cháy *Nhà xưởng có cấp nguy hiểm cháy kết cấu S0: + Các bộ phận chịu lực bao gồm cột, vi kèo có cấp nguy hiểm cháy K0. + Tường ngoài là vách Tole có cấp nguy hiểm cháy K0 + Các bộ phận kết cấu mái bao gồm xà gồ & tấm lợp có cấp nguy hiểm cháy K0. *Vật liệu hoàn thiện, trang trí và trần ( bao gồm cả tấm trần treo nếu có), vật liệu ốp lát, vật liệu phủ sàn trên đường thoát nạn có cấp nguy hiểm cháy CV0 tuân thủ yêu cầu tại bảng B.8, phụ lục B-QC06.2022)",
+     "xy": [
+      46,
+      191
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ: * Theo chú thích 2 bảng 4 của Sửa đổi 1:2023 QCVN 06:2022/BXD + Tấm lợp: là vật liệu không cháy ( kim loại) không yêu cầu GHCL + Xà gồ: có GHCL R15 ( xem bảng tính toán kết cấu hệ số Am/V) * Tấm lợp cách nhiệt: theo mục 1.3 của Công văn 1091/C07-P3,P4,P7 ngày 11/04/2023, các tấm lợp không tham gia chịu lực của bộ phận mái thì không yêu cầu \"R\". Theo thiết kế, tấm lợp cách nhiệt không tham gia vào chịu lực của bộ phận mái, không tham gia vào hệ kết cấu ổn định của công trình. => Kết luận: tấm lợp cách nhiệt có GHCL E15",
+     "xy": [
+      36,
+      766
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      }
+     ]
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      42,
+      1032
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      88,
+      1052
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      88,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      44,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 06:2022",
+     "bảng 4"
+    ],
+    [
+     "QCVN 06:2022",
+     "mục d2"
+    ]
+   ],
+   "ghcl": [
+    "E15"
+   ],
+   "ky_hieu": [
+    "D2",
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ XƯỞNG B",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 12,
+   "ma": null,
+   "ten": "MẶT BẰNG CẦU TRỤC NHÀ XƯỞNG B",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ : Nhà xưởng có công năng sản xuất phụ tùng và bộ phận phụ trợ cho xe có động cơ và động cơ xe bao gồm : + Sản xuất, gia công sản xuất thanh, ống kim loại ép đùn. + Sản xuất gia công ống kim loại đầu nhọn. + Sản xuất gia công thanh, ống kim loại kéo dài. + Sản xuất thanh, ống kim loại thẳng. => Nhà xưởng có hạng sản xuất hạng D (Mục C.3.2.3 phụ lục C, QCVN 06:2022- BXD) - Không yêu cầu trang bị hệ thống báo cháy theo điều 4.12 TCVN 3890-2023 BXD. - Không yêu cầu trang bị hệ thống chữa cháy tự động Spinkler (Phụ lục A TCVN 3890-2023) - Không yêu cầu trang bị hệ thống thông gió hút khói (Điều f mục D2, Phụ lục D, Sửa đổi 01 QCVN 06:2022-BXD)",
+     "xy": [
+      42,
+      22
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "mục d2"
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ: - Nhà xưởng cơ khí có hạng nguy hiểm cháy nổ D, thuộc nhóm nhà F5.1, nhóm nguy cơ phát sinh cháy nhóm 2 - Không bố trí các gian phòng hạng A, B, các hóa chất dung môi dễ cháy bên trong nhà xưởng - Nhà xưởng cho thuê có tải trong cháy riêng từ 181 MJ/m2 đến 1400 MJ/m2. - Tất cả các tủ điện có thể tích < 1m3, được đặt bên ngoài nhà xưởng - Trong trường hợp thay đổi hạng sản xuất của công trình phải thực hiện thẩm duyệt điều chỉnh PCCC. *Nhà xưởng có bậc chịu lửa bậc IV + Cột thép, vi kèo chịu lực có GHCL R15 (xem bảng tính toán theo hệ số tiết diện Am/V nhỏ hơn hoặc bằng 250 m-1 ) lưu ý hệ số Am/V được xác định theo ISO 834-10. + Kết cấu mái: xà gồ mái có GHCL R15 ( Công trình có lắp đặt các tấm lớp các nhiệt có GHCL E15) *Ghi chú: các bộ phận chịu lực bao gồm: cột thép, vi kèo đảm bảo độ bền tổng thể & sự ổn định của nhà khi có cháy *Nhà xưởng có cấp nguy hiểm cháy kết cấu S0: + Các bộ phận chịu lực bao gồm cột, vi kèo có cấp nguy hiểm cháy K0. + Tường ngoài là vách Tole có cấp nguy hiểm cháy K0 + Các bộ phận kết cấu mái bao gồm xà gồ & tấm lợp có cấp nguy hiểm cháy K0. *Vật liệu hoàn thiện, trang trí và trần ( bao gồm cả tấm trần treo nếu có), vật liệu ốp lát, vật liệu phủ sàn trên đường thoát nạn có cấp nguy hiểm cháy CV0 tuân thủ yêu cầu tại bảng B.8, phụ lục B-QC06.2022)",
+     "xy": [
+      46,
+      191
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "GHI CHÚ: * Theo chú thích 2 bảng 4 của Sửa đổi 1:2023 QCVN 06:2022/BXD + Tấm lợp: là vật liệu không cháy ( kim loại) không yêu cầu GHCL + Xà gồ: có GHCL R15 ( xem bảng tính toán kết cấu hệ số Am/V) * Tấm lợp cách nhiệt: theo mục 1.3 của Công văn 1091/C07-P3,P4,P7 ngày 11/04/2023, các tấm lợp không tham gia chịu lực của bộ phận mái thì không yêu cầu \"R\". Theo thiết kế, tấm lợp cách nhiệt không tham gia vào chịu lực của bộ phận mái, không tham gia vào hệ kết cấu ổn định của công trình. => Kết luận: tấm lợp cách nhiệt có GHCL E15",
+     "xy": [
+      36,
+      766
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      }
+     ]
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      42,
+      1032
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      88,
+      1052
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      88,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      44,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 06:2022",
+     "bảng 4"
+    ],
+    [
+     "QCVN 06:2022",
+     "mục d2"
+    ]
+   ],
+   "ghcl": [
+    "E15"
+   ],
+   "ky_hieu": [
+    "D2",
+    "S0"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ XƯỞNG B",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 13,
+   "ma": null,
+   "ten": "MẶT BẰNG MÁI NHÀ XƯỞNG B",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "GHI CHÚ: * Theo chú thích 2 bảng 4 của Sửa đổi 1:2023 QCVN 06:2022/BXD + Tấm lợp: là vật liệu không cháy ( kim loại) không yêu cầu GHCL + Xà gồ: có GHCL R15 ( xem bảng tính toán kết cấu hệ số Am/V)",
+     "xy": [
+      40,
+      867
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "bảng 4"
+      }
+     ]
+    },
+    {
+     "chu": "Theo mục A.1.3.1 Sửa đổi 01 QCVN 06:2022/BXD quy định : - Đối với các nhà có chiều cao từ cốt mặt đất thiết kế đến thành gờ hoặc mặt trên của tường chắn mái lớn hơn hoặc bằng 10m thì cứ 40 000m2 diện tích mặt bằng mái phải có 1 lối lên mái, nếu diện tích mặt bằng mái chưa đủ 40 000m2 thì vẫn phải bố trí ít nhất 1 lối lên mái. => Nhà xưởng B có chiều cao diềm mái là 9m < 10m nên không cần phải trang bị lối lên mái.",
+     "xy": [
+      40,
+      921
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      42,
+      1032
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      88,
+      1052
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      88,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      44,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 06:2022",
+     "bảng 4"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ XƯỞNG B",
+   "agent": [
+    "m05-cong-nang"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 14,
+   "ma": null,
+   "ten": "MẶT ĐỨNG TRỤC 1 - 7 VÀ 7 - 1",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "1. Mặt đứng 1 - 7 của Nhà xưởng cách Ranh đất 51.5m > 3m nên không quy định tỉ lệ tổng diện tích các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường trục 1 - 7. 2. Mặt đứng 1 - 7 của Nhà xưởng là tường gạch 200mm GHCL REI150 và vách Tole 3. Nhà xưởng có chiều cao PCCC < 15m nên không yêu cầu ngăn cháy theo phương đứng theo điều (Đ.4.33.1 đến Đ.4.33.3 Sửa đổi 01:2023 QCVN06/2022-BXD)",
+     "xy": [
+      39,
+      22
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 4.33.3"
+      }
+     ]
+    },
+    {
+     "chu": "TẤM MÁI TÔN MÀU DÀY 0.45mm ROOF TOLE SHEET 0.45mm THK",
+     "xy": [
+      292,
+      138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM MÁI TÔN MÀU DÀY 0.45mm ROOF TOLE SHEET 0.45mm THK",
+     "xy": [
+      938,
+      138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN MẠ MÀU DÀY 0.45mm COVERED BY COLOR SHEET 0.45mm THK",
+     "xy": [
+      742,
+      138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN MẠ MÀU DÀY 0.45mm COVERED BY COLOR SHEET 0.45mm THK",
+     "xy": [
+      1211,
+      138
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN MẠ MÀU DÀY 0.45mm COVERED BY COLOR SHEET 0.45mm THK",
+     "xy": [
+      511,
+      595
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN MẠ MÀU DÀY 0.45mm COVERED BY COLOR SHEET 0.45mm THK",
+     "xy": [
+      1066,
+      595
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      36,
+      1055
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      75,
+      1072
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. Mặt đứng 7 - 1 của Nhà xưởng cách Nhà xe văn phòng 23.4m > 12m nên không quy định tỉ lệ tổng diện tích các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường trục 7 - 1. 2. Mặt đứng 7 - 1 của Nhà xưởng là tường gạch 200mm GHCL REI150 và vách Tole 3. Nhà xưởng có chiều cao PCCC < 15m nên không yêu cầu ngăn cháy theo phương đứng theo điều (Đ.4.33.1 đến Đ.4.33.3 Sửa đổi 01:2023 QCVN06/2022-BXD)",
+     "xy": [
+      819,
+      1078
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 4.33.3"
+      }
+     ]
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      75,
+      1111
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      38,
+      1136
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 4.33.3"
+    ]
+   ],
+   "ghcl": [
+    "REI150"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XƯỞNG B",
+   "agent": [
+    "m04-giao-thong"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 15,
+   "ma": null,
+   "ten": "MẶT ĐỨNG TRỤC A - N VÀ N - A",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_dung",
+   "ghi_chu": [
+    {
+     "chu": "1. Mặt đứng 1 - 7 của Nhà xưởng cách Ranh đất 51.5m > 3m nên không quy định tỉ lệ tổng diện tích các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường trục 1 - 7. 2. Mặt đứng 1 - 7 của Nhà xưởng là tường gạch 200mm GHCL REI150 và vách Tole 3. Nhà xưởng có chiều cao PCCC < 15m nên không yêu cầu ngăn cháy theo phương đứng theo điều (Đ.4.33.1 đến Đ.4.33.3 Sửa đổi 01:2023 QCVN06/2022-BXD)",
+     "xy": [
+      39,
+      22
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 4.33.3"
+      }
+     ]
+    },
+    {
+     "chu": "TẤM MÁI TÔN MÀU DÀY 0.45mm ROOF TOLE SHEET 0.45mm THK",
+     "xy": [
+      343,
+      226
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM MÁI TÔN MÀU DÀY 0.45mm ROOF TOLE SHEET 0.45mm THK",
+     "xy": [
+      905,
+      226
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN MẠ MÀU DÀY 0.45mm COVERED BY COLOR SHEET 0.45mm THK",
+     "xy": [
+      536,
+      226
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN MẠ MÀU DÀY 0.45mm COVERED BY COLOR SHEET 0.45mm THK",
+     "xy": [
+      1099,
+      226
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM MÁI TÔN MÀU DÀY 0.45mm ROOF TOLE SHEET 0.45mm THK",
+     "xy": [
+      208,
+      610
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM MÁI TÔN MÀU DÀY 0.45mm ROOF TOLE SHEET 0.45mm THK",
+     "xy": [
+      683,
+      610
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM MÁI TÔN MÀU DÀY 0.45mm ROOF TOLE SHEET 0.45mm THK",
+     "xy": [
+      1225,
+      610
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN MẠ MÀU DÀY 0.45mm COVERED BY COLOR SHEET 0.45mm THK",
+     "xy": [
+      400,
+      610
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN MẠ MÀU DÀY 0.45mm COVERED BY COLOR SHEET 0.45mm THK",
+     "xy": [
+      879,
+      610
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      36,
+      1055
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      75,
+      1072
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1. Mặt đứng 7 - 1 của Nhà xưởng cách Nhà xe văn phòng 23.4m > 12m nên không quy định tỉ lệ tổng diện tích các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường trục 7 - 1. 2. Mặt đứng 7 - 1 của Nhà xưởng là tường gạch 200mm GHCL REI150 và vách Tole 3. Nhà xưởng có chiều cao PCCC < 15m nên không yêu cầu ngăn cháy theo phương đứng theo điều (Đ.4.33.1 đến Đ.4.33.3 Sửa đổi 01:2023 QCVN06/2022-BXD)",
+     "xy": [
+      820,
+      1078
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": "điều 4.33.3"
+      }
+     ]
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      75,
+      1111
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      38,
+      1136
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     "điều 4.33.3"
+    ]
+   ],
+   "ghcl": [
+    "REI150"
+   ],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XƯỞNG B",
+   "agent": [
+    "m04-giao-thong"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 16,
+   "ma": null,
+   "ten": "MẶT CẮT A - A",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [
+    {
+     "chu": "MÁNG THU NƯỚC TÔN MẠ KẼM 0.5T GUTTER GALVANIZED 0.5T",
+     "xy": [
+      401,
+      366
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN MẠ MÀU DÀY 0.45mm COVERED BY COLOR SHEET 0.45mm THK",
+     "xy": [
+      1306,
+      366
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM MÁI TÔN MÀU DÀY 0.45mm ROOF TOLE SHEET 0.45mm THK",
+     "xy": [
+      645,
+      368
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TẤM MÁI TÔN MÀU DÀY 0.45mm ROOF TOLE SHEET 0.45mm THK",
+     "xy": [
+      993,
+      368
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỦA CỘT, VI KÈO THEO HỆ SỐ Am/V (ISO 834-10)",
+     "xy": [
+      899,
+      917
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ống thép Steel pipe Vữa xi măng Chống cháy Fire stop Tắc kê nỡ Anchor screw Thép tấm 2mmt Steel plate 2mmt Ống bộc ngoài Cover pipe",
+     "xy": [
+      157,
+      957
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tắc kê nở Anchor screw Vữa xi măng Chống cháy Fire stop",
+     "xy": [
+      338,
+      975
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ống bảo vệ bên ngoài (1.2mm G. I. SHEET) Pipe sleeve (1.2mm G. I. SHEET)",
+     "xy": [
+      319,
+      1059
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Ống bảo vệ bên ngoài (1.2mm G. I. SHEET) Pipe sleeve",
+     "xy": [
+      139,
+      1071
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Màu lớp phủ ngoài của sắt tấm và tường phải giống nhau Coating colour of steel plate and wall must be same",
+     "xy": [
+      258,
+      1085
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG XUYÊN TƯỜNG NGĂN CHÁY SLEEVE PIPE THROUGH R.C WALL",
+     "xy": [
+      274,
+      1117
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT ỐNG XUYÊN SÀN, TƯỜNG GẠCH",
+     "xy": [
+      71,
+      1154
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XƯỞNG B",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 17,
+   "ma": null,
+   "ten": "MẶT BẰNG THOÁT NẠN NHÀ XƯỞNG B",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      42,
+      1032
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      88,
+      1052
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      88,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      44,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "NHÀ XƯỞNG B",
+   "agent": [
+    "m07-thoat-nan"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 18,
+   "ma": null,
+   "ten": "CHI TIẾT CỬA ĐI, CỬA SỔ",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CHI TIẾT CỬA ĐI, CỬA SỔ ĐIỂN HÌNH - DOOR AND WINDOW GENERAL DETAIL",
+     "xy": [
+      76,
+      50
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LOẠI CỬA DOOR TYPE VẬT LIỆU KHUNG FRAME MATERIAL VẬT LIỆU PANO PANEL MATERIAL VỊ TRÍ LOCATION SỐ LƯỢNG QUANTITY 4",
+     "xy": [
+      61,
+      564
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LOẠI CỬA DOOR TYPE VẬT LIỆU KHUNG FRAME MATERIAL VẬT LIỆU PANO PANEL MATERIAL VỊ TRÍ LOCATION SỐ LƯỢNG QUANTITY",
+     "xy": [
+      768,
+      564
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CUỐN SHUTTER DOOR KHUNG THÉP , SƠN TĨNH ĐIỆN STEEL FRAME , ELECTROSTATIC PAINTED THÉP SƠN TĨNH ĐIỆN STEEL ELECTROSTATIC PAINTED",
+     "xy": [
+      207,
+      564
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA CUỐN SHUTTER DOOR KHUNG THÉP , SƠN TĨNH ĐIỆN STEEL FRAME , ELECTROSTATIC PAINTED THÉP SƠN TĨNH ĐIỆN STEEL ELECTROSTATIC PAINTED",
+     "xy": [
+      914,
+      564
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA ĐI 1 CÁNH CHỐNG CHÁY THỜI GIAN 60 PHÚT, CƠ CẤU TỰ ĐỘNG ĐÓNG SINGLE SWING 60 MINUTES FIREPROOF DOOR",
+     "xy": [
+      208,
+      1041
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LAM GIÓ NHÔM ALUMINIUM LOUVER KHUNG NHÔM SƠN TĨNH ĐIỆN ALU. FRAME ELECTROSTATIC PAINTING NHÔM SƠN TĨNH ĐIỆN - LƯỚI NGĂN CÔN TRÙNG ALU ELECTROSTATIC PAINTED - INSECT SCREEN",
+     "xy": [
+      1151,
+      1041
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LOẠI CỬA DOOR TYPE VẬT LIỆU KHUNG FRAME MATERIAL VẬT LIỆU PANO PANEL MATERIAL VỊ TRÍ LOCATION SỐ LƯỢNG QUANTITY",
+     "xy": [
+      61,
+      1042
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LOẠI CỬA DOOR TYPE VẬT LIỆU KHUNG FRAME MATERIAL VẬT LIỆU PANO PANEL MATERIAL VỊ TRÍ LOCATION SỐ LƯỢNG QUANTITY",
+     "xy": [
+      532,
+      1042
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CỬA SỔ 4 CÁNH TRƯỢT 4 SWING SLIDE WINDOW KHUNG NHÔM SƠN TĨNH ĐIỆN ALU. FRAME ELECTROSTATIC PAINTING KÍNH TRONG DÀY 5mm - LƯỚI NGĂN CÔN TRÙNG THK. 5mm CLEAR GLASS - INSECT SCREEN",
+     "xy": [
+      680,
+      1042
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "LOẠI CỬA DOOR TYPE VẬT LIỆU KHUNG FRAME MATERIAL VẬT LIỆU PANO PANEL MATERIAL VỊ TRÍ LOCATION SỐ LƯỢNG QUANTITY",
+     "xy": [
+      1003,
+      1042
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KHUNG THÉP SƠN TĨNH ĐIỆN STEEL ELECTROSTATIC PAINTED FRAME EPS DÀY 50mm EPS THK.50mm",
+     "xy": [
+      208,
+      1064
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "NHÀ XƯỞNG B",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 19,
+   "loai": "bia",
+   "phan": "CÔNG TRÌNH PHỤ TRỢ",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 20,
+   "ma": null,
+   "ten": "MẶT BẰNG NHÀ BẢO DƯỠNG KHUÔN 02",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      39,
+      1035
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      83,
+      1054
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      83,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      41,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CÔNG TRÌNH PHỤ TRỢ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 21,
+   "ma": null,
+   "ten": "MẶT ĐỨNG & MẶT CẮT NHÀ BẢO DƯỠNG KHUÔN 02",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_cat",
+   "ghi_chu": [
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      39,
+      1035
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      83,
+      1054
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      83,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      41,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CÔNG TRÌNH PHỤ TRỢ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 22,
+   "ma": null,
+   "ten": "MẶT BẰNG TRỆT & MÁI PHÒNG BẢO TRÌ",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      39,
+      1035
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      83,
+      1054
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      83,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      41,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CÔNG TRÌNH PHỤ TRỢ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 23,
+   "ma": null,
+   "ten": "MẶT BẰNG ĐỨNG & CẮT PHÒNG BẢO TRÌ",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      39,
+      1035
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      83,
+      1054
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      83,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      41,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CÔNG TRÌNH PHỤ TRỢ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 24,
+   "ma": null,
+   "ten": "MẶT BẰNG BẰNG, ĐỨNG TRẠM KHÍ NÉN P3",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "MÁI TÔN DÀY 0.45mm ROOF TOLE SHEET 0.45nn THK",
+     "xy": [
+      336,
+      56
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÁI TÔN DÀY 0.45mm ROOF TOLE SHEET 0.45nn THK",
+     "xy": [
+      717,
+      56
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      39,
+      1035
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      83,
+      1054
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      83,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      41,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D1"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CÔNG TRÌNH PHỤ TRỢ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 25,
+   "ma": null,
+   "ten": "MẶT BẰNG BẰNG, ĐỨNG NHÀ RÁC",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "VÁCH ỐP TÔN DÀY 0.45mm TOLE SHEET - 0.45mm THK",
+     "xy": [
+      864,
+      45
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN DÀY 0.45mm TOLE SHEET - 0.45mm THK",
+     "xy": [
+      1153,
+      45
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "VÁCH ỐP TÔN DÀY 0.45mm TOLE SHEET - 0.45mm THK",
+     "xy": [
+      406,
+      56
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÁI TÔN DÀY 0.45mm ROOF TOLE SHEET - 0.45mm THK",
+     "xy": [
+      440,
+      378
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÁI TÔN DÀY 0.45mm ROOF TOLE SHEET - 0.45mm THK",
+     "xy": [
+      857,
+      389
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      39,
+      1035
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      83,
+      1054
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      83,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      41,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CÔNG TRÌNH PHỤ TRỢ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 26,
+   "ma": null,
+   "ten": "MẶT BẰNG BẰNG, CẮT BỂ NƯỚC NGẦM 03",
+   "hang_muc": "KIẾN TRÚC",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      39,
+      1035
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      83,
+      1054
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      83,
+      1098
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      41,
+      1126
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "W05"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CÔNG TRÌNH PHỤ TRỢ",
+   "agent": [
+    "chung"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 27,
+   "loai": "bia",
+   "phan": "ĐÈN EX - EM",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 28,
+   "ma": "EXEM-01",
+   "ten": "MẶT BẰNG BỐ TRÍ ĐÈN EX - EM NHÀ XƯỞNG B",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "CHIỀU CAO CỦA BIỂN BÁO AN TOÀN TƯƠNG ỨNG VỚI KHOẢNG CÁCH NHÌN PHẢI ĐƯỢC XÁC ĐỊNH QUA CÔNG THỨC SAU",
+     "xy": [
+      1074,
+      20
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "h - chiều cao nhỏ nhất của biển báo an toàn(m) l - khoảng cách quan sát(m) z- hằng số lấy bằng 200 nếu chiếu sáng bên trong,",
+     "xy": [
+      1094,
+      261
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ĐÈN EXIT: - CÓ NGUỒN ĐIỆN DỰ PHÒNG ĐẢM BẢO SÁNG 2H KHI CÓ SỰ CỐ CHÁY VÀ KHI MẤT ĐIỆN. - ĐÈN SÁNG LIÊN TỤC KHI Ở TRẠNG THÁI BÌNH THƯỜNG. - ĐÈN CÓ CHỮ EXIT CHỈ DẪN THOÁT NẠN VÀ MŨI TÊN CHỈ DẪN. - SẠC TỰ ĐỘNG, TỰ NGẮT SẠC KHI ĐẦY. ĐÈN SỰ CỐ: - CÓ NGUỒN ĐIỆN DỰ PHÒNG ĐẢM BẢO SÁNG 2H KHI CÓ SỰ CỐ CHÁY VÀ KHI MẤT ĐIỆN. - Ở TRẠNG THÁI BÌNH THƯỜNG ĐÈN Ở TRẠNG THÁI SẠC ĐIỆN. - SẠC TỰ ĐỘNG, TỰ NGẮT SẠC KHI ĐẦY. - ĐÈN CÓ NÚT TEST SÁNG. ĐÈN CHIẾU SÁNG CÓ ĐỘ SÁNG KHÔNG NHỎ HƠN 10LUX.",
+     "xy": [
+      1035,
+      558
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      861,
+      1024
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      908,
+      1045
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      908,
+      1092
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      863,
+      1122
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 29,
+   "ma": "EXEM-02",
+   "ten": "THUYẾT MINH HỆ THỐNG ĐÈN EX - EM",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "Sửa đổi 01:2023 QCVN 06:2022/BXD & QCVN 06:2022/BXD: Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình. TCVN 3890:2023: Phương tiện phòng cháy và chữa cháy cho nhà và công trình - Trang bị, bố trí, kiểm tra, bảo dưỡng. TCVN 13456:2022 Phòng cháy chữa cháy – Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn – Yêu cầu thiết kế, lắp đặt.",
+     "xy": [
+      210,
+      71
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 3890:2023",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Việc thiết kế, lắp đặt phương tiện chiếu sáng và chỉ dẫn thoát nạn phải tuân thủ các yêu cầu, quy định của các quy chuẩn, tiêu chuẩn, quy phạm hiện hành. Đèn chiếu sáng sự cố và biển báo an toàn có nguồn điện dự phòng phải đảm bảo thời gian hoạt động ổn định liên tục tối thiểu 120 phút khi có sự cố cháy, nổ Biển báo an toàn phải được nhìn thẫy rõ ràng các chứ \"LỐI RA\" hoặc chữ \"EXIT\", ký hiệu hình hóc khác thích hợp. Màu sắc của biển báo an toàn: màu nền là màu xanh lá",
+     "xy": [
+      211,
+      152
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "cây, màu chữ và ký hiệu hình học là màu trắng.",
+     "xy": [
+      166,
+      215
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phương tiện chiếu sáng sự cố và chỉ dẫn thoát nạn phải được lựa chọn, trang bị phù hợp để đảm bảo tầm nhìn thoát nạn, chỉ thị rõ ràng đường thoát nạn, cảnh báo những",
+     "xy": [
+      210,
+      236
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "vị trí có nguy cơ gây nguy hiểm trong quá trình thoát nạn và nhận biết các vị trí trang bị các thiết bị phòng cháy và chữa cháy. Thuyết minh lắp đặt: Lắp đặt đèn chiếu sáng sự cố và biển báo an toàn phải phù hợp theo quy định của TCVN 7722-2-22:2013. Khi lắp đặt đèn chiếu sáng sự cố và biển báo an toàn trong nhà, công trình, hạng mục công trình có nguy hiểm về nổ hoặc độ ẩm cao phải sử dụng các đèn, biển báo có khả năng chống nổ hoặc chống ẩm",
+     "xy": [
+      167,
+      258
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 7722-2-22:2013",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Phương tiện chiếu sáng sự cố: Đối với chiếu sáng sự cố đường thoát nạn: có chiều rộng đến 2m, thì độ rọi trung bình theo phương nằm ngang trên mặt sàn dọc theo tâm của đường thoát nạn phải lớn",
+     "xy": [
+      210,
+      342
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "hơn hoặc bằng 1 lux và ở dải giữa với chiều rộng lớn hơn hoặc bằng một nửa chiều rộng của đường thoát nạn phải được chiếu sáng tối thiểu 50% giá trị đó.",
+     "xy": [
+      166,
+      384
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Đối với chiếu sáng sự cố gian phòng: Độ rọi trung bình theo phương nằm ngang không được nhỏ hơn 0.5 lux tại mặt sàn tại mọi điểm lõi của khoảng trống, không bao gồm",
+     "xy": [
+      211,
+      405
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tỉ lệ giữa độ rọi lớn nhất và độ rọi nhỏ nhất dọc theo đường tâm của đường thoát nạn và chiếu sáng khoảng trống ( chống hoảng loạn) không được lớn hơn 40:1 Phải đảm bảo giảm thiểu nguy cơ gây lóa tạm thời bằng cách hạn chế cường độ sáng ở giai đoạn phát sáng cực đại trong chế độ hoạt động khi có sự cố của mỗi đèn",
+     "xy": [
+      210,
+      447
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": ". Đối với việc chiếu sáng đường thoát nạn theo phương ngang so với mặt sàn,chiếu sáng gian phòng và chiếu sáng các phương tiện phòng cháy và chữa cháy, cường độ",
+     "xy": [
+      209,
+      510
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "chiếu sáng của các đèn trong phạm vi góc chiếu từ 60° đến 90° không được vượt quá giá trị quy định tại Bảng 1.",
+     "xy": [
+      166,
+      531
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": ". Đối với đường thoát nạn khác, cường độ chiếu sáng của các đèn không được vượt quá giá trị tại Bảng 1 ở bất kỳ góc chiếu nào. Các tủ trung tâm báo cháy, nút nhấn báo cháy và phương tiện chữa cháy phải được chiếu sáng đầy đủ để có thể dễ dàng xác định vị trí và nếu không nằm trên đường",
+     "xy": [
+      209,
+      552
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "thoát nạn hoặc không nằm trong một phạm vi khoảng trống thì phải được chiếu sáng tối thiểu 5 Lux tại mặt sàn.",
+     "xy": [
+      167,
+      594
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Chỉ dẫn thoát nạn: Biển báo chỉ dẫn lối thoát nạn ở tất cả các lối dẫn tới đường thoát nạn. Trường hợp biển chỉ dẫn thoát nạn bị che khuất tầm nhìn cần trang bị bổ sung biển chỉ hướng. Vị trí lắp đặt giữa các biển báo an toàn ( không bao gồm biển báo an toàn tầm thấp ) phải đảm bảo khoảng cách không lớn hơn 25m. Biển báo an toàn ( không bao gồm",
+     "xy": [
+      210,
+      615
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "biển báo an toàn tầm thấp) phải lắp đặt ở độ cao từ 2-2.7m so với sàn hoàn thiện hoặc ngay trên đầu cửa có chiều cao lớn hơn 2.7m. Các khu vực không được bảo vệ chống khói khiến khói tích tụ thì biển báo an toàn nên được gắn thấp hơn trần nhà tối thiểu 0.5m. Không được lắp biển báo an toàn được chiếu sáng từ bên ngoài Tại các tầng có diện tích lớn hơn 1000m2 hoặc có từ 2 lối thoát nạn trở lên phải có sơ đồ chỉ dẫn thoát nạn.Nằm tại độ cao 1.5±0.2m so với mặt sàn hoàn thiện.",
+     "xy": [
+      166,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Sơ đồ chỉ dẫn thoát nạn gồm 2 phần: phần bằng chữ và phần ký hiệu hình học. Sơ đồ chỉ dẫn thoát nạn phải được niêm yết tại vị trí dễ nhận biết, dễ thấy và vị trí có người",
+     "xy": [
+      210,
+      741
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "+ + Kích thước của sơ đồ chỉ dẫn thoát nạn phụ thuộc vào đặc tính, tính chất hoạt động, diện tích của tầng, phòng; phương án thoát nạn nhưng không được nhỏ hơn: 600x400 mm - đối với sơ đồ chỉ dẫn tại tầng; 400x300 mm - đối với sơ đồ chỉ dẫn tại phòng.",
+     "xy": [
+      177,
+      780
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Phần ký hiệu hình học bao gồm mặt bằng tầng, lối ra chỉ hướng thoát nạn, cầu thang bộ, vị trí sơ đồ tại tầng , vị trí đặt phương tiện, thiết bị chữa cháy và cứu nạn, cứu hộ. Phần chỉ dẫn bằng chứ gồm nội dung và trình tự xử lý khi có cháy.",
+     "xy": [
+      210,
+      780
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Tính toán độ rọi cho đường thoát nạn tầng 1 (theo phương pháp chung đều): E=ksd*Φ/S Trong đó: Φ: tổng quang thông của 10 bộ đèn thoát nạn 10w =10*10*100=10.000 (lm) S: là tổng diện tích lối thoát nạn = 1601,7m2 Ksd: Chọn hệ số sử dụng là 0,4 QTTSP < Q tối thiểu + Vậy: E=0,4*10.000/820 = 12, 19 (lux) - Trong đó: H : chiều cao nhỏ nhất cho phép của biển báo an toàn L : khoảng cách quan sát (m), căn cứ bản vẽ chọn khoảng cách bất lợi nhất là 85m Z: Vậy: H=L/Z=30/200=0.15m. Thiết kế chọn đèn biển báo thoát nạn có chiều cao là 202, chiều dài là 370.",
+     "xy": [
+      182,
+      893
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Tính toán độ chói lóa : L= Φ/Φ/Steradian Trong đó: L: Độ chói lóa của đèn Φ: quang thông của 1 bộ đèn thoát nạn 10w =10*100=1.000 (lm) Steradian: đèn lắp trên tường có góc steradian là 1/2 hình cầu, vậy Steradian = 2Π + Vậy: L = 1000/(2Π) = 159cd Căn cứ điều 5.1 TCVN 13456:2022 bảng 1, lắp đặt đèn chiều sáng sự cố ở cao độ 2.6m có độ chói lóa cho phép là 900cd. Vậy phương án thiết kế đèn chiếu sáng sự cố phù hợp TCVN 13456:2022",
+     "xy": [
+      697,
+      894
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": "điều 5.1"
+      },
+      {
+       "van_ban": "TCVN 13456:2022",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "Tại các vị trí bình chửa cháy + tủ chữa cháy bằng nước + nút nhấn, bố trí đèn chiếu sáng sự cố trực tiếp tại các vị trí này có độ rọi trung bình như tính toán ở trên, cụ thể là 13 lux . Đèn chỉ dẫn thoát nạn",
+     "xy": [
+      967,
+      899
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán chiều cao nhỏ nhất cho phép của biển báo an toàn: H= L/Z",
+     "xy": [
+      224,
+      1026
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "hằng số, trong đó Z=200 áp dụng cho các biển báo nhìn từ bên trong",
+     "xy": [
+      224,
+      1103
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "TCVN 13456:2022",
+     ""
+    ],
+    [
+     "TCVN 13456:2022",
+     "điều 5.1"
+    ],
+    [
+     "TCVN 3890:2023",
+     ""
+    ],
+    [
+     "TCVN 7722-2-22:2013",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 30,
+   "ma": "EXEM-03",
+   "ten": "CHI TIẾT LẮP ĐẶT HỆ THỐNG ĐÈN EX - EM",
+   "hang_muc": "ĐÈN EX - EM",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "+ Sơ đồ chỉ dẫn thoát nạn gồm 2 phần: phần chỉ dẫn bằng chữvà phần ký hiệu hình học. + Sơ đồ chỉ dẫn thoát nạn phải được niêm yết ở vị trí dễ nhận biết, dễ thấy và vị trí có người thường xuyên qua lại. + Phần ký hiệu hình học bao gồm mặt bằng các tầng, cầu thang bộ, vị trí sơ đồ tại tầng, vị trí đặt phương tiện, thiết bị chữa cháy và cứu nạn, cứu hộ (ký hiệu phù hợp với quy định tại TCVN 4879:1989 và TCVN 5053;1990).",
+     "xy": [
+      1128,
+      382
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TCVN 4879:1989",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐÈN EXIT + ĐÈN SỰ CỐ TẠI CỬA THOÁT NẠN",
+     "xy": [
+      134,
+      580
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT ĐÈN EXIT 2 MẶT MŨI TÊN CHỈ HƯỚNG",
+     "xy": [
+      720,
+      584
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "TCVN 4879:1989",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 31,
+   "ma": "CC-01",
+   "ten": "THUYẾT MINH HỆ THỐNG CHỮA CHÁY",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "1. HỆ THỐNG CẤP NƯỚC CHỮA CHÁY ĐƯỢC THIẾT KẾ THEO - QUY CHUẨN QCVN 06:2022/BXD \" QUY CHUẨN KỸ THUẬT QUỐC GIA VỀ AN TOÀN CHÁY CHO NHÀ VÀ CÔNG TRÌNH\". - SỬA ĐỔI 1:2023 QCVN 06:2022/BXD \" QUY CHUẨN KỸ THUẬT QUỐC GIA VỀ AN TOÀN CHÁY CHO NHÀ VÀ CÔNG TRÌNH\". - TCVN 6379:2024 THIẾT BỊ CHỮA CHÁY - TRỤ NƯỚC CHỮA CHÁY - YÊU CẦU KỸ THUẬT. - QCVN 10:2025/BCA: QUY CHUẨN QUỐC GIA VỀ TRANG BỊ, BỐ VÀ CÔNG TRÌNH - TIÊU CHUẨN TCVN 5740:2023 \" PHƯƠNG TIỆN PHÒNG CHÁY CHỮA CHÁY – VÒI ĐẤY CHỮA CHÁY\". 2. YÊU CẦU VỚI ĐƯỜNG ỐNG - ĐƯỜNG ỐNG CỦA HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG CÓ THỂ BẰNG ỐNG THÉP TRÁNG KẼM. - CÁC ĐƯỜNG ỐNG CẤP MẠNG VÒNG (TRONG NHÀ VÀ NGOÀI NHÀ) CHIA THÀNH CÁC PHẦN ĐỂ SỬA CHỮA BẰNG CÁC VAN KHÓA; SỐ LƯỢNG BỘ ĐIỀU KHIỂN TRONG MỘT PHẦN KHÔNG QUÁ BA; KHI TÍNH TOÁN THỦY LỰC CỦA ĐƯỜNG ỐNG KHÔNG CẦN TÍNH ĐẾN VIỆC NGẮT CÁC PHẦN SỬA CHỮA CỦA MẠNG VÒNG; ĐƯỜNG KÍNH CỦA ĐƯỜNG ỐNG MẠNG VÒNG KHÔNG ĐƯỢC NHỎ HƠN ĐƯỜNG KÍNH CỦA ỐNG CẤP CHO CÁC BỘ ĐIỀU KHIỂN. - VAN XẢ KHÍ Ở ĐIỂM TRÊN CÙNG CỦA MẠNG ĐƯỜNG ỐNG CHỮA CHÁY BẰNG NƯỚC ĐỂ GIẢI PHÓNG KHÔNG KHÍ TRONG ĐƯỜNG ỐNG; - VAN VỚI ĐỒNG HỒ ĐO ÁP SUẤT ĐỂ KIỂM SOÁT ÁP SUẤT TRƯỚC ĐẦU PHUN CHỦ ĐẠO. - KHÔNG ĐƯỢC PHÉP LẮP ĐẶT CÁC VAN KHÓA TRÊN ĐƯỜNG ỐNG CHÍNH VÀ PHÂN PHỐI, TRỪ CÁC TRƯỜNG HỢP ĐƯỢC QUY ĐỊNH TRONG TIÊU CHUẨN NÀY - CÁC VAN KHÓA ĐƯỢC LẮP ĐẶT TRÊN ĐƯỜNG ỐNG CẤP VÀO MÁY BƠM CHỮA CHÁY, TRÊN ĐƯỜNG ỐNG CUNG CẤP VÀ ĐƯỜNG ỐNG CHÍNH PHẢI CÓ KHẢ NĂNG GIÁM SÁT TRỰC QUAN VÀ TỰ ĐỘNG VỀ TRẠNG THÁI ĐÓNG-MỞ CỦA CHÚNG. - CHO PHÉP BỐ TRÍ TRƯỚC CÔNG TẮC DÒNG CHẢY - CÁC VAN KHÓA TRÊN ĐƯỜNG ỐNG LÀ VAN CỔNG TY NỔI. 3. HỆ THỐNG HỌNG NƯỚC CHỮA CHÁY TRONG NHÀ + LƯU LƯỢNG NƯỚC CHỮA CHÁY XÁC ĐỊNH THEO BẢNG H5 QCVN 10:2025/BCA + SỐ TIA NƯỚC CHỮA CHÁY: 1 TIA + CHIỀU CAO TIA NƯỚC ĐẶC: 6M + CHIỀU CAO LẮP ĐẶT HỌNG: CÁC HỌNG NƯỚC CHỮA CHÁY ĐƯỢC LẮP ĐẶT SAO CHO MIỆNG HỌNG NẰM Ở ĐỘ CAO TỪ 1.2M ± 0.15M SO VỚI MẶT SÀN VÀ ĐẶT TRONG CÁC TỦ CHỮA CHÁY CÓ LỖ THÔNG GIÓ, ĐƯỢC DÁN NIÊM PHONG. + VỊ TRÍ BỐ TRÍ HỌNG NƯỚC: HỌNG NƯỚC CHỮA CHÁY BÊN TRONG NHÀ ĐƯỢC LẮP ĐẶT TẠI CÁC LỐI VÀO PHÍA TRONG HÀNH LANG (Ở NƠI KHÔNG CÓ NGUY CƠ NƯỚC BỊ ĐÓNG BĂNG) CỦA CÁC BUỒNG THANG (TRỪ CÁC BUỒNG THANG KHÔNG NHIỄM KHÓI), TẠI CÁC SẢNH, HÀNH LANG, LỐI ĐI VÀ NHỮNG CHỖ DỄ TIẾP CẬN KHÁC, KHI ĐÓ VIỆC BỐ TRÍ KHÔNG GÂY CẢN TRỞ CÁC HOẠT ĐỘNG THOÁT NẠN. + HỌNG TIẾP NƯỚC VÀO: CÓ TRANG BỊ 1 HỌNG CHỜ LẮP ĐẶT BÊN NGOÀI NHÀ VỚI KÍCH THƯỚC DN50 CHO 2 HỌNG. - TỦ CHỮA CHÁY VÁCH TƯỜNG - 1 HỌNG SỬ DỤNG CHO NHÀ XƯỞNG BAO GỒM: + 02 CUỘN VÒI CHỮA CHÁY DN50 (20M/1CUỘN) + 01 LĂNG PHUN NƯỚC d =13mm + 01 HỌNG CHỜ VAN CHỮA CHÁY DN50 + 01 KHỚP NỐI DN50 4. ĐƯỜNG ỐNG - ĐƯỜNG ỐNG SAU KHI LẮP ĐẶT XONG PHẢI ĐƯỢC THỬ ÁP LỰC ( ÁP LỰC 12KG/CM2). ỐNG ĐI NỔI SỬ DỤNG ỐNG THÉP MẠ KẼM NHÚNG NÓNG CHO ỐNG DN65 TRỞ XUỐNG KẾT NỐI REN, TRÊN DN65 SỬ DỤNG ỐNG THÉP ĐEN KẾT NỐI HÀN. - PHÂN CHIA ĐƯỜNG ỐNG CHÍNH: CÁC ĐƯỜNG ỐNG CẤP NƯỚC MẠNG VÒNG CHIA THÀNH CÁC PHẦN ĐỂ SỬA CHỮA BẰNG CÁC VAN KHÓA TY NỔI. - BỐ TRÍ VAN XẢ KHÍ VÀ ĐỒNG HỒ ÁP SUẤT TRÊN ĐƯỜNG ỐNG Ở VỊ TRÍ XA NHẤT TRONG MẠNG VÒNG. - MÀU SẮC NHẬN DẠNG HOẶC CHỈ THỊ CỦA CÁC ĐƯỜNG ỐNG KIM LOẠI: - TẤT CẢ CÁC ĐƯỜNG ỐNG CHỮA CHÁY TỰ ĐỘNG PHẢI CÓ KÝ HIỆU SỐ DỌC THEO MẠNG ĐƯỜNG ỐNG. 5. TỦ ĐIỀU KHIỂN MÁY BƠM NƯỚC CHỮA CHÁY - ĐẢM BẢO SAO CHO CÓ THỂ KHỞI ĐỘNG MÁY BƠM TỪ KHI Ở TRẠNG THÁI DỪNG ĐẾN MỨC ĐẦY TẢI VỚI THỜI GIAN KHÔNG LỚN HƠN 30 GIÂY TỪ KHI NHẬN ĐƯỢC TÍN HIỆU KHỞI ĐỘNG MÁY BƠM. - TẤT CẢ CÁC THIẾT BỊ CỦA TỦ ĐIỀU KHIỂN ĐƯỢC BỐ TRÍ TRÊN VỎ TỦ BẰNG KIM LOẠI, SƠN MÀU ĐỎ. CÁC THIẾT BỊ ĐƯỢC GẮN TRÊN TỦ CHẮC CHẮN NHƯNG VẪN PHẢI ĐẢM BẢO KHẢ NĂNG THÁO, LẮP VÀ THAY THẾ ĐƯỢC DỄ DÀNG. TỦ ĐIỀU KHIỂN LẮP ĐẶT NGOÀI TRỜI HAY Ở MÔI TRƯỜNG ĐẶC BIỆT CÓ CẤP BẢO VỆ PHÙ HỢP. TẤT CẢ CÁC THIẾT BỊ ĐIỆN CỦA TỦ PHÙ HỢP VỚI VIỆC SỬ DỤNG Ở MÔI TRƯỜNG LẮP ĐẶT, ĐỘ ẨM LÀM VIỆC DANH ĐỊNH LÀ 95%. 6. HỆ THỐNG BƠM CHỮA CHÁY - CỤM BƠM PCCC HIỆN HỮU BAO GỒM: + 1 BƠM ĐIỆN HIỆN HỮU Q= 65 L/s, H= 70 m + 1 BƠM DIESEL HIỆN HỮU Q= 65 L/s, H= 70 m + 1 BƠM BÙ ÁP HIỆN HỮU Q= 5 m3/h, H= 80 m - THỜI GIAN KHỞI ĐỘNG CỦA BƠM CHỮA CHÁY Ở CHẾ ĐỘ TỰ ĐỘNG HOẶC BẰNG TAY < =30 GIÂY. THỜI GIAN PHỤC HỒI NƯỚC CHỮA CHÁY <24 GIỜ - BƠM CHỮA CHÁY VÀ BỘ ĐIỀU KHIỂN ĐƯỢC SƠN MÀU ĐỎ",
+     "xy": [
+      482,
+      80
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 06:2022",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 6379:2024",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": null
+      },
+      {
+       "van_ban": "TCVN 5740:2023",
+       "dieu": null
+      },
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng h5"
+      }
+     ]
+    },
+    {
+     "chu": "ỆN PHÒNG CHÁY, CHỮA CHÁY, CỨU NẠN, CỨU HỘ CHO NHÀ",
+     "xy": [
+      865,
+      124
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "8. TRANG BỊ PHƯƠNG TIỆN CHỮA CHÁY BAN ĐẦU * BÌNH CHỮA CHÁY XÁCH TAY - TÍNH TOÁN DỰA TRÊN BẢNG D.1 TCVN 7435-2, BẢNG 2 QCVN 10:2025/BCA + ĐẶC TÍNH CỦA LOẠI ĐÁM CHÁY LÀ CHẤT CHÁY RẮN + LỰA CHỌN BÌNH CHỮA CHÁY CÓ CHẤT CHỮA CHÁY BẰNG BỘT ABC + LOẠI NGUY HIỂM THẤP, CÔNG SUẤT BÌNH CHỮA CHÁY NHỎ NHẤT 4-A*, KHOẢNG CÁCH DI CHUYỂN LỚN NHẤT TỚI BÌNH CHỮA CHÁY 20M, DIỆN TÍCH BẢO VỆ LỚN NHẤT CỦA 1 BÌNH CHỮA CHÁY 200M2. - BÌNH CHỮA CHÁY ĐƯỢC BỐ TRÍ THEO THIẾT KẾ, Ở VỊ TRÍ DỄ THẤY, DỄ LẤY VÀ CÓ MÀU ĐỎ, TRƯỜNG HỢP KHÓ NHẬN BIẾT CÓ THỂ SỬ DỤNG CÁC CHỈ DẪN VỊ TRÍ VÀ THEO CÁC QUY ĐỊNH TẠI ĐIỀU 5 TCVN 7435-1. KHÔNG ĐỂ BÌNH CHỮA CHÁY TẬP TRUNG MỘT CHỖ TRỪ TRƯỜNG HỢP ĐỂ TRONG KHO DỰ TRỮ. - BÌNH CHỮA CHÁY LUÔN SẴN SÀNG ĐỂ SỬ DỤNG NGAY LẬP TỨC VÀ ĐƯỢC BỐ TRÍ TẠI: + NƠI MÀ NHỮNG NGƯỜI THEO ĐƯỜNG THOÁT NẠN SẼ DỄ DÀNG NHÌN THẤY CHÚNG; + PHÙ HỢP NHẤT, GẦN LỐI RA VÀO PHÒNG, CẦU THANG, HÀNH LANG VÀ LỐI ĐI; + Ở CÁC VỊ TRÍ TƯƠNG TỰ TRÊN MỖI TẦNG, NƠI CÁC TẦNG CÓ CẤU TRÚC GIỐNG NHAU. - KHÔNG ĐẶT CÁC BÌNH CHỮA CHÁY Ở CÁC KHU VỰC, VỊ TRÍ SAU: + KHI ĐÁM CHÁY TIỀM ẨN CÓ THỂ NGĂN CẢN VIỆC TIẾP CẬN CHÚNG; + GẦN CÁC THIẾT BỊ SINH NHIỆT MÀ CÓ THỂ LÀM ẢNH HƯỞNG CHẤT LƯỢNG, HIỆU QUẢ CỦA BÌNH CHỮA CHÁY; + Ở NHỮNG VỊ TRÍ KHUẤT SAU CỬA RA VÀO, TRONG TỦ KHÔNG QUAN SÁT ĐƯỢC BÌNH CHỮA CHÁY HOẶC HỐC SÂU; + NƠI CHÚNG CÓ THỂ GÂY CẢN TRỞ LỐI THOÁT NẠN; + Ở CÁC VỊ TRÍ TRONG PHÒNG HOẶC HÀNH LANG CÁCH XA LỐI RA TRỪ TRƯỜNG HỢP CẦN THIẾT ĐỐI VỚI NGUY HIỂM CHÁY; + NƠI CHÚNG CÓ THỂ BỊ HỎNG DO CÁC HOẠT ĐỘNG THƯỜNG NGÀY. - SỐ LƯỢNG BÌNH CHỮA CHÁY DỰ TRỮ KHÔNG ÍT HƠN 10% TỔNG SỐ BÌNH THEO TÍNH TOÁN ĐỂ TRANG BỊ THAY THẾ KHI CẦN THIẾT.",
+     "xy": [
+      477,
+      791
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "* DỤNG CỤ PHÁ DỠ THÔ SƠ, PHƯƠNG TIỆN PHÒNG CHÁY, CHỮA CHÁY VÀ CỨU NẠN, CỨU HỘ TRANG BỊ CHO 01 ĐỘI PHÒNG CHÁY VÀ CHỮA CHÁY CƠ SỞ (BAN HÀNH KÈM THEO THÔNG TƯ SỐ 150/2020/TT-BCA, NGÀY 31/12/2020 CỦA BỘ TRƯỞNG BỘ CÔNG AN) - TRANG BỊ 1 BỘ DỤNG CỤ PHÁ DỠ THÔ SƠ ĐẶT NGAY LỐI THOÁT NẠN BÊN TRONG NHÀ BẢO VỆ GỒM: + 01 RÌU CỨU NẠN (TRỌNG LƯỢNG 2 KG, CÁN DÀI 90 CM, CHẤT LIỆU THÉP CACBON CƯỜNG ĐỘ CAO); + 01 XÀ BENG (MỘT ĐẦU NHỌN, MỘT ĐẦU DẸT, DÀI 100 CM); + 01 BÚA TẠ (THÉP CACBON CƯỜNG ĐỘ CAO, NẶNG 5KG, CÁN DÀI 50 CM); + 01 KÌM CỘNG LỰC (DÀI 60 CM, TẢI CẮT 60 KG).",
+     "xy": [
+      477,
+      1082
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "TT 150/2020",
+       "dieu": null
+      }
+     ]
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 06:2022",
+     ""
+    ],
+    [
+     "QCVN 10:2025",
+     ""
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ],
+    [
+     "QCVN 10:2025",
+     "bảng h5"
+    ],
+    [
+     "TCVN 5740:2023",
+     ""
+    ],
+    [
+     "TCVN 6379:2024",
+     ""
+    ],
+    [
+     "TT 150/2020",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "ĐÈN EX - EM",
+   "agent": [
+    "m12-chua-chay",
+    "m14-den-su-co"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 32,
+   "loai": "bia",
+   "phan": "CHỮA CHÁY",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 33,
+   "ma": "CC-02",
+   "ten": "MẶT BẰNG CHỮA CHÁY TỔNG THỂ",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KẾT NỐI ĐƯỜNG ỐNG CHỮA CHÁY HIỆN HỮU",
+     "xy": [
+      932,
+      238
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Cụm bơm chữa cháy hiện hữu gồm: 1 bơm điện 65 L/s, H=70mcn 1 bơm Diesel 65 L/s, H=70mcn 1 Bơm bù áp 5 M3/h, H= 80 mcn",
+     "xy": [
+      41,
+      707
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      963,
+      1052
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      1003,
+      1070
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: - Nhà xưởng cơ khí hạng sản xuất D nằm trong KCN Mỹ Phước 3. - Nhà xưởng cơ khí hạng sản xuất D không thuộc diện phải trang bị hệ thống chữa cháy ngoài nhà theo phụ lục C QCVN 10:2025/BCA",
+     "xy": [
+      95,
+      1091
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": null
+      }
+     ]
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      1003,
+      1110
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      965,
+      1135
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 10:2025",
+     ""
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 34,
+   "ma": "CC-03",
+   "ten": "MẶT BẰNG CHỮA CHÁY NHÀ XƯỞNG B",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "mat_bang",
+   "ghi_chu": [
+    {
+     "chu": "KẾT NỐI ĐƯỜNG ỐNG CHỮA CHÁY HIỆN HỮU",
+     "xy": [
+      93,
+      86
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BẢNG TÍNH TOÁN BÌNH CHỮA CHÁY XÁCH TAY:",
+     "xy": [
+      1106,
+      499
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "Tính toán dựa trên bảng D.1 TCVN 7435-2, Bảng 2 QCVN 10:2025/BCA",
+     "xy": [
+      1014,
+      525
+     ],
+     "trich_dan": [
+      {
+       "van_ban": "QCVN 10:2025",
+       "dieu": "bảng 2"
+      }
+     ]
+    },
+    {
+     "chu": "TỦ CHỮA CHÁY VÁCH TƯỜNG ( TỦ 02 CUỘN VÒI: 40M)",
+     "xy": [
+      1265,
+      653
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Chiều cao tia nước đặc của tủ chữa cháy vách tường là 6m. - Áp suất tại họng nước chữa cháy vách tường không vượt quá 0.45Mpa - 1 Tủ chữa cháy vách tường ( Tủ 2 cuộn vòi : 40m) bao gồm: + 1 Van góc DN50. + 1 Lăng phun D13. + 2 cuộn vòi chữa cháy DN50.",
+     "xy": [
+      858,
+      701
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘI QUY TIÊU LỆNH PCCC",
+     "xy": [
+      1265,
+      773
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT TỦ CHỮA CHÁY VÁCH TƯỜNG",
+     "xy": [
+      1248,
+      985
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT HỌNG TIẾP NƯỚC CỨU HỎA",
+     "xy": [
+      946,
+      987
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      854,
+      1023
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      902,
+      1044
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      902,
+      1092
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      856,
+      1122
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [
+    [
+     "QCVN 10:2025",
+     "bảng 2"
+    ]
+   ],
+   "ghcl": [],
+   "ky_hieu": [
+    "D13",
+    "D60",
+    "D76",
+    "D90"
+   ],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 35,
+   "ma": "CC-03",
+   "ten": "SƠ ĐỒ KHÔNG GIAN HỆ THỐNG CHỮA CHÁY",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "Cụm bơm chữa cháy hiện hữu gồm: 1 Bơm điện 65 L/s, H = 70 mcn. 1 Bơm Diesel 65 L/s, H = 70 mcn. 1 Bơm bù áp 5M3/h, H = 80 mcn. Cụm bơm hiện hữu đã được thẩm duyệt số 74/TD-PCCC-P2 ngày 20/01/2017 và đã được nghiệm thu số 169/CSPC&CC-P2 ngày 17/05/2018",
+     "xy": [
+      39,
+      25
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT TỦ CHỮA CHÁY VÁCH TƯỜNG",
+     "xy": [
+      1252,
+      196
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT HỌNG TIẾP NƯỚC CỨU HỎA",
+     "xy": [
+      950,
+      198
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1/ Nội dung xin điều chỉnh thẩm duyệt khoanh mây",
+     "xy": [
+      858,
+      235
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh mặt bằng và diện tích của nhà xưởng B từ 4666.9m2 thành 4615m2. - Điều chỉnh toàn bộ hệ thống PCCC phù hợp với thay đổi nêu trên.",
+     "xy": [
+      906,
+      255
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Điều chỉnh các hạng mục công trình phụ trợ.",
+     "xy": [
+      906,
+      303
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "2/ Các phần còn lại giữ nguyên theo GCN TD số 74/TD-PCCC-P2 ngày 20/01/2017 và nghiệm thu số 169/CSPCCC&CC-P2 ngày 17/05/2018; GCN TD số 760/TD-PCCC ngày 05/09/2024 do Phòng cảnh sát PCCC và CNCH Công an Thành phố Hồ Chí Minh cấp.",
+     "xy": [
+      860,
+      333
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "KẾT NỐI ĐƯỜNG ỐNG CHỮA CHÁY HIỆN HỮU",
+     "xy": [
+      234,
+      582
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỦ CHỮA CHÁY VÁCH TƯỜNG ( TỦ 02 CUỘN VÒI: 40M)",
+     "xy": [
+      566,
+      995
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ : - Chiều cao tia nước đặc của tủ chữa cháy vách tường là 6m. - Áp suất tại họng nước chữa cháy vách tường không vượt quá 0.45Mpa - 1 Tủ chữa cháy vách tường ( Tủ 2 cuộn vòi : 40m) bao gồm: + 1 Van góc DN50. + 1 Lăng phun D13. + 2 cuộn vòi chữa cháy DN50.",
+     "xy": [
+      49,
+      1056
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH CHỮA CHÁY ABC-8KG BẢNG NỘI QUY TIÊU LỆNH PCCC",
+     "xy": [
+      566,
+      1148
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "D13",
+    "D60",
+    "D76",
+    "D90"
+   ],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 36,
+   "ma": "CC-04",
+   "ten": "TÍNH TOÁN THỦY LỰC HỆ THỐNG CHỮA CHÁY",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "FIRE PUMP LEVEL GROUND BƠM CHỮA CHÁY LEGEND",
+     "xy": [
+      48,
+      809
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "MÁY BƠM ĐỘNG CƠ ĐIỆN ( HIỆN HỮU) MÁY BƠM ĐỘNG CƠ DIESEL ( HIỆN HỮU) MÁY BƠM BÙ ÁP ( HIỆN HỮU)",
+     "xy": [
+      128,
+      924
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 37,
+   "ma": "CC-05",
+   "ten": "CHI TIẾT LẮP ĐẶT 01",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "ĐIỆN THOẠI SOÁ ĐỘI CHỮA CHÁY CHUYÊN NGHIỆP",
+     "xy": [
+      1106,
+      366
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "DÙNG BÌNH CHỮA CHÁY CÁT VÀ NƯỚC ĐỂ DẬP TẮT",
+     "xy": [
+      1012,
+      367
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TỦ THÉP SƠN TĨNH ĐIỆN MÀU ĐỎ CÓ MẶT KÍNH.",
+     "xy": [
+      1055,
+      643
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "1- XÀ BENG (MỘT ĐẦU NHỌN, MỘT ĐẦU DẸT, DÀI 100CM) 2- RÌU CỨU NẠN (TRỌNG LƯỢNG 2KG, CÁN DÀI 90CM, CHẤT LIỆU THÉP CACBON CƯỜNG ĐỘ CAO) 3- KÌM CỘNG LỰC (DÀI 60CM, TẢI CẮT 60KG) 4- BÚA TẠ (THÉP CACBON CƯỜNG ĐỘ CAO, NẶNG 5KG, CÁN DÀI 50CM)",
+     "xy": [
+      386,
+      1018
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT TỦ DỤNG CỤ PHÁ DỠ THÔ SƠ",
+     "xy": [
+      511,
+      1133
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 38,
+   "ma": "CC-06",
+   "ten": "CHI TIẾT LẮP ĐẶT 02",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BƠM CHỮA CHÁY ĐIỆN",
+     "xy": [
+      174,
+      578
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT CỤM BƠM CHỮA CHÁY",
+     "xy": [
+      930,
+      582
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "BÌNH NHIÊN LIỆU GẮN TRÊN THÂN BƠM, V = 100 lít",
+     "xy": [
+      694,
+      849
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ẮC QUY 24VDC DUY TRÌ NGUỒN GIÁM SÁT VÀ KÍCH HOẠT CÔNG TẮC ÁP SUẤT TRONG TRƯỜNG HỢP NGUỒN ĐIỆN LƯỚI BỊ NGẮT.",
+     "xy": [
+      717,
+      975
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT BƠM CHỮA CHÁY DIEZEL",
+     "xy": [
+      278,
+      1072
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 39,
+   "ma": "CC-07",
+   "ten": "CHI TIẾT LẮP ĐẶT 03",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "GIÁ ĐỰNG BÌNH CHỮA CHÁY XÁCH TAY GỒM: BRACKET OF FIRE EXTINGUISHERS:",
+     "xy": [
+      119,
+      232
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- 02 BÌNH XÁCH TAY CHỮA CHÁY BỘT ABC 8KG 02 PORTABLE FIRE EXTINGUISHER POWDER ABC 8KG",
+     "xy": [
+      119,
+      260
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "ỐNG XUYÊN SÀN / TƯỜNG VÀ GIÁ ĐỠ ỐNG",
+     "xy": [
+      843,
+      561
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHIỀU CAO TIA NƯỚC ĐẶC CỦA TỦ CHỮA CHÁY VÁCH TƯỜNG LÀ 6M",
+     "xy": [
+      768,
+      589
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "TY RĂNG M10: ỐNG DN32 ĐẾN DN50 TY RĂNG M12: ỐNG DN80 TRỞ LÊN",
+     "xy": [
+      319,
+      678
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỌNG TIẾP NƯỚC 2 CỬA DN65 CÓ VAN 1 CHIỀU DN65 NIÊM PHONG MỞ",
+     "xy": [
+      1041,
+      685
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT TỦ CHỮA CHÁY FHC1",
+     "xy": [
+      620,
+      926
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỌNG TIẾP NƯỚC VÀ HỌNG LẤY NƯỚC 2 CỬA DN65",
+     "xy": [
+      1073,
+      944
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 40,
+   "ma": "CC-08",
+   "ten": "CHI TIẾT LẮP ĐẶT 04",
+   "hang_muc": "CHỮA CHÁY",
+   "loai": "chi_tiet",
+   "ghi_chu": [
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT DẠNG ỐNG ĐI XUYÊN TRẦN- TƯỜNG",
+     "xy": [
+      823,
+      517
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "GHI CHÚ: * Ống chữa cháy đi ngầm được xử lý chống gỉ bằng 2 lớp như sau: - Lớp 1: Sơn chống gỉ lót bằng Premcote Primer bao quanh ống. - Lớp 2: Quấn băng chống gỉ bằng Premcote 101 bao quanh ống. * Lưu ý: - Quấn lớp 2 chồng mí 15% - Lớp sơn dày 0.1mm và lớp băng quấn dày 1.0mm",
+     "xy": [
+      47,
+      853
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CHỮA CHÁY",
+   "agent": [
+    "m12-chua-chay"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 41,
+   "loai": "bia",
+   "phan": "CHỐNG SÉT",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 42,
+   "ma": "CS-01",
+   "ten": "MẶT BẰNG CHỐNG SÉT TỔNG THỂ",
+   "hang_muc": "CHỐNG SÉT",
+   "loai": "mat_bang",
+   "ghi_chu": [],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phong": [],
+   "phan": "CHỐNG SÉT",
+   "agent": [
+    "m16-chong-set"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 43,
+   "ma": "CS-02",
+   "ten": "THUYẾT MINH HỆ THỐNG CHỐNG SÉT",
+   "hang_muc": "CHỐNG SÉT",
+   "loai": "thuyet_minh",
+   "ghi_chu": [
+    {
+     "chu": "THANH ĐỒNG L250-W60-H5 BUSBAR Cu - L250-W60-H5 CÁP ĐỒNG TRẦN 50mm² CABLE Cu - 50mm²",
+     "xy": [
+      429,
+      113
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG NỐI ĐẤT CHO HỆ THỐNG ĐIỆN R < 4 Ohm",
+     "xy": [
+      781,
+      637
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "HỆ THỐNG NỐI ĐẤT CHO HỆ THỐNG ĐIỆN R < 4 Ohm",
+     "xy": [
+      781,
+      637
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "THUYẾT MINH - Hệ thống chống sét được thiết kế theo TVN 9385-2012 - Kim thu sét: Sử dụng kim thu sét có bán kính bảo vệ Rp = 113m, được lắp trên bộ đế cao hơn mái nhà 5m. - Cọc tiếp đất: + Loại cọc thép mạ đồng Ø16 x 2400 mm. + Độ sâu chôn cọc - 20m so với mặt đất hoàn thiện. - Cáp thoát sét: Sử dụng cáp đồng trần M50mm² luồn trong ống PVC làm cáp thoát sét. - Các vị trí liên kết giữa cáp và cọc tiếp đất được hàn bằng phương pháp hàn cadweld. - Điện trở nối đất: Trị số điện trở nối đất tuân theo các tiêu chuẩn sau: + TCXD 46-2007: Chống sét cho công trình xây dựng - Hướng dẫn thiết kế, kiểm tra và bảo trì hệ thống. + TCVN 4756-1989: Quy phạm nối đất và nối không các thiết bị điện. + Hệ thống nối đất các thiết bị điện tử: R < 1 Ohm. + Hệ thống nối đất làm việc: R < 4 Ohm. + Hệ thống nối đất chống sét: R < 10 Ohm.",
+     "xy": [
+      346,
+      721
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁP THOÁT SÉT 50mm2 ĐI TRONG ỐNG PVC",
+     "xy": [
+      1008,
+      766
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CÁP ĐỒNG TRẦN 50MM² ĐI TRONG ỐNG PVC",
+     "xy": [
+      1005,
+      833
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "công thực hiện khoan giếng hoặc xử lý bằng hóa chất để đảm bảo trị số điện trở theo yêu cầu. - Hàng năm thực hiện kiểm tra bảo trì.",
+     "xy": [
+      346,
+      1043
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LIÊN KẾT KIM THU SÉT, RP = 70m",
+     "xy": [
+      1219,
+      1073
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "CHI TIẾT LẮP ĐẶT HỆ THỐNG TIẾP ĐỊA CHỐNG SÉT",
+     "xy": [
+      874,
+      1076
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [
+    "W60"
+   ],
+   "cao_pccc_m": [],
+   "phan": "CHỐNG SÉT",
+   "agent": [
+    "m16-chong-set"
+   ],
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 44,
+   "loai": "bia",
+   "phan": "CẤP ĐIỆN",
+   "file": "tep_1.pdf"
+  },
+  {
+   "trang": 45,
+   "ma": null,
+   "ten": "SƠ ĐỒ NGUYÊN LÍ CẤP ĐIỆN PCCC",
+   "hang_muc": "CẤP ĐIỆN",
+   "loai": "so_do",
+   "ghi_chu": [
+    {
+     "chu": "Ghi chú yêu cầu về cắt điện khi có xảy ra sự cố cháy, nổ : - Tín hiệu của hệ thống báo cháy tự động điều khiển nguồn điện lưới tự động dừng cấp điện cho các hệ thống điện sinh hoạt, phụ tải và duy trì nguồn điện cho các hệ thống phòng cháy, chữa cháy hoạt động.",
+     "xy": [
+      42,
+      126
+     ],
+     "trich_dan": []
+    },
+    {
+     "chu": "- Dây dẫn và cáp cấp điện cho các phụ tải phục vụ công tác PCCC khi xảy ra hỏa hoạn phải dùng dây dẫn và cáp điện có lớp vỏ là vật liệu chống cháy. - Hệ thống điện được thiết kế theo TCVN 9206-2016, TCVN 2622 - 1995, TCVN 9207 - 2012, QCVN 06-2022/BXD và Sửa đổi 1-2023 - Khi có tín hiệu báo cháy, ngắt điện sinh hoạt thì hệ thống phòng cháy chữa cháy vẫn hoạt động bình thường. - Các tủ trung tâm báo cháy sử dụng 1 nguồn điện chính từ lưới điện, 01 nguồn dự phòng từ ắc quy đảm bảo hoạt động 24 giờ khi không có cháy và 1giờ khi có cháy. - Hệ thống bơm : Sử dụng 01 bơm điện sử dụng nguồn điện từ lưới điện, 01 máy bơm Diesel (dự phòng)",
+     "xy": [
+      236,
+      1081
+     ],
+     "trich_dan": []
+    }
+   ],
+   "trich_dan": [],
+   "ghcl": [],
+   "ky_hieu": [],
+   "cao_pccc_m": [],
+   "phan": "CẤP ĐIỆN",
+   "agent": [
+    "m13-cap-dien"
+   ],
+   "file": "tep_1.pdf"
+  }
+ ]
+}
