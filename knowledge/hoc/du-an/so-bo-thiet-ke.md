@@ -45,3 +45,18 @@ Chỉ áp dụng bài có "Trạng thái: da_duyet". Ghi bởi agent pccc-hoc-du
 - Trạng thái: da_duyet
 - Căn cứ: QCVN 06:2022/BXD 3.4.4, 3.4.2, 3.4.3
 - Nội dung: Nhận diện trên mặt bằng: ở chiếu nghỉ, thay vì một ô phẳng có các nét chéo tỏa từ đầu tường giữa hai vế (hình chữ V hoặc rẻ quạt) thì đó là bậc chéo. Bậc chéo trên đường thoát nạn chỉ cho phép khi nhà F1.2, F1.3, F2–F5 cao PCCC ≤ 15 m và ≤ 15 người/tầng (tối đa 3 bậc tại góc xoay ≤ 90°), hoặc thang cong đủ điều kiện 3.4.4 với chiều cao thang ≤ 9 m. Nhà cao > 15 m: thang có bậc chéo KHÔNG tính là lối thoát nạn; chỉ là thang di chuyển nội bộ, vẫn để trong buồng thang ngăn cháy. Lỗi đã mắc: BTB2 vẽ hai vế 900 + 100 + 900, chiếu nghỉ dưới có bậc chéo, tư vấn ghi "2 vế thẳng, không rẽ quạt" và tính BTB2 là lối thoát nạn. Người thiết kế đúng khi ghi BTB2 "không thoát nạn" và thêm thang ngoài nhà. Khi đếm lối: phóng to từng chiếu nghỉ trước khi tính thang.
+
+### Công năng đọc từ nhãn phòng trên mặt bằng, không đọc tên bản vẽ; số tầng theo cốt sàn (2026-10-31, nguồn: Roy PPS, người dùng sửa)
+- Trạng thái: da_duyet
+- Căn cứ: người dùng dạy 2026-10-31; TCVN 13967:2024 Điều 9; QCVN 06:2022/BXD 3.5
+- Nội dung: Công năng lấy từ nhãn phòng ghi trên mặt bằng, không lấy từ khung tên hay tên file (lỗi: ghi "nhà ở" vì tên bản vẽ). Số tầng đếm theo cốt sàn và đánh số tầng; ít tờ bản vẽ thì suy ra và ghi "ước lượng", không suy từ nhãn WC. Lửng của nhà ở riêng lẻ kết hợp ≤ 65 % sàn tầng dưới thì không tính; các nhà khác tính 1 tầng (F1–F4 chỉ khu kỹ thuật ≤ 10 % và ≤ 300 m² mới không tính). Chiều cao PCCC tính từ mặt đường xe chữa cháy tiếp cận tới mép dưới cửa sổ tầng trên cùng (QCVN 06 mục 3.5).
+
+### Thang rẻ quạt, bậc chéo: hai điều kiện của QCVN 06 3.4.4 và Hình A.12 (2026-10-31, nguồn: Roy PPS, người dùng sửa)
+- Trạng thái: da_duyet
+- Căn cứ: QCVN 06:2022/BXD 3.4.4; TCVN 13967:2024 Hình A.12; `knowledge/nhan-dien-thang-thoat-nan.md`
+- Nội dung: Thang rẻ quạt dùng thoát nạn khi đạt MỘT trong hai: (a) vùng A bề rộng bậc ≥ 250 mm nằm trong bản thang rộng ≥ 0,7/0,9 m, hoặc (b) ≤ 3 bậc chéo, góc ≤ 90°, cao ≤ 15 m, ≤ 15 người/tầng. Hình A.12 (dải đánh dấu mép bậc) áp dụng cho thang thoát nạn của công trình bất kỳ, không riêng nhà ở. Phải đếm bậc chéo ở chiếu nghỉ (lỗi: đếm 3 bậc thay vì 4). Thang loại 2 nối ≥ 3 tầng không tính thoát nạn trừ 3.2.1/3.2.2/3.2.6 (3.4.16).
+
+### Đối chiếu thang N1/N2/N3, hút khói hành lang, phân tán lối ra (2026-10-31, nguồn: Duy Anh, người dùng hỏi)
+- Trạng thái: da_duyet
+- Căn cứ: QCVN 06:2022/BXD 3.4.7–3.4.10, 3.2.8, Phụ lục D D.1.2
+- Nội dung: Không ghi "cần N1/N2/N3" khi chưa đối chiếu: N1 bắt buộc chỉ khi cao > 28 m; ≥ 2 tầng hầm thì N3 hoặc N2 qua khoang đệm; L1 cần lỗ sáng ≥ 1,2 m²; L2 chỉ cho phép khi cao ≤ 9 m (12 m). Hành lang > 15 m không thông gió tự nhiên phải có thoát khói (D.1.2), chỉ miễn nhà F4 ≤ 6 tầng có báo cháy khói hoặc sprinkler. Hai lối ra tầng phải phân tán ≥ ½ đường chéo (⅓ nếu sprinkler toàn nhà, tối thiểu 7 m).

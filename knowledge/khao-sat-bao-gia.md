@@ -33,10 +33,12 @@ Khi người dùng nói "tư vấn thiết kế PCCC" kèm bản vẽ: trình b�
 1. Thông tin công trình (bảng theo tầng: diện tích, công năng, nhóm F; chiều cao PCCC, khối tích, bậc chịu lửa)
 2. Thuộc diện thẩm định PCCC không (Phụ lục III NĐ 105/2025, cơ quan thẩm định; không thuộc thì thuộc diện quản lý của ai)
 3. Bãi đỗ xe chữa cháy (và đường, lối vào từ trên cao)
-4. Ngăn cháy công năng (4.5; kho, labo > 50 m², bếp đun > 10 kW mới thành F5; tầng có công năng chính ≥ 90 % thì phụ trợ không phải ngăn)
-5. Ngăn cháy phương đứng, ngang (buồng thang, giếng thang máy, hộp kỹ thuật, 4.33; sàn ngăn cháy giữa công năng ở và công cộng)
-6. Hệ thống PCCC yêu cầu (QCVN 10:2025, bể nước)
-7. Các mục khác trong bảng đối chiếu (thoát nạn: số lối, phân tán 3.2.8, loại thang, cửa, lối ra mái; khoảng cách PCCC; chống khói…)
+4. Thoát nạn (số lối, phân tán 3.2.8, loại thang N1/N2/N3 đối chiếu QCVN 06 3.4.7–3.4.10, thang rẻ quạt 3.4.4, cửa, hành lang, hút khói hành lang D.1.2, lối ra mái)
+5. Ngăn cháy: công năng (4.5; kho, labo > 50 m², bếp đun > 10 kW mới thành F5; tầng có công năng chính ≥ 90 % thì phụ trợ không phải ngăn) + phương đứng, ngang (buồng thang, giếng thang máy, hộp kỹ thuật, 4.33; sàn ngăn cháy giữa công năng ở và công cộng)
+6. Khoảng cách PCCC
+7. Hệ thống PCCC yêu cầu (QCVN 10:2025 Bảng A.1, B.1; bể nước)
+Bổ sung thêm khi thiếu mục nào trong bảng đối chiếu: bậc chịu lửa, bố trí công năng, thang máy chữa cháy, chống tụ khói, CNCH, chống sét, liên lạc, biển quảng cáo.
+(Thứ tự theo lời người dùng nói lại 31/10/2026; bản ghi 30/10 xếp "ngăn cháy" thành hai mục 4–5 và gộp thoát nạn, khoảng cách vào mục 7. Lệch thì theo người dùng.)
 Trước khi viết: chạy `python -I -X utf8 scripts/mau_giai_phap.py loc …`, tra thẻ bản vẽ mẫu cùng công năng (`knowledge/ban-ve-mau.md`), bài học `knowledge/hoc/du-an/so-bo-thiet-ke.md`. Mẫu văn phong: `ket_qua/hoang_hung_so_bo2/tu_van_thiet_ke_v3.md` (nếu máy có).
 
 ## Định dạng trả lời
